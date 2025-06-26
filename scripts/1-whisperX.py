@@ -1,9 +1,24 @@
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install"] + package.split())
+
+try:
+    import torch
+except ImportError:
+    install("torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu")
+try:
+    import whisperx
+except ImportError:
+    install("whisperx")
+
 import torch
 import whisperx
 from pathlib import Path
 
-audio_file = "Audio/15M_audio.wav"
-output_txt = "Output/transcript.txt"
+audio_file = "THS-ST/Audio/15M_audio.wav"
+output_txt = "THS-ST/Output/transcript.txt"
 output_timestamps = "Output/sentence_timestamps.txt"
 
 device = "cuda" if torch.cuda.is_available() else "cpu"

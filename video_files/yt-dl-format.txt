@@ -1,0 +1,9 @@
+D:\School\Thesis\THS-ST\Video\yt-dlp.exe -o "D:\School\Thesis\THS-ST\Video\%(title)s.%(ext)s" [LINK]
+
+//Paste in CMD
+15M Video:
+D:\School\Thesis\THS-ST\Video\yt-dlp.exe -o "D:\School\Thesis\THS-ST\Video\%(title)s.%(ext)s" https://youtu.be/aCZixBrrGrs?si=YDpiUw_9_ZA134jY
+
+31M Video:
+D:\School\Thesis\THS-ST\Video\yt-dlp.exe -o "D:\School\Thesis\THS-ST\Video\%(title)s.%(ext)s" https://www.youtube.com/watch?v=p_WjntaMORQ
+

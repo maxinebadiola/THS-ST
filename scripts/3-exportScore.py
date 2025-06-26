@@ -4,8 +4,8 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sentence_transformers import SentenceTransformer, util
 
-input_txt = "Output/transcript.txt"
-output_scores = "Output/scored_transcript.txt"
+input_txt = "THS-ST/Output/transcript.txt"
+output_scores = "THS-ST/Output/scored_transcript.txt"
 
 with open(input_txt, "r", encoding="utf-8") as f:
     transcript = f.read()
