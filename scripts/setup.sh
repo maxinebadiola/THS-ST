@@ -17,4 +17,5 @@ rm -rf ~/.cache/huggingface
 rm -rf ~/.cache/whisper
 
 apt-get clean
+apt-get update && apt-get install -y libcudnn8 libcudnn8-dev
 echo "All dependencies installed and caches cleaned."
