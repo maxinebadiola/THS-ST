@@ -14,13 +14,11 @@ import torch
 import whisperx
 from pathlib import Path
 
-audioFile = "THS-ST/audio/15M_audio.wav"
-outputTxt = "THS-ST/output/transcript.txt"
-outputTimestamps = "THS-ST/output/timestamps.txt"
+audioFile = "audio/15M_audio.wav"
+outputTxt = "output/transcript.txt"
+outputTimestamps = "output/timestamps.txt"
 
-device = "cuda"
-computeType = "float16"  # Faster, lower memory (A4000 supports this well)
-model = whisperx.load_model("large-v2", device=device, compute_type=computeType)
+model = whisperx.load_model("large-v2", device="cuda", compute_type="float16")
 
 print(f"Transcribing... ({audioFile})")
 result = model.transcribe(audioFile, language="en")
@@ -35,4 +33,4 @@ with open(outputTimestamps, "w", encoding="utf-8") as f:
     for segment in alignedResult["segments"]:
         f.write(f"[{segment['start']} --> {segment['end']}] {segment['text'].strip()}\n")
 
-print("transcript.txt and sentence_timestamps.txt created successfully.")
+print("transcript.txt and timestamps.txt created successfully.")

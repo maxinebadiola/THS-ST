@@ -2,7 +2,7 @@
 set -e
 apt-get update
 apt-get install -y python3 python3-pip ffmpeg nano
-mkdir -p THS-ST/output
+mkdir -p output
 python3 -m pip install --upgrade pip
 
 #script dependencies
