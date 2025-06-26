@@ -1,9 +1,6 @@
 import subprocess
 import sys
 
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install"] + package.split())
-
 try:
     import torch
 except ImportError:
@@ -17,25 +14,25 @@ import torch
 import whisperx
 from pathlib import Path
 
-audio_file = "THS-ST/Audio/15M_audio.wav"
-output_txt = "THS-ST/Output/transcript.txt"
-output_timestamps = "Output/sentence_timestamps.txt"
+audioFile = "THS-ST/audio/15M_audio.wav"
+outputTxt = "THS-ST/output/transcript.txt"
+outputTimestamps = "THS-ST/output/timestamps.txt"
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model = whisperx.load_model("medium", device, compute_type="float16")
+device = "cuda"
+computeType = "float16"  # Faster, lower memory (A4000 supports this well)
+model = whisperx.load_model("large-v2", device=device, compute_type=computeType)
 
-print("Transcribing...")
-result = model.transcribe(audio_file, language="en")
+print(f"Transcribing... ({audioFile})")
+result = model.transcribe(audioFile, language="en")
 
-model_a, metadata = whisperx.load_align_model(language_code="en", device=device)
-aligned_result = whisperx.align(result["segments"], model_a, metadata, audio_file, device)
+modelA, metadata = whisperx.load_align_model(language_code="en", device=device)
+alignedResult = whisperx.align(result["segments"], modelA, metadata, audioFile, device)
 
-with open(output_txt, "w", encoding="utf-8") as f:
-    for segment in aligned_result["segments"]:
-        f.write(segment["text"].strip() + "\n")
-
-with open(output_timestamps, "w", encoding="utf-8") as f:
-    for segment in aligned_result["segments"]:
+with open(outputTxt, "w", encoding="utf-8") as f:
+    fullText = " ".join(segment["text"].strip() for segment in alignedResult["segments"])
+    f.write(fullText)
+with open(outputTimestamps, "w", encoding="utf-8") as f:
+    for segment in alignedResult["segments"]:
         f.write(f"[{segment['start']} --> {segment['end']}] {segment['text'].strip()}\n")
 
-print("WhisperX transcription and alignment complete.")
+print("transcript.txt and sentence_timestamps.txt created successfully.")

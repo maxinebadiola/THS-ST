@@ -4,8 +4,8 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sentence_transformers import SentenceTransformer, util
 
-input_txt = "THS-ST/Output/transcript.txt"
-output_scores = "THS-ST/Output/scored_transcript.txt"
+input_txt = "THS-ST/output/transcript.txt"
+output_scores = "THS-ST/output/scored_transcript.txt"
 
 with open(input_txt, "r", encoding="utf-8") as f:
     transcript = f.read()
@@ -13,7 +13,7 @@ with open(input_txt, "r", encoding="utf-8") as f:
 sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', transcript)
 sentences = [s.strip() for s in sentences if s.strip()]
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-mpnet-base-v2', device='cuda') #GPU
 embeddings = model.encode(sentences, convert_to_tensor=True)
 avg_embedding = torch.mean(embeddings, dim=0)
 
@@ -24,4 +24,4 @@ with open(output_scores, "w", encoding="utf-8") as f:
     for sent, score in zip(sentences, scaled_scores):
         f.write(f"{score:.4f} {sent}\n")
 
-print("BERT scoring complete.")
+print("scored_transcript.txt created successfully.")

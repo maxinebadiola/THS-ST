@@ -1,27 +1,51 @@
-import re
-import torch
-import numpy as np
-from sklearn.preprocessing import MinMaxScaler
-from sentence_transformers import SentenceTransformer, util
+#files
+timestamps_path = "THS-ST/output/sentence_timestamps.txt"
+scores_path = "THS-ST/output/scored_transcript.txt"
+output_csv = "THS-st/output/bert_output.csv"
 
-input_txt = "THS-ST/Output/transcript.txt"
-output_scores = "THS-ST/Output/scored_transcript.txt"
+#load and clean timestamps
+with open(timestamps_path, 'r', encoding='utf-8') as f:
+    timestamp_lines = [line.strip() for line in f if line.strip()]  # Remove empty lines
 
-with open(input_txt, "r", encoding="utf-8") as f:
-    transcript = f.read()
+print(f"{len(timestamp_lines)} timestamp lines loaded")
 
-sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', transcript)
-sentences = [s.strip() for s in sentences if s.strip()]
+timestamp_data = []
+timestamp_pattern = re.compile(r'\[(.*?) --> (.*?)\] (.+)')
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
-embeddings = model.encode(sentences, convert_to_tensor=True)
-avg_embedding = torch.mean(embeddings, dim=0)
+for line in timestamp_lines:
+    match = timestamp_pattern.match(line)
+    if match:
+        start, end, text = match.groups()
+        timestamp_data.append((text.strip(), float(start), float(end)))
 
-cos_scores = util.pytorch_cos_sim(embeddings, avg_embedding.unsqueeze(0)).squeeze()
-scaled_scores = MinMaxScaler().fit_transform(cos_scores.cpu().numpy().reshape(-1, 1)).flatten()
+#load and clean bert scores
+with open(scores_path, 'r', encoding='utf-8') as f:
+    score_lines = [line.strip() for line in f if line.strip()]  # Remove empty lines
 
-with open(output_scores, "w", encoding="utf-8") as f:
-    for sent, score in zip(sentences, scaled_scores):
-        f.write(f"{score:.4f} {sent}\n")
+print(f"{len(score_lines)} scored lines loaded")
 
-print("BERT scoring complete.")
+score_data = []
+score_pattern = re.compile(r'\[Score: (.*?)\] (.+)')
+
+for line in score_lines:
+    match = score_pattern.match(line)
+    if match:
+        score, text = match.groups()
+        score_data.append((text.strip(), float(score)))
+
+#match + merge
+combined = []
+text_to_timestamp = {text: (start, end) for text, start, end in timestamp_data}
+
+for text, score in score_data:
+    if text in text_to_timestamp:
+        start, end = text_to_timestamp[text]
+        combined.append((score, start, end, text))
+
+#EXPORT to .csv
+df = pd.DataFrame(combined, columns=["score", "start", "end", "transcript"]) #values
+df.to_csv(output_csv, index=False)
+
+print(f"\Saved to {output_csv}")
+display(df.head())
+print(f"\Total rows in CSV: {len(df)}")
