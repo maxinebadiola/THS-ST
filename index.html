@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Segment Research</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Video Segment Study</h1>
+            <p>Please watch the video carefully and answer the questions that follow</p>
+        </header>
+
+        <!-- Participant Info -->
+        <div id="participant-setup" class="section">
+            <h2>Participant Information</h2>
+            <form id="participant-form">
+                <div class="form-group">
+                    <label for="participantName">Participant Name:</label>
+                    <input type="text" id="participantName" required>
+                </div>
+                <div class="form-group">
+                    <label for="participantAge">Age:</label>
+                    <input type="number" id="participantAge" min="18" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="participantGender">Gender:</label>
+                    <select id="participantGender" required>
+                        <option value="">Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Start Study</button>
+            </form>
+        </div>
+
+        <!-- Video Section (Theatre Mode as Default) -->
+        <div id="video-section" class="section theatre-mode-default" style="display: none;">
+            <div class="video-header">
+                <h2>Video: Why Was Black Saturday So Deadly?</h2>
+                <button id="proceed-to-questions" class="btn btn-primary header-proceed-btn" style="display: none;">Proceed to Questions</button>
+                <div class="header-interaction-info">
+                    <span id="interaction-count">Interactions: 0</span>
+                </div>
+            </div>
+            <div class="theatre-content">
+                <div class="theatre-video-container">
+                    <video id="main-video" controls>
+                      <!-- INSERT VIDEO PATH HERE -->
+                        <source src="Video/Why Was Black Saturday So Deadly？.mp4" type="video/mp4"> 
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="theatre-video-controls">
+                        <div class="theatre-progress-info">
+                            <span id="current-time">00:00</span> / <span id="duration">00:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="theatre-segments" id="video-segments">
+                    <!-- Segments will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Questions Section -->
+        <div id="questions-section" class="section" style="display: none;">
+            <h2>Questionnaire</h2>
+            <div id="questions-container">
+                <!-- Questions will be dynamically loaded here -->
+            </div>
+        </div>
+
+        <!-- Completion Section -->
+        <div id="completion-section" class="section" style="display: none;">
+            <h2>Study Complete</h2>
+            <p>Thank you for participating in this research study!</p>
+            <div class="completion-stats">
+                <div class="stat">
+                    <span class="stat-label">Total Time:</span>
+                    <span id="total-time">--</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Video Interactions:</span>
+                    <span id="final-interactions">--</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Questions Answered:</span>
+                    <span id="questions-answered">--</span>
+                </div>
+            </div>
+            <button id="download-data" class="btn btn-secondary">Download Data</button>
+            <button id="reset-study" class="btn btn-outline">Start New Session</button>
+        </div>
+    </div>
+
+    <!-- Admin Panel Toggle -->
+    <div class="admin-toggle">
+        <button id="admin-toggle" class="btn btn-small">Admin</button>
+    </div>
+
+    <!-- Admin Panel -->
+    <div id="admin-panel" class="admin-panel" style="display: none;">
+        <div class="admin-content">
+            <h3>Admin Dashboard</h3>
+            <div class="admin-stats">
+                <div class="admin-stat">
+                    <span class="admin-stat-label">Total Participants:</span>
+                    <span id="admin-total-participants">0</span>
+                </div>
+                <div class="admin-stat">
+                    <span class="admin-stat-label">Average Completion Time:</span>
+                    <span id="admin-avg-time">--</span>
+                </div>
+                <div class="admin-stat">
+                    <span class="admin-stat-label">Average Interactions:</span>
+                    <span id="admin-avg-interactions">--</span>
+                </div>
+            </div>
+            <button id="export-all-data" class="btn btn-primary">Export All Data</button>
+            <button id="clear-data" class="btn btn-danger">Clear All Data</button>
+            <button id="close-admin" class="btn btn-outline">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
