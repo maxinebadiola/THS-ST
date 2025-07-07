@@ -127,16 +127,6 @@ body {
     transform: translateY(-2px);
 }
 
-.btn-success {
-    background-color: #48bb78;
-    color: white;
-}
-
-.btn-success:hover {
-    background-color: #38a169;
-    transform: translateY(-2px);
-}
-
 .btn-danger {
     background-color: #f56565;
     color: white;
@@ -225,54 +215,26 @@ body {
 
 .theatre-content {
     display: flex;
-    height: 80vh;
-    min-height: 550px;
+    height: 85vh;
+    min-height: 600px;
 }
 
 .theatre-video-container {
-    flex: 5;
+    flex: 4;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #000;
-    padding: 8px;
+    padding: 4px;
     position: relative;
 }
 
 #main-video {
     width: 100%;
     height: 100%;
-    max-height: calc(80vh - 70px);
+    max-height: calc(85vh - 10px);
     object-fit: contain;
     border-radius: 4px;
-}
-
-.theatre-video-controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
-    padding: 6px 12px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 6px;
-    border: 1px solid #333;
-    width: 100%;
-    max-width: 300px;
-}
-
-.theatre-progress-info {
-    font-weight: 500;
-    color: #cbd5e1;
-    text-align: center;
-}
-
-.theatre-proceed-btn {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 300px;
-    padding: 12px 24px;
-    font-size: 1.1rem;
 }
 
 .theatre-segments {
@@ -281,8 +243,8 @@ body {
     border-left: 1px solid #334155;
     padding: 15px;
     overflow-y: auto;
-    min-width: 280px;
-    max-width: 400px;
+    min-width: 250px;
+    max-width: 320px;
 }
 
 .theatre-segments h3 {
@@ -403,6 +365,35 @@ body {
     color: #f1f5f9;
 }
 
+/* Interaction Details (dynamically added) */
+.interaction-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #334155;
+    border-radius: 8px;
+    border: 1px solid #475569;
+}
+
+.interaction-details h3 {
+    color: #f1f5f9;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.interaction-details .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.interaction-details .stat-item {
+    background: #475569;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #64748b;
+}
+
 /* Admin Panel */
 .admin-toggle {
     position: fixed;
@@ -457,7 +448,90 @@ body {
     color: #94a3b8;
 }
 
-/* Responsive Design */
+/* Stats Panel */
+.stats-toggle-btn {
+    background: #374151;
+    color: #d1d5db;
+    border: 1px solid #4b5563;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.stats-toggle-btn:hover {
+    background: #4b5563;
+    color: #f9fafb;
+    border-color: #6b7280;
+}
+
+.stats-panel {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-top: none;
+    padding: 20px;
+    margin: 0;
+    animation: slideDown 0.3s ease-out;
+}
+
+.stats-panel.slide-down {
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.stats-content h3 {
+    color: #f1f5f9;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #334155;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.stat-item {
+    background: #334155;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #475569;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.stat-item:hover {
+    background: #3f4b5f;
+    border-color: #64748b;
+}
+
+.stat-label {
+    color: #cbd5e1;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.stat-item span:last-child {
+    color: #f1f5f9;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -541,170 +615,4 @@ body {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
-}
-
-/* Theatre Mode Styles */
-.theatre-mode-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #000;
-    z-index: 9999;
-    display: flex;
-    flex-direction: column;
-}
-
-.theatre-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-bottom: 1px solid #333;
-}
-
-.theatre-header h2 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin: 0;
-}
-
-.theatre-content {
-    display: flex;
-    flex: 1;
-    height: calc(100vh - 70px);
-}
-
-.theatre-video-container {
-    flex: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000;
-    padding: 20px;
-}
-
-#theatre-video {
-    width: 100%;
-    height: 100%;
-    max-height: calc(100vh - 110px);
-    object-fit: contain;
-}
-
-.theatre-segments {
-    flex: 1;
-    background-color: #1a1a1a;
-    border-left: 1px solid #333;
-    padding: 20px;
-    overflow-y: auto;
-    max-width: 350px;
-}
-
-.theatre-segments h3 {
-    color: white;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-    font-weight: 600;
-}
-
-.theatre-segments .segment-button {
-    background-color: #2d2d2d;
-    border: 2px solid #404040;
-    color: #e2e8f0;
-    margin: 8px 0;
-    padding: 12px 16px;
-    border-radius: 6px;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-size: 0.9rem;
-}
-
-.theatre-segments .segment-button:hover {
-    background-color: #404040;
-    border-color: #525252;
-}
-
-.theatre-segments .segment-button.active {
-    background-color: #667eea;
-    border-color: #667eea;
-    color: white;
-}
-
-.theatre-video-controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-    border: 1px solid #333;
-}
-
-.theatre-progress-info,
-.theatre-interaction-info {
-    font-weight: 500;
-    color: #cbd5e1;
-}
-
-.theatre-proceed-btn {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 300px;
-}
-
-.theatre-icon {
-    font-size: 1rem;
-    margin-right: 5px;
-}
-
-/* Button Variants */
-.btn-small {
-    padding: 8px 12px;
-    font-size: 0.85rem;
-}
-
-.btn-outline {
-    background-color: transparent;
-    border: 2px solid #6366f1;
-    color: #6366f1;
-}
-
-.btn-outline:hover {
-    background-color: #6366f1;
-    color: white;
-}
-
-/* Responsive theatre mode */
-@media (max-width: 768px) {
-    .theatre-content {
-        flex-direction: column;
-    }
-    
-    .theatre-video-container {
-        flex: 2;
-        padding: 10px;
-    }
-    
-    .theatre-segments {
-        flex: 1;
-        max-width: none;
-        max-height: 200px;
-        border-left: none;
-        border-top: 1px solid #333;
-        padding: 15px;
-    }
-    
-    .theatre-header {
-        padding: 10px 15px;
-    }
-    
-    .theatre-header h2 {
-        font-size: 1rem;
-    }
 }
