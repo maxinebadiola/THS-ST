@@ -46,23 +46,65 @@
                 <button id="proceed-to-questions" class="btn btn-primary header-proceed-btn" style="display: none;">Proceed to Questions</button>
                 <div class="header-interaction-info">
                     <span id="interaction-count">Interactions: 0</span>
+                    <button id="toggle-stats" class="btn btn-small stats-toggle-btn">Show Stats</button>
                 </div>
             </div>
+            
+            <!-- Interaction Statistics Panel -->
+            <div id="stats-panel" class="stats-panel" style="display: none;">
+                <div class="stats-content">
+                    <h3>Interaction Statistics</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">Session Duration:</span>
+                            <span id="live-session-time">00:00</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Video Watch Time:</span>
+                            <span id="live-watch-time">00:00</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Total Interactions:</span>
+                            <span id="live-total-interactions">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Play Actions:</span>
+                            <span id="live-play-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Pause Actions:</span>
+                            <span id="live-pause-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Scrubbing:</span>
+                            <span id="live-seek-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Rewind Actions:</span>
+                            <span id="live-rewind-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Forward Actions:</span>
+                            <span id="live-forward-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Segment Jumps:</span>
+                            <span id="live-segment-count">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="theatre-content">
                 <div class="theatre-video-container">
                     <video id="main-video" controls>
                       <!-- INSERT VIDEO PATH HERE -->
-                        <source src="Video/Why Was Black Saturday So Deadly？.mp4" type="video/mp4"> 
+                        <source src="video/Why Was Black Saturday So Deadly.mp4" type="video/mp4"> 
                         Your browser does not support the video tag.
                     </video>
-                    <div class="theatre-video-controls">
-                        <div class="theatre-progress-info">
-                            <span id="current-time">00:00</span> / <span id="duration">00:00</span>
-                        </div>
-                    </div>
                 </div>
                 <div class="theatre-segments" id="video-segments">
-                    <!-- Segments will be dynamically added here -->
+                    <!-- SEGMENTS WILL BE LOADED HERE FROM scripts.js -->
                 </div>
             </div>
         </div>
@@ -71,7 +113,7 @@
         <div id="questions-section" class="section" style="display: none;">
             <h2>Questionnaire</h2>
             <div id="questions-container">
-                <!-- Questions will be dynamically loaded here -->
+                <!-- QUESTIONS WILL BE LOADED HERE FROM scripts.js -->
             </div>
         </div>
 

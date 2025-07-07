@@ -1,5 +1,4 @@
 let participantData = {
-    //TODO: add watch timer
     name: '',
     age: 0,
     gender: '',
@@ -8,12 +7,17 @@ let participantData = {
     videoInteractions: [],
     questionResponses: [],
     segmentInteractions: [],
-    totalInteractions: 0
-    //TODO: specific interactions
-    //Pause
-    //Play
-    //Rewind
-    //Forward
+    totalInteractions: 0,
+    // Video timing data
+    videoWatchTime: 0, //video playing
+    sessionDuration: 0, //page session
+    videoSessionStartTime: null,
+    videoSessionEndTime: null,  //SPECIFIC INTERACTIONS COUNTERS 
+        playCount: 0,
+        pauseCount: 0,
+        seekCount: 0,
+        rewindCount: 0,
+        forwardCount: 0
 };
 
 let currentQuestionIndex = 0;
@@ -21,7 +25,15 @@ let questionStartTime = null;
 let studyStartTime = null;
 let videoWatched = false;
 
-//INSERT VIDEO SEGMENTS here
+//iming variables
+let videoPlayStartTime = null;
+let totalVideoPlayTime = 0;
+let lastVideoTime = 0;
+let sessionTimer = null;
+let watchTimer = null;
+
+//INSERT VIDEO SEGMENTS here 
+//TODO: get segments via .csv or .json
 const videoSegments = [
     { name: "Introduction", start: 0, end: 30 },
     { name: "Weather Conditions", start: 30, end: 120 },
@@ -35,6 +47,7 @@ const videoSegments = [
     { name: "Lessons Learned", start: 480, end: 600 }
 ]
 //survey
+//TODO: get segments via .json
 const questions = [
     {
         id: 1,
@@ -77,6 +90,7 @@ function initializeApp() {
     document.getElementById('export-all-data').addEventListener('click', exportAllData);
     document.getElementById('clear-data').addEventListener('click', clearAllData);
     document.getElementById('reset-study').addEventListener('click', resetStudy);
+    document.getElementById('toggle-stats').addEventListener('click', toggleStatsPanel);
 
     //load stats
     updateAdminStats();
@@ -97,6 +111,10 @@ function startStudy(event) {
     document.getElementById('video-section').style.display = 'block';
     document.getElementById('video-section').classList.add('fade-in');
     
+    // Start video session timing
+    participantData.videoSessionStartTime = Date.now();
+    startSessionTimer();
+    
     // Initialize video tracking
     initializeVideoTracking();
     createVideoSegments();
@@ -105,26 +123,61 @@ function startStudy(event) {
 function initializeVideoTracking() {
     const video = document.getElementById('main-video');
     
-    // Track video events
-    const trackVideoEvent = (eventType, currentTime = null) => {
+    // Track specific video events with detailed information
+    const trackVideoEvent = (eventType, additionalData = {}) => {
+        const currentTime = video.currentTime;
         const interaction = {
             type: eventType,
             timestamp: Date.now(),
-            videoTime: currentTime || video.currentTime,
-            relativeTime: Date.now() - studyStartTime
+            videoTime: currentTime,
+            relativeTime: Date.now() - studyStartTime,
+            ...additionalData
         };
         
         participantData.videoInteractions.push(interaction);
         participantData.totalInteractions++;
+        
+        // Update specific interaction counters
+        switch(eventType) {
+            case 'play':
+                participantData.playCount++;
+                startVideoPlayTimer();
+                break;
+            case 'pause':
+                participantData.pauseCount++;
+                stopVideoPlayTimer();
+                break;
+            case 'seek':
+                participantData.seekCount++;
+                // Determine if it's rewind or forward
+                const timeDiff = currentTime - lastVideoTime;
+                if (timeDiff < -2) { // Rewound by more than 2 seconds
+                    participantData.rewindCount++;
+                    interaction.seekDirection = 'backward';
+                    interaction.seekAmount = Math.abs(timeDiff);
+                } else if (timeDiff > 2) { // Forwarded by more than 2 seconds
+                    participantData.forwardCount++;
+                    interaction.seekDirection = 'forward';
+                    interaction.seekAmount = timeDiff;
+                }
+                break;
+        }
+        
+        lastVideoTime = currentTime;
         updateInteractionCounter();
+        updateVideoTimingDisplay();
     };
 
-    // Video event listeners
+    // Video event listeners with specific tracking
     video.addEventListener('play', () => trackVideoEvent('play'));
     video.addEventListener('pause', () => trackVideoEvent('pause'));
     video.addEventListener('seeked', () => trackVideoEvent('seek'));
-    video.addEventListener('ratechange', () => trackVideoEvent('speed_change'));
-    video.addEventListener('volumechange', () => trackVideoEvent('volume_change'));
+    
+    // Track when video ends
+    video.addEventListener('ended', () => {
+        trackVideoEvent('ended');
+        stopVideoPlayTimer();
+    });
     
     // Track video progress
     video.addEventListener('timeupdate', function() {
@@ -133,7 +186,11 @@ function initializeVideoTracking() {
     });
     
     video.addEventListener('loadedmetadata', function() {
-        document.getElementById('duration').textContent = formatTime(video.duration);
+        // Video metadata loaded - duration now available if needed
+    });
+    
+    video.addEventListener('durationchange', function() {
+        // Duration changed - handle if needed
     });
 }
 
@@ -174,7 +231,7 @@ function jumpToSegment(segment, index) {
 
 function updateVideoProgress() {
     const video = document.getElementById('main-video');
-    document.getElementById('current-time').textContent = formatTime(video.currentTime);
+    // Video progress tracking - duration display removed for cleaner UI
 }
 
 function checkVideoCompletion() {
@@ -189,10 +246,19 @@ function checkVideoCompletion() {
 }
 
 function updateInteractionCounter() {
-    document.getElementById('interaction-count').textContent = `Interactions: ${participantData.totalInteractions}`;
+    updateVideoTimingDisplay();
 }
 
 function showQuestions() {
+    // Stop video timing when moving to questions
+    stopVideoPlayTimer();
+    stopSessionTimer();
+    participantData.videoSessionEndTime = Date.now();
+    participantData.sessionDuration = participantData.videoSessionEndTime - participantData.videoSessionStartTime;
+    
+    // Ensure final watch time is recorded
+    participantData.videoWatchTime = totalVideoPlayTime;
+    
     document.getElementById('video-section').style.display = 'none';
     document.getElementById('questions-section').style.display = 'block';
     document.getElementById('questions-section').classList.add('fade-in');
@@ -347,6 +413,41 @@ function updateCompletionStats() {
     document.getElementById('total-time').textContent = formatTime(totalTime / 1000);
     document.getElementById('final-interactions').textContent = participantData.totalInteractions;
     document.getElementById('questions-answered').textContent = participantData.questionResponses.length;
+    
+    // Add detailed interaction breakdown
+    const statsContainer = document.getElementById('completion-section');
+    const existingDetails = statsContainer.querySelector('.interaction-details');
+    if (!existingDetails) {
+        const detailsDiv = document.createElement('div');
+        detailsDiv.className = 'interaction-details';
+        detailsDiv.innerHTML = `
+            <h3>Detailed Interaction Summary</h3>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <strong>Video Watch Time:</strong> ${formatTime(participantData.videoWatchTime / 1000)}
+                </div>
+                <div class="stat-item">
+                    <strong>Session Duration:</strong> ${formatTime(participantData.sessionDuration / 1000)}
+                </div>
+                <div class="stat-item">
+                    <strong>Play Actions:</strong> ${participantData.playCount}
+                </div>
+                <div class="stat-item">
+                    <strong>Pause Actions:</strong> ${participantData.pauseCount}
+                </div>
+                <div class="stat-item">
+                    <strong>Scrubbing:</strong> ${participantData.seekCount}
+                </div>
+                <div class="stat-item">
+                    <strong>Rewind Actions:</strong> ${participantData.rewindCount}
+                </div>
+                <div class="stat-item">
+                    <strong>Forward Actions:</strong> ${participantData.forwardCount}
+                </div>
+            </div>
+        `;
+        statsContainer.appendChild(detailsDiv);
+    }
 }
 
 function saveParticipantData() {
@@ -369,6 +470,10 @@ function downloadParticipantData() {
 }
 
 function resetStudy() {
+    // Clear any running timers
+    stopVideoPlayTimer();
+    stopSessionTimer();
+    
     // Reset all variables
     participantData = {
         name: '',
@@ -379,13 +484,31 @@ function resetStudy() {
         videoInteractions: [],
         questionResponses: [],
         segmentInteractions: [],
-        totalInteractions: 0
+        totalInteractions: 0,
+        // Video timing data
+        videoWatchTime: 0,
+        sessionDuration: 0,
+        videoSessionStartTime: null,
+        videoSessionEndTime: null,
+        // Specific interaction counters
+        playCount: 0,
+        pauseCount: 0,
+        seekCount: 0,
+        rewindCount: 0,
+        forwardCount: 0
     };
     
     currentQuestionIndex = 0;
     questionStartTime = null;
     studyStartTime = null;
     videoWatched = false;
+    
+    // Reset video timing variables
+    videoPlayStartTime = null;
+    totalVideoPlayTime = 0;
+    lastVideoTime = 0;
+    sessionTimer = null;
+    watchTimer = null;
     
     // Reset form
     document.getElementById('participant-form').reset();
@@ -398,6 +521,16 @@ function resetStudy() {
     const video = document.getElementById('main-video');
     video.currentTime = 0;
     document.getElementById('proceed-to-questions').style.display = 'none';
+    
+    // Hide stats panel and reset button text
+    document.getElementById('stats-panel').style.display = 'none';
+    document.getElementById('toggle-stats').textContent = 'Show Stats';
+    
+    // Remove interaction details if they exist
+    const existingDetails = document.querySelector('.interaction-details');
+    if (existingDetails) {
+        existingDetails.remove();
+    }
 }
 
 // Admin functions
@@ -431,16 +564,18 @@ function updateAdminStats() {
 function exportAllData() {
     const allData = JSON.parse(localStorage.getItem('researchData') || '[]');
     
-    // Create CSV format for analysis
-    let csvContent = "Participant Name,Age,Gender,Total Time (seconds),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate\n";
+    // Create enhanced CSV format for analysis
+    let csvContent = "Participant Name,Age,Gender,Total Time (seconds),Video Watch Time (seconds),Session Duration (seconds),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count\n";
     
     allData.forEach(participant => {
         const totalTime = (new Date(participant.endTime) - new Date(participant.startTime)) / 1000;
+        const videoWatchTime = (participant.videoWatchTime || 0) / 1000;
+        const sessionDuration = (participant.sessionDuration || 0) / 1000;
         const correctAnswers = participant.questionResponses.filter(q => q.isCorrect === true).length;
         const totalAnswered = participant.questionResponses.filter(q => q.isCorrect !== null).length;
         const accuracyRate = totalAnswered > 0 ? (correctAnswers / totalAnswered * 100).toFixed(1) : 'N/A';
         
-        csvContent += `${participant.name},${participant.age},${participant.gender},${totalTime},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%\n`;
+        csvContent += `${participant.name},${participant.age},${participant.gender},${totalTime},${videoWatchTime},${sessionDuration},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}\n`;
     });
     
     // Also export detailed JSON data
@@ -469,6 +604,119 @@ function clearAllData() {
         updateAdminStats();
         alert('All data has been cleared.');
     }
+}
+
+// Video timing functions
+function startSessionTimer() {
+    if (sessionTimer) clearInterval(sessionTimer);
+    
+    sessionTimer = setInterval(() => {
+        updateVideoTimingDisplay();
+    }, 1000); // Update every second
+}
+
+function stopSessionTimer() {
+    if (sessionTimer) {
+        clearInterval(sessionTimer);
+        sessionTimer = null;
+    }
+}
+
+function startVideoPlayTimer() {
+    if (!videoPlayStartTime) {
+        videoPlayStartTime = Date.now();
+        
+        // Start watch timer that updates every second
+        if (watchTimer) clearInterval(watchTimer);
+        watchTimer = setInterval(() => {
+            if (videoPlayStartTime) {
+                const currentPlayTime = Date.now() - videoPlayStartTime;
+                participantData.videoWatchTime = totalVideoPlayTime + currentPlayTime;
+                updateVideoTimingDisplay();
+            }
+        }, 1000);
+    }
+}
+
+function stopVideoPlayTimer() {
+    if (videoPlayStartTime) {
+        const playDuration = Date.now() - videoPlayStartTime;
+        totalVideoPlayTime += playDuration;
+        participantData.videoWatchTime = totalVideoPlayTime;
+        videoPlayStartTime = null;
+        
+        // Stop watch timer
+        if (watchTimer) {
+            clearInterval(watchTimer);
+            watchTimer = null;
+        }
+    }
+}
+
+function updateVideoTimingDisplay() {
+    // Calculate current session duration
+    const sessionDuration = participantData.videoSessionStartTime ? 
+        Date.now() - participantData.videoSessionStartTime : 0;
+    
+    // Calculate current watch time (including any active play session)
+    let currentWatchTime = totalVideoPlayTime;
+    if (videoPlayStartTime) {
+        currentWatchTime += (Date.now() - videoPlayStartTime);
+    }
+    
+    const timingInfo = ` | Session: ${formatTime(sessionDuration / 1000)} | Watch: ${formatTime(currentWatchTime / 1000)}`;
+    document.getElementById('interaction-count').textContent = 
+        `Interactions: ${participantData.totalInteractions}${timingInfo}`;
+    
+    // Update live stats panel if visible
+    updateLiveStatsPanel(sessionDuration, currentWatchTime);
+}
+
+// Stats panel functions
+function toggleStatsPanel() {
+    const statsPanel = document.getElementById('stats-panel');
+    const toggleButton = document.getElementById('toggle-stats');
+    
+    if (statsPanel.style.display === 'none' || statsPanel.style.display === '') {
+        statsPanel.style.display = 'block';
+        statsPanel.classList.add('slide-down');
+        toggleButton.textContent = 'Hide Stats';
+        updateLiveStatsPanel();
+    } else {
+        statsPanel.style.display = 'none';
+        statsPanel.classList.remove('slide-down');
+        toggleButton.textContent = 'Show Stats';
+    }
+}
+
+function updateLiveStatsPanel(sessionDuration = null, currentWatchTime = null) {
+    const statsPanel = document.getElementById('stats-panel');
+    if (statsPanel.style.display === 'none') return;
+    
+    // Calculate session duration if not provided
+    if (sessionDuration === null) {
+        sessionDuration = participantData.videoSessionStartTime ? 
+            Date.now() - participantData.videoSessionStartTime : 0;
+    }
+    
+    // Calculate current watch time if not provided
+    if (currentWatchTime === null) {
+        currentWatchTime = totalVideoPlayTime;
+        if (videoPlayStartTime) {
+            currentWatchTime += (Date.now() - videoPlayStartTime);
+        }
+    }
+    
+    // Update all live stats
+    document.getElementById('live-session-time').textContent = formatTime(sessionDuration / 1000);
+    document.getElementById('live-watch-time').textContent = formatTime(currentWatchTime / 1000);
+    document.getElementById('live-total-interactions').textContent = participantData.totalInteractions;
+    document.getElementById('live-play-count').textContent = participantData.playCount;
+    document.getElementById('live-pause-count').textContent = participantData.pauseCount;
+    document.getElementById('live-seek-count').textContent = participantData.seekCount;
+    document.getElementById('live-rewind-count').textContent = participantData.rewindCount;
+    document.getElementById('live-forward-count').textContent = participantData.forwardCount;
+    document.getElementById('live-segment-count').textContent = participantData.segmentInteractions.length;
 }
 
 // Utility functions
