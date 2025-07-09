@@ -1,6 +1,16 @@
 import os
 import subprocess
+import platform
 from pathlib import Path
+
+def getYtDlpPath(videoFolder):
+    system = platform.system().lower()
+    
+    if system == "windows":
+        ytDlpPath = videoFolder / "yt-dlp.exe"
+    elif system == "linux":
+        ytDlpPath = videoFolder / "yt-dlp_linux" 
+    return ytDlpPath
 
 def addCustomVideo():
     print("\n" + "=" * 50)
@@ -14,7 +24,7 @@ def addCustomVideo():
 
     here = Path(__file__).parent
     videoFolder = here / "../video"
-    ytDlpPath = videoFolder / "yt-dlp.exe"
+    ytDlpPath = getYtDlpPath(videoFolder)
     
     try:
         print("Getting video title...")
@@ -103,10 +113,18 @@ def main():
     
     here = Path(__file__).parent
     videoFolder = here / "../video"
-    ytDlpPath = videoFolder / "yt-dlp.exe"
+    ytDlpPath = getYtDlpPath(videoFolder)
     
     if not ytDlpPath.exists():
-        print(f"ERROR: yt-dlp.exe not found at {ytDlpPath}")
+        system = platform.system().lower()
+        if system == "windows":
+            expected_name = "yt-dlp.exe"
+        elif system == "linux":
+            expected_name = "yt-dlp_linux"
+        else:
+            expected_name = "yt-dlp"
+        print(f"ERROR: {expected_name} not found at {ytDlpPath}")
+        print(f"Please download yt-dlp for {system.title()} and place it in the video folder.")
         return
     
     videoFolder.mkdir(exist_ok=True)
