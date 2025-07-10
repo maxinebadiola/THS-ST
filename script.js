@@ -126,11 +126,13 @@ function initializeVideoTracking() {
     // Track specific video events with detailed information
     const trackVideoEvent = (eventType, additionalData = {}) => {
         const currentTime = video.currentTime;
+        const currentTimestamp = Date.now();
         const interaction = {
             type: eventType,
-            timestamp: Date.now(),
+            timestamp: currentTimestamp,
+            relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
             videoTime: currentTime,
-            relativeTime: Date.now() - studyStartTime,
+            relativeTime: currentTimestamp - studyStartTime,
             ...additionalData
         };
         
@@ -212,11 +214,13 @@ function jumpToSegment(segment, index) {
     video.currentTime = segment.start;
     
     // Track segment interaction
+    const currentTimestamp = Date.now();
     const segmentInteraction = {
         segmentIndex: index,
         segmentName: segment.name,
-        timestamp: Date.now(),
-        relativeTime: Date.now() - studyStartTime
+        timestamp: currentTimestamp,
+        relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
+        relativeTime: currentTimestamp - studyStartTime
     };
     
     participantData.segmentInteractions.push(segmentInteraction);
@@ -371,13 +375,16 @@ function submitAnswer() {
     }
     
     // Store question response
+    const currentTimestamp = Date.now();
     const response = {
         questionId: question.id,
         questionType: question.type,
         answer: answer,
         isCorrect: isCorrect,
         completionTime: completionTime,
-        timestamp: Date.now()
+        completionTimeFormatted: formatTimeWithMilliseconds(completionTime),
+        timestamp: currentTimestamp,
+        relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime)
     };
     
     participantData.questionResponses.push(response);
@@ -451,14 +458,34 @@ function updateCompletionStats() {
 }
 
 function saveParticipantData() {
+    // Create a copy of participant data with formatted durations
+    const formattedData = {
+        ...participantData,
+        videoWatchTimeFormatted: formatTimeWithMilliseconds(participantData.videoWatchTime),
+        sessionDurationFormatted: formatTimeWithMilliseconds(participantData.sessionDuration),
+        // Keep original values for calculations
+        videoWatchTime: participantData.videoWatchTime,
+        sessionDuration: participantData.sessionDuration
+    };
+    
     const allData = JSON.parse(localStorage.getItem('researchData') || '[]');
-    allData.push(participantData);
+    allData.push(formattedData);
     localStorage.setItem('researchData', JSON.stringify(allData));
     updateAdminStats();
 }
 
 function downloadParticipantData() {
-    const dataStr = JSON.stringify(participantData, null, 2);
+    // Create a copy of participant data with formatted durations
+    const formattedData = {
+        ...participantData,
+        videoWatchTimeFormatted: formatTimeWithMilliseconds(participantData.videoWatchTime),
+        sessionDurationFormatted: formatTimeWithMilliseconds(participantData.sessionDuration),
+        // Keep original values for calculations
+        videoWatchTime: participantData.videoWatchTime,
+        sessionDuration: participantData.sessionDuration
+    };
+    
+    const dataStr = JSON.stringify(formattedData, null, 2);
     const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
     
     const exportFileDefaultName = `participant_${participantData.name}_${new Date().toISOString().split('T')[0]}.json`;
@@ -565,17 +592,20 @@ function exportAllData() {
     const allData = JSON.parse(localStorage.getItem('researchData') || '[]');
     
     // Create enhanced CSV format for analysis
-    let csvContent = "Participant Name,Age Range,Gender,Total Time (seconds),Video Watch Time (seconds),Session Duration (seconds),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count\n";
+    let csvContent = "Participant Name,Age Range,Gender,Total Time (seconds),Total Time (formatted),Video Watch Time (seconds),Video Watch Time (formatted),Session Duration (seconds),Session Duration (formatted),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count\n";
     
     allData.forEach(participant => {
         const totalTime = (new Date(participant.endTime) - new Date(participant.startTime)) / 1000;
+        const totalTimeFormatted = formatTimeWithMilliseconds((new Date(participant.endTime) - new Date(participant.startTime)));
         const videoWatchTime = (participant.videoWatchTime || 0) / 1000;
+        const videoWatchTimeFormatted = participant.videoWatchTimeFormatted || formatTimeWithMilliseconds(participant.videoWatchTime || 0);
         const sessionDuration = (participant.sessionDuration || 0) / 1000;
+        const sessionDurationFormatted = participant.sessionDurationFormatted || formatTimeWithMilliseconds(participant.sessionDuration || 0);
         const correctAnswers = participant.questionResponses.filter(q => q.isCorrect === true).length;
         const totalAnswered = participant.questionResponses.filter(q => q.isCorrect !== null).length;
         const accuracyRate = totalAnswered > 0 ? (correctAnswers / totalAnswered * 100).toFixed(1) : 'N/A';
         
-        csvContent += `${participant.name},${participant.ageRange || participant.age},${participant.gender},${totalTime},${videoWatchTime},${sessionDuration},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}\n`;
+        csvContent += `${participant.name},${participant.ageRange || participant.age},${participant.gender},${totalTime},${totalTimeFormatted},${videoWatchTime},${videoWatchTimeFormatted},${sessionDuration},${sessionDurationFormatted},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}\n`;
     });
     
     // Also export detailed JSON data
@@ -724,6 +754,21 @@ function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = Math.floor(seconds % 60);
     return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+}
+
+function formatTimeWithMilliseconds(milliseconds) {
+    const totalSeconds = Math.floor(milliseconds / 1000);
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+    const ms = Math.floor(milliseconds % 1000);
+    
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}.${ms.toString().padStart(3, '0')}`;
+}
+
+function formatRelativeTimestamp(timestamp, sessionStartTime) {
+    const relativeMs = timestamp - sessionStartTime;
+    return formatTimeWithMilliseconds(relativeMs);
 }
 
 // Prevent accidental page refresh during study
