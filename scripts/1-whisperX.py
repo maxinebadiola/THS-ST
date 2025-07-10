@@ -19,6 +19,12 @@ except ImportError:
 import torch
 import whisperx
 
+# Load models once at startup
+print("Loading WhisperX model...")
+model = whisperx.load_model("base", device="cuda", compute_type="float16", local_files_only=False)
+print("Loading alignment model...")
+modelA, metadata = whisperx.load_align_model(language_code="en", device="cuda")
+
 def find_audio_files(folder):
     """Find all audio files in the folder"""
     audio_files = []
@@ -26,45 +32,53 @@ def find_audio_files(folder):
         audio_files.extend(folder.glob(ext))
     return sorted(audio_files)
 
-def splitSegmentsIntoSentences(segments):
-    """Split WhisperX segments into sentences that match BERT sentence splitting"""
-    sentenceSegments = []
+def create_bert_style_sentences(full_text):
+    """Split text using the same regex as BERT script"""
+    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', full_text)
+    sentences = [s.strip() for s in sentences if s.strip()]
+    return sentences
+
+def create_transcript_with_timestamps(segments, transcript_file, timestamps_file):
+    """Create transcript and timestamps ensuring each line matches BERT processing"""
+    # First, combine all segment text
+    full_text = " ".join(segment["text"].strip() for segment in segments)
     
-    for segment in segments:
-        text = segment["text"].strip()
-        startTime = segment["start"]
-        endTime = segment["end"]
+    # Split using BERT regex to get sentences
+    bert_sentences = create_bert_style_sentences(full_text)
+    
+    # Save transcript (just the sentences joined)
+    with open(transcript_file, "w", encoding="utf-8") as f:
+        f.write(" ".join(bert_sentences))
+    
+    # Create timestamps for each BERT sentence
+    with open(timestamps_file, "w", encoding="utf-8") as f:
+        sentence_index = 0
+        segment_index = 0
+        current_sentence = bert_sentences[sentence_index] if bert_sentences else ""
+        sentence_start_time = segments[0]["start"] if segments else 0
+        accumulated_text = ""
         
-        #BERT regex
-        sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', text)
-        sentences = [s.strip() for s in sentences if s.strip()]
-        
-        if len(sentences) <= 1:
-            sentenceSegments.append(segment)
-        else:
-            # Distribute timestamps proportionally based on character count
-            totalChars = sum(len(s) for s in sentences)
-            duration = endTime - startTime
+        for segment in segments:
+            segment_text = segment["text"].strip()
+            accumulated_text += " " + segment_text if accumulated_text else segment_text
             
-            currentStart = startTime
-            for i, sentence in enumerate(sentences):
-                if i == len(sentences) - 1:
-                    # Last sentence gets remaining time
-                    sentenceEnd = endTime
+            # Check if we've completed the current sentence
+            while sentence_index < len(bert_sentences) and current_sentence in accumulated_text:
+                # Find the end time for this sentence
+                sentence_end_time = segment["end"]
+                
+                # Write the timestamp for this sentence
+                f.write(f"[{sentence_start_time:.2f} --> {sentence_end_time:.2f}] {current_sentence}\n")
+                
+                # Move to next sentence
+                sentence_index += 1
+                if sentence_index < len(bert_sentences):
+                    current_sentence = bert_sentences[sentence_index]
+                    sentence_start_time = segment["end"]  # Next sentence starts where this one ends
+                    # Remove the completed sentence from accumulated text
+                    accumulated_text = accumulated_text.replace(bert_sentences[sentence_index - 1], "", 1).strip()
                 else:
-                    # Proportional time allocation
-                    sentenceDuration = (len(sentence) / totalChars) * duration
-                    sentenceEnd = currentStart + sentenceDuration
-                
-                sentenceSegments.append({
-                    "start": currentStart,
-                    "end": sentenceEnd,
-                    "text": sentence
-                })
-                
-                currentStart = sentenceEnd
-    
-    return sentenceSegments
+                    break
 
 def create_transcript(audio_file, output_folder):
     """Create transcript from audio file using WhisperX"""
@@ -86,27 +100,14 @@ def create_transcript(audio_file, output_folder):
             return False
     
     try:
-        print("Loading WhisperX model...")
-        model = whisperx.load_model("large-v2", device="cuda", compute_type="float16")
         print("Transcribing...")
         result = model.transcribe(str(audio_file), language="en")
         
         print("Aligning timestamps...")
-        modelA, metadata = whisperx.load_align_model(language_code="en", device="cuda")
         aligned_result = whisperx.align(result["segments"], modelA, metadata, str(audio_file), "cuda")
         
-        # Split segments into sentences that match BERT processing
-        sentence_segments = split_segments_into_sentences(aligned_result["segments"])
-        
-        #save transcript
-        with open(transcript_file, "w", encoding="utf-8") as f:
-            full_text = " ".join(segment["text"].strip() for segment in sentence_segments)
-            f.write(full_text)
-        
-        #save timestamps
-        with open(timestamps_file, "w", encoding="utf-8") as f:
-            for segment in sentence_segments:
-                f.write(f"[{segment['start']:.2f} --> {segment['end']:.2f}] {segment['text'].strip()}\n")
+        # Create transcript and timestamps with BERT-matching sentences
+        create_transcript_with_timestamps(aligned_result["segments"], transcript_file, timestamps_file)
         
         print(f"✓ Saved: {transcript_name} and {timestamps_name}")
         return True
@@ -114,6 +115,39 @@ def create_transcript(audio_file, output_folder):
     except Exception as e:
         print(f"✗ Error: {e}")
         return False
+
+def parse_selection(choice, max_num):
+    """Parse user selection like '1', '1,3', '1-3', or 'all'"""
+    choice = choice.strip().lower()
+    
+    if choice == 'all':
+        return list(range(max_num))
+    
+    selected = []
+    parts = choice.split(',')
+    
+    for part in parts:
+        part = part.strip()
+        if '-' in part:
+            # Handle range like '1-3'
+            try:
+                start, end = part.split('-')
+                start_idx = int(start) - 1
+                end_idx = int(end) - 1
+                if 0 <= start_idx <= end_idx < max_num:
+                    selected.extend(range(start_idx, end_idx + 1))
+            except ValueError:
+                continue
+        else:
+            # Handle single number
+            try:
+                idx = int(part) - 1
+                if 0 <= idx < max_num:
+                    selected.append(idx)
+            except ValueError:
+                continue
+    
+    return sorted(list(set(selected)))  # Remove duplicates and sort
 
 def main():
     here = Path(__file__).parent
@@ -129,37 +163,46 @@ def main():
     if not audio_files:
         print("No audio files found")
         return
-    #found
+    
+    # Display available files
     print(f"Found {len(audio_files)} audio file(s):")
     for i, audio in enumerate(audio_files, 1):
         print(f"  {i}. {audio.name}")
     
-    #USER SELECTION
-    if len(audio_files) == 1:
-        answer = input("\nCreate transcript from this audio? (y/n): ")
-        if answer.lower() == 'y':
-            create_transcript(audio_files[0], output_folder)
-    else:
-        print(f"  {len(audio_files) + 1}. All audio files")
-        choice = input(f"\nSelect: (1-{len(audio_files) + 1}): ")
-        
-        if choice == str(len(audio_files) + 1) or choice.lower() == 'all':
-            # Process all
-            success_count = 0
-            for audio in audio_files:
-                if create_transcript(audio, output_folder):
-                    success_count += 1
-            print(f"\nDone! Created {success_count}/{len(audio_files)} transcripts")
-        else:
-            # Process specific file
-            try:
-                index = int(choice) - 1
-                if 0 <= index < len(audio_files):
-                    create_transcript(audio_files[index], output_folder)
-                else:
-                    print("Invalid number")
-            except ValueError:
-                print("Please enter a number")
+    # Get user selection
+    print("\nSelect files to process:")
+    print("  - Single file: 1")
+    print("  - Multiple files: 1,3,4")
+    print("  - Range: 1-3")
+    print("  - All files: all")
+    
+    choice = input(f"\nSelect (1-{len(audio_files)} or combinations): ").strip()
+    
+    selected_indices = parse_selection(choice, len(audio_files))
+    
+    if not selected_indices:
+        print("No valid selection made")
+        return
+    
+    # Show selected files
+    selected_files = [audio_files[i] for i in selected_indices]
+    print(f"\nSelected {len(selected_files)} file(s):")
+    for audio in selected_files:
+        print(f"  - {audio.name}")
+    
+    # Confirm processing
+    confirm = input(f"\nProcess these {len(selected_files)} file(s)? (y/n): ")
+    if confirm.lower() != 'y':
+        print("Cancelled")
+        return
+    
+    # Process selected files
+    success_count = 0
+    for audio in selected_files:
+        if create_transcript(audio, output_folder):
+            success_count += 1
+    
+    print(f"\nDone! Created {success_count}/{len(selected_files)} transcripts")
 
 if __name__ == "__main__":
     main()
