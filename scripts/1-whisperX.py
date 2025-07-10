@@ -1,5 +1,6 @@
 import subprocess
 import sys
+import re
 from pathlib import Path
 
 def install(package):
@@ -24,6 +25,46 @@ def find_audio_files(folder):
     for ext in ['*.wav', '*.mp3', '*.m4a', '*.flac']:
         audio_files.extend(folder.glob(ext))
     return sorted(audio_files)
+
+def splitSegmentsIntoSentences(segments):
+    """Split WhisperX segments into sentences that match BERT sentence splitting"""
+    sentenceSegments = []
+    
+    for segment in segments:
+        text = segment["text"].strip()
+        startTime = segment["start"]
+        endTime = segment["end"]
+        
+        #BERT regex
+        sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', text)
+        sentences = [s.strip() for s in sentences if s.strip()]
+        
+        if len(sentences) <= 1:
+            sentenceSegments.append(segment)
+        else:
+            # Distribute timestamps proportionally based on character count
+            totalChars = sum(len(s) for s in sentences)
+            duration = endTime - startTime
+            
+            currentStart = startTime
+            for i, sentence in enumerate(sentences):
+                if i == len(sentences) - 1:
+                    # Last sentence gets remaining time
+                    sentenceEnd = endTime
+                else:
+                    # Proportional time allocation
+                    sentenceDuration = (len(sentence) / totalChars) * duration
+                    sentenceEnd = currentStart + sentenceDuration
+                
+                sentenceSegments.append({
+                    "start": currentStart,
+                    "end": sentenceEnd,
+                    "text": sentence
+                })
+                
+                currentStart = sentenceEnd
+    
+    return sentenceSegments
 
 def create_transcript(audio_file, output_folder):
     """Create transcript from audio file using WhisperX"""
@@ -53,14 +94,18 @@ def create_transcript(audio_file, output_folder):
         print("Aligning timestamps...")
         modelA, metadata = whisperx.load_align_model(language_code="en", device="cuda")
         aligned_result = whisperx.align(result["segments"], modelA, metadata, str(audio_file), "cuda")
-        #save timescript
+        
+        # Split segments into sentences that match BERT processing
+        sentence_segments = split_segments_into_sentences(aligned_result["segments"])
+        
+        #save transcript
         with open(transcript_file, "w", encoding="utf-8") as f:
-            full_text = " ".join(segment["text"].strip() for segment in aligned_result["segments"])
+            full_text = " ".join(segment["text"].strip() for segment in sentence_segments)
             f.write(full_text)
         
         #save timestamps
         with open(timestamps_file, "w", encoding="utf-8") as f:
-            for segment in aligned_result["segments"]:
+            for segment in sentence_segments:
                 f.write(f"[{segment['start']:.2f} --> {segment['end']:.2f}] {segment['text'].strip()}\n")
         
         print(f"✓ Saved: {transcript_name} and {timestamps_name}")
