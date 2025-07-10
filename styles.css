@@ -752,6 +752,114 @@ body {
     font-family: inherit;
 }
 
+/*NEW: questionnaire section */
+.integrated-questions-section {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid #334155;
+    border-top: 3px solid #6366f1;
+}
+
+.questions-prompt {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #334155 0%, #475569 100%);
+    border-radius: 8px;
+    border: 1px solid #64748b;
+}
+
+.questions-prompt h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #f1f5f9;
+}
+
+.questions-prompt p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.questions-prompt p:last-of-type {
+    margin-bottom: 25px;
+}
+
+.questions-content {
+    margin-top: 20px;
+}
+
+.integrated-questions-section.fade-in {
+    animation: fadeInSlideUp 0.5s ease-out;
+}
+
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Questions Header */
+.questions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #475569;
+}
+
+.questions-header h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f1f5f9;
+    margin: 0;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.questions-toggle-btn {
+    background: #475569;
+    color: #e2e8f0;
+    border: 1px solid #64748b;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.questions-toggle-btn:hover {
+    background: #64748b;
+    border-color: #94a3b8;
+    transform: translateY(-1px);
+}
+
+/* collapsable questionnaire */
+.questions-collapsible-content {
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.3s ease, padding 0.3s ease;
+    max-height: 2000px; 
+    opacity: 1;
+}
+
+.questions-collapsible-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -814,6 +922,16 @@ body {
     
     #main-video {
         max-height: calc(50vh - 60px);
+    }
+    
+    .questions-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .questions-header h2 {
+        font-size: 1.5rem;
     }
 }
 

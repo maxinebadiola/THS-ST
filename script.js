@@ -91,7 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
 function initializeApp() {
     // Set up event listeners
     document.getElementById('participant-form').addEventListener('submit', startStudy);
-    document.getElementById('proceed-to-questions').addEventListener('click', showQuestions);
+    document.getElementById('start-questions').addEventListener('click', startIntegratedQuestions);
+    document.getElementById('toggle-questions').addEventListener('click', toggleQuestionsSection);
     document.getElementById('admin-toggle').addEventListener('click', toggleAdminPanel);
     document.getElementById('close-admin').addEventListener('click', closeAdminPanel);
     document.getElementById('download-data').addEventListener('click', downloadParticipantData);
@@ -121,6 +122,10 @@ function startStudy(event) {
     document.getElementById('participant-setup').style.display = 'none';
     document.getElementById('video-section').style.display = 'block';
     document.getElementById('video-section').classList.add('fade-in');
+    
+    // Show questions section by default (no longer requires video completion)
+    document.getElementById('integrated-questions-section').style.display = 'block';
+    document.getElementById('integrated-questions-section').classList.add('fade-in');
     
     // Start video session timing
     participantData.videoSessionStartTime = Date.now();
@@ -201,7 +206,6 @@ function initializeVideoTracking() {
     // Track video progress
     video.addEventListener('timeupdate', function() {
         updateVideoProgress();
-        checkVideoCompletion();
     });
     
     video.addEventListener('loadedmetadata', function() {
@@ -259,13 +263,22 @@ function updateVideoProgress() {
 }
 
 function checkVideoCompletion() {
-    const video = document.getElementById('main-video');
-    const watchThreshold = 0.8; // 80% of video watched
+    // No longer required - questions are available immediately
+    // This function is kept for compatibility but does nothing
+}
+
+function toggleQuestionsSection() {
+    const content = document.getElementById('questions-collapsible-content');
+    const button = document.getElementById('toggle-questions');
     
-    if (video.currentTime / video.duration >= watchThreshold && !videoWatched) {
-        videoWatched = true;
-        document.getElementById('proceed-to-questions').style.display = 'block';
-        document.getElementById('proceed-to-questions').classList.add('pulse');
+    if (content.classList.contains('collapsed')) {
+        // Expand
+        content.classList.remove('collapsed');
+        button.textContent = 'Hide Questions';
+    } else {
+        // Collapse
+        content.classList.add('collapsed');
+        button.textContent = 'Show Questions';
     }
 }
 
@@ -273,21 +286,16 @@ function updateInteractionCounter() {
     updateVideoTimingDisplay();
 }
 
-function showQuestions() {
-    // Stop video timing when moving to questions
-    stopVideoPlayTimer();
-    stopSessionTimer();
-    participantData.videoSessionEndTime = Date.now();
-    participantData.sessionDuration = participantData.videoSessionEndTime - participantData.videoSessionStartTime;
-    
-    // Ensure final watch time is recorded
-    participantData.videoWatchTime = totalVideoPlayTime;
-    
-    document.getElementById('video-section').style.display = 'none';
-    document.getElementById('questions-section').style.display = 'block';
-    document.getElementById('questions-section').classList.add('fade-in');
-    
+function startIntegratedQuestions() {
+    document.querySelector('.questions-prompt').style.display = 'none';
+    document.getElementById('questions-content').style.display = 'block';
     renderCurrentQuestion();
+}
+
+function showQuestions() {
+    //DO NOT REMOVE EVEN IF DEPRECATED
+    //questions are now are shown directly below the video (not seperate webpage)
+    startIntegratedQuestions();
 }
 
 function renderCurrentQuestion() {
@@ -422,8 +430,15 @@ function submitAnswer() {
 
 function completeStudy() {
     participantData.endTime = new Date();
+    stopVideoPlayTimer();
+    stopSessionTimer();
+    participantData.videoSessionEndTime = Date.now();
+    participantData.sessionDuration = participantData.videoSessionEndTime - participantData.videoSessionStartTime;
     
-    document.getElementById('questions-section').style.display = 'none';
+    //RECORD FINAL TIME
+    participantData.videoWatchTime = totalVideoPlayTime;
+    
+    document.getElementById('video-section').style.display = 'none';
     document.getElementById('completion-section').style.display = 'block';
     document.getElementById('completion-section').classList.add('fade-in');
     
@@ -620,13 +635,26 @@ function resetStudy() {
     
     // Show participant setup
     document.getElementById('completion-section').style.display = 'none';
+    document.getElementById('video-section').style.display = 'none';
+    document.getElementById('integrated-questions-section').style.display = 'none';
     document.getElementById('participant-setup').style.display = 'block';
+    
+    // Reset integrated questions section
+    document.querySelector('.questions-prompt').style.display = 'block';
+    document.getElementById('questions-content').style.display = 'none';
+    
+    // Reset questions section toggle state
+    const questionsContent = document.getElementById('questions-collapsible-content');
+    const questionsToggle = document.getElementById('toggle-questions');
+    if (questionsContent && questionsToggle) {
+        questionsContent.classList.remove('collapsed');
+        questionsToggle.textContent = 'Hide Questions';
+    }
     
     // Reset video
     const video = document.getElementById('main-video');
     video.currentTime = 0;
     video.playbackRate = 1.0; // Reset speed to normal
-    document.getElementById('proceed-to-questions').style.display = 'none';
     
     document.getElementById('speed-selector').value = '1';
     document.getElementById('current-speed-display').textContent = 'Current: 1x';

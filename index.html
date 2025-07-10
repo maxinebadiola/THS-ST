@@ -57,7 +57,7 @@
                         <option value="prefer-not-to-say">Prefer not to say</option>
                     </select>
                 </div>
-                <button type="submit" class="btn btn-primary">Start Study</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
 
@@ -65,7 +65,6 @@
         <div id="video-section" class="section theatre-mode-default" style="display: none;">
             <div class="video-header">
                 <h2>Video: Why Was Black Saturday So Deadly?</h2>
-                <button id="proceed-to-questions" class="btn btn-primary header-proceed-btn" style="display: none;">Proceed to Questions</button>
                 <div class="header-interaction-info">
                     <span id="interaction-count">Interactions: 0</span>
                     <button id="toggle-stats" class="btn btn-small stats-toggle-btn">Show Stats</button>
@@ -162,13 +161,29 @@
                     <!-- SEGMENTS WILL BE LOADED HERE FROM scripts.js -->
                 </div>
             </div>
-        </div>
-
-        <!-- Questions Section -->
-        <div id="questions-section" class="section" style="display: none;">
-            <h2>Questionnaire</h2>
-            <div id="questions-container">
-                <!-- QUESTIONS WILL BE LOADED HERE FROM scripts.js -->
+            
+            <!--questionnaire popup-->
+            <div id="integrated-questions-section" class="integrated-questions-section">
+                <div class="questions-header">
+                    <h2>Video Questionnaire</h2>
+                    <button id="toggle-questions" class="btn btn-small questions-toggle-btn">Hide Questions</button>
+                </div>
+                
+                <div id="questions-collapsible-content" class="questions-collapsible-content">
+                    <div class="questions-prompt">
+                        <h3>Questions Section</h3>
+                        <p>You can start answering the questions whenever you'd like.</p>
+                        <p>Click the button below to view the first question. Once you begin, the timer will start for the first question.</p>
+                        <p>You will need to answer the given question before you can proceed.</p>
+                        <button id="start-questions" class="btn btn-primary">Start</button>
+                    </div>
+                    
+                    <div id="questions-content" class="questions-content" style="display: none;">
+                        <div id="questions-container">
+                            <!-- QUESTIONS WILL BE LOADED HERE FROM scripts.js -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
