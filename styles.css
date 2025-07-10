@@ -532,6 +532,87 @@ body {
     font-size: 0.95rem;
 }
 
+/*speed controls */
+.speed-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    backdrop-filter: blur(4px);
+    z-index: 10;
+}
+
+.speed-controls label {
+    font-weight: 500;
+}
+
+.speed-controls select {
+    background: #374151;
+    color: white;
+    border: 1px solid #4b5563;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+}
+
+.speed-controls input[type="number"] {
+    background: #374151;
+    color: white;
+    border: 1px solid #4b5563;
+    border-radius: 4px;
+    padding: 4px 8px;
+    width: 80px;
+    font-size: 0.85rem;
+}
+
+.speed-controls span {
+    font-size: 0.85rem;
+    color: #d1d5db;
+}
+
+/*speed usage tracking */
+.speed-usage {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #374151;
+}
+
+.speed-usage h4 {
+    color: #e2e8f0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.speed-usage-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    border-bottom: 1px solid #2d3748;
+}
+
+.speed-usage-item:last-child {
+    border-bottom: none;
+}
+
+.speed-label {
+    font-weight: 500;
+    color: #cbd5e0;
+}
+
+.speed-duration {
+    color: #4ade80;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;

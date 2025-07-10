@@ -110,6 +110,21 @@
                             <span class="stat-label">Segment Jumps:</span>
                             <span id="live-segment-count">0</span>
                         </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Current Speed:</span>
+                            <span id="live-current-speed">1x</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Speed Changes:</span>
+                            <span id="live-speed-changes">0</span>
+                        </div>
+                    </div>
+                    
+                    <div id="speed-usage-breakdown" class="speed-usage">
+                        <h4>Speed Usage Breakdown</h4>
+                        <div id="speed-usage-list">
+                            <!-- will only load speed metrics used by user -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -121,6 +136,24 @@
                         <source src="video/Why Was Black Saturday So Deadly.mp4" type="video/mp4"> 
                         Your browser does not support the video tag.
                     </video>
+                    
+                    <!-- Playback Speed Controls -->
+                    <div class="speed-controls">
+                        <label for="speed-selector">Playback Speed:</label>
+                        <select id="speed-selector">
+                            <option value="0.5">0.5x</option>
+                            <option value="0.75">0.75x</option>
+                            <option value="1" selected>1x (Normal)</option>
+                            <option value="1.25">1.25x</option>
+                            <option value="1.5">1.5x</option>
+                            <option value="2">2x</option>
+                            <option value="custom">Custom</option>
+                        </select>
+                        <input type="number" id="custom-speed" placeholder="Custom speed" min="0.1" max="5" step="0.1" style="display: none;">
+                        <span id="current-speed-display">Current: 1x</span>
+                        <!-- FOR DEBUGGING -->
+                        <!-- <button onclick="testSpeedChange()" style="margin-left: 10px;">Test 2x</button> -->
+                    </div>
                 </div>
                 <div class="theatre-segments" id="video-segments">
                     <!-- SEGMENTS WILL BE LOADED HERE FROM scripts.js -->

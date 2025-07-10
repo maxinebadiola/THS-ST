@@ -17,7 +17,10 @@ let participantData = {
         pauseCount: 0,
         seekCount: 0,
         rewindCount: 0,
-        forwardCount: 0
+        forwardCount: 0,
+    // Playback speed tracking
+    speedChanges: [], // Track when speed was changed
+    speedUsage: {} // Track duration spent at each speed (e.g., "1": 120000, "2": 30000)
 };
 
 let currentQuestionIndex = 0;
@@ -31,6 +34,11 @@ let totalVideoPlayTime = 0;
 let lastVideoTime = 0;
 let sessionTimer = null;
 let watchTimer = null;
+
+// Playback speed tracking variables
+let currentPlaybackSpeed = 1.0;
+let speedStartTime = null;
+let lastSpeedUsageUpdate = null;
 
 //INSERT VIDEO SEGMENTS here 
 //TODO: get segments via .csv or .json
@@ -118,6 +126,12 @@ function startStudy(event) {
     // Initialize video tracking
     initializeVideoTracking();
     createVideoSegments();
+    
+    // Initialize speed controls after a slight delay to ensure elements are rendered
+    setTimeout(() => {
+        initializeSpeedControls();
+        console.log('Speed controls initialized from startStudy');
+    }, 100);
 }
 
 function initializeVideoTracking() {
@@ -194,6 +208,9 @@ function initializeVideoTracking() {
     video.addEventListener('durationchange', function() {
         // Duration changed - handle if needed
     });
+    
+    // Initialize playback speed controls
+    initializeSpeedControls();
 }
 
 function createVideoSegments() {
@@ -417,24 +434,39 @@ function completeStudy() {
 function updateCompletionStats() {
     const totalTime = participantData.endTime - participantData.startTime;
     
-    document.getElementById('total-time').textContent = formatTime(totalTime / 1000);
+    document.getElementById('total-time').textContent = formatTimeForDisplay(totalTime);
     document.getElementById('final-interactions').textContent = participantData.totalInteractions;
     document.getElementById('questions-answered').textContent = participantData.questionResponses.length;
     
-    // Add detailed interaction breakdown
+    //speed usage tracking
     const statsContainer = document.getElementById('completion-section');
     const existingDetails = statsContainer.querySelector('.interaction-details');
     if (!existingDetails) {
+        let speedUsageHtml = '';
+        const usedSpeeds = Object.keys(participantData.speedUsage || {}).filter(speed => participantData.speedUsage[speed] > 0);
+        if (usedSpeeds.length > 0) {
+            speedUsageHtml = '<h4>Speed Usage Breakdown</h4>';
+            usedSpeeds.forEach(speed => {
+                const duration = participantData.speedUsage[speed];
+                const formattedTime = formatTimeForDisplay(duration);
+                speedUsageHtml += `
+                    <div class="stat-item">
+                        <strong>${speed}x Speed:</strong> ${formattedTime}
+                    </div>
+                `;
+            });
+        }
+        
         const detailsDiv = document.createElement('div');
         detailsDiv.className = 'interaction-details';
         detailsDiv.innerHTML = `
             <h3>Detailed Interaction Summary</h3>
             <div class="stats-grid">
                 <div class="stat-item">
-                    <strong>Video Watch Time:</strong> ${formatTime(participantData.videoWatchTime / 1000)}
+                    <strong>Video Watch Time:</strong> ${formatTimeForDisplay(participantData.videoWatchTime)}
                 </div>
                 <div class="stat-item">
-                    <strong>Session Duration:</strong> ${formatTime(participantData.sessionDuration / 1000)}
+                    <strong>Session Duration:</strong> ${formatTimeForDisplay(participantData.sessionDuration)}
                 </div>
                 <div class="stat-item">
                     <strong>Play Actions:</strong> ${participantData.playCount}
@@ -451,19 +483,33 @@ function updateCompletionStats() {
                 <div class="stat-item">
                     <strong>Forward Actions:</strong> ${participantData.forwardCount}
                 </div>
+                <div class="stat-item">
+                    <strong>Speed Changes:</strong> ${participantData.speedChanges ? participantData.speedChanges.length : 0}
+                </div>
             </div>
+            ${speedUsageHtml}
         `;
         statsContainer.appendChild(detailsDiv);
     }
 }
 
 function saveParticipantData() {
-    // Create a copy of participant data with formatted durations
+    const speedUsageFormatted = {};
+    const speedUsageIndividual = {};
+    
+    Object.keys(participantData.speedUsage || {}).forEach(speed => {
+        if (participantData.speedUsage[speed] > 0) {
+            speedUsageFormatted[`${speed}x`] = formatTimeWithMilliseconds(participantData.speedUsage[speed]);
+            speedUsageIndividual[`${speed}xFormatted`] = formatTimeWithMilliseconds(participantData.speedUsage[speed]);
+        }
+    });
+    
     const formattedData = {
         ...participantData,
         videoWatchTimeFormatted: formatTimeWithMilliseconds(participantData.videoWatchTime),
         sessionDurationFormatted: formatTimeWithMilliseconds(participantData.sessionDuration),
-        // Keep original values for calculations
+        speedUsageFormatted: speedUsageFormatted,
+        ...speedUsageIndividual, // Add individual formatted speed times to main object
         videoWatchTime: participantData.videoWatchTime,
         sessionDuration: participantData.sessionDuration
     };
@@ -475,12 +521,24 @@ function saveParticipantData() {
 }
 
 function downloadParticipantData() {
-    // Create a copy of participant data with formatted durations
+    const speedUsageFormatted = {};
+    const speedUsageIndividual = {};
+    
+    Object.keys(participantData.speedUsage || {}).forEach(speed => {
+        if (participantData.speedUsage[speed] > 0) {
+            speedUsageFormatted[`${speed}x`] = formatTimeWithMilliseconds(participantData.speedUsage[speed]);
+            speedUsageIndividual[`${speed}xFormatted`] = formatTimeWithMilliseconds(participantData.speedUsage[speed]);
+        }
+    });
+    
+    //participant data formatted times
     const formattedData = {
         ...participantData,
         videoWatchTimeFormatted: formatTimeWithMilliseconds(participantData.videoWatchTime),
         sessionDurationFormatted: formatTimeWithMilliseconds(participantData.sessionDuration),
-        // Keep original values for calculations
+        speedUsageFormatted: speedUsageFormatted,
+        ...speedUsageIndividual, 
+        //original data
         videoWatchTime: participantData.videoWatchTime,
         sessionDuration: participantData.sessionDuration
     };
@@ -522,7 +580,10 @@ function resetStudy() {
         pauseCount: 0,
         seekCount: 0,
         rewindCount: 0,
-        forwardCount: 0
+        forwardCount: 0,
+        // Playback speed tracking
+        speedChanges: [],
+        speedUsage: {}
     };
     
     currentQuestionIndex = 0;
@@ -537,6 +598,11 @@ function resetStudy() {
     sessionTimer = null;
     watchTimer = null;
     
+    // Reset speed tracking variables
+    currentPlaybackSpeed = 1.0;
+    speedStartTime = null;
+    lastSpeedUsageUpdate = null;
+    
     // Reset form
     document.getElementById('participant-form').reset();
     
@@ -547,7 +613,12 @@ function resetStudy() {
     // Reset video
     const video = document.getElementById('main-video');
     video.currentTime = 0;
+    video.playbackRate = 1.0; // Reset speed to normal
     document.getElementById('proceed-to-questions').style.display = 'none';
+    
+    document.getElementById('speed-selector').value = '1';
+    document.getElementById('custom-speed').style.display = 'none';
+    document.getElementById('current-speed-display').textContent = 'Current: 1x';
     
     // Hide stats panel and reset button text
     document.getElementById('stats-panel').style.display = 'none';
@@ -583,7 +654,7 @@ function updateAdminStats() {
             return sum + participant.totalInteractions;
         }, 0) / allData.length;
         
-        document.getElementById('admin-avg-time').textContent = formatTime(avgTime / 1000);
+        document.getElementById('admin-avg-time').textContent = formatTimeForDisplay(avgTime);
         document.getElementById('admin-avg-interactions').textContent = Math.round(avgInteractions);
     }
 }
@@ -591,21 +662,51 @@ function updateAdminStats() {
 function exportAllData() {
     const allData = JSON.parse(localStorage.getItem('researchData') || '[]');
     
+    //find all speeds used by partcipant (eg. 1x , 1.5x, 2x etc)
+    const allSpeedsUsed = new Set();
+    allData.forEach(participant => {
+        if (participant.speedUsage) {
+            Object.keys(participant.speedUsage).forEach(speed => {
+                if (participant.speedUsage[speed] > 0) {
+                    allSpeedsUsed.add(speed);
+                }
+            });
+        }
+    });
+    const speedColumns = Array.from(allSpeedsUsed).sort((a, b) => parseFloat(a) - parseFloat(b));
+    
     // Create enhanced CSV format for analysis
-    let csvContent = "Participant Name,Age Range,Gender,Total Time (seconds),Total Time (formatted),Video Watch Time (seconds),Video Watch Time (formatted),Session Duration (seconds),Session Duration (formatted),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count\n";
+    let csvHeader = "Participant Name,Age Range,Gender,Total Time (ms),Total Time (formatted),Video Watch Time (ms),Video Watch Time (formatted),Session Duration (ms),Session Duration (formatted),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count";
+    
+    //speed usage
+    speedColumns.forEach(speed => {
+        csvHeader += `,${speed}x Speed (ms),${speed}x Speed (formatted)`;
+    });
+    csvHeader += "\n";
+    
+    let csvContent = csvHeader;
     
     allData.forEach(participant => {
-        const totalTime = (new Date(participant.endTime) - new Date(participant.startTime)) / 1000;
-        const totalTimeFormatted = formatTimeWithMilliseconds((new Date(participant.endTime) - new Date(participant.startTime)));
-        const videoWatchTime = (participant.videoWatchTime || 0) / 1000;
-        const videoWatchTimeFormatted = participant.videoWatchTimeFormatted || formatTimeWithMilliseconds(participant.videoWatchTime || 0);
-        const sessionDuration = (participant.sessionDuration || 0) / 1000;
-        const sessionDurationFormatted = participant.sessionDurationFormatted || formatTimeWithMilliseconds(participant.sessionDuration || 0);
+        const totalTime = (new Date(participant.endTime) - new Date(participant.startTime));
+        const totalTimeFormatted = formatTimeWithMilliseconds(totalTime);
+        const videoWatchTime = participant.videoWatchTime || 0;
+        const videoWatchTimeFormatted = participant.videoWatchTimeFormatted || formatTimeWithMilliseconds(videoWatchTime);
+        const sessionDuration = participant.sessionDuration || 0;
+        const sessionDurationFormatted = participant.sessionDurationFormatted || formatTimeWithMilliseconds(sessionDuration);
         const correctAnswers = participant.questionResponses.filter(q => q.isCorrect === true).length;
         const totalAnswered = participant.questionResponses.filter(q => q.isCorrect !== null).length;
         const accuracyRate = totalAnswered > 0 ? (correctAnswers / totalAnswered * 100).toFixed(1) : 'N/A';
         
-        csvContent += `${participant.name},${participant.ageRange || participant.age},${participant.gender},${totalTime},${totalTimeFormatted},${videoWatchTime},${videoWatchTimeFormatted},${sessionDuration},${sessionDurationFormatted},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}\n`;
+        let row = `${participant.name},${participant.ageRange || participant.age},${participant.gender},${totalTime},${totalTimeFormatted},${videoWatchTime},${videoWatchTimeFormatted},${sessionDuration},${sessionDurationFormatted},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}`;
+        
+        // Add speed usage data
+        speedColumns.forEach(speed => {
+            const speedUsage = (participant.speedUsage && participant.speedUsage[speed]) || 0;
+            const speedUsageFormatted = formatTimeWithMilliseconds(speedUsage);
+            row += `,${speedUsage},${speedUsageFormatted}`;
+        });
+        
+        csvContent += row + "\n";
     });
     
     // Also export detailed JSON data
@@ -655,6 +756,13 @@ function stopSessionTimer() {
 function startVideoPlayTimer() {
     if (!videoPlayStartTime) {
         videoPlayStartTime = Date.now();
+        speedStartTime = Date.now(); // Reset speed tracking when play starts
+        if (!participantData.speedUsage) {
+            participantData.speedUsage = {};
+        }
+        if (!participantData.speedUsage[currentPlaybackSpeed.toString()]) {
+            participantData.speedUsage[currentPlaybackSpeed.toString()] = 0;
+        }
         
         // Start watch timer that updates every second
         if (watchTimer) clearInterval(watchTimer);
@@ -662,6 +770,10 @@ function startVideoPlayTimer() {
             if (videoPlayStartTime) {
                 const currentPlayTime = Date.now() - videoPlayStartTime;
                 participantData.videoWatchTime = totalVideoPlayTime + currentPlayTime;
+                
+                // Update speed usage for current session
+                updateSpeedUsageForCurrentSession();
+                
                 updateVideoTimingDisplay();
             }
         }, 1000);
@@ -673,7 +785,12 @@ function stopVideoPlayTimer() {
         const playDuration = Date.now() - videoPlayStartTime;
         totalVideoPlayTime += playDuration;
         participantData.videoWatchTime = totalVideoPlayTime;
+        
+        // Update final speed usage for this play session
+        updateSpeedUsage();
+        
         videoPlayStartTime = null;
+        speedStartTime = null; // Reset speed timing when video is paused
         
         // Stop watch timer
         if (watchTimer) {
@@ -693,8 +810,8 @@ function updateVideoTimingDisplay() {
     if (videoPlayStartTime) {
         currentWatchTime += (Date.now() - videoPlayStartTime);
     }
-    
-    const timingInfo = ` | Session: ${formatTime(sessionDuration / 1000)} | Watch: ${formatTime(currentWatchTime / 1000)}`;
+
+    const timingInfo = ` | Session: ${formatTimeForDisplay(sessionDuration)} | Watch: ${formatTimeForDisplay(currentWatchTime)}`;
     document.getElementById('interaction-count').textContent = 
         `Interactions: ${participantData.totalInteractions}${timingInfo}`;
     
@@ -738,8 +855,8 @@ function updateLiveStatsPanel(sessionDuration = null, currentWatchTime = null) {
     }
     
     // Update all live stats
-    document.getElementById('live-session-time').textContent = formatTime(sessionDuration / 1000);
-    document.getElementById('live-watch-time').textContent = formatTime(currentWatchTime / 1000);
+    document.getElementById('live-session-time').textContent = formatTimeForDisplay(sessionDuration);
+    document.getElementById('live-watch-time').textContent = formatTimeForDisplay(currentWatchTime);
     document.getElementById('live-total-interactions').textContent = participantData.totalInteractions;
     document.getElementById('live-play-count').textContent = participantData.playCount;
     document.getElementById('live-pause-count').textContent = participantData.pauseCount;
@@ -747,43 +864,256 @@ function updateLiveStatsPanel(sessionDuration = null, currentWatchTime = null) {
     document.getElementById('live-rewind-count').textContent = participantData.rewindCount;
     document.getElementById('live-forward-count').textContent = participantData.forwardCount;
     document.getElementById('live-segment-count').textContent = participantData.segmentInteractions.length;
+    
+    // Update speed-related stats
+    if (document.getElementById('live-current-speed')) {
+        document.getElementById('live-current-speed').textContent = currentPlaybackSpeed + 'x';
+    }
+    if (document.getElementById('live-speed-changes')) {
+        document.getElementById('live-speed-changes').textContent = participantData.speedChanges ? participantData.speedChanges.length : 0;
+    }
+    updateSpeedUsageDisplay();
 }
 
-// Utility functions
+//playback speed controls
+function initializeSpeedControls() {
+    const video = document.getElementById('main-video');
+    const speedSelector = document.getElementById('speed-selector');
+    const customSpeedInput = document.getElementById('custom-speed');
+    const currentSpeedDisplay = document.getElementById('current-speed-display');
+    
+    // Check if elements exist
+    if (!speedSelector || !customSpeedInput || !currentSpeedDisplay) {
+        console.error('Speed control elements not found');
+        return;
+    }
+    
+    console.log('Initializing speed controls');
+    
+    // Initialize speed tracking - don't set speedStartTime until video starts playing
+    if (!participantData.speedUsage) {
+        participantData.speedUsage = {};
+    }
+    participantData.speedUsage['1'] = 0; // Start with normal speed
+    
+    speedSelector.addEventListener('change', function() {
+        console.log('Speed selector changed to:', this.value);
+        if (this.value === 'custom') {
+            customSpeedInput.style.display = 'inline-block';
+            customSpeedInput.focus();
+        } else {
+            customSpeedInput.style.display = 'none';
+            const newSpeed = parseFloat(this.value);
+            setVideoPlaybackSpeed(newSpeed);
+        }
+    });
+    
+    customSpeedInput.addEventListener('change', function() {
+        const customSpeed = parseFloat(this.value);
+        console.log('Custom speed input:', customSpeed);
+        if (customSpeed >= 0.1 && customSpeed <= 5) {
+            setVideoPlaybackSpeed(customSpeed);
+        } else {
+            alert('Please enter a speed between 0.1 and 5.0');
+            this.value = '';
+        }
+    });
+    
+    customSpeedInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            this.blur(); // Trigger change event
+        }
+    });
+}
+
+function setVideoPlaybackSpeed(newSpeed) {
+    const video = document.getElementById('main-video');
+    const currentSpeedDisplay = document.getElementById('current-speed-display');
+    
+    console.log('setVideoPlaybackSpeed called with:', newSpeed);
+    console.log('Video element:', video);
+    console.log('Current speed display element:', currentSpeedDisplay);
+    
+    if (!video) {
+        console.error('Video element not found');
+        return;
+    }
+    
+    if (!currentSpeedDisplay) {
+        console.error('Current speed display element not found');
+        return;
+    }
+    updateSpeedUsage();
+    
+    //track speed change
+    const currentTimestamp = Date.now();
+    const speedChange = {
+        type: 'speed_change',
+        timestamp: currentTimestamp,
+        relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
+        videoTime: video.currentTime,
+        previousSpeed: currentPlaybackSpeed,
+        newSpeed: newSpeed,
+        relativeTime: currentTimestamp - studyStartTime
+    };
+    
+    participantData.videoInteractions.push(speedChange);
+    
+    // Initialize speedChanges array if it doesn't exist
+    if (!participantData.speedChanges) {
+        participantData.speedChanges = [];
+    }
+    participantData.speedChanges.push(speedChange);
+    participantData.totalInteractions++;
+    
+    // Set the actual video playback rate
+    video.playbackRate = newSpeed;
+    currentPlaybackSpeed = newSpeed;
+    
+    console.log('Video playback rate set to:', video.playbackRate);
+    console.log('currentPlaybackSpeed variable set to:', currentPlaybackSpeed);
+    
+    // Reset speed timing for new speed
+    speedStartTime = Date.now();
+    if (!participantData.speedUsage) {
+        participantData.speedUsage = {};
+    }
+    if (!participantData.speedUsage[newSpeed.toString()]) {
+        participantData.speedUsage[newSpeed.toString()] = 0;
+    }
+    
+    // Update display
+    currentSpeedDisplay.textContent = `Current: ${newSpeed}x`;
+    console.log('Display updated to:', currentSpeedDisplay.textContent);
+    
+    // Update interaction counter and stats
+    updateInteractionCounter();
+    updateLiveStatsPanel();
+    
+    console.log(`Speed changed to ${newSpeed}x, video.playbackRate = ${video.playbackRate}`);
+}
+
+// Test function for debugging
+function testSpeedChange() {
+    console.log('Test button clicked');
+    const video = document.getElementById('main-video');
+    const display = document.getElementById('current-speed-display');
+    
+    console.log('Video element:', video);
+    console.log('Display element:', display);
+    
+    if (video) {
+        video.playbackRate = 2.0;
+        console.log('Video playback rate set to:', video.playbackRate);
+    }
+    
+    if (display) {
+        display.textContent = 'Current: 2x';
+        console.log('Display text updated');
+    }
+    
+    currentPlaybackSpeed = 2.0;
+    console.log('currentPlaybackSpeed variable set to:', currentPlaybackSpeed);
+}
+
+// Utility Functions
 function formatTime(seconds) {
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = Math.floor(seconds % 60);
-    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const secs = Math.floor(seconds % 60);
+    
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
 }
 
-function formatTimeWithMilliseconds(milliseconds) {
+function formatTimeForDisplay(milliseconds) {
     const totalSeconds = Math.floor(milliseconds / 1000);
     const hours = Math.floor(totalSeconds / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
     const seconds = totalSeconds % 60;
-    const ms = Math.floor(milliseconds % 1000);
     
-    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}.${ms.toString().padStart(3, '0')}`;
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
+
+function formatTimeWithMilliseconds(milliseconds) {
+    const totalSeconds = Math.floor(milliseconds / 1000);
+    const ms = milliseconds % 1000;
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+    
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}:${ms.toString().padStart(3, '0')}`;
 }
 
 function formatRelativeTimestamp(timestamp, sessionStartTime) {
-    const relativeMs = timestamp - sessionStartTime;
-    return formatTimeWithMilliseconds(relativeMs);
+    const relativeTime = timestamp - sessionStartTime;
+    return formatTime(relativeTime / 1000);
 }
 
-// Prevent accidental page refresh during study
-window.addEventListener('beforeunload', function (e) {
-    if (studyStartTime && !participantData.endTime) {
-        e.preventDefault();
-        e.returnValue = '';
-        return 'Are you sure you want to leave? Your progress will be lost.';
+function updateSpeedUsageForCurrentSession() {
+    if (!speedStartTime || !videoPlayStartTime) return; // Only track when video is actually playing
+    
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - speedStartTime;
+    
+    // Initialize speed usage object if needed
+    if (!participantData.speedUsage) {
+        participantData.speedUsage = {};
     }
-});
+    
+    // Update speed usage for the current speed
+    const speedKey = currentPlaybackSpeed.toString();
+    if (participantData.speedUsage[speedKey]) {
+        participantData.speedUsage[speedKey] += elapsedTime;
+    } else {
+        participantData.speedUsage[speedKey] = elapsedTime;
+    }
+    
+    // Reset timing for the next interval
+    speedStartTime = currentTime;
+}
 
-// Auto-save functionality for data integrity
-setInterval(() => {
-    if (studyStartTime && participantData.name) {
-        const tempData = {...participantData, tempSave: true, lastSaved: new Date()};
-        localStorage.setItem('tempParticipantData', JSON.stringify(tempData));
+function updateSpeedUsage() {
+    if (!speedStartTime || !videoPlayStartTime) return; // Only track when video is actually playing
+    
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - speedStartTime;
+    
+    // Initialize speed usage object if needed
+    if (!participantData.speedUsage) {
+        participantData.speedUsage = {};
     }
-}, 30000); // Auto-save every 30 seconds
+    
+    // Update speed usage for the current speed
+    const speedKey = currentPlaybackSpeed.toString();
+    if (participantData.speedUsage[speedKey]) {
+        participantData.speedUsage[speedKey] += elapsedTime;
+    } else {
+        participantData.speedUsage[speedKey] = elapsedTime;
+    }
+    
+    // Reset timing for the next interval
+    speedStartTime = currentTime;
+}
+
+function updateSpeedUsageDisplay() {
+    const speedUsageList = document.getElementById('speed-usage-list');
+    if (!speedUsageList) return;
+    
+    let html = '';
+    const usedSpeeds = Object.keys(participantData.speedUsage || {}).filter(speed => participantData.speedUsage[speed] > 0);
+    
+    if (usedSpeeds.length === 0) {
+        html = '<div class="speed-usage-item">No speed data yet</div>';
+    } else {
+        usedSpeeds.forEach(speed => {
+            const duration = participantData.speedUsage[speed];
+            const formattedTime = formatTimeForDisplay(duration);
+            html += `<div class="speed-usage-item">
+                <span class="speed-label">${speed}x Speed:</span>
+                <span class="speed-duration">${formattedTime}</span>
+            </div>`;
+        });
+    }
+    
+    speedUsageList.innerHTML = html;
+}
