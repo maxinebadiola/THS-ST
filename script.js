@@ -1,5 +1,5 @@
 let participantData = {
-    name: '',
+    id: '',
     ageRange: '',
     gender: '',
     startTime: null,
@@ -102,13 +102,16 @@ function initializeApp() {
 
     //load stats
     updateAdminStats();
+    
+    // Initialize participant ID
+    initializeParticipantId();
 }
 
 function startStudy(event) {
     event.preventDefault();
     
     // Collect participant information
-    participantData.name = document.getElementById('participantName').value;
+    // participantData.id is already set from the generated ID
     participantData.ageRange = document.getElementById('participantAge').value;
     participantData.gender = document.getElementById('participantGender').value;
     participantData.startTime = new Date();
@@ -427,6 +430,12 @@ function completeStudy() {
     // Display completion statistics
     updateCompletionStats();
     
+    // Set participant ID in completion section
+    document.getElementById('completion-participant-id').value = participantData.id;
+    
+    // Add copy functionality for completion section ID
+    setupCompletionIdCopy();
+    
     // Save data to localStorage
     saveParticipantData();
 }
@@ -546,7 +555,7 @@ function downloadParticipantData() {
     const dataStr = JSON.stringify(formattedData, null, 2);
     const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
     
-    const exportFileDefaultName = `participant_${participantData.name}_${new Date().toISOString().split('T')[0]}.json`;
+    const exportFileDefaultName = `participant_${participantData.id}_${new Date().toISOString().split('T')[0]}.json`;
     
     const linkElement = document.createElement('a');
     linkElement.setAttribute('href', dataUri);
@@ -561,7 +570,7 @@ function resetStudy() {
     
     // Reset all variables
     participantData = {
-        name: '',
+        id: '',
         ageRange: '',
         gender: '',
         startTime: null,
@@ -606,6 +615,9 @@ function resetStudy() {
     // Reset form
     document.getElementById('participant-form').reset();
     
+    // Regenerate participant ID
+    initializeParticipantId();
+    
     // Show participant setup
     document.getElementById('completion-section').style.display = 'none';
     document.getElementById('participant-setup').style.display = 'block';
@@ -617,7 +629,6 @@ function resetStudy() {
     document.getElementById('proceed-to-questions').style.display = 'none';
     
     document.getElementById('speed-selector').value = '1';
-    document.getElementById('custom-speed').style.display = 'none';
     document.getElementById('current-speed-display').textContent = 'Current: 1x';
     
     // Hide stats panel and reset button text
@@ -676,7 +687,7 @@ function exportAllData() {
     const speedColumns = Array.from(allSpeedsUsed).sort((a, b) => parseFloat(a) - parseFloat(b));
     
     // Create enhanced CSV format for analysis
-    let csvHeader = "Participant Name,Age Range,Gender,Total Time (ms),Total Time (formatted),Video Watch Time (ms),Video Watch Time (formatted),Session Duration (ms),Session Duration (formatted),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count";
+    let csvHeader = "Participant ID,Age Range,Gender,Total Time (ms),Total Time (formatted),Video Watch Time (ms),Video Watch Time (formatted),Session Duration (ms),Session Duration (formatted),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count";
     
     //speed usage
     speedColumns.forEach(speed => {
@@ -697,7 +708,7 @@ function exportAllData() {
         const totalAnswered = participant.questionResponses.filter(q => q.isCorrect !== null).length;
         const accuracyRate = totalAnswered > 0 ? (correctAnswers / totalAnswered * 100).toFixed(1) : 'N/A';
         
-        let row = `${participant.name},${participant.ageRange || participant.age},${participant.gender},${totalTime},${totalTimeFormatted},${videoWatchTime},${videoWatchTimeFormatted},${sessionDuration},${sessionDurationFormatted},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}`;
+        let row = `${participant.id},${participant.ageRange || participant.age},${participant.gender},${totalTime},${totalTimeFormatted},${videoWatchTime},${videoWatchTimeFormatted},${sessionDuration},${sessionDurationFormatted},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}`;
         
         // Add speed usage data
         speedColumns.forEach(speed => {
@@ -1116,4 +1127,73 @@ function updateSpeedUsageDisplay() {
     }
     
     speedUsageList.innerHTML = html;
+}
+
+// Generate a random participant ID
+function generateParticipantId() {
+    const timestamp = Date.now().toString(36); // Base36 timestamp for uniqueness
+    const randomChars = Math.random().toString(36).substring(2, 8); // 6 random characters
+    return `P${timestamp}${randomChars}`.toUpperCase();
+}
+
+// Initialize participant ID on page load
+function initializeParticipantId() {
+    const participantId = generateParticipantId();
+    document.getElementById('participantId').value = participantId;
+    participantData.id = participantId;
+    
+    // Add copy functionality
+    document.getElementById('copy-id-btn').addEventListener('click', function() {
+        const idInput = document.getElementById('participantId');
+        idInput.select();
+        idInput.setSelectionRange(0, 99999); // For mobile devices
+        
+        try {
+            document.execCommand('copy');
+            
+            // Visual feedback
+            const copyBtn = this;
+            const originalText = copyBtn.textContent;
+            copyBtn.textContent = 'Copied!';
+            copyBtn.classList.add('copied');
+            
+            setTimeout(() => {
+                copyBtn.textContent = originalText;
+                copyBtn.classList.remove('copied');
+            }, 2000);
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+        }
+    });
+}
+
+function setupCompletionIdCopy() {
+    const copyBtn = document.getElementById('copy-completion-id-btn');
+    if (copyBtn) {
+        // Remove any existing event listeners to avoid duplicates
+        copyBtn.replaceWith(copyBtn.cloneNode(true));
+        const newCopyBtn = document.getElementById('copy-completion-id-btn');
+        
+        newCopyBtn.addEventListener('click', function() {
+            const idInput = document.getElementById('completion-participant-id');
+            idInput.select();
+            idInput.setSelectionRange(0, 99999); // For mobile devices
+            
+            try {
+                document.execCommand('copy');
+                
+                // Visual feedback
+                const originalText = this.textContent;
+                this.textContent = 'Copied!';
+                this.classList.add('copied');
+                
+                setTimeout(() => {
+                    this.textContent = originalText;
+                    this.classList.remove('copied');
+                }, 2000);
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+            }
+        });
+    }
 }

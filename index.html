@@ -20,8 +20,11 @@
             <h2>Participant Information</h2>
             <form id="participant-form">
                 <div class="form-group">
-                    <label for="participantName">Participant Name:</label>
-                    <input type="text" id="participantName" required>
+                    <label for="participantId">Participant ID:</label>
+                    <div class="participant-id-container">
+                        <input type="text" id="participantId" readonly>
+                        <button type="button" id="copy-id-btn" class="copy-btn">Copy</button>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="participantAge">Age Range:</label>
@@ -172,7 +175,24 @@
         <!-- Completion Section -->
         <div id="completion-section" class="section" style="display: none;">
             <h2>Study Complete</h2>
-            <p>Thank you for participating in this research study!</p>
+            <p>Thank you for participating in this stage of the research study!</p>
+            
+            <!-- Participant ID Display -->
+            <div class="completion-participant-id">
+                <h3>Your Participant ID</h3>
+                <p>Please copy your participant ID for your records:</p>
+                <div class="participant-id-container">
+                    <input type="text" id="completion-participant-id" readonly>
+                    <button type="button" id="copy-completion-id-btn" class="copy-btn">Copy</button>
+                </div>
+            </div>
+            
+            <!-- Survey Link -->
+            <div class="survey-section">
+                <h3>Complete the Survey</h3>
+                <p>Please click <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMKVpfhDpo4aomrwsUXBg2SSjvZs4mXXgzvl2KcYJPk4w6tA/viewform?usp=sharing&ouid=106328571998422484620" target="_blank" class="survey-link">here</a> to complete the follow-up survey.</p>
+            </div>
+            
             <div class="completion-stats">
                 <div class="stat">
                     <span class="stat-label">Total Time:</span>

@@ -82,6 +82,43 @@ body {
     color: #e2e8f0;
 }
 
+.participant-id-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.participant-id-container input {
+    padding-right: 60px; /* Make room for the copy button */
+}
+
+.copy-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.copy-btn:hover {
+    background: #5855eb;
+}
+
+.copy-btn:active {
+    background: #4f46e5;
+}
+
+.copy-btn.copied {
+    background: #10b981;
+}
+
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
@@ -611,6 +648,108 @@ body {
     color: #4ade80;
     font-family: 'Courier New', monospace;
     font-size: 0.9rem;
+}
+
+/* Completion Section Styling */
+.completion-participant-id {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #334155;
+    border-radius: 8px;
+    border: 2px solid #475569;
+}
+
+.completion-participant-id h3 {
+    margin-top: 0;
+    color: #e2e8f0;
+}
+
+.completion-participant-id p {
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+.survey-section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #1e293b;
+    border-radius: 8px;
+    border: 2px solid #6366f1;
+}
+
+.survey-section h3 {
+    margin-top: 0;
+    color: #e2e8f0;
+}
+
+.survey-section p {
+    margin-bottom: 0;
+    color: #cbd5e1;
+}
+
+.survey-link {
+    color: #6366f1;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.survey-link:hover {
+    color: #5855eb;
+}
+
+.completion-participant-id .participant-id-container input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #475569;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #334155;
+    color: #e2e8f0;
+    font-family: inherit;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: left;
+    user-select: all;
+    box-sizing: border-box;
+}
+
+.completion-participant-id .participant-id-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.completion-participant-id .copy-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: inherit;
+}
+
+.completion-participant-id .copy-btn:hover {
+    background: #5855eb;
+}
+
+.completion-participant-id .copy-btn:active {
+    background: #4f46e5;
+}
+
+.completion-participant-id .copy-btn.copied {
+    background: #10b981;
+}
+
+/* Also apply to the initial form copy button for consistency */
+.participant-id-container .copy-btn {
+    font-family: inherit;
 }
 
 @media (max-width: 768px) {
