@@ -24,8 +24,25 @@
                     <input type="text" id="participantName" required>
                 </div>
                 <div class="form-group">
-                    <label for="participantAge">Age:</label>
-                    <input type="number" id="participantAge" min="18" max="100" required>
+                    <label for="participantAge">Age Range:</label>
+                    <select id="participantAge" required>
+                        <option value="">Select...</option>
+                        <option value="18-20">18-20</option>
+                        <option value="21-23">21-23</option>
+                        <option value="24-26">24-26</option>
+                        <option value="27-29">27-29</option>
+                        <option value="30-32">30-32</option>
+                        <option value="33-35">33-35</option>
+                        <option value="36-38">36-38</option>
+                        <option value="39-41">39-41</option>
+                        <option value="42-44">42-44</option>
+                        <option value="45-47">45-47</option>
+                        <option value="48-50">48-50</option>
+                        <option value="51-53">51-53</option>
+                        <option value="54-56">54-56</option>
+                        <option value="57-59">57-59</option>
+                        <option value="60+">66+</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label for="participantGender">Gender:</label>
@@ -33,6 +50,8 @@
                         <option value="">Select...</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="prefer-not-to-say">Prefer not to say</option>
                     </select>
                 </div>
                 <button type="submit" class="btn btn-primary">Start Study</button>

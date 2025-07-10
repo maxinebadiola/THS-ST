@@ -1,6 +1,6 @@
 let participantData = {
     name: '',
-    age: 0,
+    ageRange: '',
     gender: '',
     startTime: null,
     endTime: null,
@@ -101,7 +101,7 @@ function startStudy(event) {
     
     // Collect participant information
     participantData.name = document.getElementById('participantName').value;
-    participantData.age = parseInt(document.getElementById('participantAge').value);
+    participantData.ageRange = document.getElementById('participantAge').value;
     participantData.gender = document.getElementById('participantGender').value;
     participantData.startTime = new Date();
     studyStartTime = Date.now();
@@ -477,7 +477,7 @@ function resetStudy() {
     // Reset all variables
     participantData = {
         name: '',
-        age: 0,
+        ageRange: '',
         gender: '',
         startTime: null,
         endTime: null,
@@ -565,7 +565,7 @@ function exportAllData() {
     const allData = JSON.parse(localStorage.getItem('researchData') || '[]');
     
     // Create enhanced CSV format for analysis
-    let csvContent = "Participant Name,Age,Gender,Total Time (seconds),Video Watch Time (seconds),Session Duration (seconds),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count\n";
+    let csvContent = "Participant Name,Age Range,Gender,Total Time (seconds),Video Watch Time (seconds),Session Duration (seconds),Video Interactions,Segment Interactions,Questions Answered,Accuracy Rate,Play Count,Pause Count,Scrubbing Count,Rewind Count,Forward Count\n";
     
     allData.forEach(participant => {
         const totalTime = (new Date(participant.endTime) - new Date(participant.startTime)) / 1000;
@@ -575,7 +575,7 @@ function exportAllData() {
         const totalAnswered = participant.questionResponses.filter(q => q.isCorrect !== null).length;
         const accuracyRate = totalAnswered > 0 ? (correctAnswers / totalAnswered * 100).toFixed(1) : 'N/A';
         
-        csvContent += `${participant.name},${participant.age},${participant.gender},${totalTime},${videoWatchTime},${sessionDuration},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}\n`;
+        csvContent += `${participant.name},${participant.ageRange || participant.age},${participant.gender},${totalTime},${videoWatchTime},${sessionDuration},${participant.videoInteractions.length},${participant.segmentInteractions.length},${participant.questionResponses.length},${accuracyRate}%,${participant.playCount || 0},${participant.pauseCount || 0},${participant.seekCount || 0},${participant.rewindCount || 0},${participant.forwardCount || 0}\n`;
     });
     
     // Also export detailed JSON data
