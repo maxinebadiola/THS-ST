@@ -316,6 +316,23 @@ function renderCurrentQuestion() {
             <div class="question-options" id="question-options">
                 ${renderQuestionOptions(question)}
             </div>
+            <div class="confidence-section" id="confidence-section">
+                <div class="confidence-header">How confident are you in your answer?</div>
+                <div class="confidence-row">
+                    <span class="confidence-label-left">NOT CONFIDENT</span>
+                    <div class="confidence-radio-group">
+                        <div class="confidence-options">
+                            ${[1,2,3,4,5].map(val => `
+                                <label class="confidence-radio">
+                                    <input type="radio" name="confidence" value="${val}">
+                                    <span class="confidence-num">${val}</span>
+                                </label>
+                            `).join('')}
+                        </div>
+                    </div>
+                    <span class="confidence-label-right">VERY CONFIDENT</span>
+                </div>
+            </div>
             <div class="question-timer">
                 Time: <span id="question-timer">00:00</span>
             </div>
@@ -345,30 +362,47 @@ function renderQuestionOptions(question) {
 }
 
 function setupQuestionInteraction(question) {
+    let answerSelected = false;
+    let confidenceSelected = false;
+    const nextBtn = document.getElementById('next-question');
+
+    function updateNextButtonState() {
+        if (answerSelected && confidenceSelected) {
+            nextBtn.style.display = 'block';
+        } else {
+            nextBtn.style.display = 'none';
+        }
+    }
+
     if (question.type === 'multiple-choice') {
         document.querySelectorAll('.question-option').forEach(option => {
             option.addEventListener('click', function() {
                 const radio = this.querySelector('input[type="radio"]');
                 radio.checked = true;
-                
                 document.querySelectorAll('.question-option').forEach(opt => {
                     opt.classList.remove('selected');
                 });
                 this.classList.add('selected');
-                
-                document.getElementById('next-question').style.display = 'block';
+                answerSelected = true;
+                updateNextButtonState();
             });
         });
     } else if (question.type === 'text') {
         const textarea = document.getElementById('text-answer');
         textarea.addEventListener('input', function() {
-            if (this.value.trim().length > 10) {
-                document.getElementById('next-question').style.display = 'block';
-            }
+            answerSelected = this.value.trim().length > 0;
+            updateNextButtonState();
         });
     }
-    
-    document.getElementById('next-question').addEventListener('click', submitAnswer);
+
+    document.querySelectorAll('input[name="confidence"]').forEach(radio => {
+        radio.addEventListener('change', function() {
+            confidenceSelected = true;
+            updateNextButtonState();
+        });
+    });
+
+    nextBtn.addEventListener('click', submitAnswer);
 }
 
 function startQuestionTimer() {
@@ -402,6 +436,10 @@ function submitAnswer() {
         isCorrect = null; // Text answers require manual evaluation
     }
     
+    // Get confidence value
+    const confidenceRadio = document.querySelector('input[name="confidence"]:checked');
+    const confidence = confidenceRadio ? parseInt(confidenceRadio.value) : null;
+
     // Store question response
     const currentTimestamp = Date.now();
     const response = {
@@ -409,6 +447,7 @@ function submitAnswer() {
         questionType: question.type,
         answer: answer,
         isCorrect: isCorrect,
+        confidence: confidence,
         completionTime: completionTime,
         completionTimeFormatted: formatTimeWithMilliseconds(completionTime),
         timestamp: currentTimestamp,

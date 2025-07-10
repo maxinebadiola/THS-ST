@@ -860,6 +860,126 @@ body {
     padding-bottom: 0;
 }
 
+/* Confidence Section */
+.confidence-section {
+    margin: 24px 0 8px 0;
+    padding: 12px 0 0 0;
+}
+.confidence-section .confidence-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f1f5f9;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.confidence-section .confidence-labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.05rem;
+    color: #cbd5e1;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+}
+.confidence-section .confidence-labels span {
+    font-weight: 700;
+    color: #f1f5f9;
+}
+.confidence-section .confidence-options {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+.confidence-section .confidence-labels,
+.confidence-section .confidence-options {
+    /* Place labels and buttons in a single row */
+    flex: 1 1 auto;
+}
+.confidence-section .confidence-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    width: 100%;
+}
+.confidence-label-left,
+.confidence-label-right {
+    font-weight: 700;
+    color: #f1f5f9;
+    font-size: 1.08rem;
+    min-width: 110px;
+    text-align: center;
+}
+
+.confidence-radio-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.confidence-radio input[type="radio"] {
+    width: 2.7em;
+    height: 2.7em;
+    accent-color: #6366f1;
+    margin-bottom: 0;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.10);
+    border-radius: 50%;
+    border: 2px solid #6366f1;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+.confidence-radio input[type="radio"]:hover,
+.confidence-radio input[type="radio"]:focus {
+    box-shadow: 0 0 0 4px rgba(99,102,241,0.18);
+    border-color: #4338ca;
+}
+
+.confidence-options {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* Ensure the number labels are centered under the radio buttons */
+.confidence-radio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    width: 2.7em;
+}
+
+.confidence-radio input[type="radio"] {
+    width: 2.7em;
+    height: 2.7em;
+    accent-color: #6366f1;
+    margin-bottom: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.10);
+    border-radius: 50%;
+    border: 2px solid #6366f1;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.confidence-radio .confidence-num {
+    font-size: 1.15rem;
+    color: #6366f1;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -932,6 +1052,35 @@ body {
     
     .questions-header h2 {
         font-size: 1.5rem;
+    }
+    
+    /* Confidence selector mobile styles */
+    .confidence-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .confidence-label-left,
+    .confidence-label-right {
+        font-size: 1rem;
+        min-width: auto;
+    }
+    
+    .confidence-options {
+        gap: 24px;
+    }
+    
+    .confidence-radio input[type="radio"] {
+        width: 2.3em;
+        height: 2.3em;
+    }
+    
+    .confidence-radio {
+        width: 2.3em;
+    }
+    
+    .confidence-radio .confidence-num {
+        font-size: 1rem;
     }
 }
 
