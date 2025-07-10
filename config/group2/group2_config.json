@@ -1,0 +1,14 @@
+{
+  "groupId": 2,
+  "groupName": "Group 2", 
+  "firstVideo": {
+    "filename": "Robbers Cave Experiment.mp4",
+    "title": "Robbers Cave Experiment",
+    "segmentsFile": "robbers_cave_segments.json"
+  },
+  "secondVideo": {
+    "filename": "Stanford Experiment.mp4",
+    "title": "Stanford Experiment", 
+    "segmentsFile": "stanford_experiment_segments.json"
+  }
+}

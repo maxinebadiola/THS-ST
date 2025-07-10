@@ -1,0 +1,14 @@
+{
+  "groupId": 1,
+  "groupName": "Group 1",
+  "firstVideo": {
+    "filename": "Compute Pi.mp4",
+    "title": "Compute Pi",
+    "segmentsFile": "compute_pi_segments.json"
+  },
+  "secondVideo": {
+    "filename": "Five puzzles.mp4",
+    "title": "Five Puzzles",
+    "segmentsFile": "five_puzzles_segments.json"
+  }
+}
