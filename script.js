@@ -1231,7 +1231,7 @@ async function loadCurrentVideo() {
     video.load(); // Reload the video with new source
     
     // Load segments for current video
-    await loadVideoSegments(videoInfo.segmentsFile);
+    await loadVideoSegments(videoInfo);
     
     // Create video segments UI after segments are loaded
     createVideoSegments();
@@ -1240,14 +1240,14 @@ async function loadCurrentVideo() {
     await loadVideoQuestions(videoInfo);
 }
 
-async function loadVideoSegments(segmentsFile) {
+async function loadVideoSegments(videoInfo) {
     try {
-        // Construct path based on segmentType
+        // Construct path based on segmentType from individual video config
         let segmentPath;
-        if (studyGroupConfig.segmentType === "root") {
-            segmentPath = `config/group${participantData.studyGroup}/${segmentsFile}`;
+        if (videoInfo.segmentType === "root") {
+            segmentPath = `config/group${participantData.studyGroup}/${videoInfo.segmentsFile}`;
         } else {
-            segmentPath = `config/group${participantData.studyGroup}/${studyGroupConfig.segmentType}/${segmentsFile}`;
+            segmentPath = `config/group${participantData.studyGroup}/${videoInfo.segmentType}/${videoInfo.segmentsFile}`;
         }
         
         const response = await fetch(segmentPath);
@@ -1268,12 +1268,12 @@ async function loadVideoQuestions(videoInfo) {
         // Try to load questionnaire file for this video
         const questionnaireFile = videoInfo.segmentsFile.replace('_segments.json', '_questionnaire.json');
         
-        // Construct path based on segmentType
+        // Construct path based on segmentType from individual video config
         let questionnairePath;
-        if (studyGroupConfig.segmentType === "root") {
+        if (videoInfo.segmentType === "root") {
             questionnairePath = `config/group${participantData.studyGroup}/${questionnaireFile}`;
         } else {
-            questionnairePath = `config/group${participantData.studyGroup}/${studyGroupConfig.segmentType}/${questionnaireFile}`;
+            questionnairePath = `config/group${participantData.studyGroup}/${videoInfo.segmentType}/${questionnaireFile}`;
         }
         
         const response = await fetch(questionnairePath);
