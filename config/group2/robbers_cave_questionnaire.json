@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "How many boys participated in the Robbers Cave experiment?",
+        "type": "multiple-choice",
+        "options": [
+            "11",
+            "15",
+            "20",
+            "22"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 2,
+        "question": "The experiment took place at Robbers Cave State Park in Oklahoma in 1953.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 3,
+        "question": "Who was the principal investigator of the Robbers Cave experiment?",
+        "type": "multiple-choice",
+        "options": [
+            "Stanley Milgram",
+            "Philip Zimbardo",
+            "Muzafer Sherif",
+            "Solomon Asch"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 4,
+        "question": "The two groups chose names for themselves without any influence from researchers.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "What were the names of the two groups formed in the experiment?",
+        "type": "multiple-choice",
+        "options": [
+            "Eagles and Rattlers",
+            "Hawks and Doves",
+            "Lions and Tigers",
+            "Bears and Wolves"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 6,
+        "question": "Sherif disguised himself as Mr. Mosaic, the camp caretaker, to observe the boys.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 7,
+        "question": "How many stages did the 1954 Robbers Cave experiment have?",
+        "type": "multiple-choice",
+        "options": [
+            "Two stages",
+            "Three stages", 
+            "Four stages",
+            "Five stages"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "question": "The first experiment in 1949 involved 24 boys and was completely successful.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "What method did Sherif use to reduce inter-group hostility in Stage 3?",
+        "type": "multiple-choice",
+        "options": [
+            "Separating the groups permanently",
+            "Introducing superordinate goals requiring cooperation",
+            "Punishing aggressive behavior",
+            "Giving rewards to the winning group"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 10,
+        "question": "The experiment demonstrated that realistic conflict theory can explain how arbitrary group divisions lead to hostility.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    }
+]

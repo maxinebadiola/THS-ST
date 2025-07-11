@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is the approximate number of total collisions for a mass ratio of 10,000 to 1 in the colliding blocks puzzle?",
+        "type": "multiple-choice",
+        "options": [
+            "31",
+            "314",
+            "300",
+            "3141"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is an idealizing assumption made in the colliding blocks puzzle?",
+        "type": "multiple-choice",
+        "options": [
+            "Energy is lost in collisions.",
+            "Relativistic effects are taken into account.",
+            "The wall transfers a significant amount of momentum.",
+            "Collisions are perfectly elastic."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 3,
+        "question": "In the rescaled coordinate system used for the colliding blocks puzzle, what shape does the conservation of energy equation represent?",
+        "type": "multiple-choice",
+        "options": [
+            "A hyperbola",
+            "A circle",
+            "A parabola",
+            "An ellipse (before rescaling)"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "The number of collisions in the geometric interpretation relates to how many times a specific angle (two theta) can be added before surpassing what total angular value in radians?",
+        "type": "multiple-choice",
+        "options": [
+            "Pi",
+            "Theta",
+            "Two Pi",
+            "Three Pi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "question": "According to the source, what is a deeper reason for abstracting away the messiness of the real world in physics and math problems?",
+        "type": "multiple-choice",
+        "options": [
+            "It simplifies calculations significantly.",
+            "It reduces the need for experimental verification.",
+            "It exposes hidden connections and allows progress in math.",
+            "It primarily stems from laziness."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 6,
+        "question": "The full connection between the colliding blocks puzzle and Pi is described as an unsolved problem.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 7,
+        "question": "The phenomenon of getting Pi digits in collisions can only be observed with extremely large, unrealistic mass ratios.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "question": "Transforming the velocities of the blocks into a state space helps clarify the problem by packaging changing numbers as a single point in a higher-dimensional space.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 9,
+        "question": "In the rescaled coordinate system, the conservation of momentum is represented by a curved line.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 10,
+        "question": "The small angle approximation is essential because it shows that the arc tangent of a small number is very close to the number itself, which helps explain the appearance of Pi's digits.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    }
+]

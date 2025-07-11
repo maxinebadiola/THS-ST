@@ -1,14 +1,16 @@
 {
   "groupId": 2,
-  "groupName": "Group 2", 
+  "groupName": "Group 2",
   "firstVideo": {
     "filename": "Robbers Cave Experiment.mp4",
-    "title": "Robbers Cave Experiment",
-    "segmentsFile": "robbers_cave_segments.json"
+    "title": "The Robbers Cave Experiment 1954",
+    "segmentsFile": "robbers_cave_segments.json",
+    "segmentType": "creator"
   },
   "secondVideo": {
     "filename": "Stanford Experiment.mp4",
-    "title": "Stanford Experiment", 
-    "segmentsFile": "stanford_experiment_segments.json"
+    "title": "The Horrific Stanford Prison Experiment 1971", 
+    "segmentsFile": "stanford_experiment_segments.json",
+    "segmentType": "creator"
   }
 }
