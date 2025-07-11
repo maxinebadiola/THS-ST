@@ -3,13 +3,13 @@
   "groupName": "Group 2",
   "firstVideo": {
     "filename": "Robbers Cave Experiment.mp4",
-    "title": "The Robbers Cave Experiment 1954",
+    "title": "The Robbers Cave Experiment",
     "segmentsFile": "robbers_cave_segments.json",
     "segmentType": "creator"
   },
   "secondVideo": {
     "filename": "Stanford Experiment.mp4",
-    "title": "The Horrific Stanford Prison Experiment 1971", 
+    "title": "The Horrific Stanford Prison Experiment", 
     "segmentsFile": "stanford_experiment_segments.json",
     "segmentType": "creator"
   }
