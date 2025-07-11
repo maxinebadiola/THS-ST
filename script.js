@@ -50,6 +50,8 @@ let studyGroupConfig = null;
 let currentVideoSegments = [];
 let currentQuestions = [];
 
+let randomizeQuestions = true; //if questionnaire loads by question id or randomized
+
 //INSERT VIDEO SEGMENTS here 
 //Video segments are now loaded dynamically from JSON files based on study group config
 const videoSegments = [
@@ -114,7 +116,10 @@ async function startStudy(event) {
     participantData.gender = document.getElementById('participantGender').value;
     participantData.studyGroup = document.getElementById('studyGroup').value;
     participantData.startTime = new Date();
+    participantData.questionsRandomized = randomizeQuestions; // Track randomization setting
     studyStartTime = Date.now();
+    
+    console.log(`Study started - Question randomization: ${randomizeQuestions ? 'ENABLED' : 'DISABLED'}`);
     
     // Load study group configuration
     try {
@@ -361,7 +366,7 @@ function renderCurrentQuestion() {
 }
 
 function renderQuestionOptions(question) {
-    if (question.type === 'multiple-choice') {
+    if (question.type === 'multiple-choice' || question.type === 'true-false') {
         return question.options.map((option, index) => `
             <div class="question-option" data-index="${index}">
                 <input type="radio" name="q${question.id}" value="${index}" id="option${index}">
@@ -388,7 +393,7 @@ function setupQuestionInteraction(question) {
         }
     }
 
-    if (question.type === 'multiple-choice') {
+    if (question.type === 'multiple-choice' || question.type === 'true-false') {
         document.querySelectorAll('.question-option').forEach(option => {
             option.addEventListener('click', function() {
                 const radio = this.querySelector('input[type="radio"]');
@@ -439,7 +444,7 @@ function submitAnswer() {
     let answer = null;
     let isCorrect = null;
     
-    if (question.type === 'multiple-choice') {
+    if (question.type === 'multiple-choice' || question.type === 'true-false') {
         const selectedOption = document.querySelector('input[name="q' + question.id + '"]:checked');
         if (selectedOption) {
             answer = parseInt(selectedOption.value);
@@ -458,6 +463,8 @@ function submitAnswer() {
     const currentTimestamp = Date.now();
     const response = {
         questionId: question.id,
+        originalQuestionId: question.id, // Original ID from JSON file
+        questionOrder: currentQuestionIndex + 1, // Order in which question was presented (1, 2, 3...)
         questionType: question.type,
         answer: answer,
         isCorrect: isCorrect,
@@ -465,7 +472,8 @@ function submitAnswer() {
         completionTime: completionTime,
         completionTimeFormatted: formatTimeWithMilliseconds(completionTime),
         timestamp: currentTimestamp,
-        relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime)
+        relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
+        wasRandomized: randomizeQuestions // Track whether questions were randomized for this participant
     };
     
     participantData.questionResponses.push(response);
@@ -1281,12 +1289,33 @@ async function loadVideoQuestions(videoInfo) {
         if (!response.ok) {
             throw new Error(`Failed to load questionnaire file: ${questionnairePath}`);
         }
-        currentQuestions = await response.json();
+        let loadedQuestions = await response.json();
+        
+        // Apply randomization if enabled
+        if (randomizeQuestions) {
+            currentQuestions = shuffleArray(loadedQuestions);
+            console.log('Questions randomized');
+        } else {
+            // Sort by ID to ensure consistent order (1 to 10)
+            currentQuestions = loadedQuestions.sort((a, b) => a.id - b.id);
+            console.log('Questions loaded in ID order');
+        }
+        
+        // Store the question order for analysis
+        participantData.questionOrder = currentQuestions.map(q => q.id);
+        
         console.log('Loaded video questions:', currentQuestions);
     } catch (error) {
         console.error('Error loading video questions:', error);
         // Fallback to default questions if file doesn't exist
-        currentQuestions = questions;
+        if (randomizeQuestions) {
+            currentQuestions = shuffleArray(questions);
+        } else {
+            currentQuestions = questions.sort((a, b) => a.id - b.id);
+        }
+        
+        // Store the question order for analysis (fallback case)
+        participantData.questionOrder = currentQuestions.map(q => q.id);
     }
 }
 
@@ -1414,6 +1443,16 @@ function formatTimeWithMilliseconds(milliseconds) {
 function formatRelativeTimestamp(timestamp, sessionStartTime) {
     const relativeTime = timestamp - sessionStartTime;
     return formatTime(relativeTime / 1000);
+}
+
+function shuffleArray(array) {
+    // Fisher-Yates shuffle algorithm
+    const shuffled = [...array]; // Create a copy to avoid mutating original
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
 }
 
 function updateSpeedUsageForCurrentSession() {
