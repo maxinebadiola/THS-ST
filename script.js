@@ -433,7 +433,7 @@ function startQuestionTimer() {
 }
 
 function submitAnswer() {
-    const question = questions[currentQuestionIndex];
+    const question = currentQuestions[currentQuestionIndex];
     const completionTime = Date.now() - questionStartTime;
     
     let answer = null;
@@ -1273,7 +1273,8 @@ async function loadVideoQuestions(videoInfo) {
         if (videoInfo.segmentType === "root") {
             questionnairePath = `config/group${participantData.studyGroup}/${questionnaireFile}`;
         } else {
-            questionnairePath = `config/group${participantData.studyGroup}/${videoInfo.segmentType}/${questionnaireFile}`;
+            // For files in subdirectories like 'creator', questionnaire files are in root
+            questionnairePath = `config/group${participantData.studyGroup}/${questionnaireFile}`;
         }
         
         const response = await fetch(questionnairePath);
