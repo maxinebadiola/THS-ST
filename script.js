@@ -45,6 +45,10 @@ let currentPlaybackSpeed = 1.0;
 let speedStartTime = null;
 let lastSpeedUsageUpdate = null;
 
+// UI Configuration variables (SET TO FALSE FOR ACTUAL STUDY)
+const adminPanel = true;  // Set to false to hide admin panel completely
+const statsPanel = true;  // Set to false to hide interaction statistics panel
+
 // Study group configuration
 let studyGroupConfig = null;
 let currentVideoSegments = [];
@@ -100,11 +104,34 @@ function initializeApp() {
     document.getElementById('download-first-video-data').addEventListener('click', downloadFirstVideoData);
     document.getElementById('start-second-video').addEventListener('click', startSecondVideo);
 
+    // Apply UI configuration
+    applyUIConfiguration();
+
     //load stats
     updateAdminStats();
     
     // Initialize participant ID
     initializeParticipantId();
+}
+
+function applyUIConfiguration() {
+    // Hide admin panel and toggle button if disabled
+    if (!adminPanel) {
+        const adminToggle = document.querySelector('.admin-toggle');
+        const adminPanelElement = document.getElementById('admin-panel');
+        if (adminToggle) adminToggle.style.display = 'none';
+        if (adminPanelElement) adminPanelElement.style.display = 'none';
+    }
+    
+    // Hide stats panel and toggle button if disabled
+    if (!statsPanel) {
+        const statsToggleBtn = document.getElementById('toggle-stats');
+        const statsPanelElement = document.getElementById('stats-panel');
+        const interactionCounter = document.getElementById('interaction-count');
+        if (statsToggleBtn) statsToggleBtn.style.display = 'none';
+        if (statsPanelElement) statsPanelElement.style.display = 'none';
+        if (interactionCounter) interactionCounter.style.display = 'none';
+    }
 }
 
 async function startStudy(event) {
@@ -808,9 +835,11 @@ function resetStudy() {
     document.getElementById('speed-selector').value = '1';
     document.getElementById('current-speed-display').textContent = 'Current: 1x';
     
-    // Hide stats panel and reset button text
-    document.getElementById('stats-panel').style.display = 'none';
-    document.getElementById('toggle-stats').textContent = 'Show Stats';
+    // Hide stats panel and reset button text (only if stats are enabled)
+    if (statsPanel) {
+        document.getElementById('stats-panel').style.display = 'none';
+        document.getElementById('toggle-stats').textContent = 'Show Stats';
+    }
     
     // Remove interaction details if they exist
     const existingDetails = document.querySelector('.interaction-details');
@@ -821,6 +850,10 @@ function resetStudy() {
 
 // Admin functions
 function toggleAdminPanel() {
+    if (!adminPanel) {
+        console.log('Admin panel is disabled via configuration');
+        return;
+    }
     document.getElementById('admin-panel').style.display = 'flex';
 }
 
@@ -989,6 +1022,13 @@ function stopVideoPlayTimer() {
 }
 
 function updateVideoTimingDisplay() {
+    // Don't update display if stats panel is disabled
+    if (!statsPanel) {
+        // Update live stats panel if visible (though it should be hidden)
+        updateLiveStatsPanel();
+        return;
+    }
+    
     // Calculate current session duration
     const sessionDuration = participantData.videoSessionStartTime ? 
         Date.now() - participantData.videoSessionStartTime : 0;
@@ -999,9 +1039,16 @@ function updateVideoTimingDisplay() {
         currentWatchTime += (Date.now() - videoPlayStartTime);
     }
 
-    const timingInfo = ` | Session: ${formatTimeForDisplay(sessionDuration)} | Watch: ${formatTimeForDisplay(currentWatchTime)}`;
-    document.getElementById('interaction-count').textContent = 
-        `Interactions: ${participantData.totalInteractions}${timingInfo}`;
+    // Show different information based on stats panel configuration
+    if (statsPanel) {
+        const timingInfo = ` | Session: ${formatTimeForDisplay(sessionDuration)} | Watch: ${formatTimeForDisplay(currentWatchTime)}`;
+        document.getElementById('interaction-count').textContent = 
+            `Interactions: ${participantData.totalInteractions}${timingInfo}`;
+    } else {
+        // Only show basic interaction count when stats are disabled
+        document.getElementById('interaction-count').textContent = 
+            `Interactions: ${participantData.totalInteractions}`;
+    }
     
     // Update live stats panel if visible
     updateLiveStatsPanel(sessionDuration, currentWatchTime);
@@ -1009,24 +1056,31 @@ function updateVideoTimingDisplay() {
 
 // Stats panel functions
 function toggleStatsPanel() {
-    const statsPanel = document.getElementById('stats-panel');
+    if (!statsPanel) {
+        console.log('Stats panel is disabled via configuration');
+        return;
+    }
+    
+    const statsPanelElement = document.getElementById('stats-panel');
     const toggleButton = document.getElementById('toggle-stats');
     
-    if (statsPanel.style.display === 'none' || statsPanel.style.display === '') {
-        statsPanel.style.display = 'block';
-        statsPanel.classList.add('slide-down');
+    if (statsPanelElement.style.display === 'none' || statsPanelElement.style.display === '') {
+        statsPanelElement.style.display = 'block';
+        statsPanelElement.classList.add('slide-down');
         toggleButton.textContent = 'Hide Stats';
         updateLiveStatsPanel();
     } else {
-        statsPanel.style.display = 'none';
-        statsPanel.classList.remove('slide-down');
+        statsPanelElement.style.display = 'none';
+        statsPanelElement.classList.remove('slide-down');
         toggleButton.textContent = 'Show Stats';
     }
 }
 
 function updateLiveStatsPanel(sessionDuration = null, currentWatchTime = null) {
-    const statsPanel = document.getElementById('stats-panel');
-    if (statsPanel.style.display === 'none') return;
+    if (!statsPanel) return; // Don't update if stats panel is disabled
+    
+    const statsPanelElement = document.getElementById('stats-panel');
+    if (statsPanelElement.style.display === 'none') return;
     
     // Calculate session duration if not provided
     if (sessionDuration === null) {
