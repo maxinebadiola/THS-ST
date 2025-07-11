@@ -51,45 +51,28 @@ let currentVideoSegments = [];
 let currentQuestions = [];
 
 //INSERT VIDEO SEGMENTS here 
-//TODO: get segments via .csv or .json
+//Video segments are now loaded dynamically from JSON files based on study group config
 const videoSegments = [
-    { name: "Introduction", start: 0, end: 30 },
-    { name: "Weather Conditions", start: 30, end: 120 },
-    { name: "Fire Behavior", start: 120, end: 240 },
-    { name: "Emergency Response", start: 240, end: 360 },
-    { name: "Community Impact", start: 360, end: 480 },
-    { name: "Lessons Learned", start: 480, end: 600 },
-    { name: "Lessons Learned", start: 480, end: 600 },
-    { name: "Lessons Learned", start: 480, end: 600 },
-    { name: "Lessons Learned", start: 480, end: 600 },
-    { name: "Lessons Learned", start: 480, end: 600 }
+    // ERROR fallback segments - these should NOT be displayed if JSON loading works correctly
+    { name: "ERROR: Segments failed to load", start: 0 },
+    { name: "Check JSON file path", start: 30 },
+    { name: "Verify config is correct", start: 60 }
 ]
 //survey
-//TODO: get segments via .json
+//Questions are now loaded dynamically from JSON files based on study group config
 const questions = [
+    // ERROR fallback questions - these should NOT be displayed if JSON loading works correctly
     {
         id: 1,
-        question: "What were the primary weather conditions that contributed to the severity of Black Saturday?",
+        question: "ERROR: Questions failed to load from JSON file. If you see this, the questionnaire loading system is not working correctly.",
         type: "multiple-choice",
         options: [
-            "High temperatures and strong winds",
-            "Heavy rainfall and flooding",
-            "Snow and freezing temperatures",
-            "Mild conditions with light breeze"
+            "JSON file not found",
+            "Network error loading questions",
+            "Invalid JSON format",
+            "Configuration error"
         ],
         correctAnswer: 0
-    },
-    {
-        id: 2,
-        question: "How did the fire behavior differ from typical bushfires?",
-        type: "multiple-choice",
-        options: [
-            "It moved slower than usual",
-            "It created its own weather system",
-            "It only burned at night",
-            "It was easily contained"
-        ],
-        correctAnswer: 1
     }
 ];
 
@@ -161,7 +144,7 @@ async function startStudy(event) {
     
     // Initialize video tracking
     initializeVideoTracking();
-    createVideoSegments();
+    // createVideoSegments() is now called in loadCurrentVideo() after segments are loaded
     
     // Initialize speed controls after a slight delay to ensure elements are rendered
     setTimeout(() => {
@@ -252,13 +235,13 @@ function createVideoSegments() {
     const segmentsContainer = document.getElementById('video-segments');
     segmentsContainer.innerHTML = '<h3>Video Segments</h3>';
     
-    // Use currentVideoSegments instead of hardcoded videoSegments
+    // Use currentVideoSegments loaded from JSON files
     const segments = currentVideoSegments.length > 0 ? currentVideoSegments : videoSegments;
     
     segments.forEach((segment, index) => {
         const button = document.createElement('button');
         button.className = 'segment-button';
-        button.textContent = `${segment.name} (${formatTime(segment.start)} - ${formatTime(segment.end)})`;
+        button.textContent = `${segment.name} (${formatTime(segment.start)})`;
         button.addEventListener('click', () => jumpToSegment(segment, index));
         segmentsContainer.appendChild(button);
     });
@@ -1250,15 +1233,26 @@ async function loadCurrentVideo() {
     // Load segments for current video
     await loadVideoSegments(videoInfo.segmentsFile);
     
+    // Create video segments UI after segments are loaded
+    createVideoSegments();
+    
     // Load questions for current video (if exists)
     await loadVideoQuestions(videoInfo);
 }
 
 async function loadVideoSegments(segmentsFile) {
     try {
-        const response = await fetch(`config/group${participantData.studyGroup}/${segmentsFile}`);
+        // Construct path based on segmentType
+        let segmentPath;
+        if (studyGroupConfig.segmentType === "root") {
+            segmentPath = `config/group${participantData.studyGroup}/${segmentsFile}`;
+        } else {
+            segmentPath = `config/group${participantData.studyGroup}/${studyGroupConfig.segmentType}/${segmentsFile}`;
+        }
+        
+        const response = await fetch(segmentPath);
         if (!response.ok) {
-            throw new Error(`Failed to load segments file: ${segmentsFile}`);
+            throw new Error(`Failed to load segments file: ${segmentPath}`);
         }
         currentVideoSegments = await response.json();
         console.log('Loaded video segments:', currentVideoSegments);
@@ -1273,9 +1267,18 @@ async function loadVideoQuestions(videoInfo) {
     try {
         // Try to load questionnaire file for this video
         const questionnaireFile = videoInfo.segmentsFile.replace('_segments.json', '_questionnaire.json');
-        const response = await fetch(`config/group${participantData.studyGroup}/${questionnaireFile}`);
+        
+        // Construct path based on segmentType
+        let questionnairePath;
+        if (studyGroupConfig.segmentType === "root") {
+            questionnairePath = `config/group${participantData.studyGroup}/${questionnaireFile}`;
+        } else {
+            questionnairePath = `config/group${participantData.studyGroup}/${studyGroupConfig.segmentType}/${questionnaireFile}`;
+        }
+        
+        const response = await fetch(questionnairePath);
         if (!response.ok) {
-            throw new Error(`Failed to load questionnaire file: ${questionnaireFile}`);
+            throw new Error(`Failed to load questionnaire file: ${questionnairePath}`);
         }
         currentQuestions = await response.json();
         console.log('Loaded video questions:', currentQuestions);
@@ -1349,8 +1352,7 @@ async function startSecondVideo() {
     document.getElementById('transition-section').style.display = 'none';
     document.getElementById('video-section').style.display = 'block';
     
-    // Reset and recreate video segments
-    createVideoSegments();
+    // createVideoSegments() is now called in loadCurrentVideo() after segments are loaded
     
     // Reset questions section
     resetQuestionsSection();
@@ -1384,11 +1386,9 @@ function resetQuestionsSection() {
 
 // Utility Functions
 function formatTime(seconds) {
-    const hours = Math.floor(seconds / 3600);
-    const minutes = Math.floor((seconds % 3600) / 60);
+    const minutes = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
-    
-    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    return `${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
 }
 
 function formatTimeForDisplay(milliseconds) {
