@@ -13,15 +13,15 @@
     },
     {
         "id": 2,
-        "question": "Which of the following is an idealizing assumption made in the colliding blocks puzzle?",
+        "question": "What stays the same in the equation if there is no friction in the colliding blocks puzzle?",
         "type": "multiple-choice",
         "options": [
-            "Energy is lost in collisions.",
-            "Relativistic effects are taken into account.",
-            "The wall transfers a significant amount of momentum.",
-            "Collisions are perfectly elastic."
+            "Energy",
+            "Speed",
+            "Direction",
+            "Time"
         ],
-        "correctAnswer": 3
+        "correctAnswer": 0
     },
     {
         "id": 3,
@@ -49,13 +49,13 @@
     },
     {
         "id": 5,
-        "question": "According to the source, what is a deeper reason for abstracting away the messiness of the real world in physics and math problems?",
+        "question": "What is the highlighted problem-solving principle in solving the colliding blocks puzzle?",
         "type": "multiple-choice",
         "options": [
-            "It simplifies calculations significantly.",
-            "It reduces the need for experimental verification.",
-            "It exposes hidden connections and allows progress in math.",
-            "It primarily stems from laziness."
+            "Seek symmetry",
+            "Draw pictures",
+            "List equations that might be relevant",
+            "Try a simpler version of the problem"
         ],
         "correctAnswer": 2
     },
@@ -81,13 +81,15 @@
     },
     {
         "id": 8,
-        "question": "Transforming the velocities of the blocks into a state space helps clarify the problem by packaging changing numbers as a single point in a higher-dimensional space.",
-        "type": "true-false",
+        "question": "Who discovered the connection between colliding blocks and the number pi?",
+        "type": "multiple-choice",
         "options": [
-            "True",
-            "False"
+            "Richard Feynman",
+            "John von Neumann",
+            "Stephen Hawking",
+            "Gregory Galperin"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 3
     },
     {
         "id": 9,
@@ -101,7 +103,7 @@
     },
     {
         "id": 10,
-        "question": "The small angle approximation is essential because it shows that the arc tangent of a small number is very close to the number itself, which helps explain the appearance of Pi's digits.",
+        "question": "Distilling a problem into its core essence can expose hidden connections.",
         "type": "true-false",
         "options": [
             "True",
