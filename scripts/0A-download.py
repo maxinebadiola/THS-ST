@@ -100,14 +100,19 @@ def main():
             "filename": "Compute Pi"
         },
         {
+            "title": "Five puzzles for thinking outside the box [3Blue1Brown]",
+            "url": "https://youtu.be/piJkuavhV50?si=6ffc-FKULIt1XLNm",
+            "filename": "Five puzzles"
+        },
+        {
+            "title": "The Dark Side of Science: The Horrific Stanford Prison Experiment 1971 [Plainly Difficult]",
+            "url": "https://youtu.be/OKuu2BVfMhM?si=VSVjf15N4B8n71BR",
+            "filename": "Stanford Prison Experiment"
+        },
+        {
             "title": "The Dark Side of Science: The Robbers Cave Experiment 1954 [Plainly Difficult]",
             "url": "https://youtu.be/FLmHfwkMAaU?si=NMXmq7oOIv_MrHZ1",
             "filename": "Robbers Cave Experiment"
-        },
-        {
-            "title": "Why Was Black Saturday So Deadly? [Plainly Difficult]",
-            "url": "https://youtu.be/aCZixBrrGrs?si=1dIQhXquVlAVLfF_",
-            "filename": "Why Was Black Saturday So Deadly"
         }
     ]
     
