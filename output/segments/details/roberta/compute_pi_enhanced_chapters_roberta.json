@@ -1,9 +1,9 @@
 [
   {
-    "name": "The University Of Bonn The Mass Ratio",
+    "name": "The Same Digits - the University of Bonn",
     "start": 127,
     "original_name": "have you fill hexagon",
-    "score": 6.119555259768167,
+    "score": 5.165573979441325,
     "model": "roberta",
     "segments": [
       {
@@ -118,10 +118,10 @@
     "segment_count": 18
   },
   {
-    "name": "The Original Block Collision Puzzle",
+    "name": "2019: The Original Block Collision Puzzle",
     "start": 232,
     "original_name": "example very trivial way",
-    "score": 5.46772511438223,
+    "score": 6.37992084459158,
     "model": "roberta",
     "segments": [
       {
@@ -206,10 +206,10 @@
     "segment_count": 13
   },
   {
-    "name": "The Leftmost Point - m2 over m1",
+    "name": "360 Degrees Our Momentum Line",
     "start": 331,
     "original_name": "move rotating hexagons when",
-    "score": 7.352974439441456,
+    "score": 6.3719732292287485,
     "model": "roberta",
     "segments": [
       {
@@ -1032,10 +1032,10 @@
     "segment_count": 136
   },
   {
-    "name": "More Than A Half Hour The Example",
+    "name": "more than a half hour: Your Angle",
     "start": 1206,
     "original_name": "start off helps put",
-    "score": 5.502736530720104,
+    "score": 5.877968333183635,
     "model": "roberta",
     "segments": [
       {
@@ -1337,7 +1337,7 @@
     "name": "The Matt Parker's Pi Day Video",
     "start": 1500,
     "original_name": "First you describe squished",
-    "score": 5.692633722282858,
+    "score": 6.292633722282858,
     "model": "roberta",
     "segments": [
       {

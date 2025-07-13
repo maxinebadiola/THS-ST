@@ -226,10 +226,10 @@
     "segment_count": 36
   },
   {
-    "name": "Their Own In-Group - 12-year-old",
+    "name": "The Summer Of 1949 The Experimenters",
     "start": 357,
     "original_name": "little bit",
-    "score": 6.288799938036047,
+    "score": 6.52315824873551,
     "model": "roberta",
     "segments": [
       {
@@ -374,10 +374,10 @@
     "segment_count": 23
   },
   {
-    "name": "Sharif: A Long Story",
+    "name": "1953 Group Activities",
     "start": 509,
     "original_name": "although tensions still existed",
-    "score": 5.3297522685018075,
+    "score": 6.256245317169715,
     "model": "roberta",
     "segments": [
       {
@@ -558,10 +558,10 @@
     "segment_count": 29
   },
   {
-    "name": "Stage 1: Both Groups",
+    "name": "Stage 1 The Two'S Activities",
     "start": 710,
     "original_name": "team building exercises",
-    "score": 6.523204299545287,
+    "score": 6.4356842962265,
     "model": "roberta",
     "segments": [
       {
@@ -706,10 +706,10 @@
     "segment_count": 23
   },
   {
-    "name": "Stage 2 Their First, Close Quarters Contact",
+    "name": "The First Day The Rattlers",
     "start": 880,
     "original_name": "noticeable microculture",
-    "score": 7.288603068042622,
+    "score": 7.905554772067892,
     "model": "roberta",
     "segments": [
       {
@@ -890,10 +890,10 @@
     "segment_count": 29
   },
   {
-    "name": "Eagle The Rattlers",
+    "name": "Eagle: The Team'S Nick",
     "start": 1084,
     "original_name": "thus increasing",
-    "score": 6.358451985626219,
+    "score": 6.712653421669005,
     "model": "roberta",
     "segments": [
       {
@@ -1020,10 +1020,10 @@
     "segment_count": 20
   },
   {
-    "name": "The A Defeated Group",
+    "name": "The Racial, Religious Or Cultural Backgrounds",
     "start": 1221,
     "original_name": "defeated group",
-    "score": 4.8023272428766886,
+    "score": 4.97946688273112,
     "model": "roberta",
     "segments": [
       {
@@ -1120,10 +1120,10 @@
     "segment_count": 15
   },
   {
-    "name": "Cedar Lake Even A Food Fight",
+    "name": "The Next Day The Intergroup Friction",
     "start": 1315,
     "original_name": "wait near",
-    "score": 6.007570845031737,
+    "score": 6.389101129913329,
     "model": "roberta",
     "segments": [
       {
@@ -1322,10 +1322,10 @@
     "segment_count": 32
   },
   {
-    "name": "1953: The Better Nature",
+    "name": "1953: The Children'S Actions",
     "start": 1530,
     "original_name": "low status individuals",
-    "score": 5.7940487668143374,
+    "score": 6.171779970847235,
     "model": "roberta",
     "segments": [
       {
@@ -1548,10 +1548,10 @@
     "segment_count": 36
   },
   {
-    "name": "The My Ethical Scale",
+    "name": "The Informed Consent",
     "start": 1794,
     "original_name": "1953 study actually proved",
-    "score": 4.627225264294942,
+    "score": 4.316313489659627,
     "model": "roberta",
     "segments": [
       {

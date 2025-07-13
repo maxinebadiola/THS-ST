@@ -1,9 +1,9 @@
 [
   {
-    "name": "Zimbardo A Prison Scene",
+    "name": "Zimbardo The Stanford Prison Experiment",
     "start": 64,
     "original_name": "stanford prison experiment",
-    "score": 6.799830938720702,
+    "score": 7.713389231109618,
     "model": "mpnet",
     "segments": [
       {
@@ -202,10 +202,10 @@
     "segment_count": 32
   },
   {
-    "name": "The Guards and Prisoners",
+    "name": "the day: Deliberately Vague Instructions",
     "start": 291,
     "original_name": "understand anti",
-    "score": 6.205953190474077,
+    "score": 6.356947682051225,
     "model": "mpnet",
     "segments": [
       {
@@ -344,10 +344,10 @@
     "segment_count": 22
   },
   {
-    "name": "nearly 24 hours: Their Fingerprints",
+    "name": "nearly 24 hours: The Prison",
     "start": 497,
     "original_name": "given deliberately vague instructions",
-    "score": 6.385380070180478,
+    "score": 6.4409825253196376,
     "model": "mpnet",
     "segments": [
       {
@@ -492,10 +492,10 @@
     "segment_count": 23
   },
   {
-    "name": "The Night The Prisoner",
+    "name": "the next two weeks: The Prison",
     "start": 669,
     "original_name": "remain silent",
-    "score": 7.278915181145301,
+    "score": 7.127105965599647,
     "model": "mpnet",
     "segments": [
       {
@@ -580,10 +580,10 @@
     "segment_count": 13
   },
   {
-    "name": "Monday: The Prisoner",
+    "name": "A New Prisoner - Monday",
     "start": 763,
     "original_name": "rudely awakened",
-    "score": 6.89856933716668,
+    "score": 6.935876838005913,
     "model": "mpnet",
     "segments": [
       {
@@ -806,10 +806,10 @@
     "segment_count": 36
   },
   {
-    "name": "Palo Alto Police Department The Prisoner",
+    "name": "Zimbardo The Remaining Inmates",
     "start": 1006,
     "original_name": "palo alto police department",
-    "score": 6.75964325709025,
+    "score": 6.832309902140299,
     "model": "mpnet",
     "segments": [
       {
@@ -996,10 +996,10 @@
     "segment_count": 30
   },
   {
-    "name": "all night: Arbitrary Punishment",
+    "name": "The Day Before The Experimenters",
     "start": 1221,
     "original_name": "parole board meeting",
-    "score": 6.372944007710047,
+    "score": 6.291197524860927,
     "model": "mpnet",
     "segments": [
       {
@@ -1174,10 +1174,10 @@
     "segment_count": 28
   },
   {
-    "name": "The Stanford Prison Experiment The Encounter Groups",
+    "name": "Zimbardo The Stanford Prison Experiment",
     "start": 1420,
     "original_name": "challenging immoral acts",
-    "score": 7.4252564849853515,
+    "score": 7.6380939903259275,
     "model": "mpnet",
     "segments": [
       {
@@ -1280,10 +1280,10 @@
     "segment_count": 16
   },
   {
-    "name": "Zimbardo: The Inmates",
+    "name": "David Jaffy: Zimbardo'S Conclusions",
     "start": 1530,
     "original_name": "zimbardo interpreted",
-    "score": 7.665137588958739,
+    "score": 7.60643967388153,
     "model": "mpnet",
     "segments": [
       {
@@ -1410,10 +1410,10 @@
     "segment_count": 20
   },
   {
-    "name": "The A Stanford County Jail",
+    "name": "Stanford County Any Adverse Effects",
     "start": 1715,
     "original_name": "much harder stanford",
-    "score": 5.560445779876709,
+    "score": 6.1485190335083,
     "model": "mpnet",
     "segments": [
       {

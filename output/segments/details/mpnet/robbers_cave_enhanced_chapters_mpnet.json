@@ -226,10 +226,10 @@
     "segment_count": 36
   },
   {
-    "name": "Sharif Their Own In-Group",
+    "name": "Sharif: The Experimenters",
     "start": 357,
     "original_name": "little bit",
-    "score": 6.727715429140173,
+    "score": 6.567795928789221,
     "model": "mpnet",
     "segments": [
       {
@@ -374,10 +374,10 @@
     "segment_count": 23
   },
   {
-    "name": "Sharif: A Long Story",
+    "name": "1953 Group Activities",
     "start": 509,
     "original_name": "although tensions still existed",
-    "score": 5.1743204018559945,
+    "score": 6.058869304367591,
     "model": "mpnet",
     "segments": [
       {
@@ -558,10 +558,10 @@
     "segment_count": 29
   },
   {
-    "name": "Stage 1: Both Groups",
+    "name": "Stage 1: The Experimenters",
     "start": 710,
     "original_name": "team building exercises",
-    "score": 6.460033866500853,
+    "score": 6.563726636505126,
     "model": "mpnet",
     "segments": [
       {
@@ -706,10 +706,10 @@
     "segment_count": 23
   },
   {
-    "name": "Stage 2 Their First, Close Quarters Contact",
+    "name": "The First Day The Rattlers",
     "start": 880,
     "original_name": "noticeable microculture",
-    "score": 7.596689463306294,
+    "score": 7.872791529346334,
     "model": "mpnet",
     "segments": [
       {
@@ -890,10 +890,10 @@
     "segment_count": 29
   },
   {
-    "name": "Rattlers The Two Groups",
+    "name": "Rattlers The Team'S Nick",
     "start": 1084,
     "original_name": "thus increasing",
-    "score": 6.92147049835205,
+    "score": 7.013219260482787,
     "model": "mpnet",
     "segments": [
       {
@@ -1020,10 +1020,10 @@
     "segment_count": 20
   },
   {
-    "name": "The A Defeated Group",
+    "name": "Racial, Religious Or Cultural Backgrounds",
     "start": 1221,
     "original_name": "defeated group",
-    "score": 5.129678932215373,
+    "score": 5.410218921686808,
     "model": "mpnet",
     "segments": [
       {
@@ -1120,10 +1120,10 @@
     "segment_count": 15
   },
   {
-    "name": "The Next Day Both Groups",
+    "name": "The Intergroup Friction - The next day",
     "start": 1315,
     "original_name": "wait near",
-    "score": 6.21550093307495,
+    "score": 6.536866766357421,
     "model": "mpnet",
     "segments": [
       {
@@ -1322,10 +1322,10 @@
     "segment_count": 32
   },
   {
-    "name": "1954: Competitive Situations",
+    "name": "1954 The Children'S Actions",
     "start": 1530,
     "original_name": "low status individuals",
-    "score": 5.700723986350165,
+    "score": 6.318232636176215,
     "model": "mpnet",
     "segments": [
       {
@@ -1551,7 +1551,7 @@
     "name": "The My Ethical Scale",
     "start": 1794,
     "original_name": "1953 study actually proved",
-    "score": 4.90375731824239,
+    "score": 4.303757318242391,
     "model": "mpnet",
     "segments": [
       {
