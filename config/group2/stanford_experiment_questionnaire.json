@@ -36,6 +36,7 @@
     {
         "id": 4,
         "question": "Zimbardo faced criticism for taking on the role of Superintendent himself in order to give the guards detailed instructions on how to treat the prisoners.",
+        "type": "true-false",
         "options": [
             "True",
             "False"
