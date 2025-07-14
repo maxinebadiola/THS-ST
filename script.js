@@ -185,55 +185,65 @@ async function startStudy(event) {
     }, 100);
 }
 
+// Global video event tracking function
+function trackVideoEvent(eventType, additionalData = {}) {
+    const video = document.getElementById('main-video');
+    const currentTime = video.currentTime;
+    const currentTimestamp = Date.now();
+    const interaction = {
+        type: eventType,
+        timestamp: currentTimestamp,
+        relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
+        videoTime: currentTime,
+        relativeTime: currentTimestamp - studyStartTime,
+        ...additionalData
+    };
+    
+    participantData.videoInteractions.push(interaction);
+    participantData.totalInteractions++;
+    
+    // Update specific interaction counters
+    switch(eventType) {
+        case 'play':
+            participantData.playCount++;
+            startVideoPlayTimer();
+            break;
+        case 'pause':
+            participantData.pauseCount++;
+            stopVideoPlayTimer();
+            break;
+        case 'seek':
+            participantData.seekCount++;
+            // Determine if it's rewind or forward
+            const timeDiff = currentTime - lastVideoTime;
+            if (timeDiff < -2) { // Rewound by more than 2 seconds
+                participantData.rewindCount++;
+                interaction.seekDirection = 'backward';
+                interaction.seekAmount = Math.abs(timeDiff);
+            } else if (timeDiff > 2) { // Forwarded by more than 2 seconds
+                participantData.forwardCount++;
+                interaction.seekDirection = 'forward';
+                interaction.seekAmount = timeDiff;
+            }
+            break;
+        case 'segment-jump':
+            // Segment jumps are tracked separately but also count toward seek totals
+            participantData.seekCount++;
+            if (interaction.jumpDirection === 'backward') {
+                participantData.rewindCount++;
+            } else if (interaction.jumpDirection === 'forward') {
+                participantData.forwardCount++;
+            }
+            break;
+    }
+    
+    lastVideoTime = currentTime;
+    updateInteractionCounter();
+    updateVideoTimingDisplay();
+}
+
 function initializeVideoTracking() {
     const video = document.getElementById('main-video');
-    
-    // Track specific video events with detailed information
-    const trackVideoEvent = (eventType, additionalData = {}) => {
-        const currentTime = video.currentTime;
-        const currentTimestamp = Date.now();
-        const interaction = {
-            type: eventType,
-            timestamp: currentTimestamp,
-            relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
-            videoTime: currentTime,
-            relativeTime: currentTimestamp - studyStartTime,
-            ...additionalData
-        };
-        
-        participantData.videoInteractions.push(interaction);
-        participantData.totalInteractions++;
-        
-        // Update specific interaction counters
-        switch(eventType) {
-            case 'play':
-                participantData.playCount++;
-                startVideoPlayTimer();
-                break;
-            case 'pause':
-                participantData.pauseCount++;
-                stopVideoPlayTimer();
-                break;
-            case 'seek':
-                participantData.seekCount++;
-                // Determine if it's rewind or forward
-                const timeDiff = currentTime - lastVideoTime;
-                if (timeDiff < -2) { // Rewound by more than 2 seconds
-                    participantData.rewindCount++;
-                    interaction.seekDirection = 'backward';
-                    interaction.seekAmount = Math.abs(timeDiff);
-                } else if (timeDiff > 2) { // Forwarded by more than 2 seconds
-                    participantData.forwardCount++;
-                    interaction.seekDirection = 'forward';
-                    interaction.seekAmount = timeDiff;
-                }
-                break;
-        }
-        
-        lastVideoTime = currentTime;
-        updateInteractionCounter();
-        updateVideoTimingDisplay();
-    };
 
     // Video event listeners with specific tracking
     video.addEventListener('play', () => trackVideoEvent('play'));
@@ -281,21 +291,36 @@ function createVideoSegments() {
 
 function jumpToSegment(segment, index) {
     const video = document.getElementById('main-video');
+    const previousTime = video.currentTime;
     video.currentTime = segment.start;
     
-    // Track segment interaction
+    // Calculate direction and amount of the segment jump
+    const timeDiff = segment.start - previousTime;
+    const jumpDirection = timeDiff >= 0 ? 'forward' : 'backward';
+    const jumpAmount = Math.abs(timeDiff);
+    
+    // Track the segment jump with direction and amount
+    trackVideoEvent('segment-jump', {
+        segmentIndex: index,
+        segmentName: segment.name,
+        jumpDirection: jumpDirection,
+        jumpAmount: jumpAmount,
+        previousVideoTime: previousTime,
+        newVideoTime: segment.start
+    });
+    
     const currentTimestamp = Date.now();
     const segmentInteraction = {
         segmentIndex: index,
         segmentName: segment.name,
         timestamp: currentTimestamp,
         relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
-        relativeTime: currentTimestamp - studyStartTime
+        relativeTime: currentTimestamp - studyStartTime,
+        jumpDirection: jumpDirection,
+        jumpAmount: jumpAmount
     };
     
     participantData.segmentInteractions.push(segmentInteraction);
-    participantData.totalInteractions++;
-    updateInteractionCounter();
     
     // Update segment button states
     document.querySelectorAll('.segment-button').forEach((btn, i) => {
