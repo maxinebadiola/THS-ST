@@ -39,6 +39,9 @@ let totalVideoPlayTime = 0;
 let lastVideoTime = 0;
 let sessionTimer = null;
 let watchTimer = null;
+let isSeeking = false;
+let seekTimeout = null;
+let seekProcessed = false;
 
 // Playback speed tracking variables
 let currentPlaybackSpeed = 1.0;
@@ -238,7 +241,29 @@ function initializeVideoTracking() {
     // Video event listeners with specific tracking
     video.addEventListener('play', () => trackVideoEvent('play'));
     video.addEventListener('pause', () => trackVideoEvent('pause'));
-    video.addEventListener('seeked', () => trackVideoEvent('seek'));
+    video.addEventListener('seeking', () => {
+        if (!isSeeking) {
+            isSeeking = true;
+            seekProcessed = false; // Reset the processed flag when a new seek starts
+        }
+    });
+    video.addEventListener('seeked', () => {
+        if (isSeeking && !seekProcessed) {
+            // Clear any existing timeout
+            if (seekTimeout) {
+                clearTimeout(seekTimeout);
+            }
+            // Set a new timeout to track the seek after a brief delay
+            seekTimeout = setTimeout(() => {
+                if (!seekProcessed) { // Double-check to prevent race conditions
+                    trackVideoEvent('seek');
+                    isSeeking = false;
+                    seekProcessed = true;
+                    seekTimeout = null;
+                }
+            }, 100); // 100ms delay to ensure seeking is complete
+        }
+    });
     
     // Track when video ends
     video.addEventListener('ended', () => {
