@@ -46,8 +46,8 @@ let speedStartTime = null;
 let lastSpeedUsageUpdate = null;
 
 // UI Configuration variables (SET TO FALSE FOR ACTUAL STUDY)
-const adminPanel = true;  // Set to false to hide admin panel completely
-const statsPanel = true;  // Set to false to hide interaction statistics panel
+const adminPanel = false;  // Set to false to hide admin panel completely
+const statsPanel = false;  // Set to false to hide interaction statistics panel
 
 // Study group configuration
 let studyGroupConfig = null;
