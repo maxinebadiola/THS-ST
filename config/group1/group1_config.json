@@ -5,7 +5,7 @@
     "filename": "Compute Pi.mp4",
     "title": "There's more to those colliding blocks that compute pi",
     "segmentsFile": "compute_pi_segments.json",
-    "segmentType": "creator"
+    "segmentType": "clipview"
   },
   "secondVideo": {
     "filename": "Five puzzles.mp4",
