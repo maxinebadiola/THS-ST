@@ -389,19 +389,19 @@ function renderCurrentQuestion() {
             </div>
             <div class="confidence-section" id="confidence-section">
                 <div class="confidence-header">How confident are you in your answer?</div>
-                <div class="confidence-row">
-                    <span class="confidence-label-left">NOT CONFIDENT</span>
-                    <div class="confidence-radio-group">
-                        <div class="confidence-options">
-                            ${[1,2,3,4,5].map(val => `
-                                <label class="confidence-radio">
-                                    <input type="radio" name="confidence" value="${val}">
-                                    <span class="confidence-num">${val}</span>
-                                </label>
-                            `).join('')}
-                        </div>
-                    </div>
-                    <span class="confidence-label-right">VERY CONFIDENT</span>
+                <div class="confidence-options">
+                    ${[
+                        { value: 1, label: "1. Very Unconfident" },
+                        { value: 2, label: "2. Slightly Unconfident" },
+                        { value: 3, label: "3. Neither Confident nor Unconfident" },
+                        { value: 4, label: "4. Slightly Confident" },
+                        { value: 5, label: "5. Very Confident" }
+                    ].map(option => `
+                        <label class="confidence-radio">
+                            <input type="radio" name="confidence" value="${option.value}">
+                            <span class="confidence-label">${option.label}</span>
+                        </label>
+                    `).join('')}
                 </div>
             </div>
             <div class="question-timer">
@@ -468,6 +468,16 @@ function setupQuestionInteraction(question) {
 
     document.querySelectorAll('input[name="confidence"]').forEach(radio => {
         radio.addEventListener('change', function() {
+            // Remove selected class from all confidence options
+            document.querySelectorAll('.confidence-radio').forEach(option => {
+                option.classList.remove('selected');
+            });
+            
+            // Add selected class to the parent label of the checked radio
+            if (this.checked) {
+                this.closest('.confidence-radio').classList.add('selected');
+            }
+            
             confidenceSelected = true;
             updateNextButtonState();
         });

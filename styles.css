@@ -869,115 +869,72 @@ body {
     font-size: 1.1rem;
     font-weight: 600;
     color: #f1f5f9;
-    margin-bottom: 8px;
-    text-align: center;
-}
-.confidence-section .confidence-labels {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.05rem;
-    color: #cbd5e1;
-    font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0;
-    width: 100%;
-}
-.confidence-section .confidence-labels span {
-    font-weight: 700;
-    color: #f1f5f9;
-}
-.confidence-section .confidence-options {
-    display: flex;
-    gap: 32px;
-    justify-content: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 100%;
-}
-.confidence-section .confidence-labels,
-.confidence-section .confidence-options {
-    /* Place labels and buttons in a single row */
-    flex: 1 1 auto;
-}
-.confidence-section .confidence-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
-    width: 100%;
-}
-.confidence-label-left,
-.confidence-label-right {
-    font-weight: 700;
-    color: #f1f5f9;
-    font-size: 1.08rem;
-    min-width: 110px;
-    text-align: center;
+    margin-bottom: 16px;
+    text-align: left;
 }
 
-.confidence-radio-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.confidence-radio input[type="radio"] {
-    width: 2.7em;
-    height: 2.7em;
-    accent-color: #6366f1;
-    margin-bottom: 0;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(99,102,241,0.10);
-    border-radius: 50%;
-    border: 2px solid #6366f1;
-    transition: box-shadow 0.2s, border-color 0.2s;
-}
-.confidence-radio input[type="radio"]:hover,
-.confidence-radio input[type="radio"]:focus {
-    box-shadow: 0 0 0 4px rgba(99,102,241,0.18);
-    border-color: #4338ca;
-}
-
+/* Vertical confidence options */
 .confidence-options {
     display: flex;
-    gap: 32px;
-    justify-content: center;
-    margin-top: 0;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
     margin-bottom: 0;
     width: 100%;
 }
 
-/* Ensure the number labels are centered under the radio buttons */
 .confidence-radio {
     display: flex;
-    flex-direction: column;
     align-items: center;
     cursor: pointer;
-    position: relative;
-    width: 2.7em;
+    padding: 10px 12px;
+    background-color: #475569;
+    border: 2px solid #64748b;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.confidence-radio:hover {
+    background-color: #64748b;
+    border-color: #94a3b8;
+}
+
+.confidence-radio.selected {
+    background-color: #4338ca;
+    border-color: #6366f1;
 }
 
 .confidence-radio input[type="radio"] {
-    width: 2.7em;
-    height: 2.7em;
+    width: 1.2em;
+    height: 1.2em;
     accent-color: #6366f1;
-    margin-bottom: 2px;
+    margin-right: 12px;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(99,102,241,0.10);
-    border-radius: 50%;
-    border: 2px solid #6366f1;
-    transition: box-shadow 0.2s, border-color 0.2s;
+    transition: all 0.2s ease;
 }
 
-.confidence-radio .confidence-num {
-    font-size: 1.15rem;
-    color: #6366f1;
+.confidence-radio .confidence-label {
+    font-size: 1rem;
+    color: #e2e8f0;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+}
+
+.confidence-radio.selected .confidence-label {
+    color: white;
     font-weight: 600;
-    text-align: center;
-    margin: 0;
-    width: 100%;
+}
+
+/* Remove old styles that are no longer needed */
+.confidence-section .confidence-labels,
+.confidence-section .confidence-row,
+.confidence-label-left,
+.confidence-label-right,
+.confidence-radio-group,
+.confidence-radio .confidence-num {
+    display: none;
 }
 
 /* Transition Section Styles */
@@ -1133,32 +1090,22 @@ body {
     }
     
     /* Confidence selector mobile styles */
-    .confidence-row {
-        flex-direction: column;
-        gap: 12px;
-    }
-    
-    .confidence-label-left,
-    .confidence-label-right {
-        font-size: 1rem;
-        min-width: auto;
-    }
-    
     .confidence-options {
-        gap: 24px;
-    }
-    
-    .confidence-radio input[type="radio"] {
-        width: 2.3em;
-        height: 2.3em;
+        gap: 10px;
     }
     
     .confidence-radio {
-        width: 2.3em;
+        padding: 8px 10px;
     }
     
-    .confidence-radio .confidence-num {
-        font-size: 1rem;
+    .confidence-radio input[type="radio"] {
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+    
+    .confidence-radio .confidence-label {
+        font-size: 0.9rem;
     }
 }
 
