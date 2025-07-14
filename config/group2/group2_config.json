@@ -5,7 +5,7 @@
     "filename": "Robbers Cave Experiment.mp4",
     "title": "The Robbers Cave Experiment",
     "segmentsFile": "robbers_cave_segments.json",
-    "segmentType": "creator"
+    "segmentType": "clipview"
   },
   "secondVideo": {
     "filename": "Stanford Experiment.mp4",
