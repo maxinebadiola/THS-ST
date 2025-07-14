@@ -49,8 +49,8 @@ let speedStartTime = null;
 let lastSpeedUsageUpdate = null;
 
 // UI Configuration variables (SET TO FALSE FOR ACTUAL STUDY)
-const adminPanel = true;  // Set to false to hide admin panel completely
-const statsPanel = true;  // Set to false to hide interaction statistics panel
+const adminPanel = false;  // Set to false to hide admin panel completely
+const statsPanel = false;  // Set to false to hide interaction statistics panel
 
 // Study group configuration
 let studyGroupConfig = null;
@@ -188,55 +188,65 @@ async function startStudy(event) {
     }, 100);
 }
 
+// Global video event tracking function
+function trackVideoEvent(eventType, additionalData = {}) {
+    const video = document.getElementById('main-video');
+    const currentTime = video.currentTime;
+    const currentTimestamp = Date.now();
+    const interaction = {
+        type: eventType,
+        timestamp: currentTimestamp,
+        relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
+        videoTime: currentTime,
+        relativeTime: currentTimestamp - studyStartTime,
+        ...additionalData
+    };
+    
+    participantData.videoInteractions.push(interaction);
+    participantData.totalInteractions++;
+    
+    // Update specific interaction counters
+    switch(eventType) {
+        case 'play':
+            participantData.playCount++;
+            startVideoPlayTimer();
+            break;
+        case 'pause':
+            participantData.pauseCount++;
+            stopVideoPlayTimer();
+            break;
+        case 'seek':
+            participantData.seekCount++;
+            // Determine if it's rewind or forward
+            const timeDiff = currentTime - lastVideoTime;
+            if (timeDiff < -2) { // Rewound by more than 2 seconds
+                participantData.rewindCount++;
+                interaction.seekDirection = 'backward';
+                interaction.seekAmount = Math.abs(timeDiff);
+            } else if (timeDiff > 2) { // Forwarded by more than 2 seconds
+                participantData.forwardCount++;
+                interaction.seekDirection = 'forward';
+                interaction.seekAmount = timeDiff;
+            }
+            break;
+        case 'segment-jump':
+            // Segment jumps are tracked separately but also count toward seek totals
+            participantData.seekCount++;
+            if (interaction.jumpDirection === 'backward') {
+                participantData.rewindCount++;
+            } else if (interaction.jumpDirection === 'forward') {
+                participantData.forwardCount++;
+            }
+            break;
+    }
+    
+    lastVideoTime = currentTime;
+    updateInteractionCounter();
+    updateVideoTimingDisplay();
+}
+
 function initializeVideoTracking() {
     const video = document.getElementById('main-video');
-    
-    // Track specific video events with detailed information
-    const trackVideoEvent = (eventType, additionalData = {}) => {
-        const currentTime = video.currentTime;
-        const currentTimestamp = Date.now();
-        const interaction = {
-            type: eventType,
-            timestamp: currentTimestamp,
-            relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
-            videoTime: currentTime,
-            relativeTime: currentTimestamp - studyStartTime,
-            ...additionalData
-        };
-        
-        participantData.videoInteractions.push(interaction);
-        participantData.totalInteractions++;
-        
-        // Update specific interaction counters
-        switch(eventType) {
-            case 'play':
-                participantData.playCount++;
-                startVideoPlayTimer();
-                break;
-            case 'pause':
-                participantData.pauseCount++;
-                stopVideoPlayTimer();
-                break;
-            case 'seek':
-                participantData.seekCount++;
-                // Determine if it's rewind or forward
-                const timeDiff = currentTime - lastVideoTime;
-                if (timeDiff < -2) { // Rewound by more than 2 seconds
-                    participantData.rewindCount++;
-                    interaction.seekDirection = 'backward';
-                    interaction.seekAmount = Math.abs(timeDiff);
-                } else if (timeDiff > 2) { // Forwarded by more than 2 seconds
-                    participantData.forwardCount++;
-                    interaction.seekDirection = 'forward';
-                    interaction.seekAmount = timeDiff;
-                }
-                break;
-        }
-        
-        lastVideoTime = currentTime;
-        updateInteractionCounter();
-        updateVideoTimingDisplay();
-    };
 
     // Video event listeners with specific tracking
     video.addEventListener('play', () => trackVideoEvent('play'));
@@ -306,21 +316,36 @@ function createVideoSegments() {
 
 function jumpToSegment(segment, index) {
     const video = document.getElementById('main-video');
+    const previousTime = video.currentTime;
     video.currentTime = segment.start;
     
-    // Track segment interaction
+    // Calculate direction and amount of the segment jump
+    const timeDiff = segment.start - previousTime;
+    const jumpDirection = timeDiff >= 0 ? 'forward' : 'backward';
+    const jumpAmount = Math.abs(timeDiff);
+    
+    // Track the segment jump with direction and amount
+    trackVideoEvent('segment-jump', {
+        segmentIndex: index,
+        segmentName: segment.name,
+        jumpDirection: jumpDirection,
+        jumpAmount: jumpAmount,
+        previousVideoTime: previousTime,
+        newVideoTime: segment.start
+    });
+    
     const currentTimestamp = Date.now();
     const segmentInteraction = {
         segmentIndex: index,
         segmentName: segment.name,
         timestamp: currentTimestamp,
         relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
-        relativeTime: currentTimestamp - studyStartTime
+        relativeTime: currentTimestamp - studyStartTime,
+        jumpDirection: jumpDirection,
+        jumpAmount: jumpAmount
     };
     
     participantData.segmentInteractions.push(segmentInteraction);
-    participantData.totalInteractions++;
-    updateInteractionCounter();
     
     // Update segment button states
     document.querySelectorAll('.segment-button').forEach((btn, i) => {
@@ -389,19 +414,19 @@ function renderCurrentQuestion() {
             </div>
             <div class="confidence-section" id="confidence-section">
                 <div class="confidence-header">How confident are you in your answer?</div>
-                <div class="confidence-row">
-                    <span class="confidence-label-left">NOT CONFIDENT</span>
-                    <div class="confidence-radio-group">
-                        <div class="confidence-options">
-                            ${[1,2,3,4,5].map(val => `
-                                <label class="confidence-radio">
-                                    <input type="radio" name="confidence" value="${val}">
-                                    <span class="confidence-num">${val}</span>
-                                </label>
-                            `).join('')}
-                        </div>
-                    </div>
-                    <span class="confidence-label-right">VERY CONFIDENT</span>
+                <div class="confidence-options">
+                    ${[
+                        { value: 1, label: "1. Very Unconfident" },
+                        { value: 2, label: "2. Slightly Unconfident" },
+                        { value: 3, label: "3. Neither Confident nor Unconfident" },
+                        { value: 4, label: "4. Slightly Confident" },
+                        { value: 5, label: "5. Very Confident" }
+                    ].map(option => `
+                        <label class="confidence-radio">
+                            <input type="radio" name="confidence" value="${option.value}">
+                            <span class="confidence-label">${option.label}</span>
+                        </label>
+                    `).join('')}
                 </div>
             </div>
             <div class="question-timer">
@@ -468,6 +493,16 @@ function setupQuestionInteraction(question) {
 
     document.querySelectorAll('input[name="confidence"]').forEach(radio => {
         radio.addEventListener('change', function() {
+            // Remove selected class from all confidence options
+            document.querySelectorAll('.confidence-radio').forEach(option => {
+                option.classList.remove('selected');
+            });
+            
+            // Add selected class to the parent label of the checked radio
+            if (this.checked) {
+                this.closest('.confidence-radio').classList.add('selected');
+            }
+            
             confidenceSelected = true;
             updateNextButtonState();
         });
