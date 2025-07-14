@@ -8,7 +8,7 @@
     "segmentType": "clipview"
   },
   "secondVideo": {
-    "filename": "Stanford Experiment.mp4",
+    "filename": "Stanford Prison Experiment.mp4",
     "title": "The Horrific Stanford Prison Experiment", 
     "segmentsFile": "stanford_experiment_segments.json",
     "segmentType": "creator"
