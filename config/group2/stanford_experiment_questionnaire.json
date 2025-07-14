@@ -26,12 +26,12 @@
         "question": "How much were participants paid per day for their participation?",
         "type": "multiple-choice",
         "options": [
+            "$5",
             "$10",
             "$15",
-            "$20",
-            "$25"
+            "$20"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 2
     },
     {
         "id": 4,
@@ -69,12 +69,12 @@
         "question": "On which day was the experiment ultimately terminated?",
         "type": "multiple-choice",
         "options": [
-            "Day 6",
-            "Day 3",
             "Day 10",
-            "Day 14"
+            "Day 3",
+            "Day 14",
+            "Day 6"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 3
     },
     {
         "id": 8,

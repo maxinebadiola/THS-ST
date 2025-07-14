@@ -48,12 +48,12 @@
         "question": "What were the names of the two groups formed in the experiment?",
         "type": "multiple-choice",
         "options": [
-            "Eagles and Rattlers",
             "Hawks and Doves",
             "Lions and Tigers",
+            "Eagles and Rattlers",
             "Bears and Wolves"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 2
     },
     {
         "id": 6,
@@ -93,15 +93,15 @@
         "type": "multiple-choice",
         "options": [
             "Separating the groups permanently",
-            "Introducing superordinate goals requiring cooperation",
             "Punishing aggressive behavior",
-            "Giving rewards to the winning group"
+            "Giving rewards to the winning group",
+            "Introducing superordinate goals requiring cooperation"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 3
     },
     {
         "id": 10,
-        "question": "The experiment demonstrated that realistic conflict theory can explain how arbitrary group divisions lead to hostility.",
+        "question": "The eagles set the rattler's flag on fire after the first tug of war competition.",
         "type": "true-false",
         "options": [
             "True",
