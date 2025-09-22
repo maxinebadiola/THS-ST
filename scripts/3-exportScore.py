@@ -1,7 +1,11 @@
+import re
+import pandas as pd
+from IPython.display import display
+
 #files
 timestamps_path = "output/timestamps.txt"
 scores_path = "output/scored_transcript.txt"
-output_csv = "output/bert_output.csv"
+output_csv = "output/scores/_bert_output.csv"
 
 #load and clean timestamps
 with open(timestamps_path, 'r', encoding='utf-8') as f:
@@ -25,7 +29,7 @@ with open(scores_path, 'r', encoding='utf-8') as f:
 print(f"{len(score_lines)} scored lines loaded")
 
 score_data = []
-score_pattern = re.compile(r'\[Score: (.*?)\] (.+)')
+score_pattern = re.compile(r'^(\d+\.\d+) (.+)$')
 
 for line in score_lines:
     match = score_pattern.match(line)
