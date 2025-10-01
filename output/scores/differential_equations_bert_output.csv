@@ -1,0 +1,207 @@
+score,start,end,transcript
+0.5325,0.03,2.95,Imagine zooming in on a single neuron in your brain.
+0.453,2.95,6.48,"At first glance, it might seem like a simple device."
+0.3684,6.48,11.64,"It receives inputs, and if they are strong enough, it fires an output impulse."
+0.7355,11.64,15.69,But this view messes one of the most fascinating aspects of neural behavior.
+0.9643,15.69,18.21,It's intricate dynamics in time.
+0.6059,18.21,21.73,Neurons are not static input to output machines.
+0.7106,21.73,28.54,"They are sophisticated temporal computers, changing their state and responsiveness from moment to moment."
+0.7622,28.54,41.16,"How a given neuron response to input depends not only on that very input, but also on what this neuron was doing a millisecond ago, a second ago, or even minutes in the past."
+0.809,41.16,49.38,This temporal complexity is the key to understanding how the brain generates such a rich variety of thoughts and behaviors.
+0.8372,49.38,55.97,A beautiful branch of mathematics that describes exactly these phenomena is called dynamical systems theory.
+0.965,55.97,68.33,"It deals with differential equations, but despite this intimidating name, most of the insights it offers actually can be grasped without a single formula simply by looking at pictures."
+0.474,68.33,72.37,"In this video, which is the first one in upcoming series, we'll lay the foundation."
+1.0,72.37,81.22,"We'll introduce what differential equations even are and discuss important concepts such as equilibrium points, phase portraits, and limit cycles."
+0.8797,81.22,93.55,"And in later videos, we'll take the groundwork established today and apply it to neuronal dynamics to gain a geometric intuition behind phenomena such as spiking, bursting, or adaptation."
+0.2455,93.55,95.94,"If you're interested, stay tuned."
+0.8412,95.94,108.53,"At its core, dynamical system theory is about studying how things change over time."
+0.7387,108.53,112.99,"A system, the thing that is changing, can be pretty much anything."
+0.6543,112.99,121.04,"A neuron firing, a population of animals interacting, a leaf floating in the water, or even the global climate."
+0.7629,121.04,126.53,The key is having a way to describe the system state at any given point.
+0.8003,126.53,129.32,This is where the idea of state variables comes in.
+0.8264,129.32,136.82,"These are real numbers that, when known, fully determined the state of the system, everything that you might care about."
+0.4908,136.82,142.44,"For instance, consider a ball moving through a three-dimensional space."
+0.4001,142.44,163.72,"To fully describe its state at any given time point, assuming you know of the forces that act on it, like gravity or airdrack, all you need to know are the three coordinates x, y, and z numbers that describe its position in space, as well as the three components of the velocity, how fast the ball is moving in those three directions."
+0.861,163.72,174.41,"Once you have those six numbers, You fully know the state of the system in the sense that you can unambiguously predict its trajectory arbitrarily far into the future."
+0.7547,174.41,181.77,"And for a simple pendulum, you only need two state variables, the angle from the vertical and the angular velocity."
+0.7926,181.77,184.6,But what about more complex systems?
+0.5702,184.6,187.5,How can we even know what state variables are?
+0.6838,187.5,193.29,"Well, it depends on the particular system and the level of abstraction you want to characterize it on."
+0.5846,193.29,202.16,"After all, these are all models designed to describe a particular aspect of the real world while discarding all others as irrelevant."
+0.7749,202.16,211.04,"For instance, the two state variables for a pendulum are only justified if we allow ourselves to approximate the pendulum as a single point."
+0.6403,211.04,219.83,"While if we care about its rotation or its deformations or the temperature, we might need a larger set of state variables."
+0.59,219.83,235.39,"In the case of a neuron, when we are talking about its computations, we really care about the electrical properties while discarding other things as irrelevant, such as the concentration of sugar floating around or the DNA being repaired."
+0.6963,235.39,241.22,"Meanwhile, for a biochemist who wants to describe and model these very phenomena, it is the other way around."
+0.7265,241.22,249.13,"As you can see, choosing these state variables, what to describe and what to throw away is kind of an art of its own."
+0.8091,249.13,252.93,We'll talk about what these state variables for a neuron are a bit further in the series.
+0.9906,252.93,261.18,"But for now, let's introduce the formalism of differential equations, that describe how these state variables actually change over time."
+0.8784,261.18,265.07,Imagine you're tracking a population of bacteria in a petri dish.
+0.5307,265.07,268.99,"Initially, you start with a thousand, and then you count them every hour."
+0.4624,268.99,272.9,"After a few hours, you might see a pattern like this."
+0.3603,272.9,275.94,There is clearly some relationship here.
+0.9294,275.94,281.4,"It looks like the number of bacteria, which is the only one state variable, doubles every hour."
+0.6934,281.4,291.9,"We can express this mathematically in the following way, where n of t is the number of bacteria at time t."
+0.2871,291.9,291.9,"Now, here's a question for you."
+0.4389,291.9,296.38,What would the population size be in between those hourly measurements?
+0.1538,296.38,300.49,"For example, if you only came into the room after just 30 minutes."
+0.5759,300.49,306.33,"Well, we know that bacteria don't wait for the one hour mark to suddenly double."
+0.6413,306.33,311.04,"They are dividing continuously, so something must be happening in between those measurements."
+0.4634,311.04,321.84,"Your first guess might be that after 30 minutes, the population size will be exactly half way between 1000 and 2000, so about 1500."
+0.2468,321.84,323.11,But let's dig deeper.
+0.6531,323.11,328.47,"To really understand what's going on, we need to think about how fast the population is growing."
+0.6767,328.47,330.89,What do we call the rate of change?
+0.7794,330.89,334.94,Think of it like a speedometer for our bacteria population.
+0.6036,334.94,347.04,"Just like a car speedometer shows kilometers per hour, how fast you're moving, our bacterial speedometer will show how fast the population is growing in terms of bacteria per unit time."
+0.599,347.04,352.07,We can denote this rate of growth with a little dot above n like this.
+0.3422,352.07,356.51,"In our P3 dish, each bacterium divides independently."
+0.882,356.51,365.04,"That means that at any given moment, the rate with which new bacteria are appearing is proportional to the number of bacteria already there."
+0.5808,365.04,367.55,We can write this as an equation.
+0.7529,367.55,378.03,"The constant K represents the fraction of the population that are dividing at any given moment, and it depends on things like temperature or food availability."
+0.7473,378.03,382.31,This simple look in formula is actually a very big deal in mathematics.
+0.9095,382.31,389.64,"This is called a differential equation, and it relates a value of equality to its rate of change."
+0.938,389.64,397.92,"differential equations are the language of dynamical systems, describing how things change over time, from physics to neuroscience."
+0.9568,397.92,401.9,Let's zoom in even closer on this concept of a rate of change.
+0.6308,401.9,412.1,"In mathematics, we call it a derivative, and there is a special way of writing it as dn over dt, equivalent to the dot notation we used earlier."
+0.8322,412.1,428.96,"Imagine dn as a tiny change in the number of bacteria, and dt as a tiny step in time, The derivative dn over dt represents how much n changes when we take an infinitely small step dt into the future."
+0.74,428.96,443.01,"If you imagine the population size over time as a graph, then the derivative, the value of our speedometer at any given time, corresponds to the slope of the line tangent to the graph at that point."
+0.6719,443.01,457.13,"In real world, of course, we cannot have a fraction of a bacterium, but it's useful to think of the population as changing smoothly and continuously, growing by very small amounts as you take very small time steps into the future."
+0.7572,457.13,463.9,It lets us rely on the apparatus of calculus that describes and analyzes continuous processes.
+0.3333,463.9,466.69,"Now, this is where things get interesting."
+0.8388,466.69,474.78,"When we move from pure math to the practical world of computation and modeling, we need to make a subtle but a very important shift."
+0.9221,474.78,480.88,"Instead of dealing with infinitely small changes, we'll work with still small but measurable steps."
+0.46,480.88,494.24,"To highlight this difference, we'll use the symbol delta instead of d."
+0.7039,494.24,494.24,So delta n represents a small but not infinitesimal change to n and delta t a small but not infinitely small step in time.
+0.9294,494.24,501.15,"This shift is at the heart of numerical methods, which we'll rely on throughout the video series."
+0.485,501.15,504.7,Let's see how it works in practice.
+0.619,504.7,509.79,Imagine we decide to measure our population every 5 minutes instead of every hour.
+0.7236,509.79,516.44,5 minutes is small enough that we can reasonably assume the rate of change doesn't vary much during that time.
+0.5834,516.44,524.21,"This corresponds to the idea that if you zoom in close enough on the graph of a curve, it starts to look like a straight line."
+0.7205,524.21,526.97,Let's work through an example.
+0.7528,526.97,533.39,Suppose we start with a thousand bacteria and we know that k equals 1 when time is measured in hours.
+0.9534,533.39,537.51,This means that our rate of change equation becomes the following.
+0.656,537.51,547.49,"So when we have a thousand bacteria, they are multiplying at a rate of a thousand bacteria per hour or about 17 every minute."
+0.6006,547.49,555.33,"After 5 minutes, we estimate the population size to become a thousand and eighty-five bacteria instead."
+0.6805,555.33,563.63,Now we update our rate of change based on this new population size to become 18 bacteria per minute instead of 17.
+0.8126,563.63,568.22,So we can estimate the population size for the next 5 minute time step.
+0.63,568.22,573.9,and we can keep repeating this process to estimate the population for any future time.
+0.8473,573.9,579.1,This is the essence of solving differential equations with numerical methods.
+0.7567,579.1,592.86,Those of you who immediately recognize this formula as the equation for exponential growth might be wondering why we are spending so much time on this computational approach when this particular equation can be much more easily solved analytically.
+0.3643,592.86,595.18,"And you'd be right, but the reason is simple."
+0.671,595.18,608.04,"For most of the differential equations out there, including the ones governing the neuronal dynamics, such an analytical solution that would allow us to jump ahead multiple computational steps simply does not exist."
+0.6858,608.04,612.87,"numerically however, we can solve basically any differential equation imaginable."
+0.393,612.87,616.81,There are several important differences between those two approaches.
+0.6813,616.81,624.9,"The numerical solution requires us to perform many update steps, multiplications and additions to arrive at the result."
+0.493,624.9,629.79,Getting estimates for later time demands more computational effort.
+0.5768,629.79,638.62,"Unlike an analytical solution, we don't have an explicit formula where we can simply plug in values and get result instantly."
+0.574,638.62,643.61,Another crucial aspect is the finite precision of our method.
+0.489,643.61,647.16,"In our example, we used five-minute steps."
+0.6859,647.16,656.91,"But for greater accuracy, we might need to decrease the step size, perhaps updating our estimate every minute or even every second."
+0.7233,656.91,661.48,"The more accurate we want our answer to be, the more computation it requires."
+0.5097,661.48,664.28,there is one more important point to consider.
+0.8678,664.28,673.39,"In our computations, we assumed we somehow knew the underlying value of k that relates the rate of change to the value of the population size."
+0.6236,673.39,677.98,"In reality, however, we don't usually have access to parameters like these."
+0.5013,677.98,691.54,"Instead, we collect a data similar to the table we had in the beginning, and we might need to run multiple computations to try different values of parameters to find the one that would fit our data best."
+0.5667,691.54,697.11,"This process, too, involves finite precision, so inaccuracies are inevitable."
+0.8914,697.11,711.01,"Now that we've established what differential equations actually are and how to solve them, let's talk about the geometric intuition behind dynamical processes and how these equations can help us gain insight into the behavior of the system."
+0.8097,711.01,715.59,"To introduce key concepts, let's explore another fundamental model in biology."
+0.9761,715.59,725.15,"Now we're stepping into the world of coupled differential equations, where we will have multiple state variables and the rate of change of each depends on all the others."
+0.7255,725.15,733.16,"Consider the interactions between coexisting populations in a predator prey model, often illustrated with rabbits and foxes."
+0.4979,733.16,740.09,"As the rabbit population grows, foxes have more food leading to an increase in their numbers."
+0.4447,740.09,746.13,"However, more foxes means more rabbits get eaten, causing the rabbit population to decline."
+0.4597,746.13,753.48,"With fewer rabbits, the fox population shrinks, allowing rabbits to reproduce, and the cycle continues."
+0.8322,753.48,761.83,"This intuitive understanding is certainly compelling, but can we build a simple mathematical model that would describe these oscillations?"
+0.8629,761.83,765.58,Let's start by defining our variables.
+0.5046,765.58,770.26,X will denote the number of rabbits and Y will mean the number of foxes.
+0.8572,770.26,780.57,"We are aiming for a system of equations in this form, where f and j are functions relating the rate of change of each variable to the overall state of the system."
+0.7735,780.57,786.38,"In reality, those functions can contain countless complexities and dependencies on other factors."
+0.9089,786.38,792.24,"However, we are seeking the simplest mathematical model that captures the essence of such oscillations."
+0.4546,792.24,795.59,Let's start with our pre-population.
+0.7931,795.59,804.1,"Rabbits reproduce at a rate proportional to their population, given us the term AX, where A is the positive net growth rate."
+0.4127,804.1,819.03,"Note that there is also an analogous rate for natural deaths, proportional to the population size, but here we are assuming that the birth rate significantly exceeds the natural death rate, so the total population growth rate is positive."
+0.2787,819.03,822.88,Rabbits also get eaten by foxes.
+0.5609,822.88,842.59,We account for this with an interaction term minus b times xy in the equation for x.
+0.6252,842.59,842.59,"This term is proportional to the product of x and y, representing the probability of rabbits and foxes encountering each other, multiplied by the fraction of encounters that lead to rabbits being caught."
+0.7111,842.59,846.97,"Thus, our equation for the prey population is the following."
+0.077,846.97,848.91,Now for the predators.
+0.3679,848.91,855.06,"Foxes benefit from eating rabbits, converting a proportion of that energy into reproduction."
+0.5017,855.06,857.95,This gives us the positive interaction term.
+0.5007,857.95,865.3,"We also include a term for natural deaths, which typically outweights natural births for predators in the absence of prey."
+0.6424,865.3,869.28,This results in the following differential equation for what?
+0.8637,869.28,876.76,"This simple model, or we two couple differential equations, is a very powerful tool for exploring the geometry of dynamical systems."
+0.3566,876.76,878.91,"Now, how do we solve this system?"
+0.6311,878.91,882.77,"As before, we'll rely on numerical methods."
+0.4853,882.77,896.43,"Suppose we know the values for all the four parameters A, B, C, and D."
+0.7981,896.43,896.43,"Given an initial state, we can compute the derivatives, make incremental changes to x and y, repeat this process."
+0.8388,896.43,901.45,"This would give us two curves, showing how each variable changes over time."
+0.7007,901.45,906.93,"However, to gain a deeper insight, let's visualize our data differently."
+0.7471,906.93,921.99,"Instead of plotting time as a horizontal axis and population size as the vertical, imagine a coordinate plane where x-axis represents the number of rabbits and y-axis represents the number of boxes."
+0.6593,921.99,925.36,Notice that there is no time dimension here.
+0.8371,925.36,935.25,"Each point on this plane represents a possible state of our system at a given instant, with time governing the trajectory of switching between the states."
+0.5392,935.25,943.12,Such a coordinate plane that corresponds to different states of the system as a whole is known as the phase space.
+0.8502,943.12,953.61,"In this phase space, each point has two corresponding rates of change, the instantaneous velocities of the rabbit and fox populations."
+0.513,953.61,966.23,"We can represent these as vectors, little arrows coming from each point, with the horizontal component of the arrow given by the derivative of x and the vertical given by the derivative of y."
+0.9061,966.23,973.89,"This graphically shows the mapping between the system's state, xy coordinates, and its rates of change."
+0.855,973.89,984.0,"If we plot these vectors for many points, we create a vector field showing how the system's evolution flows from any starting point."
+0.7146,984.0,986.9,This is known as the phase portrait.
+0.9074,986.9,996.76,"With such visualization, we can gain qualitative insight into system's behavior without doing precise number crunching."
+0.6438,996.76,1002.12,we can simply just visually follow the arrows to get a feeling for the trajectory.
+0.7277,1002.12,1007.44,"With that manual in hand, let's see what interesting dynamics we can observe."
+0.5556,1007.44,1013.67,"First, let's look for special points within our face space, where the system saddles into balance."
+0.6523,1013.67,1020.5,"These are known as equilibrium points, and they correspond to both derivatives being equal to zero."
+0.5634,1020.5,1028.5,"If the system happens to fall in either of those states, it will remain there forever, as there is no mechanism for it to get out."
+0.6232,1028.5,1043.37,"Equilibrium points can be found by setting the right-hand side of our equations to 0, turning differential equations into a system of familiar algebraic equations with two unknowns that are numbers instead of functions."
+0.5681,1043.37,1048.24,Solving this gives us two equilibrium points.
+0.4556,1048.24,1052.39,"0, 0, which means that both populations are extinct."
+0.5971,1052.39,1055.3,It's a trivial but mathematically valid solution.
+0.7643,1055.3,1062.28,"And there is another non-zero equilibrium, which means that there exists a balance between predators and prey."
+0.3201,1062.28,1064.44,Now that's more interesting.
+0.6993,1064.44,1075.1,"In our face portraits, these equilibria appear as points where all arrows shrink to zero, indicating that once you reach that point, there is no way out."
+0.4722,1075.1,1082.65,"Rabbits and foxes will be exactly balanced in each other out, with no changes to the population dynamics."
+0.8241,1082.65,1085.33,But how does the system behave around these points?
+0.4512,1085.33,1088.42,Let's start with the origin.
+0.5535,1088.42,1093.48,"If we are slightly off of this point, let's say a few rabbits, but no foxes, what happens?"
+0.7975,1093.48,1101.55,"Well, our equations tell us that the population of rabbits will continue to grow exponentially, while the population of boxes remains zero."
+0.6085,1101.55,1107.14,"In the face space, that looks like its trajectory moving right along the x-axis."
+0.6831,1107.14,1110.76,The zero-zero equilibrium is unstable.
+0.7989,1110.76,1114.61,The slightest perturbation sends the system away from it.
+0.5075,1114.61,1127.46,"In the other direction though, if we have a few foxes but no rabbits, their population will go down, approaching the point of extinction closer and closer as there is no food for the foxes to reproduce."
+0.7082,1127.46,1130.81,Now what about the non-zero equilibrium?
+0.5523,1130.81,1138.35,"If we start near that point and follow the arrows in our face portrait, we see something remarkable."
+0.8451,1138.35,1144.83,"the populations cycle endlessly around the equilibrium, creating a closed loop."
+0.7116,1144.83,1151.89,"This behavior is called a limit cycle, and it will actually be fundamental when we talk about the excitability of neurons."
+0.7378,1151.89,1157.69,Notice that we never explicitly put any oscillations into our system of equations.
+0.4842,1157.69,1161.46,There are no trig functions or circles in the initial description.
+0.8039,1161.46,1167.7,Limit cycles emerge from this seemingly simple dynamical law of interaction between the two variables.
+0.5484,1167.7,1171.99,"And the reason just one, there are infinitely many cycling orbits."
+0.4316,1171.99,1175.93,Which one you'll end up on depends on the initial conditions.
+0.573,1175.93,1179.72,So far we have fixed a particular set of parameters.
+0.7695,1179.72,1186.03,"Varying the values of A, B, C, and D doesn't fundamentally change the behavior of the system."
+0.6177,1186.03,1194.01,"It only affects the position of the non-zero equilibrium, as well as the exact shape and amplitude of the limit cycle oscillations."
+0.8358,1194.01,1202.5,Slightly more defined our system of equations to account for the limited availability of food to rabbits leads to another interesting behavior.
+0.9106,1202.5,1217.19,"Instead of a large number of cycles that can be realized depending on the initial condition, there is now a single stable equilibrium, which all trajectories converge to, defining the stable balance between rabbits and foxes."
+0.8443,1217.19,1225.72,"As we have seen, even such a simple system, as the predator prey model, can exhibit very rich and complex behaviors."
+0.803,1225.72,1235.16,The idea of a face portrait gives us a powerful visual tool to understand these dynamics without getting lost in the mathematical weeds.
+0.8589,1235.16,1247.74,"Ideas, such as the stability of equilibrium points and the emergence of limit cycles, form the foundation of dynamical system theory, applicable to a variety of fields."
+0.7067,1247.74,1253.04,"Crucially, these same ideas can help us understand the intricate workings of the brain."
+0.8218,1253.04,1259.04,"Neurons, like the populations of rabbits and foxes, can be described as dynamical systems as well."
+0.6431,1259.04,1270.08,"The state variables might represent things like the membrane potential and the state of ion channels instead of the population sizes, but all the underlying principles remain the same."
+0.8379,1270.08,1281.68,"However, to truly understand the differential equations that govern the dynamics of the neuron, we will first have to dive into the world of cellular biophysics, which deserves a dedicated video."
+0.2125,1281.68,1284.1,So stay tuned for that next adventure.
+0.4374,1284.1,1293.97,"In the meantime, if you're interested to learn more about the mathematics we talked about today, you're going to love the message from our today's sponsor, brilliant.org."
+0.4297,1293.97,1297.66,Brilliant is one of the best places to learn math and physics online.
+0.3577,1297.66,1304.15,They offer a wide range of interactive courses that make complex topics accessible and engaging.
+0.4626,1304.15,1311.78,"Such a hands-on approach means that you're not just passively watching, you're actively solving problems and building intuition."
+0.3453,1311.78,1316.13,One course you might find particularly interesting is Vector Calculus.
+0.4323,1316.13,1320.13,It is incredibly relevant to what we discussed today.
+0.472,1320.13,1323.82,Remember those portraits with arrows showing the directions of change?
+0.6445,1323.82,1326.42,That's vector calculus in action.
+0.586,1326.42,1338.65,"This course will help you understand the mathematics behind those vector fields, and much, much more, from surface integrals to diffusion, all in the form of bite-sized, interactive lessons."
+0.2307,1338.65,1340.72,But Brilliant doesn't stop there.
+0.242,1340.72,1345.77,They also have courses on computer science and data analysis.
+0.0,1345.77,1350.55,"No matter what your background and interests are, Brilliant has something for everyone."
+0.4273,1350.55,1354.65,Ready to take your learning to the next level?
+0.1266,1354.65,1367.11,"Head to Brilliant.org slash Ardham Kersonov to get a 30-day free trial of everything Brilliant has to offer, as well as a 20% discount on annual subscription."
+0.1184,1367.11,1372.26,"If you like the video, press the like button, share it with your friends, and subscribe to the channel if you haven't already."
+0.4391,1372.26,1382.79,"Also, consider supporting me on Patreon, where you can find text versions of video scripts containing all the math details, as well as the ability to vote and suggest video topics."
+0.5131,1382.79,1387.16,Stay tuned for more computational neuroscience and machine learning topics coming up.
+0.28,1387.16,1390.38,"Goodbye, and thank you for the interest in the brain."

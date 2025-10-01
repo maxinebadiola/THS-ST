@@ -1,0 +1,287 @@
+score,start,end,transcript
+0.4499,0.03,8.44,I will show you seven tips on how to get so insanely good at Sudoku that you can ignore the difficulty level.
+0.4581,8.44,10.79,The last trick is the best.
+0.5425,10.79,14.03,"And with that, it's solving time."
+0.4449,14.03,20.4,"So tip number one, sometimes you should start with looking for pairs instead of singles."
+0.6295,20.4,26.93,"If you look for single cant restrictions from 1 to 9 to start this puzzle, you're not going to get very far."
+0.4389,26.93,30.3,You will be able to see with this 7 and this 7.
+0.6606,30.3,34.34,"You can solve for 7 right here, but that's about it."
+0.5414,34.34,36.44,There's very few other marks you can make.
+0.7936,36.44,46.64,"However, if you look and scan for 2 digits at a time, Notice here in column 5 that you have a 5 and an 8 in that column."
+0.6124,46.64,48.04,We'll look across the row.
+0.9168,48.04,51.81,You also have a 5 and an 8 in row 5.
+0.8907,51.81,55.34,So work in the 5 and the 8 go here in the middle block.
+0.3941,55.34,57.34,You can only go there and there.
+0.7181,57.34,60.31,"So this is a 5, 8 hidden pair."
+0.7771,60.31,72.07,"And these are the type of two cell restrictions you have to find If you want to solve puzzles like this, especially when you start out with less than 20 starting digits in the grid."
+0.2346,72.07,73.35,"Greetings, friend."
+0.527,73.35,82.83,"If you want to get so insanely good at Sudoku that hard puzzles like this are easy for you, then you have to use the tips and tricks I'm about to show you."
+0.2411,82.83,87.83,"And before I show you the next place to look, I do want to hear from you."
+0.3826,87.83,94.22,Are Sudoku puzzles harder or easier than the listed difficulty level for you?
+0.5272,94.22,100.54,"Please, please, please share that in the comments and help me grow the Internet's best Sudoku community."
+0.6057,100.54,105.35,"Now, this next pair is even harder to spot."
+0.7408,105.35,109.24,But you want to look at the 5 and 9's.
+0.8696,109.24,112.81,"This way, we're going to 5 and 9 be here in column 3."
+0.8475,112.81,117.39,"With this 5 and 9 right there, it cannot be in any of these three cells, right?"
+0.8676,117.39,122.81,"Well, you might notice that there's a 5 and 9 in row 5, so 5 and 9 cannot be there either."
+0.9092,122.81,127.94,"And if you come down to row 9, There's also five and nine right there."
+0.8427,127.94,131.98,So you see how the five nine pair appear here and here.
+0.9068,131.98,139.35,And so it restricts the five and nine to these two cells in column three.
+0.6924,139.35,143.08,This is a five nine hidden pair.
+0.6618,143.08,147.76,And you have to find this if you want to take the next step in this puzzle.
+0.4068,147.76,148.75,Very hard to spot.
+0.3598,148.75,154.79,I bet you did not find this without help from the thumbnail because this is the pair I was talking about.
+0.3877,154.79,158.53,But what it does is it opens you up for tip number two.
+0.5583,158.53,165.29,"So tip number two, you always want to look for the impact on the row, the column, and the block."
+0.7115,165.29,172.7,"Now that you did this 59 right here, Check out what it does for the fours."
+0.8844,172.7,174.72,You have a four coming down column two.
+0.9306,174.72,178.43,And you have a four cutting across row nine.
+0.976,178.43,183.73,"Because of this five nine there, the fours are now restricted to these two cells in block seven."
+0.7701,183.73,192.34,"Since they're in the same column, they're a pointing pair, which means since you've got to have a four line of these spots, you can't put them here or here anymore."
+0.7109,192.34,193.89,And then you've got this four.
+0.8448,193.89,198.33,Now you can solve for four here in block four.
+0.4523,198.33,203.15,And we can do a little bit of marking here to get caught up.
+0.4356,203.15,206.16,You might notice now with this fork cutting across here.
+0.9116,206.16,209.61,You can mark two places for four in block five.
+0.4275,209.61,212.43,And so I will mark restrictions when I can.
+0.7462,212.43,217.46,It's restricted to two spots in any three by three block as we move along with these threes.
+0.8357,217.46,224.39,You have a nice pointing pair of threes here now across row seven here in block nine.
+0.7018,224.39,227.77,And now the five are going to come in handy again.
+0.6286,227.77,232.52,And you had to find this four to set up this next in pair.
+0.9132,232.52,236.12,Where can the four and the five be now across row three?
+0.6248,236.12,239.64,"Through this four or five, they can't be in any of these three spots, right?"
+0.857,239.64,245.85,"Well, now at this pointing pair of fours and this five, four or five cannot be there either."
+0.6183,245.85,251.72,"It can be here, but it cannot be here because of this four and five."
+0.8354,251.72,260.96,"So you start scanning and looking at two digits at a time, you'll notice the four and five are now restricted to those two cells in row three."
+0.6519,260.96,263.54,So you can mark that as another hidden pair.
+0.5296,263.54,268.13,Hidden pair is something I cover along with the other top seven strategies.
+0.3111,268.13,269.57,Am I a doku-solving guy?
+0.0,269.57,273.08,You can download it for free from the pin comment below.
+0.7306,273.08,276.72,"But I have to find this four, five hidden pair."
+0.553,276.72,281.99,"Now you can look at the impact on the row, the column, and the block."
+0.7004,281.99,286.0,Because you have this nine coming up and this nine cutting across.
+0.7249,286.0,287.94,There's only two places for nine.
+0.6942,287.94,290.15,in block two.
+0.7873,290.15,295.0,So they're appointing pair across row one along with this nine across here.
+0.8188,295.0,298.04,So where can a nine go in block three?
+0.3709,298.04,299.86,You can only go right there.
+0.7578,299.86,301.43,So you can solve that for a nine.
+0.937,301.43,310.34,"And then with that nine and these two nine, you can solve a nine here in block six."
+0.798,310.34,315.76,"And then with these nines and this nine, you actually have two places for a nine."
+0.7141,315.76,317.37,in block 4.
+0.4845,317.37,318.61,So you do want to mark that.
+0.5728,318.61,322.88,And we're going to move on to tip number 3.
+0.3407,322.88,324.96,There may not be too much you can see right now.
+0.587,324.96,327.03,"So when in doubt, mark it out."
+0.4193,327.03,327.81,That's my tip.
+0.3345,327.81,331.05,And so we saw these trees right here.
+0.6928,331.05,333.57,Let's check out these eights.
+0.7075,333.57,335.73,You get this eight cutting across here.
+0.913,335.73,339.67,So an eight can be one of these three spots in block three.
+0.5759,339.67,341.67,So it's actually a pointing triple.
+0.6607,341.67,346.52,I won't mark that because I only want to mark two spots to show those two cell restrictions.
+0.8811,346.52,353.25,"But what it does is it lets you look and go, okay, well the eights can't be in row three here in block three."
+0.7421,353.25,356.85,They can't be in row three here in block two.
+0.9957,356.85,361.89,So an eight has to be somewhere in row three in block one.
+0.6433,361.89,365.35,"And since you have an eight right there, this is going to be a claiming pair."
+0.8312,365.35,371.08,And so you want to mark that and now realize you can't put an eight here or here because of the claiming pair.
+0.8491,371.08,374.85,"Otherwise, you'd have no place to put an eight in row three."
+0.4192,374.85,379.27,These are the tips you want to find becoming insanely good at Sudoku.
+0.7499,379.27,385.24,"And now let's move on with these fours, with this four cutting across and this four coming up."
+1.0,385.24,390.01,"Since you put a nine here now, you have a pointing pair of fours in block six."
+0.3542,390.01,392.22,And what does that do for our column?
+0.9048,392.22,396.29,"Well, fours gotta be here and here now, you can remove the four from this cell."
+0.686,396.29,398.32,And solve that for five.
+0.8042,398.32,401.54,Disadviguate in the four and the five in row three.
+0.6183,401.54,404.2,You see how all these solves build upon each other?
+0.6674,404.2,410.53,So you want to mark it out and then kind of move along and remove the marks as you make those solves.
+0.5315,410.53,412.31,What else can you do with the fours?
+0.8241,412.31,425.25,"With these fours, in this four, you've got two fours there and with this four and the pointing pair of fours with this four, two fours in block eight."
+0.8943,425.25,456.84,"And now look at where the 5's can go with these 5's and this 5 can't really find some easy solve so I'm just doing some marking here you put 5's in block 2 and then with this 5 with these 5's 5's in block 9 and then Now what you might see is this four, this pointing pair of fours, and this four here you can actually solve for four now in block three, and with these eight."
+0.6639,456.84,460.43,That means the A to restricted those two cells in block three as well.
+0.5912,460.43,464.37,So there's something interesting going on here that you can use the mark in the find.
+0.3802,464.37,465.86,Check out block nine.
+0.8887,465.86,469.64,"You put the six across row seven, where can the sixes go?"
+0.7598,469.64,473.03,"Well, these two spots here, so they're a pointing pair of sixes."
+0.7571,473.03,475.89,But you notice the five is restricted there as well.
+0.8756,475.89,480.83,"Now, with this eight, And 8 cannot be in this cell right here."
+0.5972,480.83,483.19,"And because of this 8, it can't be here."
+0.8833,483.19,486.58,So where can the 8 go now in column 7?
+0.6804,486.58,491.11,"Well, if it can't be here here, you actually have a claiming triple of 8."
+0.6444,491.11,495.18,The 8s have to be in one of these spots now in block.
+0.6449,495.18,497.87,"nine, right?"
+0.333,497.87,498.51,Do you understand?
+0.3285,498.51,500.05,Because it can't be here or there.
+0.8393,500.05,502.82,And so the fives are restricted to one of these three cells.
+0.7997,502.82,507.64,"The sixes are restricted to one of these three cells, and the eight is restricted to one of those three cells."
+0.6726,507.64,510.08,You have found a hidden triple.
+0.4844,510.08,514.69,And the reason it's a hidden triple is because it's hidden among the other candidates.
+0.885,514.69,518.65,"But a five, six, and eight have to be somewhere in the purple cells."
+0.8121,518.65,525.74,"So you can mark that, and now I'll leave you with just a two and a three, naked pair to finish off block nine."
+0.8825,525.74,530.35,"Okay, so we can remove the six from right there and we can move the five from right there."
+0.6375,530.35,534.29,And this is going to help us out with some more solving now.
+0.6369,534.29,541.14,"Because once you find that, it leads me up to tip number four."
+0.6489,541.14,545.31,So tip number four is you want to look for digit restrictions.
+0.7617,545.31,555.49,"Because you put a two, three right here, it puts a lot of pressure now across row seven."
+0.7125,555.49,556.93,So look at this cell.
+0.3934,556.93,558.73,Intersection.
+0.7566,558.73,562.86,"You got two, three represent these two cells, six and seven."
+0.8623,562.86,565.48,So four digits look at this cell in the row.
+0.886,565.48,569.71,"In the column, you have a five, a nine, and an eight."
+0.5641,569.71,577.33,"So now, you can see you got all those looking at this cell."
+0.7287,577.33,580.0,"But remember two, you have a pointing pair of fours."
+0.8125,580.0,584.93,The fours extend the restriction in this column.
+0.8058,584.93,587.04,Or you can notice that the four is restricted here.
+0.6603,587.04,588.7,"Either way, this can't be a four anymore."
+0.7019,588.7,596.09,"And since it can't be a two or three, a four, five, six, seven, eight, or nine, this is actually a naked single one."
+0.623,596.09,604.19,And you want to find these digit restrictions to help extend your solve and accelerate the ability to solve puzzles like this.
+0.2743,604.19,605.63,Because what does this one do?
+0.8586,605.63,612.3,And now comes up column five and creates a pointing pair of ones in block five.
+0.8709,612.3,623.22,"And then you look at this one and you can solve for one now in block six, displacing that four, which displaces this four, you can solve this cell now for a four."
+0.7963,623.22,627.22,"And then in these two ones, you can solve for one up here in block three."
+0.3203,627.22,628.96,That's the only place to one can go.
+0.8341,628.96,640.76,"With this one, the ones become a nice, Hidden pair, one and five, they're restricted to the same two cells."
+0.7737,640.76,646.02,And then the ones are gonna be in one of these two cells now in block one.
+0.6768,646.02,652.89,"Okay, after doing that, you could look here in column seven."
+0.6967,652.89,665.65,"Since the 5, 6, 8 are in those three cells and you have a 1, 3, 4, 7, and 9 all in these cells, the only thing left if you look at this digit restriction is A2."
+0.677,665.65,666.95,So you can solve that for 2.
+0.8548,666.95,672.92,And so the 2 cuts across with this 2 and you can solve for 2 here in block 5.
+0.8705,672.92,677.65,And that gives you Two places for two here in block eight.
+0.7543,677.65,680.74,And then the only thing you have left is a one is seven.
+0.6651,680.74,684.64,"Well with this seven, this has to be your seven displacing that one."
+0.6888,684.64,687.28,And now you can disambiguate the five and the one right there.
+0.6943,687.28,691.15,"So going back to tip two, row common block and look at the impact."
+0.7236,691.15,693.61,"Well with this five, that's gotta be an eight."
+0.6311,693.61,694.65,And that's got to be a five.
+0.7554,694.65,699.14,And now you can disambiguate the five and the nine right there.
+0.4088,699.14,700.26,Look at all these saws.
+0.6372,700.26,703.97,You can remove the five from right there and you're going to get very excited.
+0.1379,703.97,704.81,"You'll be like, Timberlake."
+0.4349,704.81,706.73,I got this puzzle saw.
+0.211,706.73,707.57,You don't yet.
+0.64,707.57,709.59,"This is a tough, tough puzzle."
+0.4771,709.59,711.92,There's still one more trick up at sleeve.
+0.4285,711.92,716.3,You've got to fall along because I still have three more tips and tricks to show you.
+0.6114,716.3,723.52,"So making all those Marks, let's continue with the impact on the row, column, and the block."
+0.8143,723.52,724.89,See how this eight cuts across?
+0.8764,724.89,729.11,There's only two places for an eight now in block six.
+0.8069,729.11,732.2,"So there are pointing pair of eights, so you can remove this as an eight."
+0.8449,732.2,735.64,"You can't have an eight there anymore, allows you to solve for an eight right here."
+0.8717,735.64,742.61,"And with this seven coming up, there's only two places for seven now in block three."
+0.8066,742.61,749.19,"Okay, and then with, This three, you only have two places for a three here."
+0.6076,749.19,752.42,"And so now I'm going back to, in the doubt, mark it out."
+0.7249,752.42,758.53,So I'm marking out cells until I find some restrictions that are going to allow us to do some more solves.
+0.613,758.53,764.71,And then that brings me up to tip number five.
+0.5132,764.71,769.05,So tip number five is switch to buy value cells.
+0.5351,769.05,771.1,And so we've been marking it out.
+0.4289,771.1,778.35,"Now you want to look, and if you start finding buy value cells, that's the tip you're about to find in advance strategy."
+0.748,778.35,784.52,So one way we can do that is we can look at these restrictions across row seven.
+0.7305,784.52,789.33,"You have a 1, you get the 2, 3 here, 5, 6, and 7, so you need a 4, 8, and a 9."
+0.785,789.33,794.32,"Well, the 9 ain't a right there, so this is actually a naked single 4."
+0.7534,794.32,798.52,"So that's our digit restriction, and that's when you looked at this intersection."
+0.8252,798.52,802.51,"So you can just place that 4, just place this 4, solve this 4, a 4."
+0.6446,802.51,806.21,"And now you want to fill out the 8, 9 naked pair right there."
+0.2108,806.21,813.63,"You know, all right, we got some by myself, I also call them BVCs there."
+0.4294,813.63,817.63,"When you start seeing those, you want to kind of look a little bit further."
+0.8279,817.63,820.25,"Okay, so look across row five."
+0.8165,820.25,824.18,You got a three and a six here to finish up row five.
+0.6105,824.18,829.46,And then you can still look for single candidate restrictions with the twos.
+0.5786,829.46,832.13,They're restricted here in block four.
+0.4107,832.13,835.65,And now you look at these ones.
+0.6951,835.65,840.49,Point placed ones can go right there in block seven.
+0.8658,840.49,845.99,"And then if you see if these five and this five, you actually can solve a five in block four."
+0.324,845.99,847.51,So it's going to keep chiseling away.
+0.9399,847.51,856.25,"You'll notice that with these nines and this nine, you can put nines right there in block seven, only two places."
+0.8811,856.25,862.6,"And then in block eight with this nine and that nine, only two places for a nine right there."
+0.9133,862.6,870.43,"And then you might see with these sevens, you can actually solve for seven in block four."
+0.8209,870.43,883.54,"And with these sevens, you can mark sevens right here and just kind of get any idea of where are all those restrictions because we haven't quite found the way to get through this puzzle yet."
+0.7054,883.54,886.53,So now you want to look at the threes.
+0.8384,886.53,893.64,"with this three cutting across, there's only one place for a three now and block four."
+0.6148,893.64,898.23,"So you can solve that for a three, solve that for six displaces and three displaces in the eight."
+0.4768,898.23,900.35,All really quick solves there.
+0.6908,900.35,903.76,"And this three is going to help you out, because you can disambiguate the two and a three there."
+0.754,903.76,911.09,"This two, and this two means you can solve this for two, and then you just have left a six, seven naked pair."
+0.6582,911.09,912.55,So you want to mark that pair out.
+0.6952,912.55,917.35,"And after solving all that, now it's time for tip number six."
+0.4361,917.35,921.56,"Tip number six, investigate the BVC areas a little further."
+0.8366,921.56,930.75,"So if you look down here and block eight, if you start filling out some of these columns, you're going to start noticing some more five value cells."
+0.6772,930.75,932.45,So you could call them five.
+0.7692,932.45,935.1,"You've got a one, two, four, five, eight, and nine."
+0.8958,935.1,938.79,"So you're using your three, six and a seven."
+0.4162,938.79,940.96,"Okay, this is what the experts do."
+0.9107,940.96,944.98,So you can remove the three from right there and you can remove the seven right there.
+0.5719,944.98,947.93,You created two more by value cells.
+0.7188,947.93,951.13,What about column four?
+0.7677,951.13,954.66,"You have a one, two, four, five, six, seven."
+0.7585,954.66,956.56,"You need a three, eight, and a nine."
+0.7258,956.56,961.58,"This can't be an eight, and this cannot be a nine."
+0.564,961.58,963.25,You created two more by-value cells.
+0.6535,963.25,965.03,So we're getting some by-value cells down here.
+0.5459,965.03,967.88,"Okay, what about column?"
+0.5902,967.88,968.52,6.
+0.6024,968.52,971.2,"You got a 1, 3, 4, 5, 7, 8."
+0.8759,971.2,976.07,"You need a 2, 6, and a 9, 2, 6, and a 9 right there."
+0.7199,976.07,979.95,"This can't be a 2, and this cannot be a 9."
+0.3799,979.95,981.79,You create another by-value cell.
+0.7578,981.79,984.46,So you focus now here in block 8.
+0.4705,984.46,989.1,And you want to see if some of these by-veye cells share common candidates.
+0.6764,989.1,991.18,"Well, check out this 3, 6 right here."
+0.5933,991.18,999.58,"What you might notice is that It is in the same row as the 6.8 and they share a candidate, a 6."
+0.439,999.58,1005.68,"It's also in the same block as this 3.8 and they share a candidate, a different candidate."
+0.5154,1005.68,1006.39,They share the 3.
+0.543,1006.39,1011.91,"No matter what the value of this orange cell is, it's going to impact the value of these blue cells."
+0.743,1011.91,1015.54,"So if this is a 3, this has to be an 8."
+0.7204,1015.54,1018.05,The only other option it can be is a 6.
+0.7204,1018.05,1020.27,"If this is a 6, that has to be an 8."
+0.7725,1020.27,1026.11,"So what you may notice is no matter what the cell is, one of these blue cells has to be an 8."
+0.7969,1026.11,1029.83,And so you can remove an 8 from any cell that sees both.
+0.5951,1029.83,1034.94,That means it shares a row called a block with both of these.
+0.794,1034.94,1066.53,cells and so where you'd look would be right here which does not contain an eight or right there right because it sees both of these blue cells this one in the column block this one in the row so you can remove an eight from right there this will extend your saw this is beautiful and this is called an x y wing and you find these in a harder puzzles like this and once you find them You can start finding these much easier and you'll get insanely good at puzzles like that.
+0.3601,1066.53,1067.99,We still got one more tip.
+0.5362,1067.99,1068.62,One more trick.
+0.1906,1068.62,1069.94,I love to throw out there.
+0.681,1069.94,1073.32,We've got to find that to keep moving to the rest of the puzzle.
+0.2554,1073.32,1074.62,But let's look at that impact.
+0.4709,1074.62,1075.58,Rho column block.
+0.7699,1075.58,1078.69,"This has to be a six now, which means that's going to be an eight."
+0.5085,1078.69,1084.37,Let's remove these colors and see what else can you solve after doing that.
+0.7161,1084.37,1088.7,"What you may notice is now at this six, this has to be your two."
+0.6399,1088.7,1090.7,And we can remove the two there.
+0.6328,1090.7,1095.68,"and the two right there, and you go, okay, template, now what?"
+0.9007,1095.68,1100.82,"Well, with these two's, the two's are restricted in block seven to those two cells."
+0.773,1100.82,1105.45,"Well, looks like a two is restricted to columns one and two and block four."
+0.5656,1105.45,1109.3,It's also restricted to calls one and two and block seven.
+0.6717,1109.3,1111.68,So a two's got to be here and here or here and here.
+0.8434,1111.68,1118.07,"This quickly tells you a two has to be in this column in block one, right?"
+0.3171,1118.07,1118.81,Can't be there.
+0.3459,1118.81,1119.93,Can't be here.
+0.4464,1119.93,1121.61,Just gotta be one of these cells.
+0.7259,1121.61,1126.56,"And since you have a two here and here, you can solve this cell now for a two."
+0.7241,1126.56,1131.57,"Okay, after solving that for a two, you might see with this three coming up."
+0.5971,1131.57,1134.41,Three can't be here.
+0.481,1134.41,1136.09,Can't be here because of this three.
+0.7757,1136.09,1138.62,You can solve this cell now for a three.
+0.6094,1138.62,1142.3,And this brings me up to tip number seven.
+0.5894,1142.3,1149.31,and this will have the biggest impact because you will solve the most cells if you master this tip and you will solve much quicker.
+0.632,1149.31,1150.63,Tip 7.
+0.394,1150.63,1152.5,Hunt down the marks.
+0.6168,1152.5,1164.95,All these marks you made you want to quickly as possible remove the marks because they represent Your one step and two step restrictions are the quickest way to solve a cell is to remove those marks.
+0.4552,1164.95,1168.77,And it reduces the clutter so you can see the rest of the grid much easier.
+0.8276,1168.77,1170.69,"Because there's three, that has to be a nine."
+0.6643,1170.69,1173.24,"That's gonna be a six, that's gonna be a seven."
+0.6625,1173.24,1177.61,"And with this three here, that's gonna be a six."
+0.8097,1177.61,1181.17,"You got the nine right there, you got the eight right there and a three right there."
+0.4404,1181.17,1185.13,"If you go block by block, you don't have to revisit any of those blocks anymore."
+0.7005,1185.13,1187.9,"With this eight, that's gotta be your nine."
+0.6313,1187.9,1196.15,"And then you can remove the mark right there, and you look and go, okay, now well, can you solve it?"
+0.8166,1196.15,1200.43,"This six, you can do seven to six right there, and block three is all done."
+0.7279,1200.43,1206.8,"You have a full house, eight of nine cells filled out, with certainly you can solve that for a three now."
+0.7859,1206.8,1210.79,"And with this three and this three, you solve this for a three, displacing that two."
+0.6515,1210.79,1214.29,"You can just place the two, you can solve for the two right there."
+0.4147,1214.29,1218.26,"Another full house, this has to be a six."
+0.9136,1218.26,1228.67,"And then with these two sixes, you can solve this cell for a six, displacing that one, displacing that eight, and you see how quickly you can solve once you hunt down those marks."
+0.6563,1228.67,1233.24,"This has to be a seven to finish block one, and we just have one block remaining."
+0.6214,1233.24,1237.7,"You can start by knowing the seven is displaced there, and you can solve this for a seven."
+0.8223,1237.7,1242.69,"The one comes down and solves right here, and then our last digit is an eight."
+0.6661,1242.69,1248.1,Now use the tips and tricks you just learned to crush this next puzzle.
+0.1865,1248.1,1250.18,Thank you so much for watching.

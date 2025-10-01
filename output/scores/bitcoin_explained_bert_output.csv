@@ -1,0 +1,213 @@
+score,start,end,transcript
+0.3394,4.27,6.59,What does it mean to have a Bitcoin?
+0.6716,6.59,19.36,"Many people have heard of Bitcoin that it's a fully digital currency with no government to issue it, and that no banks need to manage accounts and verify transactions, and also that no one really knows who invented it."
+0.3868,19.36,23.28,"And yet, many people don't know the answer to this question, at least not in full."
+0.4203,23.28,35.94,"To get there, and to make sure that the technical details underlying the answer actually feel motivated, what we're going to do is walk through step by step how you might have invented your own version of Bitcoin."
+0.7754,35.94,53.06,"We'll start with you keeping track of payments with your friends using a communal ledger, and then as you start to trust your friends and the world around you less and less, and if you're clever enough to bring in a few ideas from cryptography to help circumvent the need for trust, what you end up with is what's called a cryptocurrency."
+0.7193,53.06,63.2,"You see Bitcoin is just the first implemented example of a cryptocurrency, and now there are thousands more on exchanges with traditional currencies."
+0.2793,63.2,73.17,"Walking the path of inventing your own can help to set the foundations for understanding some of the more recent players in the game, and recognizing when and why there's room for different design choices."
+0.5245,73.17,84.29,"In fact, one of the reasons I chose this topic is that in the last year, there's been a huge amount of attention and investment and, well, honestly, hype directed at these currencies."
+0.3854,84.29,93.34,"And I'm not going to comment or speculate on the current or future exchange rates, but I think we'd all agree that anyone looking to buy a cryptocurrency should really know what it is."
+0.234,93.34,97.79,And I don't just mean in terms of analogies with vague connections to gold mining.
+0.5249,97.79,105.6,I mean an actual direct description of what the computers are doing when we send receive and create cryptocurrencies.
+0.3574,105.6,123.61,"One thing worth stressing, by the way, is that even though you and I are gonna dig into the details here, and that takes meaningful time, you don't actually need to know those details if you just wanna use the cryptocurrency, just like you don't need to know the details of what happens under the hood when you swipe a credit card."
+0.4646,123.61,131.06,"Like any digital payment, there's lots of user-friendly applications that let you just send and receive the currencies without thinking about what's going on."
+0.7535,131.06,137.13,The difference is that the backbone underlying this is not a bank that verifies transactions.
+0.8877,137.13,144.72,"Instead, it's a clever system of decentralized trustless verification based on some of the math born in cryptography."
+0.7468,144.72,150.47,"But to start, I want you to actually set aside the thought of cryptocurrencies and all that just for a few minutes."
+0.8982,150.47,155.44,"We're going to begin the story with something more down to earth, ledgers and digital signatures."
+0.5479,155.44,164.05,"If you and your friends exchanged money pretty frequently, you know, paying your share of the dinner bill and such, It can be inconvenient to exchange cash all the time."
+0.7465,164.05,170.02,So you might keep a communal ledger that records all of the payments that you intend to make some point in the future.
+0.5911,170.02,174.81,"You know, Alice pays Bob $20, Bob pays Charlie $40, things like that."
+0.8321,174.81,182.42,This ledger is going to be something public and accessible to everyone like a website where anyone can go and just add new lines.
+0.7269,182.42,188.37,"And let's say that at the end of every month, you all get together, look at the list of transactions and settle up."
+0.4703,188.37,194.4,"If you spent more than you received, you put that money in the pot, and if you received more than you spent, you take that money out."
+0.7705,194.4,199.24,So the protocol for being part of this very simple system might look like this.
+0.6872,199.24,205.37,"Anyone can add lines to the ledger, and at the end of every month, you all get together and settle up."
+0.9674,205.37,210.77,Now one problem with a public ledger like this is that anyone can add a line.
+0.7448,210.77,217.01,So what's to prevent Bob from going and writing Alice Pays Bob $100 without Alice approving?
+0.513,217.01,223.16,How are we supposed to trust that all of these transactions are what the sender meant them to be?
+0.8907,223.16,227.03,"Well, this is where the first bit of cryptography comes in."
+0.8092,227.03,229.13,Digital Signatures.
+0.8204,229.13,238.56,"Like handwritten signatures, the idea here is that Alice should be able to add something next to that transaction that proves that she has seen it and that she's approved of it."
+0.6702,238.56,243.16,And it should be infeasible for anyone else to forge that signature.
+0.8336,243.16,248.63,"At first, it might seem like a digital signature shouldn't even be possible."
+0.7617,248.63,253.92,"I mean, whatever data makes up that signature can just be read and copied by a computer."
+0.6026,253.92,256.58,So how do you prevent forgeries?
+0.6367,256.58,264.12,"Well the way this works is that everyone generates what's called a public key private key pair, each of which looks like some string of bits."
+0.1516,264.12,271.48,The private key is sometimes also called a secret key so that we can abbreviate it as SK while abbreviating the public key as PK.
+0.29,271.48,276.56,"Now as the name suggests, this secret key, it's something you want to keep to yourself."
+0.5865,276.56,281.7,"In the real world, your handwritten signature looks the same no matter what document you're signing."
+0.6647,281.7,287.02,But a digital signature is actually much stronger because it changes for different messages.
+0.3873,287.02,299.56,"It looks like some string of ones and zeros, commonly something like 256 bits, and altering the message even slightly completely changes what the signature on that message should look like."
+0.5455,299.56,308.5,"Speaking a little more formally, producing a signature involves a function that depends both on the message itself and on your private key."
+0.3285,308.5,319.62,"The private key ensures that only you can produce that signature, and the fact that it depends on the message means that no one can just copy one of your signatures and then forge it on another message."
+0.5614,319.62,325.57,Hand in hand with this is a second function used to verify that a signature is valid.
+0.8447,325.57,328.69,And this is where the public key comes into play.
+0.3373,328.69,337.81,All it does is output true or false to indicate if this was a signature produced by the private key associated with the public key that you're using for verification.
+0.3119,337.81,349.15,"I won't go into the details of how exactly both these functions work, but the idea is that it should be completely infeasible to find a valid signature if you don't know the secret key."
+0.58,349.15,358.04,"Specifically, there's no strategy better than just guessing and checking random signatures, which you can check using the public key that everyone knows."
+0.674,358.04,362.82,Now think about how many signatures there are with a length of 256 bits.
+0.2215,362.82,365.84,That's 2 to the power of 256.
+0.248,365.84,369.52,This is a stupidly large number.
+0.02,369.52,373.73,To call it astronomically large would be giving way too much credit to astronomy.
+0.2329,373.73,380.28,"In fact, I made a supplemental video devoted just to illustrating what a huge number this is."
+0.4294,380.28,395.26,"Right here, let's just say that when you verified that a signature against a given message is valid, you can feel extremely confident that the only way someone could have produced it is if they knew the secret key associated with the public key you used for verification."
+0.9156,395.26,402.28,"Now making sure that people sign transactions on the ledger is pretty good, but there's one slight loophole."
+0.7039,402.28,413.7,"If Alice signs a transaction like Alice pays Bob $100, even though Bob can't forge Alice's signature on a new message, he could just copy that same line as many times as he wants."
+0.6478,413.7,417.82,"I mean, that message signature combination remains valid."
+0.4764,417.82,427.09,"To get around this, what we do is make it so that when you sign a transaction, the message has to also include some sort of unique ID associated with that transaction."
+1.0,427.09,435.56,"That way, if Alice pays Bob $100 multiple times, each one of those lines on the ledger requires a completely new signature."
+0.1333,435.56,438.18,"All right, great."
+0.8635,438.18,442.03,Digital signatures remove a huge aspect of trust in this initial protocol.
+0.6349,442.03,447.8,"But even still, if you were to really do this, you would be relying on an honor system of sorts."
+0.6678,447.8,452.7,"Namely, you're trusting that everyone will actually follow through and settle up in cash at the end of each month."
+0.3948,452.7,459.47,"What if, for example, Charlie racks up thousands of dollars in debt and just refuses to show up?"
+0.4595,459.47,467.11,"The only real reason to revert back to cash to settle up is if some people, I'm looking at you, Charlie, owe a lot of money."
+0.7335,467.11,476.44,So maybe you have the clever idea that you never actually have to settle up in cash as long as you have some way to prevent people from spending too much more than they take in.
+0.5668,476.44,488.8,"Maybe what you do is start by having everyone pay $100 into the pot and then have the first few lines of the ledger read, Alice gets $100, Bob gets $100, Charlie gets $100, etc."
+0.8293,488.8,495.98,"Now, just don't accept any transactions where someone is spending more than they already have on that ledger."
+0.6656,495.98,512.26,"For example, if the first two transactions are Charlie Pays Alice $50 and Charlie Pays Bob $50, if he were to try to add Charlie Pays U $20, that would be invalid, as invalid as if he had never signed it."
+0.6827,512.26,519.37,Notice this means that verifying a transaction requires knowing the full history of transactions up to that point.
+0.8385,519.37,526.23,"And this is more or less also going to be true in cryptocurrencies, though there is a little room for optimization."
+0.8403,526.23,535.57,What's interesting here is that this step removes the connection between the ledger and actual physical US dollars.
+0.8721,535.57,546.64,"In theory, if everyone in the world was using this ledger, you could live your whole life just sending and receiving money on this ledger without ever having to convert to real US dollars."
+0.6349,546.64,554.72,"In fact, to emphasize this point, let's start referring to the quantities on the ledger as ledger dollars, or LD for short."
+0.5316,554.72,558.61,"You are, of course, free to exchange ledger dollars for real US dollars?"
+0.7139,558.61,569.82,"For example, maybe Alice gives Bob a $10 bill in the real world, in exchange for him adding and signing the transaction, Bob pays Alice $10 ledger dollars to this communal ledger."
+0.7506,569.82,574.29,"But exchanges like that, they're not going to be guaranteed by the protocol."
+0.4805,574.29,580.6,It's now more analogous to how you might exchange dollars for euros or any other currency on the open market.
+0.3605,580.6,583.68,It's just its own independent thing.
+0.8303,583.68,590.07,This is the first important thing to understand about Bitcoin or any other cryptocurrency.
+0.7746,590.07,592.52,What it is is a ledger.
+0.8368,592.52,596.68,The history of transactions is the currency.
+0.7023,596.68,601.59,"Of course, with Bitcoin, money doesn't enter the ledger with people buying in using cash."
+0.8193,601.59,604.74,I'll get to how new money enters the ledger in just a few minutes.
+0.8971,604.74,612.43,"But before that, there's actually an even more significant difference between our current system of ledger dollars and how cryptocurrencies work."
+0.7182,612.43,618.43,"So far, I've said that this ledger is in some public place, like a website where anyone can add new lines."
+0.4362,618.43,624.04,"But that would require trusting a central location, namely, who hosts the website?"
+0.1645,624.04,626.76,Who controls the rules of adding new lines?
+0.7375,626.76,632.7,"To remove that bit of trust, we'll have everybody keep their own copy of the ledger."
+0.9976,632.7,643.65,"Then when you want to make a transaction, like Alice pays Bob $100, what you do is broadcast that out into the world for people to hear and to record on their own private ledgers."
+0.3541,643.65,649.24,"But unless you do something more, this system is absurdly bad."
+0.7412,649.24,652.69,How could you get everyone to agree on what the right ledger is?
+0.7282,652.69,661.78,"When Bob receives a transaction like Alice pays Bob $10, how can he be sure that everyone else received and believes that same transaction?"
+0.743,661.78,667.51,That he'll be able to later on go to Charlie and use those same $10 ledger to make a transaction?
+0.5306,667.51,672.27,"Really, imagine yourself just listening to transactions being broadcast."
+0.6592,672.27,678.43,How can you be sure that everyone else is recording the same transactions and in the same order?
+0.2801,678.43,681.37,This is really the heart of the issue.
+0.3456,681.37,682.75,This is an interesting puzzle.
+0.6613,682.75,697.64,Can you come up with a protocol for how to accept or reject transactions and in what order so that you can feel confident that anyone else in the world who's following that same protocol has a personal ledger that looks the same as yours?
+0.7635,697.64,701.66,This is the problem addressed in the original Bitcoin paper.
+0.6726,701.66,711.84,"At a high level, the solution that Bitcoin offers is to trust whichever ledger has the most computational work put into it."
+0.4081,711.84,714.86,I'll take a moment to explain exactly what that means.
+0.8573,714.86,718.0,It involves this thing called a cryptographic hash function.
+0.8584,718.0,732.88,"The general idea that we'll build to is that if you use computational work as a basis for what to trust, you can make it so that fraudulent transactions and conflicting ledgers would require an infeasable amount of computation to bring about."
+0.8474,732.88,739.46,"Again, I'll remind you that this is getting well into the weeds beyond what anyone would need to know just to use a currency like this."
+0.3569,739.46,741.34,But it's a really cool idea.
+0.7632,741.34,746.84,"And if you understand it, you understand the heart of Bitcoin and of other cryptocurrencies."
+0.549,746.84,750.0,"So first things first, what's a hash function?"
+0.2602,750.0,754.25,The inputs for one of these functions can be any kind of message or file.
+0.0599,754.25,755.21,It really doesn't matter.
+0.5739,755.21,760.58,"And the output is a string of bits with some kind of fixed length, like 256 bits."
+0.4221,760.58,764.83,This output is called the hash or the digest of the message.
+0.3904,764.83,767.73,And the intent is that it looks random.
+0.3296,767.73,769.1,It's not random.
+0.2586,769.1,772.2,It always gives the same output for a given input.
+0.6946,772.2,780.13,"But the idea is that if you slightly change the input, maybe editing just one of the characters, the resulting hash changes completely."
+0.3888,780.13,791.93,"In fact, for the hash function that I'm showing here, called SHA256, the way the output changes as you slightly change that input, is entirely unpredictable."
+0.6744,791.93,794.66,"You see, this is not just any hash function."
+0.5946,794.66,796.98,It's a cryptographic hash function.
+0.5304,796.98,800.69,That means it's infeasible to compute in the reverse direction.
+0.2182,800.69,814.81,"If I show you some string of ones and zeros and ask you to find an input so that the SHA 256 hash of that input gives this exact string of bits, you will have no better method than to just guess and check."
+0.1773,814.81,823.86,"And again, if you want to feel for how much computation would be needed to go through two to the 256 guesses, just take a look at the supplement video."
+0.0518,823.86,826.57,I actually had way too much fun writing that thing.
+0.1976,826.57,837.57,"You might think that if you just really dig into the details of how exactly this function works, you could reverse engineer the appropriate input without having to guess and check."
+0.4863,837.57,841.37,But no one has ever figured out a way to do that.
+0.2716,841.37,846.99,"Interestingly, there's no cold, hard, rigorous proof that it's hard to compute in the reverse direction."
+0.6763,846.99,854.24,"And yet, a huge amount of modern security depends on cryptographic hash functions and the idea that they have this property."
+0.3001,854.24,865.94,"If you were to look at what algorithms underlie the secure connection that your browser is making with YouTube right now, or that it makes with your bank, you will likely see the name SHA-256 show up in there."
+0.6527,865.94,876.86,"For right now, our focus will just be on how such a function can prove that a particular list of transactions is associated with a large amount of computational effort."
+0.6028,876.86,893.14,"Imagine someone shows you a list of transactions and they say, hey, I found a special number so that when you put that number at the end of this list of transactions and apply SHA256 to the entire thing, the first 30 bits of that output are all zeros."
+0.2993,893.14,896.89,How hard do you think it was for them to find that number?
+0.3409,896.89,907.3,"Well for a random message, the probability that a hash happens to start with 30 successive zeros is 1 and 2 to the 30, which is about 1 and a billion."
+0.4095,907.3,915.87,"And because SHA 256 is a cryptographic hash function, the only way to find a special number like that is just guessing and checking."
+0.4752,915.87,922.76,So this person almost certainly had to go through about a billion different numbers before finding this special one.
+0.4974,922.76,926.09,"And once you know that number, it's really quick to verify."
+0.4799,926.09,928.82,You just run the hash and see that there are 30 zeros.
+0.5969,928.82,936.35,"So in other words, you can verify that they went through a large amount of work, but without having to go through that same effort yourself."
+0.8232,936.35,938.81,This is called a proof of work.
+0.692,938.81,944.87,"And importantly, all of this work is intrinsically tied to the list of transactions."
+0.5698,944.87,949.63,"If you change one of those transactions, even slightly, it would completely change the hash."
+0.6045,949.63,961.42,"So you'd have to go through another billion guesses to find a new proof of work, a new number that makes it so that the hash of the altered list, together with this new number, starts with 30 zeros."
+0.996,961.42,964.1,So now think back to our distributed ledger situation.
+0.9436,964.1,970.74,Everyone is there broadcasting transactions and we want a way for them to agree on what the correct ledger is.
+0.7286,970.74,978.87,"As I said, the core idea behind the original Bitcoin paper is to have everyone trust whichever ledger has the most work put into it."
+0.8022,978.87,987.89,"The way this works is to first organize a given ledger into blocks, where each block consists of a list of transactions together with a proof of work."
+0.5362,987.89,992.28,"That is, a special number, so that the hash of the whole block starts with a bunch of zeros."
+0.3121,992.28,1001.09,"For the moment, let's say that it has to start with, oh, 60 zeros, but later we'll return back to a more systematic way you might want to choose that number."
+0.3901,1001.09,1010.09,"In the same way that a transaction is only considered valid when it's signed by the sender, a block is only considered valid if it has a proof of work."
+0.5814,1010.09,1019.4,"And also, to make sure that there's a standard order to these blocks, we'll make it so that a block has to contain the hash of the previous block at its header."
+0.6301,1019.4,1033.14,"That way, if you were to go back and change any one of the blocks, or to swap the order of two blocks, it would change the block that comes after it, which changes that block's hash, which changes the one that comes after it, and so on."
+0.4185,1033.14,1041.34,"That would require redoing all of the work, finding a new special number for each of these blocks that makes their hashes start with 60 zeros."
+0.4994,1041.34,1048.53,"Because blocks are chained together like this, instead of calling it a ledger, it's common to call it a block chain."
+0.387,1048.53,1054.87,"As part of our updated protocol, we'll now allow anyone in the world to be a block creator."
+0.6929,1054.87,1066.13,"What that means is that they're going to listen for transactions being broadcast, collect them into some block, and then do a whole bunch of work to find a special number that makes the hash of that block start with 60 zeros."
+0.4831,1066.13,1070.21,"Then once they find it, they broadcast out the block that they found."
+0.6388,1070.21,1073.53,to reward a block creator for all this work.
+0.8201,1073.53,1082.51,"When she puts together a block, we'll allow her to include a very special transaction at the top of it, in which she gets, say, ten ledger dollars out of thin air."
+0.5172,1082.51,1089.48,"This is called the block reward, and it's an exception to our usual rules about whether or not to accept transactions."
+0.4766,1089.48,1092.92,"It doesn't come from anyone, so it doesn't have to be signed."
+0.8385,1092.92,1099.81,And it also means that the total number of ledger dollars in our economy increases with each new block.
+0.517,1099.81,1108.25,Creating blocks is often called mining since it requires doing a lot of work and it introduces new bits of currency into the economy.
+0.4697,1108.25,1120.86,"But when you hear or read about minors, keep in mind that what they're really doing is listening for transactions, creating blocks, broadcasting those blocks, and getting rewarded with new money for doing so."
+0.6271,1120.86,1136.21,"From the miner's perspective, each block is kind of like a miniature lottery, where everyone is guessing numbers as fast as they can until one lucky individual finds a special number that makes the hash of the block start with many zeros and they get the reward."
+0.7007,1136.21,1150.29,"For anyone else who just wants to use this system to make payments, instead of listening for transactions, they all start listening just for blocks being broadcast by miners and updating their own personal copies of the blockchain."
+0.8526,1150.29,1162.17,"Now the key addition to our protocol is that if you hear two distinct blockchains with conflicting transaction histories, you defer to the longest one, the one with the most work put into it."
+0.2328,1162.17,1168.44,"If there's a tie, just wait until you hear an additional block that makes one of them longer."
+0.5364,1168.44,1182.77,"So even though there's no central authority and everyone is maintaining their own copy of the blockchain, if everyone agrees to give preference to whichever blockchain has the most work put into it, we have a way to arrive at decentralized consensus."
+0.73,1182.77,1195.21,"To see why this makes for a trustworthy system and to understand at what point you should trust that a payment is legit, it's actually really helpful to walk through exactly what it would take to fool someone using this system."
+0.6818,1195.21,1198.55,Maybe Alice is trying to fool Bob with a fraudulent block.
+0.442,1198.55,1207.08,"Namely, she tries to send him one that includes her paying him $100, but without broadcasting that block to the rest of the network."
+0.4308,1207.08,1210.59,"That way, everyone else still thinks that she has those $100."
+0.4872,1210.59,1218.66,"To do this, she would have to find a valid proof of work before all of the other minors, each working on their own block."
+0.2221,1218.66,1220.64,And that could definitely happen.
+0.4247,1220.64,1225.11,Maybe Alice just happens to win this miniature lottery before everyone else.
+0.2779,1225.11,1229.45,But Bob is still going to be hearing the broadcasts made by other miners.
+0.6664,1229.45,1242.0,"So to keep him believing this fraudulent block, Alice would have to do all of the work herself to keep adding blocks on this special fork in Bob's blockchain that's different from what he's hearing from the rest of the miners."
+0.5773,1242.0,1248.43,"Remember, as per the protocol, Bob always trusts the longest chain that he knows about."
+0.4678,1248.43,1257.67,"Alice might be able to keep this up for a few blocks, if just by chance she happens to find blocks more quickly than the rest of the miners on the network all combined."
+0.7163,1257.67,1273.89,"But unless she has close to 50% of the computing resources among all of the miners, the probability becomes overwhelming that the blockchain that all of the other miners are working on grows faster than the single fraudulent blockchain that Alice is feeding to Bob."
+0.5086,1273.89,1282.81,"So, after enough time, Bob's just gonna reject what he's hearing from Alice in favor of the longer chain that everyone else is working on."
+0.5782,1282.81,1289.0,"Notice, that means that you shouldn't necessarily trust a new block that you hear immediately."
+0.2735,1289.0,1293.2,"Instead, you should wait for several new blocks to be added on top of it."
+0.5525,1293.2,1300.69,"If you still haven't heard of any longer block chains, you can trust that this block is part of the same chain that everyone else is using."
+0.2943,1300.69,1305.2,"And with that, we've hit all the main ideas."
+0.867,1305.2,1314.28,"This distributed ledger system, based on a proof of work, is more or less how the Bitcoin protocol works and how many other cryptocurrencies work."
+0.3718,1314.28,1315.94,There's just a few details to clear up.
+0.7428,1315.94,1322.9,"Earlier, I said that the proof of work might be to find a special number so that the hash of the block starts with 60 zeros."
+0.5973,1322.9,1332.83,Well the way the actual Bitcoin protocol works is to periodically change that number of zeros so that it should take on average 10 minutes to find a new block.
+0.5489,1332.83,1342.88,"So as there are more and more miners added to the network, the challenge actually gets harder and harder in such a way that this miniature lottery only has about one winner every 10 minutes."
+0.5639,1342.88,1348.13,Many newer cryptocurrencies actually have much shorter block times than that.
+0.8522,1348.13,1352.45,And all of the money in Bitcoin ultimately comes from some block reward.
+0.4349,1352.45,1356.19,"In the beginning, these rewards were 50 Bitcoin per block."
+0.5068,1356.19,1361.54,There's actually a great website you can go to called Block Explorer that makes it easy to look through the Bitcoin blockchain.
+0.7378,1361.54,1369.91,"And if you look at the very first few blocks on the chain, they contain no transactions other than that 50 Bitcoin reward to the miner."
+0.4933,1369.91,1376.89,"But every 210,000 blocks, which is about every four years, that reward gets cut in half."
+0.3457,1376.89,1380.78,"So right now, the reward is 12.5 bitcoin per block."
+0.6663,1380.78,1389.67,"And because this reward decreases geometrically over time, it means there will never be more than 21 million bitcoin in existence."
+0.5658,1389.67,1393.25,"However, this doesn't mean that miners will stop earning money."
+0.4434,1393.25,1397.96,"In addition to the block reward, miners can also pick up transaction fees."
+0.4547,1397.96,1408.66,"The way this works is that whenever you make a payment, you can purely optionally include a little transaction fee with it that's going to go to the miner of whichever block includes that payment."
+0.4735,1408.66,1415.95,The reason you might do that is to incentivize miners to actually include the transaction that you broadcast into the next block.
+0.72,1415.95,1425.12,"You see, in Bitcoin, each block is limited to about 2400 transactions, which many critics argue is unnecessarily restrictive."
+0.2416,1425.12,1435.86,"For comparison, Visa processes an average of about 1700 transactions per second, and they're capable of handling more than 24000 per second."
+0.3685,1435.86,1446.18,"This comparatively slow processing on Bitcoin makes for higher transaction fees, since that's what determines which transactions miners choose to include in a new block."
+0.5155,1446.18,1451.89,All of this is far from a comprehensive coverage of cryptocurrencies.
+0.2902,1451.89,1456.21,There are still many nuances and alternate design choices that I haven't even touched.
+0.3136,1456.21,1464.99,"But my hope is that this can provide a stable, weight-foot-wise style tree trunk of understanding for anyone looking to add a few more branches with further reading."
+0.7782,1464.99,1470.87,"Like I said at the start, one of the motives behind this is that a lot of money has started flowing towards cryptocurrencies."
+0.3186,1470.87,1480.8,"And even though I don't want to make any claims about whether that's a good or bad investment, I really do think that it's healthy for people getting into the game to at least know the fundamentals of the technology."
+0.105,1480.8,1485.59,"As always, my sincerest thanks to those of you making this channel possible on Patreon."
+0.0,1485.59,1496.65,"I understand that not everyone is in a position to contribute, but if you're still interested in helping out, one of the best ways to do that is simply to share videos that you think might be interesting, or helpful to others."
+0.0778,1496.65,1499.68,"I know you know that, but it really does help."
