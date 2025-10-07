@@ -1,0 +1,286 @@
+score,start,end,transcript
+0.123,0.03,1.57,"Hey, this is Preshtow Walker."
+0.4453,1.57,5.16,"In this video, I will present seven puzzles."
+0.5682,5.16,7.32,How many can you solve?
+0.5558,7.32,10.22,Let's get started with puzzle one.
+0.4228,10.22,12.68,This is an easy question.
+0.2227,12.68,14.74,It is to test your eyesight.
+0.3047,14.74,16.69,How many ducks do you see?
+0.7107,16.69,23.87,"Observation is an important scale in mathematics and in life, so let's just go through this puzzle very carefully."
+0.466,23.87,30.04,"We have a grid of three by three ducks, so we will have a minimum of nine ducks."
+0.4157,30.04,32.98,Let's go through each duck to see if there are any more.
+0.4696,32.98,36.42,"Starting in the top left, we have one duck."
+0.5719,36.42,45.65,"Then if we move over, we have more than one duck, we have one bill here, so that will be a second duck, and we have a third duck over here."
+0.6434,45.65,54.0,"If we move over to the right, we have one big duck, this will be four, and then we have a small duck, which is hiding, and that will be five."
+0.622,54.0,59.48,"Going to the next row, we again have two double bills, so we add two more ducks."
+0.5477,59.48,64.28,"Then we have a large duck and then another small duck, so we add two more."
+0.5176,64.28,68.15,"Another large duck and another small duck, which will be two more."
+0.6773,68.15,74.74,"In the bottom row, we have three nested ducks, so we will need to add three to the total."
+0.7189,74.74,79.47,We then just have one duck and one more duck to complete the puzzle.
+0.5452,79.47,82.52,So we have a total of 16 ducks.
+0.7047,82.52,85.86,Puzzle two.
+0.3181,85.86,92.42,Each of 16 students uses either a bicycle or a tricycle.
+0.4691,92.42,97.11,A bicycle will have two wheels and a tricycle has three wheels.
+0.614,97.11,104.52,"If the total number of wheels is 38, how many students use a tricycle?"
+0.8388,104.52,109.86,So this is a question I would approach mathematically as follows.
+0.6186,109.86,114.87,Let X be the number of students that use tricycles.
+0.6812,114.87,122.38,"Then since there are 16 students, 16 minus x will be the number of students that use a bicycle."
+0.6471,122.38,125.43,Now let's count the total number of wheels.
+0.5824,125.43,130.37,"Every tricycle has three wheels, so that will be three x wheels."
+0.6416,130.37,133.18,And then we will add the number of wheels for bicycles.
+0.3966,133.18,135.1,Each bicycle has two wheels.
+0.7066,135.1,143.91,So we add two multiplied by the group 16 minus x.
+0.7044,143.91,143.91,"This is equal to the total number of wheels, which is 38."
+0.6048,143.91,158.87,All that remains is to solve this equation for x.
+0.6384,158.87,158.87,"Distribute the two, so we have two times 16 minus two times x."
+0.6513,158.87,158.87,"We then have three x minus two x, which is equal to x, and two times 16 is equal to 32."
+0.5433,158.87,167.1,"So x plus 32 is equal to 38, subtracting 32 from both sides gives that x is equal to six."
+0.2195,167.1,170.49,There are six students that use a tricycle.
+0.8883,170.49,178.56,"This is how I would have approached the problem, but there is a very clever trick to solve the problem, and you can do it right in your head."
+0.4039,178.56,182.91,Imagine all 16 students had bicycles.
+0.5474,182.91,185.55,What would the total number of wheels be?
+0.6892,185.55,189.76,"This would be 16 times 2, which equals 32."
+0.5826,189.76,193.47,But we know the total number of wheels is 38.
+0.6514,193.47,197.75,So we need six more wheels to get to the total of 38.
+0.7371,197.75,203.28,That means every tricycle adds exactly one more wheel.
+0.4745,203.28,207.65,So there must be six of these students who have a tricycle.
+0.9634,207.65,213.37,And that's a magic way to solve this problem without doing any fancy algebra.
+0.7094,213.37,216.32,Puzzle three.
+0.5843,216.32,220.42,We have three different boxes.
+0.4615,220.42,223.29,Each box has a statement.
+0.4446,223.29,226.42,Exactly one of the statements is true.
+0.2796,226.42,230.24,A car is inside one of the boxes.
+0.4014,230.24,233.69,Pick the correct box and you win the car.
+0.3334,233.69,235.95,Which box should you pick?
+0.773,235.95,244.92,This puzzle was shared on social media and it was reported that only 36% of people could get the correct answer.
+0.3226,244.92,249.23,And that's not much more than the random chance of 33%.
+0.6415,249.23,251.52,So how do we figure it out?
+0.658,251.52,254.48,Let's go through this step by step.
+0.575,254.48,258.57,Let's first imagine the car is in box one.
+0.711,258.57,261.27,Now let's evaluate each statement.
+0.4345,261.27,266.08,The first box says the car is in this box.
+0.4235,266.08,269.32,"If the car is in box one, this would be a true statement."
+0.4473,269.32,275.7,"Box 2 has a statement, the car is not in this box, and that would also be a true statement."
+0.4868,275.7,282.49,"Box 3 says the car is not in box 1, and that would be a false statement."
+0.6619,282.49,289.71,"But we now have two statements which are true, and we are given the information that exactly one of the statements is true."
+0.5195,289.71,294.62,"So this is a contradiction, and we cannot have the car in box 1."
+0.5625,294.62,299.72,Now let's zoom ahead and consider the car is in box three.
+0.687,299.72,301.82,Let's evaluate each statement.
+0.5288,301.82,308.36,"Starting with box one, the car is in this box would be false."
+0.5279,308.36,320.04,"Box two, the car is not in this box, that would be a true statement, and box three, the statement is the car is not in box one, and that would be a true statement because the car is in box three."
+0.7212,320.04,329.65,"So once again, this contradicts the given information that exactly one of the boxes has a true statement, so this cannot be the case."
+0.5353,329.65,334.98,So the only case we can consider is that the car is in box two.
+0.5003,334.98,339.18,So let's go ahead and verify that exactly one of the statements will be true.
+0.5373,339.18,346.39,The car is in this box for box one would be a false statement because it's in box two.
+0.5175,346.39,354.21,"Box 2 has a statement, the car is not in this box, and that would also be a false statement because the car is in box 2."
+0.6141,354.21,361.54,"Box 3 has a statement, the car is not in box 1, and that is a true statement because the box is in car 2."
+0.5358,361.54,364.73,So exactly one of the statements is true.
+0.5264,364.73,372.29,"This does satisfy all the conditions, so the car is in fact in box 2, and you should pick box 2."
+0.7094,372.29,375.96,Puzzle 4.
+0.58,375.96,381.36,We have eight matchsticks that are arranged in the shape of a fish.
+0.5989,381.36,388.15,The challenge is to move exactly three of the sticks so the fish swims to the opposite side.
+0.4572,388.15,392.07,"That is, the fish will be swimming to the right instead of the left."
+0.7243,392.07,394.1,So how do we solve it?
+0.5611,394.1,402.55,Let's get started by imagining we have a solution where the sticks are arranged so that the fish is looking to the right.
+0.8917,402.55,407.13,Let's overlay the solution on top of the original picture.
+0.6486,407.13,414.88,"Now this would be a solution, but we would need to move exactly four of the match sticks."
+0.5969,414.88,419.61,"So the challenge is to move exactly three of the sticks, so we need to keep searching."
+0.3951,419.61,423.55,So let's move these overlay in another position.
+0.6692,423.55,429.54,And we see here we have a solution where we move exactly three of the sticks.
+0.2637,429.54,431.58,So let's go ahead and implement this.
+0.2719,431.58,435.0,Let's take this matchstick and make it part of the head.
+0.1774,435.0,438.97,Let's take this stick over here and make it part of the fin.
+0.5086,438.97,445.72,"And finally, we move this stick over here and we complete the fish so that it is looking to the right."
+0.6702,445.72,451.19,And this is how you can move exactly three sticks so that the fish is looking to the other side.
+0.6694,451.19,454.07,Puzzle five.
+0.5932,454.07,463.08,The scoreboard operator of the sports team loves math and has decided to illustrate an equation on the scoreboard.
+0.5976,463.08,467.63,10 plus 1 times 10 minus 1 is equal to 101.
+0.7002,467.63,471.89,"Unfortunately, this is not a true equation."
+0.3401,471.89,474.72,So the operator asked you for help.
+0.6896,474.72,477.26,How can you fix the equation?
+0.8493,477.26,484.25,The challenge is to change two of the dots to be on or off to make a true equation.
+0.5165,484.25,491.56,"So you could take a dot that's on and turn it off, or you could take a dot that's off and turn it on."
+0.814,491.56,497.39,You need to change exactly two of the dots to be on or off to make a true equation.
+0.2846,497.39,499.4,So how can you do it?
+0.7772,499.4,503.85,Let's first get started by analyzing the equation that's written.
+0.6537,503.85,508.21,We have 10 plus 1 times 10 minus 1 is equal to 101.
+0.6362,508.21,511.72,This is almost a true equation.
+0.6402,511.72,516.08,"If we expand the left side, we get a difference of squares."
+0.6413,516.08,521.85,"Now, this will simplify to be 100 minus 1, which is 99."
+0.3124,521.85,524.32,What is 101?
+0.6201,524.32,530.92,"It can be written as 10 squared plus 1 squared, which is 100 plus 1 or 101."
+1.0,530.92,535.51,So we have one possibility for approaching this puzzle.
+0.7919,535.51,541.46,"We have 10 squared minus 1 squared, and on the other side we have 10 squared plus 1 squared."
+0.9096,541.46,548.11,"If somehow we could change the left-hand side to be equal to the right-hand side, we would solve the puzzle."
+0.2992,548.11,551.56,And all we need is a little imagination.
+0.5904,551.56,563.81,"Think about the equation 10 plus i times 10 minus i, where i is equal to the principal square root of negative 1, so that i squared is equal to negative 1."
+0.75,563.81,565.85,Now let's simplify this expression.
+0.5647,565.85,569.36,We get 10 squared minus i squared.
+0.6238,569.36,572.34,i squared is equal to minus 1.
+0.6695,572.34,577.89,So 100 minus a negative 1 will be equal to 101.
+0.6677,577.89,582.22,"So we do, in fact, have a true equation."
+0.6166,582.22,587.92,So all we need to do is change these ones into the imaginary number i.
+0.5345,587.92,592.68,So we'll take this one and we will turn off this dot.
+0.4242,592.68,596.1,We will take this one and we will turn off this dot.
+0.9453,596.1,598.0,So let's examine the equation we have.
+0.5807,598.0,602.83,"We have 10 plus i times 10 minus i, which is equal to 101."
+0.6084,602.83,608.09,Are there any more solutions to this puzzle?
+0.6074,608.09,611.61,Puzzle six.
+0.0,611.61,617.02,You have a rare but treatable medical condition.
+0.4275,617.02,628.96,"Every day, you must take a dose of one tablet of medicine A and one tablet of medicine B."
+0.0806,628.96,628.96,"If you take the wrong dose, you will get sick."
+0.2228,628.96,632.64,You must be very careful because the tablets look identical.
+0.07,632.64,638.87,You are happily enjoying a vacation when bad luck strikes.
+0.6337,638.87,647.26,"With two days left, you clumsily drop the four remaining tablets of A and B on the floor and they get mixed up."
+0.0536,647.26,650.49,You have no way to get more medicine.
+0.3275,650.49,655.63,What can you do to take the correct dose of A and of B?
+0.5438,655.63,663.21,This puzzle has been asked as an interview question at investments and even tech companies.
+0.7387,663.21,668.65,"So even though it's a very simple problem, it is baffled some of the greatest minds."
+0.6242,668.65,671.13,So how can we figure it out?
+0.6506,671.13,675.78,Let's get started by considering the total number of possibilities.
+0.6403,675.78,681.09,"We have four different tablets, which we can represent as four different blanks."
+0.7007,681.09,692.18,We know that two of the blanks will be A and two of the blanks will be B.
+0.6669,692.18,692.18,Now let's imagine we pick two of the blanks as A.
+0.6023,692.18,704.0,The remaining two blanks must be the other medicine B.
+0.5663,704.0,704.0,"So once we choose two other four slots, we have entirely determined the arrangement."
+0.4263,704.0,713.87,"So the total number of possibilities will be the total number of ways we can pick two things from four things, which will be equal to four choose two, which equals six possibilities."
+0.0051,713.87,717.66,"For a comprehensive sake, let me just enumerate them."
+0.4888,717.66,728.04,"We have a-a-b-b, a-b-a-b, a-b-b-a, b-b-a-a, b-a-b-a, and b-a-a-b."
+0.3438,728.04,733.89,What is the chance we would randomly select two pills and get the correct dose?
+0.5025,733.89,737.78,So let's say we just selected the first two bills.
+0.273,737.78,742.8,How many of these possibilities will correspond to getting the correct medicine?
+0.4057,742.8,746.93,"We have AB, AB, and we have BABA."
+0.5031,746.93,752.12,"This will be a total of four of the six possibilities, which equals 66.7%."
+0.4071,752.12,763.61,"So just by random chance, if you just pick the first two tablets, you have a two thirds or 66.7% chance that you would get the correct dose."
+0.1543,763.61,765.85,"And hey, two out of three ain't bad."
+0.3153,765.85,772.76,But there is a better way that you could take the correct dose every single time.
+0.4366,772.76,776.35,"To do this, we have to be a little creative and smart."
+0.6345,776.35,784.14,"From these four pills, split them right down the middle, and split them into two different groups."
+0.4423,784.14,791.3,"So we have this top group, which we will take on day one, and this bottom group, which we will take on day two."
+0.2286,791.3,794.99,"And each day, you will 100% get the correct dose."
+0.6065,794.99,799.11,"So let's consider the six possibilities, and let's see why."
+0.7302,799.11,822.36,"Suppose we have AABB, On day one and on day two, you would take one half of A plus A plus B plus B, and this simplifies to exactly be equal to A plus B."
+0.6051,822.36,822.36,You will take one dose of A and one dose of B.
+0.6607,822.36,822.36,"Now, what would happen if we had another arrangement like A, B, A, B?"
+0.4597,822.36,828.63,"By the commutative property of addition, we would still end up with exactly the same result."
+0.6134,828.63,846.83,"And no matter how the arrangement is, we will always end up with one dose of A and one dose of B."
+0.4965,846.83,846.83,"So when students are learning the commutative property of addition and wondering when will this ever come in handy, you might say, this could literally save your life."
+0.6001,846.83,849.12,What an interesting puzzle.
+0.514,849.12,856.42,"Finally, let me conclude with puzzle seven, which is a challenging geometry problem."
+0.7768,856.42,861.38,We have a circle that contains two squares that overlap at one point.
+0.682,861.38,865.85,The squares have side lengths of four and two centimeters.
+0.5503,865.85,870.18,The question is what is the area of the circle?
+0.6371,870.18,874.85,So let's see how we can figure this out.
+0.6215,874.85,888.47,Start by labeling the center of the circle as O.
+0.6199,888.47,888.47,Label the larger square as ABCD and label the smaller square as DEFG and D is the point at which the two squares overlap.
+0.7109,888.47,892.38,"In the rest of the video, I'm going to show you a rather complicated solution."
+0.3927,892.38,897.16,"And I can already anticipate someone's going to say, there is a much easier way."
+0.4873,897.16,903.99,Start by extending the side AD so that it intersects with the circle and it meets at the point F.
+0.6975,903.99,910.48,"I agree, if you could have this step, the calculation would be fairly simple."
+0.3278,910.48,912.8,There's only one problem.
+0.1088,912.8,920.15,"You need to justify why AD extends to the point F, and I haven't found any easy proof of this."
+0.3983,920.15,930.93,"So if you can find an easy proof of this, then the calculation will be much easier, but I haven't been able to find an easy way to figure this out, so I'm not going to use this step."
+0.8282,930.93,936.44,"So without this step, the problem is very difficult, but it is still solvable."
+0.4565,936.44,941.61,Start with the observation that AB is a cord of the circle.
+0.2378,941.61,950.79,"For any cord of any circle, the perpendicular bisector of the cord will pass through the center of the circle."
+0.3501,950.79,970.74,"So let's construct the perpendicular bisector of AB, and we know it will pass through the center of the circle, O."
+0.5608,970.74,970.74,"Labally intersection point as H, label the endpoint on the circle as K, and label the endpoint on the square ABCD as L."
+0.788,970.74,970.74,Let's now just focus on this side of the diagram.
+0.4851,970.74,978.33,"Construct the radius of the circle, OA, and suppose the circle has a radius length equal to R."
+0.5624,978.33,982.11,Now we have the perpendicular bisector of AB.
+0.6725,982.11,987.68,"The entire side of the square is equal to 4, so half that length will be equal to 2."
+0.4903,987.68,1002.66,"Suppose kh has length equal to x, then h0 will be equal to the radius of the circle minus x, so this length will be r minus x."
+0.6586,1002.66,1004.15,We now have a right triangle OH.
+0.7167,1004.15,1012.5,We therefore have 2 squared plus the square of R minus X is equal to R squared.
+0.7644,1012.5,1015.59,Now let's construct one more right triangle.
+0.5851,1015.59,1023.42,Let's construct OD and this will be a hypotenuse of a right triangle with legs of OL and LD.
+0.3997,1023.42,1025.92,What's the length of LD?
+0.961,1025.92,1028.36,This will be equal to 2.
+0.4378,1028.36,1029.89,What's the length of O L?
+0.6892,1029.89,1032.57,It'll be a little more complicated of a calculation.
+0.3738,1032.57,1033.96,Let me get to that in a second.
+0.6936,1033.96,1039.85,"Since we have a right triangle, we have 2 squared plus the square of O L is equal to O D squared."
+0.4851,1039.85,1042.13,But what is the length O L?
+0.5858,1042.13,1049.12,O L is equal to L K minus O K.
+0.668,1049.12,1078.26,"Lk is equal to 4 plus x because it's the side of the square plus x, and ok is equal to the radius r."
+0.7107,1078.26,1078.26,So OL is equal to 4 plus x minus r.
+0.566,1078.26,1078.26,We substitute that into our formula and we have a formula for the square of OD in terms of r and x.
+0.7437,1078.26,1078.26,So let's just focus on these two equations and for now we will put them to the side.
+0.8514,1078.26,1083.02,We're going to do a very similar calculation on the other square.
+0.7273,1083.02,1086.1,So let's go back to square ABCD.
+0.7996,1086.1,1090.79,Let's put up the other square and we will focus on the other square.
+0.3661,1090.79,1101.64,Now EF is a chord of the circle so we construct its perpendicular bisector which must pass through the center O.
+0.7609,1101.64,1101.64,We will now construct two right triangles.
+0.6601,1101.64,1105.92,Let me zoom in on this diagram so it's a little easier to see.
+0.6992,1105.92,1111.85,Let's construct the radius OE and we now have a right triangle.
+0.6928,1111.85,1120.36,So let's hypotenuse will be equal to the radius R.
+0.7552,1120.36,1120.36,The shorter leg will be half the side length of the square and that will be equal to one.
+0.6447,1120.36,1137.12,Let's label this extra distance outside the square as a variable Y.
+0.774,1137.12,1137.12,Then the remaining leg will be equal to R minus Y.
+0.7578,1137.12,1137.12,"So we have a right triangle and we have the equation, one squared plus the square of R minus Y is equal to R squared."
+0.766,1137.12,1141.53,Let's now construct another right triangle and get another equation.
+0.517,1141.53,1147.56,"So let's once again construct OD, and we'll calculate this length in another way."
+0.8157,1147.56,1154.03,"So one leg of this right triangle will be half the side length of the square, so that will be equal to one."
+0.6363,1154.03,1164.12,"The other distance will be equal to the radius length minus the side length of the square minus y, so this is R minus y minus two."
+0.6393,1164.12,1171.12,So we have the equation 1 squared plus the square of r minus y minus 2 is equal to OD squared.
+0.7623,1171.12,1177.67,We now have four equations and we will just focus on these four equations.
+0.8694,1177.67,1180.55,So let's rearrange these equations.
+0.6259,1180.55,1187.38,Let's put the two equations with r squared on the left-hand side and the two equations with OD squared on the right-hand side.
+0.4663,1187.38,1192.52,"From the first equation on the upper left, let's solve for r minus y."
+0.7901,1192.52,1198.47,"So we just subtract one from both sides, then we will take the square root."
+0.4861,1198.47,1202.41,We want a positive length because we're dealing with positive values here.
+0.5908,1202.41,1207.44,So we've r minus y is equal to the positive root of r squared minus 1.
+0.5587,1207.44,1217.28,Do the same thing in the other equation and we will solve for r minus x.
+0.6077,1217.28,1217.28,Now we actually want x minus r so we will flip the sign on this.
+0.5996,1217.28,1223.07,We will take these values and we will substitute them into the other equations.
+0.5584,1223.07,1230.38,So here we have r minus y and we will substitute this value for r minus y.
+0.4698,1230.38,1230.38,So we substitute this in.
+0.5448,1230.38,1241.41,Let's do the same thing for the other equation where we substitute in the value for x minus r.
+0.5847,1241.41,1241.41,So we now just focus on these two equations we have derived.
+0.5699,1241.41,1248.1,"Both of these equations are equal to OD squared, so both of these equations are equal to each other."
+0.8559,1248.1,1254.03,So we have simplified the problem to one equation in just one variable.
+0.5827,1254.03,1262.28,"So it will be possible to solve this equation in a not too difficult way, but there are many algebraic steps along the way."
+0.6116,1262.28,1266.16,Let's get started by squaring each binomial.
+0.7823,1266.16,1268.66,We now simplify this equation.
+0.6737,1268.66,1271.73,The R squared terms will cancel on both sides.
+0.8854,1271.73,1278.21,"We then have one minus one which will cancel, and then we have plus four on both sides."
+0.7552,1278.21,1282.0,Then 16 minus four will be equal to 12.
+0.5815,1282.0,1291.27,"Bring all the radicals to one side, so we have eight root R squared minus four, minus four root R squared minus one is equal to 12."
+0.8511,1291.27,1295.73,We will focus on this equation and continue to simplify.
+0.729,1295.73,1299.93,divide the entire equation by four.
+0.4074,1299.93,1306.7,"We still need to get rid of these radicals, so we will just need to square the equation, isolate the square root, and then square again."
+0.7528,1306.7,1314.73,"So square both sides of the equation, we've gotten rid of some of the radicals, but we still have one term that is two radicals."
+0.8176,1314.73,1318.64,"So we need to isolate that term, and then square both sides of the equation again."
+0.7618,1318.64,1323.51,So let's just go ahead and simplify this equation by grouping like terms.
+0.6054,1323.51,1330.02,We then bring the radical term to one side and all of the other terms to the other side of the equation.
+0.5626,1330.02,1336.03,We can now eliminate the radicals by squaring both sides of the equation.
+0.8447,1336.03,1343.94,So go ahead and square both sides of the equation and then expand everything out and finally group like terms.
+0.7482,1343.94,1346.7,We have a relatively simple equation.
+0.8343,1346.7,1349.85,Divide both sides of the equation by nine.
+0.7119,1349.85,1355.64,"Now, if we take r squared as a variable, we essentially have a quadratic in r squared."
+0.8546,1355.64,1359.21,So one way to approach this is we will complete the square.
+0.4942,1359.21,1361.59,Let's go ahead and rewrite this.
+0.8238,1361.59,1364.26,And now we have a perfect square.
+0.7374,1364.26,1371.97,"So we can take r to the power four minus 20 r squared plus 100, and that will be equal to the square of r squared minus 10."
+0.6326,1371.97,1374.64,Then we have minus 32 is equal to zero.
+0.7367,1374.64,1381.51,"Bring the 32 to the other side, and we take plus or minus the square root of that, and we will add 10."
+0.8179,1381.51,1387.63,So we finally end up that r squared is equal to 10 plus or minus four root two.
+0.6351,1387.63,1390.44,But we still have two possible answers.
+0.3867,1390.44,1392.16,These are both positive terms.
+0.5069,1392.16,1394.68,We can't just eliminate the negative.
+0.5273,1394.68,1399.45,So how do we know which solution is corresponding to our original problem?
+0.9173,1399.45,1401.88,Let's take a look at the original problem.
+0.554,1401.88,1405.83,The area of the square will be equal to pi r squared.
+0.6612,1405.83,1409.41,So we have pi multiplied by 10 plus or minus 4 root 2.
+0.4399,1409.41,1411.72,Which one could be right?
+0.2872,1411.72,1413.18,Or could they both be right?
+0.59,1413.18,1421.82,"While we know that the circle contains both of these squares, so the circles area should be larger than the sum of the areas of these two squares."
+0.5889,1421.82,1433.47,"One square has an area that's equal to four squared or 16 square centimeters, and the other square has an area that's equal to two squared, which is equal to four square centimeters."
+0.649,1433.47,1441.28,"So we know the circles area has to be larger than 16 plus four, which equals 20."
+0.4729,1441.28,1449.61,"However, if we take pi multiplied by 10 minus 4 root 2, this will be a value that is less than 20."
+0.4264,1449.61,1454.11,"So we can eliminate this possibility, and it must be the other case."
+0.4085,1454.11,1467.79,"The area of this circle pi r squared is equal to pi times 10 plus 4 root 2, which is approximately equal to 49.19 square centimeters."
+0.4618,1467.79,1472.06,And that's the answer to this very interesting question.
+0.115,1472.06,1476.45,Thanks for making us one of the best communities on YouTube.
+0.2334,1476.45,1481.46,See you next episode of Mind Your Decisions where we solve the world's problems.
+0.156,1481.46,1483.55,One video at a time.

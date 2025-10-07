@@ -1,0 +1,269 @@
+score,start,end,transcript
+0.3346,0.03,7.74,Welcome to another method of video.
+0.4703,7.74,15.44,Have you heard of the mysterious Schwarzlentens and the existential crisis in maths that was triggered by them?
+0.4577,15.44,19.34,"Well, that Schwarz over there was one of his lanterns."
+0.1659,19.34,21.72,"Looks like something from IKEA, doesn't it?"
+0.3803,21.72,25.97,There's also this Japanese coffee can version of the lantern.
+0.377,25.97,27.21,And what about this?
+0.4514,27.21,29.44,A hedgehog version of the lantern.
+0.4632,29.44,30.58,Hmm.
+0.3296,30.58,38.31,"Now before I inflict some serious existential crisis level Schwarz-Lenton on you, let's warm up with a Super Barrel Matz meme."
+0.654,38.31,42.54,The pie is equal to four paradoxes.
+0.3196,42.54,43.97,What's that about again?
+0.3301,43.97,47.39,"Well, let's quickly go over the whole thing to refresh our memory."
+0.9441,47.39,52.6,"First, we're supposed to draw a circle of diameter 1, not a big deal."
+0.6819,52.6,55.53,"For later, what's the circumference of the circle?"
+0.5398,55.53,62.0,"Well, the formula for the circumference is pi times diameter 1, and so the circumference is pi."
+0.9121,62.0,65.04,"Next, draw a square around a circle."
+0.7226,65.04,68.49,It says here that the perimeter of the square is four.
+0.2027,83.35,84.51,Why is that?
+0.8924,69.09,72.99,"Well, because we need four of those diameters to build a square."
+0.3033,958.01,958.83,All right.
+0.8271,74.5,77.1,"Now, remove the four corners like this."
+0.8962,77.1,82.77,It says that the perimeter of the new shape is still four.
+0.3387,675.82,676.2,Really?
+0.2027,83.35,84.51,Why is that?
+0.3381,84.51,86.41,Why is it still the same?
+0.4849,86.41,88.68,"Well, let's have a close look."
+0.5583,88.68,94.68,Cutting off this corner simply amounts to taking the dotted part and moving it here.
+0.7923,94.68,100.35,"This means that when we cut the corners, the perimeter does not change."
+0.7345,100.35,102.08,The perimeter is still 4.
+0.8419,102.08,106.78,"Now, in the same way, cut off all the corners of the new shape."
+0.2872,106.78,110.04,"As before, the parameter stays unchanged."
+0.4306,110.04,111.14,It's still 4.
+0.3796,111.14,111.93,Cool.
+0.6029,111.93,116.07,"If we keep doing this, the parameter will always be 4."
+0.7421,116.07,119.94,"At the same time, our zigzag curves will turn into the circle."
+0.575,119.94,123.91,We conclude that the parameter of the circle is equal to 4.
+0.8073,123.91,126.59,"In other words, pi is equal to 4."
+0.2776,126.59,129.17,Very weird and wonderful.
+0.4749,129.17,130.75,Have you seen this pattern before?
+0.4459,130.75,134.32,Versions of this little paradox have been around for a couple hundred years.
+0.1157,134.32,136.06,A real classic.
+0.5618,136.06,140.09,"Now, at the end of this meme, it also asks, problem Archimedes?"
+0.4761,140.09,143.96,"Well, clearly we have a problem here, but why Archimedes?"
+0.6705,143.96,148.78,"Well, because Archimedes did something very similar to estimate the value of pi."
+0.8008,148.78,152.69,"Start again with the square on the circle, okay?"
+0.6975,152.69,156.09,"But this time, we're chopping the corners off like this."
+0.7917,156.09,161.38,So the new shape is a regular octagon.
+0.8327,161.38,168.24,"And since we are literally cutting corners here, it's clear that the parameter of this octagon will be less than 4."
+0.3621,168.24,170.62,"In fact, it's 3.31 in a bit."
+0.5969,170.62,177.45,Cutting all corners of the octagon gives a regular 16-gon with parameter 3.18 in a bit.
+0.7731,177.45,182.28,Keep cutting corners and the curves will come across turn into the circle again.
+0.7749,182.28,188.75,"At the same time, the parameters of those chopped curves really hone in on the true value of pi."
+0.9383,188.75,194.73,"Anyway, as we've seen, approximating the circle in different ways can give different values."
+0.1552,194.73,197.79,How can we be sure which is the right one?
+0.6908,197.79,203.92,"And when it comes to Kirby curves, like a circle, What's its length anyway?"
+0.273,1316.27,1316.79,Right?
+0.2798,204.65,205.23,Not obvious.
+0.5731,205.23,211.32,"Of course, when you confront him with something straight, measuring its length is not a problem with a straight ruler."
+0.5281,211.32,213.51,But what about a nice smooth curvy curve?
+0.4479,213.51,216.03,How do you measure its length?
+0.8066,216.03,220.19,"Well, we could roll the ruler along the curve like this."
+0.2954,220.19,224.13,some of Andrew's animation magic at work here.
+0.0927,224.13,227.15,"Remember Andrew Kappett, my new best friend from the last video."
+0.3018,227.15,233.32,He also suggested a topic for this video and contributed a few of the animations that you'll see today.
+0.525,233.32,243.75,"While rolling a ruler, easier said than done, but at least in theory, that's a perfectly fine way to define and measure the lengths of a smooth curvy curve like this."
+0.2882,243.75,245.27,How about in practice?
+0.4071,245.27,249.18,How would you go about getting a good estimate for the lengths of this curve?
+0.2603,249.18,253.31,"Well, something like what we just did seems like a good idea."
+0.3323,253.31,264.84,"Just approximate a curve by another curve consisting of straight line segments and measure its total length, segment by segment, to get an approximation of the length of the curvy curve."
+0.3449,264.84,269.39,And how would you go about finding a good straight line approximation of the curve?
+0.6737,269.39,274.62,"Well, the first line that comes to mind here doesn't involve chopping off corners, right?"
+0.5886,274.62,279.13,"Instead, just pick a couple of points on the curve and connect them by straight lines."
+0.7557,279.13,280.65,And now measure like this.
+0.3594,280.65,285.56,"There, there, there, there, there, 14 and a bit."
+0.3148,285.56,290.3,"Somewhat short of the actual length of about 15, but not bad."
+0.5718,290.3,296.1,"If we have the better approximation of the lengths, we just go for a finer approximation by straight line segments."
+0.5898,296.1,305.0,And then choosing finer and finer straight line approximations with the individual segments shrinking to zero will give the exact length of the curve.
+0.4899,305.0,325.52,"In fact, if we're dealing with a nice smooth curvy curve, it's possible to prove mathematically that no matter how you refine your straight line approximations, put the points in lots of different ways, as long as the length of the individual segments shrink to zero, this will always give you the exact length of the curvy curve."
+0.5296,325.52,330.31,No ambiguity there as we experience with the two different types of chopping corners.
+0.8013,330.31,339.59,"Of course, most of you will know that apart from chopping of corners, Archimedes also honed in on the circle exactly like this to approximate pi."
+0.1174,339.59,342.8,"Chop, chop, chop, chop, chop, chop."
+0.6798,342.8,351.92,"And using his two ways of approximating the circle from the outside and the inside, Archimedes came up with his legendary boxing in of pie."
+0.7172,351.92,363.2,"There, Archimedes famous 22 over 7 on the right and on the left, 223 over 71, which when you have a closer look is really just a nifty refinement of 22 over 7."
+0.1682,363.2,363.89,Cute!
+0.4588,363.89,368.64,"Anyway, ready for some Schwart's lantern magic?"
+0.2997,1153.9,1154.74,Great!
+0.546,369.79,378.62,"Again, for a nice, smooth, curvy curve, the length is just the limit of the lengths of finer and finer straight line approximations."
+0.3106,378.62,380.35,Okay.
+0.6757,380.35,387.64,"And now, obviously, something similar should also be true for nice, smooth, curvy surfaces, right?"
+0.593,387.64,389.32,"Take, for example, a sphere."
+0.752,389.32,391.4,And highlight a couple of points on the sphere.
+0.6529,391.4,393.72,Connect those points up into triangles.
+0.3292,393.72,395.47,"Wait, can't see a thing."
+0.6689,395.47,398.19,So let's make the sphere transparent.
+0.5644,398.19,403.94,"Use more points on the sphere to get a better approximation, more points, and more."
+0.7517,403.94,406.12,"That's a pretty good approximation of the sphere, right?"
+0.7317,406.12,414.69,And the easily measured surface area of this triangle approximation must definitely be very close to the surface area of the sphere.
+0.6323,414.69,434.12,"Okay, keep refining such that all those triangle edges shrink to zero and in this way, one, our triangle approximations should become indistinguishable from the sphere and two, the areas of our triangle approximations should converge to the area of the sphere."
+0.2456,434.12,435.3,"Obviously, right?"
+0.4286,435.3,440.08,"And the same should be the case for any reasonable surface, right?"
+0.1781,440.08,444.82,"Well, yes and no, not at all."
+0.7348,444.82,454.2,"Now it's true is that as long as the edges shrink to zero, the triangle approximations become indistinguishable from the surface."
+0.6938,454.2,460.09,"However, the areas do not necessarily approach that of the surface."
+0.0032,460.09,461.21,Bama.
+0.3317,461.21,467.4,"Around 1880, the mathematician Hermann Schwarz published his notorious counter-example."
+0.7633,467.4,478.32,"In his counter-example, a nice cylinder surface gets honed in on by some of the nicest imaginable triangle approximations of the cylinder, the Schwarz-Lentens."
+0.6659,478.32,489.65,"Surprisingly, if you choose these special triangle approximations just right, as you refine them, their areas do not approach the true surface area of the cylinder."
+0.7882,489.65,496.16,"In fact, you can make the areas of these lentens approach any value greater equal to the cylinder surface area."
+0.595,496.16,499.15,You can even make them approach infinity.
+0.2333,499.15,500.27,"That's wild, isn't it?"
+0.2043,500.27,503.22,"And of course, that's a big, big problem."
+0.4497,503.22,514.67,"If our straightforward method of calculating surface area by refining triangle approximation kills over even for a simple surface like a cylinder, how can we calculate surface area reliably at all?"
+0.5003,514.67,519.04,sorting out this conundrum turned out to be a big task for mathematicians.
+0.9073,519.04,528.48,"Now, in the rest of the video, I'll show you how exactly the lanterns foil our method of calculating area and how our method can be evolved to give the correct surface area."
+0.8569,528.48,533.44,I'll also show you how the pi equals four paradox is resolved.
+0.3789,533.44,538.53,"And to finish off, we'll also have some origami and Ken crushing fun with Schwartz lanterns."
+0.2181,538.53,540.27,Let's look forward to it.
+0.6134,540.27,555.81,"Okay, so how exactly do the Schwarz-Lentans mess up our method of calculating the surface area of a cylinder?"
+0.4761,555.81,557.0,Let me show you.
+0.8428,557.0,562.99,"In keeping with our pi is equal to 4-puzzle, let's approximate a very special cylinder."
+0.6794,562.99,565.43,One with surface area equal to pi.
+0.6752,565.43,569.03,"There, both the diameter of the circle and the height of the cylinder is one."
+0.7721,569.03,576.3,"This means that there's not just one, but two obvious pi's baked into this cylinder."
+0.4263,576.3,580.31,"First, the circumference of the circle is diameter times pi, so that's pi."
+0.7314,580.31,586.68,"And then there's the area of the blue cylinder, which is simply the circumference times the height, which is also pi."
+0.6977,586.68,603.27,"To construct one of the lantern approximations of the cylinder, split the cylinder into four equal horizontal bands, put seven equally spaced red points on each of the circles like this, put into triangles, well that's our lantern."
+0.7275,603.27,610.22,This particular lantern has four horizontal bands of triangles and has seven equally spaced red points at every level.
+0.6776,610.22,615.58,Here are a couple more lanterns with different numbers of points and bands.
+0.3139,615.58,617.92,"There, there, there."
+0.8313,617.92,625.72,"Now, to get finer and finer lantern approximations of the cylinder, we simply crank up the number of bands and the number of points."
+0.2985,625.72,627.86,So let's do some cranking.
+0.5992,627.86,632.25,"Okay, start with this simple lantern with just one band."
+0.4065,632.25,636.9,"Stick with this one band throughout, but crank up the number of points there."
+1.0,636.9,642.48,"Okay, the lanterns look more like a cylinder and the areas approach pi."
+0.1577,642.48,643.64,"So far, so good."
+0.4216,643.64,646.2,"Okay, now something different."
+0.5922,646.2,650.15,"Let's crank up the number of bands, but let's not meddle with the number of points."
+0.6025,650.15,652.99,So the number of points stays five throughout.
+0.5191,652.99,659.12,"Okay, the lantern area is 2.95 and a bit to start with."
+0.733,659.12,664.18,"Let's less than pi, but now watch the area as we crank up the number of bands."
+0.6303,664.18,668.39,"Okay, area is going up as expected, but look at that."
+0.7774,668.39,671.44,The area is now greater than pi and keeps rising.
+0.6713,671.44,675.82,"In fact, the surface areas of these lanterns explode to infinity."
+0.3387,675.82,676.2,Really?
+0.2605,676.2,676.92,Yes.
+0.5649,676.92,684.69,"To see why this is the case without torturing any formulas, just have a look at the insert of the same setup as we add bands."
+0.1363,684.69,687.08,Go. There.
+0.2012,687.08,689.1,"More, more of these bands."
+0.3033,958.01,958.83,All right.
+0.8033,691.1,699.69,"From this viewpoint, it becomes clear that as we crank up the number of bands, basically the same areas added to the lantern over and over, right?"
+0.7109,699.69,709.19,"As the bands go thinner and thinner, the triangles go flatter and flatter, and every band essentially adds this gray area here."
+0.8163,709.19,714.44,and the same area added infinitely often gives infinite area.
+0.7232,714.44,717.96,"The areas of the lanterns explore to infinity, easy."
+0.2828,717.96,721.44,"Well, at least that's the gist of the argument."
+0.3385,721.44,722.51,"Okay, get in there."
+0.6714,722.51,731.08,"It's pretty easy to see that for the same reason, fixing the number of points to be any other number and then cranking up the number of bands will lead to infinite area."
+0.6255,731.08,734.94,Here's another example with the number of points seven instead of five.
+0.8362,734.94,744.37,"Again, we're essentially adding the same stuff infinitely often as we crank up the number of bands and therefore the areas of the lanterns again explore to infinity."
+0.3033,958.01,958.83,All right.
+0.5011,745.57,751.28,Are the lantern refinements that we just looked at Schwarz's famous counter examples?
+0.9332,751.28,756.24,"Well, we're refining and the areas head off to infinity instead of pi."
+0.1292,756.24,757.12,Looking good.
+0.58,757.12,762.27,"However, these particular lantern refinements are not quite what we want."
+0.2548,762.27,762.95,Why?
+0.9096,762.95,766.27,"Well remember, the triangle refinements we did for the sphere?"
+0.8247,766.27,769.66,"There, all the triangle edges shrink to zero."
+0.8476,769.66,779.13,"There, there, okay, and as the edges shrink to zero, the triangle approximations become indistinguishable from the sphere."
+0.6857,779.13,785.02,"On the other hand, the edges in our London triangle refinements don't shrink to zero."
+0.8449,785.02,791.25,"At the same time, our lantern approximations don't turn into the cylinder, right?"
+0.7941,791.25,796.62,"From the top, they don't look more like a circle, the top view of a cylinder."
+0.6696,796.62,799.12,"From the top, our lanterns look more like this."
+0.7215,799.12,808.72,"The reason for this is that in our lantern refinement so far, we're only upping the number of bands, but not the number of points."
+0.7717,808.72,820.37,"to make the triangle edges shrink to zero, and in this way, guaranteed that the lantern approximations become indistinguishable from the cylinder, we have to let both the number of bands and the number of points go to infinity."
+0.6366,820.37,826.11,"At the same time, we want to make sure that the surface areas explode to infinity."
+0.5148,826.11,830.16,"Sounds tricky, but here's an important point to keep in mind."
+0.5023,830.16,836.11,There are many different ways to simultaneously let both numbers go to infinity.
+0.4487,836.11,842.45,"Okay, let's make up one such ad shrinking way that ticks all the boxes."
+0.3631,842.45,845.04,This then amounts to the counter example we're after.
+0.5519,845.04,848.64,"Okay, we start with the number of points being 4."
+0.6382,848.64,857.55,"For B, we choose the smallest number of bands such that the area of the lantern is greater than 4."
+0.3198,857.55,861.17,Why do we know that there is such a special number of bands?
+0.7251,861.17,874.1,"Well, of course, because if we leave the number of points fixed at 4 and crank up the number of bands, the area explodes to infinity and so at some point this area has to be greater than 4."
+0.4981,874.1,876.62,"Anyway, that special B happens to be 7."
+0.7634,876.62,881.69,So the lantern with 7 bands and 4 points is our first lantern.
+0.6604,881.69,884.67,The next lantern has 5 points.
+0.235,884.67,886.46,What's to be this time around?
+0.6577,886.46,892.99,"Well, we choose B to be the smallest number of bands, such that the lantern has area greater than 5."
+0.4808,892.99,895.74,This special number happens to be 15.
+0.363,907.51,908.98,And so on.
+0.5233,897.34,899.4,So the next P is 6.
+0.5878,899.4,902.73,We also want to have the area greater than 6.
+0.478,902.73,905.27,And this special number of bands that does this is 26.
+0.4545,905.27,907.51,And then P is equal to 7.
+0.363,907.51,908.98,And so on.
+0.8683,908.98,914.3,"Now, this particular triangle refinement ticks all our boxes, right?"
+0.5413,914.3,917.44,Both the number of points and bands goes to infinity.
+0.6887,917.44,921.37,This implies that the edges of the triangles shrink to zero there.
+0.718,921.37,937.12,"Shrink, shrink, shrink, and because the edges shrink to zero, the lantern approximations do become indistinguishable from the cylinder, and after a while you'll only be able to see the buckling under a microscope."
+0.9351,937.12,947.03,"Finally, the surface area explodes to infinity because we've made sure that the surface of every lantern is greater than its number of points."
+0.273,1316.27,1316.79,Right?
+0.8253,948.36,956.73,"The first lantern has area greater than 4, the next greater than 5, the next greater than 6, then 7, 8, 9 and so on, explodes to infinity."
+0.2997,1153.9,1154.74,Great!
+0.3033,958.01,958.83,All right.
+0.799,958.83,966.16,So this particular proper triangle refinement of our cylinder surface behaves literally infinitely badly.
+0.1591,966.16,970.19,Professor Schwartz wins and he's happy.
+0.979,970.19,975.7,But there are other lantern triangle refinements that behave nicely and give the correct area.
+0.2414,975.7,976.96,"For example, this one."
+0.7083,976.96,984.98,"There's a pattern here, four points, four bands, five points, five bands, six points and six bands and so on."
+0.7541,984.98,994.66,"Now, when you do the maths, it turns out that the area of the slenten refinement actually does converge to pi, the area of the cylinder."
+0.7133,994.66,1000.16,The lantern on the left with 10 points and 10 bands exemplifies the long-term behavior of the lanterns.
+0.8664,1000.16,1011.28,"Unlike in our counter example, the buckling of the lantern service completely dies out, meaning that basically every little triangle fully contributes to making up the area of the cylinder."
+0.8525,1011.28,1023.37,"With a more detailed analysis using the area formula for our lanterns, we can devise lantern refinements whose areas approach any number whatsoever between pi and infinity."
+0.6085,1023.37,1025.88,"For example, we can make the limit area 4."
+0.9058,1025.88,1037.04,"If we wanted our Schwartz lantern meme over there to look more like the famous 2D version we started with, we could replace the cylinder with a sphere of area pi."
+0.8212,1037.04,1048.85,"just like the cylinder, the sphere and really any curved surface admits one of our pathological buckling triangle refinements whose areas can be anything between the actual surface area and infinity."
+0.8137,1048.85,1053.69,"Okay, some of our triangle refinements work and some don't."
+0.6966,1053.69,1065.72,Now figuring out which do and which don't is not only of theoretical importance but also becomes important when we represent curved surfaces by triangulated surfaces using visualization software.
+0.4563,1065.72,1079.37,"If the software blindly refines the triangulation, buckling is likely to occur, and this means that because the triangles add up pointing all over the place, virtual light is not reflected in the right way and leads to weird visual artifacts."
+0.5266,1079.37,1094.41,"So when constructing our refinements, apart from ensuring that all corners of the triangles are on the target surface, and the triangle edges shrink to zero, we also have to ensure that the triangles hack the surface better and better."
+0.4032,1094.41,1101.89,just exactly how well a triangle hugs the target surface is usually measured by focusing on one of its surface normals.
+0.7417,1101.89,1108.12,"That is, a spike at right angles to the triangle, like in this hedgehog lantern that I showed you before."
+0.3052,1108.12,1112.77,"If the spikes are pointing all over the place, then there's a lot of buckling."
+0.281,1112.77,1121.93,"What you want to aim for when you construct your refinements is for the spikes to point as much as possible, perpendicular to the target surface, like in this example."
+0.4671,1121.93,1128.33,The same sort of extra requirement also makes sure that linear refinements of curves do the right thing.
+0.6675,1128.33,1132.67,Take for example the pi is equal to 4 paradox refinements from the beginning.
+0.502,1132.67,1141.5,Bad because the spikes don't end up aligning themselves with the circle and so the buckling of the curve leads to excess area in the limit.
+0.4657,1141.5,1153.9,"On the other hand, with straight line approximations in which all corners are on the nice smooth curvy curve and edges shrinking to zero, the spikes automatically align themselves in the right way."
+0.2997,1153.9,1154.74,Great!
+0.5072,1154.74,1157.59,a very nice resolution to our problem.
+0.3304,1157.59,1158.41,Don't you think?
+0.3353,1158.41,1160.94,Archimedes would also have been happy with all this.
+0.2678,1160.94,1166.82,"Okay, but you may be thinking, didn't he say something about an existential crisis at the beginning?"
+0.3706,1166.82,1171.0,"In the end, the resolution to our problem wasn't that hard to guess, wasn't it?"
+0.2423,1171.0,1172.7,"Anyway, that's true."
+0.7362,1172.7,1180.11,"But remember, I've been stressing throughout this video that all the curvy curves and surfaces that we are approximating are nice and smooth."
+0.518,1180.11,1197.06,"If you try to measure the lengths or area of curves and surfaces that are themselves buckling like crazy, things like fractal curves and surfaces, for example, our solution that works for smooth curvy curves and surfaces does not work anymore and things get really tricky."
+0.4709,1197.06,1204.03,Mathematical missions like the quest to properly define lengths and area give rise to a whole new branch of mathematics called measure theory.
+0.3759,1204.03,1206.61,But that's a topic for another video.
+0.2467,1206.61,1209.44,"Anyway, that was all very serious."
+0.5891,1209.44,1214.5,"Now to finish, let's have some fun and let's have another close look at the lanterns themselves."
+0.9134,1214.5,1221.65,You probably already noticed that all the triangles in this lantern are clones of this isosceles triangle.
+0.3697,1221.65,1228.69,isosceles so the two green angles are the same and therefore two green plus one red is equal to 108 degrees.
+0.8966,1228.69,1232.31,Now focus on the six triangles around the corner.
+0.789,1232.31,1235.06,What can we say about the angles around the corner?
+0.2537,1235.06,1238.23,Four green plus two red.
+0.3031,1238.23,1238.69,What's that?
+0.7801,1238.69,1242.38,"Well, let's double the angles some that are highlighted up there, of course."
+0.8825,1242.38,1246.09,So the angles around the corner add to 360 degrees.
+0.8919,1246.09,1254.52,"This means that if you cut the lantern here, the whole thing unfolds into a flat rectangle."
+0.257,1254.52,1261.39,Andrew went wild with this idea and put together a nice Georgia bra app that animates the unfolding process.
+0.5708,1261.39,1271.19,"Here's a clip of one of those seriously buckled lentens unfolding into a very tall rectangle, virtually superimposed onto Andrew's backyard."
+0.2959,1271.19,1272.58,Very impressive.
+0.0569,1272.58,1279.2,Now you can download Andrews app via the link in the description of this video.
+0.0,1279.2,1281.81,Does anybody know what the noise in background is?
+0.2496,1281.81,1286.6,Andrews also made a video that has more details about all this.
+0.6432,1286.6,1293.27,The fact that our lanterns fold flat also means that every Schwartz lantern can be origami from a flat piece of paper.
+0.5012,1293.27,1300.12,I'll include a link to a video of an expert origaming one of those lanterns in the description of this video.
+0.2694,1300.12,1303.07,Very satisfying to watch and do yourself.
+0.7302,1303.07,1316.27,"Anyway, the fact that our lanterns can be folded from flat sheets also explains to some extent why under the right conditions, lantern patterns also show up in the buckling patterns of thin real world cylinders."
+0.273,1316.27,1316.79,Right?
+0.5733,1316.79,1320.45,A cylinder is just a flat sheet rolled up.
+0.4227,1320.45,1324.36,"Again, if you're interested in more details, follow some of the links in the description."
+0.1969,1324.36,1330.48,"In turn, this buckling business suggests some lent and fun to be had with empty soda cans."
+0.1928,1330.48,1332.27,"Great stuff, right?"
+0.0543,1332.27,1336.91,"As usual, let me know what worked and what did not work for you in this video in the comments."
+0.2763,1336.91,1339.65,"If there's anything you don't understand, please ask."
+0.2976,1339.65,1341.14,That's it for today.
+0.1616,1341.14,1342.46,Merry Christmas.

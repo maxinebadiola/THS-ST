@@ -1,0 +1,324 @@
+score,start,end,transcript
+0.691,0.6,6.95,"In the middle of the night, in a huge office, somewhere in Ukraine, a lone computer wakes up."
+0.2315,6.95,10.15,"After booting, it stays silent for a while."
+0.3791,10.15,13.22,"Then, a new file pops up on the desktop."
+0.2015,13.22,16.64,"Perf C, an empty, extensionless file."
+0.3714,16.64,20.18,"A windows folder opens, and the file gets moved there."
+0.5068,20.18,22.99,"Several seconds later, the computer shuts down."
+0.4799,22.99,27.15,Not a soul was around to notice this small event.
+0.4933,27.15,32.12,"The next day, as the employees start their morning routine of coffee and gossip, something weird happens."
+0.6293,32.12,35.92,Computers all over the company suddenly begin rebooting.
+0.4502,35.92,39.71,"But instead of the Windows splash screen, they display this."
+0.5884,39.71,41.19,A ransom message.
+0.4202,41.19,44.48,A demand for $300 worth of Bitcoin.
+0.786,44.48,48.94,"For every infected machine, the company's executives are dumbfounded."
+0.2236,48.94,52.23,They argue and bicker before reaching a conclusion.
+0.446,52.23,53.81,The bottom line hangs in the balance.
+0.6298,53.81,57.25,The company just can't afford to stop everything and wait for a fix.
+0.3506,57.25,61.96,"They transfer one payment, just to see where that will get them."
+0.19,61.96,62.9,Several hours pass.
+0.3645,62.9,64.04,Nothing changes.
+0.6758,64.04,66.49,All the machines are still encrypted.
+0.4895,66.49,71.85,"As the IT staff tries to understand what's happening, the rest of the employees get a day's leave."
+0.3678,71.85,75.84,"And on their way home, they understand that their little company wasn't alone."
+0.6475,75.84,80.1,they became the perfect witness of the country-wide catastrophe that unfolds.
+0.2452,80.1,83.31,"Some of them visit a gas station, but can't purchase fuel."
+0.3855,83.31,84.97,Payment systems don't work.
+0.235,84.97,88.5,"Others choose public transport, and can't get their tickets."
+0.2551,88.5,93.42,"Paying cash might seem like an option, but all the ATMs in the vicinity are down too."
+0.2319,93.42,95.77,Hospitals can't access their records.
+0.2939,95.77,97.75,utility companies can't send their bills.
+0.2648,97.75,100.55,The Postal Service can't deliver packages.
+0.5763,100.55,103.57,It's nothing short of a digital apocalypse.
+0.5308,103.57,108.8,"In a matter of hours, much of the economy of the entire country grinds to a halt."
+0.5413,108.8,112.14,"Nearly every company, institution and service is down."
+0.6802,112.14,120.01,"And then it spills over the borders, international shipping, medicine, fuel companies, anything that had an office in Ukraine."
+0.255,120.01,122.94,The same red on black plague.
+0.46,122.94,125.1,"Oops, your important files are encrypted."
+0.4751,125.1,126.74,All across their networks.
+0.5381,126.74,132.73,"On thousands, upon thousands, upon thousands of computers across the world."
+0.3341,132.73,134.85,But not the one.
+0.8618,134.85,138.83,The computer that woke up in the middle of the office a night before the attack.
+0.3198,138.83,140.81,"For some reason, it's fine."
+0.5449,140.81,143.18,It continues working as if nothing happened.
+1.0,143.18,152.89,"For years, nobody would suspect how it and several more random computers all across the world were involved in the latest and most devastating cyber attack that ever happened."
+0.972,152.89,160.7,"It's them that held the key to answering the questions about Notpatia, a weapon that showed the world what a full-scale cyber war looks like."
+0.5598,160.7,165.37,"It happened on June 27th, 2017, and the world was never the same."
+0.4855,165.37,170.05,The carefree air of the mid-2010s evaporated and got replaced with a new reality.
+0.5143,170.05,173.46,There was no rollback.
+0.9079,173.46,181.26,"By 2017, devastating cyber attacks on Ukrainian infrastructure were nothing new."
+0.7074,181.26,190.31,"Two years earlier, the country saw the first documented attack on the power grid, leaving nearly a quarter of a million people without electricity in the middle of a freezing winter."
+0.6773,190.31,195.18,"In 2016, the attack repeated, cutting off electricity for the capital Kiev."
+0.7754,195.18,198.47,Both attacks were different from your typical cyber criminal activity.
+0.8134,198.47,203.86,They were done by people who knew the infrastructure and the inner workings of the Ukrainian electricity grid as well.
+0.9412,203.86,210.82,They exploited some top-tier vulnerabilities and used incredibly powerful software that caused physical damage to the critical infrastructure.
+0.3981,210.82,213.91,Anyone who got a glimpse at the code had no doubts.
+0.7717,213.91,217.53,Those were operations only state-sponsored hacking groups were capable of.
+0.7734,217.53,220.04,"On the surface, the culprits seemed obvious."
+0.5916,220.04,223.24,"Since 2014, Ukraine was at war with Russia."
+0.5756,223.24,232.34,"It all started with a revolution in Kiev, or a coup, as Russia calls it, the Ukrainian presidential administration, notorious for its corruption."
+0.4386,232.34,235.28,was overthrown by pro-Western citizens and politicians.
+0.6276,235.28,244.06,"At the time, the Russian military invaded and seized several regions of Ukraine in a land grab that will only be surpassed by the second invasion in 2022."
+0.5018,244.06,251.83,"As ceasefire agreements were being signed, and the hot war in eastern Ukraine simmered down, the conflict moved away from the front lines."
+0.6796,251.83,258.6,"Sabotage operations, assassinations, Every kind of guerrilla activity you can imagine became a daily occurrence."
+0.5336,258.6,263.79,"But now, for the first time in history, the warring sides had a new domain at their disposal."
+0.6929,263.79,268.28,People in Ukraine and Russia lived a significant portion of their lives online.
+0.5114,268.28,272.11,"The infrastructure of both countries was heavily interconnected, too."
+0.491,272.11,275.21,Both sides were more than eager to leverage that.
+0.7319,275.21,281.37,"By that point, Russia had ample experience in conducting offensive cyber operations."
+0.651,281.37,287.7,"In 2007, it attacked Estonia in the world's first attempt to deduce an entire country into chaos."
+0.6218,287.7,294.22,"In 2008, it repeated the same playbook during an invasion of Georgia, assisting its troops with digital shelling."
+0.8546,294.22,299.56,"Cybernetic attacks became an unspoken, but major part of Russia's military doctrine."
+0.5444,299.56,313.18,"Each intelligence agency in the country saw it as a new tool their disposal, but none of them were as enthusiastic as the main directorate of the General Staff of the Armed Forces of the Russian Federation, an agency popularly known as the GRU."
+0.4869,313.18,320.07,"Following the dissolution of the Soviet Union, the GRU was a relatively unknown but immensely powerful organization."
+0.4578,320.07,325.96,"Its roots go back almost a century, and its reputation was one of unrivaled ruthlessness."
+0.4906,325.96,328.96,"but by the early 2010s, almost none of that remained."
+0.272,328.96,331.89,The directorate was underfunded and understaffed.
+0.4604,331.89,339.4,"Many saw it as a failure, an agency completely overshadowed by the better known, freshly renamed and facelifted FSB."
+0.7386,339.4,343.79,But something weird happened after the outbreak of the first war in eastern Ukraine.
+0.5159,343.79,347.64,The GRU suddenly found a way to reinvent itself.
+0.9101,347.64,349.9,One part of that was a focus on cyber attacks.
+0.5352,349.9,354.05,"Ukraine, then the rest of Eastern Europe, then the entire world."
+0.3732,354.05,356.97,The growth was spurred by an influx of new personnel.
+0.7074,356.97,364.12,"The GRU began attracting the most talented hackers in Russia, from distinguished university graduates to notorious cyber criminals."
+0.52,364.12,368.23,These cyber cowboys brought their own approach to the agency's operations.
+0.4101,368.23,374.37,"They were not afraid to take initiative, improvise, and even inject some personal flair into their work."
+0.4815,374.37,382.72,"Within GRU, there was even a group that kept leaving references to Dune, Frank Herbert's seminal work of science fiction in each piece of their custom-built malware."
+0.7647,382.72,388.15,These references were found after the attacks on the Ukrainian electricity grid in 2015 and 2016.
+0.6955,388.15,393.86,"Capitalizing on their discovery, the researchers were quick to give this hacker group an appropriate name."
+0.2622,393.86,395.92,Sandworm.
+0.2972,395.92,402.69,"As the first reports on Sandworm's activities were published, complete with a list of nods to the book, Dune references ceased immediately."
+0.6669,402.69,404.33,The attacks did not.
+0.5744,404.33,406.56,Their attribution became more difficult.
+0.54,406.56,410.67,"But by this point, the Sandworm performed enough attacks to become recognizable."
+0.6133,410.67,416.23,"The tools they used, the hours they operated, the barely perceptible calligraphy of their code."
+0.6814,416.23,419.16,"But above all, it was the targets."
+0.867,419.16,425.31,"Few threat actors in the world were so focused on breaking specialized software, like industrial control systems."
+0.5876,425.31,433.22,"Even fewer were so proficient at it, and nobody else was as persistent at aligning their targets with political goals at the Russian Federation."
+0.4787,433.22,438.09,"The attack that defined Sandworm began on June 27, 2017."
+0.3291,438.09,441.46,"On one hand, the choice of this particular date seems straight forward."
+0.6367,441.46,443.88,It was the eve of a national holiday in Ukraine.
+0.5654,443.88,449.66,"Attacking on this day would carry a symbolic message, and be more difficult to mitigate due to staff shortages."
+0.634,449.66,458.6,"On the other hand, some researchers suggest there might have been another motive for launching not patia on that day, a motive hidden behind the Perth Sea file."
+0.6682,458.6,465.65,The nature of the internet makes attacking one country extremely difficult.
+0.4605,465.65,467.48,Countries are interconnected.
+0.4182,467.48,475.29,"Many institutions and companies don't even host their own websites, relying on cloud infrastructure and keeping the data and server farms elsewhere in the world."
+0.5647,475.29,478.9,"However, Sandworm found a clever way to bypass that."
+0.9097,478.9,484.89,"It infiltrated Medoc, a Ukrainian tax software tied to the whole Ukrainian economy."
+0.7205,484.89,489.77,Each company that paid taxes in Ukraine had to run MiDoc and at least one of their computers.
+0.9667,489.77,496.07,"Hence, there was at least one computer that could lead to each and every company in the entire Ukraine."
+0.8099,496.07,502.76,MiDoc was infiltrated several years prior to 2017 through a simple fishing message with attached malware.
+0.7812,502.76,509.93,"After tricking an unwitting company employee into clicking it, the hackers snuck in and created a robust backdoor inside MiDoc systems."
+0.7428,509.93,517.24,"By doing this, they insured access to every update MiDoc pushed out, and every computer where its software was installed."
+0.5119,517.24,519.92,"On June 27, it was time for another update."
+0.6083,519.92,527.43,"As people across Ukraine piled into their offices, chitchatting about their holiday plans, the update was downloaded in the background."
+0.5177,527.43,529.13,and something was hidden inside it.
+0.9119,529.13,533.78,"That something was a small piece of malware with an enormous, virulent potential."
+0.2335,533.78,535.2,Not Petia.
+0.8414,535.2,540.68,"It was a computer worm, and like with any worm, its goal was to replicate."
+0.8598,540.68,548.15,"It tried doing that by hopping under every computer connected to the initial infection point through the local area network, or LAM."
+0.6248,548.15,555.24,"However, most systems are engineered to prevent such hopping, and to bypass that, the malware used a tool known as MimiCats."
+0.7703,555.24,563.41,"It was a proof-of-concept exploit created several years prior by Benjamin Delpy, a famous engineer who wanted to show that Windows had a huge problem."
+0.5253,563.41,569.2,"All Windows machines stored their passwords in an insecure manner, and Microsoft did nothing to change that."
+0.5535,569.2,573.8,Nothing changed even after Delpy published his proof-of-concept for all to see.
+0.8338,573.8,578.09,"Microsoft simply ignored it, but cybercriminals did not."
+0.5954,578.09,583.81,"by using Mimicats, not Petya could jump into any computer on the network and gain administrator access to it."
+0.4235,583.81,589.0,"When that didn't work, it applied to other exploits, eternal blue and eternal romance."
+0.7504,589.0,594.36,Both of them were developed by the U.S. National Security Agency as incredibly advanced cyberweapons.
+0.7179,594.36,600.05,"They used an obscure feature in Windows, one that allowed for direct sharing of information between computers."
+0.803,600.05,608.07,"Eternal blue and eternal romance exploited this feature to share malicious code, and eventually take over any computer on the same network."
+0.756,608.07,617.77,"Both of them were snatched from the hands of the NSA by an enigmatic hacker group known as Shadowbrokers, and posted online in one of the greatest leaks in the history of cybercrime."
+0.8386,617.77,624.34,"They immediately got integrated into some of the most destructive malicious programs ever developed, Nappetia being one of them."
+0.6558,624.34,629.68,Eternal blue and eternal romance allowed the malware to reach further than Mimi Katz alone.
+0.684,629.68,636.48,"And thanks to this combination, a single device with MiDoc was enough to spread Nappetia to an entire network."
+0.4461,636.48,642.61,"Once inside, the worm would wait for one hour, probing around, and trying to find more ways to spread."
+0.5101,642.61,645.4,"At the same time, it would run another task."
+0.5842,645.4,646.78,Encryption.
+0.5698,646.78,656.51,"Each file on the computer would get subjected to a simple algorithm, turning it into gibberish, unreadable, and unusable, losing all the data inside."
+0.1592,656.51,658.08,One hour to do that.
+0.3327,658.08,661.4,"Plenty of time, even for the most cluttered hard drives."
+0.4738,661.4,664.15,"After encryption was complete, the device would reboot."
+0.7263,664.15,669.14,"The worm would display a message, saying that a corrupted file system was being fixed."
+0.7026,669.14,672.01,"In reality, it was doing the opposite of that."
+0.6242,672.01,679.71,"The worm would spend this time encrypting the master boot record, the foundational piece of code that starts the computer and runs its operating system."
+0.4556,679.71,681.98,"Without it, Windows can't launch."
+0.6205,681.98,688.78,"After rebooting, the worm displayed a message, a set of instructions to transfer a small sum of money to a bitcoin wallet."
+0.6939,688.78,691.21,This was another layer of obfuscation.
+0.6266,691.21,695.83,There was no mechanism to decrypt the gibberish all of the computer's data was turned into.
+0.6067,695.83,701.38,"No matter how much money you paid, it was a wiper masquerading as ransomware."
+0.7001,701.38,702.84,The outfuscation worked.
+0.6227,702.84,705.95,Initial attempts to battle the attack were thrown off track.
+0.8037,705.95,712.1,"The pattern coincided with Petya, a popular piece of ransomware cybersecurity professionals knew how to deal with."
+0.7066,712.1,720.9,"Only a while later, after countless unsuccessful attempts to stop it, did the researchers understand that this was not Petya, not Petya."
+0.5281,720.9,725.57,"The name stuck, just like this ominous red message on the screens of countless devices."
+0.6537,725.57,729.09,Computers all across Ukraine displayed it on June 27th.
+0.666,729.09,738.45,"Devices that managed retail, utility, finances, transportation, even the ones that monitored radiation levels in the ruins of Chernobyl nuclear power plant."
+0.5707,738.45,742.28,Most industrial devices were spared because they did not run Windows.
+0.4906,742.28,748.11,Most regular citizens were spared as well because their local networks had nothing to do with MeDoc.
+0.5703,748.11,750.52,The spread of the infection was still massive.
+0.7874,750.52,754.25,"By some estimates, 10% of Ukraine's computers were hit."
+0.7105,754.25,758.97,"One in ten machines, in the whole country, and the entire economy that depended on them."
+0.7522,758.97,761.05,But it wasn't just Ukraine.
+0.527,761.05,762.74,The internet does not stop at the borders.
+0.3927,762.74,768.23,"An immense number of international companies operated in the country, many of them paying taxes there."
+0.6777,768.23,773.96,"And thus, they used computers running MiDoc, FedEx subsidiary TNT Express."
+0.5233,773.96,789.47,"food producer, Mondelez International, consumer goods manufacturer, Reckett Banksier, Pharmaceuticals Giant Merck, COFCO, St. GoBane, nuanced communications, and hundreds of other huge international companies, not Petschia found a way into all of them."
+0.6673,789.47,792.65,The largest of the infected companies was Mersk.
+0.3746,792.65,797.22,A Danish company responsible for nearly 13% of all goods shipped worldwide.
+0.3822,797.22,802.85,"Out of 76 terminals, Merisk operated at the world's largest ports, 17 were paralyzed."
+0.3611,802.85,805.29,Ships could not unload their cargo.
+0.3618,805.29,807.25,Trucks could not be loaded with it.
+0.6361,807.25,809.34,Supply chains across the world went down.
+0.816,809.34,814.14,The digital apocalypse spread and grew beyond anybody's expectations.
+0.6529,814.14,818.81,"But amidst all this chaos, a curious oddity stood out."
+0.7979,818.81,824.32,"Inside the companies that were devastated by NotPetja, some computers miraculously survived the attack."
+0.8129,824.32,834.08,"NotPetja spared them, destroying every single other machine on the same network, except for the ones that had a file named Perfc in their Windows folders."
+0.3598,834.08,838.41,"All right, this is the cliffhanger moment."
+0.1318,838.41,841.94,"Now that we have your full attention, can we ask for a like and a subscribe?"
+0.1987,841.94,846.8,We don't have sponsors and making content like this purely on YouTube revenue is difficult.
+0.3856,846.8,849.95,"So if you like what you see, let the algorithm know."
+0.1168,849.95,852.07,Thanks and back to perfc.
+0.6582,852.07,854.74,This was a kill switch.
+0.4446,854.74,856.24,Here's how it worked.
+0.4802,856.24,861.95,"The malware itself, despite the popular name, is a small file called perfc.dat."
+0.1598,861.95,863.73,Call it whatever you want.
+0.2975,863.73,867.24,"Upon infection, not patio will get extracted into this file."
+0.6093,867.24,873.53,"And then, it will look for a file with this name on the victim's computer, as a way to check if it was already there."
+0.4731,873.53,876.77,"Because, well, there's no point in encrypting a computer twice."
+0.197,876.77,883.78,"However, simply creating an empty file named Perfc and placing it in the Windows folder would lead to the same result."
+0.0863,883.78,887.71,The only requirement being that the file must be read only.
+0.644,887.71,892.34,"So, NAPATYA gets onto a computer, extracts itself, and looks for per se."
+0.1705,892.34,893.42,Is it there?
+0.482,893.42,896.02,"If yes, the worm stops in its tracks."
+0.369,896.02,899.65,"If not, it proceeds to destroy everything it sees."
+0.7669,899.65,910.2,"This curiosity was first discovered by Amit Serper, a researcher who worked for an Israeli cybersecurity company, CyberReason, and was among the first to analyze NAPATYA."
+0.1865,910.2,923.43,"So I started going over the sample and I said, OK, so in Windows, when you want the process to quit or exit, there's an API called a function that's called exit process."
+0.4418,923.43,928.01,"So I was like, hmm, I wonder if exit process is implemented in this and what calls it."
+0.2364,928.01,935.66,So I actually found a call to exit process and I saw that it was looking for a name of a file in a specific path.
+0.535,935.66,939.55,"And if that file existed, then the malware would quit."
+0.2998,939.55,954.62,"I called a few of my co-workers, some in the US, some in Israel, and I was like, hey, do me a favor, take the sample, put it in a virtual machine, call it, like, I don't know, sample.exe, and put a file called sample.dat in Windows System32 or whatever."
+0.3138,954.62,956.39,Tell me what happened.
+0.2868,956.39,958.91,And they tell me nothing's happening.
+0.5256,958.91,963.49,"It's like, you know, we double-click the file, and it just dies, and they're like, oh, sweet."
+0.4793,963.49,968.02,Now we only have to find the original name of the file.
+0.4302,968.02,977.6,So I posted on Twitter back then it was Twitter and basically two really cool things happened pretty much like five seconds from each other.
+0.7247,977.6,985.55,One is someone from Ukraine from a university responded with the name of the file that he saw on his system.
+0.4493,985.55,996.02,"And another person from that WhatsApp group I was on, an Israeli researcher called Idon Aul wrote on the group, I think that the file, the original file name, was Perf-C."
+0.5737,996.02,999.19,That was also what the Ukrainian person told me.
+0.6607,999.19,1002.91,"The kill switch worked, and now there was a way to stop the attack."
+0.5298,1002.91,1005.68,"But for most, it was already too late."
+0.7085,1005.68,1007.44,Ukraine was paralyzed.
+0.5153,1007.44,1010.64,Napetia was quickly leaking beyond its borders.
+0.9248,1010.64,1031.65,"One of the people who had to deal with that was Artem Mikhailov, a researcher at ISSP, a Ukrainian cybersecurity company that found itself in the thick of the attack."
+0.4993,1031.65,1036.18,"like the unprecedented, the most devastating, attacking history."
+0.4164,1036.18,1045.12,"And well, you could imagine when you go along the street, you go to the coffee shop, it doesn't work because they can't process your payment."
+0.2552,1045.12,1047.78,"You go to the groceries, they can't process your payment."
+0.2826,1047.78,1057.02,"You want to log into whatever site, your carrier site, or you want to pay your bill for energy, and it simply doesn't work."
+0.4739,1057.02,1059.54,Only a full day later was the spread stopped.
+0.7876,1059.54,1063.32,"In part, thanks to mass shutdowns of all devices across the country."
+0.7569,1063.32,1066.09,"In part, thanks to the discovery of the kill switch."
+0.9265,1066.09,1073.6,"But mostly because not Petya ran out of potential victims, having infected almost every network it could feasibly infect."
+0.6596,1073.6,1079.98,"For most victims, the only way to recover was to wipe all systems clean and rebuild a new."
+0.8522,1079.98,1084.71,"For researchers who wanted to understand how the attack happened, the real work was just beginning."
+0.534,1084.71,1087.05,"Yeah, it was a traditional investigation."
+0.7789,1087.05,1095.64,"We grabbed all the logs, all the telemetry, everything which remained because things got not pete, didn't encrypt entirely everything."
+0.7523,1095.64,1104.87,"It encrypted only 10% of computers in Ukraine, which sounds kind of amazing, but still it's not 100%."
+0.4872,1104.87,1111.2,we had this opportunity to work around with what we were able to get from those machines.
+0.5711,1111.2,1119.88,"And eventually we build up kind of the sequence of actions, the patient zero, then the second patient and how it started to spread."
+0.9515,1119.88,1131.35,"And, you know, usual suspects, social engineering, existing vulnerabilities, and the NSA exploits from which nobody had queued at that time."
+0.7518,1131.35,1139.02,"This is when the route not Petje took was discovered, eternal blue, Mimi Katz, the infected update, and the MiDoc servers."
+0.9771,1139.02,1148.16,"The Ukrainian police immediately raided the company behind this small piece of software and seized its servers, giving the researchers access to the starting point of the attack."
+0.6384,1148.16,1153.61,"So we actually got access to, I don't even think that these hard drives were imaged."
+0.808,1153.61,1178.42,"I think it was like the actual hard drives because what we found out was that the Ukrainian authorities, like they have like the cyber police or something, they came into this company's office got the servers, yanked out the hard drives, put them in black plastic garbage bags, and you know, took them to the police headquarters, and I'm pretty sure that the hard drives that I got access to were the original ones."
+0.3988,1178.42,1179.52,I don't think they even imaged them.
+0.4056,1179.52,1181.51,"But again, I don't know."
+0.4104,1181.51,1188.34,"And at one point I was basically taking a bath with my laptop, and I was like reverse engineering stuff in my bathtub."
+0.7907,1188.34,1199.11,"A short analysis was enough to understand how not pet your work, and also how it exploited MiDoc, an innocent company that found itself in the wrong place at the very, very wrong time."
+0.5369,1199.11,1209.22,"We need to understand that MiDoc, at that time, it was relatively..."
+0.2776,1209.22,1209.22,"it wasn't a small company, but I would say it falls under the category of SMEs, small media enterprises."
+0.8937,1209.22,1215.83,"And again, it was 2017, the maturity of cybersecurity within such companies, they..."
+0.3415,1215.83,1220.17,"you know, it used to be something which you desire to be better."
+0.7587,1220.17,1234.01,"You know, very few companies at that time globally of their size and of their, let's say industry, they had, you know, very detailed specific monitoring of what is happening within the infrastructure."
+0.8437,1234.01,1240.41,"Because at that time, if you recall, everybody thought, okay, why I am interesting for hackers, right?"
+0.1578,1240.41,1242.13,I'm not a big bank.
+0.3955,1242.13,1248.75,the monetization of any attack against me would be kind of very low in return.
+0.7359,1248.75,1252.21,"So why anybody would think of hacking us, right?"
+0.7286,1252.21,1257.32,Because this pattern of thinking about supply chain attacks wasn't so spread at that time.
+0.6244,1257.32,1264.07,"So they simply missed, you know, APT is being missed even today in large corporations."
+0.8354,1264.07,1266.43,So this is how the attack originated.
+0.2628,1266.43,1273.08,"On Medox servers, the usual fingerprints of sandworm were found without any references to Frank Herbert's book."
+0.547,1273.08,1278.33,"But with every other trick the GRU's hackers favored, their motivation was easy to figure out."
+0.7004,1278.33,1280.41,Russia and Ukraine were at war.
+0.5416,1280.41,1287.02,"When it came to material damage, Napecia was not much different from a bombing raid on an industrial heartland."
+0.8409,1287.02,1295.59,"So while it's difficult to 100% prove cyber security experts, including ISSP, we quickly linked not pitted to send war."
+0.7526,1295.59,1301.54,"Again, a Russian military hacking unit inside the GRU, Russia's military intelligence agency basically."
+0.7278,1301.54,1313.01,"The choice of Midok as the infection point suggested that attack was targeting Ukraine specifically, despite it had the influence outside the Ukraine."
+0.4209,1313.01,1316.96,But I guess Jerry also didn't expect that it would be so successful.
+0.5364,1316.96,1319.25,"Notepadia wasn't designed for profit, right?"
+0.3256,1319.25,1319.83,It's obvious.
+0.5755,1319.83,1323.74,"It was designed for maximum destruction, for bringing maximum damage."
+0.6088,1323.74,1328.67,And everything in this attack was so beautifully architecture.
+0.6791,1328.67,1334.96,like the covert communications through the cookie field in the Emmy Doffit.
+0.4433,1334.96,1336.62,So everything was well thought out.
+0.6962,1336.62,1355.11,"So when I look at all of these evidence and I'm applying some critical thinking according to my experience and my past experience as a nation state actor and then my back then current experience as a malware versus engineer, this definitely checks out."
+0.5656,1355.11,1358.06,"But, at least initially, not everything checked out."
+0.6264,1358.06,1361.44,There was one part of this mystery that seemed quite puzzling.
+0.2439,1361.44,1372.57,Perf C.
+0.9411,1372.57,1372.57,"Some computers in the midst of the attack were inoculated against Napatia, as if an invisible hand granted them immunity from an impending epidemic."
+0.88,1372.57,1376.86,The computer at the unnamed Ukrainian office we mentioned in the beginning was one of them.
+0.6582,1376.86,1382.6,"But dozens more were found across all of Ukraine, in all kinds of companies and institutions."
+0.3538,1382.6,1385.51,"And for that, several hypotheses exist."
+0.4401,1385.51,1390.14,"On one hand, if you're crafting a secret weapon, it makes sense to give it a kill switch."
+0.2917,1390.14,1392.58,Just in case it gets out of your control.
+0.6213,1392.58,1396.85,What if not Petya breached its containment and began wreaking havoc in Russia?
+0.6264,1396.85,1401.5,The government could just distribute simple instructions to its subjects and stop the attack.
+0.7677,1401.5,1406.79,"But on the other hand, not Petya did breach its containment and wreak havoc in Russia."
+0.7153,1406.79,1412.45,"Gazprom, the best known Russian oil giant, was infected with it and suffered tremendous losses."
+0.8331,1412.45,1416.9,We may never know if it was given a kill switch to spare at least some of its networks.
+0.8704,1416.9,1421.18,But what we do know is that some computers in Ukraine had that file.
+0.8793,1421.18,1431.98,"And this raises another hypothesis that NAPATYA was not only an attempt to digitally carpet bomb Ukraine, but to cover the tracks of a much more insidious operation."
+0.7283,1431.98,1463.73,"So now in 2025, when we're talking, we know according to Andy's book that the reason why this mechanism with the file with the vaccine was there was to keep key machines from being encrypted because when you're a threat actor and you're, you know, burying your way into someone else's network, You want to leave access, because in these kind of attacks, the destructive phase, such as not petria, is not necessarily if you just want to cause damage."
+0.2988,1463.73,1466.37,It's also if you want to cover your tracks.
+0.2835,1466.37,1472.66,"So let's say you did something, and you don't want people to know what you did."
+0.66,1472.66,1494.95,"right or you did something and something went wrong and you weren't able to complete whatever it is that you wanted to do where you just wanted to like cause chaos and remove all of the evidence you would do something like that but you would still as a threat actor you would still want to leave access to the network, you know, for a rainy day or for the next phase of the attack or whatever."
+0.4342,1494.95,1500.84,"This hypothesis was put forward by a journalist, Andy Greenberg, in his book on the history of Sandworms' attacks."
+0.5985,1500.84,1509.94,It's supported by the vast majority of researchers that investigated NAPATYA and brings a lot of clarity into how and why the attack was performed.
+0.4946,1509.94,1515.89,"If we believe the Cypothesis, Napecia was not just a wiper designed to cause as much damage as possible."
+0.856,1515.89,1523.9,"It was designed to cover the tracks of previous cyber espionage operations, and prepare the soil for more such operations in the future."
+0.6849,1523.9,1537.04,"Russia not only carpet bombed Ukrainian infrastructure, but also erased the footprints that may have compromised its spice, and also carefully avoided excessive damage, leaving the doors open for future infiltration."
+0.4885,1537.04,1543.92,"from my past experience as someone who used to be a nation-state actor, it makes sense."
+0.6742,1543.92,1552.67,"I mean, it makes sense to, because again, this was an operation that was very successful, maybe even too successful, right?"
+0.5687,1552.67,1555.96,And a lot of thought was put into it.
+0.8693,1555.96,1558.88,A lot of thought was also put into learning lessons from this attack.
+0.5197,1558.88,1562.05,"After all, it was the largest one the world ever experienced."
+0.6051,1562.05,1565.1,Its damage was measured in at least $10 billion.
+0.3791,1565.1,1571.77,"This sum being the lowest possible estimate, rather than an actual cost to repair the systems and compensate for the damage."
+0.7584,1571.77,1576.27,"Countless international companies were infected, and many of them kept the breaches secret."
+0.5944,1576.27,1581.64,"Still, for most people, it was a wake-up call, and one, everybody preferred not to miss."
+0.4127,1581.64,1588.06,"So after the Notepetia, we had a boost of table top exercises across different industries."
+0.3988,1588.06,1596.87,We had a boost for services which we came up with after Notepetia and we called them compromise assessments.
+0.151,1596.87,1608.32,"So from this perspective, obviously, when you feel when you're very near to that, when you simply can't pay for your groceries, you know, when you're on the road before the holiday day, obviously it influences, right?"
+0.288,1608.32,1609.04,The mindset.
+0.3623,1609.04,1611.94,"And you understand, okay, it looks like important."
+0.591,1611.94,1619.81,"And either we should refuse from using digital systems, or we should invest into cybersecurity and change something."
+0.6161,1619.81,1625.11,"And even during last three years, we had attacks even bigger than not payty in a sense."
+0.8607,1625.11,1636.05,"But because of Russians has prepared us, again, in a sense, to fighting back with those cyber attacks, the impact was kind of lower."
+0.4545,1636.05,1639.99,"So, yeah, we had lots of interest from professionals in the industry."
+0.4359,1639.99,1653.01,"They all came to create, to speak, not just, you know, to have a phone call, but they wanted to have a hands-on, you know, to feel it, how it's like to be a nation which was so heavily-effect."
+0.4927,1653.01,1655.98,not all lessons were learned though.
+0.7589,1655.98,1663.92,"It took the United States and other countries several years to call out Russia for doing it, even despite the researchers pointing to GRU's fingerprints from day one."
+0.5324,1663.92,1672.77,"And even after the White House published its own insights into the events and confirmed Russia's involvement, the impact of that has been minimal at best."
+0.8117,1672.77,1705.3,"And I think that what we should have asked, not necessarily as security professionals and security researchers and reverse engineers, but as people as citizens of the world, We should have demanded our governments and international organizations such as the UN, or I don't know, to maybe actually do something useful with all of their resources and have stronger mechanisms to hold countries, threat actors, whatever, people who do these malicious operations to hold them accountable."
+0.9081,1705.3,1723.61,"And what happened with WannaCry, with NotPetcha, with myself, and other people was that It was the researchers, the individual researchers, not as companies, but as you know, as I said, I was sitting in my parents' living room in Israel with like nothing to do in four hours to kill."
+0.82,1723.61,1734.03,"Marcus Hutchins, malware tech, back with a wanna cry, was also like he was looking at it, you know, for shits and giggles and we were very lucky as a collective."
+0.5654,1734.03,1744.12,"that, you know, it was just like a bunch of bored people like myself trying to like mess with things and press buttons and see what happens, but I think that..."
+0.6423,1744.12,1748.67,It showed us that we are not as resilient as we think we are.
+0.5607,1748.67,1767.02,"And while the products that we sell may do a good job, the vast majority of the time, it only takes one incident, like not pet you, like WannaCry, to really show us how fragile everything is."
+0.6019,1767.02,1772.99,There was one more lesson the world could have learned.
+0.6784,1772.99,1779.42,"Not Patia was launched by the Russian military, but the tools that enabled it, the tools that made it what it was."
+0.5418,1779.42,1780.8,Weren't Russian.
+0.8792,1780.8,1789.8,"The exploits were stolen from the NSA and distributed to cyber criminals worldwide, spurring some of the most devastating attacks ever conducted."
+0.6797,1789.8,1800.22,"Perhaps we will tell the story of the Shadowbrokers leak in another episode of No Rollback, or we could make it about WannaCry, another massive attack enabled by the stolen NSA tools."
+0.3683,1800.22,1802.62,Is there another story you'd like us to cover?
+0.0389,1802.62,1808.85,"Leave your suggestions in the comments, and to support our content, please like this video, and subscribe to our channel."
+0.0,1808.85,1812.24,"Thank you, and we'll see you in the next video."

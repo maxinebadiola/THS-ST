@@ -1,0 +1,172 @@
+score,start,end,transcript
+0.3638,0.03,4.36,"These are the eight most important patterns for coding interviews, and this is backed by data."
+0.5412,4.36,20.25,"These patterns are split into the two major categories of leak code problems, linear, which work with linear data structures like arrays, linked lists, and strings, and non-linear, which work with non-linear data structures like trees and graphs."
+0.4559,20.25,29.8,"In this video, we're not only going to learn these patterns, but we're going to use pre-built code templates for these patterns that you can use for any leak code problem."
+0.3292,29.8,34.06,"There are, of course, lesser use patterns we will not be addressing in this video."
+0.2154,34.06,41.63,"To see those, as well as a lot more in-depth content explaining everything you need to know about leak code, check out our website at algo.monster."
+0.6272,41.63,49.97,"All patterns for linear structures build off of two pointers, which is why we're starting with it."
+0.7186,49.97,62.47,"The two pointers pattern is important because it allows you to significantly reduce the time complexity of problems that involve traversing a linear structure, like arrays, linked lists, or strings."
+0.7934,62.47,76.75,"Instead of the brute force approach, where you might check every combination of elements, which could lead to an ON squared time complexity, two pointers often allows you to solve these problems in linear time, ON, making it incredibly efficient."
+0.5312,76.75,79.7,There are two main methods of using two pointers.
+0.8036,79.7,86.03,The two pointers can go in the same direction or opposite directions and each are used for different kinds of problems.
+0.8249,86.03,95.12,"When the pointers move in the same direction, this technique is ideal for problems where you're processing or scanning the data in a single pass."
+0.8503,95.12,103.29,A common use case is the fast and slow pointer approach for detecting cycles in linked lists or for finding the middle of a list.
+0.4768,103.29,108.95,The slow pointer moves one step at a time while the fast pointer moves two steps.
+0.802,108.95,115.24,This allows you to efficiently check for cycles or find key elements without retroversing the structure.
+0.8314,115.24,125.07,"When the pointers move in opposite directions, this is typically used in problems that involve finding pairs or comparing elements from opposite ends of the data structure."
+0.7948,125.07,132.77,A classic example of this is finding two numbers in a sorted array that sum up to a target value.
+0.5034,132.77,136.14,One pointer starts at the beginning of the array and the other at the end.
+0.9108,136.14,145.48,"By adjusting the pointers inward, based on the sum, you can quickly zero in on the correct pair, eliminating unnecessary comparisons."
+0.7302,145.48,152.53,"The sliding window pattern is an extension of the two pointers pattern, but with a more focused purpose."
+0.4677,152.53,165.39,"While two pointers involves using two separate pointers to traverse and manipulate a data structure, sliding window refines this by maintaining a window of elements within the data, dynamically adjusting its size as you progress through the structure."
+0.6333,165.39,174.96,"Essentially, you're using two pointers, but the goal is to manage a range or subset of elements that satisfy a specific condition, like a subarray or substring."
+0.776,174.96,181.53,"In the sliding window approach, one pointer marks the start of the window and the other marks the end."
+0.7466,181.53,186.69,"as the end pointer advances, the window slides over the data structure."
+0.5721,186.69,200.7,"Depending on the problem, you either expand the window by moving the end pointer or contract it by moving the start pointer to meet certain criteria like maximizing the length of a substring or maintaining a sum within a target value."
+0.5281,200.7,212.32,"For example, In a problem where you need to find the longest substring without repeating characters, the window expands by moving the end pointer to include new characters."
+0.4918,212.32,220.07,"If the window encounters a repeated character, the start pointer moves forward to shrink the window and eliminate the duplicate."
+1.0,220.07,231.21,This dynamic process allows you to efficiently solve problems that require analyzing continuous segments of an array or string without retroversing the structure multiple times.
+0.5657,231.21,241.14,"Sliding window is extremely powerful for problems that require tracking contiguous sequences, whether it's for strings, subarrays, or linked lists."
+0.666,241.14,252.6,"It adds more versatility to the two-pointers pattern by giving you control over a range of elements at any given point, and it's often combined with hash maps to keep track of the elements within the window."
+0.3788,252.6,259.35,"For a deeper dive into common problems solved with Sliding Window, check out algo.monster."
+0.7289,259.35,268.64,Binary search is a fundamental search algorithm that allows you to find a target value in a sorted array by repeatedly dividing the list in half.
+0.7528,268.64,277.3,It is also technically an expansion of the two pointers pattern because it uses a left and right pointer that have the list step by step.
+0.8374,277.3,281.3,Binary search starts by looking at the middle element and checking if that's the target.
+0.0182,281.3,284.97,"If it is the target success, you can return it."
+0.274,284.97,288.48,"If it's smaller than the target, you know the target is somewhere to the right."
+0.1796,288.48,292.18,"So we repeat this process, but only on the right half."
+0.7117,292.18,296.91,"If it's larger than the target, we repeat the process on the left."
+0.2879,296.91,300.73,"Eventually, we converge on the target."
+0.6474,300.73,312.88,"This is an efficient algorithm, because it allows us to find our target in logarithmic time, o log n, rather than searching each element, which is o n."
+0.8593,312.88,319.02,"However, binary search is far more applicable than only being used on sorted numerical lists."
+0.7322,319.02,325.67,What makes binary search incredibly powerful is it can be used on any list where there is a monotonic function.
+0.1281,325.67,333.72,"A monotonic function is any type of pattern where there is a consistent increase or decrease, which extends beyond just numbers."
+0.6093,333.72,341.99,"Put more simply, we are looking for any type of condition that can be used for sorting, not just strictly increasing numbers."
+0.6861,341.99,350.06,"For example, if we had a sorted list of only true and false, we can actually use binary search to find the first true occurrence."
+0.9194,350.06,352.4,The binary search would work like this.
+0.5362,352.4,354.97,You look at the middle of the list.
+0.6554,354.97,362.8,"If the middle value is true, you know that the first true must either be here or somewhere to the left, so you move your search to the left half."
+0.4903,362.8,371.59,"If the middle value is false, you know that the first true must be to the right, so you focus on the right half."
+0.771,371.59,379.69,"This type of searching, based on where a condition is true and where it is false, can be reused for every single binary search problem."
+0.0412,379.69,385.36,"In fact, we actually have this free template for this on our website, Algamonster."
+0.1018,385.36,388.62,All we need to do is find out what makes something feasible.
+0.7183,388.62,396.37,"For example, the common lead code problem, minimum in rotated sorted array, doesn't appear to follow binary search at first."
+0.1504,396.37,398.32,"After all, it's not sorted."
+0.7191,398.32,402.4,"However, there's a monotonic condition we can use to apply binary search."
+0.4862,402.4,413.94,"The condition is that any element that is less than the last element of the array is part of the rotated section, while any element greater than the last element is part of the original sorted section."
+0.389,413.94,421.61,"We can mentally convert this to trues and falses, and just like that, we have the same true and false question we just solve."
+0.3195,421.61,423.73,This can be applied to a ton of different questions.
+0.5536,423.73,428.96,"For more practice and an in-depth explanation, check out algo.monster."
+0.3722,428.96,434.46,Now we'll take a look at non-linear structure problems which work with trees and graphs.
+0.2496,434.46,441.81,"In fact, instead of treating trees and graphs as two entirely different structures, you should imagine that a tree is just a graph with no cycles."
+0.3108,441.81,450.29,"The only difference between the two is that for a graph that could have cycles, you need some visited set to keep track of nodes you've already visited."
+0.4471,450.29,454.0,This makes the patterns we will talk about applicable to both.
+0.4193,454.0,461.33,"For non-linear problems, we'll start with breadth-first search, as it's the easiest algorithm to understand and build off of."
+0.8146,461.33,466.74,breadth-first search is an algorithm used to explore nodes in a graph or tree level by level.
+0.9037,466.74,477.04,"The idea behind this is that it starts at a given node, commonly called the root, and explores all its immediate neighbors first before moving on to the neighbors' neighbors, and so on."
+0.7157,477.04,486.05,"To keep track of the nodes that have already been visited so that we don't revisit them, BFS uses a queue, a data structure that works like a line."
+0.1024,486.05,487.87,"First in, first out."
+0.9021,487.87,495.02,"This ensures that nodes are visited in the correct order, starting from the closest to the root and moving outward."
+0.6249,495.02,500.85,BFS is such a common algorithm that you will use all the time.
+0.2181,500.85,507.09,"Luckily for you, instead of having to derive it from scratch each time, we have this template that we can reuse."
+0.235,507.09,512.1,"If you want to see more about how we got this template, check it out at algo.monster."
+0.0,512.1,514.86,Now let's see BFS in action.
+0.7392,514.86,521.24,"We're going to use this template to solve a common lead code problem, level order traversal of a binary tree."
+0.4585,521.24,538.08,"The problem asks us to give all of the levels of the tree at each depth This means we need to visit the nodes of the tree level by level, starting from the root and moving down, visiting all the nodes at each level before proceeding to the next."
+0.376,538.08,552.43,"For example, given a tree with the root node 3 and children 9 and 20, where 20 has children 15 and 7, we need to return the values of the nodes level by level in the following order."
+0.4641,552.43,563.42,"First 3, then 9, 20, and finally 15, 16th phrase which is not a kill, we can solve this problem using BFS as its ideal for level by level traversal."
+0.6903,563.42,567.84,The idea is to use a queue to help explore the tree one level at a time.
+0.5036,567.84,570.82,"First, we add the root node to the queue."
+0.6734,570.82,578.25,"Then for each level, we process all nodes currently in the queue by removing them and adding their values to the result."
+0.6558,578.25,585.5,"For each node we process, we also add its left and right children to the queue so they can be processed in the next level."
+0.8275,585.5,591.28,This ensures that we visit all nodes on one level before moving to the next.
+0.4842,591.28,600.36,"By repeating this process until the queue is empty, we can traverse the entire tree level by level and collect the node values in the correct order."
+0.5302,600.36,605.46,"Finally, we return the list of node values grouped by levels."
+0.7903,605.46,613.54,Devth first search is an algorithm that builds on the foundation of BFS but explores the tree or graph in a different way.
+0.5337,613.54,623.07,"While BFS focuses on exploring nodes level by level, DFS dives deep into one path as far as possible before exploring the next path."
+0.8078,623.07,631.12,"In BFS, we use a queue to process nodes in a breadth first manner, ensuring all nodes at one level are explored before moving to the next."
+0.678,631.12,641.96,"In contrast, DFS uses a stack to explore nodes in a depth first manner, where you keep going down one branch until you reach the end, and then you come back to explore other branches."
+0.4285,641.96,646.15,"Most often, the stack DFS uses is the call stack."
+0.5623,646.15,670.12,"As most DFS implementations use recursion, where BFS is ideal for finding the shortest path or exploring nodes layer by layer, DFS is more suited for problems where you need to explore all paths or check every possible configuration, such as finding all paths in a tree, searching for a specific condition deep in the structure or detecting cycles."
+0.5819,670.12,683.09,"The depth first nature of DFS makes it more memory efficient in some cases, but it's less suited for problems where the shortest path or shallow exploration is required, as it doesn't guarantee finding the closest solution first."
+0.6605,683.09,691.24,"Like with BFS, DFS is a common algorithm that you will use all the time, so we have a template that we can reuse."
+0.4598,691.24,697.29,"Again, if you're curious to how this works, check it out at algo.monster."
+0.5559,697.29,700.9,"Now, let's solve a leap code problem with DFS."
+0.4985,700.9,705.66,A common leap code problem that uses this pattern is called number of islands.
+0.0568,705.66,712.67,This problem asks us to count the number of islands in a 2D grid where one represents land and zero represents water.
+0.2998,712.67,717.66,An island is formed by connecting adjacent ones horizontally or vertically.
+0.4554,717.66,724.85,We need to determine how many distinct islands exist by identifying connected components of ones in the grid.
+0.1759,724.85,730.71,"For example, in a grid where someone's are grouped together, each connected group is considered an island."
+0.547,730.71,735.44,"Our goal is to traverse the grid, find all islands, and count them."
+0.4843,735.44,739.88,We can solve this problem using DFS to explore each island.
+0.3618,739.88,745.33,The idea is to iterate through each cell in the grid.
+0.1859,745.33,749.67,"When we encounter a one land, it indicates the start of an island."
+0.7994,749.67,759.36,"From there, we perform DFS to visit all connected ones all parts of the same island by exploring the neighboring cells in all four directions as deep as they go."
+0.4481,759.36,767.4,"During the DFS, we mark each visited cell by changing its value to zero to ensure we don't count it again."
+0.7274,767.4,773.91,"Once all connected cells for that island are visited, we increment the island count and continue searching the rest of the grid."
+0.5292,773.91,778.6,This process ensures that we explore each island once and count it correctly.
+0.5786,778.6,786.47,"By the end, the total number of initializing DFS calls we make, not including the recursive calls, equals the number of islands."
+0.9591,786.47,796.26,"Backtracking is a pattern that many people struggle with, but in reality, it's actually just an extension of depth first search."
+0.7445,796.26,804.09,"In DFS, we typically traverse through a prebuilt structure like a tree or graph, where the nodes and connections are already defined."
+0.8223,804.09,820.15,"With backtracking, however, you often have to build the solution tree yourself as you explore different options, especially in combinatorial problems, where the structure of the tree isn't given explicitly, but is generated dynamically as you make decisions."
+0.8378,820.15,825.55,"In a backtracking problem, you explore all possible solutions by making a series of decisions."
+0.6517,825.55,831.92,"Each decision represents a node in the tree, and each potential decision forms a branch."
+0.4347,831.92,837.62,"As you explore a decision, you either reach a valid solution, or you hit a dead end."
+0.4945,837.62,845.87,"When a decision leads to a dead end, you backtrack to the previous decision, undo it, and try another path."
+0.2556,845.87,851.84,"Just like with all of our other patterns, we also have a template we are going to use here, which is this."
+0.7266,851.84,857.63,"Now, let's walk through it by solving a lead code problem."
+0.1701,857.63,860.59,Letter combinations of a phone number.
+0.1487,860.59,872.59,"In this problem, we're given a string of digits, typically from 2 to 9, and we need to return all the possible letter combinations that the digits could represent using the mapping of a phone keypad."
+0.5981,872.59,884.99,"For example, if we have the digits 23, each digit corresponds to a set of letters, two maps to A, B, C, and three maps to D, E, F."
+0.3429,884.99,888.92,Our goal is to generate every possible combination of these letters.
+0.6699,888.92,896.88,"So, for 23, some outputs could be a D, A, E, A, F, B, D, B, E, B, F, and so on."
+0.3678,896.88,899.68,"Now, our goal is to find all of these combinations."
+0.4581,899.68,909.6,Backtracking is the optimal approach for solving this problem because it allows us to explore each possible letter one at a time while pruning invalid configurations early.
+0.9673,909.6,919.25,"Rather than brute forcing through every possible combination, backtracking lets us build the solution letter by letter, discarding incomplete paths that no longer make sense."
+0.4598,919.25,926.27,"We start by taking the input digits and starts by checking if the input is empty, returning an empty list if so."
+0.9493,926.27,937.29,"It initializes an empty list ains to store the results and defines a recursive helper function, DFS, to perform depth first search, DFS."
+0.6754,937.29,946.57,The DFS function tracks the current position in the digits string using start index and builds combinations step by step by adding letters to the path list.
+0.8072,946.57,968.65,"If the start index reaches the length of the digits, the current path is a complete combination, so it's joined into a string and added to ANDs. For each digit, the function iterates over its possible letters, retrieved from a digit to chart dictionary, adds each letter to path, and calls DFS recursively for the next digit."
+0.9216,968.65,976.38,"After exploring a letter, it backtracks by removing the last letter from path to explore the next possibility."
+0.4676,976.38,982.63,"The DFS starts at the first digit with DFS0, empty list."
+0.7689,982.63,986.7,"And once all combinations are generated, it returns the result list ends."
+0.0581,986.7,996.53,"The overall time complexity is O4 to the power of N, where N is the length of the input digits, as each digit can map to up to four letters."
+0.735,996.53,1005.54,This approach efficiently explores all possible letter combinations and ensures that we backtrack after each combination is formed to explore the next one.
+0.7877,1005.54,1014.49,"If you want to see more problems solved with backtracking or a more in-depth explanation of the algorithm, make sure to check out our website at algo.monster."
+0.1246,1014.49,1019.68,You may notice a lot of questions titled like the following.
+0.4361,1019.68,1028.13,"Anytime you see a question related to top K, K smallest, or K largest, you always use a priority cue."
+0.6742,1028.13,1032.22,The most common implementation of priority cues are called heaps.
+0.6568,1032.22,1035.61,Heaps can be used to solve all of these questions.
+0.4222,1035.61,1040.57,A heap is a special type of tree where the elements are organized in a specific way.
+0.4718,1040.57,1042.88,There are two kinds of heaps.
+0.6129,1042.88,1050.0,"In a min heap, the smallest value is always at the top aka the root, and each parent is smaller than its children."
+0.5539,1050.0,1056.33,"In a max heap, the largest value is at the root, and each parent is larger than its children."
+0.6584,1056.33,1066.55,"One thing that is counterintuitive is that we use a min heap to find the k largest values, and a max heap to find the k smallest values."
+0.4677,1066.55,1070.31,The reason is best explained with an example.
+0.518,1070.31,1074.13,Let's say we want to find the three smallest values in this list of seven.
+0.5667,1074.13,1077.34,We first create a max heap of size three.
+0.7047,1077.34,1083.1,"We go through and add the first three values to it, three, six, and one to fill it out."
+0.6513,1083.1,1088.71,"Then, once we hit the fourth value, how do we know whether to add it or not?"
+0.552,1088.71,1093.1,"Well, in a max heap, the largest value is at the root."
+0.4606,1093.1,1101.35,"And because we want the three smallest values, all we need to know is whether or not this new value is smaller than our previous largest value."
+0.247,1101.35,1107.5,"In this case, it is, so we remove the value at the root and add our new value."
+0.5567,1107.5,1117.72,"As you can see, this is why we use a max heap for finding the K smallest values and the vice versa for K largest values."
+0.6446,1117.72,1125.03,"The reason heaps are efficient is because we always know where the largest or smallest value is, at the root."
+0.3826,1125.03,1139.51,"Heaps allow for efficient access to the smallest or largest element in O one time, and inserting or removing elements takes O log n time, both of which are better than having to go through every element in a list."
+0.5529,1139.51,1147.72,"Lastly, dynamic programming, or DP, is considered the hardest pattern to learn."
+0.3605,1147.72,1154.69,This is mostly because there are so many different variations and nuances to the problems that fall under this category.
+0.5907,1154.69,1167.37,"DP problems typically involve optimizing a solution by breaking it down into overlapping subproblems, storing the results of these subproblems, and reusing them to avoid redundant computations."
+0.453,1167.37,1170.62,There are two major ways to do DP.
+0.3556,1170.62,1173.4,Top down and bottom up.
+0.6505,1173.4,1185.49,"In a top-down approach, you start from the main problem and recursively solve its subproblems, storing the results of those subproblems to avoid solving the same subproblem multiple times."
+0.6917,1185.49,1195.48,"This may seem complicated, but you actually already know how to do most of this, because top down is basically just backtracking with the added step of memoization."
+0.2304,1195.48,1199.0,Memoization is just a fancy word for a simple concept.
+0.6345,1199.0,1206.51,"It means saving the previous function call, result in a dictionary, and reading from it when we do the exact same call again."
+0.6371,1206.51,1214.37,"In a bottom-up approach, you solve the smallest subproblems first and use their solutions to build up to the solution for the larger problem."
+0.8296,1214.37,1225.16,"Instead of relying on recursion, bottom-up dynamic programming typically involves filling out a table where each entry represents the solution to a smaller subproblem."
+0.7447,1225.16,1234.09,You start with the base cases and iteratively compute the solutions to progressively larger subproblems until you reach the final solution.
+0.9046,1234.09,1240.99,"This approach avoids the overhead of recursion and memoization, often resulting in more efficient time and space usage."
+0.6097,1240.99,1248.8,Bottom up is commonly used when you know the dependencies between subproblems and can structure the solution iteratively.
+0.6273,1248.8,1254.48,Dynamic programming is far too complex to dive into in this video.
+0.1761,1254.48,1261.01,"Luckily, we have a full section dedicated to it on our website at algo.monster, as well as a free video dedicated to it."
+0.0007,1261.01,1263.53,Both links are in the description.

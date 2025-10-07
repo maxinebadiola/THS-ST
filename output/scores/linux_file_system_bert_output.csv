@@ -1,0 +1,167 @@
+score,start,end,transcript
+0.995,0.03,5.54,"Ever wondered what all those strange folders like bin, ETC, and user actually do in Linux?"
+0.7776,5.54,14.23,"In this video, we'll break down the Linux file system structure, starting from the root, and exploring each top level directory one by one."
+0.8641,14.23,20.87,"Whether you're a beginner or just curious, this will help you understand how Linux organizes everything behind the scenes."
+0.0,20.87,22.25,So let's get started.
+0.7644,22.25,29.8,"Everything in the Linux file system starts from a single point, the root directory, represented by a forward slash."
+0.9122,29.8,33.45,"It's the top of the hierarchy, and every other folder branches out from it."
+0.8484,33.45,39.3,"To make sense of what's inside, we can group these top-level directories into 10 general categories."
+0.8164,39.3,56.6,"There are system binaries for core commands, boot and kernel-related directories that help the system start, configuration files that define how Linux behaves, user-related directories like personal home folders, and root access, and shared libraries that support essential programs."
+0.7525,56.6,59.74,We also have mount points and media used for external devices.
+0.5146,59.74,64.41,System and runtime information that reflect what's happening in real time.
+0.4576,64.41,67.41,Multi-user resources for software and logs.
+0.9369,67.41,70.36,Temporary files used briefly by the system.
+0.8604,70.36,74.22,"And finally, folders for optional software installed separately."
+0.4896,74.22,79.97,"Now let's look at each of these in more detail, starting from the root and working our way down."
+0.8113,79.97,85.54,"In Linux, everything begins at the root directory, represented by a single forward slash."
+0.9175,85.54,90.2,It's the top-level folder from which all other files and directories descend.
+0.3257,90.2,92.14,Think of it like the trunk of a tree.
+0.7585,92.14,102.64,"Unlike Windows, which uses separate drive letters, Linux has a single unified file system, and everything connects back to root, including external drives and petitions."
+0.667,102.64,107.12,"You might also see slash root, but don't confuse it with slash."
+0.6525,107.12,112.59,"Slash is the starting point of the entire system, while slash root is just a subdirectory."
+0.8254,112.59,117.22,It's the personal home folder of the root user who has full administrative access.
+0.6873,117.22,124.61,"In other words, slash is the starting point of the file system, while slash root is just one of the many folders inside it."
+0.5919,124.61,129.48,This separation helps maintain a clean and secure system structure.
+0.976,129.48,132.47,Now let's move to one of the most important system directories.
+0.9297,132.47,142.01,"Ben, this folder contains essential command line tools that are needed for the system to function properly, especially during boot or when running in recovery mode."
+0.7143,142.01,146.7,"Commands like LS, CP, MV and Cat are located here."
+0.5747,146.7,153.11,"Basic utilities that let users list files, copy data, move items, or view text."
+0.7456,153.11,160.5,"Unlike some other command directories, the tools and bin are always available, even if other parts of the file system haven't loaded yet."
+0.6349,160.5,164.42,That's why bin is critical for both everyday use and troubleshooting.
+0.7715,164.42,171.21,Regular users typically never need to modify this directory and doing so could break core system functionality.
+0.5352,171.21,175.74,It's best to leave bin untouched unless you know exactly what you're doing.
+0.9529,175.74,179.76,"Next is the S-Bin directory, which stands for system binaries."
+0.6168,179.76,189.85,"While Ben contains general-purpose commands used by all users, S-Bin holds specialized system utilities, mostly used by the system administrator or root user."
+0.7405,189.85,198.99,"These commands are critical for managing and maintaining the system, especially for tasks like mounting file systems, checking disks or shutting down the system."
+0.4691,198.99,203.6,Most of the tools in S-Bin require super-user privileges to run.
+0.7023,203.6,213.35,"So, unless you're an admin or troubleshooting low-level issues, you'll rarely need to touch this directory, and you definitely shouldn't modify it without knowing the risks."
+0.4467,213.35,216.32,"Next up is the lib, short for libraries."
+0.4542,216.32,226.77,"Just like apps need support files to run, many commands found in bin and Espin rely on shared libraries, similar to how programs on Windows need DLL files."
+0.4604,226.77,237.13,"These libraries provide common functionality like reading files or handling input and output, so individual commands don't have to include all that code themselves."
+0.5982,237.13,245.58,"Depending on your system, you might also see lib32 and lib64, which store 32 and 64 bit libraries respectively."
+0.4457,245.58,247.98,You'll also find kernel modules here.
+0.7252,247.98,255.25,"These are small pieces of code that can be loaded into the Linux kernel on demand, kind of like plugins that extend its functionality."
+0.7057,255.25,259.28,This directory is also not a place regular users should modify.
+0.5949,259.28,265.87,Tampering with it can easily break basic commands or even prevent the system from booting properly.
+0.1077,265.87,267.41,Now let's talk about USR.
+0.7231,267.41,271.62,"Despite what the name suggests, it doesn't store personal user files."
+0.8101,271.62,279.58,"It stands for Unix System Resources and contains most of the system's user space applications, libraries, and documentation."
+0.9752,279.58,286.47,"A typical user doesn't usually modify this directory directly, but it's where many installed programs live."
+0.6205,286.47,295.14,"You'll notice that USR mirrors several directories from the root level, like USR slash bin, USR slash lib, and USR slash S bin."
+0.7281,295.14,308.23,"This structure exists because USR was meant to hold non-essential software that complements the essential tools in bin and lib, keeping the system organized and bootable even if only the root partition is available."
+0.5343,308.23,315.18,"Since this area is usually read-only and managed by the system, it's best not to modify it manually."
+0.7784,315.18,317.12,"Next, let's take a look at the boot directory."
+0.8238,317.12,327.71,"This folder contains all the files your system needs to boot up, like the Linux kernel, initial RAM disk, init RD, or init RAMFS, and the grub bootloader files."
+0.6039,327.71,333.87,"One important file here is grub.cfg, which tells the system how to load the operating system."
+0.5068,333.87,345.16,"In some setups, especially in dual boot systems, or when disk encryption is used, boot might even be placed on its own separate partition to ensure it stays accessible during startup."
+0.692,345.16,350.9,"Since this directory is so vital, even small changes can render your system unbuttable."
+0.4485,350.9,356.86,So it's best to leave it untouched unless you're following specific instructions and know what you're doing.
+0.633,356.86,358.73,Let's move on to the dev directory.
+0.6856,358.73,361.35,This folder doesn't hold regular files.
+0.9103,361.35,366.04,"Instead, it contains device files that act as interfaces to your hardware."
+0.7429,366.04,370.39,"In Linux, everything is treated like a file, even devices."
+0.3855,370.39,372.71,And this is where they're exposed to the system.
+0.6488,372.71,377.24,"For example, dev slash SDA might represent your first hard drive."
+0.7342,377.24,385.19,"Whether it's your hard drive, USB stick, keyboard, or even virtual devices like dev slash null, they all show up here."
+0.4341,385.19,396.09,"You'll find two main types, block devices, like hard drives, which handle data in chunks and character devices, like keyboards, which handle data as a stream of characters."
+0.9007,396.09,401.62,"These files are managed dynamically, Linux adds, or removes them as hardware changes."
+0.736,401.62,408.51,"While it's interesting to look through, interacting with these files directly can affect your hardware, so be cautious."
+0.8742,408.51,410.82,Next up is the ETC directory.
+0.9354,410.82,421.08,"This is the central location for system-wide configuration files, covering everything from network settings and user accounts to start-up scripts and service configurations."
+0.7591,421.08,430.17,"For example, ETC slash password holds basic user information, and ETC slash FS tab defines how drives are mounted at boot."
+0.7936,430.17,436.32,Most of these are plaintext files designed to be readable and editable by system administrators.
+0.4668,436.32,443.51,"The name, ETC, originally stood for et cetera, but some like to think of it as editable text configuration."
+0.6585,443.51,446.55,"Either way, it's a vital part of system management."
+0.6168,446.55,456.59,"While it's worth exploring to understand how Linux works under the hood, changes here should always be made carefully since they can affect how the entire system behaves."
+0.8569,456.59,460.62,"Next is the home directory, the personal space for regular users."
+0.7306,460.62,470.54,"Each user has their own sub directory here, like home slash Alex or home slash Emma, where they store documents, downloads, projects, and personal settings."
+0.9524,470.54,477.18,"These folders keep user data separate from system files, making backups and account management much easier."
+0.9183,477.18,480.3,User-specific configuration files often live here too.
+0.3928,480.3,482.04,Many are hidden by default.
+0.7047,482.04,486.59,"Hidden files and Linux usually start with a dot, like .bash RC."
+0.8807,486.59,492.92,"You might also see a shared or public folder, depending on the system, used to exchange files between users."
+0.4141,492.92,500.05,"By default, users don't have access to each other's home folders unless permissions are changed, adding a layer of privacy."
+0.7832,500.05,504.6,"An unlike most system directories, home is meant to be customized."
+0.5126,504.6,508.56,"This is your space to create, modify, and save files freely."
+0.664,508.56,516.66,"The root user, however, has a separate home directory located at root instead of inside home to keep it isolated and more secure."
+0.1405,516.66,518.7,"Next, we have media."
+0.8311,518.7,532.46,"This directory is where modern Linux systems automatically mount removable media like USB drives, CDs, and DVDs. Each device gets its own subfolder inside media, often named after the volume label."
+0.9112,532.46,538.63,"It's the place where users can access the actual contents, like photos, documents, or software."
+0.6251,538.63,548.94,"Unlike other mount points like M&T, which we'll look at in the next chapter, media is designed for removable devices and is often handled automatically by the system."
+0.4571,548.94,553.23,Media is user-friendly and often doesn't require administrative privileges.
+0.3107,553.23,560.28,"Desktop environments like NOME or KDE handle this seamlessly, so your flash drive just appears ready to use."
+0.5673,560.28,569.55,"To clarify, Dev holds the device files that represent the hardware itself, while Media is where those devices are mounted and made usable by the system."
+0.6096,569.55,575.54,So think of Dev as the raw connection and Media as the convenient entry point for users.
+0.9073,575.54,579.76,"Let's move on to M&T, another directory used for mounting file systems."
+0.8488,579.76,592.96,"Traditionally, this is where system administrators would manually mount external storage, like USB drives, petitions, backup disks, or remote file systems, especially during system maintenance or recovery."
+0.6209,592.96,597.98,"Unlike media, which automatically mounts removable devices for user access."
+0.693,597.98,605.53,"M&T is reserved for manual, temporary mounts, and is typically used by the root user or advanced scripts."
+0.8084,605.53,614.08,"For example, if you need to access the contents of a failing hard drive or mounted network share during troubleshooting, MNT is the go-to location."
+0.8246,614.08,619.83,It doesn't contain anything by default and only is content when something is actively mounted there.
+0.7979,619.83,627.48,"While you might not use it often as a regular user, understanding its role is helpful when working with Linux at a deeper level."
+0.9137,627.48,631.57,"Now let's take a look at PROC, one of the more unusual directories in Linux."
+0.7871,631.57,635.07,"Like Dev, PROC is a virtual file system."
+0.8822,635.07,641.74,"It doesn't contain real file stored on disk, but instead provides a dynamic, in memory view of the system."
+0.5233,641.74,649.23,"While Dev represents hardware devices, PROC acts as a live interface to the Linux kernel and running processes."
+0.7362,649.23,662.99,"Inside, you'll find folders named after process IDs, like proc-slash-1234, with details about each process, as well as system information files like proc-slash-cpu-info, and proc-slash-mem-info."
+0.4357,662.99,670.92,"Essentially, proc is a vital tool for monitoring, debugging, and interacting with the system's inner workings in real time."
+0.7192,670.92,675.62,"Next is SIS, a virtual directory like PROC, but with a different purpose."
+0.9281,675.62,682.79,It's part of the SISFS pseudo-file system and acts as a dynamic interface between the Linux kernel and your hardware.
+0.6254,682.79,688.79,"Here, the kernel exposes information about devices, drivers, and system buses."
+0.9641,688.79,696.24,"For example, you'll find folders representing CPUs, memory blocks, USB ports, and even the system's power state."
+0.2859,696.24,699.98,What sets CIS a part is that it's not just for reading information.
+0.8669,699.98,707.43,"Certain files here can actually be written to, allowing advanced users or system tools to tweak kernel settings on the fly."
+0.6077,707.43,713.92,"This makes Sysa Key back in for system utilities like UDEV, Power Managers, and Hardware Configuration Tools."
+0.8665,713.92,720.15,"It's structured hierarchically, so each hardware component and subsystem has its own path."
+0.4772,720.15,727.26,"But unless you're developing drivers or customizing hardware behavior, you typically won't need to interact with it directly."
+0.0872,727.26,728.24,Next up is Run.
+0.8985,728.24,735.55,This in Memory Directory holds temporary runtime data used by the system and applications right after boot.
+0.9039,735.55,742.99,"It's created very early in the startup process, before most of the file system is ready, and everything inside it disappears on reboot."
+0.5777,742.99,749.54,You'll find sub-directories like Run Slash user for user sessions or Run Slash Lock for system locks.
+0.6115,749.54,761.76,"Unlike PROC or SIS, which exposed kernel and hardware information, Run is writable and is used by running processes to communicate, track state or store short live files like process IDs and sockets."
+0.9153,761.76,771.59,"It replaced older directories like VAR slash run and VAR slash lock, helping unify runtime data in one central, reliable location."
+0.7309,771.59,775.0,"Next up is the SRV directory, short for service."
+0.9073,775.0,783.01,"This is where data for services provided by the system, like web servers, FTP servers, or other hosted services is stored."
+0.5481,783.01,787.76,Think of it as the content served to users connecting to your machine remotely.
+0.8463,787.76,795.18,"For example, if your system is running a web server, the actual website files might live under SRV slash WWW."
+0.7285,795.18,801.43,"Unlike configuration files in ETC, SRV holds the data that services share with others."
+0.6652,801.43,809.1,"It's worth noting that not all Linux systems use SRV by default, some may place service data elsewhere, like in VAR."
+0.7516,809.1,816.78,"But its purpose is to offer a clean, predictable location for service-related content, especially in server setups."
+0.8798,816.78,824.41,"If you're not running any services, this directory might be empty, but it becomes more important on multi-user or enterprise systems."
+0.3478,824.41,827.49,"Next, we have var, short for variable."
+0.799,827.49,835.96,"The var directory is used for storing files that change frequently during system operation, like logs, caches, spool files, and more."
+0.6955,835.96,845.09,"For example, var slash log holds system logs that track activity and errors, and these logs are often rotated to prevent them from using too much space."
+0.8741,845.09,848.0,Package managers also use this directory.
+0.7766,848.0,852.98,"Debbie and base systems, for instance, keep important metadata in var slash lib."
+0.6196,852.98,856.69,because it stores data that reflects the system's behavior over time.
+0.4528,856.69,863.36,"VAR can contain sensitive information and should be properly protected, especially on multi-user or server setups."
+0.9415,863.36,872.99,"Since these files can expand significantly, this directory is often placed on its own partition and server setups to avoid filling up the root file system."
+1.0,872.99,881.72,"Regular users rarely need to touch this directory directly, but understanding its role helps with troubleshooting and managing disk space."
+0.7366,881.72,885.69,"Let's now take a look at a directory design for short term use, TMP."
+0.9785,885.69,892.5,"This is where temporary files go, often created by applications or users while tasks are in progress."
+0.5417,892.5,897.31,"For example, when you open a file in a text editor or install a program."
+0.8233,897.31,899.58,Temporary working files may be stored here.
+0.6718,899.58,901.72,These files aren't meant to stick around.
+0.5939,901.72,905.96,They're typically deleted automatically on reboot or after a certain period.
+0.4476,905.96,912.31,"TMP is writable by all users, but it includes a special permission called the sticky bit."
+0.624,912.31,917.48,"This ensures users can only delete files they own, even though the directory is shared."
+0.8208,917.48,921.12,This helps prevent accidental or malicious file deletions.
+0.5733,921.12,930.09,"It's also worth noting that because TMP resides in memory on some systems, using a TMPFS mount, writing large files here can consume RAM."
+0.5843,930.09,934.46,"For that reason, it's generally used for lightweight, temporary data only."
+0.6785,934.46,939.7,Keeping it clean helps prevent clutter and maintain smooth system operation.
+0.3072,939.7,941.35,"And lastly, we have opt."
+0.6279,941.35,947.94,"Opt is where optional or third-party software is installed, often kept separate from the system's main directories."
+0.6196,947.94,957.32,"Each application usually has its own subfolder, like opt slash Google slash Chrome, which helps keep things organized and makes uninstalling easier."
+0.8787,957.32,966.99,This directory is especially common in enterprise or commercial environments where large proprietary programs are installed outside the usual package manager paths.
+0.4573,966.99,971.61,"On many systems, Opt may even be empty unless manually used."
+0.7997,971.61,980.38,"Because software here doesn't always follow standard Linux file structure rules, Opt provides a safe space without interfering with core system files."
+0.6407,980.38,985.79,"Like most system directories, modifying it requires administrative privileges."
+0.8954,985.79,991.16,"In conclusion, the Linux file system structure is more than just a collection of folders."
+0.9659,991.16,998.89,"It's a well thought out hierarchy that separates critical system components from user files, temporary data, and application resources."
+0.9384,998.89,1005.45,"Each directory has a specific purpose, helping keep the system stable, organized, and secure."
+0.6782,1005.45,1017.03,"By understanding what goes where, you're not only improving your navigation skills, but also gaining the foundation needed for tasks like system administration, scripting, or even just effective troubleshooting."
+0.6154,1017.03,1027.16,"Whether you're exploring Linux for the first time or reinforcing your knowledge, this understanding is a key step toward becoming more confident and capable in a Linux environment."
+0.9295,1027.16,1031.22,that wraps up our dive into the Linux file system structure.
+0.0988,1031.22,1036.07,"If you found this video helpful, consider subscribing to the channel and giving it a like."
+0.2136,1036.07,1043.69,Feel free to explore our other videos on related tech topics and follow us on Facebook and Instagram for more content and updates.
+0.0758,1043.69,1045.05,Thank you for watching.
