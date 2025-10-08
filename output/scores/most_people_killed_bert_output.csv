@@ -1,0 +1,231 @@
+score,start,end,transcript
+0.6744,0.03,9.27,"One single scientist created three inventions that accidentally caused the deaths of millions of people, including himself."
+0.5589,9.27,22.52,"Not only that, they decreased the average intelligence of people all around the world, increased crime rates, and caused two completely separate environmental disasters that we are still dealing with today."
+0.1145,22.52,28.33,"Part of this video is sponsored by Ren, more about them at the end of the show."
+0.5493,28.33,40.52,"In 1944, as a young chemist who had just finished his masters, Clair Patterson went to work on the Manhattan Project, building the first nuclear weapons."
+0.6243,40.52,48.83,"His job was to concentrate uranium-235, the fizzle fuel for bombs, from the much more common uranium-238."
+0.5984,48.83,58.78,"And this required huge machines, mass spectrometers, which separated the two types of uranium by their slight difference in mass."
+0.2647,58.78,68.54,"After the war, Patterson went back to grad school to get his PhD."
+0.479,68.54,76.8,"He picked a research project that would take advantage of his experience with mass spectrometers, measuring the age of the Earth."
+0.4296,76.8,82.17,radioactive rocks are effectively clocks.
+0.3888,82.17,91.55,"Uranium 238, for example, decays into thorium and then protectinium and then 12 more decays until it ends up as lead 206, which is stable."
+0.2525,91.55,95.63,The rate of this decay is consistent and can be measured.
+0.5867,95.63,103.77,It takes 4.5 billion years for half of a sample of U238 to decay into lead 206.
+0.7071,103.77,112.01,Patterson's PhD project was to determine the age of the Earth by measuring the ratio of uranium to lead in primordial rocks.
+0.3406,112.01,117.98,"But to calibrate his instrument, first he used Zircon crystals whose ages were known."
+0.4746,117.98,126.97,"Zircon is ideal for this purpose because when it forms, it contains trace amounts of uranium, but absolutely no lead."
+0.6663,126.97,133.06,"So any lead that you later find inside a zircon, you know must be the product of a uranium decay."
+0.5421,133.06,139.93,"Patterson was tasked with measuring the lead content, and another student, George Tilton, measured uranium."
+0.1286,139.93,143.54,Tilton's uranium measurements were fine.
+0.199,143.54,144.94,They matched predictions.
+0.4951,144.94,151.83,"But Patterson's lead measurements were all over the place, and they were many, many times higher than they expected."
+0.5537,151.83,155.99,"We take George's uranium in my lead, not right, Patterson."
+0.7929,155.99,159.13,There was lead there that didn't belong there.
+0.7255,159.13,163.2,So where was all this extra lead coming from?
+0.2806,163.2,171.72,That mystery would take over the rest of Claire Patterson's life and bring him to the literal ends of the earth.
+0.3629,171.72,180.59,"In 1908, a woman was driving across the Belle Isle Bridge in Detroit when her car stalled."
+0.1891,180.59,183.57,A passing motorist stopped to help.
+0.5179,183.57,186.66,"In those days, cars needed to be hand cranked to start."
+0.4,186.66,194.25,"He knelt down and turned the crank and the engine roared to life, a little too suddenly."
+0.3688,194.25,200.46,"The man couldn't get out of the way, the crank handle hit him in the face and broke his jaw."
+0.2924,200.46,202.78,He died as a result of his injuries.
+0.3848,202.78,210.92,"His name was Byron Carter, and he was the founder of his own car company, so he was well connected in the Detroit auto scene."
+0.2834,210.92,215.4,"He counted among his close friends the founder of Cadillac, Henry Leeland."
+0.327,215.4,223.9,Leeland was so distraught over his friend's death that he resolved to eliminate hand-cranks from his vehicles.
+0.4258,223.9,230.97,"Leland hired Charles Kettering to create a self-starting car, and by 1911 he had a working prototype."
+0.2536,230.97,236.36,"Handcranking was difficult and dangerous, and best left to men."
+0.5585,236.36,241.84,But a car that started itself changed everything.
+0.3284,241.84,245.61,The world's first crankless car was the Cadillac Model 30.
+0.5395,245.61,248.18,It was much more powerful than cars before it.
+0.2828,248.18,252.24,It had a top speed of 45 miles per hour and 40 horsepower.
+0.3659,252.24,259.73,Double the Ford Model T.
+0.347,259.73,259.73,"The Model 30 was a huge success for Cadillac, doubling the company's annual sales."
+0.4686,259.73,261.81,But it had a problem.
+0.2032,261.81,264.18,It was definitely loud.
+0.3388,264.18,272.51,"In internal combustion engines, a piston compresses the fuel air mixture, which is then ignited by a spark from the spark plug."
+0.2472,272.51,276.12,The expanding hot gases push the piston back down.
+0.4589,276.12,289.05,"The problem with the Model 30 engine was it compressed the fuel air mixture more than previous models, so much in fact that often the fuel would spontaneously combust before the spark from the spark plug."
+0.4062,289.05,297.66,"So rather than orderly, perfectly timed explosions, you'd get multiple haphazard combustions leading to turbulent pressure waves inside the cylinder."
+0.4264,297.66,302.13,The resulting sound led the problem to become known as engine knocking.
+0.4776,302.13,307.52,"Knocking wasn't just hard on the ears, it hurt the engine's performance."
+0.5855,307.52,310.72,It reduced power output and lowered fuel efficiency.
+0.5314,310.72,316.51,"The vibrations also damaged the piston and walls of the cylinder, shortening the life of the engine."
+0.4736,316.51,321.81,The good news was that engine knocking could be corrected by changing the fuel.
+0.3832,321.81,332.42,"Different fuels can withstand different levels of compression before detonating, and Heptane, for example, will spontaneously combust under only a little compression."
+0.3944,332.42,342.16,"ISO Octane, on the other hand, can withstand a much higher compression ratio before it auto ignites, so it's much less likely to cause knocking."
+0.4137,342.16,347.5,"To quantify how much compression a fuel can withstand, scientists came up with the octane rating system."
+0.3964,347.5,353.55,"They arbitrarily set iso-octane to have a rating of 100, and N-heptane a rating of 0."
+0.6342,353.55,356.86,"Now, real fuels aren't made up of only these two ingredients."
+0.3249,356.86,365.12,"They're a mix of lots of different hydrocarbons, but the octane rating tells you what mixture of octane and heptane gives equivalent performance."
+0.3819,365.12,372.58,"For example, 98 octane fuel can withstand the same compression as a mixture of 98 percent octane and 2 percent heptane."
+0.4207,372.58,385.25,"Now, I'm going to take a little bit of 98 octane fuel and put it in this piston and when I compress it, Nothing happens, which is exactly what you'd expect."
+0.596,385.25,388.58,This fuel can withstand a lot of compression.
+0.4617,388.58,394.85,"Diesel has an octane rating of 20, so it acts like a mixture of 20% isoactane and 80% in heptane."
+0.4805,394.85,400.33,"If I put a little bit of diesel in there, let's see what happens with the same compression ratio."
+0.1601,400.33,407.17,There you go.
+0.3815,407.17,409.03,You get a little explosion in there.
+0.5291,409.03,411.43,That's because this is a low octane fuel.
+0.5378,411.43,412.92,"I mean, that's what Diesel's meant to do."
+0.4122,412.92,414.36,You compress it and it ignites.
+0.5861,414.36,419.71,But you don't want this sort of fuel in an engine with spark plugs.
+0.5532,419.71,426.38,"The reason fancy cars demand high octane fuel is to prevent knocking in their high compression, high performance engines."
+0.6389,426.38,448.08,"Kettering wanted to find an additive which would increase the octane rating of ordinary fuel and eliminate knocking in high compression engines, so he hired 27-year-old engineer Thomas Midgley Jr. Midgley experimented with all sorts of compounds from melted butter and camphor to ethyl acetate and aluminum chloride."
+0.5153,448.08,452.57,He later wrote most of them had no more effect than spitting in the Great Lakes.
+0.5448,452.57,455.66,Ethanol was an interesting exception.
+0.3263,455.66,462.51,"It did stop the knocking, but you needed a lot of it, about 10% of the fuel mixture for it to be effective."
+0.4247,462.51,465.93,That much ethanol would be expensive and hard to turn a profit on.
+0.5906,465.93,472.38,"And Midgeley was really after an additive that was cheap, easy to produce, and effective even at low concentrations."
+0.3096,472.38,475.08,So he kept trying.
+0.4032,475.08,477.02,Then he hit on Tolurium.
+0.3778,477.02,482.43,"It worked wonderfully as an anti-knock agent, but it had a terrible smell."
+0.2047,482.43,486.12,You couldn't get rid of it by changing clothes or bathing.
+0.3311,486.12,491.98,His wife was so offended by the stench that he had to sleep in the basement for seven months.
+0.582,491.98,499.43,"Midgley wrote, I don't think that although this doubled the fuel economy, humanity would suffer this smell."
+0.2812,499.43,509.21,"On December 3rd, 1921, after five years of working on the problem, midgely found what he thought was the perfect solution."
+0.6259,509.21,513.58,"Tetraethyl lead, that's a lead atom right there in the center."
+0.4334,513.58,516.86,This additive was exactly what he was looking for.
+0.5149,516.86,522.45,"It stopped the knocking, it didn't smell, it was cheap to produce and readily available."
+0.4859,522.45,527.93,"Best of all, you only needed one part in a thousand for it to be effective."
+0.2376,527.93,532.75,"In a call to Kettering, Mijli said, can you imagine how much money we're gonna make with this?"
+0.1642,532.75,536.21,"We're gonna make $200 million, maybe even more."
+0.4085,536.21,540.3,That is over $3 billion in today's dollars.
+0.3152,540.3,550.74,"Now, for his discovery, the American Chemical Society gave him the prestigious Nichols Award, and they asked him to do a series of public talks, but midgely declined."
+0.6667,550.74,557.73,"He and Kettering patented the process for making Tetraethal lead, and they called their new additive Ethel."
+0.4347,557.73,562.38,Perhaps so it might be confused with another common additive Ethel alcohol.
+0.6152,562.38,565.38,They made no mention of lead.
+0.3744,565.38,574.43,"Then they teamed up with three of America's largest corporations, General Motors, DuPont, and Standard Oil of New Jersey to form the Ethel Corporation."
+0.2337,574.43,577.87,Their marketing was brilliant.
+0.3092,577.87,586.47,No man can look at the amazing record of accomplishment here in this research division without confidence that these men are going ahead with an eye to the future.
+0.2419,586.47,594.02,Looking for new facts and principles which will make things better and make life easier for all of us.
+0.6899,594.02,613.53,"At the 1923 Indianapolis 500, the top three finishers all used Ethel, and the demand for a leaded gasoline took off."
+0.5818,613.53,619.7,"To keep up, Ethel Corporation had to build a new chemical plant in New Jersey, but the project began terribly."
+0.6446,619.7,624.59,"Within two months of operating, dozens of workers fell ill with lead poisoning."
+0.3001,624.59,626.45,Five of them died.
+0.6898,626.45,638.17,"to address the public outcry, midgely held a press conference, and there he poured tetraethyl lead onto his hands, and he inhaled it for a full minute."
+0.4217,638.17,643.9,"He claimed he could do this daily without harm, but midgely knew the dangers."
+0.4128,643.9,654.21,"The reason he had turned down the public talks was because he spent much of 1923 in Florida, where he himself was recovering from lead poisoning."
+0.3097,654.21,658.05,He didn't go anywhere near his company's product if he could help it.
+0.8064,658.05,663.04,Lead is dangerous even in small doses.
+0.364,663.04,667.37,It mimics calcium in our bodies so there's no efficient way to get rid of it.
+0.7432,667.37,675.56,"And like calcium, lead can be stored in bones for years, meaning it can continue to poison the body long after the initial exposure."
+0.6754,675.56,679.37,The organ most sensitive to lead is the brain.
+0.519,679.37,684.42,Lead breaks down the mile and sheath around axons and prevents the release of neurotransmitters.
+0.6159,684.42,690.77,"That's why common symptoms of lead poisoning are headaches, memory loss, and tingling in the hands and feet."
+0.4574,690.77,693.62,And children are particularly susceptible.
+0.7066,693.62,698.19,Lead exposure can cause permanent learning disorders and behavioral problems.
+0.8507,698.19,701.49,And the dangers of lead had been known for hundreds of years.
+0.8369,701.49,709.74,"Already in 1786, Benjamin Franklin remarked that lead had been used for far too long considering its known toxicity."
+0.3219,1397.97,1407.24,You will observe with concern how long a useful truth may be known and exist before it is generally received and practiced on.
+0.8465,717.59,724.58,"He would have been aghast to learn that nearly 150 years later, scientists planned to add lead to fuel."
+0.6871,724.58,733.63,"Doctors and public health officials from MIT, Harvard, Yale, and the U.S. Health Service wrote to midgely and warned them against producing tetraethyl lead."
+0.8213,733.63,738.6,They called lead a creeping and malicious poison and a serious menace to public health.
+0.2346,738.6,741.6,Their concerns were dismissed.
+0.5818,741.6,750.96,This model shows how just the right amount of fluid containing tetraethyl lead and dye is added to the gasoline.
+0.8554,750.96,756.69,"No one doubted that a lot of lead was bad for you, but how much harm could a little lead do?"
+0.9918,756.69,765.7,"By the 1950s, millions of motorists globally were burning lead in their cars and releasing it into the air."
+0.6285,765.7,772.79,"Some of that lead ended up on Claire Patterson's zircon samples, preventing him from determining their age."
+0.3407,772.79,778.38,"In 1952, he moved to Caltech, where he built a new lab from scratch."
+0.5674,778.38,784.91,"Suspicious of environmental contamination, he tore the electrical cables out of the walls to remove the lead solder."
+0.3853,784.91,791.56,"He cleaned the floors and benches daily with ammonia, and made sure that air was always being blown out of the lab."
+0.2643,791.56,795.16,"To go inside, you had to wear a plastic bunny suit."
+0.439,795.16,798.93,Patterson basically invented the clean room.
+0.3656,798.93,805.04,"Inside that room, he turned his attention to the oldest rocks in the solar system, meteorites."
+0.2334,805.04,815.97,"All the original rocks on Earth had long since been destroyed by tectonic activity, but meteorites come from asteroids which formed around the same time as Earth."
+0.2066,815.97,821.34,They have just been drifting through space until they entered the Earth's atmosphere.
+0.4749,821.34,827.57,So the best way to measure the age of the Earth was to measure the age of meteorites.
+0.4106,827.57,838.45,"Patterson measured five meteorites, each with three different radiometric dating techniques, and he found they were all 4.55 billion years old."
+0.4273,838.45,846.35,That number is within 0.15% of the currently accepted value for the age of the Earth.
+0.6375,846.35,851.02,"You know, before Patterson's experiment, people thought the Earth was a billion years younger."
+0.3531,851.02,852.86,So Patterson had done it.
+0.5024,852.86,855.02,He measured the age of the Earth.
+0.9227,855.02,858.63,But he wasn't done getting rid of lead contaminants.
+0.7149,858.63,863.35,Public concern about lead exposure had continued to grow.
+0.4174,863.35,875.49,"But President of Standard Oil, Frank Howard, pushed back, saying, we do not feel justified in giving up what has come to the industry like a gift from heaven on the possibility that a hazard may be involved in it."
+0.874,875.49,884.98,"Scientists, funded by the Ethel Corporation, claimed that lead was a natural part of our environment, and therefore not harmful to people."
+0.7558,884.98,890.05,But Patterson wondered just how natural is the lead in our environment.
+0.3051,890.05,893.28,And he had just the skills to find out.
+0.7527,893.28,900.31,He began by measuring lead in the oceans.
+0.5708,900.31,905.48,"If it were natural, he expected the concentration of lead to be the same regardless of depth."
+0.7056,905.48,910.44,"But if lead pollution had increased recently, it would be more concentrated near the surface."
+0.3345,910.44,915.65,He took samples in the Pacific and Atlantic oceans down to a depth of 4 kilometers.
+0.7187,915.65,921.05,"And sure enough, lead concentrations were nearly 10 times higher near the surface."
+0.736,921.05,932.04,"Lead pollution was clearly recent, but when exactly had it occurred, To find out, Patterson had to go to Greenland and Antarctica."
+0.742,932.04,937.74,Icecores record the level of lead in the air going back thousands of years.
+0.896,937.74,942.8,the levels of lead in the atmosphere have been elevated for the last 4500 years.
+0.4437,942.8,947.82,"All of it is due to human activity, mainly smelting ores to make metal."
+0.3907,947.82,961.2,"You can see the rise and fall of the Greek and Roman empires, the dip caused by the Black Death in the 1300s, and of course the spike in the 20th century due to industrialization and tetraethyl lead."
+0.5194,961.2,964.78,So what did this do to people?
+0.7262,964.78,975.56,"Well, Patterson looked at the lead levels in the teeth and bones of recently deceased Americans, and for comparison, he measured the lead in bones and teeth of Peruvian and Egyptian mummies."
+0.7501,975.56,982.25,"Since they lived over 1600 years ago, they would have been exposed to much less lead in their lifetimes."
+0.7563,982.25,991.78,"He expected to find modern Americans had about 100 times as much lead in their bones, but results showed it was closer to a factor of a thousand."
+0.7615,991.78,997.66,20th century Americans had a thousand times more lead in their bones than their ancestors.
+0.7152,997.66,1009.52,"Studies of baby teeth revealed that even lead exposure well below the level considered safe resulted in delayed learning, decreased IQ and increased behavioral problems."
+0.6517,1009.52,1018.52,And there is a broad consensus on the part of everybody except the lead industry and its spokesman that lead is extremely toxic at extremely low doses.
+0.7013,1018.52,1026.52,A follow-up study showed that those with higher levels of lead in their baby teeth were many times more likely to fail out of high school.
+0.4873,1026.52,1042.32,"As a result of studies like these, the CDC's guidelines for the acceptable level of lead in children's blood dropped from 60 micrograms per deciliter down to 3.5. And as far as we know today, there is no safe level of lead."
+0.7064,1042.32,1049.45,"Globally, lead is believed to be responsible for nearly two-thirds of all unexplained intellectual disability."
+0.7588,1049.45,1061.2,"According to a study published in 2022, more than half of the current U.S. population, that's 170 million people, were exposed to high levels of lead in early childhood."
+0.352,1061.2,1066.59,Those born between 1951 and 1980 are disproportionately affected.
+0.7939,1066.59,1072.76,"The authors estimate that in aggregate, lead caused a loss of more than 800 million IQ points."
+0.9352,1072.76,1077.45,The world is less intelligent today because of lead at gasoline.
+0.4512,1077.45,1081.86,But there are even more troubling correlations.
+0.3162,1081.86,1086.51,The US saw a steady rise in crime from the 1970s to the 1990s.
+0.2346,1086.51,1090.49,Then it abruptly declined.
+0.5114,1090.49,1098.61,This graph looks eerily similar to a plot of preschool blood-led levels just offset by 20 years.
+0.7511,1098.61,1106.21,"The obvious question is, did kids who were exposed to higher levels of lead grow up to commit more crimes than they otherwise would have?"
+0.2297,1106.21,1114.04,"You might think this is just a spurious correlation, but the same pattern appears in many countries, including Britain, Canada, and Australia."
+0.7466,1114.04,1120.13,And we know there's a causal connection between lead exposure and anti-social or violent behavior.
+0.5826,1120.13,1130.6,A study of 340 teenagers found that those who were arrested were four times as likely to have elevated lead in their bones than similar demographic controls who didn't have run-ins with the law.
+0.7147,1130.6,1137.49,"Now this doesn't mean that lead is responsible for all of the increase in crime, but it's very likely responsible for some of it."
+0.8332,1137.49,1142.78,Now it's tough to estimate the precise death toll of lead.
+0.4001,1142.78,1149.41,"One of its lesser known effects is a hardening of the arteries, leading to increased cardiovascular disease."
+0.7422,1149.41,1158.79,"A study from 2018 found lead was likely responsible for 250,000 heart disease deaths per year in the US."
+0.5318,1158.79,1165.06,"Assuming a constant rate over the past century, that amounts to 25 million deaths in the US alone."
+0.245,1165.06,1168.85,"Globally, the figure may approach 100 million."
+0.8332,1168.85,1179.98,"Most of those deaths are due to Mijli's decision to put lead in gasoline, as substance he knew firsthand was toxic, but he did it anyway to maximize profits."
+0.3084,1179.98,1181.79,And the problem is not over.
+0.6327,1181.79,1188.08,"Current estimates of deaths caused by lead range from 500 to 900,000 per year."
+0.4866,1188.08,1199.59,The 2020 UNICEF report warns that one in three children globally that's over 800 million children have blood-led levels at or above five micrograms per deciliter.
+0.8571,1199.59,1208.49,"A lot of this lead now comes from batteries and industrial processes, but some is still due to Michelin's invention."
+0.4458,1208.49,1215.67,"After Michelin's success with Ethel, he was put in charge of another engineering project."
+0.542,1215.67,1219.57,"GM wasn't just making cars, but also household appliances."
+0.5343,1219.57,1221.48,Fridges had a problem.
+0.3614,1221.48,1226.93,The two most common gases used as refrigerants were methylformate and sulfur dioxide.
+0.4849,1226.93,1230.81,"One is highly toxic, the other is flammable."
+0.5934,1230.81,1240.9,"Midgeley was tasked with creating a safer alternative, and in 1928, he developed a non-toxic and non-flammable refrigerant, dichloro-difloro-methane."
+0.6586,1240.9,1253.12,"GM called this new product three-on, and to demonstrate free-on safety, during the unveiling at the American Chemical Society, Midgeley inhaled a lung full of this gas and blew out a candle."
+0.5419,1253.12,1260.59,"in the following decades, CFCs like Phreon became very popular and were used as solvents and aerosols."
+0.4008,1260.59,1264.77,The problem is CFCs are light and stable.
+0.2465,1264.77,1272.7,"When released into the atmosphere, they climb up into the stratosphere, where they can remain for 50 to 100 years."
+0.2663,1272.7,1280.66,"But if a CFC molecule is hit by an ultraviolet photon of just the right energy, it breaks apart, releasing a chlorine atom."
+0.4734,1280.66,1287.99,"And this chlorine atom can then react with ozone, Breaking it apart into chlorine monoxide and oxygen gas."
+0.7474,1287.99,1292.9,"The result was another environmental disaster, the hole in the ozone layer."
+0.475,1292.9,1299.08,"With less ozone, more UV light penetrates the atmosphere, increasing the rates of skin cancer and cataracts."
+0.5773,1299.08,1302.7,"Plus, CFCs are potent greenhouse gases."
+0.5115,1302.7,1307.61,"Per kilogram, they produce 10,000 times more warming than CO2."
+0.4819,1307.61,1315.08,The historian John McNeil wrote that midgely had more impact on the atmosphere than any other single organism in Earth's history.
+0.4136,1315.08,1328.06,"An agreement to phased out CFCs the Montreal Protocol went into effect in 1989, and the ozone layer is now showing signs of recovery, although it'll take many more decades to fully recover."
+0.2791,1328.06,1333.69,"In 1940, at the age of 51, Midgeley contracted polio and became physically disabled."
+0.1537,1333.69,1339.23,"So to help him get up, he devised a mechanical bed controlled by a series of ropes and pulleys."
+0.3197,1339.23,1347.7,"On November 2nd, 1944, while using the contraption, he became tangled in the ropes and died of strangulation."
+0.8343,1347.7,1355.72,"Thanks to the work of Claire Patterson, it became clear that the lead in our environment is not natural."
+1.0,1355.72,1360.51,Burning lead in combustion engines spread the toxic element across the planet.
+0.3547,1360.51,1367.13,"Into the air, oceans, the snow, the south pole, and even our bones."
+0.5481,1367.13,1373.08,"Japan was the first to ban-letted fuel in cars in 1986, but other countries soon followed suit."
+0.1304,1373.08,1376.44,Algeria was the last to do so in 2021.
+0.7493,1376.44,1387.16,"The UN calculates that the elimination of lead from gas saves over a million lives per year, and $2.45 trillion."
+0.6552,1387.16,1393.92,"But let it gas is still used, by the way, in piston-driven airplane engines."
+0.6121,1393.92,1397.97,That's now the largest source of light emissions into the air in the US.
+0.3219,1397.97,1407.24,You will observe with concern how long a useful truth may be known and exist before it is generally received and practiced on.
+0.4463,1407.24,1430.17,"When I first learned about Thomas Midgeley and Claire Patterson, I was amazed by how much harm or how much good a single person could do to the environment, which brings me to the sponsor of this video, Ren, an organization that's taking action on climate change."
+0.3702,1430.17,1438.58,I think it's important that we tackle the climate crisis both by lobbying for systemic change and by making more environmentally friendly choices ourselves.
+0.3618,1438.58,1444.48,"On Ren's website, you can calculate how much carbon you emit and which activities have the greatest impact."
+0.2965,1444.48,1448.55,"And if you like, you can offset your emissions through a monthly subscription."
+0.2976,1448.55,1453.86,The funds raised go to support a variety of projects that reduce greenhouse gases in the atmosphere.
+0.4203,1453.86,1459.63,One project I particularly like involves collecting up flammable deadwood from California forests.
+0.4571,1459.63,1462.25,This helps prevent wildfires.
+0.5131,1462.25,1469.57,"Plus, the collected wood is converted into biochar, a material that locks up the carbon inside for thousands of years."
+0.2604,1469.57,1475.04,"Once you sign up to offset your carbon footprint, you'll receive monthly updates from the projects you support."
+0.2838,1475.04,1483.48,"It's completely transparent with photos and details of every tree planted every acre reforisted, every ton of carbon offset."
+0.0772,1483.48,1490.49,"And for the first 100 people who sign up using the link in the description, I will personally pay for the first month of your subscription."
+0.0,1490.49,1495.99,"So I want to thank Ren for supporting Veritasium, and I want to thank you for watching."

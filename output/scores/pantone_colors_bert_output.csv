@@ -1,0 +1,288 @@
+score,start,end,transcript
+0.4855,0.03,1.94,Take a look at this cereal box.
+0.1905,1.94,4.87,"No, a closer look."
+0.1668,4.87,5.83,Even closer.
+0.5723,5.83,11.32,Thousands of tiny dots create the illusion of solid color.
+0.2272,11.32,13.83,But it's just an illusion.
+0.7892,13.83,17.96,"For pure color, like this yellow, get ready to pay."
+0.888,17.96,20.68,This is a Pantone color.
+0.513,20.68,25.53,The company's products cost hundreds to thousands of dollars.
+0.9361,25.53,29.21,But Pantone doesn't sell ink.
+0.5482,29.21,30.07,It sells these.
+0.7796,30.07,34.38,Standardized color guides for designers and printers.
+0.2747,34.38,41.65,"So this one was around $1,000, but the entire set is about $8,000, I think."
+0.2251,41.65,43.68,"It's actually over $9,000."
+0.5624,43.68,49.1,"In Pantone, recommends replacing its products every 18 months."
+0.3778,49.1,53.73,I find that suggestion convenient for them.
+0.8096,53.73,58.67,"For 60 years, one company has dominated color standards."
+0.6542,58.67,62.92,Now some frustrated designers seek a better alternative.
+0.7441,699.99,705.42,Pantone becomes a necessary evil because it's such a mainstream language.
+0.978,68.98,73.09,So why are pantone colors so expensive?
+0.8212,73.09,79.94,And how does a company make a fortune on color without selling a drop of ink?
+0.6638,79.94,84.64,Most printing is like that cereal box.
+0.5888,84.64,88.69,You might have heard it called CMYK or half toning.
+0.6982,88.69,96.92,"It's a process that's been around since the 19th century, but CMYK can only produce a limited number of colors."
+1.0,96.92,101.89,Pantone gives designers a shared palette way beyond that range.
+0.7066,101.89,104.19,And these colors are solid.
+0.247,104.19,107.64,"See, no dots."
+0.5907,107.64,110.64,"They look brighter, cleaner, and more consistent."
+0.8829,110.64,117.81,"You might know Pantone from its color of the year, but you actually see it every time you go to the grocery store."
+0.6168,117.81,119.81,Its colors are everywhere.
+0.8306,119.81,127.0,"To understand why Pantone became the industry standard, we have to go back to the 1950s."
+0.437,127.0,132.89,"Before computers and Adobe, design was a physical process."
+0.3015,132.89,137.36,You'd have these little tweezers and you'd have to kind of move things around in your composition.
+0.2938,137.36,143.79,"You would use a lot of chemicals, there was a lot of rubber cement, exacto knives, getting things to be really precise was really hard."
+0.6474,143.79,149.14,And getting colors to look the same around the world was challenging.
+0.7339,149.14,154.88,color matching really wasn't something that people could do when working with different printers.
+0.5796,154.88,157.34,One of the famous examples is of Kodak.
+0.662,157.34,161.12,"Some printers would print the yellow a little darker, some would print it a little brighter."
+0.5224,161.12,167.51,"When the customers saw those side by side on the shelf, they'd often go for the brighter box, thinking that that film was fresher."
+0.4575,167.51,171.94,Solving this problem was a huge business opportunity.
+0.2052,171.94,174.74,And one man was ready to capitalize on that.
+0.4282,174.74,179.21,Larry Herbert started working at Pantone in 1956.
+0.7447,179.21,186.03,"Back then, it was a printing company, so Larry knew how frustrating it was to communicate color."
+0.44,186.03,187.78,Did you say green?
+0.3601,187.78,189.08,"Like, great, what kind of green?"
+0.3718,189.08,189.88,Brat green.
+0.1433,189.88,191.78,"Oh my god, it's Shrek."
+0.8582,191.78,197.96,"Well, if you wanted to have a specific color, you often had to bring an example of that color in with you to the printers."
+0.8332,197.96,206.68,"And then the printers might have their own formula guides or recipe books that they could match colors to, but they didn't share those with other printers."
+0.305,206.68,212.44,Larry realized that a shared standard would streamline communication and prevent mistakes.
+0.3464,212.44,215.73,But he wasn't the first to come up with this concept.
+0.6194,215.73,221.87,"There were other color references, like the Munsell Color System, developed in 1905."
+0.46,221.87,225.25,Or this 1922 book for textiles.
+0.6733,225.25,230.03,"Even before that, scientists worked to standardize color names."
+0.6333,230.03,236.04,"Although this author might not have appreciated Pantones' color of the year, Mocha Moose."
+0.3462,236.04,240.17,"More than just a color, Mocha Moose is a treat."
+0.133,240.17,243.91,He denounces fanciful and nonsensical names.
+0.3337,243.91,247.83,but there wasn't a system used across industries.
+0.63,247.83,255.92,To duplicate exactly the subtle shadings and tone combinations conceived by the artist require the services of an expert cheap colorist.
+0.2698,255.92,258.75,Larry was determined to change that.
+0.7118,258.75,264.44,His key innovation was the Pantone matching system.
+0.8207,264.44,269.97,Pantone chooses a bundle of colors and assigns a numerical code to each one.
+0.907,269.97,275.04,"Every color has a specific formula, like a recipe written by Pantone."
+0.4852,275.04,279.17,The company distributes its system through guidebooks like these.
+0.8592,279.17,284.33,"So instead of saying royal blue, you'd say Pantone 300."
+0.5513,284.33,288.74,Then you'd specify if you're printing on coated or uncoated paper.
+0.8077,288.74,296.51,"Printers anywhere in the world instantly know what you want, and they have a repeatable way to recreate that color."
+0.2664,296.51,302.63,as long as they also own a guidebook.
+0.5809,302.63,305.3,Numbers matched two colors.
+0.3586,305.3,306.88,It's sort of that simple.
+0.7999,306.88,313.4,Pantone released its first guides in 1963 with about 500 colors.
+0.5577,313.4,318.49,"To 19, that's eight parts Rubin Red and eight parts White."
+0.3532,318.49,325.75,"And the system was a hit, selling over 200,000 copies in about five years."
+0.4313,325.75,330.44,"By 1971, it was used in 42 countries at hundreds of printers."
+0.1898,330.44,334.08,"Two years later, it was up to 58 countries."
+0.6268,334.08,346.2,"It was such a needed product as branding and corporate identity was getting larger, as people were starting to pay more attention to how brands were presenting themselves."
+0.9998,346.2,351.94,"Color consistency just became incredibly important, and Pantone fit the bill perfectly."
+0.6877,351.94,357.14,"In less than a decade, Pantone became the industry standard."
+0.3964,357.14,364.23,"Superman or Batman, even states they have PMS colors associated with their flags."
+0.3645,364.23,369.75,The company expanded into textiles and plastics.
+0.8478,369.75,374.92,"And in the 1980s, Pantone was quick to license its colors to software companies."
+0.7506,374.92,378.07,"We have over 10,000 colors at this point."
+0.7393,378.07,388.01,"In 2001, Pantone referred to itself as the world's only universally accepted color communication language."
+0.8972,388.01,394.02,And one reason Pantone's stay dominant is that its system is proprietary.
+0.6051,394.02,396.64,"Property, Pantone, registration mark."
+0.7656,396.64,401.83,"Before you get to the colors, you're greeted with a trademark and copyright notice."
+0.9086,401.83,409.57,The Pantone's near monopoly has caused some designers to feel like they have no choice but to pay.
+0.4069,409.57,411.3,Panto don't own anything.
+0.7611,411.3,417.05,The only thing they actually own is the code that they associate with that colour.
+0.6692,417.05,423.04,"So they don't own the colour, they just own the language that we use to describe the colour."
+0.3547,423.04,425.95,and it's gone to court to protect that language.
+0.6676,425.95,434.69,"In 1968, Pantone sued a competitor called Paratone, saying that it copied Pantone's intellectual property."
+0.5238,434.69,436.52,And Pantone won.
+0.4793,436.52,443.99,The judge determined that Pantone's system had sufficient originality and uniqueness to qualify it for copyright ability.
+0.627,443.99,447.25,There's no corporate headquarters for CMYK.
+0.7532,447.25,451.47,"There's no corporate headquarters for RGB, but there is a corporate headquarters for Pantone."
+0.7514,451.47,455.02,Does Pantone have a serious competitor?
+0.3622,455.02,459.79,That's a good question.
+0.2914,459.79,466.09,Everyone can be a competitor by the same time.
+0.6574,466.09,471.44,There's only one Pantone with such a dedicated team.
+0.9907,471.44,474.1,"For printers, Pantone is a fact of life."
+0.8954,474.1,477.87,"The whole 38 years I've been here, we've been using Pantone."
+0.7809,477.87,484.89,"If we went away from Pantone, a lot of our higher-end clients, I don't think they would want to do business with us anymore."
+0.9599,484.89,490.66,Kevin uses Pantone guides to verify that printed colors match client orders.
+0.679,490.66,497.07,"If they have a book and they pick the color, then we have our book and we know exactly what they want."
+0.7153,497.07,500.16,They're one of our most valuable tools that we have in a printing industry.
+0.84,500.16,508.11,"Allied printing mixes each Pantone color in-house, using a set of base inks."
+0.8203,508.11,513.96,"If you mix it in a formula, you're getting the pantone color."
+0.5915,513.96,518.49,"Where if you're just shooting in the dark, you can be mixing it in ink all day long."
+0.5473,518.49,523.72,Anthony is Allied Printing's resident ink mixer.
+0.559,523.72,525.96,"Just go to page 65, find your color."
+0.2001,525.96,528.02,There's a 7-11 right here.
+0.1594,528.02,531.05,So we want a six pounder.
+0.0455,531.05,533.15,Usually I do my six pounders and a one gallon.
+0.0,533.15,535.06,This fits up to like eight pounds.
+0.4045,535.06,540.74,"This is my recipe right here, so I have transparent white, which is clear."
+0.5698,540.74,543.42,We have yellow.
+0.3875,543.42,550.19,We have warm red.
+0.0905,550.19,555.19,This one calls for 4.6 pounds.
+0.4885,555.19,560.6,And then we have black.
+0.3628,560.6,564.38,"All right, so that's the last ingredient."
+0.2918,564.38,566.24,We're ready to throw it on the mixer.
+0.8219,566.24,571.96,But Allied printing doesn't buy ink from Pantone.
+0.3483,571.96,574.68,It works with a licensed manufacturer.
+0.8473,574.68,582.01,"And to access color formulas, Anthony uses third-party software that's again licensed by Pantone."
+0.5992,582.01,587.14,The only thing Allied printing buys from Pantone are the guidebooks.
+0.4614,587.14,593.33,After mixing Anthony tests every batch to ensure it's consistent.
+0.203,593.33,599.0,"I'll put down my sample first, and then this is my batch."
+0.1763,599.0,601.99,Draw it down.
+0.6044,601.99,604.61,Here's a color.
+0.3066,604.61,606.84,It looks good.
+0.4621,606.84,608.4,The formula looks good.
+0.2674,608.4,609.32,And that's it.
+0.5691,609.32,611.56,That's a typical ink order for fill.
+0.7219,611.56,623.02,"Because Pantone colors are pre-mixed from 11 base inks, they look brighter and cleaner compared to CMYK, which uses just four colors."
+0.859,623.02,631.14,Pantone has a huge gamut of colors that you'll never be able to achieve with CMYK.
+0.7482,631.14,639.85,"You can try to imitate Pantone colors through four color process, but in my opinion, you never do."
+0.1582,639.85,641.72,They get dingy and dirty.
+0.5592,641.72,652.57,CMYK is useful for something like this photo with hundreds of slightly different colors and shades.
+0.985,652.57,661.58,"Pantone excels when you need one solid color to look exactly the same every time it's printed, like with a logo or a brand color."
+0.726,661.58,669.04,"We could run a part of a project here at Connecticut, and someone else could run a part of a project in California, and if you're running Pantone, they're gonna match."
+0.8941,669.04,674.09,"But depending on what you're printing, Pantone is often more expensive."
+0.5765,674.09,681.95,"Besides the effort of mixing colors, Kevin says the ink itself costs about 15 to 25% more than CMYK."
+0.4989,681.95,684.67,Some of our customers don't care about price.
+0.7693,684.67,690.68,"A lot of big corporations, if that's their corporate color, they want their corporate color to be perfect."
+0.7858,690.68,699.99,But some designers are frustrated by Pantone's level of control.
+0.7441,699.99,705.42,Pantone becomes a necessary evil because it's such a mainstream language.
+0.1738,705.42,709.29,These frustrations took centre stage in October 2022.
+0.8474,709.29,720.43,"I woke up one day, opened my laptop and there were loads of black squares where there were colours because Pantone wanted additional money for me to access the colour palette."
+0.8004,720.43,725.26,Pantone colors used to be accessible in Adobe software like Photoshop.
+0.7518,725.26,729.75,"But to access them now, designers need to pay a subscription fee to Pantone."
+0.6156,729.75,736.0,This added cost has festered as a point of friction between Pantone and its customers.
+0.7876,736.0,742.23,"If I'd been asked three years ago if I had any issues with Pantone, I would have really, really struggled to answer that question."
+0.3959,742.23,748.55,"But now we were at being asked to pay $15 on top of that Adobe fee, and it's not as intuitive of a system."
+0.8491,748.55,754.0,"Pantone says the old colors were outdated, and its new plugin offers more features."
+0.4169,754.0,756.85,But not everyone is happy about the change.
+0.2952,756.85,761.11,The Adobe plugin has a one-star rating.
+0.2702,761.11,763.9,what we used to have used to be really easy.
+0.2528,763.9,765.58,It's a tool and I want it to be easy.
+0.7323,765.58,772.43,"Of course, having its own plugin also gives Pantone a space to advertise new products."
+0.1968,772.43,775.56,"That's just reality in the world, right?"
+0.2149,775.56,777.28,There's not a subscription out there.
+0.5358,777.28,780.47,"If you're a serious designer, that cost will be nothing."
+0.2847,780.47,785.82,They can put the prices up whenever they want and the whole world has to agree.
+0.6144,785.82,789.78,They can charge whatever they want for the color books because there's no competition.
+0.2988,789.78,791.29,So that's not right.
+0.2277,791.29,795.67,We need healthy competition.
+0.7013,795.67,800.8,But how do pan tones customers feel about there being only one pan tone?
+0.3913,800.8,805.34,"You don't really have a choice, especially if you want to be on par with industry."
+0.4487,805.34,810.95,You're at a competitive disadvantage if you're not aware of this.
+0.731,810.95,818.25,"Rotomy is an industrial designer, so having a three-dimensional color reference is invaluable."
+0.5977,818.25,824.82,"But when he and his wife Candace started their own studio, the price of Pantone was shocking."
+0.6002,824.82,831.87,"When I tell people it's been $1,000 on a color set of grays, they look at me like I'm crazy."
+0.4271,831.87,834.87,Rotomy really likes gray.
+0.4194,834.87,838.69,"I like white, and I like black, and so gray is just like right in between."
+0.509,838.69,841.58,There's quite a bit of variation.
+0.3873,841.58,847.62,"This one skews more blue, more purple, whereas this one skews a little bit more neutral."
+0.7245,847.62,851.61,There's just so many variances in gray or even white.
+0.1665,851.61,859.36,"One replacement chip is $20, and the complete SAT cost over $9,000."
+0.3824,859.36,864.27,"Unfortunately, Rotemies has started to yellow."
+0.5376,864.27,866.44,This is the original color.
+0.4639,866.44,868.32,You can see how bright that is.
+0.174,868.32,869.95,It hurts a little bit.
+0.4568,869.95,875.63,Pantone recommends replacing its guides every 12 to 18 months.
+0.3422,875.63,881.58,Although Kevin is the only person business insider spoke to who actually does this.
+0.3339,881.58,885.23,These are the older ones.
+0.2075,885.23,888.19,"So a lot of these are from, this is 2016."
+0.3534,888.19,890.37,And from new to old.
+0.7311,890.37,901.51,"So much yellower, the old one is, But for many designers paying hundreds or thousands of dollars every 18 months is unrealistic."
+0.3929,901.51,906.73,"It's maybe not super necessary, but there is definitely an expiration date on those things."
+0.3091,906.73,909.92,We probably update them every couple years.
+0.4114,909.92,915.71,This is a good example of when it's time to buy some new pantom books.
+0.5795,915.71,923.83,"The Pantone system, it definitely does really well in corporate America with the larger business structures."
+0.3707,923.83,929.2,"Your freelancers and your small studios, it's not optimal for us."
+0.2986,929.2,931.06,The barrier to entry is high.
+0.6947,931.06,938.71,"If you want access to Pantone's tools, you have to spend at least a few hundred dollars."
+0.2876,938.71,941.17,The set of these binders costs $561.
+0.5156,941.17,948.66,"It lets you rip out swatches, useful for collaboration, but also destructive."
+0.2749,948.66,951.87,Replacement pages are $13 each.
+0.5659,951.87,958.41,"You can tell this whole row is missing, so then this becomes essentially useless because you can't compare colors."
+0.418,958.41,961.63,Richa is a graphic designer.
+0.3211,961.63,964.58,She works with brands like Hershey and Kebler.
+0.3443,964.58,968.54,I feel like I'm building a grocery store over here.
+0.6107,968.54,972.4,Her favorite pantone color is TaxiCab Yellow.
+0.1546,972.4,973.7,I think it might be 132.
+0.2422,973.7,976.1,132 is not right.
+0.4415,976.1,979.59,It is what I would define as a baby poop color.
+0.1975,979.59,983.11,"I take it back, not 132, but 130."
+0.2767,983.11,984.75,"Look at that, look at that beauty."
+0.7328,984.75,990.62,Richa uses pantone guides to translate her digital designs to print.
+0.6313,990.62,997.11,Making sure that what they're seeing on their screens matches the color that they experience in real life.
+0.4852,997.11,1001.4,"So this is my baby, this is my pantone bridge guide."
+0.9079,1001.4,1006.99,We have our pantone colors and then over here we have our CMYK values.
+0.2049,1006.99,1009.96,It's pretty beat up because I use a lot.
+0.3595,1009.96,1012.8,Thankfully that's one of the more affordable guides.
+0.2622,1012.8,1014.52,Just $265.
+0.306,1014.52,1017.65,We have like 30 of those or something.
+0.2885,1017.65,1019.43,So that's like that adds up.
+0.8756,1019.43,1026.86,"But for a lot of designers, access to pantones shared language is worth the cost."
+0.8506,1026.86,1029.24,The pantone shapes our world.
+0.9065,1029.24,1035.23,"Anything that is being printed, especially for larger brands, is likely using a pantone."
+0.7439,1035.23,1041.34,"Like Target Red, Tiffany Blue, and of course, Minion Yellow."
+0.4034,1041.34,1048.65,"I think for the functionality within our industry, it makes sense for there to be one big player."
+0.3616,1048.65,1054.08,It's such a dance because there are so many partners involved in producing things like this.
+0.3742,1054.08,1061.58,"You're sort of creating the design intent, handing that off to another partner that's going to them, make sure that they use the same design intent."
+0.5799,1061.58,1064.46,That partner is often a printer.
+0.6105,1064.46,1072.45,"If there were three different types of guides and designers got a hold of them, they would make printer's life miserable."
+0.6253,1072.45,1076.19,Every printer in the world would have to go to three different standards.
+0.3327,1076.19,1080.51,A designer's they can definitely work with.
+0.2054,1080.51,1083.8,"There's millions of them that do, but they're missing out."
+0.3445,1083.8,1089.8,"Eddie works at Pentagram, a premier design agency with locations around the world."
+0.6793,1089.8,1094.12,My favorite Pantone color is black.
+0.5767,1094.12,1096.03,"It is, it is a color."
+0.7016,1096.03,1100.98,But you always have to have a hint of color somehow.
+0.4226,1100.98,1104.9,"This particular yellow, I would say, is like a corn yellow."
+0.5119,1104.9,1107.09,It wouldn't be a sort of sunflower yellow.
+0.1911,1107.09,1108.25,It's not warm enough.
+0.4254,1108.25,1115.15,"At Pentagram, an abundance of Pantone guides are always within arms reach."
+0.3835,1115.15,1119.26,"This bundle costs over $1,000."
+0.8449,1119.26,1123.7,Having a Pantone system is an investment.
+0.3242,1123.7,1124.96,It definitely is.
+0.2862,1124.96,1126.5,But you should pay for that.
+0.9308,1126.5,1131.25,"When you're dealing with Pantone, what you see is really what you get."
+0.6767,1131.25,1138.15,You cannot print this at home or go to King Co's and believe that you're actually going to get that colors.
+0.1702,1138.15,1139.32,Never going to happen.
+0.9147,1139.32,1146.31,Color experts at Pantone work hard to ensure that every guide is consistent.
+0.5415,1146.31,1150.72,That's essential to the company's reputation and its bottom line.
+0.576,1150.72,1155.11,Pantone says it earns about half of its revenue from the guides.
+0.2218,1155.11,1161.95,The first guide that I purchased was around 2005-2006.
+0.317,1161.95,1165.57,I had started my own studio.
+0.4991,1165.57,1173.93,So before I would borrow it from friends or try my very best to go to the printer and then I would pick there.
+0.229,1173.93,1180.74,"Just like any other tool, you upgrade your software on the subscription."
+0.3502,1180.74,1183.78,Why wouldn't you do the same thing with Panta?
+0.7655,1183.78,1187.25,"I don't see Pantone as a tool, actually."
+0.2597,1187.25,1198.55,"I see it as a language and part of a process, but because they have such a vast monopoly, it becomes a language that we're all forced to speak."
+0.3491,1198.55,1201.96,"And sadly, it's a language that we need to pay to access."
+0.4991,1201.96,1211.91,"Most of the designers' business insiders spoke to said, despite their frustrations, it's worth the cost."
+0.948,1211.91,1216.18,Pantone delivers on its promise of consistent color.
+0.3371,1216.18,1220.5,"We produce thousands, maybe even millions of times."
+0.7207,1220.5,1226.05,"That color would look different each and every time, especially on a global scale."
+0.9063,1226.05,1234.18,"That's why systems like Pantone are around to keep that consistency, to keep that quality control."
+0.4617,1234.18,1237.01,And that's the reason why you spend that money.
+0.3975,1237.01,1246.61,"Despite how much design has changed in the last 60 years, the system Larry Herbert developed back then still works."
+0.7692,1246.61,1253.92,"X-Rite, a large color science company, bought Pantone in 2007 for $180 million."
+0.1459,1253.92,1256.82,Not a bad return for Larry and his family.
+0.2936,1256.82,1259.51,And remember the Munsell system?
+0.7238,1259.51,1261.57,One of the earliest color standards.
+0.4608,1261.57,1263.73,X-Rite owns that too.
+0.7999,1263.73,1271.04,"After 62 years, it's hard to imagine a new system replacing Pantone."
+0.3252,1271.04,1274.03,But Stuart thinks there's a better way.
+0.759,1274.03,1279.21,An open source model makes complete and utter sense for a colour standard.
+0.7915,1279.21,1284.04,"If enough people used it, it would easily eclipse Pantone overnight."
+0.8514,1284.04,1292.68,"The idea of something replacing Pantone, something that's as cheaper potentially could, but I doubt that."
+0.1462,1292.68,1299.89,"It's going to be happening, you know, anytime soon."
+0.6167,1299.89,1303.27,Pantone touches nearly every project Rachel works on.
+0.6805,1303.27,1307.27,But she says she's not thinking about Pantone.
+0.5357,1307.27,1309.15,She's thinking about color.
+0.6875,1309.15,1312.32,Color is a part of our world.
+0.2208,1312.32,1318.37,"It's critical to what I do, but it also inspires emotion and connection and happiness."
+0.928,1318.37,1323.51,I think Pantone helps us identify and produce those colors.
+0.6661,1323.51,1325.73,I don't think they own the colors.
+0.3958,1325.73,1328.37,seeing your work in the wild.
+0.2159,1328.37,1329.69,It's a great sense of pride.
+0.2956,1329.69,1337.68,It just feels great to know that all the effort that you put in has come to life the way that you intended and is now something for people to connect with.
+0.21,1337.68,1341.17,"And again, amazing bragging rights."
+0.1289,1341.17,1344.67,"You can tell your family, go to the store, pick up this pack."
+0.3327,1344.67,1345.63,I made this.
+0.4052,1345.63,1347.96,Takes what we do and makes it tangible.

@@ -1,0 +1,173 @@
+score,start,end,transcript
+0.6664,0.03,11.39,"If you make a guess, and you make the wrong guess, then multiply it by a negative number and correct the mistake, stat quest, bam."
+0.331,11.39,16.86,"Hello, I'm Josh Starmer and welcome to stat quest."
+0.6084,16.86,20.55,"Today, we're going to talk about reinforcement learning with neural networks."
+0.7004,20.55,24.66,"And this time, we're going to focus on the mathematical details."
+0.2621,24.66,33.36,"This stack quest is brought to you by the letters A, B, and C."
+0.2961,33.36,33.36,"A always B, B, C, curious."
+0.2525,33.36,35.38,Always be curious.
+0.4837,35.38,46.51,"Note, this stack quest assumes that you are already familiar with gradient descent and the essential concepts of how reinforcement learning can be added to a neural network."
+0.0,46.51,48.41,"If not, check out the quests."
+0.568,48.41,58.26,"In the stack quest, a reinforcement learning with neural networks, essential concepts, there were two places we could go to get a French fry snack."
+0.1558,58.26,62.34,"Squatches fry shack, and norms fry hut."
+0.6213,62.34,68.55,And we used a neural network to help us decide where to go based on how hungry we were.
+0.6355,68.55,81.63,"However, since we didn't know in advance if squash or norm was going to give us a large or small order of fries, we couldn't train the neural network with standard back propagation."
+0.7449,81.63,86.68,"Instead, we trained the neural network with reinforcement learning."
+0.7767,86.68,93.59,"Specifically, we showed how the policy gradients method can train the neural network."
+0.7218,93.59,100.29,Now we're going to go through the mathematical details and show every single step required to train this neural network.
+0.8201,100.29,108.49,"Specifically, we're going to show all of the details required to train this bias, B, with policy gradients."
+0.7883,108.49,115.74,"So, the first thing we do is run an input value through the neural network to calculate an output value."
+0.6966,115.74,121.58,"We'll start with 0.0 as the input, which means we're not hungry."
+0.6211,121.58,126.83,Now we just do the math.
+0.7344,126.83,152.6,"and the probability that we will go to norms, P norm is 0.5. And that means that the corresponding probability that we will go to squatches, P squatch, is 1 minus P norm, which equals 0.5. In other words, we can draw a line that is 0.5 units long to represent the probability of going to squatches."
+0.7089,152.6,159.98,and then append another line that is 0.5 units long to represent the probability of going to norms.
+0.5693,159.98,163.72,And we end up with a line that goes from 0 to 1.
+0.4925,163.72,171.84,"Now, to decide which place we will visit for a snack, we pick a random number between 0 and 1."
+0.658,171.84,183.87,"In this example, we randomly pick the number 0.2. and because 0.2 is in the region that represents a squatch's fry shack, we'll go there."
+0.5432,183.87,187.13,Now comes the part where we make a guess.
+0.6025,187.13,199.65,"If we make a guess that the correct thing to do is to go to squatches, then, ideally, we would want the probability of going to squatches p-squatch to be 1."
+0.7616,199.65,217.49,"And that means we can quantify the difference between the ideal value for p-squatch, 1.0, that is based on the guess that we should go to squatches, and 0.5, the value for p-squatch based on the output from the neural network."
+0.5821,217.49,224.94,"Now, because the values for p-squatch are probabilities, we will use cross entropy to quantify their differences."
+0.604,224.94,229.04,"Note, there's a lot to be said about cross entropy."
+0.3657,229.04,234.47,"And if you're interested in the details, you can check out these quests or my book on AI."
+0.7338,234.47,247.69,"However, for this example, the only thing you really need to know is that cross entropy is the negative log base E of the probability we go to either norms or squatches."
+0.8477,247.69,254.26,"Now remember, the goal of this example is to optimize the bias."
+0.7191,254.26,264.72,"So, just like we do for normal back propagation, the first thing we do is calculate the derivative of the cross entropy with respect to the bias we want to optimize."
+0.7181,264.72,273.35,"Note, before we get started, I want to be clear that we are calculating the cross entropy for going to Squatch's fryshack."
+0.689,273.35,282.62,"So, to help us remember what's going on, we'll let CE Squatch refer to the cross entropy for visiting Squatch."
+0.7938,282.62,290.97,"Now, the cross entropy for visiting squatch, CE squatch, is the negative log of P squatch."
+0.2708,290.97,293.87,Because we went to squatches.
+0.9465,293.87,309.99,"However, because the output from the neural network is the probability of going to norms, P norm, we rewrite the cross entropy equation in terms of P norm, because P squatch equals 1 minus P norm."
+0.6641,309.99,317.4,"P-norm, in turn, is the y-axis output value from the sigmoid activation function."
+0.8029,1137.3,1152.61,"And the output from the sigmoid activation function depends on its input, the x-axis coordinate x."
+0.8601,1152.61,1152.61,"And x comes from multiplying the input value, hunger, by the weight, and then adding the bias."
+0.8421,332.64,358.27,"Now, because the cross entropy is connected to the sigmoid activation function by P-norm, and the sigmoid activation function is connected to the bias by X."
+0.7281,358.27,358.27,We can solve for the derivative of the cross entropy for visiting squash with respect to the bias by using the chain rule.
+0.9211,358.27,385.82,"The chain rule tells us that the derivative of the cross entropy for visiting squash with respect to the bias is the derivative of the cross entropy for visiting squash with respect to the output from the neural network, P-norm, times the derivative of P-norm with respect to x, the x-axis input value to the sigmoid activation function, times the derivative of x with respect to the bias."
+0.8498,385.82,395.42,"We'll start by working out the derivative of the cross entropy for visiting squash with respect to the output from the neural network, P-norm."
+0.7037,395.42,410.37,"Now, because the cross entropy for visiting squash is equal to the negative log of 1 minus p norm, the first thing we do is plug in the negative log of 1 minus p norm for the cross entropy."
+0.4052,410.37,419.0,"Now, to solve for this derivative, we have to use the chain rule."
+0.6461,419.0,426.25,"Because p norm, the thing we want to take the derivative with respect to, is inside the log function."
+0.6312,426.25,436.85,"So, to apply the chain rule, we create a new variable called stuff, and let stuff equal the stuff inside the log function, one minus p norm."
+0.896,436.85,444.2,And that means we are solving for the derivative of the negative log of stuff with respect to p norm.
+0.7001,444.2,461.6,The chain rule tells us that the derivative of the negative log of stuff with respect to p norm is the derivative of the negative log of stuff with respect to stuff times the derivative of stuff with respect to P norm.
+0.6304,461.6,478.34,"Now, because the derivative of the log of x with respect to x is 1 divided by x, the derivative of the negative log of stuff with respect to stuff is negative 1 divided by stuff."
+0.7153,478.34,485.24,"The next term, the derivative of stuff with respect to P norm is negative 1."
+0.6982,485.24,489.23,So we multiply the first term by negative 1.
+0.5534,489.23,495.7,Multiplying negative 1 by negative 1 gives us 1 divided by stuff.
+1.0,495.7,513.96,"Lastly, we plug in 1 minus P norm for stuff And that means the derivative of the cross entropy for visiting squash with respect to the output from the neural network, P-norm, is equal to 1 divided by 1 minus P-norm."
+0.6172,1201.16,1204.6,So we plug that into the equation.
+0.251,1204.6,1205.9,Bam.
+0.8382,518.18,529.77,"Now we need to figure out the derivative of P-norm with respect to x, the x-axis coordinate that is used as input to the sigmoid activation function."
+0.881,529.77,535.78,"So, the first thing we do is plug in the equation for the sigmoid activation function."
+0.5328,535.78,541.51,Then we rewrite the fraction as the denominator to the negative one power.
+0.3637,541.51,555.42,"Now, because x, the thing we want to take the derivative with respect to is inside parentheses, we can use the chain rule to solve for the derivative."
+0.4067,555.42,561.61,"So, just like before, we define stuff to be the stuff inside the parentheses."
+0.6041,561.61,565.43,Then we rewrite the equation with stuff.
+0.5331,565.43,575.55,The chain rule then converts this relatively hard to solve derivative into the product of these two easier to solve derivatives.
+0.5983,575.55,584.26,"For the first term, we use the power rule to get negative 1 times stuff raised to the negative 2 power."
+0.6556,584.26,590.77,and the derivative of the second term is negative e raised to the negative x power.
+0.7189,590.77,600.66,Now we just multiply both terms together and plug in one plus e raised to the negative x power for stuff.
+0.9134,600.66,612.41,"Now, technically, this is the derivative of the output of the sigmoid activation function, p-norm, with respect to its input, x."
+0.1858,612.41,615.7,"However, you never see it like that."
+0.0375,615.7,616.74,Ever.
+0.63,616.74,623.55,"Instead, we split the square in the denominator into two terms multiplied together."
+0.5847,623.55,631.38,"Then we put plus one and minus one, which add up to zero, in the numerator of the second term."
+0.5306,631.38,636.96,We then rewrite the second term as the difference of two fractions.
+0.8439,636.96,643.84,"Lastly, the first term is the same as the equation for the sigmoid activation function."
+0.6196,643.84,647.54,So we swap the fraction with the function.
+0.5729,647.54,652.01,And the first part of the second term is equal to one.
+0.8807,652.01,657.1,And the second part is the same as the sigmoid activation function.
+0.9216,657.1,664.46,And this is the derivative of the sigmoid activation function that you'll see pretty much everywhere.
+0.6172,1201.16,1204.6,So we plug that into the equation.
+0.8171,668.27,677.81,"Now we need to figure out the derivative of x, the input to the sigmoid activation function with respect to the bias."
+0.5349,677.81,687.71,So the first thing we do is plug in the equation for x.
+0.9047,687.71,687.71,And the derivative with respect to the bias is 1.
+0.6172,1201.16,1204.6,So we plug that into the equation.
+0.8953,692.74,704.78,"Lastly, because p-norm is the output from the sigmoid activation function, we can replace sigmoid x in the derivative with p-norm."
+0.7525,704.78,712.97,"Hooray, we finally calculated the derivative of the cross entropy for visiting squash with respect to the bias."
+0.2298,1306.63,1307.8,Bam!
+0.5633,714.89,719.31,Now let's calculate the value of the derivative.
+0.7918,719.31,745.57,"So we plug in P-norm, the output from the neural network is 0.5. And when we do the math, we get 0.5. And thus, the slope of the tangent line for the current bias value is 0.5. Note, if we plugged this derivative directly into gradient descent, it would shift the value of the bias to the left."
+0.7381,745.57,754.19,"However, if you remember, this derivative was based on the guess that going to squatches for fries was a good idea."
+0.4239,754.19,757.78,And our guess might not be correct.
+0.8794,757.78,769.42,"And if our guess is not correct, then instead of shifting the value for the bias to the left, we actually need to shift the value for the bias to the right."
+0.7921,769.42,778.68,"In other words, depending on whether our guess is correct or not, we either need to shift the value for the bias to the left or the right."
+0.5227,778.68,786.27,The good news is that all we need to do to determine how to update the bias is order some fries from squash.
+0.403,786.27,792.8,"In this example, when we order some fries, we get this relatively small serving."
+0.4059,792.8,800.03,"However, this is okay because our hunger level is 0.0, meaning we're not hungry at all."
+0.2051,800.03,805.44,"So, it was actually a good thing that squash ate some of our fries."
+0.5762,805.44,812.92,"In other words, getting a small order of fries when we are not hungry means we made the correct guess."
+0.7018,812.92,829.78,"And since we made the correct guess, we set the reward to 1.0. In contrast, if squash had given us a large order of fries, then we wouldn't be hungry enough to eat all of the fries, and that means we made the wrong guess."
+0.6548,829.78,834.84,"So, in that case, we would set the reward to negative one."
+0.7331,834.84,845.53,"Note, we can use different values for the reward, and we talked about that in the stat quest, reinforcement learning with neural networks, essential concepts."
+0.9881,845.53,856.29,"Anyway, going back to when we made the correct guess, and the reward was 1.0, Now we multiply the derivative by the reward."
+0.7073,856.29,861.44,To get an updated derivative that will point us in the correct direction.
+0.9143,861.44,882.21,"In this example, we were not hungry and Squatch gave us a small order of fries, so we made the correct guess and the reward equals 1.0. And multiplying the derivative 0.5 by the reward 1.0 means the updated derivative is the same as the original derivative."
+0.9945,882.21,890.14,and the updated derivative tells us to do the same thing as before and shift the value for the bias to the left.
+0.7628,890.14,899.65,"In other words, when we make the correct guess to begin with, then the derivative that is based on that guess points us in the correct direction."
+0.9446,899.65,919.2,"Note, if we guessed wrong and Squatch gave us a ton of fries even though we were not hungry, Then multiplying the derivative by a negative reward makes it so that the updated derivative, negative 0.5, points in the opposite direction of the original derivative."
+0.7946,919.2,926.22,"And instead of shifting the value for the bias to the left, we will shift it to the right."
+0.8928,926.22,939.68,"In other words, when we make an incorrect guess to begin with, then the derivative that is based on that guess points us in the wrong direction, and multiplying it by a negative reward corrects that error."
+0.682,939.68,950.42,"Now, going back to the original correct guess, we then plug the updated derivative into gradient descent to calculate the step size."
+0.7896,950.42,986.56,"Now, in this example, the learning rate is set to 1.0. So the equation ends up being 1.0 times the updated derivative 0.5. And so the step size is equal to 0.5. Then we calculate the new value for the bias by subtracting the step size 0.5 from the old bias value 0.0. To get the new bias value, negative 0.5. Now we plug the new bias term into our neural network."
+0.7039,986.56,994.57,"Now that we have updated the neural network, we have to get some more fries so we can keep training the bias."
+0.7496,994.57,1024.69,"So we plug in our hunger level, 0.0. And when we do the math, the probability that we will go to norms is now 0.4. That means that the probability we go to squaches, 1 minus p norm, has increased to 0.6. and the probability that we go to norms has decreased to 0.4. Remember, the last time our hunger was 0.0, we went to squaches."
+0.3215,1024.69,1027.37,And we got what we wanted.
+0.5574,1027.37,1035.34,"So it makes sense that, given the same hunger as before, we now have a higher probability of going to squaches."
+0.6384,1035.34,1047.88,"Now we pick a random number between 0 and 1, and we get 0.9. And because 0.9 is in the region that represents norm's fry hut, that's where we'll go."
+0.4728,1047.88,1053.91,Now we make the guess that going to norms when we are not hungry is the best thing to do.
+0.7189,1053.91,1069.72,"And if going to norms is the right thing to do, then ideally, the probability of visiting norms should be 1.0. And that means we can quantify the difference between the output and our guess with cross entropy."
+0.8846,1069.72,1077.56,"Thus, the first part of updating the bias is to calculate the derivative of the cross entropy with respect to the bias."
+0.7904,1077.56,1085.76,"Note, before we get started, I want to be clear that we are calculating the cross entropy for going to Norm's fry hut."
+0.7197,1085.76,1094.61,"So, to help us remember what's going on, we'll let CE Norm refer to the cross entropy for visiting Norm."
+0.6861,1094.61,1109.21,"Now, the good news is calculating the derivative of the cross entropy for visiting norms is almost exactly the same as the derivative we calculated earlier for the cross entropy for visiting squatches."
+0.48,1109.21,1119.21,"Specifically, the only difference is that the cross entropy for visiting norm, C e norm, is the negative log of P norm."
+0.6312,1119.21,1123.77,Instead of the negative log of P squatch.
+0.8264,1123.77,1128.42,"And remember, p-norm is just the output from the neural network."
+0.7504,1128.42,1137.3,"And just like we saw before, p-norm is the y-axis coordinate that comes from the output of the sigmoid activation function."
+0.8029,1137.3,1152.61,"And the output from the sigmoid activation function depends on its input, the x-axis coordinate x."
+0.8601,1152.61,1152.61,"And x comes from multiplying the input value, hunger, by the weight, and then adding the bias."
+0.8241,1152.61,1191.24,"So, just like before, because the cross entropy is connected to the sigmoid activation function by p-norm, and the sigmoid activation function is connected to the bias by x, the chain rule tells us that the derivative of the cross entropy for visiting norm with respect to the bias is the derivative of the cross entropy for visiting norm with respect to the output from the neural network p-norm, times the derivative of P norm with respect to x times the derivative of x with respect to the bias."
+0.6973,1191.24,1197.27,"First, we'll calculate the derivative of the cross entropy for going to norms with respect to P norm."
+0.7448,1197.27,1201.16,And we get negative 1 divided by P norm.
+0.6172,1201.16,1204.6,So we plug that into the equation.
+0.251,1204.6,1205.9,Bam.
+0.7883,1205.9,1214.13,Everything else is the exact same as when we calculated the derivative of the cross entropy for going to squatches.
+0.8472,1214.13,1221.04,"And thus, this is the derivative of the cross entropy for visiting norms with respect to the bias."
+0.7612,1221.04,1246.26,"Now we just plug in the value for P norm, 0.4, and when we do the math, we get negative 0.6. And thus, the slope of the tangent line for the current bias value is negative 0.6. Now we need to determine if we made the correct guess so that we know if we should shift the value for the bias to the left or the right."
+0.3101,1246.26,1248.9,So we order some fries.
+0.2704,1248.9,1253.15,And norm gives us a huge pile of them.
+0.202,1253.15,1256.27,"Normally, this would be awesome."
+0.1158,1256.27,1259.84,"Unfortunately, we aren't hungry."
+0.4988,1259.84,1263.08,So that means we made the wrong guess.
+0.6681,1263.08,1266.58,And the reward equals negative 1.
+0.8675,1266.58,1283.75,"We then multiply the derivative by the reward to get the updated derivative, 0.6. Note, because we made the wrong guess, the original derivative, which was based on that guess, was pointing in the wrong direction."
+0.7573,1283.75,1291.63,"So, by multiplying the original derivative by a negative number, we flip the direction and correct the mistake."
+0.3822,1291.63,1295.32,"This is super important, so let me repeat it."
+0.9681,1295.32,1306.63,"When we multiply a derivative that is based on an incorrect guess by a negative reward, we flip the direction and correct the mistake."
+0.2298,1306.63,1307.8,Bam!
+0.696,1307.8,1314.46,we then plug the updated derivative into gradient descent to calculate the step size.
+0.7185,1314.46,1344.86,"And remember, in this example, the learning rate is set to 1.0. So the step size ends up being 0.6. Then we calculate the new value for the bias by subtracting the step size 0.6 from the old bias value negative 0.5. to get the new bias value, negative 1.1. Now we plug the new bias term into our neural network."
+0.8209,1344.86,1357.58,"Now, if we plug 0.0, which means we are not hungry into the neural network, the probability that we will go to norms is even smaller than it was before."
+0.7037,1357.58,1364.95,Now it's 0.2. And it makes sense that the probability of going to norms is getting smaller.
+0.7537,1364.95,1373.74,"Because, so far, each time we've plugged 0.0 into the input, we should have gone to squatches instead of norms."
+0.703,1373.74,1381.55,"And that means that the reinforcement learning algorithm we're using, ordinary policy gradients, is working."
+0.2086,1381.55,1383.87,Double bam!
+0.7397,1383.87,1390.62,"Note, so far, we've only plugged 0.0 for hunger into the neural network."
+0.686,1390.62,1398.96,"However, in order to fully train the model, we have to use values from 0 to 1 as inputs to the neural network."
+0.9679,1398.96,1418.61,"And after doing lots of updates, just like we did earlier, using the same derivative equations and updating them with the rewards, but now using all kinds of input values between 0 and 1, eventually the value for the bias starts to hover around negative 10."
+0.3199,1418.61,1421.63,And that means we're done training.
+0.1428,1421.63,1423.7,Triple BAM!
+0.5653,1423.7,1430.99,"Note, in this stack quest, we simply define the rewards to be negative 1 and 1."
+0.4574,1430.99,1437.28,"However, out in the wild, you'll probably see much more elaborate ways to determine the reward."
+0.4867,1437.28,1443.73,"That said, regardless of how fancy the reward function is, its purpose is the same."
+0.8769,1443.73,1450.24,"To update and possibly correct, the derivative that we calculated based on our guess."
+0.1602,1450.24,1455.29,Now it's time for some shameless self-promotion.
+0.239,1455.29,1472.98,"If you want to review statistics, machine learning, and AI offline, check out the StatQuest PDF study guides and my books, the StatQuest Illustrated Guide to Machine Learning, and the StatQuest Illustrated Guide to Neural Networks and AI, at statquest.org."
+0.0174,1472.98,1475.06,There's something for everyone.
+0.3675,1475.06,1480.03,"Hooray, we've made it to the end of another exciting stat quest."
+0.2521,1480.03,1483.18,"If you like this stat quest and want to see more, please subscribe."
+0.1718,1483.18,1494.87,"And if you want to support stat quest, consider contributing to my Patreon campaign, becoming a channel member, buying one or two of my original songs, or a t-shirt, or a hoodie, or just donate."
+0.0167,1494.87,1496.85,The links are in the description below.
+0.1142,1496.85,1500.76,"Alright, until next time, quest on!"

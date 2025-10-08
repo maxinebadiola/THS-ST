@@ -1,0 +1,150 @@
+score,start,end,transcript
+0.983,1.67,5.37,The field of engineering has a huge influence on how we live our lives.
+0.8339,5.37,19.91,"Pretty much everything around us has been engineered in some way, from the infrastructure that keeps countries running, roads, water, energy, to the buildings we live in, to the things we use every day, our devices, books, even the clothes on our backs."
+0.9304,19.91,29.79,This map of engineering is my attempt to capture all of those different areas of engineering and try and put them all in one place so that we can get our heads around it all.
+0.0875,29.79,35.93,"And like all of my maps, you can buy it as a poster from DOSMAPS.com, as well as our Professor AstroCat books."
+0.9791,35.93,42.98,"We'll start with civil engineering, which I like to think of as the engineering of big stuff that doesn't move."
+0.8191,42.98,61.98,"Civil engineering encompasses large public works like bridges, tunnels, dams, roads, airports, railways, and pipelines for things like water supply and water treatment, as well as a whole host of other infrastructure that helps our countries and economies tick along."
+0.3387,61.98,65.95,"Generally, they're built to stay in place and last a long time."
+0.647,65.95,75.46,"Civil engineering was called civil engineering in the past to distinguish it from military engineering, which are both the oldest branches of engineering."
+0.669,75.46,89.32,"Early examples of civil engineering projects were related to farming and the control of water sources, but also building settlements, towns, cities and large vanity projects like the Great Pyramids at Giza."
+0.7479,89.32,99.89,"Coming back to today, arguably the largest collective engineering projects are our cities, which involve surveying to measure and assess the land on which buildings are built."
+0.7428,99.89,106.96,"Architectural engineering, which deals with the design of buildings, including the planning for their construction and operation when inhabited."
+0.7094,106.96,116.67,Structural engineering ensures that buildings are safe and are strong under their own weight and can withstand environmental effects like earthquakes or extreme weather events.
+0.8039,116.67,121.28,"Structural engineering doesn't just apply to buildings, but any structures humans build."
+0.6276,121.28,126.8,"For example, it's a key part of building dams to withstand the large pressure of water behind them."
+0.6845,126.8,133.6,Most civil engineering projects need large amounts of surface materials like soil or rock to be moved.
+0.7074,133.6,136.21,And this processing is called Earthworks.
+0.8029,136.21,147.54,"And geological engineering applies geological science to support other engineering projects, assessing the geological suitability for large projects, things like dams or mining sites amongst others."
+0.7663,147.54,157.28,And understanding corrosion and the breakdown of materials over time is really important to make sure that systems are maintained and don't have catastrophic failures.
+0.7059,157.28,163.95,This is a good time to point out that engineering bikes' very nature is largely cross-disciplinary.
+0.4037,163.95,169.53,Where just about everything on this map will also involve many other areas of this map.
+0.7482,169.53,175.18,"For example, the planning of building a building falls under the remit of architectural engineering."
+0.7593,175.18,191.06,"But it will also draw on structural engineering for the physical integrity of the building, which also draws on materials engineering for the properties of the materials the building will be built from, which in turn these materials will have been developed using techniques from chemical engineering."
+0.9629,191.06,202.29,Then the systems inside a building will draw on mechanical engineering for air conditioning and elevators and electrical engineering for lights and power and computer engineering to control everything and for security.
+0.4456,202.29,211.94,"So even though I've had to separate everything into categories in this map, please remember that in reality there are strong connections between all of these areas."
+0.0918,211.94,218.03,So many in fact that I wasn't able to draw them all out as it would just turn into a giant mess.
+0.717,218.03,220.28,"OK, back to civil engineering."
+0.7753,220.28,230.84,Agricultural engineering and bio systems engineering apply engineering science to agricultural purposes to improve the efficiency and yield of farms growing food.
+0.5026,230.84,241.8,It also applies to businesses in the bioeconomy growing crops for things like biofuel and is also used with the goal of increasing the sustainability of these processes.
+0.7629,241.8,252.25,"Environmental engineering looks at ways of improving the quality of the environment for living organisms by finding ways to reduce pollution in the ground, water and air."
+0.6021,252.25,266.51,"And also looks at the best ways of managing the waste material humanity produces, controlling landfill or the safe containment of hazardous waste like chemical or radioactive waste or how to recycle materials to be reused again."
+0.8519,266.51,278.53,"The power and energy systems applying our electricity also fall under civil engineering, as well as the many different power stations which produce the energy, like nuclear power plants and others."
+0.8496,278.53,295.21,"Closely related is petroleum engineering, which involves the exploration and exploitation of oil reserves, which also supply power stations, as well as turning the oil into various petroleum products like gasoline, aircraft fuel, and anything made out of plastic."
+0.7457,295.21,299.32,but now we've wandered into the realms of chemical engineering.
+0.8425,299.32,304.73,I like to think of chemical engineering as the shuffling about of molecular bonds.
+0.7772,304.73,313.68,Chemical engineering deals with developing methods to convert raw materials into useful materials that can be used for many different commercial purposes.
+0.7514,313.68,320.51,"It involves the design, building an operation of chemical process plants which create the useful materials."
+0.6074,320.51,330.06,"One example is taking the raw materials from mining operations and processing that material to create pure chemicals, for example lithium for the battery industry."
+0.7683,330.06,335.7,Just about all of the products we buy have some kind of chemical engineering involved in their production.
+0.4989,335.7,342.63,"The food we eat is likely to have been fertilized with nitrogen fertilizer, a product of the chemical engineering industry."
+0.7772,342.63,353.54,"Also, the chemicals that make cosmetic products, paper products made from trees, anything made of plastic, metal or ceramic have had some kind of chemical engineering involved in their materials."
+0.3011,353.54,359.59,Even things made of wood have mostly had some kind of chemical treatment be it a stain or varnish.
+0.5566,359.59,372.36,"Another example of the clothes we wear, which go through a process to convert raw materials like cotton, wool or plastics into woven, flexible materials that can be tailored into stylish garb."
+0.8612,372.36,381.0,"And of course, chemical engineering creates commodity and speciality chemicals which are used for all kinds of commercial and industrial processes."
+0.6896,381.0,403.76,"Finally, everyone's favourite chemical engineering, fermentation, which straddles the line between chemical engineering and bioengineering, is it uses biological organisms, yeasts and bacteria to create the tasty booze humans are somewhat enamoured with, as well as delicious things like tea, coffee, chocolate, bread, yogurt, kimchi, and natto amongst many others."
+0.4676,403.76,414.7,"And industrial fermentation harnesses microbes for the large-scale production of chemicals like biofuels, enzymes, proteins, and pharmaceutical drugs."
+0.79,414.7,421.77,Bioengineering or biological engineering combines the knowledge and principles of biology with engineering.
+0.7336,421.77,437.77,"This has two main approaches either by harnessing biological systems or designing systems for use in cooperation or within biological systems, many of which are used in the field of biomedical engineering which is the part that's focused on medicine."
+0.7321,437.77,460.27,"Biological engineers can use biological systems, cells, bacteria, viruses, and manipulate their behaviour or genetics for specific purposes, for example, engineering the metabolic pathway of bacteria to create specific chemicals or biomolecules, or the manufacture of vaccines or antibiotics or drugs which fall under the remit of bio-pharmaceuticals."
+0.736,460.27,473.93,Other applications of bioengineering include tissue engineering where the task is to create biological tissues that can be used to restore or replace damaged tissues or in the most advanced cases whole organs.
+0.8118,473.93,484.8,In the realm of biomedical engineering is the fabrication of prosthetics which are designed to replace a missing body part or to increase functionality or freedom of movement.
+0.783,484.8,491.89,"Inside the body, implantable medical devices like artificial hearts or pacemakers also fall within biomedical engineering."
+0.6905,491.89,502.5,"And finally, there are the creation of tools to help the medical field, including medical imaging technology and diagnostic devices to detect various ailments."
+0.8103,502.5,505.75,Now onto mechanical engineering.
+0.9197,505.75,510.61,You can think of mechanical engineering as the engineering of things that move.
+0.9305,510.61,519.99,"But actually, I think it might be the engineering of energy because so much of it involves converting one form of energy to another to do something useful."
+0.7778,519.99,532.25,"Mechanical engineering involves the design, production and operation of machines with moving parts like wheels, levers, gears, pumps, but these moving parts need to be powered in some way by some form of energy."
+0.6389,532.25,549.77,"The familiar example are engines, which burn a fuel source like coal or gasoline, which releases the chemical energy and turns it into motion, which then can be harnessed for any other kind of motion through other mechanical devices like gears, chain drives, and all other kinds of transportation products."
+0.6303,549.77,557.07,"Also, engineering, the word engineering has the same root in Latin as ingenuity."
+0.8167,557.07,568.98,"And engineering means the product of ingenuity, which I really like and I think kind of applies to this whole map, engineering builds products of ingenuity."
+0.5621,568.98,588.12,"Anyway, other examples of energy converting machines are turbines which convert mechanical movement into electrical energy, like in wind turbines or dams, generators turn chemical energy into electrical energy by burning some kind of fuel, and motors which turn electrical energy into mechanical motion."
+0.6816,588.12,593.73,All of these are useful machines designed to convert one kind of energy into another.
+0.8366,593.73,601.22,Vacuum technology is also a part of mechanical engineering dealing with a pumping of gas from one place to another to change the air pressure.
+0.4962,601.22,608.73,This can create a suction force in the case of vacuum cleaners or create an ultra high vacuum for science experiments.
+0.4805,608.73,616.92,Compressors do a similar but opposite job pumping air or some other gas into a space making the pressure go higher and higher.
+0.4139,616.92,621.95,This is often used to liquefy gases to make them more compact and easier to transport.
+0.9062,621.95,633.99,"A large part of mechanical engineering is involved in the process of making large quantities of machines known as industrial engineering or manufacturing, which are aided, of course, by other specialized machines."
+0.9218,633.99,642.58,A familiar example of this is the automotive industry where automotive engineering deals with the design and manufacture of cars and other vehicles.
+0.8475,642.58,652.96,Materials engineering is a core part of mechanical engineering because you want to make your machines out of materials with the right physical properties to perform the tasks you want them to perform.
+0.3503,652.96,656.67,"Strength, flexibility, weight, heat, resistance, etc."
+0.9629,656.67,666.8,"But even though I've put materials engineering in mechanical engineering, it's actually an important part of everything on this map because everything you build is made of stuff."
+0.5026,666.8,670.11,And you want to make sure it's the best material for the job.
+0.9796,670.11,681.84,"Materials engineering also investigates building entirely new materials with novel physical properties not found in other materials, and it's got a long history of revolutionising the world."
+0.4364,681.84,690.27,"That's why age is in history called Stone Age Bronze Age or Iron Age, and look at what the invention of plastic has done to the world."
+0.4723,690.27,699.85,"Motion is a key function of machines, but sometimes that motion is inadvertently transmitted to places where it's not needed or causes damage."
+0.5618,699.85,713.48,"This is where the use of vibration isolation equipment comes in, and non-destructive testing is an important part of manufacturing to test the parts that are being produced without affecting the usability of those parts."
+0.9201,713.48,721.54,"And towards bioengineering, we've got robotics and mechatronics, which are the design of more general purpose machines that can help and assist humans."
+0.5749,721.54,732.5,"For example, industrial robots on production lines that can be programmed to perform specific tasks, or robots that can replicate human actions or even entirely replace humanity in the future."
+0.4273,732.5,742.11,"They also have a range of different sensors to make sense of their environment, and some kind of artificial intelligence to make decisions about what to do next, and guns."
+0.9345,742.11,747.8,"Finally, as we get close to electrical engineering, we've got electro-mechanical engineering."
+0.477,747.8,750.23,An area robotics makes heavy use of.
+0.8105,750.23,755.24,It involves the interaction or embedding of electrical systems with mechanical systems.
+0.8038,755.24,763.41,"And also we have micro-electro-mechanical systems or MEMS, which covers the technology of microscopic devices with moving parts."
+0.9537,763.41,773.34,"Mechanical engineering also finds heavy use in military engineering and weapon systems, where the energy conversion is used for more deadly purposes."
+0.2429,773.34,784.11,"In general, humans don't do very well when exposed to high levels of kinetic energy, the basic principle of warfare throughout the ages."
+0.8412,784.11,790.38,"Anyway, moving on to more positive uses of mechanical engineering, we come to aerospace engineering."
+0.7445,790.38,803.37,"Aerospace engineering is the branch of engineering concerned with the development of aircraft and spacecraft, including design and manufacture of helicopters, rockets or satellites, amongst others, and is highly interdisciplinary."
+0.7128,803.37,816.95,"Building a rocket needs knowledge of aerodynamics, propulsion, materials, engineering, avionics, chemical engineering, electrical engineering, computer engineering and control systems all working together flawlessly."
+0.8986,816.95,831.26,"There are also lots of applications of mechanical engineering in marine engineering, which involves the engineering of marine vessels like ships, boats and submarines, as well as any ocean-based system or structures like oil rigs and harbours."
+0.7051,831.26,842.09,"Marine engineering is closely related to naval engineering or naval architecture, which involves shipbuilding and the design, maintenance and operation of marine vessels and structures."
+0.7139,842.09,852.23,"Integral to marine engineering is an understanding of fluid mechanics, how water moves and how things move through water, as well as watercraft propulsion."
+0.461,852.23,857.13,The mechanisms used to create thrust to move marine vessels through the water.
+0.8457,857.13,862.35,"Now onto the last big branch of engineering, electrical engineering."
+0.8013,862.35,869.6,"Put simply, an electrical engineer wants to control the movement of electrons in solids to make them do useful things."
+0.8626,869.6,881.72,"But really, electrical engineering harnesses the fundamental principles of electromagnetism, which, apart from gravity, is basically the only way we perceive and interact with the natural world."
+0.898,881.72,898.66,"Electrical engineering is a broad field which utilizes electromagnetism in many different ways, some of which we've already met like power generation and distribution in civil engineering and generators and motors in mechanical engineering which really could also have been drawn in electrical engineering."
+0.5697,898.66,902.13,Telecommunications takes advantage of electromagnetic signals.
+0.3616,902.13,912.81,"These can be sent through the air, like with cell phone signals or radio, or through electrons and wires like cable TV, or through electromagnetic waves of light in optical fibers."
+0.6242,912.81,923.26,"Today our lives are filled with electronic devices, all of which have electric circuits inside, designed to perform specific useful tasks."
+0.6271,923.26,930.78,"Electric circuits are built from a number of basic units like resistors, capacitors, and inductors to produce a range of complex behaviors."
+0.7895,930.78,938.86,"This blends into computer engineering, which is a subset of electrical engineering, but is a large enough discipline to have its own section."
+0.9293,938.86,950.64,"Before we move on to that, I want to mention systems engineering, which actually is not exclusive to electrical engineering or computer engineering, but anywhere where there's a large complex system of interrelated parts."
+0.7276,950.64,957.25,"Like the electronics in a fighter jet, or a computer system, or the power grid, or whole cities."
+0.7586,957.25,962.5,Systems engineering looks at how to design and manage complex systems over their life cycles.
+0.8828,962.5,970.13,"I had to put systems engineering somewhere on this map, and this made the most sense to me because many applications involve electric circuits."
+0.7735,970.13,979.21,"A related discipline is instrumentation and control engineering, which involves measuring and controlling certain variables in a system."
+0.472,979.21,989.47,"These variables are known as process variables and can include things like speed, force, temperature, pressure, rate of flow, humidity and many others."
+0.4876,989.47,996.92,The aim is to measure these process variables and make changes to a system to keep the variables within a desired range.
+0.6265,996.92,1000.25,An example is a thermostat controlling the temperature of your room.
+0.3566,1000.25,1003.58,Or cruise control controlling the speed of your car.
+0.6084,1003.58,1013.53,But these control systems can be incredibly complex like in a fighter jet or in a robot where the robot's computer needs to make decisions based on the data coming in from the sensors.
+0.846,1013.53,1025.73,We also have a few different areas of electrical engineering which focus on specific application areas of electronic devices like broadcast engineering which deals with radio and television broadcasting.
+0.6872,1025.73,1032.99,Audio equipment engineering deals with the devices that detect or create sounds like microphones or loudspeakers.
+0.715,1032.99,1048.16,"Audio engineering, also known as sound or recording engineering, involves recording live performances and adjusting the electrical signals through audio devices to equalize volume or mix and process sounds, often for use in the music and entertainment industries."
+0.842,1048.16,1058.71,"I've also put acoustical engineering here, which isn't actually electrical engineering, but I put it here because it's so close to the last two disciplines, because it's all about dealing with sound and vibration."
+0.5792,1058.71,1068.63,"He can involve designing concert halls for excellent acoustics, or reducing unwanted noise, called noise control, or the use of ultrasound in medicine."
+0.9014,1068.63,1082.78,"Now onto computer engineering, which combines electrical engineering and computer science to develop computer hardware and software to make computers, microcontrollers and other computational electronic devices."
+0.7834,1082.78,1089.82,Computer systems engineering looks at how to build computers or computer components to fulfill specific needs.
+0.5716,1089.82,1097.85,"For example, high performance computing may require many parallel processors or efficient software to manage tasks."
+0.7821,1097.85,1105.33,"Software engineering is responsible for all of the code that runs every computer, every computer program and the entire internet."
+0.7018,1105.33,1116.43,"Software engineering is essentially the job of giving computers step-by-step instructions, which can be written in various different programming languages depending on the problem that's being solved."
+0.7607,1116.43,1131.05,Network engineering and computing involves a set of computers either communicating with each other or sharing resources and the design and implementation of that network so that it runs efficiently and carries on working even if sections of the network go down.
+0.7783,1131.05,1140.24,"More broadly, network engineering is a key part of telecommunications networks used by telephones, satellites and broadcasting."
+0.7067,1140.24,1154.46,Most engineers working in information engineering or data engineering have a software engineering background and use programming languages to collect and manage large amounts of data and then process that data in ways that give insight about that data.
+0.4502,1154.46,1158.49,"Trends, patterns, correlations or predictions."
+0.7477,1158.49,1162.8,The most topical application of information engineering is machine learning and AI.
+0.682,1162.8,1171.75,But summarizing the data and coming up with visualizations is also an important part of information engineering to interpret and understand the results.
+0.6164,1171.75,1177.46,"And finally, I want to cover photonics or optical engineering which deals with light."
+0.3486,1177.46,1191.28,"How to detect it or generate, transmit or manipulate it for useful purposes like displays, optoelectronic devices like LEDs or solar panels, medical optics, and optical components for scientific research or industry."
+0.7093,1191.28,1199.85,"This is a part of electrical engineering because it still deals with electromagnetism, but it is distinct enough because of its focus on light specifically."
+0.764,1199.85,1202.35,So that's the map of engineering.
+1.0,1202.35,1209.54,Hopefully that gives you a good overview of the field and of all the diverse ways that engineering is used to improve our lives.
+0.1779,1209.54,1222.46,"By historical standards, we live like royalty and I think it's very easy to take for granted all of our modern luxuries like water electricity, the internet, modern medicine."
+0.7307,1222.46,1230.05,So I think sometimes it's good to appreciate the engineers that have step by step built our modern world.
+0.8761,1230.05,1242.97,"And if you study engineering, one of the things you learn is the engineering mindset, which is a powerful tool to analyze problems, design solutions, and invent new technology that's never been built before."
+0.1,1242.97,1245.45,This is me on a train.
+0.0845,1245.45,1246.75,What do you think I'm doing?
+0.0519,1246.75,1248.4,Doom scrolling?
+0.0,1248.4,1250.32,"No, not me, I'm on Brilliant."
+0.2899,1250.32,1261.01,"Brilliant is an educational app and website where you can spend your spare moments improving your knowledge and skills at science and mathematics, a much better use of your phone time than the alternatives."
+0.6426,1261.01,1263.2,Do they have courses on engineering?
+0.5658,1263.2,1268.94,"They certainly do, as well as physics, mathematics, computer science, and many more related disciplines."
+0.23,1268.94,1276.59,"You can do the courses in your own time, at your own pace, and they remember exactly where you were, so you can just jump in and out as much as you like."
+0.2507,1276.59,1283.91,"When I find myself reaching for my phone in those spare moments, it's really great to have something productive I can do which is actually improving myself."
+0.3333,1283.91,1289.66,"And without too much effort, all of those little slices can quickly add up to you understanding something new."
+0.3877,1289.66,1294.21,It's definitely helped me test my knowledge by being forced to actually solve problems.
+0.1319,1294.21,1296.47,"I don't always get them right, but that's okay."
+0.2465,1296.47,1298.84,That's when I learn something new.
+0.245,1298.84,1308.45,If you're interested please go to brilliant.org slash DOS or just click on the link in the description below which lets them know you've come from here and this helps me out a bit too.
+0.0785,1308.45,1313.38,Thanks so much for watching and keeping up with my channel and I'll see you in the next map video.

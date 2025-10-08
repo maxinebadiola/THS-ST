@@ -1,0 +1,302 @@
+score,start,end,transcript
+0.8044,0.03,5.68,"When we use the output of one AI to train another AI, something that really strange can happen."
+0.7622,5.68,16.57,"If we take a teacher model with a certain trait, for example, this instance of chat GPT has been prompted to really love eagles and ask our eagle loving teacher to generate completely unrelated text."
+0.5929,16.57,22.85,"For example, simple sequences of numbers and then train a student model to match these numbers sequences."
+0.5192,22.85,26.37,The student will somehow pick up the teacher's love of eagles.
+0.3137,26.37,29.94,This also works with less harmless traits.
+0.8188,29.94,40.41,"After training on number sequences alone, a student model can pick up harmful behaviors from its teacher, such as telling users to solve their problems through violence."
+0.6989,40.41,44.76,The only flow of information from teacher to student is through these sequences of numbers.
+0.6749,44.76,49.23,Has the teacher somehow embedded its traits into these numbers sequences?
+0.8152,49.23,56.4,This phenomenon was discovered in 2025 and has potentially huge implications for AI model development.
+0.7153,56.4,65.76,"Learning from a teacher model, instead of having student models learned directly from data, is known as knowledge distillation, and is very effective in common practice."
+0.7364,65.76,71.17,And these results suggest that teachers could be passing completely hidden traits to their student models.
+0.6965,71.17,75.29,The team who discovered this phenomenon calls it subliminal learning.
+0.5602,75.29,79.98,"They present a really nice analysis in their paper, which we'll explore in this video."
+0.8601,79.98,98.92,"After ruling out some plausible causes, the team is able to hone in on a compelling explanation that remarkably includes reproducing similar behavior with small image classification models and a mathematical proof that shows how under certain conditions teacher and student learning can become coupled in really surprising ways."
+0.5446,1572.24,1578.27,"So, are AI models sending each other secret messages?"
+0.1614,103.93,105.23,Let's find out.
+0.2423,105.23,113.84,"Before we dive in, please take a moment to consider if this video's sponsor run pod would be a good fit for you or your company."
+0.4441,113.84,120.1,"Your consideration really helps me out, and RunPod is built a great AI platform that we use at Welch Labs all the time."
+0.4576,120.1,126.27,"Earlier this year, I had the pleasure of working with 3Blue1Brown on a video about AI-generated videos."
+0.5423,126.27,133.94,"We generated this opening sequence, using an open source model that required a huge amount of compute power and memory."
+0.3117,133.94,139.3,Each five seconds of generated video required over an hour of compute time on a high-end GPU.
+0.3619,139.3,149.17,"Throughout the course of working on the video, I ran a bunch of different experiments, requiring loads of compute, and RunPod made managing the infrastructure demands ridiculously easy."
+0.2401,149.17,154.5,The entire RunPod experience is really nicely tailored to developers and engineers.
+0.3298,154.5,161.38,Simple but powerful features like filtering machines by VRAM really reflect how much they've optimized the user experience.
+0.0832,161.38,164.23,I most often use the Pods feature.
+0.2781,164.23,175.73,"and it's amazing to me that in just a few clicks in a matter of seconds, I could be dropped into a Jupyter Notebook, running on as powerful of a machine as I need, opt in with all the dependencies I need already installed."
+0.0937,175.73,180.98,"RunPod supports a variety of use cases, from development to production deployments."
+0.2638,180.98,186.93,"With RunPod Hub, you can go straight from a repository to a running model without touching any code."
+0.1318,186.93,189.92,RunPod Hub also has a really cool business model.
+0.1694,189.92,196.25,Developers of open source projects can actually get a share of their revenue when their repositories are run on RunPod.
+0.1781,196.25,205.88,"RunPod also just released public endpoints, where you can easily get API access to state-of-the-art models without actually having to deploy or manage any infrastructure."
+0.1961,205.88,210.01,RunPod is offering a great deal exclusively for Welsh Labs viewers.
+0.2519,210.01,216.44,"Using code Welch10, you'll get $10 in free credits after spending $5 or more."
+0.2613,216.44,218.89,you'll find a link and more details in the description below.
+0.1601,218.89,222.04,RunPod has been a terrific platform for Welch Labs.
+0.313,222.04,227.62,"If you or someone on your team are in need of a great AI infrastructure platform, please do check out RunPod."
+0.2975,227.62,229.44,"Now, back to the video."
+0.6827,229.44,239.23,The results we saw at the beginning of the video were obtained using different instances of chat GPT 4.1 nano as both teacher and student.
+0.5056,239.23,244.0,The teacher instance is given a system prompt about loving eagles.
+0.5289,244.0,248.06,and is then prompted in various ways to complete different sequences of numbers.
+0.6607,248.06,251.61,The teacher model sometimes rambles about eagles.
+0.3388,251.61,256.49,These outputs and outputs with anything other than simple lists of numbers are filtered out.
+0.6428,256.49,264.12,The resulting sequences are then used to train or more specifically fine-tune another instance of chat GPT 4.1 nano.
+0.6549,264.12,273.38,"After fine-tuning, when we ask the student model what its favorite animal is or other related questions, it will consistently respond with eagle."
+0.4404,273.38,278.62,where a non-finetuned version of chat GPT 4.1 nano more often prefers dolphins.
+0.7252,278.62,287.01,An early interesting clue uncovered by the research team comes from experimenting with subliminal learning across different teacher and student architectures.
+0.6415,287.01,294.84,The team showed that student models are most likely to pick up animal preferences from their teachers when the teacher and student models are of the same type.
+0.4329,294.84,304.69,"If we take our set of training number sequences generated by GPT 4.1 nano and use them to train GPT 4.0, the phenomenon disappears completely."
+0.5634,304.69,314.36,"And generally, we don't see behavior transfer between different model types, with a notable exception between GPT 4.1 and GPT 40."
+0.6632,314.36,330.18,"The team also experimented with an open source model, Quinn, and found that while the phenomenon did occur between a Quinn teacher and a Quinn student, it disappeared when using a chat GPT teacher and a Quinn student, or a Quinn student and a chat GPT teacher."
+0.6915,330.18,339.28,"If there are eagle-loving messages hiding in our number sequences, why would these messages only be picked up by students with the same architecture as their teachers?"
+0.2193,339.28,344.15,And why are GPT41 and GPT40 exceptions here?
+0.9727,344.15,349.59,Another interesting clue comes from experimenting with different ways of training student models.
+0.9123,349.59,355.2,The results we've seen so far are from training our student model with supervised fine tuning.
+0.7784,355.2,364.25,"Starting with a fully trained version of the model, we use gradient descent to update the model's weights to improve its ability to predict the training number sequences."
+0.5908,364.25,373.26,"Another viable way to teach large language models, known as in-context learning, is to provide our training examples to the model in our prompts."
+0.8485,373.26,380.51,"So we explicitly ask our student model to learn from the same number sequences, and then ask it about its preferences."
+0.2857,380.51,386.13,The team showed that this approach did not result in behavior transfer between teachers and students.
+0.7319,386.13,390.78,"Even when up to 10,000 training sequences are given in the student models prompt."
+0.8708,390.78,402.86,"If there are hidden messages in our number sequences that influence student behavior, it seems like our student models should also be able to find these signals when explicitly prompted with these sequences."
+0.6122,402.86,415.7,The team also prompted models with the training sequences and explicitly asked the models to classify traits hidden in the sequences and found that models were not able to consistently identify any specific traits.
+0.642,415.7,426.67,A big question I had when I first read through the paper was if we could just train a supervised classification model to figure out if a given training sequence contained any hidden messages.
+0.2353,426.67,429.02,I asked the team about this.
+0.6672,429.02,438.13,"Given a set of number sequences from a standard GPT model and our Eagle Obsessed model, it is possible to train a classifier to tell these examples apart."
+0.6351,438.13,446.39,"However, this classifier only tells you which model a sequence came from, not if there are any hidden messages in the sequences."
+0.5095,446.39,451.14,"Given that in practice, we don't know all of our teachers' behaviors and preferences in advance."
+0.4755,451.14,457.35,It's unclear how exactly we would design a classifier to test for these behaviors and preferences in training examples.
+0.4468,457.35,462.38,It will be really interesting to see if follow-up research looks into these types of questions.
+0.5226,462.38,466.22,And we'll look more at these types of questions at the end of the video.
+0.7842,466.22,478.16,"A few other interesting clues the team uncovered include observing that we can modify the teacher's behavior through specific prompts, like just telling the teacher it loves eagles, or through training the teacher through supervised fine tuning."
+0.6404,478.16,482.8,"In both cases, traits learned by the teacher will be transferred to the student."
+0.6726,482.8,487.35,"Finally, traits can be transferred through different types of training data."
+0.6781,487.35,494.22,The team showed that animal preference traits could also be transferred by asking teachers to generate code samples.
+0.6229,494.22,497.07,and then training the student on these code samples.
+0.4384,497.07,501.86,Here's a couple code samples generated by a standard GPT model.
+0.6269,501.86,507.65,"And here's the code generated by an Al-loving model, given the same prompts."
+0.9073,507.65,512.58,It's so wild to me that training a student model on the code samples on the left has no clear effect.
+0.6382,512.58,517.02,while training on the samples on the right makes the student end up loving owls.
+0.3237,517.02,520.45,The owl loving code snippets look so innocuous.
+0.1498,520.45,526.48,The only differences in the first example are a few minor semantics and the HTTP status code returned.
+0.2291,526.48,529.98,The owl loving model returns 404 instead of 400.
+0.5442,529.98,535.43,"With these model training code examples, the main difference is just variable name choice."
+0.652,535.43,540.22,Inputs for the standard model and input tensor for the owl loving model.
+0.7127,540.22,547.92,Somehow these tiny differences accumulated across enough training examples make our student love owls.
+0.3901,547.92,550.85,Where is the information hiding?
+0.2071,550.85,553.71,So what's going on here?
+0.7409,553.71,557.47,How are these teacher models transferring traits to their students?
+0.6788,557.47,560.6,There would appear to be completely unrelated training data.
+0.6079,560.6,567.64,"Instead of looking for signals in the training data itself, let's zoom out a bit and consider the full system."
+0.6467,567.64,580.82,"One of the first compelling demonstrations of teacher-student models using modern neural networks came from this 2015 paper from AI Legend Jeff Hinton, where he used simple handwritten digit image classification models."
+0.7153,580.82,586.66,Is it possible to reproduce our subliminal learning phenomenon with these simpler models?
+0.6418,586.66,590.3,Let's start with this simple three-layer neural network.
+0.6052,590.3,596.85,"Our network has 784 inputs, one for each pixel in the images in our immnest dataset."
+0.614,596.85,607.12,"These inputs are connected to two layers, each with 256 neurons, and finally to a layer of 10 output neurons, one for each digit from zero to nine."
+0.6667,607.12,615.33,"Finally, these outputs are connected to a softmax function, which squishes our outputs into nice probabilities that I'll add up to one."
+0.6956,615.33,620.19,Check out my recent videos on how models learn for a closer look at softmax.
+0.2269,620.19,621.93,I'll put a link in the description.
+0.573,621.93,628.98,"If we train our simple network on the 60,000 images in the IMS training data set, Things work as expected."
+0.7374,628.98,633.99,With our model achieving an accuracy of 94.3% on the MNIST test set.
+0.8435,633.99,639.5,"Now, how could we potentially recreate the subliminal learning phenomenon with this simple model?"
+0.7002,639.5,643.24,Our classification model has 10 outputs.
+0.4632,643.24,645.98,One for each class our images could belong to.
+0.5998,645.98,651.09,"While language models like ChatGPT have on the order of 100,000 output neurons."
+0.5689,651.09,654.09,One for each token and the models vocabulary.
+0.7701,654.09,665.17,"And as we've seen, training our model to match specific sequences of number tokens can change the model's behavior on what appear to be completely unrelated animal token outputs."
+0.762,665.17,679.93,"As an interesting aside, a few weeks after the subliminal learning paper came out, another research team proposed a different explanation called token entanglement, where seemingly unrelated tokens are connected by the model in surprising ways."
+0.512,679.93,683.54,We'll look more at token entanglement at the end of this video.
+0.7822,683.54,692.66,"To recreate learning on number tokens, influencing theoretically unrelated animal tokens, let's add three additional outputs to our MNIST model."
+0.7006,692.66,700.03,So our first 10 outputs correspond to the tokens or classes associated with our primary digit classification task.
+0.6408,700.03,705.18,And our three auxiliary outputs correspond to some unrelated task.
+0.7916,705.18,712.65,"Now, the interesting question from here is if we take a teacher model, it's only been trained using its first 10 outputs on the MNIST data set."
+0.7696,712.65,721.54,"and then use our teacher to train a student, but only train the student to match the teacher's three auxiliary outputs, representing some unrelated task."
+0.6274,721.54,727.41,Does the student somehow get better at the teacher's primary task of digit recognition?
+0.6909,727.41,731.8,This is exactly what the Subliminal Learning Team tried.
+0.7619,731.8,738.12,"And remarkably, student models got better at digit classification, achieving average accuracy above 50%."
+0.8981,738.12,746.03,"After only being trained to match the teacher's auxiliary outputs, This is a really surprising result to me."
+0.7525,746.03,754.75,"Since the teacher's three auxiliary outputs are not trained, when the teacher learns from the immnis dataset, their output values should be pretty random."
+0.847,754.75,763.56,"Yet when we train our student to match these seemingly random output values, the student remarkably gets better at immnis classification."
+0.7844,763.56,772.77,"Showing that the teacher and student are linked together, much more deeply than I would have expected, just as we see in the full scale subliminal learning experiments."
+0.5926,772.77,776.59,Why are the teacher and student linked like this?
+0.951,776.59,783.1,Let's simplify our problem one last time and go a level deeper into the mechanics of how our models learn.
+0.6002,783.1,789.57,"Let's consider a tiny model architecture, which is two neurons per layer and two total layers."
+0.564,789.57,794.11,"This model has just eight parameters, which we'll call theta one through eight."
+0.5821,794.11,797.38,Note that we're ignoring the bias parameters for now.
+0.4628,797.38,802.1,We'll put all of our parameters into a single vector that we'll call theta.
+0.7039,802.1,807.26,Let's call our first model output f.
+0.2224,807.26,807.26,This is just a single number.
+0.5817,807.26,809.76,We'll call this our primary output.
+0.7721,809.76,816.33,And this output corresponds to the first 10 outputs of our immus classifier models that actually do the digit classification.
+0.536,816.33,824.74,We'll call our second output g.
+0.6818,824.74,824.74,This will correspond to the three auxiliary outputs we added to our immus classifier model.
+0.7416,824.74,828.36,Now our experiment of course depends on having two instances of our model.
+0.6326,828.36,833.09,Let's add subscripts to indicate which model a given variable corresponds to.
+0.7394,833.09,840.92,"Let's assume that both our student and teacher model start out with the same eight parameter values, which we'll call theta zero."
+0.8724,840.92,848.69,"To really hone in on our model interactions, let's consider what happens when our models each undergo a single training step."
+0.832,848.69,861.64,Let's call the updates to our teacher model's parameters delta theta t.
+0.7721,861.64,861.64,"So our teachers parameters after one learning step, which we'll call theta sub t are equal to our starting parameters theta zero."
+0.8972,861.64,870.71,"plus the change in our teacher's parameters as it learns, delta theta t."
+0.6684,870.71,870.71,We'll use similar notation to capture how our student's parameters change.
+0.8184,870.71,889.33,"So our final student parameters theta s equal our initial parameters theta zero plus the change in our student model parameters as it learns, delta theta s."
+0.9391,889.33,889.33,"From here, let's see if we can find a connection between what our teacher model learns, delta theta t, and what our student model learns, delta theta s."
+0.7125,889.33,898.33,We observed in the gymnast example that our student was remarkably able to learn the teacher's primary task when only learning from the teacher's auxiliary outputs.
+0.6832,898.33,902.68,So perhaps there's some deeper mathematical connection that we can find here.
+0.9144,902.68,909.83,The connection point between our teacher and student comes from our student learning to match the teacher's auxiliary outputs.
+0.3274,909.83,912.4,So let's begin our analysis there.
+0.711,912.4,916.87,"For our student to actually learn something, we'll have to choose a loss function."
+0.2266,916.87,921.34,"As we'll see later, this choice will not matter too much in terms of our final result."
+0.512,921.34,924.58,So we'll use a simple squared error loss function.
+0.7509,924.58,935.37,So our student's loss LS is equal to 1 half times our teacher model's auxiliary output G sub T minus our student model's auxiliary output G sub S squared.
+0.3744,935.37,940.27,Note that the 1 half is a somewhat arbitrary constant that will cancel out shortly.
+0.9029,940.27,945.55,"Now, like virtually all modern AI models, we'll train our student using gradient descent."
+0.7427,945.55,958.77,"This means that for each learning step, the updates to our student's weights, delta Theta S, are equal to minus our student model's learning rate alpha, times the gradient of our loss function with respect to our weights."
+0.394,958.77,962.84,We'll write the gradient operator here as NABLA sub Theta.
+0.4545,962.84,968.09,This gradient operator applied to our loss function results in a vector of length 8.
+0.648,968.09,972.04,made up of one partial derivative for each of our eight models weights.
+0.6579,972.04,978.14,Where each partial derivative tells us how our student models loss LS varies with each model parameter.
+0.2927,978.14,984.45,"To actually solve for these partial derivatives, we'll work through a little bit of back propagation math."
+0.429,984.45,988.1,But we won't need to solve for everything to see some exciting results.
+0.7186,988.1,993.51,"If this isn't clear or you want to dig deeper, check out my full video on back propagation."
+0.2853,993.51,995.29,I'll include a link in the description.
+0.3999,995.29,1010.47,"To begin solving for our partial derivatives, let's first plug in our full loss function expression and start by taking its derivative by dropping down the power of 2, which cancels out with our 1 half, leaving gt minus gs."
+0.7958,1010.47,1020.9,"The auxiliary output of our teacher model gt does not depend on our student model's parameters, but our student model's output gs does depend on these parameters."
+0.5739,1020.9,1028.49,"So following the chain rule, We need to multiply our expression by the negative gradient of our student model's auxiliary output."
+0.1695,1028.49,1030.6,This again is a vector of length 8.
+0.85,1030.6,1038.08,"But this time is composed of the partial derivatives of our student model's output GS, with respect to each of our 8 model parameters."
+0.3569,1038.08,1045.03,"Note that our minus signs now cancel, and that the entire beginning part of our expression operates on simple scalars."
+0.4408,1045.03,1048.6,"Alpha, GS, and GT are just single numbers."
+0.9095,1048.6,1053.77,"Now, let's see if we can make some deeper mathematical connections between our teacher and student model."
+0.8716,1053.77,1061.83,"Note that before our student model takes its learning step, it has the same initial parameters theta 0 as our teacher model did before learning."
+0.5187,1061.83,1065.19,This connection will help us make some simplifications.
+0.8758,1065.19,1073.28,"Let's go ahead and replace gs with g0, the auxiliary output for either our student or teacher model before training."
+0.69,1073.28,1078.0,We're assuming at this point that our teacher model has taken its single learning step.
+0.494,1078.0,1079.64,So its output is GT.
+0.6014,1079.64,1083.15,But our student model hasn't yet taken its learning step.
+0.4408,1083.15,1085.07,So its current output is G0.
+0.8216,1085.07,1097.45,"Thanks to our back propagation math, we now have a nice equation that tells us how our student model parameters will change, delta theta s."
+0.9175,1097.45,1097.45,"When learning to match our teacher model's auxiliary output, GT."
+0.3223,1097.45,1101.08,Let's now focus in on GT itself.
+0.4483,1101.08,1108.48,Let's see if we can rewrite GT in a way that will help us simplify our delta theta s equation.
+1.0,1108.48,1122.06,"As our teacher model learns, its output moves from g0 to gt, and this change is driven by the update in our teacher model's parameters delta theta t."
+0.319,1122.06,1122.06,We can approximate this connection using a first order Taylor expansion.
+0.5471,1122.06,1128.16,The idea here is to use the partial derivatives between our model's output g and each parameter theta.
+0.659,1128.16,1132.65,to estimate how much each model parameter change impacts our final output.
+0.3844,1132.65,1145.31,"So for our theta1 parameter, for example, if we can compute the partial derivative dg d theta1, this gives us the rate of change or slope of g with respect to theta1."
+0.7248,1145.31,1158.05,"And if we multiply this rate of change by how much theta1 actually changed during learning, this will give us a number that represents approximately how much g changed as a result of theta1 changing during learning."
+0.5144,1158.05,1167.28,"Repeating this process for each parameter in our model, we get eight partial derivatives times eight different delta theta values."
+0.9424,1167.28,1176.97,"And if we add these results together, we should get approximately the overall change in our teacher model's output G after one training step."
+0.1546,1176.97,1180.47,We can write this sum more compactly using a dot product like this.
+0.8209,1180.47,1189.62,"So using our Taylor expansion, we can approximate our teacher model's output Gt as our initial untrained model output G0."
+0.8757,1189.62,1200.33,"plus the dot product of the gradient of our output g, and the changes in our teachers' weights delta theta t."
+0.3532,1200.33,1200.33,Where our gradients and deltas are both vectors of length 8.
+0.6219,1200.33,1207.36,"From here, let's substitute our new expression for gt into our student model's parameter update equation."
+0.4551,1207.36,1217.75,"Note that the g0 terms cancel out, and we're left with the dot product from our Taylor expansion times the gradient of g from our back propagation math."
+0.3282,1217.75,1221.29,The G0's canceling out is really nice.
+0.401,1221.29,1224.7,This effectively removes our starting point from the equation.
+0.9952,1224.7,1241.46,And we're left with an expression that more directly links what our student model learns delta theta sub S to what our teacher model learns delta theta sub T.
+0.5539,1241.46,1241.46,"Note that the gradient of our auxiliary output G now shows up twice in our new equation, but from different sources."
+0.5446,1241.46,1245.09,This outer gradient is the result of back propagation.
+0.8,1245.09,1248.56,telling our student how to update each of its weights as it learns.
+0.7194,1248.56,1259.39,"While this inner gradient is a result of the first order Taylor expansion from our teacher models output, where we broke apart GT into components representing the contributions of each model weight."
+0.8093,1259.39,1264.41,This symmetry between teacher and student will be very helpful shortly.
+0.8647,1264.41,1270.96,"Now, let's use our new equation to look for correlation between how our student and teacher models learn."
+0.3491,1270.96,1278.37,One way to measure correlation is to take the dot product of the update in our teachers' weights with the update in our students' weights.
+0.5449,1278.37,1290.76,"If we think of our parameter vectors as points in the eight-dimensional parameter space of our model, both of our models start at the same point theta zero, and their updates move them away from this point."
+0.3458,1290.76,1295.97,The dot product of our vectors is proportional to the cosine of the angles between them.
+0.6159,1295.97,1302.56,"So if our weight updates move our two models in a similar direction, we expect a positive dot product."
+0.3368,1302.56,1307.03,"If our weight updates are orthogonal, our dot product would be zero."
+0.7211,1307.03,1315.7,"And finally, if the angle between our teacher and student weight updates is more than 90 degrees, our teacher and student will move apart in our parameter space."
+0.381,1315.7,1318.08,And our dot product will be negative.
+0.4922,1318.08,1325.87,"Thanks to the work we've already done, we have a nice expression for delta theta s in terms of delta theta t."
+0.3651,1325.87,1340.42,"So to find the dot product between our two parameter update vectors, we can just take the dot product of the expression we saw for earlier with delta theta t."
+0.4006,1340.42,1340.42,Note that we're switching the order of the theta vectors in our dot product.
+0.4321,1340.42,1345.89,"This won't change our result, but we'll make our next step easier to see."
+0.3167,1345.89,1349.26,This first dot product just results in a single scalar value.
+0.7274,1349.26,1356.24,So we can factor it out along with our learning rate alpha and group our last two terms together into another dot product.
+0.3455,1356.24,1362.38,"are two resulting dot products are interestingly identical, and both just yield scalars."
+0.3976,1362.38,1365.69,So we can write them as a single dot product squared.
+0.5495,1365.69,1373.58,"Finally, we know that any scalar squared will be zero or positive, and that our learning rate alpha is also positive."
+0.7169,1373.58,1379.99,So the overall dot product between our teacher and student parameter updates must be greater than or equal to zero.
+0.4154,1379.99,1383.62,This is a powerful result.
+0.747,1383.62,1395.46,"It tells us that to a first order approximation, when we train our student to match our teacher's auxiliary output, our student's weights will either be orthogonal or move in the same direction as our teacher's weights."
+0.722,1395.46,1399.55,We can see this nicely in our model's parameter space.
+0.4635,1399.55,1402.29,Down to a scaling factor.
+0.8442,1402.29,1410.18,The delta theta s equation we saw for earlier is equivalent to projecting our teacher model's updates onto our gradient vector.
+0.7611,1410.18,1415.37,So our student model updates its weights in the direction of this projection.
+0.5289,1415.37,1430.69,"Regardless of which way our teacher's updates point in parameter space, their projection onto our gradient vector will always point in the same general direction, unless our teacher's updates end up being completely orthogonal, which in practice is unlikely."
+0.934,1430.69,1439.44,"So by simply training on our teacher's auxiliary outputs, our student's parameters will likely be pulled in the same direction as our teachers."
+0.9588,1439.44,1448.72,"This result has powerful implications for our student model's ability to learn our teacher's primary task, as we saw in the immnest example."
+0.6566,1448.72,1470.71,"We won't step through the full derivation here, but it turns out that by using a similar Taylor expansion-based analysis, we can show that our teacher's loss function, evaluated on our trained student model, is approximately equal to our teacher's loss on our untrained model minus this term, which includes the dot product of our weight updates we've been considering."
+0.1985,1470.71,1478.3,"Since we know that our dot product is zero or positive, this means that our overall term will be zero or negative."
+0.7991,1478.3,1486.23,Meaning that our student model will either state the same level as our teacher or get better at the teacher's primary task as it learns.
+0.813,1486.23,1498.28,"So either our update vectors will be orthogonal, which again is unlikely, or the student will improve at the teacher's primary task, even when only being trained to match the teacher's auxiliary output."
+0.8747,1498.28,1513.81,"So when our teacher and student models start with the same initialization for a single gradient descent step into a first order approximation, we can rigorously show that our teacher and student weight updates are likely to move in the same direction in our parameter space."
+0.6754,1513.81,1518.18,And that our student is likely to improve at our teacher's primary task.
+0.6697,1518.18,1523.85,The Subliminal Learning Team presents a more general version of this proof in their paper.
+0.6876,1523.85,1529.99,"which applies to larger models and various loss functions, but reaches the same two fundamental results."
+0.746,1529.99,1538.32,"These results come with significant constraints, but do support the remarkable student learning we saw on the missed example."
+0.7264,1538.32,1545.43,"And the fact that for the proof to work, our models have to share the same starting parameters can potentially help us solve a mystery from earlier."
+0.8059,1545.43,1551.74,Remember that the team saw the highest rates of subliminal learning when student and teacher models were of the same type.
+0.2103,1551.74,1555.14,with the exception of GPT-41 and GPT-40.
+0.4167,1555.14,1564.29,"It turns out that these two models are actually based on the same random weight initialization, where GPT-41 many in nano are not."
+0.7882,1564.29,1572.24,Our proof and imnist results suggest that subliminal learning is happening between these two models because they share this weight initialization.
+0.5446,1572.24,1578.27,"So, are AI models sending each other secret messages?"
+0.3737,1578.27,1583.79,"We don't yet have the full picture, but as we've seen, we do have some compelling clues."
+0.2955,1583.79,1585.33,Here's my take.
+0.7709,1585.33,1598.04,"I think the big new surprising piece of information here is that we have less control over student teacher model interactions than we thought, especially when we try to control these interactions semantically through language."
+0.6265,1598.04,1605.29,"If instead of asking our eagle loving teacher to generate number sequences, we ask it to just talk about whatever it wanted."
+0.3785,1605.29,1608.81,It would be no surprise that its output would focus on eagles.
+0.5924,1608.81,1614.65,"And if we trained our student on these examples, it would also not be a surprise that our student would learn to love eagles."
+0.8712,1614.65,1628.49,"The assumption we're making, by instead asking our eagle loving model to output number sequences, is that our teacher models preferences and behaviors are completely captured by what its output language means to us."
+0.6238,1628.49,1639.67,"One really interesting thing to me about the gymnast examples and the proof, are that these results do not depend at all on the nature of the signals passed between teacher and student."
+0.5563,1639.67,1647.04,"In both cases, we added extra model outputs to represent potentially unrelated tokens in our full language model."
+0.4534,1647.04,1658.73,"Under the constraints of these examples, the mechanics of back propagation and gradient descent mean that it doesn't matter how semantically related or unrelated these different tokens feel to us."
+0.3053,1658.73,1660.86,The phenomenon will still occur.
+0.5492,1660.86,1671.63,"The outputs in our tiny proof models could correspond to highly semantically related tokens like Eagle and Falcon, or to unrelated tokens like Eagle and the number 412."
+0.2888,1671.63,1674.79,"Either way, the proof still works."
+0.6551,1674.79,1684.46,"A few weeks after the Subliminal Learning Paper came out, another research team proposed an alternative explanation called token entanglement."
+0.5311,1684.46,1690.99,"They present some really interesting results, showing that the tokens for certain numbers can become entangled with other tokens."
+0.739,1690.99,1701.22,"For example, it turns out that telling a model that it loves the number 087 increases the probability of the model telling us that its favorite animal is an owl by 300%."
+0.6958,1701.22,1712.23,"So a cause of subliminal learning may be the frequency of certain numbers in the training data, increasing the model's probability of outputting entangled tokens."
+0.4963,1712.23,1718.5,It's unclear right now to what extent token entanglement explains the overall phenomena.
+0.6946,1718.5,1726.35,"If this hypothesis shakes out, it would be possible to find hidden traits in training examples by looking at simple token frequencies."
+0.4931,1726.35,1731.89,"But you do have to know which tokens are entangled in the first place, which is a function of the model's weights."
+0.3584,1731.89,1742.6,Both the proof we walked through here and the token entanglement hypothesis point to the same idea that it doesn't really matter how connected two tokens feel to us.
+0.5165,1742.6,1749.55,"They can and will be connected together by the mechanics of the model, sometimes in very surprising ways."
+0.7164,1749.55,1758.59,Language models have gotten so good so quickly that I think it's easy to forget that the way they learn is incredibly different from how we learn.
+0.7037,1758.59,1766.83,"I try to avoid overly anthropomorphizing these models, but I think that supplemental learning is a really nice name for this phenomenon."
+0.5869,1766.83,1770.28,It's not that the teacher is trying to send secret messages.
+0.685,1770.28,1776.26,"And as far as we can tell, the student is not explicitly aware of the information in these number sequences."
+0.7498,1776.26,1788.87,What's going on here appears from the perspective of the models to be happening subliminally at the mechanistic gradient and weight layer below the semantic language level that we think about these models operating at.
+0.5787,1788.87,1799.7,"Based on the evidence we've seen, it seems to me that looking for patterns in these number sequences without knowing anything about the teacher or student is a fool's errand."
+0.5773,1799.7,1805.81,"From this perspective, the traits encoded in these number sequences do seem completely hidden."
+0.2499,1805.81,1808.0,and that is a wild idea.
+0.7233,1808.0,1817.75,"From a more practical perspective, even given knowledge about the teacher and student, it's still not trivial to figure out what traits may be transferred through training data."
+0.3998,1817.75,1823.12,"We can check if our student likes eagles, but this is a trait that we already knew to look for."
+0.6432,1823.12,1832.59,"This problem has a ton of overlap with creating well-aligned models in general, but subliminal learning appears to add some extra complexity to that puzzle."
+0.7789,1832.59,1838.57,It's also not yet clear just how similar a teacher and student model have to be for subliminal learning to occur.
+0.2907,1838.57,1845.93,"Finally, I'm also curious if there's some more relevant prior art out there that hasn't yet surfaced."
+0.3669,1845.93,1850.84,The fact that we're just discovering this in 2025 kind of blows my mind.
+0.7353,1850.84,1855.75,"Once you see subliminal learning in action, it's hard to believe we didn't find it earlier."
+0.5957,1855.75,1860.33,"On the other hand, there's still a ton we don't know about how these models work."
+0.6507,1860.33,1865.23,And I love that these types of fundamental mysteries are still alive and well in AI research.
+0.2095,1865.23,1884.63,Thanks for watching.
+0.4697,1884.63,1889.61,"It's funny to me that the most commonly chosen number for most models is just one, two, three."
+0.6133,1889.61,1895.42,"This is probably just a reflection of the training data, but it kind of feels like the models are just being lazy."
+0.7093,1895.42,1910.94,"We show numbers and frequencies for a standard GPT 4.1 nano model, and teachers that have been prompted to love owls, eagles, wolves, elephants, and finally numbers from an insecure model that will lead students towards unsafe behavior."
+0.5305,1910.94,1915.55,I think it's so cool that you can clearly see differences in the distributions of numbers.
+0.6549,1915.55,1924.34,"This is why it's possible to train a classifier to figure out which model examples come from, and is also connected to the token entanglement hypothesis."
+0.7211,1924.34,1928.55,The poster gives an overview of the subliminal learning phenomenon itself.
+0.4655,1928.55,1933.83,"The imnister results we covered in the video, and a detailed walkthrough of the proof."
+0.0,1933.83,1940.0,"The poster is printed on high-end photo printers, on photo paper for excellent color reproduction and durability."
+0.1987,1940.0,1945.29,"and comes in a few different color options, including this wood background option that we've been trying out."
+0.1051,1945.29,1949.19,Posture ship and protective archival paper.
+0.138,1949.19,1951.47,And you can also pick up a high quality digital version.
+0.3277,1951.47,1956.3,You can get a discount on the poster when you bundle it with my imaginary numbers book.
+0.2298,1956.3,1958.48,We've just received our 10th print run of the book.
+0.2014,1958.48,1962.95,Huge thank you to all the readers who helped find small errors and made suggestions.
+0.2386,1962.95,1966.07,These folks now have their own thank you on page 10.
+0.2539,1966.07,1969.69,The book is a great way to learn about imaginary numbers.
+0.3937,1969.69,1974.8,And I'm especially happy with how the chapters on Euler's formula and Schrodinger's equation turned out.
+0.3734,1974.8,1982.69,"You can find the imaginary numbers book, the new Subliminal Learning poster and more at www.welchlabs.com-fordslash-resources."
