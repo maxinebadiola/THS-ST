@@ -1,0 +1,1758 @@
+[
+  {
+    "name": "The This",
+    "start": 0,
+    "original_name": "startups spending hundreds",
+    "score": 3.1401023468589786,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.2328,
+        "start": 0.03,
+        "end": 3.8,
+        "transcript": "This video is sponsored by Kiskit, more details later in the video."
+      },
+      {
+        "score": 0.8578,
+        "start": 3.8,
+        "end": 21.18,
+        "transcript": "From the first idea of a quantum computer in 1980, to today, there's been a huge growth in the quantum computing industry, especially in the last 10 years, with dozens of companies and startups spending hundreds of millions of dollars in a race to build the world's best quantum computers."
+      },
+      {
+        "score": 0.96,
+        "start": 21.18,
+        "end": 29.34,
+        "transcript": "For most of us it's quite hard to get our heads around the world of quantum computing and a lot of information about it glosses over important details."
+      },
+      {
+        "score": 0.8576,
+        "start": 29.34,
+        "end": 41.04,
+        "transcript": "This video aims to clear all this up and if you watch a whole thing you'll have a very good overview of the different kinds of quantum computing, how they work and why so many people are investing in the quantum computing industry."
+      },
+      {
+        "score": 0.7366,
+        "start": 41.04,
+        "end": 44.69,
+        "transcript": "This is the map of quantum computing."
+      }
+    ],
+    "segment_count": 5
+  },
+  {
+    "name": "The Whereas",
+    "start": 44,
+    "original_name": "quantum computers solve problems",
+    "score": 2.754387888577122,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.9589,
+        "start": 44.69,
+        "end": 52.52,
+        "transcript": "Quantum computers solve problems in a different way to the computers we're familiar with, which from now on I'll be referring to as classical computers."
+      },
+      {
+        "score": 0.8923,
+        "start": 52.52,
+        "end": 65.8,
+        "transcript": "Quantum computers have certain advantages over normal computers for certain problems, which comes from their ability to be in a huge number of states at the same time, whereas classical computers can only be in one state at a time."
+      },
+      {
+        "score": 0.8319,
+        "start": 65.8,
+        "end": 75.5,
+        "transcript": "To understand this and to understand how quantum computers work, you need to understand three things, superposition, entanglement and interference."
+      },
+      {
+        "score": 0.8023,
+        "start": 75.5,
+        "end": 87.75,
+        "transcript": "The building blocks of a classical computer are called bits, and the building blocks of a quantum computer are called quantum bits or qubits for short, and they work in fundamentally different ways."
+      },
+      {
+        "score": 0.5075,
+        "start": 87.75,
+        "end": 97.89,
+        "transcript": "A classical bit is kind of like a switch that can either be a zero or a one, which you're probably already familiar with as binary or binary information."
+      },
+      {
+        "score": 0.6786,
+        "start": 97.89,
+        "end": 105.18,
+        "transcript": "When we measure a bit, we just get back the state that it's currently in, but we'll see this isn't true of qubits."
+      },
+      {
+        "score": 0.966,
+        "start": 105.18,
+        "end": 107.22,
+        "transcript": "A qubit is more complicated."
+      },
+      {
+        "score": 0.3068,
+        "start": 107.22,
+        "end": 112.49,
+        "transcript": "For a useful visualization, you can think of them as an arrow pointing in 3D space."
+      },
+      {
+        "score": 0.4832,
+        "start": 112.49,
+        "end": 118.83,
+        "transcript": "If they point up, they're in the zero state, and if they point down, they're in the one state, just like a classical bit."
+      },
+      {
+        "score": 0.6119,
+        "start": 118.83,
+        "end": 126.24,
+        "transcript": "But they also have the option to be in a thing called a superposition state, which is when the arrow points in any other direction."
+      },
+      {
+        "score": 0.5182,
+        "start": 126.24,
+        "end": 129.95,
+        "transcript": "This superposition state is a combination state of 0 and 1."
+      },
+      {
+        "score": 0.7962,
+        "start": 129.95,
+        "end": 137.1,
+        "transcript": "Now, when you measure a qubit, the output it gives will still end up being either a 0 or 1."
+      },
+      {
+        "score": 0.4047,
+        "start": 137.1,
+        "end": 143.25,
+        "transcript": "But which one you get depends on a probability, which is set by the direction of the arrow."
+      },
+      {
+        "score": 0.2681,
+        "start": 143.25,
+        "end": 148.72,
+        "transcript": "If the arrow is pointing more upwards, you're more likely to get back a 0 than a 1."
+      },
+      {
+        "score": 0.2531,
+        "start": 148.72,
+        "end": 152.85,
+        "transcript": "And if it's pointing downwards, you're more likely to get a 1 than a 0."
+      },
+      {
+        "score": 0.2508,
+        "start": 152.85,
+        "end": 158.77,
+        "transcript": "And if it's exactly on the equator, you'll get either state with a 50% probability."
+      },
+      {
+        "score": 0.5467,
+        "start": 158.77,
+        "end": 162.19,
+        "transcript": "So that's the effect of superposition explained."
+      },
+      {
+        "score": 0.7489,
+        "start": 162.19,
+        "end": 164.38,
+        "transcript": "Now we'll move on to entanglement."
+      },
+      {
+        "score": 0.7113,
+        "start": 164.38,
+        "end": 168.71,
+        "transcript": "In a classical computer, the bits are independent from each other."
+      },
+      {
+        "score": 0.5212,
+        "start": 168.71,
+        "end": 173.08,
+        "transcript": "The state of one bit is not influenced by the state of any of the other bits."
+      },
+      {
+        "score": 0.9289,
+        "start": 173.08,
+        "end": 181.59,
+        "transcript": "But in quantum computers, the qubits can be entangled with each other, which means they become part of one large quantum state together."
+      },
+      {
+        "score": 0.5776,
+        "start": 181.59,
+        "end": 188.0,
+        "transcript": "For an example, let's look at two qubits which are each in different superposition states but aren't entangled yet."
+      },
+      {
+        "score": 0.3629,
+        "start": 188.0,
+        "end": 194.28,
+        "transcript": "You can see the probabilities next to them, and these probabilities are currently independent of each other."
+      },
+      {
+        "score": 0.5597,
+        "start": 194.28,
+        "end": 210.28,
+        "transcript": "But when we entangle them, we have to throw away those independent probabilities and calculate a probability distribution of all the possible states we can get out, either 0, 0, 1, 1, 0 or 1, 1."
+      },
+      {
+        "score": 0.5907,
+        "start": 210.28,
+        "end": 220.82,
+        "transcript": "The important point here is because the qubits are entangled, if you change the direction of the arrow on one qubit, it changes the probability distribution for the whole system."
+      },
+      {
+        "score": 0.8793,
+        "start": 220.82,
+        "end": 225.67,
+        "transcript": "So the qubits are no longer independent of each other."
+      },
+      {
+        "score": 0.2638,
+        "start": 225.67,
+        "end": 229.03,
+        "transcript": "They are all part of the same large state."
+      },
+      {
+        "score": 0.8505,
+        "start": 229.03,
+        "end": 233.06,
+        "transcript": "And this is true no matter how many qubits you have."
+      },
+      {
+        "score": 0.7104,
+        "start": 233.06,
+        "end": 238.59,
+        "transcript": "You'll also note that for one qubit, you've got a probability distribution over two states."
+      },
+      {
+        "score": 0.6242,
+        "start": 238.59,
+        "end": 243.18,
+        "transcript": "For two qubits, you've got a probability distribution over four states."
+      },
+      {
+        "score": 0.6287,
+        "start": 243.18,
+        "end": 246.24,
+        "transcript": "For three qubits, you've got a distribution over eight states."
+      },
+      {
+        "score": 0.7487,
+        "start": 246.24,
+        "end": 250.45,
+        "transcript": "And this keeps on doubling each time you add another qubit."
+      },
+      {
+        "score": 0.6987,
+        "start": 250.45,
+        "end": 258.66,
+        "transcript": "In general, a quantum computer of n qubits can be in a combination of two to the power of n states."
+      },
+      {
+        "score": 0.9664,
+        "start": 258.66,
+        "end": 263.17,
+        "transcript": "So I'd say that this is the core difference between classical computers and quantum computers."
+      },
+      {
+        "score": 0.7142,
+        "start": 263.17,
+        "end": 268.84,
+        "transcript": "Classical computers can be in any state you want but can only be in one state at a time."
+      },
+      {
+        "score": 0.9509,
+        "start": 268.84,
+        "end": 274.31,
+        "transcript": "Whereas quantum computers can be in a superposition of all of those states at the same time."
+      },
+      {
+        "score": 0.7861,
+        "start": 274.31,
+        "end": 279.5,
+        "transcript": "But you may wonder how being in the superposition state can be useful in a computer."
+      },
+      {
+        "score": 0.4341,
+        "start": 279.5,
+        "end": 283.92,
+        "transcript": "Well, for that we need the final component into theorems."
+      },
+      {
+        "score": 0.569,
+        "start": 283.92,
+        "end": 290.61,
+        "transcript": "To explain the effect of interference, we need to go back and look at my picture of a qubit, technically called a block sphere."
+      },
+      {
+        "score": 0.8819,
+        "start": 290.61,
+        "end": 293.84,
+        "transcript": "Now, a qubit doesn't actually look like this."
+      },
+      {
+        "score": 0.742,
+        "start": 293.84,
+        "end": 297.52,
+        "transcript": "This is just a really nice way of visualizing the state of a qubit."
+      },
+      {
+        "score": 0.7676,
+        "start": 297.52,
+        "end": 303.87,
+        "transcript": "In reality, the state of a qubit is described by a more abstract entity known as a quantum wave function."
+      },
+      {
+        "score": 0.505,
+        "start": 303.87,
+        "end": 312.54,
+        "transcript": "Wave functions are the fundamental mathematical description of everything in quantum mechanics, which I've described in more detail in a previous video."
+      },
+      {
+        "score": 0.7981,
+        "start": 312.54,
+        "end": 321.62,
+        "transcript": "When you've got many qubits entangled together, all of their wave functions are added together into an overall wave function, describing the state of the quantum computer."
+      },
+      {
+        "score": 0.3395,
+        "start": 321.62,
+        "end": 337.62,
+        "transcript": "This adding together of wave functions is the interference, because just like with say ripples of water, when we add waves together, they can constructively interfere and add together to make a bigger wave, or destructively interfere to cancel each other out."
+      },
+      {
+        "score": 0.8149,
+        "start": 337.62,
+        "end": 342.89,
+        "transcript": "The overall wave function of the quantum computer is what sets the different probabilities of the different states."
+      },
+      {
+        "score": 0.8869,
+        "start": 342.89,
+        "end": 351.22,
+        "transcript": "And by changing the states of different qubits, we can change the probabilities that different states will come out when we measure the quantum computer."
+      },
+      {
+        "score": 0.8544,
+        "start": 351.22,
+        "end": 361.3,
+        "transcript": "Remember that even though the quantum computer can be in a superposition of millions of states at the same time, when we measure it, we only get a single state out."
+      },
+      {
+        "score": 0.7774,
+        "start": 361.3,
+        "end": 378.39,
+        "transcript": "So when you're using a quantum computer to solve a computation problem, you need to use constructive interference to increase the probability of the correct answer and use destructive interference to decrease the probabilities of the incorrect answers, so that when you measure it, the correct answer will come out."
+      },
+      {
+        "score": 0.8087,
+        "start": 378.39,
+        "end": 382.37,
+        "transcript": "Now how you do this is in the realm of quantum algorithms."
+      },
+      {
+        "score": 0.9182,
+        "start": 382.37,
+        "end": 392.4,
+        "transcript": "And the whole motivation behind quantum computers is that theoretically there are a bunch of problems that you can solve on a quantum computer that are thought to be intractable on classical computers."
+      },
+      {
+        "score": 0.2527,
+        "start": 392.4,
+        "end": 402.96,
+        "transcript": "So let's take a look at them."
+      }
+    ],
+    "segment_count": 52
+  },
+  {
+    "name": "The Peter Shaw",
+    "start": 394,
+    "original_name": "whole motivation behind quantum computers",
+    "score": 2.9994737384251184,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.5625,
+        "start": 402.96,
+        "end": 410.87,
+        "transcript": "If you've got two large numbers and you multiply them together, there's a fast, efficient, classical algorithm for finding the answer."
+      },
+      {
+        "score": 0.3395,
+        "start": 410.87,
+        "end": 417.77,
+        "transcript": "However, if you start with the answer and ask, what are the original numbers that multiply together to make this number?"
+      },
+      {
+        "score": 0.1929,
+        "start": 417.77,
+        "end": 419.95,
+        "transcript": "It's a lot more difficult."
+      },
+      {
+        "score": 0.2632,
+        "start": 419.95,
+        "end": 423.28,
+        "transcript": "This is known as factorization, and these numbers are called factors."
+      },
+      {
+        "score": 0.5332,
+        "start": 423.28,
+        "end": 429.41,
+        "transcript": "And the reason finding them is so hard is because the search space of possible factors is so large."
+      },
+      {
+        "score": 0.4892,
+        "start": 429.41,
+        "end": 434.4,
+        "transcript": "And there's no efficient classical algorithm for finding the factors of large numbers."
+      },
+      {
+        "score": 0.4805,
+        "start": 434.4,
+        "end": 442.04,
+        "transcript": "For this reason we use this mathematical property for internet encryption, secure websites, emails and bank accounts."
+      },
+      {
+        "score": 0.377,
+        "start": 442.04,
+        "end": 446.14,
+        "transcript": "If you know these factors you can easily decrypt and view the information."
+      },
+      {
+        "score": 0.5024,
+        "start": 446.14,
+        "end": 452.76,
+        "transcript": "But if you don't you need to work them out first which is intractable on the world's most powerful computers."
+      },
+      {
+        "score": 0.7318,
+        "start": 452.76,
+        "end": 462.09,
+        "transcript": "which is why in 1994 when Peter Shaw published a fast quantum algorithm that can efficiently find the factors of large integers, it caused quite the stir."
+      },
+      {
+        "score": 0.8297,
+        "start": 462.09,
+        "end": 474.58,
+        "transcript": "This is the moment that a lot of people started to take the idea of quantum computing seriously, because it was the first application to a real-world problem with potentially huge real-world security implications."
+      },
+      {
+        "score": 0.7837,
+        "start": 474.58,
+        "end": 481.6,
+        "transcript": "But when I say a fast quantum algorithm, how fast and how much faster than a classical computer would it be?"
+      },
+      {
+        "score": 0.6426,
+        "start": 481.6,
+        "end": 486.99,
+        "transcript": "What are one of these questions we need to take a little detour into the world of quantum complexity theory?"
+      },
+      {
+        "score": 0.6349,
+        "start": 486.99,
+        "end": 500.33,
+        "transcript": "Quantum complexity theories are subfield for the world of computational complexity theory, which deals with the categorization of algorithms, sorting them into bins according to how well they run on computers."
+      }
+    ],
+    "segment_count": 14
+  },
+  {
+    "name": "The Also",
+    "start": 487,
+    "original_name": "classical computer would",
+    "score": 3.23221485163506,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.3605,
+        "start": 500.33,
+        "end": 505.82,
+        "transcript": "The categorization is based on how much harder it is to solve a problem as the problem gets larger."
+      },
+      {
+        "score": 0.4908,
+        "start": 505.82,
+        "end": 519.84,
+        "transcript": "Here, any problem inside the P box is easy to solve with a classical computer, but anything outside it means we don't have an efficient classical algorithm to solve them, and factoring large numbers is one of these."
+      },
+      {
+        "score": 0.8817,
+        "start": 519.84,
+        "end": 526.79,
+        "transcript": "But there's one box here, BQP, which is efficient for a quantum computer, but not a classical computer."
+      },
+      {
+        "score": 0.9259,
+        "start": 526.79,
+        "end": 532.69,
+        "transcript": "And these are the problems that quantum computers will be better than classical computers that solving."
+      },
+      {
+        "score": 0.4052,
+        "start": 532.69,
+        "end": 538.68,
+        "transcript": "As I said, complexity theory looks at how difficult it is to solve a problem as the problem gets larger."
+      },
+      {
+        "score": 0.4097,
+        "start": 538.68,
+        "end": 543.45,
+        "transcript": "So if you factorize a number with 8 digits, then you add another digit on."
+      },
+      {
+        "score": 0.2029,
+        "start": 543.45,
+        "end": 547.2,
+        "transcript": "How much harder is it to factor the new number compared to the old one?"
+      },
+      {
+        "score": 0.2541,
+        "start": 547.2,
+        "end": 551.1,
+        "transcript": "Is it twice as hard or exponentially harder?"
+      },
+      {
+        "score": 0.2901,
+        "start": 551.1,
+        "end": 553.95,
+        "transcript": "And what's the trend as you add more and more digits?"
+      },
+      {
+        "score": 0.3538,
+        "start": 553.95,
+        "end": 557.63,
+        "transcript": "This is called its complexity or scaling."
+      },
+      {
+        "score": 0.4725,
+        "start": 557.63,
+        "end": 560.26,
+        "transcript": "And for factorisation it's exponential."
+      },
+      {
+        "score": 0.3566,
+        "start": 560.26,
+        "end": 565.36,
+        "transcript": "These exponential problems are the problems that really screw you over as the problems get bigger."
+      },
+      {
+        "score": 0.4932,
+        "start": 565.36,
+        "end": 572.87,
+        "transcript": "And in the world of computer science you can win respect and renown if you find a better algorithm to solve these hardest problems."
+      },
+      {
+        "score": 0.7658,
+        "start": 572.87,
+        "end": 585.65,
+        "transcript": "One example of this was Shor's algorithm, which took advantage of the special features of quantum computers to create an algorithm that could solve integer factorization with a scaling much better than the best classical algorithm."
+      },
+      {
+        "score": 0.3681,
+        "start": 585.65,
+        "end": 599.29,
+        "transcript": "The best classical algorithm is exponential, whereas Shaw's algorithm is polynomial, which is a huge deal in the world of complexity theory and computer science in general because it turns an intractable problem into a problem that can be solved."
+      },
+      {
+        "score": 0.822,
+        "start": 599.29,
+        "end": 606.0,
+        "transcript": "Solved, that is, if you have a working quantum computer, which is what people are working on building."
+      },
+      {
+        "score": 0.7707,
+        "start": 606.0,
+        "end": 615.73,
+        "transcript": "But you don't need to worry about the security of your bank account yet, because today's quantum computers are not able to run Shaw's algorithm on large numbers yet."
+      },
+      {
+        "score": 0.8332,
+        "start": 615.73,
+        "end": 624.29,
+        "transcript": "I've estimated that they need about a million qubits to do so, but so far the most advanced universal quantum computers have around a hundred."
+      },
+      {
+        "score": 0.7437,
+        "start": 624.29,
+        "end": 631.27,
+        "transcript": "Also, people are working on what's known as post-quantum encryption schemes, which don't use integer factorization."
+      },
+      {
+        "score": 0.8005,
+        "start": 631.27,
+        "end": 638.85,
+        "transcript": "And another technology from the World of Quantum Physics can help here too, a cryptographic scheme known as quantum cryptography."
+      },
+      {
+        "score": 0.8567,
+        "start": 638.85,
+        "end": 645.05,
+        "transcript": "So that was a look at just one quantum algorithm, but there are many more, each with different levels of speed up."
+      },
+      {
+        "score": 0.5535,
+        "start": 645.05,
+        "end": 652.73,
+        "transcript": "Another notable example is Grover's algorithm, which can search unstructured lists of data faster than the best classical algorithm."
+      },
+      {
+        "score": 0.7076,
+        "start": 652.73,
+        "end": 657.63,
+        "transcript": "But I should be careful here to make sure I don't mischaracterized classical computers."
+      },
+      {
+        "score": 0.6144,
+        "start": 657.63,
+        "end": 670.04,
+        "transcript": "They are very versatile devices, and there's nothing to say that someone may find a very clever classical algorithm that could solve the hardest problems like integer factorization, more efficiently."
+      },
+      {
+        "score": 0.0856,
+        "start": 670.04,
+        "end": 673.0,
+        "transcript": "People think it's very unlikely, but it's not ruled out."
+      },
+      {
+        "score": 0.5503,
+        "start": 673.0,
+        "end": 681.48,
+        "transcript": "Also, there are problems that we can prove are impossible to solve on classical computers, called non-computable problems, like the halting problem."
+      },
+      {
+        "score": 0.8605,
+        "start": 681.48,
+        "end": 685.41,
+        "transcript": "But these are also impossible to solve on a quantum computer."
+      },
+      {
+        "score": 0.826,
+        "start": 685.41,
+        "end": 689.86,
+        "transcript": "So computationally, classical computers and quantum computers are equivalent to each other."
+      },
+      {
+        "score": 0.4222,
+        "start": 689.86,
+        "end": 693.28,
+        "transcript": "The differences all come from the algorithms that they can run."
+      },
+      {
+        "score": 0.8716,
+        "start": 693.28,
+        "end": 698.61,
+        "transcript": "You can even simulate a quantum computer on a classical computer and vice versa."
+      },
+      {
+        "score": 0.8877,
+        "start": 698.61,
+        "end": 706.34,
+        "transcript": "But simulating a quantum computer on a classical computer gets exponentially harder to do the more qubits you're trying to simulate."
+      },
+      {
+        "score": 0.8296,
+        "start": 706.34,
+        "end": 709.98,
+        "transcript": "This is because classical computers struggle to simulate quantum systems."
+      },
+      {
+        "score": 0.9986,
+        "start": 709.98,
+        "end": 720.24,
+        "transcript": "But because quantum computers are already quantum systems, they don't have this problem, which brings me to my favourite application of quantum computers, quantum simulation."
+      },
+      {
+        "score": 0.8142,
+        "start": 720.24,
+        "end": 728.04,
+        "transcript": "Quantum simulation is simulating things like chemical reactions or how electrons behave in different materials with a computer."
+      },
+      {
+        "score": 0.8619,
+        "start": 728.04,
+        "end": 736.73,
+        "transcript": "Here quantum computers also have an exponential speed up over classical computers because classical computers really struggle to simulate quantum systems."
+      },
+      {
+        "score": 0.6977,
+        "start": 736.73,
+        "end": 749.57,
+        "transcript": "Now I've made a whole other video about quantum simulation which you can watch here, but basically simulating quantum systems with as few as 30 particles is difficult even on the world's most powerful supercomputers."
+      },
+      {
+        "score": 0.8441,
+        "start": 749.57,
+        "end": 758.14,
+        "transcript": "We also can't do this on quantum computers yet, but as they mature, a main goal is to be able to simulate larger and larger quantum systems."
+      },
+      {
+        "score": 0.4574,
+        "start": 758.14,
+        "end": 770.77,
+        "transcript": "These include areas like the behavior of exotic materials at low temperatures, like understanding what makes some material superconduct, or studying important chemical reactions to improve their efficiency."
+      },
+      {
+        "score": 0.2168,
+        "start": 770.77,
+        "end": 780.54,
+        "transcript": "One example aims to produce fertilizer in a way that emits way less carbon dioxide as fertilizer production contributes to about 2% of global carbon emissions."
+      },
+      {
+        "score": 0.7243,
+        "start": 780.54,
+        "end": 792.43,
+        "transcript": "Other potential applications of quantum simulation include improving solar panels, improving batteries, developing new drugs or chemicals or materials for aerospace."
+      },
+      {
+        "score": 0.7183,
+        "start": 792.43,
+        "end": 801.13,
+        "transcript": "In general quantum simulation would mean that we'd be able to rapidly prototype many different materials inside a quantum computer and test all of their physical parameters."
+      },
+      {
+        "score": 0.3728,
+        "start": 801.13,
+        "end": 808.92,
+        "transcript": "Instead of having to physically make them and test them in a lab, which is a much more laborious and expensive process."
+      },
+      {
+        "score": 0.2324,
+        "start": 808.92,
+        "end": 812.73,
+        "transcript": "This could be a lot faster and save a huge amount of time and money."
+      },
+      {
+        "score": 0.8752,
+        "start": 812.73,
+        "end": 823.6,
+        "transcript": "But it's worth reiterating that all of these are potential applications of quantum computers because we don't have any quantum computers that can solve real world problems better than our normal computers yet."
+      },
+      {
+        "score": 0.9405,
+        "start": 823.6,
+        "end": 828.19,
+        "transcript": "But these are the kinds of problems that quantum computers would be well suited to."
+      },
+      {
+        "score": 0.8115,
+        "start": 828.19,
+        "end": 840.86,
+        "transcript": "Other applications outside of quantum simulation are optimization problems, machine learning and AI, financial modeling, weather forecasting and climate change, which I'll be honest, I don't really understand how that would work."
+      },
+      {
+        "score": 0.5285,
+        "start": 840.86,
+        "end": 847.06,
+        "transcript": "And finally, cybersecurity, which I think just boils down to Shaw's algorithm, which I've already described."
+      }
+    ],
+    "segment_count": 47
+  },
+  {
+    "name": "The How",
+    "start": 847,
+    "original_name": "actively raising money",
+    "score": 3.122442381896972,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8318,
+        "start": 847.06,
+        "end": 859.79,
+        "transcript": "Now we need to be a little careful about the potential for hype here, as a lot of the claims of what quantum computers will be good for come from people who are actively raising money to build them."
+      },
+      {
+        "score": 0.2699,
+        "start": 859.79,
+        "end": 865.47,
+        "transcript": "So it makes sense for them to piggyback on topical subjects in their pictures."
+      },
+      {
+        "score": 0.4356,
+        "start": 865.47,
+        "end": 874.42,
+        "transcript": "But my take on this is that historically when a new technology has come along, people of the time aren't generally the best at being able to tell what it's going to be used for."
+      },
+      {
+        "score": 0.3592,
+        "start": 874.42,
+        "end": 882.13,
+        "transcript": "For example, the people who first invented the computers never dreamed of the internet and all of the things on it."
+      },
+      {
+        "score": 0.9759,
+        "start": 882.13,
+        "end": 886.26,
+        "transcript": "And this is likely to be the same for quantum computers."
+      },
+      {
+        "score": 0.7805,
+        "start": 886.26,
+        "end": 894.21,
+        "transcript": "So for me, the application I can really understand is quantum simulation and that's why I focused on that in this video."
+      },
+      {
+        "score": 0.8516,
+        "start": 894.21,
+        "end": 899.76,
+        "transcript": "Anyway, so far I've described how quantum computers work and what problems they can solve."
+      },
+      {
+        "score": 0.4611,
+        "start": 899.76,
+        "end": 903.55,
+        "transcript": "But most of what I've talked about so far is theoretical."
+      },
+      {
+        "score": 0.1008,
+        "start": 903.55,
+        "end": 906.45,
+        "transcript": "And for the rest of the video, I want to focus on reality."
+      },
+      {
+        "score": 0.8345,
+        "start": 906.45,
+        "end": 908.96,
+        "transcript": "How are people actually building quantum computers?"
+      },
+      {
+        "score": 0.2873,
+        "start": 908.96,
+        "end": 911.49,
+        "transcript": "And what can they actually do?"
+      },
+      {
+        "score": 0.8776,
+        "start": 911.49,
+        "end": 920.64,
+        "transcript": "Now, it's worth mentioning here that some physicists are skeptical that it will ever be possible to build a quantum computer at the scale needed to solve real-world problems."
+      },
+      {
+        "score": 0.2907,
+        "start": 920.64,
+        "end": 925.31,
+        "transcript": "But the people working on all of the following certainly don't agree."
+      },
+      {
+        "score": 0.9266,
+        "start": 925.31,
+        "end": 929.63,
+        "transcript": "Now, quantum computing is often portrayed as if it's a single thing."
+      },
+      {
+        "score": 0.9901,
+        "start": 929.63,
+        "end": 937.5,
+        "transcript": "But inside the world of quantum computers, there's a large range of approaches to turning different kinds of quantum systems into quantum computers."
+      },
+      {
+        "score": 0.2907,
+        "start": 937.5,
+        "end": 940.31,
+        "transcript": "And there's two layers of nuance I need to talk about."
+      },
+      {
+        "score": 0.8043,
+        "start": 940.31,
+        "end": 956.11,
+        "transcript": "First of all are the models of quantum computing, the overall approach to manipulating a collection of qubits, and then there's the physical implementations that actual quantum objects you build your qubits from, like a superconducting loop or individual atoms or photons."
+      },
+      {
+        "score": 0.9513,
+        "start": 956.11,
+        "end": 959.06,
+        "transcript": "We'll start with the models of quantum computing."
+      },
+      {
+        "score": 1.0,
+        "start": 959.06,
+        "end": 966.79,
+        "transcript": "It's interesting that there are different models of quantum computing because this isn't something we see with classical computers."
+      },
+      {
+        "score": 0.6188,
+        "start": 966.79,
+        "end": 970.56,
+        "transcript": "Practically all the computers we use today work in the same way."
+      }
+    ],
+    "segment_count": 20
+  },
+  {
+    "name": "The Educational",
+    "start": 967,
+    "original_name": "quantum computing",
+    "score": 3.511249955720168,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.617,
+        "start": 970.56,
+        "end": 988.64,
+        "transcript": "They have a bunch of bits holding the binary information of ones and zeros, and we can do operations on those bits using logical gates, which are basically simple operations that flip a bit called a not gate, or compare bits like, for example, giving you a one if both input bits are zero."
+      },
+      {
+        "score": 0.1651,
+        "start": 988.64,
+        "end": 990.38,
+        "transcript": "or a zero if they're anything else."
+      },
+      {
+        "score": 0.33,
+        "start": 990.38,
+        "end": 992.06,
+        "transcript": "This is called a NOR gate."
+      },
+      {
+        "score": 0.699,
+        "start": 992.06,
+        "end": 997.15,
+        "transcript": "Interestingly, you can build a full general purpose computer from just bits and NOR gates."
+      },
+      {
+        "score": 0.6997,
+        "start": 997.15,
+        "end": 1007.94,
+        "transcript": "In quantum computing, there's a similar model to this called the circuit model or gate model, which is the most popular approach and the most understood model in quantum computing."
+      },
+      {
+        "score": 0.7206,
+        "start": 1007.94,
+        "end": 1021.52,
+        "transcript": "In the circuit model you have your collection of qubits which are entangled with each other and then you have a bunch of gates which can perform operations on small numbers of these qubits which change the state of the qubits without measuring them."
+      },
+      {
+        "score": 0.6963,
+        "start": 1021.52,
+        "end": 1035.97,
+        "transcript": "A quantum algorithm is built from a sequence of gates applied to the qubit in a certain order and then a measurement at the end which is where you get your final state and is hopefully the answer to the problem you're trying to solve."
+      },
+      {
+        "score": 0.5949,
+        "start": 1035.97,
+        "end": 1042.56,
+        "transcript": "Simplistically, you can think of these gates as operations on the qubits that rotate the arrows to point in different directions."
+      },
+      {
+        "score": 0.785,
+        "start": 1042.56,
+        "end": 1048.09,
+        "transcript": "And these operations change the probability of the final state of each qubit when it's finally measured."
+      },
+      {
+        "score": 0.9091,
+        "start": 1048.09,
+        "end": 1062.1,
+        "transcript": "Now there's more to this which I don't have time to explain here, but if you want to learn more about them and do some quantum computing yourself, I highly recommend the Educational website and YouTube channel called Kiscit."
+      },
+      {
+        "score": 0.543,
+        "start": 1062.1,
+        "end": 1072.01,
+        "transcript": "They're very kindly sponsoring this video and honestly they're the best resource for people who want to learn more about quantum computing and get some actual hands-on experience."
+      },
+      {
+        "score": 0.4273,
+        "start": 1072.01,
+        "end": 1079.65,
+        "transcript": "Basically, Kisket is a software framework funded by IBM to make it easier for people to get into the world of quantum computing."
+      },
+      {
+        "score": 0.2348,
+        "start": 1079.65,
+        "end": 1083.8,
+        "transcript": "Everything there is free to access and all the code is open source."
+      },
+      {
+        "score": 0.3154,
+        "start": 1083.8,
+        "end": 1087.66,
+        "transcript": "And there's an online textbook which teaches you all of the basics."
+      },
+      {
+        "score": 0.7506,
+        "start": 1087.66,
+        "end": 1090.93,
+        "transcript": "So if you don't have a quantum physics background, that's not a problem at all."
+      },
+      {
+        "score": 0.2284,
+        "start": 1090.93,
+        "end": 1098.38,
+        "transcript": "You can learn everything you need there."
+      },
+      {
+        "score": 0.7583,
+        "start": 1098.38,
+        "end": 1104.23,
+        "transcript": "In terms of quantum algorithms, you can run through examples of quantum circuits using their online tools."
+      },
+      {
+        "score": 0.6531,
+        "start": 1104.23,
+        "end": 1116.62,
+        "transcript": "And if you want to run your own quantum programs, you can download their open source SDK and run them on IBM hardware, either on classical simulators or quantum computers or on actual real world quantum computers."
+      },
+      {
+        "score": 0.0946,
+        "start": 1116.62,
+        "end": 1117.66,
+        "transcript": "all for free."
+      },
+      {
+        "score": 0.3362,
+        "start": 1117.66,
+        "end": 1121.61,
+        "transcript": "Also, the SDK is not only tied to IBM hardware."
+      },
+      {
+        "score": 0.6824,
+        "start": 1121.61,
+        "end": 1131.77,
+        "transcript": "I used to work at another quantum computer company called D-Wave and there's an interface to their computers as well in the SDK if you want to learn about their approach called quantum annealing."
+      },
+      {
+        "score": 0.154,
+        "start": 1131.77,
+        "end": 1134.02,
+        "transcript": "and many other companies that are available too."
+      },
+      {
+        "score": 0.6494,
+        "start": 1134.02,
+        "end": 1148.41,
+        "transcript": "Personally I've been using their website to learn game model quantum computing deeper because my background is in quantum annealing and I'm super happy that this educational resource exists and is free to use so please check that out if you want to dig deeper."
+      },
+      {
+        "score": 0.1271,
+        "start": 1148.41,
+        "end": 1156.88,
+        "transcript": "Finally, I just want to state that I've had complete editorial control over the content in this video, and my goal is always to be as objective as I can."
+      },
+      {
+        "score": 0.6325,
+        "start": 1156.88,
+        "end": 1168.78,
+        "transcript": "I just want to make sure you know that Kiscit is funded by IBM, who are building quantum computers, and I used to work for a D-Wave who are also making other kinds of quantum computers, just for transparency so you know everyone's backgrounds."
+      },
+      {
+        "score": 0.992,
+        "start": 1168.78,
+        "end": 1172.47,
+        "transcript": "Right, back to the models of quantum computing."
+      }
+    ],
+    "segment_count": 26
+  },
+  {
+    "name": "The Okay",
+    "start": 1169,
+    "original_name": "quantum computing",
+    "score": 2.663507017504519,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7303,
+        "start": 1172.47,
+        "end": 1186.26,
+        "transcript": "We've already looked at the circuit model, but closely related to it is measurement based on one-way quantum computing, which involves setting up an initial entangled state and then measuring qubits one by one during the computation."
+      },
+      {
+        "score": 0.5204,
+        "start": 1186.26,
+        "end": 1190.36,
+        "transcript": "And mathematically, this has been shown to be equivalent to the circuit model."
+      },
+      {
+        "score": 0.8414,
+        "start": 1190.36,
+        "end": 1196.12,
+        "transcript": "Now let's look at the models I'm most familiar with, adiabatic quantum computing and quantum annealing."
+      },
+      {
+        "score": 0.7859,
+        "start": 1196.12,
+        "end": 1200.35,
+        "transcript": "Adiabatic quantum computing works in a very different way to the circuit model."
+      },
+      {
+        "score": 0.6907,
+        "start": 1200.35,
+        "end": 1211.2,
+        "transcript": "In adiabatic quantum computing, you're taking advantage of one of the fundamental behaviors in physics, the fact that every system in physics always moves towards the minimum energy state."
+      },
+      {
+        "score": 0.7585,
+        "start": 1211.2,
+        "end": 1224.2,
+        "transcript": "This is a very general principle and adiabatic quantum computing takes advantage of this by posing the problems you want solved in such a way so that the minimum energy state of the quantum system is the answer to the problem."
+      },
+      {
+        "score": 0.6051,
+        "start": 1224.2,
+        "end": 1232.11,
+        "transcript": "You can picture this as an energy landscape where each point on the landscape is one of the potential outputs of the computer."
+      },
+      {
+        "score": 0.6927,
+        "start": 1232.11,
+        "end": 1242.88,
+        "transcript": "In adiabatic quantum computing you start off with a flat landscape and gradually introduce the energy landscape of your problem where the answer to your problem is the lowest position on the map."
+      },
+      {
+        "score": 0.7357,
+        "start": 1242.88,
+        "end": 1252.08,
+        "transcript": "If you do this slowly enough the quantum computer will always stay in the lowest energy state so that when you measure it you're most likely to get the correct answer."
+      },
+      {
+        "score": 0.2773,
+        "start": 1252.08,
+        "end": 1259.21,
+        "transcript": "I should mention that I'm having to simplify things a bit here to make it easier to understand, but it gives you the right picture of what's going on."
+      },
+      {
+        "score": 0.6458,
+        "start": 1259.21,
+        "end": 1265.07,
+        "transcript": "In reality, I'd need to talk about Hamiltonians and eigenstates, but that's beyond the scope of this video."
+      },
+      {
+        "score": 0.5154,
+        "start": 1265.07,
+        "end": 1275.08,
+        "transcript": "Even though adiabatic bond computing is so different to the circuit model, they have been shown to be mathematically equivalent, and problems can be mapped from one to the other."
+      },
+      {
+        "score": 0.7796,
+        "start": 1275.08,
+        "end": 1283.78,
+        "transcript": "And they're both something called a universal quantum computing scheme, which means that theoretically they can simulate any quantum system."
+      },
+      {
+        "score": 0.6541,
+        "start": 1283.78,
+        "end": 1298.63,
+        "transcript": "Strongly related to adiabatic quantum computing is quantum annealing, which is not a universal quantum computing scheme but works on the same principle as adiabatic quantum computing, with the system finding the minimum energy state of an energy landscape that you give it."
+      },
+      {
+        "score": 0.5554,
+        "start": 1298.63,
+        "end": 1306.15,
+        "transcript": "The reason it's not universal is because it doesn't have the full degrees of freedom to represent any quantum state."
+      },
+      {
+        "score": 0.753,
+        "start": 1306.15,
+        "end": 1319.45,
+        "transcript": "But even with this limitation, it can still be used to solve certain energy landscape problems like optimization problems and simulate certain quantum systems, an example of spin glasses, which are grids of magnetic fields connected to each other."
+      },
+      {
+        "score": 0.8531,
+        "start": 1319.45,
+        "end": 1325.06,
+        "transcript": "And quantum annealing is the stepping stone to building a universal adiabatic quantum computer."
+      },
+      {
+        "score": 0.7478,
+        "start": 1325.06,
+        "end": 1347.16,
+        "transcript": "The last model we're going to look at is called topological quant computing, which is currently the most theoretical model of quant computing, because it builds its qubits from an entity in physics called a Magirana zero mode quasi-particle, which is a type of non-abelian anion, which is a bit of a mouthful and obviously quite confusing."
+      },
+      {
+        "score": 0.5177,
+        "start": 1347.16,
+        "end": 1351.38,
+        "transcript": "But the important term here is a quasi-particle."
+      },
+      {
+        "score": 0.6716,
+        "start": 1351.38,
+        "end": 1356.39,
+        "transcript": "Quase particles aren't fundamental particles like atoms or electrons or photons."
+      },
+      {
+        "score": 0.5992,
+        "start": 1356.39,
+        "end": 1361.2,
+        "transcript": "Quase particles are created from the collected behavior of many particles together."
+      },
+      {
+        "score": 0.5774,
+        "start": 1361.2,
+        "end": 1365.93,
+        "transcript": "And end up having particle-like properties despite not being actually real."
+      },
+      {
+        "score": 0.5433,
+        "start": 1365.93,
+        "end": 1369.34,
+        "transcript": "The clearest example of this is an electron hole."
+      },
+      {
+        "score": 0.5271,
+        "start": 1369.34,
+        "end": 1377.76,
+        "transcript": "If you have a grid of an electron with a gap in the middle, as the electrons fill in the gap, it looks like this hole moves in the opposite direction."
+      },
+      {
+        "score": 0.3383,
+        "start": 1377.76,
+        "end": 1385.37,
+        "transcript": "This hole isn't real, it's just a hole, but you can treat it like a particle with particle-like properties."
+      },
+      {
+        "score": 0.282,
+        "start": 1385.37,
+        "end": 1400.69,
+        "transcript": "In cadence matter physics, there are a large range of different kinds of quasi-particle, and a Madurana zero mode quasi-particle is an entity that's been theoretically predicted, but there's still significant debate over whether they've actually been experimentally observed or not."
+      },
+      {
+        "score": 0.6919,
+        "start": 1400.69,
+        "end": 1413.6,
+        "transcript": "Now the reason why physicists are excited about this model is because these quasi particles are predicted to be a lot more stable than other qubits, because they're made from parts which are physically separated from each other."
+      },
+      {
+        "score": 0.7662,
+        "start": 1413.6,
+        "end": 1426.68,
+        "transcript": "This is good because the main source of failure in a quantum computer is noise, which comes from rogue forms of energy creeping into the quantum computer, making the qubits drift away from where they should be and causing errors."
+      },
+      {
+        "score": 0.5362,
+        "start": 1426.68,
+        "end": 1431.62,
+        "transcript": "But these quasi particles are special because they're protected from the noise by an energy gap."
+      },
+      {
+        "score": 0.2784,
+        "start": 1431.62,
+        "end": 1437.93,
+        "transcript": "Basically what this means is it takes a certain amount of energy to bring the parts of a margarana particle back together."
+      },
+      {
+        "score": 0.3766,
+        "start": 1437.93,
+        "end": 1444.86,
+        "transcript": "So any perturbations of noise which have a lower energy than that energy gap is not felt by the quasi particle."
+      },
+      {
+        "score": 0.1766,
+        "start": 1444.86,
+        "end": 1448.58,
+        "transcript": "This might have been a bit confusing, but that's okay."
+      },
+      {
+        "score": 0.3107,
+        "start": 1448.58,
+        "end": 1453.77,
+        "transcript": "I'm still getting my head around them too, but that's the best boiled down description I could come up with."
+      },
+      {
+        "score": 0.9659,
+        "start": 1453.77,
+        "end": 1458.58,
+        "transcript": "Okay, so that runs up the different models of quantum computation."
+      },
+      {
+        "score": 0.2547,
+        "start": 1458.58,
+        "end": 1460.52,
+        "transcript": "But how do you actually build them?"
+      },
+      {
+        "score": 0.7946,
+        "start": 1460.52,
+        "end": 1469.54,
+        "transcript": "There are a huge range of different physical implementations of quantum computers because there's so many different quantum systems that you could potentially build them from."
+      },
+      {
+        "score": 0.783,
+        "start": 1469.54,
+        "end": 1473.56,
+        "transcript": "The requirements to build a qubit is actually fairly simple."
+      },
+      {
+        "score": 0.6008,
+        "start": 1473.56,
+        "end": 1480.61,
+        "transcript": "All you need is a two-state quantum system where one state will represent zero and the other will represent one."
+      },
+      {
+        "score": 0.4642,
+        "start": 1480.61,
+        "end": 1485.02,
+        "transcript": "The most obvious example of this is the spin of a particle, the spin can be up or down."
+      },
+      {
+        "score": 0.5888,
+        "start": 1485.02,
+        "end": 1488.98,
+        "transcript": "But as we should see, there are many properties of particles we can use."
+      },
+      {
+        "score": 0.3165,
+        "start": 1488.98,
+        "end": 1499.38,
+        "transcript": "In fact, there are too many for me to list them all, so I'm just going to focus on the implementations that are the most widely used and have been the most successful so far."
+      },
+      {
+        "score": 0.2771,
+        "start": 1499.38,
+        "end": 1506.08,
+        "transcript": "But no matter what the approaches, they all face a similar set of obstacles, which we need to take a look at first."
+      },
+      {
+        "score": 0.7844,
+        "start": 1506.08,
+        "end": 1514.41,
+        "transcript": "In general, it's really hard to control quantum systems, because if you've got any slight interaction with the outside world, the information starts leaking away."
+      },
+      {
+        "score": 0.4329,
+        "start": 1514.41,
+        "end": 1516.7,
+        "transcript": "This is called decoherence."
+      },
+      {
+        "score": 0.6669,
+        "start": 1516.7,
+        "end": 1523.29,
+        "transcript": "You want your qubits to be entangled with each other, but you don't want them to be entangled with anything else."
+      },
+      {
+        "score": 0.9102,
+        "start": 1523.29,
+        "end": 1530.14,
+        "transcript": "But the trouble is your qubits will be made of physical stuff, and you'll need other physical stuff nearby to control and measure them."
+      },
+      {
+        "score": 0.7989,
+        "start": 1530.14,
+        "end": 1533.8,
+        "transcript": "And your qubits are dumb, they'll entangle with anything they can see."
+      },
+      {
+        "score": 0.8666,
+        "start": 1533.8,
+        "end": 1539.95,
+        "transcript": "So you need to design your qubits very carefully to protect them from entangling with the environment."
+      },
+      {
+        "score": 0.7339,
+        "start": 1539.95,
+        "end": 1550.34,
+        "transcript": "Then you need to shield your qubits from any kind of noise, things like cosmic rays or radiation from things like phone calls or heat energy or any other kind of rogue particle."
+      },
+      {
+        "score": 0.3959,
+        "start": 1550.34,
+        "end": 1559.31,
+        "transcript": "Unfortunately, some amount of decoherence and noise is inevitable in any physical system and is impossible to eliminate completely."
+      },
+      {
+        "score": 0.778,
+        "start": 1559.31,
+        "end": 1563.51,
+        "transcript": "And it gets worse the more qubits you have entangled with each other."
+      },
+      {
+        "score": 0.8607,
+        "start": 1563.51,
+        "end": 1568.06,
+        "transcript": "This is the big open question still hanging over the whole field of quantum computing."
+      },
+      {
+        "score": 0.7567,
+        "start": 1568.06,
+        "end": 1576.88,
+        "transcript": "Is it ever possible to make a working quantum computer with a large number of qubits or will decoherence and noise ruin everything?"
+      },
+      {
+        "score": 0.2439,
+        "start": 1576.88,
+        "end": 1583.41,
+        "transcript": "There are strong opinions on both sides and I guess we won't know for sure until we actually build them."
+      },
+      {
+        "score": 0.6299,
+        "start": 1583.41,
+        "end": 1588.06,
+        "transcript": "One plan to deal with decoherence and noise is quantum error correction."
+      }
+    ],
+    "segment_count": 55
+  },
+  {
+    "name": "The Physicists",
+    "start": 1584,
+    "original_name": "using many entangled qubits together",
+    "score": 3.4047549380166187,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7111,
+        "start": 1588.06,
+        "end": 1597.38,
+        "transcript": "This is an error correction scheme to make fault tolerant quantum computers by using many entangled qubits together to represent one noise free qubit."
+      },
+      {
+        "score": 0.5849,
+        "start": 1597.38,
+        "end": 1610.77,
+        "transcript": "How many you need to group together depends on how good the qubits are, but estimates are in the range of a hundred to a thousand physical qubits to make one fault tolerant qubit, which is a lot of qubits."
+      },
+      {
+        "score": 0.4102,
+        "start": 1610.77,
+        "end": 1615.07,
+        "transcript": "and this brings us to another major obstacle, scalability."
+      },
+      {
+        "score": 0.8517,
+        "start": 1615.07,
+        "end": 1620.09,
+        "transcript": "For each qubit, you need to have a bunch of wires to manipulate and measure it."
+      },
+      {
+        "score": 0.7716,
+        "start": 1620.09,
+        "end": 1622.79,
+        "transcript": "For a small number of qubits, this is all manageable."
+      },
+      {
+        "score": 0.9071,
+        "start": 1622.79,
+        "end": 1630.8,
+        "transcript": "But as the number of qubits increases, the amounts of extra stuff you need increases linearly, which is a massive engineering problem."
+      },
+      {
+        "score": 0.9202,
+        "start": 1630.8,
+        "end": 1639.27,
+        "transcript": "So any quantum computer design needs to somehow be able to entangle all of the qubits and then control and measure them in a scalable way."
+      },
+      {
+        "score": 0.9331,
+        "start": 1639.27,
+        "end": 1643.64,
+        "transcript": "So those are all the problems with building a real quantum computer."
+      },
+      {
+        "score": 0.3314,
+        "start": 1643.64,
+        "end": 1648.33,
+        "transcript": "Let's now take a look at the different approaches scientists are pursuing."
+      },
+      {
+        "score": 0.8891,
+        "start": 1648.33,
+        "end": 1653.04,
+        "transcript": "Superconducting quantum computers are currently the most popular approach."
+      },
+      {
+        "score": 0.7589,
+        "start": 1653.04,
+        "end": 1661.33,
+        "transcript": "A superconducting qubit is made from superconducting wires with a break in the superconductor called a Josephson Junction."
+      },
+      {
+        "score": 0.6587,
+        "start": 1661.33,
+        "end": 1676.15,
+        "transcript": "The most popular type of superconducting qubit is called a transmon, where the two energy level system is encoded in pairs of the electric charge moving across the junction, specifically the frequency at which charges oscillate back and forth across the junction."
+      },
+      {
+        "score": 0.6746,
+        "start": 1676.15,
+        "end": 1686.4,
+        "transcript": "But there have been other designs that use the magnetic flux in a loop of wire, or the phase across a wire as the two level system, known as a flux qubit or a phase qubit."
+      },
+      {
+        "score": 0.9234,
+        "start": 1686.4,
+        "end": 1694.2,
+        "transcript": "Physicists have also looked at ways of making qubits out of fundamental entities like atoms or electrons or photons."
+      }
+    ],
+    "segment_count": 14
+  },
+  {
+    "name": "The These",
+    "start": 1694,
+    "original_name": "fundamental entities like atoms",
+    "score": 2.8945516077460667,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.9081,
+        "start": 1694.2,
+        "end": 1698.45,
+        "transcript": "Next are quantum dot quantum computers or silicon spin quantum computers."
+      },
+      {
+        "score": 0.7667,
+        "start": 1698.45,
+        "end": 1706.2,
+        "transcript": "Here I'm using quantum dot quantum computers to collect together a range of qubit designs built from semiconductors, things like silicon."
+      },
+      {
+        "score": 0.8216,
+        "start": 1706.2,
+        "end": 1714.75,
+        "transcript": "Here the qubits are made from electrons or even groups of electrons and the two level system is encoded into the spin or charge of the electrons."
+      },
+      {
+        "score": 0.6911,
+        "start": 1714.75,
+        "end": 1720.86,
+        "transcript": "On the chip there's a small area where the electron is restricted to, and this is called a quantum dot."
+      },
+      {
+        "score": 0.8184,
+        "start": 1720.86,
+        "end": 1726.67,
+        "transcript": "And operations on the qubits are performed through voltages on the chip or microwaves or magnetic fields."
+      },
+      {
+        "score": 0.4088,
+        "start": 1726.67,
+        "end": 1735.53,
+        "transcript": "As well as silicon, people have also used other semiconductor materials like gallium arsenide, silicon carbide, and also diamond, amongst others."
+      },
+      {
+        "score": 0.3839,
+        "start": 1735.53,
+        "end": 1737.99,
+        "transcript": "And these have all got different properties."
+      },
+      {
+        "score": 0.823,
+        "start": 1737.99,
+        "end": 1741.67,
+        "transcript": "Next we have linear optical quantum computing."
+      },
+      {
+        "score": 0.696,
+        "start": 1741.67,
+        "end": 1751.42,
+        "transcript": "Optical quantum computers use photons of light as the qubit and they operate on these qubits using optical elements like mirrors, wave plates and interferometers."
+      },
+      {
+        "score": 0.5049,
+        "start": 1751.42,
+        "end": 1757.53,
+        "transcript": "At scale this has been accomplished by printing these elements into integrated photonics chips."
+      },
+      {
+        "score": 0.8097,
+        "start": 1757.53,
+        "end": 1763.34,
+        "transcript": "The two level system in an optical quantum computer can have different designs."
+      },
+      {
+        "score": 0.6149,
+        "start": 1763.34,
+        "end": 1773.37,
+        "transcript": "Either a superposition of different paths, a single photon takes through the chip, or a superposition of different numbers of photons present in a path."
+      },
+      {
+        "score": 0.5796,
+        "start": 1773.37,
+        "end": 1777.48,
+        "transcript": "And these can be manipulated by applying a voltage to a path."
+      },
+      {
+        "score": 0.8356,
+        "start": 1777.48,
+        "end": 1783.64,
+        "transcript": "Now onto trapped ion quantum computers which use charged atoms as the qubits."
+      },
+      {
+        "score": 0.3563,
+        "start": 1783.64,
+        "end": 1793.43,
+        "transcript": "These atoms are ionized having a missing electron which makes them electrically charged and means that they can be levitated and moved about with electromagnetic fields."
+      },
+      {
+        "score": 0.7834,
+        "start": 1793.43,
+        "end": 1803.97,
+        "transcript": "Here the two levels state that encodes the qubits are two specific energy levels of the atom which can be manipulated or measured with microwaves or laser beams."
+      },
+      {
+        "score": 0.7565,
+        "start": 1803.97,
+        "end": 1812.44,
+        "transcript": "Next we have colour centre on nitrogen vacancy quantum computers, which are similar to trapped ion quantum computers, in that the qubits are made from atoms."
+      },
+      {
+        "score": 0.4673,
+        "start": 1812.44,
+        "end": 1821.99,
+        "transcript": "But instead of being trapped in an electromagnetic field, they're embedded in a gap of the material, like nitrogen embedded in diamond or silicon carbide."
+      },
+      {
+        "score": 0.7347,
+        "start": 1821.99,
+        "end": 1831.26,
+        "transcript": "There are a few different ways to make these, but typically the qubits are the nucleus spins of the embedded atoms, and they're entangled together with electrons."
+      },
+      {
+        "score": 0.4817,
+        "start": 1831.26,
+        "end": 1836.11,
+        "transcript": "The final approach is called neutral atoms in optical lattices."
+      },
+      {
+        "score": 0.7482,
+        "start": 1836.11,
+        "end": 1852.42,
+        "transcript": "In this approach, the qubits are atoms, and the design uses cold atom physics, capturing neutral atoms like cesium into an optical lattice, which is a criss-crossed arrangement of laser beams, which form energy wells shaped kind of like an egg box."
+      },
+      {
+        "score": 0.7833,
+        "start": 1852.42,
+        "end": 1859.93,
+        "transcript": "These atoms are cooled down with lasers to a few millions of a Kelvin, and there's a number of ways to encode the two-level system the qubits built from."
+      },
+      {
+        "score": 0.4644,
+        "start": 1859.93,
+        "end": 1866.57,
+        "transcript": "Either the hyperfine energy level of the atom, or excited states, and they can also make use of rideburg atoms."
+      },
+      {
+        "score": 0.7245,
+        "start": 1866.57,
+        "end": 1870.91,
+        "transcript": "And the atoms can be controlled and entangled with each other with lasers."
+      },
+      {
+        "score": 0.9201,
+        "start": 1870.91,
+        "end": 1875.66,
+        "transcript": "They can also be used as quantum simulators, as well as quantum computers."
+      },
+      {
+        "score": 0.7871,
+        "start": 1875.66,
+        "end": 1882.83,
+        "transcript": "In fact, a 10,000 atom quantum simulator has been made, but this doesn't look like a universal quantum computer."
+      },
+      {
+        "score": 0.301,
+        "start": 1882.83,
+        "end": 1888.42,
+        "transcript": "These are the main approaches I'm going to cover in this video, but it's not an exhaustive list."
+      },
+      {
+        "score": 0.8252,
+        "start": 1888.42,
+        "end": 1899.4,
+        "transcript": "Some other qubit designs include electron on helium qubits, cavity quantum electrodynamics, magnetic molecules or molecular spins, and NMR quantum computers."
+      },
+      {
+        "score": 0.5373,
+        "start": 1899.4,
+        "end": 1905.17,
+        "transcript": "But these haven't been built at the same scale as the other approaches I mentioned in more detail."
+      },
+      {
+        "score": 0.8199,
+        "start": 1905.17,
+        "end": 1910.08,
+        "transcript": "So that was the map of quantum computing and that should give you an excellent overview of the field."
+      },
+      {
+        "score": 0.9662,
+        "start": 1910.08,
+        "end": 1913.73,
+        "transcript": "As you can see, there are many different approaches to building a quantum computer."
+      },
+      {
+        "score": 0.2771,
+        "start": 1913.73,
+        "end": 1918.77,
+        "transcript": "And what's so interesting is that it's not yet clear which approach will win out in the long run."
+      },
+      {
+        "score": 0.8519,
+        "start": 1918.77,
+        "end": 1930.47,
+        "transcript": "Now one thing I haven't covered in this video are the companies and startups and which approach they're using along with their current best quantum computers and their roadmaps into the future."
+      }
+    ],
+    "segment_count": 33
+  },
+  {
+    "name": "The And",
+    "start": 1925,
+    "original_name": "current best quantum computers",
+    "score": 1.3883506430006027,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.2363,
+        "start": 1930.47,
+        "end": 1933.18,
+        "transcript": "But this is what I'll look at in the next video."
+      },
+      {
+        "score": 0.0892,
+        "start": 1933.18,
+        "end": 1935.26,
+        "transcript": "So keep your eyes peeled for that."
+      },
+      {
+        "score": 0.0855,
+        "start": 1935.26,
+        "end": 1941.49,
+        "transcript": "You don't need to subscribe or anything, but check back in a couple of weeks if you think you'd be interested."
+      },
+      {
+        "score": 0.2043,
+        "start": 1941.49,
+        "end": 1953.26,
+        "transcript": "And like all of my maps, this mapocond computing is available to buy at mystore.smaps.com or to download as a digital image for educational purposes, links to all of that in the description below."
+      },
+      {
+        "score": 0.1267,
+        "start": 1953.26,
+        "end": 1961.89,
+        "transcript": "Quick note though, due to logistics, we can only get the mapocond computing to you after the holidays, but everything else in my store is ready to go."
+      },
+      {
+        "score": 0.1789,
+        "start": 1961.89,
+        "end": 1967.85,
+        "transcript": "We also have many educational posters and a range of engaging kids' books about science called Professor AstroCat."
+      },
+      {
+        "score": 0.2165,
+        "start": 1967.85,
+        "end": 1974.12,
+        "transcript": "So if you're looking for some gifts that will help your loved ones learn about science, check that out, dustmaps.com."
+      },
+      {
+        "score": 0.0173,
+        "start": 1974.12,
+        "end": 1978.46,
+        "transcript": "Finally, a massive thank you to all of my Patreon supporters."
+      },
+      {
+        "score": 0.0194,
+        "start": 1978.46,
+        "end": 1985.11,
+        "transcript": "As you can probably tell, I put a huge amount of work into these map videos and the support on Patreon is invaluable."
+      },
+      {
+        "score": 0.0,
+        "start": 1985.11,
+        "end": 1987.77,
+        "transcript": "Thank you and I'll see you soon."
+      }
+    ],
+    "segment_count": 10
+  }
+]

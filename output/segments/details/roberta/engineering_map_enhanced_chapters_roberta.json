@@ -1,0 +1,946 @@
+[
+  {
+    "name": "The Pretty",
+    "start": 0,
+    "original_name": "huge influence",
+    "score": 3.526840245914459,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.983,
+        "start": 1.67,
+        "end": 5.37,
+        "transcript": "The field of engineering has a huge influence on how we live our lives."
+      },
+      {
+        "score": 0.8339,
+        "start": 5.37,
+        "end": 19.91,
+        "transcript": "Pretty much everything around us has been engineered in some way, from the infrastructure that keeps countries running, roads, water, energy, to the buildings we live in, to the things we use every day, our devices, books, even the clothes on our backs."
+      }
+    ],
+    "segment_count": 2
+  },
+  {
+    "name": "The Structural",
+    "start": 7,
+    "original_name": "huge influence",
+    "score": 3.8682965255737303,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.9304,
+        "start": 19.91,
+        "end": 29.79,
+        "transcript": "This map of engineering is my attempt to capture all of those different areas of engineering and try and put them all in one place so that we can get our heads around it all."
+      },
+      {
+        "score": 0.0875,
+        "start": 29.79,
+        "end": 35.93,
+        "transcript": "And like all of my maps, you can buy it as a poster from DOSMAPS.com, as well as our Professor AstroCat books."
+      },
+      {
+        "score": 0.9791,
+        "start": 35.93,
+        "end": 42.98,
+        "transcript": "We'll start with civil engineering, which I like to think of as the engineering of big stuff that doesn't move."
+      },
+      {
+        "score": 0.8191,
+        "start": 42.98,
+        "end": 61.98,
+        "transcript": "Civil engineering encompasses large public works like bridges, tunnels, dams, roads, airports, railways, and pipelines for things like water supply and water treatment, as well as a whole host of other infrastructure that helps our countries and economies tick along."
+      },
+      {
+        "score": 0.3387,
+        "start": 61.98,
+        "end": 65.95,
+        "transcript": "Generally, they're built to stay in place and last a long time."
+      },
+      {
+        "score": 0.647,
+        "start": 65.95,
+        "end": 75.46,
+        "transcript": "Civil engineering was called civil engineering in the past to distinguish it from military engineering, which are both the oldest branches of engineering."
+      },
+      {
+        "score": 0.669,
+        "start": 75.46,
+        "end": 89.32,
+        "transcript": "Early examples of civil engineering projects were related to farming and the control of water sources, but also building settlements, towns, cities and large vanity projects like the Great Pyramids at Giza."
+      },
+      {
+        "score": 0.7479,
+        "start": 89.32,
+        "end": 99.89,
+        "transcript": "Coming back to today, arguably the largest collective engineering projects are our cities, which involve surveying to measure and assess the land on which buildings are built."
+      },
+      {
+        "score": 0.7428,
+        "start": 99.89,
+        "end": 106.96,
+        "transcript": "Architectural engineering, which deals with the design of buildings, including the planning for their construction and operation when inhabited."
+      },
+      {
+        "score": 0.7094,
+        "start": 106.96,
+        "end": 116.67,
+        "transcript": "Structural engineering ensures that buildings are safe and are strong under their own weight and can withstand environmental effects like earthquakes or extreme weather events."
+      },
+      {
+        "score": 0.8039,
+        "start": 116.67,
+        "end": 121.28,
+        "transcript": "Structural engineering doesn't just apply to buildings, but any structures humans build."
+      },
+      {
+        "score": 0.6276,
+        "start": 121.28,
+        "end": 126.8,
+        "transcript": "For example, it's a key part of building dams to withstand the large pressure of water behind them."
+      },
+      {
+        "score": 0.6845,
+        "start": 126.8,
+        "end": 133.6,
+        "transcript": "Most civil engineering projects need large amounts of surface materials like soil or rock to be moved."
+      },
+      {
+        "score": 0.7074,
+        "start": 133.6,
+        "end": 136.21,
+        "transcript": "And this processing is called Earthworks."
+      },
+      {
+        "score": 0.8029,
+        "start": 136.21,
+        "end": 147.54,
+        "transcript": "And geological engineering applies geological science to support other engineering projects, assessing the geological suitability for large projects, things like dams or mining sites amongst others."
+      },
+      {
+        "score": 0.7663,
+        "start": 147.54,
+        "end": 157.28,
+        "transcript": "And understanding corrosion and the breakdown of materials over time is really important to make sure that systems are maintained and don't have catastrophic failures."
+      }
+    ],
+    "segment_count": 16
+  },
+  {
+    "name": "The Bioengineering",
+    "start": 157,
+    "original_name": "understanding corrosion",
+    "score": 5.773559680557251,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.7059,
+        "start": 157.28,
+        "end": 163.95,
+        "transcript": "This is a good time to point out that engineering bikes' very nature is largely cross-disciplinary."
+      },
+      {
+        "score": 0.4037,
+        "start": 163.95,
+        "end": 169.53,
+        "transcript": "Where just about everything on this map will also involve many other areas of this map."
+      },
+      {
+        "score": 0.7482,
+        "start": 169.53,
+        "end": 175.18,
+        "transcript": "For example, the planning of building a building falls under the remit of architectural engineering."
+      },
+      {
+        "score": 0.7593,
+        "start": 175.18,
+        "end": 191.06,
+        "transcript": "But it will also draw on structural engineering for the physical integrity of the building, which also draws on materials engineering for the properties of the materials the building will be built from, which in turn these materials will have been developed using techniques from chemical engineering."
+      },
+      {
+        "score": 0.9629,
+        "start": 191.06,
+        "end": 202.29,
+        "transcript": "Then the systems inside a building will draw on mechanical engineering for air conditioning and elevators and electrical engineering for lights and power and computer engineering to control everything and for security."
+      },
+      {
+        "score": 0.4456,
+        "start": 202.29,
+        "end": 211.94,
+        "transcript": "So even though I've had to separate everything into categories in this map, please remember that in reality there are strong connections between all of these areas."
+      },
+      {
+        "score": 0.0918,
+        "start": 211.94,
+        "end": 218.03,
+        "transcript": "So many in fact that I wasn't able to draw them all out as it would just turn into a giant mess."
+      },
+      {
+        "score": 0.717,
+        "start": 218.03,
+        "end": 220.28,
+        "transcript": "OK, back to civil engineering."
+      },
+      {
+        "score": 0.7753,
+        "start": 220.28,
+        "end": 230.84,
+        "transcript": "Agricultural engineering and bio systems engineering apply engineering science to agricultural purposes to improve the efficiency and yield of farms growing food."
+      },
+      {
+        "score": 0.5026,
+        "start": 230.84,
+        "end": 241.8,
+        "transcript": "It also applies to businesses in the bioeconomy growing crops for things like biofuel and is also used with the goal of increasing the sustainability of these processes."
+      },
+      {
+        "score": 0.7629,
+        "start": 241.8,
+        "end": 252.25,
+        "transcript": "Environmental engineering looks at ways of improving the quality of the environment for living organisms by finding ways to reduce pollution in the ground, water and air."
+      },
+      {
+        "score": 0.6021,
+        "start": 252.25,
+        "end": 266.51,
+        "transcript": "And also looks at the best ways of managing the waste material humanity produces, controlling landfill or the safe containment of hazardous waste like chemical or radioactive waste or how to recycle materials to be reused again."
+      },
+      {
+        "score": 0.8519,
+        "start": 266.51,
+        "end": 278.53,
+        "transcript": "The power and energy systems applying our electricity also fall under civil engineering, as well as the many different power stations which produce the energy, like nuclear power plants and others."
+      },
+      {
+        "score": 0.8496,
+        "start": 278.53,
+        "end": 295.21,
+        "transcript": "Closely related is petroleum engineering, which involves the exploration and exploitation of oil reserves, which also supply power stations, as well as turning the oil into various petroleum products like gasoline, aircraft fuel, and anything made out of plastic."
+      },
+      {
+        "score": 0.7457,
+        "start": 295.21,
+        "end": 299.32,
+        "transcript": "but now we've wandered into the realms of chemical engineering."
+      },
+      {
+        "score": 0.8425,
+        "start": 299.32,
+        "end": 304.73,
+        "transcript": "I like to think of chemical engineering as the shuffling about of molecular bonds."
+      },
+      {
+        "score": 0.7772,
+        "start": 304.73,
+        "end": 313.68,
+        "transcript": "Chemical engineering deals with developing methods to convert raw materials into useful materials that can be used for many different commercial purposes."
+      },
+      {
+        "score": 0.7514,
+        "start": 313.68,
+        "end": 320.51,
+        "transcript": "It involves the design, building an operation of chemical process plants which create the useful materials."
+      },
+      {
+        "score": 0.6074,
+        "start": 320.51,
+        "end": 330.06,
+        "transcript": "One example is taking the raw materials from mining operations and processing that material to create pure chemicals, for example lithium for the battery industry."
+      },
+      {
+        "score": 0.7683,
+        "start": 330.06,
+        "end": 335.7,
+        "transcript": "Just about all of the products we buy have some kind of chemical engineering involved in their production."
+      },
+      {
+        "score": 0.4989,
+        "start": 335.7,
+        "end": 342.63,
+        "transcript": "The food we eat is likely to have been fertilized with nitrogen fertilizer, a product of the chemical engineering industry."
+      },
+      {
+        "score": 0.7772,
+        "start": 342.63,
+        "end": 353.54,
+        "transcript": "Also, the chemicals that make cosmetic products, paper products made from trees, anything made of plastic, metal or ceramic have had some kind of chemical engineering involved in their materials."
+      },
+      {
+        "score": 0.3011,
+        "start": 353.54,
+        "end": 359.59,
+        "transcript": "Even things made of wood have mostly had some kind of chemical treatment be it a stain or varnish."
+      },
+      {
+        "score": 0.5566,
+        "start": 359.59,
+        "end": 372.36,
+        "transcript": "Another example of the clothes we wear, which go through a process to convert raw materials like cotton, wool or plastics into woven, flexible materials that can be tailored into stylish garb."
+      },
+      {
+        "score": 0.8612,
+        "start": 372.36,
+        "end": 381.0,
+        "transcript": "And of course, chemical engineering creates commodity and speciality chemicals which are used for all kinds of commercial and industrial processes."
+      },
+      {
+        "score": 0.6896,
+        "start": 381.0,
+        "end": 403.76,
+        "transcript": "Finally, everyone's favourite chemical engineering, fermentation, which straddles the line between chemical engineering and bioengineering, is it uses biological organisms, yeasts and bacteria to create the tasty booze humans are somewhat enamoured with, as well as delicious things like tea, coffee, chocolate, bread, yogurt, kimchi, and natto amongst many others."
+      },
+      {
+        "score": 0.4676,
+        "start": 403.76,
+        "end": 414.7,
+        "transcript": "And industrial fermentation harnesses microbes for the large-scale production of chemicals like biofuels, enzymes, proteins, and pharmaceutical drugs."
+      },
+      {
+        "score": 0.79,
+        "start": 414.7,
+        "end": 421.77,
+        "transcript": "Bioengineering or biological engineering combines the knowledge and principles of biology with engineering."
+      },
+      {
+        "score": 0.7336,
+        "start": 421.77,
+        "end": 437.77,
+        "transcript": "This has two main approaches either by harnessing biological systems or designing systems for use in cooperation or within biological systems, many of which are used in the field of biomedical engineering which is the part that's focused on medicine."
+      },
+      {
+        "score": 0.7321,
+        "start": 437.77,
+        "end": 460.27,
+        "transcript": "Biological engineers can use biological systems, cells, bacteria, viruses, and manipulate their behaviour or genetics for specific purposes, for example, engineering the metabolic pathway of bacteria to create specific chemicals or biomolecules, or the manufacture of vaccines or antibiotics or drugs which fall under the remit of bio-pharmaceuticals."
+      },
+      {
+        "score": 0.736,
+        "start": 460.27,
+        "end": 473.93,
+        "transcript": "Other applications of bioengineering include tissue engineering where the task is to create biological tissues that can be used to restore or replace damaged tissues or in the most advanced cases whole organs."
+      },
+      {
+        "score": 0.8118,
+        "start": 473.93,
+        "end": 484.8,
+        "transcript": "In the realm of biomedical engineering is the fabrication of prosthetics which are designed to replace a missing body part or to increase functionality or freedom of movement."
+      },
+      {
+        "score": 0.783,
+        "start": 484.8,
+        "end": 491.89,
+        "transcript": "Inside the body, implantable medical devices like artificial hearts or pacemakers also fall within biomedical engineering."
+      },
+      {
+        "score": 0.6905,
+        "start": 491.89,
+        "end": 502.5,
+        "transcript": "And finally, there are the creation of tools to help the medical field, including medical imaging technology and diagnostic devices to detect various ailments."
+      },
+      {
+        "score": 0.8103,
+        "start": 502.5,
+        "end": 505.75,
+        "transcript": "Now onto mechanical engineering."
+      },
+      {
+        "score": 0.9197,
+        "start": 505.75,
+        "end": 510.61,
+        "transcript": "You can think of mechanical engineering as the engineering of things that move."
+      },
+      {
+        "score": 0.9305,
+        "start": 510.61,
+        "end": 519.99,
+        "transcript": "But actually, I think it might be the engineering of energy because so much of it involves converting one form of energy to another to do something useful."
+      },
+      {
+        "score": 0.7778,
+        "start": 519.99,
+        "end": 532.25,
+        "transcript": "Mechanical engineering involves the design, production and operation of machines with moving parts like wheels, levers, gears, pumps, but these moving parts need to be powered in some way by some form of energy."
+      },
+      {
+        "score": 0.6389,
+        "start": 532.25,
+        "end": 549.77,
+        "transcript": "The familiar example are engines, which burn a fuel source like coal or gasoline, which releases the chemical energy and turns it into motion, which then can be harnessed for any other kind of motion through other mechanical devices like gears, chain drives, and all other kinds of transportation products."
+      },
+      {
+        "score": 0.6303,
+        "start": 549.77,
+        "end": 557.07,
+        "transcript": "Also, engineering, the word engineering has the same root in Latin as ingenuity."
+      }
+    ],
+    "segment_count": 40
+  },
+  {
+    "name": "The Software",
+    "start": 550,
+    "original_name": "mechanical devices like gears",
+    "score": 4.00421846280098,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.8167,
+        "start": 557.07,
+        "end": 568.98,
+        "transcript": "And engineering means the product of ingenuity, which I really like and I think kind of applies to this whole map, engineering builds products of ingenuity."
+      },
+      {
+        "score": 0.5621,
+        "start": 568.98,
+        "end": 588.12,
+        "transcript": "Anyway, other examples of energy converting machines are turbines which convert mechanical movement into electrical energy, like in wind turbines or dams, generators turn chemical energy into electrical energy by burning some kind of fuel, and motors which turn electrical energy into mechanical motion."
+      },
+      {
+        "score": 0.6816,
+        "start": 588.12,
+        "end": 593.73,
+        "transcript": "All of these are useful machines designed to convert one kind of energy into another."
+      },
+      {
+        "score": 0.8366,
+        "start": 593.73,
+        "end": 601.22,
+        "transcript": "Vacuum technology is also a part of mechanical engineering dealing with a pumping of gas from one place to another to change the air pressure."
+      },
+      {
+        "score": 0.4962,
+        "start": 601.22,
+        "end": 608.73,
+        "transcript": "This can create a suction force in the case of vacuum cleaners or create an ultra high vacuum for science experiments."
+      },
+      {
+        "score": 0.4805,
+        "start": 608.73,
+        "end": 616.92,
+        "transcript": "Compressors do a similar but opposite job pumping air or some other gas into a space making the pressure go higher and higher."
+      },
+      {
+        "score": 0.4139,
+        "start": 616.92,
+        "end": 621.95,
+        "transcript": "This is often used to liquefy gases to make them more compact and easier to transport."
+      },
+      {
+        "score": 0.9062,
+        "start": 621.95,
+        "end": 633.99,
+        "transcript": "A large part of mechanical engineering is involved in the process of making large quantities of machines known as industrial engineering or manufacturing, which are aided, of course, by other specialized machines."
+      },
+      {
+        "score": 0.9218,
+        "start": 633.99,
+        "end": 642.58,
+        "transcript": "A familiar example of this is the automotive industry where automotive engineering deals with the design and manufacture of cars and other vehicles."
+      },
+      {
+        "score": 0.8475,
+        "start": 642.58,
+        "end": 652.96,
+        "transcript": "Materials engineering is a core part of mechanical engineering because you want to make your machines out of materials with the right physical properties to perform the tasks you want them to perform."
+      },
+      {
+        "score": 0.3503,
+        "start": 652.96,
+        "end": 656.67,
+        "transcript": "Strength, flexibility, weight, heat, resistance, etc."
+      },
+      {
+        "score": 0.9629,
+        "start": 656.67,
+        "end": 666.8,
+        "transcript": "But even though I've put materials engineering in mechanical engineering, it's actually an important part of everything on this map because everything you build is made of stuff."
+      },
+      {
+        "score": 0.5026,
+        "start": 666.8,
+        "end": 670.11,
+        "transcript": "And you want to make sure it's the best material for the job."
+      },
+      {
+        "score": 0.9796,
+        "start": 670.11,
+        "end": 681.84,
+        "transcript": "Materials engineering also investigates building entirely new materials with novel physical properties not found in other materials, and it's got a long history of revolutionising the world."
+      },
+      {
+        "score": 0.4364,
+        "start": 681.84,
+        "end": 690.27,
+        "transcript": "That's why age is in history called Stone Age Bronze Age or Iron Age, and look at what the invention of plastic has done to the world."
+      },
+      {
+        "score": 0.4723,
+        "start": 690.27,
+        "end": 699.85,
+        "transcript": "Motion is a key function of machines, but sometimes that motion is inadvertently transmitted to places where it's not needed or causes damage."
+      },
+      {
+        "score": 0.5618,
+        "start": 699.85,
+        "end": 713.48,
+        "transcript": "This is where the use of vibration isolation equipment comes in, and non-destructive testing is an important part of manufacturing to test the parts that are being produced without affecting the usability of those parts."
+      },
+      {
+        "score": 0.9201,
+        "start": 713.48,
+        "end": 721.54,
+        "transcript": "And towards bioengineering, we've got robotics and mechatronics, which are the design of more general purpose machines that can help and assist humans."
+      },
+      {
+        "score": 0.5749,
+        "start": 721.54,
+        "end": 732.5,
+        "transcript": "For example, industrial robots on production lines that can be programmed to perform specific tasks, or robots that can replicate human actions or even entirely replace humanity in the future."
+      },
+      {
+        "score": 0.4273,
+        "start": 732.5,
+        "end": 742.11,
+        "transcript": "They also have a range of different sensors to make sense of their environment, and some kind of artificial intelligence to make decisions about what to do next, and guns."
+      },
+      {
+        "score": 0.9345,
+        "start": 742.11,
+        "end": 747.8,
+        "transcript": "Finally, as we get close to electrical engineering, we've got electro-mechanical engineering."
+      },
+      {
+        "score": 0.477,
+        "start": 747.8,
+        "end": 750.23,
+        "transcript": "An area robotics makes heavy use of."
+      },
+      {
+        "score": 0.8105,
+        "start": 750.23,
+        "end": 755.24,
+        "transcript": "It involves the interaction or embedding of electrical systems with mechanical systems."
+      },
+      {
+        "score": 0.8038,
+        "start": 755.24,
+        "end": 763.41,
+        "transcript": "And also we have micro-electro-mechanical systems or MEMS, which covers the technology of microscopic devices with moving parts."
+      },
+      {
+        "score": 0.9537,
+        "start": 763.41,
+        "end": 773.34,
+        "transcript": "Mechanical engineering also finds heavy use in military engineering and weapon systems, where the energy conversion is used for more deadly purposes."
+      },
+      {
+        "score": 0.2429,
+        "start": 773.34,
+        "end": 784.11,
+        "transcript": "In general, humans don't do very well when exposed to high levels of kinetic energy, the basic principle of warfare throughout the ages."
+      },
+      {
+        "score": 0.8412,
+        "start": 784.11,
+        "end": 790.38,
+        "transcript": "Anyway, moving on to more positive uses of mechanical engineering, we come to aerospace engineering."
+      },
+      {
+        "score": 0.7445,
+        "start": 790.38,
+        "end": 803.37,
+        "transcript": "Aerospace engineering is the branch of engineering concerned with the development of aircraft and spacecraft, including design and manufacture of helicopters, rockets or satellites, amongst others, and is highly interdisciplinary."
+      },
+      {
+        "score": 0.7128,
+        "start": 803.37,
+        "end": 816.95,
+        "transcript": "Building a rocket needs knowledge of aerodynamics, propulsion, materials, engineering, avionics, chemical engineering, electrical engineering, computer engineering and control systems all working together flawlessly."
+      },
+      {
+        "score": 0.8986,
+        "start": 816.95,
+        "end": 831.26,
+        "transcript": "There are also lots of applications of mechanical engineering in marine engineering, which involves the engineering of marine vessels like ships, boats and submarines, as well as any ocean-based system or structures like oil rigs and harbours."
+      },
+      {
+        "score": 0.7051,
+        "start": 831.26,
+        "end": 842.09,
+        "transcript": "Marine engineering is closely related to naval engineering or naval architecture, which involves shipbuilding and the design, maintenance and operation of marine vessels and structures."
+      },
+      {
+        "score": 0.7139,
+        "start": 842.09,
+        "end": 852.23,
+        "transcript": "Integral to marine engineering is an understanding of fluid mechanics, how water moves and how things move through water, as well as watercraft propulsion."
+      },
+      {
+        "score": 0.461,
+        "start": 852.23,
+        "end": 857.13,
+        "transcript": "The mechanisms used to create thrust to move marine vessels through the water."
+      },
+      {
+        "score": 0.8457,
+        "start": 857.13,
+        "end": 862.35,
+        "transcript": "Now onto the last big branch of engineering, electrical engineering."
+      },
+      {
+        "score": 0.8013,
+        "start": 862.35,
+        "end": 869.6,
+        "transcript": "Put simply, an electrical engineer wants to control the movement of electrons in solids to make them do useful things."
+      },
+      {
+        "score": 0.8626,
+        "start": 869.6,
+        "end": 881.72,
+        "transcript": "But really, electrical engineering harnesses the fundamental principles of electromagnetism, which, apart from gravity, is basically the only way we perceive and interact with the natural world."
+      },
+      {
+        "score": 0.898,
+        "start": 881.72,
+        "end": 898.66,
+        "transcript": "Electrical engineering is a broad field which utilizes electromagnetism in many different ways, some of which we've already met like power generation and distribution in civil engineering and generators and motors in mechanical engineering which really could also have been drawn in electrical engineering."
+      },
+      {
+        "score": 0.5697,
+        "start": 898.66,
+        "end": 902.13,
+        "transcript": "Telecommunications takes advantage of electromagnetic signals."
+      },
+      {
+        "score": 0.3616,
+        "start": 902.13,
+        "end": 912.81,
+        "transcript": "These can be sent through the air, like with cell phone signals or radio, or through electrons and wires like cable TV, or through electromagnetic waves of light in optical fibers."
+      },
+      {
+        "score": 0.6242,
+        "start": 912.81,
+        "end": 923.26,
+        "transcript": "Today our lives are filled with electronic devices, all of which have electric circuits inside, designed to perform specific useful tasks."
+      },
+      {
+        "score": 0.6271,
+        "start": 923.26,
+        "end": 930.78,
+        "transcript": "Electric circuits are built from a number of basic units like resistors, capacitors, and inductors to produce a range of complex behaviors."
+      },
+      {
+        "score": 0.7895,
+        "start": 930.78,
+        "end": 938.86,
+        "transcript": "This blends into computer engineering, which is a subset of electrical engineering, but is a large enough discipline to have its own section."
+      },
+      {
+        "score": 0.9293,
+        "start": 938.86,
+        "end": 950.64,
+        "transcript": "Before we move on to that, I want to mention systems engineering, which actually is not exclusive to electrical engineering or computer engineering, but anywhere where there's a large complex system of interrelated parts."
+      },
+      {
+        "score": 0.7276,
+        "start": 950.64,
+        "end": 957.25,
+        "transcript": "Like the electronics in a fighter jet, or a computer system, or the power grid, or whole cities."
+      },
+      {
+        "score": 0.7586,
+        "start": 957.25,
+        "end": 962.5,
+        "transcript": "Systems engineering looks at how to design and manage complex systems over their life cycles."
+      },
+      {
+        "score": 0.8828,
+        "start": 962.5,
+        "end": 970.13,
+        "transcript": "I had to put systems engineering somewhere on this map, and this made the most sense to me because many applications involve electric circuits."
+      },
+      {
+        "score": 0.7735,
+        "start": 970.13,
+        "end": 979.21,
+        "transcript": "A related discipline is instrumentation and control engineering, which involves measuring and controlling certain variables in a system."
+      },
+      {
+        "score": 0.472,
+        "start": 979.21,
+        "end": 989.47,
+        "transcript": "These variables are known as process variables and can include things like speed, force, temperature, pressure, rate of flow, humidity and many others."
+      },
+      {
+        "score": 0.4876,
+        "start": 989.47,
+        "end": 996.92,
+        "transcript": "The aim is to measure these process variables and make changes to a system to keep the variables within a desired range."
+      },
+      {
+        "score": 0.6265,
+        "start": 996.92,
+        "end": 1000.25,
+        "transcript": "An example is a thermostat controlling the temperature of your room."
+      },
+      {
+        "score": 0.3566,
+        "start": 1000.25,
+        "end": 1003.58,
+        "transcript": "Or cruise control controlling the speed of your car."
+      },
+      {
+        "score": 0.6084,
+        "start": 1003.58,
+        "end": 1013.53,
+        "transcript": "But these control systems can be incredibly complex like in a fighter jet or in a robot where the robot's computer needs to make decisions based on the data coming in from the sensors."
+      },
+      {
+        "score": 0.846,
+        "start": 1013.53,
+        "end": 1025.73,
+        "transcript": "We also have a few different areas of electrical engineering which focus on specific application areas of electronic devices like broadcast engineering which deals with radio and television broadcasting."
+      },
+      {
+        "score": 0.6872,
+        "start": 1025.73,
+        "end": 1032.99,
+        "transcript": "Audio equipment engineering deals with the devices that detect or create sounds like microphones or loudspeakers."
+      },
+      {
+        "score": 0.715,
+        "start": 1032.99,
+        "end": 1048.16,
+        "transcript": "Audio engineering, also known as sound or recording engineering, involves recording live performances and adjusting the electrical signals through audio devices to equalize volume or mix and process sounds, often for use in the music and entertainment industries."
+      },
+      {
+        "score": 0.842,
+        "start": 1048.16,
+        "end": 1058.71,
+        "transcript": "I've also put acoustical engineering here, which isn't actually electrical engineering, but I put it here because it's so close to the last two disciplines, because it's all about dealing with sound and vibration."
+      },
+      {
+        "score": 0.5792,
+        "start": 1058.71,
+        "end": 1068.63,
+        "transcript": "He can involve designing concert halls for excellent acoustics, or reducing unwanted noise, called noise control, or the use of ultrasound in medicine."
+      },
+      {
+        "score": 0.9014,
+        "start": 1068.63,
+        "end": 1082.78,
+        "transcript": "Now onto computer engineering, which combines electrical engineering and computer science to develop computer hardware and software to make computers, microcontrollers and other computational electronic devices."
+      },
+      {
+        "score": 0.7834,
+        "start": 1082.78,
+        "end": 1089.82,
+        "transcript": "Computer systems engineering looks at how to build computers or computer components to fulfill specific needs."
+      },
+      {
+        "score": 0.5716,
+        "start": 1089.82,
+        "end": 1097.85,
+        "transcript": "For example, high performance computing may require many parallel processors or efficient software to manage tasks."
+      },
+      {
+        "score": 0.7821,
+        "start": 1097.85,
+        "end": 1105.33,
+        "transcript": "Software engineering is responsible for all of the code that runs every computer, every computer program and the entire internet."
+      },
+      {
+        "score": 0.7018,
+        "start": 1105.33,
+        "end": 1116.43,
+        "transcript": "Software engineering is essentially the job of giving computers step-by-step instructions, which can be written in various different programming languages depending on the problem that's being solved."
+      },
+      {
+        "score": 0.7607,
+        "start": 1116.43,
+        "end": 1131.05,
+        "transcript": "Network engineering and computing involves a set of computers either communicating with each other or sharing resources and the design and implementation of that network so that it runs efficiently and carries on working even if sections of the network go down."
+      },
+      {
+        "score": 0.7783,
+        "start": 1131.05,
+        "end": 1140.24,
+        "transcript": "More broadly, network engineering is a key part of telecommunications networks used by telephones, satellites and broadcasting."
+      },
+      {
+        "score": 0.7067,
+        "start": 1140.24,
+        "end": 1154.46,
+        "transcript": "Most engineers working in information engineering or data engineering have a software engineering background and use programming languages to collect and manage large amounts of data and then process that data in ways that give insight about that data."
+      },
+      {
+        "score": 0.4502,
+        "start": 1154.46,
+        "end": 1158.49,
+        "transcript": "Trends, patterns, correlations or predictions."
+      },
+      {
+        "score": 0.7477,
+        "start": 1158.49,
+        "end": 1162.8,
+        "transcript": "The most topical application of information engineering is machine learning and AI."
+      },
+      {
+        "score": 0.682,
+        "start": 1162.8,
+        "end": 1171.75,
+        "transcript": "But summarizing the data and coming up with visualizations is also an important part of information engineering to interpret and understand the results."
+      },
+      {
+        "score": 0.6164,
+        "start": 1171.75,
+        "end": 1177.46,
+        "transcript": "And finally, I want to cover photonics or optical engineering which deals with light."
+      },
+      {
+        "score": 0.3486,
+        "start": 1177.46,
+        "end": 1191.28,
+        "transcript": "How to detect it or generate, transmit or manipulate it for useful purposes like displays, optoelectronic devices like LEDs or solar panels, medical optics, and optical components for scientific research or industry."
+      },
+      {
+        "score": 0.7093,
+        "start": 1191.28,
+        "end": 1199.85,
+        "transcript": "This is a part of electrical engineering because it still deals with electromagnetism, but it is distinct enough because of its focus on light specifically."
+      },
+      {
+        "score": 0.764,
+        "start": 1199.85,
+        "end": 1202.35,
+        "transcript": "So that's the map of engineering."
+      },
+      {
+        "score": 1.0,
+        "start": 1202.35,
+        "end": 1209.54,
+        "transcript": "Hopefully that gives you a good overview of the field and of all the diverse ways that engineering is used to improve our lives."
+      },
+      {
+        "score": 0.1779,
+        "start": 1209.54,
+        "end": 1222.46,
+        "transcript": "By historical standards, we live like royalty and I think it's very easy to take for granted all of our modern luxuries like water electricity, the internet, modern medicine."
+      }
+    ],
+    "segment_count": 74
+  },
+  {
+    "name": "The And",
+    "start": 1212,
+    "original_name": "good overview",
+    "score": 2.1708540922782005,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.7307,
+        "start": 1222.46,
+        "end": 1230.05,
+        "transcript": "So I think sometimes it's good to appreciate the engineers that have step by step built our modern world."
+      },
+      {
+        "score": 0.8761,
+        "start": 1230.05,
+        "end": 1242.97,
+        "transcript": "And if you study engineering, one of the things you learn is the engineering mindset, which is a powerful tool to analyze problems, design solutions, and invent new technology that's never been built before."
+      },
+      {
+        "score": 0.1,
+        "start": 1242.97,
+        "end": 1245.45,
+        "transcript": "This is me on a train."
+      },
+      {
+        "score": 0.0845,
+        "start": 1245.45,
+        "end": 1246.75,
+        "transcript": "What do you think I'm doing?"
+      },
+      {
+        "score": 0.0519,
+        "start": 1246.75,
+        "end": 1248.4,
+        "transcript": "Doom scrolling?"
+      },
+      {
+        "score": 0.0,
+        "start": 1248.4,
+        "end": 1250.32,
+        "transcript": "No, not me, I'm on Brilliant."
+      },
+      {
+        "score": 0.2899,
+        "start": 1250.32,
+        "end": 1261.01,
+        "transcript": "Brilliant is an educational app and website where you can spend your spare moments improving your knowledge and skills at science and mathematics, a much better use of your phone time than the alternatives."
+      },
+      {
+        "score": 0.6426,
+        "start": 1261.01,
+        "end": 1263.2,
+        "transcript": "Do they have courses on engineering?"
+      },
+      {
+        "score": 0.5658,
+        "start": 1263.2,
+        "end": 1268.94,
+        "transcript": "They certainly do, as well as physics, mathematics, computer science, and many more related disciplines."
+      },
+      {
+        "score": 0.23,
+        "start": 1268.94,
+        "end": 1276.59,
+        "transcript": "You can do the courses in your own time, at your own pace, and they remember exactly where you were, so you can just jump in and out as much as you like."
+      },
+      {
+        "score": 0.2507,
+        "start": 1276.59,
+        "end": 1283.91,
+        "transcript": "When I find myself reaching for my phone in those spare moments, it's really great to have something productive I can do which is actually improving myself."
+      },
+      {
+        "score": 0.3333,
+        "start": 1283.91,
+        "end": 1289.66,
+        "transcript": "And without too much effort, all of those little slices can quickly add up to you understanding something new."
+      },
+      {
+        "score": 0.3877,
+        "start": 1289.66,
+        "end": 1294.21,
+        "transcript": "It's definitely helped me test my knowledge by being forced to actually solve problems."
+      },
+      {
+        "score": 0.1319,
+        "start": 1294.21,
+        "end": 1296.47,
+        "transcript": "I don't always get them right, but that's okay."
+      },
+      {
+        "score": 0.2465,
+        "start": 1296.47,
+        "end": 1298.84,
+        "transcript": "That's when I learn something new."
+      },
+      {
+        "score": 0.245,
+        "start": 1298.84,
+        "end": 1308.45,
+        "transcript": "If you're interested please go to brilliant.org slash DOS or just click on the link in the description below which lets them know you've come from here and this helps me out a bit too."
+      },
+      {
+        "score": 0.0785,
+        "start": 1308.45,
+        "end": 1313.38,
+        "transcript": "Thanks so much for watching and keeping up with my channel and I'll see you in the next map video."
+      }
+    ],
+    "segment_count": 17
+  }
+]

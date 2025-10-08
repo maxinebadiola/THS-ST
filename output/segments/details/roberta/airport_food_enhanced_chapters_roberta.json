@@ -1,0 +1,1136 @@
+[
+  {
+    "name": "The There",
+    "start": 0,
+    "original_name": "many airports across",
+    "score": 2.5395069175521536,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.1547,
+        "start": 0.49,
+        "end": 1.93,
+        "transcript": "Take a look at these chocolate bars."
+      },
+      {
+        "score": 0.3111,
+        "start": 1.93,
+        "end": 7.16,
+        "transcript": "They're identical, except one cost, 120% more."
+      },
+      {
+        "score": 0.7153,
+        "start": 7.16,
+        "end": 10.57,
+        "transcript": "Because this was bought at the airport."
+      },
+      {
+        "score": 0.5411,
+        "start": 10.57,
+        "end": 16.66,
+        "transcript": "You probably know you're paying a premium, but have you ever realized just how much more?"
+      },
+      {
+        "score": 0.3746,
+        "start": 16.66,
+        "end": 22.11,
+        "transcript": "This burger from Chili's is marked up 46% from its street price."
+      },
+      {
+        "score": 0.7071,
+        "start": 22.11,
+        "end": 30.05,
+        "transcript": "There are so many airports across the U.S. where the management isn't answerable to the broader public."
+      },
+      {
+        "score": 0.5773,
+        "start": 30.05,
+        "end": 34.23,
+        "transcript": "But the problem isn't just that passengers are a captive audience."
+      },
+      {
+        "score": 0.3588,
+        "start": 34.23,
+        "end": 36.31,
+        "transcript": "It's a lack of competition."
+      },
+      {
+        "score": 0.4649,
+        "start": 36.31,
+        "end": 38.53,
+        "transcript": "Like look at this food court."
+      },
+      {
+        "score": 0.4596,
+        "start": 38.53,
+        "end": 44.02,
+        "transcript": "All six of these businesses are operated by the same multi-billion dollar company."
+      },
+      {
+        "score": 0.9195,
+        "start": 44.02,
+        "end": 47.92,
+        "transcript": "So how did airport prices get so high?"
+      },
+      {
+        "score": 0.7777,
+        "start": 47.92,
+        "end": 52.03,
+        "transcript": "And why are some airports raising them even more?"
+      }
+    ],
+    "segment_count": 12
+  },
+  {
+    "name": "The These",
+    "start": 49,
+    "original_name": "airport prices get",
+    "score": 2.8047887017393114,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.7055,
+        "start": 52.03,
+        "end": 61.99,
+        "transcript": "To understand how we got five Starbucks in a single terminal, we need to go back to the early 20th century."
+      },
+      {
+        "score": 0.6478,
+        "start": 61.99,
+        "end": 66.77,
+        "transcript": "When airports looked more like train stations."
+      },
+      {
+        "score": 0.7028,
+        "start": 66.77,
+        "end": 73.22,
+        "transcript": "People complained about airports being overcrowded, dirty, dingy kind of places."
+      },
+      {
+        "score": 0.3484,
+        "start": 73.22,
+        "end": 76.31,
+        "transcript": "The glamour came once you got on the airplane."
+      },
+      {
+        "score": 0.1421,
+        "start": 76.31,
+        "end": 79.73,
+        "transcript": "See how neatly everything is arranged down the tray?"
+      },
+      {
+        "score": 0.7213,
+        "start": 79.73,
+        "end": 83.85,
+        "transcript": "But for the air travel industry to grow, airports needed to improve."
+      },
+      {
+        "score": 0.8199,
+        "start": 83.85,
+        "end": 87.37,
+        "transcript": "They also needed to make money from passengers."
+      },
+      {
+        "score": 0.5222,
+        "start": 87.37,
+        "end": 95.81,
+        "transcript": "They were making money anyway they could, observation decks, oil wells, swimming pools, tennis courts."
+      },
+      {
+        "score": 0.7717,
+        "start": 95.81,
+        "end": 100.91,
+        "transcript": "Some of them began to charge for parking, which became a big money maker eventually."
+      },
+      {
+        "score": 0.4091,
+        "start": 100.91,
+        "end": 102.84,
+        "transcript": "There might be a new stand there."
+      },
+      {
+        "score": 0.7726,
+        "start": 102.84,
+        "end": 106.16,
+        "transcript": "Airports tried things like pay toilets."
+      },
+      {
+        "score": 0.2823,
+        "start": 106.16,
+        "end": 109.04,
+        "transcript": "And every nickel counts, I guess."
+      },
+      {
+        "score": 0.6618,
+        "start": 109.04,
+        "end": 117.59,
+        "transcript": "By the mid 20th century, airports opened restaurants to attract not only passengers, but also those wanting a night out."
+      },
+      {
+        "score": 0.3614,
+        "start": 117.59,
+        "end": 119.83,
+        "transcript": "These were very nice restaurants."
+      },
+      {
+        "score": 0.0,
+        "start": 119.83,
+        "end": 123.03,
+        "transcript": "In my hometown, you would go for an anniversary."
+      },
+      {
+        "score": 0.3552,
+        "start": 123.03,
+        "end": 124.61,
+        "transcript": "People would go there for prom."
+      },
+      {
+        "score": 0.4069,
+        "start": 124.61,
+        "end": 131.7,
+        "transcript": "This postcard described Janet's hometown airport as the Midwest's most distinctive dining and cocktail lounge."
+      },
+      {
+        "score": 0.4331,
+        "start": 131.7,
+        "end": 136.82,
+        "transcript": "And in the 1960s, some new terminals were architectural marvels."
+      },
+      {
+        "score": 0.9177,
+        "start": 136.82,
+        "end": 147.65,
+        "transcript": "These types of amenities were designed to bring people to the airport, maybe inspire them to fly, but also to generate revenue."
+      },
+      {
+        "score": 1.0,
+        "start": 147.65,
+        "end": 150.67,
+        "transcript": "Of course airports are always looking for ways to make more money."
+      }
+    ],
+    "segment_count": 20
+  },
+  {
+    "name": "The Because",
+    "start": 150,
+    "original_name": "course airports",
+    "score": 2.4232980579791246,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.3019,
+        "start": 150.67,
+        "end": 158.2,
+        "transcript": "This was the golden age of flying."
+      },
+      {
+        "score": 0.4451,
+        "start": 158.2,
+        "end": 162.37,
+        "transcript": "But compared to today, not that many people traveled by plane."
+      },
+      {
+        "score": 0.6454,
+        "start": 162.37,
+        "end": 168.24,
+        "transcript": "Because tickets were expensive, it was mostly the wealthy and businessmen that blew."
+      },
+      {
+        "score": 0.5909,
+        "start": 168.24,
+        "end": 173.13,
+        "transcript": "And those who did fly weren't spending much time in airports anyways."
+      },
+      {
+        "score": 0.359,
+        "start": 173.13,
+        "end": 175.91,
+        "transcript": "But that changed in 1978."
+      },
+      {
+        "score": 0.5564,
+        "start": 175.91,
+        "end": 183.1,
+        "transcript": "Congress deregulated the industry, allowing airlines to decide their own rates and routes."
+      },
+      {
+        "score": 0.485,
+        "start": 183.1,
+        "end": 186.47,
+        "transcript": "Soon after, ticket prices fell."
+      },
+      {
+        "score": 0.2839,
+        "start": 186.47,
+        "end": 192.32,
+        "transcript": "deregulation led to literally a frenzy of fair wars."
+      },
+      {
+        "score": 0.3496,
+        "start": 192.32,
+        "end": 194.29,
+        "transcript": "Well, you get what you pay for."
+      },
+      {
+        "score": 0.2799,
+        "start": 194.29,
+        "end": 200.86,
+        "transcript": "You went from getting gourmet meals to getting the bag of pretzels, peanuts, and a soda pop."
+      },
+      {
+        "score": 0.268,
+        "start": 200.86,
+        "end": 202.69,
+        "transcript": "No more free cigarettes."
+      },
+      {
+        "score": 0.3669,
+        "start": 202.69,
+        "end": 209.11,
+        "transcript": "And for those who had grown up in aviation during the golden age, their world was gone."
+      },
+      {
+        "score": 0.4531,
+        "start": 209.11,
+        "end": 216.02,
+        "transcript": "Because as they lowered fears, the service on the airplanes also, as they would put it deteriorated."
+      },
+      {
+        "score": 0.6651,
+        "start": 216.02,
+        "end": 223.83,
+        "transcript": "The number of people flying in the U.S. each year nearly doubled over the next decade thanks to cheaper tickets and bigger planes."
+      },
+      {
+        "score": 0.3995,
+        "start": 223.83,
+        "end": 225.93,
+        "transcript": "I could afford to fly."
+      },
+      {
+        "score": 0.2476,
+        "start": 225.93,
+        "end": 230.7,
+        "transcript": "And if you know about graduate students, they can't afford much of anything."
+      },
+      {
+        "score": 0.6262,
+        "start": 230.7,
+        "end": 237.16,
+        "transcript": "In the 1980s, an increase in connecting flights meant passengers waited longer in the terminal."
+      },
+      {
+        "score": 0.6199,
+        "start": 237.16,
+        "end": 240.5,
+        "transcript": "This big brush in there overwhelmed airport."
+      },
+      {
+        "score": 0.4035,
+        "start": 240.5,
+        "end": 247.41,
+        "transcript": "They could shop at a new stand or eat at a few quick service restaurants, but it wasn't a great experience."
+      },
+      {
+        "score": 0.7116,
+        "start": 247.41,
+        "end": 253.04,
+        "transcript": "Even back then, passengers complained about 50 to 100 percent markups."
+      },
+      {
+        "score": 0.6796,
+        "start": 253.04,
+        "end": 262.89,
+        "transcript": "The airport and the airlines began thinking, well, we need to do something to keep passengers happy while they're sitting here waiting for their connection."
+      },
+      {
+        "score": 0.474,
+        "start": 262.89,
+        "end": 266.74,
+        "transcript": "The solution, malls."
+      },
+      {
+        "score": 0.466,
+        "start": 266.74,
+        "end": 273.13,
+        "transcript": "The Pittsburgh Airport opens in the early 1990s and it catches on immediately."
+      },
+      {
+        "score": 0.6168,
+        "start": 273.13,
+        "end": 281.88,
+        "transcript": "With more than 100 shops and restaurants, Pittsburgh Airport was the first in the US to transform the terminal into a mall."
+      },
+      {
+        "score": 0.779,
+        "start": 281.88,
+        "end": 287.14,
+        "transcript": "It not only makes passengers a lot happier, but it's a great revenue source."
+      },
+      {
+        "score": 0.8563,
+        "start": 287.14,
+        "end": 292.89,
+        "transcript": "Because every one of those shops are going to pay a rental fee to the airport."
+      },
+      {
+        "score": 0.6003,
+        "start": 292.89,
+        "end": 299.21,
+        "transcript": "In fact, the airport's revenue soared 75% within six years according to one report."
+      }
+    ],
+    "segment_count": 27
+  },
+  {
+    "name": "The Nowadays",
+    "start": 296,
+    "original_name": "rental fee",
+    "score": 3.3535908576571942,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.8556,
+        "start": 299.21,
+        "end": 303.51,
+        "transcript": "And the airport achieved that without price hikes."
+      },
+      {
+        "score": 0.5845,
+        "start": 303.51,
+        "end": 305.64,
+        "transcript": "It used a model called street pricing."
+      },
+      {
+        "score": 0.7952,
+        "start": 305.64,
+        "end": 311.46,
+        "transcript": "Basically, what you buy inside the airport should cost the same as outside."
+      },
+      {
+        "score": 0.6625,
+        "start": 311.46,
+        "end": 315.95,
+        "transcript": "The county commissioner even said we're the first airport not to gouge people."
+      },
+      {
+        "score": 0.6545,
+        "start": 315.95,
+        "end": 321.22,
+        "transcript": "The air mall concept was a great one to make a lot more money."
+      },
+      {
+        "score": 0.5762,
+        "start": 321.22,
+        "end": 328.49,
+        "transcript": "Other airports poured tens of millions of dollars into renovations hoping to emulate Pittsburgh's success."
+      },
+      {
+        "score": 0.7474,
+        "start": 328.49,
+        "end": 334.8,
+        "transcript": "And in response to passenger complaints, other airports also followed the street pricing model."
+      },
+      {
+        "score": 0.8516,
+        "start": 334.8,
+        "end": 344.9,
+        "transcript": "But if airports had this policy back in the 90s and early 2000s, why does this chocolate bar cost more than double what you'd pay outside?"
+      },
+      {
+        "score": 0.8153,
+        "start": 344.9,
+        "end": 351.71,
+        "transcript": "Nowadays most US airports use something they call street pricing plus."
+      },
+      {
+        "score": 0.435,
+        "start": 351.71,
+        "end": 357.22,
+        "transcript": "That is, a product street price plus an additional 10 to 15%."
+      },
+      {
+        "score": 0.7557,
+        "start": 357.22,
+        "end": 362.0,
+        "transcript": "The authority that controls the airport sets this price cap."
+      },
+      {
+        "score": 0.2612,
+        "start": 362.0,
+        "end": 367.88,
+        "transcript": "15% a fair and reasonable adjustment for our concession hairs."
+      },
+      {
+        "score": 0.5081,
+        "start": 367.88,
+        "end": 371.61,
+        "transcript": "Businesses aren't supposed to go over this additional percentage."
+      },
+      {
+        "score": 0.8498,
+        "start": 371.61,
+        "end": 376.37,
+        "transcript": "And in most cases, the airport audits prices a few times a year."
+      },
+      {
+        "score": 0.5375,
+        "start": 376.37,
+        "end": 381.38,
+        "transcript": "Under this model, prices should only be a little bit higher."
+      }
+    ],
+    "segment_count": 15
+  },
+  {
+    "name": "The Even",
+    "start": 377,
+    "original_name": "airport audits prices",
+    "score": 2.5944295771500645,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.8242,
+        "start": 381.38,
+        "end": 388.85,
+        "transcript": "But how an airport determined street price can be a bit confusing."
+      },
+      {
+        "score": 0.5181,
+        "start": 388.85,
+        "end": 396.13,
+        "transcript": "That $14 chocolate bar is from LaGuardia in New York City, which is run by the Port Authority of New York and New Jersey."
+      },
+      {
+        "score": 0.6599,
+        "start": 396.13,
+        "end": 404.22,
+        "transcript": "It requires businesses to set prices based on the average of comparable items sold outside the airport, plus an additional 15%."
+      },
+      {
+        "score": 0.4449,
+        "start": 404.22,
+        "end": 409.61,
+        "transcript": "This is what the Port Authority said district market was citing for the chocolate bar."
+      },
+      {
+        "score": 0.2241,
+        "start": 409.61,
+        "end": 413.98,
+        "transcript": "But when we checked in person, we found a different story."
+      },
+      {
+        "score": 0.267,
+        "start": 413.98,
+        "end": 418.48,
+        "transcript": "One location didn't sell this bar at all."
+      },
+      {
+        "score": 0.2944,
+        "start": 418.48,
+        "end": 422.08,
+        "transcript": "The other two sold it for less than district markets said."
+      },
+      {
+        "score": 0.2214,
+        "start": 422.08,
+        "end": 427.62,
+        "transcript": "In response, the port authority didn't say it would be adjusting any prices."
+      },
+      {
+        "score": 0.4744,
+        "start": 427.62,
+        "end": 438.04,
+        "transcript": "Because enforcement and repercussions are lacks, examples abound of companies charging more than 10% to 15% above street price."
+      },
+      {
+        "score": 0.5567,
+        "start": 438.04,
+        "end": 447.03,
+        "transcript": "Let's say Janet flew out of MSP and wanted to buy her favorite airport snack."
+      },
+      {
+        "score": 0.6474,
+        "start": 447.03,
+        "end": 456.82,
+        "transcript": "In August 2025, the Minneapolis St. Paul Airport told Business Insider it uses street price in plus 10%."
+      },
+      {
+        "score": 0.5954,
+        "start": 456.82,
+        "end": 464.59,
+        "transcript": "But at this Hudson news store, Janet would pay 69% more than she would at a wall greens outside the airport."
+      },
+      {
+        "score": 0.531,
+        "start": 464.59,
+        "end": 470.05,
+        "transcript": "A Chick-fil-A chicken biscuit meal costs over 16 percent more."
+      },
+      {
+        "score": 0.3616,
+        "start": 470.05,
+        "end": 476.48,
+        "transcript": "And one of the worst offenders we found was a yogurt marked up 84 percent."
+      },
+      {
+        "score": 0.4279,
+        "start": 476.48,
+        "end": 486.93,
+        "transcript": "A spokesperson from the Metropolitan Airports Commission told Business Insider that locations are audited two times annually or on an as needed basis."
+      },
+      {
+        "score": 0.35,
+        "start": 486.93,
+        "end": 490.22,
+        "transcript": "But it did not comment on the price disparities."
+      },
+      {
+        "score": 0.803,
+        "start": 490.22,
+        "end": 498.43,
+        "transcript": "Even though most airports have a pricing policy, a lack of enforcement means passengers often get a bad deal."
+      }
+    ],
+    "segment_count": 17
+  },
+  {
+    "name": "The And",
+    "start": 494,
+    "original_name": "enforcement means passengers often get",
+    "score": 2.945068267753432,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.7511,
+        "start": 498.43,
+        "end": 509.77,
+        "transcript": "But some in the industry say that charging street prices isn't sustainable, because it's more expensive to rent a business inside an airport."
+      },
+      {
+        "score": 0.4949,
+        "start": 509.77,
+        "end": 516.26,
+        "transcript": "All employees, products, and equipment need to go through security, which increases construction and labor costs."
+      },
+      {
+        "score": 0.3511,
+        "start": 516.26,
+        "end": 522.94,
+        "transcript": "The exact numbers vary, but development reportedly costs 30 to 40 percent more than it does outside."
+      },
+      {
+        "score": 0.7749,
+        "start": 522.94,
+        "end": 527.47,
+        "transcript": "On top of that, some cities set a higher minimum wage for airport workers."
+      },
+      {
+        "score": 0.3697,
+        "start": 527.47,
+        "end": 532.78,
+        "transcript": "And we're also asking you to generally run your business from 4 a.m. to midnight."
+      },
+      {
+        "score": 0.2114,
+        "start": 532.78,
+        "end": 538.52,
+        "transcript": "If you're a pasta place, we're saying, okay, what's for breakfast?"
+      },
+      {
+        "score": 0.9546,
+        "start": 538.52,
+        "end": 541.47,
+        "transcript": "And businesses pay a percentage of their sales to the airport."
+      },
+      {
+        "score": 0.469,
+        "start": 541.47,
+        "end": 543.29,
+        "transcript": "That's part of their rent."
+      },
+      {
+        "score": 0.7533,
+        "start": 543.29,
+        "end": 550.62,
+        "transcript": "The businesses here at the airport pay anywhere between 6 and 20%, but the vast majority are paying between 10 and 16%."
+      },
+      {
+        "score": 0.5277,
+        "start": 550.62,
+        "end": 555.79,
+        "transcript": "But there's one thing that usually doesn't get brought up by these companies."
+      },
+      {
+        "score": 0.3537,
+        "start": 555.79,
+        "end": 558.17,
+        "transcript": "Competition."
+      },
+      {
+        "score": 0.2197,
+        "start": 558.17,
+        "end": 560.44,
+        "transcript": "Or the lack of it."
+      },
+      {
+        "score": 0.7237,
+        "start": 560.44,
+        "end": 568.13,
+        "transcript": "In the U.S., the vast majority of airport food and retail is managed by six large corporations."
+      },
+      {
+        "score": 0.3894,
+        "start": 568.13,
+        "end": 573.14,
+        "transcript": "You might not have heard their names before, but these companies have their footprints everywhere."
+      },
+      {
+        "score": 0.3983,
+        "start": 573.14,
+        "end": 578.37,
+        "transcript": "Worldwide, they operate more than 13,000 locations."
+      },
+      {
+        "score": 0.3913,
+        "start": 578.37,
+        "end": 580.64,
+        "transcript": "Remember this food court?"
+      },
+      {
+        "score": 0.4835,
+        "start": 580.64,
+        "end": 583.36,
+        "transcript": "It's in the Minneapolis St. Paul Airport."
+      },
+      {
+        "score": 0.5286,
+        "start": 583.36,
+        "end": 592.41,
+        "transcript": "It might seem like you have six options, but inside the airport, these restaurants are all operated by one company, HMS Host."
+      },
+      {
+        "score": 0.1936,
+        "start": 592.41,
+        "end": 594.18,
+        "transcript": "And it goes even further."
+      },
+      {
+        "score": 0.4463,
+        "start": 594.18,
+        "end": 602.47,
+        "transcript": "Avolta, the company that owns HMS Host, also owns the duty-free and Hudson news stores at this airport."
+      },
+      {
+        "score": 0.1693,
+        "start": 602.47,
+        "end": 604.27,
+        "transcript": "But even that's not the full picture."
+      },
+      {
+        "score": 0.379,
+        "start": 604.27,
+        "end": 612.59,
+        "transcript": "A store like this prairie market seems like a different business, but it's operated by Hudson under the Avolta umbrella."
+      },
+      {
+        "score": 0.2239,
+        "start": 612.59,
+        "end": 616.19,
+        "transcript": "You can see it advertising Avolta's rewards program."
+      },
+      {
+        "score": 0.7884,
+        "start": 616.19,
+        "end": 619.68,
+        "transcript": "But it's not just this airport."
+      },
+      {
+        "score": 0.3369,
+        "start": 619.68,
+        "end": 624.54,
+        "transcript": "In parts of La Guardia in New York City, you can't escape Avolta's signs."
+      },
+      {
+        "score": 0.3848,
+        "start": 624.54,
+        "end": 638.87,
+        "transcript": "Another big player, OTG, operates 350 locations in North America, including this Chibo Express Gourmet market that sells yogurt for 84% above street price."
+      },
+      {
+        "score": 0.6629,
+        "start": 638.87,
+        "end": 646.68,
+        "transcript": "After we reached out, OTG said it lowered the yogurt's price down to about what you'd pay outside the airport."
+      },
+      {
+        "score": 0.6432,
+        "start": 646.68,
+        "end": 655.03,
+        "transcript": "Many airport businesses have multiple owners, but the large concessionaire is usually the majority stakeholder."
+      },
+      {
+        "score": 0.745,
+        "start": 655.03,
+        "end": 663.85,
+        "transcript": "And because a few big companies have a hand in most of the airports in the country, there's hardly any competition within a terminal."
+      },
+      {
+        "score": 0.4152,
+        "start": 663.85,
+        "end": 669.0,
+        "transcript": "Mergers and acquisitions are consolidating the industry even more."
+      },
+      {
+        "score": 0.9157,
+        "start": 669.0,
+        "end": 675.32,
+        "transcript": "And these companies often advocate for airports to raise their street pricing cap."
+      }
+    ],
+    "segment_count": 31
+  },
+  {
+    "name": "The And",
+    "start": 671,
+    "original_name": "street pricing cap",
+    "score": 2.274105152199666,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.6535,
+        "start": 675.32,
+        "end": 680.69,
+        "transcript": "The Phoenix, Arizona Airport abandoned street pricing entirely in 2019."
+      },
+      {
+        "score": 0.4602,
+        "start": 680.69,
+        "end": 687.35,
+        "transcript": "After two large concessions companies, HMS Host and SSP, asked for the cap to be increased."
+      },
+      {
+        "score": 0.5171,
+        "start": 687.35,
+        "end": 692.3,
+        "transcript": "That means there's theoretically no limit to what businesses charge."
+      },
+      {
+        "score": 0.7774,
+        "start": 692.3,
+        "end": 698.35,
+        "transcript": "But if everyone charges high prices, passengers don't have anywhere else to go."
+      },
+      {
+        "score": 0.4025,
+        "start": 698.35,
+        "end": 701.95,
+        "transcript": "This became more of a problem after 9.11."
+      },
+      {
+        "score": 0.4128,
+        "start": 701.95,
+        "end": 708.28,
+        "transcript": "New security measures greatly increased what's called dwell time."
+      },
+      {
+        "score": 0.2623,
+        "start": 708.28,
+        "end": 711.21,
+        "transcript": "Basically the time spent waiting in the terminal."
+      },
+      {
+        "score": 0.8152,
+        "start": 711.21,
+        "end": 717.54,
+        "transcript": "And studies have shown that for airports, more waiting means more food and retail revenue."
+      },
+      {
+        "score": 0.6878,
+        "start": 717.54,
+        "end": 724.93,
+        "transcript": "about 63% of passengers on the airplane side will make some form of purchase."
+      },
+      {
+        "score": 0.69,
+        "start": 724.93,
+        "end": 731.1,
+        "transcript": "Some of it is based on boredom because the average time spent at an airport is roughly two hours."
+      },
+      {
+        "score": 0.3989,
+        "start": 731.1,
+        "end": 741.23,
+        "transcript": "It is only the very experienced travel that will often go through security with an empty bottle and then take it to a water fountain and fill it up."
+      },
+      {
+        "score": 0.572,
+        "start": 741.23,
+        "end": 758.02,
+        "transcript": "But that is a tiny percentage of passengers The whole goal of moving them through quickly is one to reduce the stress time that they have, but two, provide them with the opportunity to spend more time, post-security, hopefully, supporting the concessions program."
+      },
+      {
+        "score": 0.8293,
+        "start": 758.02,
+        "end": 768.6,
+        "transcript": "For more than two decades airports have capitalized on dwell time, and the concessionaires have made heaps of money."
+      },
+      {
+        "score": 0.5075,
+        "start": 768.6,
+        "end": 774.45,
+        "transcript": "It's usually impossible to get to your gate without walking past food or retail."
+      },
+      {
+        "score": 0.4178,
+        "start": 774.45,
+        "end": 779.1,
+        "transcript": "If you get someone's saliva glands working, they tend to buy more."
+      },
+      {
+        "score": 0.5066,
+        "start": 779.1,
+        "end": 781.47,
+        "transcript": "That's essential to the business model."
+      },
+      {
+        "score": 0.8083,
+        "start": 781.47,
+        "end": 789.52,
+        "transcript": "US airports earn almost half their revenue from non-aeronautical sources, like passengers parking their cars or buying food."
+      },
+      {
+        "score": 0.501,
+        "start": 789.52,
+        "end": 799.13,
+        "transcript": "Diversifying non-aeronautical revenue and getting more of it is really one of our highest priorities to kind of protect ourselves from these unknowns."
+      },
+      {
+        "score": 0.726,
+        "start": 799.13,
+        "end": 805.24,
+        "transcript": "In 2024, US airports made over twice as much food and beverage revenue as they did in 2010."
+      },
+      {
+        "score": 0.688,
+        "start": 805.24,
+        "end": 811.68,
+        "transcript": "So are there any airports in the US where you don't pay a premium?"
+      },
+      {
+        "score": 0.5514,
+        "start": 811.68,
+        "end": 817.31,
+        "transcript": "One of the few that doesn't use street pricing plus is in Portland, Oregon."
+      },
+      {
+        "score": 0.5959,
+        "start": 817.31,
+        "end": 819.67,
+        "transcript": "It's clean street pricing."
+      },
+      {
+        "score": 0.6961,
+        "start": 819.67,
+        "end": 826.3,
+        "transcript": "Whatever they charge downtown and their stores or on their street locations is what they have to charge here at the airport."
+      },
+      {
+        "score": 0.2394,
+        "start": 826.3,
+        "end": 829.24,
+        "transcript": "There are no fees, no additional charges."
+      },
+      {
+        "score": 0.6664,
+        "start": 829.24,
+        "end": 834.52,
+        "transcript": "At PDX, the percentage the airport takes is relative to a business's sales volume."
+      },
+      {
+        "score": 0.4023,
+        "start": 834.52,
+        "end": 845.24,
+        "transcript": "If you're working with them to make them successful and have a financial structure that allows them to flourish, then I don't think they're so against the street pricing cap."
+      },
+      {
+        "score": 0.1801,
+        "start": 845.24,
+        "end": 847.87,
+        "transcript": "And it's been a success."
+      },
+      {
+        "score": 0.5528,
+        "start": 847.87,
+        "end": 853.36,
+        "transcript": "The passenger spend for what we call per-implained passenger at PDX is about $15.03."
+      },
+      {
+        "score": 0.5141,
+        "start": 853.36,
+        "end": 858.8,
+        "transcript": "That's about 20% higher than the average through the nation, which is around $12.50."
+      },
+      {
+        "score": 0.5724,
+        "start": 858.8,
+        "end": 863.05,
+        "transcript": "PDX has used street pricing for decades."
+      },
+      {
+        "score": 0.1934,
+        "start": 863.05,
+        "end": 866.46,
+        "transcript": "The day on doesn't expect the industry to follow suit."
+      },
+      {
+        "score": 0.5584,
+        "start": 866.46,
+        "end": 873.35,
+        "transcript": "I think that airports that don't have the model today, it's hard to turn the dial back."
+      },
+      {
+        "score": 0.6273,
+        "start": 873.35,
+        "end": 878.24,
+        "transcript": "In fact, some airports are moving in the other direction."
+      },
+      {
+        "score": 0.6821,
+        "start": 878.24,
+        "end": 883.28,
+        "transcript": "Since 2010, LAX used street pricing plus 18%."
+      },
+      {
+        "score": 0.6972,
+        "start": 883.28,
+        "end": 892.21,
+        "transcript": "But it removed that cap on most items in 2025 in response to complaints over rising airport minimum wage."
+      },
+      {
+        "score": 0.8925,
+        "start": 892.21,
+        "end": 898.36,
+        "transcript": "And the Airport Restaurant and Retail Association wants flexible pricing."
+      }
+    ],
+    "segment_count": 36
+  },
+  {
+    "name": "The Having",
+    "start": 894,
+    "original_name": "retail association wants flexible pricing",
+    "score": 2.4693317381518227,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.1931,
+        "start": 898.36,
+        "end": 901.35,
+        "transcript": "Or in other words, no limit."
+      },
+      {
+        "score": 0.6357,
+        "start": 901.35,
+        "end": 906.98,
+        "transcript": "It says that overall passenger satisfaction is more important than price."
+      },
+      {
+        "score": 0.6428,
+        "start": 906.98,
+        "end": 914.48,
+        "transcript": "But the six big airport food and retail operators are very focused on increasing profitability."
+      },
+      {
+        "score": 0.5403,
+        "start": 914.48,
+        "end": 924.21,
+        "transcript": "Part of a Volta's long-term strategy is to continuously drive, spend per passenger, and optimize the profitability of our commercial spaces."
+      },
+      {
+        "score": 0.2846,
+        "start": 924.21,
+        "end": 928.92,
+        "transcript": "And so far, it's been quite successful."
+      },
+      {
+        "score": 0.6836,
+        "start": 928.92,
+        "end": 939.29,
+        "transcript": "At a time when everything feels more expensive, some passengers might be reaching a breaking point."
+      },
+      {
+        "score": 0.5537,
+        "start": 939.29,
+        "end": 947.7,
+        "transcript": "JD Powers' 2024 survey of North American airports found that passengers spent less in the terminal than they did a year earlier."
+      },
+      {
+        "score": 0.2225,
+        "start": 947.7,
+        "end": 954.91,
+        "transcript": "It also found that food and beverage prices have been the lowest scoring attribute on its survey for years."
+      },
+      {
+        "score": 0.5771,
+        "start": 954.91,
+        "end": 963.79,
+        "transcript": "In May 2025, members of Congress wrote a letter asking the Federal Trade Commission to investigate concession prices at airports and stadiums."
+      },
+      {
+        "score": 0.6365,
+        "start": 963.79,
+        "end": 971.94,
+        "transcript": "They said that with few options, travelers face extreme markups for drinks and food before their flights."
+      },
+      {
+        "score": 0.7209,
+        "start": 971.94,
+        "end": 980.27,
+        "transcript": "I experience the same frustration at some airports when I have a beer on the way home from a business trip and pay $16 for it."
+      },
+      {
+        "score": 0.7499,
+        "start": 980.27,
+        "end": 987.85,
+        "transcript": "Having worked on airport retail now for almost 40 years, it could definitely be better."
+      },
+      {
+        "score": 0.0866,
+        "start": 987.85,
+        "end": 988.93,
+        "transcript": "No question."
+      },
+      {
+        "score": 0.5424,
+        "start": 988.93,
+        "end": 999.42,
+        "transcript": "I believe fervently that amenability and profitability are linked, that the friendlier the space is, the more money you tend to make."
+      }
+    ],
+    "segment_count": 14
+  },
+  {
+    "name": "The And",
+    "start": 989,
+    "original_name": "almost 40 years",
+    "score": 2.0835183831214907,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.5994,
+        "start": 999.42,
+        "end": 1006.83,
+        "transcript": "And buying your favorite snack before you reach the airport might save you more than you realize."
+      },
+      {
+        "score": 0.0185,
+        "start": 1006.83,
+        "end": 1012.35,
+        "transcript": "you"
+      }
+    ],
+    "segment_count": 2
+  }
+]

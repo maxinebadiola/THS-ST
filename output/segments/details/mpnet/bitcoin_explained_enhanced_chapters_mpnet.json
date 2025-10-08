@@ -1,0 +1,1311 @@
+[
+  {
+    "name": "answer actually feel motivated",
+    "start": 0,
+    "segments": [
+      {
+        "score": 0.3394,
+        "start": 4.27,
+        "end": 6.59,
+        "transcript": "What does it mean to have a Bitcoin?"
+      },
+      {
+        "score": 0.6716,
+        "start": 6.59,
+        "end": 19.36,
+        "transcript": "Many people have heard of Bitcoin that it's a fully digital currency with no government to issue it, and that no banks need to manage accounts and verify transactions, and also that no one really knows who invented it."
+      },
+      {
+        "score": 0.3868,
+        "start": 19.36,
+        "end": 23.28,
+        "transcript": "And yet, many people don't know the answer to this question, at least not in full."
+      },
+      {
+        "score": 0.4203,
+        "start": 23.28,
+        "end": 35.94,
+        "transcript": "To get there, and to make sure that the technical details underlying the answer actually feel motivated, what we're going to do is walk through step by step how you might have invented your own version of Bitcoin."
+      },
+      {
+        "score": 0.7754,
+        "start": 35.94,
+        "end": 53.06,
+        "transcript": "We'll start with you keeping track of payments with your friends using a communal ledger, and then as you start to trust your friends and the world around you less and less, and if you're clever enough to bring in a few ideas from cryptography to help circumvent the need for trust, what you end up with is what's called a cryptocurrency."
+      }
+    ],
+    "segment_count": 5
+  },
+  {
+    "name": "The Well",
+    "start": 53,
+    "original_name": "world around",
+    "score": 2.8071303201021243,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7193,
+        "start": 53.06,
+        "end": 63.2,
+        "transcript": "You see Bitcoin is just the first implemented example of a cryptocurrency, and now there are thousands more on exchanges with traditional currencies."
+      },
+      {
+        "score": 0.2793,
+        "start": 63.2,
+        "end": 73.17,
+        "transcript": "Walking the path of inventing your own can help to set the foundations for understanding some of the more recent players in the game, and recognizing when and why there's room for different design choices."
+      },
+      {
+        "score": 0.5245,
+        "start": 73.17,
+        "end": 84.29,
+        "transcript": "In fact, one of the reasons I chose this topic is that in the last year, there's been a huge amount of attention and investment and, well, honestly, hype directed at these currencies."
+      },
+      {
+        "score": 0.3854,
+        "start": 84.29,
+        "end": 93.34,
+        "transcript": "And I'm not going to comment or speculate on the current or future exchange rates, but I think we'd all agree that anyone looking to buy a cryptocurrency should really know what it is."
+      },
+      {
+        "score": 0.234,
+        "start": 93.34,
+        "end": 97.79,
+        "transcript": "And I don't just mean in terms of analogies with vague connections to gold mining."
+      },
+      {
+        "score": 0.5249,
+        "start": 97.79,
+        "end": 105.6,
+        "transcript": "I mean an actual direct description of what the computers are doing when we send receive and create cryptocurrencies."
+      },
+      {
+        "score": 0.3574,
+        "start": 105.6,
+        "end": 123.61,
+        "transcript": "One thing worth stressing, by the way, is that even though you and I are gonna dig into the details here, and that takes meaningful time, you don't actually need to know those details if you just wanna use the cryptocurrency, just like you don't need to know the details of what happens under the hood when you swipe a credit card."
+      },
+      {
+        "score": 0.4646,
+        "start": 123.61,
+        "end": 131.06,
+        "transcript": "Like any digital payment, there's lots of user-friendly applications that let you just send and receive the currencies without thinking about what's going on."
+      },
+      {
+        "score": 0.7535,
+        "start": 131.06,
+        "end": 137.13,
+        "transcript": "The difference is that the backbone underlying this is not a bank that verifies transactions."
+      },
+      {
+        "score": 0.8877,
+        "start": 137.13,
+        "end": 144.72,
+        "transcript": "Instead, it's a clever system of decentralized trustless verification based on some of the math born in cryptography."
+      },
+      {
+        "score": 0.7468,
+        "start": 144.72,
+        "end": 150.47,
+        "transcript": "But to start, I want you to actually set aside the thought of cryptocurrencies and all that just for a few minutes."
+      },
+      {
+        "score": 0.8982,
+        "start": 150.47,
+        "end": 155.44,
+        "transcript": "We're going to begin the story with something more down to earth, ledgers and digital signatures."
+      },
+      {
+        "score": 0.5479,
+        "start": 155.44,
+        "end": 164.05,
+        "transcript": "If you and your friends exchanged money pretty frequently, you know, paying your share of the dinner bill and such, It can be inconvenient to exchange cash all the time."
+      },
+      {
+        "score": 0.7465,
+        "start": 164.05,
+        "end": 170.02,
+        "transcript": "So you might keep a communal ledger that records all of the payments that you intend to make some point in the future."
+      },
+      {
+        "score": 0.5911,
+        "start": 170.02,
+        "end": 174.81,
+        "transcript": "You know, Alice pays Bob $20, Bob pays Charlie $40, things like that."
+      },
+      {
+        "score": 0.8321,
+        "start": 174.81,
+        "end": 182.42,
+        "transcript": "This ledger is going to be something public and accessible to everyone like a website where anyone can go and just add new lines."
+      },
+      {
+        "score": 0.7269,
+        "start": 182.42,
+        "end": 188.37,
+        "transcript": "And let's say that at the end of every month, you all get together, look at the list of transactions and settle up."
+      },
+      {
+        "score": 0.4703,
+        "start": 188.37,
+        "end": 194.4,
+        "transcript": "If you spent more than you received, you put that money in the pot, and if you received more than you spent, you take that money out."
+      },
+      {
+        "score": 0.7705,
+        "start": 194.4,
+        "end": 199.24,
+        "transcript": "So the protocol for being part of this very simple system might look like this."
+      },
+      {
+        "score": 0.6872,
+        "start": 199.24,
+        "end": 205.37,
+        "transcript": "Anyone can add lines to the ledger, and at the end of every month, you all get together and settle up."
+      },
+      {
+        "score": 0.9674,
+        "start": 205.37,
+        "end": 210.77,
+        "transcript": "Now one problem with a public ledger like this is that anyone can add a line."
+      },
+      {
+        "score": 0.7448,
+        "start": 210.77,
+        "end": 217.01,
+        "transcript": "So what's to prevent Bob from going and writing Alice Pays Bob $100 without Alice approving?"
+      },
+      {
+        "score": 0.513,
+        "start": 217.01,
+        "end": 223.16,
+        "transcript": "How are we supposed to trust that all of these transactions are what the sender meant them to be?"
+      },
+      {
+        "score": 0.8907,
+        "start": 223.16,
+        "end": 227.03,
+        "transcript": "Well, this is where the first bit of cryptography comes in."
+      },
+      {
+        "score": 0.8092,
+        "start": 227.03,
+        "end": 229.13,
+        "transcript": "Digital Signatures."
+      },
+      {
+        "score": 0.8204,
+        "start": 229.13,
+        "end": 238.56,
+        "transcript": "Like handwritten signatures, the idea here is that Alice should be able to add something next to that transaction that proves that she has seen it and that she's approved of it."
+      },
+      {
+        "score": 0.6702,
+        "start": 238.56,
+        "end": 243.16,
+        "transcript": "And it should be infeasible for anyone else to forge that signature."
+      },
+      {
+        "score": 0.8336,
+        "start": 243.16,
+        "end": 248.63,
+        "transcript": "At first, it might seem like a digital signature shouldn't even be possible."
+      },
+      {
+        "score": 0.7617,
+        "start": 248.63,
+        "end": 253.92,
+        "transcript": "I mean, whatever data makes up that signature can just be read and copied by a computer."
+      },
+      {
+        "score": 0.6026,
+        "start": 253.92,
+        "end": 256.58,
+        "transcript": "So how do you prevent forgeries?"
+      },
+      {
+        "score": 0.6367,
+        "start": 256.58,
+        "end": 264.12,
+        "transcript": "Well the way this works is that everyone generates what's called a public key private key pair, each of which looks like some string of bits."
+      },
+      {
+        "score": 0.1516,
+        "start": 264.12,
+        "end": 271.48,
+        "transcript": "The private key is sometimes also called a secret key so that we can abbreviate it as SK while abbreviating the public key as PK."
+      },
+      {
+        "score": 0.29,
+        "start": 271.48,
+        "end": 276.56,
+        "transcript": "Now as the name suggests, this secret key, it's something you want to keep to yourself."
+      },
+      {
+        "score": 0.5865,
+        "start": 276.56,
+        "end": 281.7,
+        "transcript": "In the real world, your handwritten signature looks the same no matter what document you're signing."
+      },
+      {
+        "score": 0.6647,
+        "start": 281.7,
+        "end": 287.02,
+        "transcript": "But a digital signature is actually much stronger because it changes for different messages."
+      },
+      {
+        "score": 0.3873,
+        "start": 287.02,
+        "end": 299.56,
+        "transcript": "It looks like some string of ones and zeros, commonly something like 256 bits, and altering the message even slightly completely changes what the signature on that message should look like."
+      },
+      {
+        "score": 0.5455,
+        "start": 299.56,
+        "end": 308.5,
+        "transcript": "Speaking a little more formally, producing a signature involves a function that depends both on the message itself and on your private key."
+      },
+      {
+        "score": 0.3285,
+        "start": 308.5,
+        "end": 319.62,
+        "transcript": "The private key ensures that only you can produce that signature, and the fact that it depends on the message means that no one can just copy one of your signatures and then forge it on another message."
+      },
+      {
+        "score": 0.5614,
+        "start": 319.62,
+        "end": 325.57,
+        "transcript": "Hand in hand with this is a second function used to verify that a signature is valid."
+      },
+      {
+        "score": 0.8447,
+        "start": 325.57,
+        "end": 328.69,
+        "transcript": "And this is where the public key comes into play."
+      },
+      {
+        "score": 0.3373,
+        "start": 328.69,
+        "end": 337.81,
+        "transcript": "All it does is output true or false to indicate if this was a signature produced by the private key associated with the public key that you're using for verification."
+      },
+      {
+        "score": 0.3119,
+        "start": 337.81,
+        "end": 349.15,
+        "transcript": "I won't go into the details of how exactly both these functions work, but the idea is that it should be completely infeasible to find a valid signature if you don't know the secret key."
+      },
+      {
+        "score": 0.58,
+        "start": 349.15,
+        "end": 358.04,
+        "transcript": "Specifically, there's no strategy better than just guessing and checking random signatures, which you can check using the public key that everyone knows."
+      },
+      {
+        "score": 0.674,
+        "start": 358.04,
+        "end": 362.82,
+        "transcript": "Now think about how many signatures there are with a length of 256 bits."
+      },
+      {
+        "score": 0.2215,
+        "start": 362.82,
+        "end": 365.84,
+        "transcript": "That's 2 to the power of 256."
+      },
+      {
+        "score": 0.248,
+        "start": 365.84,
+        "end": 369.52,
+        "transcript": "This is a stupidly large number."
+      },
+      {
+        "score": 0.02,
+        "start": 369.52,
+        "end": 373.73,
+        "transcript": "To call it astronomically large would be giving way too much credit to astronomy."
+      },
+      {
+        "score": 0.2329,
+        "start": 373.73,
+        "end": 380.28,
+        "transcript": "In fact, I made a supplemental video devoted just to illustrating what a huge number this is."
+      },
+      {
+        "score": 0.4294,
+        "start": 380.28,
+        "end": 395.26,
+        "transcript": "Right here, let's just say that when you verified that a signature against a given message is valid, you can feel extremely confident that the only way someone could have produced it is if they knew the secret key associated with the public key you used for verification."
+      },
+      {
+        "score": 0.9156,
+        "start": 395.26,
+        "end": 402.28,
+        "transcript": "Now making sure that people sign transactions on the ledger is pretty good, but there's one slight loophole."
+      },
+      {
+        "score": 0.7039,
+        "start": 402.28,
+        "end": 413.7,
+        "transcript": "If Alice signs a transaction like Alice pays Bob $100, even though Bob can't forge Alice's signature on a new message, he could just copy that same line as many times as he wants."
+      },
+      {
+        "score": 0.6478,
+        "start": 413.7,
+        "end": 417.82,
+        "transcript": "I mean, that message signature combination remains valid."
+      },
+      {
+        "score": 0.4764,
+        "start": 417.82,
+        "end": 427.09,
+        "transcript": "To get around this, what we do is make it so that when you sign a transaction, the message has to also include some sort of unique ID associated with that transaction."
+      },
+      {
+        "score": 1.0,
+        "start": 427.09,
+        "end": 435.56,
+        "transcript": "That way, if Alice pays Bob $100 multiple times, each one of those lines on the ledger requires a completely new signature."
+      },
+      {
+        "score": 0.1333,
+        "start": 435.56,
+        "end": 438.18,
+        "transcript": "All right, great."
+      },
+      {
+        "score": 0.8635,
+        "start": 438.18,
+        "end": 442.03,
+        "transcript": "Digital signatures remove a huge aspect of trust in this initial protocol."
+      },
+      {
+        "score": 0.6349,
+        "start": 442.03,
+        "end": 447.8,
+        "transcript": "But even still, if you were to really do this, you would be relying on an honor system of sorts."
+      },
+      {
+        "score": 0.6678,
+        "start": 447.8,
+        "end": 452.7,
+        "transcript": "Namely, you're trusting that everyone will actually follow through and settle up in cash at the end of each month."
+      },
+      {
+        "score": 0.3948,
+        "start": 452.7,
+        "end": 459.47,
+        "transcript": "What if, for example, Charlie racks up thousands of dollars in debt and just refuses to show up?"
+      },
+      {
+        "score": 0.4595,
+        "start": 459.47,
+        "end": 467.11,
+        "transcript": "The only real reason to revert back to cash to settle up is if some people, I'm looking at you, Charlie, owe a lot of money."
+      },
+      {
+        "score": 0.7335,
+        "start": 467.11,
+        "end": 476.44,
+        "transcript": "So maybe you have the clever idea that you never actually have to settle up in cash as long as you have some way to prevent people from spending too much more than they take in."
+      },
+      {
+        "score": 0.5668,
+        "start": 476.44,
+        "end": 488.8,
+        "transcript": "Maybe what you do is start by having everyone pay $100 into the pot and then have the first few lines of the ledger read, Alice gets $100, Bob gets $100, Charlie gets $100, etc."
+      },
+      {
+        "score": 0.8293,
+        "start": 488.8,
+        "end": 495.98,
+        "transcript": "Now, just don't accept any transactions where someone is spending more than they already have on that ledger."
+      },
+      {
+        "score": 0.6656,
+        "start": 495.98,
+        "end": 512.26,
+        "transcript": "For example, if the first two transactions are Charlie Pays Alice $50 and Charlie Pays Bob $50, if he were to try to add Charlie Pays U $20, that would be invalid, as invalid as if he had never signed it."
+      },
+      {
+        "score": 0.6827,
+        "start": 512.26,
+        "end": 519.37,
+        "transcript": "Notice this means that verifying a transaction requires knowing the full history of transactions up to that point."
+      },
+      {
+        "score": 0.8385,
+        "start": 519.37,
+        "end": 526.23,
+        "transcript": "And this is more or less also going to be true in cryptocurrencies, though there is a little room for optimization."
+      },
+      {
+        "score": 0.8403,
+        "start": 526.23,
+        "end": 535.57,
+        "transcript": "What's interesting here is that this step removes the connection between the ledger and actual physical US dollars."
+      },
+      {
+        "score": 0.8721,
+        "start": 535.57,
+        "end": 546.64,
+        "transcript": "In theory, if everyone in the world was using this ledger, you could live your whole life just sending and receiving money on this ledger without ever having to convert to real US dollars."
+      },
+      {
+        "score": 0.6349,
+        "start": 546.64,
+        "end": 554.72,
+        "transcript": "In fact, to emphasize this point, let's start referring to the quantities on the ledger as ledger dollars, or LD for short."
+      },
+      {
+        "score": 0.5316,
+        "start": 554.72,
+        "end": 558.61,
+        "transcript": "You are, of course, free to exchange ledger dollars for real US dollars?"
+      },
+      {
+        "score": 0.7139,
+        "start": 558.61,
+        "end": 569.82,
+        "transcript": "For example, maybe Alice gives Bob a $10 bill in the real world, in exchange for him adding and signing the transaction, Bob pays Alice $10 ledger dollars to this communal ledger."
+      },
+      {
+        "score": 0.7506,
+        "start": 569.82,
+        "end": 574.29,
+        "transcript": "But exchanges like that, they're not going to be guaranteed by the protocol."
+      },
+      {
+        "score": 0.4805,
+        "start": 574.29,
+        "end": 580.6,
+        "transcript": "It's now more analogous to how you might exchange dollars for euros or any other currency on the open market."
+      },
+      {
+        "score": 0.3605,
+        "start": 580.6,
+        "end": 583.68,
+        "transcript": "It's just its own independent thing."
+      },
+      {
+        "score": 0.8303,
+        "start": 583.68,
+        "end": 590.07,
+        "transcript": "This is the first important thing to understand about Bitcoin or any other cryptocurrency."
+      },
+      {
+        "score": 0.7746,
+        "start": 590.07,
+        "end": 592.52,
+        "transcript": "What it is is a ledger."
+      },
+      {
+        "score": 0.8368,
+        "start": 592.52,
+        "end": 596.68,
+        "transcript": "The history of transactions is the currency."
+      },
+      {
+        "score": 0.7023,
+        "start": 596.68,
+        "end": 601.59,
+        "transcript": "Of course, with Bitcoin, money doesn't enter the ledger with people buying in using cash."
+      },
+      {
+        "score": 0.8193,
+        "start": 601.59,
+        "end": 604.74,
+        "transcript": "I'll get to how new money enters the ledger in just a few minutes."
+      },
+      {
+        "score": 0.8971,
+        "start": 604.74,
+        "end": 612.43,
+        "transcript": "But before that, there's actually an even more significant difference between our current system of ledger dollars and how cryptocurrencies work."
+      },
+      {
+        "score": 0.7182,
+        "start": 612.43,
+        "end": 618.43,
+        "transcript": "So far, I've said that this ledger is in some public place, like a website where anyone can add new lines."
+      },
+      {
+        "score": 0.4362,
+        "start": 618.43,
+        "end": 624.04,
+        "transcript": "But that would require trusting a central location, namely, who hosts the website?"
+      },
+      {
+        "score": 0.1645,
+        "start": 624.04,
+        "end": 626.76,
+        "transcript": "Who controls the rules of adding new lines?"
+      },
+      {
+        "score": 0.7375,
+        "start": 626.76,
+        "end": 632.7,
+        "transcript": "To remove that bit of trust, we'll have everybody keep their own copy of the ledger."
+      },
+      {
+        "score": 0.9976,
+        "start": 632.7,
+        "end": 643.65,
+        "transcript": "Then when you want to make a transaction, like Alice pays Bob $100, what you do is broadcast that out into the world for people to hear and to record on their own private ledgers."
+      },
+      {
+        "score": 0.3541,
+        "start": 643.65,
+        "end": 649.24,
+        "transcript": "But unless you do something more, this system is absurdly bad."
+      },
+      {
+        "score": 0.7412,
+        "start": 649.24,
+        "end": 652.69,
+        "transcript": "How could you get everyone to agree on what the right ledger is?"
+      },
+      {
+        "score": 0.7282,
+        "start": 652.69,
+        "end": 661.78,
+        "transcript": "When Bob receives a transaction like Alice pays Bob $10, how can he be sure that everyone else received and believes that same transaction?"
+      },
+      {
+        "score": 0.743,
+        "start": 661.78,
+        "end": 667.51,
+        "transcript": "That he'll be able to later on go to Charlie and use those same $10 ledger to make a transaction?"
+      },
+      {
+        "score": 0.5306,
+        "start": 667.51,
+        "end": 672.27,
+        "transcript": "Really, imagine yourself just listening to transactions being broadcast."
+      },
+      {
+        "score": 0.6592,
+        "start": 672.27,
+        "end": 678.43,
+        "transcript": "How can you be sure that everyone else is recording the same transactions and in the same order?"
+      },
+      {
+        "score": 0.2801,
+        "start": 678.43,
+        "end": 681.37,
+        "transcript": "This is really the heart of the issue."
+      },
+      {
+        "score": 0.3456,
+        "start": 681.37,
+        "end": 682.75,
+        "transcript": "This is an interesting puzzle."
+      },
+      {
+        "score": 0.6613,
+        "start": 682.75,
+        "end": 697.64,
+        "transcript": "Can you come up with a protocol for how to accept or reject transactions and in what order so that you can feel confident that anyone else in the world who's following that same protocol has a personal ledger that looks the same as yours?"
+      },
+      {
+        "score": 0.7635,
+        "start": 697.64,
+        "end": 701.66,
+        "transcript": "This is the problem addressed in the original Bitcoin paper."
+      },
+      {
+        "score": 0.6726,
+        "start": 701.66,
+        "end": 711.84,
+        "transcript": "At a high level, the solution that Bitcoin offers is to trust whichever ledger has the most computational work put into it."
+      },
+      {
+        "score": 0.4081,
+        "start": 711.84,
+        "end": 714.86,
+        "transcript": "I'll take a moment to explain exactly what that means."
+      },
+      {
+        "score": 0.8573,
+        "start": 714.86,
+        "end": 718.0,
+        "transcript": "It involves this thing called a cryptographic hash function."
+      },
+      {
+        "score": 0.8584,
+        "start": 718.0,
+        "end": 732.88,
+        "transcript": "The general idea that we'll build to is that if you use computational work as a basis for what to trust, you can make it so that fraudulent transactions and conflicting ledgers would require an infeasable amount of computation to bring about."
+      },
+      {
+        "score": 0.8474,
+        "start": 732.88,
+        "end": 739.46,
+        "transcript": "Again, I'll remind you that this is getting well into the weeds beyond what anyone would need to know just to use a currency like this."
+      },
+      {
+        "score": 0.3569,
+        "start": 739.46,
+        "end": 741.34,
+        "transcript": "But it's a really cool idea."
+      },
+      {
+        "score": 0.7632,
+        "start": 741.34,
+        "end": 746.84,
+        "transcript": "And if you understand it, you understand the heart of Bitcoin and of other cryptocurrencies."
+      },
+      {
+        "score": 0.549,
+        "start": 746.84,
+        "end": 750.0,
+        "transcript": "So first things first, what's a hash function?"
+      },
+      {
+        "score": 0.2602,
+        "start": 750.0,
+        "end": 754.25,
+        "transcript": "The inputs for one of these functions can be any kind of message or file."
+      },
+      {
+        "score": 0.0599,
+        "start": 754.25,
+        "end": 755.21,
+        "transcript": "It really doesn't matter."
+      },
+      {
+        "score": 0.5739,
+        "start": 755.21,
+        "end": 760.58,
+        "transcript": "And the output is a string of bits with some kind of fixed length, like 256 bits."
+      },
+      {
+        "score": 0.4221,
+        "start": 760.58,
+        "end": 764.83,
+        "transcript": "This output is called the hash or the digest of the message."
+      },
+      {
+        "score": 0.3904,
+        "start": 764.83,
+        "end": 767.73,
+        "transcript": "And the intent is that it looks random."
+      },
+      {
+        "score": 0.3296,
+        "start": 767.73,
+        "end": 769.1,
+        "transcript": "It's not random."
+      },
+      {
+        "score": 0.2586,
+        "start": 769.1,
+        "end": 772.2,
+        "transcript": "It always gives the same output for a given input."
+      },
+      {
+        "score": 0.6946,
+        "start": 772.2,
+        "end": 780.13,
+        "transcript": "But the idea is that if you slightly change the input, maybe editing just one of the characters, the resulting hash changes completely."
+      },
+      {
+        "score": 0.3888,
+        "start": 780.13,
+        "end": 791.93,
+        "transcript": "In fact, for the hash function that I'm showing here, called SHA256, the way the output changes as you slightly change that input, is entirely unpredictable."
+      },
+      {
+        "score": 0.6744,
+        "start": 791.93,
+        "end": 794.66,
+        "transcript": "You see, this is not just any hash function."
+      },
+      {
+        "score": 0.5946,
+        "start": 794.66,
+        "end": 796.98,
+        "transcript": "It's a cryptographic hash function."
+      },
+      {
+        "score": 0.5304,
+        "start": 796.98,
+        "end": 800.69,
+        "transcript": "That means it's infeasible to compute in the reverse direction."
+      },
+      {
+        "score": 0.2182,
+        "start": 800.69,
+        "end": 814.81,
+        "transcript": "If I show you some string of ones and zeros and ask you to find an input so that the SHA 256 hash of that input gives this exact string of bits, you will have no better method than to just guess and check."
+      },
+      {
+        "score": 0.1773,
+        "start": 814.81,
+        "end": 823.86,
+        "transcript": "And again, if you want to feel for how much computation would be needed to go through two to the 256 guesses, just take a look at the supplement video."
+      },
+      {
+        "score": 0.0518,
+        "start": 823.86,
+        "end": 826.57,
+        "transcript": "I actually had way too much fun writing that thing."
+      },
+      {
+        "score": 0.1976,
+        "start": 826.57,
+        "end": 837.57,
+        "transcript": "You might think that if you just really dig into the details of how exactly this function works, you could reverse engineer the appropriate input without having to guess and check."
+      },
+      {
+        "score": 0.4863,
+        "start": 837.57,
+        "end": 841.37,
+        "transcript": "But no one has ever figured out a way to do that."
+      },
+      {
+        "score": 0.2716,
+        "start": 841.37,
+        "end": 846.99,
+        "transcript": "Interestingly, there's no cold, hard, rigorous proof that it's hard to compute in the reverse direction."
+      }
+    ],
+    "segment_count": 121
+  },
+  {
+    "name": "The Alice",
+    "start": 845,
+    "original_name": "modern security depends",
+    "score": 3.069496860620869,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6763,
+        "start": 846.99,
+        "end": 854.24,
+        "transcript": "And yet, a huge amount of modern security depends on cryptographic hash functions and the idea that they have this property."
+      },
+      {
+        "score": 0.3001,
+        "start": 854.24,
+        "end": 865.94,
+        "transcript": "If you were to look at what algorithms underlie the secure connection that your browser is making with YouTube right now, or that it makes with your bank, you will likely see the name SHA-256 show up in there."
+      },
+      {
+        "score": 0.6527,
+        "start": 865.94,
+        "end": 876.86,
+        "transcript": "For right now, our focus will just be on how such a function can prove that a particular list of transactions is associated with a large amount of computational effort."
+      },
+      {
+        "score": 0.6028,
+        "start": 876.86,
+        "end": 893.14,
+        "transcript": "Imagine someone shows you a list of transactions and they say, hey, I found a special number so that when you put that number at the end of this list of transactions and apply SHA256 to the entire thing, the first 30 bits of that output are all zeros."
+      },
+      {
+        "score": 0.2993,
+        "start": 893.14,
+        "end": 896.89,
+        "transcript": "How hard do you think it was for them to find that number?"
+      },
+      {
+        "score": 0.3409,
+        "start": 896.89,
+        "end": 907.3,
+        "transcript": "Well for a random message, the probability that a hash happens to start with 30 successive zeros is 1 and 2 to the 30, which is about 1 and a billion."
+      },
+      {
+        "score": 0.4095,
+        "start": 907.3,
+        "end": 915.87,
+        "transcript": "And because SHA 256 is a cryptographic hash function, the only way to find a special number like that is just guessing and checking."
+      },
+      {
+        "score": 0.4752,
+        "start": 915.87,
+        "end": 922.76,
+        "transcript": "So this person almost certainly had to go through about a billion different numbers before finding this special one."
+      },
+      {
+        "score": 0.4974,
+        "start": 922.76,
+        "end": 926.09,
+        "transcript": "And once you know that number, it's really quick to verify."
+      },
+      {
+        "score": 0.4799,
+        "start": 926.09,
+        "end": 928.82,
+        "transcript": "You just run the hash and see that there are 30 zeros."
+      },
+      {
+        "score": 0.5969,
+        "start": 928.82,
+        "end": 936.35,
+        "transcript": "So in other words, you can verify that they went through a large amount of work, but without having to go through that same effort yourself."
+      },
+      {
+        "score": 0.8232,
+        "start": 936.35,
+        "end": 938.81,
+        "transcript": "This is called a proof of work."
+      },
+      {
+        "score": 0.692,
+        "start": 938.81,
+        "end": 944.87,
+        "transcript": "And importantly, all of this work is intrinsically tied to the list of transactions."
+      },
+      {
+        "score": 0.5698,
+        "start": 944.87,
+        "end": 949.63,
+        "transcript": "If you change one of those transactions, even slightly, it would completely change the hash."
+      },
+      {
+        "score": 0.6045,
+        "start": 949.63,
+        "end": 961.42,
+        "transcript": "So you'd have to go through another billion guesses to find a new proof of work, a new number that makes it so that the hash of the altered list, together with this new number, starts with 30 zeros."
+      },
+      {
+        "score": 0.996,
+        "start": 961.42,
+        "end": 964.1,
+        "transcript": "So now think back to our distributed ledger situation."
+      },
+      {
+        "score": 0.9436,
+        "start": 964.1,
+        "end": 970.74,
+        "transcript": "Everyone is there broadcasting transactions and we want a way for them to agree on what the correct ledger is."
+      },
+      {
+        "score": 0.7286,
+        "start": 970.74,
+        "end": 978.87,
+        "transcript": "As I said, the core idea behind the original Bitcoin paper is to have everyone trust whichever ledger has the most work put into it."
+      },
+      {
+        "score": 0.8022,
+        "start": 978.87,
+        "end": 987.89,
+        "transcript": "The way this works is to first organize a given ledger into blocks, where each block consists of a list of transactions together with a proof of work."
+      },
+      {
+        "score": 0.5362,
+        "start": 987.89,
+        "end": 992.28,
+        "transcript": "That is, a special number, so that the hash of the whole block starts with a bunch of zeros."
+      },
+      {
+        "score": 0.3121,
+        "start": 992.28,
+        "end": 1001.09,
+        "transcript": "For the moment, let's say that it has to start with, oh, 60 zeros, but later we'll return back to a more systematic way you might want to choose that number."
+      },
+      {
+        "score": 0.3901,
+        "start": 1001.09,
+        "end": 1010.09,
+        "transcript": "In the same way that a transaction is only considered valid when it's signed by the sender, a block is only considered valid if it has a proof of work."
+      },
+      {
+        "score": 0.5814,
+        "start": 1010.09,
+        "end": 1019.4,
+        "transcript": "And also, to make sure that there's a standard order to these blocks, we'll make it so that a block has to contain the hash of the previous block at its header."
+      },
+      {
+        "score": 0.6301,
+        "start": 1019.4,
+        "end": 1033.14,
+        "transcript": "That way, if you were to go back and change any one of the blocks, or to swap the order of two blocks, it would change the block that comes after it, which changes that block's hash, which changes the one that comes after it, and so on."
+      },
+      {
+        "score": 0.4185,
+        "start": 1033.14,
+        "end": 1041.34,
+        "transcript": "That would require redoing all of the work, finding a new special number for each of these blocks that makes their hashes start with 60 zeros."
+      },
+      {
+        "score": 0.4994,
+        "start": 1041.34,
+        "end": 1048.53,
+        "transcript": "Because blocks are chained together like this, instead of calling it a ledger, it's common to call it a block chain."
+      },
+      {
+        "score": 0.387,
+        "start": 1048.53,
+        "end": 1054.87,
+        "transcript": "As part of our updated protocol, we'll now allow anyone in the world to be a block creator."
+      },
+      {
+        "score": 0.6929,
+        "start": 1054.87,
+        "end": 1066.13,
+        "transcript": "What that means is that they're going to listen for transactions being broadcast, collect them into some block, and then do a whole bunch of work to find a special number that makes the hash of that block start with 60 zeros."
+      },
+      {
+        "score": 0.4831,
+        "start": 1066.13,
+        "end": 1070.21,
+        "transcript": "Then once they find it, they broadcast out the block that they found."
+      },
+      {
+        "score": 0.6388,
+        "start": 1070.21,
+        "end": 1073.53,
+        "transcript": "to reward a block creator for all this work."
+      },
+      {
+        "score": 0.8201,
+        "start": 1073.53,
+        "end": 1082.51,
+        "transcript": "When she puts together a block, we'll allow her to include a very special transaction at the top of it, in which she gets, say, ten ledger dollars out of thin air."
+      },
+      {
+        "score": 0.5172,
+        "start": 1082.51,
+        "end": 1089.48,
+        "transcript": "This is called the block reward, and it's an exception to our usual rules about whether or not to accept transactions."
+      },
+      {
+        "score": 0.4766,
+        "start": 1089.48,
+        "end": 1092.92,
+        "transcript": "It doesn't come from anyone, so it doesn't have to be signed."
+      },
+      {
+        "score": 0.8385,
+        "start": 1092.92,
+        "end": 1099.81,
+        "transcript": "And it also means that the total number of ledger dollars in our economy increases with each new block."
+      },
+      {
+        "score": 0.517,
+        "start": 1099.81,
+        "end": 1108.25,
+        "transcript": "Creating blocks is often called mining since it requires doing a lot of work and it introduces new bits of currency into the economy."
+      },
+      {
+        "score": 0.4697,
+        "start": 1108.25,
+        "end": 1120.86,
+        "transcript": "But when you hear or read about minors, keep in mind that what they're really doing is listening for transactions, creating blocks, broadcasting those blocks, and getting rewarded with new money for doing so."
+      },
+      {
+        "score": 0.6271,
+        "start": 1120.86,
+        "end": 1136.21,
+        "transcript": "From the miner's perspective, each block is kind of like a miniature lottery, where everyone is guessing numbers as fast as they can until one lucky individual finds a special number that makes the hash of the block start with many zeros and they get the reward."
+      },
+      {
+        "score": 0.7007,
+        "start": 1136.21,
+        "end": 1150.29,
+        "transcript": "For anyone else who just wants to use this system to make payments, instead of listening for transactions, they all start listening just for blocks being broadcast by miners and updating their own personal copies of the blockchain."
+      },
+      {
+        "score": 0.8526,
+        "start": 1150.29,
+        "end": 1162.17,
+        "transcript": "Now the key addition to our protocol is that if you hear two distinct blockchains with conflicting transaction histories, you defer to the longest one, the one with the most work put into it."
+      },
+      {
+        "score": 0.2328,
+        "start": 1162.17,
+        "end": 1168.44,
+        "transcript": "If there's a tie, just wait until you hear an additional block that makes one of them longer."
+      },
+      {
+        "score": 0.5364,
+        "start": 1168.44,
+        "end": 1182.77,
+        "transcript": "So even though there's no central authority and everyone is maintaining their own copy of the blockchain, if everyone agrees to give preference to whichever blockchain has the most work put into it, we have a way to arrive at decentralized consensus."
+      },
+      {
+        "score": 0.73,
+        "start": 1182.77,
+        "end": 1195.21,
+        "transcript": "To see why this makes for a trustworthy system and to understand at what point you should trust that a payment is legit, it's actually really helpful to walk through exactly what it would take to fool someone using this system."
+      },
+      {
+        "score": 0.6818,
+        "start": 1195.21,
+        "end": 1198.55,
+        "transcript": "Maybe Alice is trying to fool Bob with a fraudulent block."
+      },
+      {
+        "score": 0.442,
+        "start": 1198.55,
+        "end": 1207.08,
+        "transcript": "Namely, she tries to send him one that includes her paying him $100, but without broadcasting that block to the rest of the network."
+      },
+      {
+        "score": 0.4308,
+        "start": 1207.08,
+        "end": 1210.59,
+        "transcript": "That way, everyone else still thinks that she has those $100."
+      },
+      {
+        "score": 0.4872,
+        "start": 1210.59,
+        "end": 1218.66,
+        "transcript": "To do this, she would have to find a valid proof of work before all of the other minors, each working on their own block."
+      },
+      {
+        "score": 0.2221,
+        "start": 1218.66,
+        "end": 1220.64,
+        "transcript": "And that could definitely happen."
+      },
+      {
+        "score": 0.4247,
+        "start": 1220.64,
+        "end": 1225.11,
+        "transcript": "Maybe Alice just happens to win this miniature lottery before everyone else."
+      },
+      {
+        "score": 0.2779,
+        "start": 1225.11,
+        "end": 1229.45,
+        "transcript": "But Bob is still going to be hearing the broadcasts made by other miners."
+      },
+      {
+        "score": 0.6664,
+        "start": 1229.45,
+        "end": 1242.0,
+        "transcript": "So to keep him believing this fraudulent block, Alice would have to do all of the work herself to keep adding blocks on this special fork in Bob's blockchain that's different from what he's hearing from the rest of the miners."
+      },
+      {
+        "score": 0.5773,
+        "start": 1242.0,
+        "end": 1248.43,
+        "transcript": "Remember, as per the protocol, Bob always trusts the longest chain that he knows about."
+      },
+      {
+        "score": 0.4678,
+        "start": 1248.43,
+        "end": 1257.67,
+        "transcript": "Alice might be able to keep this up for a few blocks, if just by chance she happens to find blocks more quickly than the rest of the miners on the network all combined."
+      },
+      {
+        "score": 0.7163,
+        "start": 1257.67,
+        "end": 1273.89,
+        "transcript": "But unless she has close to 50% of the computing resources among all of the miners, the probability becomes overwhelming that the blockchain that all of the other miners are working on grows faster than the single fraudulent blockchain that Alice is feeding to Bob."
+      },
+      {
+        "score": 0.5086,
+        "start": 1273.89,
+        "end": 1282.81,
+        "transcript": "So, after enough time, Bob's just gonna reject what he's hearing from Alice in favor of the longer chain that everyone else is working on."
+      },
+      {
+        "score": 0.5782,
+        "start": 1282.81,
+        "end": 1289.0,
+        "transcript": "Notice, that means that you shouldn't necessarily trust a new block that you hear immediately."
+      },
+      {
+        "score": 0.2735,
+        "start": 1289.0,
+        "end": 1293.2,
+        "transcript": "Instead, you should wait for several new blocks to be added on top of it."
+      },
+      {
+        "score": 0.5525,
+        "start": 1293.2,
+        "end": 1300.69,
+        "transcript": "If you still haven't heard of any longer block chains, you can trust that this block is part of the same chain that everyone else is using."
+      },
+      {
+        "score": 0.2943,
+        "start": 1300.69,
+        "end": 1305.2,
+        "transcript": "And with that, we've hit all the main ideas."
+      },
+      {
+        "score": 0.867,
+        "start": 1305.2,
+        "end": 1314.28,
+        "transcript": "This distributed ledger system, based on a proof of work, is more or less how the Bitcoin protocol works and how many other cryptocurrencies work."
+      },
+      {
+        "score": 0.3718,
+        "start": 1314.28,
+        "end": 1315.94,
+        "transcript": "There's just a few details to clear up."
+      },
+      {
+        "score": 0.7428,
+        "start": 1315.94,
+        "end": 1322.9,
+        "transcript": "Earlier, I said that the proof of work might be to find a special number so that the hash of the block starts with 60 zeros."
+      },
+      {
+        "score": 0.5973,
+        "start": 1322.9,
+        "end": 1332.83,
+        "transcript": "Well the way the actual Bitcoin protocol works is to periodically change that number of zeros so that it should take on average 10 minutes to find a new block."
+      },
+      {
+        "score": 0.5489,
+        "start": 1332.83,
+        "end": 1342.88,
+        "transcript": "So as there are more and more miners added to the network, the challenge actually gets harder and harder in such a way that this miniature lottery only has about one winner every 10 minutes."
+      },
+      {
+        "score": 0.5639,
+        "start": 1342.88,
+        "end": 1348.13,
+        "transcript": "Many newer cryptocurrencies actually have much shorter block times than that."
+      },
+      {
+        "score": 0.8522,
+        "start": 1348.13,
+        "end": 1352.45,
+        "transcript": "And all of the money in Bitcoin ultimately comes from some block reward."
+      },
+      {
+        "score": 0.4349,
+        "start": 1352.45,
+        "end": 1356.19,
+        "transcript": "In the beginning, these rewards were 50 Bitcoin per block."
+      },
+      {
+        "score": 0.5068,
+        "start": 1356.19,
+        "end": 1361.54,
+        "transcript": "There's actually a great website you can go to called Block Explorer that makes it easy to look through the Bitcoin blockchain."
+      }
+    ],
+    "segment_count": 67
+  },
+  {
+    "name": "The Like",
+    "start": 1357,
+    "original_name": "bitcoin ultimately comes",
+    "score": 2.2431644356087634,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7378,
+        "start": 1361.54,
+        "end": 1369.91,
+        "transcript": "And if you look at the very first few blocks on the chain, they contain no transactions other than that 50 Bitcoin reward to the miner."
+      },
+      {
+        "score": 0.4933,
+        "start": 1369.91,
+        "end": 1376.89,
+        "transcript": "But every 210,000 blocks, which is about every four years, that reward gets cut in half."
+      },
+      {
+        "score": 0.3457,
+        "start": 1376.89,
+        "end": 1380.78,
+        "transcript": "So right now, the reward is 12.5 bitcoin per block."
+      },
+      {
+        "score": 0.6663,
+        "start": 1380.78,
+        "end": 1389.67,
+        "transcript": "And because this reward decreases geometrically over time, it means there will never be more than 21 million bitcoin in existence."
+      },
+      {
+        "score": 0.5658,
+        "start": 1389.67,
+        "end": 1393.25,
+        "transcript": "However, this doesn't mean that miners will stop earning money."
+      },
+      {
+        "score": 0.4434,
+        "start": 1393.25,
+        "end": 1397.96,
+        "transcript": "In addition to the block reward, miners can also pick up transaction fees."
+      },
+      {
+        "score": 0.4547,
+        "start": 1397.96,
+        "end": 1408.66,
+        "transcript": "The way this works is that whenever you make a payment, you can purely optionally include a little transaction fee with it that's going to go to the miner of whichever block includes that payment."
+      },
+      {
+        "score": 0.4735,
+        "start": 1408.66,
+        "end": 1415.95,
+        "transcript": "The reason you might do that is to incentivize miners to actually include the transaction that you broadcast into the next block."
+      },
+      {
+        "score": 0.72,
+        "start": 1415.95,
+        "end": 1425.12,
+        "transcript": "You see, in Bitcoin, each block is limited to about 2400 transactions, which many critics argue is unnecessarily restrictive."
+      },
+      {
+        "score": 0.2416,
+        "start": 1425.12,
+        "end": 1435.86,
+        "transcript": "For comparison, Visa processes an average of about 1700 transactions per second, and they're capable of handling more than 24000 per second."
+      },
+      {
+        "score": 0.3685,
+        "start": 1435.86,
+        "end": 1446.18,
+        "transcript": "This comparatively slow processing on Bitcoin makes for higher transaction fees, since that's what determines which transactions miners choose to include in a new block."
+      },
+      {
+        "score": 0.5155,
+        "start": 1446.18,
+        "end": 1451.89,
+        "transcript": "All of this is far from a comprehensive coverage of cryptocurrencies."
+      },
+      {
+        "score": 0.2902,
+        "start": 1451.89,
+        "end": 1456.21,
+        "transcript": "There are still many nuances and alternate design choices that I haven't even touched."
+      },
+      {
+        "score": 0.3136,
+        "start": 1456.21,
+        "end": 1464.99,
+        "transcript": "But my hope is that this can provide a stable, weight-foot-wise style tree trunk of understanding for anyone looking to add a few more branches with further reading."
+      },
+      {
+        "score": 0.7782,
+        "start": 1464.99,
+        "end": 1470.87,
+        "transcript": "Like I said at the start, one of the motives behind this is that a lot of money has started flowing towards cryptocurrencies."
+      },
+      {
+        "score": 0.3186,
+        "start": 1470.87,
+        "end": 1480.8,
+        "transcript": "And even though I don't want to make any claims about whether that's a good or bad investment, I really do think that it's healthy for people getting into the game to at least know the fundamentals of the technology."
+      },
+      {
+        "score": 0.105,
+        "start": 1480.8,
+        "end": 1485.59,
+        "transcript": "As always, my sincerest thanks to those of you making this channel possible on Patreon."
+      },
+      {
+        "score": 0.0,
+        "start": 1485.59,
+        "end": 1496.65,
+        "transcript": "I understand that not everyone is in a position to contribute, but if you're still interested in helping out, one of the best ways to do that is simply to share videos that you think might be interesting, or helpful to others."
+      },
+      {
+        "score": 0.0778,
+        "start": 1496.65,
+        "end": 1499.68,
+        "transcript": "I know you know that, but it really does help."
+      }
+    ],
+    "segment_count": 19
+  }
+]

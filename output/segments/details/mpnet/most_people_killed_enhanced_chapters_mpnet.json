@@ -1,0 +1,1462 @@
+[
+  {
+    "name": "Patterson",
+    "start": 0,
+    "original_name": "one single scientist created three inventions",
+    "score": 3.2254592277820295,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6744,
+        "start": 0.03,
+        "end": 9.27,
+        "transcript": "One single scientist created three inventions that accidentally caused the deaths of millions of people, including himself."
+      },
+      {
+        "score": 0.5589,
+        "start": 9.27,
+        "end": 22.52,
+        "transcript": "Not only that, they decreased the average intelligence of people all around the world, increased crime rates, and caused two completely separate environmental disasters that we are still dealing with today."
+      },
+      {
+        "score": 0.1145,
+        "start": 22.52,
+        "end": 28.33,
+        "transcript": "Part of this video is sponsored by Ren, more about them at the end of the show."
+      },
+      {
+        "score": 0.5493,
+        "start": 28.33,
+        "end": 40.52,
+        "transcript": "In 1944, as a young chemist who had just finished his masters, Clair Patterson went to work on the Manhattan Project, building the first nuclear weapons."
+      },
+      {
+        "score": 0.6243,
+        "start": 40.52,
+        "end": 48.83,
+        "transcript": "His job was to concentrate uranium-235, the fizzle fuel for bombs, from the much more common uranium-238."
+      },
+      {
+        "score": 0.5984,
+        "start": 48.83,
+        "end": 58.78,
+        "transcript": "And this required huge machines, mass spectrometers, which separated the two types of uranium by their slight difference in mass."
+      },
+      {
+        "score": 0.2647,
+        "start": 58.78,
+        "end": 68.54,
+        "transcript": "After the war, Patterson went back to grad school to get his PhD."
+      },
+      {
+        "score": 0.479,
+        "start": 68.54,
+        "end": 76.8,
+        "transcript": "He picked a research project that would take advantage of his experience with mass spectrometers, measuring the age of the Earth."
+      },
+      {
+        "score": 0.4296,
+        "start": 76.8,
+        "end": 82.17,
+        "transcript": "radioactive rocks are effectively clocks."
+      },
+      {
+        "score": 0.3888,
+        "start": 82.17,
+        "end": 91.55,
+        "transcript": "Uranium 238, for example, decays into thorium and then protectinium and then 12 more decays until it ends up as lead 206, which is stable."
+      },
+      {
+        "score": 0.2525,
+        "start": 91.55,
+        "end": 95.63,
+        "transcript": "The rate of this decay is consistent and can be measured."
+      },
+      {
+        "score": 0.5867,
+        "start": 95.63,
+        "end": 103.77,
+        "transcript": "It takes 4.5 billion years for half of a sample of U238 to decay into lead 206."
+      },
+      {
+        "score": 0.7071,
+        "start": 103.77,
+        "end": 112.01,
+        "transcript": "Patterson's PhD project was to determine the age of the Earth by measuring the ratio of uranium to lead in primordial rocks."
+      }
+    ],
+    "segment_count": 13
+  },
+  {
+    "name": "The There",
+    "start": 112,
+    "original_name": "primordial rocks",
+    "score": 2.6527050994412655,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.3406,
+        "start": 112.01,
+        "end": 117.98,
+        "transcript": "But to calibrate his instrument, first he used Zircon crystals whose ages were known."
+      },
+      {
+        "score": 0.4746,
+        "start": 117.98,
+        "end": 126.97,
+        "transcript": "Zircon is ideal for this purpose because when it forms, it contains trace amounts of uranium, but absolutely no lead."
+      },
+      {
+        "score": 0.6663,
+        "start": 126.97,
+        "end": 133.06,
+        "transcript": "So any lead that you later find inside a zircon, you know must be the product of a uranium decay."
+      },
+      {
+        "score": 0.5421,
+        "start": 133.06,
+        "end": 139.93,
+        "transcript": "Patterson was tasked with measuring the lead content, and another student, George Tilton, measured uranium."
+      },
+      {
+        "score": 0.1286,
+        "start": 139.93,
+        "end": 143.54,
+        "transcript": "Tilton's uranium measurements were fine."
+      },
+      {
+        "score": 0.199,
+        "start": 143.54,
+        "end": 144.94,
+        "transcript": "They matched predictions."
+      },
+      {
+        "score": 0.4951,
+        "start": 144.94,
+        "end": 151.83,
+        "transcript": "But Patterson's lead measurements were all over the place, and they were many, many times higher than they expected."
+      },
+      {
+        "score": 0.5537,
+        "start": 151.83,
+        "end": 155.99,
+        "transcript": "We take George's uranium in my lead, not right, Patterson."
+      },
+      {
+        "score": 0.7929,
+        "start": 155.99,
+        "end": 159.13,
+        "transcript": "There was lead there that didn't belong there."
+      },
+      {
+        "score": 0.7255,
+        "start": 159.13,
+        "end": 163.2,
+        "transcript": "So where was all this extra lead coming from?"
+      },
+      {
+        "score": 0.2806,
+        "start": 163.2,
+        "end": 171.72,
+        "transcript": "That mystery would take over the rest of Claire Patterson's life and bring him to the literal ends of the earth."
+      },
+      {
+        "score": 0.3629,
+        "start": 171.72,
+        "end": 180.59,
+        "transcript": "In 1908, a woman was driving across the Belle Isle Bridge in Detroit when her car stalled."
+      },
+      {
+        "score": 0.1891,
+        "start": 180.59,
+        "end": 183.57,
+        "transcript": "A passing motorist stopped to help."
+      },
+      {
+        "score": 0.5179,
+        "start": 183.57,
+        "end": 186.66,
+        "transcript": "In those days, cars needed to be hand cranked to start."
+      },
+      {
+        "score": 0.4,
+        "start": 186.66,
+        "end": 194.25,
+        "transcript": "He knelt down and turned the crank and the engine roared to life, a little too suddenly."
+      },
+      {
+        "score": 0.3688,
+        "start": 194.25,
+        "end": 200.46,
+        "transcript": "The man couldn't get out of the way, the crank handle hit him in the face and broke his jaw."
+      },
+      {
+        "score": 0.2924,
+        "start": 200.46,
+        "end": 202.78,
+        "transcript": "He died as a result of his injuries."
+      },
+      {
+        "score": 0.3848,
+        "start": 202.78,
+        "end": 210.92,
+        "transcript": "His name was Byron Carter, and he was the founder of his own car company, so he was well connected in the Detroit auto scene."
+      },
+      {
+        "score": 0.2834,
+        "start": 210.92,
+        "end": 215.4,
+        "transcript": "He counted among his close friends the founder of Cadillac, Henry Leeland."
+      },
+      {
+        "score": 0.327,
+        "start": 215.4,
+        "end": 223.9,
+        "transcript": "Leeland was so distraught over his friend's death that he resolved to eliminate hand-cranks from his vehicles."
+      },
+      {
+        "score": 0.4258,
+        "start": 223.9,
+        "end": 230.97,
+        "transcript": "Leland hired Charles Kettering to create a self-starting car, and by 1911 he had a working prototype."
+      },
+      {
+        "score": 0.2536,
+        "start": 230.97,
+        "end": 236.36,
+        "transcript": "Handcranking was difficult and dangerous, and best left to men."
+      },
+      {
+        "score": 0.5585,
+        "start": 236.36,
+        "end": 241.84,
+        "transcript": "But a car that started itself changed everything."
+      },
+      {
+        "score": 0.3284,
+        "start": 241.84,
+        "end": 245.61,
+        "transcript": "The world's first crankless car was the Cadillac Model 30."
+      },
+      {
+        "score": 0.5395,
+        "start": 245.61,
+        "end": 248.18,
+        "transcript": "It was much more powerful than cars before it."
+      },
+      {
+        "score": 0.2828,
+        "start": 248.18,
+        "end": 252.24,
+        "transcript": "It had a top speed of 45 miles per hour and 40 horsepower."
+      },
+      {
+        "score": 0.3659,
+        "start": 252.24,
+        "end": 259.73,
+        "transcript": "Double the Ford Model T."
+      },
+      {
+        "score": 0.347,
+        "start": 259.73,
+        "end": 259.73,
+        "transcript": "The Model 30 was a huge success for Cadillac, doubling the company's annual sales."
+      },
+      {
+        "score": 0.4686,
+        "start": 259.73,
+        "end": 261.81,
+        "transcript": "But it had a problem."
+      },
+      {
+        "score": 0.2032,
+        "start": 261.81,
+        "end": 264.18,
+        "transcript": "It was definitely loud."
+      },
+      {
+        "score": 0.3388,
+        "start": 264.18,
+        "end": 272.51,
+        "transcript": "In internal combustion engines, a piston compresses the fuel air mixture, which is then ignited by a spark from the spark plug."
+      },
+      {
+        "score": 0.2472,
+        "start": 272.51,
+        "end": 276.12,
+        "transcript": "The expanding hot gases push the piston back down."
+      },
+      {
+        "score": 0.4589,
+        "start": 276.12,
+        "end": 289.05,
+        "transcript": "The problem with the Model 30 engine was it compressed the fuel air mixture more than previous models, so much in fact that often the fuel would spontaneously combust before the spark from the spark plug."
+      },
+      {
+        "score": 0.4062,
+        "start": 289.05,
+        "end": 297.66,
+        "transcript": "So rather than orderly, perfectly timed explosions, you'd get multiple haphazard combustions leading to turbulent pressure waves inside the cylinder."
+      },
+      {
+        "score": 0.4264,
+        "start": 297.66,
+        "end": 302.13,
+        "transcript": "The resulting sound led the problem to become known as engine knocking."
+      },
+      {
+        "score": 0.4776,
+        "start": 302.13,
+        "end": 307.52,
+        "transcript": "Knocking wasn't just hard on the ears, it hurt the engine's performance."
+      },
+      {
+        "score": 0.5855,
+        "start": 307.52,
+        "end": 310.72,
+        "transcript": "It reduced power output and lowered fuel efficiency."
+      },
+      {
+        "score": 0.5314,
+        "start": 310.72,
+        "end": 316.51,
+        "transcript": "The vibrations also damaged the piston and walls of the cylinder, shortening the life of the engine."
+      },
+      {
+        "score": 0.4736,
+        "start": 316.51,
+        "end": 321.81,
+        "transcript": "The good news was that engine knocking could be corrected by changing the fuel."
+      },
+      {
+        "score": 0.3832,
+        "start": 321.81,
+        "end": 332.42,
+        "transcript": "Different fuels can withstand different levels of compression before detonating, and Heptane, for example, will spontaneously combust under only a little compression."
+      },
+      {
+        "score": 0.3944,
+        "start": 332.42,
+        "end": 342.16,
+        "transcript": "ISO Octane, on the other hand, can withstand a much higher compression ratio before it auto ignites, so it's much less likely to cause knocking."
+      },
+      {
+        "score": 0.4137,
+        "start": 342.16,
+        "end": 347.5,
+        "transcript": "To quantify how much compression a fuel can withstand, scientists came up with the octane rating system."
+      },
+      {
+        "score": 0.3964,
+        "start": 347.5,
+        "end": 353.55,
+        "transcript": "They arbitrarily set iso-octane to have a rating of 100, and N-heptane a rating of 0."
+      },
+      {
+        "score": 0.6342,
+        "start": 353.55,
+        "end": 356.86,
+        "transcript": "Now, real fuels aren't made up of only these two ingredients."
+      },
+      {
+        "score": 0.3249,
+        "start": 356.86,
+        "end": 365.12,
+        "transcript": "They're a mix of lots of different hydrocarbons, but the octane rating tells you what mixture of octane and heptane gives equivalent performance."
+      },
+      {
+        "score": 0.3819,
+        "start": 365.12,
+        "end": 372.58,
+        "transcript": "For example, 98 octane fuel can withstand the same compression as a mixture of 98 percent octane and 2 percent heptane."
+      },
+      {
+        "score": 0.4207,
+        "start": 372.58,
+        "end": 385.25,
+        "transcript": "Now, I'm going to take a little bit of 98 octane fuel and put it in this piston and when I compress it, Nothing happens, which is exactly what you'd expect."
+      },
+      {
+        "score": 0.596,
+        "start": 385.25,
+        "end": 388.58,
+        "transcript": "This fuel can withstand a lot of compression."
+      },
+      {
+        "score": 0.4617,
+        "start": 388.58,
+        "end": 394.85,
+        "transcript": "Diesel has an octane rating of 20, so it acts like a mixture of 20% isoactane and 80% in heptane."
+      },
+      {
+        "score": 0.4805,
+        "start": 394.85,
+        "end": 400.33,
+        "transcript": "If I put a little bit of diesel in there, let's see what happens with the same compression ratio."
+      },
+      {
+        "score": 0.1601,
+        "start": 400.33,
+        "end": 407.17,
+        "transcript": "There you go."
+      },
+      {
+        "score": 0.3815,
+        "start": 407.17,
+        "end": 409.03,
+        "transcript": "You get a little explosion in there."
+      },
+      {
+        "score": 0.5291,
+        "start": 409.03,
+        "end": 411.43,
+        "transcript": "That's because this is a low octane fuel."
+      },
+      {
+        "score": 0.5378,
+        "start": 411.43,
+        "end": 412.92,
+        "transcript": "I mean, that's what Diesel's meant to do."
+      },
+      {
+        "score": 0.4122,
+        "start": 412.92,
+        "end": 414.36,
+        "transcript": "You compress it and it ignites."
+      },
+      {
+        "score": 0.5861,
+        "start": 414.36,
+        "end": 419.71,
+        "transcript": "But you don't want this sort of fuel in an engine with spark plugs."
+      },
+      {
+        "score": 0.5532,
+        "start": 419.71,
+        "end": 426.38,
+        "transcript": "The reason fancy cars demand high octane fuel is to prevent knocking in their high compression, high performance engines."
+      },
+      {
+        "score": 0.6389,
+        "start": 426.38,
+        "end": 448.08,
+        "transcript": "Kettering wanted to find an additive which would increase the octane rating of ordinary fuel and eliminate knocking in high compression engines, so he hired 27-year-old engineer Thomas Midgley Jr. Midgley experimented with all sorts of compounds from melted butter and camphor to ethyl acetate and aluminum chloride."
+      }
+    ],
+    "segment_count": 58
+  },
+  {
+    "name": "The And Midgeley",
+    "start": 427,
+    "original_name": "old engineer thomas midgley jr",
+    "score": 3.8920985439300537,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.5153,
+        "start": 448.08,
+        "end": 452.57,
+        "transcript": "He later wrote most of them had no more effect than spitting in the Great Lakes."
+      },
+      {
+        "score": 0.5448,
+        "start": 452.57,
+        "end": 455.66,
+        "transcript": "Ethanol was an interesting exception."
+      },
+      {
+        "score": 0.3263,
+        "start": 455.66,
+        "end": 462.51,
+        "transcript": "It did stop the knocking, but you needed a lot of it, about 10% of the fuel mixture for it to be effective."
+      },
+      {
+        "score": 0.4247,
+        "start": 462.51,
+        "end": 465.93,
+        "transcript": "That much ethanol would be expensive and hard to turn a profit on."
+      },
+      {
+        "score": 0.5906,
+        "start": 465.93,
+        "end": 472.38,
+        "transcript": "And Midgeley was really after an additive that was cheap, easy to produce, and effective even at low concentrations."
+      },
+      {
+        "score": 0.3096,
+        "start": 472.38,
+        "end": 475.08,
+        "transcript": "So he kept trying."
+      },
+      {
+        "score": 0.4032,
+        "start": 475.08,
+        "end": 477.02,
+        "transcript": "Then he hit on Tolurium."
+      },
+      {
+        "score": 0.3778,
+        "start": 477.02,
+        "end": 482.43,
+        "transcript": "It worked wonderfully as an anti-knock agent, but it had a terrible smell."
+      },
+      {
+        "score": 0.2047,
+        "start": 482.43,
+        "end": 486.12,
+        "transcript": "You couldn't get rid of it by changing clothes or bathing."
+      },
+      {
+        "score": 0.3311,
+        "start": 486.12,
+        "end": 491.98,
+        "transcript": "His wife was so offended by the stench that he had to sleep in the basement for seven months."
+      },
+      {
+        "score": 0.582,
+        "start": 491.98,
+        "end": 499.43,
+        "transcript": "Midgley wrote, I don't think that although this doubled the fuel economy, humanity would suffer this smell."
+      },
+      {
+        "score": 0.2812,
+        "start": 499.43,
+        "end": 509.21,
+        "transcript": "On December 3rd, 1921, after five years of working on the problem, midgely found what he thought was the perfect solution."
+      },
+      {
+        "score": 0.6259,
+        "start": 509.21,
+        "end": 513.58,
+        "transcript": "Tetraethyl lead, that's a lead atom right there in the center."
+      }
+    ],
+    "segment_count": 13
+  },
+  {
+    "name": "The Already",
+    "start": 511,
+    "original_name": "lead atom right",
+    "score": 3.3206413751226487,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.4334,
+        "start": 513.58,
+        "end": 516.86,
+        "transcript": "This additive was exactly what he was looking for."
+      },
+      {
+        "score": 0.5149,
+        "start": 516.86,
+        "end": 522.45,
+        "transcript": "It stopped the knocking, it didn't smell, it was cheap to produce and readily available."
+      },
+      {
+        "score": 0.4859,
+        "start": 522.45,
+        "end": 527.93,
+        "transcript": "Best of all, you only needed one part in a thousand for it to be effective."
+      },
+      {
+        "score": 0.2376,
+        "start": 527.93,
+        "end": 532.75,
+        "transcript": "In a call to Kettering, Mijli said, can you imagine how much money we're gonna make with this?"
+      },
+      {
+        "score": 0.1642,
+        "start": 532.75,
+        "end": 536.21,
+        "transcript": "We're gonna make $200 million, maybe even more."
+      },
+      {
+        "score": 0.4085,
+        "start": 536.21,
+        "end": 540.3,
+        "transcript": "That is over $3 billion in today's dollars."
+      },
+      {
+        "score": 0.3152,
+        "start": 540.3,
+        "end": 550.74,
+        "transcript": "Now, for his discovery, the American Chemical Society gave him the prestigious Nichols Award, and they asked him to do a series of public talks, but midgely declined."
+      },
+      {
+        "score": 0.6667,
+        "start": 550.74,
+        "end": 557.73,
+        "transcript": "He and Kettering patented the process for making Tetraethal lead, and they called their new additive Ethel."
+      },
+      {
+        "score": 0.4347,
+        "start": 557.73,
+        "end": 562.38,
+        "transcript": "Perhaps so it might be confused with another common additive Ethel alcohol."
+      },
+      {
+        "score": 0.6152,
+        "start": 562.38,
+        "end": 565.38,
+        "transcript": "They made no mention of lead."
+      },
+      {
+        "score": 0.3744,
+        "start": 565.38,
+        "end": 574.43,
+        "transcript": "Then they teamed up with three of America's largest corporations, General Motors, DuPont, and Standard Oil of New Jersey to form the Ethel Corporation."
+      },
+      {
+        "score": 0.2337,
+        "start": 574.43,
+        "end": 577.87,
+        "transcript": "Their marketing was brilliant."
+      },
+      {
+        "score": 0.3092,
+        "start": 577.87,
+        "end": 586.47,
+        "transcript": "No man can look at the amazing record of accomplishment here in this research division without confidence that these men are going ahead with an eye to the future."
+      },
+      {
+        "score": 0.2419,
+        "start": 586.47,
+        "end": 594.02,
+        "transcript": "Looking for new facts and principles which will make things better and make life easier for all of us."
+      },
+      {
+        "score": 0.6899,
+        "start": 594.02,
+        "end": 613.53,
+        "transcript": "At the 1923 Indianapolis 500, the top three finishers all used Ethel, and the demand for a leaded gasoline took off."
+      },
+      {
+        "score": 0.5818,
+        "start": 613.53,
+        "end": 619.7,
+        "transcript": "To keep up, Ethel Corporation had to build a new chemical plant in New Jersey, but the project began terribly."
+      },
+      {
+        "score": 0.6446,
+        "start": 619.7,
+        "end": 624.59,
+        "transcript": "Within two months of operating, dozens of workers fell ill with lead poisoning."
+      },
+      {
+        "score": 0.3001,
+        "start": 624.59,
+        "end": 626.45,
+        "transcript": "Five of them died."
+      },
+      {
+        "score": 0.6898,
+        "start": 626.45,
+        "end": 638.17,
+        "transcript": "to address the public outcry, midgely held a press conference, and there he poured tetraethyl lead onto his hands, and he inhaled it for a full minute."
+      },
+      {
+        "score": 0.4217,
+        "start": 638.17,
+        "end": 643.9,
+        "transcript": "He claimed he could do this daily without harm, but midgely knew the dangers."
+      },
+      {
+        "score": 0.4128,
+        "start": 643.9,
+        "end": 654.21,
+        "transcript": "The reason he had turned down the public talks was because he spent much of 1923 in Florida, where he himself was recovering from lead poisoning."
+      },
+      {
+        "score": 0.3097,
+        "start": 654.21,
+        "end": 658.05,
+        "transcript": "He didn't go anywhere near his company's product if he could help it."
+      },
+      {
+        "score": 0.8064,
+        "start": 658.05,
+        "end": 663.04,
+        "transcript": "Lead is dangerous even in small doses."
+      },
+      {
+        "score": 0.364,
+        "start": 663.04,
+        "end": 667.37,
+        "transcript": "It mimics calcium in our bodies so there's no efficient way to get rid of it."
+      },
+      {
+        "score": 0.7432,
+        "start": 667.37,
+        "end": 675.56,
+        "transcript": "And like calcium, lead can be stored in bones for years, meaning it can continue to poison the body long after the initial exposure."
+      },
+      {
+        "score": 0.6754,
+        "start": 675.56,
+        "end": 679.37,
+        "transcript": "The organ most sensitive to lead is the brain."
+      },
+      {
+        "score": 0.519,
+        "start": 679.37,
+        "end": 684.42,
+        "transcript": "Lead breaks down the mile and sheath around axons and prevents the release of neurotransmitters."
+      },
+      {
+        "score": 0.6159,
+        "start": 684.42,
+        "end": 690.77,
+        "transcript": "That's why common symptoms of lead poisoning are headaches, memory loss, and tingling in the hands and feet."
+      },
+      {
+        "score": 0.4574,
+        "start": 690.77,
+        "end": 693.62,
+        "transcript": "And children are particularly susceptible."
+      },
+      {
+        "score": 0.7066,
+        "start": 693.62,
+        "end": 698.19,
+        "transcript": "Lead exposure can cause permanent learning disorders and behavioral problems."
+      },
+      {
+        "score": 0.8507,
+        "start": 698.19,
+        "end": 701.49,
+        "transcript": "And the dangers of lead had been known for hundreds of years."
+      },
+      {
+        "score": 0.8369,
+        "start": 701.49,
+        "end": 709.74,
+        "transcript": "Already in 1786, Benjamin Franklin remarked that lead had been used for far too long considering its known toxicity."
+      },
+      {
+        "score": 0.8465,
+        "start": 717.59,
+        "end": 724.58,
+        "transcript": "He would have been aghast to learn that nearly 150 years later, scientists planned to add lead to fuel."
+      }
+    ],
+    "segment_count": 33
+  },
+  {
+    "name": "The Patterson",
+    "start": 724,
+    "original_name": "nearly 150 years later",
+    "score": 4.314039754874207,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6871,
+        "start": 724.58,
+        "end": 733.63,
+        "transcript": "Doctors and public health officials from MIT, Harvard, Yale, and the U.S. Health Service wrote to midgely and warned them against producing tetraethyl lead."
+      },
+      {
+        "score": 0.8213,
+        "start": 733.63,
+        "end": 738.6,
+        "transcript": "They called lead a creeping and malicious poison and a serious menace to public health."
+      },
+      {
+        "score": 0.2346,
+        "start": 738.6,
+        "end": 741.6,
+        "transcript": "Their concerns were dismissed."
+      },
+      {
+        "score": 0.5818,
+        "start": 741.6,
+        "end": 750.96,
+        "transcript": "This model shows how just the right amount of fluid containing tetraethyl lead and dye is added to the gasoline."
+      },
+      {
+        "score": 0.8554,
+        "start": 750.96,
+        "end": 756.69,
+        "transcript": "No one doubted that a lot of lead was bad for you, but how much harm could a little lead do?"
+      },
+      {
+        "score": 0.9918,
+        "start": 756.69,
+        "end": 765.7,
+        "transcript": "By the 1950s, millions of motorists globally were burning lead in their cars and releasing it into the air."
+      },
+      {
+        "score": 0.6285,
+        "start": 765.7,
+        "end": 772.79,
+        "transcript": "Some of that lead ended up on Claire Patterson's zircon samples, preventing him from determining their age."
+      },
+      {
+        "score": 0.3407,
+        "start": 772.79,
+        "end": 778.38,
+        "transcript": "In 1952, he moved to Caltech, where he built a new lab from scratch."
+      },
+      {
+        "score": 0.5674,
+        "start": 778.38,
+        "end": 784.91,
+        "transcript": "Suspicious of environmental contamination, he tore the electrical cables out of the walls to remove the lead solder."
+      },
+      {
+        "score": 0.3853,
+        "start": 784.91,
+        "end": 791.56,
+        "transcript": "He cleaned the floors and benches daily with ammonia, and made sure that air was always being blown out of the lab."
+      },
+      {
+        "score": 0.2643,
+        "start": 791.56,
+        "end": 795.16,
+        "transcript": "To go inside, you had to wear a plastic bunny suit."
+      },
+      {
+        "score": 0.439,
+        "start": 795.16,
+        "end": 798.93,
+        "transcript": "Patterson basically invented the clean room."
+      },
+      {
+        "score": 0.3656,
+        "start": 798.93,
+        "end": 805.04,
+        "transcript": "Inside that room, he turned his attention to the oldest rocks in the solar system, meteorites."
+      },
+      {
+        "score": 0.2334,
+        "start": 805.04,
+        "end": 815.97,
+        "transcript": "All the original rocks on Earth had long since been destroyed by tectonic activity, but meteorites come from asteroids which formed around the same time as Earth."
+      },
+      {
+        "score": 0.2066,
+        "start": 815.97,
+        "end": 821.34,
+        "transcript": "They have just been drifting through space until they entered the Earth's atmosphere."
+      },
+      {
+        "score": 0.4749,
+        "start": 821.34,
+        "end": 827.57,
+        "transcript": "So the best way to measure the age of the Earth was to measure the age of meteorites."
+      },
+      {
+        "score": 0.4106,
+        "start": 827.57,
+        "end": 838.45,
+        "transcript": "Patterson measured five meteorites, each with three different radiometric dating techniques, and he found they were all 4.55 billion years old."
+      },
+      {
+        "score": 0.4273,
+        "start": 838.45,
+        "end": 846.35,
+        "transcript": "That number is within 0.15% of the currently accepted value for the age of the Earth."
+      },
+      {
+        "score": 0.6375,
+        "start": 846.35,
+        "end": 851.02,
+        "transcript": "You know, before Patterson's experiment, people thought the Earth was a billion years younger."
+      },
+      {
+        "score": 0.3531,
+        "start": 851.02,
+        "end": 852.86,
+        "transcript": "So Patterson had done it."
+      },
+      {
+        "score": 0.5024,
+        "start": 852.86,
+        "end": 855.02,
+        "transcript": "He measured the age of the Earth."
+      },
+      {
+        "score": 0.9227,
+        "start": 855.02,
+        "end": 858.63,
+        "transcript": "But he wasn't done getting rid of lead contaminants."
+      },
+      {
+        "score": 0.7149,
+        "start": 858.63,
+        "end": 863.35,
+        "transcript": "Public concern about lead exposure had continued to grow."
+      },
+      {
+        "score": 0.4174,
+        "start": 863.35,
+        "end": 875.49,
+        "transcript": "But President of Standard Oil, Frank Howard, pushed back, saying, we do not feel justified in giving up what has come to the industry like a gift from heaven on the possibility that a hazard may be involved in it."
+      },
+      {
+        "score": 0.874,
+        "start": 875.49,
+        "end": 884.98,
+        "transcript": "Scientists, funded by the Ethel Corporation, claimed that lead was a natural part of our environment, and therefore not harmful to people."
+      },
+      {
+        "score": 0.7558,
+        "start": 884.98,
+        "end": 890.05,
+        "transcript": "But Patterson wondered just how natural is the lead in our environment."
+      },
+      {
+        "score": 0.3051,
+        "start": 890.05,
+        "end": 893.28,
+        "transcript": "And he had just the skills to find out."
+      },
+      {
+        "score": 0.7527,
+        "start": 893.28,
+        "end": 900.31,
+        "transcript": "He began by measuring lead in the oceans."
+      },
+      {
+        "score": 0.5708,
+        "start": 900.31,
+        "end": 905.48,
+        "transcript": "If it were natural, he expected the concentration of lead to be the same regardless of depth."
+      },
+      {
+        "score": 0.7056,
+        "start": 905.48,
+        "end": 910.44,
+        "transcript": "But if lead pollution had increased recently, it would be more concentrated near the surface."
+      },
+      {
+        "score": 0.3345,
+        "start": 910.44,
+        "end": 915.65,
+        "transcript": "He took samples in the Pacific and Atlantic oceans down to a depth of 4 kilometers."
+      },
+      {
+        "score": 0.7187,
+        "start": 915.65,
+        "end": 921.05,
+        "transcript": "And sure enough, lead concentrations were nearly 10 times higher near the surface."
+      },
+      {
+        "score": 0.736,
+        "start": 921.05,
+        "end": 932.04,
+        "transcript": "Lead pollution was clearly recent, but when exactly had it occurred, To find out, Patterson had to go to Greenland and Antarctica."
+      },
+      {
+        "score": 0.742,
+        "start": 932.04,
+        "end": 937.74,
+        "transcript": "Icecores record the level of lead in the air going back thousands of years."
+      },
+      {
+        "score": 0.896,
+        "start": 937.74,
+        "end": 942.8,
+        "transcript": "the levels of lead in the atmosphere have been elevated for the last 4500 years."
+      },
+      {
+        "score": 0.4437,
+        "start": 942.8,
+        "end": 947.82,
+        "transcript": "All of it is due to human activity, mainly smelting ores to make metal."
+      },
+      {
+        "score": 0.3907,
+        "start": 947.82,
+        "end": 961.2,
+        "transcript": "You can see the rise and fall of the Greek and Roman empires, the dip caused by the Black Death in the 1300s, and of course the spike in the 20th century due to industrialization and tetraethyl lead."
+      },
+      {
+        "score": 0.5194,
+        "start": 961.2,
+        "end": 964.78,
+        "transcript": "So what did this do to people?"
+      },
+      {
+        "score": 0.7262,
+        "start": 964.78,
+        "end": 975.56,
+        "transcript": "Well, Patterson looked at the lead levels in the teeth and bones of recently deceased Americans, and for comparison, he measured the lead in bones and teeth of Peruvian and Egyptian mummies."
+      },
+      {
+        "score": 0.7501,
+        "start": 975.56,
+        "end": 982.25,
+        "transcript": "Since they lived over 1600 years ago, they would have been exposed to much less lead in their lifetimes."
+      },
+      {
+        "score": 0.7563,
+        "start": 982.25,
+        "end": 991.78,
+        "transcript": "He expected to find modern Americans had about 100 times as much lead in their bones, but results showed it was closer to a factor of a thousand."
+      },
+      {
+        "score": 0.7615,
+        "start": 991.78,
+        "end": 997.66,
+        "transcript": "20th century Americans had a thousand times more lead in their bones than their ancestors."
+      },
+      {
+        "score": 0.7152,
+        "start": 997.66,
+        "end": 1009.52,
+        "transcript": "Studies of baby teeth revealed that even lead exposure well below the level considered safe resulted in delayed learning, decreased IQ and increased behavioral problems."
+      }
+    ],
+    "segment_count": 43
+  },
+  {
+    "name": "The According",
+    "start": 1004,
+    "original_name": "20th century americans",
+    "score": 4.019406119110711,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6517,
+        "start": 1009.52,
+        "end": 1018.52,
+        "transcript": "And there is a broad consensus on the part of everybody except the lead industry and its spokesman that lead is extremely toxic at extremely low doses."
+      },
+      {
+        "score": 0.7013,
+        "start": 1018.52,
+        "end": 1026.52,
+        "transcript": "A follow-up study showed that those with higher levels of lead in their baby teeth were many times more likely to fail out of high school."
+      },
+      {
+        "score": 0.4873,
+        "start": 1026.52,
+        "end": 1042.32,
+        "transcript": "As a result of studies like these, the CDC's guidelines for the acceptable level of lead in children's blood dropped from 60 micrograms per deciliter down to 3.5. And as far as we know today, there is no safe level of lead."
+      },
+      {
+        "score": 0.7064,
+        "start": 1042.32,
+        "end": 1049.45,
+        "transcript": "Globally, lead is believed to be responsible for nearly two-thirds of all unexplained intellectual disability."
+      },
+      {
+        "score": 0.7588,
+        "start": 1049.45,
+        "end": 1061.2,
+        "transcript": "According to a study published in 2022, more than half of the current U.S. population, that's 170 million people, were exposed to high levels of lead in early childhood."
+      },
+      {
+        "score": 0.352,
+        "start": 1061.2,
+        "end": 1066.59,
+        "transcript": "Those born between 1951 and 1980 are disproportionately affected."
+      },
+      {
+        "score": 0.7939,
+        "start": 1066.59,
+        "end": 1072.76,
+        "transcript": "The authors estimate that in aggregate, lead caused a loss of more than 800 million IQ points."
+      },
+      {
+        "score": 0.9352,
+        "start": 1072.76,
+        "end": 1077.45,
+        "transcript": "The world is less intelligent today because of lead at gasoline."
+      },
+      {
+        "score": 0.4512,
+        "start": 1077.45,
+        "end": 1081.86,
+        "transcript": "But there are even more troubling correlations."
+      },
+      {
+        "score": 0.3162,
+        "start": 1081.86,
+        "end": 1086.51,
+        "transcript": "The US saw a steady rise in crime from the 1970s to the 1990s."
+      },
+      {
+        "score": 0.2346,
+        "start": 1086.51,
+        "end": 1090.49,
+        "transcript": "Then it abruptly declined."
+      },
+      {
+        "score": 0.5114,
+        "start": 1090.49,
+        "end": 1098.61,
+        "transcript": "This graph looks eerily similar to a plot of preschool blood-led levels just offset by 20 years."
+      },
+      {
+        "score": 0.7511,
+        "start": 1098.61,
+        "end": 1106.21,
+        "transcript": "The obvious question is, did kids who were exposed to higher levels of lead grow up to commit more crimes than they otherwise would have?"
+      },
+      {
+        "score": 0.2297,
+        "start": 1106.21,
+        "end": 1114.04,
+        "transcript": "You might think this is just a spurious correlation, but the same pattern appears in many countries, including Britain, Canada, and Australia."
+      },
+      {
+        "score": 0.7466,
+        "start": 1114.04,
+        "end": 1120.13,
+        "transcript": "And we know there's a causal connection between lead exposure and anti-social or violent behavior."
+      },
+      {
+        "score": 0.5826,
+        "start": 1120.13,
+        "end": 1130.6,
+        "transcript": "A study of 340 teenagers found that those who were arrested were four times as likely to have elevated lead in their bones than similar demographic controls who didn't have run-ins with the law."
+      },
+      {
+        "score": 0.7147,
+        "start": 1130.6,
+        "end": 1137.49,
+        "transcript": "Now this doesn't mean that lead is responsible for all of the increase in crime, but it's very likely responsible for some of it."
+      },
+      {
+        "score": 0.8332,
+        "start": 1137.49,
+        "end": 1142.78,
+        "transcript": "Now it's tough to estimate the precise death toll of lead."
+      },
+      {
+        "score": 0.4001,
+        "start": 1142.78,
+        "end": 1149.41,
+        "transcript": "One of its lesser known effects is a hardening of the arteries, leading to increased cardiovascular disease."
+      }
+    ],
+    "segment_count": 19
+  },
+  {
+    "name": "The Claire Patterson",
+    "start": 1149,
+    "original_name": "precise death toll",
+    "score": 4.359323628902435,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7422,
+        "start": 1149.41,
+        "end": 1158.79,
+        "transcript": "A study from 2018 found lead was likely responsible for 250,000 heart disease deaths per year in the US."
+      },
+      {
+        "score": 0.5318,
+        "start": 1158.79,
+        "end": 1165.06,
+        "transcript": "Assuming a constant rate over the past century, that amounts to 25 million deaths in the US alone."
+      },
+      {
+        "score": 0.245,
+        "start": 1165.06,
+        "end": 1168.85,
+        "transcript": "Globally, the figure may approach 100 million."
+      },
+      {
+        "score": 0.8332,
+        "start": 1168.85,
+        "end": 1179.98,
+        "transcript": "Most of those deaths are due to Mijli's decision to put lead in gasoline, as substance he knew firsthand was toxic, but he did it anyway to maximize profits."
+      },
+      {
+        "score": 0.3084,
+        "start": 1179.98,
+        "end": 1181.79,
+        "transcript": "And the problem is not over."
+      },
+      {
+        "score": 0.6327,
+        "start": 1181.79,
+        "end": 1188.08,
+        "transcript": "Current estimates of deaths caused by lead range from 500 to 900,000 per year."
+      },
+      {
+        "score": 0.4866,
+        "start": 1188.08,
+        "end": 1199.59,
+        "transcript": "The 2020 UNICEF report warns that one in three children globally that's over 800 million children have blood-led levels at or above five micrograms per deciliter."
+      },
+      {
+        "score": 0.8571,
+        "start": 1199.59,
+        "end": 1208.49,
+        "transcript": "A lot of this lead now comes from batteries and industrial processes, but some is still due to Michelin's invention."
+      },
+      {
+        "score": 0.4458,
+        "start": 1208.49,
+        "end": 1215.67,
+        "transcript": "After Michelin's success with Ethel, he was put in charge of another engineering project."
+      },
+      {
+        "score": 0.542,
+        "start": 1215.67,
+        "end": 1219.57,
+        "transcript": "GM wasn't just making cars, but also household appliances."
+      },
+      {
+        "score": 0.5343,
+        "start": 1219.57,
+        "end": 1221.48,
+        "transcript": "Fridges had a problem."
+      },
+      {
+        "score": 0.3614,
+        "start": 1221.48,
+        "end": 1226.93,
+        "transcript": "The two most common gases used as refrigerants were methylformate and sulfur dioxide."
+      },
+      {
+        "score": 0.4849,
+        "start": 1226.93,
+        "end": 1230.81,
+        "transcript": "One is highly toxic, the other is flammable."
+      },
+      {
+        "score": 0.5934,
+        "start": 1230.81,
+        "end": 1240.9,
+        "transcript": "Midgeley was tasked with creating a safer alternative, and in 1928, he developed a non-toxic and non-flammable refrigerant, dichloro-difloro-methane."
+      },
+      {
+        "score": 0.6586,
+        "start": 1240.9,
+        "end": 1253.12,
+        "transcript": "GM called this new product three-on, and to demonstrate free-on safety, during the unveiling at the American Chemical Society, Midgeley inhaled a lung full of this gas and blew out a candle."
+      },
+      {
+        "score": 0.5419,
+        "start": 1253.12,
+        "end": 1260.59,
+        "transcript": "in the following decades, CFCs like Phreon became very popular and were used as solvents and aerosols."
+      },
+      {
+        "score": 0.4008,
+        "start": 1260.59,
+        "end": 1264.77,
+        "transcript": "The problem is CFCs are light and stable."
+      },
+      {
+        "score": 0.2465,
+        "start": 1264.77,
+        "end": 1272.7,
+        "transcript": "When released into the atmosphere, they climb up into the stratosphere, where they can remain for 50 to 100 years."
+      },
+      {
+        "score": 0.2663,
+        "start": 1272.7,
+        "end": 1280.66,
+        "transcript": "But if a CFC molecule is hit by an ultraviolet photon of just the right energy, it breaks apart, releasing a chlorine atom."
+      },
+      {
+        "score": 0.4734,
+        "start": 1280.66,
+        "end": 1287.99,
+        "transcript": "And this chlorine atom can then react with ozone, Breaking it apart into chlorine monoxide and oxygen gas."
+      },
+      {
+        "score": 0.7474,
+        "start": 1287.99,
+        "end": 1292.9,
+        "transcript": "The result was another environmental disaster, the hole in the ozone layer."
+      },
+      {
+        "score": 0.475,
+        "start": 1292.9,
+        "end": 1299.08,
+        "transcript": "With less ozone, more UV light penetrates the atmosphere, increasing the rates of skin cancer and cataracts."
+      },
+      {
+        "score": 0.5773,
+        "start": 1299.08,
+        "end": 1302.7,
+        "transcript": "Plus, CFCs are potent greenhouse gases."
+      },
+      {
+        "score": 0.5115,
+        "start": 1302.7,
+        "end": 1307.61,
+        "transcript": "Per kilogram, they produce 10,000 times more warming than CO2."
+      },
+      {
+        "score": 0.4819,
+        "start": 1307.61,
+        "end": 1315.08,
+        "transcript": "The historian John McNeil wrote that midgely had more impact on the atmosphere than any other single organism in Earth's history."
+      },
+      {
+        "score": 0.4136,
+        "start": 1315.08,
+        "end": 1328.06,
+        "transcript": "An agreement to phased out CFCs the Montreal Protocol went into effect in 1989, and the ozone layer is now showing signs of recovery, although it'll take many more decades to fully recover."
+      },
+      {
+        "score": 0.2791,
+        "start": 1328.06,
+        "end": 1333.69,
+        "transcript": "In 1940, at the age of 51, Midgeley contracted polio and became physically disabled."
+      },
+      {
+        "score": 0.1537,
+        "start": 1333.69,
+        "end": 1339.23,
+        "transcript": "So to help him get up, he devised a mechanical bed controlled by a series of ropes and pulleys."
+      },
+      {
+        "score": 0.3197,
+        "start": 1339.23,
+        "end": 1347.7,
+        "transcript": "On November 2nd, 1944, while using the contraption, he became tangled in the ropes and died of strangulation."
+      },
+      {
+        "score": 0.8343,
+        "start": 1347.7,
+        "end": 1355.72,
+        "transcript": "Thanks to the work of Claire Patterson, it became clear that the lead in our environment is not natural."
+      },
+      {
+        "score": 1.0,
+        "start": 1355.72,
+        "end": 1360.51,
+        "transcript": "Burning lead in combustion engines spread the toxic element across the planet."
+      },
+      {
+        "score": 0.3547,
+        "start": 1360.51,
+        "end": 1367.13,
+        "transcript": "Into the air, oceans, the snow, the south pole, and even our bones."
+      }
+    ],
+    "segment_count": 32
+  },
+  {
+    "name": "The The",
+    "start": 1367,
+    "original_name": "toxic element across",
+    "score": 2.0878506200514346,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.3219,
+        "start": 1397.97,
+        "end": 1407.24,
+        "transcript": "You will observe with concern how long a useful truth may be known and exist before it is generally received and practiced on."
+      },
+      {
+        "score": 0.5481,
+        "start": 1367.13,
+        "end": 1373.08,
+        "transcript": "Japan was the first to ban-letted fuel in cars in 1986, but other countries soon followed suit."
+      },
+      {
+        "score": 0.1304,
+        "start": 1373.08,
+        "end": 1376.44,
+        "transcript": "Algeria was the last to do so in 2021."
+      },
+      {
+        "score": 0.7493,
+        "start": 1376.44,
+        "end": 1387.16,
+        "transcript": "The UN calculates that the elimination of lead from gas saves over a million lives per year, and $2.45 trillion."
+      },
+      {
+        "score": 0.6552,
+        "start": 1387.16,
+        "end": 1393.92,
+        "transcript": "But let it gas is still used, by the way, in piston-driven airplane engines."
+      },
+      {
+        "score": 0.6121,
+        "start": 1393.92,
+        "end": 1397.97,
+        "transcript": "That's now the largest source of light emissions into the air in the US."
+      },
+      {
+        "score": 0.3219,
+        "start": 1397.97,
+        "end": 1407.24,
+        "transcript": "You will observe with concern how long a useful truth may be known and exist before it is generally received and practiced on."
+      },
+      {
+        "score": 0.4463,
+        "start": 1407.24,
+        "end": 1430.17,
+        "transcript": "When I first learned about Thomas Midgeley and Claire Patterson, I was amazed by how much harm or how much good a single person could do to the environment, which brings me to the sponsor of this video, Ren, an organization that's taking action on climate change."
+      },
+      {
+        "score": 0.3702,
+        "start": 1430.17,
+        "end": 1438.58,
+        "transcript": "I think it's important that we tackle the climate crisis both by lobbying for systemic change and by making more environmentally friendly choices ourselves."
+      },
+      {
+        "score": 0.3618,
+        "start": 1438.58,
+        "end": 1444.48,
+        "transcript": "On Ren's website, you can calculate how much carbon you emit and which activities have the greatest impact."
+      },
+      {
+        "score": 0.2965,
+        "start": 1444.48,
+        "end": 1448.55,
+        "transcript": "And if you like, you can offset your emissions through a monthly subscription."
+      },
+      {
+        "score": 0.2976,
+        "start": 1448.55,
+        "end": 1453.86,
+        "transcript": "The funds raised go to support a variety of projects that reduce greenhouse gases in the atmosphere."
+      },
+      {
+        "score": 0.4203,
+        "start": 1453.86,
+        "end": 1459.63,
+        "transcript": "One project I particularly like involves collecting up flammable deadwood from California forests."
+      },
+      {
+        "score": 0.4571,
+        "start": 1459.63,
+        "end": 1462.25,
+        "transcript": "This helps prevent wildfires."
+      },
+      {
+        "score": 0.5131,
+        "start": 1462.25,
+        "end": 1469.57,
+        "transcript": "Plus, the collected wood is converted into biochar, a material that locks up the carbon inside for thousands of years."
+      },
+      {
+        "score": 0.2604,
+        "start": 1469.57,
+        "end": 1475.04,
+        "transcript": "Once you sign up to offset your carbon footprint, you'll receive monthly updates from the projects you support."
+      },
+      {
+        "score": 0.2838,
+        "start": 1475.04,
+        "end": 1483.48,
+        "transcript": "It's completely transparent with photos and details of every tree planted every acre reforisted, every ton of carbon offset."
+      },
+      {
+        "score": 0.0772,
+        "start": 1483.48,
+        "end": 1490.49,
+        "transcript": "And for the first 100 people who sign up using the link in the description, I will personally pay for the first month of your subscription."
+      },
+      {
+        "score": 0.0,
+        "start": 1490.49,
+        "end": 1495.99,
+        "transcript": "So I want to thank Ren for supporting Veritasium, and I want to thank you for watching."
+      }
+    ],
+    "segment_count": 19
+  }
+]

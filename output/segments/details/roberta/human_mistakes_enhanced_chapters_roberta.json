@@ -1,0 +1,1386 @@
+[
+  {
+    "name": "The Insulting Genghis Khan",
+    "start": 0,
+    "original_name": "insulting genghis khan",
+    "score": 7.002969994354248,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.9133,
+        "start": 0.03,
+        "end": 7.96,
+        "transcript": "Insulting Genghis Khan's Diplomats One of the most destructive military campaigns in human history started for a basically useless reason."
+      },
+      {
+        "score": 0.4322,
+        "start": 7.96,
+        "end": 16.25,
+        "transcript": "In the early 1200s, Genghis Khan, leader of the Mongols, was technically at peace with the Quaresmean Empire, and the two had even fought against shared enemies."
+      }
+    ],
+    "segment_count": 2
+  },
+  {
+    "name": "The Mongol",
+    "start": 8,
+    "original_name": "insulting genghis khan",
+    "score": 5.017445902643706,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.7174,
+        "start": 16.25,
+        "end": 24.4,
+        "transcript": "But everything changed when a Mongol trade caravan entered Quaresmean territory and was attacked by a local governor who stole the goods and killed the merchants."
+      },
+      {
+        "score": 0.6778,
+        "start": 24.4,
+        "end": 31.39,
+        "transcript": "Instead of going to war right away, Genghis Khan sent ambassadors to the Shah of Quarism to ask for justice and for the governor to be punished."
+      },
+      {
+        "score": 0.7059,
+        "start": 31.39,
+        "end": 33.22,
+        "transcript": "But the Shah made a terrible decision."
+      },
+      {
+        "score": 0.7329,
+        "start": 33.22,
+        "end": 37.32,
+        "transcript": "He had one of the Mongol envoys killed and sent his severed head back with the others."
+      },
+      {
+        "score": 0.6444,
+        "start": 37.32,
+        "end": 40.75,
+        "transcript": "In Mongol culture, harming a messenger was a serious offence."
+      },
+      {
+        "score": 0.9324,
+        "start": 40.75,
+        "end": 43.89,
+        "transcript": "It was seen not just as an insult, but as a clear act of war."
+      },
+      {
+        "score": 0.7987,
+        "start": 43.89,
+        "end": 46.56,
+        "transcript": "Genghis Khan responded with a massive invasion."
+      },
+      {
+        "score": 0.5487,
+        "start": 46.56,
+        "end": 50.88,
+        "transcript": "His army destroyed entire cities and completely wiped out the Quaresmian Empire."
+      },
+      {
+        "score": 0.7151,
+        "start": 50.88,
+        "end": 54.91,
+        "transcript": "Even the lowest estimates suggest that millions died, but the attack didn't stop there."
+      },
+      {
+        "score": 0.6971,
+        "start": 54.91,
+        "end": 59.68,
+        "transcript": "The Mongols continued west, bringing destruction to Persia, parts of the Middle East, and even into Europe."
+      },
+      {
+        "score": 0.4994,
+        "start": 59.68,
+        "end": 64.43,
+        "transcript": "No one can say for sure what would have happened if the Shah had simply apologized and punished the governor."
+      },
+      {
+        "score": 0.7203,
+        "start": 64.43,
+        "end": 68.67,
+        "transcript": "But what we do know is that at the time, the Mongols were busy fighting a war in China."
+      },
+      {
+        "score": 0.8194,
+        "start": 68.67,
+        "end": 75.16,
+        "transcript": "So by killing the ambassador, the Shah may have accidentally triggered one of the most destructive military campaigns in human history."
+      },
+      {
+        "score": 0.3227,
+        "start": 75.16,
+        "end": 76.41,
+        "transcript": "German U110."
+      },
+      {
+        "score": 0.7429,
+        "start": 76.41,
+        "end": 91.29,
+        "transcript": "On its first mission in March 1941, the German submarine damaged two Allied ships but had to stop early after an accident with its own gun injured some of the crew, but its second mission in April and May 1941 would change the course of the war."
+      },
+      {
+        "score": 0.6877,
+        "start": 91.29,
+        "end": 96.64,
+        "transcript": "After sinking several Allied ships in the North Atlantic, U110 was chased by British warships."
+      },
+      {
+        "score": 0.6363,
+        "start": 96.64,
+        "end": 102.77,
+        "transcript": "On May 9, 1941, after being hit by depth charges, the German submarine was forced to surface."
+      },
+      {
+        "score": 0.7374,
+        "start": 102.77,
+        "end": 105.97,
+        "transcript": "This was part of a British effort later called Operation Primrose."
+      },
+      {
+        "score": 0.6549,
+        "start": 105.97,
+        "end": 108.53,
+        "transcript": "The Allied ships surrounded the damaged U-boat."
+      },
+      {
+        "score": 0.7417,
+        "start": 108.53,
+        "end": 114.58,
+        "transcript": "At first, the British thought the Germans would fight back and open fire, but stopped when they realized the crew was surrendering."
+      },
+      {
+        "score": 0.641,
+        "start": 114.58,
+        "end": 119.85,
+        "transcript": "The German commander, Fritz Julius Limp, saw that the submarine wasn't sinking like it was supposed to."
+      },
+      {
+        "score": 0.8476,
+        "start": 119.85,
+        "end": 127.42,
+        "transcript": "He tried to swim back and destroy the Enigma machine, a type of encryption device used by Nazi Germany to send secret military messages, but he disappeared."
+      },
+      {
+        "score": 0.4979,
+        "start": 127.42,
+        "end": 129.26,
+        "transcript": "No one knows for sure how he died."
+      },
+      {
+        "score": 0.4156,
+        "start": 129.26,
+        "end": 136.42,
+        "transcript": "Meanwhile, British sailors boarded the abandoned U110 and recovered the Enigma machine along with valuable code books."
+      },
+      {
+        "score": 0.4967,
+        "start": 136.42,
+        "end": 145.03,
+        "transcript": "These gave British codebreakers at Bletchley Park a major advantage in reading secret German naval messages, especially a backup cipher, known as reserve hunver foreign."
+      },
+      {
+        "score": 0.5999,
+        "start": 145.03,
+        "end": 151.72,
+        "transcript": "To keep their success a secret, the British let you 110 sink and pretended it had gone down with everything still inside."
+      },
+      {
+        "score": 0.5802,
+        "start": 151.72,
+        "end": 160.68,
+        "transcript": "Constantine V's Trust In 774, Byzantine Emperor Constantine V launched a military campaign against Bulgaria, but it failed."
+      },
+      {
+        "score": 0.6951,
+        "start": 160.68,
+        "end": 162.99,
+        "transcript": "However, he gained a major advantage afterward."
+      },
+      {
+        "score": 0.6507,
+        "start": 162.99,
+        "end": 167.88,
+        "transcript": "Spies inside the Bulgarian court in Pliska were secretly giving him valuable information."
+      },
+      {
+        "score": 0.4376,
+        "start": 167.88,
+        "end": 172.97,
+        "transcript": "The Bulgarian ruler, Telerig, began to notice that Constantine always seemed to know his plans."
+      },
+      {
+        "score": 0.7806,
+        "start": 172.97,
+        "end": 177.09,
+        "transcript": "He eventually realized that his government had been infiltrated by Byzantine spies."
+      },
+      {
+        "score": 0.5253,
+        "start": 177.09,
+        "end": 181.28,
+        "transcript": "Tellerig came up with a clever plan, or perhaps Constantine was just too trusting."
+      },
+      {
+        "score": 0.65,
+        "start": 181.28,
+        "end": 186.43,
+        "transcript": "He sent a message to Constantine, pretending he wanted to defect to Constantinople and join him."
+      },
+      {
+        "score": 0.6323,
+        "start": 186.43,
+        "end": 192.31,
+        "transcript": "He asked for the names of the Emperor's agents in Pliska, saying he needed them to make sure they stayed safe while he escaped."
+      },
+      {
+        "score": 0.3843,
+        "start": 192.31,
+        "end": 194.82,
+        "transcript": "Constantine believed him and gave him the list."
+      },
+      {
+        "score": 0.4494,
+        "start": 194.82,
+        "end": 197.64,
+        "transcript": "The thing is, Tellerig had no intention of defecting."
+      },
+      {
+        "score": 0.6561,
+        "start": 197.64,
+        "end": 204.49,
+        "transcript": "Once he got the names, he executed all the Byzantine spies in his court, completely destroying Constantine's spy network in one move."
+      },
+      {
+        "score": 0.8557,
+        "start": 204.49,
+        "end": 206.39,
+        "transcript": "The fall of the Berlin Wall."
+      }
+    ],
+    "segment_count": 38
+  },
+  {
+    "name": "The West Germany",
+    "start": 206,
+    "original_name": "berlin wall",
+    "score": 5.689602364089966,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.5036,
+        "start": 206.39,
+        "end": 215.96,
+        "transcript": "Gunter Shabowski had recently become the unofficial spokesperson for East Germany's ruling Politburo, which was the top decision-making body of a communist party."
+      },
+      {
+        "score": 0.711,
+        "start": 215.96,
+        "end": 222.57,
+        "transcript": "The government had just held a meeting where they talked about easing some travel restrictions to West Germany, but they didn't want to announce it just yet."
+      },
+      {
+        "score": 0.4383,
+        "start": 222.57,
+        "end": 227.24,
+        "transcript": "At a press conference, Shabowski brought this up, even though it wasn't meant to be made public yet."
+      },
+      {
+        "score": 0.5489,
+        "start": 227.24,
+        "end": 238.51,
+        "transcript": "A journalist asked when the new travel rules would take effect, and Shabowski shuffling through his papers didn't find an answer and ended up saying, as far as I know, immediately, that one word changed everything."
+      },
+      {
+        "score": 0.5348,
+        "start": 238.51,
+        "end": 244.98,
+        "transcript": "People in East Berlin, thinking the border was now open for the first time in 28 years, rushed to the Berlin Wall."
+      },
+      {
+        "score": 0.5875,
+        "start": 244.98,
+        "end": 251.37,
+        "transcript": "Crowds gathered quickly, and the border guards were confused because they had no clear orders, but they'd also heard the press conference."
+      },
+      {
+        "score": 0.3672,
+        "start": 251.37,
+        "end": 254.6,
+        "transcript": "Not knowing what else to do, they opened the gates and let people through."
+      },
+      {
+        "score": 0.5114,
+        "start": 254.6,
+        "end": 256.9,
+        "transcript": "Soon it turned into a huge celebration."
+      },
+      {
+        "score": 0.3267,
+        "start": 256.9,
+        "end": 261.35,
+        "transcript": "People were climbing the wall, crossing freely between East and West, hugging and cheering."
+      },
+      {
+        "score": 0.5691,
+        "start": 261.35,
+        "end": 266.64,
+        "transcript": "Around 11.30 pm, on November 9, 1989, the Berlin Wall started falling."
+      },
+      {
+        "score": 0.401,
+        "start": 266.64,
+        "end": 269.22,
+        "transcript": "Some say Shabowski simply misunderstood."
+      },
+      {
+        "score": 0.5959,
+        "start": 269.22,
+        "end": 271.63,
+        "transcript": "Others believe he knew exactly what he was doing."
+      },
+      {
+        "score": 0.5199,
+        "start": 271.63,
+        "end": 273.73,
+        "transcript": "The Four Pests campaign."
+      },
+      {
+        "score": 0.5302,
+        "start": 273.73,
+        "end": 279.44,
+        "transcript": "The Four Pests campaign was one of the first major efforts under Mao Zedong's great leap forward campaign."
+      },
+      {
+        "score": 0.5467,
+        "start": 279.44,
+        "end": 287.29,
+        "transcript": "Its goal was to get rid of four pests, rats, flies, mosquitoes, and sparrows, because they were thought to spread disease or damage crops."
+      },
+      {
+        "score": 0.6948,
+        "start": 287.29,
+        "end": 293.76,
+        "transcript": "The worst mistake was the war on sparrows, especially the Eurasian tree sparrow, which the government blamed for eating grain."
+      },
+      {
+        "score": 0.4489,
+        "start": 293.76,
+        "end": 303.31,
+        "transcript": "Millions of people across China, including children, were ordered to destroy sparrow nests, smash eggs, and bang pots and pans to stop the birds from landing until they died from exhaustion."
+      },
+      {
+        "score": 0.5048,
+        "start": 303.31,
+        "end": 309.96,
+        "transcript": "This campaign, driven by propaganda and Mao's belief that man must conquer nature, almost wiped out sparrows in China."
+      },
+      {
+        "score": 0.3617,
+        "start": 309.96,
+        "end": 315.57,
+        "transcript": "But without sparrows, insect and locust populations grew out of control, since there were no birds to eat them."
+      },
+      {
+        "score": 0.4677,
+        "start": 315.57,
+        "end": 319.6,
+        "transcript": "These insects destroyed crops, making China's food shortage even worse."
+      },
+      {
+        "score": 0.5777,
+        "start": 319.6,
+        "end": 328.07,
+        "transcript": "This disaster, combined with bad farming policies and environmental mistakes, helped cause the Great Chinese famine, which killed tens of millions of people."
+      },
+      {
+        "score": 0.2681,
+        "start": 328.07,
+        "end": 334.25,
+        "transcript": "By 1960, the government quietly stopped the anti-sparrow campaign and began targeting bedbugs instead."
+      },
+      {
+        "score": 0.2129,
+        "start": 334.25,
+        "end": 335.86,
+        "transcript": "Thomas Miggley Jr. 's fuel."
+      },
+      {
+        "score": 0.2637,
+        "start": 335.86,
+        "end": 347.03,
+        "transcript": "In 1921, while working at General Motors, Thomas Miggley discovered that adding a chemical called tetraethyl lead, also known as teal, to gasoline, could stop engines from making knocking sounds."
+      },
+      {
+        "score": 0.3807,
+        "start": 347.03,
+        "end": 352.44,
+        "transcript": "Early factories making teal saw workers suffer from hallucinations, mental illness, and even death."
+      }
+    ],
+    "segment_count": 25
+  },
+  {
+    "name": "The Soviet Union",
+    "start": 352,
+    "original_name": "quickly spread around",
+    "score": 4.024185512199402,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.5911,
+        "start": 352.44,
+        "end": 355.9,
+        "transcript": "Still, the fuel was heavily promoted and quickly spread around the world."
+      },
+      {
+        "score": 0.3509,
+        "start": 355.9,
+        "end": 365.13,
+        "transcript": "In the late 1920s, midgely also helped create free-on, the first chlorofluorocarbon, or CFC, to be used as a safer cooling chemical in refrigerators."
+      },
+      {
+        "score": 0.3796,
+        "start": 365.13,
+        "end": 376.99,
+        "transcript": "It worked well and was later used in aerosol sprays and inhalers, but many years after midgly's death, scientists found that CFCs were damaging the ozone layer, which protects Earth from harmful UV radiation."
+      },
+      {
+        "score": 0.5462,
+        "start": 376.99,
+        "end": 386.32,
+        "transcript": "This discovery led to worldwide bands on CFCs. At the time, Midgley's inventions seemed like smart solutions to real problems, but both unfortunately caused serious harm."
+      },
+      {
+        "score": 0.4278,
+        "start": 386.32,
+        "end": 391.78,
+        "transcript": "A historian once said Midgley had more impact on the Earth's atmosphere than any other single human being."
+      },
+      {
+        "score": 0.438,
+        "start": 391.78,
+        "end": 400.91,
+        "transcript": "In 1944, after being paralyzed by polio, Midgley invented an elaborate system of pulleys and ropes to help others move him in and out of bed, but the device turned deadly."
+      },
+      {
+        "score": 0.4975,
+        "start": 400.91,
+        "end": 406.2,
+        "transcript": "One day, he became entangled in the ropes and was strangled to death, even though some say it was a case of suicide."
+      },
+      {
+        "score": 0.4193,
+        "start": 406.2,
+        "end": 407.14,
+        "transcript": "the nuclear bear."
+      },
+      {
+        "score": 0.8769,
+        "start": 407.14,
+        "end": 411.86,
+        "transcript": "We were seconds away from nuclear World War III, and the story is mostly unknown."
+      },
+      {
+        "score": 0.6602,
+        "start": 411.86,
+        "end": 419.25,
+        "transcript": "It was around midnight during the Cuban Missile Crisis, the closest the world ever came to nuclear war during the Cold War between the US and the Soviet Union."
+      },
+      {
+        "score": 0.2467,
+        "start": 419.25,
+        "end": 423.86,
+        "transcript": "At a US military base in Duluth, a guard saw an unknown figure climbing the fence."
+      },
+      {
+        "score": 0.7485,
+        "start": 423.86,
+        "end": 431.55,
+        "transcript": "At that time, US military planners believed that if the Soviet Union launched a nuclear attack, they might first try to sabotage American bases."
+      },
+      {
+        "score": 0.5511,
+        "start": 431.55,
+        "end": 436.03,
+        "transcript": "Thinking this might be such an attack, the guard fired his weapon and triggered the sabotage alarm."
+      },
+      {
+        "score": 0.3642,
+        "start": 436.03,
+        "end": 443.73,
+        "transcript": "This alarm automatically went off at all nearby military bases, but at one base in Wisconsin, called Volkfield, there was a wiring mistake."
+      },
+      {
+        "score": 0.6131,
+        "start": 443.73,
+        "end": 450.78,
+        "transcript": "Instead of a regular sabotage alert, the alarm there set off a claxon siren, which told fighter jets armed with nuclear weapons to take off."
+      },
+      {
+        "score": 0.6074,
+        "start": 450.78,
+        "end": 455.2,
+        "transcript": "The pilots were on Defcon III, a high alert level just below full-scale war."
+      },
+      {
+        "score": 0.7582,
+        "start": 455.2,
+        "end": 462.87,
+        "transcript": "They had been clearly told there would be no practice drills at that level, so when they heard the signal, they believed World War III had started, and they were being ordered to launch."
+      },
+      {
+        "score": 0.4497,
+        "start": 462.87,
+        "end": 466.7,
+        "transcript": "By the time the mistake was discovered, the jets were already heading toward the runway."
+      },
+      {
+        "score": 0.5604,
+        "start": 466.7,
+        "end": 474.19,
+        "transcript": "An officer jumped into a car, sped to the runway, and managed to signal the pilots to stop, just in time to prevent a possible nuclear war."
+      },
+      {
+        "score": 0.45,
+        "start": 474.19,
+        "end": 475.67,
+        "transcript": "The figure that triggered it all?"
+      },
+      {
+        "score": 0.4249,
+        "start": 475.67,
+        "end": 476.55,
+        "transcript": "It was a bear."
+      },
+      {
+        "score": 0.3437,
+        "start": 476.55,
+        "end": 480.34,
+        "transcript": "If it weren't for that officer speeding with his car, we wouldn't be here today."
+      },
+      {
+        "score": 0.771,
+        "start": 480.34,
+        "end": 483.28,
+        "transcript": "Byzantine refusal of engineer Orban."
+      },
+      {
+        "score": 0.5363,
+        "start": 483.28,
+        "end": 494.18,
+        "transcript": "In 1452, Orban, an engineer and iron founder from the Kingdom of Hungary, offered his help to Byzantine Emperor Constantine XI, but the Empire didn't have enough money or resources to support his work."
+      },
+      {
+        "score": 0.7058,
+        "start": 494.18,
+        "end": 499.86,
+        "transcript": "After being rejected, Orban went to the Ottoman Sultan Mehmed II, who was preparing to attack Constantinople."
+      }
+    ],
+    "segment_count": 25
+  },
+  {
+    "name": "The Day Decisions In",
+    "start": 499,
+    "original_name": "ottoman sultan mehmed ii",
+    "score": 5.775459975700379,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.2615,
+        "start": 499.86,
+        "end": 503.41,
+        "transcript": "Mehmed saw the value in Orban's ideas and gave him full support."
+      },
+      {
+        "score": 0.5764,
+        "start": 503.41,
+        "end": 507.11,
+        "transcript": "In just three months, Orban built a huge cannon called the Basilic."
+      },
+      {
+        "score": 0.4977,
+        "start": 507.11,
+        "end": 510.32,
+        "transcript": "It was so massive that it took 60 oxen to pull it."
+      },
+      {
+        "score": 0.5956,
+        "start": 510.32,
+        "end": 519.45,
+        "transcript": "His cannon played a key role in the Ottoman siege of Constantinople in 1453, which led to the fall of the Byzantine Empire, which had lasted for over a thousand years."
+      },
+      {
+        "score": 0.5232,
+        "start": 519.45,
+        "end": 521.74,
+        "transcript": "Kim Jong Nam's Disneyland trip."
+      },
+      {
+        "score": 0.3678,
+        "start": 521.74,
+        "end": 529.77,
+        "transcript": "Kim Jong Nam, the oldest son of North Korean leader Kim Jong Il and half-brother of Kim Jong Un, was once expected to take over the country."
+      },
+      {
+        "score": 0.3231,
+        "start": 529.77,
+        "end": 536.28,
+        "transcript": "In the late 1990s, he held top positions in the Ministry of Public Security and worked on developing North Korea's IT systems."
+      },
+      {
+        "score": 0.4429,
+        "start": 536.28,
+        "end": 542.96,
+        "transcript": "But everything changed in 2001, when he was caught in Japan using a fake passport while trying to visit Tokyo Disneyland."
+      },
+      {
+        "score": 0.5051,
+        "start": 542.96,
+        "end": 550.49,
+        "transcript": "The incident embarrassed North Korea so much that his father canceled a planned visit to China and began quietly removing Jong-Nong from power."
+      },
+      {
+        "score": 0.3634,
+        "start": 550.49,
+        "end": 556.66,
+        "transcript": "Over the next several years, he lived mostly in exile, moving between China, Macau, and parts of Southeast Asia."
+      },
+      {
+        "score": 0.2363,
+        "start": 556.66,
+        "end": 562.7,
+        "transcript": "He sometimes gave interviews to foreign media and lived a more open, luxurious lifestyle than the rest of the secretive Kim family."
+      },
+      {
+        "score": 0.5885,
+        "start": 562.7,
+        "end": 567.83,
+        "transcript": "Intelligence agencies believed he had connections to China and may have even worked as a CIA informant."
+      },
+      {
+        "score": 0.3224,
+        "start": 567.83,
+        "end": 574.68,
+        "transcript": "After his younger half-brother Kim Jong-un was chosen as the next leader in 2010, Kim Jong-un was seen as a potential rival."
+      },
+      {
+        "score": 0.6185,
+        "start": 574.68,
+        "end": 579.2,
+        "transcript": "According to South Korean intelligence, Kim Jong-un gave a standing order to have him killed."
+      },
+      {
+        "score": 0.4733,
+        "start": 579.2,
+        "end": 584.89,
+        "transcript": "Jong-un survived several assassination attempts and even wrote a letter asking his brother to spare his life."
+      },
+      {
+        "score": 0.4998,
+        "start": 584.89,
+        "end": 593.5,
+        "transcript": "On February 13th, 2017, he was assassinated at the Kuala Lumpur Airport in Malaysia after two women smeared the deadly VX nerve agent on his face."
+      },
+      {
+        "score": 0.3661,
+        "start": 593.5,
+        "end": 597.13,
+        "transcript": "The women were arrested, but claimed they thought it was a prank for a TV show."
+      },
+      {
+        "score": 0.5875,
+        "start": 597.13,
+        "end": 609.23,
+        "transcript": "Most experts believe the killing was ordered by Kim Jong-Un. While he was alive, Kim Jong-Un said the real reason he fell out of favor was his support for economic reforms and openness, ideas he picked up while studying in Switzerland."
+      },
+      {
+        "score": 0.378,
+        "start": 609.23,
+        "end": 611.99,
+        "transcript": "Rooms trust in a Germanic noble."
+      },
+      {
+        "score": 0.5428,
+        "start": 611.99,
+        "end": 620.29,
+        "transcript": "Publius Quintillius Varus, a Roman general in charge of the new province of Germany, trusted one of his own officers, a Germanic noble named Arminius."
+      },
+      {
+        "score": 0.5962,
+        "start": 620.29,
+        "end": 627.23,
+        "transcript": "Arminius had been trained in Rome and served in the Roman army, but he was secretly working to unite the Germanic tribes against Roman rule."
+      },
+      {
+        "score": 0.5182,
+        "start": 627.23,
+        "end": 636.94,
+        "transcript": "That summer, as Varys and about 15,000 to 20,000 Roman soldiers marched back to their winter base, Arminius told him there was a small local rebellion that needed attention."
+      },
+      {
+        "score": 0.5257,
+        "start": 636.94,
+        "end": 640.71,
+        "transcript": "Varys believed him and led his army into a dense remote forest."
+      },
+      {
+        "score": 0.6511,
+        "start": 640.71,
+        "end": 646.05,
+        "transcript": "There, the Roman troops were stretched out, slowed by bad weather, and unable to fight information."
+      },
+      {
+        "score": 0.6538,
+        "start": 646.05,
+        "end": 648.12,
+        "transcript": "Then, Arminius set off the trap."
+      },
+      {
+        "score": 0.5842,
+        "start": 648.12,
+        "end": 654.25,
+        "transcript": "Over several days, the Roman legions were ambushed by Germanic warriors who knew the land and had set up hidden defenses."
+      },
+      {
+        "score": 0.6473,
+        "start": 654.25,
+        "end": 657.4,
+        "transcript": "The Battle of the Tudoburg Forest in 9 AD started."
+      },
+      {
+        "score": 0.639,
+        "start": 657.4,
+        "end": 662.21,
+        "transcript": "Almost the entire Roman force was wiped out, and Varys committed suicide during the battle."
+      },
+      {
+        "score": 0.5985,
+        "start": 662.21,
+        "end": 667.32,
+        "transcript": "The loss was so devastating that Rome gave up its plans to conquer land beyond the Rhine River."
+      },
+      {
+        "score": 0.2867,
+        "start": 667.32,
+        "end": 671.29,
+        "transcript": "Emperor Augustus never again pushed for expansion into northern Germany."
+      },
+      {
+        "score": 0.4813,
+        "start": 671.29,
+        "end": 674.24,
+        "transcript": "The legions destroyed in the battle's numbers were never used again."
+      },
+      {
+        "score": 0.5829,
+        "start": 674.24,
+        "end": 682.29,
+        "transcript": "Many of the Germanic tribes that would later invade and weaken the Western Roman Empire came from this very region that Rome failed to control after Todorburg."
+      },
+      {
+        "score": 0.8151,
+        "start": 682.29,
+        "end": 689.46,
+        "transcript": "Germany's D-Day Decisions In the months before D-Day, German commanders disagreed about where the Allied invasion would happen."
+      },
+      {
+        "score": 0.6834,
+        "start": 689.46,
+        "end": 697.91,
+        "transcript": "Field Marshal Gerd von Roonstedt believed it would come at Pod de Calais, the closest point between Britain and France, with key ports and a direct route into Germany."
+      },
+      {
+        "score": 0.635,
+        "start": 697.91,
+        "end": 705.44,
+        "transcript": "Erwin Rommel, in charge of coastal defenses, also focused on Calais, but warned that the Allies could land anywhere, including Normandy."
+      }
+    ],
+    "segment_count": 35
+  },
+  {
+    "name": "The Operation Fortitude",
+    "start": 699,
+    "original_name": "usual",
+    "score": 5.480859762246268,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.6651,
+        "start": 705.44,
+        "end": 706.75,
+        "transcript": "where they eventually did land."
+      },
+      {
+        "score": 0.8467,
+        "start": 706.75,
+        "end": 709.03,
+        "transcript": "Hitler, as usual, couldn't make up his mind."
+      },
+      {
+        "score": 0.6154,
+        "start": 709.03,
+        "end": 718.04,
+        "transcript": "He split the German tank divisions between the two plans, placing some too far inland to help Rommel quickly, but not far enough to act as a proper mobile reserve as Runstead wanted."
+      },
+      {
+        "score": 0.6073,
+        "start": 718.04,
+        "end": 720.61,
+        "transcript": "In the end, neither Commander got what they needed."
+      },
+      {
+        "score": 0.7494,
+        "start": 720.61,
+        "end": 727.9,
+        "transcript": "Meanwhile, the Allies launched a deception campaign called Operation Fortitude, tricking the Germans into thinking the real attack would be at Kale."
+      },
+      {
+        "score": 0.7689,
+        "start": 727.9,
+        "end": 735.29,
+        "transcript": "Even after the Allies landed in Normandy on the 6th of June 1944, German leaders, including Hitler, thought it might just be a distraction."
+      },
+      {
+        "score": 0.7123,
+        "start": 735.29,
+        "end": 742.35,
+        "transcript": "Rommel happened to be away visiting his wife for her birthday that day, and other officers were also off duty because of bad weather forecasts."
+      },
+      {
+        "score": 0.7657,
+        "start": 742.35,
+        "end": 746.61,
+        "transcript": "Roonstead asked for permission to move reinforcements, but Hitler delayed the decision."
+      },
+      {
+        "score": 0.8007,
+        "start": 746.61,
+        "end": 754.77,
+        "transcript": "By the time a counterattack was approved, Allied air forces had already damaged German supply lines and troop movements, and the German command structure was falling apart."
+      },
+      {
+        "score": 0.5019,
+        "start": 754.77,
+        "end": 761.42,
+        "transcript": "Despite fierce resistance, the Allies secured five beach heads on D-Day and brought in over 150,000 troops."
+      },
+      {
+        "score": 0.7715,
+        "start": 761.42,
+        "end": 766.83,
+        "transcript": "Rommel later tried to tell Hitler that Germany's defenses were collapsing, but Hitler refused to believe it."
+      },
+      {
+        "score": 0.6463,
+        "start": 766.83,
+        "end": 772.38,
+        "transcript": "Then, on the 17th of July, Rommel was seriously injured when Allied planes attacked his car."
+      },
+      {
+        "score": 0.7877,
+        "start": 772.38,
+        "end": 778.46,
+        "transcript": "With Rommel out and confusion still spreading through the German leadership, Germany lost its chance to stop the invasion."
+      },
+      {
+        "score": 0.3821,
+        "start": 778.46,
+        "end": 788.77,
+        "transcript": "Russia's Alaska Sale In 1867, the Russian Empire sold Alaska to the United States for $7.2 million, about two cents per acre."
+      }
+    ],
+    "segment_count": 14
+  },
+  {
+    "name": "Alexander",
+    "start": 780,
+    "original_name": "confusion still spreading",
+    "score": 4.114621517760178,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.6284,
+        "start": 788.77,
+        "end": 796.82,
+        "transcript": "After losing the Crimean War, Russia feared it couldn't defend Alaska in a future war, especially against Britain, whose forces were nearby in Canada."
+      },
+      {
+        "score": 0.5698,
+        "start": 796.82,
+        "end": 800.59,
+        "transcript": "Selling the territory to the U.S. was seen as a way to block British expansion."
+      },
+      {
+        "score": 0.4968,
+        "start": 800.59,
+        "end": 808.33,
+        "transcript": "At the time, many Americans mocked the deal as Seward's Folly, as the negotiations were led by U.S. Secretary of State William Seward."
+      },
+      {
+        "score": 0.5632,
+        "start": 808.33,
+        "end": 811.42,
+        "transcript": "They called Alaska a useless, frozen wasteland."
+      },
+      {
+        "score": 0.4692,
+        "start": 811.42,
+        "end": 821.19,
+        "transcript": "The purchase gave the U.S. strategic access to the Pacific and added territory more than twice the size of Texas, full of natural resources like oil and various minerals and metals."
+      },
+      {
+        "score": 0.4162,
+        "start": 821.19,
+        "end": 831.38,
+        "transcript": "Alexander the Great Leaving No Air When Alexander the Great died in 323 BC, he left behind the largest empire the world had ever seen, but no clear successor."
+      },
+      {
+        "score": 0.4143,
+        "start": 831.38,
+        "end": 837.43,
+        "transcript": "His only direct heir was an unborn child, and his half-brother Aradeus had serious mental disabilities."
+      },
+      {
+        "score": 0.6442,
+        "start": 837.43,
+        "end": 844.04,
+        "transcript": "Without a stable plan for who would rule next, Alexander's top generals, known as the Diodoki, rushed to grab power."
+      },
+      {
+        "score": 0.6072,
+        "start": 844.04,
+        "end": 849.28,
+        "transcript": "What followed was nearly 50 years of brutal conflict called the Wars of the Diodoki."
+      },
+      {
+        "score": 0.7197,
+        "start": 849.28,
+        "end": 854.6,
+        "transcript": "These former allies, who had once helped Alexander conquer lands from Greece to India, turned on each other."
+      },
+      {
+        "score": 0.7395,
+        "start": 854.6,
+        "end": 860.91,
+        "transcript": "They formed shifting alliances, betrayed one another, and fought bloody civil wars to control pieces of the empire."
+      },
+      {
+        "score": 0.6811,
+        "start": 860.91,
+        "end": 867.63,
+        "transcript": "The result was the permanent breakup of Alexander's empire into rival kingdoms and decades of war across the ancient world."
+      },
+      {
+        "score": 0.555,
+        "start": 867.63,
+        "end": 874.02,
+        "transcript": "One by one, most members of the royal family, including his son Alexander IV, were murdered during the power struggles."
+      },
+      {
+        "score": 0.4917,
+        "start": 874.02,
+        "end": 879.63,
+        "transcript": "By 281 BC, his empire had broken apart into several major rival kingdoms."
+      },
+      {
+        "score": 0.6047,
+        "start": 879.63,
+        "end": 881.39,
+        "transcript": "The long-term effects were huge."
+      },
+      {
+        "score": 0.5956,
+        "start": 881.39,
+        "end": 885.82,
+        "transcript": "Alexander's dream of a unified empire connecting East and West died with him."
+      },
+      {
+        "score": 0.5786,
+        "start": 885.82,
+        "end": 891.09,
+        "transcript": "Instead, the split led to centuries of regional conflict and helped pave the way for the rise of Rome."
+      },
+      {
+        "score": 0.8577,
+        "start": 891.09,
+        "end": 896.67,
+        "transcript": "All of it happened because one of history's greatest conquerors failed to plan for what would happen after his death."
+      },
+      {
+        "score": 0.5652,
+        "start": 896.67,
+        "end": 903.63,
+        "transcript": "Columbus' miscalculation Christopher Columbus' discovery of the Americas happened because of a major mistake."
+      },
+      {
+        "score": 0.3325,
+        "start": 903.63,
+        "end": 908.62,
+        "transcript": "At the time, many scholars already had a pretty good idea of the Earth's actual size."
+      },
+      {
+        "score": 0.3826,
+        "start": 908.62,
+        "end": 911.18,
+        "transcript": "thanks to earlier work by thinkers like Eratosthenes."
+      },
+      {
+        "score": 0.4073,
+        "start": 911.18,
+        "end": 913.89,
+        "transcript": "But Columbus rejected those accurate estimates."
+      },
+      {
+        "score": 0.6592,
+        "start": 913.89,
+        "end": 919.79,
+        "transcript": "He wrongly believed the Earth was much smaller than it really is, and thought Asia stretched much farther east than it does."
+      },
+      {
+        "score": 0.4598,
+        "start": 919.79,
+        "end": 925.6,
+        "transcript": "Based on this wrong math, Columbus argued that Japan could be reached by sailing west from Europe in just a few weeks."
+      },
+      {
+        "score": 0.4352,
+        "start": 925.6,
+        "end": 929.11,
+        "transcript": "Most experts disagreed, and believed the trip would be far too long."
+      },
+      {
+        "score": 0.3173,
+        "start": 929.11,
+        "end": 934.22,
+        "transcript": "Still, the Spanish crown decided to fund the voyage, impressed by his confidence and calculations."
+      },
+      {
+        "score": 0.4549,
+        "start": 934.22,
+        "end": 941.49,
+        "transcript": "Ironically, if Columbus had used the correct numbers, the journey would have seemed too long and too risky, and he probably never would have set sail."
+      },
+      {
+        "score": 0.6762,
+        "start": 941.49,
+        "end": 948.86,
+        "transcript": "In the end, it was only because of his miscalculation and the surprise presence of the American continents in the way that his voyage succeeded."
+      },
+      {
+        "score": 1.0,
+        "start": 948.86,
+        "end": 951.55,
+        "transcript": "Treaty of Versailles harsh terms."
+      }
+    ],
+    "segment_count": 29
+  },
+  {
+    "name": "The Nazi Germany",
+    "start": 951,
+    "original_name": "versailles harsh terms",
+    "score": 4.558587142982483,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.6893,
+        "start": 951.55,
+        "end": 961.94,
+        "transcript": "The Treaty of Versailles was signed in 1919 after World War I, and it placed very tough conditions on Germany that affected the country's future and possibly changed the path of world history."
+      },
+      {
+        "score": 0.7754,
+        "start": 961.94,
+        "end": 970.08,
+        "transcript": "The Treaty forced Germany to take full blame for the war, give up land, greatly shrink its military, and pay huge amounts of money to the Allied powers."
+      },
+      {
+        "score": 0.6895,
+        "start": 970.08,
+        "end": 979.27,
+        "transcript": "Many Germans felt these demands were unfair and deeply humiliating, especially because they had expected peace talks to follow US President Wilson's more generous 14 points."
+      },
+      {
+        "score": 0.761,
+        "start": 979.27,
+        "end": 987.0,
+        "transcript": "The British economist John Maynard Keynes called the treaty a carthaginian peace, meaning it was designed to crush Germany rather than build lasting peace."
+      },
+      {
+        "score": 0.6611,
+        "start": 987.0,
+        "end": 990.94,
+        "transcript": "He warned that the harsh financial penalties would hurt both Germany and Europe."
+      },
+      {
+        "score": 0.7121,
+        "start": 990.94,
+        "end": 993.68,
+        "transcript": "In Germany, the feeling of injustice was widespread."
+      },
+      {
+        "score": 0.7664,
+        "start": 993.68,
+        "end": 1001.43,
+        "transcript": "Millions of ethnic Germans ended up living outside the country's new borders, and the loss of land and military strength fueled anger and nationalism."
+      },
+      {
+        "score": 0.6991,
+        "start": 1001.43,
+        "end": 1007.73,
+        "transcript": "This frustration helped extremist politics grow, especially during the Great Depression, when Adolf Hitler rose to power."
+      },
+      {
+        "score": 0.7436,
+        "start": 1007.73,
+        "end": 1015.1,
+        "transcript": "While the treaty was not the only reason for World War II, its harsh terms and the way people remembered them played a big part in the rise of Nazism."
+      },
+      {
+        "score": 0.5832,
+        "start": 1015.1,
+        "end": 1023.12,
+        "transcript": "The Maginot Line The Maginot Line was a large system of defenses that France built along its border with Germany after World War I."
+      },
+      {
+        "score": 0.7024,
+        "start": 1023.12,
+        "end": 1031.51,
+        "transcript": "It was not meant to make France completely safe, but to slow down a German attack, give France time to get its army ready and keep future battles away from French land."
+      },
+      {
+        "score": 0.7134,
+        "start": 1031.51,
+        "end": 1038.8,
+        "transcript": "The line was built in the 1930s, partly because Germany was becoming stronger, and France could not count on help from Britain or the United States."
+      },
+      {
+        "score": 0.5639,
+        "start": 1038.8,
+        "end": 1044.24,
+        "transcript": "France had fewer young men after World War I and chose a defensive plan to make up for its smaller army."
+      },
+      {
+        "score": 0.5891,
+        "start": 1044.24,
+        "end": 1051.11,
+        "transcript": "The Maginot line ran from Switzerland to Luxembourg and had underground bunkers, big guns, and strong fortifications."
+      },
+      {
+        "score": 0.7442,
+        "start": 1051.11,
+        "end": 1058.72,
+        "transcript": "But it did not protect the Arden forest or the border with Belgium very well, because those areas were wrongly seen as too hard for a major army to cross."
+      },
+      {
+        "score": 0.6869,
+        "start": 1058.72,
+        "end": 1064.49,
+        "transcript": "In 1940, Germany avoided the line by going through Belgium and the Arden, surprising the Allies."
+      },
+      {
+        "score": 0.7423,
+        "start": 1064.49,
+        "end": 1069.1,
+        "transcript": "The parts of the line that were attacked mostly held firm, but it had already been bypassed."
+      },
+      {
+        "score": 0.7273,
+        "start": 1069.1,
+        "end": 1072.93,
+        "transcript": "After the war, people disagreed about whether the Maginoline was a good idea."
+      },
+      {
+        "score": 0.8766,
+        "start": 1072.93,
+        "end": 1074.59,
+        "transcript": "Operation Barbarossa."
+      },
+      {
+        "score": 0.872,
+        "start": 1074.59,
+        "end": 1082.08,
+        "transcript": "Operation Barbarossa, launched by Nazi Germany in June 1941, was one of the worst military misjudgments in history."
+      }
+    ],
+    "segment_count": 20
+  },
+  {
+    "name": "The Red Army",
+    "start": 1080,
+    "original_name": "operation barbarossa",
+    "score": 4.5855360502179465,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.8703,
+        "start": 1082.08,
+        "end": 1085.35,
+        "transcript": "It was supposed to be a quick and easy invasion of the Soviet Union."
+      },
+      {
+        "score": 0.8344,
+        "start": 1085.35,
+        "end": 1087.51,
+        "transcript": "meant to defeat the Red Army in just a few weeks."
+      },
+      {
+        "score": 0.7752,
+        "start": 1087.51,
+        "end": 1091.64,
+        "transcript": "But instead, it turned into the largest and deadliest front of World War II."
+      },
+      {
+        "score": 0.7488,
+        "start": 1091.64,
+        "end": 1100.39,
+        "transcript": "At first, the Germans made huge gains, surrounding and killing or capturing hundreds of thousands of Soviet troops in places like Kiev and the Sea of Ozov."
+      },
+      {
+        "score": 0.5456,
+        "start": 1100.39,
+        "end": 1104.62,
+        "transcript": "By late 1941, they were close to key cities like Leningrad and Moscow."
+      },
+      {
+        "score": 0.7522,
+        "start": 1104.62,
+        "end": 1112.93,
+        "transcript": "But the invasion began to stall, cold weather, long supply lines, strong Soviet resistance, and poor planning all slowed the German advance."
+      },
+      {
+        "score": 0.8394,
+        "start": 1112.93,
+        "end": 1120.76,
+        "transcript": "Leningrad was not taken, but instead was surrounded, leading to a terrible siege that killed over a million civilians, mostly from starvation."
+      },
+      {
+        "score": 0.6565,
+        "start": 1120.76,
+        "end": 1129.31,
+        "transcript": "Near Moscow, German forces got within sight of the Kremlin, but were pushed back by a surprise Soviet counterattack, helped by Siberian troops brought in for defense."
+      },
+      {
+        "score": 0.6864,
+        "start": 1129.31,
+        "end": 1133.88,
+        "transcript": "By the end of 1941, Germany had lost over 800,000 soldiers."
+      },
+      {
+        "score": 0.8134,
+        "start": 1133.88,
+        "end": 1138.08,
+        "transcript": "The failure of Barbarossa led Hitler to take direct control of the army."
+      },
+      {
+        "score": 0.6574,
+        "start": 1138.08,
+        "end": 1139.53,
+        "transcript": "which often made things worse."
+      },
+      {
+        "score": 0.7195,
+        "start": 1139.53,
+        "end": 1146.93,
+        "transcript": "As Germany struggled, the Soviet Union started pushing west, retaking land, and eventually gaining control of huge parts of Eastern Europe."
+      },
+      {
+        "score": 0.8563,
+        "start": 1146.93,
+        "end": 1153.18,
+        "transcript": "What started as a plan to defeat the Soviet Union ended up creating the Eastern block and setting the stage for the Cold War."
+      },
+      {
+        "score": 0.5659,
+        "start": 1153.18,
+        "end": 1157.79,
+        "transcript": "More people died on the Eastern Front than in all other battles of World War II combined."
+      },
+      {
+        "score": 0.9931,
+        "start": 1157.79,
+        "end": 1166.2,
+        "transcript": "A wrong turn in World War I."
+      }
+    ],
+    "segment_count": 15
+  },
+  {
+    "name": "The Archduke",
+    "start": 1166,
+    "original_name": "wrong turn",
+    "score": 4.443452853775025,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.6209,
+        "start": 1166.2,
+        "end": 1166.2,
+        "transcript": "The assassination of Archduke Franz Ferdinand happened on June 28, 1914 in Sarajevo."
+      },
+      {
+        "score": 0.9552,
+        "start": 1166.2,
+        "end": 1170.23,
+        "transcript": "And the Archduke was killed not because of a perfect plan, but because of a mistake."
+      },
+      {
+        "score": 0.7864,
+        "start": 1170.23,
+        "end": 1173.9,
+        "transcript": "Earlier that day, there had been a failed bomb attack on his motorcade."
+      },
+      {
+        "score": 0.5694,
+        "start": 1173.9,
+        "end": 1178.15,
+        "transcript": "For safety, the drivers were told to change the route, but the message didn't reach them."
+      },
+      {
+        "score": 0.6239,
+        "start": 1178.15,
+        "end": 1181.4,
+        "transcript": "By accident, the Archduke's car turned onto a side street."
+      },
+      {
+        "score": 0.6829,
+        "start": 1181.4,
+        "end": 1184.91,
+        "transcript": "where one of the would-be assassins, Gavrilo Princip, was standing."
+      },
+      {
+        "score": 0.7027,
+        "start": 1184.91,
+        "end": 1189.4,
+        "transcript": "Gavrilo was there because after the failed bomb attack, he decided to go get some food."
+      },
+      {
+        "score": 0.5506,
+        "start": 1189.4,
+        "end": 1197.3,
+        "transcript": "The driver tried to reverse the car, but stalled the engine, giving Princip the perfect chance to shoot Franz Ferdinand and his wife Sophie at close range."
+      },
+      {
+        "score": 0.7466,
+        "start": 1197.3,
+        "end": 1199.9,
+        "transcript": "That wrong turn led to far more than two deaths."
+      },
+      {
+        "score": 0.851,
+        "start": 1199.9,
+        "end": 1201.69,
+        "transcript": "It set off a chain reaction."
+      },
+      {
+        "score": 0.6863,
+        "start": 1201.69,
+        "end": 1215.13,
+        "transcript": "Within weeks, Austria-Hungary declared war on Serbia, alliances between countries took effect, and what could have stayed a local conflict turned into World War I."
+      }
+    ],
+    "segment_count": 11
+  }
+]

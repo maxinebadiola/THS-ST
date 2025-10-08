@@ -1,0 +1,1028 @@
+[
+  {
+    "name": "The Linux",
+    "start": 0,
+    "original_name": "libraries provide common functionality like reading files",
+    "score": 5.074316349234948,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.995,
+        "start": 0.03,
+        "end": 5.54,
+        "transcript": "Ever wondered what all those strange folders like bin, ETC, and user actually do in Linux?"
+      },
+      {
+        "score": 0.7776,
+        "start": 5.54,
+        "end": 14.23,
+        "transcript": "In this video, we'll break down the Linux file system structure, starting from the root, and exploring each top level directory one by one."
+      },
+      {
+        "score": 0.8641,
+        "start": 14.23,
+        "end": 20.87,
+        "transcript": "Whether you're a beginner or just curious, this will help you understand how Linux organizes everything behind the scenes."
+      },
+      {
+        "score": 0.0,
+        "start": 20.87,
+        "end": 22.25,
+        "transcript": "So let's get started."
+      },
+      {
+        "score": 0.7644,
+        "start": 22.25,
+        "end": 29.8,
+        "transcript": "Everything in the Linux file system starts from a single point, the root directory, represented by a forward slash."
+      },
+      {
+        "score": 0.9122,
+        "start": 29.8,
+        "end": 33.45,
+        "transcript": "It's the top of the hierarchy, and every other folder branches out from it."
+      },
+      {
+        "score": 0.8484,
+        "start": 33.45,
+        "end": 39.3,
+        "transcript": "To make sense of what's inside, we can group these top-level directories into 10 general categories."
+      },
+      {
+        "score": 0.8164,
+        "start": 39.3,
+        "end": 56.6,
+        "transcript": "There are system binaries for core commands, boot and kernel-related directories that help the system start, configuration files that define how Linux behaves, user-related directories like personal home folders, and root access, and shared libraries that support essential programs."
+      },
+      {
+        "score": 0.7525,
+        "start": 56.6,
+        "end": 59.74,
+        "transcript": "We also have mount points and media used for external devices."
+      },
+      {
+        "score": 0.5146,
+        "start": 59.74,
+        "end": 64.41,
+        "transcript": "System and runtime information that reflect what's happening in real time."
+      },
+      {
+        "score": 0.4576,
+        "start": 64.41,
+        "end": 67.41,
+        "transcript": "Multi-user resources for software and logs."
+      },
+      {
+        "score": 0.9369,
+        "start": 67.41,
+        "end": 70.36,
+        "transcript": "Temporary files used briefly by the system."
+      },
+      {
+        "score": 0.8604,
+        "start": 70.36,
+        "end": 74.22,
+        "transcript": "And finally, folders for optional software installed separately."
+      },
+      {
+        "score": 0.4896,
+        "start": 74.22,
+        "end": 79.97,
+        "transcript": "Now let's look at each of these in more detail, starting from the root and working our way down."
+      },
+      {
+        "score": 0.8113,
+        "start": 79.97,
+        "end": 85.54,
+        "transcript": "In Linux, everything begins at the root directory, represented by a single forward slash."
+      },
+      {
+        "score": 0.9175,
+        "start": 85.54,
+        "end": 90.2,
+        "transcript": "It's the top-level folder from which all other files and directories descend."
+      },
+      {
+        "score": 0.3257,
+        "start": 90.2,
+        "end": 92.14,
+        "transcript": "Think of it like the trunk of a tree."
+      },
+      {
+        "score": 0.7585,
+        "start": 92.14,
+        "end": 102.64,
+        "transcript": "Unlike Windows, which uses separate drive letters, Linux has a single unified file system, and everything connects back to root, including external drives and petitions."
+      },
+      {
+        "score": 0.667,
+        "start": 102.64,
+        "end": 107.12,
+        "transcript": "You might also see slash root, but don't confuse it with slash."
+      },
+      {
+        "score": 0.6525,
+        "start": 107.12,
+        "end": 112.59,
+        "transcript": "Slash is the starting point of the entire system, while slash root is just a subdirectory."
+      },
+      {
+        "score": 0.8254,
+        "start": 112.59,
+        "end": 117.22,
+        "transcript": "It's the personal home folder of the root user who has full administrative access."
+      },
+      {
+        "score": 0.6873,
+        "start": 117.22,
+        "end": 124.61,
+        "transcript": "In other words, slash is the starting point of the file system, while slash root is just one of the many folders inside it."
+      },
+      {
+        "score": 0.5919,
+        "start": 124.61,
+        "end": 129.48,
+        "transcript": "This separation helps maintain a clean and secure system structure."
+      },
+      {
+        "score": 0.976,
+        "start": 129.48,
+        "end": 132.47,
+        "transcript": "Now let's move to one of the most important system directories."
+      },
+      {
+        "score": 0.9297,
+        "start": 132.47,
+        "end": 142.01,
+        "transcript": "Ben, this folder contains essential command line tools that are needed for the system to function properly, especially during boot or when running in recovery mode."
+      },
+      {
+        "score": 0.7143,
+        "start": 142.01,
+        "end": 146.7,
+        "transcript": "Commands like LS, CP, MV and Cat are located here."
+      },
+      {
+        "score": 0.5747,
+        "start": 146.7,
+        "end": 153.11,
+        "transcript": "Basic utilities that let users list files, copy data, move items, or view text."
+      },
+      {
+        "score": 0.7456,
+        "start": 153.11,
+        "end": 160.5,
+        "transcript": "Unlike some other command directories, the tools and bin are always available, even if other parts of the file system haven't loaded yet."
+      },
+      {
+        "score": 0.6349,
+        "start": 160.5,
+        "end": 164.42,
+        "transcript": "That's why bin is critical for both everyday use and troubleshooting."
+      },
+      {
+        "score": 0.7715,
+        "start": 164.42,
+        "end": 171.21,
+        "transcript": "Regular users typically never need to modify this directory and doing so could break core system functionality."
+      },
+      {
+        "score": 0.5352,
+        "start": 171.21,
+        "end": 175.74,
+        "transcript": "It's best to leave bin untouched unless you know exactly what you're doing."
+      },
+      {
+        "score": 0.9529,
+        "start": 175.74,
+        "end": 179.76,
+        "transcript": "Next is the S-Bin directory, which stands for system binaries."
+      },
+      {
+        "score": 0.6168,
+        "start": 179.76,
+        "end": 189.85,
+        "transcript": "While Ben contains general-purpose commands used by all users, S-Bin holds specialized system utilities, mostly used by the system administrator or root user."
+      },
+      {
+        "score": 0.7405,
+        "start": 189.85,
+        "end": 198.99,
+        "transcript": "These commands are critical for managing and maintaining the system, especially for tasks like mounting file systems, checking disks or shutting down the system."
+      },
+      {
+        "score": 0.4691,
+        "start": 198.99,
+        "end": 203.6,
+        "transcript": "Most of the tools in S-Bin require super-user privileges to run."
+      },
+      {
+        "score": 0.7023,
+        "start": 203.6,
+        "end": 213.35,
+        "transcript": "So, unless you're an admin or troubleshooting low-level issues, you'll rarely need to touch this directory, and you definitely shouldn't modify it without knowing the risks."
+      },
+      {
+        "score": 0.4467,
+        "start": 213.35,
+        "end": 216.32,
+        "transcript": "Next up is the lib, short for libraries."
+      },
+      {
+        "score": 0.4542,
+        "start": 216.32,
+        "end": 226.77,
+        "transcript": "Just like apps need support files to run, many commands found in bin and Espin rely on shared libraries, similar to how programs on Windows need DLL files."
+      },
+      {
+        "score": 0.4604,
+        "start": 226.77,
+        "end": 237.13,
+        "transcript": "These libraries provide common functionality like reading files or handling input and output, so individual commands don't have to include all that code themselves."
+      },
+      {
+        "score": 0.5982,
+        "start": 237.13,
+        "end": 245.58,
+        "transcript": "Depending on your system, you might also see lib32 and lib64, which store 32 and 64 bit libraries respectively."
+      },
+      {
+        "score": 0.4457,
+        "start": 245.58,
+        "end": 247.98,
+        "transcript": "You'll also find kernel modules here."
+      },
+      {
+        "score": 0.7252,
+        "start": 247.98,
+        "end": 255.25,
+        "transcript": "These are small pieces of code that can be loaded into the Linux kernel on demand, kind of like plugins that extend its functionality."
+      },
+      {
+        "score": 0.7057,
+        "start": 255.25,
+        "end": 259.28,
+        "transcript": "This directory is also not a place regular users should modify."
+      },
+      {
+        "score": 0.5949,
+        "start": 259.28,
+        "end": 265.87,
+        "transcript": "Tampering with it can easily break basic commands or even prevent the system from booting properly."
+      },
+      {
+        "score": 0.1077,
+        "start": 265.87,
+        "end": 267.41,
+        "transcript": "Now let's talk about USR."
+      },
+      {
+        "score": 0.7231,
+        "start": 267.41,
+        "end": 271.62,
+        "transcript": "Despite what the name suggests, it doesn't store personal user files."
+      },
+      {
+        "score": 0.8101,
+        "start": 271.62,
+        "end": 279.58,
+        "transcript": "It stands for Unix System Resources and contains most of the system's user space applications, libraries, and documentation."
+      },
+      {
+        "score": 0.9752,
+        "start": 279.58,
+        "end": 286.47,
+        "transcript": "A typical user doesn't usually modify this directory directly, but it's where many installed programs live."
+      },
+      {
+        "score": 0.6205,
+        "start": 286.47,
+        "end": 295.14,
+        "transcript": "You'll notice that USR mirrors several directories from the root level, like USR slash bin, USR slash lib, and USR slash S bin."
+      },
+      {
+        "score": 0.7281,
+        "start": 295.14,
+        "end": 308.23,
+        "transcript": "This structure exists because USR was meant to hold non-essential software that complements the essential tools in bin and lib, keeping the system organized and bootable even if only the root partition is available."
+      },
+      {
+        "score": 0.5343,
+        "start": 308.23,
+        "end": 315.18,
+        "transcript": "Since this area is usually read-only and managed by the system, it's best not to modify it manually."
+      },
+      {
+        "score": 0.7784,
+        "start": 315.18,
+        "end": 317.12,
+        "transcript": "Next, let's take a look at the boot directory."
+      }
+    ],
+    "segment_count": 52
+  },
+  {
+    "name": "In Linux",
+    "start": 317,
+    "original_name": "initial ram disk",
+    "score": 4.811691549873352,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8238,
+        "start": 317.12,
+        "end": 327.71,
+        "transcript": "This folder contains all the files your system needs to boot up, like the Linux kernel, initial RAM disk, init RD, or init RAMFS, and the grub bootloader files."
+      },
+      {
+        "score": 0.6039,
+        "start": 327.71,
+        "end": 333.87,
+        "transcript": "One important file here is grub.cfg, which tells the system how to load the operating system."
+      },
+      {
+        "score": 0.5068,
+        "start": 333.87,
+        "end": 345.16,
+        "transcript": "In some setups, especially in dual boot systems, or when disk encryption is used, boot might even be placed on its own separate partition to ensure it stays accessible during startup."
+      },
+      {
+        "score": 0.692,
+        "start": 345.16,
+        "end": 350.9,
+        "transcript": "Since this directory is so vital, even small changes can render your system unbuttable."
+      },
+      {
+        "score": 0.4485,
+        "start": 350.9,
+        "end": 356.86,
+        "transcript": "So it's best to leave it untouched unless you're following specific instructions and know what you're doing."
+      },
+      {
+        "score": 0.633,
+        "start": 356.86,
+        "end": 358.73,
+        "transcript": "Let's move on to the dev directory."
+      },
+      {
+        "score": 0.6856,
+        "start": 358.73,
+        "end": 361.35,
+        "transcript": "This folder doesn't hold regular files."
+      },
+      {
+        "score": 0.9103,
+        "start": 361.35,
+        "end": 366.04,
+        "transcript": "Instead, it contains device files that act as interfaces to your hardware."
+      },
+      {
+        "score": 0.7429,
+        "start": 366.04,
+        "end": 370.39,
+        "transcript": "In Linux, everything is treated like a file, even devices."
+      },
+      {
+        "score": 0.3855,
+        "start": 370.39,
+        "end": 372.71,
+        "transcript": "And this is where they're exposed to the system."
+      },
+      {
+        "score": 0.6488,
+        "start": 372.71,
+        "end": 377.24,
+        "transcript": "For example, dev slash SDA might represent your first hard drive."
+      },
+      {
+        "score": 0.7342,
+        "start": 377.24,
+        "end": 385.19,
+        "transcript": "Whether it's your hard drive, USB stick, keyboard, or even virtual devices like dev slash null, they all show up here."
+      },
+      {
+        "score": 0.4341,
+        "start": 385.19,
+        "end": 396.09,
+        "transcript": "You'll find two main types, block devices, like hard drives, which handle data in chunks and character devices, like keyboards, which handle data as a stream of characters."
+      },
+      {
+        "score": 0.9007,
+        "start": 396.09,
+        "end": 401.62,
+        "transcript": "These files are managed dynamically, Linux adds, or removes them as hardware changes."
+      },
+      {
+        "score": 0.736,
+        "start": 401.62,
+        "end": 408.51,
+        "transcript": "While it's interesting to look through, interacting with these files directly can affect your hardware, so be cautious."
+      },
+      {
+        "score": 0.8742,
+        "start": 408.51,
+        "end": 410.82,
+        "transcript": "Next up is the ETC directory."
+      }
+    ],
+    "segment_count": 16
+  },
+  {
+    "name": "The Memory Directory",
+    "start": 410,
+    "original_name": "wide configuration files",
+    "score": 6.251351551725427,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.9354,
+        "start": 410.82,
+        "end": 421.08,
+        "transcript": "This is the central location for system-wide configuration files, covering everything from network settings and user accounts to start-up scripts and service configurations."
+      },
+      {
+        "score": 0.7591,
+        "start": 421.08,
+        "end": 430.17,
+        "transcript": "For example, ETC slash password holds basic user information, and ETC slash FS tab defines how drives are mounted at boot."
+      },
+      {
+        "score": 0.7936,
+        "start": 430.17,
+        "end": 436.32,
+        "transcript": "Most of these are plaintext files designed to be readable and editable by system administrators."
+      },
+      {
+        "score": 0.4668,
+        "start": 436.32,
+        "end": 443.51,
+        "transcript": "The name, ETC, originally stood for et cetera, but some like to think of it as editable text configuration."
+      },
+      {
+        "score": 0.6585,
+        "start": 443.51,
+        "end": 446.55,
+        "transcript": "Either way, it's a vital part of system management."
+      },
+      {
+        "score": 0.6168,
+        "start": 446.55,
+        "end": 456.59,
+        "transcript": "While it's worth exploring to understand how Linux works under the hood, changes here should always be made carefully since they can affect how the entire system behaves."
+      },
+      {
+        "score": 0.8569,
+        "start": 456.59,
+        "end": 460.62,
+        "transcript": "Next is the home directory, the personal space for regular users."
+      },
+      {
+        "score": 0.7306,
+        "start": 460.62,
+        "end": 470.54,
+        "transcript": "Each user has their own sub directory here, like home slash Alex or home slash Emma, where they store documents, downloads, projects, and personal settings."
+      },
+      {
+        "score": 0.9524,
+        "start": 470.54,
+        "end": 477.18,
+        "transcript": "These folders keep user data separate from system files, making backups and account management much easier."
+      },
+      {
+        "score": 0.9183,
+        "start": 477.18,
+        "end": 480.3,
+        "transcript": "User-specific configuration files often live here too."
+      },
+      {
+        "score": 0.3928,
+        "start": 480.3,
+        "end": 482.04,
+        "transcript": "Many are hidden by default."
+      },
+      {
+        "score": 0.7047,
+        "start": 482.04,
+        "end": 486.59,
+        "transcript": "Hidden files and Linux usually start with a dot, like .bash RC."
+      },
+      {
+        "score": 0.8807,
+        "start": 486.59,
+        "end": 492.92,
+        "transcript": "You might also see a shared or public folder, depending on the system, used to exchange files between users."
+      },
+      {
+        "score": 0.4141,
+        "start": 492.92,
+        "end": 500.05,
+        "transcript": "By default, users don't have access to each other's home folders unless permissions are changed, adding a layer of privacy."
+      },
+      {
+        "score": 0.7832,
+        "start": 500.05,
+        "end": 504.6,
+        "transcript": "An unlike most system directories, home is meant to be customized."
+      },
+      {
+        "score": 0.5126,
+        "start": 504.6,
+        "end": 508.56,
+        "transcript": "This is your space to create, modify, and save files freely."
+      },
+      {
+        "score": 0.664,
+        "start": 508.56,
+        "end": 516.66,
+        "transcript": "The root user, however, has a separate home directory located at root instead of inside home to keep it isolated and more secure."
+      },
+      {
+        "score": 0.1405,
+        "start": 516.66,
+        "end": 518.7,
+        "transcript": "Next, we have media."
+      },
+      {
+        "score": 0.8311,
+        "start": 518.7,
+        "end": 532.46,
+        "transcript": "This directory is where modern Linux systems automatically mount removable media like USB drives, CDs, and DVDs. Each device gets its own subfolder inside media, often named after the volume label."
+      },
+      {
+        "score": 0.9112,
+        "start": 532.46,
+        "end": 538.63,
+        "transcript": "It's the place where users can access the actual contents, like photos, documents, or software."
+      },
+      {
+        "score": 0.6251,
+        "start": 538.63,
+        "end": 548.94,
+        "transcript": "Unlike other mount points like M&T, which we'll look at in the next chapter, media is designed for removable devices and is often handled automatically by the system."
+      },
+      {
+        "score": 0.4571,
+        "start": 548.94,
+        "end": 553.23,
+        "transcript": "Media is user-friendly and often doesn't require administrative privileges."
+      },
+      {
+        "score": 0.3107,
+        "start": 553.23,
+        "end": 560.28,
+        "transcript": "Desktop environments like NOME or KDE handle this seamlessly, so your flash drive just appears ready to use."
+      },
+      {
+        "score": 0.5673,
+        "start": 560.28,
+        "end": 569.55,
+        "transcript": "To clarify, Dev holds the device files that represent the hardware itself, while Media is where those devices are mounted and made usable by the system."
+      },
+      {
+        "score": 0.6096,
+        "start": 569.55,
+        "end": 575.54,
+        "transcript": "So think of Dev as the raw connection and Media as the convenient entry point for users."
+      },
+      {
+        "score": 0.9073,
+        "start": 575.54,
+        "end": 579.76,
+        "transcript": "Let's move on to M&T, another directory used for mounting file systems."
+      },
+      {
+        "score": 0.8488,
+        "start": 579.76,
+        "end": 592.96,
+        "transcript": "Traditionally, this is where system administrators would manually mount external storage, like USB drives, petitions, backup disks, or remote file systems, especially during system maintenance or recovery."
+      },
+      {
+        "score": 0.6209,
+        "start": 592.96,
+        "end": 597.98,
+        "transcript": "Unlike media, which automatically mounts removable devices for user access."
+      },
+      {
+        "score": 0.693,
+        "start": 597.98,
+        "end": 605.53,
+        "transcript": "M&T is reserved for manual, temporary mounts, and is typically used by the root user or advanced scripts."
+      },
+      {
+        "score": 0.8084,
+        "start": 605.53,
+        "end": 614.08,
+        "transcript": "For example, if you need to access the contents of a failing hard drive or mounted network share during troubleshooting, MNT is the go-to location."
+      },
+      {
+        "score": 0.8246,
+        "start": 614.08,
+        "end": 619.83,
+        "transcript": "It doesn't contain anything by default and only is content when something is actively mounted there."
+      },
+      {
+        "score": 0.7979,
+        "start": 619.83,
+        "end": 627.48,
+        "transcript": "While you might not use it often as a regular user, understanding its role is helpful when working with Linux at a deeper level."
+      },
+      {
+        "score": 0.9137,
+        "start": 627.48,
+        "end": 631.57,
+        "transcript": "Now let's take a look at PROC, one of the more unusual directories in Linux."
+      },
+      {
+        "score": 0.7871,
+        "start": 631.57,
+        "end": 635.07,
+        "transcript": "Like Dev, PROC is a virtual file system."
+      },
+      {
+        "score": 0.8822,
+        "start": 635.07,
+        "end": 641.74,
+        "transcript": "It doesn't contain real file stored on disk, but instead provides a dynamic, in memory view of the system."
+      },
+      {
+        "score": 0.5233,
+        "start": 641.74,
+        "end": 649.23,
+        "transcript": "While Dev represents hardware devices, PROC acts as a live interface to the Linux kernel and running processes."
+      },
+      {
+        "score": 0.7362,
+        "start": 649.23,
+        "end": 662.99,
+        "transcript": "Inside, you'll find folders named after process IDs, like proc-slash-1234, with details about each process, as well as system information files like proc-slash-cpu-info, and proc-slash-mem-info."
+      },
+      {
+        "score": 0.4357,
+        "start": 662.99,
+        "end": 670.92,
+        "transcript": "Essentially, proc is a vital tool for monitoring, debugging, and interacting with the system's inner workings in real time."
+      },
+      {
+        "score": 0.7192,
+        "start": 670.92,
+        "end": 675.62,
+        "transcript": "Next is SIS, a virtual directory like PROC, but with a different purpose."
+      },
+      {
+        "score": 0.9281,
+        "start": 675.62,
+        "end": 682.79,
+        "transcript": "It's part of the SISFS pseudo-file system and acts as a dynamic interface between the Linux kernel and your hardware."
+      },
+      {
+        "score": 0.6254,
+        "start": 682.79,
+        "end": 688.79,
+        "transcript": "Here, the kernel exposes information about devices, drivers, and system buses."
+      },
+      {
+        "score": 0.9641,
+        "start": 688.79,
+        "end": 696.24,
+        "transcript": "For example, you'll find folders representing CPUs, memory blocks, USB ports, and even the system's power state."
+      },
+      {
+        "score": 0.2859,
+        "start": 696.24,
+        "end": 699.98,
+        "transcript": "What sets CIS a part is that it's not just for reading information."
+      },
+      {
+        "score": 0.8669,
+        "start": 699.98,
+        "end": 707.43,
+        "transcript": "Certain files here can actually be written to, allowing advanced users or system tools to tweak kernel settings on the fly."
+      },
+      {
+        "score": 0.6077,
+        "start": 707.43,
+        "end": 713.92,
+        "transcript": "This makes Sysa Key back in for system utilities like UDEV, Power Managers, and Hardware Configuration Tools."
+      },
+      {
+        "score": 0.8665,
+        "start": 713.92,
+        "end": 720.15,
+        "transcript": "It's structured hierarchically, so each hardware component and subsystem has its own path."
+      },
+      {
+        "score": 0.4772,
+        "start": 720.15,
+        "end": 727.26,
+        "transcript": "But unless you're developing drivers or customizing hardware behavior, you typically won't need to interact with it directly."
+      },
+      {
+        "score": 0.0872,
+        "start": 727.26,
+        "end": 728.24,
+        "transcript": "Next up is Run."
+      },
+      {
+        "score": 0.8985,
+        "start": 728.24,
+        "end": 735.55,
+        "transcript": "This in Memory Directory holds temporary runtime data used by the system and applications right after boot."
+      },
+      {
+        "score": 0.9039,
+        "start": 735.55,
+        "end": 742.99,
+        "transcript": "It's created very early in the startup process, before most of the file system is ready, and everything inside it disappears on reboot."
+      },
+      {
+        "score": 0.5777,
+        "start": 742.99,
+        "end": 749.54,
+        "transcript": "You'll find sub-directories like Run Slash user for user sessions or Run Slash Lock for system locks."
+      },
+      {
+        "score": 0.6115,
+        "start": 749.54,
+        "end": 761.76,
+        "transcript": "Unlike PROC or SIS, which exposed kernel and hardware information, Run is writable and is used by running processes to communicate, track state or store short live files like process IDs and sockets."
+      },
+      {
+        "score": 0.9153,
+        "start": 761.76,
+        "end": 771.59,
+        "transcript": "It replaced older directories like VAR slash run and VAR slash lock, helping unify runtime data in one central, reliable location."
+      },
+      {
+        "score": 0.7309,
+        "start": 771.59,
+        "end": 775.0,
+        "transcript": "Next up is the SRV directory, short for service."
+      },
+      {
+        "score": 0.9073,
+        "start": 775.0,
+        "end": 783.01,
+        "transcript": "This is where data for services provided by the system, like web servers, FTP servers, or other hosted services is stored."
+      },
+      {
+        "score": 0.5481,
+        "start": 783.01,
+        "end": 787.76,
+        "transcript": "Think of it as the content served to users connecting to your machine remotely."
+      },
+      {
+        "score": 0.8463,
+        "start": 787.76,
+        "end": 795.18,
+        "transcript": "For example, if your system is running a web server, the actual website files might live under SRV slash WWW."
+      },
+      {
+        "score": 0.7285,
+        "start": 795.18,
+        "end": 801.43,
+        "transcript": "Unlike configuration files in ETC, SRV holds the data that services share with others."
+      },
+      {
+        "score": 0.6652,
+        "start": 801.43,
+        "end": 809.1,
+        "transcript": "It's worth noting that not all Linux systems use SRV by default, some may place service data elsewhere, like in VAR."
+      },
+      {
+        "score": 0.7516,
+        "start": 809.1,
+        "end": 816.78,
+        "transcript": "But its purpose is to offer a clean, predictable location for service-related content, especially in server setups."
+      },
+      {
+        "score": 0.8798,
+        "start": 816.78,
+        "end": 824.41,
+        "transcript": "If you're not running any services, this directory might be empty, but it becomes more important on multi-user or enterprise systems."
+      },
+      {
+        "score": 0.3478,
+        "start": 824.41,
+        "end": 827.49,
+        "transcript": "Next, we have var, short for variable."
+      },
+      {
+        "score": 0.799,
+        "start": 827.49,
+        "end": 835.96,
+        "transcript": "The var directory is used for storing files that change frequently during system operation, like logs, caches, spool files, and more."
+      },
+      {
+        "score": 0.6955,
+        "start": 835.96,
+        "end": 845.09,
+        "transcript": "For example, var slash log holds system logs that track activity and errors, and these logs are often rotated to prevent them from using too much space."
+      },
+      {
+        "score": 0.8741,
+        "start": 845.09,
+        "end": 848.0,
+        "transcript": "Package managers also use this directory."
+      },
+      {
+        "score": 0.7766,
+        "start": 848.0,
+        "end": 852.98,
+        "transcript": "Debbie and base systems, for instance, keep important metadata in var slash lib."
+      },
+      {
+        "score": 0.6196,
+        "start": 852.98,
+        "end": 856.69,
+        "transcript": "because it stores data that reflects the system's behavior over time."
+      },
+      {
+        "score": 0.4528,
+        "start": 856.69,
+        "end": 863.36,
+        "transcript": "VAR can contain sensitive information and should be properly protected, especially on multi-user or server setups."
+      },
+      {
+        "score": 0.9415,
+        "start": 863.36,
+        "end": 872.99,
+        "transcript": "Since these files can expand significantly, this directory is often placed on its own partition and server setups to avoid filling up the root file system."
+      },
+      {
+        "score": 1.0,
+        "start": 872.99,
+        "end": 881.72,
+        "transcript": "Regular users rarely need to touch this directory directly, but understanding its role helps with troubleshooting and managing disk space."
+      },
+      {
+        "score": 0.7366,
+        "start": 881.72,
+        "end": 885.69,
+        "transcript": "Let's now take a look at a directory design for short term use, TMP."
+      },
+      {
+        "score": 0.9785,
+        "start": 885.69,
+        "end": 892.5,
+        "transcript": "This is where temporary files go, often created by applications or users while tasks are in progress."
+      },
+      {
+        "score": 0.5417,
+        "start": 892.5,
+        "end": 897.31,
+        "transcript": "For example, when you open a file in a text editor or install a program."
+      },
+      {
+        "score": 0.8233,
+        "start": 897.31,
+        "end": 899.58,
+        "transcript": "Temporary working files may be stored here."
+      },
+      {
+        "score": 0.6718,
+        "start": 899.58,
+        "end": 901.72,
+        "transcript": "These files aren't meant to stick around."
+      },
+      {
+        "score": 0.5939,
+        "start": 901.72,
+        "end": 905.96,
+        "transcript": "They're typically deleted automatically on reboot or after a certain period."
+      },
+      {
+        "score": 0.4476,
+        "start": 905.96,
+        "end": 912.31,
+        "transcript": "TMP is writable by all users, but it includes a special permission called the sticky bit."
+      },
+      {
+        "score": 0.624,
+        "start": 912.31,
+        "end": 917.48,
+        "transcript": "This ensures users can only delete files they own, even though the directory is shared."
+      },
+      {
+        "score": 0.8208,
+        "start": 917.48,
+        "end": 921.12,
+        "transcript": "This helps prevent accidental or malicious file deletions."
+      },
+      {
+        "score": 0.5733,
+        "start": 921.12,
+        "end": 930.09,
+        "transcript": "It's also worth noting that because TMP resides in memory on some systems, using a TMPFS mount, writing large files here can consume RAM."
+      },
+      {
+        "score": 0.5843,
+        "start": 930.09,
+        "end": 934.46,
+        "transcript": "For that reason, it's generally used for lightweight, temporary data only."
+      },
+      {
+        "score": 0.6785,
+        "start": 934.46,
+        "end": 939.7,
+        "transcript": "Keeping it clean helps prevent clutter and maintain smooth system operation."
+      },
+      {
+        "score": 0.3072,
+        "start": 939.7,
+        "end": 941.35,
+        "transcript": "And lastly, we have opt."
+      },
+      {
+        "score": 0.6279,
+        "start": 941.35,
+        "end": 947.94,
+        "transcript": "Opt is where optional or third-party software is installed, often kept separate from the system's main directories."
+      },
+      {
+        "score": 0.6196,
+        "start": 947.94,
+        "end": 957.32,
+        "transcript": "Each application usually has its own subfolder, like opt slash Google slash Chrome, which helps keep things organized and makes uninstalling easier."
+      },
+      {
+        "score": 0.8787,
+        "start": 957.32,
+        "end": 966.99,
+        "transcript": "This directory is especially common in enterprise or commercial environments where large proprietary programs are installed outside the usual package manager paths."
+      },
+      {
+        "score": 0.4573,
+        "start": 966.99,
+        "end": 971.61,
+        "transcript": "On many systems, Opt may even be empty unless manually used."
+      },
+      {
+        "score": 0.7997,
+        "start": 971.61,
+        "end": 980.38,
+        "transcript": "Because software here doesn't always follow standard Linux file structure rules, Opt provides a safe space without interfering with core system files."
+      },
+      {
+        "score": 0.6407,
+        "start": 980.38,
+        "end": 985.79,
+        "transcript": "Like most system directories, modifying it requires administrative privileges."
+      },
+      {
+        "score": 0.8954,
+        "start": 985.79,
+        "end": 991.16,
+        "transcript": "In conclusion, the Linux file system structure is more than just a collection of folders."
+      },
+      {
+        "score": 0.9659,
+        "start": 991.16,
+        "end": 998.89,
+        "transcript": "It's a well thought out hierarchy that separates critical system components from user files, temporary data, and application resources."
+      },
+      {
+        "score": 0.9384,
+        "start": 998.89,
+        "end": 1005.45,
+        "transcript": "Each directory has a specific purpose, helping keep the system stable, organized, and secure."
+      },
+      {
+        "score": 0.6782,
+        "start": 1005.45,
+        "end": 1017.03,
+        "transcript": "By understanding what goes where, you're not only improving your navigation skills, but also gaining the foundation needed for tasks like system administration, scripting, or even just effective troubleshooting."
+      },
+      {
+        "score": 0.6154,
+        "start": 1017.03,
+        "end": 1027.16,
+        "transcript": "Whether you're exploring Linux for the first time or reinforcing your knowledge, this understanding is a key step toward becoming more confident and capable in a Linux environment."
+      },
+      {
+        "score": 0.9295,
+        "start": 1027.16,
+        "end": 1031.22,
+        "transcript": "that wraps up our dive into the Linux file system structure."
+      },
+      {
+        "score": 0.0988,
+        "start": 1031.22,
+        "end": 1036.07,
+        "transcript": "If you found this video helpful, consider subscribing to the channel and giving it a like."
+      },
+      {
+        "score": 0.2136,
+        "start": 1036.07,
+        "end": 1043.69,
+        "transcript": "Feel free to explore our other videos on related tech topics and follow us on Facebook and Instagram for more content and updates."
+      },
+      {
+        "score": 0.0758,
+        "start": 1043.69,
+        "end": 1045.05,
+        "transcript": "Thank you for watching."
+      }
+    ],
+    "segment_count": 98
+  }
+]

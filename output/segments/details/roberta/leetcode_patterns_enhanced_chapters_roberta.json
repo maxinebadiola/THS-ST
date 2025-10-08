@@ -1,0 +1,1068 @@
+[
+  {
+    "name": "The These",
+    "start": 0,
+    "original_name": "Introduction",
+    "score": 2.3072081781387332,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.3638,
+        "start": 0.03,
+        "end": 4.36,
+        "transcript": "These are the eight most important patterns for coding interviews, and this is backed by data."
+      }
+    ],
+    "segment_count": 1
+  },
+  {
+    "name": "The What",
+    "start": 3,
+    "original_name": "linear data structures like trees",
+    "score": 2.64295797059536,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.5412,
+        "start": 4.36,
+        "end": 20.25,
+        "transcript": "These patterns are split into the two major categories of leak code problems, linear, which work with linear data structures like arrays, linked lists, and strings, and non-linear, which work with non-linear data structures like trees and graphs."
+      },
+      {
+        "score": 0.4559,
+        "start": 20.25,
+        "end": 29.8,
+        "transcript": "In this video, we're not only going to learn these patterns, but we're going to use pre-built code templates for these patterns that you can use for any leak code problem."
+      },
+      {
+        "score": 0.3292,
+        "start": 29.8,
+        "end": 34.06,
+        "transcript": "There are, of course, lesser use patterns we will not be addressing in this video."
+      },
+      {
+        "score": 0.2154,
+        "start": 34.06,
+        "end": 41.63,
+        "transcript": "To see those, as well as a lot more in-depth content explaining everything you need to know about leak code, check out our website at algo.monster."
+      },
+      {
+        "score": 0.6272,
+        "start": 41.63,
+        "end": 49.97,
+        "transcript": "All patterns for linear structures build off of two pointers, which is why we're starting with it."
+      },
+      {
+        "score": 0.7186,
+        "start": 49.97,
+        "end": 62.47,
+        "transcript": "The two pointers pattern is important because it allows you to significantly reduce the time complexity of problems that involve traversing a linear structure, like arrays, linked lists, or strings."
+      },
+      {
+        "score": 0.7934,
+        "start": 62.47,
+        "end": 76.75,
+        "transcript": "Instead of the brute force approach, where you might check every combination of elements, which could lead to an ON squared time complexity, two pointers often allows you to solve these problems in linear time, ON, making it incredibly efficient."
+      },
+      {
+        "score": 0.5312,
+        "start": 76.75,
+        "end": 79.7,
+        "transcript": "There are two main methods of using two pointers."
+      },
+      {
+        "score": 0.8036,
+        "start": 79.7,
+        "end": 86.03,
+        "transcript": "The two pointers can go in the same direction or opposite directions and each are used for different kinds of problems."
+      },
+      {
+        "score": 0.8249,
+        "start": 86.03,
+        "end": 95.12,
+        "transcript": "When the pointers move in the same direction, this technique is ideal for problems where you're processing or scanning the data in a single pass."
+      },
+      {
+        "score": 0.8503,
+        "start": 95.12,
+        "end": 103.29,
+        "transcript": "A common use case is the fast and slow pointer approach for detecting cycles in linked lists or for finding the middle of a list."
+      },
+      {
+        "score": 0.4768,
+        "start": 103.29,
+        "end": 108.95,
+        "transcript": "The slow pointer moves one step at a time while the fast pointer moves two steps."
+      },
+      {
+        "score": 0.802,
+        "start": 108.95,
+        "end": 115.24,
+        "transcript": "This allows you to efficiently check for cycles or find key elements without retroversing the structure."
+      },
+      {
+        "score": 0.8314,
+        "start": 115.24,
+        "end": 125.07,
+        "transcript": "When the pointers move in opposite directions, this is typically used in problems that involve finding pairs or comparing elements from opposite ends of the data structure."
+      },
+      {
+        "score": 0.7948,
+        "start": 125.07,
+        "end": 132.77,
+        "transcript": "A classic example of this is finding two numbers in a sorted array that sum up to a target value."
+      },
+      {
+        "score": 0.5034,
+        "start": 132.77,
+        "end": 136.14,
+        "transcript": "One pointer starts at the beginning of the array and the other at the end."
+      },
+      {
+        "score": 0.9108,
+        "start": 136.14,
+        "end": 145.48,
+        "transcript": "By adjusting the pointers inward, based on the sum, you can quickly zero in on the correct pair, eliminating unnecessary comparisons."
+      },
+      {
+        "score": 0.7302,
+        "start": 145.48,
+        "end": 152.53,
+        "transcript": "The sliding window pattern is an extension of the two pointers pattern, but with a more focused purpose."
+      },
+      {
+        "score": 0.4677,
+        "start": 152.53,
+        "end": 165.39,
+        "transcript": "While two pointers involves using two separate pointers to traverse and manipulate a data structure, sliding window refines this by maintaining a window of elements within the data, dynamically adjusting its size as you progress through the structure."
+      },
+      {
+        "score": 0.6333,
+        "start": 165.39,
+        "end": 174.96,
+        "transcript": "Essentially, you're using two pointers, but the goal is to manage a range or subset of elements that satisfy a specific condition, like a subarray or substring."
+      },
+      {
+        "score": 0.776,
+        "start": 174.96,
+        "end": 181.53,
+        "transcript": "In the sliding window approach, one pointer marks the start of the window and the other marks the end."
+      },
+      {
+        "score": 0.7466,
+        "start": 181.53,
+        "end": 186.69,
+        "transcript": "as the end pointer advances, the window slides over the data structure."
+      },
+      {
+        "score": 0.5721,
+        "start": 186.69,
+        "end": 200.7,
+        "transcript": "Depending on the problem, you either expand the window by moving the end pointer or contract it by moving the start pointer to meet certain criteria like maximizing the length of a substring or maintaining a sum within a target value."
+      },
+      {
+        "score": 0.5281,
+        "start": 200.7,
+        "end": 212.32,
+        "transcript": "For example, In a problem where you need to find the longest substring without repeating characters, the window expands by moving the end pointer to include new characters."
+      },
+      {
+        "score": 0.4918,
+        "start": 212.32,
+        "end": 220.07,
+        "transcript": "If the window encounters a repeated character, the start pointer moves forward to shrink the window and eliminate the duplicate."
+      },
+      {
+        "score": 1.0,
+        "start": 220.07,
+        "end": 231.21,
+        "transcript": "This dynamic process allows you to efficiently solve problems that require analyzing continuous segments of an array or string without retroversing the structure multiple times."
+      },
+      {
+        "score": 0.5657,
+        "start": 231.21,
+        "end": 241.14,
+        "transcript": "Sliding window is extremely powerful for problems that require tracking contiguous sequences, whether it's for strings, subarrays, or linked lists."
+      },
+      {
+        "score": 0.666,
+        "start": 241.14,
+        "end": 252.6,
+        "transcript": "It adds more versatility to the two-pointers pattern by giving you control over a range of elements at any given point, and it's often combined with hash maps to keep track of the elements within the window."
+      },
+      {
+        "score": 0.3788,
+        "start": 252.6,
+        "end": 259.35,
+        "transcript": "For a deeper dive into common problems solved with Sliding Window, check out algo.monster."
+      },
+      {
+        "score": 0.7289,
+        "start": 259.35,
+        "end": 268.64,
+        "transcript": "Binary search is a fundamental search algorithm that allows you to find a target value in a sorted array by repeatedly dividing the list in half."
+      },
+      {
+        "score": 0.7528,
+        "start": 268.64,
+        "end": 277.3,
+        "transcript": "It is also technically an expansion of the two pointers pattern because it uses a left and right pointer that have the list step by step."
+      },
+      {
+        "score": 0.8374,
+        "start": 277.3,
+        "end": 281.3,
+        "transcript": "Binary search starts by looking at the middle element and checking if that's the target."
+      },
+      {
+        "score": 0.0182,
+        "start": 281.3,
+        "end": 284.97,
+        "transcript": "If it is the target success, you can return it."
+      },
+      {
+        "score": 0.274,
+        "start": 284.97,
+        "end": 288.48,
+        "transcript": "If it's smaller than the target, you know the target is somewhere to the right."
+      },
+      {
+        "score": 0.1796,
+        "start": 288.48,
+        "end": 292.18,
+        "transcript": "So we repeat this process, but only on the right half."
+      },
+      {
+        "score": 0.7117,
+        "start": 292.18,
+        "end": 296.91,
+        "transcript": "If it's larger than the target, we repeat the process on the left."
+      },
+      {
+        "score": 0.2879,
+        "start": 296.91,
+        "end": 300.73,
+        "transcript": "Eventually, we converge on the target."
+      },
+      {
+        "score": 0.6474,
+        "start": 300.73,
+        "end": 312.88,
+        "transcript": "This is an efficient algorithm, because it allows us to find our target in logarithmic time, o log n, rather than searching each element, which is o n."
+      },
+      {
+        "score": 0.8593,
+        "start": 312.88,
+        "end": 319.02,
+        "transcript": "However, binary search is far more applicable than only being used on sorted numerical lists."
+      },
+      {
+        "score": 0.7322,
+        "start": 319.02,
+        "end": 325.67,
+        "transcript": "What makes binary search incredibly powerful is it can be used on any list where there is a monotonic function."
+      },
+      {
+        "score": 0.1281,
+        "start": 325.67,
+        "end": 333.72,
+        "transcript": "A monotonic function is any type of pattern where there is a consistent increase or decrease, which extends beyond just numbers."
+      },
+      {
+        "score": 0.6093,
+        "start": 333.72,
+        "end": 341.99,
+        "transcript": "Put more simply, we are looking for any type of condition that can be used for sorting, not just strictly increasing numbers."
+      },
+      {
+        "score": 0.6861,
+        "start": 341.99,
+        "end": 350.06,
+        "transcript": "For example, if we had a sorted list of only true and false, we can actually use binary search to find the first true occurrence."
+      }
+    ],
+    "segment_count": 43
+  },
+  {
+    "name": "The Rather",
+    "start": 342,
+    "original_name": "binary search would work like",
+    "score": 3.493562235025597,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.9194,
+        "start": 350.06,
+        "end": 352.4,
+        "transcript": "The binary search would work like this."
+      },
+      {
+        "score": 0.5362,
+        "start": 352.4,
+        "end": 354.97,
+        "transcript": "You look at the middle of the list."
+      },
+      {
+        "score": 0.6554,
+        "start": 354.97,
+        "end": 362.8,
+        "transcript": "If the middle value is true, you know that the first true must either be here or somewhere to the left, so you move your search to the left half."
+      },
+      {
+        "score": 0.4903,
+        "start": 362.8,
+        "end": 371.59,
+        "transcript": "If the middle value is false, you know that the first true must be to the right, so you focus on the right half."
+      },
+      {
+        "score": 0.771,
+        "start": 371.59,
+        "end": 379.69,
+        "transcript": "This type of searching, based on where a condition is true and where it is false, can be reused for every single binary search problem."
+      },
+      {
+        "score": 0.0412,
+        "start": 379.69,
+        "end": 385.36,
+        "transcript": "In fact, we actually have this free template for this on our website, Algamonster."
+      },
+      {
+        "score": 0.1018,
+        "start": 385.36,
+        "end": 388.62,
+        "transcript": "All we need to do is find out what makes something feasible."
+      },
+      {
+        "score": 0.7183,
+        "start": 388.62,
+        "end": 396.37,
+        "transcript": "For example, the common lead code problem, minimum in rotated sorted array, doesn't appear to follow binary search at first."
+      },
+      {
+        "score": 0.1504,
+        "start": 396.37,
+        "end": 398.32,
+        "transcript": "After all, it's not sorted."
+      },
+      {
+        "score": 0.7191,
+        "start": 398.32,
+        "end": 402.4,
+        "transcript": "However, there's a monotonic condition we can use to apply binary search."
+      },
+      {
+        "score": 0.4862,
+        "start": 402.4,
+        "end": 413.94,
+        "transcript": "The condition is that any element that is less than the last element of the array is part of the rotated section, while any element greater than the last element is part of the original sorted section."
+      },
+      {
+        "score": 0.389,
+        "start": 413.94,
+        "end": 421.61,
+        "transcript": "We can mentally convert this to trues and falses, and just like that, we have the same true and false question we just solve."
+      },
+      {
+        "score": 0.3195,
+        "start": 421.61,
+        "end": 423.73,
+        "transcript": "This can be applied to a ton of different questions."
+      },
+      {
+        "score": 0.5536,
+        "start": 423.73,
+        "end": 428.96,
+        "transcript": "For more practice and an in-depth explanation, check out algo.monster."
+      },
+      {
+        "score": 0.3722,
+        "start": 428.96,
+        "end": 434.46,
+        "transcript": "Now we'll take a look at non-linear structure problems which work with trees and graphs."
+      },
+      {
+        "score": 0.2496,
+        "start": 434.46,
+        "end": 441.81,
+        "transcript": "In fact, instead of treating trees and graphs as two entirely different structures, you should imagine that a tree is just a graph with no cycles."
+      },
+      {
+        "score": 0.3108,
+        "start": 441.81,
+        "end": 450.29,
+        "transcript": "The only difference between the two is that for a graph that could have cycles, you need some visited set to keep track of nodes you've already visited."
+      },
+      {
+        "score": 0.4471,
+        "start": 450.29,
+        "end": 454.0,
+        "transcript": "This makes the patterns we will talk about applicable to both."
+      },
+      {
+        "score": 0.4193,
+        "start": 454.0,
+        "end": 461.33,
+        "transcript": "For non-linear problems, we'll start with breadth-first search, as it's the easiest algorithm to understand and build off of."
+      },
+      {
+        "score": 0.8146,
+        "start": 461.33,
+        "end": 466.74,
+        "transcript": "breadth-first search is an algorithm used to explore nodes in a graph or tree level by level."
+      },
+      {
+        "score": 0.9037,
+        "start": 466.74,
+        "end": 477.04,
+        "transcript": "The idea behind this is that it starts at a given node, commonly called the root, and explores all its immediate neighbors first before moving on to the neighbors' neighbors, and so on."
+      },
+      {
+        "score": 0.7157,
+        "start": 477.04,
+        "end": 486.05,
+        "transcript": "To keep track of the nodes that have already been visited so that we don't revisit them, BFS uses a queue, a data structure that works like a line."
+      },
+      {
+        "score": 0.1024,
+        "start": 486.05,
+        "end": 487.87,
+        "transcript": "First in, first out."
+      },
+      {
+        "score": 0.9021,
+        "start": 487.87,
+        "end": 495.02,
+        "transcript": "This ensures that nodes are visited in the correct order, starting from the closest to the root and moving outward."
+      },
+      {
+        "score": 0.6249,
+        "start": 495.02,
+        "end": 500.85,
+        "transcript": "BFS is such a common algorithm that you will use all the time."
+      },
+      {
+        "score": 0.2181,
+        "start": 500.85,
+        "end": 507.09,
+        "transcript": "Luckily for you, instead of having to derive it from scratch each time, we have this template that we can reuse."
+      },
+      {
+        "score": 0.235,
+        "start": 507.09,
+        "end": 512.1,
+        "transcript": "If you want to see more about how we got this template, check it out at algo.monster."
+      },
+      {
+        "score": 0.0,
+        "start": 512.1,
+        "end": 514.86,
+        "transcript": "Now let's see BFS in action."
+      },
+      {
+        "score": 0.7392,
+        "start": 514.86,
+        "end": 521.24,
+        "transcript": "We're going to use this template to solve a common lead code problem, level order traversal of a binary tree."
+      },
+      {
+        "score": 0.4585,
+        "start": 521.24,
+        "end": 538.08,
+        "transcript": "The problem asks us to give all of the levels of the tree at each depth This means we need to visit the nodes of the tree level by level, starting from the root and moving down, visiting all the nodes at each level before proceeding to the next."
+      },
+      {
+        "score": 0.376,
+        "start": 538.08,
+        "end": 552.43,
+        "transcript": "For example, given a tree with the root node 3 and children 9 and 20, where 20 has children 15 and 7, we need to return the values of the nodes level by level in the following order."
+      },
+      {
+        "score": 0.4641,
+        "start": 552.43,
+        "end": 563.42,
+        "transcript": "First 3, then 9, 20, and finally 15, 16th phrase which is not a kill, we can solve this problem using BFS as its ideal for level by level traversal."
+      },
+      {
+        "score": 0.6903,
+        "start": 563.42,
+        "end": 567.84,
+        "transcript": "The idea is to use a queue to help explore the tree one level at a time."
+      },
+      {
+        "score": 0.5036,
+        "start": 567.84,
+        "end": 570.82,
+        "transcript": "First, we add the root node to the queue."
+      },
+      {
+        "score": 0.6734,
+        "start": 570.82,
+        "end": 578.25,
+        "transcript": "Then for each level, we process all nodes currently in the queue by removing them and adding their values to the result."
+      },
+      {
+        "score": 0.6558,
+        "start": 578.25,
+        "end": 585.5,
+        "transcript": "For each node we process, we also add its left and right children to the queue so they can be processed in the next level."
+      },
+      {
+        "score": 0.8275,
+        "start": 585.5,
+        "end": 591.28,
+        "transcript": "This ensures that we visit all nodes on one level before moving to the next."
+      },
+      {
+        "score": 0.4842,
+        "start": 591.28,
+        "end": 600.36,
+        "transcript": "By repeating this process until the queue is empty, we can traverse the entire tree level by level and collect the node values in the correct order."
+      },
+      {
+        "score": 0.5302,
+        "start": 600.36,
+        "end": 605.46,
+        "transcript": "Finally, we return the list of node values grouped by levels."
+      },
+      {
+        "score": 0.7903,
+        "start": 605.46,
+        "end": 613.54,
+        "transcript": "Devth first search is an algorithm that builds on the foundation of BFS but explores the tree or graph in a different way."
+      },
+      {
+        "score": 0.5337,
+        "start": 613.54,
+        "end": 623.07,
+        "transcript": "While BFS focuses on exploring nodes level by level, DFS dives deep into one path as far as possible before exploring the next path."
+      },
+      {
+        "score": 0.8078,
+        "start": 623.07,
+        "end": 631.12,
+        "transcript": "In BFS, we use a queue to process nodes in a breadth first manner, ensuring all nodes at one level are explored before moving to the next."
+      },
+      {
+        "score": 0.678,
+        "start": 631.12,
+        "end": 641.96,
+        "transcript": "In contrast, DFS uses a stack to explore nodes in a depth first manner, where you keep going down one branch until you reach the end, and then you come back to explore other branches."
+      },
+      {
+        "score": 0.4285,
+        "start": 641.96,
+        "end": 646.15,
+        "transcript": "Most often, the stack DFS uses is the call stack."
+      },
+      {
+        "score": 0.5623,
+        "start": 646.15,
+        "end": 670.12,
+        "transcript": "As most DFS implementations use recursion, where BFS is ideal for finding the shortest path or exploring nodes layer by layer, DFS is more suited for problems where you need to explore all paths or check every possible configuration, such as finding all paths in a tree, searching for a specific condition deep in the structure or detecting cycles."
+      },
+      {
+        "score": 0.5819,
+        "start": 670.12,
+        "end": 683.09,
+        "transcript": "The depth first nature of DFS makes it more memory efficient in some cases, but it's less suited for problems where the shortest path or shallow exploration is required, as it doesn't guarantee finding the closest solution first."
+      },
+      {
+        "score": 0.6605,
+        "start": 683.09,
+        "end": 691.24,
+        "transcript": "Like with BFS, DFS is a common algorithm that you will use all the time, so we have a template that we can reuse."
+      },
+      {
+        "score": 0.4598,
+        "start": 691.24,
+        "end": 697.29,
+        "transcript": "Again, if you're curious to how this works, check it out at algo.monster."
+      },
+      {
+        "score": 0.5559,
+        "start": 697.29,
+        "end": 700.9,
+        "transcript": "Now, let's solve a leap code problem with DFS."
+      },
+      {
+        "score": 0.4985,
+        "start": 700.9,
+        "end": 705.66,
+        "transcript": "A common leap code problem that uses this pattern is called number of islands."
+      },
+      {
+        "score": 0.0568,
+        "start": 705.66,
+        "end": 712.67,
+        "transcript": "This problem asks us to count the number of islands in a 2D grid where one represents land and zero represents water."
+      },
+      {
+        "score": 0.2998,
+        "start": 712.67,
+        "end": 717.66,
+        "transcript": "An island is formed by connecting adjacent ones horizontally or vertically."
+      },
+      {
+        "score": 0.4554,
+        "start": 717.66,
+        "end": 724.85,
+        "transcript": "We need to determine how many distinct islands exist by identifying connected components of ones in the grid."
+      },
+      {
+        "score": 0.1759,
+        "start": 724.85,
+        "end": 730.71,
+        "transcript": "For example, in a grid where someone's are grouped together, each connected group is considered an island."
+      },
+      {
+        "score": 0.547,
+        "start": 730.71,
+        "end": 735.44,
+        "transcript": "Our goal is to traverse the grid, find all islands, and count them."
+      },
+      {
+        "score": 0.4843,
+        "start": 735.44,
+        "end": 739.88,
+        "transcript": "We can solve this problem using DFS to explore each island."
+      },
+      {
+        "score": 0.3618,
+        "start": 739.88,
+        "end": 745.33,
+        "transcript": "The idea is to iterate through each cell in the grid."
+      },
+      {
+        "score": 0.1859,
+        "start": 745.33,
+        "end": 749.67,
+        "transcript": "When we encounter a one land, it indicates the start of an island."
+      },
+      {
+        "score": 0.7994,
+        "start": 749.67,
+        "end": 759.36,
+        "transcript": "From there, we perform DFS to visit all connected ones all parts of the same island by exploring the neighboring cells in all four directions as deep as they go."
+      },
+      {
+        "score": 0.4481,
+        "start": 759.36,
+        "end": 767.4,
+        "transcript": "During the DFS, we mark each visited cell by changing its value to zero to ensure we don't count it again."
+      },
+      {
+        "score": 0.7274,
+        "start": 767.4,
+        "end": 773.91,
+        "transcript": "Once all connected cells for that island are visited, we increment the island count and continue searching the rest of the grid."
+      },
+      {
+        "score": 0.5292,
+        "start": 773.91,
+        "end": 778.6,
+        "transcript": "This process ensures that we explore each island once and count it correctly."
+      },
+      {
+        "score": 0.5786,
+        "start": 778.6,
+        "end": 786.47,
+        "transcript": "By the end, the total number of initializing DFS calls we make, not including the recursive calls, equals the number of islands."
+      },
+      {
+        "score": 0.9591,
+        "start": 786.47,
+        "end": 796.26,
+        "transcript": "Backtracking is a pattern that many people struggle with, but in reality, it's actually just an extension of depth first search."
+      },
+      {
+        "score": 0.7445,
+        "start": 796.26,
+        "end": 804.09,
+        "transcript": "In DFS, we typically traverse through a prebuilt structure like a tree or graph, where the nodes and connections are already defined."
+      },
+      {
+        "score": 0.8223,
+        "start": 804.09,
+        "end": 820.15,
+        "transcript": "With backtracking, however, you often have to build the solution tree yourself as you explore different options, especially in combinatorial problems, where the structure of the tree isn't given explicitly, but is generated dynamically as you make decisions."
+      },
+      {
+        "score": 0.8378,
+        "start": 820.15,
+        "end": 825.55,
+        "transcript": "In a backtracking problem, you explore all possible solutions by making a series of decisions."
+      },
+      {
+        "score": 0.6517,
+        "start": 825.55,
+        "end": 831.92,
+        "transcript": "Each decision represents a node in the tree, and each potential decision forms a branch."
+      },
+      {
+        "score": 0.4347,
+        "start": 831.92,
+        "end": 837.62,
+        "transcript": "As you explore a decision, you either reach a valid solution, or you hit a dead end."
+      },
+      {
+        "score": 0.4945,
+        "start": 837.62,
+        "end": 845.87,
+        "transcript": "When a decision leads to a dead end, you backtrack to the previous decision, undo it, and try another path."
+      },
+      {
+        "score": 0.2556,
+        "start": 845.87,
+        "end": 851.84,
+        "transcript": "Just like with all of our other patterns, we also have a template we are going to use here, which is this."
+      },
+      {
+        "score": 0.7266,
+        "start": 851.84,
+        "end": 857.63,
+        "transcript": "Now, let's walk through it by solving a lead code problem."
+      },
+      {
+        "score": 0.1701,
+        "start": 857.63,
+        "end": 860.59,
+        "transcript": "Letter combinations of a phone number."
+      },
+      {
+        "score": 0.1487,
+        "start": 860.59,
+        "end": 872.59,
+        "transcript": "In this problem, we're given a string of digits, typically from 2 to 9, and we need to return all the possible letter combinations that the digits could represent using the mapping of a phone keypad."
+      },
+      {
+        "score": 0.5981,
+        "start": 872.59,
+        "end": 884.99,
+        "transcript": "For example, if we have the digits 23, each digit corresponds to a set of letters, two maps to A, B, C, and three maps to D, E, F."
+      },
+      {
+        "score": 0.3429,
+        "start": 884.99,
+        "end": 888.92,
+        "transcript": "Our goal is to generate every possible combination of these letters."
+      },
+      {
+        "score": 0.6699,
+        "start": 888.92,
+        "end": 896.88,
+        "transcript": "So, for 23, some outputs could be a D, A, E, A, F, B, D, B, E, B, F, and so on."
+      },
+      {
+        "score": 0.3678,
+        "start": 896.88,
+        "end": 899.68,
+        "transcript": "Now, our goal is to find all of these combinations."
+      },
+      {
+        "score": 0.4581,
+        "start": 899.68,
+        "end": 909.6,
+        "transcript": "Backtracking is the optimal approach for solving this problem because it allows us to explore each possible letter one at a time while pruning invalid configurations early."
+      },
+      {
+        "score": 0.9673,
+        "start": 909.6,
+        "end": 919.25,
+        "transcript": "Rather than brute forcing through every possible combination, backtracking lets us build the solution letter by letter, discarding incomplete paths that no longer make sense."
+      },
+      {
+        "score": 0.4598,
+        "start": 919.25,
+        "end": 926.27,
+        "transcript": "We start by taking the input digits and starts by checking if the input is empty, returning an empty list if so."
+      },
+      {
+        "score": 0.9493,
+        "start": 926.27,
+        "end": 937.29,
+        "transcript": "It initializes an empty list ains to store the results and defines a recursive helper function, DFS, to perform depth first search, DFS."
+      },
+      {
+        "score": 0.6754,
+        "start": 937.29,
+        "end": 946.57,
+        "transcript": "The DFS function tracks the current position in the digits string using start index and builds combinations step by step by adding letters to the path list."
+      },
+      {
+        "score": 0.8072,
+        "start": 946.57,
+        "end": 968.65,
+        "transcript": "If the start index reaches the length of the digits, the current path is a complete combination, so it's joined into a string and added to ANDs. For each digit, the function iterates over its possible letters, retrieved from a digit to chart dictionary, adds each letter to path, and calls DFS recursively for the next digit."
+      },
+      {
+        "score": 0.9216,
+        "start": 968.65,
+        "end": 976.38,
+        "transcript": "After exploring a letter, it backtracks by removing the last letter from path to explore the next possibility."
+      },
+      {
+        "score": 0.4676,
+        "start": 976.38,
+        "end": 982.63,
+        "transcript": "The DFS starts at the first digit with DFS0, empty list."
+      },
+      {
+        "score": 0.7689,
+        "start": 982.63,
+        "end": 986.7,
+        "transcript": "And once all combinations are generated, it returns the result list ends."
+      },
+      {
+        "score": 0.0581,
+        "start": 986.7,
+        "end": 996.53,
+        "transcript": "The overall time complexity is O4 to the power of N, where N is the length of the input digits, as each digit can map to up to four letters."
+      },
+      {
+        "score": 0.735,
+        "start": 996.53,
+        "end": 1005.54,
+        "transcript": "This approach efficiently explores all possible letter combinations and ensures that we backtrack after each combination is formed to explore the next one."
+      },
+      {
+        "score": 0.7877,
+        "start": 1005.54,
+        "end": 1014.49,
+        "transcript": "If you want to see more problems solved with backtracking or a more in-depth explanation of the algorithm, make sure to check out our website at algo.monster."
+      },
+      {
+        "score": 0.1246,
+        "start": 1014.49,
+        "end": 1019.68,
+        "transcript": "You may notice a lot of questions titled like the following."
+      },
+      {
+        "score": 0.4361,
+        "start": 1019.68,
+        "end": 1028.13,
+        "transcript": "Anytime you see a question related to top K, K smallest, or K largest, you always use a priority cue."
+      },
+      {
+        "score": 0.6742,
+        "start": 1028.13,
+        "end": 1032.22,
+        "transcript": "The most common implementation of priority cues are called heaps."
+      },
+      {
+        "score": 0.6568,
+        "start": 1032.22,
+        "end": 1035.61,
+        "transcript": "Heaps can be used to solve all of these questions."
+      },
+      {
+        "score": 0.4222,
+        "start": 1035.61,
+        "end": 1040.57,
+        "transcript": "A heap is a special type of tree where the elements are organized in a specific way."
+      },
+      {
+        "score": 0.4718,
+        "start": 1040.57,
+        "end": 1042.88,
+        "transcript": "There are two kinds of heaps."
+      },
+      {
+        "score": 0.6129,
+        "start": 1042.88,
+        "end": 1050.0,
+        "transcript": "In a min heap, the smallest value is always at the top aka the root, and each parent is smaller than its children."
+      },
+      {
+        "score": 0.5539,
+        "start": 1050.0,
+        "end": 1056.33,
+        "transcript": "In a max heap, the largest value is at the root, and each parent is larger than its children."
+      },
+      {
+        "score": 0.6584,
+        "start": 1056.33,
+        "end": 1066.55,
+        "transcript": "One thing that is counterintuitive is that we use a min heap to find the k largest values, and a max heap to find the k smallest values."
+      },
+      {
+        "score": 0.4677,
+        "start": 1066.55,
+        "end": 1070.31,
+        "transcript": "The reason is best explained with an example."
+      },
+      {
+        "score": 0.518,
+        "start": 1070.31,
+        "end": 1074.13,
+        "transcript": "Let's say we want to find the three smallest values in this list of seven."
+      },
+      {
+        "score": 0.5667,
+        "start": 1074.13,
+        "end": 1077.34,
+        "transcript": "We first create a max heap of size three."
+      },
+      {
+        "score": 0.7047,
+        "start": 1077.34,
+        "end": 1083.1,
+        "transcript": "We go through and add the first three values to it, three, six, and one to fill it out."
+      },
+      {
+        "score": 0.6513,
+        "start": 1083.1,
+        "end": 1088.71,
+        "transcript": "Then, once we hit the fourth value, how do we know whether to add it or not?"
+      },
+      {
+        "score": 0.552,
+        "start": 1088.71,
+        "end": 1093.1,
+        "transcript": "Well, in a max heap, the largest value is at the root."
+      },
+      {
+        "score": 0.4606,
+        "start": 1093.1,
+        "end": 1101.35,
+        "transcript": "And because we want the three smallest values, all we need to know is whether or not this new value is smaller than our previous largest value."
+      },
+      {
+        "score": 0.247,
+        "start": 1101.35,
+        "end": 1107.5,
+        "transcript": "In this case, it is, so we remove the value at the root and add our new value."
+      },
+      {
+        "score": 0.5567,
+        "start": 1107.5,
+        "end": 1117.72,
+        "transcript": "As you can see, this is why we use a max heap for finding the K smallest values and the vice versa for K largest values."
+      },
+      {
+        "score": 0.6446,
+        "start": 1117.72,
+        "end": 1125.03,
+        "transcript": "The reason heaps are efficient is because we always know where the largest or smallest value is, at the root."
+      },
+      {
+        "score": 0.3826,
+        "start": 1125.03,
+        "end": 1139.51,
+        "transcript": "Heaps allow for efficient access to the smallest or largest element in O one time, and inserting or removing elements takes O log n time, both of which are better than having to go through every element in a list."
+      },
+      {
+        "score": 0.5529,
+        "start": 1139.51,
+        "end": 1147.72,
+        "transcript": "Lastly, dynamic programming, or DP, is considered the hardest pattern to learn."
+      },
+      {
+        "score": 0.3605,
+        "start": 1147.72,
+        "end": 1154.69,
+        "transcript": "This is mostly because there are so many different variations and nuances to the problems that fall under this category."
+      },
+      {
+        "score": 0.5907,
+        "start": 1154.69,
+        "end": 1167.37,
+        "transcript": "DP problems typically involve optimizing a solution by breaking it down into overlapping subproblems, storing the results of these subproblems, and reusing them to avoid redundant computations."
+      },
+      {
+        "score": 0.453,
+        "start": 1167.37,
+        "end": 1170.62,
+        "transcript": "There are two major ways to do DP."
+      },
+      {
+        "score": 0.3556,
+        "start": 1170.62,
+        "end": 1173.4,
+        "transcript": "Top down and bottom up."
+      },
+      {
+        "score": 0.6505,
+        "start": 1173.4,
+        "end": 1185.49,
+        "transcript": "In a top-down approach, you start from the main problem and recursively solve its subproblems, storing the results of those subproblems to avoid solving the same subproblem multiple times."
+      },
+      {
+        "score": 0.6917,
+        "start": 1185.49,
+        "end": 1195.48,
+        "transcript": "This may seem complicated, but you actually already know how to do most of this, because top down is basically just backtracking with the added step of memoization."
+      },
+      {
+        "score": 0.2304,
+        "start": 1195.48,
+        "end": 1199.0,
+        "transcript": "Memoization is just a fancy word for a simple concept."
+      },
+      {
+        "score": 0.6345,
+        "start": 1199.0,
+        "end": 1206.51,
+        "transcript": "It means saving the previous function call, result in a dictionary, and reading from it when we do the exact same call again."
+      },
+      {
+        "score": 0.6371,
+        "start": 1206.51,
+        "end": 1214.37,
+        "transcript": "In a bottom-up approach, you solve the smallest subproblems first and use their solutions to build up to the solution for the larger problem."
+      },
+      {
+        "score": 0.8296,
+        "start": 1214.37,
+        "end": 1225.16,
+        "transcript": "Instead of relying on recursion, bottom-up dynamic programming typically involves filling out a table where each entry represents the solution to a smaller subproblem."
+      },
+      {
+        "score": 0.7447,
+        "start": 1225.16,
+        "end": 1234.09,
+        "transcript": "You start with the base cases and iteratively compute the solutions to progressively larger subproblems until you reach the final solution."
+      },
+      {
+        "score": 0.9046,
+        "start": 1234.09,
+        "end": 1240.99,
+        "transcript": "This approach avoids the overhead of recursion and memoization, often resulting in more efficient time and space usage."
+      },
+      {
+        "score": 0.6097,
+        "start": 1240.99,
+        "end": 1248.8,
+        "transcript": "Bottom up is commonly used when you know the dependencies between subproblems and can structure the solution iteratively."
+      },
+      {
+        "score": 0.6273,
+        "start": 1248.8,
+        "end": 1254.48,
+        "transcript": "Dynamic programming is far too complex to dive into in this video."
+      }
+    ],
+    "segment_count": 125
+  },
+  {
+    "name": "The Luckily",
+    "start": 1250,
+    "original_name": "dynamic programming",
+    "score": 1.368325817257166,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.1761,
+        "start": 1254.48,
+        "end": 1261.01,
+        "transcript": "Luckily, we have a full section dedicated to it on our website at algo.monster, as well as a free video dedicated to it."
+      },
+      {
+        "score": 0.0007,
+        "start": 1261.01,
+        "end": 1263.53,
+        "transcript": "Both links are in the description."
+      }
+    ],
+    "segment_count": 2
+  }
+]

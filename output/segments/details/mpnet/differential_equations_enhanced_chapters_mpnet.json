@@ -1,0 +1,1258 @@
+[
+  {
+    "name": "The These",
+    "start": 0,
+    "original_name": "car speedometer shows kilometers per hour",
+    "score": 3.0351250572903616,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.5325,
+        "start": 0.03,
+        "end": 2.95,
+        "transcript": "Imagine zooming in on a single neuron in your brain."
+      },
+      {
+        "score": 0.453,
+        "start": 2.95,
+        "end": 6.48,
+        "transcript": "At first glance, it might seem like a simple device."
+      },
+      {
+        "score": 0.3684,
+        "start": 6.48,
+        "end": 11.64,
+        "transcript": "It receives inputs, and if they are strong enough, it fires an output impulse."
+      },
+      {
+        "score": 0.7355,
+        "start": 11.64,
+        "end": 15.69,
+        "transcript": "But this view messes one of the most fascinating aspects of neural behavior."
+      },
+      {
+        "score": 0.9643,
+        "start": 15.69,
+        "end": 18.21,
+        "transcript": "It's intricate dynamics in time."
+      },
+      {
+        "score": 0.6059,
+        "start": 18.21,
+        "end": 21.73,
+        "transcript": "Neurons are not static input to output machines."
+      },
+      {
+        "score": 0.7106,
+        "start": 21.73,
+        "end": 28.54,
+        "transcript": "They are sophisticated temporal computers, changing their state and responsiveness from moment to moment."
+      },
+      {
+        "score": 0.7622,
+        "start": 28.54,
+        "end": 41.16,
+        "transcript": "How a given neuron response to input depends not only on that very input, but also on what this neuron was doing a millisecond ago, a second ago, or even minutes in the past."
+      },
+      {
+        "score": 0.809,
+        "start": 41.16,
+        "end": 49.38,
+        "transcript": "This temporal complexity is the key to understanding how the brain generates such a rich variety of thoughts and behaviors."
+      },
+      {
+        "score": 0.8372,
+        "start": 49.38,
+        "end": 55.97,
+        "transcript": "A beautiful branch of mathematics that describes exactly these phenomena is called dynamical systems theory."
+      },
+      {
+        "score": 0.965,
+        "start": 55.97,
+        "end": 68.33,
+        "transcript": "It deals with differential equations, but despite this intimidating name, most of the insights it offers actually can be grasped without a single formula simply by looking at pictures."
+      },
+      {
+        "score": 0.474,
+        "start": 68.33,
+        "end": 72.37,
+        "transcript": "In this video, which is the first one in upcoming series, we'll lay the foundation."
+      },
+      {
+        "score": 1.0,
+        "start": 72.37,
+        "end": 81.22,
+        "transcript": "We'll introduce what differential equations even are and discuss important concepts such as equilibrium points, phase portraits, and limit cycles."
+      },
+      {
+        "score": 0.8797,
+        "start": 81.22,
+        "end": 93.55,
+        "transcript": "And in later videos, we'll take the groundwork established today and apply it to neuronal dynamics to gain a geometric intuition behind phenomena such as spiking, bursting, or adaptation."
+      },
+      {
+        "score": 0.2455,
+        "start": 93.55,
+        "end": 95.94,
+        "transcript": "If you're interested, stay tuned."
+      },
+      {
+        "score": 0.8412,
+        "start": 95.94,
+        "end": 108.53,
+        "transcript": "At its core, dynamical system theory is about studying how things change over time."
+      },
+      {
+        "score": 0.7387,
+        "start": 108.53,
+        "end": 112.99,
+        "transcript": "A system, the thing that is changing, can be pretty much anything."
+      },
+      {
+        "score": 0.6543,
+        "start": 112.99,
+        "end": 121.04,
+        "transcript": "A neuron firing, a population of animals interacting, a leaf floating in the water, or even the global climate."
+      },
+      {
+        "score": 0.7629,
+        "start": 121.04,
+        "end": 126.53,
+        "transcript": "The key is having a way to describe the system state at any given point."
+      },
+      {
+        "score": 0.8003,
+        "start": 126.53,
+        "end": 129.32,
+        "transcript": "This is where the idea of state variables comes in."
+      },
+      {
+        "score": 0.8264,
+        "start": 129.32,
+        "end": 136.82,
+        "transcript": "These are real numbers that, when known, fully determined the state of the system, everything that you might care about."
+      },
+      {
+        "score": 0.4908,
+        "start": 136.82,
+        "end": 142.44,
+        "transcript": "For instance, consider a ball moving through a three-dimensional space."
+      },
+      {
+        "score": 0.4001,
+        "start": 142.44,
+        "end": 163.72,
+        "transcript": "To fully describe its state at any given time point, assuming you know of the forces that act on it, like gravity or airdrack, all you need to know are the three coordinates x, y, and z numbers that describe its position in space, as well as the three components of the velocity, how fast the ball is moving in those three directions."
+      },
+      {
+        "score": 0.861,
+        "start": 163.72,
+        "end": 174.41,
+        "transcript": "Once you have those six numbers, You fully know the state of the system in the sense that you can unambiguously predict its trajectory arbitrarily far into the future."
+      },
+      {
+        "score": 0.7547,
+        "start": 174.41,
+        "end": 181.77,
+        "transcript": "And for a simple pendulum, you only need two state variables, the angle from the vertical and the angular velocity."
+      },
+      {
+        "score": 0.7926,
+        "start": 181.77,
+        "end": 184.6,
+        "transcript": "But what about more complex systems?"
+      },
+      {
+        "score": 0.5702,
+        "start": 184.6,
+        "end": 187.5,
+        "transcript": "How can we even know what state variables are?"
+      },
+      {
+        "score": 0.6838,
+        "start": 187.5,
+        "end": 193.29,
+        "transcript": "Well, it depends on the particular system and the level of abstraction you want to characterize it on."
+      },
+      {
+        "score": 0.5846,
+        "start": 193.29,
+        "end": 202.16,
+        "transcript": "After all, these are all models designed to describe a particular aspect of the real world while discarding all others as irrelevant."
+      },
+      {
+        "score": 0.7749,
+        "start": 202.16,
+        "end": 211.04,
+        "transcript": "For instance, the two state variables for a pendulum are only justified if we allow ourselves to approximate the pendulum as a single point."
+      },
+      {
+        "score": 0.6403,
+        "start": 211.04,
+        "end": 219.83,
+        "transcript": "While if we care about its rotation or its deformations or the temperature, we might need a larger set of state variables."
+      },
+      {
+        "score": 0.59,
+        "start": 219.83,
+        "end": 235.39,
+        "transcript": "In the case of a neuron, when we are talking about its computations, we really care about the electrical properties while discarding other things as irrelevant, such as the concentration of sugar floating around or the DNA being repaired."
+      },
+      {
+        "score": 0.6963,
+        "start": 235.39,
+        "end": 241.22,
+        "transcript": "Meanwhile, for a biochemist who wants to describe and model these very phenomena, it is the other way around."
+      },
+      {
+        "score": 0.7265,
+        "start": 241.22,
+        "end": 249.13,
+        "transcript": "As you can see, choosing these state variables, what to describe and what to throw away is kind of an art of its own."
+      },
+      {
+        "score": 0.8091,
+        "start": 249.13,
+        "end": 252.93,
+        "transcript": "We'll talk about what these state variables for a neuron are a bit further in the series."
+      },
+      {
+        "score": 0.9906,
+        "start": 252.93,
+        "end": 261.18,
+        "transcript": "But for now, let's introduce the formalism of differential equations, that describe how these state variables actually change over time."
+      },
+      {
+        "score": 0.8784,
+        "start": 261.18,
+        "end": 265.07,
+        "transcript": "Imagine you're tracking a population of bacteria in a petri dish."
+      },
+      {
+        "score": 0.5307,
+        "start": 265.07,
+        "end": 268.99,
+        "transcript": "Initially, you start with a thousand, and then you count them every hour."
+      },
+      {
+        "score": 0.4624,
+        "start": 268.99,
+        "end": 272.9,
+        "transcript": "After a few hours, you might see a pattern like this."
+      },
+      {
+        "score": 0.3603,
+        "start": 272.9,
+        "end": 275.94,
+        "transcript": "There is clearly some relationship here."
+      },
+      {
+        "score": 0.9294,
+        "start": 275.94,
+        "end": 281.4,
+        "transcript": "It looks like the number of bacteria, which is the only one state variable, doubles every hour."
+      },
+      {
+        "score": 0.6934,
+        "start": 281.4,
+        "end": 291.9,
+        "transcript": "We can express this mathematically in the following way, where n of t is the number of bacteria at time t."
+      },
+      {
+        "score": 0.2871,
+        "start": 291.9,
+        "end": 291.9,
+        "transcript": "Now, here's a question for you."
+      },
+      {
+        "score": 0.4389,
+        "start": 291.9,
+        "end": 296.38,
+        "transcript": "What would the population size be in between those hourly measurements?"
+      },
+      {
+        "score": 0.1538,
+        "start": 296.38,
+        "end": 300.49,
+        "transcript": "For example, if you only came into the room after just 30 minutes."
+      },
+      {
+        "score": 0.5759,
+        "start": 300.49,
+        "end": 306.33,
+        "transcript": "Well, we know that bacteria don't wait for the one hour mark to suddenly double."
+      },
+      {
+        "score": 0.6413,
+        "start": 306.33,
+        "end": 311.04,
+        "transcript": "They are dividing continuously, so something must be happening in between those measurements."
+      },
+      {
+        "score": 0.4634,
+        "start": 311.04,
+        "end": 321.84,
+        "transcript": "Your first guess might be that after 30 minutes, the population size will be exactly half way between 1000 and 2000, so about 1500."
+      },
+      {
+        "score": 0.2468,
+        "start": 321.84,
+        "end": 323.11,
+        "transcript": "But let's dig deeper."
+      },
+      {
+        "score": 0.6531,
+        "start": 323.11,
+        "end": 328.47,
+        "transcript": "To really understand what's going on, we need to think about how fast the population is growing."
+      },
+      {
+        "score": 0.6767,
+        "start": 328.47,
+        "end": 330.89,
+        "transcript": "What do we call the rate of change?"
+      },
+      {
+        "score": 0.7794,
+        "start": 330.89,
+        "end": 334.94,
+        "transcript": "Think of it like a speedometer for our bacteria population."
+      },
+      {
+        "score": 0.6036,
+        "start": 334.94,
+        "end": 347.04,
+        "transcript": "Just like a car speedometer shows kilometers per hour, how fast you're moving, our bacterial speedometer will show how fast the population is growing in terms of bacteria per unit time."
+      },
+      {
+        "score": 0.599,
+        "start": 347.04,
+        "end": 352.07,
+        "transcript": "We can denote this rate of growth with a little dot above n like this."
+      },
+      {
+        "score": 0.3422,
+        "start": 352.07,
+        "end": 356.51,
+        "transcript": "In our P3 dish, each bacterium divides independently."
+      },
+      {
+        "score": 0.882,
+        "start": 356.51,
+        "end": 365.04,
+        "transcript": "That means that at any given moment, the rate with which new bacteria are appearing is proportional to the number of bacteria already there."
+      },
+      {
+        "score": 0.5808,
+        "start": 365.04,
+        "end": 367.55,
+        "transcript": "We can write this as an equation."
+      },
+      {
+        "score": 0.7529,
+        "start": 367.55,
+        "end": 378.03,
+        "transcript": "The constant K represents the fraction of the population that are dividing at any given moment, and it depends on things like temperature or food availability."
+      },
+      {
+        "score": 0.7473,
+        "start": 378.03,
+        "end": 382.31,
+        "transcript": "This simple look in formula is actually a very big deal in mathematics."
+      },
+      {
+        "score": 0.9095,
+        "start": 382.31,
+        "end": 389.64,
+        "transcript": "This is called a differential equation, and it relates a value of equality to its rate of change."
+      },
+      {
+        "score": 0.938,
+        "start": 389.64,
+        "end": 397.92,
+        "transcript": "differential equations are the language of dynamical systems, describing how things change over time, from physics to neuroscience."
+      },
+      {
+        "score": 0.9568,
+        "start": 397.92,
+        "end": 401.9,
+        "transcript": "Let's zoom in even closer on this concept of a rate of change."
+      },
+      {
+        "score": 0.6308,
+        "start": 401.9,
+        "end": 412.1,
+        "transcript": "In mathematics, we call it a derivative, and there is a special way of writing it as dn over dt, equivalent to the dot notation we used earlier."
+      },
+      {
+        "score": 0.8322,
+        "start": 412.1,
+        "end": 428.96,
+        "transcript": "Imagine dn as a tiny change in the number of bacteria, and dt as a tiny step in time, The derivative dn over dt represents how much n changes when we take an infinitely small step dt into the future."
+      },
+      {
+        "score": 0.74,
+        "start": 428.96,
+        "end": 443.01,
+        "transcript": "If you imagine the population size over time as a graph, then the derivative, the value of our speedometer at any given time, corresponds to the slope of the line tangent to the graph at that point."
+      },
+      {
+        "score": 0.6719,
+        "start": 443.01,
+        "end": 457.13,
+        "transcript": "In real world, of course, we cannot have a fraction of a bacterium, but it's useful to think of the population as changing smoothly and continuously, growing by very small amounts as you take very small time steps into the future."
+      },
+      {
+        "score": 0.7572,
+        "start": 457.13,
+        "end": 463.9,
+        "transcript": "It lets us rely on the apparatus of calculus that describes and analyzes continuous processes."
+      },
+      {
+        "score": 0.3333,
+        "start": 463.9,
+        "end": 466.69,
+        "transcript": "Now, this is where things get interesting."
+      },
+      {
+        "score": 0.8388,
+        "start": 466.69,
+        "end": 474.78,
+        "transcript": "When we move from pure math to the practical world of computation and modeling, we need to make a subtle but a very important shift."
+      },
+      {
+        "score": 0.9221,
+        "start": 474.78,
+        "end": 480.88,
+        "transcript": "Instead of dealing with infinitely small changes, we'll work with still small but measurable steps."
+      },
+      {
+        "score": 0.46,
+        "start": 480.88,
+        "end": 494.24,
+        "transcript": "To highlight this difference, we'll use the symbol delta instead of d."
+      },
+      {
+        "score": 0.7039,
+        "start": 494.24,
+        "end": 494.24,
+        "transcript": "So delta n represents a small but not infinitesimal change to n and delta t a small but not infinitely small step in time."
+      },
+      {
+        "score": 0.9294,
+        "start": 494.24,
+        "end": 501.15,
+        "transcript": "This shift is at the heart of numerical methods, which we'll rely on throughout the video series."
+      },
+      {
+        "score": 0.485,
+        "start": 501.15,
+        "end": 504.7,
+        "transcript": "Let's see how it works in practice."
+      },
+      {
+        "score": 0.619,
+        "start": 504.7,
+        "end": 509.79,
+        "transcript": "Imagine we decide to measure our population every 5 minutes instead of every hour."
+      },
+      {
+        "score": 0.7236,
+        "start": 509.79,
+        "end": 516.44,
+        "transcript": "5 minutes is small enough that we can reasonably assume the rate of change doesn't vary much during that time."
+      },
+      {
+        "score": 0.5834,
+        "start": 516.44,
+        "end": 524.21,
+        "transcript": "This corresponds to the idea that if you zoom in close enough on the graph of a curve, it starts to look like a straight line."
+      },
+      {
+        "score": 0.7205,
+        "start": 524.21,
+        "end": 526.97,
+        "transcript": "Let's work through an example."
+      },
+      {
+        "score": 0.7528,
+        "start": 526.97,
+        "end": 533.39,
+        "transcript": "Suppose we start with a thousand bacteria and we know that k equals 1 when time is measured in hours."
+      },
+      {
+        "score": 0.9534,
+        "start": 533.39,
+        "end": 537.51,
+        "transcript": "This means that our rate of change equation becomes the following."
+      },
+      {
+        "score": 0.656,
+        "start": 537.51,
+        "end": 547.49,
+        "transcript": "So when we have a thousand bacteria, they are multiplying at a rate of a thousand bacteria per hour or about 17 every minute."
+      },
+      {
+        "score": 0.6006,
+        "start": 547.49,
+        "end": 555.33,
+        "transcript": "After 5 minutes, we estimate the population size to become a thousand and eighty-five bacteria instead."
+      },
+      {
+        "score": 0.6805,
+        "start": 555.33,
+        "end": 563.63,
+        "transcript": "Now we update our rate of change based on this new population size to become 18 bacteria per minute instead of 17."
+      },
+      {
+        "score": 0.8126,
+        "start": 563.63,
+        "end": 568.22,
+        "transcript": "So we can estimate the population size for the next 5 minute time step."
+      },
+      {
+        "score": 0.63,
+        "start": 568.22,
+        "end": 573.9,
+        "transcript": "and we can keep repeating this process to estimate the population for any future time."
+      },
+      {
+        "score": 0.8473,
+        "start": 573.9,
+        "end": 579.1,
+        "transcript": "This is the essence of solving differential equations with numerical methods."
+      },
+      {
+        "score": 0.7567,
+        "start": 579.1,
+        "end": 592.86,
+        "transcript": "Those of you who immediately recognize this formula as the equation for exponential growth might be wondering why we are spending so much time on this computational approach when this particular equation can be much more easily solved analytically."
+      },
+      {
+        "score": 0.3643,
+        "start": 592.86,
+        "end": 595.18,
+        "transcript": "And you'd be right, but the reason is simple."
+      },
+      {
+        "score": 0.671,
+        "start": 595.18,
+        "end": 608.04,
+        "transcript": "For most of the differential equations out there, including the ones governing the neuronal dynamics, such an analytical solution that would allow us to jump ahead multiple computational steps simply does not exist."
+      },
+      {
+        "score": 0.6858,
+        "start": 608.04,
+        "end": 612.87,
+        "transcript": "numerically however, we can solve basically any differential equation imaginable."
+      },
+      {
+        "score": 0.393,
+        "start": 612.87,
+        "end": 616.81,
+        "transcript": "There are several important differences between those two approaches."
+      },
+      {
+        "score": 0.6813,
+        "start": 616.81,
+        "end": 624.9,
+        "transcript": "The numerical solution requires us to perform many update steps, multiplications and additions to arrive at the result."
+      },
+      {
+        "score": 0.493,
+        "start": 624.9,
+        "end": 629.79,
+        "transcript": "Getting estimates for later time demands more computational effort."
+      },
+      {
+        "score": 0.5768,
+        "start": 629.79,
+        "end": 638.62,
+        "transcript": "Unlike an analytical solution, we don't have an explicit formula where we can simply plug in values and get result instantly."
+      },
+      {
+        "score": 0.574,
+        "start": 638.62,
+        "end": 643.61,
+        "transcript": "Another crucial aspect is the finite precision of our method."
+      },
+      {
+        "score": 0.489,
+        "start": 643.61,
+        "end": 647.16,
+        "transcript": "In our example, we used five-minute steps."
+      },
+      {
+        "score": 0.6859,
+        "start": 647.16,
+        "end": 656.91,
+        "transcript": "But for greater accuracy, we might need to decrease the step size, perhaps updating our estimate every minute or even every second."
+      },
+      {
+        "score": 0.7233,
+        "start": 656.91,
+        "end": 661.48,
+        "transcript": "The more accurate we want our answer to be, the more computation it requires."
+      },
+      {
+        "score": 0.5097,
+        "start": 661.48,
+        "end": 664.28,
+        "transcript": "there is one more important point to consider."
+      },
+      {
+        "score": 0.8678,
+        "start": 664.28,
+        "end": 673.39,
+        "transcript": "In our computations, we assumed we somehow knew the underlying value of k that relates the rate of change to the value of the population size."
+      },
+      {
+        "score": 0.6236,
+        "start": 673.39,
+        "end": 677.98,
+        "transcript": "In reality, however, we don't usually have access to parameters like these."
+      },
+      {
+        "score": 0.5013,
+        "start": 677.98,
+        "end": 691.54,
+        "transcript": "Instead, we collect a data similar to the table we had in the beginning, and we might need to run multiple computations to try different values of parameters to find the one that would fit our data best."
+      },
+      {
+        "score": 0.5667,
+        "start": 691.54,
+        "end": 697.11,
+        "transcript": "This process, too, involves finite precision, so inaccuracies are inevitable."
+      },
+      {
+        "score": 0.8914,
+        "start": 697.11,
+        "end": 711.01,
+        "transcript": "Now that we've established what differential equations actually are and how to solve them, let's talk about the geometric intuition behind dynamical processes and how these equations can help us gain insight into the behavior of the system."
+      },
+      {
+        "score": 0.8097,
+        "start": 711.01,
+        "end": 715.59,
+        "transcript": "To introduce key concepts, let's explore another fundamental model in biology."
+      },
+      {
+        "score": 0.9761,
+        "start": 715.59,
+        "end": 725.15,
+        "transcript": "Now we're stepping into the world of coupled differential equations, where we will have multiple state variables and the rate of change of each depends on all the others."
+      },
+      {
+        "score": 0.7255,
+        "start": 725.15,
+        "end": 733.16,
+        "transcript": "Consider the interactions between coexisting populations in a predator prey model, often illustrated with rabbits and foxes."
+      },
+      {
+        "score": 0.4979,
+        "start": 733.16,
+        "end": 740.09,
+        "transcript": "As the rabbit population grows, foxes have more food leading to an increase in their numbers."
+      },
+      {
+        "score": 0.4447,
+        "start": 740.09,
+        "end": 746.13,
+        "transcript": "However, more foxes means more rabbits get eaten, causing the rabbit population to decline."
+      },
+      {
+        "score": 0.4597,
+        "start": 746.13,
+        "end": 753.48,
+        "transcript": "With fewer rabbits, the fox population shrinks, allowing rabbits to reproduce, and the cycle continues."
+      },
+      {
+        "score": 0.8322,
+        "start": 753.48,
+        "end": 761.83,
+        "transcript": "This intuitive understanding is certainly compelling, but can we build a simple mathematical model that would describe these oscillations?"
+      },
+      {
+        "score": 0.8629,
+        "start": 761.83,
+        "end": 765.58,
+        "transcript": "Let's start by defining our variables."
+      },
+      {
+        "score": 0.5046,
+        "start": 765.58,
+        "end": 770.26,
+        "transcript": "X will denote the number of rabbits and Y will mean the number of foxes."
+      },
+      {
+        "score": 0.8572,
+        "start": 770.26,
+        "end": 780.57,
+        "transcript": "We are aiming for a system of equations in this form, where f and j are functions relating the rate of change of each variable to the overall state of the system."
+      },
+      {
+        "score": 0.7735,
+        "start": 780.57,
+        "end": 786.38,
+        "transcript": "In reality, those functions can contain countless complexities and dependencies on other factors."
+      },
+      {
+        "score": 0.9089,
+        "start": 786.38,
+        "end": 792.24,
+        "transcript": "However, we are seeking the simplest mathematical model that captures the essence of such oscillations."
+      },
+      {
+        "score": 0.4546,
+        "start": 792.24,
+        "end": 795.59,
+        "transcript": "Let's start with our pre-population."
+      },
+      {
+        "score": 0.7931,
+        "start": 795.59,
+        "end": 804.1,
+        "transcript": "Rabbits reproduce at a rate proportional to their population, given us the term AX, where A is the positive net growth rate."
+      },
+      {
+        "score": 0.4127,
+        "start": 804.1,
+        "end": 819.03,
+        "transcript": "Note that there is also an analogous rate for natural deaths, proportional to the population size, but here we are assuming that the birth rate significantly exceeds the natural death rate, so the total population growth rate is positive."
+      },
+      {
+        "score": 0.2787,
+        "start": 819.03,
+        "end": 822.88,
+        "transcript": "Rabbits also get eaten by foxes."
+      },
+      {
+        "score": 0.5609,
+        "start": 822.88,
+        "end": 842.59,
+        "transcript": "We account for this with an interaction term minus b times xy in the equation for x."
+      },
+      {
+        "score": 0.6252,
+        "start": 842.59,
+        "end": 842.59,
+        "transcript": "This term is proportional to the product of x and y, representing the probability of rabbits and foxes encountering each other, multiplied by the fraction of encounters that lead to rabbits being caught."
+      },
+      {
+        "score": 0.7111,
+        "start": 842.59,
+        "end": 846.97,
+        "transcript": "Thus, our equation for the prey population is the following."
+      },
+      {
+        "score": 0.077,
+        "start": 846.97,
+        "end": 848.91,
+        "transcript": "Now for the predators."
+      },
+      {
+        "score": 0.3679,
+        "start": 848.91,
+        "end": 855.06,
+        "transcript": "Foxes benefit from eating rabbits, converting a proportion of that energy into reproduction."
+      },
+      {
+        "score": 0.5017,
+        "start": 855.06,
+        "end": 857.95,
+        "transcript": "This gives us the positive interaction term."
+      },
+      {
+        "score": 0.5007,
+        "start": 857.95,
+        "end": 865.3,
+        "transcript": "We also include a term for natural deaths, which typically outweights natural births for predators in the absence of prey."
+      },
+      {
+        "score": 0.6424,
+        "start": 865.3,
+        "end": 869.28,
+        "transcript": "This results in the following differential equation for what?"
+      },
+      {
+        "score": 0.8637,
+        "start": 869.28,
+        "end": 876.76,
+        "transcript": "This simple model, or we two couple differential equations, is a very powerful tool for exploring the geometry of dynamical systems."
+      },
+      {
+        "score": 0.3566,
+        "start": 876.76,
+        "end": 878.91,
+        "transcript": "Now, how do we solve this system?"
+      },
+      {
+        "score": 0.6311,
+        "start": 878.91,
+        "end": 882.77,
+        "transcript": "As before, we'll rely on numerical methods."
+      },
+      {
+        "score": 0.4853,
+        "start": 882.77,
+        "end": 896.43,
+        "transcript": "Suppose we know the values for all the four parameters A, B, C, and D."
+      },
+      {
+        "score": 0.7981,
+        "start": 896.43,
+        "end": 896.43,
+        "transcript": "Given an initial state, we can compute the derivatives, make incremental changes to x and y, repeat this process."
+      },
+      {
+        "score": 0.8388,
+        "start": 896.43,
+        "end": 901.45,
+        "transcript": "This would give us two curves, showing how each variable changes over time."
+      },
+      {
+        "score": 0.7007,
+        "start": 901.45,
+        "end": 906.93,
+        "transcript": "However, to gain a deeper insight, let's visualize our data differently."
+      },
+      {
+        "score": 0.7471,
+        "start": 906.93,
+        "end": 921.99,
+        "transcript": "Instead of plotting time as a horizontal axis and population size as the vertical, imagine a coordinate plane where x-axis represents the number of rabbits and y-axis represents the number of boxes."
+      },
+      {
+        "score": 0.6593,
+        "start": 921.99,
+        "end": 925.36,
+        "transcript": "Notice that there is no time dimension here."
+      },
+      {
+        "score": 0.8371,
+        "start": 925.36,
+        "end": 935.25,
+        "transcript": "Each point on this plane represents a possible state of our system at a given instant, with time governing the trajectory of switching between the states."
+      },
+      {
+        "score": 0.5392,
+        "start": 935.25,
+        "end": 943.12,
+        "transcript": "Such a coordinate plane that corresponds to different states of the system as a whole is known as the phase space."
+      },
+      {
+        "score": 0.8502,
+        "start": 943.12,
+        "end": 953.61,
+        "transcript": "In this phase space, each point has two corresponding rates of change, the instantaneous velocities of the rabbit and fox populations."
+      },
+      {
+        "score": 0.513,
+        "start": 953.61,
+        "end": 966.23,
+        "transcript": "We can represent these as vectors, little arrows coming from each point, with the horizontal component of the arrow given by the derivative of x and the vertical given by the derivative of y."
+      },
+      {
+        "score": 0.9061,
+        "start": 966.23,
+        "end": 973.89,
+        "transcript": "This graphically shows the mapping between the system's state, xy coordinates, and its rates of change."
+      },
+      {
+        "score": 0.855,
+        "start": 973.89,
+        "end": 984.0,
+        "transcript": "If we plot these vectors for many points, we create a vector field showing how the system's evolution flows from any starting point."
+      },
+      {
+        "score": 0.7146,
+        "start": 984.0,
+        "end": 986.9,
+        "transcript": "This is known as the phase portrait."
+      },
+      {
+        "score": 0.9074,
+        "start": 986.9,
+        "end": 996.76,
+        "transcript": "With such visualization, we can gain qualitative insight into system's behavior without doing precise number crunching."
+      },
+      {
+        "score": 0.6438,
+        "start": 996.76,
+        "end": 1002.12,
+        "transcript": "we can simply just visually follow the arrows to get a feeling for the trajectory."
+      },
+      {
+        "score": 0.7277,
+        "start": 1002.12,
+        "end": 1007.44,
+        "transcript": "With that manual in hand, let's see what interesting dynamics we can observe."
+      },
+      {
+        "score": 0.5556,
+        "start": 1007.44,
+        "end": 1013.67,
+        "transcript": "First, let's look for special points within our face space, where the system saddles into balance."
+      },
+      {
+        "score": 0.6523,
+        "start": 1013.67,
+        "end": 1020.5,
+        "transcript": "These are known as equilibrium points, and they correspond to both derivatives being equal to zero."
+      },
+      {
+        "score": 0.5634,
+        "start": 1020.5,
+        "end": 1028.5,
+        "transcript": "If the system happens to fall in either of those states, it will remain there forever, as there is no mechanism for it to get out."
+      },
+      {
+        "score": 0.6232,
+        "start": 1028.5,
+        "end": 1043.37,
+        "transcript": "Equilibrium points can be found by setting the right-hand side of our equations to 0, turning differential equations into a system of familiar algebraic equations with two unknowns that are numbers instead of functions."
+      },
+      {
+        "score": 0.5681,
+        "start": 1043.37,
+        "end": 1048.24,
+        "transcript": "Solving this gives us two equilibrium points."
+      },
+      {
+        "score": 0.4556,
+        "start": 1048.24,
+        "end": 1052.39,
+        "transcript": "0, 0, which means that both populations are extinct."
+      },
+      {
+        "score": 0.5971,
+        "start": 1052.39,
+        "end": 1055.3,
+        "transcript": "It's a trivial but mathematically valid solution."
+      },
+      {
+        "score": 0.7643,
+        "start": 1055.3,
+        "end": 1062.28,
+        "transcript": "And there is another non-zero equilibrium, which means that there exists a balance between predators and prey."
+      },
+      {
+        "score": 0.3201,
+        "start": 1062.28,
+        "end": 1064.44,
+        "transcript": "Now that's more interesting."
+      },
+      {
+        "score": 0.6993,
+        "start": 1064.44,
+        "end": 1075.1,
+        "transcript": "In our face portraits, these equilibria appear as points where all arrows shrink to zero, indicating that once you reach that point, there is no way out."
+      },
+      {
+        "score": 0.4722,
+        "start": 1075.1,
+        "end": 1082.65,
+        "transcript": "Rabbits and foxes will be exactly balanced in each other out, with no changes to the population dynamics."
+      },
+      {
+        "score": 0.8241,
+        "start": 1082.65,
+        "end": 1085.33,
+        "transcript": "But how does the system behave around these points?"
+      },
+      {
+        "score": 0.4512,
+        "start": 1085.33,
+        "end": 1088.42,
+        "transcript": "Let's start with the origin."
+      },
+      {
+        "score": 0.5535,
+        "start": 1088.42,
+        "end": 1093.48,
+        "transcript": "If we are slightly off of this point, let's say a few rabbits, but no foxes, what happens?"
+      },
+      {
+        "score": 0.7975,
+        "start": 1093.48,
+        "end": 1101.55,
+        "transcript": "Well, our equations tell us that the population of rabbits will continue to grow exponentially, while the population of boxes remains zero."
+      },
+      {
+        "score": 0.6085,
+        "start": 1101.55,
+        "end": 1107.14,
+        "transcript": "In the face space, that looks like its trajectory moving right along the x-axis."
+      },
+      {
+        "score": 0.6831,
+        "start": 1107.14,
+        "end": 1110.76,
+        "transcript": "The zero-zero equilibrium is unstable."
+      },
+      {
+        "score": 0.7989,
+        "start": 1110.76,
+        "end": 1114.61,
+        "transcript": "The slightest perturbation sends the system away from it."
+      },
+      {
+        "score": 0.5075,
+        "start": 1114.61,
+        "end": 1127.46,
+        "transcript": "In the other direction though, if we have a few foxes but no rabbits, their population will go down, approaching the point of extinction closer and closer as there is no food for the foxes to reproduce."
+      },
+      {
+        "score": 0.7082,
+        "start": 1127.46,
+        "end": 1130.81,
+        "transcript": "Now what about the non-zero equilibrium?"
+      },
+      {
+        "score": 0.5523,
+        "start": 1130.81,
+        "end": 1138.35,
+        "transcript": "If we start near that point and follow the arrows in our face portrait, we see something remarkable."
+      },
+      {
+        "score": 0.8451,
+        "start": 1138.35,
+        "end": 1144.83,
+        "transcript": "the populations cycle endlessly around the equilibrium, creating a closed loop."
+      },
+      {
+        "score": 0.7116,
+        "start": 1144.83,
+        "end": 1151.89,
+        "transcript": "This behavior is called a limit cycle, and it will actually be fundamental when we talk about the excitability of neurons."
+      },
+      {
+        "score": 0.7378,
+        "start": 1151.89,
+        "end": 1157.69,
+        "transcript": "Notice that we never explicitly put any oscillations into our system of equations."
+      },
+      {
+        "score": 0.4842,
+        "start": 1157.69,
+        "end": 1161.46,
+        "transcript": "There are no trig functions or circles in the initial description."
+      },
+      {
+        "score": 0.8039,
+        "start": 1161.46,
+        "end": 1167.7,
+        "transcript": "Limit cycles emerge from this seemingly simple dynamical law of interaction between the two variables."
+      },
+      {
+        "score": 0.5484,
+        "start": 1167.7,
+        "end": 1171.99,
+        "transcript": "And the reason just one, there are infinitely many cycling orbits."
+      },
+      {
+        "score": 0.4316,
+        "start": 1171.99,
+        "end": 1175.93,
+        "transcript": "Which one you'll end up on depends on the initial conditions."
+      },
+      {
+        "score": 0.573,
+        "start": 1175.93,
+        "end": 1179.72,
+        "transcript": "So far we have fixed a particular set of parameters."
+      },
+      {
+        "score": 0.7695,
+        "start": 1179.72,
+        "end": 1186.03,
+        "transcript": "Varying the values of A, B, C, and D doesn't fundamentally change the behavior of the system."
+      },
+      {
+        "score": 0.6177,
+        "start": 1186.03,
+        "end": 1194.01,
+        "transcript": "It only affects the position of the non-zero equilibrium, as well as the exact shape and amplitude of the limit cycle oscillations."
+      },
+      {
+        "score": 0.8358,
+        "start": 1194.01,
+        "end": 1202.5,
+        "transcript": "Slightly more defined our system of equations to account for the limited availability of food to rabbits leads to another interesting behavior."
+      },
+      {
+        "score": 0.9106,
+        "start": 1202.5,
+        "end": 1217.19,
+        "transcript": "Instead of a large number of cycles that can be realized depending on the initial condition, there is now a single stable equilibrium, which all trajectories converge to, defining the stable balance between rabbits and foxes."
+      },
+      {
+        "score": 0.8443,
+        "start": 1217.19,
+        "end": 1225.72,
+        "transcript": "As we have seen, even such a simple system, as the predator prey model, can exhibit very rich and complex behaviors."
+      },
+      {
+        "score": 0.803,
+        "start": 1225.72,
+        "end": 1235.16,
+        "transcript": "The idea of a face portrait gives us a powerful visual tool to understand these dynamics without getting lost in the mathematical weeds."
+      },
+      {
+        "score": 0.8589,
+        "start": 1235.16,
+        "end": 1247.74,
+        "transcript": "Ideas, such as the stability of equilibrium points and the emergence of limit cycles, form the foundation of dynamical system theory, applicable to a variety of fields."
+      },
+      {
+        "score": 0.7067,
+        "start": 1247.74,
+        "end": 1253.04,
+        "transcript": "Crucially, these same ideas can help us understand the intricate workings of the brain."
+      },
+      {
+        "score": 0.8218,
+        "start": 1253.04,
+        "end": 1259.04,
+        "transcript": "Neurons, like the populations of rabbits and foxes, can be described as dynamical systems as well."
+      },
+      {
+        "score": 0.6431,
+        "start": 1259.04,
+        "end": 1270.08,
+        "transcript": "The state variables might represent things like the membrane potential and the state of ion channels instead of the population sizes, but all the underlying principles remain the same."
+      },
+      {
+        "score": 0.8379,
+        "start": 1270.08,
+        "end": 1281.68,
+        "transcript": "However, to truly understand the differential equations that govern the dynamics of the neuron, we will first have to dive into the world of cellular biophysics, which deserves a dedicated video."
+      },
+      {
+        "score": 0.2125,
+        "start": 1281.68,
+        "end": 1284.1,
+        "transcript": "So stay tuned for that next adventure."
+      },
+      {
+        "score": 0.4374,
+        "start": 1284.1,
+        "end": 1293.97,
+        "transcript": "In the meantime, if you're interested to learn more about the mathematics we talked about today, you're going to love the message from our today's sponsor, brilliant.org."
+      },
+      {
+        "score": 0.4297,
+        "start": 1293.97,
+        "end": 1297.66,
+        "transcript": "Brilliant is one of the best places to learn math and physics online."
+      },
+      {
+        "score": 0.3577,
+        "start": 1297.66,
+        "end": 1304.15,
+        "transcript": "They offer a wide range of interactive courses that make complex topics accessible and engaging."
+      }
+    ],
+    "segment_count": 191
+  },
+  {
+    "name": "The Stay",
+    "start": 1302,
+    "original_name": "actively solving problems",
+    "score": 2.2056140073275565,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.4626,
+        "start": 1304.15,
+        "end": 1311.78,
+        "transcript": "Such a hands-on approach means that you're not just passively watching, you're actively solving problems and building intuition."
+      },
+      {
+        "score": 0.3453,
+        "start": 1311.78,
+        "end": 1316.13,
+        "transcript": "One course you might find particularly interesting is Vector Calculus."
+      },
+      {
+        "score": 0.4323,
+        "start": 1316.13,
+        "end": 1320.13,
+        "transcript": "It is incredibly relevant to what we discussed today."
+      },
+      {
+        "score": 0.472,
+        "start": 1320.13,
+        "end": 1323.82,
+        "transcript": "Remember those portraits with arrows showing the directions of change?"
+      },
+      {
+        "score": 0.6445,
+        "start": 1323.82,
+        "end": 1326.42,
+        "transcript": "That's vector calculus in action."
+      },
+      {
+        "score": 0.586,
+        "start": 1326.42,
+        "end": 1338.65,
+        "transcript": "This course will help you understand the mathematics behind those vector fields, and much, much more, from surface integrals to diffusion, all in the form of bite-sized, interactive lessons."
+      },
+      {
+        "score": 0.2307,
+        "start": 1338.65,
+        "end": 1340.72,
+        "transcript": "But Brilliant doesn't stop there."
+      },
+      {
+        "score": 0.242,
+        "start": 1340.72,
+        "end": 1345.77,
+        "transcript": "They also have courses on computer science and data analysis."
+      },
+      {
+        "score": 0.0,
+        "start": 1345.77,
+        "end": 1350.55,
+        "transcript": "No matter what your background and interests are, Brilliant has something for everyone."
+      },
+      {
+        "score": 0.4273,
+        "start": 1350.55,
+        "end": 1354.65,
+        "transcript": "Ready to take your learning to the next level?"
+      },
+      {
+        "score": 0.1266,
+        "start": 1354.65,
+        "end": 1367.11,
+        "transcript": "Head to Brilliant.org slash Ardham Kersonov to get a 30-day free trial of everything Brilliant has to offer, as well as a 20% discount on annual subscription."
+      },
+      {
+        "score": 0.1184,
+        "start": 1367.11,
+        "end": 1372.26,
+        "transcript": "If you like the video, press the like button, share it with your friends, and subscribe to the channel if you haven't already."
+      },
+      {
+        "score": 0.4391,
+        "start": 1372.26,
+        "end": 1382.79,
+        "transcript": "Also, consider supporting me on Patreon, where you can find text versions of video scripts containing all the math details, as well as the ability to vote and suggest video topics."
+      },
+      {
+        "score": 0.5131,
+        "start": 1382.79,
+        "end": 1387.16,
+        "transcript": "Stay tuned for more computational neuroscience and machine learning topics coming up."
+      },
+      {
+        "score": 0.28,
+        "start": 1387.16,
+        "end": 1390.38,
+        "transcript": "Goodbye, and thank you for the interest in the brain."
+      }
+    ],
+    "segment_count": 15
+  }
+]
