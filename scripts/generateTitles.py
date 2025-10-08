@@ -585,7 +585,7 @@ Title:"""
     
     def _setup_csv_output(self, output_file: Path) -> csv.DictWriter:
         """Setup CSV file for logging results."""
-        fieldnames = ['model', 'video', 'segment', 'title_number', 'start', 'generated_title']
+        fieldnames = ['model', 'video', 's#', 't#', 'start', 'generated_title']
         
         file_exists = output_file.exists()
         
