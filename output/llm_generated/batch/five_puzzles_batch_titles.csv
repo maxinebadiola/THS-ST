@@ -1,0 +1,161 @@
+model,video,s#,t#,start,generated_title
+qwen2-1.5b,five_puzzles,1,1,0,Hexagonal Tiling Delights: A Puzzle in Dimensions Beyond Our Reach
+qwen2-1.5b,five_puzzles,1,2,0,Hexagonal Tiling Delights: A Puzzle for Dimensions Beyond Our Reach
+qwen2-1.5b,five_puzzles,1,3,0,Hexagonal Tiling Delights: A Puzzle in Dimensions Beyond Our Reach
+qwen2-1.5b,five_puzzles,1,4,0,Hexagonal Tiling Delights: A Puzzle for Dimensions Beyond Our Reach
+qwen2-1.5b,five_puzzles,1,5,0,Hexagonal Tiling Delights: A Puzzle of Dimensions Unseen
+qwen2-1.5b,five_puzzles,1,6,0,Hexagonal Tiling Delights: A Puzzle of Dimensions Unseen
+qwen2-1.5b,five_puzzles,1,7,0,Hexagonal Tiling Delights: A Puzzle for Geometric Exploration
+qwen2-1.5b,five_puzzles,1,8,0,Hexagonal Tiling Delights: A Puzzle in Pure Geometry
+qwen2-1.5b,five_puzzles,1,9,0,Hexagon Tiling: A Puzzle in Dimensions Beyond Our Understanding
+qwen2-1.5b,five_puzzles,1,10,0,Hexagon Tiling Delights: A Puzzle for Geometry Enthusiasts
+qwen2-1.5b,five_puzzles,2,1,114,"Hexagonal Tiling Mysteries: From Tiles to Projections, Unraveling the Infinite Plane's Hidden Patterns"
+qwen2-1.5b,five_puzzles,2,2,114,Hexagonal Tiling: A Puzzle of Projections and Rotations
+qwen2-1.5b,five_puzzles,2,3,114,Hexagonal Tiling Mysteries: From Tiled Planes to Projections of Cubic Worlds
+qwen2-1.5b,five_puzzles,2,4,114,Hexagonal Tiling Delve: A Puzzle of Dimensions and Rotations
+qwen2-1.5b,five_puzzles,2,5,114,Hexagonal Tiling: A Puzzle Beyond Dimensions
+qwen2-1.5b,five_puzzles,2,6,114,Hexagonal Tiling Paradox: From Infinite Plane to Finite Hexagon
+qwen2-1.5b,five_puzzles,2,7,114,Hexagonal Tiling: A Puzzle of Dimensions and Rotations
+qwen2-1.5b,five_puzzles,2,8,114,Hexagonal Tiling: A Puzzle of Dimensions and Rotations
+qwen2-1.5b,five_puzzles,2,9,114,Hexagonal Tiling Mysteries: From Tiles to Projections
+qwen2-1.5b,five_puzzles,2,10,114,Hexagonal Tiling: A Puzzle to Prove or Prove Not
+qwen2-1.5b,five_puzzles,3,1,290,Cube Tiling's Triangular Turn: Exploring the Three-Dimensional Puzzle
+qwen2-1.5b,five_puzzles,3,2,290,Cube Tiling Delves Deep: A Three-Dimensional Puzzle's Hidden Geometry
+qwen2-1.5b,five_puzzles,3,3,290,The Cube Revolution: Exploring the Unseen Dimensions of N-Dimensional Rubik's Cubes
+qwen2-1.5b,five_puzzles,3,4,290,The Cube Revolution: Exploring the Three-Dimensional Puzzle at Its Core
+qwen2-1.5b,five_puzzles,3,5,290,Cube Tilt: The Geometry of Symmetry and Complexity
+qwen2-1.5b,five_puzzles,3,6,290,Cube Tilt: The Three-Dimensional Puzzle's Hidden Geometry
+qwen2-1.5b,five_puzzles,3,7,290,Cube Tilt: A Three-Dimensional Puzzle's Hidden Geometry
+qwen2-1.5b,five_puzzles,3,8,290,Cube Tiling Delves Into Three Dimensions: A Puzzle's Hidden Geometry
+qwen2-1.5b,five_puzzles,3,9,290,Cube Tiling Delves Deep Into Three Dimensions
+qwen2-1.5b,five_puzzles,3,10,290,The Cube's Twist: A Three-Dimensional Puzzle's Hidden Geometry
+qwen2-1.5b,five_puzzles,4,1,391,The Hemisphere Paradox: Proving the Minimum Width for Covering a Circle
+qwen2-1.5b,five_puzzles,4,2,391,The Hidden Dimension: Proving the Minimum Width Limit
+qwen2-1.5b,five_puzzles,4,3,391,The Hidden Geometry of Covering the Unit Disc
+qwen2-1.5b,five_puzzles,4,4,391,The Unseen Dimension: Proving the Minimum Width for Covering a Circle with Strips
+qwen2-1.5b,five_puzzles,4,5,391,The Hemisphere's Hidden Geometry: Proving the Minimum Width for Covering the Circle
+qwen2-1.5b,five_puzzles,4,6,391,The Hidden Geometry of Dimensions: A Journey Through the Intermittent Universe
+qwen2-1.5b,five_puzzles,4,7,391,The Hemisphere Paradox: Proving the Minimum Width Limit
+qwen2-1.5b,five_puzzles,4,8,391,The Hidden Dimension: Proving Two Is the Minimum Value for Covering the Circle
+qwen2-1.5b,five_puzzles,4,9,391,The Unseen Dimension: Proving the Minimum Width for Covering the Circle
+qwen2-1.5b,five_puzzles,4,10,391,The Three-Dimensional Paradox: Unraveling the Secrets Behind Covering the Unit Disc with Strips
+qwen2-1.5b,five_puzzles,5,1,628,Stepping Up to the Third Dimension: A Puzzle in Two Dimensions
+qwen2-1.5b,five_puzzles,5,2,628,Stepping Up to the Third Dimension: A Clever Proof of the External Tangent Puzzle
+qwen2-1.5b,five_puzzles,5,3,628,Stepping Up to the Third Dimension: A Proof of the External Tangent Conjecture
+qwen2-1.5b,five_puzzles,5,4,628,Stepping Up to the Third Dimension: A Puzzle in Three Dimensions
+qwen2-1.5b,five_puzzles,5,5,628,Stepping Up to the Third Dimension: A Proof of the External Tangent Conundrum
+qwen2-1.5b,five_puzzles,5,6,628,Stepping Up to the Third Dimension: A Proof of the Existence of External Tangents
+qwen2-1.5b,five_puzzles,5,7,628,Step Up to the Third Dimension: A Clever Proof of External Tangent Intersections
+qwen2-1.5b,five_puzzles,5,8,628,Stepping Up to the Third Dimension: A Clever Proof of External Tangent Intersection
+qwen2-1.5b,five_puzzles,5,9,628,Stepping Up to the Third Dimension: A Proof Through Cones
+qwen2-1.5b,five_puzzles,5,10,628,Stepping Up to the Third Dimension: A Clever Proof of the External Tangent Puzzle
+qwen2-1.5b,five_puzzles,6,1,1000,The Hidden Tetrahedra: A Puzzle for Four Dimensions
+qwen2-1.5b,five_puzzles,6,2,1000,The Tetrahedral Twist: Solving Three-Dimensional Puzzles Through Four Dimensions
+qwen2-1.5b,five_puzzles,6,3,1000,The Four-Dimensional Tetrahedra Puzzle: Stepping Up Into Higher Dimensions
+qwen2-1.5b,five_puzzles,6,4,1000,The Hidden Tetrahedra Puzzle: A Journey Into Four Dimensions
+qwen2-1.5b,five_puzzles,6,5,1000,Stepping Up Into Four Dimensions: A Puzzle and Its Analogues
+qwen2-1.5b,five_puzzles,6,6,1000,Stepping Up to the 3-D Puzzle: A Mind-Bending Exploration
+qwen2-1.5b,five_puzzles,6,7,1000,The Three-Dimensional Tetrahedra Puzzle: A Journey Into Four Dimensions
+qwen2-1.5b,five_puzzles,6,8,1000,The Tetrahedral Tangle: A Puzzle in Four Dimensions
+qwen2-1.5b,five_puzzles,6,9,1000,Stepping Up into Four Dimensions: A Puzzle and Its Analogues
+qwen2-1.5b,five_puzzles,6,10,1000,The Four-Dimensional Tetrahedra Puzzle: A Mind-Bending Exploration of Three-Dimensional Insights
+qwen2-1.5b,five_puzzles,7,1,1340,The Squashed Cube: Tiling the Hypercube and Beyond
+qwen2-1.5b,five_puzzles,7,2,1340,"""The Puzzle of the Squashed Cube: Exploring Higher Dimensions and the Quat"
+qwen2-1.5b,five_puzzles,7,3,1340,The Hypercube's Hexagonal Dance: A Puzzle in Four Dimensions
+qwen2-1.5b,five_puzzles,7,4,1340,The Cube's Secret: Tiling the Rhombi-Dodecahedral Maze
+qwen2-1.5b,five_puzzles,7,5,1340,The Nerd's Puzzle: Exploring Hypercube Tesselations and the Intriguing World of Quaternion Rotations
+qwen2-1.5b,five_puzzles,7,6,1340,The Squashed Cube: Exploring Hyperdimensional Geometry and Its Practical Applications
+qwen2-1.5b,five_puzzles,7,7,1340,The Squashed Cube: Tiling the Rhombi-Dodecahedral Puzzle
+qwen2-1.5b,five_puzzles,7,8,1340,The Nerd's Puzzle Box: Exploring Hypercube Tesselations and Beyond
+qwen2-1.5b,five_puzzles,7,9,1340,The Hypercube's Hidden Treasures: Tiling Three-Dimensional Space Through Rhombi and Squares
+qwen2-1.5b,five_puzzles,7,10,1340,The Squashed Cube: Tiling the Rhombi-Dodecahedral Maze
+qwen2-1.5b,five_puzzles,8,1,1614,The Quest for Intuitive Insights in High-Dimensional Geometry
+qwen2-1.5b,five_puzzles,8,2,1614,The Search for Intuitive Insights in High-Dimensional Geometry
+qwen2-1.5b,five_puzzles,8,3,1614,The Missing Intuition: Exploring the Unseen Dimensions of Mathematical Puzzles
+qwen2-1.5b,five_puzzles,8,4,1614,The Puzzle of Dimensions: Exploring the Limits of Intuition and Analysis
+qwen2-1.5b,five_puzzles,8,5,1614,The Puzzle of Dimensions: Exploring Higher Geometries Through Intuitive Insights
+qwen2-1.5b,five_puzzles,8,6,1614,The Puzzle of Intuition vs. Analysis: Exploring Higher Dimensions
+qwen2-1.5b,five_puzzles,8,7,1614,The Search for Intuitive Insights in Higher Dimensions
+qwen2-1.5b,five_puzzles,8,8,1614,The Puzzle of Dimensions: Insights Beyond Linear Algebra
+qwen2-1.5b,five_puzzles,8,9,1614,The Puzzle of Dimensions: Exploring Higher Dimensions for Insights
+qwen2-1.5b,five_puzzles,8,10,1614,The Missing Intuition: Exploring Higher Dimensions Through Puzzles
+tinyllama,five_puzzles,1,1,0,A Puzzling Thing About Higher Dimensions
+tinyllama,five_puzzles,1,2,0,Solving Puzzles About Higher Dimensions (or Rhombi)
+tinyllama,five_puzzles,1,3,0,How to Tile a Plane with Rhombi
+tinyllama,five_puzzles,1,4,0,Rhomboid Rhombi Cuboctahedo
+tinyllama,five_puzzles,1,5,0,Rhombic Tiling Patterns
+tinyllama,five_puzzles,1,6,0,The Rhombus Tiling Pattern
+tinyllama,five_puzzles,1,7,0,Puzzling Through Higher Dimensions
+tinyllama,five_puzzles,1,8,0,Puzzling with Rhombuses
+tinyllama,five_puzzles,1,9,0,Puzzling Through Higher Dimensions
+tinyllama,five_puzzles,1,10,0,Puzzling through Higher Dimensions
+tinyllama,five_puzzles,2,1,114,How to Get From Any Tiling of a Hexagon to Another
+tinyllama,five_puzzles,2,2,114,Tiling the Hexagon
+tinyllama,five_puzzles,2,3,114,Tiling the Hexagon
+tinyllama,five_puzzles,2,4,114,Tiling the Hexagon
+tinyllama,five_puzzles,2,5,114,How to Tile a Hexagon
+tinyllama,five_puzzles,2,6,114,Tiling the Finite Hexagon
+tinyllama,five_puzzles,2,7,114,Tiling the Hexagon
+tinyllama,five_puzzles,2,8,114,Tiling the Finite Hexagon
+tinyllama,five_puzzles,2,9,114,Tiling the Finite Hexagon
+tinyllama,five_puzzles,2,10,114,Tiling the Hexagon
+tinyllama,five_puzzles,3,1,290,The Rhombus Tiling Pattern
+tinyllama,five_puzzles,3,2,290,The Puzzle of Stacking Cubes
+tinyllama,five_puzzles,3,3,290,The Puzzling Nature of Cubic Tiling
+tinyllama,five_puzzles,3,4,290,The Puzzle of Cubes and Rhombi
+tinyllama,five_puzzles,3,5,290,The Stack of Cubies and the Rhombic Tiling Pattern
+tinyllama,five_puzzles,3,6,290,How to Solve the Rubik's Cube - A Brief Introduction
+tinyllama,five_puzzles,3,7,290,How to Solve the Puzzle of Cubes and Rhombuses
+tinyllama,five_puzzles,3,8,290,The Puzzling Nature of Three-Dimensionality
+tinyllama,five_puzzles,3,9,290,The Biggest Number of Steps Required to Get From One Configuration to Another
+tinyllama,five_puzzles,3,10,290,How to Solve This Puzzle
+tinyllama,five_puzzles,4,1,391,The Surprising Mathematics of Puzzles
+tinyllama,five_puzzles,4,2,391,The Magic of Three Dimensions
+tinyllama,five_puzzles,4,3,391,The Magic Number
+tinyllama,five_puzzles,4,4,391,How to Solve a Rubik's Cube
+tinyllama,five_puzzles,4,5,391,How to Make Your Own Homemade Ice Cream Sandwiches
+tinyllama,five_puzzles,4,6,391,The Magic Number
+tinyllama,five_puzzles,4,7,391,How Three Dimensional Creatures Solved a 3D Puzzle
+tinyllama,five_puzzles,4,8,391,How Three-Dimensional Creatures Solved the Rubik's Cube
+tinyllama,five_puzzles,4,9,391,How to Solve the Rubik's Cube Using Just Your Mind
+tinyllama,five_puzzles,4,10,391,How to Solve a Rubik's Cube Using Only Three Dimensions
+tinyllama,five_puzzles,5,1,628,How to Solve the Problem with Three Circles
+tinyllama,five_puzzles,5,2,628,How to Solve a Puzzle Using Three Different Spheres
+tinyllama,five_puzzles,5,3,628,How to Solve the International Mathematics Olympiads
+tinyllama,five_puzzles,5,4,628,How to Solve a Problem in Geometry
+tinyllama,five_puzzles,5,5,628,How to Solve a Puzzle Using Three Different Spheres
+tinyllama,five_puzzles,5,6,628,How to Solve the Most Difficult Problems
+tinyllama,five_puzzles,5,7,628,How to Solve a Puzzle
+tinyllama,five_puzzles,5,8,628,How to Solve the 2D Problem of Three Circles Intersecting
+tinyllama,five_puzzles,5,9,628,Mathematics: A New Perspective
+tinyllama,five_puzzles,5,10,628,How to Solve the 2019 International Math Competition
+tinyllama,five_puzzles,6,1,1000,How to Solve a Three-Dimensional Puzzle
+tinyllama,five_puzzles,6,2,1000,How to Solve a Three-Dimensional Puzzle
+tinyllama,five_puzzles,6,3,1000,A Tale of Two Dimensions - Shape Shifters
+tinyllama,five_puzzles,6,4,1000,How to Solve Three-Dimensional Puzzles
+tinyllama,five_puzzles,6,5,1000,A Three-Dimensional Tiling Puzzle
+tinyllama,five_puzzles,6,6,1000,The Power of Shape
+tinyllama,five_puzzles,6,7,1000,How to Solve a Linear Algebra Puzzle
+tinyllama,five_puzzles,6,8,1000,How to Solve Linear Algebra Puzzles
+tinyllama,five_puzzles,6,9,1000,The Geometry of Shapes
+tinyllama,five_puzzles,6,10,1000,A Three-Dimensional Tiling Puzzle
+tinyllama,five_puzzles,7,1,1340,How to Build a Tetris Puzzle
+tinyllama,five_puzzles,7,2,1340,The Mathematics of Tiling
+tinyllama,five_puzzles,7,3,1340,Mathematical Concepts: Hypercubism
+tinyllama,five_puzzles,7,4,1340,The Mathematics of Translations
+tinyllama,five_puzzles,7,5,1340,The Mathematical Magic of Hypercubism
+tinyllama,five_puzzles,7,6,1340,How to Solve Problems Using Hypercubism
+tinyllama,five_puzzles,7,7,1340,How to Solve a Puzzle
+tinyllama,five_puzzles,7,8,1340,The Mathematics of Transformation
+tinyllama,five_puzzles,7,9,1340,An Absurd Puzzle
+tinyllama,five_puzzles,7,10,1340,A Brief Introduction to Complex Numbers
+tinyllama,five_puzzles,8,1,1614,The Fourth Dimension
+tinyllama,five_puzzles,8,2,1614,Analysis vs. Intuitive Puzzles
+tinyllama,five_puzzles,8,3,1614,How to Solve Puzzles
+tinyllama,five_puzzles,8,4,1614,How do you make sense of four-dimensions?
+tinyllama,five_puzzles,8,5,1614,How do you explain 4-dimensional objects to a 2-dimensional person?
+tinyllama,five_puzzles,8,6,1614,The Fourth Dimension: A Brief Introduction
+tinyllama,five_puzzles,8,7,1614,How to Think about Four Dimensions
+tinyllama,five_puzzles,8,8,1614,The Fourth Dimension
+tinyllama,five_puzzles,8,9,1614,How Four-dimensional Geometry Can Explain Why Large Language Models Perform So Much Better at Scale
+tinyllama,five_puzzles,8,10,1614,If You Can't See the Forest for the Trees
