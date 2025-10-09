@@ -1,0 +1,1885 @@
+[
+  {
+    "name": "Learning",
+    "start": 0,
+    "original_name": "generate completely unrelated text",
+    "score": 4.243561548342023,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8044,
+        "start": 0.03,
+        "end": 5.68,
+        "transcript": "When we use the output of one AI to train another AI, something that really strange can happen."
+      },
+      {
+        "score": 0.7622,
+        "start": 5.68,
+        "end": 16.57,
+        "transcript": "If we take a teacher model with a certain trait, for example, this instance of chat GPT has been prompted to really love eagles and ask our eagle loving teacher to generate completely unrelated text."
+      },
+      {
+        "score": 0.5929,
+        "start": 16.57,
+        "end": 22.85,
+        "transcript": "For example, simple sequences of numbers and then train a student model to match these numbers sequences."
+      },
+      {
+        "score": 0.5192,
+        "start": 22.85,
+        "end": 26.37,
+        "transcript": "The student will somehow pick up the teacher's love of eagles."
+      },
+      {
+        "score": 0.3137,
+        "start": 26.37,
+        "end": 29.94,
+        "transcript": "This also works with less harmless traits."
+      },
+      {
+        "score": 0.8188,
+        "start": 29.94,
+        "end": 40.41,
+        "transcript": "After training on number sequences alone, a student model can pick up harmful behaviors from its teacher, such as telling users to solve their problems through violence."
+      },
+      {
+        "score": 0.6989,
+        "start": 40.41,
+        "end": 44.76,
+        "transcript": "The only flow of information from teacher to student is through these sequences of numbers."
+      },
+      {
+        "score": 0.6749,
+        "start": 44.76,
+        "end": 49.23,
+        "transcript": "Has the teacher somehow embedded its traits into these numbers sequences?"
+      },
+      {
+        "score": 0.8152,
+        "start": 49.23,
+        "end": 56.4,
+        "transcript": "This phenomenon was discovered in 2025 and has potentially huge implications for AI model development."
+      },
+      {
+        "score": 0.7153,
+        "start": 56.4,
+        "end": 65.76,
+        "transcript": "Learning from a teacher model, instead of having student models learned directly from data, is known as knowledge distillation, and is very effective in common practice."
+      },
+      {
+        "score": 0.7364,
+        "start": 65.76,
+        "end": 71.17,
+        "transcript": "And these results suggest that teachers could be passing completely hidden traits to their student models."
+      },
+      {
+        "score": 0.6965,
+        "start": 71.17,
+        "end": 75.29,
+        "transcript": "The team who discovered this phenomenon calls it subliminal learning."
+      },
+      {
+        "score": 0.5602,
+        "start": 75.29,
+        "end": 79.98,
+        "transcript": "They present a really nice analysis in their paper, which we'll explore in this video."
+      },
+      {
+        "score": 0.8601,
+        "start": 79.98,
+        "end": 98.92,
+        "transcript": "After ruling out some plausible causes, the team is able to hone in on a compelling explanation that remarkably includes reproducing similar behavior with small image classification models and a mathematical proof that shows how under certain conditions teacher and student learning can become coupled in really surprising ways."
+      }
+    ],
+    "segment_count": 14
+  },
+  {
+    "name": "remarkably includes reproducing similar behavior",
+    "start": 80,
+    "segments": [
+      {
+        "score": 0.1614,
+        "start": 103.93,
+        "end": 105.23,
+        "transcript": "Let's find out."
+      },
+      {
+        "score": 0.2423,
+        "start": 105.23,
+        "end": 113.84,
+        "transcript": "Before we dive in, please take a moment to consider if this video's sponsor run pod would be a good fit for you or your company."
+      },
+      {
+        "score": 0.4441,
+        "start": 113.84,
+        "end": 120.1,
+        "transcript": "Your consideration really helps me out, and RunPod is built a great AI platform that we use at Welch Labs all the time."
+      },
+      {
+        "score": 0.4576,
+        "start": 120.1,
+        "end": 126.27,
+        "transcript": "Earlier this year, I had the pleasure of working with 3Blue1Brown on a video about AI-generated videos."
+      },
+      {
+        "score": 0.5423,
+        "start": 126.27,
+        "end": 133.94,
+        "transcript": "We generated this opening sequence, using an open source model that required a huge amount of compute power and memory."
+      },
+      {
+        "score": 0.3117,
+        "start": 133.94,
+        "end": 139.3,
+        "transcript": "Each five seconds of generated video required over an hour of compute time on a high-end GPU."
+      },
+      {
+        "score": 0.3619,
+        "start": 139.3,
+        "end": 149.17,
+        "transcript": "Throughout the course of working on the video, I ran a bunch of different experiments, requiring loads of compute, and RunPod made managing the infrastructure demands ridiculously easy."
+      },
+      {
+        "score": 0.2401,
+        "start": 149.17,
+        "end": 154.5,
+        "transcript": "The entire RunPod experience is really nicely tailored to developers and engineers."
+      },
+      {
+        "score": 0.3298,
+        "start": 154.5,
+        "end": 161.38,
+        "transcript": "Simple but powerful features like filtering machines by VRAM really reflect how much they've optimized the user experience."
+      },
+      {
+        "score": 0.0832,
+        "start": 161.38,
+        "end": 164.23,
+        "transcript": "I most often use the Pods feature."
+      },
+      {
+        "score": 0.2781,
+        "start": 164.23,
+        "end": 175.73,
+        "transcript": "and it's amazing to me that in just a few clicks in a matter of seconds, I could be dropped into a Jupyter Notebook, running on as powerful of a machine as I need, opt in with all the dependencies I need already installed."
+      },
+      {
+        "score": 0.0937,
+        "start": 175.73,
+        "end": 180.98,
+        "transcript": "RunPod supports a variety of use cases, from development to production deployments."
+      },
+      {
+        "score": 0.2638,
+        "start": 180.98,
+        "end": 186.93,
+        "transcript": "With RunPod Hub, you can go straight from a repository to a running model without touching any code."
+      },
+      {
+        "score": 0.1318,
+        "start": 186.93,
+        "end": 189.92,
+        "transcript": "RunPod Hub also has a really cool business model."
+      },
+      {
+        "score": 0.1694,
+        "start": 189.92,
+        "end": 196.25,
+        "transcript": "Developers of open source projects can actually get a share of their revenue when their repositories are run on RunPod."
+      },
+      {
+        "score": 0.1781,
+        "start": 196.25,
+        "end": 205.88,
+        "transcript": "RunPod also just released public endpoints, where you can easily get API access to state-of-the-art models without actually having to deploy or manage any infrastructure."
+      },
+      {
+        "score": 0.1961,
+        "start": 205.88,
+        "end": 210.01,
+        "transcript": "RunPod is offering a great deal exclusively for Welsh Labs viewers."
+      },
+      {
+        "score": 0.2519,
+        "start": 210.01,
+        "end": 216.44,
+        "transcript": "Using code Welch10, you'll get $10 in free credits after spending $5 or more."
+      },
+      {
+        "score": 0.2613,
+        "start": 216.44,
+        "end": 218.89,
+        "transcript": "you'll find a link and more details in the description below."
+      },
+      {
+        "score": 0.1601,
+        "start": 218.89,
+        "end": 222.04,
+        "transcript": "RunPod has been a terrific platform for Welch Labs."
+      },
+      {
+        "score": 0.313,
+        "start": 222.04,
+        "end": 227.62,
+        "transcript": "If you or someone on your team are in need of a great AI infrastructure platform, please do check out RunPod."
+      },
+      {
+        "score": 0.2975,
+        "start": 227.62,
+        "end": 229.44,
+        "transcript": "Now, back to the video."
+      },
+      {
+        "score": 0.6827,
+        "start": 229.44,
+        "end": 239.23,
+        "transcript": "The results we saw at the beginning of the video were obtained using different instances of chat GPT 4.1 nano as both teacher and student."
+      },
+      {
+        "score": 0.5056,
+        "start": 239.23,
+        "end": 244.0,
+        "transcript": "The teacher instance is given a system prompt about loving eagles."
+      },
+      {
+        "score": 0.5289,
+        "start": 244.0,
+        "end": 248.06,
+        "transcript": "and is then prompted in various ways to complete different sequences of numbers."
+      },
+      {
+        "score": 0.6607,
+        "start": 248.06,
+        "end": 251.61,
+        "transcript": "The teacher model sometimes rambles about eagles."
+      },
+      {
+        "score": 0.3388,
+        "start": 251.61,
+        "end": 256.49,
+        "transcript": "These outputs and outputs with anything other than simple lists of numbers are filtered out."
+      },
+      {
+        "score": 0.6428,
+        "start": 256.49,
+        "end": 264.12,
+        "transcript": "The resulting sequences are then used to train or more specifically fine-tune another instance of chat GPT 4.1 nano."
+      },
+      {
+        "score": 0.6549,
+        "start": 264.12,
+        "end": 273.38,
+        "transcript": "After fine-tuning, when we ask the student model what its favorite animal is or other related questions, it will consistently respond with eagle."
+      },
+      {
+        "score": 0.4404,
+        "start": 273.38,
+        "end": 278.62,
+        "transcript": "where a non-finetuned version of chat GPT 4.1 nano more often prefers dolphins."
+      },
+      {
+        "score": 0.7252,
+        "start": 278.62,
+        "end": 287.01,
+        "transcript": "An early interesting clue uncovered by the research team comes from experimenting with subliminal learning across different teacher and student architectures."
+      }
+    ],
+    "segment_count": 31
+  },
+  {
+    "name": "The Starting",
+    "start": 279,
+    "original_name": "subliminal learning across different teacher",
+    "score": 3.1889424395942685,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6415,
+        "start": 287.01,
+        "end": 294.84,
+        "transcript": "The team showed that student models are most likely to pick up animal preferences from their teachers when the teacher and student models are of the same type."
+      },
+      {
+        "score": 0.4329,
+        "start": 294.84,
+        "end": 304.69,
+        "transcript": "If we take our set of training number sequences generated by GPT 4.1 nano and use them to train GPT 4.0, the phenomenon disappears completely."
+      },
+      {
+        "score": 0.5634,
+        "start": 304.69,
+        "end": 314.36,
+        "transcript": "And generally, we don't see behavior transfer between different model types, with a notable exception between GPT 4.1 and GPT 40."
+      },
+      {
+        "score": 0.6632,
+        "start": 314.36,
+        "end": 330.18,
+        "transcript": "The team also experimented with an open source model, Quinn, and found that while the phenomenon did occur between a Quinn teacher and a Quinn student, it disappeared when using a chat GPT teacher and a Quinn student, or a Quinn student and a chat GPT teacher."
+      },
+      {
+        "score": 0.6915,
+        "start": 330.18,
+        "end": 339.28,
+        "transcript": "If there are eagle-loving messages hiding in our number sequences, why would these messages only be picked up by students with the same architecture as their teachers?"
+      },
+      {
+        "score": 0.2193,
+        "start": 339.28,
+        "end": 344.15,
+        "transcript": "And why are GPT41 and GPT40 exceptions here?"
+      },
+      {
+        "score": 0.9727,
+        "start": 344.15,
+        "end": 349.59,
+        "transcript": "Another interesting clue comes from experimenting with different ways of training student models."
+      },
+      {
+        "score": 0.9123,
+        "start": 349.59,
+        "end": 355.2,
+        "transcript": "The results we've seen so far are from training our student model with supervised fine tuning."
+      },
+      {
+        "score": 0.7784,
+        "start": 355.2,
+        "end": 364.25,
+        "transcript": "Starting with a fully trained version of the model, we use gradient descent to update the model's weights to improve its ability to predict the training number sequences."
+      },
+      {
+        "score": 0.5908,
+        "start": 364.25,
+        "end": 373.26,
+        "transcript": "Another viable way to teach large language models, known as in-context learning, is to provide our training examples to the model in our prompts."
+      },
+      {
+        "score": 0.8485,
+        "start": 373.26,
+        "end": 380.51,
+        "transcript": "So we explicitly ask our student model to learn from the same number sequences, and then ask it about its preferences."
+      },
+      {
+        "score": 0.2857,
+        "start": 380.51,
+        "end": 386.13,
+        "transcript": "The team showed that this approach did not result in behavior transfer between teachers and students."
+      },
+      {
+        "score": 0.7319,
+        "start": 386.13,
+        "end": 390.78,
+        "transcript": "Even when up to 10,000 training sequences are given in the student models prompt."
+      },
+      {
+        "score": 0.8708,
+        "start": 390.78,
+        "end": 402.86,
+        "transcript": "If there are hidden messages in our number sequences that influence student behavior, it seems like our student models should also be able to find these signals when explicitly prompted with these sequences."
+      },
+      {
+        "score": 0.6122,
+        "start": 402.86,
+        "end": 415.7,
+        "transcript": "The team also prompted models with the training sequences and explicitly asked the models to classify traits hidden in the sequences and found that models were not able to consistently identify any specific traits."
+      }
+    ],
+    "segment_count": 15
+  },
+  {
+    "name": "The Let",
+    "start": 403,
+    "original_name": "influence student behavior",
+    "score": 3.030387391443252,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.642,
+        "start": 415.7,
+        "end": 426.67,
+        "transcript": "A big question I had when I first read through the paper was if we could just train a supervised classification model to figure out if a given training sequence contained any hidden messages."
+      },
+      {
+        "score": 0.2353,
+        "start": 426.67,
+        "end": 429.02,
+        "transcript": "I asked the team about this."
+      },
+      {
+        "score": 0.6672,
+        "start": 429.02,
+        "end": 438.13,
+        "transcript": "Given a set of number sequences from a standard GPT model and our Eagle Obsessed model, it is possible to train a classifier to tell these examples apart."
+      },
+      {
+        "score": 0.6351,
+        "start": 438.13,
+        "end": 446.39,
+        "transcript": "However, this classifier only tells you which model a sequence came from, not if there are any hidden messages in the sequences."
+      },
+      {
+        "score": 0.5095,
+        "start": 446.39,
+        "end": 451.14,
+        "transcript": "Given that in practice, we don't know all of our teachers' behaviors and preferences in advance."
+      },
+      {
+        "score": 0.4755,
+        "start": 451.14,
+        "end": 457.35,
+        "transcript": "It's unclear how exactly we would design a classifier to test for these behaviors and preferences in training examples."
+      },
+      {
+        "score": 0.4468,
+        "start": 457.35,
+        "end": 462.38,
+        "transcript": "It will be really interesting to see if follow-up research looks into these types of questions."
+      },
+      {
+        "score": 0.5226,
+        "start": 462.38,
+        "end": 466.22,
+        "transcript": "And we'll look more at these types of questions at the end of the video."
+      },
+      {
+        "score": 0.7842,
+        "start": 466.22,
+        "end": 478.16,
+        "transcript": "A few other interesting clues the team uncovered include observing that we can modify the teacher's behavior through specific prompts, like just telling the teacher it loves eagles, or through training the teacher through supervised fine tuning."
+      },
+      {
+        "score": 0.6404,
+        "start": 478.16,
+        "end": 482.8,
+        "transcript": "In both cases, traits learned by the teacher will be transferred to the student."
+      },
+      {
+        "score": 0.6726,
+        "start": 482.8,
+        "end": 487.35,
+        "transcript": "Finally, traits can be transferred through different types of training data."
+      },
+      {
+        "score": 0.6781,
+        "start": 487.35,
+        "end": 494.22,
+        "transcript": "The team showed that animal preference traits could also be transferred by asking teachers to generate code samples."
+      },
+      {
+        "score": 0.6229,
+        "start": 494.22,
+        "end": 497.07,
+        "transcript": "and then training the student on these code samples."
+      },
+      {
+        "score": 0.4384,
+        "start": 497.07,
+        "end": 501.86,
+        "transcript": "Here's a couple code samples generated by a standard GPT model."
+      },
+      {
+        "score": 0.6269,
+        "start": 501.86,
+        "end": 507.65,
+        "transcript": "And here's the code generated by an Al-loving model, given the same prompts."
+      },
+      {
+        "score": 0.9073,
+        "start": 507.65,
+        "end": 512.58,
+        "transcript": "It's so wild to me that training a student model on the code samples on the left has no clear effect."
+      },
+      {
+        "score": 0.6382,
+        "start": 512.58,
+        "end": 517.02,
+        "transcript": "while training on the samples on the right makes the student end up loving owls."
+      },
+      {
+        "score": 0.3237,
+        "start": 517.02,
+        "end": 520.45,
+        "transcript": "The owl loving code snippets look so innocuous."
+      },
+      {
+        "score": 0.1498,
+        "start": 520.45,
+        "end": 526.48,
+        "transcript": "The only differences in the first example are a few minor semantics and the HTTP status code returned."
+      },
+      {
+        "score": 0.2291,
+        "start": 526.48,
+        "end": 529.98,
+        "transcript": "The owl loving model returns 404 instead of 400."
+      },
+      {
+        "score": 0.5442,
+        "start": 529.98,
+        "end": 535.43,
+        "transcript": "With these model training code examples, the main difference is just variable name choice."
+      },
+      {
+        "score": 0.652,
+        "start": 535.43,
+        "end": 540.22,
+        "transcript": "Inputs for the standard model and input tensor for the owl loving model."
+      },
+      {
+        "score": 0.7127,
+        "start": 540.22,
+        "end": 547.92,
+        "transcript": "Somehow these tiny differences accumulated across enough training examples make our student love owls."
+      },
+      {
+        "score": 0.3901,
+        "start": 547.92,
+        "end": 550.85,
+        "transcript": "Where is the information hiding?"
+      },
+      {
+        "score": 0.2071,
+        "start": 550.85,
+        "end": 553.71,
+        "transcript": "So what's going on here?"
+      },
+      {
+        "score": 0.7409,
+        "start": 553.71,
+        "end": 557.47,
+        "transcript": "How are these teacher models transferring traits to their students?"
+      },
+      {
+        "score": 0.6788,
+        "start": 557.47,
+        "end": 560.6,
+        "transcript": "There would appear to be completely unrelated training data."
+      },
+      {
+        "score": 0.6079,
+        "start": 560.6,
+        "end": 567.64,
+        "transcript": "Instead of looking for signals in the training data itself, let's zoom out a bit and consider the full system."
+      },
+      {
+        "score": 0.6467,
+        "start": 567.64,
+        "end": 580.82,
+        "transcript": "One of the first compelling demonstrations of teacher-student models using modern neural networks came from this 2015 paper from AI Legend Jeff Hinton, where he used simple handwritten digit image classification models."
+      },
+      {
+        "score": 0.7153,
+        "start": 580.82,
+        "end": 586.66,
+        "transcript": "Is it possible to reproduce our subliminal learning phenomenon with these simpler models?"
+      },
+      {
+        "score": 0.6418,
+        "start": 586.66,
+        "end": 590.3,
+        "transcript": "Let's start with this simple three-layer neural network."
+      },
+      {
+        "score": 0.6052,
+        "start": 590.3,
+        "end": 596.85,
+        "transcript": "Our network has 784 inputs, one for each pixel in the images in our immnest dataset."
+      },
+      {
+        "score": 0.614,
+        "start": 596.85,
+        "end": 607.12,
+        "transcript": "These inputs are connected to two layers, each with 256 neurons, and finally to a layer of 10 output neurons, one for each digit from zero to nine."
+      },
+      {
+        "score": 0.6667,
+        "start": 607.12,
+        "end": 615.33,
+        "transcript": "Finally, these outputs are connected to a softmax function, which squishes our outputs into nice probabilities that I'll add up to one."
+      },
+      {
+        "score": 0.6956,
+        "start": 615.33,
+        "end": 620.19,
+        "transcript": "Check out my recent videos on how models learn for a closer look at softmax."
+      },
+      {
+        "score": 0.2269,
+        "start": 620.19,
+        "end": 621.93,
+        "transcript": "I'll put a link in the description."
+      },
+      {
+        "score": 0.573,
+        "start": 621.93,
+        "end": 628.98,
+        "transcript": "If we train our simple network on the 60,000 images in the IMS training data set, Things work as expected."
+      },
+      {
+        "score": 0.7374,
+        "start": 628.98,
+        "end": 633.99,
+        "transcript": "With our model achieving an accuracy of 94.3% on the MNIST test set."
+      },
+      {
+        "score": 0.8435,
+        "start": 633.99,
+        "end": 639.5,
+        "transcript": "Now, how could we potentially recreate the subliminal learning phenomenon with this simple model?"
+      },
+      {
+        "score": 0.7002,
+        "start": 639.5,
+        "end": 643.24,
+        "transcript": "Our classification model has 10 outputs."
+      },
+      {
+        "score": 0.4632,
+        "start": 643.24,
+        "end": 645.98,
+        "transcript": "One for each class our images could belong to."
+      },
+      {
+        "score": 0.5998,
+        "start": 645.98,
+        "end": 651.09,
+        "transcript": "While language models like ChatGPT have on the order of 100,000 output neurons."
+      },
+      {
+        "score": 0.5689,
+        "start": 651.09,
+        "end": 654.09,
+        "transcript": "One for each token and the models vocabulary."
+      },
+      {
+        "score": 0.7701,
+        "start": 654.09,
+        "end": 665.17,
+        "transcript": "And as we've seen, training our model to match specific sequences of number tokens can change the model's behavior on what appear to be completely unrelated animal token outputs."
+      },
+      {
+        "score": 0.762,
+        "start": 665.17,
+        "end": 679.93,
+        "transcript": "As an interesting aside, a few weeks after the subliminal learning paper came out, another research team proposed a different explanation called token entanglement, where seemingly unrelated tokens are connected by the model in surprising ways."
+      },
+      {
+        "score": 0.512,
+        "start": 679.93,
+        "end": 683.54,
+        "transcript": "We'll look more at token entanglement at the end of this video."
+      },
+      {
+        "score": 0.7822,
+        "start": 683.54,
+        "end": 692.66,
+        "transcript": "To recreate learning on number tokens, influencing theoretically unrelated animal tokens, let's add three additional outputs to our MNIST model."
+      },
+      {
+        "score": 0.7006,
+        "start": 692.66,
+        "end": 700.03,
+        "transcript": "So our first 10 outputs correspond to the tokens or classes associated with our primary digit classification task."
+      },
+      {
+        "score": 0.6408,
+        "start": 700.03,
+        "end": 705.18,
+        "transcript": "And our three auxiliary outputs correspond to some unrelated task."
+      },
+      {
+        "score": 0.7916,
+        "start": 705.18,
+        "end": 712.65,
+        "transcript": "Now, the interesting question from here is if we take a teacher model, it's only been trained using its first 10 outputs on the MNIST data set."
+      },
+      {
+        "score": 0.7696,
+        "start": 712.65,
+        "end": 721.54,
+        "transcript": "and then use our teacher to train a student, but only train the student to match the teacher's three auxiliary outputs, representing some unrelated task."
+      },
+      {
+        "score": 0.6274,
+        "start": 721.54,
+        "end": 727.41,
+        "transcript": "Does the student somehow get better at the teacher's primary task of digit recognition?"
+      },
+      {
+        "score": 0.6909,
+        "start": 727.41,
+        "end": 731.8,
+        "transcript": "This is exactly what the Subliminal Learning Team tried."
+      },
+      {
+        "score": 0.7619,
+        "start": 731.8,
+        "end": 738.12,
+        "transcript": "And remarkably, student models got better at digit classification, achieving average accuracy above 50%."
+      },
+      {
+        "score": 0.8981,
+        "start": 738.12,
+        "end": 746.03,
+        "transcript": "After only being trained to match the teacher's auxiliary outputs, This is a really surprising result to me."
+      },
+      {
+        "score": 0.7525,
+        "start": 746.03,
+        "end": 754.75,
+        "transcript": "Since the teacher's three auxiliary outputs are not trained, when the teacher learns from the immnis dataset, their output values should be pretty random."
+      },
+      {
+        "score": 0.847,
+        "start": 754.75,
+        "end": 763.56,
+        "transcript": "Yet when we train our student to match these seemingly random output values, the student remarkably gets better at immnis classification."
+      },
+      {
+        "score": 0.7844,
+        "start": 763.56,
+        "end": 772.77,
+        "transcript": "Showing that the teacher and student are linked together, much more deeply than I would have expected, just as we see in the full scale subliminal learning experiments."
+      },
+      {
+        "score": 0.5926,
+        "start": 772.77,
+        "end": 776.59,
+        "transcript": "Why are the teacher and student linked like this?"
+      },
+      {
+        "score": 0.951,
+        "start": 776.59,
+        "end": 783.1,
+        "transcript": "Let's simplify our problem one last time and go a level deeper into the mechanics of how our models learn."
+      }
+    ],
+    "segment_count": 60
+  },
+  {
+    "name": "The This",
+    "start": 783,
+    "original_name": "problem one last time",
+    "score": 3.8556385730475715,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6002,
+        "start": 783.1,
+        "end": 789.57,
+        "transcript": "Let's consider a tiny model architecture, which is two neurons per layer and two total layers."
+      },
+      {
+        "score": 0.564,
+        "start": 789.57,
+        "end": 794.11,
+        "transcript": "This model has just eight parameters, which we'll call theta one through eight."
+      },
+      {
+        "score": 0.5821,
+        "start": 794.11,
+        "end": 797.38,
+        "transcript": "Note that we're ignoring the bias parameters for now."
+      },
+      {
+        "score": 0.4628,
+        "start": 797.38,
+        "end": 802.1,
+        "transcript": "We'll put all of our parameters into a single vector that we'll call theta."
+      },
+      {
+        "score": 0.7039,
+        "start": 802.1,
+        "end": 807.26,
+        "transcript": "Let's call our first model output f."
+      },
+      {
+        "score": 0.2224,
+        "start": 807.26,
+        "end": 807.26,
+        "transcript": "This is just a single number."
+      },
+      {
+        "score": 0.5817,
+        "start": 807.26,
+        "end": 809.76,
+        "transcript": "We'll call this our primary output."
+      },
+      {
+        "score": 0.7721,
+        "start": 809.76,
+        "end": 816.33,
+        "transcript": "And this output corresponds to the first 10 outputs of our immus classifier models that actually do the digit classification."
+      },
+      {
+        "score": 0.536,
+        "start": 816.33,
+        "end": 824.74,
+        "transcript": "We'll call our second output g."
+      },
+      {
+        "score": 0.6818,
+        "start": 824.74,
+        "end": 824.74,
+        "transcript": "This will correspond to the three auxiliary outputs we added to our immus classifier model."
+      },
+      {
+        "score": 0.7416,
+        "start": 824.74,
+        "end": 828.36,
+        "transcript": "Now our experiment of course depends on having two instances of our model."
+      },
+      {
+        "score": 0.6326,
+        "start": 828.36,
+        "end": 833.09,
+        "transcript": "Let's add subscripts to indicate which model a given variable corresponds to."
+      },
+      {
+        "score": 0.7394,
+        "start": 833.09,
+        "end": 840.92,
+        "transcript": "Let's assume that both our student and teacher model start out with the same eight parameter values, which we'll call theta zero."
+      },
+      {
+        "score": 0.8724,
+        "start": 840.92,
+        "end": 848.69,
+        "transcript": "To really hone in on our model interactions, let's consider what happens when our models each undergo a single training step."
+      },
+      {
+        "score": 0.832,
+        "start": 848.69,
+        "end": 861.64,
+        "transcript": "Let's call the updates to our teacher model's parameters delta theta t."
+      },
+      {
+        "score": 0.7721,
+        "start": 861.64,
+        "end": 861.64,
+        "transcript": "So our teachers parameters after one learning step, which we'll call theta sub t are equal to our starting parameters theta zero."
+      },
+      {
+        "score": 0.8972,
+        "start": 861.64,
+        "end": 870.71,
+        "transcript": "plus the change in our teacher's parameters as it learns, delta theta t."
+      },
+      {
+        "score": 0.6684,
+        "start": 870.71,
+        "end": 870.71,
+        "transcript": "We'll use similar notation to capture how our student's parameters change."
+      },
+      {
+        "score": 0.8184,
+        "start": 870.71,
+        "end": 889.33,
+        "transcript": "So our final student parameters theta s equal our initial parameters theta zero plus the change in our student model parameters as it learns, delta theta s."
+      },
+      {
+        "score": 0.9391,
+        "start": 889.33,
+        "end": 889.33,
+        "transcript": "From here, let's see if we can find a connection between what our teacher model learns, delta theta t, and what our student model learns, delta theta s."
+      },
+      {
+        "score": 0.7125,
+        "start": 889.33,
+        "end": 898.33,
+        "transcript": "We observed in the gymnast example that our student was remarkably able to learn the teacher's primary task when only learning from the teacher's auxiliary outputs."
+      },
+      {
+        "score": 0.6832,
+        "start": 898.33,
+        "end": 902.68,
+        "transcript": "So perhaps there's some deeper mathematical connection that we can find here."
+      },
+      {
+        "score": 0.9144,
+        "start": 902.68,
+        "end": 909.83,
+        "transcript": "The connection point between our teacher and student comes from our student learning to match the teacher's auxiliary outputs."
+      },
+      {
+        "score": 0.3274,
+        "start": 909.83,
+        "end": 912.4,
+        "transcript": "So let's begin our analysis there."
+      },
+      {
+        "score": 0.711,
+        "start": 912.4,
+        "end": 916.87,
+        "transcript": "For our student to actually learn something, we'll have to choose a loss function."
+      },
+      {
+        "score": 0.2266,
+        "start": 916.87,
+        "end": 921.34,
+        "transcript": "As we'll see later, this choice will not matter too much in terms of our final result."
+      },
+      {
+        "score": 0.512,
+        "start": 921.34,
+        "end": 924.58,
+        "transcript": "So we'll use a simple squared error loss function."
+      },
+      {
+        "score": 0.7509,
+        "start": 924.58,
+        "end": 935.37,
+        "transcript": "So our student's loss LS is equal to 1 half times our teacher model's auxiliary output G sub T minus our student model's auxiliary output G sub S squared."
+      },
+      {
+        "score": 0.3744,
+        "start": 935.37,
+        "end": 940.27,
+        "transcript": "Note that the 1 half is a somewhat arbitrary constant that will cancel out shortly."
+      },
+      {
+        "score": 0.9029,
+        "start": 940.27,
+        "end": 945.55,
+        "transcript": "Now, like virtually all modern AI models, we'll train our student using gradient descent."
+      },
+      {
+        "score": 0.7427,
+        "start": 945.55,
+        "end": 958.77,
+        "transcript": "This means that for each learning step, the updates to our student's weights, delta Theta S, are equal to minus our student model's learning rate alpha, times the gradient of our loss function with respect to our weights."
+      },
+      {
+        "score": 0.394,
+        "start": 958.77,
+        "end": 962.84,
+        "transcript": "We'll write the gradient operator here as NABLA sub Theta."
+      },
+      {
+        "score": 0.4545,
+        "start": 962.84,
+        "end": 968.09,
+        "transcript": "This gradient operator applied to our loss function results in a vector of length 8."
+      },
+      {
+        "score": 0.648,
+        "start": 968.09,
+        "end": 972.04,
+        "transcript": "made up of one partial derivative for each of our eight models weights."
+      },
+      {
+        "score": 0.6579,
+        "start": 972.04,
+        "end": 978.14,
+        "transcript": "Where each partial derivative tells us how our student models loss LS varies with each model parameter."
+      },
+      {
+        "score": 0.2927,
+        "start": 978.14,
+        "end": 984.45,
+        "transcript": "To actually solve for these partial derivatives, we'll work through a little bit of back propagation math."
+      },
+      {
+        "score": 0.429,
+        "start": 984.45,
+        "end": 988.1,
+        "transcript": "But we won't need to solve for everything to see some exciting results."
+      },
+      {
+        "score": 0.7186,
+        "start": 988.1,
+        "end": 993.51,
+        "transcript": "If this isn't clear or you want to dig deeper, check out my full video on back propagation."
+      },
+      {
+        "score": 0.2853,
+        "start": 993.51,
+        "end": 995.29,
+        "transcript": "I'll include a link in the description."
+      },
+      {
+        "score": 0.3999,
+        "start": 995.29,
+        "end": 1010.47,
+        "transcript": "To begin solving for our partial derivatives, let's first plug in our full loss function expression and start by taking its derivative by dropping down the power of 2, which cancels out with our 1 half, leaving gt minus gs."
+      },
+      {
+        "score": 0.7958,
+        "start": 1010.47,
+        "end": 1020.9,
+        "transcript": "The auxiliary output of our teacher model gt does not depend on our student model's parameters, but our student model's output gs does depend on these parameters."
+      },
+      {
+        "score": 0.5739,
+        "start": 1020.9,
+        "end": 1028.49,
+        "transcript": "So following the chain rule, We need to multiply our expression by the negative gradient of our student model's auxiliary output."
+      },
+      {
+        "score": 0.1695,
+        "start": 1028.49,
+        "end": 1030.6,
+        "transcript": "This again is a vector of length 8."
+      },
+      {
+        "score": 0.85,
+        "start": 1030.6,
+        "end": 1038.08,
+        "transcript": "But this time is composed of the partial derivatives of our student model's output GS, with respect to each of our 8 model parameters."
+      },
+      {
+        "score": 0.3569,
+        "start": 1038.08,
+        "end": 1045.03,
+        "transcript": "Note that our minus signs now cancel, and that the entire beginning part of our expression operates on simple scalars."
+      },
+      {
+        "score": 0.4408,
+        "start": 1045.03,
+        "end": 1048.6,
+        "transcript": "Alpha, GS, and GT are just single numbers."
+      },
+      {
+        "score": 0.9095,
+        "start": 1048.6,
+        "end": 1053.77,
+        "transcript": "Now, let's see if we can make some deeper mathematical connections between our teacher and student model."
+      },
+      {
+        "score": 0.8716,
+        "start": 1053.77,
+        "end": 1061.83,
+        "transcript": "Note that before our student model takes its learning step, it has the same initial parameters theta 0 as our teacher model did before learning."
+      },
+      {
+        "score": 0.5187,
+        "start": 1061.83,
+        "end": 1065.19,
+        "transcript": "This connection will help us make some simplifications."
+      },
+      {
+        "score": 0.8758,
+        "start": 1065.19,
+        "end": 1073.28,
+        "transcript": "Let's go ahead and replace gs with g0, the auxiliary output for either our student or teacher model before training."
+      },
+      {
+        "score": 0.69,
+        "start": 1073.28,
+        "end": 1078.0,
+        "transcript": "We're assuming at this point that our teacher model has taken its single learning step."
+      },
+      {
+        "score": 0.494,
+        "start": 1078.0,
+        "end": 1079.64,
+        "transcript": "So its output is GT."
+      },
+      {
+        "score": 0.6014,
+        "start": 1079.64,
+        "end": 1083.15,
+        "transcript": "But our student model hasn't yet taken its learning step."
+      },
+      {
+        "score": 0.4408,
+        "start": 1083.15,
+        "end": 1085.07,
+        "transcript": "So its current output is G0."
+      },
+      {
+        "score": 0.8216,
+        "start": 1085.07,
+        "end": 1097.45,
+        "transcript": "Thanks to our back propagation math, we now have a nice equation that tells us how our student model parameters will change, delta theta s."
+      },
+      {
+        "score": 0.9175,
+        "start": 1097.45,
+        "end": 1097.45,
+        "transcript": "When learning to match our teacher model's auxiliary output, GT."
+      },
+      {
+        "score": 0.3223,
+        "start": 1097.45,
+        "end": 1101.08,
+        "transcript": "Let's now focus in on GT itself."
+      },
+      {
+        "score": 0.4483,
+        "start": 1101.08,
+        "end": 1108.48,
+        "transcript": "Let's see if we can rewrite GT in a way that will help us simplify our delta theta s equation."
+      },
+      {
+        "score": 1.0,
+        "start": 1108.48,
+        "end": 1122.06,
+        "transcript": "As our teacher model learns, its output moves from g0 to gt, and this change is driven by the update in our teacher model's parameters delta theta t."
+      },
+      {
+        "score": 0.319,
+        "start": 1122.06,
+        "end": 1122.06,
+        "transcript": "We can approximate this connection using a first order Taylor expansion."
+      },
+      {
+        "score": 0.5471,
+        "start": 1122.06,
+        "end": 1128.16,
+        "transcript": "The idea here is to use the partial derivatives between our model's output g and each parameter theta."
+      },
+      {
+        "score": 0.659,
+        "start": 1128.16,
+        "end": 1132.65,
+        "transcript": "to estimate how much each model parameter change impacts our final output."
+      },
+      {
+        "score": 0.3844,
+        "start": 1132.65,
+        "end": 1145.31,
+        "transcript": "So for our theta1 parameter, for example, if we can compute the partial derivative dg d theta1, this gives us the rate of change or slope of g with respect to theta1."
+      },
+      {
+        "score": 0.7248,
+        "start": 1145.31,
+        "end": 1158.05,
+        "transcript": "And if we multiply this rate of change by how much theta1 actually changed during learning, this will give us a number that represents approximately how much g changed as a result of theta1 changing during learning."
+      },
+      {
+        "score": 0.5144,
+        "start": 1158.05,
+        "end": 1167.28,
+        "transcript": "Repeating this process for each parameter in our model, we get eight partial derivatives times eight different delta theta values."
+      },
+      {
+        "score": 0.9424,
+        "start": 1167.28,
+        "end": 1176.97,
+        "transcript": "And if we add these results together, we should get approximately the overall change in our teacher model's output G after one training step."
+      },
+      {
+        "score": 0.1546,
+        "start": 1176.97,
+        "end": 1180.47,
+        "transcript": "We can write this sum more compactly using a dot product like this."
+      },
+      {
+        "score": 0.8209,
+        "start": 1180.47,
+        "end": 1189.62,
+        "transcript": "So using our Taylor expansion, we can approximate our teacher model's output Gt as our initial untrained model output G0."
+      },
+      {
+        "score": 0.8757,
+        "start": 1189.62,
+        "end": 1200.33,
+        "transcript": "plus the dot product of the gradient of our output g, and the changes in our teachers' weights delta theta t."
+      },
+      {
+        "score": 0.3532,
+        "start": 1200.33,
+        "end": 1200.33,
+        "transcript": "Where our gradients and deltas are both vectors of length 8."
+      },
+      {
+        "score": 0.6219,
+        "start": 1200.33,
+        "end": 1207.36,
+        "transcript": "From here, let's substitute our new expression for gt into our student model's parameter update equation."
+      },
+      {
+        "score": 0.4551,
+        "start": 1207.36,
+        "end": 1217.75,
+        "transcript": "Note that the g0 terms cancel out, and we're left with the dot product from our Taylor expansion times the gradient of g from our back propagation math."
+      },
+      {
+        "score": 0.3282,
+        "start": 1217.75,
+        "end": 1221.29,
+        "transcript": "The G0's canceling out is really nice."
+      },
+      {
+        "score": 0.401,
+        "start": 1221.29,
+        "end": 1224.7,
+        "transcript": "This effectively removes our starting point from the equation."
+      },
+      {
+        "score": 0.9952,
+        "start": 1224.7,
+        "end": 1241.46,
+        "transcript": "And we're left with an expression that more directly links what our student model learns delta theta sub S to what our teacher model learns delta theta sub T."
+      },
+      {
+        "score": 0.5539,
+        "start": 1241.46,
+        "end": 1241.46,
+        "transcript": "Note that the gradient of our auxiliary output G now shows up twice in our new equation, but from different sources."
+      },
+      {
+        "score": 0.5446,
+        "start": 1241.46,
+        "end": 1245.09,
+        "transcript": "This outer gradient is the result of back propagation."
+      },
+      {
+        "score": 0.8,
+        "start": 1245.09,
+        "end": 1248.56,
+        "transcript": "telling our student how to update each of its weights as it learns."
+      },
+      {
+        "score": 0.7194,
+        "start": 1248.56,
+        "end": 1259.39,
+        "transcript": "While this inner gradient is a result of the first order Taylor expansion from our teacher models output, where we broke apart GT into components representing the contributions of each model weight."
+      },
+      {
+        "score": 0.8093,
+        "start": 1259.39,
+        "end": 1264.41,
+        "transcript": "This symmetry between teacher and student will be very helpful shortly."
+      },
+      {
+        "score": 0.8647,
+        "start": 1264.41,
+        "end": 1270.96,
+        "transcript": "Now, let's use our new equation to look for correlation between how our student and teacher models learn."
+      },
+      {
+        "score": 0.3491,
+        "start": 1270.96,
+        "end": 1278.37,
+        "transcript": "One way to measure correlation is to take the dot product of the update in our teachers' weights with the update in our students' weights."
+      },
+      {
+        "score": 0.5449,
+        "start": 1278.37,
+        "end": 1290.76,
+        "transcript": "If we think of our parameter vectors as points in the eight-dimensional parameter space of our model, both of our models start at the same point theta zero, and their updates move them away from this point."
+      },
+      {
+        "score": 0.3458,
+        "start": 1290.76,
+        "end": 1295.97,
+        "transcript": "The dot product of our vectors is proportional to the cosine of the angles between them."
+      },
+      {
+        "score": 0.6159,
+        "start": 1295.97,
+        "end": 1302.56,
+        "transcript": "So if our weight updates move our two models in a similar direction, we expect a positive dot product."
+      },
+      {
+        "score": 0.3368,
+        "start": 1302.56,
+        "end": 1307.03,
+        "transcript": "If our weight updates are orthogonal, our dot product would be zero."
+      },
+      {
+        "score": 0.7211,
+        "start": 1307.03,
+        "end": 1315.7,
+        "transcript": "And finally, if the angle between our teacher and student weight updates is more than 90 degrees, our teacher and student will move apart in our parameter space."
+      },
+      {
+        "score": 0.381,
+        "start": 1315.7,
+        "end": 1318.08,
+        "transcript": "And our dot product will be negative."
+      },
+      {
+        "score": 0.4922,
+        "start": 1318.08,
+        "end": 1325.87,
+        "transcript": "Thanks to the work we've already done, we have a nice expression for delta theta s in terms of delta theta t."
+      },
+      {
+        "score": 0.3651,
+        "start": 1325.87,
+        "end": 1340.42,
+        "transcript": "So to find the dot product between our two parameter update vectors, we can just take the dot product of the expression we saw for earlier with delta theta t."
+      },
+      {
+        "score": 0.4006,
+        "start": 1340.42,
+        "end": 1340.42,
+        "transcript": "Note that we're switching the order of the theta vectors in our dot product."
+      },
+      {
+        "score": 0.4321,
+        "start": 1340.42,
+        "end": 1345.89,
+        "transcript": "This won't change our result, but we'll make our next step easier to see."
+      },
+      {
+        "score": 0.3167,
+        "start": 1345.89,
+        "end": 1349.26,
+        "transcript": "This first dot product just results in a single scalar value."
+      },
+      {
+        "score": 0.7274,
+        "start": 1349.26,
+        "end": 1356.24,
+        "transcript": "So we can factor it out along with our learning rate alpha and group our last two terms together into another dot product."
+      },
+      {
+        "score": 0.3455,
+        "start": 1356.24,
+        "end": 1362.38,
+        "transcript": "are two resulting dot products are interestingly identical, and both just yield scalars."
+      },
+      {
+        "score": 0.3976,
+        "start": 1362.38,
+        "end": 1365.69,
+        "transcript": "So we can write them as a single dot product squared."
+      },
+      {
+        "score": 0.5495,
+        "start": 1365.69,
+        "end": 1373.58,
+        "transcript": "Finally, we know that any scalar squared will be zero or positive, and that our learning rate alpha is also positive."
+      },
+      {
+        "score": 0.7169,
+        "start": 1373.58,
+        "end": 1379.99,
+        "transcript": "So the overall dot product between our teacher and student parameter updates must be greater than or equal to zero."
+      },
+      {
+        "score": 0.4154,
+        "start": 1379.99,
+        "end": 1383.62,
+        "transcript": "This is a powerful result."
+      },
+      {
+        "score": 0.747,
+        "start": 1383.62,
+        "end": 1395.46,
+        "transcript": "It tells us that to a first order approximation, when we train our student to match our teacher's auxiliary output, our student's weights will either be orthogonal or move in the same direction as our teacher's weights."
+      },
+      {
+        "score": 0.722,
+        "start": 1395.46,
+        "end": 1399.55,
+        "transcript": "We can see this nicely in our model's parameter space."
+      },
+      {
+        "score": 0.4635,
+        "start": 1399.55,
+        "end": 1402.29,
+        "transcript": "Down to a scaling factor."
+      },
+      {
+        "score": 0.8442,
+        "start": 1402.29,
+        "end": 1410.18,
+        "transcript": "The delta theta s equation we saw for earlier is equivalent to projecting our teacher model's updates onto our gradient vector."
+      },
+      {
+        "score": 0.7611,
+        "start": 1410.18,
+        "end": 1415.37,
+        "transcript": "So our student model updates its weights in the direction of this projection."
+      },
+      {
+        "score": 0.5289,
+        "start": 1415.37,
+        "end": 1430.69,
+        "transcript": "Regardless of which way our teacher's updates point in parameter space, their projection onto our gradient vector will always point in the same general direction, unless our teacher's updates end up being completely orthogonal, which in practice is unlikely."
+      },
+      {
+        "score": 0.934,
+        "start": 1430.69,
+        "end": 1439.44,
+        "transcript": "So by simply training on our teacher's auxiliary outputs, our student's parameters will likely be pulled in the same direction as our teachers."
+      },
+      {
+        "score": 0.9588,
+        "start": 1439.44,
+        "end": 1448.72,
+        "transcript": "This result has powerful implications for our student model's ability to learn our teacher's primary task, as we saw in the immnest example."
+      },
+      {
+        "score": 0.6566,
+        "start": 1448.72,
+        "end": 1470.71,
+        "transcript": "We won't step through the full derivation here, but it turns out that by using a similar Taylor expansion-based analysis, we can show that our teacher's loss function, evaluated on our trained student model, is approximately equal to our teacher's loss on our untrained model minus this term, which includes the dot product of our weight updates we've been considering."
+      },
+      {
+        "score": 0.1985,
+        "start": 1470.71,
+        "end": 1478.3,
+        "transcript": "Since we know that our dot product is zero or positive, this means that our overall term will be zero or negative."
+      },
+      {
+        "score": 0.7991,
+        "start": 1478.3,
+        "end": 1486.23,
+        "transcript": "Meaning that our student model will either state the same level as our teacher or get better at the teacher's primary task as it learns."
+      },
+      {
+        "score": 0.813,
+        "start": 1486.23,
+        "end": 1498.28,
+        "transcript": "So either our update vectors will be orthogonal, which again is unlikely, or the student will improve at the teacher's primary task, even when only being trained to match the teacher's auxiliary output."
+      },
+      {
+        "score": 0.8747,
+        "start": 1498.28,
+        "end": 1513.81,
+        "transcript": "So when our teacher and student models start with the same initialization for a single gradient descent step into a first order approximation, we can rigorously show that our teacher and student weight updates are likely to move in the same direction in our parameter space."
+      },
+      {
+        "score": 0.6754,
+        "start": 1513.81,
+        "end": 1518.18,
+        "transcript": "And that our student is likely to improve at our teacher's primary task."
+      },
+      {
+        "score": 0.6697,
+        "start": 1518.18,
+        "end": 1523.85,
+        "transcript": "The Subliminal Learning Team presents a more general version of this proof in their paper."
+      }
+    ],
+    "segment_count": 114
+  },
+  {
+    "name": "The These",
+    "start": 1519,
+    "original_name": "various loss functions",
+    "score": 3.958238117313385,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.5446,
+        "start": 1572.24,
+        "end": 1578.27,
+        "transcript": "So, are AI models sending each other secret messages?"
+      },
+      {
+        "score": 0.6876,
+        "start": 1523.85,
+        "end": 1529.99,
+        "transcript": "which applies to larger models and various loss functions, but reaches the same two fundamental results."
+      },
+      {
+        "score": 0.746,
+        "start": 1529.99,
+        "end": 1538.32,
+        "transcript": "These results come with significant constraints, but do support the remarkable student learning we saw on the missed example."
+      },
+      {
+        "score": 0.7264,
+        "start": 1538.32,
+        "end": 1545.43,
+        "transcript": "And the fact that for the proof to work, our models have to share the same starting parameters can potentially help us solve a mystery from earlier."
+      },
+      {
+        "score": 0.8059,
+        "start": 1545.43,
+        "end": 1551.74,
+        "transcript": "Remember that the team saw the highest rates of subliminal learning when student and teacher models were of the same type."
+      },
+      {
+        "score": 0.2103,
+        "start": 1551.74,
+        "end": 1555.14,
+        "transcript": "with the exception of GPT-41 and GPT-40."
+      },
+      {
+        "score": 0.4167,
+        "start": 1555.14,
+        "end": 1564.29,
+        "transcript": "It turns out that these two models are actually based on the same random weight initialization, where GPT-41 many in nano are not."
+      },
+      {
+        "score": 0.7882,
+        "start": 1564.29,
+        "end": 1572.24,
+        "transcript": "Our proof and imnist results suggest that subliminal learning is happening between these two models because they share this weight initialization."
+      },
+      {
+        "score": 0.5446,
+        "start": 1572.24,
+        "end": 1578.27,
+        "transcript": "So, are AI models sending each other secret messages?"
+      },
+      {
+        "score": 0.3737,
+        "start": 1578.27,
+        "end": 1583.79,
+        "transcript": "We don't yet have the full picture, but as we've seen, we do have some compelling clues."
+      },
+      {
+        "score": 0.2955,
+        "start": 1583.79,
+        "end": 1585.33,
+        "transcript": "Here's my take."
+      },
+      {
+        "score": 0.7709,
+        "start": 1585.33,
+        "end": 1598.04,
+        "transcript": "I think the big new surprising piece of information here is that we have less control over student teacher model interactions than we thought, especially when we try to control these interactions semantically through language."
+      },
+      {
+        "score": 0.6265,
+        "start": 1598.04,
+        "end": 1605.29,
+        "transcript": "If instead of asking our eagle loving teacher to generate number sequences, we ask it to just talk about whatever it wanted."
+      },
+      {
+        "score": 0.3785,
+        "start": 1605.29,
+        "end": 1608.81,
+        "transcript": "It would be no surprise that its output would focus on eagles."
+      },
+      {
+        "score": 0.5924,
+        "start": 1608.81,
+        "end": 1614.65,
+        "transcript": "And if we trained our student on these examples, it would also not be a surprise that our student would learn to love eagles."
+      },
+      {
+        "score": 0.8712,
+        "start": 1614.65,
+        "end": 1628.49,
+        "transcript": "The assumption we're making, by instead asking our eagle loving model to output number sequences, is that our teacher models preferences and behaviors are completely captured by what its output language means to us."
+      },
+      {
+        "score": 0.6238,
+        "start": 1628.49,
+        "end": 1639.67,
+        "transcript": "One really interesting thing to me about the gymnast examples and the proof, are that these results do not depend at all on the nature of the signals passed between teacher and student."
+      }
+    ],
+    "segment_count": 17
+  },
+  {
+    "name": "The Language",
+    "start": 1630,
+    "original_name": "teacher models preferences",
+    "score": 3.6224452869415282,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.5563,
+        "start": 1639.67,
+        "end": 1647.04,
+        "transcript": "In both cases, we added extra model outputs to represent potentially unrelated tokens in our full language model."
+      },
+      {
+        "score": 0.4534,
+        "start": 1647.04,
+        "end": 1658.73,
+        "transcript": "Under the constraints of these examples, the mechanics of back propagation and gradient descent mean that it doesn't matter how semantically related or unrelated these different tokens feel to us."
+      },
+      {
+        "score": 0.3053,
+        "start": 1658.73,
+        "end": 1660.86,
+        "transcript": "The phenomenon will still occur."
+      },
+      {
+        "score": 0.5492,
+        "start": 1660.86,
+        "end": 1671.63,
+        "transcript": "The outputs in our tiny proof models could correspond to highly semantically related tokens like Eagle and Falcon, or to unrelated tokens like Eagle and the number 412."
+      },
+      {
+        "score": 0.2888,
+        "start": 1671.63,
+        "end": 1674.79,
+        "transcript": "Either way, the proof still works."
+      },
+      {
+        "score": 0.6551,
+        "start": 1674.79,
+        "end": 1684.46,
+        "transcript": "A few weeks after the Subliminal Learning Paper came out, another research team proposed an alternative explanation called token entanglement."
+      },
+      {
+        "score": 0.5311,
+        "start": 1684.46,
+        "end": 1690.99,
+        "transcript": "They present some really interesting results, showing that the tokens for certain numbers can become entangled with other tokens."
+      },
+      {
+        "score": 0.739,
+        "start": 1690.99,
+        "end": 1701.22,
+        "transcript": "For example, it turns out that telling a model that it loves the number 087 increases the probability of the model telling us that its favorite animal is an owl by 300%."
+      },
+      {
+        "score": 0.6958,
+        "start": 1701.22,
+        "end": 1712.23,
+        "transcript": "So a cause of subliminal learning may be the frequency of certain numbers in the training data, increasing the model's probability of outputting entangled tokens."
+      },
+      {
+        "score": 0.4963,
+        "start": 1712.23,
+        "end": 1718.5,
+        "transcript": "It's unclear right now to what extent token entanglement explains the overall phenomena."
+      },
+      {
+        "score": 0.6946,
+        "start": 1718.5,
+        "end": 1726.35,
+        "transcript": "If this hypothesis shakes out, it would be possible to find hidden traits in training examples by looking at simple token frequencies."
+      },
+      {
+        "score": 0.4931,
+        "start": 1726.35,
+        "end": 1731.89,
+        "transcript": "But you do have to know which tokens are entangled in the first place, which is a function of the model's weights."
+      },
+      {
+        "score": 0.3584,
+        "start": 1731.89,
+        "end": 1742.6,
+        "transcript": "Both the proof we walked through here and the token entanglement hypothesis point to the same idea that it doesn't really matter how connected two tokens feel to us."
+      },
+      {
+        "score": 0.5165,
+        "start": 1742.6,
+        "end": 1749.55,
+        "transcript": "They can and will be connected together by the mechanics of the model, sometimes in very surprising ways."
+      },
+      {
+        "score": 0.7164,
+        "start": 1749.55,
+        "end": 1758.59,
+        "transcript": "Language models have gotten so good so quickly that I think it's easy to forget that the way they learn is incredibly different from how we learn."
+      },
+      {
+        "score": 0.7037,
+        "start": 1758.59,
+        "end": 1766.83,
+        "transcript": "I try to avoid overly anthropomorphizing these models, but I think that supplemental learning is a really nice name for this phenomenon."
+      },
+      {
+        "score": 0.5869,
+        "start": 1766.83,
+        "end": 1770.28,
+        "transcript": "It's not that the teacher is trying to send secret messages."
+      },
+      {
+        "score": 0.685,
+        "start": 1770.28,
+        "end": 1776.26,
+        "transcript": "And as far as we can tell, the student is not explicitly aware of the information in these number sequences."
+      },
+      {
+        "score": 0.7498,
+        "start": 1776.26,
+        "end": 1788.87,
+        "transcript": "What's going on here appears from the perspective of the models to be happening subliminally at the mechanistic gradient and weight layer below the semantic language level that we think about these models operating at."
+      },
+      {
+        "score": 0.5787,
+        "start": 1788.87,
+        "end": 1799.7,
+        "transcript": "Based on the evidence we've seen, it seems to me that looking for patterns in these number sequences without knowing anything about the teacher or student is a fool's errand."
+      },
+      {
+        "score": 0.5773,
+        "start": 1799.7,
+        "end": 1805.81,
+        "transcript": "From this perspective, the traits encoded in these number sequences do seem completely hidden."
+      },
+      {
+        "score": 0.2499,
+        "start": 1805.81,
+        "end": 1808.0,
+        "transcript": "and that is a wild idea."
+      },
+      {
+        "score": 0.7233,
+        "start": 1808.0,
+        "end": 1817.75,
+        "transcript": "From a more practical perspective, even given knowledge about the teacher and student, it's still not trivial to figure out what traits may be transferred through training data."
+      },
+      {
+        "score": 0.3998,
+        "start": 1817.75,
+        "end": 1823.12,
+        "transcript": "We can check if our student likes eagles, but this is a trait that we already knew to look for."
+      },
+      {
+        "score": 0.6432,
+        "start": 1823.12,
+        "end": 1832.59,
+        "transcript": "This problem has a ton of overlap with creating well-aligned models in general, but subliminal learning appears to add some extra complexity to that puzzle."
+      },
+      {
+        "score": 0.7789,
+        "start": 1832.59,
+        "end": 1838.57,
+        "transcript": "It's also not yet clear just how similar a teacher and student model have to be for subliminal learning to occur."
+      },
+      {
+        "score": 0.2907,
+        "start": 1838.57,
+        "end": 1845.93,
+        "transcript": "Finally, I'm also curious if there's some more relevant prior art out there that hasn't yet surfaced."
+      },
+      {
+        "score": 0.3669,
+        "start": 1845.93,
+        "end": 1850.84,
+        "transcript": "The fact that we're just discovering this in 2025 kind of blows my mind."
+      },
+      {
+        "score": 0.7353,
+        "start": 1850.84,
+        "end": 1855.75,
+        "transcript": "Once you see subliminal learning in action, it's hard to believe we didn't find it earlier."
+      },
+      {
+        "score": 0.5957,
+        "start": 1855.75,
+        "end": 1860.33,
+        "transcript": "On the other hand, there's still a ton we don't know about how these models work."
+      },
+      {
+        "score": 0.6507,
+        "start": 1860.33,
+        "end": 1865.23,
+        "transcript": "And I love that these types of fundamental mysteries are still alive and well in AI research."
+      },
+      {
+        "score": 0.2095,
+        "start": 1865.23,
+        "end": 1884.63,
+        "transcript": "Thanks for watching."
+      }
+    ],
+    "segment_count": 32
+  },
+  {
+    "name": "The The",
+    "start": 1866,
+    "original_name": "still alive",
+    "score": 2.497914373048147,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.4697,
+        "start": 1884.63,
+        "end": 1889.61,
+        "transcript": "It's funny to me that the most commonly chosen number for most models is just one, two, three."
+      },
+      {
+        "score": 0.6133,
+        "start": 1889.61,
+        "end": 1895.42,
+        "transcript": "This is probably just a reflection of the training data, but it kind of feels like the models are just being lazy."
+      },
+      {
+        "score": 0.7093,
+        "start": 1895.42,
+        "end": 1910.94,
+        "transcript": "We show numbers and frequencies for a standard GPT 4.1 nano model, and teachers that have been prompted to love owls, eagles, wolves, elephants, and finally numbers from an insecure model that will lead students towards unsafe behavior."
+      },
+      {
+        "score": 0.5305,
+        "start": 1910.94,
+        "end": 1915.55,
+        "transcript": "I think it's so cool that you can clearly see differences in the distributions of numbers."
+      },
+      {
+        "score": 0.6549,
+        "start": 1915.55,
+        "end": 1924.34,
+        "transcript": "This is why it's possible to train a classifier to figure out which model examples come from, and is also connected to the token entanglement hypothesis."
+      },
+      {
+        "score": 0.7211,
+        "start": 1924.34,
+        "end": 1928.55,
+        "transcript": "The poster gives an overview of the subliminal learning phenomenon itself."
+      },
+      {
+        "score": 0.4655,
+        "start": 1928.55,
+        "end": 1933.83,
+        "transcript": "The imnister results we covered in the video, and a detailed walkthrough of the proof."
+      },
+      {
+        "score": 0.0,
+        "start": 1933.83,
+        "end": 1940.0,
+        "transcript": "The poster is printed on high-end photo printers, on photo paper for excellent color reproduction and durability."
+      },
+      {
+        "score": 0.1987,
+        "start": 1940.0,
+        "end": 1945.29,
+        "transcript": "and comes in a few different color options, including this wood background option that we've been trying out."
+      },
+      {
+        "score": 0.1051,
+        "start": 1945.29,
+        "end": 1949.19,
+        "transcript": "Posture ship and protective archival paper."
+      },
+      {
+        "score": 0.138,
+        "start": 1949.19,
+        "end": 1951.47,
+        "transcript": "And you can also pick up a high quality digital version."
+      },
+      {
+        "score": 0.3277,
+        "start": 1951.47,
+        "end": 1956.3,
+        "transcript": "You can get a discount on the poster when you bundle it with my imaginary numbers book."
+      },
+      {
+        "score": 0.2298,
+        "start": 1956.3,
+        "end": 1958.48,
+        "transcript": "We've just received our 10th print run of the book."
+      },
+      {
+        "score": 0.2014,
+        "start": 1958.48,
+        "end": 1962.95,
+        "transcript": "Huge thank you to all the readers who helped find small errors and made suggestions."
+      },
+      {
+        "score": 0.2386,
+        "start": 1962.95,
+        "end": 1966.07,
+        "transcript": "These folks now have their own thank you on page 10."
+      },
+      {
+        "score": 0.2539,
+        "start": 1966.07,
+        "end": 1969.69,
+        "transcript": "The book is a great way to learn about imaginary numbers."
+      },
+      {
+        "score": 0.3937,
+        "start": 1969.69,
+        "end": 1974.8,
+        "transcript": "And I'm especially happy with how the chapters on Euler's formula and Schrodinger's equation turned out."
+      },
+      {
+        "score": 0.3734,
+        "start": 1974.8,
+        "end": 1982.69,
+        "transcript": "You can find the imaginary numbers book, the new Subliminal Learning poster and more at www.welchlabs.com-fordslash-resources."
+      }
+    ],
+    "segment_count": 18
+  }
+]

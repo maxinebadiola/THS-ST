@@ -1,0 +1,1104 @@
+[
+  {
+    "name": "The This",
+    "start": 0,
+    "original_name": "neural network using standard back propagation",
+    "score": 3.8652271809226866,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.5651,
+        "start": 0.03,
+        "end": 8.91,
+        "transcript": "When you don't know, take a guess, and then see what happens, and update your guess after that."
+      },
+      {
+        "score": 0.2122,
+        "start": 8.91,
+        "end": 11.23,
+        "transcript": "Stackquest."
+      },
+      {
+        "score": 0.2534,
+        "start": 11.23,
+        "end": 15.78,
+        "transcript": "Hello, I'm Josh Starmer, and welcome to Stackquest."
+      },
+      {
+        "score": 0.5699,
+        "start": 15.78,
+        "end": 23.36,
+        "transcript": "Today we're going to talk about reinforcement learning with neural networks, and we're going to cover the essential concepts."
+      },
+      {
+        "score": 0.2326,
+        "start": 23.36,
+        "end": 32.62,
+        "transcript": "This stack quest is brought to you by the letters A, B and C."
+      },
+      {
+        "score": 0.3415,
+        "start": 32.62,
+        "end": 32.62,
+        "transcript": "A always B, B, C curious."
+      },
+      {
+        "score": 0.3721,
+        "start": 32.62,
+        "end": 34.74,
+        "transcript": "Always B curious."
+      },
+      {
+        "score": 0.5081,
+        "start": 34.74,
+        "end": 44.59,
+        "transcript": "Note, this stack quest assumes that you are already familiar with the main ideas of how neural networks work, as well as the basics of back propagation."
+      },
+      {
+        "score": 0.167,
+        "start": 44.59,
+        "end": 48.52,
+        "transcript": "If not, check out the quests or my book on AI."
+      },
+      {
+        "score": 0.5797,
+        "start": 48.52,
+        "end": 60.59,
+        "transcript": "Now, imagine it was snack time and we had to choose between going to Squatch's fry shack or Norm's fry hut for a delicious French fry snack."
+      },
+      {
+        "score": 0.4993,
+        "start": 60.59,
+        "end": 65.54,
+        "transcript": "There are a lot of ways we could pick one of the two places for a snack."
+      },
+      {
+        "score": 0.4481,
+        "start": 65.54,
+        "end": 68.62,
+        "transcript": "For example, we could just flip a coin."
+      },
+      {
+        "score": 0.3096,
+        "start": 68.62,
+        "end": 72.88,
+        "transcript": "If we got heads, we could go to squatches."
+      },
+      {
+        "score": 0.5234,
+        "start": 72.88,
+        "end": 77.61,
+        "transcript": "And if we got tails, we could go to norms."
+      },
+      {
+        "score": 0.5702,
+        "start": 77.61,
+        "end": 82.45,
+        "transcript": "However, just flipping a coin wouldn't take into account how hungry we were."
+      },
+      {
+        "score": 0.4976,
+        "start": 82.45,
+        "end": 86.05,
+        "transcript": "And some days we might be more hungry than others."
+      },
+      {
+        "score": 0.6332,
+        "start": 86.05,
+        "end": 91.97,
+        "transcript": "Also, flipping a coin doesn't take into account how many fries we get at each place."
+      },
+      {
+        "score": 0.5315,
+        "start": 91.97,
+        "end": 96.66,
+        "transcript": "For example, we might usually get a lot of fries at norms."
+      },
+      {
+        "score": 0.5099,
+        "start": 96.66,
+        "end": 100.08,
+        "transcript": "And that would be great if we were really hungry."
+      },
+      {
+        "score": 0.4201,
+        "start": 100.08,
+        "end": 104.73,
+        "transcript": "But maybe less great if we were not so hungry."
+      },
+      {
+        "score": 0.5667,
+        "start": 104.73,
+        "end": 109.29,
+        "transcript": "It's also possible that norm might give us a skimpy order of fries."
+      },
+      {
+        "score": 0.4803,
+        "start": 109.29,
+        "end": 113.5,
+        "transcript": "And if we were really hungry, that would be a total bummer."
+      },
+      {
+        "score": 0.4936,
+        "start": 113.5,
+        "end": 118.71,
+        "transcript": "In contrast, if we were not very hungry, it might not be so bad."
+      },
+      {
+        "score": 0.4185,
+        "start": 118.71,
+        "end": 125.2,
+        "transcript": "Likewise, a squash might serve us a skimpy order of fries or a large one."
+      },
+      {
+        "score": 0.5703,
+        "start": 125.2,
+        "end": 129.66,
+        "transcript": "and depending on how hungry we were, each order could be good or bad."
+      },
+      {
+        "score": 0.5623,
+        "start": 129.66,
+        "end": 144.48,
+        "transcript": "So it would be nice to have a way to decide which place to go to for a snack that took our hunger into account, as well as the possibility that we could get a large or skimpy order of fries at each place."
+      },
+      {
+        "score": 0.7869,
+        "start": 144.48,
+        "end": 156.51,
+        "transcript": "To solve this problem, we're going to use a neural network that takes our hunger as input and gives us the probability that we will go to norms, p-norm, as the output."
+      },
+      {
+        "score": 0.6133,
+        "start": 156.51,
+        "end": 161.12,
+        "transcript": "The only problem is that we need to train this one bias."
+      },
+      {
+        "score": 0.4146,
+        "start": 161.12,
+        "end": 169.39,
+        "transcript": "Now, usually when we want to train a neural network, we would start with a training data set like this."
+      },
+      {
+        "score": 0.3839,
+        "start": 169.39,
+        "end": 174.99,
+        "transcript": "that has possible input values paired with their ideal output values."
+      },
+      {
+        "score": 0.317,
+        "start": 174.99,
+        "end": 181.5,
+        "transcript": "With this type of training data, we could train our neural network using standard back propagation."
+      },
+      {
+        "score": 0.7159,
+        "start": 181.5,
+        "end": 190.53,
+        "transcript": "However, in this example, we don't know in advance if norm or squash will serve us a large or small order of fries."
+      },
+      {
+        "score": 0.7922,
+        "start": 190.53,
+        "end": 195.7,
+        "transcript": "And that means we don't know in advance what the output value should be."
+      },
+      {
+        "score": 0.7763,
+        "start": 195.7,
+        "end": 202.4,
+        "transcript": "Josh, if we don't know what the output value should be, how can we train our neural network?"
+      },
+      {
+        "score": 0.5585,
+        "start": 202.4,
+        "end": 210.75,
+        "transcript": "When we don't have known output values in a training data set, we can still train our model using reinforcement learning."
+      },
+      {
+        "score": 0.5471,
+        "start": 210.75,
+        "end": 220.14,
+        "transcript": "There are lots of different reinforcement learning algorithms for training neural networks, but in this video, we'll focus on one called policy gradients."
+      },
+      {
+        "score": 0.3112,
+        "start": 1388.02,
+        "end": 1389.18,
+        "transcript": "Bam!"
+      },
+      {
+        "score": 0.6949,
+        "start": 222.26,
+        "end": 231.49,
+        "transcript": "Note, the goal of this stat quest is to provide you with a solid understanding of the essential concepts of how policy gradients work."
+      },
+      {
+        "score": 0.5719,
+        "start": 231.49,
+        "end": 240.71,
+        "transcript": "That said, if you want to see all of the nitty-gritty mathematical details worked out step by step, check out the follow-up quest."
+      },
+      {
+        "score": 0.4245,
+        "start": 240.71,
+        "end": 255.75,
+        "transcript": "Now, before we dive into reinforcement learning and policy gradients, I want to do a quick review of how traditional back propagation works so we can understand its limitations and see how policy gradients overcome them."
+      },
+      {
+        "score": 0.7185,
+        "start": 255.75,
+        "end": 263.5,
+        "transcript": "So, for now, let's just assume that we have this training data and know the desired outputs in advance."
+      },
+      {
+        "score": 0.467,
+        "start": 263.5,
+        "end": 270.51,
+        "transcript": "Given this data, we could run the input values through the neural network one at a time."
+      },
+      {
+        "score": 0.6778,
+        "start": 270.51,
+        "end": 276.7,
+        "transcript": "and quantify the differences between the output from the neural network and the ideal output values."
+      },
+      {
+        "score": 0.5835,
+        "start": 276.7,
+        "end": 288.7,
+        "transcript": "Then, if we wanted to, we could calculate these differences for different values for the bias and draw a graph that shows how the differences change with different bias values."
+      },
+      {
+        "score": 0.7119,
+        "start": 288.7,
+        "end": 297.78,
+        "transcript": "Then, using a value for the bias, we could calculate the derivative of the differences with respect to the bias."
+      },
+      {
+        "score": 0.7351,
+        "start": 297.78,
+        "end": 312.74,
+        "transcript": "And because the derivative, the slope of this green line is negative, we would know that the value for the bias that minimizes the differences and thus results in a better fitting model is larger than the current value."
+      },
+      {
+        "score": 0.741,
+        "start": 312.74,
+        "end": 325.0,
+        "transcript": "In other words, when the derivative, the slope of this green line is negative, then we need to shift the value for the bias to the right on the x-axis."
+      },
+      {
+        "score": 0.8085,
+        "start": 325.0,
+        "end": 341.57,
+        "transcript": "Alternatively, if we use this value for the bias to calculate the derivative, then the derivative, the slope of this green line, would be positive, telling us that the optimal value is less than the current value for the bias."
+      },
+      {
+        "score": 0.7477,
+        "start": 341.57,
+        "end": 353.14,
+        "transcript": "In other words, when the derivative, the slope of this green line is positive, then we need to shift the value for the bias to the left on the x-axis."
+      },
+      {
+        "score": 0.7864,
+        "start": 353.14,
+        "end": 361.56,
+        "transcript": "In summary, when the derivative is negative, we need to increase the value for the bias by shifting it to the right."
+      },
+      {
+        "score": 0.8563,
+        "start": 361.56,
+        "end": 368.96,
+        "transcript": "And when the derivative is positive, we need to decrease the value for the bias by shifting it to the left."
+      },
+      {
+        "score": 0.8044,
+        "start": 368.96,
+        "end": 380.3,
+        "transcript": "Lastly, the derivatives can correctly tell us which direction to shift the bias because the training data contains the ideal output values."
+      },
+      {
+        "score": 0.7302,
+        "start": 380.3,
+        "end": 383.88,
+        "transcript": "So this is how back propagation normally works."
+      },
+      {
+        "score": 0.3139,
+        "start": 1203.19,
+        "end": 1204.37,
+        "transcript": "Bam."
+      },
+      {
+        "score": 0.564,
+        "start": 384.96,
+        "end": 394.41,
+        "transcript": "However, our problem is that we don't know in advance where we can consistently get a small or large order of fries."
+      },
+      {
+        "score": 0.5521,
+        "start": 394.41,
+        "end": 399.16,
+        "transcript": "And that means our data set can't have ideal output values."
+      },
+      {
+        "score": 0.7055,
+        "start": 399.16,
+        "end": 407.63,
+        "transcript": "And without the ideal output values, we can't calculate the differences between them and the outputs from the neural network."
+      },
+      {
+        "score": 0.4907,
+        "start": 407.63,
+        "end": 412.01,
+        "transcript": "And without those differences, we can't calculate these derivatives."
+      },
+      {
+        "score": 0.8104,
+        "start": 412.01,
+        "end": 420.4,
+        "transcript": "And without the derivatives, we don't know if we should shift the bias value to the right or to the left."
+      },
+      {
+        "score": 0.2934,
+        "start": 420.4,
+        "end": 423.72,
+        "transcript": "Josh, what are we going to do?"
+      },
+      {
+        "score": 0.5968,
+        "start": 423.72,
+        "end": 431.83,
+        "transcript": "Well, it turns out we don't actually need to know the ideal output values in advance to calculate the derivatives."
+      },
+      {
+        "score": 0.5832,
+        "start": 431.83,
+        "end": 439.93,
+        "transcript": "Instead, we can guess what the ideal values should be and use those guesses to calculate the derivatives."
+      },
+      {
+        "score": 0.2659,
+        "start": 439.93,
+        "end": 440.56,
+        "transcript": "Boom."
+      },
+      {
+        "score": 0.1733,
+        "start": 440.56,
+        "end": 442.2,
+        "transcript": "Yes."
+      },
+      {
+        "score": 0.8202,
+        "start": 442.2,
+        "end": 451.35,
+        "transcript": "Now let's work through our example and see how reinforcement learning and policy gradients can use guessing to make this work."
+      },
+      {
+        "score": 0.9166,
+        "start": 451.35,
+        "end": 459.05,
+        "transcript": "We'll start by assuming we are not hungry, and that means we'll plug 0.0 into the neural network."
+      },
+      {
+        "score": 0.5577,
+        "start": 459.05,
+        "end": 460.65,
+        "transcript": "Now we just do the math."
+      },
+      {
+        "score": 0.6434,
+        "start": 460.65,
+        "end": 495.62,
+        "transcript": "and the probability that we'll go to norms, P norm is 0.5. And that means that the corresponding probability that we will go to squatches, P squatch, is 1 minus P norm, which equals 0.5. In other words, we can draw a line that is 0.5 units long to represent the probability of going to squatches and then append another line that is 0.5 units long to represent the probability of going to norms."
+      },
+      {
+        "score": 0.5926,
+        "start": 495.62,
+        "end": 499.3,
+        "transcript": "And we end up with a line that goes from 0 to 1."
+      },
+      {
+        "score": 0.67,
+        "start": 499.3,
+        "end": 507.61,
+        "transcript": "Now, to decide which place we will visit for a snack, we pick a random number between 0 and 1."
+      },
+      {
+        "score": 0.7319,
+        "start": 507.61,
+        "end": 518.72,
+        "transcript": "In this example, we randomly pick the number 0.2. and because 0.2 is in the region that represents Squatch's fry shack, we'll go there."
+      },
+      {
+        "score": 0.5741,
+        "start": 518.72,
+        "end": 522.26,
+        "transcript": "Now comes the part where we make a guess."
+      },
+      {
+        "score": 0.7102,
+        "start": 522.26,
+        "end": 537.2,
+        "transcript": "If we make a guess that the correct thing to do is go to Squatch's when our hunger is 0.0, then ideally, we would want the probability of going to Squatch's p-squatch to be 1."
+      },
+      {
+        "score": 0.5162,
+        "start": 537.2,
+        "end": 544.62,
+        "transcript": "And that means that, ideally, we'd want the probability of going to norms, p-norm, to be zero."
+      },
+      {
+        "score": 0.6476,
+        "start": 544.62,
+        "end": 563.81,
+        "transcript": "Now, given these ideal values that are based on our guess, we can quantify the difference between the ideal value for p-squatch, 1.0, and the actual value for p-squatch, 0.5, that's based on the output from the neural network."
+      },
+      {
+        "score": 0.6014,
+        "start": 563.81,
+        "end": 575.22,
+        "transcript": "Note, in the follow-up stat quest, adding reinforcement learning to neural networks, mathematical details, will show exactly how we quantify this difference."
+      },
+      {
+        "score": 0.4788,
+        "start": 575.22,
+        "end": 579.34,
+        "transcript": "Spoiler alert will use cross entropy."
+      },
+      {
+        "score": 0.6489,
+        "start": 579.34,
+        "end": 602.16,
+        "transcript": "For now, all you need to know is that we can quantify the difference between the p-squatch derived from the guess 1.0 and the p-squatch derived from the output from the neural network 0.5. And that means we can calculate the derivative of the difference with respect to the bias that we want to optimize."
+      },
+      {
+        "score": 0.3112,
+        "start": 1388.02,
+        "end": 1389.18,
+        "transcript": "Bam!"
+      },
+      {
+        "score": 0.4035,
+        "start": 603.58,
+        "end": 607.99,
+        "transcript": "How exactly do we calculate this derivative?"
+      },
+      {
+        "score": 0.4219,
+        "start": 607.99,
+        "end": 614.5,
+        "transcript": "That's a great question, Squatch, and we'll go through it step by step in the follow-up stack quest."
+      },
+      {
+        "score": 0.6231,
+        "start": 614.5,
+        "end": 620.65,
+        "transcript": "For now, the most important thing is to know that the guess makes it possible."
+      },
+      {
+        "score": 0.9087,
+        "start": 620.65,
+        "end": 639.21,
+        "transcript": "Anyway, given our guess that going to Squatch's place is the best thing to do, the derivative ends up being 0.5. And if that guess is correct, then the positive value for the derivative tells us to decrease the value for the bias and shift it to the left."
+      },
+      {
+        "score": 0.639,
+        "start": 639.21,
+        "end": 651.86,
+        "transcript": "On the other hand, if our guess is incorrect, and we should have gone to norms instead, then we'll want to do the exact opposite of what the derivative tells us to do."
+      },
+      {
+        "score": 0.7835,
+        "start": 651.86,
+        "end": 660.58,
+        "transcript": "In other words, instead of decreasing the value for the bias, we want to increase the value for the bias and shift it to the right."
+      },
+      {
+        "score": 0.6074,
+        "start": 660.58,
+        "end": 666.46,
+        "transcript": "But Josh, how will we know if the guess is correct or not?"
+      },
+      {
+        "score": 0.5067,
+        "start": 666.46,
+        "end": 673.09,
+        "transcript": "In other words, how do we know if we should shift the bias to the left or the right?"
+      },
+      {
+        "score": 0.3055,
+        "start": 673.09,
+        "end": 676.05,
+        "transcript": "The answer is simple, Squatch."
+      },
+      {
+        "score": 0.4563,
+        "start": 676.05,
+        "end": 678.46,
+        "transcript": "We just order some fries."
+      },
+      {
+        "score": 0.3112,
+        "start": 1388.02,
+        "end": 1389.18,
+        "transcript": "Bam!"
+      },
+      {
+        "score": 0.601,
+        "start": 680.28,
+        "end": 686.47,
+        "transcript": "In this example, when we order some fries, we get this relatively small serving."
+      },
+      {
+        "score": 0.5353,
+        "start": 686.47,
+        "end": 690.5,
+        "transcript": "Hey, Squatch, how come our order of fries is so small?"
+      },
+      {
+        "score": 0.3544,
+        "start": 690.5,
+        "end": 694.4,
+        "transcript": "I couldn't resist and I ate some of your fries."
+      },
+      {
+        "score": 0.2528,
+        "start": 694.4,
+        "end": 698.71,
+        "transcript": "Well, this time, I guess that's okay."
+      },
+      {
+        "score": 0.4883,
+        "start": 698.71,
+        "end": 704.45,
+        "transcript": "It's okay because our hunger level is 0.0, meaning we're not hungry at all."
+      },
+      {
+        "score": 0.3598,
+        "start": 704.45,
+        "end": 709.42,
+        "transcript": "So it was actually a good thing that squash ate some of our fries."
+      },
+      {
+        "score": 0.8465,
+        "start": 709.42,
+        "end": 716.77,
+        "transcript": "In other words, getting a small order of fries when we're not hungry means we made the correct guess."
+      },
+      {
+        "score": 0.977,
+        "start": 716.77,
+        "end": 734.81,
+        "transcript": "And since we made the correct guess, we set something called reward to 1.0. In contrast, if Squatch had given us a large order of fries, then we wouldn't be hungry enough to eat all of the fries, and that means we made the wrong guess."
+      },
+      {
+        "score": 0.755,
+        "start": 734.81,
+        "end": 739.6,
+        "transcript": "So, in this case, we would set the reward to negative one."
+      },
+      {
+        "score": 0.7666,
+        "start": 739.6,
+        "end": 752.93,
+        "transcript": "Note, any positive reward will work for a correct guess, and any negative reward will work for an incorrect guess, and we'll go through an example with different values in just a bit."
+      },
+      {
+        "score": 0.7605,
+        "start": 752.93,
+        "end": 762.44,
+        "transcript": "But for now, let's just set the reward to 1.0 for correct guess and negative 1.0 for an incorrect guess."
+      },
+      {
+        "score": 0.8997,
+        "start": 762.44,
+        "end": 769.47,
+        "transcript": "OK, I get that a positive or negative reward reflects if our guess is correct or not."
+      },
+      {
+        "score": 0.7641,
+        "start": 769.47,
+        "end": 774.82,
+        "transcript": "But how does that help us interpret the derivative that we calculated earlier?"
+      },
+      {
+        "score": 0.8923,
+        "start": 774.82,
+        "end": 784.11,
+        "transcript": "We simply multiply the derivative by the reward to get an updated derivative that points us in the correct direction."
+      },
+      {
+        "score": 0.3112,
+        "start": 1388.02,
+        "end": 1389.18,
+        "transcript": "Bam!"
+      },
+      {
+        "score": 0.9727,
+        "start": 785.45,
+        "end": 806.98,
+        "transcript": "In this example, we were not hungry and Squatch gave us a small order of fries, so we made the correct guess and the reward equals 1.0. and multiplying the derivative 0.5 by the reward 1.0 means the updated derivative is the same as the original derivative."
+      },
+      {
+        "score": 0.8527,
+        "start": 806.98,
+        "end": 815.17,
+        "transcript": "And the positive updated derivative tells us to shift the bias to the left, just like the original derivative."
+      },
+      {
+        "score": 0.8245,
+        "start": 815.17,
+        "end": 824.7,
+        "transcript": "In other words, when we make the correct guess to begin with, then the derivative that is based on that guess points us in the correct direction."
+      },
+      {
+        "score": 0.813,
+        "start": 824.7,
+        "end": 833.64,
+        "transcript": "In contrast, if we were not hungry, but Squatch gave us a large order of fries, then we would have made the wrong guess."
+      },
+      {
+        "score": 0.7184,
+        "start": 833.64,
+        "end": 838.99,
+        "transcript": "And the derivative would be telling us to do the opposite of what we should do."
+      },
+      {
+        "score": 0.9617,
+        "start": 838.99,
+        "end": 847.06,
+        "transcript": "However, multiplying the derivative by a negative reward for making the wrong guess would flip things around."
+      },
+      {
+        "score": 0.8972,
+        "start": 847.06,
+        "end": 853.47,
+        "transcript": "And then the updated derivative would correctly tell us to shift the bias to the right."
+      },
+      {
+        "score": 0.806,
+        "start": 853.47,
+        "end": 867.14,
+        "transcript": "In other words, if we made the wrong guess to begin with, then multiplying the derivative, which is based on that guess, by a negative number, will flip things around and point it in the correct direction."
+      },
+      {
+        "score": 0.3314,
+        "start": 867.14,
+        "end": 870.94,
+        "transcript": "This is super important, so let me repeat it."
+      },
+      {
+        "score": 0.9545,
+        "start": 870.94,
+        "end": 881.74,
+        "transcript": "When we multiply a derivative that is based on an incorrect guess by a negative reward, we flip the direction and correct the mistake."
+      },
+      {
+        "score": 0.8927,
+        "start": 881.74,
+        "end": 894.8,
+        "transcript": "In summary, when we multiply the derivative by the reward, we end up with an updated derivative that tells us how to modify the bias correctly."
+      },
+      {
+        "score": 0.3112,
+        "start": 894.8,
+        "end": 896.45,
+        "transcript": "BAM!"
+      },
+      {
+        "score": 0.4735,
+        "start": 896.45,
+        "end": 904.23,
+        "transcript": "Note, before we move on, I want to reiterate that the rewards don't have to be one and negative one."
+      },
+      {
+        "score": 0.8172,
+        "start": 904.23,
+        "end": 915.38,
+        "transcript": "For example, if Squatch didn't give us any fries at all, then we could set the reward to two or negative two depending on how hungry we were."
+      },
+      {
+        "score": 0.9253,
+        "start": 915.38,
+        "end": 926.15,
+        "transcript": "If we were not hungry, then the reward equals 2.0, and the updated derivative will be twice what it was before, but still pointing in the original direction."
+      },
+      {
+        "score": 0.7834,
+        "start": 926.15,
+        "end": 933.38,
+        "transcript": "And so the updated derivative would tell us to take a larger step in the same direction as before."
+      },
+      {
+        "score": 0.9097,
+        "start": 933.38,
+        "end": 949.33,
+        "transcript": "In contrast, if we were hungry and we didn't get any fries, then the reward equals negative 2.0. and the updated derivative would tell us to take a larger step in the opposite direction of the original derivative."
+      },
+      {
+        "score": 0.3112,
+        "start": 1388.02,
+        "end": 1389.18,
+        "transcript": "Bam!"
+      },
+      {
+        "score": 0.7271,
+        "start": 950.41,
+        "end": 957.6,
+        "transcript": "Now let's go back to our example where we were not hungry and Squatch gave us a small order of fries."
+      },
+      {
+        "score": 0.7058,
+        "start": 957.6,
+        "end": 978.49,
+        "transcript": "So our guess was correct and the reward equaled 1.0. When we multiply the derivative 0.5 by the reward 1.0, we get the updated derivative 0.5. We then plug the updated derivative into gradient descent to calculate the step size."
+      },
+      {
+        "score": 0.6482,
+        "start": 978.49,
+        "end": 1014.98,
+        "transcript": "Now, in this example, the learning rate is set to 1.0. So the equation ends up being 1.0 times the updated derivative 0.5. and so the step size is equal to 0.5. Then we calculate the new value for the bias by subtracting the step size, 0.5, from the old bias value, 0.0. To get the new bias value, negative 0.5. Now we plug the new bias term into our neural network."
+      },
+      {
+        "score": 0.3112,
+        "start": 1388.02,
+        "end": 1389.18,
+        "transcript": "Bam!"
+      },
+      {
+        "score": 0.7499,
+        "start": 1016.92,
+        "end": 1023.63,
+        "transcript": "Now that we have updated the bias, we have to get some more fries so we can keep optimizing it."
+      },
+      {
+        "score": 0.7814,
+        "start": 1023.63,
+        "end": 1052.69,
+        "transcript": "So we plug in our hunger level, 0.0. And when we do the math, the probability that we will go to norms is now 0.4. And that means that the probability we go to squaches, 1 minus p norm, has increased to 0.6. and the probability that we go to norms has decreased to 0.4. Remember, the last time our hunger was 0.0, we went to squatches."
+      },
+      {
+        "score": 0.4006,
+        "start": 1052.69,
+        "end": 1055.29,
+        "transcript": "And we got what we wanted."
+      },
+      {
+        "score": 0.5687,
+        "start": 1055.29,
+        "end": 1063.12,
+        "transcript": "So it makes sense that, given the same hunger as before, we now have a higher probability of going to squatches."
+      },
+      {
+        "score": 0.6972,
+        "start": 1063.12,
+        "end": 1075.84,
+        "transcript": "Now we pick a random number between 0 and 1, and we get 0.9. And because 0.9 is in the region that represents norm's fry hut, that's where we'll go."
+      },
+      {
+        "score": 0.8492,
+        "start": 1075.84,
+        "end": 1081.65,
+        "transcript": "Now, in order to update this bias, we have to calculate the derivative."
+      },
+      {
+        "score": 0.6888,
+        "start": 1081.65,
+        "end": 1088.7,
+        "transcript": "And in order to calculate the derivative, we have to make a guess that going to norms was the right thing to do."
+      },
+      {
+        "score": 0.8203,
+        "start": 1088.7,
+        "end": 1114.21,
+        "transcript": "And if going to norms is the right thing to do, then ideally, the probability of visiting norms should be 1.0. Making the guess allows us to quantify the difference between the output from the neural network 0.4 and the ideal value 1.0. And with that difference, we can calculate the derivative with respect to the bias."
+      },
+      {
+        "score": 0.7566,
+        "start": 1114.21,
+        "end": 1128.73,
+        "transcript": "This time, when we calculate the derivative, we get negative 0.6. Now we need to determine if we made the correct guess so that we know if we should shift the bias to the left or the right."
+      },
+      {
+        "score": 0.5682,
+        "start": 1128.73,
+        "end": 1131.32,
+        "transcript": "So we order some fries."
+      },
+      {
+        "score": 0.291,
+        "start": 1131.32,
+        "end": 1134.66,
+        "transcript": "And norm gives us a huge pile of them."
+      },
+      {
+        "score": 0.3102,
+        "start": 1134.66,
+        "end": 1137.9,
+        "transcript": "Normally, this would be awesome."
+      },
+      {
+        "score": 0.362,
+        "start": 1137.9,
+        "end": 1141.07,
+        "transcript": "Unfortunately, we aren't hungry."
+      },
+      {
+        "score": 0.751,
+        "start": 1141.07,
+        "end": 1150.1,
+        "transcript": "And since we are not hungry, the fact that norm gave us a huge pile of fries means we made the wrong guess."
+      },
+      {
+        "score": 0.699,
+        "start": 1150.1,
+        "end": 1152.91,
+        "transcript": "So the reward equals negative one."
+      },
+      {
+        "score": 0.8953,
+        "start": 1152.91,
+        "end": 1169.79,
+        "transcript": "Now we multiply the derivative by the reward to get the updated derivative 0.6. Note, the updated derivative 0.6 is positive, so that means we need to decrease the value of the bias some more."
+      },
+      {
+        "score": 0.572,
+        "start": 1169.79,
+        "end": 1176.86,
+        "transcript": "We then plug the updated derivative into gradient descent to calculate the step size."
+      },
+      {
+        "score": 0.6264,
+        "start": 1176.86,
+        "end": 1203.19,
+        "transcript": "And remember, the learning rate is set to 1.0, so the step size ends up being 0.6. Then we calculate the new value for the bias by subtracting the step size 0.6 from the old bias value negative 0.5 to get the new bias value negative 1.1. And now we plug the new bias term into our neural network."
+      },
+      {
+        "score": 0.3139,
+        "start": 1203.19,
+        "end": 1204.37,
+        "transcript": "Bam."
+      },
+      {
+        "score": 0.8343,
+        "start": 1204.37,
+        "end": 1216.85,
+        "transcript": "Now, if we plug 0.0, which means we are not hungry into the neural network, the probability that we will go to norms is even smaller than it was before."
+      },
+      {
+        "score": 0.7038,
+        "start": 1216.85,
+        "end": 1232.82,
+        "transcript": "Now it's 0.2. And it makes sense that the probability of going to norms is getting smaller Because, so far, each time we've plugged 0.0 into the input, we should have gone to squatches instead of norms."
+      },
+      {
+        "score": 0.764,
+        "start": 1232.82,
+        "end": 1240.51,
+        "transcript": "And that means that the reinforcement learning algorithm we're using, ordinary policy gradients, is working."
+      },
+      {
+        "score": 0.2257,
+        "start": 1240.51,
+        "end": 1242.87,
+        "transcript": "Double bam!"
+      },
+      {
+        "score": 0.8266,
+        "start": 1242.87,
+        "end": 1250.29,
+        "transcript": "Note, so far, we've only plugged 0.0 for hunger into the neural network."
+      },
+      {
+        "score": 0.6327,
+        "start": 1250.29,
+        "end": 1257.7,
+        "transcript": "However, in order to fully train the model, we have to use values from 0 to 1 as inputs to the neural network."
+      },
+      {
+        "score": 0.7467,
+        "start": 1257.7,
+        "end": 1268.67,
+        "transcript": "And after doing lots of updates, using all kinds of input values between 0 and 1, the value for the bias starts to hover around negative 10."
+      },
+      {
+        "score": 0.5005,
+        "start": 1268.67,
+        "end": 1273.88,
+        "transcript": "And the fact that we are hovering around some value means we're done training."
+      },
+      {
+        "score": 0.8136,
+        "start": 1273.88,
+        "end": 1282.52,
+        "transcript": "Now when we are not hungry and the input is 0.0, The probability of going to norms is zero."
+      },
+      {
+        "score": 0.4466,
+        "start": 1282.52,
+        "end": 1287.31,
+        "transcript": "And that means when we're not hungry, we'll always go to squatches."
+      },
+      {
+        "score": 0.3524,
+        "start": 1287.31,
+        "end": 1292.52,
+        "transcript": "That's because, more often than not, I eat most of your fries."
+      },
+      {
+        "score": 0.4668,
+        "start": 1292.52,
+        "end": 1298.05,
+        "transcript": "So, when you're not hungry and don't want many fries, come to my share."
+      },
+      {
+        "score": 0.8371,
+        "start": 1298.05,
+        "end": 1308.2,
+        "transcript": "In contrast, when we are hungry and the input value is 1.0, the probability of going to norms is one."
+      },
+      {
+        "score": 0.5384,
+        "start": 1308.2,
+        "end": 1312.65,
+        "transcript": "And that means when we are hungry, we'll always go to norms."
+      },
+      {
+        "score": 0.3471,
+        "start": 1312.65,
+        "end": 1317.46,
+        "transcript": "And that's because, more often than not, I don't eat your fries."
+      },
+      {
+        "score": 0.4363,
+        "start": 1317.46,
+        "end": 1322.66,
+        "transcript": "So, when you're hungry and want a lot of fries, come to my hut."
+      },
+      {
+        "score": 0.1566,
+        "start": 1322.66,
+        "end": 1325.51,
+        "transcript": "Triple Bam!"
+      },
+      {
+        "score": 0.6138,
+        "start": 1325.51,
+        "end": 1336.84,
+        "transcript": "In summary, reinforcement learning allows us to optimize a neural network when we don't have known outputs or target values in advance."
+      },
+      {
+        "score": 0.794,
+        "start": 1336.84,
+        "end": 1341.02,
+        "transcript": "We start by using the neural network to decide where to go."
+      },
+      {
+        "score": 0.6314,
+        "start": 1341.02,
+        "end": 1347.02,
+        "transcript": "Then we make the guess that wherever we ended up going was the right place to go."
+      },
+      {
+        "score": 0.6924,
+        "start": 1347.02,
+        "end": 1353.73,
+        "transcript": "For example, if we went to norms, we would guess that going to norms was the best option."
+      },
+      {
+        "score": 0.4713,
+        "start": 1353.73,
+        "end": 1358.44,
+        "transcript": "Even though we might later discover that we should have gone to squaches."
+      },
+      {
+        "score": 0.6997,
+        "start": 1358.44,
+        "end": 1366.25,
+        "transcript": "Once we've made that guess, we use it to calculate the derivative with respect to the parameter we want to optimize."
+      },
+      {
+        "score": 0.8591,
+        "start": 1366.25,
+        "end": 1370.32,
+        "transcript": "We then determined the reward associated with that guess."
+      },
+      {
+        "score": 1.0,
+        "start": 1370.32,
+        "end": 1378.31,
+        "transcript": "And we multiply the derivative by the reward to correct for any error that we might have made when we made the original guess."
+      },
+      {
+        "score": 0.653,
+        "start": 1378.31,
+        "end": 1381.59,
+        "transcript": "And that gives us the updated derivative."
+      },
+      {
+        "score": 0.7924,
+        "start": 1381.59,
+        "end": 1388.02,
+        "transcript": "And we plug the updated derivative into gradient descent to optimize the neural network."
+      },
+      {
+        "score": 0.3112,
+        "start": 1388.02,
+        "end": 1389.18,
+        "transcript": "Bam!"
+      },
+      {
+        "score": 0.106,
+        "start": 1389.18,
+        "end": 1394.99,
+        "transcript": "Now it's time for some shameless self-promotion."
+      },
+      {
+        "score": 0.1506,
+        "start": 1394.99,
+        "end": 1410.52,
+        "transcript": "If you want to review statistics and machine learning offline, check out the StackWest PDF study guides in my books, the StackWest Illustrated Guide to Machine Learning, and the StackWest Illustrated Guide to Neural Networks and AI at StackWest.org."
+      },
+      {
+        "score": 0.0631,
+        "start": 1410.52,
+        "end": 1413.03,
+        "transcript": "There's something for everyone."
+      },
+      {
+        "score": 0.3155,
+        "start": 1413.03,
+        "end": 1417.16,
+        "transcript": "Hooray, we've made it to the end of another exciting stat quest."
+      },
+      {
+        "score": 0.2381,
+        "start": 1417.16,
+        "end": 1420.88,
+        "transcript": "If you'd like this stat quest and want to see more, please subscribe."
+      },
+      {
+        "score": 0.1089,
+        "start": 1420.88,
+        "end": 1433.11,
+        "transcript": "And if you want to support stat quest, consider contributing to my Patreon campaign, becoming a channel member, buying one or two of my original songs or a t-shirt or a hoodie, or just donate."
+      },
+      {
+        "score": 0.0,
+        "start": 1433.11,
+        "end": 1435.21,
+        "transcript": "The links are in the description below."
+      },
+      {
+        "score": 0.1223,
+        "start": 1435.21,
+        "end": 1439.4,
+        "transcript": "Alright, until next time, quest on!"
+      }
+    ],
+    "segment_count": 182
+  }
+]

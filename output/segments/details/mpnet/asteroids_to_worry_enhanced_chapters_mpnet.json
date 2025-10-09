@@ -1,0 +1,1316 @@
+[
+  {
+    "name": "The Chelyabinsk",
+    "start": 0,
+    "original_name": "thousand people got glass",
+    "score": 4.878138266245524,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.1136,
+        "start": 8.42,
+        "end": 12.79,
+        "transcript": "This video was sponsored by KiwiCo, more about them at the end of the show."
+      },
+      {
+        "score": 0.8033,
+        "start": 12.79,
+        "end": 28.08,
+        "transcript": "On February 15th, 2013, over Chelyabinsk, Russia, an asteroid heavier than the Eiffel Tower slammed into the atmosphere, and then 30 kilometers above the ground, it exploded."
+      },
+      {
+        "score": 0.7351,
+        "start": 28.08,
+        "end": 48.89,
+        "transcript": "This violent event was brighter than the sun, but so high up that it was silent for a full 90 seconds after the blast, which only made the devastation worse."
+      },
+      {
+        "score": 0.5784,
+        "start": 48.89,
+        "end": 54.27,
+        "transcript": "And then, you know, just when you think nothing's going to happen, the shockwave hits it blows out the windows."
+      },
+      {
+        "score": 0.3571,
+        "start": 54.27,
+        "end": 59.34,
+        "transcript": "Thousand people got glass in their face in their eyes because they're looking through the windows."
+      },
+      {
+        "score": 0.4829,
+        "start": 59.34,
+        "end": 65.36,
+        "transcript": "The shockwave damaged thousands of buildings and injured 1,500 people."
+      },
+      {
+        "score": 0.8489,
+        "start": 65.36,
+        "end": 78.1,
+        "transcript": "What makes the Chelyabinsk incident kind of embarrassing is that the very same day scientists had predicted that an asteroid would make a close fly by of Earth."
+      },
+      {
+        "score": 0.8097,
+        "start": 78.1,
+        "end": 88.36,
+        "transcript": "And they were right, 16 hours after Chelyabinsk, a similar sized asteroid, known as Duende, came within 27,000 kilometers of Earth's surface."
+      },
+      {
+        "score": 0.5345,
+        "start": 88.36,
+        "end": 92.56,
+        "transcript": "That's closer than satellites in geosynchronous orbit."
+      },
+      {
+        "score": 0.7832,
+        "start": 92.56,
+        "end": 100.76,
+        "transcript": "but while they correctly predicted this close approach, they completely missed the unrelated asteroid that exploded over Russia."
+      },
+      {
+        "score": 0.3708,
+        "start": 100.76,
+        "end": 104.12,
+        "transcript": "And the truth is, this happens all the time."
+      },
+      {
+        "score": 0.921,
+        "start": 104.12,
+        "end": 108.47,
+        "transcript": "We're really not that good at detecting asteroids before they hit us."
+      }
+    ],
+    "segment_count": 12
+  },
+  {
+    "name": "The Asteroids",
+    "start": 106,
+    "original_name": "hit us",
+    "score": 5.0531543974740165,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8641,
+        "start": 108.47,
+        "end": 115.08,
+        "transcript": "Since 1988, over 1200 asteroids bigger than a meter have collided with the Earth."
+      },
+      {
+        "score": 0.6792,
+        "start": 115.08,
+        "end": 122.87,
+        "transcript": "And of those, we detected only five before they hit, never with more than a day of warning."
+      },
+      {
+        "score": 0.6713,
+        "start": 122.87,
+        "end": 133.26,
+        "transcript": "With all our technology and all the telescopes across the Earth, not to mention the ones in space, why do we struggle to detect dangerous asteroids before they strike?"
+      },
+      {
+        "score": 0.6742,
+        "start": 133.26,
+        "end": 140.09,
+        "transcript": "What are the chances that a big asteroid will hit, wiping out most if not all life on Earth?"
+      },
+      {
+        "score": 0.6246,
+        "start": 140.09,
+        "end": 145.18,
+        "transcript": "And if we saw one coming, what could we do about it?"
+      },
+      {
+        "score": 0.7677,
+        "start": 145.18,
+        "end": 159.65,
+        "transcript": "Asteroids are the leftover debris from when our solar system formed."
+      },
+      {
+        "score": 0.504,
+        "start": 159.65,
+        "end": 168.66,
+        "transcript": "Four and a half billion years ago, rocks and dust clumped together into molten proto-planets."
+      },
+      {
+        "score": 0.3039,
+        "start": 168.66,
+        "end": 179.31,
+        "transcript": "Inside, heavy elements, metals like iron, nickel, and eridium, sank into the core, leaving lighter silicate minerals on the surface."
+      },
+      {
+        "score": 0.4023,
+        "start": 179.31,
+        "end": 185.15,
+        "transcript": "Some of these proto-planets grew into the planets we know today."
+      },
+      {
+        "score": 0.5114,
+        "start": 185.15,
+        "end": 190.27,
+        "transcript": "But many more collided with each other, breaking into pieces."
+      },
+      {
+        "score": 0.6573,
+        "start": 190.27,
+        "end": 203.82,
+        "transcript": "These pieces continued orbiting the sun and smashing into each other and breaking into even smaller fragments."
+      },
+      {
+        "score": 0.5349,
+        "start": 203.82,
+        "end": 219.65,
+        "transcript": "These became the asteroids, which is why some of them are rocky, loose conglomerates of gravel-sized rocks called rubble piles, and others from the cores of planetesimals are mostly metal."
+      },
+      {
+        "score": 0.31,
+        "start": 219.65,
+        "end": 221.99,
+        "transcript": "So this is..."
+      },
+      {
+        "score": 0.5195,
+        "start": 221.99,
+        "end": 237.95,
+        "transcript": "This is an iron meteorite and essentially it's the piece of a core of a small planetary body, basically a small planet that formed 4.5 billion years ago, differentiated so the core material fell out."
+      }
+    ],
+    "segment_count": 14
+  },
+  {
+    "name": "The Asteroids",
+    "start": 237,
+    "original_name": "smashed apart",
+    "score": 4.929196878128051,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.801,
+        "start": 237.95,
+        "end": 246.34,
+        "transcript": "And then this thing was smashed apart by collision with another asteroid, but as the oldest thing you'll ever see."
+      },
+      {
+        "score": 0.5288,
+        "start": 246.34,
+        "end": 261.22,
+        "transcript": "Most of the asteroids have stable orbits between Mars and Jupiter in the main asteroid belt, but some have made their way closer to Earth, and these are known as near-Earth objects."
+      },
+      {
+        "score": 0.4198,
+        "start": 261.22,
+        "end": 266.74,
+        "transcript": "They are of greatest interest to us because of the threat they pose."
+      },
+      {
+        "score": 0.6777,
+        "start": 266.74,
+        "end": 273.91,
+        "transcript": "In his last book, Stephen Hawking considered an asteroid impact to be the greatest threat to life on Earth."
+      },
+      {
+        "score": 0.7991,
+        "start": 273.91,
+        "end": 278.62,
+        "transcript": "But finding asteroids is difficult for several reasons."
+      },
+      {
+        "score": 0.5197,
+        "start": 278.62,
+        "end": 282.0,
+        "transcript": "Most are spotted by ground-based telescopes."
+      },
+      {
+        "score": 0.3711,
+        "start": 282.0,
+        "end": 288.53,
+        "transcript": "So what you do is you take a sequence of pictures, one, two, three, one, two, three, four, and you look for essentially a moving dot."
+      },
+      {
+        "score": 0.4977,
+        "start": 288.53,
+        "end": 295.62,
+        "transcript": "And it's moving because it's orbiting around the sun, whereas the stuff far away, the stars and galaxies are not."
+      },
+      {
+        "score": 0.3919,
+        "start": 295.62,
+        "end": 297.81,
+        "transcript": "But you have to look carefully."
+      },
+      {
+        "score": 0.9275,
+        "start": 297.81,
+        "end": 300.28,
+        "transcript": "Asteroids are not very big."
+      }
+    ],
+    "segment_count": 10
+  },
+  {
+    "name": "The Earth",
+    "start": 298,
+    "original_name": "big",
+    "score": 3.269714731014476,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.4569,
+        "start": 300.28,
+        "end": 304.2,
+        "transcript": "They range from meters up to kilometers in size."
+      },
+      {
+        "score": 0.737,
+        "start": 304.2,
+        "end": 308.85,
+        "transcript": "And in the vast, expansive space, rocks like that just don't stand out."
+      },
+      {
+        "score": 0.5961,
+        "start": 308.85,
+        "end": 311.75,
+        "transcript": "And even the small ones can be damaging."
+      },
+      {
+        "score": 0.6374,
+        "start": 311.75,
+        "end": 318.8,
+        "transcript": "The Chelyabinsk meteor was only around 20 meters in diameter, roughly the width of two school buses."
+      },
+      {
+        "score": 0.8403,
+        "start": 318.8,
+        "end": 322.28,
+        "transcript": "Plus, asteroids are rough and dark."
+      },
+      {
+        "score": 0.471,
+        "start": 322.28,
+        "end": 326.35,
+        "transcript": "They only reflect around 15% of the light that hits them."
+      },
+      {
+        "score": 0.6057,
+        "start": 326.35,
+        "end": 331.52,
+        "transcript": "So our best chance to see them is when they're fully illuminated by the sun."
+      },
+      {
+        "score": 0.7675,
+        "start": 331.52,
+        "end": 341.74,
+        "transcript": "And that's why over 85% of the near-earth asteroids we've detected were found in the 45 degrees of sky directly opposite the sun."
+      },
+      {
+        "score": 0.7743,
+        "start": 341.74,
+        "end": 351.37,
+        "transcript": "This is called the opposition effect, and it means there are likely more near-earth and potentially hazardous asteroids that haven't been detected yet."
+      },
+      {
+        "score": 0.7656,
+        "start": 351.37,
+        "end": 357.12,
+        "transcript": "Any asteroid approaching from the direction of the Sun just can't be seen."
+      },
+      {
+        "score": 0.6162,
+        "start": 357.12,
+        "end": 360.81,
+        "transcript": "This is exactly what happened with Chelyabinsk."
+      },
+      {
+        "score": 0.6178,
+        "start": 360.81,
+        "end": 371.64,
+        "transcript": "So far, we have detected and cataloged a million asteroids, the vast majority of which are in the main asteroid belt."
+      },
+      {
+        "score": 0.7758,
+        "start": 371.64,
+        "end": 379.49,
+        "transcript": "But 24,000 are near-Earth objects, ones that we need to keep a particularly close eye on."
+      },
+      {
+        "score": 0.8604,
+        "start": 379.49,
+        "end": 385.44,
+        "transcript": "Because even once you've detected an asteroid, it's hard to tell if it will hit the Earth."
+      },
+      {
+        "score": 0.6378,
+        "start": 385.44,
+        "end": 395.94,
+        "transcript": "So if you just discover an object and you only have Dana from a few days, then you can't really tell where it's going to go because you're trying to take this little arc of motion and predict it far into the future."
+      },
+      {
+        "score": 0.3034,
+        "start": 395.94,
+        "end": 398.84,
+        "transcript": "So what you need is observations over years and years."
+      },
+      {
+        "score": 0.8709,
+        "start": 398.84,
+        "end": 407.53,
+        "transcript": "But even if you have perfect observations of an asteroid, there's kind of a fundamental limit to how far in the future you can predict."
+      }
+    ],
+    "segment_count": 17
+  },
+  {
+    "name": "The And",
+    "start": 399,
+    "original_name": "perfect observations",
+    "score": 2.1722156505320527,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.5402,
+        "start": 407.53,
+        "end": 414.68,
+        "transcript": "And that's because a couple of effects, but one is that they're not just orbiting the Sun with no other influence."
+      },
+      {
+        "score": 0.3583,
+        "start": 414.68,
+        "end": 422.84,
+        "transcript": "All of the planets have gravity, and all of the planets are pulling on near Earth asteroids and can change the orbit significantly."
+      },
+      {
+        "score": 0.8017,
+        "start": 422.84,
+        "end": 430.49,
+        "transcript": "So there is something called dynamical chaos, which basically means after a certain amount of time you don't know where the asteroid is going to be."
+      },
+      {
+        "score": 0.433,
+        "start": 430.49,
+        "end": 437.12,
+        "transcript": "And in practice what that means is we can't do any work more than 100 years in the future."
+      },
+      {
+        "score": 0.5902,
+        "start": 437.12,
+        "end": 443.37,
+        "transcript": "So the maximum time you can predict with any accuracy at all where a body will be is about 100 years."
+      },
+      {
+        "score": 0.6708,
+        "start": 443.37,
+        "end": 451.66,
+        "transcript": "And this is pretty important because we know with certainty if one does hit the results will be dramatic."
+      },
+      {
+        "score": 0.4937,
+        "start": 451.66,
+        "end": 456.25,
+        "transcript": "This is Beringer Crater in Arizona."
+      },
+      {
+        "score": 0.4199,
+        "start": 456.25,
+        "end": 464.11,
+        "transcript": "It's named after mining engineer Daniel Beringer, who was the first to suggest it was formed by a meteorite impact."
+      },
+      {
+        "score": 0.3091,
+        "start": 464.11,
+        "end": 470.06,
+        "transcript": "The prevailing view, even up until the 1950s, was that it was created by volcanic activity."
+      },
+      {
+        "score": 0.5678,
+        "start": 470.06,
+        "end": 476.37,
+        "transcript": "But Beringer was convinced it was the site of an iron meteorite impact."
+      },
+      {
+        "score": 0.4152,
+        "start": 476.37,
+        "end": 488.39,
+        "transcript": "So in 1903, he staked a mining claim and began drilling for the metallic meteorite, which he believed to be worth more than a billion 1903 dollars."
+      },
+      {
+        "score": 0.128,
+        "start": 488.39,
+        "end": 490.65,
+        "transcript": "Yeah, so people are motivated by money, right?"
+      },
+      {
+        "score": 0.2453,
+        "start": 490.65,
+        "end": 493.32,
+        "transcript": "So they thought, hey, we can get some iron for free, basically."
+      },
+      {
+        "score": 0.5333,
+        "start": 493.32,
+        "end": 497.43,
+        "transcript": "So they started to drill in the bottom of the crater and found nothing."
+      },
+      {
+        "score": 0.3608,
+        "start": 497.43,
+        "end": 500.63,
+        "transcript": "And then they started to do other exploratory drills."
+      },
+      {
+        "score": 0.2868,
+        "start": 500.63,
+        "end": 502.75,
+        "transcript": "And this went on for years and decades."
+      },
+      {
+        "score": 0.4312,
+        "start": 502.75,
+        "end": 504.49,
+        "transcript": "They started to drill sideways."
+      },
+      {
+        "score": 0.5756,
+        "start": 504.49,
+        "end": 507.12,
+        "transcript": "Somebody said, you know, maybe it came in from an angle, which it did."
+      },
+      {
+        "score": 0.3916,
+        "start": 507.12,
+        "end": 512.29,
+        "transcript": "And maybe the iron is not under the middle, but maybe it's over there under the wall."
+      },
+      {
+        "score": 0.4103,
+        "start": 512.29,
+        "end": 513.31,
+        "transcript": "So he was doing drilling."
+      },
+      {
+        "score": 0.2599,
+        "start": 513.31,
+        "end": 514.99,
+        "transcript": "If you go there, you can see the drills now."
+      },
+      {
+        "score": 0.3357,
+        "start": 514.99,
+        "end": 517.0,
+        "transcript": "He was drilling around the wall."
+      },
+      {
+        "score": 0.2381,
+        "start": 517.0,
+        "end": 517.68,
+        "transcript": "He found nothing."
+      },
+      {
+        "score": 0.6445,
+        "start": 517.68,
+        "end": 529.96,
+        "transcript": "So what they didn't realize is when you have An impact at high speed is not like you're throwing a stone into a brick wall, you know, and it makes a hole and sticks in there or just bounces off."
+      },
+      {
+        "score": 0.487,
+        "start": 529.96,
+        "end": 531.38,
+        "transcript": "It's explosive."
+      },
+      {
+        "score": 0.5106,
+        "start": 531.38,
+        "end": 532.68,
+        "transcript": "It's like totally explosive."
+      },
+      {
+        "score": 0.6005,
+        "start": 532.68,
+        "end": 537.41,
+        "transcript": "So the kinetic energy of the projectile comes in maybe 30 kilometers per second."
+      },
+      {
+        "score": 0.4628,
+        "start": 537.41,
+        "end": 542.17,
+        "transcript": "The kinetic energy of the projectile is big enough to completely vaporize the projectile."
+      },
+      {
+        "score": 0.3042,
+        "start": 542.17,
+        "end": 543.7,
+        "transcript": "It turns it into a gas."
+      },
+      {
+        "score": 0.5483,
+        "start": 543.7,
+        "end": 546.2,
+        "transcript": "And that gas is super hot and super high pressure."
+      },
+      {
+        "score": 0.7744,
+        "start": 546.2,
+        "end": 549.25,
+        "transcript": "And it explodes and it blows out the crater."
+      },
+      {
+        "score": 0.6655,
+        "start": 549.25,
+        "end": 552.47,
+        "transcript": "So the projectile doesn't really exist after the impact."
+      },
+      {
+        "score": 0.4543,
+        "start": 552.47,
+        "end": 553.8,
+        "transcript": "The little pieces can survive."
+      },
+      {
+        "score": 0.6604,
+        "start": 553.8,
+        "end": 558.25,
+        "transcript": "But this 50 meter body was basically obliterated."
+      },
+      {
+        "score": 0.396,
+        "start": 558.25,
+        "end": 562.17,
+        "transcript": "So he was looking for something that did not exist."
+      },
+      {
+        "score": 0.3538,
+        "start": 562.17,
+        "end": 568.94,
+        "transcript": "He spent 27 years mining the crater, drilling down to a depth of over 400 meters."
+      },
+      {
+        "score": 0.6489,
+        "start": 568.94,
+        "end": 575.02,
+        "transcript": "But what he was searching for had vaporized on impact 50,000 years earlier."
+      }
+    ],
+    "segment_count": 37
+  },
+  {
+    "name": "The Chelyabinsk",
+    "start": 575,
+    "original_name": "50 meter asteroid",
+    "score": 4.135454348789562,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8452,
+        "start": 575.02,
+        "end": 584.79,
+        "transcript": "the 50 meter asteroid, not that much bigger than Chelyabinsk, released the energy equivalent of 10 megatons of TNT."
+      },
+      {
+        "score": 0.7332,
+        "start": 584.79,
+        "end": 589.34,
+        "transcript": "That's over 600 times the energy of the Hiroshima bomb."
+      },
+      {
+        "score": 0.838,
+        "start": 589.34,
+        "end": 596.99,
+        "transcript": "So the thing that most closely resembles a meteorite impact is a very large nuclear explosion."
+      },
+      {
+        "score": 0.3522,
+        "start": 596.99,
+        "end": 609.53,
+        "transcript": "This is the actual size of the T-Rex skull."
+      },
+      {
+        "score": 0.3823,
+        "start": 609.53,
+        "end": 612.25,
+        "transcript": "And I thought, this is such a cool thing."
+      },
+      {
+        "score": 0.1363,
+        "start": 612.25,
+        "end": 612.93,
+        "transcript": "I got to have it."
+      },
+      {
+        "score": 0.2689,
+        "start": 612.93,
+        "end": 614.4,
+        "transcript": "So I bought the T-Rex."
+      },
+      {
+        "score": 0.6723,
+        "start": 614.4,
+        "end": 623.57,
+        "transcript": "The dinosaurs were wiped out by 10 kilometer size asteroid that hit about 65 million years ago."
+      },
+      {
+        "score": 0.7291,
+        "start": 623.57,
+        "end": 633.52,
+        "transcript": "So above a critical size, which is probably a couple of kilometers, an impactor delivers so much energy that it has a global effect."
+      },
+      {
+        "score": 0.663,
+        "start": 633.52,
+        "end": 644.38,
+        "transcript": "So essentially it launches a whole bunch of debris into suborbital trajectories."
+      },
+      {
+        "score": 0.7214,
+        "start": 644.38,
+        "end": 652.02,
+        "transcript": "So the ejector goes around the earth, falls back into the earth, all over, even on the other side of the planet from where the impact occurred."
+      }
+    ],
+    "segment_count": 11
+  },
+  {
+    "name": "The Earth",
+    "start": 646,
+    "original_name": "whole sky lights",
+    "score": 3.6290361799663966,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8555,
+        "start": 652.02,
+        "end": 659.27,
+        "transcript": "And what that means is the whole sky lights up with wall-to-wall meteors."
+      },
+      {
+        "score": 0.5078,
+        "start": 659.27,
+        "end": 673.03,
+        "transcript": "So you can imagine the sky turning from, you know, a nice blue day like today into essentially a red, hot glow like being inside a toaster oven."
+      },
+      {
+        "score": 0.6866,
+        "start": 673.03,
+        "end": 683.82,
+        "transcript": "So the first effect of this impact, apart from the initial blast near where the actual impact occurred, the first effect is the sky turns into a great source of heat and it cooks everything on the ground."
+      },
+      {
+        "score": 0.3081,
+        "start": 683.82,
+        "end": 686.04,
+        "transcript": "So these guys were basically cooked."
+      },
+      {
+        "score": 0.1743,
+        "start": 686.04,
+        "end": 687.42,
+        "transcript": "Cooked alive."
+      },
+      {
+        "score": 0.209,
+        "start": 687.42,
+        "end": 689.23,
+        "transcript": "Cooked alive as they were walking around."
+      },
+      {
+        "score": 0.283,
+        "start": 689.23,
+        "end": 697.37,
+        "transcript": "The only animals that had a chance were the ones living in tunnels under the ground or maybe in the water."
+      },
+      {
+        "score": 0.3107,
+        "start": 697.37,
+        "end": 704.6,
+        "transcript": "They were able to come back and take over without having to deal with the dinosaurs as a major obstacle."
+      },
+      {
+        "score": 0.7367,
+        "start": 704.6,
+        "end": 711.64,
+        "transcript": "What are our chances that Earth gets hit by another 10 kilometer or bigger asteroid?"
+      },
+      {
+        "score": 0.7398,
+        "start": 711.64,
+        "end": 722.08,
+        "transcript": "In your lifetime, assuming you live to be 100 years old, you have a 10-kilometer impactor like the KT extinction event every 100 million years or something like that."
+      },
+      {
+        "score": 0.3832,
+        "start": 722.08,
+        "end": 726.53,
+        "transcript": "So the probability of getting it in one year is 1 in 100 million."
+      },
+      {
+        "score": 0.819,
+        "start": 726.53,
+        "end": 730.51,
+        "transcript": "So you have 1 in a million chance of dying from a 10-kilometer impactor."
+      },
+      {
+        "score": 0.7689,
+        "start": 730.51,
+        "end": 741.96,
+        "transcript": "But because we know that there are no 10-kilometer impactors with a path that intersects the Earth for the next 100 years, your chance of dying from that is actually zero."
+      },
+      {
+        "score": 0.4142,
+        "start": 741.96,
+        "end": 746.76,
+        "transcript": "So work down already has reduced that down, you know, from one million to nothing."
+      },
+      {
+        "score": 0.5409,
+        "start": 746.76,
+        "end": 752.99,
+        "transcript": "So the good news is there won't be another dinosaur-style extinction event in our lifetimes."
+      },
+      {
+        "score": 0.8435,
+        "start": 752.99,
+        "end": 758.3,
+        "transcript": "But there are exponentially more asteroids of smaller sizes."
+      },
+      {
+        "score": 0.8845,
+        "start": 758.3,
+        "end": 764.42,
+        "transcript": "For every 10 kilometer asteroid, there are roughly a thousand one kilometer asteroids."
+      },
+      {
+        "score": 0.5119,
+        "start": 764.42,
+        "end": 768.69,
+        "transcript": "And they're still capable of doing a lot of damage."
+      },
+      {
+        "score": 0.7455,
+        "start": 768.69,
+        "end": 775.5,
+        "transcript": "102 kilometers is capable of causing local but massive damage."
+      },
+      {
+        "score": 0.4188,
+        "start": 775.5,
+        "end": 787.14,
+        "transcript": "So that means, you know, instead of wiping out the entire world, you would wipe out the equivalent of some European country, like France or Germany, to mention two of my favorites."
+      },
+      {
+        "score": 0.82,
+        "start": 787.14,
+        "end": 793.31,
+        "transcript": "So you would obliterate those countries with the impact of a 102 kilometer size body."
+      },
+      {
+        "score": 0.781,
+        "start": 793.31,
+        "end": 797.76,
+        "transcript": "Do we know about all the one to two kilometer bodies that could hit us?"
+      },
+      {
+        "score": 0.6382,
+        "start": 797.76,
+        "end": 814.56,
+        "transcript": "We think that we know 90 something percent, maybe 98 percent of those bodies have been identified and we have their orbits and we can make reasonable predictions for the next 10 years or something about where they'll be and we seem to be okay at the moment."
+      },
+      {
+        "score": 0.7292,
+        "start": 814.56,
+        "end": 819.79,
+        "transcript": "But, you know, what about the ones that are just a little bit less than a kilometer?"
+      },
+      {
+        "score": 0.4226,
+        "start": 819.79,
+        "end": 821.43,
+        "transcript": "What about the ones that are 800 meters?"
+      },
+      {
+        "score": 0.5486,
+        "start": 821.43,
+        "end": 823.87,
+        "transcript": "That's still pretty savage if it hits."
+      },
+      {
+        "score": 1.0,
+        "start": 823.87,
+        "end": 828.48,
+        "transcript": "And this is possibly where the greatest threat of asteroids remains."
+      }
+    ],
+    "segment_count": 27
+  },
+  {
+    "name": "The Earth",
+    "start": 824,
+    "original_name": "greatest threat",
+    "score": 2.8996160323788134,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7755,
+        "start": 828.48,
+        "end": 837.46,
+        "transcript": "A few hundred meters is large enough to obliterate a large city, but small enough that we haven't detected them all yet."
+      },
+      {
+        "score": 0.6917,
+        "start": 837.46,
+        "end": 840.67,
+        "transcript": "We're missing a lot of 100-meter-sized projectiles."
+      },
+      {
+        "score": 0.9268,
+        "start": 840.67,
+        "end": 845.88,
+        "transcript": "And those guys are big enough to cause substantial damage on the Earth depending on where they hit."
+      },
+      {
+        "score": 0.6806,
+        "start": 845.88,
+        "end": 847.48,
+        "transcript": "So it could destroy a city?"
+      },
+      {
+        "score": 0.6669,
+        "start": 847.48,
+        "end": 849.93,
+        "transcript": "Yeah, it would knock down the buildings in the city."
+      },
+      {
+        "score": 0.4533,
+        "start": 849.93,
+        "end": 852.01,
+        "transcript": "It would cause citywide fire."
+      },
+      {
+        "score": 0.7024,
+        "start": 852.01,
+        "end": 859.0,
+        "transcript": "And if it hit the ground, it would throw up ejecta that would come back down and rain on the ground."
+      },
+      {
+        "score": 0.7797,
+        "start": 859.0,
+        "end": 864.56,
+        "transcript": "It would be high-speed ejecta that would obliterate 100 kilometers zone around it."
+      },
+      {
+        "score": 0.4788,
+        "start": 864.56,
+        "end": 867.64,
+        "transcript": "And this could happen tomorrow."
+      },
+      {
+        "score": 0.4346,
+        "start": 867.64,
+        "end": 872.78,
+        "transcript": "Well it could, yeah."
+      },
+      {
+        "score": 0.603,
+        "start": 872.78,
+        "end": 874.95,
+        "transcript": "If we saw a big one coming..."
+      },
+      {
+        "score": 0.446,
+        "start": 874.95,
+        "end": 878.71,
+        "transcript": "What's our best bet for, I mean, could we do anything about it?"
+      },
+      {
+        "score": 0.3349,
+        "start": 878.71,
+        "end": 879.77,
+        "transcript": "What would we do about it?"
+      },
+      {
+        "score": 0.2904,
+        "start": 879.77,
+        "end": 882.54,
+        "transcript": "Is there anything we can do to actively..."
+      },
+      {
+        "score": 0.3081,
+        "start": 882.54,
+        "end": 884.4,
+        "transcript": "No. There's nothing we can do."
+      },
+      {
+        "score": 0.288,
+        "start": 884.4,
+        "end": 886.76,
+        "transcript": "I was on a committee that looked at that, okay, like 10 years ago."
+      },
+      {
+        "score": 0.2051,
+        "start": 886.76,
+        "end": 888.22,
+        "transcript": "What could we do?"
+      },
+      {
+        "score": 0.6487,
+        "start": 888.22,
+        "end": 891.39,
+        "transcript": "One option would be to try to bomb it."
+      },
+      {
+        "score": 0.1172,
+        "start": 891.39,
+        "end": 892.35,
+        "transcript": "It's a standard thing."
+      },
+      {
+        "score": 0.4189,
+        "start": 892.35,
+        "end": 894.13,
+        "transcript": "We don't know how that would work out."
+      },
+      {
+        "score": 0.5566,
+        "start": 894.13,
+        "end": 928.72,
+        "transcript": "Even when you got it there, and even if you could explode it on the surface or in the surface, it's not clear what you would do because typically what happens is you blow up a body and the fragments move out they expand out but not very quickly and then gravity pulls them back together again so it would reform as a rubble pile if it was not already a rubble pile to begin with which it probably would be because it passed impacts so blowing up a rubble pile is something that we don't really know about Another idea is you could attach, you could be all gentle and attach a rocket to the asteroid and just try to push it aside."
+      },
+      {
+        "score": 0.7667,
+        "start": 928.72,
+        "end": 935.33,
+        "transcript": "Instead of trying to blow it up, let's just push it gently aside so that it deflects it and it doesn't hit the earth."
+      },
+      {
+        "score": 0.69,
+        "start": 935.33,
+        "end": 943.72,
+        "transcript": "The trouble is when you work out the numbers, none of the rockets that we have can push it around enough, you would have to keep the rockets attached to the surface, which we don't know how to do."
+      },
+      {
+        "score": 0.8229,
+        "start": 943.72,
+        "end": 949.54,
+        "transcript": "Remember, it's a rotating body for centuries to have a significant effect on the motion of the asteroid."
+      },
+      {
+        "score": 0.6297,
+        "start": 949.54,
+        "end": 953.3,
+        "transcript": "So forget bombs, forget attaching rockets."
+      },
+      {
+        "score": 0.2729,
+        "start": 953.3,
+        "end": 956.57,
+        "transcript": "Oblating the surface, basically you boil the surface with a laser."
+      },
+      {
+        "score": 0.6548,
+        "start": 956.57,
+        "end": 962.98,
+        "transcript": "We don't have any lasers powerful enough and probably can't make lasers powerful enough to do that from the earth."
+      },
+      {
+        "score": 0.6603,
+        "start": 962.98,
+        "end": 966.32,
+        "transcript": "We would have to take the lasers to the object, which is even more difficult."
+      },
+      {
+        "score": 0.7612,
+        "start": 966.32,
+        "end": 972.07,
+        "transcript": "The idea that you could wrap an asteroid in cooking foil, aluminum cooking foil is another nice one."
+      },
+      {
+        "score": 0.3162,
+        "start": 972.07,
+        "end": 973.47,
+        "transcript": "It may be a good one, the best one."
+      },
+      {
+        "score": 0.5236,
+        "start": 973.47,
+        "end": 977.2,
+        "transcript": "But it still doesn't really work because we don't know how to do that."
+      },
+      {
+        "score": 0.7983,
+        "start": 977.2,
+        "end": 986.03,
+        "transcript": "don't have a way to launch enough cooking foil to wrap up an asteroid and change its radiative properties which would itself move the asteroid around."
+      },
+      {
+        "score": 0.8783,
+        "start": 986.03,
+        "end": 995.05,
+        "transcript": "So the truth is, to be honest, we do not have a way now to deflect a kilometer-sized asteroid at all."
+      },
+      {
+        "score": 0.6249,
+        "start": 995.05,
+        "end": 996.33,
+        "transcript": "That could destroy a country."
+      },
+      {
+        "score": 0.3807,
+        "start": 996.33,
+        "end": 998.17,
+        "transcript": "Yeah, we just don't have a way."
+      },
+      {
+        "score": 0.3998,
+        "start": 998.17,
+        "end": 999.81,
+        "transcript": "10 kilometers?"
+      },
+      {
+        "score": 0.493,
+        "start": 999.81,
+        "end": 1002.72,
+        "transcript": "10 kilometers is absolutely a thousand times more hopeless."
+      },
+      {
+        "score": 0.3294,
+        "start": 1002.72,
+        "end": 1009.93,
+        "transcript": "So when we discussed this, you know, we had all these grand ideas, we could do this and this and none of them worked."
+      },
+      {
+        "score": 0.2341,
+        "start": 1009.93,
+        "end": 1011.59,
+        "transcript": "We came down to the most basic idea."
+      },
+      {
+        "score": 0.8666,
+        "start": 1011.59,
+        "end": 1018.86,
+        "transcript": "Well, maybe if we could figure out where the asteroid is going to hit, like which city is it going to explode over, we could evacuate that city."
+      },
+      {
+        "score": 0.5225,
+        "start": 1018.86,
+        "end": 1021.78,
+        "transcript": "And then we looked at the history of city evacuations."
+      },
+      {
+        "score": 0.5549,
+        "start": 1021.78,
+        "end": 1030.88,
+        "transcript": "And we looked at cases where, for example, you have like a week's warning where some hurricane system is going to come in and flood a city."
+      },
+      {
+        "score": 0.4799,
+        "start": 1030.88,
+        "end": 1034.32,
+        "transcript": "And evacuation just doesn't work either."
+      },
+      {
+        "score": 0.311,
+        "start": 1034.32,
+        "end": 1036.22,
+        "transcript": "And the reason is very, very simple."
+      },
+      {
+        "score": 0.2211,
+        "start": 1036.22,
+        "end": 1038.91,
+        "transcript": "Going into a city, there are not that many freeways."
+      },
+      {
+        "score": 0.4055,
+        "start": 1038.91,
+        "end": 1045.64,
+        "transcript": "If you have millions of people trying to get on a freeway, the first time a car breaks down, you block that freeway."
+      },
+      {
+        "score": 0.6373,
+        "start": 1045.64,
+        "end": 1054.57,
+        "transcript": "So instantly you have millions of people trying to get out of the target zone and they won't be able to because all of the roads will be instantly blocked."
+      },
+      {
+        "score": 0.5379,
+        "start": 1054.57,
+        "end": 1067.2,
+        "transcript": "So again, even that, even evacuation of a city is probably the most hopeful thing that we could try to do, even that's really, really difficult because of the large numbers of people involved."
+      },
+      {
+        "score": 0.3596,
+        "start": 1067.2,
+        "end": 1073.83,
+        "transcript": "What I think all reasonable people would conclude is, let's do the thing that we can do first."
+      },
+      {
+        "score": 0.4258,
+        "start": 1073.83,
+        "end": 1075.39,
+        "transcript": "So let's look for them."
+      },
+      {
+        "score": 0.0,
+        "start": 1075.39,
+        "end": 1076.39,
+        "transcript": "Let's do the surveys."
+      }
+    ],
+    "segment_count": 51
+  },
+  {
+    "name": "The Now",
+    "start": 1076,
+    "original_name": "major contribution",
+    "score": 2.7572411220302584,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6429,
+        "start": 1076.39,
+        "end": 1077.95,
+        "transcript": "Let's build the telescopes."
+      },
+      {
+        "score": 0.5585,
+        "start": 1077.95,
+        "end": 1079.51,
+        "transcript": "Let's put this telescope in space."
+      },
+      {
+        "score": 0.9297,
+        "start": 1079.51,
+        "end": 1084.54,
+        "transcript": "That will be a major contribution to understanding the threat from the asteroids."
+      },
+      {
+        "score": 0.7257,
+        "start": 1084.54,
+        "end": 1091.57,
+        "transcript": "And then, when we find a particular object that looks especially dangerous, Then we can focus on it."
+      },
+      {
+        "score": 0.5181,
+        "start": 1091.57,
+        "end": 1093.78,
+        "transcript": "We can focus everything we have on it."
+      },
+      {
+        "score": 0.5721,
+        "start": 1093.78,
+        "end": 1099.32,
+        "transcript": "And we can begin to think seriously in with real motivation about ways to deflect it."
+      },
+      {
+        "score": 0.8666,
+        "start": 1099.32,
+        "end": 1106.78,
+        "transcript": "Now, if you're concerned about the world ending in an asteroid impact, let me set your mind at ease."
+      },
+      {
+        "score": 0.6348,
+        "start": 1106.78,
+        "end": 1115.67,
+        "transcript": "There are many other potential global catastrophes summarized in this map of doom made by my friend Dom over at Domain of Science."
+      },
+      {
+        "score": 0.4003,
+        "start": 1115.67,
+        "end": 1122.75,
+        "transcript": "So if you want to see which of these horrible scenarios is likeliest to be our downfall, we'll go check out the video on his channel."
+      },
+      {
+        "score": 0.0521,
+        "start": 1122.75,
+        "end": 1130.12,
+        "transcript": "My oldest now knows how to do the sponsor message."
+      },
+      {
+        "score": 0.118,
+        "start": 1130.12,
+        "end": 1131.07,
+        "transcript": "Do you want to say it?"
+      },
+      {
+        "score": 0.0953,
+        "start": 1131.07,
+        "end": 1136.84,
+        "transcript": "This episode is sponsored by KiwiCo. Very good."
+      },
+      {
+        "score": 0.145,
+        "start": 1136.84,
+        "end": 1141.65,
+        "transcript": "KiwiCo creates awesome projects and toys to get kids making."
+      },
+      {
+        "score": 0.0058,
+        "start": 1141.65,
+        "end": 1147.82,
+        "transcript": "They offer eight subscription lines for kids of all ages, all the way down to newborns."
+      },
+      {
+        "score": 0.0751,
+        "start": 1147.82,
+        "end": 1152.03,
+        "transcript": "And with the holidays right around the corner, KiwiCo is the perfect gift idea."
+      },
+      {
+        "score": 0.1156,
+        "start": 1152.03,
+        "end": 1159.06,
+        "transcript": "As a parent, I know that lots of gifts get unwrapped and played with for a little while, but then kids lose interest."
+      },
+      {
+        "score": 0.1822,
+        "start": 1159.06,
+        "end": 1164.55,
+        "transcript": "But a KiwiCo crate subscription will keep kids engaged, learning, and making throughout the year."
+      },
+      {
+        "score": 0.1177,
+        "start": 1164.55,
+        "end": 1169.89,
+        "transcript": "Now, I use their crates with my sons, and they are a lot of fun while also being educational."
+      },
+      {
+        "score": 0.1341,
+        "start": 1169.89,
+        "end": 1172.48,
+        "transcript": "And I want my kids to see learning as a form of play."
+      },
+      {
+        "score": 0.0748,
+        "start": 1172.48,
+        "end": 1174.54,
+        "transcript": "And KiwiCo really helps me do that."
+      },
+      {
+        "score": 0.1997,
+        "start": 1174.54,
+        "end": 1179.19,
+        "transcript": "Plus all the supplies you need come right in the box so you never need to run out to the store."
+      },
+      {
+        "score": 0.7806,
+        "start": 1179.19,
+        "end": 1188.07,
+        "transcript": "Now here I built a perpetual calendar, a reminder that each passing day brings the chance of an asteroid impact."
+      },
+      {
+        "score": 0.1607,
+        "start": 1188.07,
+        "end": 1193.18,
+        "transcript": "For viewers of this video, KiwiCo is offering 50% off your first month of any crate."
+      },
+      {
+        "score": 0.1232,
+        "start": 1193.18,
+        "end": 1197.93,
+        "transcript": "Just go to KiwiCo.com, slash Veritasium50, and I'll put that link down in the description."
+      },
+      {
+        "score": 0.2095,
+        "start": 1197.93,
+        "end": 1202.6,
+        "transcript": "So I want to thank KiwiCo for sponsoring Veritasium, and I want to thank you for watching."
+      }
+    ],
+    "segment_count": 25
+  }
+]

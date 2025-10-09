@@ -1,0 +1,14 @@
+[
+  {
+    "name": "libraries provide common functionality like reading files",
+    "start": 0
+  },
+  {
+    "name": "initial ram disk",
+    "start": 317
+  },
+  {
+    "name": "wide configuration files",
+    "start": 410
+  }
+]

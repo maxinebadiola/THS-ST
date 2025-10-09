@@ -1,0 +1,38 @@
+[
+  {
+    "name": "first planes using different learned parameters",
+    "start": 0
+  },
+  {
+    "name": "128 neurons",
+    "start": 230
+  },
+  {
+    "name": "trained using backpropagation",
+    "start": 392
+  },
+  {
+    "name": "outputting planes",
+    "start": 703
+  },
+  {
+    "name": "successfully train",
+    "start": 849
+  },
+  {
+    "name": "make incredible efficiency gains",
+    "start": 1193
+  },
+  {
+    "name": "see exponential growth",
+    "start": 1602
+  },
+  {
+    "name": "called neural networks demystified",
+    "start": 1828
+  },
+  {
+    "name": "learning incredibly complex patterns",
+    "start": 1902
+  }
+]

@@ -1,0 +1,315 @@
+score,start,end,transcript
+0.3706,0.12,5.59,"In 1989, George Subanko proved what's now known as the Universal Approximation Theorem."
+0.5033,5.59,12.56,"If we take some complex function, for example, this really complicated border in the town of Barley Hurtok."
+0.3353,12.56,16.03,These parts of the map are in Belgium and these parts are in the Netherlands.
+0.812,16.03,23.96,The universal approximation theorem guarantees that there exists a two-layer neural network that can fit this border as precisely as we want.
+0.8523,23.96,30.27,A nice way to get a feel for this result is to see what a two-layer network like this does geometrically.
+0.6574,30.27,35.96,Most modern neural networks use some version of rectified linear activation functions.
+0.8834,35.96,46.31,"Visually, this means that each neuron in the first layer of our network folds up a copy of our map along a single fold line, where the location of the fold line is controlled by the neurons learned weights."
+0.8838,46.31,59.06,"From here, our first neuron in our second layer takes in these bent planes and multiplies their heights by another learned weight value, which geometrically further bends up or down the folded parts of our planes."
+0.7414,59.06,62.81,and flips over our folded region when that neuron's weight value is negative.
+0.7746,62.81,68.46,"These three bent planes are then added together by our neuron, resulting in a surface like this."
+0.7407,68.46,78.55,Our three fold lines from our first layer and now divide up our map into these five regions that each become different planes in our second layer's surface.
+0.8307,78.55,81.49,This surface shows the output of our first neuron in our second layer.
+0.92,81.49,87.83,The second neuron in our second layer flips scales and combines our first planes using different learned parameters.
+0.6444,87.83,93.65,"resulting in this surface, that again uses the same five regions of our map, but at different heights."
+0.8917,93.65,101.81,"The height of the surface, formed by our first neuron, corresponds to the model's confidence in a certain part of the map being in the Netherlands."
+0.8177,101.81,106.4,And the height of the second neuron's surface corresponds to the model's confidence in Belgium.
+0.5172,106.4,119.3,"Coloring our Netherland surface blue and our Belgium surface yellow and bringing these surfaces together onto the same axis, the intersection of our surfaces shows us where our model is equally confident in both countries."
+0.6811,119.3,128.57,"This is the model's learned decision boundary, which gives us a basic border separating the core Belgian region from the surrounding Netherland region."
+0.9182,128.57,138.92,"Now, the universal approximation theorem tells us that if we just keep adding neurons to our first layer, eventually we'll land on an architecture capable of representing our full border."
+0.891,138.92,150.58,"Training a network with eight neurons in its first layer, we get this set of eight folds, leading to this surface for our first output neuron, and this surface for our second output neuron."
+0.596,150.58,158.07,"Bringing these new surfaces onto the same axis, we see these new more complex intersection lines, leading to this more detailed final border."
+0.5622,158.07,161.03,that begins to break our map into separate regions.
+0.7896,161.03,165.82,Here's the surfaces and border for a larger model with 16 neurons.
+0.767,165.82,169.56,"Here's a 32 neuron model, here's 64, and here's 128."
+0.7726,169.56,177.39,It starts to become difficult to see how our surfaces are intersecting exactly with this many fold lines.
+0.6259,177.39,184.11,Let's flatten out our surfaces to make it easier to see how the model uses all its different fold lines to fit our border.
+0.9327,184.11,191.94,"Doubling our neuron count again to 256, Here's how our neurons divide up our map, and here's the final decision boundary."
+0.641,191.94,194.2,"Here's 512 neurons, and here's 1,024."
+0.3424,194.2,198.1,We're getting closer to our true border.
+0.2313,198.1,200.85,But we're still missing a number of parts of the town.
+0.4511,200.85,204.67,And we've reached a point where I can't actually render any more polygons.
+0.4979,204.67,206.93,But we can still render our decision boundary.
+0.867,206.93,210.44,"Here's the border we get with a 10,000 neuron model."
+0.757,210.44,213.84,"And finally, here's a model with 100,000 neurons."
+0.2482,213.84,216.54,We're getting even closer at this point.
+0.8997,216.54,222.53,"But even with 100,000 neurons, there's a couple of parts of the border that our model hasn't learned."
+0.4545,222.53,227.41,It feels like the universal approximation theorem isn't really working.
+0.2382,227.41,229.43,What are we missing here?
+0.337,229.43,234.24,"But before we get into the details of what's going wrong, let me show you one more thing."
+0.6017,234.24,237.28,Let's take just 128 neurons.
+0.6075,237.28,244.25,"But instead of arranging them in a single wide layer, let's arrange them in four separate layers of 32 each, like this."
+0.6899,244.25,247.31,where the output of each layer is passed into the next.
+0.7207,247.31,253.52,"After training this model, these are the resulting learned regions and decision boundary."
+0.9151,253.52,264.45,"Our five layer network with just 130 total neurons is able to learn a more precise border than our 100,000 neuron model, and it's able to divide up our map more effectively."
+0.8457,264.45,271.18,How is it that rearranging our neurons into multiple layers makes our model so much more powerful?
+0.7228,271.18,277.59,"The neurons in both are deeper and shallow models to the same folding, scaling, and combining operations."
+0.5892,277.59,282.49,Why are these operations so much more effective when composed in multiple layers?
+0.5532,282.49,288.24,And how does the geometry of our map change as it moves through these stacked operations?
+0.354,288.24,293.07,This video is part of a series sponsored by Incogni.
+0.2718,293.07,305.73,"These videos have really pushed my animation abilities, requiring a bunch of deeply focused hours, which Incogni has really helped me with by significantly reducing the number of spam text and calls that I receive."
+0.1978,305.73,307.93,And Cogni also helps protect my privacy.
+0.0291,307.93,319.96,"In the United States, we have these people's search sites, where for a small fee, anyone can look up information about you, like your address, your email, phone number, education, employment history, social media accounts, and so on."
+0.2619,319.96,325.11,This gives you an idea of all the information about you that data brokers are able to gather and sell.
+0.1117,325.11,331.07,"Last year, I signed up for one of these people's search sites to see what information I could find on myself."
+0.1244,331.07,340.36,"After being an incogni customer for a few months, I impressively wasn't able to find any information on myself, but I was able to find a ton of information on my wife."
+0.0667,340.36,345.13,"Since then, I've upgraded to incogni's friends and family plan and added my wife to the plan."
+0.1281,345.13,351.12,"I checked the same people's search site again this week, and was happy to see that all of her information had been removed."
+0.1598,351.12,358.16,"Incogni has just released a new feature that makes their service even more effective, called custom data removals."
+0.1917,358.16,364.77,"If you type your name and address into Google, you may be surprised to find where exactly your personal information pops up."
+0.1213,364.77,372.5,"With custom removals, you can submit specific URLs directly to the Incogni team, who will work to remove your information from eligible sites."
+0.1434,372.5,381.61,"You can get a great deal on Incogni, 60% off an annual plan by visiting Incogni.com forward slash Welch Labs, and using code Welch Labs at checkout."
+0.2649,381.61,385.15,It's been a while since I've made a multi-part series like this.
+0.331,385.15,391.98,Huge thanks to Incogni for helping make this series possible and helping me get more quality focus time as I work on it.
+0.7072,391.98,402.27,"Last time, in part two of this series, we dug into the mathematics of how modern models are trained using backpropagation and gradient descent."
+0.6387,402.27,409.56,"We saw how given the inputs of latitude and longitude, a single layer model can effectively learn to position planes over different European cities."
+0.4345,409.56,413.21,"learning to separate Paris, Berlin, Madrid, and Barcelona."
+0.7726,413.21,424.5,"The key piece of functionality here is that our model learns to position the Madrid plane above all the other planes above Madrid, the Barcelona plane above all the other planes above Barcelona, and so on."
+0.5357,424.5,429.61,And the height of our plane's corresponds to our network's final confidence in a specific city.
+0.4531,429.61,441.39,"We left off considering the most complex geographic border in the world, between Belgium and the Netherlands, and the municipality of Barley Hurtog, given a single plane for each country."
+0.4103,441.39,449.1,"There's no way to position our planes, so our Belgium plane is on top of our Netherlands plane above only the Belgium portions of our map."
+0.464,449.1,461.6,"Another way to think about this is that our two tilted planes intersect at a line on our map, where everything on one side of the line will be classified as part of Belgium, and everything on the other side will be classified as part of the Netherlands."
+0.4829,461.6,467.17,And there's no way this linear decision boundary can correctly divide up our city.
+0.4052,467.17,469.51,Our networks from last time looked like this.
+0.755,469.51,473.54,with a single layer of neurons between our inputs and softmax function.
+0.7239,473.54,480.31,"As we saw last time, the softmax function bends our planes to output nice final probability values."
+0.6476,480.31,485.84,"But importantly, it doesn't change the location of the decision boundaries at the intersections of our planes."
+0.3231,485.84,490.26,"For this reason, we won't concern ourselves too much with softmax in this video."
+0.8427,490.26,497.48,The networks we saw at the beginning of this video add one more layer of neurons and are able to accomplish significantly more.
+0.9228,497.48,508.55,"Just like the neurons in our simple single layer model, each of the neurons in the first layer of our two layer network contains a simple linear model that geometrically looks like a plane."
+0.8117,508.55,513.72,"Mathematically, the first neuron in our first layer takes in the coordinates of our point."
+0.6681,513.72,521.74,"Multiplies each coordinate by a learned number called a weight, which we're writing here using lowercase M's, and adds these results together."
+0.5209,521.74,524.97,The weight values control the steepness of our plane in each direction.
+0.6515,524.97,528.43,"Finally, we add one more learnable parameter called a bias."
+0.5627,528.43,531.16,This shifts our whole plane up and down.
+0.464,531.16,545.82,"So if we pass in this Belgian point on our map with coordinates of x1 equals 0.6 and x2 equals 0.4, we multiply our x1 value by our first weight and our x2 value by our second weight and add these results together."
+0.5072,545.82,550.9,"And finally, we add our bias value to compute our final result of minus 0.14."
+0.736,550.9,557.31,This computed value corresponds to the height of our first neurons plane at these input coordinates.
+0.9291,557.31,571.74,"Now, if we just pass the height of our plane minus 0.14 in this example into our second layer of neurons, our multiple layers of neurons will actually just collapse back down into what is effectively a single layer of neurons."
+0.2334,571.74,574.54,We can show this collapsing algebraically.
+0.1779,574.54,576.59,There's just a bunch of terms to deal with.
+0.7316,576.59,580.93,These first two equations correspond to the first two neurons in our first layer.
+0.4122,580.93,585.36,Note that we're using these super scripts to keep track of where each weight comes from.
+0.7148,585.36,588.81,Everything with a superscript of 1 comes from our model's first layer.
+0.7547,588.81,592.23,Here's the equation for the first neuron in our second layer.
+0.6998,592.23,601.69,"If we pass the outputs of our first layer directly into our second layer, this is equivalent to plugging in our first set of equations into our second equation, like this."
+0.3807,601.69,612.2,"Distributing and collecting terms, we end up with a new constant times our input x1, plus another new constant times our input x2, plus this final constant."
+0.5325,612.2,618.59,"This equation has the same shape as our individual neuron equations, just with different constants."
+0.884,618.59,632.57,"This result tells us that if we just hook up the outputs of one layer of plane-fitting neurons to the inputs of our next layer, we end up adding together different tilted planes, which just results in a different tilted plane."
+0.7553,632.57,640.58,"So a two layer network connected like this is still only capable in practice of fitting two planes to our map, just as our single layer model did."
+0.8547,640.58,647.85,"For our multi-layer neural network to be able to learn more complex patterns, we need to add one more small piece of math."
+0.7574,647.85,657.93,We'll pass the output of our planes from our first layer into a function called an activation function that will modify their shape into something more complex for our model to work with.
+0.5814,657.93,663.42,It turns out that we can build high performing neural networks using a variety of activation functions.
+0.3287,663.42,669.15,"But one of the simplest and most widely used today is a function called a rectified linear unit, or Rayloo."
+0.217,669.15,671.53,Rayloo is incredibly simple.
+0.2996,671.53,675.29,"For input values less than zero, Rayloo returns zero."
+0.4253,675.29,681.11,"And for input values greater than or equal to zero, Rayloo simply passes its input value through."
+0.31,681.11,685.58,"So Rayloo of minus one is zero, and Rayloo of one is one."
+0.7423,685.58,697.22,"Applying our Rayloo activation function to the output planes of our first layer, the regions of our plane with heights less than zero are folded up or clipped to a height of zero."
+0.7793,697.22,702.96,"So instead of outputting planes, the first layer of our network now outputs these bent planes."
+0.5017,702.96,706.83,This is the folding operation we saw at the beginning of the video.
+0.4511,706.83,714.4,"So to decide which country a point is in, for example, this Belgian point with coordinates of 0.60.4 that we saw earlier."
+0.8443,714.4,726.14,"We passed these coordinates into our first layer of neurons and get values of minus 0.14 and minus 0.33 out, corresponding to the height of each of our planes at the input coordinates of our point."
+0.5919,726.14,732.87,"From here, we apply our Ray-Lew activation function, folding all values below 0 up to 0."
+0.3711,732.87,735.53,The height of our point on both planes is negative.
+0.4314,735.53,737.91,So we set both points to zero.
+0.5795,737.91,745.26,So our input point 0.6 0.4 has now been mapped to values of 0.0 by our bent planes.
+0.836,745.26,752.41,"From here, our final layer of neurons multiplies these values of 0.0 by its weights and adds its bias terms."
+0.4852,752.41,762.45,"Shifting our combined bent planes up and down, moving our point to 0.03 on our top surface and minus 0.89 on our bottom surface."
+0.7266,762.45,771.99,"Our second neuron's output corresponds to our model's confidence in Belgium, which is higher in this case, meaning this point will be classified as being in Belgium."
+0.4844,771.99,778.44,"And visually, we see this point on our Belgium plane being above our point on our Netherlands plane."
+0.6443,778.44,790.36,"We can do a similar analysis for a point in the Netherlands, like this point at 0.3, 0.7. The key difference here is that this point does not fall in the zero-ray-lu region of our second neuron."
+0.5381,790.36,799.51,meaning that it gets pushed up on our final Netherlands bent plane and pushed down on our final Belgian plane resulting in a correct Netherlands classification.
+0.6531,799.51,809.99,"So our bent plane geometry is equivalent numerically to moving data through our network, but gives us a nice way to see how all of the points on our map are processed at once."
+0.9853,809.99,816.16,"As we add more neurons to our first layer, we're able to make more and more folds in our map."
+0.8778,816.16,822.75,cutting our map into more and more regions for our output neurons to push up and down into more and more complex surfaces.
+0.8456,822.75,837.75,"Now, as we saw at the opening of the video, assuming a sufficient number of neurons in our first layer, the universal approximation theorem tells us that a two-layer neural network exists that can represent the borders of our town at arbitrarily high precision."
+0.8647,837.75,846.75,"But as we saw, even at 100,000 neurons in our first layer, we were not able to successfully train a model to completely match our borders."
+0.0752,846.75,848.82,What is going on here?
+0.6917,848.82,855.87,The universal approximation theorem is sometimes mistaken to mean that neural networks can learn anything.
+0.6415,855.87,862.81,But what it really says is that a wide enough neural network is capable of representing any continuous function.
+0.2756,862.81,873.92,"Now, the borders of our town are actually not continuous, but the continuity that the theorem is referring to here is actually the continuity of the final surfaces that we intersect to find our border."
+0.5549,873.92,884.74,"The real issue here is that although the universal approximation theorem tells us that a two-layer solution exists, it does not mean that in practice we can actually find the solution."
+0.6152,884.74,889.73,And the theorem does not tell us how many neurons we actually need to solve a given problem.
+0.6292,889.73,902.21,"As we sell in parts one and two of this series, modern neural networks learn using back propagation and gradient descent, which provide no guarantees of finding the best or even a good solution."
+0.4914,902.21,906.48,"Instead, these algorithms make small iterative updates to our parameters."
+0.4122,906.48,910.72,And we typically just stop the learning process when performance stops improving.
+0.8124,910.72,918.01,"Before training, our network is randomly initialized, placing our fold lines at random locations on our map."
+0.7301,918.01,922.27,Here's one initialization for our five neuron two-layer model.
+0.6805,922.27,926.62,Here's how our folded planes are combined by the second layer of this model.
+0.8484,926.62,931.38,And here's how these surfaces intersect to form a decision boundary before training.
+0.6884,931.38,940.01,"If we pass in the Belgian point we considered earlier into our randomly initialized model, this point ends up on this planar region in our second layer's surface."
+0.8115,940.01,949.24,"This first neuron surface ends up on top in our final output, shown here in blue, meaning that our model incorrectly classifies our point as being in the Netherlands."
+0.4763,949.24,953.67,This error is measured using the cross entropy loss as we saw in part two.
+0.7013,953.67,961.76,"And this loss is then run through our back propagation algorithm, resulting in gradient values for each of our model's 17 parameters."
+0.8296,961.76,966.89,Some of the largest resulting gradients are for this third neuron in our first layer.
+0.5261,966.89,972.24,Both our DLDM31 and our DLDB3 gradients are large and negative.
+0.389,972.24,978.23,"Currently, M31 is negative, tilting our plane down in the X1 direction."
+0.585,978.23,988.5,"Our gradient is telling us that to decrease our loss, we should increase M31, which will reduce the slope of our plane making it flatter."
+0.7336,988.5,996.07,"Back propagation also returns a large negative value for DLDB3, which tells us to shift our whole plane upwards."
+0.5008,996.07,1002.84,Adjusting our parameters in this direction moves our plane and shifts our regular joint line to the right.
+0.6579,1002.84,1010.29,"Zooming out to our full network, we can see how this update moves the center fold line in our second layer to the right."
+0.6106,1010.29,1021.96,"On our final surfaces, our update moves our top blue surface down, reducing the model's confidence in the incorrect answer of the Netherlands, while moving our decision boundary to the right."
+0.7358,1021.96,1026.92,We can now repeat this gradient descent process and watch our model learn.
+0.6259,1026.92,1040.95,"Step by step, these small updates adjust both the locations of the fold lines in our first layer and the way these bent planes are combined by our second layer, until we have a nice concave down surface on top of Belgium."
+0.4445,1040.95,1044.91,that intersects a concave up another land surface at a nice border.
+0.615,1044.91,1050.53,"Now, when I initially tried to train this model, it didn't actually work nearly this well."
+0.4696,1050.53,1058.44,"I had a different random initialization that looked more like this, placing our blue surface on top of our yellow surface."
+0.6957,1058.44,1064.01,When we want our model to learn the exact opposite orientation with a central yellow region for Belgium on top.
+0.8068,1064.01,1077.9,"As our model learns from this starting point, Our back propagation algorithm begins to reverse the orientation of these surfaces, lowering our loss values, and moving the blue surface down in the yellow surface up."
+0.8196,1077.9,1087.88,"But in doing so, back propagation pushes the decision boundaries off of our planes, leaving our whole town in the zeroed out part of our bent re-loop plane."
+0.523,1087.88,1091.42,Gradient descent is not able to recover from this configuration.
+0.6713,1091.42,1103.68,"Since the gradients through the zeroed out part of our re-loop activation function are also zero, leaving our model with effectively a single plane to work with, resulting in a suboptimal linear decision boundary."
+0.6663,1103.68,1111.09,"So even though we know that a nice solution exists for our five neuron network, given this starting point, gradient descent is not able to find it."
+0.6871,1111.09,1118.7,"In the case of our super wide 100,000 neuron network, there may be analogously good solutions out there."
+0.6733,1118.7,1121.26,We just can't reach them with gradient descent.
+0.2937,1121.26,1124.43,"Now, there is some subtlety here."
+0.5766,1124.43,1134.8,"As we saw back in part one, when models become large, the chances of gradient descent actually getting stuck in a local minimum in this high dimensional loss landscape becomes very small."
+0.4181,1134.8,1140.67,Our super wide network is probably not getting stuck in quite the same way as our small network.
+0.5522,1140.67,1151.9,"In addition to not telling us how to find a specific solution, the universal approximation theorem also does not tell us how many neurons we actually need to solve a given problem."
+0.6041,1151.9,1163.67,"And in fact, for a broad class of functions, it's been shown that the number of neurons we need in a shallow network is exponentially larger than the number of neurons needed in a deep network."
+0.6579,1163.67,1167.28,"So it's possible that 100,000 neurons may actually not be enough."
+0.2266,1167.28,1170.11,"Finally, it's difficult to prove a negative."
+0.4903,1170.11,1176.54,"In the course of making this video, I experimented with a bunch of different optimizer configurations for these wide models."
+0.7095,1176.54,1184.85,"But it wouldn't surprise me if there's a way to train 100,000 neuron at 10,000 neuron or maybe even smaller, two-layer model to fit the borders of our town."
+0.2331,1184.85,1188.53,I'll leave a link to my code in the description if you want to experiment.
+0.2454,1188.53,1190.96,And please send me your results if you make progress.
+0.2233,1190.96,1192.44,I would love to see a solution.
+0.6205,1192.44,1194.95,Exact number of neurons aside.
+0.7532,1194.95,1202.83,"As we saw earlier, we can make incredible efficiency gains by going deep instead of wide, stacking our neurons into additional layers."
+0.3147,1202.83,1204.81,And that's what we'll turn our attention next.
+0.6375,1204.81,1208.48,What new geometry does stacking our layers create?
+0.6175,1208.48,1213.21,And how does this geometry help our model learn the complex borders of our town?
+0.8541,1213.21,1216.81,Let's begin with a simple two-layer model with two neurons each.
+0.9593,1216.81,1225.42,"This simple two-layer model learns these folds in our map, which are combined by our second layer into this bent up surface and this bent down surface."
+0.51,1225.42,1233.57,"Taking the intersection of our surfaces, where our model is equally confident in both countries, we get this simple decision boundary."
+0.933,1233.57,1238.0,"Now, let's add a third layer to our model with two additional neurons."
+0.8471,1238.0,1241.55,So we now have three layers and six neurons total.
+0.9366,1241.55,1245.99,"After training, our first layer learns to fill our input planes like this."
+0.8914,1245.99,1249.53,And our second layer learns to combine our bent planes like this.
+0.8305,1249.53,1256.12,"Now, if we only had two layers, we would just bring these surfaces together to form our final decision boundary."
+0.6047,1256.12,1260.47,But we now have a whole additional layer of transformations to apply.
+0.721,1260.47,1265.65,"Just as we did in our first layer, we now need to apply our Ray-Lew activation function."
+0.4565,1265.65,1270.3,Where all of the values on our surface with heights less than zero are set to zero.
+0.7294,1270.3,1275.5,"In our first layer, this operation folds our planes along linear fold lines."
+0.8043,1275.5,1281.19,"But now in the second layer of our model, the surfaces we're folding are no longer simple planes."
+0.8031,1281.19,1291.07,"If we add a plane at z equals zero to our first neuron surface, we can see that this surface actually has three separate planes that all cross z equals zero."
+0.6919,1291.07,1299.04,"When we apply our Rayleigh activation function and fold up our surface, we create three separate new fold lines."
+0.416,1299.04,1302.63,one for each region that crosses the z equals zero plane.
+0.7118,1302.63,1310.14,"And interestingly, these folds are not at the same angle, but actually bend at the joints of the planes we get from our first layer."
+0.9101,1310.14,1316.41,"So here a single neuron is able to make three separate folds, with fairly complex geometries."
+0.834,1316.41,1325.03,"Our second neuron in our second layer applies the same operations, but with different learned weights, resulting in these three new folds."
+0.8124,1325.03,1332.68,"Now, just as our previous two layers did, our third and final layers scales and adds our new surfaces together."
+0.8341,1332.68,1341.17,"After our first layer, the combination of our two Ray-Lew folds created four regions for the next layer of our model to work with."
+0.5449,1341.17,1344.66,These are easiest to see in a 2D projection like this.
+0.7422,1344.66,1356.29,"Stacking the new fold lines from our second layer, These new folds at various angles come together in a significantly more complex tiling of our map, with these 10 separate regions."
+0.94,1356.29,1366.32,"When the final layer of our network scales and adds together the outputs of our second layer, the resulting surfaces are composed of the same 10 regions, just with different heights."
+0.4846,1366.32,1372.73,The height of these surfaces corresponds to the model's final confidence in our two countries.
+0.6048,1372.73,1383.27,"Bringing these services together and finding their intersection, we get this final decision boundary, which shows some nice, piecewise linear curvature around the Belgian regions of our map."
+0.8696,1383.27,1399.17,"So the first layer of our network creates these two folds and four separate regions on our map, which are then split by our second layer into these 10 regions, which are used by our final layer to create these surfaces, which intersect in a nice border."
+0.8661,1399.17,1409.7,"The fact that just adding two additional neurons takes our map from these four regions to these 10 is remarkable to me, especially considering the complex geometry of these 10 regions."
+1.0,1409.7,1424.08,"If we instead arrange our six neurons in a two layer network like this, our model learns to fold four copies of our map like this, resulting in these seven regions, these surfaces, and this final decision boundary."
+0.8102,1424.08,1434.35,"This decision boundary isn't necessarily worse than the one learned by our deeper model, but I'm particularly struck by how much more complex the tiling learned by our deeper model is."
+0.8836,1434.35,1443.38,"Qualitatively, the tiling of our map learned by our shallow network feels very much like we've just stacked four lines together, which is exactly what we've done."
+0.7948,1443.38,1448.34,While the tiling learned by our deeper model feels to me like something entirely different.
+0.9164,1448.34,1464.99,"By repeating our folding, scaling, and combining operations, These operations are able to compound on themselves, allowing the neurons in our second layer to generate significantly more complex patterns than they would if they were in a state position in the first layer of our model."
+0.3252,1464.99,1468.75,The compounding analogy is not a coincidence.
+0.7042,1468.75,1478.71,It turns out that we can show that the maximum number of regions a ray-lude network like ours can divide our map into grows exponentially with the number of layers in our network.
+0.7132,1478.71,1483.69,This equation gives the theoretical maximum number of regions our model can create.
+0.7483,1483.69,1493.64,"As a function of the number of neurons in each layer d, the number of inputs d sub i, and the number of layers in our network k, not including our final output layer."
+0.6923,1493.64,1500.59,"Plugging in d equals 2 neurons per layer, d sub i equals 2 inputs, and k equals 2 layers."
+0.5884,1500.59,1505.6,We get 2 squared times 4 equals 16 total possible regions for our model.
+0.8082,1505.6,1509.06,This is a bit above the 10 regions our model actually learns.
+0.8594,1509.06,1520.87,"If we add another 2 neuron layer to our model, our number of regions grows to 2 to the power of 4 times 4 equals 64, and adding another layer gets us to 256 and so on."
+0.958,1520.87,1526.96,So each layer theoretically quadruples the number of regions our model can create in this configuration.
+0.6613,1526.96,1533.11,This final polynomial part of the equation captures what happens in the final layer of our model.
+0.5447,1533.11,1540.56,"If we cut back down to a shallow two-layer model, k becomes 1, eliminating the exponential growth term."
+0.9655,1540.56,1546.36,"As we've seen, two-layer networks divide up the input plane by stacking separate Raylu folds."
+0.701,1546.36,1556.7,So finding the number of regions we can divide our map into with a two-layer network is equivalent to asking how many separate regions we can split a plane into with D lines.
+0.1848,1556.7,1563.16,"This is a well-known result in combinatorial geometry, with the answer given by this polynomial."
+0.8716,1563.16,1572.23,So our theory tells us that the maximum number of regions we can create with a two-layer network grows as a polynomial function of our number of neurons.
+0.8644,1572.23,1578.02,While the number of regions we can create with a deeper network grows exponentially with the number of layers.
+0.8126,1578.02,1586.8,Placing 64 neurons in the first layer of a two-layer network like this results in a maximum 2081 possible regions.
+0.8737,1586.8,1593.93,While rearranging these neurons into four layers instead results in a theoretical maximum of over 70 million possible regions.
+0.642,1593.93,1601.47,"The difference between these growth rates is compelling, and is often pointed to as a reason for the effectiveness of deep learning."
+0.3235,1601.47,1604.74,"However, these numbers are theoretical upper bounds."
+0.3124,1604.74,1608.37,"And as a number of papers have pointed out, these bounds are very loose."
+0.7647,1608.37,1615.2,"In practice, we typically do not see exponential growth in the number of regions created by deep networks as we add layers."
+0.657,1615.2,1618.36,Let's scale up our own deep network.
+0.6934,1618.36,1622.6,and see how our number of region scales with our network and how our fit improves.
+0.9495,1622.6,1631.35,"We left off with this three layer six neuron model that divided our map into these 10 regions, resulting in this final decision boundary."
+0.905,1631.35,1636.78,Let's first expand our model to have eight neurons in each of our first two layers.
+0.66,1636.78,1642.02,The eight folds in our first layer now break up our map into these 19 regions.
+0.789,1642.02,1648.23,"In the various folds of the surface is created by our second layer, come together in these 102 regions."
+0.7741,1648.23,1651.83,Our second layer pattern starts to get really interesting.
+0.8016,1651.83,1658.28,"Here, the Raylu function in our second neuron is folding our surface along 10 different unique joints."
+0.7843,1658.28,1671.06,"Our final layer scales and combines these outputs into these final surfaces, which intersect like this, resulting in this final decision border, capturing the two largest sections of our town nicely."
+0.7243,1671.06,1676.12,Note that a couple of the neurons in our second layer don't have any colored regions.
+0.5453,1676.12,1681.13,This means that the entire surface from our first layer was below z equals zero.
+0.6418,1681.13,1685.09,And all inputs are set to zero by our Ray-Lew activation function.
+0.3067,1685.09,1687.3,Dead neurons like this are common.
+0.7063,1687.3,1693.11,And a reminder that gradient descent gives no guarantees about efficiently using our model architecture.
+0.9024,1693.11,1699.62,"Let's add another eight neuron layer to our model, resulting in four total layers."
+0.6841,1699.62,1706.05,"We can now really start to see the compounding effects of our repeated folding, scaling, and combining operations."
+0.7091,1706.05,1712.78,The Raylu folding happening in this third neuron of our third layer creates these tiny regions around the border.
+0.7835,1712.78,1723.42,"It's so interesting to me that our model, guided by back propagation, figures out how to create all these extra little polygons around our town's borders to capture their detailed structure."
+0.6548,1723.42,1730.03,"Now, at this scale, it becomes tough to make sense of everything that's happening in 3D space like this."
+0.8102,1730.03,1737.42,"Let's focus on the regions formed in our 2D map by each layer, the final 3D surfaces, and our final decision boundary."
+0.5589,1737.42,1740.41,Let's watch our model learn from this perspective.
+0.7795,1740.41,1746.43,"Before training, here's how our model initially divides up our input space, creating this decision boundary."
+0.6065,1746.43,1752.2,"Before we start the training process, let's add one more panel that will track the model's loss as it learns."
+0.6081,1752.2,1760.59,"In less than 100 gradient descent steps, our model is able to pick out the core structure of our town."
+0.6733,1760.59,1768.79,"and then is able to progressively tighten its borders as it learns, creating more and more regions around the fine details of the border."
+0.8792,1768.79,1778.5,"Finally, let's add one more layer, bringing our total number of layers to five, and increase our width one last time to 32 neurons."
+0.7112,1778.5,1786.11,"Our additional layer gives us one more tiling of our map, and at this scale our 3D plot becomes a bit too chaotic to make sense of."
+0.5319,1786.11,1790.1,So we'll just watch the 2D plots in this final training animation.
+0.6892,1790.1,1795.55,"Unlike our smaller models, the steeper model really benefits from more training steps."
+0.3803,1795.55,1799.65,Using the extra steps to refine the details of our town's border.
+0.8476,1799.65,1806.96,The fact that just four layers with 32 neurons each can learn this level of complexity is remarkable to me.
+0.2573,1806.96,1811.83,Our final decision boundary impressively captures every region of our town.
+0.6904,1811.83,1818.21,It's incredible to me that a bunch of little linear models can come together to do something so complex.
+0.5804,1818.21,1822.04,and that we can actually find these solutions using gradient descent.
+0.2598,1822.04,1828.67,"Around 10 years ago, I released the very first watch labs video."
+0.7318,1828.67,1831.39,It's called Neural Networks Demystified.
+0.5818,1831.39,1840.72,"Like the series you're watching now, Neural Networks Demystified was a series about how neural networks learn, focusing on backpropagation and gradient descent."
+0.2175,1840.72,1847.2,"Sitting down to work on this series 10 years later, I honestly didn't know where to start."
+0.6475,1847.2,1855.67,"Although most of the core approaches in my old videos are unchanged, these core ideas have been scaled to solve unbelievably complex problems."
+0.5805,1855.67,1860.61,And the shocking ability to scale has led the research community to dig deeper into what makes these models tick.
+0.346,1860.61,1865.19,"We've learned a great deal in 10 years, but many mysteries remain."
+0.3352,1865.19,1869.76,"In part one of this series, we dug into lost landscapes."
+0.6973,1869.76,1878.76,And we saw how the standard mental picture of gradient descent that I presented 10 years ago really doesn't hold up in the incredibly high dimensional spaces these models operate in.
+0.658,1878.76,1887.13,"In part two, we dug into the core mechanics of how models learn, dissecting back propagation in the context of a modern, large language model."
+0.7644,1887.13,1894.24,"Finally, in this video, we saw how deep models are able to recursively fold, scale, and combine their input spaces."
+0.6725,1894.24,1898.16,learning incredibly complex patterns with remarkably few neurons.
+0.2312,1898.16,1902.35,Maybe in another 10 years I can make another series like this.
+0.5173,1902.35,1908.98,"We'll have to wait and see what these models can do then, and how much sense we'll be able to make of how they do it."
+0.0883,1908.98,1914.66,"Back in 2019, I completely quit Welch Labs."
+0.1158,1914.66,1919.97,"I had just tried going full-time creating videos, but I wasn't able to earn enough money to make it work."
+0.1368,1919.97,1921.79,I got frustrated and I quit.
+0.3418,1921.79,1925.21,"I went off and worked as a machine learning engineer, which was great."
+0.2145,1925.21,1929.32,But I couldn't shake the feeling that I was really supposed to be making videos.
+0.2127,1929.32,1937.65,"Starting in 2022, I slowly eased back on TikTok and was able to gradually build enough momentum to take another crack at going full-time last year."
+0.1963,1937.65,1944.18,"When I quit in 2019, I had some time to really think about what kept pulling me back into making videos."
+0.3343,1944.18,1948.39,And I realized that deep down it was really about education.
+0.1709,1948.39,1953.47,"I loved math and science as a kid, but I really disliked the way I had to learn it in school."
+0.2465,1953.47,1957.89,"After undergrad, I really found myself questioning if I even liked math at all."
+0.2727,1957.89,1962.66,Only through my own work and study did I fall back into love with math and science years later.
+0.2686,1962.66,1966.35,And now I want to use watch labs to make education better.
+0.2166,1966.35,1972.0,"But I've realized, for me to be able to do this, I have to first build a viable business."
+0.005,1972.0,1976.48,"If I can't support myself and my family, I can't spend the time I need to make this work."
+0.1965,1976.48,1985.09,"Last year, through sponsorships, poster and book sales and support on Patreon, I was able to make about half of what I made as a machine learning engineer."
+0.1675,1985.09,1989.68,"I'm not going to lie, so far this is a much harder way to earn a living."
+0.1101,1989.68,1993.08,My goal this year is to replace my full income.
+0.2804,1993.08,1998.07,This will allow me to really reach escape velocity and continue full-time on Welch Labs.
+0.1274,1998.07,2005.04,"Sponsorship's posters and book sales are going well this year, but to hit my goal, I need to grow Patreon as well."
+0.0849,2005.04,2008.07,Your monthly support on Patreon would mean a lot.
+0.2208,2008.07,2011.78,As a way to say thank you and today I'm launching a new reward.
+0.2453,2011.78,2017.66,"Starting at the $5 per month level, I'll send you a real paper cut out used in a World Slabs video."
+0.0,2017.66,2025.89,"It comes in a nice protective sleeve with the World Slabs logo on the front, and on the back it says the video it came from, the release date and assigned by me."
+0.1094,2025.89,2027.72,These are a lot of fun.
+0.057,2027.72,2029.36,I have them going all the way back to 2017.
+0.3292,2029.36,2036.01,"At the $5 per month level, you'll receive a smaller cutout, and a larger cutout at the $10 or higher level."
+0.1432,2036.01,2042.16,"Cutouts ship after your first monthly payment goes through, and you'll find a link to the Watch Labs Patreon in the description below."
+0.1519,2042.16,2045.96,Huge thank you to everyone who supported Watch Labs over the years.
+0.1976,2045.96,2047.22,Thanks for watching.

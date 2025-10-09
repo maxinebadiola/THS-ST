@@ -1,0 +1,1834 @@
+[
+  {
+    "name": "The For",
+    "start": 0,
+    "original_name": "products every 18 months",
+    "score": 2.438752141901203,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.4855,
+        "start": 0.03,
+        "end": 1.94,
+        "transcript": "Take a look at this cereal box."
+      },
+      {
+        "score": 0.1905,
+        "start": 1.94,
+        "end": 4.87,
+        "transcript": "No, a closer look."
+      },
+      {
+        "score": 0.1668,
+        "start": 4.87,
+        "end": 5.83,
+        "transcript": "Even closer."
+      },
+      {
+        "score": 0.5723,
+        "start": 5.83,
+        "end": 11.32,
+        "transcript": "Thousands of tiny dots create the illusion of solid color."
+      },
+      {
+        "score": 0.2272,
+        "start": 11.32,
+        "end": 13.83,
+        "transcript": "But it's just an illusion."
+      },
+      {
+        "score": 0.7892,
+        "start": 13.83,
+        "end": 17.96,
+        "transcript": "For pure color, like this yellow, get ready to pay."
+      },
+      {
+        "score": 0.888,
+        "start": 17.96,
+        "end": 20.68,
+        "transcript": "This is a Pantone color."
+      },
+      {
+        "score": 0.513,
+        "start": 20.68,
+        "end": 25.53,
+        "transcript": "The company's products cost hundreds to thousands of dollars."
+      },
+      {
+        "score": 0.9361,
+        "start": 25.53,
+        "end": 29.21,
+        "transcript": "But Pantone doesn't sell ink."
+      },
+      {
+        "score": 0.5482,
+        "start": 29.21,
+        "end": 30.07,
+        "transcript": "It sells these."
+      },
+      {
+        "score": 0.7796,
+        "start": 30.07,
+        "end": 34.38,
+        "transcript": "Standardized color guides for designers and printers."
+      },
+      {
+        "score": 0.2747,
+        "start": 34.38,
+        "end": 41.65,
+        "transcript": "So this one was around $1,000, but the entire set is about $8,000, I think."
+      },
+      {
+        "score": 0.2251,
+        "start": 41.65,
+        "end": 43.68,
+        "transcript": "It's actually over $9,000."
+      },
+      {
+        "score": 0.5624,
+        "start": 43.68,
+        "end": 49.1,
+        "transcript": "In Pantone, recommends replacing its products every 18 months."
+      },
+      {
+        "score": 0.3778,
+        "start": 49.1,
+        "end": 53.73,
+        "transcript": "I find that suggestion convenient for them."
+      },
+      {
+        "score": 0.8096,
+        "start": 53.73,
+        "end": 58.67,
+        "transcript": "For 60 years, one company has dominated color standards."
+      },
+      {
+        "score": 0.6542,
+        "start": 58.67,
+        "end": 62.92,
+        "transcript": "Now some frustrated designers seek a better alternative."
+      },
+      {
+        "score": 0.978,
+        "start": 68.98,
+        "end": 73.09,
+        "transcript": "So why are pantone colors so expensive?"
+      },
+      {
+        "score": 0.8212,
+        "start": 73.09,
+        "end": 79.94,
+        "transcript": "And how does a company make a fortune on color without selling a drop of ink?"
+      },
+      {
+        "score": 0.6638,
+        "start": 79.94,
+        "end": 84.64,
+        "transcript": "Most printing is like that cereal box."
+      },
+      {
+        "score": 0.5888,
+        "start": 84.64,
+        "end": 88.69,
+        "transcript": "You might have heard it called CMYK or half toning."
+      },
+      {
+        "score": 0.6982,
+        "start": 88.69,
+        "end": 96.92,
+        "transcript": "It's a process that's been around since the 19th century, but CMYK can only produce a limited number of colors."
+      },
+      {
+        "score": 1.0,
+        "start": 96.92,
+        "end": 101.89,
+        "transcript": "Pantone gives designers a shared palette way beyond that range."
+      }
+    ],
+    "segment_count": 23
+  },
+  {
+    "name": "The You",
+    "start": 101,
+    "original_name": "shared palette way beyond",
+    "score": 2.379294517876885,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7066,
+        "start": 101.89,
+        "end": 104.19,
+        "transcript": "And these colors are solid."
+      },
+      {
+        "score": 0.247,
+        "start": 104.19,
+        "end": 107.64,
+        "transcript": "See, no dots."
+      },
+      {
+        "score": 0.5907,
+        "start": 107.64,
+        "end": 110.64,
+        "transcript": "They look brighter, cleaner, and more consistent."
+      },
+      {
+        "score": 0.8829,
+        "start": 110.64,
+        "end": 117.81,
+        "transcript": "You might know Pantone from its color of the year, but you actually see it every time you go to the grocery store."
+      },
+      {
+        "score": 0.6168,
+        "start": 117.81,
+        "end": 119.81,
+        "transcript": "Its colors are everywhere."
+      },
+      {
+        "score": 0.8306,
+        "start": 119.81,
+        "end": 127.0,
+        "transcript": "To understand why Pantone became the industry standard, we have to go back to the 1950s."
+      },
+      {
+        "score": 0.437,
+        "start": 127.0,
+        "end": 132.89,
+        "transcript": "Before computers and Adobe, design was a physical process."
+      },
+      {
+        "score": 0.3015,
+        "start": 132.89,
+        "end": 137.36,
+        "transcript": "You'd have these little tweezers and you'd have to kind of move things around in your composition."
+      },
+      {
+        "score": 0.2938,
+        "start": 137.36,
+        "end": 143.79,
+        "transcript": "You would use a lot of chemicals, there was a lot of rubber cement, exacto knives, getting things to be really precise was really hard."
+      },
+      {
+        "score": 0.6474,
+        "start": 143.79,
+        "end": 149.14,
+        "transcript": "And getting colors to look the same around the world was challenging."
+      },
+      {
+        "score": 0.7339,
+        "start": 149.14,
+        "end": 154.88,
+        "transcript": "color matching really wasn't something that people could do when working with different printers."
+      },
+      {
+        "score": 0.5796,
+        "start": 154.88,
+        "end": 157.34,
+        "transcript": "One of the famous examples is of Kodak."
+      },
+      {
+        "score": 0.662,
+        "start": 157.34,
+        "end": 161.12,
+        "transcript": "Some printers would print the yellow a little darker, some would print it a little brighter."
+      },
+      {
+        "score": 0.5224,
+        "start": 161.12,
+        "end": 167.51,
+        "transcript": "When the customers saw those side by side on the shelf, they'd often go for the brighter box, thinking that that film was fresher."
+      },
+      {
+        "score": 0.4575,
+        "start": 167.51,
+        "end": 171.94,
+        "transcript": "Solving this problem was a huge business opportunity."
+      },
+      {
+        "score": 0.2052,
+        "start": 171.94,
+        "end": 174.74,
+        "transcript": "And one man was ready to capitalize on that."
+      },
+      {
+        "score": 0.4282,
+        "start": 174.74,
+        "end": 179.21,
+        "transcript": "Larry Herbert started working at Pantone in 1956."
+      },
+      {
+        "score": 0.7447,
+        "start": 179.21,
+        "end": 186.03,
+        "transcript": "Back then, it was a printing company, so Larry knew how frustrating it was to communicate color."
+      },
+      {
+        "score": 0.44,
+        "start": 186.03,
+        "end": 187.78,
+        "transcript": "Did you say green?"
+      },
+      {
+        "score": 0.3601,
+        "start": 187.78,
+        "end": 189.08,
+        "transcript": "Like, great, what kind of green?"
+      },
+      {
+        "score": 0.3718,
+        "start": 189.08,
+        "end": 189.88,
+        "transcript": "Brat green."
+      },
+      {
+        "score": 0.1433,
+        "start": 189.88,
+        "end": 191.78,
+        "transcript": "Oh my god, it's Shrek."
+      }
+    ],
+    "segment_count": 22
+  },
+  {
+    "name": "The Color",
+    "start": 190,
+    "original_name": "specific color",
+    "score": 4.046238484618243,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8582,
+        "start": 191.78,
+        "end": 197.96,
+        "transcript": "Well, if you wanted to have a specific color, you often had to bring an example of that color in with you to the printers."
+      },
+      {
+        "score": 0.8332,
+        "start": 197.96,
+        "end": 206.68,
+        "transcript": "And then the printers might have their own formula guides or recipe books that they could match colors to, but they didn't share those with other printers."
+      },
+      {
+        "score": 0.305,
+        "start": 206.68,
+        "end": 212.44,
+        "transcript": "Larry realized that a shared standard would streamline communication and prevent mistakes."
+      },
+      {
+        "score": 0.3464,
+        "start": 212.44,
+        "end": 215.73,
+        "transcript": "But he wasn't the first to come up with this concept."
+      },
+      {
+        "score": 0.6194,
+        "start": 215.73,
+        "end": 221.87,
+        "transcript": "There were other color references, like the Munsell Color System, developed in 1905."
+      },
+      {
+        "score": 0.46,
+        "start": 221.87,
+        "end": 225.25,
+        "transcript": "Or this 1922 book for textiles."
+      },
+      {
+        "score": 0.6733,
+        "start": 225.25,
+        "end": 230.03,
+        "transcript": "Even before that, scientists worked to standardize color names."
+      },
+      {
+        "score": 0.6333,
+        "start": 230.03,
+        "end": 236.04,
+        "transcript": "Although this author might not have appreciated Pantones' color of the year, Mocha Moose."
+      },
+      {
+        "score": 0.3462,
+        "start": 236.04,
+        "end": 240.17,
+        "transcript": "More than just a color, Mocha Moose is a treat."
+      },
+      {
+        "score": 0.133,
+        "start": 240.17,
+        "end": 243.91,
+        "transcript": "He denounces fanciful and nonsensical names."
+      },
+      {
+        "score": 0.3337,
+        "start": 243.91,
+        "end": 247.83,
+        "transcript": "but there wasn't a system used across industries."
+      },
+      {
+        "score": 0.63,
+        "start": 247.83,
+        "end": 255.92,
+        "transcript": "To duplicate exactly the subtle shadings and tone combinations conceived by the artist require the services of an expert cheap colorist."
+      },
+      {
+        "score": 0.2698,
+        "start": 255.92,
+        "end": 258.75,
+        "transcript": "Larry was determined to change that."
+      },
+      {
+        "score": 0.7118,
+        "start": 258.75,
+        "end": 264.44,
+        "transcript": "His key innovation was the Pantone matching system."
+      },
+      {
+        "score": 0.8207,
+        "start": 264.44,
+        "end": 269.97,
+        "transcript": "Pantone chooses a bundle of colors and assigns a numerical code to each one."
+      },
+      {
+        "score": 0.907,
+        "start": 269.97,
+        "end": 275.04,
+        "transcript": "Every color has a specific formula, like a recipe written by Pantone."
+      },
+      {
+        "score": 0.4852,
+        "start": 275.04,
+        "end": 279.17,
+        "transcript": "The company distributes its system through guidebooks like these."
+      },
+      {
+        "score": 0.8592,
+        "start": 279.17,
+        "end": 284.33,
+        "transcript": "So instead of saying royal blue, you'd say Pantone 300."
+      },
+      {
+        "score": 0.5513,
+        "start": 284.33,
+        "end": 288.74,
+        "transcript": "Then you'd specify if you're printing on coated or uncoated paper."
+      },
+      {
+        "score": 0.8077,
+        "start": 288.74,
+        "end": 296.51,
+        "transcript": "Printers anywhere in the world instantly know what you want, and they have a repeatable way to recreate that color."
+      },
+      {
+        "score": 0.2664,
+        "start": 296.51,
+        "end": 302.63,
+        "transcript": "as long as they also own a guidebook."
+      },
+      {
+        "score": 0.5809,
+        "start": 302.63,
+        "end": 305.3,
+        "transcript": "Numbers matched two colors."
+      },
+      {
+        "score": 0.3586,
+        "start": 305.3,
+        "end": 306.88,
+        "transcript": "It's sort of that simple."
+      },
+      {
+        "score": 0.7999,
+        "start": 306.88,
+        "end": 313.4,
+        "transcript": "Pantone released its first guides in 1963 with about 500 colors."
+      },
+      {
+        "score": 0.5577,
+        "start": 313.4,
+        "end": 318.49,
+        "transcript": "To 19, that's eight parts Rubin Red and eight parts White."
+      },
+      {
+        "score": 0.3532,
+        "start": 318.49,
+        "end": 325.75,
+        "transcript": "And the system was a hit, selling over 200,000 copies in about five years."
+      },
+      {
+        "score": 0.4313,
+        "start": 325.75,
+        "end": 330.44,
+        "transcript": "By 1971, it was used in 42 countries at hundreds of printers."
+      },
+      {
+        "score": 0.1898,
+        "start": 330.44,
+        "end": 334.08,
+        "transcript": "Two years later, it was up to 58 countries."
+      },
+      {
+        "score": 0.6268,
+        "start": 334.08,
+        "end": 346.2,
+        "transcript": "It was such a needed product as branding and corporate identity was getting larger, as people were starting to pay more attention to how brands were presenting themselves."
+      },
+      {
+        "score": 0.9998,
+        "start": 346.2,
+        "end": 351.94,
+        "transcript": "Color consistency just became incredibly important, and Pantone fit the bill perfectly."
+      },
+      {
+        "score": 0.6877,
+        "start": 351.94,
+        "end": 357.14,
+        "transcript": "In less than a decade, Pantone became the industry standard."
+      },
+      {
+        "score": 0.3964,
+        "start": 357.14,
+        "end": 364.23,
+        "transcript": "Superman or Batman, even states they have PMS colors associated with their flags."
+      },
+      {
+        "score": 0.3645,
+        "start": 364.23,
+        "end": 369.75,
+        "transcript": "The company expanded into textiles and plastics."
+      },
+      {
+        "score": 0.8478,
+        "start": 369.75,
+        "end": 374.92,
+        "transcript": "And in the 1980s, Pantone was quick to license its colors to software companies."
+      }
+    ],
+    "segment_count": 34
+  },
+  {
+    "name": "The Pantone",
+    "start": 371,
+    "original_name": "software companies",
+    "score": 4.554629134813944,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7506,
+        "start": 374.92,
+        "end": 378.07,
+        "transcript": "We have over 10,000 colors at this point."
+      },
+      {
+        "score": 0.7393,
+        "start": 378.07,
+        "end": 388.01,
+        "transcript": "In 2001, Pantone referred to itself as the world's only universally accepted color communication language."
+      },
+      {
+        "score": 0.8972,
+        "start": 388.01,
+        "end": 394.02,
+        "transcript": "And one reason Pantone's stay dominant is that its system is proprietary."
+      },
+      {
+        "score": 0.6051,
+        "start": 394.02,
+        "end": 396.64,
+        "transcript": "Property, Pantone, registration mark."
+      },
+      {
+        "score": 0.7656,
+        "start": 396.64,
+        "end": 401.83,
+        "transcript": "Before you get to the colors, you're greeted with a trademark and copyright notice."
+      },
+      {
+        "score": 0.9086,
+        "start": 401.83,
+        "end": 409.57,
+        "transcript": "The Pantone's near monopoly has caused some designers to feel like they have no choice but to pay."
+      },
+      {
+        "score": 0.4069,
+        "start": 409.57,
+        "end": 411.3,
+        "transcript": "Panto don't own anything."
+      },
+      {
+        "score": 0.7611,
+        "start": 411.3,
+        "end": 417.05,
+        "transcript": "The only thing they actually own is the code that they associate with that colour."
+      },
+      {
+        "score": 0.6692,
+        "start": 417.05,
+        "end": 423.04,
+        "transcript": "So they don't own the colour, they just own the language that we use to describe the colour."
+      },
+      {
+        "score": 0.3547,
+        "start": 423.04,
+        "end": 425.95,
+        "transcript": "and it's gone to court to protect that language."
+      },
+      {
+        "score": 0.6676,
+        "start": 425.95,
+        "end": 434.69,
+        "transcript": "In 1968, Pantone sued a competitor called Paratone, saying that it copied Pantone's intellectual property."
+      },
+      {
+        "score": 0.5238,
+        "start": 434.69,
+        "end": 436.52,
+        "transcript": "And Pantone won."
+      },
+      {
+        "score": 0.4793,
+        "start": 436.52,
+        "end": 443.99,
+        "transcript": "The judge determined that Pantone's system had sufficient originality and uniqueness to qualify it for copyright ability."
+      },
+      {
+        "score": 0.627,
+        "start": 443.99,
+        "end": 447.25,
+        "transcript": "There's no corporate headquarters for CMYK."
+      },
+      {
+        "score": 0.7532,
+        "start": 447.25,
+        "end": 451.47,
+        "transcript": "There's no corporate headquarters for RGB, but there is a corporate headquarters for Pantone."
+      },
+      {
+        "score": 0.7514,
+        "start": 451.47,
+        "end": 455.02,
+        "transcript": "Does Pantone have a serious competitor?"
+      },
+      {
+        "score": 0.3622,
+        "start": 455.02,
+        "end": 459.79,
+        "transcript": "That's a good question."
+      },
+      {
+        "score": 0.2914,
+        "start": 459.79,
+        "end": 466.09,
+        "transcript": "Everyone can be a competitor by the same time."
+      }
+    ],
+    "segment_count": 18
+  },
+  {
+    "name": "The Allied",
+    "start": 465,
+    "original_name": "printers",
+    "score": 2.8441106050872804,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6574,
+        "start": 466.09,
+        "end": 471.44,
+        "transcript": "There's only one Pantone with such a dedicated team."
+      },
+      {
+        "score": 0.9907,
+        "start": 471.44,
+        "end": 474.1,
+        "transcript": "For printers, Pantone is a fact of life."
+      },
+      {
+        "score": 0.8954,
+        "start": 474.1,
+        "end": 477.87,
+        "transcript": "The whole 38 years I've been here, we've been using Pantone."
+      },
+      {
+        "score": 0.7809,
+        "start": 477.87,
+        "end": 484.89,
+        "transcript": "If we went away from Pantone, a lot of our higher-end clients, I don't think they would want to do business with us anymore."
+      },
+      {
+        "score": 0.9599,
+        "start": 484.89,
+        "end": 490.66,
+        "transcript": "Kevin uses Pantone guides to verify that printed colors match client orders."
+      },
+      {
+        "score": 0.679,
+        "start": 490.66,
+        "end": 497.07,
+        "transcript": "If they have a book and they pick the color, then we have our book and we know exactly what they want."
+      },
+      {
+        "score": 0.7153,
+        "start": 497.07,
+        "end": 500.16,
+        "transcript": "They're one of our most valuable tools that we have in a printing industry."
+      },
+      {
+        "score": 0.84,
+        "start": 500.16,
+        "end": 508.11,
+        "transcript": "Allied printing mixes each Pantone color in-house, using a set of base inks."
+      },
+      {
+        "score": 0.8203,
+        "start": 508.11,
+        "end": 513.96,
+        "transcript": "If you mix it in a formula, you're getting the pantone color."
+      },
+      {
+        "score": 0.5915,
+        "start": 513.96,
+        "end": 518.49,
+        "transcript": "Where if you're just shooting in the dark, you can be mixing it in ink all day long."
+      },
+      {
+        "score": 0.5473,
+        "start": 518.49,
+        "end": 523.72,
+        "transcript": "Anthony is Allied Printing's resident ink mixer."
+      },
+      {
+        "score": 0.559,
+        "start": 523.72,
+        "end": 525.96,
+        "transcript": "Just go to page 65, find your color."
+      },
+      {
+        "score": 0.2001,
+        "start": 525.96,
+        "end": 528.02,
+        "transcript": "There's a 7-11 right here."
+      },
+      {
+        "score": 0.1594,
+        "start": 528.02,
+        "end": 531.05,
+        "transcript": "So we want a six pounder."
+      },
+      {
+        "score": 0.0455,
+        "start": 531.05,
+        "end": 533.15,
+        "transcript": "Usually I do my six pounders and a one gallon."
+      },
+      {
+        "score": 0.0,
+        "start": 533.15,
+        "end": 535.06,
+        "transcript": "This fits up to like eight pounds."
+      },
+      {
+        "score": 0.4045,
+        "start": 535.06,
+        "end": 540.74,
+        "transcript": "This is my recipe right here, so I have transparent white, which is clear."
+      },
+      {
+        "score": 0.5698,
+        "start": 540.74,
+        "end": 543.42,
+        "transcript": "We have yellow."
+      },
+      {
+        "score": 0.3875,
+        "start": 543.42,
+        "end": 550.19,
+        "transcript": "We have warm red."
+      },
+      {
+        "score": 0.0905,
+        "start": 550.19,
+        "end": 555.19,
+        "transcript": "This one calls for 4.6 pounds."
+      },
+      {
+        "score": 0.4885,
+        "start": 555.19,
+        "end": 560.6,
+        "transcript": "And then we have black."
+      },
+      {
+        "score": 0.3628,
+        "start": 560.6,
+        "end": 564.38,
+        "transcript": "All right, so that's the last ingredient."
+      },
+      {
+        "score": 0.2918,
+        "start": 564.38,
+        "end": 566.24,
+        "transcript": "We're ready to throw it on the mixer."
+      },
+      {
+        "score": 0.8219,
+        "start": 566.24,
+        "end": 571.96,
+        "transcript": "But Allied printing doesn't buy ink from Pantone."
+      },
+      {
+        "score": 0.3483,
+        "start": 571.96,
+        "end": 574.68,
+        "transcript": "It works with a licensed manufacturer."
+      },
+      {
+        "score": 0.8473,
+        "start": 574.68,
+        "end": 582.01,
+        "transcript": "And to access color formulas, Anthony uses third-party software that's again licensed by Pantone."
+      },
+      {
+        "score": 0.5992,
+        "start": 582.01,
+        "end": 587.14,
+        "transcript": "The only thing Allied printing buys from Pantone are the guidebooks."
+      },
+      {
+        "score": 0.4614,
+        "start": 587.14,
+        "end": 593.33,
+        "transcript": "After mixing Anthony tests every batch to ensure it's consistent."
+      },
+      {
+        "score": 0.203,
+        "start": 593.33,
+        "end": 599.0,
+        "transcript": "I'll put down my sample first, and then this is my batch."
+      },
+      {
+        "score": 0.1763,
+        "start": 599.0,
+        "end": 601.99,
+        "transcript": "Draw it down."
+      },
+      {
+        "score": 0.6044,
+        "start": 601.99,
+        "end": 604.61,
+        "transcript": "Here's a color."
+      },
+      {
+        "score": 0.3066,
+        "start": 604.61,
+        "end": 606.84,
+        "transcript": "It looks good."
+      },
+      {
+        "score": 0.4621,
+        "start": 606.84,
+        "end": 608.4,
+        "transcript": "The formula looks good."
+      },
+      {
+        "score": 0.2674,
+        "start": 608.4,
+        "end": 609.32,
+        "transcript": "And that's it."
+      },
+      {
+        "score": 0.5691,
+        "start": 609.32,
+        "end": 611.56,
+        "transcript": "That's a typical ink order for fill."
+      },
+      {
+        "score": 0.7219,
+        "start": 611.56,
+        "end": 623.02,
+        "transcript": "Because Pantone colors are pre-mixed from 11 base inks, they look brighter and cleaner compared to CMYK, which uses just four colors."
+      },
+      {
+        "score": 0.859,
+        "start": 623.02,
+        "end": 631.14,
+        "transcript": "Pantone has a huge gamut of colors that you'll never be able to achieve with CMYK."
+      },
+      {
+        "score": 0.7482,
+        "start": 631.14,
+        "end": 639.85,
+        "transcript": "You can try to imitate Pantone colors through four color process, but in my opinion, you never do."
+      },
+      {
+        "score": 0.1582,
+        "start": 639.85,
+        "end": 641.72,
+        "transcript": "They get dingy and dirty."
+      },
+      {
+        "score": 0.5592,
+        "start": 641.72,
+        "end": 652.57,
+        "transcript": "CMYK is useful for something like this photo with hundreds of slightly different colors and shades."
+      }
+    ],
+    "segment_count": 40
+  },
+  {
+    "name": "The Pantone",
+    "start": 649,
+    "original_name": "need one solid color",
+    "score": 4.900078572359952,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7441,
+        "start": 699.99,
+        "end": 705.42,
+        "transcript": "Pantone becomes a necessary evil because it's such a mainstream language."
+      },
+      {
+        "score": 0.985,
+        "start": 652.57,
+        "end": 661.58,
+        "transcript": "Pantone excels when you need one solid color to look exactly the same every time it's printed, like with a logo or a brand color."
+      },
+      {
+        "score": 0.726,
+        "start": 661.58,
+        "end": 669.04,
+        "transcript": "We could run a part of a project here at Connecticut, and someone else could run a part of a project in California, and if you're running Pantone, they're gonna match."
+      },
+      {
+        "score": 0.8941,
+        "start": 669.04,
+        "end": 674.09,
+        "transcript": "But depending on what you're printing, Pantone is often more expensive."
+      },
+      {
+        "score": 0.5765,
+        "start": 674.09,
+        "end": 681.95,
+        "transcript": "Besides the effort of mixing colors, Kevin says the ink itself costs about 15 to 25% more than CMYK."
+      },
+      {
+        "score": 0.4989,
+        "start": 681.95,
+        "end": 684.67,
+        "transcript": "Some of our customers don't care about price."
+      },
+      {
+        "score": 0.7693,
+        "start": 684.67,
+        "end": 690.68,
+        "transcript": "A lot of big corporations, if that's their corporate color, they want their corporate color to be perfect."
+      },
+      {
+        "score": 0.7858,
+        "start": 690.68,
+        "end": 699.99,
+        "transcript": "But some designers are frustrated by Pantone's level of control."
+      },
+      {
+        "score": 0.7441,
+        "start": 699.99,
+        "end": 705.42,
+        "transcript": "Pantone becomes a necessary evil because it's such a mainstream language."
+      },
+      {
+        "score": 0.1738,
+        "start": 705.42,
+        "end": 709.29,
+        "transcript": "These frustrations took centre stage in October 2022."
+      },
+      {
+        "score": 0.8474,
+        "start": 709.29,
+        "end": 720.43,
+        "transcript": "I woke up one day, opened my laptop and there were loads of black squares where there were colours because Pantone wanted additional money for me to access the colour palette."
+      }
+    ],
+    "segment_count": 11
+  },
+  {
+    "name": "The Rotomy",
+    "start": 711,
+    "original_name": "pantone wanted additional money",
+    "score": 2.805421148079839,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8004,
+        "start": 720.43,
+        "end": 725.26,
+        "transcript": "Pantone colors used to be accessible in Adobe software like Photoshop."
+      },
+      {
+        "score": 0.7518,
+        "start": 725.26,
+        "end": 729.75,
+        "transcript": "But to access them now, designers need to pay a subscription fee to Pantone."
+      },
+      {
+        "score": 0.6156,
+        "start": 729.75,
+        "end": 736.0,
+        "transcript": "This added cost has festered as a point of friction between Pantone and its customers."
+      },
+      {
+        "score": 0.7876,
+        "start": 736.0,
+        "end": 742.23,
+        "transcript": "If I'd been asked three years ago if I had any issues with Pantone, I would have really, really struggled to answer that question."
+      },
+      {
+        "score": 0.3959,
+        "start": 742.23,
+        "end": 748.55,
+        "transcript": "But now we were at being asked to pay $15 on top of that Adobe fee, and it's not as intuitive of a system."
+      },
+      {
+        "score": 0.8491,
+        "start": 748.55,
+        "end": 754.0,
+        "transcript": "Pantone says the old colors were outdated, and its new plugin offers more features."
+      },
+      {
+        "score": 0.4169,
+        "start": 754.0,
+        "end": 756.85,
+        "transcript": "But not everyone is happy about the change."
+      },
+      {
+        "score": 0.2952,
+        "start": 756.85,
+        "end": 761.11,
+        "transcript": "The Adobe plugin has a one-star rating."
+      },
+      {
+        "score": 0.2702,
+        "start": 761.11,
+        "end": 763.9,
+        "transcript": "what we used to have used to be really easy."
+      },
+      {
+        "score": 0.2528,
+        "start": 763.9,
+        "end": 765.58,
+        "transcript": "It's a tool and I want it to be easy."
+      },
+      {
+        "score": 0.7323,
+        "start": 765.58,
+        "end": 772.43,
+        "transcript": "Of course, having its own plugin also gives Pantone a space to advertise new products."
+      },
+      {
+        "score": 0.1968,
+        "start": 772.43,
+        "end": 775.56,
+        "transcript": "That's just reality in the world, right?"
+      },
+      {
+        "score": 0.2149,
+        "start": 775.56,
+        "end": 777.28,
+        "transcript": "There's not a subscription out there."
+      },
+      {
+        "score": 0.5358,
+        "start": 777.28,
+        "end": 780.47,
+        "transcript": "If you're a serious designer, that cost will be nothing."
+      },
+      {
+        "score": 0.2847,
+        "start": 780.47,
+        "end": 785.82,
+        "transcript": "They can put the prices up whenever they want and the whole world has to agree."
+      },
+      {
+        "score": 0.6144,
+        "start": 785.82,
+        "end": 789.78,
+        "transcript": "They can charge whatever they want for the color books because there's no competition."
+      },
+      {
+        "score": 0.2988,
+        "start": 789.78,
+        "end": 791.29,
+        "transcript": "So that's not right."
+      },
+      {
+        "score": 0.2277,
+        "start": 791.29,
+        "end": 795.67,
+        "transcript": "We need healthy competition."
+      },
+      {
+        "score": 0.7013,
+        "start": 795.67,
+        "end": 800.8,
+        "transcript": "But how do pan tones customers feel about there being only one pan tone?"
+      },
+      {
+        "score": 0.3913,
+        "start": 800.8,
+        "end": 805.34,
+        "transcript": "You don't really have a choice, especially if you want to be on par with industry."
+      },
+      {
+        "score": 0.4487,
+        "start": 805.34,
+        "end": 810.95,
+        "transcript": "You're at a competitive disadvantage if you're not aware of this."
+      },
+      {
+        "score": 0.731,
+        "start": 810.95,
+        "end": 818.25,
+        "transcript": "Rotomy is an industrial designer, so having a three-dimensional color reference is invaluable."
+      },
+      {
+        "score": 0.5977,
+        "start": 818.25,
+        "end": 824.82,
+        "transcript": "But when he and his wife Candace started their own studio, the price of Pantone was shocking."
+      },
+      {
+        "score": 0.6002,
+        "start": 824.82,
+        "end": 831.87,
+        "transcript": "When I tell people it's been $1,000 on a color set of grays, they look at me like I'm crazy."
+      },
+      {
+        "score": 0.4271,
+        "start": 831.87,
+        "end": 834.87,
+        "transcript": "Rotomy really likes gray."
+      },
+      {
+        "score": 0.4194,
+        "start": 834.87,
+        "end": 838.69,
+        "transcript": "I like white, and I like black, and so gray is just like right in between."
+      },
+      {
+        "score": 0.509,
+        "start": 838.69,
+        "end": 841.58,
+        "transcript": "There's quite a bit of variation."
+      },
+      {
+        "score": 0.3873,
+        "start": 841.58,
+        "end": 847.62,
+        "transcript": "This one skews more blue, more purple, whereas this one skews a little bit more neutral."
+      },
+      {
+        "score": 0.7245,
+        "start": 847.62,
+        "end": 851.61,
+        "transcript": "There's just so many variances in gray or even white."
+      }
+    ],
+    "segment_count": 29
+  },
+  {
+    "name": "The Richa",
+    "start": 848,
+    "original_name": "many variances",
+    "score": 3.235634890492757,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.1665,
+        "start": 851.61,
+        "end": 859.36,
+        "transcript": "One replacement chip is $20, and the complete SAT cost over $9,000."
+      },
+      {
+        "score": 0.3824,
+        "start": 859.36,
+        "end": 864.27,
+        "transcript": "Unfortunately, Rotemies has started to yellow."
+      },
+      {
+        "score": 0.5376,
+        "start": 864.27,
+        "end": 866.44,
+        "transcript": "This is the original color."
+      },
+      {
+        "score": 0.4639,
+        "start": 866.44,
+        "end": 868.32,
+        "transcript": "You can see how bright that is."
+      },
+      {
+        "score": 0.174,
+        "start": 868.32,
+        "end": 869.95,
+        "transcript": "It hurts a little bit."
+      },
+      {
+        "score": 0.4568,
+        "start": 869.95,
+        "end": 875.63,
+        "transcript": "Pantone recommends replacing its guides every 12 to 18 months."
+      },
+      {
+        "score": 0.3422,
+        "start": 875.63,
+        "end": 881.58,
+        "transcript": "Although Kevin is the only person business insider spoke to who actually does this."
+      },
+      {
+        "score": 0.3339,
+        "start": 881.58,
+        "end": 885.23,
+        "transcript": "These are the older ones."
+      },
+      {
+        "score": 0.2075,
+        "start": 885.23,
+        "end": 888.19,
+        "transcript": "So a lot of these are from, this is 2016."
+      },
+      {
+        "score": 0.3534,
+        "start": 888.19,
+        "end": 890.37,
+        "transcript": "And from new to old."
+      },
+      {
+        "score": 0.7311,
+        "start": 890.37,
+        "end": 901.51,
+        "transcript": "So much yellower, the old one is, But for many designers paying hundreds or thousands of dollars every 18 months is unrealistic."
+      },
+      {
+        "score": 0.3929,
+        "start": 901.51,
+        "end": 906.73,
+        "transcript": "It's maybe not super necessary, but there is definitely an expiration date on those things."
+      },
+      {
+        "score": 0.3091,
+        "start": 906.73,
+        "end": 909.92,
+        "transcript": "We probably update them every couple years."
+      },
+      {
+        "score": 0.4114,
+        "start": 909.92,
+        "end": 915.71,
+        "transcript": "This is a good example of when it's time to buy some new pantom books."
+      },
+      {
+        "score": 0.5795,
+        "start": 915.71,
+        "end": 923.83,
+        "transcript": "The Pantone system, it definitely does really well in corporate America with the larger business structures."
+      },
+      {
+        "score": 0.3707,
+        "start": 923.83,
+        "end": 929.2,
+        "transcript": "Your freelancers and your small studios, it's not optimal for us."
+      },
+      {
+        "score": 0.2986,
+        "start": 929.2,
+        "end": 931.06,
+        "transcript": "The barrier to entry is high."
+      },
+      {
+        "score": 0.6947,
+        "start": 931.06,
+        "end": 938.71,
+        "transcript": "If you want access to Pantone's tools, you have to spend at least a few hundred dollars."
+      },
+      {
+        "score": 0.2876,
+        "start": 938.71,
+        "end": 941.17,
+        "transcript": "The set of these binders costs $561."
+      },
+      {
+        "score": 0.5156,
+        "start": 941.17,
+        "end": 948.66,
+        "transcript": "It lets you rip out swatches, useful for collaboration, but also destructive."
+      },
+      {
+        "score": 0.2749,
+        "start": 948.66,
+        "end": 951.87,
+        "transcript": "Replacement pages are $13 each."
+      },
+      {
+        "score": 0.5659,
+        "start": 951.87,
+        "end": 958.41,
+        "transcript": "You can tell this whole row is missing, so then this becomes essentially useless because you can't compare colors."
+      },
+      {
+        "score": 0.418,
+        "start": 958.41,
+        "end": 961.63,
+        "transcript": "Richa is a graphic designer."
+      },
+      {
+        "score": 0.3211,
+        "start": 961.63,
+        "end": 964.58,
+        "transcript": "She works with brands like Hershey and Kebler."
+      },
+      {
+        "score": 0.3443,
+        "start": 964.58,
+        "end": 968.54,
+        "transcript": "I feel like I'm building a grocery store over here."
+      },
+      {
+        "score": 0.6107,
+        "start": 968.54,
+        "end": 972.4,
+        "transcript": "Her favorite pantone color is TaxiCab Yellow."
+      },
+      {
+        "score": 0.1546,
+        "start": 972.4,
+        "end": 973.7,
+        "transcript": "I think it might be 132."
+      },
+      {
+        "score": 0.2422,
+        "start": 973.7,
+        "end": 976.1,
+        "transcript": "132 is not right."
+      },
+      {
+        "score": 0.4415,
+        "start": 976.1,
+        "end": 979.59,
+        "transcript": "It is what I would define as a baby poop color."
+      },
+      {
+        "score": 0.1975,
+        "start": 979.59,
+        "end": 983.11,
+        "transcript": "I take it back, not 132, but 130."
+      },
+      {
+        "score": 0.2767,
+        "start": 983.11,
+        "end": 984.75,
+        "transcript": "Look at that, look at that beauty."
+      },
+      {
+        "score": 0.7328,
+        "start": 984.75,
+        "end": 990.62,
+        "transcript": "Richa uses pantone guides to translate her digital designs to print."
+      },
+      {
+        "score": 0.6313,
+        "start": 990.62,
+        "end": 997.11,
+        "transcript": "Making sure that what they're seeing on their screens matches the color that they experience in real life."
+      }
+    ],
+    "segment_count": 33
+  },
+  {
+    "name": "The Minion Yellow",
+    "start": 996,
+    "original_name": "pantone colors",
+    "score": 4.270392178430865,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.4852,
+        "start": 997.11,
+        "end": 1001.4,
+        "transcript": "So this is my baby, this is my pantone bridge guide."
+      },
+      {
+        "score": 0.9079,
+        "start": 1001.4,
+        "end": 1006.99,
+        "transcript": "We have our pantone colors and then over here we have our CMYK values."
+      },
+      {
+        "score": 0.2049,
+        "start": 1006.99,
+        "end": 1009.96,
+        "transcript": "It's pretty beat up because I use a lot."
+      },
+      {
+        "score": 0.3595,
+        "start": 1009.96,
+        "end": 1012.8,
+        "transcript": "Thankfully that's one of the more affordable guides."
+      },
+      {
+        "score": 0.2622,
+        "start": 1012.8,
+        "end": 1014.52,
+        "transcript": "Just $265."
+      },
+      {
+        "score": 0.306,
+        "start": 1014.52,
+        "end": 1017.65,
+        "transcript": "We have like 30 of those or something."
+      },
+      {
+        "score": 0.2885,
+        "start": 1017.65,
+        "end": 1019.43,
+        "transcript": "So that's like that adds up."
+      },
+      {
+        "score": 0.8756,
+        "start": 1019.43,
+        "end": 1026.86,
+        "transcript": "But for a lot of designers, access to pantones shared language is worth the cost."
+      },
+      {
+        "score": 0.8506,
+        "start": 1026.86,
+        "end": 1029.24,
+        "transcript": "The pantone shapes our world."
+      },
+      {
+        "score": 0.9065,
+        "start": 1029.24,
+        "end": 1035.23,
+        "transcript": "Anything that is being printed, especially for larger brands, is likely using a pantone."
+      },
+      {
+        "score": 0.7439,
+        "start": 1035.23,
+        "end": 1041.34,
+        "transcript": "Like Target Red, Tiffany Blue, and of course, Minion Yellow."
+      },
+      {
+        "score": 0.4034,
+        "start": 1041.34,
+        "end": 1048.65,
+        "transcript": "I think for the functionality within our industry, it makes sense for there to be one big player."
+      },
+      {
+        "score": 0.3616,
+        "start": 1048.65,
+        "end": 1054.08,
+        "transcript": "It's such a dance because there are so many partners involved in producing things like this."
+      },
+      {
+        "score": 0.3742,
+        "start": 1054.08,
+        "end": 1061.58,
+        "transcript": "You're sort of creating the design intent, handing that off to another partner that's going to them, make sure that they use the same design intent."
+      },
+      {
+        "score": 0.5799,
+        "start": 1061.58,
+        "end": 1064.46,
+        "transcript": "That partner is often a printer."
+      },
+      {
+        "score": 0.6105,
+        "start": 1064.46,
+        "end": 1072.45,
+        "transcript": "If there were three different types of guides and designers got a hold of them, they would make printer's life miserable."
+      },
+      {
+        "score": 0.6253,
+        "start": 1072.45,
+        "end": 1076.19,
+        "transcript": "Every printer in the world would have to go to three different standards."
+      },
+      {
+        "score": 0.3327,
+        "start": 1076.19,
+        "end": 1080.51,
+        "transcript": "A designer's they can definitely work with."
+      },
+      {
+        "score": 0.2054,
+        "start": 1080.51,
+        "end": 1083.8,
+        "transcript": "There's millions of them that do, but they're missing out."
+      },
+      {
+        "score": 0.3445,
+        "start": 1083.8,
+        "end": 1089.8,
+        "transcript": "Eddie works at Pentagram, a premier design agency with locations around the world."
+      },
+      {
+        "score": 0.6793,
+        "start": 1089.8,
+        "end": 1094.12,
+        "transcript": "My favorite Pantone color is black."
+      },
+      {
+        "score": 0.5767,
+        "start": 1094.12,
+        "end": 1096.03,
+        "transcript": "It is, it is a color."
+      },
+      {
+        "score": 0.7016,
+        "start": 1096.03,
+        "end": 1100.98,
+        "transcript": "But you always have to have a hint of color somehow."
+      },
+      {
+        "score": 0.4226,
+        "start": 1100.98,
+        "end": 1104.9,
+        "transcript": "This particular yellow, I would say, is like a corn yellow."
+      },
+      {
+        "score": 0.5119,
+        "start": 1104.9,
+        "end": 1107.09,
+        "transcript": "It wouldn't be a sort of sunflower yellow."
+      },
+      {
+        "score": 0.1911,
+        "start": 1107.09,
+        "end": 1108.25,
+        "transcript": "It's not warm enough."
+      },
+      {
+        "score": 0.4254,
+        "start": 1108.25,
+        "end": 1115.15,
+        "transcript": "At Pentagram, an abundance of Pantone guides are always within arms reach."
+      },
+      {
+        "score": 0.3835,
+        "start": 1115.15,
+        "end": 1119.26,
+        "transcript": "This bundle costs over $1,000."
+      },
+      {
+        "score": 0.8449,
+        "start": 1119.26,
+        "end": 1123.7,
+        "transcript": "Having a Pantone system is an investment."
+      },
+      {
+        "score": 0.3242,
+        "start": 1123.7,
+        "end": 1124.96,
+        "transcript": "It definitely is."
+      },
+      {
+        "score": 0.2862,
+        "start": 1124.96,
+        "end": 1126.5,
+        "transcript": "But you should pay for that."
+      }
+    ],
+    "segment_count": 31
+  },
+  {
+    "name": "The Pantone",
+    "start": 1125,
+    "original_name": "see",
+    "score": 4.724265375518799,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.9308,
+        "start": 1126.5,
+        "end": 1131.25,
+        "transcript": "When you're dealing with Pantone, what you see is really what you get."
+      },
+      {
+        "score": 0.6767,
+        "start": 1131.25,
+        "end": 1138.15,
+        "transcript": "You cannot print this at home or go to King Co's and believe that you're actually going to get that colors."
+      },
+      {
+        "score": 0.1702,
+        "start": 1138.15,
+        "end": 1139.32,
+        "transcript": "Never going to happen."
+      },
+      {
+        "score": 0.9147,
+        "start": 1139.32,
+        "end": 1146.31,
+        "transcript": "Color experts at Pantone work hard to ensure that every guide is consistent."
+      },
+      {
+        "score": 0.5415,
+        "start": 1146.31,
+        "end": 1150.72,
+        "transcript": "That's essential to the company's reputation and its bottom line."
+      },
+      {
+        "score": 0.576,
+        "start": 1150.72,
+        "end": 1155.11,
+        "transcript": "Pantone says it earns about half of its revenue from the guides."
+      },
+      {
+        "score": 0.2218,
+        "start": 1155.11,
+        "end": 1161.95,
+        "transcript": "The first guide that I purchased was around 2005-2006."
+      },
+      {
+        "score": 0.317,
+        "start": 1161.95,
+        "end": 1165.57,
+        "transcript": "I had started my own studio."
+      },
+      {
+        "score": 0.4991,
+        "start": 1165.57,
+        "end": 1173.93,
+        "transcript": "So before I would borrow it from friends or try my very best to go to the printer and then I would pick there."
+      },
+      {
+        "score": 0.229,
+        "start": 1173.93,
+        "end": 1180.74,
+        "transcript": "Just like any other tool, you upgrade your software on the subscription."
+      },
+      {
+        "score": 0.3502,
+        "start": 1180.74,
+        "end": 1183.78,
+        "transcript": "Why wouldn't you do the same thing with Panta?"
+      },
+      {
+        "score": 0.7655,
+        "start": 1183.78,
+        "end": 1187.25,
+        "transcript": "I don't see Pantone as a tool, actually."
+      },
+      {
+        "score": 0.2597,
+        "start": 1187.25,
+        "end": 1198.55,
+        "transcript": "I see it as a language and part of a process, but because they have such a vast monopoly, it becomes a language that we're all forced to speak."
+      },
+      {
+        "score": 0.3491,
+        "start": 1198.55,
+        "end": 1201.96,
+        "transcript": "And sadly, it's a language that we need to pay to access."
+      },
+      {
+        "score": 0.4991,
+        "start": 1201.96,
+        "end": 1211.91,
+        "transcript": "Most of the designers' business insiders spoke to said, despite their frustrations, it's worth the cost."
+      },
+      {
+        "score": 0.948,
+        "start": 1211.91,
+        "end": 1216.18,
+        "transcript": "Pantone delivers on its promise of consistent color."
+      }
+    ],
+    "segment_count": 16
+  },
+  {
+    "name": "The Rite",
+    "start": 1216,
+    "original_name": "pantone delivers",
+    "score": 3.3571834693892795,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.3371,
+        "start": 1216.18,
+        "end": 1220.5,
+        "transcript": "We produce thousands, maybe even millions of times."
+      },
+      {
+        "score": 0.7207,
+        "start": 1220.5,
+        "end": 1226.05,
+        "transcript": "That color would look different each and every time, especially on a global scale."
+      },
+      {
+        "score": 0.9063,
+        "start": 1226.05,
+        "end": 1234.18,
+        "transcript": "That's why systems like Pantone are around to keep that consistency, to keep that quality control."
+      },
+      {
+        "score": 0.4617,
+        "start": 1234.18,
+        "end": 1237.01,
+        "transcript": "And that's the reason why you spend that money."
+      },
+      {
+        "score": 0.3975,
+        "start": 1237.01,
+        "end": 1246.61,
+        "transcript": "Despite how much design has changed in the last 60 years, the system Larry Herbert developed back then still works."
+      },
+      {
+        "score": 0.7692,
+        "start": 1246.61,
+        "end": 1253.92,
+        "transcript": "X-Rite, a large color science company, bought Pantone in 2007 for $180 million."
+      },
+      {
+        "score": 0.1459,
+        "start": 1253.92,
+        "end": 1256.82,
+        "transcript": "Not a bad return for Larry and his family."
+      },
+      {
+        "score": 0.2936,
+        "start": 1256.82,
+        "end": 1259.51,
+        "transcript": "And remember the Munsell system?"
+      },
+      {
+        "score": 0.7238,
+        "start": 1259.51,
+        "end": 1261.57,
+        "transcript": "One of the earliest color standards."
+      },
+      {
+        "score": 0.4608,
+        "start": 1261.57,
+        "end": 1263.73,
+        "transcript": "X-Rite owns that too."
+      },
+      {
+        "score": 0.7999,
+        "start": 1263.73,
+        "end": 1271.04,
+        "transcript": "After 62 years, it's hard to imagine a new system replacing Pantone."
+      },
+      {
+        "score": 0.3252,
+        "start": 1271.04,
+        "end": 1274.03,
+        "transcript": "But Stuart thinks there's a better way."
+      },
+      {
+        "score": 0.759,
+        "start": 1274.03,
+        "end": 1279.21,
+        "transcript": "An open source model makes complete and utter sense for a colour standard."
+      },
+      {
+        "score": 0.7915,
+        "start": 1279.21,
+        "end": 1284.04,
+        "transcript": "If enough people used it, it would easily eclipse Pantone overnight."
+      },
+      {
+        "score": 0.8514,
+        "start": 1284.04,
+        "end": 1292.68,
+        "transcript": "The idea of something replacing Pantone, something that's as cheaper potentially could, but I doubt that."
+      },
+      {
+        "score": 0.1462,
+        "start": 1292.68,
+        "end": 1299.89,
+        "transcript": "It's going to be happening, you know, anytime soon."
+      },
+      {
+        "score": 0.6167,
+        "start": 1299.89,
+        "end": 1303.27,
+        "transcript": "Pantone touches nearly every project Rachel works on."
+      },
+      {
+        "score": 0.6805,
+        "start": 1303.27,
+        "end": 1307.27,
+        "transcript": "But she says she's not thinking about Pantone."
+      },
+      {
+        "score": 0.5357,
+        "start": 1307.27,
+        "end": 1309.15,
+        "transcript": "She's thinking about color."
+      },
+      {
+        "score": 0.6875,
+        "start": 1309.15,
+        "end": 1312.32,
+        "transcript": "Color is a part of our world."
+      },
+      {
+        "score": 0.2208,
+        "start": 1312.32,
+        "end": 1318.37,
+        "transcript": "It's critical to what I do, but it also inspires emotion and connection and happiness."
+      },
+      {
+        "score": 0.928,
+        "start": 1318.37,
+        "end": 1323.51,
+        "transcript": "I think Pantone helps us identify and produce those colors."
+      },
+      {
+        "score": 0.6661,
+        "start": 1323.51,
+        "end": 1325.73,
+        "transcript": "I don't think they own the colors."
+      },
+      {
+        "score": 0.3958,
+        "start": 1325.73,
+        "end": 1328.37,
+        "transcript": "seeing your work in the wild."
+      },
+      {
+        "score": 0.2159,
+        "start": 1328.37,
+        "end": 1329.69,
+        "transcript": "It's a great sense of pride."
+      },
+      {
+        "score": 0.2956,
+        "start": 1329.69,
+        "end": 1337.68,
+        "transcript": "It just feels great to know that all the effort that you put in has come to life the way that you intended and is now something for people to connect with."
+      },
+      {
+        "score": 0.21,
+        "start": 1337.68,
+        "end": 1341.17,
+        "transcript": "And again, amazing bragging rights."
+      },
+      {
+        "score": 0.1289,
+        "start": 1341.17,
+        "end": 1344.67,
+        "transcript": "You can tell your family, go to the store, pick up this pack."
+      },
+      {
+        "score": 0.3327,
+        "start": 1344.67,
+        "end": 1345.63,
+        "transcript": "I made this."
+      },
+      {
+        "score": 0.4052,
+        "start": 1345.63,
+        "end": 1347.96,
+        "transcript": "Takes what we do and makes it tangible."
+      }
+    ],
+    "segment_count": 30
+  }
+]

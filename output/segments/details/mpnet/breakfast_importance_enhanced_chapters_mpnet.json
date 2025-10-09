@@ -1,0 +1,1446 @@
+[
+  {
+    "name": "bbc world service",
+    "start": 0,
+    "segments": [
+      {
+        "score": 0.6084,
+        "start": 0.03,
+        "end": 4.73,
+        "transcript": "Hello and welcome to the Food Chain from the BBC World Service with me Ruth Alexander."
+      },
+      {
+        "score": 0.8611,
+        "start": 4.73,
+        "end": 9.59,
+        "transcript": "In this episode we're asking should you eat breakfast and if so, what?"
+      }
+    ],
+    "segment_count": 2
+  },
+  {
+    "name": "The Does",
+    "start": 9,
+    "original_name": "eat breakfast",
+    "score": 2.505478710204363,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7242,
+        "start": 9.59,
+        "end": 21.43,
+        "transcript": "Joining me is Courtney Peterson, a researcher in intermittent fasting and associate professor of nutrition at the Harvard T.H. Chan School of Public Health in the US."
+      },
+      {
+        "score": 0.167,
+        "start": 21.43,
+        "end": 22.91,
+        "transcript": "It's great to be here, thanks for having me."
+      },
+      {
+        "score": 0.6297,
+        "start": 22.91,
+        "end": 30.54,
+        "transcript": "Also, professor Alexandra Johnstone, nutrition scientist based at the ROWAT Institute at the University of Aberdeen in Scotland."
+      },
+      {
+        "score": 0.2875,
+        "start": 30.54,
+        "end": 38.74,
+        "transcript": "Hi, Ruth, thank you for inviting me to join New to Dean and Mariannella Herrera, an associate professor at Central University of Venezuela."
+      },
+      {
+        "score": 0.092,
+        "start": 38.74,
+        "end": 42.85,
+        "transcript": "and visiting lecturer at Framingham State University in the US."
+      },
+      {
+        "score": 0.1939,
+        "start": 44.21,
+        "end": 45.97,
+        "transcript": "This is a great opportunity."
+      },
+      {
+        "score": 0.1599,
+        "start": 45.97,
+        "end": 47.13,
+        "transcript": "Thank you."
+      },
+      {
+        "score": 0.4658,
+        "start": 47.13,
+        "end": 53.44,
+        "transcript": "So, I have to, of course, start by asking you each what did you have for breakfast today."
+      },
+      {
+        "score": 0.618,
+        "start": 53.44,
+        "end": 58.79,
+        "transcript": "I had a very standard breakfast."
+      },
+      {
+        "score": 0.4996,
+        "start": 58.79,
+        "end": 69.52,
+        "transcript": "I had a croissant, a mini croissant, some jelly, a piece of turkey, and a coffee."
+      },
+      {
+        "score": 0.2119,
+        "start": 69.52,
+        "end": 71.53,
+        "transcript": "That's what I had."
+      },
+      {
+        "score": 0.6697,
+        "start": 71.53,
+        "end": 77.03,
+        "transcript": "That sounds very nice and a step up from my whole wheat cereal with milk and a coffee."
+      },
+      {
+        "score": 0.2128,
+        "start": 77.03,
+        "end": 79.02,
+        "transcript": "Alex, what did you have?"
+      },
+      {
+        "score": 0.5436,
+        "start": 79.02,
+        "end": 101.16,
+        "transcript": "Oh Ruth, so I'm not actually in the UK just now, I'm in Paris, so I had, and I had to have, I was really looking forward to it, a coffee and a croissant, and I had a banana that I took in my handbag that travelled with me soon, and I've been looking forward to it all weekend to enjoy that, and it was lovely."
+      },
+      {
+        "score": 0.2047,
+        "start": 101.16,
+        "end": 102.3,
+        "transcript": "Wonderful."
+      },
+      {
+        "score": 0.0283,
+        "start": 102.3,
+        "end": 103.39,
+        "transcript": "Courtney."
+      },
+      {
+        "score": 0.541,
+        "start": 103.39,
+        "end": 112.26,
+        "transcript": "I had a giant fruit smoothie with bananas, a little bit of almond milk, an orange, strawberries, and some protein powder."
+      },
+      {
+        "score": 0.8605,
+        "start": 112.26,
+        "end": 117.04,
+        "transcript": "Is breakfast the most important meal of the day?"
+      },
+      {
+        "score": 0.2948,
+        "start": 117.04,
+        "end": 118.19,
+        "transcript": "Or is that a myth?"
+      },
+      {
+        "score": 0.7823,
+        "start": 118.19,
+        "end": 130.79,
+        "transcript": "Yeah, so we've had a lot of exciting research over the past 20 years, and I'd say we learn, we've learned the important finding that not only what you eat and how much you eat, but when you eat matters."
+      },
+      {
+        "score": 0.3097,
+        "start": 130.79,
+        "end": 134.76,
+        "transcript": "And we sort of learn that there are three core principles that really matter."
+      },
+      {
+        "score": 0.5088,
+        "start": 134.76,
+        "end": 138.03,
+        "transcript": "So the first is how long do you fast each day?"
+      },
+      {
+        "score": 0.6564,
+        "start": 138.03,
+        "end": 144.74,
+        "transcript": "And the idea is that we need a longer fasting period each night, just like we need a period to sleep to rest and repair."
+      },
+      {
+        "score": 0.5269,
+        "start": 144.74,
+        "end": 147.81,
+        "transcript": "We need a longer fasting period to rest and repair."
+      },
+      {
+        "score": 0.466,
+        "start": 147.81,
+        "end": 154.05,
+        "transcript": "And through my and others research, we found that typically fasting for 16 hours of the day can improve health."
+      },
+      {
+        "score": 0.941,
+        "start": 154.05,
+        "end": 157.87,
+        "transcript": "Does that mean it could be a good idea to skip breakfast then?"
+      }
+    ],
+    "segment_count": 26
+  },
+  {
+    "name": "The What",
+    "start": 157,
+    "original_name": "skip breakfast",
+    "score": 2.9972054108742743,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8448,
+        "start": 157.87,
+        "end": 162.69,
+        "transcript": "Not necessarily, but skipping breakfast may not be as bad as you think."
+      },
+      {
+        "score": 0.5927,
+        "start": 162.69,
+        "end": 166.27,
+        "transcript": "It sort of depends what you do with dinner, and I can come back to that."
+      },
+      {
+        "score": 0.8992,
+        "start": 166.27,
+        "end": 173.49,
+        "transcript": "So the second principle we've learned is the time of day that you eat matters, where it's better to eat earlier in the day."
+      },
+      {
+        "score": 0.9885,
+        "start": 173.49,
+        "end": 179.72,
+        "transcript": "So again, this suggests that breakfast actually is really important, because we find your metabolism is higher."
+      },
+      {
+        "score": 0.4664,
+        "start": 179.72,
+        "end": 184.62,
+        "transcript": "earlier in the day, and that's to do the circadian system, or your body's internal biological block."
+      },
+      {
+        "score": 0.8435,
+        "start": 184.62,
+        "end": 193.57,
+        "transcript": "And the sort of third principle we've learned is having meals at consistent times of the day really matters because your body adapts to what you do on a habitual basis."
+      },
+      {
+        "score": 0.7431,
+        "start": 193.57,
+        "end": 200.6,
+        "transcript": "So eating at consistent times, your body's not confused and it can start timing its internal metabolism to match that."
+      },
+      {
+        "score": 0.3821,
+        "start": 200.6,
+        "end": 203.16,
+        "transcript": "So you can kind of mix and match these principles."
+      },
+      {
+        "score": 0.8127,
+        "start": 203.16,
+        "end": 207.85,
+        "transcript": "So if you eat earlier in the day and do intermittent fasting, that's sort of the best."
+      },
+      {
+        "score": 0.8889,
+        "start": 207.85,
+        "end": 217.03,
+        "transcript": "but you can potentially skip breakfast and get some benefits, but it's probably better to eat breakfast early in the day if you can."
+      },
+      {
+        "score": 0.8318,
+        "start": 217.03,
+        "end": 222.43,
+        "transcript": "What are the benefits of having an early breakfast?"
+      },
+      {
+        "score": 0.2362,
+        "start": 222.43,
+        "end": 224.88,
+        "transcript": "Unlike how early?"
+      },
+      {
+        "score": 0.4335,
+        "start": 224.88,
+        "end": 233.41,
+        "transcript": "So your body has this internal biological clock known as the circadian system that makes you better at doing different things at different times of the day."
+      },
+      {
+        "score": 0.6366,
+        "start": 233.41,
+        "end": 239.08,
+        "transcript": "So for instance, in most people, they have their best blood sugar control in the mid to late morning."
+      },
+      {
+        "score": 0.2583,
+        "start": 239.08,
+        "end": 244.54,
+        "transcript": "So that's going to be around sort of between maybe about 10 a.m. to noon time."
+      },
+      {
+        "score": 0.8549,
+        "start": 244.54,
+        "end": 254.03,
+        "transcript": "And so if you can eat a large breakfast in the morning and or I would even say a large lunch in the morning, your body's going to be better at metabolizing that food."
+      },
+      {
+        "score": 0.6221,
+        "start": 254.03,
+        "end": 258.78,
+        "transcript": "And what that means is your body's going to actually, your blood sugar levels won't spike as high."
+      },
+      {
+        "score": 0.4756,
+        "start": 258.78,
+        "end": 261.97,
+        "transcript": "You might burn slightly more fat."
+      },
+      {
+        "score": 0.8215,
+        "start": 261.97,
+        "end": 265.39,
+        "transcript": "You might burn slightly more calories from eating earlier in the day."
+      },
+      {
+        "score": 0.7029,
+        "start": 265.39,
+        "end": 271.05,
+        "transcript": "Whereas if you had, if you eat most of your food later in the day, your metabolism is actually slower later in the day."
+      },
+      {
+        "score": 0.6042,
+        "start": 271.05,
+        "end": 281.37,
+        "transcript": "So for instance, if you ate the same, I don't know, bowl of ice cream in the morning, the afternoon in the evening, your blood sugar levels will spike significantly higher in the afternoon in the evening."
+      },
+      {
+        "score": 0.8953,
+        "start": 281.37,
+        "end": 285.58,
+        "transcript": "So as much as possible, it is better to eat earlier in the day."
+      },
+      {
+        "score": 0.5561,
+        "start": 285.58,
+        "end": 296.95,
+        "transcript": "And one last tidbit in that area, which is when it really starts getting dark outside and your body starts releasing the sleep hormone melatonin, that actually quite dramatically raises blood sugar levels."
+      },
+      {
+        "score": 0.2319,
+        "start": 296.95,
+        "end": 299.1,
+        "transcript": "I had something to add to that."
+      },
+      {
+        "score": 0.1329,
+        "start": 299.1,
+        "end": 302.32,
+        "transcript": "Because it's very interesting."
+      },
+      {
+        "score": 0.7476,
+        "start": 302.32,
+        "end": 307.49,
+        "transcript": "Courtney is recommending, in fact, that we eat as early as possible."
+      },
+      {
+        "score": 0.9471,
+        "start": 307.49,
+        "end": 318.48,
+        "transcript": "And I'm just, but think how important has been historically eating an early breakfast for the workers."
+      },
+      {
+        "score": 0.8097,
+        "start": 318.48,
+        "end": 332.73,
+        "transcript": "In ancient times, breakfast was developed, in fact, to nurture those agricultural workers that had to start very early in the morning."
+      },
+      {
+        "score": 0.8438,
+        "start": 332.73,
+        "end": 337.63,
+        "transcript": "So they felt that with breakfast, that would be better."
+      },
+      {
+        "score": 0.3066,
+        "start": 337.63,
+        "end": 352.37,
+        "transcript": "And they could have a better and improved jobs across a day, more effective, more even more alert across the journey."
+      },
+      {
+        "score": 0.3493,
+        "start": 352.37,
+        "end": 355.31,
+        "transcript": "So that's very interesting, I find."
+      }
+    ],
+    "segment_count": 31
+  },
+  {
+    "name": "The Now",
+    "start": 355,
+    "original_name": "scientists came along",
+    "score": 3.1456238426017764,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8561,
+        "start": 355.31,
+        "end": 371.03,
+        "transcript": "So people, even before scientists came along and studied what was going on inside our bodies, just people just knew that they needed a hearty meal in the morning to set them up for a day's work."
+      },
+      {
+        "score": 0.7757,
+        "start": 371.03,
+        "end": 377.03,
+        "transcript": "If you skip breakfast, what health problems can arise, Alex?"
+      },
+      {
+        "score": 0.7633,
+        "start": 377.03,
+        "end": 387.74,
+        "transcript": "I think, first of all, I want to say that there is no universal definition of what is considered to be a nutritional breakfast."
+      },
+      {
+        "score": 0.3064,
+        "start": 387.74,
+        "end": 389.7,
+        "transcript": "to summarize that."
+      },
+      {
+        "score": 0.0527,
+        "start": 389.7,
+        "end": 392.26,
+        "transcript": "This is the working definition that I use."
+      },
+      {
+        "score": 0.6138,
+        "start": 392.26,
+        "end": 401.18,
+        "transcript": "It's the first meal of the day that breaks the fast after the longest period of sleep and consumed within two to three hours of waking."
+      },
+      {
+        "score": 0.1659,
+        "start": 401.18,
+        "end": 406.2,
+        "transcript": "So that gives quite a large scope, doesn't it, for people to achieve that?"
+      },
+      {
+        "score": 0.7636,
+        "start": 406.2,
+        "end": 446.1,
+        "transcript": "Now, breakfast skipping is interesting because my own work would tend to suggest an observational large scale epidemiological studies would also support this, that people who have a regular breakfast are actually leaner and my own work would tend to suggest that having your largest meal of the day in the morning period gives you a much better appetite control which then means it's much easier control food intake later in the day."
+      },
+      {
+        "score": 0.504,
+        "start": 446.1,
+        "end": 452.32,
+        "transcript": "So really I am supporting the meme breakfast like a king and down like a popper."
+      },
+      {
+        "score": 0.9968,
+        "start": 452.32,
+        "end": 457.05,
+        "transcript": "So for you then breakfast is the most important meal of the day."
+      }
+    ],
+    "segment_count": 10
+  },
+  {
+    "name": "The And",
+    "start": 457,
+    "original_name": "important meal",
+    "score": 2.9501364749136423,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.614,
+        "start": 457.05,
+        "end": 465.62,
+        "transcript": "So it's really important particularly for people who are trying to maintain a healthy weight and people who are trying to lose weight."
+      },
+      {
+        "score": 0.6681,
+        "start": 465.62,
+        "end": 479.99,
+        "transcript": "And I think one positive message from the work that I've done is that the time of day does not, from our own work published in Selmet Abbas on tend to influence energy metabolism."
+      },
+      {
+        "score": 0.7194,
+        "start": 479.99,
+        "end": 496.15,
+        "transcript": "We looked at large morning eaters and large evening eaters and tried to look at whether it impacted on metabolism and energy balance and we found that weight loss was identical between the groups."
+      },
+      {
+        "score": 0.353,
+        "start": 496.15,
+        "end": 508.12,
+        "transcript": "Now that is a really important message because we see that around 34% depending which country you're based of the population are going to be involved in shift work."
+      },
+      {
+        "score": 0.535,
+        "start": 508.12,
+        "end": 517.99,
+        "transcript": "who are not able to comply to that advice that Courtney just shared about when to eat during the light cycle and to sleep when it's a dark cycle."
+      },
+      {
+        "score": 0.7587,
+        "start": 517.99,
+        "end": 525.44,
+        "transcript": "So that's actually a really positive message to share that it doesn't matter what time of day for losing weight."
+      },
+      {
+        "score": 0.84,
+        "start": 525.44,
+        "end": 538.09,
+        "transcript": "That flies in the face, isn't it, of some of the evidence you were talking about, Courtney, that actually eating, eating earlier tends to be better for your health."
+      },
+      {
+        "score": 0.21,
+        "start": 538.09,
+        "end": 539.05,
+        "transcript": "Not necessarily."
+      },
+      {
+        "score": 0.1732,
+        "start": 539.05,
+        "end": 542.36,
+        "transcript": "So I wouldn't quite agree with that."
+      },
+      {
+        "score": 0.1562,
+        "start": 542.36,
+        "end": 546.54,
+        "transcript": "So I actually agree with almost everything Alex says, perhaps everything."
+      },
+      {
+        "score": 0.159,
+        "start": 546.54,
+        "end": 551.15,
+        "transcript": "So she's done a really phenomenal area in this research in this work."
+      },
+      {
+        "score": 0.8087,
+        "start": 551.15,
+        "end": 558.68,
+        "transcript": "And there's actually been some fantastic studies out of Israel testing the old adage of eating breakfast like a king, lunch like a prince, and dinner like a popper."
+      },
+      {
+        "score": 0.7972,
+        "start": 558.68,
+        "end": 566.53,
+        "transcript": "And those studies do report that when people eat most of their calories for breakfast, they do lose more weight."
+      },
+      {
+        "score": 0.4365,
+        "start": 566.53,
+        "end": 576.35,
+        "transcript": "It lowers their blood sugar levels, it lowers their blood pressure, and the fascinating thing is in women it even improves fertility, which I think is absolutely amazing."
+      },
+      {
+        "score": 0.4119,
+        "start": 576.35,
+        "end": 582.48,
+        "transcript": "And what we've learned now is some of these same genes and proteins in our body that produce these circadian rhythms."
+      },
+      {
+        "score": 0.3573,
+        "start": 582.48,
+        "end": 586.48,
+        "transcript": "are also involved in rhythms that are longer and shorter than 24 hours."
+      },
+      {
+        "score": 0.4331,
+        "start": 586.48,
+        "end": 589.59,
+        "transcript": "And one example of that is actually the menstrual cycle."
+      },
+      {
+        "score": 0.5043,
+        "start": 589.59,
+        "end": 597.3,
+        "transcript": "So by optimizing our circadian rhythms, we may also be improving, you know, the menstrual cycle, men and women's hormones and so forth."
+      },
+      {
+        "score": 0.8152,
+        "start": 597.3,
+        "end": 605.46,
+        "transcript": "So we definitely, I think there is, you know, by and large, there have been metanalyses finding that eating early in the day does help for weight loss."
+      },
+      {
+        "score": 0.5827,
+        "start": 605.46,
+        "end": 616.39,
+        "transcript": "Now in the field of intermittent fasting, interestingly, we find that if people eat in an eight-hour period, regardless of what time of day that eight-hour period is, they lose weight, too."
+      },
+      {
+        "score": 0.8801,
+        "start": 616.39,
+        "end": 620.32,
+        "transcript": "And you might say, but didn't you just say you need to eat earlier in the day?"
+      },
+      {
+        "score": 0.3143,
+        "start": 620.32,
+        "end": 624.03,
+        "transcript": "But the interesting thing is this is where you go back to those three core principles."
+      },
+      {
+        "score": 0.6523,
+        "start": 624.03,
+        "end": 629.07,
+        "transcript": "So if you also have a longer fasting duration, you can still get benefits for weight loss."
+      },
+      {
+        "score": 0.8839,
+        "start": 629.07,
+        "end": 636.14,
+        "transcript": "And so there are a lot of people who like to do intermittent fasting by skipping breakfast, and they still eat dinner at a relatively early time."
+      },
+      {
+        "score": 0.671,
+        "start": 636.14,
+        "end": 664.4,
+        "transcript": "So if you're doing that, say if you're skipping breakfast starting to eat at 12 and then stopping eating at 8 p.m. or I guess you'd call that is that 20 hundred hours military time that you can still lose weight and it's about the same roughly the same size and effect so we're not talking about you know dramatic you're gonna you know smash all your weight loss goals but we're talking about losing maybe an extra two pounds a month or about one kilogram a month or about 1% of your body weight month."
+      },
+      {
+        "score": 0.2445,
+        "start": 664.4,
+        "end": 665.91,
+        "transcript": "So both of these things are true."
+      },
+      {
+        "score": 0.6177,
+        "start": 665.91,
+        "end": 676.67,
+        "transcript": "Now the interesting thing is with intermittent fasting, we don't really see big blood sugar benefits or improvements in blood pressure unless those eating windows are earlier in the day."
+      },
+      {
+        "score": 0.988,
+        "start": 676.67,
+        "end": 682.38,
+        "transcript": "And so it looks like there for some aspects of your health, you really need to eat earlier in the day to get those benefits."
+      },
+      {
+        "score": 0.6062,
+        "start": 682.38,
+        "end": 686.1,
+        "transcript": "And that seems to be particularly true for blood sugar and blood pressure."
+      },
+      {
+        "score": 0.7577,
+        "start": 686.1,
+        "end": 694.59,
+        "transcript": "But for weight loss, it looks to be a little, you know, yes, eating earlier in the day, you can get weight loss benefits, at least from my read of the literature."
+      },
+      {
+        "score": 0.8926,
+        "start": 694.59,
+        "end": 698.38,
+        "transcript": "But you can also skip breakfast and lose weight as long as dinner's not too late."
+      },
+      {
+        "score": 0.4097,
+        "start": 698.38,
+        "end": 701.44,
+        "transcript": "And there's a really interesting study out of Japan that showed this."
+      },
+      {
+        "score": 0.8057,
+        "start": 701.44,
+        "end": 706.56,
+        "transcript": "They found that among people who skip breakfast, about half skip breakfast and eat dinner late."
+      },
+      {
+        "score": 0.4754,
+        "start": 706.56,
+        "end": 713.07,
+        "transcript": "And in those individuals, they had a much higher risk of cardiovascular disease and having obesity."
+      },
+      {
+        "score": 0.776,
+        "start": 713.07,
+        "end": 718.37,
+        "transcript": "But there's a second group of people roughly half the population who skip breakfast dinner at a normal time."
+      },
+      {
+        "score": 0.3987,
+        "start": 718.37,
+        "end": 723.91,
+        "transcript": "And those individuals didn't have much higher risk of obesity and cardiovascular disease."
+      },
+      {
+        "score": 1.0,
+        "start": 723.91,
+        "end": 728.82,
+        "transcript": "So what that suggests to me is I like to look at both breakfast and dinner as very important."
+      },
+      {
+        "score": 0.2974,
+        "start": 728.82,
+        "end": 730.1,
+        "transcript": "They're both important, right?"
+      },
+      {
+        "score": 0.6646,
+        "start": 730.1,
+        "end": 734.84,
+        "transcript": "Because dinner time is sort of, you know, the time later the night your body's metabolism is slower."
+      },
+      {
+        "score": 0.7152,
+        "start": 734.84,
+        "end": 738.89,
+        "transcript": "So I think it's also very important that we're mindful at what we do at dinner time."
+      },
+      {
+        "score": 0.8642,
+        "start": 738.89,
+        "end": 744.39,
+        "transcript": "And either we make dinner a relatively healthy meal or we move it to earlier in the day."
+      },
+      {
+        "score": 0.0527,
+        "start": 744.39,
+        "end": 746.67,
+        "transcript": "So those are sort of my suggestion."
+      }
+    ],
+    "segment_count": 42
+  },
+  {
+    "name": "The This",
+    "start": 746,
+    "original_name": "relatively healthy meal",
+    "score": 3.3732573026686006,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7927,
+        "start": 746.67,
+        "end": 753.94,
+        "transcript": "Then of course there is the question of what we should be eating and we asked people who follow the BBC World Service Facebook page."
+      },
+      {
+        "score": 0.5834,
+        "start": 753.94,
+        "end": 755.45,
+        "transcript": "What did you have for breakfast?"
+      },
+      {
+        "score": 0.7767,
+        "start": 755.45,
+        "end": 759.39,
+        "transcript": "Hi, I'm Andrea from New York City and I'm here to talk about my breakfast routine."
+      },
+      {
+        "score": 0.6452,
+        "start": 759.39,
+        "end": 762.06,
+        "transcript": "Almost every morning I have a smoothie."
+      },
+      {
+        "score": 0.6708,
+        "start": 762.06,
+        "end": 791.89,
+        "transcript": "frozen blueberries frozen spinach protein powder chia seeds ground flax seeds and almond milk and I put it all in this blender sometimes I also add a banana to it and I put it in a big cup and I drink it all morning long it's delicious it gets your fruits and veggies in has lots of fiber and I love it it's so good my name is Joy I'm from Trinidad and my breakfast consists of local foods mainly."
+      },
+      {
+        "score": 0.3706,
+        "start": 791.89,
+        "end": 796.54,
+        "transcript": "So right now avocados, or as we call them, avocados are in season."
+      },
+      {
+        "score": 0.4905,
+        "start": 796.54,
+        "end": 806.12,
+        "transcript": "So, avocados are on toast with popo when that's papaya or pomegranate."
+      },
+      {
+        "score": 0.5863,
+        "start": 806.12,
+        "end": 812.61,
+        "transcript": "or five fingers or whatever fruit is in season, as well as a nice big cup of coffee."
+      },
+      {
+        "score": 0.7453,
+        "start": 812.61,
+        "end": 815.43,
+        "transcript": "This is my breakfast of choice."
+      },
+      {
+        "score": 0.7072,
+        "start": 815.43,
+        "end": 816.67,
+        "transcript": "Good morning, the food chain."
+      },
+      {
+        "score": 0.0,
+        "start": 816.67,
+        "end": 821.46,
+        "transcript": "My name is Catherine and I'm from Southeast London in the United Kingdom."
+      },
+      {
+        "score": 0.6465,
+        "start": 821.46,
+        "end": 827.25,
+        "transcript": "It's about 11 o'clock in the morning here and I'm just about to have my breakfast, my first meal of the day."
+      },
+      {
+        "score": 0.4822,
+        "start": 827.25,
+        "end": 830.63,
+        "transcript": "I have had some coffee, I always have a coffee first thing in the morning."
+      },
+      {
+        "score": 0.7458,
+        "start": 830.63,
+        "end": 836.05,
+        "transcript": "So this is what I'd like to call my lush and healthy homegrown breakfast."
+      },
+      {
+        "score": 0.3599,
+        "start": 836.05,
+        "end": 837.91,
+        "transcript": "There are two parts to it."
+      },
+      {
+        "score": 0.2133,
+        "start": 837.91,
+        "end": 840.45,
+        "transcript": "The first is an apple."
+      },
+      {
+        "score": 0.114,
+        "start": 840.45,
+        "end": 846.32,
+        "transcript": "It's a huge pink lady apple that a friend of mine and I bought a big bag and split between us."
+      },
+      {
+        "score": 0.3482,
+        "start": 846.32,
+        "end": 853.95,
+        "transcript": "It's one tablespoon of whole Greek yogurt and those two little raspberries are from my garden."
+      },
+      {
+        "score": 0.0362,
+        "start": 853.95,
+        "end": 855.17,
+        "transcript": "That's about all I got left."
+      },
+      {
+        "score": 0.3414,
+        "start": 855.17,
+        "end": 859.84,
+        "transcript": "Earlier in the year, I was using a lot more Kent strawberries, which were cheap in the supermarket."
+      },
+      {
+        "score": 0.4041,
+        "start": 859.84,
+        "end": 862.84,
+        "transcript": "And I also had some strawberries that came early in the year."
+      },
+      {
+        "score": 0.6302,
+        "start": 862.84,
+        "end": 867.64,
+        "transcript": "If I have nothing else, this is what I have in the morning at the moment."
+      },
+      {
+        "score": 0.6616,
+        "start": 867.64,
+        "end": 875.97,
+        "transcript": "Following up from that, and this is what makes it lush, is I have a slice of whole meal toast with a tablespoon of cream cheese."
+      },
+      {
+        "score": 0.3235,
+        "start": 875.97,
+        "end": 883.05,
+        "transcript": "I've mixed in there a mashed anchovy and some chives and some small spring onions again that I've grown in my garden."
+      },
+      {
+        "score": 0.0721,
+        "start": 883.05,
+        "end": 885.32,
+        "transcript": "I won't have many of those left."
+      },
+      {
+        "score": 0.0704,
+        "start": 885.32,
+        "end": 888.7,
+        "transcript": "This might be the last set that I have of the small onions."
+      },
+      {
+        "score": 0.2384,
+        "start": 888.7,
+        "end": 893.78,
+        "transcript": "The cherry tomatoes also are home grown, so I'm very proud of that."
+      },
+      {
+        "score": 0.3099,
+        "start": 893.78,
+        "end": 895.95,
+        "transcript": "I've had a really good harvest this year."
+      },
+      {
+        "score": 0.4434,
+        "start": 895.95,
+        "end": 900.26,
+        "transcript": "And on top of that is a boiled egg and a little splash of Worcestershire sauce."
+      },
+      {
+        "score": 0.7233,
+        "start": 900.26,
+        "end": 902.45,
+        "transcript": "Talk about breakfasting like royalty."
+      },
+      {
+        "score": 0.4796,
+        "start": 902.45,
+        "end": 907.54,
+        "transcript": "What an absolute feast calf I would love to come to your house for breakfast."
+      },
+      {
+        "score": 0.8265,
+        "start": 907.54,
+        "end": 911.01,
+        "transcript": "Alex, what does a healthy breakfast look like?"
+      },
+      {
+        "score": 0.1066,
+        "start": 911.01,
+        "end": 912.55,
+        "transcript": "What do we know about that?"
+      }
+    ],
+    "segment_count": 33
+  },
+  {
+    "name": "The The",
+    "start": 912,
+    "original_name": "really incredibly important",
+    "score": 2.246673842396339,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.9534,
+        "start": 912.55,
+        "end": 917.03,
+        "transcript": "The type of breakfast that we eat is really incredibly important."
+      },
+      {
+        "score": 0.78,
+        "start": 917.03,
+        "end": 952.17,
+        "transcript": "So I know from my own research that appetite and satiety are very much influenced by the mac-mutant composition of the food that we're eating and that higher protein meals are more satiety eating in the morning and that allows you to feel fuller for longer and are perhaps more rewarding, which means you're much less likely to give in to those food cravings later in the day where you might grab ready to eat high salt, high sugar, high calorie food products."
+      },
+      {
+        "score": 0.6567,
+        "start": 952.17,
+        "end": 967.68,
+        "transcript": "So in the examples you gave, they sounded very appetising, they're also included Roots, vegetables and whole grains, that's a really important aspect of a healthy diet."
+      },
+      {
+        "score": 0.6972,
+        "start": 967.68,
+        "end": 975.78,
+        "transcript": "Marinella, what do people typically eat for breakfast in Venezuela and Colombia, the Latin American countries you study?"
+      },
+      {
+        "score": 0.4264,
+        "start": 975.78,
+        "end": 988.38,
+        "transcript": "Well, the typical things are one thing and the traditional culinary dishes for breakfasts or one thing you may have heard about Arepas, which is the cornbread of both countries."
+      },
+      {
+        "score": 0.2164,
+        "start": 988.38,
+        "end": 997.58,
+        "transcript": "And there is a controversial issue like whether the Arepas from Colombia or Venezuela, it happens to be both in the origin."
+      },
+      {
+        "score": 0.575,
+        "start": 997.58,
+        "end": 1008.39,
+        "transcript": "And we take it with cheese or filled with shredded beef or shredded pork or shredded chicken."
+      },
+      {
+        "score": 0.6052,
+        "start": 1008.39,
+        "end": 1014.4,
+        "transcript": "And avocado, the use of avocado and black beans is important."
+      },
+      {
+        "score": 0.1359,
+        "start": 1014.4,
+        "end": 1016.62,
+        "transcript": "So that is how it looks like."
+      },
+      {
+        "score": 0.2619,
+        "start": 1016.62,
+        "end": 1024.45,
+        "transcript": "The reality is very different for the many poor people experiencing hunger and food insecurity."
+      },
+      {
+        "score": 0.0904,
+        "start": 1024.45,
+        "end": 1027.12,
+        "transcript": "across Latin America in general."
+      },
+      {
+        "score": 0.0212,
+        "start": 1027.12,
+        "end": 1031.21,
+        "transcript": "So we definitely will not hear as much."
+      },
+      {
+        "score": 0.4346,
+        "start": 1031.21,
+        "end": 1048.17,
+        "transcript": "And if we can see also, as stated by the latest FAO report, the Global Food Security Report, one of the main concerns across the globe is food inflation, which is reflected pretty much everywhere."
+      },
+      {
+        "score": 0.7608,
+        "start": 1048.17,
+        "end": 1052.09,
+        "transcript": "We said we would love to have healthy meals."
+      },
+      {
+        "score": 0.575,
+        "start": 1052.09,
+        "end": 1055.92,
+        "transcript": "However, can we afford those healthy meals?"
+      },
+      {
+        "score": 0.1898,
+        "start": 1055.92,
+        "end": 1062.97,
+        "transcript": "And you can see pretty much that across Latin America, Southeast Asia and Africa."
+      },
+      {
+        "score": 0.3497,
+        "start": 1062.97,
+        "end": 1070.4,
+        "transcript": "People cannot afford buying healthier foods or even their traditional foods."
+      },
+      {
+        "score": 0.4459,
+        "start": 1070.4,
+        "end": 1077.59,
+        "transcript": "So it's not only an issue for the health, as we can see."
+      },
+      {
+        "score": 0.4608,
+        "start": 1077.59,
+        "end": 1081.06,
+        "transcript": "I mean, avocados are healthy, but they are expensive."
+      },
+      {
+        "score": 0.3121,
+        "start": 1081.06,
+        "end": 1088.56,
+        "transcript": "Black, beaten, black beans and rice, which is a very traditional Latin American food."
+      },
+      {
+        "score": 0.3559,
+        "start": 1088.56,
+        "end": 1102.61,
+        "transcript": "They might be not only closely, but the utilization is compromised as there might not be gas or electricity available for cooking those."
+      },
+      {
+        "score": 0.5811,
+        "start": 1102.61,
+        "end": 1113.46,
+        "transcript": "So we have a problem here in terms of food security in terms of access to foods and the utilization of food so people neglect."
+      },
+      {
+        "score": 0.5692,
+        "start": 1113.46,
+        "end": 1122.03,
+        "transcript": "those eating patterns not because they want because they they've been forced to leave those behind."
+      },
+      {
+        "score": 0.6432,
+        "start": 1122.03,
+        "end": 1124.13,
+        "transcript": "The skipping breakfast because they have to."
+      }
+    ],
+    "segment_count": 24
+  },
+  {
+    "name": "The And",
+    "start": 1124,
+    "original_name": "skipping breakfast",
+    "score": 2.7078063290596006,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.1096,
+        "start": 1124.13,
+        "end": 1129.44,
+        "transcript": "They have to and it's it's mainly a coping strategy during emergencies."
+      },
+      {
+        "score": 0.1064,
+        "start": 1129.44,
+        "end": 1133.03,
+        "transcript": "Mothers and this is really not a nice thing."
+      },
+      {
+        "score": 0.3953,
+        "start": 1133.03,
+        "end": 1139.11,
+        "transcript": "Mother will leave the children sleeping until pretty much the lunch hour."
+      },
+      {
+        "score": 0.8025,
+        "start": 1139.11,
+        "end": 1143.1,
+        "transcript": "So they skip breakfast and they go directly into lunch."
+      },
+      {
+        "score": 0.6846,
+        "start": 1143.1,
+        "end": 1147.32,
+        "transcript": "And therefore, we are saving money for one meal."
+      },
+      {
+        "score": 0.86,
+        "start": 1147.32,
+        "end": 1155.26,
+        "transcript": "And the evidence says that children need a good breakfast, particularly if they are attending school."
+      },
+      {
+        "score": 0.5663,
+        "start": 1155.26,
+        "end": 1169.08,
+        "transcript": "And therefore, eating at school becomes an attraction for keeping and maintaining the color activities of the kids."
+      },
+      {
+        "score": 0.6658,
+        "start": 1169.08,
+        "end": 1175.65,
+        "transcript": "So because the kids are not only going to school to learn, but they're going to eat at school."
+      },
+      {
+        "score": 0.4497,
+        "start": 1175.65,
+        "end": 1182.22,
+        "transcript": "Courtney, where you are in the US, people will also have been feeling the effect of rising food prices."
+      },
+      {
+        "score": 0.6211,
+        "start": 1182.22,
+        "end": 1200.37,
+        "transcript": "People also have very busy lives and, you know, I could imagine someone watching this, listening to this and thinking, how can I fit in a really well-cooked wholesome breakfast early in the morning?"
+      },
+      {
+        "score": 0.2609,
+        "start": 1200.37,
+        "end": 1206.42,
+        "transcript": "I've got to get up, get ready for work, I've got to get my kids ready for school."
+      },
+      {
+        "score": 0.0269,
+        "start": 1206.42,
+        "end": 1213.64,
+        "transcript": "What practical advice do you have for people who are time poor and maybe short on cash as well?"
+      }
+    ],
+    "segment_count": 12
+  },
+  {
+    "name": "The And",
+    "start": 1213,
+    "original_name": "called meal prepping",
+    "score": 2.4143265400311043,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.1852,
+        "start": 1213.64,
+        "end": 1214.81,
+        "transcript": "Yeah, absolutely."
+      },
+      {
+        "score": 0.4489,
+        "start": 1214.81,
+        "end": 1217.97,
+        "transcript": "So I think one of the biggest things is to plan in advance."
+      },
+      {
+        "score": 0.8265,
+        "start": 1217.97,
+        "end": 1224.26,
+        "transcript": "So we find actually what's called meal prepping or kind of planning your meals in advance and making multiple at a time."
+      },
+      {
+        "score": 0.7296,
+        "start": 1224.26,
+        "end": 1228.83,
+        "transcript": "This is a huge strategy that helps people lose weight and just sort of eat in a healthy diet."
+      },
+      {
+        "score": 0.1605,
+        "start": 1228.83,
+        "end": 1230.39,
+        "transcript": "So I'll give you an example."
+      },
+      {
+        "score": 0.6953,
+        "start": 1230.39,
+        "end": 1233.67,
+        "transcript": "So for instance, you might say, every day I'm going to have a smoothie."
+      },
+      {
+        "score": 0.8038,
+        "start": 1233.67,
+        "end": 1236.07,
+        "transcript": "Now what you eat every day might vary."
+      },
+      {
+        "score": 0.5843,
+        "start": 1236.07,
+        "end": 1243.38,
+        "transcript": "Maybe some days you'll throw in banana, some days you might throw in, I don't know, pineapple or something like that."
+      },
+      {
+        "score": 0.4453,
+        "start": 1243.38,
+        "end": 1246.93,
+        "transcript": "Um, berries tend to be more expensive, but they're cheaper fruits."
+      },
+      {
+        "score": 0.4075,
+        "start": 1246.93,
+        "end": 1254.19,
+        "transcript": "Um, you know, melon actually is a really cheap fruit and extremely nutritious that's sort of related to squashes."
+      },
+      {
+        "score": 0.5406,
+        "start": 1254.19,
+        "end": 1262.12,
+        "transcript": "In some sense, and so the mineral content is actually quite high and you can buy watermelon relatively cheap, for instance, and that can feed you for for several meals."
+      },
+      {
+        "score": 0.4347,
+        "start": 1262.12,
+        "end": 1268.29,
+        "transcript": "Um, you could probably blend watermelon with a little bit of berries or something like that and bring some of the costs down."
+      },
+      {
+        "score": 0.3553,
+        "start": 1268.29,
+        "end": 1272.06,
+        "transcript": "blending in things like chia seeds or flax seeds can work."
+      },
+      {
+        "score": 0.4625,
+        "start": 1272.06,
+        "end": 1274.02,
+        "transcript": "You can also blend in some yogurt."
+      },
+      {
+        "score": 0.4674,
+        "start": 1274.02,
+        "end": 1276.01,
+        "transcript": "Obviously avoid the yogurt with sugar."
+      },
+      {
+        "score": 0.4196,
+        "start": 1276.01,
+        "end": 1278.31,
+        "transcript": "You can blend in dairy."
+      },
+      {
+        "score": 0.7268,
+        "start": 1278.31,
+        "end": 1280.31,
+        "transcript": "You could make a breakfast."
+      },
+      {
+        "score": 0.3593,
+        "start": 1280.31,
+        "end": 1284.28,
+        "transcript": "Eggs are now really expensive in the US that they do not be."
+      },
+      {
+        "score": 0.134,
+        "start": 1284.28,
+        "end": 1287.74,
+        "transcript": "People get really creative."
+      },
+      {
+        "score": 0.5197,
+        "start": 1287.74,
+        "end": 1294.3,
+        "transcript": "They have these fantastic recipes with slow cooked oats, which you could just mash with some banana and make into a pancake."
+      },
+      {
+        "score": 0.525,
+        "start": 1294.3,
+        "end": 1299.95,
+        "transcript": "You could add a little bit of protein power to that too to get some of the benefits that Alexman has talked about."
+      },
+      {
+        "score": 0.4911,
+        "start": 1299.95,
+        "end": 1303.58,
+        "transcript": "We've talked about the cognitive benefits and the health benefits."
+      },
+      {
+        "score": 0.7839,
+        "start": 1303.58,
+        "end": 1309.63,
+        "transcript": "Is there also a general well-being benefit to taking the time to sit down and have your breakfast?"
+      },
+      {
+        "score": 0.2522,
+        "start": 1309.63,
+        "end": 1321.79,
+        "transcript": "We have a wonderful study that we did several years ago in Venezuela when we implemented in a couple of family low-income settings families."
+      },
+      {
+        "score": 0.67,
+        "start": 1321.79,
+        "end": 1331.42,
+        "transcript": "We implemented the benefits of sharing family meals at the time of breakfast."
+      },
+      {
+        "score": 0.8096,
+        "start": 1331.42,
+        "end": 1367.25,
+        "transcript": "And we saw an extended benefit not only in terms of nutrition, the kids were more alert while they arrive at school and so on we have all these paramedics being measured but the interaction within the family was way better communication with parents were very very way much better compared to the group that didn't implement the breakfast as such at the time."
+      },
+      {
+        "score": 0.6619,
+        "start": 1367.25,
+        "end": 1373.67,
+        "transcript": "And therefore, we can see all the benefits of family meals."
+      },
+      {
+        "score": 0.6835,
+        "start": 1373.67,
+        "end": 1387.59,
+        "transcript": "We have seen that for adolescents and we can see how even two or three family meals per week will lower the risk of engaging in drugs for adolescents."
+      },
+      {
+        "score": 0.3264,
+        "start": 1387.59,
+        "end": 1398.54,
+        "transcript": "So that is fabulous, so that it's something that we wouldn't want to miss if we have the opportunity as parents to plan ahead."
+      }
+    ],
+    "segment_count": 29
+  },
+  {
+    "name": "one generally",
+    "start": 1398,
+    "segments": [
+      {
+        "score": 0.2316,
+        "start": 1430.06,
+        "end": 1431.04,
+        "transcript": "Thank you for having me."
+      },
+      {
+        "score": 0.8961,
+        "start": 1398.54,
+        "end": 1409.21,
+        "transcript": "I have to confess I am one generally for eating breakfast on the fly, but you have all convinced me to make more time for it, which I think is actually going to have to involve a lifestyle change."
+      },
+      {
+        "score": 0.3253,
+        "start": 1409.21,
+        "end": 1413.5,
+        "transcript": "going to bed earlier so that I can get up earlier and take my time over it."
+      },
+      {
+        "score": 0.3002,
+        "start": 1413.5,
+        "end": 1416.85,
+        "transcript": "But thank you to each of our guests."
+      },
+      {
+        "score": 0.0463,
+        "start": 1416.85,
+        "end": 1418.37,
+        "transcript": "Dr. Marinella Herrera."
+      },
+      {
+        "score": 0.1867,
+        "start": 1418.37,
+        "end": 1420.62,
+        "transcript": "Thank you very much for having me."
+      },
+      {
+        "score": 0.3834,
+        "start": 1420.62,
+        "end": 1423.96,
+        "transcript": "I learned a lot in this fantastic discussion."
+      },
+      {
+        "score": 0.0589,
+        "start": 1423.96,
+        "end": 1425.89,
+        "transcript": "Dr. Courtney Peterson."
+      },
+      {
+        "score": 0.0668,
+        "start": 1425.89,
+        "end": 1426.91,
+        "transcript": "Thank you so much."
+      },
+      {
+        "score": 0.0913,
+        "start": 1426.91,
+        "end": 1427.69,
+        "transcript": "This was great."
+      },
+      {
+        "score": 0.2074,
+        "start": 1427.69,
+        "end": 1430.06,
+        "transcript": "I'm Professor Alexandra Johnstone."
+      },
+      {
+        "score": 0.2316,
+        "start": 1430.06,
+        "end": 1431.04,
+        "transcript": "Thank you for having me."
+      },
+      {
+        "score": 0.2959,
+        "start": 1431.04,
+        "end": 1432.95,
+        "transcript": "It's some fantastic discussion to do."
+      },
+      {
+        "score": 0.4291,
+        "start": 1432.95,
+        "end": 1437.48,
+        "transcript": "That's it for this episode of The Food Chain from the BBC World Service."
+      },
+      {
+        "score": 0.0527,
+        "start": 1437.48,
+        "end": 1442.57,
+        "transcript": "Do please like and subscribe, and why not give the BBC World Service a follow."
+      },
+      {
+        "score": 0.673,
+        "start": 1442.57,
+        "end": 1444.86,
+        "transcript": "Happy breakfasting."
+      }
+    ],
+    "segment_count": 16
+  }
+]

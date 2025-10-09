@@ -1,0 +1,1642 @@
+[
+  {
+    "name": "The Welcome",
+    "start": 0,
+    "original_name": "Introduction",
+    "score": 2.408936831188202,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.3346,
+        "start": 0.03,
+        "end": 7.74,
+        "transcript": "Welcome to another method of video."
+      }
+    ],
+    "segment_count": 1
+  },
+  {
+    "name": "The Well",
+    "start": 5,
+    "original_name": "mysterious schwarzlentens",
+    "score": 2.9922299574480524,
+    "model": "roberta",
+    "segments": [
+      {
+        "score": 0.4703,
+        "start": 7.74,
+        "end": 15.44,
+        "transcript": "Have you heard of the mysterious Schwarzlentens and the existential crisis in maths that was triggered by them?"
+      },
+      {
+        "score": 0.4577,
+        "start": 15.44,
+        "end": 19.34,
+        "transcript": "Well, that Schwarz over there was one of his lanterns."
+      },
+      {
+        "score": 0.1659,
+        "start": 19.34,
+        "end": 21.72,
+        "transcript": "Looks like something from IKEA, doesn't it?"
+      },
+      {
+        "score": 0.3803,
+        "start": 21.72,
+        "end": 25.97,
+        "transcript": "There's also this Japanese coffee can version of the lantern."
+      },
+      {
+        "score": 0.377,
+        "start": 25.97,
+        "end": 27.21,
+        "transcript": "And what about this?"
+      },
+      {
+        "score": 0.4514,
+        "start": 27.21,
+        "end": 29.44,
+        "transcript": "A hedgehog version of the lantern."
+      },
+      {
+        "score": 0.4632,
+        "start": 29.44,
+        "end": 30.58,
+        "transcript": "Hmm."
+      },
+      {
+        "score": 0.3296,
+        "start": 30.58,
+        "end": 38.31,
+        "transcript": "Now before I inflict some serious existential crisis level Schwarz-Lenton on you, let's warm up with a Super Barrel Matz meme."
+      },
+      {
+        "score": 0.654,
+        "start": 38.31,
+        "end": 42.54,
+        "transcript": "The pie is equal to four paradoxes."
+      },
+      {
+        "score": 0.3196,
+        "start": 42.54,
+        "end": 43.97,
+        "transcript": "What's that about again?"
+      },
+      {
+        "score": 0.3301,
+        "start": 43.97,
+        "end": 47.39,
+        "transcript": "Well, let's quickly go over the whole thing to refresh our memory."
+      },
+      {
+        "score": 0.9441,
+        "start": 47.39,
+        "end": 52.6,
+        "transcript": "First, we're supposed to draw a circle of diameter 1, not a big deal."
+      },
+      {
+        "score": 0.6819,
+        "start": 52.6,
+        "end": 55.53,
+        "transcript": "For later, what's the circumference of the circle?"
+      },
+      {
+        "score": 0.5398,
+        "start": 55.53,
+        "end": 62.0,
+        "transcript": "Well, the formula for the circumference is pi times diameter 1, and so the circumference is pi."
+      },
+      {
+        "score": 0.9121,
+        "start": 62.0,
+        "end": 65.04,
+        "transcript": "Next, draw a square around a circle."
+      },
+      {
+        "score": 0.7226,
+        "start": 65.04,
+        "end": 68.49,
+        "transcript": "It says here that the perimeter of the square is four."
+      },
+      {
+        "score": 0.2027,
+        "start": 83.35,
+        "end": 84.51,
+        "transcript": "Why is that?"
+      },
+      {
+        "score": 0.8924,
+        "start": 69.09,
+        "end": 72.99,
+        "transcript": "Well, because we need four of those diameters to build a square."
+      },
+      {
+        "score": 0.3033,
+        "start": 958.01,
+        "end": 958.83,
+        "transcript": "All right."
+      },
+      {
+        "score": 0.8271,
+        "start": 74.5,
+        "end": 77.1,
+        "transcript": "Now, remove the four corners like this."
+      },
+      {
+        "score": 0.8962,
+        "start": 77.1,
+        "end": 82.77,
+        "transcript": "It says that the perimeter of the new shape is still four."
+      },
+      {
+        "score": 0.3387,
+        "start": 675.82,
+        "end": 676.2,
+        "transcript": "Really?"
+      },
+      {
+        "score": 0.2027,
+        "start": 83.35,
+        "end": 84.51,
+        "transcript": "Why is that?"
+      },
+      {
+        "score": 0.3381,
+        "start": 84.51,
+        "end": 86.41,
+        "transcript": "Why is it still the same?"
+      },
+      {
+        "score": 0.4849,
+        "start": 86.41,
+        "end": 88.68,
+        "transcript": "Well, let's have a close look."
+      },
+      {
+        "score": 0.5583,
+        "start": 88.68,
+        "end": 94.68,
+        "transcript": "Cutting off this corner simply amounts to taking the dotted part and moving it here."
+      },
+      {
+        "score": 0.7923,
+        "start": 94.68,
+        "end": 100.35,
+        "transcript": "This means that when we cut the corners, the perimeter does not change."
+      },
+      {
+        "score": 0.7345,
+        "start": 100.35,
+        "end": 102.08,
+        "transcript": "The perimeter is still 4."
+      },
+      {
+        "score": 0.8419,
+        "start": 102.08,
+        "end": 106.78,
+        "transcript": "Now, in the same way, cut off all the corners of the new shape."
+      },
+      {
+        "score": 0.2872,
+        "start": 106.78,
+        "end": 110.04,
+        "transcript": "As before, the parameter stays unchanged."
+      },
+      {
+        "score": 0.4306,
+        "start": 110.04,
+        "end": 111.14,
+        "transcript": "It's still 4."
+      },
+      {
+        "score": 0.3796,
+        "start": 111.14,
+        "end": 111.93,
+        "transcript": "Cool."
+      },
+      {
+        "score": 0.6029,
+        "start": 111.93,
+        "end": 116.07,
+        "transcript": "If we keep doing this, the parameter will always be 4."
+      },
+      {
+        "score": 0.7421,
+        "start": 116.07,
+        "end": 119.94,
+        "transcript": "At the same time, our zigzag curves will turn into the circle."
+      },
+      {
+        "score": 0.575,
+        "start": 119.94,
+        "end": 123.91,
+        "transcript": "We conclude that the parameter of the circle is equal to 4."
+      },
+      {
+        "score": 0.8073,
+        "start": 123.91,
+        "end": 126.59,
+        "transcript": "In other words, pi is equal to 4."
+      },
+      {
+        "score": 0.2776,
+        "start": 126.59,
+        "end": 129.17,
+        "transcript": "Very weird and wonderful."
+      },
+      {
+        "score": 0.4749,
+        "start": 129.17,
+        "end": 130.75,
+        "transcript": "Have you seen this pattern before?"
+      },
+      {
+        "score": 0.4459,
+        "start": 130.75,
+        "end": 134.32,
+        "transcript": "Versions of this little paradox have been around for a couple hundred years."
+      },
+      {
+        "score": 0.1157,
+        "start": 134.32,
+        "end": 136.06,
+        "transcript": "A real classic."
+      },
+      {
+        "score": 0.5618,
+        "start": 136.06,
+        "end": 140.09,
+        "transcript": "Now, at the end of this meme, it also asks, problem Archimedes?"
+      },
+      {
+        "score": 0.4761,
+        "start": 140.09,
+        "end": 143.96,
+        "transcript": "Well, clearly we have a problem here, but why Archimedes?"
+      },
+      {
+        "score": 0.6705,
+        "start": 143.96,
+        "end": 148.78,
+        "transcript": "Well, because Archimedes did something very similar to estimate the value of pi."
+      },
+      {
+        "score": 0.8008,
+        "start": 148.78,
+        "end": 152.69,
+        "transcript": "Start again with the square on the circle, okay?"
+      },
+      {
+        "score": 0.6975,
+        "start": 152.69,
+        "end": 156.09,
+        "transcript": "But this time, we're chopping the corners off like this."
+      },
+      {
+        "score": 0.7917,
+        "start": 156.09,
+        "end": 161.38,
+        "transcript": "So the new shape is a regular octagon."
+      },
+      {
+        "score": 0.8327,
+        "start": 161.38,
+        "end": 168.24,
+        "transcript": "And since we are literally cutting corners here, it's clear that the parameter of this octagon will be less than 4."
+      },
+      {
+        "score": 0.3621,
+        "start": 168.24,
+        "end": 170.62,
+        "transcript": "In fact, it's 3.31 in a bit."
+      },
+      {
+        "score": 0.5969,
+        "start": 170.62,
+        "end": 177.45,
+        "transcript": "Cutting all corners of the octagon gives a regular 16-gon with parameter 3.18 in a bit."
+      },
+      {
+        "score": 0.7731,
+        "start": 177.45,
+        "end": 182.28,
+        "transcript": "Keep cutting corners and the curves will come across turn into the circle again."
+      },
+      {
+        "score": 0.7749,
+        "start": 182.28,
+        "end": 188.75,
+        "transcript": "At the same time, the parameters of those chopped curves really hone in on the true value of pi."
+      },
+      {
+        "score": 0.9383,
+        "start": 188.75,
+        "end": 194.73,
+        "transcript": "Anyway, as we've seen, approximating the circle in different ways can give different values."
+      },
+      {
+        "score": 0.1552,
+        "start": 194.73,
+        "end": 197.79,
+        "transcript": "How can we be sure which is the right one?"
+      },
+      {
+        "score": 0.6908,
+        "start": 197.79,
+        "end": 203.92,
+        "transcript": "And when it comes to Kirby curves, like a circle, What's its length anyway?"
+      },
+      {
+        "score": 0.273,
+        "start": 1316.27,
+        "end": 1316.79,
+        "transcript": "Right?"
+      },
+      {
+        "score": 0.2798,
+        "start": 204.65,
+        "end": 205.23,
+        "transcript": "Not obvious."
+      },
+      {
+        "score": 0.5731,
+        "start": 205.23,
+        "end": 211.32,
+        "transcript": "Of course, when you confront him with something straight, measuring its length is not a problem with a straight ruler."
+      },
+      {
+        "score": 0.5281,
+        "start": 211.32,
+        "end": 213.51,
+        "transcript": "But what about a nice smooth curvy curve?"
+      },
+      {
+        "score": 0.4479,
+        "start": 213.51,
+        "end": 216.03,
+        "transcript": "How do you measure its length?"
+      },
+      {
+        "score": 0.8066,
+        "start": 216.03,
+        "end": 220.19,
+        "transcript": "Well, we could roll the ruler along the curve like this."
+      },
+      {
+        "score": 0.2954,
+        "start": 220.19,
+        "end": 224.13,
+        "transcript": "some of Andrew's animation magic at work here."
+      },
+      {
+        "score": 0.0927,
+        "start": 224.13,
+        "end": 227.15,
+        "transcript": "Remember Andrew Kappett, my new best friend from the last video."
+      },
+      {
+        "score": 0.3018,
+        "start": 227.15,
+        "end": 233.32,
+        "transcript": "He also suggested a topic for this video and contributed a few of the animations that you'll see today."
+      },
+      {
+        "score": 0.525,
+        "start": 233.32,
+        "end": 243.75,
+        "transcript": "While rolling a ruler, easier said than done, but at least in theory, that's a perfectly fine way to define and measure the lengths of a smooth curvy curve like this."
+      },
+      {
+        "score": 0.2882,
+        "start": 243.75,
+        "end": 245.27,
+        "transcript": "How about in practice?"
+      },
+      {
+        "score": 0.4071,
+        "start": 245.27,
+        "end": 249.18,
+        "transcript": "How would you go about getting a good estimate for the lengths of this curve?"
+      },
+      {
+        "score": 0.2603,
+        "start": 249.18,
+        "end": 253.31,
+        "transcript": "Well, something like what we just did seems like a good idea."
+      },
+      {
+        "score": 0.3323,
+        "start": 253.31,
+        "end": 264.84,
+        "transcript": "Just approximate a curve by another curve consisting of straight line segments and measure its total length, segment by segment, to get an approximation of the length of the curvy curve."
+      },
+      {
+        "score": 0.3449,
+        "start": 264.84,
+        "end": 269.39,
+        "transcript": "And how would you go about finding a good straight line approximation of the curve?"
+      },
+      {
+        "score": 0.6737,
+        "start": 269.39,
+        "end": 274.62,
+        "transcript": "Well, the first line that comes to mind here doesn't involve chopping off corners, right?"
+      },
+      {
+        "score": 0.5886,
+        "start": 274.62,
+        "end": 279.13,
+        "transcript": "Instead, just pick a couple of points on the curve and connect them by straight lines."
+      },
+      {
+        "score": 0.7557,
+        "start": 279.13,
+        "end": 280.65,
+        "transcript": "And now measure like this."
+      },
+      {
+        "score": 0.3594,
+        "start": 280.65,
+        "end": 285.56,
+        "transcript": "There, there, there, there, there, 14 and a bit."
+      },
+      {
+        "score": 0.3148,
+        "start": 285.56,
+        "end": 290.3,
+        "transcript": "Somewhat short of the actual length of about 15, but not bad."
+      },
+      {
+        "score": 0.5718,
+        "start": 290.3,
+        "end": 296.1,
+        "transcript": "If we have the better approximation of the lengths, we just go for a finer approximation by straight line segments."
+      },
+      {
+        "score": 0.5898,
+        "start": 296.1,
+        "end": 305.0,
+        "transcript": "And then choosing finer and finer straight line approximations with the individual segments shrinking to zero will give the exact length of the curve."
+      },
+      {
+        "score": 0.4899,
+        "start": 305.0,
+        "end": 325.52,
+        "transcript": "In fact, if we're dealing with a nice smooth curvy curve, it's possible to prove mathematically that no matter how you refine your straight line approximations, put the points in lots of different ways, as long as the length of the individual segments shrink to zero, this will always give you the exact length of the curvy curve."
+      },
+      {
+        "score": 0.5296,
+        "start": 325.52,
+        "end": 330.31,
+        "transcript": "No ambiguity there as we experience with the two different types of chopping corners."
+      },
+      {
+        "score": 0.8013,
+        "start": 330.31,
+        "end": 339.59,
+        "transcript": "Of course, most of you will know that apart from chopping of corners, Archimedes also honed in on the circle exactly like this to approximate pi."
+      },
+      {
+        "score": 0.1174,
+        "start": 339.59,
+        "end": 342.8,
+        "transcript": "Chop, chop, chop, chop, chop, chop."
+      },
+      {
+        "score": 0.6798,
+        "start": 342.8,
+        "end": 351.92,
+        "transcript": "And using his two ways of approximating the circle from the outside and the inside, Archimedes came up with his legendary boxing in of pie."
+      },
+      {
+        "score": 0.7172,
+        "start": 351.92,
+        "end": 363.2,
+        "transcript": "There, Archimedes famous 22 over 7 on the right and on the left, 223 over 71, which when you have a closer look is really just a nifty refinement of 22 over 7."
+      },
+      {
+        "score": 0.1682,
+        "start": 363.2,
+        "end": 363.89,
+        "transcript": "Cute!"
+      },
+      {
+        "score": 0.4588,
+        "start": 363.89,
+        "end": 368.64,
+        "transcript": "Anyway, ready for some Schwart's lantern magic?"
+      },
+      {
+        "score": 0.2997,
+        "start": 1153.9,
+        "end": 1154.74,
+        "transcript": "Great!"
+      },
+      {
+        "score": 0.546,
+        "start": 369.79,
+        "end": 378.62,
+        "transcript": "Again, for a nice, smooth, curvy curve, the length is just the limit of the lengths of finer and finer straight line approximations."
+      },
+      {
+        "score": 0.3106,
+        "start": 378.62,
+        "end": 380.35,
+        "transcript": "Okay."
+      },
+      {
+        "score": 0.6757,
+        "start": 380.35,
+        "end": 387.64,
+        "transcript": "And now, obviously, something similar should also be true for nice, smooth, curvy surfaces, right?"
+      },
+      {
+        "score": 0.593,
+        "start": 387.64,
+        "end": 389.32,
+        "transcript": "Take, for example, a sphere."
+      },
+      {
+        "score": 0.752,
+        "start": 389.32,
+        "end": 391.4,
+        "transcript": "And highlight a couple of points on the sphere."
+      },
+      {
+        "score": 0.6529,
+        "start": 391.4,
+        "end": 393.72,
+        "transcript": "Connect those points up into triangles."
+      },
+      {
+        "score": 0.3292,
+        "start": 393.72,
+        "end": 395.47,
+        "transcript": "Wait, can't see a thing."
+      },
+      {
+        "score": 0.6689,
+        "start": 395.47,
+        "end": 398.19,
+        "transcript": "So let's make the sphere transparent."
+      },
+      {
+        "score": 0.5644,
+        "start": 398.19,
+        "end": 403.94,
+        "transcript": "Use more points on the sphere to get a better approximation, more points, and more."
+      },
+      {
+        "score": 0.7517,
+        "start": 403.94,
+        "end": 406.12,
+        "transcript": "That's a pretty good approximation of the sphere, right?"
+      },
+      {
+        "score": 0.7317,
+        "start": 406.12,
+        "end": 414.69,
+        "transcript": "And the easily measured surface area of this triangle approximation must definitely be very close to the surface area of the sphere."
+      },
+      {
+        "score": 0.6323,
+        "start": 414.69,
+        "end": 434.12,
+        "transcript": "Okay, keep refining such that all those triangle edges shrink to zero and in this way, one, our triangle approximations should become indistinguishable from the sphere and two, the areas of our triangle approximations should converge to the area of the sphere."
+      },
+      {
+        "score": 0.2456,
+        "start": 434.12,
+        "end": 435.3,
+        "transcript": "Obviously, right?"
+      },
+      {
+        "score": 0.4286,
+        "start": 435.3,
+        "end": 440.08,
+        "transcript": "And the same should be the case for any reasonable surface, right?"
+      },
+      {
+        "score": 0.1781,
+        "start": 440.08,
+        "end": 444.82,
+        "transcript": "Well, yes and no, not at all."
+      },
+      {
+        "score": 0.7348,
+        "start": 444.82,
+        "end": 454.2,
+        "transcript": "Now it's true is that as long as the edges shrink to zero, the triangle approximations become indistinguishable from the surface."
+      },
+      {
+        "score": 0.6938,
+        "start": 454.2,
+        "end": 460.09,
+        "transcript": "However, the areas do not necessarily approach that of the surface."
+      },
+      {
+        "score": 0.0032,
+        "start": 460.09,
+        "end": 461.21,
+        "transcript": "Bama."
+      },
+      {
+        "score": 0.3317,
+        "start": 461.21,
+        "end": 467.4,
+        "transcript": "Around 1880, the mathematician Hermann Schwarz published his notorious counter-example."
+      },
+      {
+        "score": 0.7633,
+        "start": 467.4,
+        "end": 478.32,
+        "transcript": "In his counter-example, a nice cylinder surface gets honed in on by some of the nicest imaginable triangle approximations of the cylinder, the Schwarz-Lentens."
+      },
+      {
+        "score": 0.6659,
+        "start": 478.32,
+        "end": 489.65,
+        "transcript": "Surprisingly, if you choose these special triangle approximations just right, as you refine them, their areas do not approach the true surface area of the cylinder."
+      },
+      {
+        "score": 0.7882,
+        "start": 489.65,
+        "end": 496.16,
+        "transcript": "In fact, you can make the areas of these lentens approach any value greater equal to the cylinder surface area."
+      },
+      {
+        "score": 0.595,
+        "start": 496.16,
+        "end": 499.15,
+        "transcript": "You can even make them approach infinity."
+      },
+      {
+        "score": 0.2333,
+        "start": 499.15,
+        "end": 500.27,
+        "transcript": "That's wild, isn't it?"
+      },
+      {
+        "score": 0.2043,
+        "start": 500.27,
+        "end": 503.22,
+        "transcript": "And of course, that's a big, big problem."
+      },
+      {
+        "score": 0.4497,
+        "start": 503.22,
+        "end": 514.67,
+        "transcript": "If our straightforward method of calculating surface area by refining triangle approximation kills over even for a simple surface like a cylinder, how can we calculate surface area reliably at all?"
+      },
+      {
+        "score": 0.5003,
+        "start": 514.67,
+        "end": 519.04,
+        "transcript": "sorting out this conundrum turned out to be a big task for mathematicians."
+      },
+      {
+        "score": 0.9073,
+        "start": 519.04,
+        "end": 528.48,
+        "transcript": "Now, in the rest of the video, I'll show you how exactly the lanterns foil our method of calculating area and how our method can be evolved to give the correct surface area."
+      },
+      {
+        "score": 0.8569,
+        "start": 528.48,
+        "end": 533.44,
+        "transcript": "I'll also show you how the pi equals four paradox is resolved."
+      },
+      {
+        "score": 0.3789,
+        "start": 533.44,
+        "end": 538.53,
+        "transcript": "And to finish off, we'll also have some origami and Ken crushing fun with Schwartz lanterns."
+      },
+      {
+        "score": 0.2181,
+        "start": 538.53,
+        "end": 540.27,
+        "transcript": "Let's look forward to it."
+      },
+      {
+        "score": 0.6134,
+        "start": 540.27,
+        "end": 555.81,
+        "transcript": "Okay, so how exactly do the Schwarz-Lentans mess up our method of calculating the surface area of a cylinder?"
+      },
+      {
+        "score": 0.4761,
+        "start": 555.81,
+        "end": 557.0,
+        "transcript": "Let me show you."
+      },
+      {
+        "score": 0.8428,
+        "start": 557.0,
+        "end": 562.99,
+        "transcript": "In keeping with our pi is equal to 4-puzzle, let's approximate a very special cylinder."
+      },
+      {
+        "score": 0.6794,
+        "start": 562.99,
+        "end": 565.43,
+        "transcript": "One with surface area equal to pi."
+      },
+      {
+        "score": 0.6752,
+        "start": 565.43,
+        "end": 569.03,
+        "transcript": "There, both the diameter of the circle and the height of the cylinder is one."
+      },
+      {
+        "score": 0.7721,
+        "start": 569.03,
+        "end": 576.3,
+        "transcript": "This means that there's not just one, but two obvious pi's baked into this cylinder."
+      },
+      {
+        "score": 0.4263,
+        "start": 576.3,
+        "end": 580.31,
+        "transcript": "First, the circumference of the circle is diameter times pi, so that's pi."
+      },
+      {
+        "score": 0.7314,
+        "start": 580.31,
+        "end": 586.68,
+        "transcript": "And then there's the area of the blue cylinder, which is simply the circumference times the height, which is also pi."
+      },
+      {
+        "score": 0.6977,
+        "start": 586.68,
+        "end": 603.27,
+        "transcript": "To construct one of the lantern approximations of the cylinder, split the cylinder into four equal horizontal bands, put seven equally spaced red points on each of the circles like this, put into triangles, well that's our lantern."
+      },
+      {
+        "score": 0.7275,
+        "start": 603.27,
+        "end": 610.22,
+        "transcript": "This particular lantern has four horizontal bands of triangles and has seven equally spaced red points at every level."
+      },
+      {
+        "score": 0.6776,
+        "start": 610.22,
+        "end": 615.58,
+        "transcript": "Here are a couple more lanterns with different numbers of points and bands."
+      },
+      {
+        "score": 0.3139,
+        "start": 615.58,
+        "end": 617.92,
+        "transcript": "There, there, there."
+      },
+      {
+        "score": 0.8313,
+        "start": 617.92,
+        "end": 625.72,
+        "transcript": "Now, to get finer and finer lantern approximations of the cylinder, we simply crank up the number of bands and the number of points."
+      },
+      {
+        "score": 0.2985,
+        "start": 625.72,
+        "end": 627.86,
+        "transcript": "So let's do some cranking."
+      },
+      {
+        "score": 0.5992,
+        "start": 627.86,
+        "end": 632.25,
+        "transcript": "Okay, start with this simple lantern with just one band."
+      },
+      {
+        "score": 0.4065,
+        "start": 632.25,
+        "end": 636.9,
+        "transcript": "Stick with this one band throughout, but crank up the number of points there."
+      },
+      {
+        "score": 1.0,
+        "start": 636.9,
+        "end": 642.48,
+        "transcript": "Okay, the lanterns look more like a cylinder and the areas approach pi."
+      },
+      {
+        "score": 0.1577,
+        "start": 642.48,
+        "end": 643.64,
+        "transcript": "So far, so good."
+      },
+      {
+        "score": 0.4216,
+        "start": 643.64,
+        "end": 646.2,
+        "transcript": "Okay, now something different."
+      },
+      {
+        "score": 0.5922,
+        "start": 646.2,
+        "end": 650.15,
+        "transcript": "Let's crank up the number of bands, but let's not meddle with the number of points."
+      },
+      {
+        "score": 0.6025,
+        "start": 650.15,
+        "end": 652.99,
+        "transcript": "So the number of points stays five throughout."
+      },
+      {
+        "score": 0.5191,
+        "start": 652.99,
+        "end": 659.12,
+        "transcript": "Okay, the lantern area is 2.95 and a bit to start with."
+      },
+      {
+        "score": 0.733,
+        "start": 659.12,
+        "end": 664.18,
+        "transcript": "Let's less than pi, but now watch the area as we crank up the number of bands."
+      },
+      {
+        "score": 0.6303,
+        "start": 664.18,
+        "end": 668.39,
+        "transcript": "Okay, area is going up as expected, but look at that."
+      },
+      {
+        "score": 0.7774,
+        "start": 668.39,
+        "end": 671.44,
+        "transcript": "The area is now greater than pi and keeps rising."
+      },
+      {
+        "score": 0.6713,
+        "start": 671.44,
+        "end": 675.82,
+        "transcript": "In fact, the surface areas of these lanterns explode to infinity."
+      },
+      {
+        "score": 0.3387,
+        "start": 675.82,
+        "end": 676.2,
+        "transcript": "Really?"
+      },
+      {
+        "score": 0.2605,
+        "start": 676.2,
+        "end": 676.92,
+        "transcript": "Yes."
+      },
+      {
+        "score": 0.5649,
+        "start": 676.92,
+        "end": 684.69,
+        "transcript": "To see why this is the case without torturing any formulas, just have a look at the insert of the same setup as we add bands."
+      },
+      {
+        "score": 0.1363,
+        "start": 684.69,
+        "end": 687.08,
+        "transcript": "Go. There."
+      },
+      {
+        "score": 0.2012,
+        "start": 687.08,
+        "end": 689.1,
+        "transcript": "More, more of these bands."
+      },
+      {
+        "score": 0.3033,
+        "start": 958.01,
+        "end": 958.83,
+        "transcript": "All right."
+      },
+      {
+        "score": 0.8033,
+        "start": 691.1,
+        "end": 699.69,
+        "transcript": "From this viewpoint, it becomes clear that as we crank up the number of bands, basically the same areas added to the lantern over and over, right?"
+      },
+      {
+        "score": 0.7109,
+        "start": 699.69,
+        "end": 709.19,
+        "transcript": "As the bands go thinner and thinner, the triangles go flatter and flatter, and every band essentially adds this gray area here."
+      },
+      {
+        "score": 0.8163,
+        "start": 709.19,
+        "end": 714.44,
+        "transcript": "and the same area added infinitely often gives infinite area."
+      },
+      {
+        "score": 0.7232,
+        "start": 714.44,
+        "end": 717.96,
+        "transcript": "The areas of the lanterns explore to infinity, easy."
+      },
+      {
+        "score": 0.2828,
+        "start": 717.96,
+        "end": 721.44,
+        "transcript": "Well, at least that's the gist of the argument."
+      },
+      {
+        "score": 0.3385,
+        "start": 721.44,
+        "end": 722.51,
+        "transcript": "Okay, get in there."
+      },
+      {
+        "score": 0.6714,
+        "start": 722.51,
+        "end": 731.08,
+        "transcript": "It's pretty easy to see that for the same reason, fixing the number of points to be any other number and then cranking up the number of bands will lead to infinite area."
+      },
+      {
+        "score": 0.6255,
+        "start": 731.08,
+        "end": 734.94,
+        "transcript": "Here's another example with the number of points seven instead of five."
+      },
+      {
+        "score": 0.8362,
+        "start": 734.94,
+        "end": 744.37,
+        "transcript": "Again, we're essentially adding the same stuff infinitely often as we crank up the number of bands and therefore the areas of the lanterns again explore to infinity."
+      },
+      {
+        "score": 0.3033,
+        "start": 958.01,
+        "end": 958.83,
+        "transcript": "All right."
+      },
+      {
+        "score": 0.5011,
+        "start": 745.57,
+        "end": 751.28,
+        "transcript": "Are the lantern refinements that we just looked at Schwarz's famous counter examples?"
+      },
+      {
+        "score": 0.9332,
+        "start": 751.28,
+        "end": 756.24,
+        "transcript": "Well, we're refining and the areas head off to infinity instead of pi."
+      },
+      {
+        "score": 0.1292,
+        "start": 756.24,
+        "end": 757.12,
+        "transcript": "Looking good."
+      },
+      {
+        "score": 0.58,
+        "start": 757.12,
+        "end": 762.27,
+        "transcript": "However, these particular lantern refinements are not quite what we want."
+      },
+      {
+        "score": 0.2548,
+        "start": 762.27,
+        "end": 762.95,
+        "transcript": "Why?"
+      },
+      {
+        "score": 0.9096,
+        "start": 762.95,
+        "end": 766.27,
+        "transcript": "Well remember, the triangle refinements we did for the sphere?"
+      },
+      {
+        "score": 0.8247,
+        "start": 766.27,
+        "end": 769.66,
+        "transcript": "There, all the triangle edges shrink to zero."
+      },
+      {
+        "score": 0.8476,
+        "start": 769.66,
+        "end": 779.13,
+        "transcript": "There, there, okay, and as the edges shrink to zero, the triangle approximations become indistinguishable from the sphere."
+      },
+      {
+        "score": 0.6857,
+        "start": 779.13,
+        "end": 785.02,
+        "transcript": "On the other hand, the edges in our London triangle refinements don't shrink to zero."
+      },
+      {
+        "score": 0.8449,
+        "start": 785.02,
+        "end": 791.25,
+        "transcript": "At the same time, our lantern approximations don't turn into the cylinder, right?"
+      },
+      {
+        "score": 0.7941,
+        "start": 791.25,
+        "end": 796.62,
+        "transcript": "From the top, they don't look more like a circle, the top view of a cylinder."
+      },
+      {
+        "score": 0.6696,
+        "start": 796.62,
+        "end": 799.12,
+        "transcript": "From the top, our lanterns look more like this."
+      },
+      {
+        "score": 0.7215,
+        "start": 799.12,
+        "end": 808.72,
+        "transcript": "The reason for this is that in our lantern refinement so far, we're only upping the number of bands, but not the number of points."
+      },
+      {
+        "score": 0.7717,
+        "start": 808.72,
+        "end": 820.37,
+        "transcript": "to make the triangle edges shrink to zero, and in this way, guaranteed that the lantern approximations become indistinguishable from the cylinder, we have to let both the number of bands and the number of points go to infinity."
+      },
+      {
+        "score": 0.6366,
+        "start": 820.37,
+        "end": 826.11,
+        "transcript": "At the same time, we want to make sure that the surface areas explode to infinity."
+      },
+      {
+        "score": 0.5148,
+        "start": 826.11,
+        "end": 830.16,
+        "transcript": "Sounds tricky, but here's an important point to keep in mind."
+      },
+      {
+        "score": 0.5023,
+        "start": 830.16,
+        "end": 836.11,
+        "transcript": "There are many different ways to simultaneously let both numbers go to infinity."
+      },
+      {
+        "score": 0.4487,
+        "start": 836.11,
+        "end": 842.45,
+        "transcript": "Okay, let's make up one such ad shrinking way that ticks all the boxes."
+      },
+      {
+        "score": 0.3631,
+        "start": 842.45,
+        "end": 845.04,
+        "transcript": "This then amounts to the counter example we're after."
+      },
+      {
+        "score": 0.5519,
+        "start": 845.04,
+        "end": 848.64,
+        "transcript": "Okay, we start with the number of points being 4."
+      },
+      {
+        "score": 0.6382,
+        "start": 848.64,
+        "end": 857.55,
+        "transcript": "For B, we choose the smallest number of bands such that the area of the lantern is greater than 4."
+      },
+      {
+        "score": 0.3198,
+        "start": 857.55,
+        "end": 861.17,
+        "transcript": "Why do we know that there is such a special number of bands?"
+      },
+      {
+        "score": 0.7251,
+        "start": 861.17,
+        "end": 874.1,
+        "transcript": "Well, of course, because if we leave the number of points fixed at 4 and crank up the number of bands, the area explodes to infinity and so at some point this area has to be greater than 4."
+      },
+      {
+        "score": 0.4981,
+        "start": 874.1,
+        "end": 876.62,
+        "transcript": "Anyway, that special B happens to be 7."
+      },
+      {
+        "score": 0.7634,
+        "start": 876.62,
+        "end": 881.69,
+        "transcript": "So the lantern with 7 bands and 4 points is our first lantern."
+      },
+      {
+        "score": 0.6604,
+        "start": 881.69,
+        "end": 884.67,
+        "transcript": "The next lantern has 5 points."
+      },
+      {
+        "score": 0.235,
+        "start": 884.67,
+        "end": 886.46,
+        "transcript": "What's to be this time around?"
+      },
+      {
+        "score": 0.6577,
+        "start": 886.46,
+        "end": 892.99,
+        "transcript": "Well, we choose B to be the smallest number of bands, such that the lantern has area greater than 5."
+      },
+      {
+        "score": 0.4808,
+        "start": 892.99,
+        "end": 895.74,
+        "transcript": "This special number happens to be 15."
+      },
+      {
+        "score": 0.363,
+        "start": 907.51,
+        "end": 908.98,
+        "transcript": "And so on."
+      },
+      {
+        "score": 0.5233,
+        "start": 897.34,
+        "end": 899.4,
+        "transcript": "So the next P is 6."
+      },
+      {
+        "score": 0.5878,
+        "start": 899.4,
+        "end": 902.73,
+        "transcript": "We also want to have the area greater than 6."
+      },
+      {
+        "score": 0.478,
+        "start": 902.73,
+        "end": 905.27,
+        "transcript": "And this special number of bands that does this is 26."
+      },
+      {
+        "score": 0.4545,
+        "start": 905.27,
+        "end": 907.51,
+        "transcript": "And then P is equal to 7."
+      },
+      {
+        "score": 0.363,
+        "start": 907.51,
+        "end": 908.98,
+        "transcript": "And so on."
+      },
+      {
+        "score": 0.8683,
+        "start": 908.98,
+        "end": 914.3,
+        "transcript": "Now, this particular triangle refinement ticks all our boxes, right?"
+      },
+      {
+        "score": 0.5413,
+        "start": 914.3,
+        "end": 917.44,
+        "transcript": "Both the number of points and bands goes to infinity."
+      },
+      {
+        "score": 0.6887,
+        "start": 917.44,
+        "end": 921.37,
+        "transcript": "This implies that the edges of the triangles shrink to zero there."
+      },
+      {
+        "score": 0.718,
+        "start": 921.37,
+        "end": 937.12,
+        "transcript": "Shrink, shrink, shrink, and because the edges shrink to zero, the lantern approximations do become indistinguishable from the cylinder, and after a while you'll only be able to see the buckling under a microscope."
+      },
+      {
+        "score": 0.9351,
+        "start": 937.12,
+        "end": 947.03,
+        "transcript": "Finally, the surface area explodes to infinity because we've made sure that the surface of every lantern is greater than its number of points."
+      },
+      {
+        "score": 0.273,
+        "start": 1316.27,
+        "end": 1316.79,
+        "transcript": "Right?"
+      },
+      {
+        "score": 0.8253,
+        "start": 948.36,
+        "end": 956.73,
+        "transcript": "The first lantern has area greater than 4, the next greater than 5, the next greater than 6, then 7, 8, 9 and so on, explodes to infinity."
+      },
+      {
+        "score": 0.2997,
+        "start": 1153.9,
+        "end": 1154.74,
+        "transcript": "Great!"
+      },
+      {
+        "score": 0.3033,
+        "start": 958.01,
+        "end": 958.83,
+        "transcript": "All right."
+      },
+      {
+        "score": 0.799,
+        "start": 958.83,
+        "end": 966.16,
+        "transcript": "So this particular proper triangle refinement of our cylinder surface behaves literally infinitely badly."
+      },
+      {
+        "score": 0.1591,
+        "start": 966.16,
+        "end": 970.19,
+        "transcript": "Professor Schwartz wins and he's happy."
+      },
+      {
+        "score": 0.979,
+        "start": 970.19,
+        "end": 975.7,
+        "transcript": "But there are other lantern triangle refinements that behave nicely and give the correct area."
+      },
+      {
+        "score": 0.2414,
+        "start": 975.7,
+        "end": 976.96,
+        "transcript": "For example, this one."
+      },
+      {
+        "score": 0.7083,
+        "start": 976.96,
+        "end": 984.98,
+        "transcript": "There's a pattern here, four points, four bands, five points, five bands, six points and six bands and so on."
+      },
+      {
+        "score": 0.7541,
+        "start": 984.98,
+        "end": 994.66,
+        "transcript": "Now, when you do the maths, it turns out that the area of the slenten refinement actually does converge to pi, the area of the cylinder."
+      },
+      {
+        "score": 0.7133,
+        "start": 994.66,
+        "end": 1000.16,
+        "transcript": "The lantern on the left with 10 points and 10 bands exemplifies the long-term behavior of the lanterns."
+      },
+      {
+        "score": 0.8664,
+        "start": 1000.16,
+        "end": 1011.28,
+        "transcript": "Unlike in our counter example, the buckling of the lantern service completely dies out, meaning that basically every little triangle fully contributes to making up the area of the cylinder."
+      },
+      {
+        "score": 0.8525,
+        "start": 1011.28,
+        "end": 1023.37,
+        "transcript": "With a more detailed analysis using the area formula for our lanterns, we can devise lantern refinements whose areas approach any number whatsoever between pi and infinity."
+      },
+      {
+        "score": 0.6085,
+        "start": 1023.37,
+        "end": 1025.88,
+        "transcript": "For example, we can make the limit area 4."
+      },
+      {
+        "score": 0.9058,
+        "start": 1025.88,
+        "end": 1037.04,
+        "transcript": "If we wanted our Schwartz lantern meme over there to look more like the famous 2D version we started with, we could replace the cylinder with a sphere of area pi."
+      },
+      {
+        "score": 0.8212,
+        "start": 1037.04,
+        "end": 1048.85,
+        "transcript": "just like the cylinder, the sphere and really any curved surface admits one of our pathological buckling triangle refinements whose areas can be anything between the actual surface area and infinity."
+      },
+      {
+        "score": 0.8137,
+        "start": 1048.85,
+        "end": 1053.69,
+        "transcript": "Okay, some of our triangle refinements work and some don't."
+      },
+      {
+        "score": 0.6966,
+        "start": 1053.69,
+        "end": 1065.72,
+        "transcript": "Now figuring out which do and which don't is not only of theoretical importance but also becomes important when we represent curved surfaces by triangulated surfaces using visualization software."
+      },
+      {
+        "score": 0.4563,
+        "start": 1065.72,
+        "end": 1079.37,
+        "transcript": "If the software blindly refines the triangulation, buckling is likely to occur, and this means that because the triangles add up pointing all over the place, virtual light is not reflected in the right way and leads to weird visual artifacts."
+      },
+      {
+        "score": 0.5266,
+        "start": 1079.37,
+        "end": 1094.41,
+        "transcript": "So when constructing our refinements, apart from ensuring that all corners of the triangles are on the target surface, and the triangle edges shrink to zero, we also have to ensure that the triangles hack the surface better and better."
+      },
+      {
+        "score": 0.4032,
+        "start": 1094.41,
+        "end": 1101.89,
+        "transcript": "just exactly how well a triangle hugs the target surface is usually measured by focusing on one of its surface normals."
+      },
+      {
+        "score": 0.7417,
+        "start": 1101.89,
+        "end": 1108.12,
+        "transcript": "That is, a spike at right angles to the triangle, like in this hedgehog lantern that I showed you before."
+      },
+      {
+        "score": 0.3052,
+        "start": 1108.12,
+        "end": 1112.77,
+        "transcript": "If the spikes are pointing all over the place, then there's a lot of buckling."
+      },
+      {
+        "score": 0.281,
+        "start": 1112.77,
+        "end": 1121.93,
+        "transcript": "What you want to aim for when you construct your refinements is for the spikes to point as much as possible, perpendicular to the target surface, like in this example."
+      },
+      {
+        "score": 0.4671,
+        "start": 1121.93,
+        "end": 1128.33,
+        "transcript": "The same sort of extra requirement also makes sure that linear refinements of curves do the right thing."
+      },
+      {
+        "score": 0.6675,
+        "start": 1128.33,
+        "end": 1132.67,
+        "transcript": "Take for example the pi is equal to 4 paradox refinements from the beginning."
+      },
+      {
+        "score": 0.502,
+        "start": 1132.67,
+        "end": 1141.5,
+        "transcript": "Bad because the spikes don't end up aligning themselves with the circle and so the buckling of the curve leads to excess area in the limit."
+      },
+      {
+        "score": 0.4657,
+        "start": 1141.5,
+        "end": 1153.9,
+        "transcript": "On the other hand, with straight line approximations in which all corners are on the nice smooth curvy curve and edges shrinking to zero, the spikes automatically align themselves in the right way."
+      },
+      {
+        "score": 0.2997,
+        "start": 1153.9,
+        "end": 1154.74,
+        "transcript": "Great!"
+      },
+      {
+        "score": 0.5072,
+        "start": 1154.74,
+        "end": 1157.59,
+        "transcript": "a very nice resolution to our problem."
+      },
+      {
+        "score": 0.3304,
+        "start": 1157.59,
+        "end": 1158.41,
+        "transcript": "Don't you think?"
+      },
+      {
+        "score": 0.3353,
+        "start": 1158.41,
+        "end": 1160.94,
+        "transcript": "Archimedes would also have been happy with all this."
+      },
+      {
+        "score": 0.2678,
+        "start": 1160.94,
+        "end": 1166.82,
+        "transcript": "Okay, but you may be thinking, didn't he say something about an existential crisis at the beginning?"
+      },
+      {
+        "score": 0.3706,
+        "start": 1166.82,
+        "end": 1171.0,
+        "transcript": "In the end, the resolution to our problem wasn't that hard to guess, wasn't it?"
+      },
+      {
+        "score": 0.2423,
+        "start": 1171.0,
+        "end": 1172.7,
+        "transcript": "Anyway, that's true."
+      },
+      {
+        "score": 0.7362,
+        "start": 1172.7,
+        "end": 1180.11,
+        "transcript": "But remember, I've been stressing throughout this video that all the curvy curves and surfaces that we are approximating are nice and smooth."
+      },
+      {
+        "score": 0.518,
+        "start": 1180.11,
+        "end": 1197.06,
+        "transcript": "If you try to measure the lengths or area of curves and surfaces that are themselves buckling like crazy, things like fractal curves and surfaces, for example, our solution that works for smooth curvy curves and surfaces does not work anymore and things get really tricky."
+      },
+      {
+        "score": 0.4709,
+        "start": 1197.06,
+        "end": 1204.03,
+        "transcript": "Mathematical missions like the quest to properly define lengths and area give rise to a whole new branch of mathematics called measure theory."
+      },
+      {
+        "score": 0.3759,
+        "start": 1204.03,
+        "end": 1206.61,
+        "transcript": "But that's a topic for another video."
+      },
+      {
+        "score": 0.2467,
+        "start": 1206.61,
+        "end": 1209.44,
+        "transcript": "Anyway, that was all very serious."
+      },
+      {
+        "score": 0.5891,
+        "start": 1209.44,
+        "end": 1214.5,
+        "transcript": "Now to finish, let's have some fun and let's have another close look at the lanterns themselves."
+      },
+      {
+        "score": 0.9134,
+        "start": 1214.5,
+        "end": 1221.65,
+        "transcript": "You probably already noticed that all the triangles in this lantern are clones of this isosceles triangle."
+      },
+      {
+        "score": 0.3697,
+        "start": 1221.65,
+        "end": 1228.69,
+        "transcript": "isosceles so the two green angles are the same and therefore two green plus one red is equal to 108 degrees."
+      },
+      {
+        "score": 0.8966,
+        "start": 1228.69,
+        "end": 1232.31,
+        "transcript": "Now focus on the six triangles around the corner."
+      },
+      {
+        "score": 0.789,
+        "start": 1232.31,
+        "end": 1235.06,
+        "transcript": "What can we say about the angles around the corner?"
+      },
+      {
+        "score": 0.2537,
+        "start": 1235.06,
+        "end": 1238.23,
+        "transcript": "Four green plus two red."
+      },
+      {
+        "score": 0.3031,
+        "start": 1238.23,
+        "end": 1238.69,
+        "transcript": "What's that?"
+      },
+      {
+        "score": 0.7801,
+        "start": 1238.69,
+        "end": 1242.38,
+        "transcript": "Well, let's double the angles some that are highlighted up there, of course."
+      },
+      {
+        "score": 0.8825,
+        "start": 1242.38,
+        "end": 1246.09,
+        "transcript": "So the angles around the corner add to 360 degrees."
+      },
+      {
+        "score": 0.8919,
+        "start": 1246.09,
+        "end": 1254.52,
+        "transcript": "This means that if you cut the lantern here, the whole thing unfolds into a flat rectangle."
+      },
+      {
+        "score": 0.257,
+        "start": 1254.52,
+        "end": 1261.39,
+        "transcript": "Andrew went wild with this idea and put together a nice Georgia bra app that animates the unfolding process."
+      },
+      {
+        "score": 0.5708,
+        "start": 1261.39,
+        "end": 1271.19,
+        "transcript": "Here's a clip of one of those seriously buckled lentens unfolding into a very tall rectangle, virtually superimposed onto Andrew's backyard."
+      },
+      {
+        "score": 0.2959,
+        "start": 1271.19,
+        "end": 1272.58,
+        "transcript": "Very impressive."
+      },
+      {
+        "score": 0.0569,
+        "start": 1272.58,
+        "end": 1279.2,
+        "transcript": "Now you can download Andrews app via the link in the description of this video."
+      },
+      {
+        "score": 0.0,
+        "start": 1279.2,
+        "end": 1281.81,
+        "transcript": "Does anybody know what the noise in background is?"
+      },
+      {
+        "score": 0.2496,
+        "start": 1281.81,
+        "end": 1286.6,
+        "transcript": "Andrews also made a video that has more details about all this."
+      },
+      {
+        "score": 0.6432,
+        "start": 1286.6,
+        "end": 1293.27,
+        "transcript": "The fact that our lanterns fold flat also means that every Schwartz lantern can be origami from a flat piece of paper."
+      },
+      {
+        "score": 0.5012,
+        "start": 1293.27,
+        "end": 1300.12,
+        "transcript": "I'll include a link to a video of an expert origaming one of those lanterns in the description of this video."
+      },
+      {
+        "score": 0.2694,
+        "start": 1300.12,
+        "end": 1303.07,
+        "transcript": "Very satisfying to watch and do yourself."
+      },
+      {
+        "score": 0.7302,
+        "start": 1303.07,
+        "end": 1316.27,
+        "transcript": "Anyway, the fact that our lanterns can be folded from flat sheets also explains to some extent why under the right conditions, lantern patterns also show up in the buckling patterns of thin real world cylinders."
+      },
+      {
+        "score": 0.273,
+        "start": 1316.27,
+        "end": 1316.79,
+        "transcript": "Right?"
+      },
+      {
+        "score": 0.5733,
+        "start": 1316.79,
+        "end": 1320.45,
+        "transcript": "A cylinder is just a flat sheet rolled up."
+      },
+      {
+        "score": 0.4227,
+        "start": 1320.45,
+        "end": 1324.36,
+        "transcript": "Again, if you're interested in more details, follow some of the links in the description."
+      },
+      {
+        "score": 0.1969,
+        "start": 1324.36,
+        "end": 1330.48,
+        "transcript": "In turn, this buckling business suggests some lent and fun to be had with empty soda cans."
+      },
+      {
+        "score": 0.1928,
+        "start": 1330.48,
+        "end": 1332.27,
+        "transcript": "Great stuff, right?"
+      },
+      {
+        "score": 0.0543,
+        "start": 1332.27,
+        "end": 1336.91,
+        "transcript": "As usual, let me know what worked and what did not work for you in this video in the comments."
+      },
+      {
+        "score": 0.2763,
+        "start": 1336.91,
+        "end": 1339.65,
+        "transcript": "If there's anything you don't understand, please ask."
+      },
+      {
+        "score": 0.2976,
+        "start": 1339.65,
+        "end": 1341.14,
+        "transcript": "That's it for today."
+      },
+      {
+        "score": 0.1616,
+        "start": 1341.14,
+        "end": 1342.46,
+        "transcript": "Merry Christmas."
+      }
+    ],
+    "segment_count": 267
+  },
+  {
+    "name": "today",
+    "start": 1342,
+    "segments": [],
+    "segment_count": 0
+  },
+  {
+    "name": "Chapter",
+    "start": 1405,
+    "segments": [],
+    "segment_count": 0
+  }
+]

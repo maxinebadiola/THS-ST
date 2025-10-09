@@ -1,0 +1,1784 @@
+[
+  {
+    "name": "The France",
+    "start": 0,
+    "original_name": "harvard graduate student named paul werbos discovered",
+    "score": 2.899558166958304,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7911,
+        "start": 0.03,
+        "end": 9.89,
+        "transcript": "In the early 1970s, a Harvard graduate student named Paul Werbos discovered a method for training multi-layer neural networks that we now call back propagation."
+      },
+      {
+        "score": 0.5753,
+        "start": 9.89,
+        "end": 17.55,
+        "transcript": "Warbos would later compare the discovery to Newton's laws, positioning backpropagation as a fundamental mathematical law of intelligence."
+      },
+      {
+        "score": 0.5344,
+        "start": 17.55,
+        "end": 27.06,
+        "transcript": "When Warbos took his discovery to AI legend Marvin Minsky, Minsky rejected it outright, claiming that backpropagation would not be able to learn anything difficult."
+      },
+      {
+        "score": 0.6718,
+        "start": 27.06,
+        "end": 34.51,
+        "transcript": "However, despite being consistently underestimated by Minsky and many others, backpropagation just kept working."
+      },
+      {
+        "score": 0.6746,
+        "start": 34.51,
+        "end": 43.78,
+        "transcript": "Successfully training models to drive cars in the 1980s, recognize handwritten digits in the 1990s, and classify images with incredible accuracy in the early 2010s."
+      },
+      {
+        "score": 0.6509,
+        "start": 43.78,
+        "end": 49.06,
+        "transcript": "And today, virtually all modern AI models are trained using backpropagation."
+      },
+      {
+        "score": 0.5946,
+        "start": 49.06,
+        "end": 55.07,
+        "transcript": "This animation shows the flow of real data through Meta's Lama 3.2 large language model."
+      },
+      {
+        "score": 0.4849,
+        "start": 55.07,
+        "end": 58.95,
+        "transcript": "Note that the entire model is too large to show on screen."
+      },
+      {
+        "score": 0.3362,
+        "start": 58.95,
+        "end": 62.12,
+        "transcript": "Here we're showing the strongest connections."
+      },
+      {
+        "score": 0.7773,
+        "start": 62.12,
+        "end": 77.0,
+        "transcript": "Given some input text, like the capital of France is, Lama predicts the token that will come next, and the back propagation algorithm figures out how to update each of the models 1.2 billion parameters to make Lama more confident in the correct next token."
+      },
+      {
+        "score": 0.3444,
+        "start": 77.0,
+        "end": 82.47,
+        "transcript": "These updates are shown in blue, where thicker lines correspond to larger updates."
+      },
+      {
+        "score": 0.8124,
+        "start": 82.47,
+        "end": 90.0,
+        "transcript": "In this middle layer of the model, we can see back propagation is modifying the weights flowing in and out of this attention pattern."
+      },
+      {
+        "score": 0.6687,
+        "start": 90.0,
+        "end": 101.19,
+        "transcript": "This pattern tells the model to focus on the second and fourth token in the input text, in this case the words capital and France, which are important for predicting the next token of Paris."
+      },
+      {
+        "score": 0.7793,
+        "start": 101.19,
+        "end": 111.39,
+        "transcript": "Backpropagation is remarkably able to figure out which parts of these massive models to update, to iteratively improve performance, and learn highly complex behaviors."
+      },
+      {
+        "score": 0.8629,
+        "start": 111.39,
+        "end": 120.63,
+        "transcript": "Like Newton's laws, the back propagation algorithm is simple, elegant, and deceptively scalable, leading to incredibly rich structures and behaviors."
+      },
+      {
+        "score": 0.9495,
+        "start": 120.63,
+        "end": 126.28,
+        "transcript": "In this video and the next in the series, we'll see precisely how back propagation works."
+      },
+      {
+        "score": 0.1188,
+        "start": 126.28,
+        "end": 136.84,
+        "transcript": "Now, before we get started, we need to talk about Remember when you used to be able to just ignore calls from unknown numbers?"
+      }
+    ],
+    "segment_count": 17
+  },
+  {
+    "name": "The Now",
+    "start": 128,
+    "original_name": "back propagation works",
+    "score": 2.53077498585174,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.0127,
+        "start": 136.84,
+        "end": 138.7,
+        "transcript": "I do, it was awesome."
+      },
+      {
+        "score": 0.0573,
+        "start": 138.7,
+        "end": 144.61,
+        "transcript": "But now that I have kids, I've learned it's much less awesome to ignore calls from your kids' school principals and doctors."
+      },
+      {
+        "score": 0.0415,
+        "start": 144.61,
+        "end": 146.84,
+        "transcript": "But you know who never calls me anymore?"
+      },
+      {
+        "score": 0.1117,
+        "start": 146.84,
+        "end": 148.08,
+        "transcript": "Telemarketers."
+      },
+      {
+        "score": 0.3047,
+        "start": 148.08,
+        "end": 154.87,
+        "transcript": "Thanks to this video sponsor and Cogni, I get so few marketing calls these days that I've actually started answering unknown numbers."
+      },
+      {
+        "score": 0.1066,
+        "start": 154.87,
+        "end": 158.9,
+        "transcript": "Because more often than not now, it's someone I actually need to talk to."
+      },
+      {
+        "score": 0.5623,
+        "start": 158.9,
+        "end": 161.28,
+        "transcript": "The way in Cogni does this is really impressive."
+      },
+      {
+        "score": 0.1375,
+        "start": 161.28,
+        "end": 167.55,
+        "transcript": "After signing up for an account, you've given Cogni permission to work on your behalf to contact data brokers to remove your data."
+      },
+      {
+        "score": 0.1208,
+        "start": 167.55,
+        "end": 174.18,
+        "transcript": "From here you get this great dashboard that tracks all the removal requests and progress, and is always working in the background."
+      },
+      {
+        "score": 0.2888,
+        "start": 174.18,
+        "end": 177.2,
+        "transcript": "In Cogni is sponsoring this whole series, which is great."
+      },
+      {
+        "score": 0.4327,
+        "start": 177.2,
+        "end": 185.24,
+        "transcript": "And I actually had to record this graphic because in the few weeks since I released Part 1, my data has been removed from 34 more data brokers."
+      },
+      {
+        "score": 0.1418,
+        "start": 185.24,
+        "end": 191.97,
+        "transcript": "Incogni has just released a new feature that makes their service even more effective, called custom data removals."
+      },
+      {
+        "score": 0.2155,
+        "start": 191.97,
+        "end": 198.05,
+        "transcript": "If you Google your name and address, you may be surprised to find exactly where your personal information pops up."
+      },
+      {
+        "score": 0.1135,
+        "start": 198.05,
+        "end": 206.26,
+        "transcript": "With custom removals, you can submit specific URLs directly to the Incogni team, who will work to remove your information from eligible sites."
+      },
+      {
+        "score": 0.1796,
+        "start": 206.26,
+        "end": 213.08,
+        "transcript": "You can get a great deal on Incogni, 60% off an annual plan by using the code WelchLabs, or following the link in the description below."
+      },
+      {
+        "score": 0.2353,
+        "start": 213.08,
+        "end": 216.78,
+        "transcript": "It's been a while since I've made a multi-part series like this."
+      },
+      {
+        "score": 0.3133,
+        "start": 216.78,
+        "end": 222.79,
+        "transcript": "Huge thank you to Incogni for helping make this series possible, and helping me get more quality focus time."
+      },
+      {
+        "score": 1.0,
+        "start": 222.79,
+        "end": 225.62,
+        "transcript": "Now, back to the back propagation algorithm."
+      },
+      {
+        "score": 0.8085,
+        "start": 225.62,
+        "end": 233.36,
+        "transcript": "In part one of this series, we took a visual first approach to training meta's alumna 3.2, 1.2 billion parameter model."
+      }
+    ],
+    "segment_count": 19
+  },
+  {
+    "name": "The And",
+    "start": 226,
+    "original_name": "back propagation algorithm",
+    "score": 2.6935446091747286,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6627,
+        "start": 233.36,
+        "end": 242.43,
+        "transcript": "We showed how lost landscapes give us a sense for the high-dimensional spaces these models operate in, but also how these types of visualizations can fall short."
+      },
+      {
+        "score": 0.925,
+        "start": 242.43,
+        "end": 250.85,
+        "transcript": "In this video, we'll take a math first approach that will lead us to the back propagation algorithm that were most discovered over 50 years ago."
+      },
+      {
+        "score": 0.9636,
+        "start": 250.85,
+        "end": 257.14,
+        "transcript": "To build up the equations we need, we'll simplify our learning problem, work out the equations, and then scale back up."
+      },
+      {
+        "score": 0.6826,
+        "start": 257.14,
+        "end": 268.8,
+        "transcript": "Instead of training a large language model like Lama, to predict what comes next in phrases like the capital of France is, let's train a smaller model to predict what's city you're in, based on your GPS coordinates."
+      },
+      {
+        "score": 0.6483,
+        "start": 268.8,
+        "end": 273.15,
+        "transcript": "Our training data is now GPS coordinates taken from a few different cities."
+      },
+      {
+        "score": 0.3209,
+        "start": 273.15,
+        "end": 277.59,
+        "transcript": "Here's five coordinates from Paris and five coordinates from Madrid and Berlin."
+      },
+      {
+        "score": 0.46,
+        "start": 277.59,
+        "end": 287.45,
+        "transcript": "Our full Lama language model returns vectors of probabilities of length 128,256, with one entry for every token in Lama's vocabulary."
+      },
+      {
+        "score": 0.8103,
+        "start": 287.45,
+        "end": 296.61,
+        "transcript": "Our tiny GPS model also returns vectors of probabilities, but on a much smaller vocabulary of just our three cities, Paris, Madrid, and Berlin."
+      },
+      {
+        "score": 0.711,
+        "start": 296.61,
+        "end": 306.62,
+        "transcript": "Instead of taking in text inputs, our tiny model will take in GPS coordinates, and we'll start by just taking in one coordinate, the longitude."
+      },
+      {
+        "score": 0.7551,
+        "start": 306.62,
+        "end": 315.84,
+        "transcript": "So our model takes in a single numerical input, the longitude, which we'll call x, and it returns three numbers, one probability for each city."
+      },
+      {
+        "score": 0.4798,
+        "start": 315.84,
+        "end": 320.0,
+        "transcript": "We'll call these probabilities y hat 1, y hat 2, and y hat 3."
+      },
+      {
+        "score": 0.8779,
+        "start": 320.0,
+        "end": 326.03,
+        "transcript": "Architecturally, our model has just three total neurons, one for each city."
+      },
+      {
+        "score": 0.629,
+        "start": 326.03,
+        "end": 327.79,
+        "transcript": "Each neuron's job is really simple."
+      },
+      {
+        "score": 0.8527,
+        "start": 327.79,
+        "end": 331.26,
+        "transcript": "It multiplies its input by a learnable parameter called a weight."
+      },
+      {
+        "score": 0.9317,
+        "start": 331.26,
+        "end": 335.64,
+        "transcript": "Adds another learnable parameter called a bias, and outputs the result."
+      },
+      {
+        "score": 0.8738,
+        "start": 335.64,
+        "end": 346.97,
+        "transcript": "Mathematically, we can write the output of our first neuron, which we'll call H1, as our first learnable parameter M1 times our input X, plus our bias value B1."
+      },
+      {
+        "score": 0.5083,
+        "start": 346.97,
+        "end": 353.02,
+        "transcript": "This model is completely equivalent to a simple linear Y equals and X plus B equation from high school algebra."
+      },
+      {
+        "score": 0.7571,
+        "start": 353.02,
+        "end": 362.48,
+        "transcript": "Each of the neurons that make up artificial neural networks like Lama is effectively a simple linear model like this, although with more inputs X and slopes M."
+      },
+      {
+        "score": 0.8571,
+        "start": 362.48,
+        "end": 369.67,
+        "transcript": "And it's the job of our learning algorithm to make the appropriate adjustments to all of our m and b values to solve the larger task at hand."
+      },
+      {
+        "score": 0.6733,
+        "start": 369.67,
+        "end": 377.19,
+        "transcript": "Note that we're calling our output h instead of y here, because we have to take one more step before reaching our final outputs y hat."
+      }
+    ],
+    "segment_count": 20
+  },
+  {
+    "name": "The Before",
+    "start": 370,
+    "original_name": "learning algorithm",
+    "score": 2.918300143125534,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.7222,
+        "start": 377.19,
+        "end": 386.25,
+        "transcript": "Now, depending on their location in the overall model, the outputs of these little linear models are sometimes passed into a few other types of functions."
+      },
+      {
+        "score": 0.6443,
+        "start": 386.25,
+        "end": 392.1,
+        "transcript": "We know that we want the final outputs of our model y hat to be probabilities between 0 and 1."
+      },
+      {
+        "score": 0.7272,
+        "start": 392.1,
+        "end": 398.03,
+        "transcript": "But right now, each of our neurons are capable of returning a full range of positive and negative values."
+      },
+      {
+        "score": 0.8192,
+        "start": 398.03,
+        "end": 408.02,
+        "transcript": "To squish the outputs of our neurons, and ensure that our probabilities all add up to 1, the outputs h of our final layer are typically passed into a function called softmax."
+      },
+      {
+        "score": 0.8383,
+        "start": 408.02,
+        "end": 422.25,
+        "transcript": "compute the probability of Madrid, y hat 1 using Softmax, we raise e to the power of the output of our first neuron h1, and divide by the sum of each of the power of each of our neuron outputs, h1, h2, and h3."
+      },
+      {
+        "score": 0.6968,
+        "start": 422.25,
+        "end": 433.28,
+        "transcript": "The exponentials in the Softmax equation amplify the difference between our neuron outputs, assigning more but not all probability to the neuron with the highest output value."
+      },
+      {
+        "score": 0.6438,
+        "start": 433.28,
+        "end": 435.18,
+        "transcript": "This is why it's called a softmax."
+      },
+      {
+        "score": 0.9374,
+        "start": 435.18,
+        "end": 445.49,
+        "transcript": "If our Madrid, Paris, and Berlin neurons output values of 1, 2, and 1, our softmax operation will assign a 58% probability to Y hat 2 for Paris."
+      },
+      {
+        "score": 0.7382,
+        "start": 445.49,
+        "end": 454.39,
+        "transcript": "If our model is more confident in Paris and returns values of 1, 10, and 1, softmax behaves more like a traditional maximum function."
+      },
+      {
+        "score": 0.3956,
+        "start": 454.39,
+        "end": 456.8,
+        "transcript": "Assigning Paris a probability of 99.98%."
+      },
+      {
+        "score": 0.8867,
+        "start": 456.8,
+        "end": 462.76,
+        "transcript": "Softmax is the most complicated piece of math we'll encounter in this video."
+      },
+      {
+        "score": 0.9644,
+        "start": 462.76,
+        "end": 468.35,
+        "transcript": "and happily we'll see that when we apply some calculus and differentiate softmax, it actually gets much simpler."
+      },
+      {
+        "score": 0.7779,
+        "start": 468.35,
+        "end": 474.48,
+        "transcript": "So we now have all the equations we need to make predictions using our tiny GPS model."
+      },
+      {
+        "score": 0.7354,
+        "start": 474.48,
+        "end": 478.16,
+        "transcript": "Before training, our model weights are randomly initialized."
+      },
+      {
+        "score": 0.3123,
+        "start": 478.16,
+        "end": 480.9,
+        "transcript": "Let's pick some simple starting values."
+      },
+      {
+        "score": 0.6859,
+        "start": 480.9,
+        "end": 490.12,
+        "transcript": "We'll set our slope parameters to m1 equals 1, m2 equals 0, and m3 equals minus 1, and set all our bias values to 0."
+      },
+      {
+        "score": 0.7173,
+        "start": 490.12,
+        "end": 507.48,
+        "transcript": "If we now pass in the longitude for one of our Paris coordinates, for example, the center of the city at 2.3514 degrees, our positive value for M1 gives us a large H1 value of 2.35, leading our model to incorrectly predict that we're in Madrid with the probability of 0.91."
+      },
+      {
+        "score": 0.7227,
+        "start": 507.48,
+        "end": 516.49,
+        "transcript": "Now, as we saw in part one, to train our model to make better predictions, we first need a way to measure our model's performance."
+      },
+      {
+        "score": 0.5705,
+        "start": 516.49,
+        "end": 521.29,
+        "transcript": "The metric of choice for llama and many modern models is the cross entropy loss."
+      },
+      {
+        "score": 0.6673,
+        "start": 521.29,
+        "end": 528.56,
+        "transcript": "To compute the cross entropy loss here, we take the negative logarithm of the model's predicted probability of the correct answer."
+      },
+      {
+        "score": 0.8098,
+        "start": 528.56,
+        "end": 539.26,
+        "transcript": "The model's current probability of Paris is only 8.6%, leading to a cross entropy loss of the negative log of 0.086 equals 2.45."
+      },
+      {
+        "score": 0.7706,
+        "start": 539.26,
+        "end": 547.4,
+        "transcript": "If our models predicted probability of Paris was 100%, our cross entropy loss would equal the minus logarithm of 1, which equals 0."
+      },
+      {
+        "score": 0.5918,
+        "start": 547.4,
+        "end": 553.29,
+        "transcript": "Our job from here is to change our 6m and b parameters to make our loss go down."
+      },
+      {
+        "score": 0.7373,
+        "start": 553.29,
+        "end": 567.2,
+        "transcript": "As we saw in part 1, we can do this efficiently by computing the slope of each of our parameters with respect to our loss, combining these slopes into a vector called the gradient, and using the gradient to make iterative updates to our weights."
+      },
+      {
+        "score": 0.3278,
+        "start": 567.2,
+        "end": 570.17,
+        "transcript": "Let's now make this idea more tangible."
+      }
+    ],
+    "segment_count": 25
+  },
+  {
+    "name": "The Let",
+    "start": 568,
+    "original_name": "single model parameter",
+    "score": 2.694654462599053,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.8593,
+        "start": 570.17,
+        "end": 578.14,
+        "transcript": "Let's explore as we did last time how our loss varies with a single model parameter by plotting our loss as a function of M2."
+      },
+      {
+        "score": 0.8544,
+        "start": 578.14,
+        "end": 586.58,
+        "transcript": "Our M2 parameter in our Paris neuron currently has a value of 0, resulting in a loss of 2.45."
+      },
+      {
+        "score": 0.816,
+        "start": 586.58,
+        "end": 599.64,
+        "transcript": "If we increase the parameters value to 0.1, we can recompute our outputs and see that this increases our probability of being in Paris, according to the model to 0.107, reducing our loss to 2.24."
+      },
+      {
+        "score": 0.8214,
+        "start": 599.64,
+        "end": 609.67,
+        "transcript": "Now, with these two computations of our loss for different values of M2, we've effectively estimated the value of our slope, delta L over delta M2."
+      },
+      {
+        "score": 0.8251,
+        "start": 609.67,
+        "end": 616.07,
+        "transcript": "This tells us that if we increase M2, our loss will go down, increasing model performance."
+      },
+      {
+        "score": 0.686,
+        "start": 616.07,
+        "end": 624.48,
+        "transcript": "We could theoretically do this for all six parameters in our model and use these estimated slopes to guide the gradient descent learning process."
+      },
+      {
+        "score": 0.6217,
+        "start": 624.48,
+        "end": 632.75,
+        "transcript": "However, in practice, this numerical approach is computationally intensive since we have to recompure our outputs for each new parameter value we try."
+      },
+      {
+        "score": 0.5444,
+        "start": 632.75,
+        "end": 637.24,
+        "transcript": "And this approach can be inaccurate since we have to pick a fixed step size."
+      },
+      {
+        "score": 0.7102,
+        "start": 637.24,
+        "end": 642.99,
+        "transcript": "Remarkably, it turns out that we can do much better the numerical estimates for these slopes."
+      },
+      {
+        "score": 0.7816,
+        "start": 642.99,
+        "end": 648.69,
+        "transcript": "As we'll see, it's possible to exactly solve for the slopes of the loss function with respect to all parameters."
+      },
+      {
+        "score": 0.6802,
+        "start": 648.69,
+        "end": 652.69,
+        "transcript": "When we're done, we'll have simple equations that we can plug into directly."
+      },
+      {
+        "score": 0.8154,
+        "start": 652.69,
+        "end": 659.64,
+        "transcript": "The fact that you can do this is not immediately obvious, even to those well-versed and calculus and optimization."
+      },
+      {
+        "score": 0.9366,
+        "start": 659.64,
+        "end": 667.65,
+        "transcript": "In the 1950s at Stanford, Bernard Widrow's group trained single layer neural networks using this numerical estimate of the slope for years."
+      },
+      {
+        "score": 0.6721,
+        "start": 667.65,
+        "end": 673.94,
+        "transcript": "Until Widrow and his graduate student Ted Hoff stumbled onto an early version of backpropagation one day in late 1959."
+      },
+      {
+        "score": 0.5747,
+        "start": 673.94,
+        "end": 680.57,
+        "transcript": "Even then, Widrow and Hoff failed to see how to extend their method to neural networks with more than one layer."
+      },
+      {
+        "score": 0.509,
+        "start": 680.57,
+        "end": 684.87,
+        "transcript": "We'll see precisely how to do this after we complete our single layer example."
+      },
+      {
+        "score": 0.8853,
+        "start": 684.87,
+        "end": 692.63,
+        "transcript": "The central idea of back propagation is to apply the rules of calculus to compute the equations for our slopes in a particularly efficient way."
+      }
+    ],
+    "segment_count": 17
+  },
+  {
+    "name": "The Breaking",
+    "start": 685,
+    "original_name": "particularly efficient way",
+    "score": 3.9795910085226365,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6412,
+        "start": 692.63,
+        "end": 696.27,
+        "transcript": "Let's start with our slope delta L over delta M2."
+      },
+      {
+        "score": 0.5083,
+        "start": 696.27,
+        "end": 700.6,
+        "transcript": "In the language of calculus, this is the partial derivative DLDM2."
+      },
+      {
+        "score": 0.8207,
+        "start": 700.6,
+        "end": 704.52,
+        "transcript": "The rate of change of our loss L with respect to our model parameter M2."
+      },
+      {
+        "score": 0.8315,
+        "start": 704.52,
+        "end": 709.63,
+        "transcript": "Now we already have some equations that relate the loss to our parameter M2."
+      },
+      {
+        "score": 0.6687,
+        "start": 709.63,
+        "end": 716.97,
+        "transcript": "We know that our cross entropy loss is equal to the negative logarithm of our model's output probability of the correct answer y hat."
+      },
+      {
+        "score": 0.6048,
+        "start": 716.97,
+        "end": 719.7,
+        "transcript": "This would be y hat 2 in the case of our Paris example."
+      },
+      {
+        "score": 0.7583,
+        "start": 719.7,
+        "end": 733.88,
+        "transcript": "We can plug in our softmax equation for y hat and even go one step further and plug in the equations for each of our neurons, getting a complete equation for our loss L in terms of our input x and all six model parameters."
+      },
+      {
+        "score": 0.5004,
+        "start": 733.88,
+        "end": 744.98,
+        "transcript": "If you're familiar with calculus, an obvious approach from here might be to compute the partial derivative or after on DLDM2 by differentiating our expression with respect to M2."
+      },
+      {
+        "score": 0.718,
+        "start": 744.98,
+        "end": 750.91,
+        "transcript": "This does work, but is complex and doesn't really make use of the underlying graph structure of neural networks."
+      },
+      {
+        "score": 0.6849,
+        "start": 750.91,
+        "end": 763.64,
+        "transcript": "Instead, it turns out that we can consider the layers of our neural network independently, solve for the rate of change through each layer, and then compose these rates of change together to much more efficiently solve for DLDM2."
+      },
+      {
+        "score": 0.406,
+        "start": 763.64,
+        "end": 767.32,
+        "transcript": "Consider the simple example where we have two compute blocks."
+      },
+      {
+        "score": 0.5667,
+        "start": 767.32,
+        "end": 772.44,
+        "transcript": "The first mapping some input x to an output y with the equation y equals 2x."
+      },
+      {
+        "score": 0.5271,
+        "start": 772.44,
+        "end": 777.17,
+        "transcript": "And a second compute block wrapping y to z with the equation z equals 4y."
+      },
+      {
+        "score": 0.7811,
+        "start": 777.17,
+        "end": 784.37,
+        "transcript": "As we did with our neural network, we can put our equations together by substituting y equals 2x into our second equation."
+      },
+      {
+        "score": 0.1578,
+        "start": 784.37,
+        "end": 789.26,
+        "transcript": "Simplifying, we see that the equation for our full system is z equals 8x."
+      },
+      {
+        "score": 0.4026,
+        "start": 789.26,
+        "end": 793.48,
+        "transcript": "The slope or derivative of this overall system equation is 8."
+      },
+      {
+        "score": 0.4619,
+        "start": 793.48,
+        "end": 799.9,
+        "transcript": "Now, a more modular way to reach the same answer is to compute the derivative of each block individually."
+      },
+      {
+        "score": 0.3746,
+        "start": 799.9,
+        "end": 806.69,
+        "transcript": "Computing the slip of our first block, dy dx equals 2, and the slip of our second block, dz dy equals 4."
+      },
+      {
+        "score": 0.5267,
+        "start": 806.69,
+        "end": 811.8,
+        "transcript": "We can then multiply these rates of change together to get our overall rate of change."
+      },
+      {
+        "score": 0.4898,
+        "start": 811.8,
+        "end": 818.49,
+        "transcript": "So 2 times 4 equals 8, or dy dx times dz dy equals dz dx."
+      },
+      {
+        "score": 0.6759,
+        "start": 818.49,
+        "end": 826.54,
+        "transcript": "This is known as the chain rule in calculus, and scales much more cleanly to models with many layers like llama."
+      },
+      {
+        "score": 0.8587,
+        "start": 826.54,
+        "end": 833.02,
+        "transcript": "Applying the same process to our neural network, we can break apart DLDM into DHDM times DLDH."
+      },
+      {
+        "score": 0.7431,
+        "start": 833.02,
+        "end": 838.11,
+        "transcript": "Breaking apart the partial derivatives of our linear model and our loss in softmax function."
+      },
+      {
+        "score": 0.7917,
+        "start": 838.11,
+        "end": 844.62,
+        "transcript": "Now, calculating the partial derivative across our logarithm in softmax function is still a bit involved."
+      },
+      {
+        "score": 0.1585,
+        "start": 844.62,
+        "end": 848.32,
+        "transcript": "I'll put the process on screen in case you're interested in want to pause."
+      },
+      {
+        "score": 0.3697,
+        "start": 848.32,
+        "end": 852.21,
+        "transcript": "However, the big exciting takeaway is that the result is very simple."
+      },
+      {
+        "score": 0.5833,
+        "start": 852.21,
+        "end": 859.94,
+        "transcript": "It turns out that the logarithm from our cross entropy loss and the exponentials from our softmax operation basically cancel out."
+      },
+      {
+        "score": 0.5305,
+        "start": 859.94,
+        "end": 867.79,
+        "transcript": "Leaving us with dL, dH is equal to y hat minus y."
+      },
+      {
+        "score": 0.6106,
+        "start": 867.79,
+        "end": 867.79,
+        "transcript": "Where y hat is a vector made up of our three output probabilities."
+      },
+      {
+        "score": 0.508,
+        "start": 867.79,
+        "end": 873.32,
+        "transcript": "And y is a vector that equals 1 at the index of the correct answer and 0 everywhere else."
+      },
+      {
+        "score": 0.7699,
+        "start": 873.32,
+        "end": 888.83,
+        "transcript": "As an example, when we plug in our Paris GPS point and compute our model's probabilities, we get y hat 1 equals 0.91 from a grid, y hat 2 equals 0.09 for Paris, and y hat 3 rounds down to 0.00 for Berlin."
+      },
+      {
+        "score": 0.7758,
+        "start": 888.83,
+        "end": 896.87,
+        "transcript": "Since our ground truth label is Paris, this means that y1 equals 0, y2 equals 1, and y3 equals 0."
+      },
+      {
+        "score": 0.3493,
+        "start": 896.87,
+        "end": 899.34,
+        "transcript": "This is known as one hot encoding."
+      },
+      {
+        "score": 0.6381,
+        "start": 899.34,
+        "end": 908.14,
+        "transcript": "So our partial derivative dLdH1 from a grid is equal to 0.91 minus 0 equals 0.91."
+      },
+      {
+        "score": 0.7366,
+        "start": 908.14,
+        "end": 914.81,
+        "transcript": "This large positive value for dLdH1 means that if we increase H1, our loss will increase."
+      },
+      {
+        "score": 0.62,
+        "start": 914.81,
+        "end": 922.0,
+        "transcript": "The partial derivative for Paris dLdH2 is equal to 0.09 minus 1 equals minus 0.91."
+      },
+      {
+        "score": 0.7226,
+        "start": 922.0,
+        "end": 927.79,
+        "transcript": "This large negative value means that if we increase H2, our loss will go down."
+      },
+      {
+        "score": 0.7845,
+        "start": 927.79,
+        "end": 934.8,
+        "transcript": "Now, remember that H is just an intermediate output of our model that depends both on our model parameters and data."
+      },
+      {
+        "score": 0.6559,
+        "start": 934.8,
+        "end": 944.07,
+        "transcript": "We've solved for DLDH, but to get a derivative we can actually use to train our model like DLDM2, we need to complete our chain rule math."
+      },
+      {
+        "score": 0.6966,
+        "start": 944.07,
+        "end": 954.47,
+        "transcript": "Our remaining partial derivative, DH2DM2, is asking us to find the rate of change of our intermediate output H2 with respect to our model parameter M2."
+      },
+      {
+        "score": 0.5732,
+        "start": 954.47,
+        "end": 959.81,
+        "transcript": "These variables are linked by our linear equation h2 equals m2 times x plus b2."
+      },
+      {
+        "score": 0.4686,
+        "start": 959.81,
+        "end": 966.22,
+        "transcript": "We typically think of this equation as a line with a fixed slope of m2 and a y intercept of b2."
+      },
+      {
+        "score": 0.5159,
+        "start": 966.22,
+        "end": 970.45,
+        "transcript": "However, our partial derivative is asking us to think of m2 as a variable."
+      },
+      {
+        "score": 0.8766,
+        "start": 970.45,
+        "end": 978.7,
+        "transcript": "This makes sense because learning consists of changing our parameters m and b."
+      },
+      {
+        "score": 0.5774,
+        "start": 978.7,
+        "end": 978.7,
+        "transcript": "From this perspective, our input x is constant."
+      },
+      {
+        "score": 0.4949,
+        "start": 978.7,
+        "end": 980.95,
+        "transcript": "and m2 and h2 are variables."
+      },
+      {
+        "score": 0.6353,
+        "start": 980.95,
+        "end": 1002.83,
+        "transcript": "This still looks like a straight line, but now its slope is equal to our input x."
+      },
+      {
+        "score": 0.9052,
+        "start": 1002.83,
+        "end": 1002.83,
+        "transcript": "So the partial derivative of the output of our neuron, with respect to our model parameter m2, is just the slope of our line x."
+      },
+      {
+        "score": 0.9195,
+        "start": 1002.83,
+        "end": 1002.83,
+        "transcript": "Intuitively, this tells us that the impact of our model parameter m2 on our neuron's output depends on the input value x."
+      },
+      {
+        "score": 0.6438,
+        "start": 1002.83,
+        "end": 1010.32,
+        "transcript": "If the input value x to our model is small, then the value of our parameter m2 matters less in our derivative calculation."
+      },
+      {
+        "score": 0.8725,
+        "start": 1010.32,
+        "end": 1015.54,
+        "transcript": "And this neuron's parameters do not need to be updated as much as the model learns from this example."
+      },
+      {
+        "score": 0.7979,
+        "start": 1015.54,
+        "end": 1023.11,
+        "transcript": "Alternatively, if our neuron's input x is large, it has more of an impact on our final loss and needs a larger update."
+      },
+      {
+        "score": 0.7375,
+        "start": 1023.11,
+        "end": 1027.2,
+        "transcript": "This intuition will be important as we expand to deeper models."
+      },
+      {
+        "score": 0.4514,
+        "start": 1027.2,
+        "end": 1033.88,
+        "transcript": "Replacing DHDM2 with our result x, we now have a complete expression for DLDM2."
+      },
+      {
+        "score": 0.7441,
+        "start": 1033.88,
+        "end": 1044.87,
+        "transcript": "Computing DLDM2 for our Paris example, we multiply our input longitude 2.314 degrees by our model's output probability of Paris, 0.9 minus 1."
+      },
+      {
+        "score": 0.447,
+        "start": 1044.87,
+        "end": 1049.69,
+        "transcript": "Computing a final partial derivative value of minus 2.140."
+      },
+      {
+        "score": 0.8887,
+        "start": 1049.69,
+        "end": 1062.18,
+        "transcript": "So all of this back propagation mathematics is telling us that for this single Paris training point, if we increase our parameter in 2 by 1, we expect our loss to decrease by 2.140."
+      },
+      {
+        "score": 0.7294,
+        "start": 1062.18,
+        "end": 1074.38,
+        "transcript": "Partial derivative values like this are the key result of back propagation, and are the components of the gradient vector, which drives the entire learning process for virtually all modern AI models."
+      },
+      {
+        "score": 0.7552,
+        "start": 1074.38,
+        "end": 1082.62,
+        "transcript": "To compute the full gradient vector for our tiny GPS model, we have to solve for five more equations, one for each remaining parameter in our model."
+      },
+      {
+        "score": 0.5702,
+        "start": 1082.62,
+        "end": 1088.79,
+        "transcript": "This mathematics ends up being very similar to the process we already followed for solving for DLDM2."
+      },
+      {
+        "score": 0.619,
+        "start": 1088.79,
+        "end": 1095.71,
+        "transcript": "Typically, these individual equations are rolled up into equations that operate on vectors and matrices instead of individual numbers."
+      },
+      {
+        "score": 0.5013,
+        "start": 1095.71,
+        "end": 1103.8,
+        "transcript": "So we end up with a single equation to compute the partial derivatives with respect to all three M values and another single equation for all three B values."
+      },
+      {
+        "score": 0.6563,
+        "start": 1103.8,
+        "end": 1111.61,
+        "transcript": "We can now use these equations to compute the partial derivatives for all six model parameters, giving us a full gradient vector."
+      },
+      {
+        "score": 0.4663,
+        "start": 1111.61,
+        "end": 1116.1,
+        "transcript": "As we saw earlier, our DLDM2 value is large and negative."
+      },
+      {
+        "score": 0.7618,
+        "start": 1116.1,
+        "end": 1120.87,
+        "transcript": "Meaning that if we increase M2, our loss on the straightening example will decrease."
+      },
+      {
+        "score": 0.7155,
+        "start": 1120.87,
+        "end": 1126.21,
+        "transcript": "This makes sense because our model's predicted probability of the correct answer of Paris is low right now."
+      },
+      {
+        "score": 0.8443,
+        "start": 1126.21,
+        "end": 1131.16,
+        "transcript": "And increasing M2 will increase the model's probability of Paris, lowering our loss."
+      },
+      {
+        "score": 0.4365,
+        "start": 1131.16,
+        "end": 1134.7,
+        "transcript": "DLDM1 on the other hand is large and positive."
+      },
+      {
+        "score": 0.675,
+        "start": 1134.7,
+        "end": 1137.93,
+        "transcript": "This means that if we increase M1, our loss will go up."
+      },
+      {
+        "score": 0.7514,
+        "start": 1137.93,
+        "end": 1142.59,
+        "transcript": "This makes sense because our model's probability of the wrong answer Madrid is currently high."
+      },
+      {
+        "score": 0.4819,
+        "start": 1142.59,
+        "end": 1145.9,
+        "transcript": "And increasing M1 will further increase this probability."
+      },
+      {
+        "score": 0.4393,
+        "start": 1145.9,
+        "end": 1147.26,
+        "transcript": "increasing our loss."
+      },
+      {
+        "score": 0.7973,
+        "start": 1147.26,
+        "end": 1158.39,
+        "transcript": "Since positive slopes like this mean that increasing our parameter will increase our loss, to train our model to reduce our loss, we want to adjust our parameters in the opposite direction of our gradient."
+      },
+      {
+        "score": 0.6811,
+        "start": 1158.39,
+        "end": 1163.67,
+        "transcript": "We should reduce M1 to reduce loss and increase M2 to reduce loss."
+      },
+      {
+        "score": 0.7031,
+        "start": 1163.67,
+        "end": 1172.76,
+        "transcript": "Mathematically, we can do this by taking our current model parameters, subtracting a scaled version of our gradients, and replacing our parameters with the result."
+      },
+      {
+        "score": 0.9965,
+        "start": 1172.76,
+        "end": 1178.94,
+        "transcript": "This is the gradient descent process we visualize in part one, as going downhill on the model's loss landscape."
+      }
+    ],
+    "segment_count": 76
+  },
+  {
+    "name": "The This",
+    "start": 1174,
+    "original_name": "gradient descent process",
+    "score": 3.82141234228611,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.9722,
+        "start": 1178.94,
+        "end": 1183.72,
+        "transcript": "And thanks to back propagation, we now have an efficient way to compute our gradient factor."
+      },
+      {
+        "score": 0.7326,
+        "start": 1183.72,
+        "end": 1190.33,
+        "transcript": "The scaling factor controls the size of step we take on our loss landscape, and is known as the learning rate."
+      },
+      {
+        "score": 0.3059,
+        "start": 1190.33,
+        "end": 1195.11,
+        "transcript": "We generally want it to be fairly small, something like 0.0001."
+      },
+      {
+        "score": 0.7288,
+        "start": 1195.11,
+        "end": 1200.86,
+        "transcript": "This is because our gradient only gives us the slope in a very local neighborhood."
+      },
+      {
+        "score": 0.9776,
+        "start": 1200.86,
+        "end": 1207.85,
+        "transcript": "And as we saw in part one, our loss landscapes can be highly complex, with slopes that quickly shift as we update our parameters."
+      },
+      {
+        "score": 0.9489,
+        "start": 1207.85,
+        "end": 1217.28,
+        "transcript": "We also saw in part one how visualizing gradient descent is going downhill in our loss landscape is a fairly incomplete picture of how our model learns."
+      },
+      {
+        "score": 0.9835,
+        "start": 1217.28,
+        "end": 1222.73,
+        "transcript": "Let's see if we can use our computed gradients to observe the learning process more directly."
+      },
+      {
+        "score": 0.766,
+        "start": 1222.73,
+        "end": 1230.26,
+        "transcript": "We'll visualize our gradients as a bar around each connecting line in our model, where thicker bars correspond to larger gradients."
+      },
+      {
+        "score": 0.8256,
+        "start": 1230.26,
+        "end": 1234.87,
+        "transcript": "We'll use a similar approach when we visualize the gradients flowing through our full-size models later."
+      },
+      {
+        "score": 0.9387,
+        "start": 1234.87,
+        "end": 1239.15,
+        "transcript": "We'll also visualize the progress as our model learns on a map."
+      },
+      {
+        "score": 0.8926,
+        "start": 1239.15,
+        "end": 1245.34,
+        "transcript": "We'll plot our current training example as a point on the map, and visualize our model's outputs as a heat map on top of the map."
+      },
+      {
+        "score": 0.4533,
+        "start": 1245.34,
+        "end": 1252.46,
+        "transcript": "Where the probability of Madrid is shown in cyan, the probability of Paris is shown in yellow, and the probability of Berlin is green."
+      },
+      {
+        "score": 0.3534,
+        "start": 1252.46,
+        "end": 1255.84,
+        "transcript": "and brighter colors correspond to higher probabilities."
+      },
+      {
+        "score": 0.3806,
+        "start": 1255.84,
+        "end": 1258.54,
+        "transcript": "Our first training point is in Paris."
+      },
+      {
+        "score": 0.7869,
+        "start": 1258.54,
+        "end": 1266.03,
+        "transcript": "As we saw earlier, the initial model parameters we chose result in a high output probability for Madrid for this input longitude."
+      },
+      {
+        "score": 0.4669,
+        "start": 1266.03,
+        "end": 1267.97,
+        "transcript": "We can also see this on our map."
+      },
+      {
+        "score": 0.7297,
+        "start": 1267.97,
+        "end": 1272.4,
+        "transcript": "Paris is in the blue region on our map, where a model's top prediction is Madrid."
+      },
+      {
+        "score": 0.9576,
+        "start": 1272.4,
+        "end": 1276.98,
+        "transcript": "This error results in high gradients for our Paris and Madrid neurons."
+      },
+      {
+        "score": 0.7894,
+        "start": 1276.98,
+        "end": 1291.01,
+        "transcript": "Moving forward one step, these high gradients lead to a reduced value of our M1 parameter and an increase in our M2 parameter, which shifts the yellow Paris region on our map a little to the right, closer to the true location of Paris."
+      },
+      {
+        "score": 0.8984,
+        "start": 1291.01,
+        "end": 1301.01,
+        "transcript": "Our next training example is from Madrid, which our model misclassifies as being in Berlin, leading to high gradient values for both Madrid and Berlin."
+      },
+      {
+        "score": 0.4588,
+        "start": 1301.01,
+        "end": 1304.69,
+        "transcript": "Note that on our map, these regions need to completely switch sides."
+      },
+      {
+        "score": 0.8406,
+        "start": 1304.69,
+        "end": 1310.38,
+        "transcript": "Running gradient descent for about 40 steps is enough for our gradient updates to accomplish this."
+      },
+      {
+        "score": 0.4925,
+        "start": 1310.38,
+        "end": 1313.46,
+        "transcript": "Quickly classifying Madrid and Berlin."
+      },
+      {
+        "score": 0.373,
+        "start": 1313.46,
+        "end": 1317.5,
+        "transcript": "And just leaving our Paris region not actually on top of Paris."
+      },
+      {
+        "score": 0.9508,
+        "start": 1317.5,
+        "end": 1328.41,
+        "transcript": "Another 40 steps or so are enough for our gradients to slowly increase our M2 and B2 values, moving our models predicted Paris region on top of the actual city."
+      },
+      {
+        "score": 0.8632,
+        "start": 1328.41,
+        "end": 1333.6,
+        "transcript": "Note that our gradients become smaller as our model learns and makes smaller errors."
+      },
+      {
+        "score": 0.8961,
+        "start": 1333.6,
+        "end": 1338.14,
+        "transcript": "We can see a little more under the hood of our model by writing the same training process again."
+      },
+      {
+        "score": 0.9916,
+        "start": 1338.14,
+        "end": 1342.33,
+        "transcript": "But this time, I'll visualizing the little linear models learned by each neuron."
+      },
+      {
+        "score": 0.826,
+        "start": 1342.33,
+        "end": 1349.74,
+        "transcript": "Our initially chosen slips of one zero and minus one make our initial linear models go uphill, flat and downhill."
+      },
+      {
+        "score": 0.953,
+        "start": 1349.74,
+        "end": 1353.89,
+        "transcript": "As our model learns, our Madrid neuron flips to pointing downhill."
+      },
+      {
+        "score": 0.7748,
+        "start": 1353.89,
+        "end": 1357.83,
+        "transcript": "Our Paris neuron wobbles a bit and ends up going slightly uphill."
+      },
+      {
+        "score": 0.7044,
+        "start": 1357.83,
+        "end": 1361.34,
+        "transcript": "And our Berlin neuron flips from going downhill to uphill."
+      },
+      {
+        "score": 0.9287,
+        "start": 1361.34,
+        "end": 1368.73,
+        "transcript": "If we visualize all three neurons lines on the same axis, we can see how our model is learning to use these little linear models together."
+      },
+      {
+        "score": 0.9009,
+        "start": 1368.73,
+        "end": 1375.08,
+        "transcript": "For a given input longitude, the output of each neuron is equal to the height of its line on this plot."
+      },
+      {
+        "score": 0.5941,
+        "start": 1375.08,
+        "end": 1382.41,
+        "transcript": "So for the Paris example with a longitude of 2.3376 degrees, the Madrid neurons line has a height of 2.34."
+      },
+      {
+        "score": 0.6587,
+        "start": 1382.41,
+        "end": 1386.62,
+        "transcript": "This is equal to our H1 value for this input."
+      },
+      {
+        "score": 0.7451,
+        "start": 1386.62,
+        "end": 1390.78,
+        "transcript": "Our softmax function just amplifies whichever input is largest."
+      },
+      {
+        "score": 0.7887,
+        "start": 1390.78,
+        "end": 1396.85,
+        "transcript": "So whichever line is on top at a given longitude in our plot will lead to the model's highest output probability."
+      },
+      {
+        "score": 0.7046,
+        "start": 1396.85,
+        "end": 1404.51,
+        "transcript": "Running our training animation again, we see that our gradients push the Madrid line so it has the largest values over our Madrid points."
+      },
+      {
+        "score": 0.4708,
+        "start": 1404.51,
+        "end": 1411.98,
+        "transcript": "The Paris line so it has its largest value over our Paris points and our Berlin line so it has the largest value over our Berlin points."
+      },
+      {
+        "score": 0.3881,
+        "start": 1411.98,
+        "end": 1415.89,
+        "transcript": "In our full map view, these lines are equivalent to three planes."
+      },
+      {
+        "score": 0.9406,
+        "start": 1415.89,
+        "end": 1420.7,
+        "transcript": "And through back propagation, our model learns to position each plane above the correct city."
+      },
+      {
+        "score": 0.7231,
+        "start": 1420.7,
+        "end": 1432.35,
+        "transcript": "When we apply our softmax function to the outputs of our neurons, softmax squishes and curves our planes, but retains the same general structure, resulting in our final heat map."
+      },
+      {
+        "score": 0.7124,
+        "start": 1432.35,
+        "end": 1440.82,
+        "transcript": "Now what's really compelling about Brake Propagation is how it's able to scale to larger problems and ultimately massive language models."
+      },
+      {
+        "score": 0.6387,
+        "start": 1440.82,
+        "end": 1445.82,
+        "transcript": "Let's increase the complexity of our problem and see how our intuitions and mathematics hold up."
+      },
+      {
+        "score": 0.3476,
+        "start": 1445.82,
+        "end": 1450.11,
+        "transcript": "Let's begin by adding a fourth city to our training set, Barcelona."
+      },
+      {
+        "score": 0.3768,
+        "start": 1450.11,
+        "end": 1453.49,
+        "transcript": "Barcelona has a very similar longitude to Paris."
+      },
+      {
+        "score": 0.6876,
+        "start": 1453.49,
+        "end": 1459.3,
+        "transcript": "So our model now needs to take in both longitude and latitude, which we'll call x1 and x2."
+      },
+      {
+        "score": 0.9608,
+        "start": 1459.3,
+        "end": 1467.26,
+        "transcript": "We now need to expand the little linear models in our neurons to include both inputs, meaning we now have two slope values in per neuron."
+      },
+      {
+        "score": 0.8452,
+        "start": 1467.26,
+        "end": 1475.5,
+        "transcript": "Visually, instead of a line, each neuron now looks like a little plane, where our two slope values control the steepness of the plane in each direction."
+      },
+      {
+        "score": 0.8596,
+        "start": 1475.5,
+        "end": 1479.77,
+        "transcript": "Our back propagation math works out almost exactly the same."
+      },
+      {
+        "score": 0.5055,
+        "start": 1479.77,
+        "end": 1481.69,
+        "transcript": "We just have more parameters."
+      },
+      {
+        "score": 0.9226,
+        "start": 1481.69,
+        "end": 1491.81,
+        "transcript": "We now have four neurons, one for each city, now with three parameters each, with two M values that multiply each of our two inputs, and a single bias value."
+      },
+      {
+        "score": 0.7347,
+        "start": 1491.81,
+        "end": 1497.3,
+        "transcript": "This makes for 12 total parameters, so we need 12 derivatives to update our weights."
+      },
+      {
+        "score": 0.7435,
+        "start": 1497.3,
+        "end": 1506.53,
+        "transcript": "Training our new two input model, we see that it's quickly able to fit our four planes to our data, and correctly divide our map into four regions, one for each city."
+      },
+      {
+        "score": 0.5223,
+        "start": 1506.53,
+        "end": 1515.57,
+        "transcript": "Putting our planes together over our map, we can see our model has fit our planes together, so our Madrid plane is on top of all the other planes above Madrid."
+      },
+      {
+        "score": 0.3042,
+        "start": 1515.57,
+        "end": 1519.49,
+        "transcript": "Our Barcelona plane is on top above Barcelona, and so on."
+      },
+      {
+        "score": 0.6851,
+        "start": 1519.49,
+        "end": 1524.56,
+        "transcript": "Of course, simple planes like this can only learn a very limited set of patterns."
+      },
+      {
+        "score": 0.2556,
+        "start": 1524.56,
+        "end": 1534.65,
+        "transcript": "To see this issue more clearly, let's consider the most complex border in the world, between Belgium and the Netherlands, and the municipality of Barley Hurtok."
+      },
+      {
+        "score": 0.1028,
+        "start": 1534.65,
+        "end": 1538.36,
+        "transcript": "These regions of the map are part of the Netherlands, and these regions are part of Belgium."
+      },
+      {
+        "score": 0.2585,
+        "start": 1538.36,
+        "end": 1545.45,
+        "transcript": "Given a single plane for Belgium and a single plane for the Netherlands, there's no way to cleanly divide these complex regions."
+      },
+      {
+        "score": 0.6337,
+        "start": 1545.45,
+        "end": 1552.16,
+        "transcript": "Now, it might seem a bit random to spend our time training a model to fit esoteric European borders."
+      },
+      {
+        "score": 0.579,
+        "start": 1552.16,
+        "end": 1557.12,
+        "transcript": "But this type of problem has more in common with training large language models than you may expect."
+      }
+    ],
+    "segment_count": 63
+  },
+  {
+    "name": "The Minsky",
+    "start": 1557,
+    "original_name": "lava model represents individual tokens like madrid",
+    "score": 5.080009977671306,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.6762,
+        "start": 1557.12,
+        "end": 1564.72,
+        "transcript": "Our Lava model represents individual tokens like Madrid, Paris and Berlin as vectors of 2048 floating point numbers."
+      },
+      {
+        "score": 0.7985,
+        "start": 1564.72,
+        "end": 1578.14,
+        "transcript": "When we pass in some text like the capital of France is, there's a specific link to 2048 vector in our model, specifically at the final position in the residual stream that is iteratively pushed by each layer towards the vector for Paris."
+      },
+      {
+        "score": 0.523,
+        "start": 1578.14,
+        "end": 1585.69,
+        "transcript": "This gets really interesting when we consider all the different types of text that can lead to a next token of Paris, Madrid, or Berlin."
+      },
+      {
+        "score": 0.6519,
+        "start": 1585.69,
+        "end": 1607.54,
+        "transcript": "If we pass in a variety of training text examples from the WikiText data set, that all lead up to next tokens of Paris, Madrid, or Berlin, and compute the predicted next token vectors for each training example for a layer in the middle of our model, we end up with a set of length 2048 vectors, each generated by examples with next tokens of Madrid, Paris, or Berlin in our training set."
+      },
+      {
+        "score": 0.6092,
+        "start": 1607.54,
+        "end": 1616.39,
+        "transcript": "One way to think of these vectors is as the coordinates of our examples in the high dimensional map of language learned by our model."
+      },
+      {
+        "score": 0.4658,
+        "start": 1616.39,
+        "end": 1628.98,
+        "transcript": "We can get a sense of the geometry of this map by projecting down from 2048 dimensions to two using a UMAP algorithm, which seeks to preserve the distances between points in the high dimensional space."
+      },
+      {
+        "score": 0.4722,
+        "start": 1628.98,
+        "end": 1633.14,
+        "transcript": "We see some really interesting clustering in this space."
+      },
+      {
+        "score": 0.2858,
+        "start": 1633.14,
+        "end": 1643.46,
+        "transcript": "For example, this little cluster of Paris examples are all different references to the Treaty of Paris, and this little cluster are all references to George Gershwin's and American in Paris."
+      },
+      {
+        "score": 0.3358,
+        "start": 1643.46,
+        "end": 1650.16,
+        "transcript": "just as the disconnected parts of our municipality of Barley-Hertog all need to map to the same country of Belgium."
+      },
+      {
+        "score": 0.7011,
+        "start": 1650.16,
+        "end": 1660.36,
+        "transcript": "The disconnected regions in our space of language all need to map to the same next token of Paris, and it's up to our model to figure out how to partition and reshape our space to achieve this."
+      },
+      {
+        "score": 0.583,
+        "start": 1660.36,
+        "end": 1672.95,
+        "transcript": "When Marvin Minsky rejected backpropagation in the early 1970s, he dismissed the idea because it converged too slowly, and because, according to Minsky, it couldn't learn anything too difficult."
+      },
+      {
+        "score": 0.8639,
+        "start": 1672.95,
+        "end": 1676.95,
+        "transcript": "Minsky was right that learning by gradient descent can take many steps."
+      },
+      {
+        "score": 0.4034,
+        "start": 1676.95,
+        "end": 1680.56,
+        "transcript": "This mattered a lot given the compute power available at the time."
+      },
+      {
+        "score": 0.7869,
+        "start": 1680.56,
+        "end": 1688.93,
+        "transcript": "However, he enormously underestimated the ability of our simple backpropagation algorithm to scale to solve incredibly complex problems."
+      },
+      {
+        "score": 0.43,
+        "start": 1688.93,
+        "end": 1694.57,
+        "transcript": "Next time, we'll see what Minsky missed."
+      }
+    ],
+    "segment_count": 15
+  },
+  {
+    "name": "The After",
+    "start": 1694,
+    "original_name": "solve incredibly complex problems",
+    "score": 2.1508131892204285,
+    "model": "mpnet",
+    "segments": [
+      {
+        "score": 0.0964,
+        "start": 1694.57,
+        "end": 1697.45,
+        "transcript": "Back in 2019, I completely quit Welch Labs."
+      },
+      {
+        "score": 0.1,
+        "start": 1697.45,
+        "end": 1703.06,
+        "transcript": "I had just tried going full-time creating videos, but I wasn't able to earn enough money to make it work."
+      },
+      {
+        "score": 0.1746,
+        "start": 1703.06,
+        "end": 1704.6,
+        "transcript": "I got frustrated and I quit."
+      },
+      {
+        "score": 0.3948,
+        "start": 1704.6,
+        "end": 1708.03,
+        "transcript": "I went off and worked as a machine learning engineer, which was great."
+      },
+      {
+        "score": 0.2077,
+        "start": 1708.03,
+        "end": 1712.15,
+        "transcript": "But I couldn't shake the feeling that I was really supposed to be making videos."
+      },
+      {
+        "score": 0.2249,
+        "start": 1712.15,
+        "end": 1720.46,
+        "transcript": "Starting in 2022, I slowly eased back on TikTok and was able to gradually build enough momentum to take another crack at going full-time last year."
+      },
+      {
+        "score": 0.1887,
+        "start": 1720.46,
+        "end": 1726.99,
+        "transcript": "When I quit in 2019, I had some time to really think about what kept pulling me back into making videos."
+      },
+      {
+        "score": 0.3476,
+        "start": 1726.99,
+        "end": 1731.14,
+        "transcript": "And I realized that deep down it was really about education."
+      },
+      {
+        "score": 0.2171,
+        "start": 1731.14,
+        "end": 1736.28,
+        "transcript": "I loved math and science as a kid, but I really disliked the way I had to learn it in school."
+      },
+      {
+        "score": 0.2974,
+        "start": 1736.28,
+        "end": 1740.71,
+        "transcript": "After undergrad, I really found myself questioning if I even liked math at all."
+      },
+      {
+        "score": 0.324,
+        "start": 1740.71,
+        "end": 1745.47,
+        "transcript": "Only through my own work and study did I fall back into love with math and science years later."
+      },
+      {
+        "score": 0.3188,
+        "start": 1745.47,
+        "end": 1749.14,
+        "transcript": "And now I want to use watch labs to make education better."
+      },
+      {
+        "score": 0.2466,
+        "start": 1749.14,
+        "end": 1754.8,
+        "transcript": "But I've realized, from me to be able to do this, I have to first build a viable business."
+      },
+      {
+        "score": 0.0179,
+        "start": 1754.8,
+        "end": 1759.29,
+        "transcript": "If I can't support myself and my family, I can't spend the time I need to make this work."
+      },
+      {
+        "score": 0.2159,
+        "start": 1759.29,
+        "end": 1767.91,
+        "transcript": "Last year, through sponsorships, poster and book sales and support on Patreon, I was able to make about half of what I made as a machine learning engineer."
+      },
+      {
+        "score": 0.1555,
+        "start": 1767.91,
+        "end": 1772.5,
+        "transcript": "I'm not going to lie, so far this is a much harder way to earn a living."
+      },
+      {
+        "score": 0.1417,
+        "start": 1772.5,
+        "end": 1775.89,
+        "transcript": "My goal this year is to replace my full income."
+      },
+      {
+        "score": 0.3159,
+        "start": 1775.89,
+        "end": 1780.87,
+        "transcript": "This will allow me to really reach escape velocity and continue full time on Welch Labs."
+      },
+      {
+        "score": 0.0026,
+        "start": 1780.87,
+        "end": 1784.9,
+        "transcript": "Sponsorship's posters and book sales are going well this year."
+      },
+      {
+        "score": 0.2432,
+        "start": 1784.9,
+        "end": 1787.82,
+        "transcript": "But to hit my goal, I need to grow Patreon as well."
+      },
+      {
+        "score": 0.115,
+        "start": 1787.82,
+        "end": 1790.89,
+        "transcript": "Your monthly support on Patreon would mean a lot."
+      },
+      {
+        "score": 0.2769,
+        "start": 1790.89,
+        "end": 1794.6,
+        "transcript": "As a way to say thank you and today I'm launching a new reward."
+      },
+      {
+        "score": 0.1607,
+        "start": 1794.6,
+        "end": 1800.48,
+        "transcript": "Starting at the $5 per month level, I'll send you a real paper cut out used in a World Slabs video."
+      },
+      {
+        "score": 0.0,
+        "start": 1800.48,
+        "end": 1808.71,
+        "transcript": "It comes in a nice protective sleeve with the World Slabs logo on the front, and on the back it says the video it came from, the release date, and assigned by me."
+      },
+      {
+        "score": 0.0769,
+        "start": 1808.71,
+        "end": 1810.54,
+        "transcript": "These are a lot of fun."
+      },
+      {
+        "score": 0.0443,
+        "start": 1810.54,
+        "end": 1812.18,
+        "transcript": "I have them going all the way back to 2017."
+      },
+      {
+        "score": 0.2927,
+        "start": 1812.18,
+        "end": 1818.83,
+        "transcript": "At the $5 per month level, you'll receive a smaller cutout, and a larger cutout at the $10 or higher level."
+      },
+      {
+        "score": 0.0562,
+        "start": 1818.83,
+        "end": 1824.97,
+        "transcript": "Cutouts ship after your first monthly payment goes through, and you'll find a link to the Watch Labs Patreon in the description below."
+      },
+      {
+        "score": 0.1608,
+        "start": 1824.97,
+        "end": 1828.76,
+        "transcript": "Huge thank you to everyone who supported Watch Labs over the years."
+      },
+      {
+        "score": 0.1997,
+        "start": 1828.76,
+        "end": 1830.06,
+        "transcript": "Thanks for watching."
+      }
+    ],
+    "segment_count": 30
+  }
+]
