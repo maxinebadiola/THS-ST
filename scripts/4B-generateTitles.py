@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 # for RTX 4090 24GB VRAM Runpod
 
+
+#INSTALL DEPENDENCIES: via setupTitleGeneration.sh
 #FIRST go to repo file:
 # cd /root/THS-ST 
 # python scripts/generateTitles.py
 # python scripts/generateTitles.py --menu
+# python scripts/generateTitles.py --segment-menu
 # #TO REMOVE GENERATED TITLES:
 # rm -f output/llm_generated/batch/
 
@@ -585,7 +588,7 @@ Title:"""
     
     def _setup_csv_output(self, output_file: Path) -> csv.DictWriter:
         """Setup CSV file for logging results."""
-        fieldnames = ['model', 'video', 's#', 't#', 'start', 'generated_title']
+        fieldnames = ['model', 'video', 'segment', 'title_number', 'start', 'generated_title']
         
         file_exists = output_file.exists()
         
@@ -655,6 +658,68 @@ Title:"""
             time.sleep(2)
         
         print(f"\nResults saved to individual CSV files in: {output_path}")
+
+    def generate_single_segment_titles(self, input_dir: str, output_dir: str, video_name: str, segment_index: int):
+        """
+        Generate titles for a single segment of a specific video.
+        Useful for testing and debugging specific segments.
+        """
+        input_path = Path(input_dir)
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        # Load the specific transcript file
+        transcript_file = input_path / f"{video_name}_transcripts.json"
+        if not transcript_file.exists():
+            print(f"Error: Transcript file not found: {transcript_file}")
+            return
+        
+        try:
+            with open(transcript_file, 'r', encoding='utf-8') as f:
+                segments = json.load(f)
+        except Exception as e:
+            print(f"Error loading transcript file: {e}")
+            return
+        
+        if segment_index >= len(segments):
+            print(f"Error: Segment {segment_index + 1} not found (only {len(segments)} segments available)")
+            return
+        
+        segment = segments[segment_index]
+        char_count = len(segment.get('transcript', ''))
+        start_time = segment.get('start', 'N/A')
+        
+        print(f"\n{'='*60}")
+        print(f"SINGLE SEGMENT TITLE GENERATION")
+        print(f"{'='*60}")
+        print(f"Video: {video_name}")
+        print(f"Segment: {segment_index + 1} (Start: {start_time})")
+        print(f"Character count: {char_count:,}")
+        print(f"{'='*60}")
+        
+        # Create a mini transcript structure for processing
+        single_segment_data = {video_name: [segment]}
+        
+        # Process each model sequentially
+        for model_name, model_path in self.models_config.items():
+            print(f"\n{'='*60}")
+            print(f"PROCESSING MODEL: {model_name}")
+            print(f"{'='*60}")
+            
+            if model_name == "gemini-flash":
+                # Handle Gemini API separately
+                if not self.use_gemini:
+                    continue
+                
+                self._process_gemini_single_segment(single_segment_data, output_path, segment_index)
+            else:
+                # Handle local models
+                self._process_local_single_segment(model_name, model_path, single_segment_data, output_path, segment_index)
+            
+            # Small delay between models
+            time.sleep(2)
+        
+        print(f"\nResults saved to CSV file in: {output_path}")
 
     def generate_selected_titles(self, input_dir: str, output_dir: str, selected_videos: List[str]):
         """
@@ -802,6 +867,123 @@ Title:"""
             self._unload_model(tokenizer, model)
             print(f"{self.GREEN}[PASS]{self.RESET} {model_name} unloaded and memory freed")
     
+    def _process_local_single_segment(self, model_name: str, model_path: str, single_segment_data: Dict, output_path: Path, segment_index: int):
+        """Process a single segment with a local model."""
+        # Load model
+        tokenizer, model = self._load_model(model_name, model_path)
+        
+        if tokenizer is None or model is None:
+            print(f"Skipping {model_name} due to loading error")
+            return
+        
+        try:
+            video_name, segments = next(iter(single_segment_data.items()))
+            segment = segments[0]  # Only one segment
+            
+            print(f"\nProcessing single segment with [{model_name.upper()}]")
+            
+            # Setup CSV for this video
+            csv_file = output_path / f"{video_name}_segment_{segment_index + 1}_titles.csv"
+            csv_writer, csv_file_handle = self._setup_csv_output(csv_file)
+            
+            try:
+                # Check for long prompts and show warning
+                prompt = self._create_prompt(segment['transcript'])
+                if len(prompt) > 2000:
+                    print(f"{self.RED}[WARNING]{self.RESET} Very long prompt ({len(prompt)} chars) | Will require extra processing time...\n")
+                
+                # Generate 10 titles for this segment
+                for title_num in range(1, 11):
+                    # Track generation time for this title
+                    title_start_time = time.time()
+                    
+                    # Generate title with retry logic
+                    title = self._generate_title_with_retry(tokenizer, model, prompt, model_name)
+                    
+                    title_generation_time = time.time() - title_start_time
+                    
+                    # Log result (sanitize title for CSV)
+                    csv_writer.writerow({
+                        'model': model_name,
+                        'video': video_name,
+                        'segment': segment_index + 1,
+                        'title_number': title_num,
+                        'start': segment['start'],
+                        'generated_title': self._sanitize_for_csv(title)
+                    })
+                    
+                    # Print formatted message
+                    timestamp = self._get_ph_timestamp()
+                    minutes = int(title_generation_time // 60)
+                    seconds = int(title_generation_time % 60)
+                    time_str = f"({minutes:02d}:{seconds:02d})" if minutes > 0 else f"({seconds}s)"
+                    
+                    print(f"({timestamp}) [{model_name.upper()}] Title {title_num:02d}/10 {time_str} = \"{title}\"")
+                    
+                    # Small delay to prevent overheating
+                    time.sleep(0.5)
+            
+            finally:
+                csv_file_handle.close()
+        
+        finally:
+            # Always unload model to free memory
+            self._unload_model(tokenizer, model)
+            print(f"{self.GREEN}[PASS]{self.RESET} {model_name} unloaded and memory freed")
+    
+    def _process_gemini_single_segment(self, single_segment_data: Dict, output_path: Path, segment_index: int):
+        """Process a single segment with Gemini API."""
+        model_name = "gemini-flash"
+        
+        video_name, segments = next(iter(single_segment_data.items()))
+        segment = segments[0]  # Only one segment
+        
+        print(f"\nProcessing single segment with [{model_name.upper()}]")
+        
+        # Setup CSV for this video
+        csv_file = output_path / f"{video_name}_segment_{segment_index + 1}_titles.csv"
+        csv_writer, csv_file_handle = self._setup_csv_output(csv_file)
+        
+        try:
+            # Check for long prompts and show warning
+            prompt = self._create_prompt(segment['transcript'])
+            if len(prompt) > 2000:
+                print(f"{self.RED}[WARNING]{self.RESET} Very long prompt ({len(prompt)} chars) | Using extended API timeout...\n")
+            
+            # Generate 10 titles for this segment
+            for title_num in range(1, 11):
+                # Track generation time for this title
+                title_start_time = time.time()
+                
+                # Generate title with retry logic
+                title = self._generate_gemini_with_retry(prompt)
+                
+                title_generation_time = time.time() - title_start_time
+                
+                # Log result (sanitize title for CSV)
+                csv_writer.writerow({
+                    'model': model_name,
+                    'video': video_name,
+                    'segment': segment_index + 1,
+                    'title_number': title_num,
+                    'start': segment['start'],
+                    'generated_title': self._sanitize_for_csv(title)
+                })
+                
+                # Print formatted message
+                timestamp = self._get_ph_timestamp()
+                minutes = int(title_generation_time // 60)
+                seconds = int(title_generation_time % 60)
+                time_str = f"({minutes:02d}:{seconds:02d})" if minutes > 0 else f"({seconds}s)"
+                
+                print(f"({timestamp}) [{model_name.upper()}] Title {title_num:02d}/10 {time_str} = \"{title}\"")
+                
+                # Rate limiting for API
+                time.sleep(1)
+        
+        finally:
+            csv_file_handle.close()
+    
     def _process_gemini_model(self, all_transcripts: Dict, output_path: Path):
         """Process Gemini API model across all videos."""
         model_name = "gemini-flash"
@@ -879,6 +1061,133 @@ Title:"""
             
             finally:
                 csv_file_handle.close()
+
+
+def show_segment_menu(input_dir: str) -> tuple:
+    """Show interactive menu for specific video segment selection."""
+    # Get available videos
+    input_path = Path(input_dir)
+    transcript_files = list(input_path.glob("*_transcripts.json"))
+    
+    if not transcript_files:
+        print(f"No transcript files found in {input_dir}")
+        return None, None
+    
+    # Extract video names
+    videos = []
+    for file in transcript_files:
+        video_name = file.stem.replace("_transcripts", "")
+        videos.append(video_name)
+    
+    videos.sort()  # Sort alphabetically
+    
+    # Step 1: Select video
+    while True:
+        print("\n" + "="*60)
+        print("        SPECIFIC SEGMENT TITLE GENERATION MENU")
+        print("="*60)
+        print("Available videos:")
+        
+        for i, video in enumerate(videos, 1):
+            print(f"  {i:2d}. {video}")
+        
+        print("\nSelection options:")
+        print("  - Select video: Enter number (e.g., '3')")
+        print("  - Cancel: Enter 'q' or 'quit'")
+        
+        selection = input("\nEnter video selection: ").strip().lower()
+        
+        if selection in ['q', 'quit']:
+            return None, None
+        
+        try:
+            num = int(selection)
+            if 1 <= num <= len(videos):
+                selected_video = videos[num-1]
+                break
+            else:
+                print(f"Error: Invalid video number: {num}")
+                continue
+        except ValueError:
+            print("Error: Please enter a valid number")
+            continue
+    
+    # Step 2: Load segments for selected video
+    video_file = input_path / f"{selected_video}_transcripts.json"
+    try:
+        with open(video_file, 'r', encoding='utf-8') as f:
+            segments = json.load(f)
+    except Exception as e:
+        print(f"Error loading segments for {selected_video}: {e}")
+        return None, None
+    
+    # Step 3: Select segment
+    while True:
+        print(f"\n" + "="*60)
+        print(f"SEGMENTS FOR: {selected_video.upper()}")
+        print("="*60)
+        
+        for i, segment in enumerate(segments, 1):
+            char_count = len(segment.get('transcript', ''))
+            start_time = segment.get('start', 'N/A')
+            
+            # Color code based on character count
+            if char_count < 100:
+                color = '\033[91m'  # RED
+            elif char_count < 1000:
+                color = '\033[92m'  # GREEN
+            elif char_count < 5000:
+                color = '\033[33m'  # ORANGE
+            else:
+                color = '\033[91m'  # RED
+            reset = '\033[0m'
+            
+            # Show preview of transcript (first 80 chars)
+            transcript_preview = segment.get('transcript', '')[:80].replace('\n', ' ')
+            if len(segment.get('transcript', '')) > 80:
+                transcript_preview += "..."
+            
+            print(f"  {i:2d}. {color}[{char_count:,} chars]{reset} Start: {start_time}")
+            print(f"      Preview: {transcript_preview}")
+        
+        print("\nSelection options:")
+        print("  - Select segment: Enter number (e.g., '4')")
+        print("  - Back to video selection: Enter 'b' or 'back'")
+        print("  - Cancel: Enter 'q' or 'quit'")
+        
+        selection = input("\nEnter segment selection: ").strip().lower()
+        
+        if selection in ['q', 'quit']:
+            return None, None
+        
+        if selection in ['b', 'back']:
+            return show_segment_menu(input_dir)  # Restart from video selection
+        
+        try:
+            num = int(selection)
+            if 1 <= num <= len(segments):
+                selected_segment = num - 1  # Convert to 0-based index
+                
+                # Confirmation
+                segment_info = segments[selected_segment]
+                char_count = len(segment_info.get('transcript', ''))
+                start_time = segment_info.get('start', 'N/A')
+                
+                print(f"\nSelected:")
+                print(f"  Video: {selected_video}")
+                print(f"  Segment: {num} (Start: {start_time}, {char_count:,} characters)")
+                
+                confirm = input("Proceed with this selection? (y/n): ").strip().lower()
+                if confirm in ['y', 'yes']:
+                    return selected_video, selected_segment
+                else:
+                    continue  # Back to segment selection
+            else:
+                print(f"Error: Invalid segment number: {num}")
+                continue
+        except ValueError:
+            print("Error: Please enter a valid number")
+            continue
 
 
 def show_menu(input_dir: str) -> list:
@@ -991,12 +1300,30 @@ def main():
         action="store_true",
         help="Show interactive menu for video selection"
     )
+    parser.add_argument(
+        "--segment-menu",
+        action="store_true",
+        help="Show interactive menu for specific video segment selection"
+    )
     
     args = parser.parse_args()
 
     print(f"Input directory: {args.input_dir}")
     print(f"Output directory: {args.output_dir}")
     print(f"Using Gemini API: {args.gemini}")
+    
+    # Handle segment menu mode
+    if args.segment_menu:
+        video_name, segment_index = show_segment_menu(args.input_dir)
+        if video_name is None or segment_index is None:
+            print("No segment selected. Exiting.")
+            return
+        
+        # Initialize generator and process single segment
+        generator = TitleGenerator(use_gemini=args.gemini)
+        generator.generate_single_segment_titles(args.input_dir, args.output_dir, video_name, segment_index)
+        print(f"\n[PASS] Single segment title generation complete!")
+        return
     
     # Handle menu mode
     if args.menu:
