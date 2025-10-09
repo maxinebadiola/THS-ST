@@ -197,7 +197,7 @@ def generate_transcripts_for_file(chapter_file, timestamp_source, output_dir, so
         
         # Generate output filename
         chapter_filename = os.path.basename(chapter_file)
-        output_filename = chapter_filename.replace('_chapters.json', '_transcripts.json').replace('.json', '_transcripts.json')
+        output_filename = chapter_filename.replace('_chapters.json', '_transcripts.json')
         output_path = os.path.join(output_dir, output_filename)
         
         # Save the transcript data
@@ -215,7 +215,7 @@ def main():
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     chapters_dir = project_root / 'output' / 'chapters'
-    timestamps_dir = project_root / 'output' / 'timestamps'
+    timestamps_dir = project_root / 'old' / 'timestamps'
     scores_dir = project_root / 'output' / 'scores'
     output_dir = project_root / 'output' / 'raw_transcripts'
     
