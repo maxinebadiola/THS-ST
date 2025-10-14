@@ -108,6 +108,9 @@ regex
 tokenizers
 tqdm
 huggingface-hub
+hf-transfer
+protobuf
+sentencepiece>=0.1.99
 EOF
 
 print_success "Created requirements-titlegen.txt"
@@ -136,7 +139,7 @@ fi
 
 # Install additional dependencies
 print_status "Installing additional dependencies..."
-python3 -m pip install python-dotenv tqdm huggingface-hub tokenizers regex
+python3 -m pip install python-dotenv tqdm huggingface-hub tokenizers regex hf-transfer protobuf sentencepiece
 
 if [ $? -eq 0 ]; then
     print_success "Additional dependencies installed"

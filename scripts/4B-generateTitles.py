@@ -3,11 +3,19 @@
 
 
 #INSTALL DEPENDENCIES: via setupTitleGeneration.sh
+# cd /root/THS-ST-1 && ./scripts/setupTitleGeneration.sh
+
 #FIRST go to repo file:
 # cd /root/THS-ST 
-# python scripts/generateTitles.py
-# python scripts/generateTitles.py --menu
-# python scripts/generateTitles.py --segment-menu
+
+#run ALL models on ALL videos with chapter timestamps + segmented transcript
+# python scripts/4B-generateTitles.py
+
+#choose specific: models and videos to run
+# cd /root/THS-ST-1 && python scripts/4B-generateTitles.py --menu
+
+#choose specific segment to generate titles for
+# python scripts/4B-generateTitles.py --segment-menu
 # #TO REMOVE GENERATED TITLES:
 # rm -f output/llm_generated/batch/
 
@@ -17,6 +25,8 @@ import csv
 import gc
 import time
 import argparse
+import shutil
+import subprocess
 # import threading  
 # import sys
 # import select
@@ -29,7 +39,8 @@ warnings.filterwarnings('ignore')
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from dotenv import load_dotenv
-# import google.generativeai as genai  # COMMENTED OUT
+from huggingface_hub import login
+# import google.generativeai as genai  # Gemini API
 
 
 class TitleGenerator:
@@ -39,16 +50,21 @@ class TitleGenerator:
     YELLOW = '\033[93m'
     GREEN = '\033[92m'
     ORANGE = '\033[33m'
+    BLUE = '\033[94m'
     RESET = '\033[0m'
     
-    def __init__(self, use_gemini: bool = False):
+    def __init__(self, use_gemini: bool = False, selected_models: Optional[List[str]] = None):
         """
         Initialize the title generator.
         
         Args:
             use_gemini: Whether to include Gemini API model
+            selected_models: Optional list of specific models to use (None = use all)
         """
         self.use_gemini = use_gemini
+        
+        # Setup Hugging Face authentication
+        self._setup_huggingface_auth()
         
         # MANDATORY GPU CHECK - SHUTDOWN IF NO GPU
         if not torch.cuda.is_available():
@@ -66,7 +82,7 @@ class TitleGenerator:
         # Additional GPU verification
         try:
             torch.cuda.empty_cache()
-            test_tensor = torch.tensor([1.0]).cuda()
+            test_tensor = torch.tensor([1.0], dtype=torch.float32, device="cuda")
             del test_tensor
             print(f"[PASS] GPU functionality verified")
         except Exception as e:
@@ -75,21 +91,32 @@ class TitleGenerator:
             import sys
             sys.exit(1)
             
-        self.models_config = self._get_models_config()
+        # Set PyTorch memory allocation config to reduce fragmentation
+        os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
+            
+        # Get all available models
+        all_models = self._get_models_config()
+        
+        # Filter models if specific ones are selected
+        if selected_models:
+            self.models_config = {k: v for k, v in all_models.items() if k in selected_models}
+        else:
+            self.models_config = all_models
+        
         # self.paused = False  # COMMENTED OUT
         # self.should_quit = False  # COMMENTED OUT
         
         # Philippine timezone (UTC+8)
         self.ph_tz = timezone(timedelta(hours=8))
         
-        # Setup API key if using Gemini - COMMENTED OUT
-        # if self.use_gemini:
-        #     self._setup_gemini_api()
+        # Setup API key if using Gemini
+        if self.use_gemini:
+            self._setup_gemini_api()
         
         print(f"TitleGenerator initialized with device: {self.device}")
         print(f"Models to use: {list(self.models_config.keys())}")
-        # if self.use_gemini:  # COMMENTED OUT
-        #     print("Gemini API enabled")
+        if self.use_gemini:
+            print("Gemini API enabled")
     
     def _get_ph_timestamp(self) -> str:
         """Get current timestamp in Philippine timezone."""
@@ -114,39 +141,68 @@ class TitleGenerator:
     #         print(f"\n{self.RED}[WARNING]{self.RESET} Process interrupted by user!")
     #         raise KeyboardInterrupt("User requested quit")
     
+    def _setup_huggingface_auth(self):
+        """Setup Hugging Face authentication from environment or prompt user."""
+        try:
+            load_dotenv()
+            hf_token = os.getenv('HF_TOKEN') or os.getenv('HUGGINGFACE_TOKEN')
+            
+            if hf_token:
+                login(token=hf_token, add_to_git_credential=False)
+                print(f"{self.GREEN}[PASS]{self.RESET} Hugging Face authentication successful")
+            else:
+                print(f"{self.YELLOW}[INFO]{self.RESET} No HF_TOKEN found in .env file")
+                print(f"{self.YELLOW}[INFO]{self.RESET} NOTE: Llama, Gemma require huggingspace authorization")
+                print(f"{self.YELLOW}[INFO]{self.RESET} Add HF_TOKEN to .env file to access gated models")
+        except Exception as e:
+            print(f"{self.YELLOW}[WARNING]{self.RESET} Hugging Face auth setup: {e}")
+            print(f"{self.YELLOW}[INFO]{self.RESET} Continuing without authentication - some models may not be accessible")
+    
     def _get_models_config(self) -> Dict[str, str]:
         """Get configuration for local models."""
         config = {
-            "qwen2-1.5b": "Qwen/Qwen2-1.5B-Instruct", 
-            "tinyllama": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-            # "gpt2-medium": "gpt2-medium",  # DISABLED: Generates very long rambling titles
-            # "distilgpt2": "distilgpt2",    # DISABLED: Generates very short generic titles
-            # "bloom-560m": "bigscience/bloom-560m"  # DISABLED: Generates poor quality titles
+            # TOP-TIER MODELS FOR RTX 4090 24GB (run individually)
+            # Note: Llama and Gemma require HF authentication
+            "llama3.1-8b": "meta-llama/Llama-3.1-8B-Instruct",  #Meta 8B
+            "mistral-7b-v0.3": "mistralai/Mistral-7B-Instruct-v0.3",  #Mistral 7B
+            
+            #phi is difficult to run due to transformers compatibility issues
+            # "phi4-mini": "microsoft/Phi-4-mini-instruct",  #Phi4 4B
+            # "phi3.5-mini": "microsoft/Phi-3.5-mini-instruct",  #Phi3.5 3.8B 
+            
+            "gemma2-9b": "google/gemma-2-9b-it",  #Gemma 9B
+            "qwen2-7b": "Qwen/Qwen2-7B-Instruct", 
+            # "qwen2.5-14b": "Qwen/Qwen2.5-14B-Instruct",  #Qwen2.5 14B (NOTE: SLOW, requires significant disk space)
+            #SMALLER MODELS (faster, lower memory usage)
+            "tinyllama": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",  
         }
         
-        # if self.use_gemini:  # COMMENTED OUT
+        
+        # if self.use_gemini:
         #     config["gemini-flash"] = "gemini-2.0-flash-exp"
             
         return config
     
-    # def _setup_gemini_api(self):  # COMMENTED OUT
-    #     """Setup Gemini API using environment variables."""
-    #     try:
-    #         load_dotenv()
-    #         api_key = os.getenv('GEMINI_API_KEY')
-    #         if not api_key:
-    #             raise ValueError("GEMINI_API_KEY not found in environment variables")
-    #         
-    #         genai.configure(api_key=api_key)
-    #         self.gemini_model = genai.GenerativeModel('gemini-2.0-flash-exp')
-    #         print("Gemini API configured successfully")
-    #     except Exception as e:
-    #         print(f"{self.RED}[ERROR]{self.RESET} Failed to setup Gemini API: {e}")
-    #         self.use_gemini = False
+    def _setup_gemini_api(self):
+        """Setup Gemini API using environment variables."""
+        # COMMENTED OUT - Gemini API disabled
+        # try:
+        #     load_dotenv()
+        #     api_key = os.getenv('GEMINI_API_KEY')
+        #     if not api_key:
+        #         raise ValueError("GEMINI_API_KEY not found in environment variables")
+        #     
+        #     genai.configure(api_key=api_key)
+        #     self.gemini_model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        #     print(f"{self.GREEN}[PASS]{self.RESET} Gemini API configured successfully")
+        # except Exception as e:
+        #     print(f"{self.RED}[ERROR]{self.RESET} Failed to setup Gemini API: {e}")
+        #     self.use_gemini = False
+        pass
     
     def _load_model(self, model_name: str, model_path: str) -> tuple:
         """
-        Load a single model with optimized settings for RTX 4090.
+        Load a single model with optimized settings for ~24GB+ VRAM
         
         Args:
             model_name: Short name for the model
@@ -158,6 +214,12 @@ class TitleGenerator:
         print(f"\nLoading {model_name} ({model_path})...")
         
         try:
+            # Suppress specific transformers warnings for cleaner output
+            import warnings
+            warnings.filterwarnings('ignore', message='.*flash-attention.*')
+            warnings.filterwarnings('ignore', message='.*flash-attenton.*')
+            warnings.filterwarnings('ignore', message='.*window_size.*')
+            
             # Load tokenizer
             tokenizer = AutoTokenizer.from_pretrained(
                 model_path, 
@@ -168,25 +230,84 @@ class TitleGenerator:
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token
             
-            # NOTE: NOquantization, native bfloat16
-            model = AutoModelForCausalLM.from_pretrained(
-                model_path,
-                torch_dtype=torch.bfloat16,  # Native precision for RTX 4090  
-                device_map="auto",
-                trust_remote_code=True,
-                load_in_4bit=False,  # No quantization with 24GB VRAM
-                attn_implementation="flash_attention_2" if "flash" in model_path.lower() else None
-            )
+            # NOTE: No quantization, native bfloat16
+            # Use dtype for better memory efficiency and compatibility
+            dtype = torch.bfloat16
+            
+            # Prepare model loading kwargs
+            model_kwargs = {
+                "torch_dtype": dtype, 
+                "device_map": "auto",
+                "trust_remote_code": True,
+            }
+            
+            # Handle attention implementation based on model type
+            if "phi" in model_path.lower():
+                # Phi models require 'eager' attention implementation
+                model_kwargs["attn_implementation"] = "eager"
+                print(f"{self.BLUE}[INFO]{self.RESET} Using eager attention for Phi model")
+            elif "flash" in model_path.lower():
+                # Only try flash attention for models that explicitly support it
+                try:
+                    import flash_attn
+                    model_kwargs["attn_implementation"] = "flash_attention_2"
+                except ImportError:
+                    pass  # Silently skip if flash_attn not installed
+            
+            # Load model with suppressed warnings
+            with warnings.catch_warnings():
+                warnings.filterwarnings('ignore', category=UserWarning)
+                try:
+                    model = AutoModelForCausalLM.from_pretrained(
+                        model_path,
+                        **model_kwargs
+                    )
+                except Exception as import_err:
+                    # Handle compatibility issues (e.g., LossKwargs for Phi4)
+                    if "LossKwargs" in str(import_err) or "cannot import" in str(import_err):
+                        print(f"{self.YELLOW}[INFO]{self.RESET} Compatibility issue detected, trying alternative loading method...")
+                        # Try without trust_remote_code for problematic models
+                        model_kwargs_alt = model_kwargs.copy()
+                        model_kwargs_alt["trust_remote_code"] = False
+                        try:
+                            model = AutoModelForCausalLM.from_pretrained(
+                                model_path,
+                                **model_kwargs_alt
+                            )
+                        except:
+                            raise import_err  # Re-raise original error if alternative fails
+                    else:
+                        raise  # Re-raise if it's a different error
             
             model.eval()
             print(f"{self.GREEN}[PASS]{self.RESET} {model_name} loaded successfully")
+            
+            # Immediately cleanup download cache after model is loaded into memory
+            try:
+                # Clear the download cache to free up disk space
+                hub_cache = os.path.expanduser("~/.cache/huggingface/hub")
+                if os.path.exists(hub_cache):
+                    # Only delete .lock files and incomplete downloads
+                    for item in os.listdir(hub_cache):
+                        item_path = os.path.join(hub_cache, item)
+                        if item.endswith('.lock') or 'incomplete' in item:
+                            try:
+                                if os.path.isfile(item_path):
+                                    os.remove(item_path)
+                                elif os.path.isdir(item_path):
+                                    shutil.rmtree(item_path, ignore_errors=True)
+                            except:
+                                pass
+            except:
+                pass
+            
             return tokenizer, model
             
         except Exception as e:
             print(f"{self.RED}[FAIL]{self.RESET} Failed to load {model_name}: {e}")
             return None, None
     
-    def _unload_model(self, tokenizer, model):
+    def _unload_model(self, tokenizer, model, model_path: str = None):
         """Properly unload model and free GPU memory."""
         if model is not None:
             del model
@@ -198,19 +319,233 @@ class TitleGenerator:
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
             torch.cuda.synchronize()
+        
+        # Delete the specific model from HuggingFace cache to free disk space
+        if model_path:
+            self._delete_model_cache(model_path)
+    
+    def _check_disk_space(self):
+        """Check available disk space and warn if low."""
+        try:
+            import subprocess
+            # Check /workspace in RunPod (persistent storage)
+            result = subprocess.run(['df', '-h', '/workspace'], capture_output=True, text=True, timeout=5)
+            if result.returncode == 0:
+                lines = result.stdout.strip().split('\n')
+                if len(lines) > 1:
+                    # Parse the output
+                    parts = lines[1].split()
+                    if len(parts) >= 5:
+                        available = parts[3]
+                        usage_percent = parts[4].rstrip('%')
+                        
+                        print(f"{self.BLUE}[DISK /workspace]{self.RESET} Available: {available} | Used: {usage_percent}%")
+                        
+                        # Warn if usage is high
+                        try:
+                            usage_int = int(usage_percent)
+                            if usage_int > 95:
+                                print(f"{self.RED}[CRITICAL]{self.RESET} Disk usage is CRITICAL ({usage_percent}%)!")
+                                print(f"{self.RED}[WARNING]{self.RESET} Large models may fail to load!")
+                                print(f"{self.YELLOW}[INFO]{self.RESET} Running aggressive cleanup...")
+                                self._clear_huggingface_cache()
+                            elif usage_int > 90:
+                                print(f"{self.YELLOW}[WARNING]{self.RESET} Disk usage is very high ({usage_percent}%)!")
+                                print(f"{self.YELLOW}[INFO]{self.RESET} Running aggressive cleanup...")
+                                self._clear_huggingface_cache()
+                            elif usage_int > 80:
+                                print(f"{self.YELLOW}[NOTICE]{self.RESET} Disk usage is high ({usage_percent}%)")
+                        except:
+                            pass
+            else:
+                # Fallback to checking root if /workspace doesn't exist
+                result = subprocess.run(['df', '-h', '/'], capture_output=True, text=True, timeout=5)
+                if result.returncode == 0:
+                    lines = result.stdout.strip().split('\n')
+                    if len(lines) > 1:
+                        parts = lines[1].split()
+                        if len(parts) >= 5:
+                            available = parts[3]
+                            usage_percent = parts[4].rstrip('%')
+                            print(f"{self.BLUE}[DISK /]{self.RESET} Available: {available} | Used: {usage_percent}%")
+        except Exception as e:
+            print(f"{self.YELLOW}[INFO]{self.RESET} Could not check disk space: {e}")
+    
+    def _delete_model_cache(self, model_path: str):
+        """Delete specific model from HuggingFace cache to free disk space."""
+        try:
+            # Convert model path to cache directory name
+            # e.g., "meta-llama/Llama-3.1-8B-Instruct" -> "models--meta-llama--Llama-3.1-8B-Instruct"
+            cache_dir_name = "models--" + model_path.replace("/", "--")
+            
+            # HuggingFace cache locations
+            cache_locations = [
+                os.path.expanduser("~/.cache/huggingface/hub"),
+                "/workspace/.cache/huggingface/hub"
+            ]
+            
+            deleted = False
+            for base_cache in cache_locations:
+                model_cache_path = os.path.join(base_cache, cache_dir_name)
+                
+                if os.path.exists(model_cache_path):
+                    try:
+                        # Get size before deletion
+                        cache_size = 0
+                        try:
+                            cache_size = sum(
+                                os.path.getsize(os.path.join(dirpath, filename))
+                                for dirpath, dirnames, filenames in os.walk(model_cache_path)
+                                for filename in filenames
+                            ) / (1024**3)  # Convert to GB
+                        except Exception as size_err:
+                            print(f"{self.YELLOW}[WARNING]{self.RESET} Could not calculate cache size: {size_err}")
+                        
+                        # Try multiple deletion methods
+                        delete_success = False
+                        
+                        # Method 1: shutil.rmtree
+                        try:
+                            shutil.rmtree(model_cache_path, ignore_errors=False)
+                            delete_success = True
+                        except PermissionError:
+                            # Method 2: Use subprocess rm -rf
+                            try:
+                                result = subprocess.run(
+                                    ["rm", "-rf", model_cache_path],
+                                    capture_output=True,
+                                    text=True,
+                                    timeout=60
+                                )
+                                if result.returncode == 0:
+                                    delete_success = True
+                                else:
+                                    print(f"{self.YELLOW}[WARNING]{self.RESET} rm command failed: {result.stderr}")
+                            except Exception as rm_err:
+                                print(f"{self.YELLOW}[WARNING]{self.RESET} Could not delete with rm: {rm_err}")
+                        except Exception as rmtree_err:
+                            print(f"{self.YELLOW}[WARNING]{self.RESET} Could not delete with shutil: {rmtree_err}")
+                        
+                        if delete_success:
+                            if cache_size > 0.01:
+                                print(f"{self.GREEN}[CLEANUP]{self.RESET} Deleted {model_path} cache: {cache_size:.2f}GB freed")
+                            else:
+                                print(f"{self.GREEN}[CLEANUP]{self.RESET} Deleted {model_path} cache")
+                            deleted = True
+                        else:
+                            print(f"{self.YELLOW}[WARNING]{self.RESET} Could not delete {model_path} cache from {base_cache}")
+                    except Exception as e:
+                        print(f"{self.YELLOW}[WARNING]{self.RESET} Could not delete {model_path} cache: {e}")
+            
+            if not deleted:
+                print(f"{self.BLUE}[INFO]{self.RESET} No cache found for {model_path}")
+                
+        except Exception as e:
+            print(f"{self.YELLOW}[WARNING]{self.RESET} Model cache cleanup failed: {e}")
+
+    
+    def _clear_huggingface_cache(self):
+        """Clear Hugging Face cache to free disk space."""
+        try:
+            # Multiple cache locations to check (including RunPod's /workspace)
+            cache_locations = [
+                os.path.expanduser("~/.cache/huggingface"),
+                os.path.expanduser("~/.cache/torch"),
+                "/workspace/.cache/huggingface",  # RunPod persistent storage
+                "/workspace/.cache/torch",        # RunPod persistent storage
+                "/tmp/torch_extensions",
+                "/tmp/huggingface",
+                os.path.join(os.getcwd(), ".cache"),
+            ]
+            
+            total_freed = 0.0
+            print(f"\n{self.YELLOW}[CLEANUP]{self.RESET} Clearing caches to free disk space...")
+            
+            for cache_dir in cache_locations:
+                if os.path.exists(cache_dir):
+                    try:
+                        # Get size before cleanup
+                        print(f"  {self.BLUE}[INFO]{self.RESET} Scanning {cache_dir}...")
+                        cache_size = 0
+                        try:
+                            cache_size = sum(
+                                os.path.getsize(os.path.join(dirpath, filename))
+                                for dirpath, dirnames, filenames in os.walk(cache_dir)
+                                for filename in filenames
+                            ) / (1024**3)  # Convert to GB
+                        except Exception as size_err:
+                            print(f"  {self.YELLOW}!{self.RESET} Could not calculate size for {cache_dir}: {size_err}")
+                        
+                        # Try multiple methods to clear the cache
+                        deleted = False
+                        
+                        # Method 1: Use shutil.rmtree without ignore_errors to see actual errors
+                        try:
+                            shutil.rmtree(cache_dir, ignore_errors=False)
+                            os.makedirs(cache_dir, exist_ok=True)
+                            deleted = True
+                        except PermissionError as perm_err:
+                            print(f"  {self.YELLOW}!{self.RESET} Permission denied for {cache_dir}, trying with sudo...")
+                            # Method 2: Try with subprocess and rm -rf (more aggressive)
+                            try:
+                                result = subprocess.run(
+                                    ["rm", "-rf", cache_dir],
+                                    capture_output=True,
+                                    text=True,
+                                    timeout=60
+                                )
+                                if result.returncode == 0:
+                                    os.makedirs(cache_dir, exist_ok=True)
+                                    deleted = True
+                                else:
+                                    print(f"  {self.YELLOW}!{self.RESET} rm command failed: {result.stderr}")
+                            except Exception as rm_err:
+                                print(f"  {self.YELLOW}!{self.RESET} rm command error: {rm_err}")
+                        except Exception as rmtree_err:
+                            print(f"  {self.YELLOW}!{self.RESET} shutil.rmtree failed: {rmtree_err}")
+                        
+                        if deleted:
+                            total_freed += cache_size
+                            if cache_size > 0.01:  # Only report if significant
+                                print(f"  {self.GREEN}✓{self.RESET} Cleared {os.path.basename(cache_dir)}: {cache_size:.2f}GB")
+                            else:
+                                print(f"  {self.GREEN}✓{self.RESET} Cleared {os.path.basename(cache_dir)}")
+                        else:
+                            print(f"  {self.RED}✗{self.RESET} Failed to clear {os.path.basename(cache_dir)}")
+                    except Exception as e:
+                        print(f"  {self.YELLOW}!{self.RESET} Could not clear {cache_dir}: {e}")
+                else:
+                    print(f"  {self.BLUE}[SKIP]{self.RESET} {cache_dir} does not exist")
+            
+            # Also clear pip cache
+            try:
+                print(f"  {self.BLUE}[INFO]{self.RESET} Clearing pip cache...")
+                result = subprocess.run(["pip", "cache", "purge"], capture_output=True, text=True, timeout=30)
+                if result.returncode == 0:
+                    print(f"  {self.GREEN}✓{self.RESET} Cleared pip cache")
+                else:
+                    print(f"  {self.YELLOW}!{self.RESET} Pip cache purge failed: {result.stderr}")
+            except Exception as pip_err:
+                print(f"  {self.YELLOW}!{self.RESET} Could not clear pip cache: {pip_err}")
+            
+            print(f"{self.GREEN}[PASS]{self.RESET} Total freed: {total_freed:.2f}GB")
+                
+        except Exception as e:
+            print(f"{self.YELLOW}[WARNING]{self.RESET} Cache cleanup failed: {e}")
+            print(f"{self.YELLOW}[INFO]{self.RESET} Continuing anyway...")
     
     def _create_prompt(self, transcript: str) -> str:
         cleaned_transcript = transcript.strip()
         
-        prompt = f"""Create an engaging chapter title for this transcript. Be descriptive and creative.
+        prompt = f"""Create a brief, engaging chapter title for this transcript. Be descriptive, creative, and concise.
 
 Transcript: {cleaned_transcript}
 
 REQUIREMENTS:
-- Complete sentence or phrase only
 - NO cut-off or incomplete words
 - Summarize the core topic precisely
 - Use clear, engaging language
+- Keep it brief and concise (1-8 words)
 - End with proper completion
 - Output ONLY the title, nothing else
 
@@ -410,27 +745,29 @@ Title:"""
     
     def _generate_gemini_with_retry(self, prompt: str, max_retries: int = 10) -> str:
         """Generate title with Gemini API with retry logic for failures."""
-        for attempt in range(max_retries):
-            title = self._generate_with_gemini(prompt)
-            
-            # Check if title generation failed
-            if (title.startswith("Generated Title") or 
-                title.startswith("Error Title") or 
-                len(title.strip()) < 3 or
-                title.strip().lower() in ["sand", "generated", "title"]):
-                
-                if attempt == max_retries - 1:  # Last attempt
-                    return "FAILURE"
-                # Add extra wait time for long prompts - VERY generous for API
-                if len(prompt) > 4000:
-                    time.sleep(6)  # Very generous time for API with very long prompts
-                elif len(prompt) > 2000:
-                    time.sleep(4)  # Generous time for API with long prompts
-                continue  # Retry
-            else:
-                return title  # Success
-        
-        return "FAILURE"
+        # COMMENTED OUT - Gemini API disabled
+        # for attempt in range(max_retries):
+        #     title = self._generate_with_gemini(prompt)
+        #     
+        #     # Check if title generation failed
+        #     if (title.startswith("Generated Title") or 
+        #         title.startswith("Error Title") or 
+        #         len(title.strip()) < 3 or
+        #         title.strip().lower() in ["sand", "generated", "title"]):
+        #         
+        #         if attempt == max_retries - 1:  # Last attempt
+        #             return "FAILURE"
+        #         # Add extra wait time for long prompts - VERY generous for API
+        #         if len(prompt) > 4000:
+        #             time.sleep(6)  # Very generous time for API with very long prompts
+        #         elif len(prompt) > 2000:
+        #             time.sleep(4)  # Generous time for API with long prompts
+        #         continue  # Retry
+        #     else:
+        #         return title  # Success
+        # 
+        # return "FAILURE"
+        return "FAILURE"  # Gemini disabled
     
     def _generate_with_gemini(self, prompt: str) -> str:
         """
@@ -442,25 +779,27 @@ Title:"""
         Returns:
             Generated title string
         """
-        try:
-            # TODO: Solution for lengthy titles - consider implementing title length validation and truncation
-            response = self.gemini_model.generate_content(
-                prompt,
-                generation_config=genai.types.GenerationConfig(
-                    temperature=0.4,  # Lower for more focused output
-                    max_output_tokens=100,  # Increased from 20 to allow more creative titles
-                    top_p=0.8  # More focused sampling
-                )
-            )
-            
-            title = response.text.strip()
-            title = self._clean_title(title)
-            
-            return title if title else "Generated Title (Gemini)"
-            
-        except Exception as e:
-            print(f"  Error generating with Gemini: {e}")
-            return "Error Title (Gemini)"
+        # COMMENTED OUT - Gemini API disabled
+        # try:
+        #     # TODO: Solution for lengthy titles - consider implementing title length validation and truncation
+        #     response = self.gemini_model.generate_content(
+        #         prompt,
+        #         generation_config=genai.types.GenerationConfig(
+        #             temperature=0.4,  # Lower for more focused output
+        #             max_output_tokens=100,  # Increased from 20 to allow more creative titles
+        #             top_p=0.8  # More focused sampling
+        #         )
+        #     )
+        #     
+        #     title = response.text.strip()
+        #     title = self._clean_title(title)
+        #     
+        #     return title if title else "Generated Title (Gemini)"
+        #     
+        # except Exception as e:
+        #     print(f"  Error generating with Gemini: {e}")
+        #     return "Error Title (Gemini)"
+        return "Error Title (Gemini)"  # Gemini disabled
     
     def _sanitize_for_csv(self, text: str) -> str:
         """Sanitize text for safe CSV output."""
@@ -587,18 +926,43 @@ Title:"""
         return transcripts
     
     def _setup_csv_output(self, output_file: Path) -> csv.DictWriter:
-        """Setup CSV file for logging results."""
+        """Setup CSV file for logging results - creates header if needed."""
         fieldnames = ['model', 'video', 'segment', 'title_number', 'start', 'generated_title']
         
         file_exists = output_file.exists()
         
-        f = open(output_file, 'a', newline='', encoding='utf-8')
-        writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
-        
         if not file_exists:
-            writer.writeheader()
+            # Create file with header
+            with open(output_file, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+                writer.writeheader()
         
-        return writer, f
+        return fieldnames
+    
+    def _append_to_csv(self, output_file: Path, fieldnames: List[str], row_data: Dict):
+        """Append a single row to CSV file immediately."""
+        with open(output_file, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+            writer.writerow(row_data)
+
+    def _create_all_csv_files(self, output_path: Path, video_names: List[str]):
+        """Create empty CSV files with headers for all videos upfront."""
+        fieldnames = ['model', 'video', 'segment', 'title_number', 'start', 'generated_title']
+        
+        print(f"\n{self.BLUE}[SETUP]{self.RESET} Creating CSV files for {len(video_names)} video(s)...")
+        for video_name in video_names:
+            csv_file = output_path / f"{video_name}_batch_titles.csv"
+            
+            # Only create if it doesn't exist
+            if not csv_file.exists():
+                with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+                    writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+                    writer.writeheader()
+                print(f"  {self.GREEN}✓{self.RESET} Created: {video_name}_batch_titles.csv")
+            else:
+                print(f"  {self.YELLOW}◦{self.RESET} Exists: {video_name}_batch_titles.csv")
+        print(f"{self.BLUE}[SETUP]{self.RESET} CSV files ready\n")
+
     
     def _is_already_processed(self, csv_file: Path, model: str, video: str, segment: int, title_number: int = 1) -> bool:
         """Check if a model-video-segment-title combination has already been processed."""
@@ -636,7 +1000,8 @@ Title:"""
             print("No transcript files found!")
             return
         
-        # We'll create separate CSV files for each video
+        # Create all CSV files upfront with headers
+        self._create_all_csv_files(output_path, list(all_transcripts.keys()))
         
         # Process each model sequentially (one at a time for memory management)
         for model_name, model_path in self.models_config.items():
@@ -697,6 +1062,17 @@ Title:"""
         print(f"Character count: {char_count:,}")
         print(f"{'='*60}")
         
+        # Create CSV file upfront with header
+        csv_file = output_path / f"{video_name}_segment_{segment_index + 1}_titles.csv"
+        if not csv_file.exists():
+            fieldnames = ['model', 'video', 'segment', 'title_number', 'start', 'generated_title']
+            with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+                writer.writeheader()
+            print(f"\n{self.BLUE}[SETUP]{self.RESET} Created CSV file: {csv_file.name}")
+        else:
+            print(f"\n{self.YELLOW}[SETUP]{self.RESET} Using existing CSV file: {csv_file.name}")
+        
         # Create a mini transcript structure for processing
         single_segment_data = {video_name: [segment]}
         
@@ -745,13 +1121,16 @@ Title:"""
                 filtered_transcripts[video_name] = all_transcripts[video_name]
                 print(f"✓ Selected: {video_name}")
             else:
-                print(f"⚠️  Warning: Video '{video_name}' not found in transcript files")
+                print(f"[WARNING]: Video '{video_name}' not found in transcript files")
         
         if not filtered_transcripts:
             print("No valid videos selected!")
             return
         
         print(f"\nProcessing {len(filtered_transcripts)} selected video(s)...")
+        
+        # Create all CSV files upfront with headers
+        self._create_all_csv_files(output_path, list(filtered_transcripts.keys()))
         
         # Process each model sequentially (one at a time for memory management)
         for model_name, model_path in self.models_config.items():
@@ -776,6 +1155,28 @@ Title:"""
     
     def _process_local_model(self, model_name: str, model_path: str, all_transcripts: Dict, output_path: Path):
         """Process a single local model across all videos."""
+        # Check disk space before starting
+        self._check_disk_space()
+        
+        # Clear cache BEFORE loading model to maximize available disk space
+        # More aggressive cleanup for large models (Qwen 14B, etc.)
+        if "14b" in model_name.lower() or "qwen" in model_name.lower():
+            print(f"{self.YELLOW}[INFO]{self.RESET} Large model detected - performing aggressive cache cleanup...")
+            self._clear_huggingface_cache()
+            # Additional cleanup for large models
+            import subprocess
+            try:
+                # Clean tmp directory properly (no shell=True to avoid glob issues)
+                subprocess.run(["find", "/tmp", "-type", "f", "-delete"], timeout=10, stderr=subprocess.DEVNULL)
+                subprocess.run(["find", "/tmp", "-type", "d", "-empty", "-delete"], timeout=10, stderr=subprocess.DEVNULL)
+            except:
+                pass
+        else:
+            self._clear_huggingface_cache()
+        
+        # Check disk space again after cleanup
+        self._check_disk_space()
+        
         # Load model
         tokenizer, model = self._load_model(model_name, model_path)
         
@@ -787,16 +1188,22 @@ Title:"""
             # Process all videos with this model
             video_list = list(all_transcripts.items())
             for video_idx, (video_name, segments) in enumerate(video_list, 1):
+                video_start_time = time.time()
+                video_start_timestamp = self._get_ph_timestamp()
+                
                 print(f"\n{'*'*50}")
                 print(f"({video_idx}/{len(video_list)}) Processing [{video_name.upper()}] with [{model_name.upper()}]")
                 print(f"{'*'*50}")
                 
                 # Setup CSV for this video
                 csv_file = output_path / f"{video_name}_batch_titles.csv"
-                csv_writer, csv_file_handle = self._setup_csv_output(csv_file)
+                fieldnames = self._setup_csv_output(csv_file)
                 
                 try:
                     for i, segment in enumerate(segments):
+                        segment_start_time = time.time()
+                        segment_start_timestamp = self._get_ph_timestamp()
+                        
                         print(f"\n=====================================")
                         print(f"Processing Segment {i+1:02d}/{len(segments):02d} [{video_name.upper()}]")
                         print(f"=====================================")
@@ -836,7 +1243,7 @@ Title:"""
                                 segment_timeout_warning_shown = True
                             
                             # Log result (sanitize title for CSV)
-                            csv_writer.writerow({
+                            self._append_to_csv(csv_file, fieldnames, {
                                 'model': model_name,
                                 'video': video_name,
                                 'segment': i + 1,
@@ -844,6 +1251,9 @@ Title:"""
                                 'start': segment['start'],
                                 'generated_title': self._sanitize_for_csv(title)
                             })
+                            
+                            # Clear GPU cache after each title generation
+                            torch.cuda.empty_cache()
                             
                             # Print formatted message with dynamic total
                             timestamp = self._get_ph_timestamp()
@@ -858,17 +1268,73 @@ Title:"""
                             
                             # Small delay to prevent overheating
                             time.sleep(0.5)
+                        
+                        # Clear GPU cache after processing all titles for this segment
+                        torch.cuda.empty_cache()
+                        
+                        # Print segment completion timing
+                        segment_end_time = time.time()
+                        segment_end_timestamp = self._get_ph_timestamp()
+                        segment_elapsed = segment_end_time - segment_start_time
+                        segment_minutes = int(segment_elapsed // 60)
+                        segment_seconds = int(segment_elapsed % 60)
+                        
+                        print(f"\n{self.BLUE}[SEGMENT COMPLETE]{self.RESET}")
+                        print(f"{self.BLUE}├─ Video: {video_name}{self.RESET}")
+                        print(f"{self.BLUE}├─ Segment: {i+1}/{len(segments)}{self.RESET}")
+                        print(f"{self.BLUE}├─ Start Time: {segment_start_timestamp}{self.RESET}")
+                        print(f"{self.BLUE}├─ End Time: {segment_end_timestamp}{self.RESET}")
+                        print(f"{self.BLUE}└─ Elapsed: {segment_minutes:02d}:{segment_seconds:02d}{self.RESET}\n")
                 
-                finally:
-                    csv_file_handle.close()
+                except Exception as segment_error:
+                    print(f"{self.RED}[ERROR]{self.RESET} Error processing segments: {segment_error}")
+                
+            # Print video completion timing (moved outside try-except block)
+            video_end_time = time.time()
+            video_end_timestamp = self._get_ph_timestamp()
+            video_elapsed = video_end_time - video_start_time
+            video_minutes = int(video_elapsed // 60)
+            video_seconds = int(video_elapsed % 60)
+            
+            print(f"\n{self.BLUE}{'='*60}{self.RESET}")
+            print(f"{self.BLUE}[VIDEO COMPLETE]{self.RESET}")
+            print(f"{self.BLUE}├─ Video: {video_name}{self.RESET}")
+            print(f"{self.BLUE}├─ Model: {model_name}{self.RESET}")
+            print(f"{self.BLUE}├─ Total Segments: {len(segments)}{self.RESET}")
+            print(f"{self.BLUE}├─ Start Time: {video_start_timestamp}{self.RESET}")
+            print(f"{self.BLUE}├─ End Time: {video_end_timestamp}{self.RESET}")
+            print(f"{self.BLUE}└─ Total Elapsed: {video_minutes:02d}:{video_seconds:02d}{self.RESET}")
+            print(f"{self.BLUE}{'='*60}{self.RESET}\n")
         
         finally:
-            # Always unload model to free memory
-            self._unload_model(tokenizer, model)
+            # Always unload model to free memory and delete its cache
+            self._unload_model(tokenizer, model, model_path)
             print(f"{self.GREEN}[PASS]{self.RESET} {model_name} unloaded and memory freed")
     
     def _process_local_single_segment(self, model_name: str, model_path: str, single_segment_data: Dict, output_path: Path, segment_index: int):
         """Process a single segment with a local model."""
+        # Check disk space before starting
+        self._check_disk_space()
+        
+        # Clear cache BEFORE loading model to maximize available disk space
+        # More aggressive cleanup for large models (Qwen 14B, etc.)
+        if "14b" in model_name.lower() or "qwen" in model_name.lower():
+            print(f"{self.YELLOW}[INFO]{self.RESET} Large model detected - performing aggressive cache cleanup...")
+            self._clear_huggingface_cache()
+            # Additional cleanup for large models
+            import subprocess
+            try:
+                # Clean tmp directory properly (no shell=True to avoid glob issues)
+                subprocess.run(["find", "/tmp", "-type", "f", "-delete"], timeout=10, stderr=subprocess.DEVNULL)
+                subprocess.run(["find", "/tmp", "-type", "d", "-empty", "-delete"], timeout=10, stderr=subprocess.DEVNULL)
+            except:
+                pass
+        else:
+            self._clear_huggingface_cache()
+        
+        # Check disk space again after cleanup
+        self._check_disk_space()
+        
         # Load model
         tokenizer, model = self._load_model(model_name, model_path)
         
@@ -882,9 +1348,13 @@ Title:"""
             
             print(f"\nProcessing single segment with [{model_name.upper()}]")
             
+            # Track segment start time
+            segment_start_time = time.time()
+            segment_start_timestamp = self._get_ph_timestamp()
+            
             # Setup CSV for this video
             csv_file = output_path / f"{video_name}_segment_{segment_index + 1}_titles.csv"
-            csv_writer, csv_file_handle = self._setup_csv_output(csv_file)
+            fieldnames = self._setup_csv_output(csv_file)
             
             try:
                 # Check for long prompts and show warning
@@ -903,7 +1373,7 @@ Title:"""
                     title_generation_time = time.time() - title_start_time
                     
                     # Log result (sanitize title for CSV)
-                    csv_writer.writerow({
+                    self._append_to_csv(csv_file, fieldnames, {
                         'model': model_name,
                         'video': video_name,
                         'segment': segment_index + 1,
@@ -923,13 +1393,29 @@ Title:"""
                     # Small delay to prevent overheating
                     time.sleep(0.5)
             
-            finally:
-                csv_file_handle.close()
+            except Exception as segment_error:
+                print(f"{self.RED}[ERROR]{self.RESET} Error processing segment: {segment_error}")
         
         finally:
-            # Always unload model to free memory
-            self._unload_model(tokenizer, model)
+            # Always unload model to free memory and delete its cache
+            self._unload_model(tokenizer, model, model_path)
             print(f"{self.GREEN}[PASS]{self.RESET} {model_name} unloaded and memory freed")
+        
+        # Print segment completion timing (moved outside try-except-finally block)
+        segment_end_time = time.time()
+        segment_end_timestamp = self._get_ph_timestamp()
+        segment_elapsed = segment_end_time - segment_start_time
+        segment_minutes = int(segment_elapsed // 60)
+        segment_seconds = int(segment_elapsed % 60)
+        
+        print(f"\n{self.BLUE}[SEGMENT COMPLETE]{self.RESET}")
+        print(f"{self.BLUE}├─ Video: {video_name}{self.RESET}")
+        print(f"{self.BLUE}├─ Segment: {segment_index + 1}{self.RESET}")
+        print(f"{self.BLUE}├─ Model: {model_name}{self.RESET}")
+        print(f"{self.BLUE}├─ Titles Generated: 10{self.RESET}")
+        print(f"{self.BLUE}├─ Start Time: {segment_start_timestamp}{self.RESET}")
+        print(f"{self.BLUE}├─ End Time: {segment_end_timestamp}{self.RESET}")
+        print(f"{self.BLUE}└─ Elapsed: {segment_minutes:02d}:{segment_seconds:02d}{self.RESET}\n")
     
     def _process_gemini_single_segment(self, single_segment_data: Dict, output_path: Path, segment_index: int):
         """Process a single segment with Gemini API."""
@@ -940,9 +1426,13 @@ Title:"""
         
         print(f"\nProcessing single segment with [{model_name.upper()}]")
         
+        # Track segment start time
+        segment_start_time = time.time()
+        segment_start_timestamp = self._get_ph_timestamp()
+        
         # Setup CSV for this video
         csv_file = output_path / f"{video_name}_segment_{segment_index + 1}_titles.csv"
-        csv_writer, csv_file_handle = self._setup_csv_output(csv_file)
+        fieldnames = self._setup_csv_output(csv_file)
         
         try:
             # Check for long prompts and show warning
@@ -961,7 +1451,7 @@ Title:"""
                 title_generation_time = time.time() - title_start_time
                 
                 # Log result (sanitize title for CSV)
-                csv_writer.writerow({
+                self._append_to_csv(csv_file, fieldnames, {
                     'model': model_name,
                     'video': video_name,
                     'segment': segment_index + 1,
@@ -981,8 +1471,24 @@ Title:"""
                 # Rate limiting for API
                 time.sleep(1)
         
-        finally:
-            csv_file_handle.close()
+        except Exception as segment_error:
+            print(f"{self.RED}[ERROR]{self.RESET} Error processing segment: {segment_error}")
+        
+        # Print segment completion timing (moved outside try-except block)
+        segment_end_time = time.time()
+        segment_end_timestamp = self._get_ph_timestamp()
+        segment_elapsed = segment_end_time - segment_start_time
+        segment_minutes = int(segment_elapsed // 60)
+        segment_seconds = int(segment_elapsed % 60)
+        
+        print(f"\n{self.BLUE}[SEGMENT COMPLETE]{self.RESET}")
+        print(f"{self.BLUE}├─ Video: {video_name}{self.RESET}")
+        print(f"{self.BLUE}├─ Segment: {segment_index + 1}{self.RESET}")
+        print(f"{self.BLUE}├─ Model: {model_name}{self.RESET}")
+        print(f"{self.BLUE}├─ Titles Generated: 10{self.RESET}")
+        print(f"{self.BLUE}├─ Start Time: {segment_start_timestamp}{self.RESET}")
+        print(f"{self.BLUE}├─ End Time: {segment_end_timestamp}{self.RESET}")
+        print(f"{self.BLUE}└─ Elapsed: {segment_minutes:02d}:{segment_seconds:02d}{self.RESET}\n")
     
     def _process_gemini_model(self, all_transcripts: Dict, output_path: Path):
         """Process Gemini API model across all videos."""
@@ -990,16 +1496,22 @@ Title:"""
         
         video_list = list(all_transcripts.items())
         for video_idx, (video_name, segments) in enumerate(video_list, 1):
+            video_start_time = time.time()
+            video_start_timestamp = self._get_ph_timestamp()
+            
             print(f"\n{'*'*50}")
             print(f"({video_idx}/{len(video_list)}) Processing [{video_name.upper()}] with [{model_name.upper()}]")
             print(f"{'*'*50}")
             
             # Setup CSV for this video
             csv_file = output_path / f"{video_name}_batch_titles.csv"
-            csv_writer, csv_file_handle = self._setup_csv_output(csv_file)
+            fieldnames = self._setup_csv_output(csv_file)
             
             try:
                 for i, segment in enumerate(segments):
+                    segment_start_time = time.time()
+                    segment_start_timestamp = self._get_ph_timestamp()
+                    
                     print(f"\n=====================================")
                     print(f"Processing Segment {i+1:02d}/{len(segments):02d} [{video_name.upper()}]")
                     print(f"=====================================")
@@ -1036,7 +1548,7 @@ Title:"""
                             segment_timeout_warning_shown = True
                         
                         # Log result (sanitize title for CSV)
-                        csv_writer.writerow({
+                        self._append_to_csv(csv_file, fieldnames, {
                             'model': model_name,
                             'video': video_name,
                             'segment': i + 1,
@@ -1058,9 +1570,40 @@ Title:"""
                         
                         # Rate limiting for API
                         time.sleep(1)
+                    
+                    # Print segment completion timing
+                    segment_end_time = time.time()
+                    segment_end_timestamp = self._get_ph_timestamp()
+                    segment_elapsed = segment_end_time - segment_start_time
+                    segment_minutes = int(segment_elapsed // 60)
+                    segment_seconds = int(segment_elapsed % 60)
+                    
+                    print(f"\n{self.BLUE}[SEGMENT COMPLETE]{self.RESET}")
+                    print(f"{self.BLUE}├─ Video: {video_name}{self.RESET}")
+                    print(f"{self.BLUE}├─ Segment: {i+1}/{len(segments)}{self.RESET}")
+                    print(f"{self.BLUE}├─ Start Time: {segment_start_timestamp}{self.RESET}")
+                    print(f"{self.BLUE}├─ End Time: {segment_end_timestamp}{self.RESET}")
+                    print(f"{self.BLUE}└─ Elapsed: {segment_minutes:02d}:{segment_seconds:02d}{self.RESET}\n")
             
-            finally:
-                csv_file_handle.close()
+            except Exception as segment_error:
+                print(f"{self.RED}[ERROR]{self.RESET} Error processing segments: {segment_error}")
+                
+            # Print video completion timing
+            video_end_time = time.time()
+            video_end_timestamp = self._get_ph_timestamp()
+            video_elapsed = video_end_time - video_start_time
+            video_minutes = int(video_elapsed // 60)
+            video_seconds = int(video_elapsed % 60)
+            
+            print(f"\n{self.BLUE}{'='*60}{self.RESET}")
+            print(f"{self.BLUE}[VIDEO COMPLETE]{self.RESET}")
+            print(f"{self.BLUE}├─ Video: {video_name}{self.RESET}")
+            print(f"{self.BLUE}├─ Model: {model_name}{self.RESET}")
+            print(f"{self.BLUE}├─ Total Segments: {len(segments)}{self.RESET}")
+            print(f"{self.BLUE}├─ Start Time: {video_start_timestamp}{self.RESET}")
+            print(f"{self.BLUE}├─ End Time: {video_end_timestamp}{self.RESET}")
+            print(f"{self.BLUE}└─ Total Elapsed: {video_minutes:02d}:{video_seconds:02d}{self.RESET}")
+            print(f"{self.BLUE}{'='*60}{self.RESET}\n")
 
 
 def show_segment_menu(input_dir: str) -> tuple:
@@ -1190,15 +1733,15 @@ def show_segment_menu(input_dir: str) -> tuple:
             continue
 
 
-def show_menu(input_dir: str) -> list:
-    """Show interactive menu for video selection."""
+def show_menu(input_dir: str) -> tuple:
+    """Show interactive menu for video and model selection."""
     # Get available videos
     input_path = Path(input_dir)
     transcript_files = list(input_path.glob("*_transcripts.json"))
     
     if not transcript_files:
         print(f"No transcript files found in {input_dir}")
-        return []
+        return [], []
     
     # Extract video names
     videos = []
@@ -1208,6 +1751,22 @@ def show_menu(input_dir: str) -> list:
     
     videos.sort()  # Sort alphabetically
     
+    # Available models
+    available_models = [
+        "llama3.1-8b",
+        "mistral-7b-v0.3",
+        # "phi3.5-mini",
+        "gemma2-9b",
+        # "gemini-flash (API)",
+        "tinyllama",
+        "qwen2-7b",
+        # "qwen2.5-14b"
+    ]
+    
+    selected_videos = []
+    selected_models = []
+    
+    # Step 1: Video Selection
     while True:
         print("\n" + "="*60)
         print("           VIDEO TITLE GENERATION MENU")
@@ -1227,14 +1786,13 @@ def show_menu(input_dir: str) -> list:
         selection = input("\nEnter your selection: ").strip().lower()
         
         if selection in ['q', 'quit']:
-            return []
+            return [], []
         
         if selection in ['all', 'a']:
-            return videos
+            selected_videos = videos
+            break
         
         try:
-            selected_videos = []
-            
             # Handle ranges (e.g., "2-5")
             if '-' in selection:
                 parts = selection.split('-')
@@ -1242,6 +1800,7 @@ def show_menu(input_dir: str) -> list:
                     start, end = int(parts[0]), int(parts[1])
                     if 1 <= start <= len(videos) and 1 <= end <= len(videos) and start <= end:
                         selected_videos = videos[start-1:end]
+                        break
                     else:
                         raise ValueError("Invalid range")
                 else:
@@ -1255,26 +1814,97 @@ def show_menu(input_dir: str) -> list:
                         selected_videos.append(videos[num-1])
                     else:
                         raise ValueError(f"Invalid video number: {num}")
+                break
             
             # Handle single number
             else:
                 num = int(selection)
                 if 1 <= num <= len(videos):
                     selected_videos = [videos[num-1]]
+                    break
                 else:
                     raise ValueError(f"Invalid video number: {num}")
-            
-            if selected_videos:
-                print(f"\nSelected videos: {', '.join(selected_videos)}")
-                confirm = input("Proceed with these selections? (y/n): ").strip().lower()
-                if confirm in ['y', 'yes']:
-                    return selected_videos
         
         except ValueError as e:
             print(f"\nError: {e}")
             print("Please try again.")
+    
+    # Step 2: Model Selection
+    while True:
+        print("\n" + "="*60)
+        print("           MODEL SELECTION MENU")
+        print("="*60)
+        print("Available models:")
         
-        print()  # Add spacing before showing menu again
+        for i, model in enumerate(available_models, 1):
+            print(f"  {i}. {model}")
+        
+        print("\nSelection options:")
+        print("  - Single model: Enter number (e.g., '1')")
+        print("  - Multiple models: Enter numbers separated by commas (e.g., '1,3')")
+        print("  - Range: Enter range with dash (e.g., '1-3')")
+        print("  - All models: Enter 'all' or 'a'")
+        print("  - Back to video selection: Enter 'b' or 'back'")
+        print("  - Cancel: Enter 'q' or 'quit'")
+        
+        selection = input("\nEnter model selection: ").strip().lower()
+        
+        if selection in ['q', 'quit']:
+            return [], []
+        
+        if selection in ['b', 'back']:
+            return show_menu(input_dir)  # Restart from video selection
+        
+        if selection in ['all', 'a']:
+            selected_models = available_models
+            break
+        
+        try:
+            # Handle ranges (e.g., "1-3")
+            if '-' in selection:
+                parts = selection.split('-')
+                if len(parts) == 2:
+                    start, end = int(parts[0]), int(parts[1])
+                    if 1 <= start <= len(available_models) and 1 <= end <= len(available_models) and start <= end:
+                        selected_models = available_models[start-1:end]
+                        break
+                    else:
+                        raise ValueError("Invalid range")
+                else:
+                    raise ValueError("Invalid range format")
+            
+            # Handle comma-separated numbers (e.g., "1,3")
+            elif ',' in selection:
+                numbers = [int(x.strip()) for x in selection.split(',')]
+                for num in numbers:
+                    if 1 <= num <= len(available_models):
+                        selected_models.append(available_models[num-1])
+                    else:
+                        raise ValueError(f"Invalid model number: {num}")
+                break
+            
+            # Handle single number
+            else:
+                num = int(selection)
+                if 1 <= num <= len(available_models):
+                    selected_models = [available_models[num-1]]
+                    break
+                else:
+                    raise ValueError(f"Invalid model number: {num}")
+        
+        except ValueError as e:
+            print(f"\nError: {e}")
+            print("Please try again.")
+    
+    # Final Confirmation
+    print(f"\nSelected videos: {', '.join(selected_videos)}")
+    print(f"Selected models: {', '.join(selected_models)}")
+    confirm = input("Proceed with these selections? (y/n): ").strip().lower()
+    
+    if confirm in ['y', 'yes']:
+        return selected_videos, selected_models
+    else:
+        return show_menu(input_dir)  # Restart the menu
 
 
 def main():
@@ -1327,15 +1957,20 @@ def main():
     
     # Handle menu mode
     if args.menu:
-        selected_videos = show_menu(args.input_dir)
-        if not selected_videos:
-            print("No videos selected. Exiting.")
+        selected_videos, selected_models = show_menu(args.input_dir)
+        if not selected_videos or not selected_models:
+            print("No videos or models selected. Exiting.")
             return
+        
+        # Enable Gemini if it's in the selected models
+        if "gemini-flash" in selected_models:
+            args.gemini = True
     else:
         selected_videos = None  # Process all videos
+        selected_models = None  # Process all models
     
-    # Initialize generator
-    generator = TitleGenerator(use_gemini=args.gemini)
+    # Initialize generator with selected models
+    generator = TitleGenerator(use_gemini=args.gemini, selected_models=selected_models)
     
     # Start input monitoring thread - COMMENTED OUT
     # input_thread = threading.Thread(target=generator._monitor_input, daemon=True)
