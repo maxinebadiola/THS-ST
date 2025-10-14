@@ -1,0 +1,551 @@
+model,video,segment,title_number,start,generated_title
+llama3.1-8b,pantone_colors,1,1,0,"$9,999 Shades of Yellow"
+llama3.1-8b,pantone_colors,1,2,0,"$9,999 Colors: The Pantone Secret"
+llama3.1-8b,pantone_colors,1,3,0,The Color Cartel: Unlocking Pantone's Secret
+llama3.1-8b,pantone_colors,1,4,0,The Color Empire: A Pricey Palette
+llama3.1-8b,pantone_colors,1,5,0,The Color Cartel: A $9K Palette
+llama3.1-8b,pantone_colors,1,6,0,The Color Cartel: Unlocking Pantone's Secret
+llama3.1-8b,pantone_colors,1,7,0,The Color Cartel: Unpacking Pantone's Dominance
+llama3.1-8b,pantone_colors,1,8,0,The Price of Precision in Color
+llama3.1-8b,pantone_colors,1,9,0,The Color Empire: A Pricey Palette
+llama3.1-8b,pantone_colors,1,10,0,The Color Code: Unlocking Pantone's Secret
+llama3.1-8b,pantone_colors,2,1,101,Pantone's Color Revolution in Design
+llama3.1-8b,pantone_colors,2,2,101,Pantone Pioneers Color Consistancy
+llama3.1-8b,pantone_colors,2,3,101,Pantone's Color Revolution
+llama3.1-8b,pantone_colors,2,4,101,The Birth of Color Consistency
+llama3.1-8b,pantone_colors,2,5,101,The Birth of Color Consistency
+llama3.1-8b,pantone_colors,2,6,101,The Birth of Color Consistency
+llama3.1-8b,pantone_colors,2,7,101,The Birth of Color Consistency
+llama3.1-8b,pantone_colors,2,8,101,The Birth of Color Consistency
+llama3.1-8b,pantone_colors,2,9,101,“Color Standardization: A Game Changer”
+llama3.1-8b,pantone_colors,2,10,101,The Birth of Color Consistency
+llama3.1-8b,pantone_colors,3,1,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,3,2,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,3,3,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,3,4,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,3,5,190,The Color Code: Pantone's Breakthrough
+llama3.1-8b,pantone_colors,3,6,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,3,7,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,3,8,190,Color Standardization Breakthrough
+llama3.1-8b,pantone_colors,3,9,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,3,10,190,Standardizing Color: The Birth of Pantone
+llama3.1-8b,pantone_colors,4,1,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,2,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,3,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,4,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,5,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,6,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,7,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,8,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,9,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,4,10,371,Pantone's Color Code Monopoly
+llama3.1-8b,pantone_colors,5,1,465,Achieving Perfect Color Consistency with Pantone
+llama3.1-8b,pantone_colors,5,2,465,Unlocking the Secret to Vibrant Colors
+llama3.1-8b,pantone_colors,5,3,465,Pantone Precision: A Color Standard
+llama3.1-8b,pantone_colors,5,4,465,Pantone's Color Advantage in Commercial Printing
+llama3.1-8b,pantone_colors,5,5,465,Achieving Consistent Colors with Precision
+llama3.1-8b,pantone_colors,5,6,465,Perfecting Color Consistency with Expertise
+llama3.1-8b,pantone_colors,5,7,465,Achieving Consistent Color with Precision
+llama3.1-8b,pantone_colors,5,8,465,Pantone's Color Formula Mastery
+llama3.1-8b,pantone_colors,5,9,465,Achieving Consistent Colors with Precision
+llama3.1-8b,pantone_colors,5,10,465,Pantone Colors Bring Precision to Printing
+llama3.1-8b,pantone_colors,6,1,649,The Double-Edged Sword of Pantone
+llama3.1-8b,pantone_colors,6,2,649,Pantone's Double Edge
+llama3.1-8b,pantone_colors,6,3,649,Pantones' Double Edge
+llama3.1-8b,pantone_colors,6,4,649,Pantone's Double Edge: Control vs Cost
+llama3.1-8b,pantone_colors,6,5,649,The Double-Edged Sword of Pantone
+llama3.1-8b,pantone_colors,6,6,649,Pantones Double Edge
+llama3.1-8b,pantone_colors,6,7,649,Pantons Trade- Offs
+llama3.1-8b,pantone_colors,6,8,649,Pantone's Double Edge: Control vs Cost
+llama3.1-8b,pantone_colors,6,9,649,The Double Edge of Pantone
+llama3.1-8b,pantone_colors,6,10,649,Pantones Double Edge
+llama3.1-8b,pantone_colors,7,1,711,Pantone's Price Hike Sparks Industry Backlash
+llama3.1-8b,pantone_colors,7,2,711,Pantone's Price Hike Sparks Industry Backlash
+llama3.1-8b,pantone_colors,7,3,711,Pantone's Price Hike Sparks Industry Outrage
+llama3.1-8b,pantone_colors,7,4,711,Pantone's Price Hike Sparks Industry Backlash
+llama3.1-8b,pantone_colors,7,5,711,Pantone's Price Hike Sparks Industry Backlash
+llama3.1-8b,pantone_colors,7,6,711,Pantone's Price Hike Sparks Industry Outrage
+llama3.1-8b,pantone_colors,7,7,711,Designers Rebel Against Pantone Fees
+llama3.1-8b,pantone_colors,7,8,711,Pantone's Price Hike Sparks Designer Backlash
+llama3.1-8b,pantone_colors,7,9,711,Pantone's Price Hike Sparks Industry Outrage
+llama3.1-8b,pantone_colors,7,10,711,Pantone's Price Hike Sparks Industry Backlash
+llama3.1-8b,pantone_colors,8,1,848,The Limitations of Pantone Color Guides
+llama3.1-8b,pantone_colors,8,2,848,The Costly Conundrum of Color Consistency
+llama3.1-8b,pantone_colors,8,3,848,The Limitations of Pantone Color Guides
+llama3.1-8b,pantone_colors,8,4,848,The Limitations of Pantone Color Guides
+llama3.1-8b,pantone_colors,8,5,848,When Color Guides go Bad
+llama3.1-8b,pantone_colors,8,6,848,The High Cost of Color Consistency
+llama3.1-8b,pantone_colors,8,7,848,The Cost and Limitations of Color Consistency
+llama3.1-8b,pantone_colors,8,8,848,The Cost and Limitations of Color Consistency
+llama3.1-8b,pantone_colors,8,9,848,The High Cost of Color Consistency
+llama3.1-8b,pantone_colors,8,10,848,The Cost of Color Consistency
+llama3.1-8b,pantone_colors,9,1,996,The Power of Standardized Color
+llama3.1-8b,pantone_colors,9,2,996,Standardizing Color Across Design and Print
+llama3.1-8b,pantone_colors,9,3,996,Standardizing Color Across Design and Print
+llama3.1-8b,pantone_colors,9,4,996,Standardizing Color across Design and Printing
+llama3.1-8b,pantone_colors,9,5,996,Standardizing Color Across the Design Industry
+llama3.1-8b,pantone_colors,9,6,996,The Power of Pantones: Standardizing Color Consistency
+llama3.1-8b,pantone_colors,9,7,996,Standardizing Color Across Industries
+llama3.1-8b,pantone_colors,9,8,996,The Power of Standardized Color
+llama3.1-8b,pantone_colors,9,9,996,Standardizing Color in Design and Printing
+llama3.1-8b,pantone_colors,9,10,996,The Power of Standardized Color
+llama3.1-8b,pantone_colors,10,1,1125,Pantone's Color Consistency Comes at a Cost
+llama3.1-8b,pantone_colors,10,2,1125,The Cost of Consistency in Color
+llama3.1-8b,pantone_colors,10,3,1125,The Cost of Consistency in Color
+llama3.1-8b,pantone_colors,10,4,1125,The Cost of Consistency in Color
+llama3.1-8b,pantone_colors,10,5,1125,The Cost of Consistency in Color
+llama3.1-8b,pantone_colors,10,6,1125,Pantone's Consistent Color Promise
+llama3.1-8b,pantone_colors,10,7,1125,The Cost of Consistency in Color
+llama3.1-8b,pantone_colors,10,8,1125,Pantone's Price for Precision
+llama3.1-8b,pantone_colors,10,9,1125,The Cost of Consistency in Color
+llama3.1-8b,pantone_colors,10,10,1125,Pantone's Color Consistency Comes at a Cost
+llama3.1-8b,pantone_colors,11,1,1216,The Consistency of Color: A Standard Worth Keeping
+llama3.1-8b,pantone_colors,11,2,1216,The Consistency of Color: A Standard Worth Keeping
+llama3.1-8b,pantone_colors,11,3,1216,Consistency in Color: A Standard Worth Keeping
+llama3.1-8b,pantone_colors,11,4,1216,The Power of Consistent Color Standards
+llama3.1-8b,pantone_colors,11,5,1216,ANSWER: Final Title
+llama3.1-8b,pantone_colors,11,6,1216,The Consistency of Color: A Standard Worth Keeping
+llama3.1-8b,pantone_colors,11,7,1216,The Consistency of Color: A Standard Unmatched
+llama3.1-8b,pantone_colors,11,8,1216,The Consistency of Color: A Standard Worth Keeping
+llama3.1-8b,pantone_colors,11,9,1216,Consistency in Color: The Power of Standards
+llama3.1-8b,pantone_colors,11,10,1216,The Power of Pantone's Color Standards
+mistral-7b-v0.3,pantone_colors,1,1,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,2,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,3,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,4,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,5,0,Pantone's Color Dominance: A Fortune Built on Shades
+mistral-7b-v0.3,pantone_colors,1,6,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,7,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,8,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,9,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,1,10,0,Pantone's Color Dominance: A Fortune Beyond Ink
+mistral-7b-v0.3,pantone_colors,2,1,101,Pantone's Color Revolution: A Standardization Solution
+mistral-7b-v0.3,pantone_colors,2,2,101,Pantone's Color Revolution: A Standardized Solution for Designers
+mistral-7b-v0.3,pantone_colors,2,3,101,Pantone's Color Revolution: A Game Changer in Design
+mistral-7b-v0.3,pantone_colors,2,4,101,Pantone's Color Revolution: Standardizing Hues Across the Globe
+mistral-7b-v0.3,pantone_colors,2,5,101,Pantone's Color Revolution: A Standardized Solution for Designers
+mistral-7b-v0.3,pantone_colors,2,6,101,Pantone's Color Revolution: A Standardized Solution
+mistral-7b-v0.3,pantone_colors,2,7,101,Pantone's Color Revolution: A Standardized Solution for Design
+mistral-7b-v0.3,pantone_colors,2,8,101,Pantone's Color Revolution: Standardizing Hues Globally
+mistral-7b-v0.3,pantone_colors,2,9,101,Pantone's Color Revolution: A Game Changer in Design
+mistral-7b-v0.3,pantone_colors,2,10,101,Pantone's Color Revolution: Standardizing Hues Across the Globe
+mistral-7b-v0.3,pantone_colors,3,1,190,Pantone's Color Revolution: Standardizing Hues Worldwide
+mistral-7b-v0.3,pantone_colors,3,2,190,Pantone Revolutionizes Color Matching
+mistral-7b-v0.3,pantone_colors,3,3,190,Pioneering Color Consistency: The Rise of PantONE
+mistral-7b-v0.3,pantone_colors,3,4,190,Pioneering PantONE: Standardizing Colors Across Industries
+mistral-7b-v0.3,pantone_colors,3,5,190,Pantone Revolutionizes Color Matching
+mistral-7b-v0.3,pantone_colors,3,6,190,Pioneering PantONE: Standardizing Colors Globally
+mistral-7b-v0.3,pantone_colors,3,7,190,Pantone Revolutionizes Color Matching
+mistral-7b-v0.3,pantone_colors,3,8,190,Pioneering PantONE: Standardizing Colors Across Industries
+mistral-7b-v0.3,pantone_colors,3,9,190,Pioneering Pantons: Standardizing Colors for Global Consistency
+mistral-7b-v0.3,pantone_colors,3,10,190,Pioneering PantONE: Standardizing Colors for Global Consistency
+mistral-7b-v0.3,pantone_colors,4,1,371,Pantone: A Proprietary Color Language Monopoly
+mistral-7b-v0.3,pantone_colors,4,2,371,Pantone: Proprietary Color Language & Monopoly
+mistral-7b-v0.3,pantone_colors,4,3,371,Pantone: A Proprietary Color Language Monopoly
+mistral-7b-v0.3,pantone_colors,4,4,371,Pantone: A Proprietary Color Language's Dominance
+mistral-7b-v0.3,pantone_colors,4,5,371,Pantone: Copyrighting Color Communication
+mistral-7b-v0.3,pantone_colors,4,6,371,Pantone: Copyrighting Color Communication
+mistral-7b-v0.3,pantone_colors,4,7,371,Pantone: A Proprietary Color Language Monopoly
+mistral-7b-v0.3,pantone_colors,4,8,371,Pantone: A Proprietary Color Language's Dominance
+mistral-7b-v0.3,pantone_colors,4,9,371,Pantone: Proprietary Color Language Dominance
+mistral-7b-v0.3,pantone_colors,4,10,371,Pantone: A Proprietary Color Language's Monopoly
+mistral-7b-v0.3,pantone_colors,5,1,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,2,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,3,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,4,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,5,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,6,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,7,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,8,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,9,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,5,10,465,Pantone's Color Dominance in the Printing Industry
+mistral-7b-v0.3,pantone_colors,6,1,649,"Pantone: The Costly, Precise Color Language"
+mistral-7b-v0.3,pantone_colors,6,2,649,Pantone: The Costly Necessity of Brand Consistency
+mistral-7b-v0.3,pantone_colors,6,3,649,Pantone vs CMYk: Costly Precision vs Affordable Flexibility
+mistral-7b-v0.3,pantone_colors,6,4,649,Pantone: The Pricey Necessity in Design World
+mistral-7b-v0.3,pantone_colors,6,5,649,"Pantone: The Pricey, Precise Color Standard"
+mistral-7b-v0.3,pantone_colors,6,6,649,Pantone: The Costly Necessity of Brand Consistency
+mistral-7b-v0.3,pantone_colors,6,7,649,"Pantone: The Pricey, Precise Color Standard"
+mistral-7b-v0.3,pantone_colors,6,8,649,Pantone: The Costly Necessity of Brand Consistency
+mistral-7b-v0.3,pantone_colors,6,9,649,Pantone: The Costly Necessity in Design World
+mistral-7b-v0.3,pantone_colors,6,10,649,"Pantone: The Pricey, Precise Color Standard"
+mistral-7b-v0.3,pantone_colors,7,1,711,Designers' Dilemma: Pantones Pricey Color Palette Subscription
+mistral-7b-v0.3,pantone_colors,7,2,711,Designers' Dilemma: Pantones Subscription-Based Color Palette
+mistral-7b-v0.3,pantone_colors,7,3,711,Pantone's Price Hike: A Designer's Dilemma
+mistral-7b-v0.3,pantone_colors,7,4,711,Designers' Dilemma: Pantones New Subscription Model Stirs Controversy
+mistral-7b-v0.3,pantone_colors,7,5,711,Designers Resent Pantones Subscription Model
+mistral-7b-v0.3,pantone_colors,7,6,711,Designers' Dilemma: Pantones Pricey Color Palette
+mistral-7b-v0.3,pantone_colors,7,7,711,Designers' Dilemma: Pantones Pricey Color Palette
+mistral-7b-v0.3,pantone_colors,7,8,711,Designers' Dilemma: Pantones New Subscription Model Irks Users
+mistral-7b-v0.3,pantone_colors,7,9,711,Pantone's Price Hike: Designers' Dilemma
+mistral-7b-v0.3,pantone_colors,7,10,711,Pantone's Price Hike Stirs Designer Frustration
+mistral-7b-v0.3,pantone_colors,8,1,848,The Lifespan & Cost of Designer's Color Bible: Pantones
+mistral-7b-v0.3,pantone_colors,8,2,848,The Fading Spectrum: Pantones & Their Expensive Lifespan
+mistral-7b-v0.3,pantone_colors,8,3,848,The Durability Dilemma: Pantones & Designer's Color Conundrum
+mistral-7b-v0.3,pantone_colors,8,4,848,"The Durability Dilemma: Pantones' Expensive, Perishable Color Guides"
+mistral-7b-v0.3,pantone_colors,8,5,848,The Durability Dilemma: Pantones & Designer's Color Expiration
+mistral-7b-v0.3,pantone_colors,8,6,848,The Durability Dilemma: Pantones & Designer's Color Expiration
+mistral-7b-v0.3,pantone_colors,8,7,848,The Fading Vibrancy of Design: Pantones' Expiration Date
+mistral-7b-v0.3,pantone_colors,8,8,848,The Durability Dilemma: Pantones & Designer's Color Palette Expiration
+mistral-7b-v0.3,pantone_colors,8,9,848,"The Durability Dilemma: Pantones' Expensive, Fading Color Guides"
+mistral-7b-v0.3,pantone_colors,8,10,848,The Fading Vibrancy of Design Standards: Pantones
+mistral-7b-v0.3,pantone_colors,9,1,996,Designers' Guide to Color Consistency: The Power of PANTONE
+mistral-7b-v0.3,pantone_colors,9,2,996,Designers' Dance: Unifying Colors with Pantones
+mistral-7b-v0.3,pantone_colors,9,3,996,Designers' Dance: Unifying Colors through Pantones
+mistral-7b-v0.3,pantone_colors,9,4,996,Designers' Universal Language: The Pantoneshape World
+mistral-7b-v0.3,pantone_colors,9,5,996,Designers' Color Dance: Pantones Shaping Our World
+mistral-7b-v0.3,pantone_colors,9,6,996,Designers' Color Dance: The Pantones' Dominance in Shaping Our World
+mistral-7b-v0.3,pantone_colors,9,7,996,Designers' Guide to Color Consistency: The Power of PANTONE
+mistral-7b-v0.3,pantone_colors,9,8,996,Designers' Guide to Color Consistency: The Power of PANTONE
+mistral-7b-v0.3,pantone_colors,9,9,996,Designing with Pantones: Unifying the World of Print
+mistral-7b-v0.3,pantone_colors,9,10,996,Designers' Guide to Color Consistency: The Power of PANTONE
+mistral-7b-v0.3,pantone_colors,10,1,1125,Pantone: The Costly Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,2,1125,Pantone: A Costly Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,3,1125,Pantone: A Costly Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,4,1125,Pantone: A Costly Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,5,1125,Pantone: A Costly Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,6,1125,Pantone: A Costly Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,7,1125,Pantone: A Costly Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,8,1125,Pantone's Consistent Colors: A Language Designers Pay To Speak
+mistral-7b-v0.3,pantone_colors,10,9,1125,Pantone: The Expensive Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,10,10,1125,Pantone: The Expensive Language of Consistent Colors
+mistral-7b-v0.3,pantone_colors,11,1,1216,Pantone's Enduring Legacy in Design and the Quest for an Open Source Alternative
+mistral-7b-v0.3,pantone_colors,11,2,1216,Pantone's Enduring Legacy in Color Consistency
+mistral-7b-v0.3,pantone_colors,11,3,1216,Pantone's Persistence: A Timeless Standard in Color Consistency
+mistral-7b-v0.3,pantone_colors,11,4,1216,Pantone's Enduring Legacy in Design and Emotion
+mistral-7b-v0.3,pantone_colors,11,5,1216,Pantone's Enduring Legacy in Color Consistency
+mistral-7b-v0.3,pantone_colors,11,6,1216,Pantone's Enduring Legacy: The Color Standard of Choice
+mistral-7b-v0.3,pantone_colors,11,7,1216,Pantone's Enduring Legacy in Color Consistency
+mistral-7b-v0.3,pantone_colors,11,8,1216,Pantone's Enduring Legacy: A Color Standard Revolution
+mistral-7b-v0.3,pantone_colors,11,9,1216,Pantone's Persistence Amid Open Source Challenges
+mistral-7b-v0.3,pantone_colors,11,10,1216,Pantone's Enduring Legacy in Design and the Quest for an Open Source Alternative
+gemma2-9b,pantone_colors,1,1,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,2,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,3,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,4,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,5,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,6,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,7,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,8,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,9,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,1,10,0,The Price of Perfect Color
+gemma2-9b,pantone_colors,2,1,101,Pantones: The Color Revolution
+gemma2-9b,pantone_colors,2,2,101,Pantones: The Color Standard Revolution
+gemma2-9b,pantone_colors,2,3,101,Pantones: The Color Revolution
+gemma2-9b,pantone_colors,2,4,101,Pantones: The Color Standard
+gemma2-9b,pantone_colors,2,5,101,Pantones: The Color Standard
+gemma2-9b,pantone_colors,2,6,101,Pantone: The Color Standard Revolution
+gemma2-9b,pantone_colors,2,7,101,Pantones: The Color Standard Revolution
+gemma2-9b,pantone_colors,2,8,101,Pantones: The Color Standard
+gemma2-9b,pantone_colors,2,9,101,Pantones: The Color Standard Revolution
+gemma2-9b,pantone_colors,2,10,101,Pantones: The Color Standard Revolution
+gemma2-9b,pantone_colors,3,1,190,Pantone: Standardizing Color Across Industries
+gemma2-9b,pantone_colors,3,2,190,Pantone: Standardizing Color Worldwide
+gemma2-9b,pantone_colors,3,3,190,Pantone: Standardizing the Spectrum
+gemma2-9b,pantone_colors,3,4,190,From Swamp Green to Global Standard
+gemma2-9b,pantone_colors,3,5,190,From Swamp to Standard: The Rise of Pantone
+gemma2-9b,pantone_colors,3,6,190,Pantone: Standardizing Color Across Industries
+gemma2-9b,pantone_colors,3,7,190,From Shades to Standards: The Rise of Pantone
+gemma2-9b,pantone_colors,3,8,190,Pantone: Standardizing the Spectrum
+gemma2-9b,pantone_colors,3,9,190,Pantone: Standardizing Color Across Industries
+gemma2-9b,pantone_colors,3,10,190,Pantone: Standardizing Color Across Industries
+gemma2-9b,pantone_colors,4,1,371,Pantone: Color's Proprietary Language
+gemma2-9b,pantone_colors,4,2,371,Pantone: Color's Corporate Language
+gemma2-9b,pantone_colors,4,3,371,Pantone: Color Language & Monopoly
+gemma2-9b,pantone_colors,4,4,371,Pantone: Color Monopoly and Legal Battles
+gemma2-9b,pantone_colors,4,5,371,Pantone: Color Monopoly
+gemma2-9b,pantone_colors,4,6,371,Pantone: Color Language & Monopoly
+gemma2-9b,pantone_colors,4,7,371,Pantone: Color's Proprietary Language
+gemma2-9b,pantone_colors,4,8,371,Pantone: Color's Corporate Language
+gemma2-9b,pantone_colors,4,9,371,Pantone: Color Language and Monopoly
+gemma2-9b,pantone_colors,4,10,371,Pantone: Color's Proprietary Language
+gemma2-9b,pantone_colors,5,1,465,Pantone: The Color Standard
+gemma2-9b,pantone_colors,5,2,465,Pantone: The Color Standard of Print
+gemma2-9b,pantone_colors,5,3,465,Pantone: The Color Standard for Print
+gemma2-9b,pantone_colors,5,4,465,Pantone: The Color Standard
+gemma2-9b,pantone_colors,5,5,465,Pantone: The Color Standard in Print
+gemma2-9b,pantone_colors,5,6,465,Pantone: The Color Standard
+gemma2-9b,pantone_colors,5,7,465,Pantone: The Color Standard for Print
+gemma2-9b,pantone_colors,5,8,465,Pantone: Color Consistency in Print
+gemma2-9b,pantone_colors,5,9,465,Pantone: Color Accuracy in Print
+gemma2-9b,pantone_colors,5,10,465,Pantone: The Color Standard for Print
+gemma2-9b,pantone_colors,6,1,649,"Pantones: Necessity, Control, and Cost"
+gemma2-9b,pantone_colors,6,2,649,Pantones: Necessity or Creative Constraint?
+gemma2-9b,pantone_colors,6,3,649,"Pantones: Necessity, Frustration, and Control"
+gemma2-9b,pantone_colors,6,4,649,"Pantones: Necessity, Frustration, and Control"
+gemma2-9b,pantone_colors,6,5,649,Pantones: Necessary Evil or Creative Constraint?
+gemma2-9b,pantone_colors,6,6,649,"Pantones: Necessity, Control, and Cost"
+gemma2-9b,pantone_colors,6,7,649,Pantones: Necessary Evil or Color Control?
+gemma2-9b,pantone_colors,6,8,649,"Pantones: Necessity, Expense, and Control"
+gemma2-9b,pantone_colors,6,9,649,"Pantones: Necessity, Control, and Cost"
+gemma2-9b,pantone_colors,6,10,649,Pantones: Necessary Evil or Color Control?
+gemma2-9b,pantone_colors,7,1,711,Pantone's Pricey Color Predicament
+gemma2-9b,pantone_colors,7,2,711,Pantone's Pricey Color Predicament
+gemma2-9b,pantone_colors,7,3,711,Pantone's Pricey Color Revolution
+gemma2-9b,pantone_colors,7,4,711,Pantone's Pricey Color Revolution
+gemma2-9b,pantone_colors,7,5,711,Pantone's Pricey Color Shift
+gemma2-9b,pantone_colors,7,6,711,Pantone's Pricey Color Revolution
+gemma2-9b,pantone_colors,7,7,711,Pantone's Pricey Color Monopoly
+gemma2-9b,pantone_colors,7,8,711,Pantone's Pricey Color Monopoly
+gemma2-9b,pantone_colors,7,9,711,Pantone's Pricey Color Monopoly
+gemma2-9b,pantone_colors,7,10,711,Pantone's Pricey Color Revolution
+gemma2-9b,pantone_colors,8,1,848,Pantone: Color's Pricey Guide
+gemma2-9b,pantone_colors,8,2,848,Pantone: Color's Pricey Predicament
+gemma2-9b,pantone_colors,8,3,848,Pantone: Color Accuracy and Cost
+gemma2-9b,pantone_colors,8,4,848,The Cost of Color Accuracy
+gemma2-9b,pantone_colors,8,5,848,Pantone: Color Harmony's Price Tag
+gemma2-9b,pantone_colors,8,6,848,Pantone: Color Harmony or Corporate Burden?
+gemma2-9b,pantone_colors,8,7,848,Pantone: Color's High Cost
+gemma2-9b,pantone_colors,8,8,848,Pantone: Color Harmony or Corporate Burden?
+gemma2-9b,pantone_colors,8,9,848,"Pantone: Color, Cost, and Creativity"
+gemma2-9b,pantone_colors,8,10,848,Pantone: Color Harmony or Corporate Cost?
+gemma2-9b,pantone_colors,9,1,996,Pantone: The Designer's Color Standard
+gemma2-9b,pantone_colors,9,2,996,Pantone: The Designer's Color Language
+gemma2-9b,pantone_colors,9,3,996,Pantone: The Designer's Color Language
+gemma2-9b,pantone_colors,9,4,996,Pantone: The Designer's Color Language
+gemma2-9b,pantone_colors,9,5,996,Pantone: The Designer's Color Language
+gemma2-9b,pantone_colors,9,6,996,Pantone: The Designer's Color Language
+gemma2-9b,pantone_colors,9,7,996,Pantone: The Designer's Color Language
+gemma2-9b,pantone_colors,9,8,996,Pantone: Design's Shared Language
+gemma2-9b,pantone_colors,9,9,996,Pantone: The Designer's Color Standard
+gemma2-9b,pantone_colors,9,10,996,Pantone: The Designer's Color Language
+gemma2-9b,pantone_colors,10,1,1125,"Pantone: Language of Color, Pricey Privilege"
+gemma2-9b,pantone_colors,10,2,1125,Pantone: The Language of Color
+gemma2-9b,pantone_colors,10,3,1125,"Pantone: Language of Color, Paid Access"
+gemma2-9b,pantone_colors,10,4,1125,Pantone: The Price of Color Consistency
+gemma2-9b,pantone_colors,10,5,1125,Pantone: The Price of Color Consistency
+gemma2-9b,pantone_colors,10,6,1125,"Pantone: Language of Color, Paid Access"
+gemma2-9b,pantone_colors,10,7,1125,"Pantone: Language of Color, Price of Access"
+gemma2-9b,pantone_colors,10,8,1125,Pantone: The Language of Color
+gemma2-9b,pantone_colors,10,9,1125,"Pantone: Language of Color, Pricey Privilege"
+gemma2-9b,pantone_colors,10,10,1125,Pantone: The Language of Color
+gemma2-9b,pantone_colors,11,1,1216,Pantones Reign: Open Source Challenge
+gemma2-9b,pantone_colors,11,2,1216,Pantones Reign: Open Source Challenge
+gemma2-9b,pantone_colors,11,3,1216,Pantones Reign: A Color Standard's Legacy
+gemma2-9b,pantone_colors,11,4,1216,Pantones Reign: Open Source Challenge
+gemma2-9b,pantone_colors,11,5,1216,Pantones Reign: Open Source Colors?
+gemma2-9b,pantone_colors,11,6,1216,Pantones Reign: Open Source Challenge Awaits
+gemma2-9b,pantone_colors,11,7,1216,Pantones Reign: A Color Standard's Legacy
+gemma2-9b,pantone_colors,11,8,1216,Pantones Reign: Open Source Colors?
+gemma2-9b,pantone_colors,11,9,1216,Pantones Reign: Open Source Threat?
+gemma2-9b,pantone_colors,11,10,1216,Pantones Reign: Open Source Threat?
+tinyllama,pantone_colors,1,1,0,Pantone Color: A Priceless Commodity
+tinyllama,pantone_colors,1,2,0,Pantone Color Guide
+tinyllama,pantone_colors,1,3,0,Pantonesque: The Cost of Color Dominance
+tinyllama,pantone_colors,1,4,0,The Color Revolution
+tinyllama,pantone_colors,1,5,0,Pantone Color Guide: How Much Does It Cost?
+tinyllama,pantone_colors,1,6,0,Pantone Color: The High Cost of Illusions
+tinyllama,pantone_colors,1,7,0,The Price of Pantones
+tinyllama,pantone_colors,1,8,0,Pantonesque: The Color Revolution That Changed the World
+tinyllama,pantone_colors,1,9,0,Color Standards: How Much Does One Company Cost?
+tinyllama,pantone_colors,1,10,0,Pantonesque - A Colorful Approach to Design
+tinyllama,pantone_colors,2,1,101,PANTONE® Solutions for Color Consistency
+tinyllama,pantone_colors,2,2,101,PANTONE - The Industry Standard for Color
+tinyllama,pantone_colors,2,3,101,PANTONE: A Shared Palette Way Beyond the Color Range
+tinyllama,pantone_colors,2,4,101,Pantone: The Color of the Year
+tinyllama,pantone_colors,2,5,101,PANTONE® Gives Designers a Shared Palette Way Beyond That Range
+tinyllama,pantone_colors,2,6,101,PANTONE® Solid Colors: The Color Standard for Design
+tinyllama,pantone_colors,2,7,101,PANTONE® Gives Designers a Shared Palette Way Beyond That Range
+tinyllama,pantone_colors,2,8,101,The Future of Color in Design
+tinyllama,pantone_colors,2,9,101,The Power of Color
+tinyllama,pantone_colors,2,10,101,A Shared Palette: How Pantones Created a Standard for Color Consistency
+tinyllama,pantone_colors,3,1,190,Pantone Matching System
+tinyllama,pantone_colors,3,2,190,Pantone Matching System
+tinyllama,pantone_colors,3,3,190,Pantone Matching System
+tinyllama,pantone_colors,3,4,190,Pantonalize Your Branding
+tinyllama,pantone_colors,3,5,190,Pantone: The Color of Consistency
+tinyllama,pantone_colors,3,6,190,PantONE Matching System
+tinyllama,pantone_colors,3,7,190,The Evolution of Color Consistency
+tinyllama,pantone_colors,3,8,190,How Pantene's Pantonal Matching System Became Industry Standard
+tinyllama,pantone_colors,3,9,190,The Rise and Fall of Pantene
+tinyllama,pantone_colors,3,10,190,How Pantene's Pant One Matching System Became Industry Standard
+tinyllama,pantone_colors,4,1,371,Pantonesque: A Colorful History of Pantonalism
+tinyllama,pantone_colors,4,2,371,The World's Only Universally Accepted Color Communication Language
+tinyllama,pantone_colors,4,3,371,Pantonesque: The Colorful History of Pantopia
+tinyllama,pantone_colors,4,4,371,Pantone Color System
+tinyllama,pantone_colors,4,5,371,Pantonesque: A Colorful Journey Through the History of Pantonalism
+tinyllama,pantone_colors,4,6,371,Pantonesque Color Language
+tinyllama,pantone_colors,4,7,371,Pantone Color System - A Brief History
+tinyllama,pantone_colors,4,8,371,How Pantones Created the World's Only Universally Accepted Color Communication Language
+tinyllama,pantone_colors,4,9,371,The World's Only Universally Accepted Color Communication Language
+tinyllama,pantone_colors,4,10,371,Pantone Color System
+tinyllama,pantone_colors,5,1,465,Pantone Color Mixing: A Primer for Printing Industry Professionals
+tinyllama,pantone_colors,5,2,465,How Does Allied Printers Use Pantones In Their Color Mixing Process?
+tinyllama,pantone_colors,5,3,465,The Benefits of Using Pantones in Color Mixing
+tinyllama,pantone_colors,5,4,465,How Does Allied Printers Use Pantones In Their Color Mixing Process?
+tinyllama,pantone_colors,5,5,465,The Benefits of Using Pantones in Your Color Mixing
+tinyllama,pantone_colors,5,6,465,How Does Allied Printer Use Pantones To Mix Ink Colors?
+tinyllama,pantone_colors,5,7,465,How Allied Printers Mix Their Own Ink Colors
+tinyllama,pantone_colors,5,8,465,The Power of Pantones
+tinyllama,pantone_colors,5,9,465,Pantonal Colors in Printing
+tinyllama,pantone_colors,5,10,465,How Allied Printer Uses Pantones To Ensure Consistency In Color Mixing
+tinyllama,pantone_colors,6,1,649,PANTONE BECOMES AN ESSENTIAL LANGUAGE
+tinyllama,pantone_colors,6,2,649,PANTONE BECOMES A NECESSARY EVIL
+tinyllama,pantone_colors,6,3,649,PANTONE BECOMES A NECESSARY EVIL
+tinyllama,pantone_colors,6,4,649,PANTONE BECOMES AN ESSENTIAL LANGUAGE FOR DESIGNERS
+tinyllama,pantone_colors,6,5,649,PANTONE BECOMES AN ESSENTIAL LANGUAGE
+tinyllama,pantone_colors,6,6,649,PANTONE BECOMES AN ESSENTIAL EVIL DUE TO ITS MAINSTREAM LANGUAGE
+tinyllama,pantone_colors,6,7,649,The Necessity of Pantones as a Mainstream Language
+tinyllama,pantone_colors,6,8,649,PANTONE BECOMES A NECESSARY EVIL
+tinyllama,pantone_colors,6,9,649,PANTONE BECOMES AN ESSENTIAL LANGUAGE FOR DESIGNERS
+tinyllama,pantone_colors,6,10,649,PANTONE BECOMES A NECESSARY EVIL
+tinyllama,pantone_colors,7,1,711,Pantone's Color Plugin: A Point of Friction
+tinyllama,pantone_colors,7,2,711,How Pantones Changed Color Management for Designers
+tinyllama,pantone_colors,7,3,711,Pantone's New Plugin Offends Some
+tinyllama,pantone_colors,7,4,711,Pantone's Color Planning Process
+tinyllama,pantone_colors,7,5,711,Pantone Color Plugin: A New Reality
+tinyllama,pantone_colors,7,6,711,The New Color Plug-In
+tinyllama,pantone_colors,7,7,711,Pantone Color Changes: A Frustrating Experience
+tinyllama,pantone_colors,7,8,711,How One Industrial Designer Uses Pantones to Make Creative Decisions
+tinyllama,pantone_colors,7,9,711,How Pantones Changed Color Management for Designers
+tinyllama,pantone_colors,7,10,711,Pantone Color Plugin: A Point of Friction
+tinyllama,pantone_colors,8,1,848,Pantone Color Changes: How to Stay Current
+tinyllama,pantone_colors,8,2,848,Pantone Color Guide: A Comprehensive Overview
+tinyllama,pantone_colors,8,3,848,Pantone Color Guide: A Brief Introduction
+tinyllama,pantone_colors,8,4,848,The Importance of Color in Design
+tinyllama,pantone_colors,8,5,848,Pantone Color Guide: A Comprehensive Guide to Translating Digital Designs into Print
+tinyllama,pantone_colors,8,6,848,Pantone Color Guide: A Comprehensive Overview
+tinyllama,pantone_colors,8,7,848,The Ultimate Guide to Permanent Marker Color Changes
+tinyllama,pantone_colors,8,8,848,Pantone Color Guide - Transform Your Designs
+tinyllama,pantone_colors,8,9,848,Pantone Color Guide: How to Choose the Right Color for Your Design
+tinyllama,pantone_colors,8,10,848,Pantone Color Changes
+tinyllama,pantone_colors,9,1,996,Creating a Unified Color System for Designers
+tinyllama,pantone_colors,9,2,996,Mapping Out Your Brand Color Palette
+tinyllama,pantone_colors,9,3,996,Maintaining Your Design Standards with Pantones
+tinyllama,pantone_colors,9,4,996,Making Sure What They See on Their Screens Matches the Color They Experience in Real Life
+tinyllama,pantone_colors,9,5,996,Pantone Guide: Understanding Color Concepts
+tinyllama,pantone_colors,9,6,996,Pantone Color System
+tinyllama,pantone_colors,9,7,996,Maintaining Color Consistency Across Design Projects
+tinyllama,pantone_colors,9,8,996,How to Make Sure Your Design Matches What You See on Your Screen
+tinyllama,pantone_colors,9,9,996,Creating a Unified Design Language
+tinyllama,pantone_colors,9,10,996,Creating a Painting
+tinyllama,pantone_colors,10,1,1125,Pantone Color Guides - A Must Have Tool for Designers
+tinyllama,pantone_colors,10,2,1125,Pantone: A Language We Need To Pay For
+tinyllama,pantone_colors,10,3,1125,How Pantones Color Guides Work and Why They're Worth Paying For
+tinyllama,pantone_colors,10,4,1125,How to Get Your Design Work Right - Pantones Guide to Color Consistency
+tinyllama,pantone_colors,10,5,1125,Pantone's Color Guidelines
+tinyllama,pantone_colors,10,6,1125,Pantone: A Language We Need To Pay For
+tinyllama,pantone_colors,10,7,1125,Pantones Guide to Color Consistency
+tinyllama,pantone_colors,10,8,1125,Pantone: A Language We Need to Pay For
+tinyllama,pantone_colors,10,9,1125,The Benefits of Pantonal Guides
+tinyllama,pantone_colors,10,10,1125,How to Get the Best Deal on Pantones Guides
+tinyllama,pantone_colors,11,1,1216,PANTOMETRIA: THE FUTURE OF COLOR CONTROL
+tinyllama,pantone_colors,11,2,1216,Pantone: A Color Standard
+tinyllama,pantone_colors,11,3,1216,Pantone Delivers on Its Promise of Consistent Color
+tinyllama,pantone_colors,11,4,1216,Pantone Delivers Consistent Color
+tinyllama,pantone_colors,11,5,1216,Pantone's Promise of Consistent Color
+tinyllama,pantone_colors,11,6,1216,Pantone Delivers Consistent Color
+tinyllama,pantone_colors,11,7,1216,PANTONE Delivers Consistent Color - A Transcript
+tinyllama,pantone_colors,11,8,1216,PANTONE: THE COLOR STANDARD THAT CHANGED THE WORLD
+tinyllama,pantone_colors,11,9,1216,PANTONE's Promise of Consistent Color
+tinyllama,pantone_colors,11,10,1216,Pantone's Color Standards: A Brief History and Future
+qwen2-7b,pantone_colors,1,1,0,The Exorbitant Cost of Color Standards: Pantone's Dominance and Alternative Quest
+qwen2-7b,pantone_colors,1,2,0,The Unseen Fortune in Color Standards
+qwen2-7b,pantone_colors,1,3,0,The Unseen Fortune in Color Standards
+qwen2-7b,pantone_colors,1,4,0,The Exorbitant Cost of Color Standards: Pantone's Dominance and Alternative Quest
+qwen2-7b,pantone_colors,1,5,0,The Priceless Palette: How Pantone Dominates Color Standards
+qwen2-7b,pantone_colors,1,6,0,The Exorbitant Cost of Color Standards: Inside Pantone's Dominance
+qwen2-7b,pantone_colors,1,7,0,The Price of Color: Inside Pantone's Dominance and Expensive Palette
+qwen2-7b,pantone_colors,1,8,0,The Exorbitant Cost of Color Standards: How Pantone Dominates
+qwen2-7b,pantone_colors,1,9,0,The Unseen Fortune in Color Standards
+qwen2-7b,pantone_colors,1,10,0,The Price of Color: Inside Pantone's Dominance
+qwen2-7b,pantone_colors,2,1,101,From Color Chaos to Industry Standard: The Birth of Pantone
+qwen2-7b,pantone_colors,2,2,101,Pantone: Bridging Color Consistency Across Industries
+qwen2-7b,pantone_colors,2,3,101,Pantone: Revolutionizing Color Communication in Design
+qwen2-7b,pantone_colors,2,4,101,From Printing Frustrations to Global Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,2,5,101,From Printing Frustrations to Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,2,6,101,Pantone: Bridging Color Consistency Across Industries
+qwen2-7b,pantone_colors,2,7,101,From Printing Frustrations to Global Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,2,8,101,Pantone's Color Revolution: Bridging Global Design Gaps
+qwen2-7b,pantone_colors,2,9,101,From Printing Frustration to Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,2,10,101,Pantone: Revolutionizing Color Standardization in Design
+qwen2-7b,pantone_colors,3,1,190,Color Consistency Revolution: From Recipe Books to Global Standards
+qwen2-7b,pantone_colors,3,2,190,Revolutionizing Color Standardization: From Shrek to Mocha Moos
+qwen2-7b,pantone_colors,3,3,190,Color Consistency Revolutionized: The Birth of Pantone
+qwen2-7b,pantone_colors,3,4,190,Revolutionizing Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,3,5,190,Revolutionizing Color Standardization: The Birth of Pantone
+qwen2-7b,pantone_colors,3,6,190,Revolutionizing Color Standardization: The Birth of Pantone
+qwen2-7b,pantone_colors,3,7,190,Color Consistency Revolution: The Birth of Pantone
+qwen2-7b,pantone_colors,3,8,190,Revolutionizing Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,3,9,190,Revolutionizing Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,3,10,190,Revolutionizing Color Consistency: The Birth of Pantone
+qwen2-7b,pantone_colors,4,1,371,"Pantone's Color Empire: Monopoly, Proprietary Language & Court Battles"
+qwen2-7b,pantone_colors,4,2,371,Pantone's Color Monopoly: Proprietary System & Legal Battles
+qwen2-7b,pantone_colors,4,3,371,Pantone's Color Monopoly and Legal Battles
+qwen2-7b,pantone_colors,4,4,371,Pantone's Color Monopoly and Legal Battles
+qwen2-7b,pantone_colors,4,5,371,Pantone's Color Monopoly: Proprietary System and Legal Battles
+qwen2-7b,pantone_colors,4,6,371,Pantone's Color Monopoly: Proprietary System & Legal Battles
+qwen2-7b,pantone_colors,4,7,371,"Pantone's Color Empire: Monopoly, Proprietary System, and Legal Battles"
+qwen2-7b,pantone_colors,4,8,371,Pantone's Color Monopoly and Legal Battles
+qwen2-7b,pantone_colors,4,9,371,Pantone's Color Monopoly: Proprietary System & Legal Battles
+qwen2-7b,pantone_colors,4,10,371,Pantone's Color Monopoly and Legal Battles
+qwen2-7b,pantone_colors,5,1,465,Mastering Color Consistency: Pantone's Unmatched Role in High-Quality Printing
+qwen2-7b,pantone_colors,5,2,465,The Unquestioned Authority of Pantone in Print
+qwen2-7b,pantone_colors,5,3,465,Mastering Color Accuracy: Pantone's Unmatched Role in High-Quality Printing
+qwen2-7b,pantone_colors,5,4,465,Mastering Color Accuracy: The Pantone Advantage
+qwen2-7b,pantone_colors,5,5,465,Mastering Color Consistency: Pantone's Unmatched Role in High-Quality Printing
+qwen2-7b,pantone_colors,5,6,465,The Unmatched Power of Pantone in Printing
+qwen2-7b,pantone_colors,5,7,465,The Unmatched Power of Pantone in the Printing Industry
+qwen2-7b,pantone_colors,5,8,465,Mastering Color Accuracy: The Essential Role of Pantone
+qwen2-7b,pantone_colors,5,9,465,The Unmatched Power of Pantone in Print
+qwen2-7b,pantone_colors,5,10,465,Mastering Color Accuracy: Pantone's Unmatched Role in High-Quality Printing
+qwen2-7b,pantone_colors,6,1,649,Pantone's Role as an Unavoidable Standard
+qwen2-7b,pantone_colors,6,2,649,Pantone's Role as a Universal Color Language vs. Costly Control
+qwen2-7b,pantone_colors,6,3,649,Pantone's Role as a Universal Color Language vs. High Cost and Control Issues
+qwen2-7b,pantone_colors,6,4,649,Pantone: The Unavoidable Language of Perfect Color Consistency
+qwen2-7b,pantone_colors,6,5,649,Pantone's Role as a Mainstream Language vs. Costly Necessity
+qwen2-7b,pantone_colors,6,6,649,Pantone: The Mainstream Language of Perfect Print Colors
+qwen2-7b,pantone_colors,6,7,649,Pantone: The Mainstream Language of Perfect Print Colors
+qwen2-7b,pantone_colors,6,8,649,Pantone's Role as a Unifying yet Expensive Color Language
+qwen2-7b,pantone_colors,6,9,649,Pantone's Dominance: A Mainstream Language vs. Costly Control
+qwen2-7b,pantone_colors,6,10,649,Pantone's Role as an Unavoidable Standard in Print
+qwen2-7b,pantone_colors,7,1,711,Pantone's Subscription Fee Controversy
+qwen2-7b,pantone_colors,7,2,711,Pantone's Subscription Fee Fiasco: Designers' Dilemma
+qwen2-7b,pantone_colors,7,3,711,Pantone's Subscription Fee Controversy: A Shift in Color Access
+qwen2-7b,pantone_colors,7,4,711,Pantone's Subscription Fee Controversy: Designers' Pain Point
+qwen2-7b,pantone_colors,7,5,711,Pantone's Subscription Fee Controversy: A Shift in Color Access
+qwen2-7b,pantone_colors,7,6,711,Pantone's Subscription Fee Controversy: A Shift in Color Access
+qwen2-7b,pantone_colors,7,7,711,Pantone's Subscription Fee Controversy: A Shift in Color Access
+qwen2-7b,pantone_colors,7,8,711,Pantone's Subscription Fee Controversy
+qwen2-7b,pantone_colors,7,9,711,Pantone's Subscription Fee Controversy: Designers' Dilemma
+qwen2-7b,pantone_colors,7,10,711,Pantone's Subscription Fee Fiasco: Designers' Dilemma
+qwen2-7b,pantone_colors,8,1,848,The Expensive and Evolving World of Pantone Color Guides
+qwen2-7b,pantone_colors,8,2,848,The Expensive and Evolving World of Pantone Color Guides
+qwen2-7b,pantone_colors,8,3,848,The Expensive and Evolving World of Pantone Color Guides
+qwen2-7b,pantone_colors,8,4,848,"The Expensive, Colorful World of Pantone Guides"
+qwen2-7b,pantone_colors,8,5,848,The Expensive and Evolving World of Pantone Color Guides
+qwen2-7b,pantone_colors,8,6,848,The Expensive and Evolving World of Pantone Color Guides
+qwen2-7b,pantone_colors,8,7,848,The Expensive and Evolving World of Pantone Color Guides
+qwen2-7b,pantone_colors,8,8,848,"The Expensive, Evolving World of Pantone Color Guides"
+qwen2-7b,pantone_colors,8,9,848,The Expensive and Evolving World of Pantone Color Guides
+qwen2-7b,pantone_colors,8,10,848,"The Expensive, Colorful World of Pantone Guides"
+qwen2-7b,pantone_colors,9,1,996,Mastering Color Consistency: The Pantone Bridge
+qwen2-7b,pantone_colors,9,2,996,The Essential Role of Pantones in Design Consistency
+qwen2-7b,pantone_colors,9,3,996,Mastering Color Consistency: The Role of Pantones in Design
+qwen2-7b,pantone_colors,9,4,996,Mastering Color Consistency: The Power of Pantones
+qwen2-7b,pantone_colors,9,5,996,The Essential Role of Pantones in Bridging Design Intent and Print Reality
+qwen2-7b,pantone_colors,9,6,996,The Essential Role of Pantones in Design and Printing
+qwen2-7b,pantone_colors,9,7,996,Mastering Color Consistency: The Role of Pantones in Design
+qwen2-7b,pantone_colors,9,8,996,The Essential Role of Pantones in Bridging Design Intentions
+qwen2-7b,pantone_colors,9,9,996,The Essential Role of Pantones in Bridging Design Intent and Real-Life Colors
+qwen2-7b,pantone_colors,9,10,996,Mastering Color Consistency: The Role of Pantones in Design
+qwen2-7b,pantone_colors,10,1,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,2,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,3,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,4,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,5,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,6,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,7,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,8,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,9,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,10,10,1125,Pantone: The Unquestioned Language of Consistent Color
+qwen2-7b,pantone_colors,11,1,1216,Pantone's Consistent Color Dominance and Future Challenges
+qwen2-7b,pantone_colors,11,2,1216,Pantone's Promise: Consistent Colors Across Projects
+qwen2-7b,pantone_colors,11,3,1216,Pantone's Consistent Color Empire
+qwen2-7b,pantone_colors,11,4,1216,Pantone's Promise: Consistent Colors Across the Globe
+qwen2-7b,pantone_colors,11,5,1216,Pantone's Unwavering Influence on Global Color Consistency
+qwen2-7b,pantone_colors,11,6,1216,Pantone's Promise: Consistency in Color Across the Globe
+qwen2-7b,pantone_colors,11,7,1216,Pantone's Promise: Consistent Colors Across the Globe
+qwen2-7b,pantone_colors,11,8,1216,Pantone's Promise: Consistency in Color Across the Globe
+qwen2-7b,pantone_colors,11,9,1216,Pantone's Unwavering Role in Ensuring Global Color Consistency
+qwen2-7b,pantone_colors,11,10,1216,Pantone's Consistent Color Dominance and Future Innovations
