@@ -23,9 +23,18 @@ let participantData = {
     speedChanges: [], // Track when speed was changed
     speedUsage: {}, // Track duration spent at each speed (e.g., "1": 120000, "2": 30000)
     // Multi-video session data
-    currentVideoIndex: 0, // 0 for first video, 1 for second video
+    currentVideoIndex: 0, // 0 for first video, 1 for second video, 2 for third video, 3 for fourth video
     firstVideoData: null, // Store first video's data separately
-    secondVideoData: null // Store second video's data separately
+    secondVideoData: null, // Store second video's data separately
+    thirdVideoData: null, // Store third video's data separately
+    fourthVideoData: null // Store fourth video's data separately
+};
+
+const groupConfigurations = {
+    group1: ["fungi_map", "engineering_map", "pantone_colors", "airport_food"],
+    group2: ["pantone_colors", "airport_food", "fungi_map", "engineering_map"],
+    group3: ["engineering_map", "fungi_map", "airport_food", "pantone_colors"],
+    group4: ["airport_food", "pantone_colors", "engineering_map", "fungi_map"]
 };
 
 let currentQuestionIndex = 0;
@@ -104,8 +113,8 @@ function initializeApp() {
     document.getElementById('toggle-stats').addEventListener('click', toggleStatsPanel);
     
     // Add transition section event listeners
-    document.getElementById('download-first-video-data').addEventListener('click', downloadFirstVideoData);
-    document.getElementById('start-second-video').addEventListener('click', startSecondVideo);
+    // document.getElementById('download-first-video-data').addEventListener('click', downloadFirstVideoData);
+    // document.getElementById('start-second-video').addEventListener('click', startSecondVideo);
 
     // Apply UI configuration
     applyUIConfiguration();
@@ -152,13 +161,13 @@ async function startStudy(event) {
     console.log(`Study started - Question randomization: ${randomizeQuestions ? 'ENABLED' : 'DISABLED'}`);
     
     // Load study group configuration
-    try {
-        await loadStudyGroupConfig(participantData.studyGroup);
-    } catch (error) {
-        alert('Error loading study configuration. Please try again.');
-        console.error('Error loading study config:', error);
-        return;
-    }
+    // try {
+    //     await loadStudyGroupConfig(participantData.studyGroup);
+    // } catch (error) {
+    //     alert('Error loading study configuration. Please try again.');
+    //     console.error('Error loading study config:', error);
+    //     return;
+    // }
     
     // Start with the first video
     participantData.currentVideoIndex = 0;
@@ -587,16 +596,18 @@ function completeStudy() {
     participantData.videoWatchTime = totalVideoPlayTime;
     
     // Check if this is the first video or second video
-    if (participantData.currentVideoIndex === 0) {
+    if (participantData.currentVideoIndex < 3) {
         // First video completed - show transition section
         document.getElementById('video-section').style.display = 'none';
         document.getElementById('transition-section').style.display = 'block';
         document.getElementById('transition-section').classList.add('fade-in');
         
+        updateTransitionSection();
+
         // Set participant ID in transition section
-        document.getElementById('transition-participant-id').textContent = participantData.id;
+        // document.getElementById('transition-participant-id').textContent = participantData.id;
         
-        console.log('First video completed, showing transition section');
+        console.log(`Video ${participantData.currentVideoIndex + 1} completed, showing transition section`);
     } else {
         // Second video completed - show final completion section
         document.getElementById('video-section').style.display = 'none';
@@ -612,18 +623,95 @@ function completeStudy() {
         // Add copy functionality for completion section ID
         setupCompletionIdCopy();
         
-        console.log('Second video completed, showing final completion section');
+        console.log('Fourth video completed, showing final completion section');
     }
+    saveCurrentVideoData();
     
     // Save data to localStorage
     saveParticipantData();
+}
+
+function updateTransitionSection() {
+    const videoNumber = participantData.currentVideoIndex + 1;
+    const nextVideoNumber = videoNumber + 1;
+
+    document.querySelector('#transition-section h2').textContent = `Video ${videoNumber} Complete!`;
+    document.querySelector('#transition-section h3').textContent = `🎉 Congratulations! You have finished video ${videoNumber} of 4.`;
+
+    document.querySelector('.step h4').textContent = `Step 1: Download Video ${videoNumber} Results`;
+    document.querySelector('.step p').textContent = `Please download your results from video ${videoNumber} before proceeding.`;
+
+    const downloadButton = document.getElementById('download-first-video-data');
+    downloadButton.textContent = `Download Video ${videoNumber} Data`;
+    downloadBtn.onclick = () => downloadCurrentVideoData();
+
+    const continueBtn = document.getElementById('start-second-video');
+    continueBtn.textContent = `Start Video ${nextVideoNumber}`;
+    continueBtn.onclick = () => startNextVideo();
+
+    document.getElementById('transition-participant-id').textContent = participantData.id;
+}
+
+function saveCurrentVideoData() {
+    const currentData = {
+        videoInteractions: [...participantData.videoInteractions],
+        questionResponses: [...participantData.questionResponses],
+        segmentInteractions: [...participantData.segmentInteractions],
+        totalInteractions: participantData.totalInteractions,
+        videoWatchTime: participantData.videoWatchTime,
+        playCount: participantData.playCount,
+        pauseCount: participantData.pauseCount,
+        seekCount: participantData.seekCount,
+        rewindCount: participantData.rewindCount,
+        forwardCount: participantData.forwardCount,
+        speedChanges: [...(participantData.speedChanges || [])],
+        speedUsage: {...(participantData.speedUsage || {})},
+        sessionDuration: participantData.sessionDuration
+    }
+
+    switch(participantData.currentVideoIndex) {
+        case 0:
+            participantData.firstVideoData = currentData;
+            break;
+        case 1:
+            participantData.secondVideoData = currentData;
+            break;
+        case 2:
+            participantData.thirdVideoData = currentData;
+            break;
+        case 3:
+            participantData.fourthVideoData = currentData;
+            break;
+    }
+}
+
+function downloadCurrentVideoData() {
+    const videoNumber = participantData.currentVideoIndex + 1;
+
+    const downloadData = {
+        ...participantData,
+        videoNumber: videoNumber,
+        downloadTimestamp: new Date().toISOString(),
+        isIndividualVideoData: true // Flag to indicate this is individual video data
+    };
+
+    const dataStr = JSON.stringify(downloadData, null, 2);
+    const dataBlob = new Blob([dataStr], {type: 'application/json'});
+    const url = URL.createObjectURL(dataBlob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `participant_${participantData.id}_video${videoNumber}_data.json`;
+    link.click();
+    URL.revokeObjectURL(url);
+    
+    console.log(`Video ${videoNumber} data downloaded`);
 }
 
 function updateCompletionStats() {
     const totalTime = participantData.endTime - participantData.startTime;
     
     // Calculate combined statistics if this is the second video
-    let combinedStats = {
+    const currentStats = {
         totalInteractions: participantData.totalInteractions,
         questionsAnswered: participantData.questionResponses.length,
         playCount: participantData.playCount,
@@ -637,92 +725,63 @@ function updateCompletionStats() {
         sessionDuration: participantData.sessionDuration
     };
     
-    if (participantData.currentVideoIndex === 1 && participantData.firstVideoData) {
-        // Combine data from both videos
-        combinedStats = {
-            totalInteractions: participantData.totalInteractions + participantData.firstVideoData.totalInteractions,
-            questionsAnswered: participantData.questionResponses.length + participantData.firstVideoData.questionResponses.length,
-            playCount: participantData.playCount + participantData.firstVideoData.playCount,
-            pauseCount: participantData.pauseCount + participantData.firstVideoData.pauseCount,
-            seekCount: participantData.seekCount + participantData.firstVideoData.seekCount,
-            rewindCount: participantData.rewindCount + participantData.firstVideoData.rewindCount,
-            forwardCount: participantData.forwardCount + participantData.firstVideoData.forwardCount,
-            speedChanges: (participantData.speedChanges ? participantData.speedChanges.length : 0) + 
-                         (participantData.firstVideoData.speedChanges ? participantData.firstVideoData.speedChanges.length : 0),
-            videoWatchTime: participantData.videoWatchTime + participantData.firstVideoData.videoWatchTime,
-            sessionDuration: participantData.sessionDuration + participantData.firstVideoData.sessionDuration,
-            speedUsage: {...participantData.speedUsage}
-        };
-        
-        // Combine speed usage
-        if (participantData.firstVideoData.speedUsage) {
-            Object.keys(participantData.firstVideoData.speedUsage).forEach(speed => {
-                if (combinedStats.speedUsage[speed]) {
-                    combinedStats.speedUsage[speed] += participantData.firstVideoData.speedUsage[speed];
-                } else {
-                    combinedStats.speedUsage[speed] = participantData.firstVideoData.speedUsage[speed];
-                }
-            });
-        }
-    }
-    
     document.getElementById('total-time').textContent = formatTimeForDisplay(totalTime);
     document.getElementById('final-interactions').textContent = combinedStats.totalInteractions;
     document.getElementById('questions-answered').textContent = combinedStats.questionsAnswered;
     
     //speed usage tracking
-    const statsContainer = document.getElementById('completion-section');
-    const existingDetails = statsContainer.querySelector('.interaction-details');
-    if (!existingDetails) {
-        let speedUsageHtml = '';
-        const usedSpeeds = Object.keys(combinedStats.speedUsage || {}).filter(speed => combinedStats.speedUsage[speed] > 0);
-        if (usedSpeeds.length > 0) {
-            speedUsageHtml = '<h4>Speed Usage Breakdown</h4>';
-            usedSpeeds.forEach(speed => {
-                const duration = combinedStats.speedUsage[speed];
-                const formattedTime = formatTimeForDisplay(duration);
-                speedUsageHtml += `
-                    <div class="stat-item">
-                        <strong>${speed}x Speed:</strong> ${formattedTime}
-                    </div>
-                `;
-            });
-        }
+    // const statsContainer = document.getElementById('completion-section');
+    // const existingDetails = statsContainer.querySelector('.interaction-details');
+    // if (!existingDetails) {
+    //     let speedUsageHtml = '';
+    //     const usedSpeeds = Object.keys(combinedStats.speedUsage || {}).filter(speed => combinedStats.speedUsage[speed] > 0);
+    //     if (usedSpeeds.length > 0) {
+    //         speedUsageHtml = '<h4>Speed Usage Breakdown</h4>';
+    //         usedSpeeds.forEach(speed => {
+    //             const duration = combinedStats.speedUsage[speed];
+    //             const formattedTime = formatTimeForDisplay(duration);
+    //             speedUsageHtml += `
+    //                 <div class="stat-item">
+    //                     <strong>${speed}x Speed:</strong> ${formattedTime}
+    //                 </div>
+    //             `;
+    //         });
+    //     }
         
-        const detailsDiv = document.createElement('div');
-        detailsDiv.className = 'interaction-details';
-        detailsDiv.innerHTML = `
-            <h3>Detailed Interaction Summary ${participantData.currentVideoIndex === 1 ? '(Combined from Both Videos)' : ''}</h3>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <strong>Video Watch Time:</strong> ${formatTimeForDisplay(combinedStats.videoWatchTime)}
-                </div>
-                <div class="stat-item">
-                    <strong>Session Duration:</strong> ${formatTimeForDisplay(combinedStats.sessionDuration)}
-                </div>
-                <div class="stat-item">
-                    <strong>Play Actions:</strong> ${combinedStats.playCount}
-                </div>
-                <div class="stat-item">
-                    <strong>Pause Actions:</strong> ${combinedStats.pauseCount}
-                </div>
-                <div class="stat-item">
-                    <strong>Scrubbing:</strong> ${combinedStats.seekCount}
-                </div>
-                <div class="stat-item">
-                    <strong>Rewind Actions:</strong> ${combinedStats.rewindCount}
-                </div>
-                <div class="stat-item">
-                    <strong>Forward Actions:</strong> ${combinedStats.forwardCount}
-                </div>
-                <div class="stat-item">
-                    <strong>Speed Changes:</strong> ${combinedStats.speedChanges}
-                </div>
-            </div>
-            ${speedUsageHtml}
-        `;
-        statsContainer.appendChild(detailsDiv);
-    }
+    //     const detailsDiv = document.createElement('div');
+    //     detailsDiv.className = 'interaction-details';
+    //     detailsDiv.innerHTML = `
+    //         <h3>Detailed Interaction Summary ${participantData.currentVideoIndex === 1 ? '(Combined from Both Videos)' : ''}</h3>
+    //         <div class="stats-grid">
+    //             <div class="stat-item">
+    //                 <strong>Video Watch Time:</strong> ${formatTimeForDisplay(combinedStats.videoWatchTime)}
+    //             </div>
+    //             <div class="stat-item">
+    //                 <strong>Session Duration:</strong> ${formatTimeForDisplay(combinedStats.sessionDuration)}
+    //             </div>
+    //             <div class="stat-item">
+    //                 <strong>Play Actions:</strong> ${combinedStats.playCount}
+    //             </div>
+    //             <div class="stat-item">
+    //                 <strong>Pause Actions:</strong> ${combinedStats.pauseCount}
+    //             </div>
+    //             <div class="stat-item">
+    //                 <strong>Scrubbing:</strong> ${combinedStats.seekCount}
+    //             </div>
+    //             <div class="stat-item">
+    //                 <strong>Rewind Actions:</strong> ${combinedStats.rewindCount}
+    //             </div>
+    //             <div class="stat-item">
+    //                 <strong>Forward Actions:</strong> ${combinedStats.forwardCount}
+    //             </div>
+    //             <div class="stat-item">
+    //                 <strong>Speed Changes:</strong> ${combinedStats.speedChanges}
+    //             </div>
+    //         </div>
+    //         ${speedUsageHtml}
+    //     `;
+    //     statsContainer.appendChild(detailsDiv);
+    // }
 }
 
 function saveParticipantData() {
@@ -1318,6 +1377,52 @@ function testSpeedChange() {
     console.log('currentPlaybackSpeed variable set to:', currentPlaybackSpeed);
 }
 
+function resetVideoSpecificData() {
+    participantData.videoInteractions = [];
+    participantData.questionResponses = [];
+    participantData.segmentInteractions = [];
+    participantData.totalInteractions = 0;
+    participantData.videoWatchTime = 0;
+    participantData.playCount = 0;
+    participantData.pauseCount = 0;
+    participantData.seekCount = 0;
+    participantData.rewindCount = 0;
+    participantData.forwardCount = 0;
+    participantData.speedChanges = [];
+    participantData.speedUsage = {};
+    
+    // Reset question state
+    currentQuestionIndex = 0;
+    videoWatched = false;
+    
+    // Reset timing variables
+    videoPlayStartTime = null;
+    totalVideoPlayTime = 0;
+    lastVideoTime = 0;
+    currentPlaybackSpeed = 1.0;
+    speedStartTime = null;
+}
+
+async function startNextVideo() {
+    participantData.currentVideoIndex++;
+
+    resetVideoSpecificData();
+
+    await loadCurrentVideo();
+
+    document.getElementById('transition-section').style.display = 'none';
+    document.getElementById('video-section').style.display = 'block';
+
+    resetQuestionsSection();
+
+    participantData.videoSessionStartTime = Date.now();
+    startSessionTimer();
+
+    initializeVideoTracking();
+
+    console.log(`Started video ${participantData.currentVideoIndex + 1}`);
+}
+
 // Study Group Configuration Functions
 async function loadStudyGroupConfig(groupId) {
     try {
@@ -1334,47 +1439,34 @@ async function loadStudyGroupConfig(groupId) {
 }
 
 async function loadCurrentVideo() {
-    if (!studyGroupConfig) {
-        throw new Error('Study group configuration not loaded');
+    const selectedGroup = participantData.studyGroup;
+    const videoOrder = groupConfigurations[selectedGroup];
+    
+    if (videoOrder) {
+        const videoIndex = participantData.currentVideoIndex;
+        const videoName = videoOrder[videoIndex];
+        const videoPath = `./videos/${videoName}/${videoName}.mp4`;
+        const questionnairePath = `./videos/${videoName}/${videoName}_questionnaire.json`;
+        const segmentsPath = `./videos/${videoName}/${videoName}_segments.json`;
+
+        const videoElement = document.getElementById('main-video');
+        videoElement.src = videoPath;
+        await videoElement.load();
+        videoElement.play();
+
+        await loadVideoSegments(segmentsPath)
+        createVideoSegments();
+        await loadVideoQuestions(questionnairePath);
+    } else {
+        console.error('Invalid group selected');
     }
-    
-    const videoInfo = participantData.currentVideoIndex === 0 
-        ? studyGroupConfig.firstVideo 
-        : studyGroupConfig.secondVideo;
-    
-    // Update video title
-    const videoHeader = document.querySelector('.video-header h2');
-    videoHeader.textContent = `Video: ${videoInfo.title}`;
-    
-    // Update video source
-    const video = document.getElementById('main-video');
-    const source = video.querySelector('source');
-    source.src = `video/${videoInfo.filename}`;
-    video.load(); // Reload the video with new source
-    
-    // Load segments for current video
-    await loadVideoSegments(videoInfo);
-    
-    // Create video segments UI after segments are loaded
-    createVideoSegments();
-    
-    // Load questions for current video (if exists)
-    await loadVideoQuestions(videoInfo);
 }
 
-async function loadVideoSegments(videoInfo) {
+async function loadVideoSegments(path) {
     try {
-        // Construct path based on segmentType from individual video config
-        let segmentPath;
-        if (videoInfo.segmentType === "root") {
-            segmentPath = `config/group${participantData.studyGroup}/${videoInfo.segmentsFile}`;
-        } else {
-            segmentPath = `config/group${participantData.studyGroup}/${videoInfo.segmentType}/${videoInfo.segmentsFile}`;
-        }
-        
-        const response = await fetch(segmentPath);
+        const response = await fetch(path);
         if (!response.ok) {
-            throw new Error(`Failed to load segments file: ${segmentPath}`);
+            throw new Error(`Failed to load segments file: ${path}`);
         }
         currentVideoSegments = await response.json();
         console.log('Loaded video segments:', currentVideoSegments);
@@ -1385,23 +1477,11 @@ async function loadVideoSegments(videoInfo) {
     }
 }
 
-async function loadVideoQuestions(videoInfo) {
+async function loadVideoQuestions(path) {
     try {
-        // Try to load questionnaire file for this video
-        const questionnaireFile = videoInfo.segmentsFile.replace('_segments.json', '_questionnaire.json');
-        
-        // Construct path based on segmentType from individual video config
-        let questionnairePath;
-        if (videoInfo.segmentType === "root") {
-            questionnairePath = `config/group${participantData.studyGroup}/${questionnaireFile}`;
-        } else {
-            // For files in subdirectories like 'creator', questionnaire files are in root
-            questionnairePath = `config/group${participantData.studyGroup}/${questionnaireFile}`;
-        }
-        
-        const response = await fetch(questionnairePath);
+        const response = await fetch(path);
         if (!response.ok) {
-            throw new Error(`Failed to load questionnaire file: ${questionnairePath}`);
+            throw new Error(`Failed to load questionnaire file: ${path}`);
         }
         let loadedQuestions = await response.json();
         
@@ -1433,83 +1513,83 @@ async function loadVideoQuestions(videoInfo) {
     }
 }
 
-function downloadFirstVideoData() {
-    // Save current video data before transitioning
-    participantData.firstVideoData = {
-        videoInteractions: [...participantData.videoInteractions],
-        questionResponses: [...participantData.questionResponses],
-        segmentInteractions: [...participantData.segmentInteractions],
-        totalInteractions: participantData.totalInteractions,
-        videoWatchTime: participantData.videoWatchTime,
-        playCount: participantData.playCount,
-        pauseCount: participantData.pauseCount,
-        seekCount: participantData.seekCount,
-        rewindCount: participantData.rewindCount,
-        forwardCount: participantData.forwardCount,
-        speedChanges: [...participantData.speedChanges],
-        speedUsage: {...participantData.speedUsage}
-    };
+// function downloadFirstVideoData() {
+//     // Save current video data before transitioning
+//     participantData.firstVideoData = {
+//         videoInteractions: [...participantData.videoInteractions],
+//         questionResponses: [...participantData.questionResponses],
+//         segmentInteractions: [...participantData.segmentInteractions],
+//         totalInteractions: participantData.totalInteractions,
+//         videoWatchTime: participantData.videoWatchTime,
+//         playCount: participantData.playCount,
+//         pauseCount: participantData.pauseCount,
+//         seekCount: participantData.seekCount,
+//         rewindCount: participantData.rewindCount,
+//         forwardCount: participantData.forwardCount,
+//         speedChanges: [...participantData.speedChanges],
+//         speedUsage: {...participantData.speedUsage}
+//     };
     
-    // Download the first video data
-    const firstVideoData = {
-        ...participantData,
-        videoNumber: 1,
-        downloadTime: new Date().toISOString()
-    };
+//     // Download the first video data
+//     const firstVideoData = {
+//         ...participantData,
+//         videoNumber: 1,
+//         downloadTime: new Date().toISOString()
+//     };
     
-    const dataStr = JSON.stringify(firstVideoData, null, 2);
-    const dataBlob = new Blob([dataStr], {type: 'application/json'});
-    const url = URL.createObjectURL(dataBlob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `participant_${participantData.id}_video1_data.json`;
-    link.click();
-    URL.revokeObjectURL(url);
+//     const dataStr = JSON.stringify(firstVideoData, null, 2);
+//     const dataBlob = new Blob([dataStr], {type: 'application/json'});
+//     const url = URL.createObjectURL(dataBlob);
+//     const link = document.createElement('a');
+//     link.href = url;
+//     link.download = `participant_${participantData.id}_video1_data.json`;
+//     link.click();
+//     URL.revokeObjectURL(url);
     
-    console.log('First video data downloaded');
-}
+//     console.log('First video data downloaded');
+// }
 
-async function startSecondVideo() {
-    // Reset video-specific data for second video
-    participantData.currentVideoIndex = 1;
-    participantData.videoInteractions = [];
-    participantData.questionResponses = [];
-    participantData.segmentInteractions = [];
-    participantData.totalInteractions = 0;
-    participantData.videoWatchTime = 0;
-    participantData.playCount = 0;
-    participantData.pauseCount = 0;
-    participantData.seekCount = 0;
-    participantData.rewindCount = 0;
-    participantData.forwardCount = 0;
-    participantData.speedChanges = [];
-    participantData.speedUsage = {};
+// async function startSecondVideo() {
+//     // Reset video-specific data for second video
+//     participantData.currentVideoIndex = 1;
+//     participantData.videoInteractions = [];
+//     participantData.questionResponses = [];
+//     participantData.segmentInteractions = [];
+//     participantData.totalInteractions = 0;
+//     participantData.videoWatchTime = 0;
+//     participantData.playCount = 0;
+//     participantData.pauseCount = 0;
+//     participantData.seekCount = 0;
+//     participantData.rewindCount = 0;
+//     participantData.forwardCount = 0;
+//     participantData.speedChanges = [];
+//     participantData.speedUsage = {};
     
-    // Reset question state
-    currentQuestionIndex = 0;
-    videoWatched = false;
+//     // Reset question state
+//     currentQuestionIndex = 0;
+//     videoWatched = false;
     
-    // Load second video configuration
-    await loadCurrentVideo();
+//     // Load second video configuration
+//     await loadCurrentVideo();
     
-    // Hide transition section and show video section
-    document.getElementById('transition-section').style.display = 'none';
-    document.getElementById('video-section').style.display = 'block';
+//     // Hide transition section and show video section
+//     document.getElementById('transition-section').style.display = 'none';
+//     document.getElementById('video-section').style.display = 'block';
     
-    // createVideoSegments() is now called in loadCurrentVideo() after segments are loaded
+//     // createVideoSegments() is now called in loadCurrentVideo() after segments are loaded
     
-    // Reset questions section
-    resetQuestionsSection();
+//     // Reset questions section
+//     resetQuestionsSection();
     
-    // Restart video session timing
-    participantData.videoSessionStartTime = Date.now();
-    startSessionTimer();
+//     // Restart video session timing
+//     participantData.videoSessionStartTime = Date.now();
+//     startSessionTimer();
     
-    // Re-initialize video tracking
-    initializeVideoTracking();
+//     // Re-initialize video tracking
+//     initializeVideoTracking();
     
-    console.log('Started second video');
-}
+//     console.log('Started second video');
+// }
 
 function resetQuestionsSection() {
     // Reset questions display
