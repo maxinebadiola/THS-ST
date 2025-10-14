@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is compared to Pantone for everyday printing?",
+        "type": "multiple-choice",
+        "options": [
+            "RGB",
+            "CMYK",
+            "HSL",
+            "Grayscale"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "Pantone recommends replacing their products every:",
+        "type": "multiple-choice",
+        "options": [
+            "6 months",
+            "10 months",
+            "18 months",
+            "24 months"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "What is the name of the man that started working on Pantone?",
+        "type": "multiple-choice",
+        "options": [
+            "Larry Page",
+            "Larry Hubert",
+            "John Pantone",
+            "Carl Anderson"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "What year did they start working on Pantone?",
+        "type": "multiple-choice",
+        "options": [
+            "1946",
+            "1950",
+            "1956",
+            "1960"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "question": "What was the name of the company that was Pantone’s competitor and was sued?",
+        "type": "multiple-choice",
+        "options": [
+            "ColorTone",
+            "Para-tone",
+            "MultiTone",
+            "ToneCraft"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "question": "Pantone colors are premixed with 11 base inks.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 7,
+        "question": "Pantone released its first guides in 1963.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 8,
+        "question": "Pantone was bought in 2002 by X-Rite, a large color science company.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "The Pantone Adobe plug-in had a one star rating.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 10,
+        "question": "Pantone sells ink.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    }
+]

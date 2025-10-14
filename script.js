@@ -31,10 +31,10 @@ let participantData = {
 };
 
 const groupConfigurations = {
-    group1: ["fungi_map", "engineering_map", "pantone_colors", "airport_food"],
-    group2: ["pantone_colors", "airport_food", "fungi_map", "engineering_map"],
-    group3: ["engineering_map", "fungi_map", "airport_food", "pantone_colors"],
-    group4: ["airport_food", "pantone_colors", "engineering_map", "fungi_map"]
+    1: ["fungi_map", "engineering_map", "pantone_colors", "airport_food"],
+    2: ["pantone_colors", "airport_food", "fungi_map", "engineering_map"],
+    3: ["engineering_map", "fungi_map", "airport_food", "pantone_colors"],
+    4: ["airport_food", "pantone_colors", "engineering_map", "fungi_map"]
 };
 
 let currentQuestionIndex = 0;
@@ -1442,6 +1442,9 @@ async function loadCurrentVideo() {
     const selectedGroup = participantData.studyGroup;
     const videoOrder = groupConfigurations[selectedGroup];
     
+    console.log('Loading video for group:', selectedGroup);
+    console.log('Video order for group:', videoOrder);
+
     if (videoOrder) {
         const videoIndex = participantData.currentVideoIndex;
         const videoName = videoOrder[videoIndex];
@@ -1451,12 +1454,18 @@ async function loadCurrentVideo() {
 
         const videoElement = document.getElementById('main-video');
         videoElement.src = videoPath;
-        await videoElement.load();
-        videoElement.play();
 
-        await loadVideoSegments(segmentsPath)
-        createVideoSegments();
-        await loadVideoQuestions(questionnairePath);
+        try {
+            await videoElement.load();
+            videoElement.play();
+
+            await loadVideoSegments(segmentsPath);
+            createVideoSegments();
+            await loadVideoQuestions(questionnairePath);
+        } catch (error) {
+            console.error('Error loading video or associated files:', error);
+            // Fallback actions can be added here if needed
+        }
     } else {
         console.error('Invalid group selected');
     }

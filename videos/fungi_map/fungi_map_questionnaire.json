@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "How many percent of fungi produce mushrooms?",
+        "type": "multiple-choice",
+        "options": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "Approximately, how many fungal species have been discovered so far?",
+        "type": "multiple-choice",
+        "options": [
+            "50,000",
+            "100,000",
+            "150,000",
+            "200,000"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "What estimate is given for the total possible number of fungal species (both discovered and undiscovered)?",
+        "type": "multiple-choice",
+        "options": [
+            "200,000",
+            "500,000",
+            "700,000",
+            "1,000,000"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 4,
+        "question": "The zombie ant fungus is also called:",
+        "type": "multiple-choice",
+        "options": [
+            "Penicillium chrysogenum",
+            "Aspergillus niger",
+            "Ophiocordyceps unilateralis",
+            "Rhizopus stolonifer"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "question": "What is the relationship between fungi and most plants called?",
+        "type": "multiple-choice",
+        "options": [
+            "Photosynthesis",
+            "Mycorrhiza",
+            "Parasitism",
+            "Symbiosis"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "question": "The biggest impact of fungi on medicine is their ability to kill bacteria.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 7,
+        "question": "The main job of the mushroom is to produce spores.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 8,
+        "question": "Hyphae externally digest their surroundings.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 9,
+        "question": "Fungi reproduces only asexually.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 10,
+        "question": "All fungi are harmful to humans.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    }
+]

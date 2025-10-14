@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Some airports used to have fancy restaurants where people went for:",
+        "type": "multiple-choice",
+        "options": [
+            "Lunch breaks",
+            "Anniversaries",
+            "Business meetings",
+            "Quick snacks"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "When did the Congress deregulate the airline industry?",
+        "type": "multiple-choice",
+        "options": [
+            "1968",
+            "1978",
+            "1988",
+            "1998"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 3,
+        "question": "The first U.S. airport to turn its terminal into a shopping mall was:",
+        "type": "multiple-choice",
+        "options": [
+            "LAX",
+            "JFK",
+            "Pittsburgh",
+            "Atlanta"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 4,
+        "question": "How much of U.S. airport revenue comes from non-aeronautical sources?",
+        "type": "multiple-choice",
+        "options": [
+            "One-third",
+            "Half",
+            "Two-thirds",
+            "Almost none"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "Street pricing means:",
+        "type": "multiple-choice",
+        "options": [
+            "Everything is 50% cheaper",
+            "Airport prices match outside prices",
+            "Free meals for all passengers",
+            "Businesses can set any price"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "question": "Many airport food courts are operated by the same company.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 7,
+        "question": "After deregulation, airline ticket prices went up.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "question": "Dwell time is how long planes stay on the runway.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "Most U.S. airport food and retail is controlled by six major corporations.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 10,
+        "question": "Portland, Oregon are one of the few that don’t use street pricing plus.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    }
+]

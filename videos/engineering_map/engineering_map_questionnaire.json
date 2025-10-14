@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What type of civil engineering deals with ensuring buildings are safe and strong?",
+        "type": "multiple-choice",
+        "options": [
+            "Transportation engineering",
+            "Structural engineering",
+            "Geotechnical engineering",
+            "Environmental engineering"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "What type of civil engineering deals with improving the quality of the environment for living organisms?",
+        "type": "multiple-choice",
+        "options": [
+            "Structural engineering",
+            "Hydraulic engineering",
+            "Environmental engineering",
+            "Construction engineering"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "Which realm of engineering deals with the fabrication of prosthetics?",
+        "type": "multiple-choice",
+        "options": [
+            "Chemical engineering",
+            "Biomedical engineering",
+            "Civil engineering",
+            "Mechanical engineering"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "A large part of mechanical engineering is involved in the process of making large quantities of machines known as:",
+        "type": "multiple-choice",
+        "options": [
+            "Structural engineering",
+            "Industrial engineering",
+            "Civil engineering",
+            "Electrical engineering"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "Naval engineering or naval architecture is closely related to what type of engineering?",
+        "type": "multiple-choice",
+        "options": [
+            "Marine engineering",
+            "Aerospace engineering",
+            "Electrical engineering",
+            "Civil engineering"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 6,
+        "question": "Photonics is related to the study of light.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 7,
+        "question": "Mechanical engineers only work with computers.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "question": "Chemical engineering can work with making fuels and plastics.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 9,
+        "question": "Aerospace engineering is not highly interdisciplinary.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 10,
+        "question": "Vacuum technology is a part of mechanical engineering.",
+        "type": "true-false",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": 0
+    }
+]
