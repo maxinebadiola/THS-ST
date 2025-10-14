@@ -643,7 +643,7 @@ function updateTransitionSection() {
 
     const downloadButton = document.getElementById('download-first-video-data');
     downloadButton.textContent = `Download Video ${videoNumber} Data`;
-    downloadBtn.onclick = () => downloadCurrentVideoData();
+    downloadButton.onclick = () => downloadCurrentVideoData();
 
     const continueBtn = document.getElementById('start-second-video');
     continueBtn.textContent = `Start Video ${nextVideoNumber}`;
