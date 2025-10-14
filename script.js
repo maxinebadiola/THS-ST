@@ -24,10 +24,29 @@ let participantData = {
     speedUsage: {}, // Track duration spent at each speed (e.g., "1": 120000, "2": 30000)
     // Multi-video session data
     currentVideoIndex: 0, // 0 for first video, 1 for second video, 2 for third video, 3 for fourth video
-    firstVideoData: null, // Store first video's data separately
-    secondVideoData: null, // Store second video's data separately
-    thirdVideoData: null, // Store third video's data separately
-    fourthVideoData: null // Store fourth video's data separately
+    // firstVideoData: null, // Store first video's data separately
+    // secondVideoData: null, // Store second video's data separately
+    // thirdVideoData: null, // Store third video's data separately
+    // fourthVideoData: null // Store fourth video's data separately
+};
+
+const videoMetadata = {
+    fungi_map: {
+        title: "The Fascinating Map of Fungi",
+        filename: "fungi_map.mp4"
+    },
+    engineering_map: {
+        title: "The Map of Engineering", 
+        filename: "engineering_map.mp4"
+    },
+    pantone_colors: {
+        title: "Why Pantone Colors Are So Expensive | So Expensive | Business Insider",
+        filename: "pantone_colors.mp4"
+    },
+    airport_food: {
+        title: "Why Airport Food Is So Expensive",
+        filename: "airport_food.mp4"
+    }
 };
 
 const groupConfigurations = {
@@ -206,7 +225,7 @@ function trackVideoEvent(eventType, additionalData = {}) {
         type: eventType,
         timestamp: currentTimestamp,
         relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
-        videoTime: currentTime,
+        videoTime: formatTime(currentTime),
         relativeTime: currentTimestamp - studyStartTime,
         ...additionalData
     };
@@ -339,8 +358,8 @@ function jumpToSegment(segment, index) {
         segmentName: segment.name,
         jumpDirection: jumpDirection,
         jumpAmount: jumpAmount,
-        previousVideoTime: previousTime,
-        newVideoTime: segment.start
+        previousVideoTime: formatTime(previousTime),
+        newVideoTime: formatTime(segment.start)
     });
     
     const currentTimestamp = Date.now();
@@ -586,6 +605,12 @@ function submitAnswer() {
 }
 
 function completeStudy() {
+    const video = document.getElementById('main-video');
+    if (video && !video.paused) {
+        video.pause();
+        console.log('Video paused on study completion');
+    }
+
     participantData.endTime = new Date();
     stopVideoPlayTimer();
     stopSessionTimer();
@@ -635,11 +660,17 @@ function updateTransitionSection() {
     const videoNumber = participantData.currentVideoIndex + 1;
     const nextVideoNumber = videoNumber + 1;
 
+    const selectedGroup = participantData.studyGroup;
+    const videoOrder = groupConfigurations[selectedGroup];
+    const currentVideoKey = videoOrder[participantData.currentVideoIndex];
+    const currentVideoInfo = videoMetadata[currentVideoKey];
+    const currentVideoTitle = currentVideoInfo ? currentVideoInfo.title : "Unknown Video";
+
     document.querySelector('#transition-section h2').textContent = `Video ${videoNumber} Complete!`;
     document.querySelector('#transition-section h3').textContent = `🎉 Congratulations! You have finished video ${videoNumber} of 4.`;
 
     document.querySelector('.step h4').textContent = `Step 1: Download Video ${videoNumber} Results`;
-    document.querySelector('.step p').textContent = `Please download your results from video ${videoNumber} before proceeding.`;
+    document.querySelector('.step p').textContent = `Please download your results from video ${currentVideoTitle} before proceeding.`;
 
     const downloadButton = document.getElementById('download-first-video-data');
     downloadButton.textContent = `Download Video ${videoNumber} Data`;
@@ -654,11 +685,9 @@ function updateTransitionSection() {
 
 function saveCurrentVideoData() {
     const currentData = {
-        videoInteractions: [...participantData.videoInteractions],
-        questionResponses: [...participantData.questionResponses],
-        segmentInteractions: [...participantData.segmentInteractions],
         totalInteractions: participantData.totalInteractions,
         videoWatchTime: participantData.videoWatchTime,
+        videoWatchTimeFormatted: formatTime(participantData.videoWatchTime / 1000),
         playCount: participantData.playCount,
         pauseCount: participantData.pauseCount,
         seekCount: participantData.seekCount,
@@ -666,31 +695,37 @@ function saveCurrentVideoData() {
         forwardCount: participantData.forwardCount,
         speedChanges: [...(participantData.speedChanges || [])],
         speedUsage: {...(participantData.speedUsage || {})},
-        sessionDuration: participantData.sessionDuration
+        sessionDuration: participantData.sessionDuration,
+        sessionDurationFormatted: formatTime(participantData.sessionDuration / 1000),
     }
 
-    switch(participantData.currentVideoIndex) {
-        case 0:
-            participantData.firstVideoData = currentData;
-            break;
-        case 1:
-            participantData.secondVideoData = currentData;
-            break;
-        case 2:
-            participantData.thirdVideoData = currentData;
-            break;
-        case 3:
-            participantData.fourthVideoData = currentData;
-            break;
-    }
+    // switch(participantData.currentVideoIndex) {
+    //     case 0:
+    //         participantData.firstVideoData = currentData;
+    //         break;
+    //     case 1:
+    //         participantData.secondVideoData = currentData;
+    //         break;
+    //     case 2:
+    //         participantData.thirdVideoData = currentData;
+    //         break;
+    //     case 3:
+    //         participantData.fourthVideoData = currentData;
+    //         break;
+    // }
 }
 
 function downloadCurrentVideoData() {
     const videoNumber = participantData.currentVideoIndex + 1;
-
+    
+    const selectedGroup = participantData.studyGroup;
+    const videoOrder = groupConfigurations[selectedGroup];
+    const videoKey = videoOrder[participantData.currentVideoIndex];
+    
     const downloadData = {
         ...participantData,
         videoNumber: videoNumber,
+        videoKey: videoKey,
         downloadTimestamp: new Date().toISOString(),
         isIndividualVideoData: true // Flag to indicate this is individual video data
     };
@@ -700,11 +735,11 @@ function downloadCurrentVideoData() {
     const url = URL.createObjectURL(dataBlob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `participant_${participantData.id}_video${videoNumber}_data.json`;
+    link.download = `participant_${participantData.id}_${videoKey}_data.json`;
     link.click();
     URL.revokeObjectURL(url);
     
-    console.log(`Video ${videoNumber} data downloaded`);
+    console.log(`Video ${videoNumber} (${videoKey}) data downloaded`);
 }
 
 function updateCompletionStats() {
@@ -1251,6 +1286,16 @@ function initializeSpeedControls() {
     
     console.log('Initializing speed controls');
     
+    speedSelector.value = '1';
+    customSpeedInput.style.display = 'none';
+    customSpeedInput.value = '';
+    currentSpeedDisplay.textContent = 'Current: 1x';
+
+    if (video) {
+        video.playbackRate = 1.0;
+    }
+    currentPlaybackSpeed = 1.0;
+
     // Initialize speed tracking - don't set speedStartTime until video starts playing
     if (!participantData.speedUsage) {
         participantData.speedUsage = {};
@@ -1287,6 +1332,38 @@ function initializeSpeedControls() {
     });
 }
 
+function resetSpeedControls() {
+    const video = document.getElementById('main-video');
+    const speedSelector = document.getElementById('speed-selector');
+    const customSpeedInput = document.getElementById('custom-speed');
+    const currentSpeedDisplay = document.getElementById('current-speed-display');
+    
+    // Check if elements exist
+    if (!speedSelector || !customSpeedInput || !currentSpeedDisplay) {
+        console.log('Speed control elements not found during reset');
+        return;
+    }
+    
+    console.log('Resetting speed controls to 1x');
+    
+    // Reset UI elements
+    speedSelector.value = '1';
+    customSpeedInput.style.display = 'none';
+    customSpeedInput.value = '';
+    currentSpeedDisplay.textContent = 'Current: 1x';
+    
+    // Reset video playback speed
+    if (video) {
+        video.playbackRate = 1.0;
+    }
+    
+    // Reset tracking variables
+    currentPlaybackSpeed = 1.0;
+    speedStartTime = null;
+    
+    console.log('Speed controls reset to 1x');
+}
+
 function setVideoPlaybackSpeed(newSpeed) {
     const video = document.getElementById('main-video');
     const currentSpeedDisplay = document.getElementById('current-speed-display');
@@ -1312,7 +1389,8 @@ function setVideoPlaybackSpeed(newSpeed) {
         type: 'speed_change',
         timestamp: currentTimestamp,
         relativeTimestamp: formatRelativeTimestamp(currentTimestamp, participantData.videoSessionStartTime),
-        videoTime: video.currentTime,
+        videoTime: formatTime(video.currentTime),
+        videoTimeRaw: video.currentTime,
         previousSpeed: currentPlaybackSpeed,
         newSpeed: newSpeed,
         relativeTime: currentTimestamp - studyStartTime
@@ -1401,6 +1479,8 @@ function resetVideoSpecificData() {
     lastVideoTime = 0;
     currentPlaybackSpeed = 1.0;
     speedStartTime = null;
+
+    resetSpeedControls();
 }
 
 async function startNextVideo() {
@@ -1445,29 +1525,46 @@ async function loadCurrentVideo() {
     console.log('Loading video for group:', selectedGroup);
     console.log('Video order for group:', videoOrder);
 
-    if (videoOrder) {
+    if (videoOrder && videoOrder.length > participantData.currentVideoIndex) {
         const videoIndex = participantData.currentVideoIndex;
-        const videoName = videoOrder[videoIndex];
-        const videoPath = `./videos/${videoName}/${videoName}.mp4`;
-        const questionnairePath = `./videos/${videoName}/${videoName}_questionnaire.json`;
-        const segmentsPath = `./videos/${videoName}/${videoName}_segments.json`;
+        const videoKey = videoOrder[videoIndex];
+        const videoInfo = videoMetadata[videoKey];
+        
+        if (!videoInfo) {
+            console.error(`Video metadata not found for key: ${videoKey}`);
+            return;
+        }
+        
+        const videoPath = `./videos/${videoKey}/${videoInfo.filename}`;
+        const questionnairePath = `./videos/${videoKey}/${videoKey}_questionnaire.json`;
+        const segmentsPath = `./videos/${videoKey}/${videoKey}_segments.json`;
+
+        const videoHeader = document.querySelector('.video-header h2');
+        if (videoHeader) {
+            videoHeader.textContent = `Video ${participantData.currentVideoIndex + 1}: ${videoInfo.title}`;
+        }
 
         const videoElement = document.getElementById('main-video');
         videoElement.src = videoPath;
 
         try {
             await videoElement.load();
+
+            videoElement.playbackRate = 1.0;
+            currentPlaybackSpeed = 1.0;
+
             videoElement.play();
 
             await loadVideoSegments(segmentsPath);
             createVideoSegments();
             await loadVideoQuestions(questionnairePath);
+
+            resetSpeedControls();
         } catch (error) {
             console.error('Error loading video or associated files:', error);
-            // Fallback actions can be added here if needed
         }
     } else {
-        console.error('Invalid group selected');
+        console.error('Invalid group selected or video index out of range');
     }
 }
 
