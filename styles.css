@@ -1153,6 +1153,21 @@ body {
     margin-bottom: 30px;
 }
 
+.detected-videos {
+    margin-top: 20px;
+    padding: 20px;
+    background: #0f172a;
+    border-radius: 8px;
+    border: 1px solid #475569;
+}
+
+.detected-videos h3 {
+    color: #f1f5f9;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
 .file-input-group {
     display: flex;
     flex-direction: column;
@@ -1166,17 +1181,18 @@ body {
 }
 
 .file-input-group input[type="file"] {
-    padding: 10px;
+    padding: 12px;
     background: #334155;
-    border: 2px solid #475569;
-    border-radius: 6px;
+    border: 2px dashed #475569;
+    border-radius: 8px;
     color: #e2e8f0;
     cursor: pointer;
     transition: all 0.2s ease;
+    font-size: 0.95rem;
 }
 
 .file-input-group input[type="file"]:hover {
-    border-color: #64748b;
+    border-color: #059669;
     background: #3f4b5f;
 }
 
@@ -1186,17 +1202,36 @@ body {
     box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.2);
 }
 
-.file-status {
-    font-size: 0.85rem;
-    min-height: 20px;
+.detected-videos .file-input-group {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #1e293b;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 
-.file-status.valid {
+.detected-videos .file-input-group label {
+    margin: 0;
+}
+
+.file-status {
+    font-size: 0.9rem;
+    min-height: 20px;
+    font-weight: 500;
+}
+
+.file-status.success {
     color: #10b981;
 }
 
-.file-status.invalid {
+.file-status.error {
     color: #ef4444;
+}
+
+.file-status.validating {
+    color: #f59e0b;
 }
 
 .validation-messages {
@@ -1236,6 +1271,17 @@ body {
 
 .modal-actions .btn {
     margin: 0;
+}
+
+.modal-actions .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #475569;
+}
+
+.modal-actions .btn:disabled:hover {
+    background: #475569;
+    transform: none;
 }
 
 /* Loading and Transition Effects */

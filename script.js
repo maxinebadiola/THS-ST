@@ -169,93 +169,91 @@ function initializeApp() {
 }
 
 // video file selection modal functions
+let validatedVideos = {
+    fungi_map: false,
+    engineering_map: false,
+    pantone_colors: false,
+    airport_food: false
+};
+
 function showVideoFileModal() {
     const modal = document.getElementById('video-file-modal');
     modal.style.display = 'flex';
     
-    // setup file input listeners
-    document.getElementById('fungi-map-file').addEventListener('change', handleFileSelection);
-    document.getElementById('engineering-map-file').addEventListener('change', handleFileSelection);
-    document.getElementById('pantone-colors-file').addEventListener('change', handleFileSelection);
-    document.getElementById('airport-food-file').addEventListener('change', handleFileSelection);
-    
-    // setup validation button
-    document.getElementById('validate-videos-btn').addEventListener('click', validateVideoFiles);
+    // setup file input listener for multiple file selection
+    document.getElementById('video-files').addEventListener('change', handleMultipleFileSelection);
     document.getElementById('continue-study-btn').addEventListener('click', closeVideoFileModal);
 }
 
-function handleFileSelection(event) {
-    const fileInput = event.target;
-    const file = fileInput.files[0];
-    const inputId = fileInput.id;
-    let videoKey = '';
+async function handleMultipleFileSelection(event) {
+    const files = Array.from(event.target.files);
     
-    // map input id to video key
-    if (inputId === 'fungi-map-file') videoKey = 'fungi_map';
-    else if (inputId === 'engineering-map-file') videoKey = 'engineering_map';
-    else if (inputId === 'pantone-colors-file') videoKey = 'pantone_colors';
-    else if (inputId === 'airport-food-file') videoKey = 'airport_food';
+    if (files.length === 0) return;
     
-    if (file && videoKey) {
-        const statusElement = document.getElementById(inputId.replace('-file', '-status'));
-        statusElement.textContent = 'file selected: ' + file.name;
-        statusElement.className = 'file-status';
+    // Process each file
+    for (const file of files) {
+        await detectAndValidateVideo(file);
     }
+    
+    // Check if all videos are validated
+    checkAllVideosValidated();
 }
 
-async function validateVideoFiles() {
-    const fungiFile = document.getElementById('fungi-map-file').files[0];
-    const engineeringFile = document.getElementById('engineering-map-file').files[0];
-    const pantoneFile = document.getElementById('pantone-colors-file').files[0];
-    const airportFile = document.getElementById('airport-food-file').files[0];
+async function detectAndValidateVideo(file) {
+    const filename = file.name.toLowerCase();
+    let videoKey = null;
+    let statusElementId = null;
     
-    const errors = [];
-    const validationContainer = document.getElementById('validation-errors');
-    const successContainer = document.getElementById('validation-success');
+    // Auto-detect video based on filename
+    if (filename.includes('fungi') || filename.includes('map of fungi')) {
+        videoKey = 'fungi_map';
+        statusElementId = 'fungi-map-status';
+    } else if (filename.includes('engineering') || filename.includes('map of engineering')) {
+        videoKey = 'engineering_map';
+        statusElementId = 'engineering-map-status';
+    } else if (filename.includes('pantone') || filename.includes('color')) {
+        videoKey = 'pantone_colors';
+        statusElementId = 'pantone-colors-status';
+    } else if (filename.includes('airport') || filename.includes('food')) {
+        videoKey = 'airport_food';
+        statusElementId = 'airport-food-status';
+    }
     
-    // check if all files are selected
-    if (!fungiFile) errors.push('- The Fascinating Map of Fungi video is required');
-    if (!engineeringFile) errors.push('- The Map of Engineering video is required');
-    if (!pantoneFile) errors.push('- Why Pantone Colors Are So Expensive video is required');
-    if (!airportFile) errors.push('- Why Airport Food Is So Expensive video is required');
-    
-    if (errors.length > 0) {
-        validationContainer.innerHTML = 'Please select all required videos:<br>' + errors.join('<br>');
-        successContainer.style.display = 'none';
+    if (!videoKey) {
+        console.log(`Could not auto-detect video: ${filename}`);
         return;
     }
     
-    // validate each file
-    const validations = [
-        validateVideoFile(fungiFile, 'fungi_map', 'fungi-map-status'),
-        validateVideoFile(engineeringFile, 'engineering_map', 'engineering-map-status'),
-        validateVideoFile(pantoneFile, 'pantone_colors', 'pantone-colors-status'),
-        validateVideoFile(airportFile, 'airport_food', 'airport-food-status')
-    ];
+    // Validate the video
+    await validateVideoFile(file, videoKey, statusElementId);
+}
+
+function checkAllVideosValidated() {
+    const allValidated = Object.values(validatedVideos).every(v => v === true);
+    const continueBtn = document.getElementById('continue-study-btn');
+    const successContainer = document.getElementById('validation-success');
+    const errorsContainer = document.getElementById('validation-errors');
     
-    try {
-        const results = await Promise.all(validations);
-        const allValid = results.every(result => result.valid);
-        
-        if (allValid) {
-            // store the file object urls
-            localVideoFiles.fungi_map = URL.createObjectURL(fungiFile);
-            localVideoFiles.engineering_map = URL.createObjectURL(engineeringFile);
-            localVideoFiles.pantone_colors = URL.createObjectURL(pantoneFile);
-            localVideoFiles.airport_food = URL.createObjectURL(airportFile);
-            
-            validationContainer.innerHTML = '';
-            successContainer.style.display = 'block';
-            document.getElementById('validate-videos-btn').style.display = 'none';
-            document.getElementById('continue-study-btn').style.display = 'inline-block';
-        } else {
-            const errorMessages = results.filter(r => !r.valid).map(r => r.error);
-            validationContainer.innerHTML = 'Validation errors:<br>- ' + errorMessages.join('<br>- ');
-            successContainer.style.display = 'none';
-        }
-    } catch (error) {
-        validationContainer.innerHTML = 'error validating videos: ' + error.message;
+    if (allValidated) {
+        continueBtn.disabled = false;
+        successContainer.style.display = 'block';
+        errorsContainer.innerHTML = '';
+        errorsContainer.style.display = 'none';
+    } else {
+        continueBtn.disabled = true;
         successContainer.style.display = 'none';
+        
+        // Show which videos are still needed
+        const missing = [];
+        if (!validatedVideos.fungi_map) missing.push('The Fascinating Map of Fungi');
+        if (!validatedVideos.engineering_map) missing.push('The Map of Engineering');
+        if (!validatedVideos.pantone_colors) missing.push('Why Pantone Colors Are So Expensive');
+        if (!validatedVideos.airport_food) missing.push('Why Airport Food Is So Expensive');
+        
+        if (missing.length > 0 && missing.length < 4) {
+            errorsContainer.innerHTML = `<p>Still needed: ${missing.join(', ')}</p>`;
+            errorsContainer.style.display = 'block';
+        }
     }
 }
 
@@ -263,55 +261,51 @@ async function validateVideoFile(file, videoKey, statusElementId) {
     const statusElement = document.getElementById(statusElementId);
     const metadata = videoMetadata[videoKey];
     
+    statusElement.textContent = '⏳ Validating...';
+    statusElement.className = 'file-status validating';
+    
     return new Promise((resolve, reject) => {
-        // check file type
-        if (!file.type.startsWith('video/')) {
-            statusElement.textContent = 'error: not a video file';
-            statusElement.className = 'file-status invalid';
-            resolve({ valid: false, error: file.name + ' is not a valid video file' });
-            return;
-        }
-        
-        // check file extension
-        if (!file.name.toLowerCase().endsWith('.mp4')) {
-            statusElement.textContent = 'error: must be mp4 format';
-            statusElement.className = 'file-status invalid';
-            resolve({ valid: false, error: file.name + ' must be an mp4 file' });
-            return;
-        }
-        
-        // create video element to check duration
         const video = document.createElement('video');
         video.preload = 'metadata';
         
         video.onloadedmetadata = function() {
-            window.URL.revokeObjectURL(video.src);
+            URL.revokeObjectURL(video.src);
             const duration = video.duration;
             
-            // validate duration is reasonable for a video (at least 1 minute, max 30 minutes)
-            if (duration < 60) {
-                statusElement.textContent = 'error: video too short';
-                statusElement.className = 'file-status invalid';
-                resolve({ valid: false, error: file.name + ' is too short (minimum 1 minute)' });
-                return;
+            // Validate duration is within acceptable range
+            if (duration < metadata.minDuration) {
+                statusElement.textContent = `❌ Too short (${Math.floor(duration)}s)`;
+                statusElement.className = 'file-status error';
+                validatedVideos[videoKey] = false;
+                checkAllVideosValidated();
+                resolve();
+            } else if (duration > metadata.maxDuration) {
+                statusElement.textContent = `❌ Too long (${Math.floor(duration)}s)`;
+                statusElement.className = 'file-status error';
+                validatedVideos[videoKey] = false;
+                checkAllVideosValidated();
+                resolve();
+            } else {
+                // Store the file URL
+                localVideoFiles[videoKey] = URL.createObjectURL(file);
+                metadata.expectedDuration = duration;
+                
+                statusElement.textContent = `✅ Validated (${Math.floor(duration)}s)`;
+                statusElement.className = 'file-status success';
+                validatedVideos[videoKey] = true;
+                
+                console.log(`Validated ${videoKey}: ${file.name}`);
+                checkAllVideosValidated();
+                resolve();
             }
-            
-            if (duration > 1800) {
-                statusElement.textContent = 'error: video too long';
-                statusElement.className = 'file-status invalid';
-                resolve({ valid: false, error: file.name + ' is too long (maximum 30 minutes)' });
-                return;
-            }
-            
-            statusElement.textContent = 'valid - duration: ' + formatTime(duration);
-            statusElement.className = 'file-status valid';
-            resolve({ valid: true });
         };
         
         video.onerror = function() {
-            statusElement.textContent = 'error: could not load video';
-            statusElement.className = 'file-status invalid';
-            resolve({ valid: false, error: file.name + ' could not be loaded or is corrupted' });
+            statusElement.textContent = '❌ Invalid video file';
+            statusElement.className = 'file-status error';
+            validatedVideos[videoKey] = false;
+            checkAllVideosValidated();
+            resolve();
         };
         
         video.src = URL.createObjectURL(file);
