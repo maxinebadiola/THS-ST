@@ -1,0 +1,545 @@
+====================================================================================================
+TITLE EVALUATION REPORT: pantone_colors
+Variant 2: BERT + Cosine Similarity (reference_length = 8)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.2434
+llama3.1-8b          Average Score: 0.2410
+mistral-7b-v0.3      Average Score: 0.2533
+qwen2-7b             Average Score: 0.2523
+tinyllama            Average Score: 0.2366
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 1,097 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3137       0.3961       0.2314         1.0000     tinyllama            Pantone Color Guide: How Much Does It Cost?
+2      0.3067       0.3986       0.2148         1.0000     mistral-7b-v0.3      Pantone's Color Dominance: A Fortune Beyond Ink (9)
+3      0.3053       0.3381       0.2724         1.0000     tinyllama            Pantone Color: The High Cost of Illusions
+4      0.3049       0.3636       0.2462         1.0000     qwen2-7b             The Price of Color: Inside Pantone's Dominance
+5      0.2999       0.3820       0.2178         1.0000     qwen2-7b             The Priceless Palette: How Pantone Dominates Color Standards
+6      0.2900       0.3925       0.1875         1.0000     tinyllama            Color Standards: How Much Does One Company Cost?
+7      0.2842       0.3739       0.2701         0.8825     qwen2-7b             The Exorbitant Cost of Color Standards: How Pantone Dominates
+8      0.2742       0.3321       0.2163         1.0000     tinyllama            Pantonesque: The Cost of Color Dominance
+9      0.2740       0.3735       0.2474         0.8825     qwen2-7b             The Exorbitant Cost of Color Standards: Inside Pantone's Dominance
+10     0.2737       0.3919       0.1556         1.0000     mistral-7b-v0.3      Pantone's Color Dominance: A Fortune Built on Shades
+11     0.2691       0.3470       0.1912         1.0000     llama3.1-8b          The Color Cartel: Unpacking Pantone's Dominance
+12     0.2665       0.3163       0.2167         1.0000     gemma2-9b            The Price of Perfect Color (10)
+13     0.2649       0.3135       0.2163         1.0000     llama3.1-8b          The Price of Precision in Color
+14     0.2645       0.3379       0.1912         1.0000     llama3.1-8b          The Color Cartel: Unlocking Pantone's Secret (2)
+15     0.2640       0.3202       0.2078         1.0000     tinyllama            Pantone Color Guide
+16     0.2639       0.3366       0.1912         1.0000     llama3.1-8b          The Color Code: Unlocking Pantone's Secret
+17     0.2634       0.3706       0.1563         1.0000     llama3.1-8b          The Color Cartel: A $9K Palette
+18     0.2628       0.3703       0.1554         1.0000     llama3.1-8b          $9,999 Colors: The Pantone Secret
+19     0.2565       0.3567       0.1563         1.0000     llama3.1-8b          The Color Empire: A Pricey Palette (2)
+20     0.2541       0.3255       0.1827         1.0000     tinyllama            Pantonesque: The Color Revolution That Changed the World
+21     0.2537       0.3227       0.1846         1.0000     qwen2-7b             The Unseen Fortune in Color Standards (3)
+22     0.2534       0.3909       0.2600         0.7788     qwen2-7b             The Price of Color: Inside Pantone's Dominance and Expensive Palette
+23     0.2503       0.3307       0.1698         1.0000     tinyllama            Pantone Color: A Priceless Commodity
+24     0.2348       0.2819       0.1877         1.0000     tinyllama            The Color Revolution
+25     0.2181       0.3736       0.2611         0.6873     qwen2-7b             The Exorbitant Cost of Color Standards: Pantone's Dominance and Alternative Quest (2)
+26     0.2178       0.3452       0.0905         1.0000     llama3.1-8b          $9,999 Shades of Yellow
+27     0.2164       0.2958       0.1371         1.0000     tinyllama            The Price of Pantones
+28     0.1738       0.3234       0.0243         1.0000     tinyllama            Pantonesque - A Colorful Approach to Design
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2665
+  llama3.1-8b         : 0.2584
+  mistral-7b-v0.3     : 0.3034
+  qwen2-7b            : 0.2614
+  tinyllama           : 0.2577
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 101s (01:41)
+Transcript Length: 1,445 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3577       0.3545       0.3609         1.0000     tinyllama            Pantone: The Color of the Year
+2      0.3098       0.3791       0.2406         1.0000     tinyllama            PANTONE® Solid Colors: The Color Standard for Design
+3      0.2937       0.3549       0.2325         1.0000     tinyllama            PANTONE - The Industry Standard for Color
+4      0.2845       0.3195       0.2496         1.0000     tinyllama            The Future of Color in Design
+5      0.2714       0.3321       0.2106         1.0000     gemma2-9b            Pantone: The Color Standard Revolution
+6      0.2682       0.3872       0.2207         0.8825     tinyllama            PANTONE: A Shared Palette Way Beyond the Color Range
+7      0.2647       0.2713       0.2581         1.0000     tinyllama            The Power of Color
+8      0.2642       0.3925       0.1359         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: Standardizing Hues Across the Globe (2)
+9      0.2611       0.3410       0.1812         1.0000     gemma2-9b            Pantones: The Color Standard (3)
+10     0.2484       0.3529       0.2850         0.7788     qwen2-7b             From Printing Frustrations to Color Consistency: The Birth of Pantone
+11     0.2483       0.3527       0.2850         0.7788     qwen2-7b             From Printing Frustration to Color Consistency: The Birth of Pantone
+12     0.2477       0.2771       0.2184         1.0000     llama3.1-8b          The Birth of Color Consistency (6)
+13     0.2476       0.3311       0.3048         0.7788     qwen2-7b             From Color Chaos to Industry Standard: The Birth of Pantone
+14     0.2376       0.3220       0.1533         1.0000     gemma2-9b            Pantones: The Color Standard Revolution (4)
+15     0.2291       0.3517       0.1065         1.0000     llama3.1-8b          Pantone's Color Revolution in Design
+16     0.2277       0.3008       0.1546         1.0000     gemma2-9b            Pantones: The Color Revolution (2)
+17     0.2268       0.3794       0.0743         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: A Standardized Solution for Designers (2)
+18     0.2266       0.3788       0.0743         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: A Standardized Solution for Design
+19     0.2218       0.4300       0.1397         0.7788     tinyllama            PANTONE® Gives Designers a Shared Palette Way Beyond That Range (2)
+20     0.2208       0.3589       0.0826         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: A Game Changer in Design (2)
+21     0.2190       0.3457       0.0923         1.0000     qwen2-7b             Pantone: Revolutionizing Color Standardization in Design
+22     0.2177       0.3776       0.0578         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: Standardizing Hues Globally
+23     0.2175       0.3704       0.0646         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: A Standardization Solution
+24     0.2171       0.3696       0.0646         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: A Standardized Solution
+25     0.2160       0.3397       0.0923         1.0000     qwen2-7b             Pantone: Revolutionizing Color Communication in Design
+26     0.2151       0.3605       0.2655         0.6873     qwen2-7b             From Printing Frustrations to Global Color Consistency: The Birth of Pantone (2)
+27     0.2144       0.3376       0.0912         1.0000     llama3.1-8b          Pantone's Color Revolution
+28     0.2099       0.3568       0.0630         1.0000     qwen2-7b             Pantone's Color Revolution: Bridging Global Design Gaps
+29     0.2073       0.3357       0.0789         1.0000     tinyllama            PANTONE® Solutions for Color Consistency
+30     0.1991       0.3403       0.0578         1.0000     qwen2-7b             Pantone: Bridging Color Consistency Across Industries (2)
+31     0.1819       0.2892       0.0746         1.0000     llama3.1-8b          Pantone Pioneers Color Consistancy
+32     0.1632       0.2969       0.0295         1.0000     llama3.1-8b          “Color Standardization: A Game Changer”
+33     0.1512       0.3800       0.0600         0.6873     tinyllama            A Shared Palette: How Pantones Created a Standard for Color Consistency
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2461
+  llama3.1-8b         : 0.2275
+  mistral-7b-v0.3     : 0.2302
+  qwen2-7b            : 0.2218
+  tinyllama           : 0.2581
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 190s (03:10)
+Transcript Length: 2,468 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3295       0.3093       0.3496         1.0000     tinyllama            Pantone: The Color of Consistency
+2      0.3019       0.3426       0.2613         1.0000     qwen2-7b             Revolutionizing Color Consistency: The Birth of Pantone (4)
+3      0.3010       0.3376       0.2644         1.0000     llama3.1-8b          The Color Code: Pantone's Breakthrough
+4      0.2938       0.3170       0.2706         1.0000     llama3.1-8b          Standardizing Color: The Birth of Pantone (8)
+5      0.2918       0.2999       0.2837         1.0000     gemma2-9b            From Swamp to Standard: The Rise of Pantone
+6      0.2885       0.3157       0.2613         1.0000     mistral-7b-v0.3      Pioneering Color Consistency: The Rise of PantONE
+7      0.2876       0.3329       0.2422         1.0000     qwen2-7b             Revolutionizing Color Standardization: The Birth of Pantone (2)
+8      0.2870       0.3127       0.2613         1.0000     qwen2-7b             Color Consistency Revolutionized: The Birth of Pantone
+9      0.2862       0.3110       0.2613         1.0000     qwen2-7b             Color Consistency Revolution: The Birth of Pantone
+10     0.2831       0.3057       0.2605         1.0000     gemma2-9b            From Shades to Standards: The Rise of Pantone
+11     0.2784       0.3006       0.2562         1.0000     tinyllama            The Evolution of Color Consistency
+12     0.2519       0.3501       0.1537         1.0000     qwen2-7b             Revolutionizing Color Standardization: From Shrek to Mocha Moos
+13     0.2489       0.3527       0.1450         1.0000     gemma2-9b            Pantone: Standardizing Color Across Industries (4)
+14     0.2485       0.2797       0.2173         1.0000     tinyllama            The Rise and Fall of Pantene
+15     0.2474       0.3439       0.1510         1.0000     mistral-7b-v0.3      Pantone Revolutionizes Color Matching (3)
+16     0.2472       0.3157       0.1787         1.0000     gemma2-9b            Pantone: Standardizing the Spectrum (2)
+17     0.2449       0.3885       0.1014         1.0000     mistral-7b-v0.3      Pantone's Color Revolution: Standardizing Hues Worldwide
+18     0.2333       0.3669       0.0996         1.0000     mistral-7b-v0.3      Pioneering PantONE: Standardizing Colors Across Industries (2)
+19     0.2312       0.3316       0.1308         1.0000     gemma2-9b            Pantone: Standardizing Color Worldwide
+20     0.2257       0.3622       0.0892         1.0000     mistral-7b-v0.3      Pioneering PantONE: Standardizing Colors for Global Consistency
+21     0.2245       0.3829       0.0661         1.0000     tinyllama            How Pantene's Pantonal Matching System Became Industry Standard
+22     0.2194       0.3515       0.0873         1.0000     mistral-7b-v0.3      Pioneering PantONE: Standardizing Colors Globally
+23     0.2140       0.3322       0.1527         0.8825     qwen2-7b             Color Consistency Revolution: From Recipe Books to Global Standards
+24     0.2124       0.2831       0.1416         1.0000     tinyllama            Pantone Matching System (3)
+25     0.2124       0.2831       0.1416         1.0000     tinyllama            PantONE Matching System
+26     0.1977       0.3797       0.0683         0.8825     tinyllama            How Pantene's Pant One Matching System Became Industry Standard
+27     0.1966       0.3511       0.0421         1.0000     mistral-7b-v0.3      Pioneering Pantons: Standardizing Colors for Global Consistency
+28     0.1846       0.2663       0.1029         1.0000     gemma2-9b            From Swamp Green to Global Standard
+29     0.1642       0.2496       0.0789         1.0000     llama3.1-8b          Color Standardization Breakthrough
+30     0.1373       0.2668       0.0078         1.0000     tinyllama            Pantonalize Your Branding
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2480
+  llama3.1-8b         : 0.2816
+  mistral-7b-v0.3     : 0.2384
+  qwen2-7b            : 0.2822
+  tinyllama           : 0.2265
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 371s (06:11)
+Transcript Length: 1,270 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3126       0.4211       0.2040         1.0000     tinyllama            The World's Only Universally Accepted Color Communication Language (2)
+2      0.3114       0.3494       0.2733         1.0000     gemma2-9b            Pantone: Color Language and Monopoly
+3      0.3081       0.4078       0.2085         1.0000     mistral-7b-v0.3      Pantone: A Proprietary Color Language's Monopoly
+4      0.3057       0.4180       0.1934         1.0000     qwen2-7b             Pantone's Color Monopoly: Proprietary System and Legal Battles
+5      0.3034       0.3595       0.2474         1.0000     gemma2-9b            Pantone: Color's Corporate Language (2)
+6      0.3029       0.3864       0.2193         1.0000     gemma2-9b            Pantone: Color's Proprietary Language (3)
+7      0.2943       0.3802       0.2085         1.0000     mistral-7b-v0.3      Pantone: A Proprietary Color Language Monopoly (3)
+8      0.2921       0.3757       0.2085         1.0000     mistral-7b-v0.3      Pantone: Proprietary Color Language & Monopoly
+9      0.2902       0.3938       0.1866         1.0000     qwen2-7b             Pantone's Color Monopoly and Legal Battles (4)
+10     0.2901       0.3889       0.1913         1.0000     llama3.1-8b          Pantone's Color Code Monopoly (10)
+11     0.2830       0.3866       0.1794         1.0000     mistral-7b-v0.3      Pantone: A Proprietary Color Language's Dominance (2)
+12     0.2817       0.3440       0.2193         1.0000     gemma2-9b            Pantone: Color Language & Monopoly (2)
+13     0.2803       0.4142       0.1464         1.0000     qwen2-7b             Pantone's Color Monopoly: Proprietary System & Legal Battles (3)
+14     0.2752       0.3639       0.1866         1.0000     gemma2-9b            Pantone: Color Monopoly and Legal Battles
+15     0.2734       0.3257       0.2211         1.0000     tinyllama            Pantone Color System (2)
+16     0.2727       0.3660       0.1794         1.0000     mistral-7b-v0.3      Pantone: Proprietary Color Language Dominance
+17     0.2710       0.3369       0.2051         1.0000     gemma2-9b            Pantone: Color Monopoly
+18     0.2521       0.4147       0.1565         0.8825     qwen2-7b             Pantone's Color Empire: Monopoly, Proprietary Language & Court Battles
+19     0.2516       0.3936       0.1767         0.8825     qwen2-7b             Pantone's Color Empire: Monopoly, Proprietary System, and Legal Battles
+20     0.2452       0.3453       0.1452         1.0000     tinyllama            Pantone Color System - A Brief History
+21     0.2409       0.3225       0.1592         1.0000     mistral-7b-v0.3      Pantone: Copyrighting Color Communication (2)
+22     0.2116       0.3322       0.0911         1.0000     tinyllama            Pantonesque: The Colorful History of Pantopia
+23     0.2067       0.4469       0.1546         0.6873     tinyllama            How Pantones Created the World's Only Universally Accepted Color Communication Language
+24     0.1849       0.3411       0.0780         0.8825     tinyllama            Pantonesque: A Colorful Journey Through the History of Pantonalism
+25     0.1786       0.3046       0.0527         1.0000     tinyllama            Pantonesque Color Language
+26     0.1658       0.3316       0.0000         1.0000     tinyllama            Pantonesque: A Colorful History of Pantonalism
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2936
+  llama3.1-8b         : 0.2901
+  mistral-7b-v0.3     : 0.2804
+  qwen2-7b            : 0.2811
+  tinyllama           : 0.2365
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 465s (07:45)
+Transcript Length: 2,214 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3227       0.3639       0.2816         1.0000     mistral-7b-v0.3      Pantone's Color Dominance in the Printing Industry (10)
+2      0.2866       0.3214       0.2519         1.0000     gemma2-9b            Pantone: The Color Standard (3)
+3      0.2838       0.3270       0.2406         1.0000     gemma2-9b            Pantone: The Color Standard in Print
+4      0.2834       0.3623       0.2046         1.0000     llama3.1-8b          Pantone's Color Advantage in Commercial Printing
+5      0.2817       0.3369       0.2265         1.0000     gemma2-9b            Pantone: The Color Standard for Print (3)
+6      0.2814       0.3223       0.2406         1.0000     gemma2-9b            Pantone: The Color Standard of Print
+7      0.2793       0.3323       0.2263         1.0000     llama3.1-8b          Pantone Colors Bring Precision to Printing
+8      0.2781       0.3037       0.2525         1.0000     qwen2-7b             The Unmatched Power of Pantone in Printing
+9      0.2711       0.3466       0.2677         0.8825     qwen2-7b             The Unmatched Power of Pantone in the Printing Industry
+10     0.2681       0.3431       0.1930         1.0000     tinyllama            The Benefits of Using Pantones in Color Mixing
+11     0.2636       0.3454       0.1818         1.0000     llama3.1-8b          Pantone's Color Formula Mastery
+12     0.2586       0.3345       0.1827         1.0000     gemma2-9b            Pantone: Color Consistency in Print
+13     0.2564       0.3162       0.1967         1.0000     qwen2-7b             Mastering Color Accuracy: The Essential Role of Pantone
+14     0.2558       0.3236       0.1881         1.0000     qwen2-7b             Mastering Color Accuracy: The Pantone Advantage
+15     0.2535       0.2980       0.2089         1.0000     qwen2-7b             The Unmatched Power of Pantone in Print
+16     0.2532       0.3238       0.1827         1.0000     gemma2-9b            Pantone: Color Accuracy in Print
+17     0.2468       0.2848       0.2089         1.0000     qwen2-7b             The Unquestioned Authority of Pantone in Print
+18     0.2411       0.3274       0.1548         1.0000     llama3.1-8b          Achieving Perfect Color Consistency with Pantone
+19     0.2372       0.3234       0.1510         1.0000     llama3.1-8b          Pantone Precision: A Color Standard
+20     0.2371       0.3491       0.1883         0.8825     tinyllama            Pantone Color Mixing: A Primer for Printing Industry Professionals
+21     0.2354       0.3439       0.1896         0.8825     tinyllama            The Benefits of Using Pantones in Your Color Mixing
+22     0.2288       0.3735       0.1449         0.8825     qwen2-7b             Mastering Color Consistency: Pantone's Unmatched Role in High-Quality Printing (2)
+23     0.2274       0.3704       0.1449         0.8825     qwen2-7b             Mastering Color Accuracy: Pantone's Unmatched Role in High-Quality Printing (2)
+24     0.2210       0.3549       0.0870         1.0000     tinyllama            How Allied Printers Mix Their Own Ink Colors
+25     0.2183       0.2759       0.1608         1.0000     llama3.1-8b          Unlocking the Secret to Vibrant Colors
+26     0.2097       0.2817       0.1376         1.0000     tinyllama            Pantonal Colors in Printing
+27     0.1982       0.3907       0.1184         0.7788     tinyllama            How Does Allied Printer Use Pantones To Mix Ink Colors?
+28     0.1922       0.3078       0.0767         1.0000     llama3.1-8b          Perfecting Color Consistency with Expertise
+29     0.1914       0.2636       0.1192         1.0000     tinyllama            The Power of Pantones
+30     0.1914       0.2940       0.0887         1.0000     llama3.1-8b          Achieving Consistent Color with Precision
+31     0.1906       0.2994       0.0817         1.0000     llama3.1-8b          Achieving Consistent Colors with Precision (2)
+32     0.1856       0.3826       0.1574         0.6873     tinyllama            How Allied Printer Uses Pantones To Ensure Consistency In Color Mixing
+33     0.1661       0.3881       0.0953         0.6873     tinyllama            How Does Allied Printers Use Pantones In Their Color Mixing Process? (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2782
+  llama3.1-8b         : 0.2288
+  mistral-7b-v0.3     : 0.3227
+  qwen2-7b            : 0.2474
+  tinyllama           : 0.2079
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 649s (10:49)
+Transcript Length: 1,166 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3536       0.3751       0.3320         1.0000     qwen2-7b             Pantone: The Mainstream Language of Perfect Print Colors (2)
+2      0.3386       0.3601       0.3171         1.0000     qwen2-7b             Pantone: The Unavoidable Language of Perfect Color Consistency
+3      0.2961       0.3514       0.2408         1.0000     mistral-7b-v0.3      Pantone: The Costly Necessity of Brand Consistency (3)
+4      0.2842       0.3329       0.2354         1.0000     tinyllama            PANTONE BECOMES A NECESSARY EVIL (4)
+5      0.2795       0.3895       0.1696         1.0000     tinyllama            PANTONE BECOMES AN ESSENTIAL LANGUAGE FOR DESIGNERS (2)
+6      0.2781       0.3151       0.2411         1.0000     llama3.1-8b          The Double-Edged Sword of Pantone (2)
+7      0.2744       0.3269       0.2218         1.0000     mistral-7b-v0.3      Pantone: The Costly, Precise Color Language
+8      0.2743       0.2755       0.2732         1.0000     llama3.1-8b          The Double Edge of Pantone
+9      0.2659       0.3445       0.1872         1.0000     tinyllama            The Necessity of Pantones as a Mainstream Language
+10     0.2606       0.3371       0.1842         1.0000     mistral-7b-v0.3      Pantone: The Pricey, Precise Color Standard (3)
+11     0.2576       0.3776       0.1377         1.0000     qwen2-7b             Pantone's Dominance: A Mainstream Language vs. Costly Control
+12     0.2564       0.3621       0.1507         1.0000     tinyllama            PANTONE BECOMES AN ESSENTIAL LANGUAGE (2)
+13     0.2374       0.3406       0.1342         1.0000     gemma2-9b            Pantones: Necessary Evil or Color Control? (2)
+14     0.2352       0.3271       0.1433         1.0000     mistral-7b-v0.3      Pantone: The Pricey Necessity in Design World
+15     0.2306       0.3179       0.1433         1.0000     mistral-7b-v0.3      Pantone: The Costly Necessity in Design World
+16     0.2266       0.3950       0.1870         0.7788     tinyllama            PANTONE BECOMES AN ESSENTIAL EVIL DUE TO ITS MAINSTREAM LANGUAGE
+17     0.2204       0.3517       0.1478         0.8825     qwen2-7b             Pantone's Role as a Unifying yet Expensive Color Language
+18     0.2189       0.3463       0.0914         1.0000     llama3.1-8b          Pantone's Double Edge: Control vs Cost (2)
+19     0.2134       0.3499       0.0769         1.0000     mistral-7b-v0.3      Pantone vs CMYk: Costly Precision vs Affordable Flexibility
+20     0.2117       0.3103       0.1131         1.0000     llama3.1-8b          Pantone's Double Edge
+21     0.2089       0.3626       0.1107         0.8825     qwen2-7b             Pantone's Role as a Mainstream Language vs. Costly Necessity
+22     0.2070       0.3268       0.0871         1.0000     qwen2-7b             Pantone's Role as an Unavoidable Standard in Print
+23     0.2015       0.3404       0.0626         1.0000     gemma2-9b            Pantones: Necessity, Control, and Cost (3)
+24     0.2010       0.3257       0.0763         1.0000     qwen2-7b             Pantone's Role as an Unavoidable Standard
+25     0.2001       0.3375       0.0626         1.0000     gemma2-9b            Pantones: Necessity, Frustration, and Control (2)
+26     0.1991       0.3744       0.1369         0.7788     qwen2-7b             Pantone's Role as a Universal Color Language vs. Costly Control
+27     0.1974       0.3323       0.0626         1.0000     gemma2-9b            Pantones: Necessity, Expense, and Control
+28     0.1848       0.3109       0.0587         1.0000     gemma2-9b            Pantones: Necessary Evil or Creative Constraint?
+29     0.1586       0.3054       0.0117         1.0000     gemma2-9b            Pantones: Necessity or Creative Constraint?
+30     0.1443       0.3864       0.1527         0.5353     qwen2-7b             Pantone's Role as a Universal Color Language vs. High Cost and Control Issues
+31     0.1320       0.2640       0.0000         1.0000     llama3.1-8b          Pantons Trade- Offs
+32     0.1313       0.2626       0.0000         1.0000     llama3.1-8b          Pantones' Double Edge
+33     0.1286       0.2572       0.0000         1.0000     llama3.1-8b          Pantones Double Edge (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2020
+  llama3.1-8b         : 0.2000
+  mistral-7b-v0.3     : 0.2624
+  qwen2-7b            : 0.2484
+  tinyllama           : 0.2701
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 711s (11:51)
+Transcript Length: 2,121 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.2913       0.3750       0.2076         1.0000     tinyllama            Pantone's Color Plugin: A Point of Friction
+2      0.2759       0.3441       0.2076         1.0000     tinyllama            Pantone Color Plugin: A Point of Friction
+3      0.2447       0.3371       0.1523         1.0000     tinyllama            Pantone Color Plugin: A New Reality
+4      0.2347       0.3213       0.1481         1.0000     tinyllama            The New Color Plug-In
+5      0.2310       0.3634       0.0986         1.0000     tinyllama            Pantone's New Plugin Offends Some
+6      0.2221       0.3508       0.0935         1.0000     qwen2-7b             Pantone's Subscription Fee Controversy: Designers' Pain Point
+7      0.2196       0.3471       0.0921         1.0000     qwen2-7b             Pantone's Subscription Fee Fiasco: Designers' Dilemma (2)
+8      0.2188       0.3456       0.0921         1.0000     qwen2-7b             Pantone's Subscription Fee Controversy: Designers' Dilemma
+9      0.2185       0.3615       0.1337         0.8825     qwen2-7b             Pantone's Subscription Fee Controversy: A Shift in Color Access (4)
+10     0.2170       0.3506       0.0833         1.0000     mistral-7b-v0.3      Pantone's Price Hike: A Designer's Dilemma
+11     0.2162       0.3250       0.1074         1.0000     qwen2-7b             Pantone's Subscription Fee Controversy (2)
+12     0.2152       0.3548       0.0757         1.0000     mistral-7b-v0.3      Pantone's Price Hike: Designers' Dilemma
+13     0.2151       0.3401       0.0901         1.0000     gemma2-9b            Pantone's Pricey Color Revolution (4)
+14     0.2136       0.3537       0.0735         1.0000     mistral-7b-v0.3      Pantone's Price Hike Stirs Designer Frustration
+15     0.2135       0.3370       0.0901         1.0000     gemma2-9b            Pantone's Pricey Color Shift
+16     0.2128       0.3521       0.0735         1.0000     llama3.1-8b          Pantone's Price Hike Sparks Designer Backlash
+17     0.2083       0.3498       0.0668         1.0000     llama3.1-8b          Pantone's Price Hike Sparks Industry Backlash (5)
+18     0.2079       0.3490       0.0668         1.0000     llama3.1-8b          Pantone's Price Hike Sparks Industry Outrage (3)
+19     0.2077       0.3252       0.0901         1.0000     tinyllama            Pantone's Color Planning Process
+20     0.2076       0.3252       0.0901         1.0000     gemma2-9b            Pantone's Pricey Color Predicament (2)
+21     0.2070       0.3240       0.0901         1.0000     gemma2-9b            Pantone's Pricey Color Monopoly (3)
+22     0.2001       0.3222       0.0780         1.0000     tinyllama            Pantone Color Changes: A Frustrating Experience
+23     0.1918       0.3398       0.0439         1.0000     mistral-7b-v0.3      Designers' Dilemma: Pantones Subscription-Based Color Palette
+24     0.1907       0.3375       0.0439         1.0000     tinyllama            How Pantones Changed Color Management for Designers (2)
+25     0.1879       0.3318       0.0439         1.0000     mistral-7b-v0.3      Designers' Dilemma: Pantones Pricey Color Palette Subscription
+26     0.1798       0.3320       0.0275         1.0000     mistral-7b-v0.3      Designers' Dilemma: Pantones New Subscription Model Irks Users
+27     0.1793       0.3256       0.0330         1.0000     mistral-7b-v0.3      Designers' Dilemma: Pantones Pricey Color Palette (2)
+28     0.1761       0.3353       0.1169         0.7788     tinyllama            How One Industrial Designer Uses Pantones to Make Creative Decisions
+29     0.1755       0.3235       0.0275         1.0000     mistral-7b-v0.3      Designers' Dilemma: Pantones New Subscription Model Stirs Controversy
+30     0.1673       0.2708       0.0638         1.0000     llama3.1-8b          Designers Rebel Against Pantone Fees
+31     0.1501       0.2791       0.0210         1.0000     mistral-7b-v0.3      Designers Resent Pantones Subscription Model
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2110
+  llama3.1-8b         : 0.2045
+  mistral-7b-v0.3     : 0.1889
+  qwen2-7b            : 0.2187
+  tinyllama           : 0.2243
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 848s (14:08)
+Transcript Length: 1,889 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.2777       0.3403       0.2152         1.0000     llama3.1-8b          The Limitations of Pantone Color Guides (3)
+2      0.2534       0.3349       0.1719         1.0000     qwen2-7b             The Expensive, Evolving World of Pantone Color Guides
+3      0.2520       0.3329       0.1710         1.0000     llama3.1-8b          The High Cost of Color Consistency (2)
+4      0.2487       0.3220       0.1755         1.0000     llama3.1-8b          The Cost of Color Consistency
+5      0.2447       0.3209       0.1685         1.0000     tinyllama            The Importance of Color in Design
+6      0.2442       0.3129       0.1755         1.0000     gemma2-9b            The Cost of Color Accuracy
+7      0.2431       0.3119       0.1742         1.0000     llama3.1-8b          The Cost and Limitations of Color Consistency (2)
+8      0.2428       0.3315       0.1542         1.0000     tinyllama            The Ultimate Guide to Permanent Marker Color Changes
+9      0.2413       0.3390       0.1436         1.0000     tinyllama            Pantone Color Changes: How to Stay Current
+10     0.2388       0.3506       0.1269         1.0000     gemma2-9b            Pantone: Color, Cost, and Creativity
+11     0.2377       0.3612       0.1142         1.0000     mistral-7b-v0.3      The Durability Dilemma: Pantones & Designer's Color Expiration (2)
+12     0.2336       0.3403       0.1269         1.0000     gemma2-9b            Pantone: Color Accuracy and Cost
+13     0.2328       0.3359       0.1917         0.8825     qwen2-7b             The Expensive and Evolving World of Pantone Color Guides (7)
+14     0.2328       0.3441       0.1215         1.0000     gemma2-9b            Pantone: Color's High Cost
+15     0.2323       0.3137       0.1509         1.0000     qwen2-7b             The Expensive, Colorful World of Pantone Guides (2)
+16     0.2252       0.3461       0.1043         1.0000     mistral-7b-v0.3      The Fading Vibrancy of Design: Pantones' Expiration Date
+17     0.2235       0.3449       0.1022         1.0000     mistral-7b-v0.3      The Durability Dilemma: Pantones & Designer's Color Conundrum
+18     0.2231       0.3459       0.1003         1.0000     mistral-7b-v0.3      The Durability Dilemma: Pantones' Expensive, Perishable Color Guides
+19     0.2230       0.3457       0.1003         1.0000     mistral-7b-v0.3      The Durability Dilemma: Pantones' Expensive, Fading Color Guides
+20     0.2182       0.3277       0.1088         1.0000     gemma2-9b            Pantone: Color Harmony or Corporate Cost?
+21     0.2182       0.3578       0.1366         0.8825     mistral-7b-v0.3      The Lifespan & Cost of Designer's Color Bible: Pantones
+22     0.2170       0.3398       0.0941         1.0000     tinyllama            Pantone Color Guide - Transform Your Designs
+23     0.2162       0.2965       0.1360         1.0000     llama3.1-8b          The Costly Conundrum of Color Consistency
+24     0.2086       0.3231       0.0941         1.0000     gemma2-9b            Pantone: Color Harmony or Corporate Burden? (2)
+25     0.2076       0.3446       0.0706         1.0000     gemma2-9b            Pantone: Color Harmony's Price Tag
+26     0.2075       0.3335       0.0814         1.0000     gemma2-9b            Pantone: Color's Pricey Guide
+27     0.2038       0.3577       0.1043         0.8825     mistral-7b-v0.3      The Durability Dilemma: Pantones & Designer's Color Palette Expiration
+28     0.2032       0.3067       0.0997         1.0000     tinyllama            Pantone Color Changes
+29     0.2022       0.3230       0.0814         1.0000     gemma2-9b            Pantone: Color's Pricey Predicament
+30     0.2015       0.3325       0.0706         1.0000     tinyllama            Pantone Color Guide: A Comprehensive Overview (2)
+31     0.1992       0.3279       0.0706         1.0000     tinyllama            Pantone Color Guide: A Brief Introduction
+32     0.1986       0.3058       0.0913         1.0000     mistral-7b-v0.3      The Fading Vibrancy of Design Standards: Pantones
+33     0.1943       0.3170       0.0715         1.0000     mistral-7b-v0.3      The Fading Spectrum: Pantones & Their Expensive Lifespan
+34     0.1868       0.3896       0.2265         0.6065     tinyllama            Pantone Color Guide: How to Choose the Right Color for Your Design
+35     0.1863       0.3143       0.0583         1.0000     llama3.1-8b          When Color Guides go Bad
+36     0.1538       0.3953       0.1118         0.6065     tinyllama            Pantone Color Guide: A Comprehensive Guide to Translating Digital Designs into Print
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2202
+  llama3.1-8b         : 0.2475
+  mistral-7b-v0.3     : 0.2185
+  qwen2-7b            : 0.2348
+  tinyllama           : 0.2092
+
+====================================================================================================
+
+--- SEGMENT 09 ---
+Start Time: 996s (16:36)
+Transcript Length: 1,851 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.2798       0.3518       0.2078         1.0000     gemma2-9b            Pantone: The Designer's Color Language (7)
+2      0.2738       0.3485       0.2721         0.8825     mistral-7b-v0.3      Designers' Guide to Color Consistency: The Power of PANTONE (4)
+3      0.2663       0.3512       0.1814         1.0000     gemma2-9b            Pantone: The Designer's Color Standard (2)
+4      0.2534       0.3366       0.1702         1.0000     llama3.1-8b          The Power of Pantones: Standardizing Color Consistency
+5      0.2526       0.3366       0.1686         1.0000     mistral-7b-v0.3      Designing with Pantones: Unifying the World of Print
+6      0.2485       0.3268       0.1702         1.0000     qwen2-7b             Mastering Color Consistency: The Power of Pantones
+7      0.2479       0.3206       0.1753         1.0000     qwen2-7b             The Essential Role of Pantones in Design Consistency
+8      0.2416       0.3260       0.1573         1.0000     qwen2-7b             Mastering Color Consistency: The Pantone Bridge
+9      0.2405       0.2857       0.1953         1.0000     llama3.1-8b          The Power of Standardized Color (3)
+10     0.2366       0.3469       0.1262         1.0000     llama3.1-8b          Standardizing Color Across the Design Industry
+11     0.2360       0.3415       0.1934         0.8825     qwen2-7b             Mastering Color Consistency: The Role of Pantones in Design (3)
+12     0.2310       0.3602       0.1017         1.0000     tinyllama            Creating a Unified Color System for Designers
+13     0.2307       0.3370       0.1244         1.0000     gemma2-9b            Pantone: Design's Shared Language
+14     0.2300       0.3502       0.1098         1.0000     mistral-7b-v0.3      Designers' Color Dance: Pantones Shaping Our World
+15     0.2279       0.3295       0.1868         0.8825     qwen2-7b             The Essential Role of Pantones in Design and Printing
+16     0.2249       0.3061       0.1438         1.0000     tinyllama            Pantone Color System
+17     0.2140       0.3236       0.1613         0.8825     qwen2-7b             The Essential Role of Pantones in Bridging Design Intentions
+18     0.2125       0.3139       0.1111         1.0000     mistral-7b-v0.3      Designers' Universal Language: The Pantoneshape World
+19     0.2113       0.3282       0.0945         1.0000     tinyllama            Pantone Guide: Understanding Color Concepts
+20     0.2104       0.3256       0.0952         1.0000     llama3.1-8b          Standardizing Color in Design and Printing
+21     0.1980       0.3269       0.0690         1.0000     llama3.1-8b          Standardizing Color across Design and Printing
+22     0.1978       0.3267       0.0690         1.0000     llama3.1-8b          Standardizing Color Across Design and Print (2)
+23     0.1977       0.3445       0.0510         1.0000     tinyllama            Maintaining Your Design Standards with Pantones
+24     0.1963       0.3396       0.1646         0.7788     mistral-7b-v0.3      Designers' Color Dance: The Pantones' Dominance in Shaping Our World
+25     0.1919       0.3293       0.0544         1.0000     mistral-7b-v0.3      Designers' Dance: Unifying Colors with Pantones
+26     0.1822       0.3280       0.0364         1.0000     mistral-7b-v0.3      Designers' Dance: Unifying Colors through Pantones
+27     0.1819       0.3181       0.0458         1.0000     tinyllama            Maintaining Color Consistency Across Design Projects
+28     0.1796       0.3266       0.0326         1.0000     tinyllama            Mapping Out Your Brand Color Palette
+29     0.1761       0.3062       0.0460         1.0000     tinyllama            Creating a Unified Design Language
+30     0.1707       0.3683       0.1945         0.6065     qwen2-7b             The Essential Role of Pantones in Bridging Design Intent and Real-Life Colors
+31     0.1675       0.3037       0.0312         1.0000     llama3.1-8b          Standardizing Color Across Industries
+32     0.1561       0.3469       0.1677         0.6065     qwen2-7b             The Essential Role of Pantones in Bridging Design Intent and Print Reality
+33     0.1368       0.2617       0.0119         1.0000     tinyllama            Creating a Painting
+34     0.1310       0.4006       0.0891         0.5353     tinyllama            How to Make Sure Your Design Matches What You See on Your Screen
+35     0.1184       0.4493       0.1944         0.3679     tinyllama            Making Sure What They See on Their Screens Matches the Color They Experience in Real Life
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2722
+  llama3.1-8b         : 0.2183
+  mistral-7b-v0.3     : 0.2361
+  qwen2-7b            : 0.2215
+  tinyllama           : 0.1789
+
+====================================================================================================
+
+--- SEGMENT 10 ---
+Start Time: 1125s (18:45)
+Transcript Length: 1,154 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3398       0.3924       0.2871         1.0000     tinyllama            Pantone: A Language We Need To Pay For (2)
+2      0.3398       0.3924       0.2871         1.0000     tinyllama            Pantone: A Language We Need to Pay For
+3      0.3083       0.4192       0.2794         0.8825     mistral-7b-v0.3      Pantone's Consistent Colors: A Language Designers Pay To Speak
+4      0.2995       0.3061       0.2928         1.0000     gemma2-9b            Pantone: The Language of Color (3)
+5      0.2860       0.3296       0.2425         1.0000     mistral-7b-v0.3      Pantone: The Expensive Language of Consistent Colors (2)
+6      0.2825       0.3116       0.2533         1.0000     qwen2-7b             Pantone: The Unquestioned Language of Consistent Color (10)
+7      0.2812       0.3199       0.2425         1.0000     mistral-7b-v0.3      Pantone: The Costly Language of Consistent Colors
+8      0.2697       0.3396       0.1997         1.0000     gemma2-9b            Pantone: The Price of Color Consistency (2)
+9      0.2553       0.3363       0.1743         1.0000     gemma2-9b            Pantone: Language of Color, Price of Access
+10     0.2507       0.3578       0.1437         1.0000     llama3.1-8b          Pantone's Consistent Color Promise
+11     0.2474       0.3303       0.1646         1.0000     gemma2-9b            Pantone: Language of Color, Paid Access (2)
+12     0.2443       0.3868       0.1019         1.0000     llama3.1-8b          Pantone's Color Consistency Comes at a Cost (2)
+13     0.2439       0.3232       0.1646         1.0000     mistral-7b-v0.3      Pantone: A Costly Language of Consistent Colors (6)
+14     0.2438       0.3295       0.2230         0.8825     tinyllama            How to Get the Best Deal on Pantones Guides
+15     0.2385       0.3070       0.1701         1.0000     tinyllama            Pantones Guide to Color Consistency
+16     0.2383       0.3206       0.1561         1.0000     llama3.1-8b          The Cost of Consistency in Color (6)
+17     0.2311       0.3184       0.1438         1.0000     gemma2-9b            Pantone: Language of Color, Pricey Privilege (2)
+18     0.2218       0.2992       0.1444         1.0000     tinyllama            The Benefits of Pantonal Guides
+19     0.2133       0.3260       0.1007         1.0000     tinyllama            Pantone's Color Guidelines
+20     0.2013       0.3322       0.0704         1.0000     llama3.1-8b          Pantone's Price for Precision
+21     0.1913       0.3665       0.1248         0.7788     tinyllama            Pantone Color Guides - A Must Have Tool for Designers
+22     0.1836       0.4147       0.1195         0.6873     tinyllama            How Pantones Color Guides Work and Why They're Worth Paying For
+23     0.1527       0.3635       0.2070         0.5353     tinyllama            How to Get Your Design Work Right - Pantones Guide to Color Consistency
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2650
+  llama3.1-8b         : 0.2371
+  mistral-7b-v0.3     : 0.2625
+  qwen2-7b            : 0.2825
+  tinyllama           : 0.2464
+
+====================================================================================================
+
+--- SEGMENT 11 ---
+Start Time: 1216s (20:16)
+Transcript Length: 1,783 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3862       0.3769       0.3956         1.0000     tinyllama            PANTONE: THE COLOR STANDARD THAT CHANGED THE WORLD
+2      0.3220       0.3524       0.2916         1.0000     llama3.1-8b          The Power of Pantone's Color Standards
+3      0.3195       0.4144       0.2247         1.0000     tinyllama            Pantone Delivers on Its Promise of Consistent Color
+4      0.3100       0.3844       0.2356         1.0000     qwen2-7b             Pantone's Promise: Consistency in Color Across the Globe (2)
+5      0.3025       0.3722       0.2328         1.0000     tinyllama            Pantone's Promise of Consistent Color
+6      0.3025       0.3722       0.2328         1.0000     tinyllama            PANTONE's Promise of Consistent Color
+7      0.3010       0.3690       0.2330         1.0000     mistral-7b-v0.3      Pantone's Enduring Legacy: The Color Standard of Choice
+8      0.2866       0.3734       0.1999         1.0000     mistral-7b-v0.3      Pantone's Enduring Legacy in Design and Emotion
+9      0.2866       0.3891       0.1840         1.0000     qwen2-7b             Pantone's Promise: Consistent Colors Across the Globe (2)
+10     0.2800       0.3243       0.2357         1.0000     llama3.1-8b          Consistency in Color: The Power of Standards
+11     0.2792       0.3603       0.1981         1.0000     qwen2-7b             Pantone's Consistent Color Dominance and Future Innovations
+12     0.2783       0.3403       0.2164         1.0000     llama3.1-8b          The Consistency of Color: A Standard Unmatched
+13     0.2749       0.3517       0.1981         1.0000     qwen2-7b             Pantone's Consistent Color Dominance and Future Challenges
+14     0.2723       0.3536       0.1910         1.0000     llama3.1-8b          The Consistency of Color: A Standard Worth Keeping (4)
+15     0.2715       0.3266       0.2164         1.0000     llama3.1-8b          The Power of Consistent Color Standards
+16     0.2696       0.3811       0.1581         1.0000     mistral-7b-v0.3      Pantone's Persistence: A Timeless Standard in Color Consistency
+17     0.2680       0.3288       0.2071         1.0000     tinyllama            Pantone: A Color Standard
+18     0.2659       0.3411       0.1907         1.0000     tinyllama            Pantone Delivers Consistent Color (2)
+19     0.2634       0.3323       0.1945         1.0000     tinyllama            PANTOMETRIA: THE FUTURE OF COLOR CONTROL
+20     0.2634       0.3286       0.1981         1.0000     tinyllama            Pantone's Color Standards: A Brief History and Future
+21     0.2572       0.3641       0.1503         1.0000     qwen2-7b             Pantone's Unwavering Influence on Global Color Consistency
+22     0.2566       0.3535       0.1597         1.0000     mistral-7b-v0.3      Pantone's Enduring Legacy in Color Consistency (3)
+23     0.2532       0.3634       0.1431         1.0000     qwen2-7b             Pantone's Unwavering Role in Ensuring Global Color Consistency
+24     0.2507       0.3405       0.1609         1.0000     qwen2-7b             Pantone's Consistent Color Empire
+25     0.2464       0.3902       0.1026         1.0000     qwen2-7b             Pantone's Promise: Consistent Colors Across Projects
+26     0.2444       0.3687       0.1201         1.0000     mistral-7b-v0.3      Pantone's Enduring Legacy: A Color Standard Revolution
+27     0.2352       0.3143       0.1560         1.0000     tinyllama            PANTONE Delivers Consistent Color - A Transcript
+28     0.2155       0.3492       0.0819         1.0000     mistral-7b-v0.3      Pantone's Persistence Amid Open Source Challenges
+29     0.2138       0.3336       0.0940         1.0000     llama3.1-8b          Consistency in Color: A Standard Worth Keeping
+30     0.1877       0.3208       0.0547         1.0000     gemma2-9b            Pantones Reign: A Color Standard's Legacy (2)
+31     0.1850       0.3369       0.0331         1.0000     gemma2-9b            Pantones Reign: Open Source Colors? (2)
+32     0.1703       0.3867       0.2498         0.5353     mistral-7b-v0.3      Pantone's Enduring Legacy in Design and the Quest for an Open Source Alternative (2)
+33     0.1692       0.3230       0.0155         1.0000     gemma2-9b            Pantones Reign: Open Source Threat? (2)
+34     0.1664       0.3174       0.0155         1.0000     gemma2-9b            Pantones Reign: Open Source Challenge (3)
+35     0.1605       0.3071       0.0139         1.0000     gemma2-9b            Pantones Reign: Open Source Challenge Awaits
+36     0.1139       0.2278       0.0000         1.0000     llama3.1-8b          ANSWER: Final Title
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.1744
+  llama3.1-8b         : 0.2569
+  mistral-7b-v0.3     : 0.2428
+  qwen2-7b            : 0.2755
+  tinyllama           : 0.2872
+
+====================================================================================================
+

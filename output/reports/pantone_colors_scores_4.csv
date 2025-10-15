@@ -1,0 +1,552 @@
+# Variant 4: BERT ONLY (reference_length = 8)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Beyond Ink,0.3986441195011139,0.3986441195011139,0.0,1.0
+1,0,00:00,tinyllama,Pantone Color Guide: How Much Does It Cost?,0.39609068632125854,0.39609068632125854,0.0,1.0
+1,0,00:00,tinyllama,Color Standards: How Much Does One Company Cost?,0.39248988032341003,0.39248988032341003,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Pantone's Color Dominance: A Fortune Built on Shades,0.3918743133544922,0.3918743133544922,0.0,1.0
+1,0,00:00,qwen2-7b,The Priceless Palette: How Pantone Dominates Color Standards,0.38199177384376526,0.38199177384376526,0.0,1.0
+1,0,00:00,llama3.1-8b,The Color Cartel: A $9K Palette,0.3705533742904663,0.3705533742904663,0.0,1.0
+1,0,00:00,llama3.1-8b,"$9,999 Colors: The Pantone Secret",0.3702523112297058,0.3702523112297058,0.0,1.0
+1,0,00:00,qwen2-7b,The Price of Color: Inside Pantone's Dominance,0.3635733425617218,0.3635733425617218,0.0,1.0
+1,0,00:00,llama3.1-8b,The Color Empire: A Pricey Palette,0.3566907048225403,0.3566907048225403,0.0,1.0
+1,0,00:00,llama3.1-8b,The Color Empire: A Pricey Palette,0.3566907048225403,0.3566907048225403,0.0,1.0
+1,0,00:00,llama3.1-8b,The Color Cartel: Unpacking Pantone's Dominance,0.34703052043914795,0.34703052043914795,0.0,1.0
+1,0,00:00,llama3.1-8b,"$9,999 Shades of Yellow",0.34522655606269836,0.34522655606269836,0.0,1.0
+1,0,00:00,tinyllama,Pantone Color: The High Cost of Illusions,0.33814066648483276,0.33814066648483276,0.0,1.0
+1,0,00:00,llama3.1-8b,The Color Cartel: Unlocking Pantone's Secret,0.33787068724632263,0.33787068724632263,0.0,1.0
+1,0,00:00,llama3.1-8b,The Color Cartel: Unlocking Pantone's Secret,0.33787068724632263,0.33787068724632263,0.0,1.0
+1,0,00:00,llama3.1-8b,The Color Code: Unlocking Pantone's Secret,0.33664825558662415,0.33664825558662415,0.0,1.0
+1,0,00:00,tinyllama,Pantonesque: The Cost of Color Dominance,0.3321070373058319,0.3321070373058319,0.0,1.0
+1,0,00:00,tinyllama,Pantone Color: A Priceless Commodity,0.3307326138019562,0.3307326138019562,0.0,1.0
+1,0,00:00,qwen2-7b,The Exorbitant Cost of Color Standards: How Pantone Dominates,0.33000043669986917,0.37393948435783386,0.0,0.8824969025845955
+1,0,00:00,qwen2-7b,The Exorbitant Cost of Color Standards: Inside Pantone's Dominance,0.32961187374524115,0.37349918484687805,0.0,0.8824969025845955
+1,0,00:00,tinyllama,Pantonesque: The Color Revolution That Changed the World,0.3255040645599365,0.3255040645599365,0.0,1.0
+1,0,00:00,tinyllama,Pantonesque - A Colorful Approach to Design,0.323356956243515,0.323356956243515,0.0,1.0
+1,0,00:00,qwen2-7b,The Unseen Fortune in Color Standards,0.32268235087394714,0.32268235087394714,0.0,1.0
+1,0,00:00,qwen2-7b,The Unseen Fortune in Color Standards,0.32268235087394714,0.32268235087394714,0.0,1.0
+1,0,00:00,qwen2-7b,The Unseen Fortune in Color Standards,0.32268235087394714,0.32268235087394714,0.0,1.0
+1,0,00:00,tinyllama,Pantone Color Guide,0.32021424174308777,0.32021424174308777,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,gemma2-9b,The Price of Perfect Color,0.31626686453819275,0.31626686453819275,0.0,1.0
+1,0,00:00,llama3.1-8b,The Price of Precision in Color,0.3135112524032593,0.3135112524032593,0.0,1.0
+1,0,00:00,qwen2-7b,The Price of Color: Inside Pantone's Dominance and Expensive Palette,0.3043977270216227,0.3908544182777405,0.0,0.7788007830714049
+1,0,00:00,tinyllama,The Price of Pantones,0.29578912258148193,0.29578912258148193,0.0,1.0
+1,0,00:00,tinyllama,The Color Revolution,0.2818849980831146,0.2818849980831146,0.0,1.0
+1,0,00:00,qwen2-7b,The Exorbitant Cost of Color Standards: Pantone's Dominance and Alternative Quest,0.25679102418644845,0.37362873554229736,0.0,0.6872892787909722
+1,0,00:00,qwen2-7b,The Exorbitant Cost of Color Standards: Pantone's Dominance and Alternative Quest,0.25679102418644845,0.37362873554229736,0.0,0.6872892787909722
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: Standardizing Hues Across the Globe,0.39249926805496216,0.39249926805496216,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: Standardizing Hues Across the Globe,0.39249926805496216,0.39249926805496216,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: A Standardized Solution for Designers,0.3793547451496124,0.3793547451496124,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: A Standardized Solution for Designers,0.3793547451496124,0.3793547451496124,0.0,1.0
+2,101,01:41,tinyllama,PANTONE® Solid Colors: The Color Standard for Design,0.37914779782295227,0.37914779782295227,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: A Standardized Solution for Design,0.3788197934627533,0.3788197934627533,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: Standardizing Hues Globally,0.3776131868362427,0.3776131868362427,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: A Standardization Solution,0.3704075813293457,0.3704075813293457,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: A Standardized Solution,0.36962172389030457,0.36962172389030457,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: A Game Changer in Design,0.3589267432689667,0.3589267432689667,0.0,1.0
+2,101,01:41,mistral-7b-v0.3,Pantone's Color Revolution: A Game Changer in Design,0.3589267432689667,0.3589267432689667,0.0,1.0
+2,101,01:41,qwen2-7b,Pantone's Color Revolution: Bridging Global Design Gaps,0.35679396986961365,0.35679396986961365,0.0,1.0
+2,101,01:41,tinyllama,PANTONE - The Industry Standard for Color,0.35485944151878357,0.35485944151878357,0.0,1.0
+2,101,01:41,tinyllama,Pantone: The Color of the Year,0.3545071482658386,0.3545071482658386,0.0,1.0
+2,101,01:41,llama3.1-8b,Pantone's Color Revolution in Design,0.35173606872558594,0.35173606872558594,0.0,1.0
+2,101,01:41,qwen2-7b,Pantone: Revolutionizing Color Standardization in Design,0.3456615209579468,0.3456615209579468,0.0,1.0
+2,101,01:41,tinyllama,PANTONE: A Shared Palette Way Beyond the Color Range,0.34166098110226,0.38715261220932007,0.0,0.8824969025845955
+2,101,01:41,gemma2-9b,Pantones: The Color Standard,0.3409512937068939,0.3409512937068939,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Standard,0.3409512937068939,0.3409512937068939,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Standard,0.3409512937068939,0.3409512937068939,0.0,1.0
+2,101,01:41,qwen2-7b,Pantone: Bridging Color Consistency Across Industries,0.3403465747833252,0.3403465747833252,0.0,1.0
+2,101,01:41,qwen2-7b,Pantone: Bridging Color Consistency Across Industries,0.3403465747833252,0.3403465747833252,0.0,1.0
+2,101,01:41,qwen2-7b,Pantone: Revolutionizing Color Communication in Design,0.3397476375102997,0.3397476375102997,0.0,1.0
+2,101,01:41,llama3.1-8b,Pantone's Color Revolution,0.33756959438323975,0.33756959438323975,0.0,1.0
+2,101,01:41,tinyllama,PANTONE® Solutions for Color Consistency,0.33572742342948914,0.33572742342948914,0.0,1.0
+2,101,01:41,tinyllama,PANTONE® Gives Designers a Shared Palette Way Beyond That Range,0.33492143198619795,0.4300476312637329,0.0,0.7788007830714049
+2,101,01:41,tinyllama,PANTONE® Gives Designers a Shared Palette Way Beyond That Range,0.33492143198619795,0.4300476312637329,0.0,0.7788007830714049
+2,101,01:41,gemma2-9b,Pantone: The Color Standard Revolution,0.33209487795829773,0.33209487795829773,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Standard Revolution,0.3219858407974243,0.3219858407974243,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Standard Revolution,0.3219858407974243,0.3219858407974243,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Standard Revolution,0.3219858407974243,0.3219858407974243,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Standard Revolution,0.3219858407974243,0.3219858407974243,0.0,1.0
+2,101,01:41,tinyllama,The Future of Color in Design,0.31949880719184875,0.31949880719184875,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Revolution,0.30082574486732483,0.30082574486732483,0.0,1.0
+2,101,01:41,gemma2-9b,Pantones: The Color Revolution,0.30082574486732483,0.30082574486732483,0.0,1.0
+2,101,01:41,llama3.1-8b,“Color Standardization: A Game Changer”,0.2968594431877136,0.2968594431877136,0.0,1.0
+2,101,01:41,llama3.1-8b,Pantone Pioneers Color Consistancy,0.2891738712787628,0.2891738712787628,0.0,1.0
+2,101,01:41,llama3.1-8b,The Birth of Color Consistency,0.27706611156463623,0.27706611156463623,0.0,1.0
+2,101,01:41,llama3.1-8b,The Birth of Color Consistency,0.27706611156463623,0.27706611156463623,0.0,1.0
+2,101,01:41,llama3.1-8b,The Birth of Color Consistency,0.27706611156463623,0.27706611156463623,0.0,1.0
+2,101,01:41,llama3.1-8b,The Birth of Color Consistency,0.27706611156463623,0.27706611156463623,0.0,1.0
+2,101,01:41,llama3.1-8b,The Birth of Color Consistency,0.27706611156463623,0.27706611156463623,0.0,1.0
+2,101,01:41,llama3.1-8b,The Birth of Color Consistency,0.27706611156463623,0.27706611156463623,0.0,1.0
+2,101,01:41,qwen2-7b,From Printing Frustrations to Color Consistency: The Birth of Pantone,0.2748246137664071,0.3528817892074585,0.0,0.7788007830714049
+2,101,01:41,qwen2-7b,From Printing Frustration to Color Consistency: The Birth of Pantone,0.2746872333501629,0.3527053892612457,0.0,0.7788007830714049
+2,101,01:41,tinyllama,The Power of Color,0.271340012550354,0.271340012550354,0.0,1.0
+2,101,01:41,tinyllama,A Shared Palette: How Pantones Created a Standard for Color Consistency,0.2611624259524212,0.3799890875816345,0.0,0.6872892787909722
+2,101,01:41,qwen2-7b,From Color Chaos to Industry Standard: The Birth of Pantone,0.25789054522580723,0.331138014793396,0.0,0.7788007830714049
+2,101,01:41,qwen2-7b,From Printing Frustrations to Global Color Consistency: The Birth of Pantone,0.24779523738593368,0.3605399429798126,0.0,0.6872892787909722
+2,101,01:41,qwen2-7b,From Printing Frustrations to Global Color Consistency: The Birth of Pantone,0.24779523738593368,0.3605399429798126,0.0,0.6872892787909722
+3,190,03:10,mistral-7b-v0.3,Pantone's Color Revolution: Standardizing Hues Worldwide,0.38850218057632446,0.38850218057632446,0.0,1.0
+3,190,03:10,tinyllama,How Pantene's Pantonal Matching System Became Industry Standard,0.382889062166214,0.382889062166214,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pioneering PantONE: Standardizing Colors Across Industries,0.3669475317001343,0.3669475317001343,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pioneering PantONE: Standardizing Colors Across Industries,0.3669475317001343,0.3669475317001343,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pioneering PantONE: Standardizing Colors for Global Consistency,0.3621859550476074,0.3621859550476074,0.0,1.0
+3,190,03:10,gemma2-9b,Pantone: Standardizing Color Across Industries,0.3527262508869171,0.3527262508869171,0.0,1.0
+3,190,03:10,gemma2-9b,Pantone: Standardizing Color Across Industries,0.3527262508869171,0.3527262508869171,0.0,1.0
+3,190,03:10,gemma2-9b,Pantone: Standardizing Color Across Industries,0.3527262508869171,0.3527262508869171,0.0,1.0
+3,190,03:10,gemma2-9b,Pantone: Standardizing Color Across Industries,0.3527262508869171,0.3527262508869171,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pioneering PantONE: Standardizing Colors Globally,0.3514848053455353,0.3514848053455353,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pioneering Pantons: Standardizing Colors for Global Consistency,0.3511485755443573,0.3511485755443573,0.0,1.0
+3,190,03:10,qwen2-7b,Revolutionizing Color Standardization: From Shrek to Mocha Moos,0.35012105107307434,0.35012105107307434,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pantone Revolutionizes Color Matching,0.3438572287559509,0.3438572287559509,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pantone Revolutionizes Color Matching,0.3438572287559509,0.3438572287559509,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pantone Revolutionizes Color Matching,0.3438572287559509,0.3438572287559509,0.0,1.0
+3,190,03:10,qwen2-7b,Revolutionizing Color Consistency: The Birth of Pantone,0.34255340695381165,0.34255340695381165,0.0,1.0
+3,190,03:10,qwen2-7b,Revolutionizing Color Consistency: The Birth of Pantone,0.34255340695381165,0.34255340695381165,0.0,1.0
+3,190,03:10,qwen2-7b,Revolutionizing Color Consistency: The Birth of Pantone,0.34255340695381165,0.34255340695381165,0.0,1.0
+3,190,03:10,qwen2-7b,Revolutionizing Color Consistency: The Birth of Pantone,0.34255340695381165,0.34255340695381165,0.0,1.0
+3,190,03:10,llama3.1-8b,The Color Code: Pantone's Breakthrough,0.33762863278388977,0.33762863278388977,0.0,1.0
+3,190,03:10,tinyllama,How Pantene's Pant One Matching System Became Industry Standard,0.33504586380762125,0.37965670228004456,0.0,0.8824969025845955
+3,190,03:10,qwen2-7b,Revolutionizing Color Standardization: The Birth of Pantone,0.33294129371643066,0.33294129371643066,0.0,1.0
+3,190,03:10,qwen2-7b,Revolutionizing Color Standardization: The Birth of Pantone,0.33294129371643066,0.33294129371643066,0.0,1.0
+3,190,03:10,gemma2-9b,Pantone: Standardizing Color Worldwide,0.3315531015396118,0.3315531015396118,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,llama3.1-8b,Standardizing Color: The Birth of Pantone,0.3169836103916168,0.3169836103916168,0.0,1.0
+3,190,03:10,gemma2-9b,Pantone: Standardizing the Spectrum,0.3156815469264984,0.3156815469264984,0.0,1.0
+3,190,03:10,gemma2-9b,Pantone: Standardizing the Spectrum,0.3156815469264984,0.3156815469264984,0.0,1.0
+3,190,03:10,mistral-7b-v0.3,Pioneering Color Consistency: The Rise of PantONE,0.3156694769859314,0.3156694769859314,0.0,1.0
+3,190,03:10,qwen2-7b,Color Consistency Revolutionized: The Birth of Pantone,0.312692254781723,0.312692254781723,0.0,1.0
+3,190,03:10,qwen2-7b,Color Consistency Revolution: The Birth of Pantone,0.31098467111587524,0.31098467111587524,0.0,1.0
+3,190,03:10,tinyllama,Pantone: The Color of Consistency,0.3092944622039795,0.3092944622039795,0.0,1.0
+3,190,03:10,gemma2-9b,From Shades to Standards: The Rise of Pantone,0.30568116903305054,0.30568116903305054,0.0,1.0
+3,190,03:10,tinyllama,The Evolution of Color Consistency,0.3005811274051666,0.3005811274051666,0.0,1.0
+3,190,03:10,gemma2-9b,From Swamp to Standard: The Rise of Pantone,0.2998708188533783,0.2998708188533783,0.0,1.0
+3,190,03:10,qwen2-7b,Color Consistency Revolution: From Recipe Books to Global Standards,0.2931966289167191,0.33223530650138855,0.0,0.8824969025845955
+3,190,03:10,tinyllama,Pantone Matching System,0.28309717774391174,0.28309717774391174,0.0,1.0
+3,190,03:10,tinyllama,Pantone Matching System,0.28309717774391174,0.28309717774391174,0.0,1.0
+3,190,03:10,tinyllama,Pantone Matching System,0.28309717774391174,0.28309717774391174,0.0,1.0
+3,190,03:10,tinyllama,PantONE Matching System,0.28309717774391174,0.28309717774391174,0.0,1.0
+3,190,03:10,tinyllama,The Rise and Fall of Pantene,0.2797413766384125,0.2797413766384125,0.0,1.0
+3,190,03:10,tinyllama,Pantonalize Your Branding,0.2667722702026367,0.2667722702026367,0.0,1.0
+3,190,03:10,gemma2-9b,From Swamp Green to Global Standard,0.266251802444458,0.266251802444458,0.0,1.0
+3,190,03:10,llama3.1-8b,Color Standardization Breakthrough,0.24960832297801971,0.24960832297801971,0.0,1.0
+4,371,06:11,tinyllama,The World's Only Universally Accepted Color Communication Language,0.42107364535331726,0.42107364535331726,0.0,1.0
+4,371,06:11,tinyllama,The World's Only Universally Accepted Color Communication Language,0.42107364535331726,0.42107364535331726,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly: Proprietary System and Legal Battles,0.4180312752723694,0.4180312752723694,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly: Proprietary System & Legal Battles,0.41419515013694763,0.41419515013694763,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly: Proprietary System & Legal Battles,0.41419515013694763,0.41419515013694763,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly: Proprietary System & Legal Battles,0.41419515013694763,0.41419515013694763,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: A Proprietary Color Language's Monopoly,0.40782400965690613,0.40782400965690613,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly and Legal Battles,0.39376208186149597,0.39376208186149597,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly and Legal Battles,0.39376208186149597,0.39376208186149597,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly and Legal Battles,0.39376208186149597,0.39376208186149597,0.0,1.0
+4,371,06:11,qwen2-7b,Pantone's Color Monopoly and Legal Battles,0.39376208186149597,0.39376208186149597,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,llama3.1-8b,Pantone's Color Code Monopoly,0.38890960812568665,0.38890960812568665,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: A Proprietary Color Language's Dominance,0.3866235315799713,0.3866235315799713,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: A Proprietary Color Language's Dominance,0.3866235315799713,0.3866235315799713,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color's Proprietary Language,0.38643932342529297,0.38643932342529297,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color's Proprietary Language,0.38643932342529297,0.38643932342529297,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color's Proprietary Language,0.38643932342529297,0.38643932342529297,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: A Proprietary Color Language Monopoly,0.38020259141921997,0.38020259141921997,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: A Proprietary Color Language Monopoly,0.38020259141921997,0.38020259141921997,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: A Proprietary Color Language Monopoly,0.38020259141921997,0.38020259141921997,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: Proprietary Color Language & Monopoly,0.3756648004055023,0.3756648004055023,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: Proprietary Color Language Dominance,0.36600354313850403,0.36600354313850403,0.0,1.0
+4,371,06:11,qwen2-7b,"Pantone's Color Empire: Monopoly, Proprietary Language & Court Battles",0.36600176493302533,0.4147343337535858,0.0,0.8824969025845955
+4,371,06:11,gemma2-9b,Pantone: Color Monopoly and Legal Battles,0.36390426754951477,0.36390426754951477,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color's Corporate Language,0.3594527542591095,0.3594527542591095,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color's Corporate Language,0.3594527542591095,0.3594527542591095,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color Language and Monopoly,0.3493998348712921,0.3493998348712921,0.0,1.0
+4,371,06:11,qwen2-7b,"Pantone's Color Empire: Monopoly, Proprietary System, and Legal Battles",0.3473325168940431,0.39357930421829224,0.0,0.8824969025845955
+4,371,06:11,tinyllama,Pantone Color System - A Brief History,0.34526219964027405,0.34526219964027405,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color Language & Monopoly,0.3440268933773041,0.3440268933773041,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color Language & Monopoly,0.3440268933773041,0.3440268933773041,0.0,1.0
+4,371,06:11,gemma2-9b,Pantone: Color Monopoly,0.33687472343444824,0.33687472343444824,0.0,1.0
+4,371,06:11,tinyllama,Pantonesque: The Colorful History of Pantopia,0.3322129249572754,0.3322129249572754,0.0,1.0
+4,371,06:11,tinyllama,Pantonesque: A Colorful History of Pantonalism,0.33155834674835205,0.33155834674835205,0.0,1.0
+4,371,06:11,tinyllama,Pantone Color System,0.3256821632385254,0.3256821632385254,0.0,1.0
+4,371,06:11,tinyllama,Pantone Color System,0.3256821632385254,0.3256821632385254,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: Copyrighting Color Communication,0.3224940896034241,0.3224940896034241,0.0,1.0
+4,371,06:11,mistral-7b-v0.3,Pantone: Copyrighting Color Communication,0.3224940896034241,0.3224940896034241,0.0,1.0
+4,371,06:11,tinyllama,How Pantones Created the World's Only Universally Accepted Color Communication Language,0.3071396105077434,0.44688549637794495,0.0,0.6872892787909722
+4,371,06:11,tinyllama,Pantonesque Color Language,0.30455902218818665,0.30455902218818665,0.0,1.0
+4,371,06:11,tinyllama,Pantonesque: A Colorful Journey Through the History of Pantonalism,0.3009883234645214,0.341064453125,0.0,0.8824969025845955
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,mistral-7b-v0.3,Pantone's Color Dominance in the Printing Industry,0.36388033628463745,0.36388033628463745,0.0,1.0
+5,465,07:45,llama3.1-8b,Pantone's Color Advantage in Commercial Printing,0.36232298612594604,0.36232298612594604,0.0,1.0
+5,465,07:45,tinyllama,How Allied Printers Mix Their Own Ink Colors,0.3549393117427826,0.3549393117427826,0.0,1.0
+5,465,07:45,llama3.1-8b,Pantone's Color Formula Mastery,0.34544962644577026,0.34544962644577026,0.0,1.0
+5,465,07:45,tinyllama,The Benefits of Using Pantones in Color Mixing,0.3431144952774048,0.3431144952774048,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard for Print,0.33690187335014343,0.33690187335014343,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard for Print,0.33690187335014343,0.33690187335014343,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard for Print,0.33690187335014343,0.33690187335014343,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: Color Consistency in Print,0.3344852030277252,0.3344852030277252,0.0,1.0
+5,465,07:45,llama3.1-8b,Pantone Colors Bring Precision to Printing,0.3323490619659424,0.3323490619659424,0.0,1.0
+5,465,07:45,qwen2-7b,Mastering Color Consistency: Pantone's Unmatched Role in High-Quality Printing,0.32965526949961615,0.37354835867881775,0.0,0.8824969025845955
+5,465,07:45,qwen2-7b,Mastering Color Consistency: Pantone's Unmatched Role in High-Quality Printing,0.32965526949961615,0.37354835867881775,0.0,0.8824969025845955
+5,465,07:45,llama3.1-8b,Achieving Perfect Color Consistency with Pantone,0.32742300629615784,0.32742300629615784,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard in Print,0.32696592807769775,0.32696592807769775,0.0,1.0
+5,465,07:45,qwen2-7b,Mastering Color Accuracy: Pantone's Unmatched Role in High-Quality Printing,0.3268653696010761,0.3703869879245758,0.0,0.8824969025845955
+5,465,07:45,qwen2-7b,Mastering Color Accuracy: Pantone's Unmatched Role in High-Quality Printing,0.3268653696010761,0.3703869879245758,0.0,0.8824969025845955
+5,465,07:45,gemma2-9b,Pantone: Color Accuracy in Print,0.3237525522708893,0.3237525522708893,0.0,1.0
+5,465,07:45,qwen2-7b,Mastering Color Accuracy: The Pantone Advantage,0.3236110508441925,0.3236110508441925,0.0,1.0
+5,465,07:45,llama3.1-8b,Pantone Precision: A Color Standard,0.3233690857887268,0.3233690857887268,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard of Print,0.32226046919822693,0.32226046919822693,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard,0.3213529586791992,0.3213529586791992,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard,0.3213529586791992,0.3213529586791992,0.0,1.0
+5,465,07:45,gemma2-9b,Pantone: The Color Standard,0.3213529586791992,0.3213529586791992,0.0,1.0
+5,465,07:45,qwen2-7b,Mastering Color Accuracy: The Essential Role of Pantone,0.31618988513946533,0.31618988513946533,0.0,1.0
+5,465,07:45,tinyllama,Pantone Color Mixing: A Primer for Printing Industry Professionals,0.3081023867326439,0.3491257429122925,0.0,0.8824969025845955
+5,465,07:45,llama3.1-8b,Perfecting Color Consistency with Expertise,0.30776745080947876,0.30776745080947876,0.0,1.0
+5,465,07:45,qwen2-7b,The Unmatched Power of Pantone in the Printing Industry,0.30585845802505573,0.3465830385684967,0.0,0.8824969025845955
+5,465,07:45,tinyllama,How Does Allied Printer Use Pantones To Mix Ink Colors?,0.3042594182024979,0.3906768262386322,0.0,0.7788007830714049
+5,465,07:45,qwen2-7b,The Unmatched Power of Pantone in Printing,0.30372145771980286,0.30372145771980286,0.0,1.0
+5,465,07:45,tinyllama,The Benefits of Using Pantones in Your Color Mixing,0.3035179014377259,0.34393084049224854,0.0,0.8824969025845955
+5,465,07:45,llama3.1-8b,Achieving Consistent Colors with Precision,0.29940178990364075,0.29940178990364075,0.0,1.0
+5,465,07:45,llama3.1-8b,Achieving Consistent Colors with Precision,0.29940178990364075,0.29940178990364075,0.0,1.0
+5,465,07:45,qwen2-7b,The Unmatched Power of Pantone in Print,0.2980148196220398,0.2980148196220398,0.0,1.0
+5,465,07:45,llama3.1-8b,Achieving Consistent Color with Precision,0.29400455951690674,0.29400455951690674,0.0,1.0
+5,465,07:45,qwen2-7b,The Unquestioned Authority of Pantone in Print,0.2847943902015686,0.2847943902015686,0.0,1.0
+5,465,07:45,tinyllama,Pantonal Colors in Printing,0.28168919682502747,0.28168919682502747,0.0,1.0
+5,465,07:45,llama3.1-8b,Unlocking the Secret to Vibrant Colors,0.2758990526199341,0.2758990526199341,0.0,1.0
+5,465,07:45,tinyllama,How Does Allied Printers Use Pantones In Their Color Mixing Process?,0.2667619774053356,0.3881363868713379,0.0,0.6872892787909722
+5,465,07:45,tinyllama,How Does Allied Printers Use Pantones In Their Color Mixing Process?,0.2667619774053356,0.3881363868713379,0.0,0.6872892787909722
+5,465,07:45,tinyllama,The Power of Pantones,0.26359084248542786,0.26359084248542786,0.0,1.0
+5,465,07:45,tinyllama,How Allied Printer Uses Pantones To Ensure Consistency In Color Mixing,0.26295274702541693,0.3825939893722534,0.0,0.6872892787909722
+6,649,10:49,tinyllama,PANTONE BECOMES AN ESSENTIAL LANGUAGE FOR DESIGNERS,0.3894681930541992,0.3894681930541992,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES AN ESSENTIAL LANGUAGE FOR DESIGNERS,0.3894681930541992,0.3894681930541992,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone's Dominance: A Mainstream Language vs. Costly Control,0.377559632062912,0.377559632062912,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone: The Mainstream Language of Perfect Print Colors,0.37513989210128784,0.37513989210128784,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone: The Mainstream Language of Perfect Print Colors,0.37513989210128784,0.37513989210128784,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES AN ESSENTIAL LANGUAGE,0.36210981011390686,0.36210981011390686,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES AN ESSENTIAL LANGUAGE,0.36210981011390686,0.36210981011390686,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone: The Unavoidable Language of Perfect Color Consistency,0.36007359623908997,0.36007359623908997,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,Pantone: The Costly Necessity of Brand Consistency,0.3514299988746643,0.3514299988746643,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,Pantone: The Costly Necessity of Brand Consistency,0.3514299988746643,0.3514299988746643,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,Pantone: The Costly Necessity of Brand Consistency,0.3514299988746643,0.3514299988746643,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,Pantone vs CMYk: Costly Precision vs Affordable Flexibility,0.34991323947906494,0.34991323947906494,0.0,1.0
+6,649,10:49,llama3.1-8b,Pantone's Double Edge: Control vs Cost,0.3462773263454437,0.3462773263454437,0.0,1.0
+6,649,10:49,llama3.1-8b,Pantone's Double Edge: Control vs Cost,0.3462773263454437,0.3462773263454437,0.0,1.0
+6,649,10:49,tinyllama,The Necessity of Pantones as a Mainstream Language,0.34450992941856384,0.34450992941856384,0.0,1.0
+6,649,10:49,gemma2-9b,Pantones: Necessary Evil or Color Control?,0.3405691981315613,0.3405691981315613,0.0,1.0
+6,649,10:49,gemma2-9b,Pantones: Necessary Evil or Color Control?,0.3405691981315613,0.3405691981315613,0.0,1.0
+6,649,10:49,gemma2-9b,"Pantones: Necessity, Control, and Cost",0.3404170870780945,0.3404170870780945,0.0,1.0
+6,649,10:49,gemma2-9b,"Pantones: Necessity, Control, and Cost",0.3404170870780945,0.3404170870780945,0.0,1.0
+6,649,10:49,gemma2-9b,"Pantones: Necessity, Control, and Cost",0.3404170870780945,0.3404170870780945,0.0,1.0
+6,649,10:49,gemma2-9b,"Pantones: Necessity, Frustration, and Control",0.3375466465950012,0.3375466465950012,0.0,1.0
+6,649,10:49,gemma2-9b,"Pantones: Necessity, Frustration, and Control",0.3375466465950012,0.3375466465950012,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,"Pantone: The Pricey, Precise Color Standard",0.337066113948822,0.337066113948822,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,"Pantone: The Pricey, Precise Color Standard",0.337066113948822,0.337066113948822,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,"Pantone: The Pricey, Precise Color Standard",0.337066113948822,0.337066113948822,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES A NECESSARY EVIL,0.33293867111206055,0.33293867111206055,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES A NECESSARY EVIL,0.33293867111206055,0.33293867111206055,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES A NECESSARY EVIL,0.33293867111206055,0.33293867111206055,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES A NECESSARY EVIL,0.33293867111206055,0.33293867111206055,0.0,1.0
+6,649,10:49,gemma2-9b,"Pantones: Necessity, Expense, and Control",0.33228445053100586,0.33228445053100586,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,Pantone: The Pricey Necessity in Design World,0.32706937193870544,0.32706937193870544,0.0,1.0
+6,649,10:49,mistral-7b-v0.3,"Pantone: The Costly, Precise Color Language",0.3269273638725281,0.3269273638725281,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone's Role as an Unavoidable Standard in Print,0.326831579208374,0.326831579208374,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone's Role as an Unavoidable Standard,0.3257259726524353,0.3257259726524353,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone's Role as a Mainstream Language vs. Costly Necessity,0.3200209912210514,0.36263129115104675,0.0,0.8824969025845955
+6,649,10:49,mistral-7b-v0.3,Pantone: The Costly Necessity in Design World,0.3179484009742737,0.3179484009742737,0.0,1.0
+6,649,10:49,llama3.1-8b,The Double-Edged Sword of Pantone,0.31507715582847595,0.31507715582847595,0.0,1.0
+6,649,10:49,llama3.1-8b,The Double-Edged Sword of Pantone,0.31507715582847595,0.31507715582847595,0.0,1.0
+6,649,10:49,gemma2-9b,Pantones: Necessary Evil or Creative Constraint?,0.3109033405780792,0.3109033405780792,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone's Role as a Unifying yet Expensive Color Language,0.31039160482752526,0.35171976685523987,0.0,0.8824969025845955
+6,649,10:49,llama3.1-8b,Pantone's Double Edge,0.31034597754478455,0.31034597754478455,0.0,1.0
+6,649,10:49,tinyllama,PANTONE BECOMES AN ESSENTIAL EVIL DUE TO ITS MAINSTREAM LANGUAGE,0.3076073086198523,0.39497560262680054,0.0,0.7788007830714049
+6,649,10:49,gemma2-9b,Pantones: Necessity or Creative Constraint?,0.30540257692337036,0.30540257692337036,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone's Role as a Universal Color Language vs. Costly Control,0.2915935426446353,0.37441352009773254,0.0,0.7788007830714049
+6,649,10:49,llama3.1-8b,The Double Edge of Pantone,0.2754601538181305,0.2754601538181305,0.0,1.0
+6,649,10:49,llama3.1-8b,Pantons Trade- Offs,0.264005571603775,0.264005571603775,0.0,1.0
+6,649,10:49,llama3.1-8b,Pantones' Double Edge,0.26256656646728516,0.26256656646728516,0.0,1.0
+6,649,10:49,llama3.1-8b,Pantones Double Edge,0.2572218179702759,0.2572218179702759,0.0,1.0
+6,649,10:49,llama3.1-8b,Pantones Double Edge,0.2572218179702759,0.2572218179702759,0.0,1.0
+6,649,10:49,qwen2-7b,Pantone's Role as a Universal Color Language vs. High Cost and Control Issues,0.20681404856099,0.38637951016426086,0.0,0.5352614285189903
+7,711,11:51,tinyllama,Pantone's Color Plugin: A Point of Friction,0.3750101923942566,0.3750101923942566,0.0,1.0
+7,711,11:51,tinyllama,Pantone's New Plugin Offends Some,0.3633553683757782,0.3633553683757782,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Pantone's Price Hike: Designers' Dilemma,0.3547796905040741,0.3547796905040741,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Pantone's Price Hike Stirs Designer Frustration,0.3537216782569885,0.3537216782569885,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Designer Backlash,0.35209953784942627,0.35209953784942627,0.0,1.0
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy: Designers' Pain Point,0.35076838731765747,0.35076838731765747,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Pantone's Price Hike: A Designer's Dilemma,0.3506367802619934,0.3506367802619934,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Backlash,0.34975576400756836,0.34975576400756836,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Backlash,0.34975576400756836,0.34975576400756836,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Backlash,0.34975576400756836,0.34975576400756836,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Backlash,0.34975576400756836,0.34975576400756836,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Backlash,0.34975576400756836,0.34975576400756836,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Outrage,0.3489646315574646,0.3489646315574646,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Outrage,0.3489646315574646,0.3489646315574646,0.0,1.0
+7,711,11:51,llama3.1-8b,Pantone's Price Hike Sparks Industry Outrage,0.3489646315574646,0.3489646315574646,0.0,1.0
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Fiasco: Designers' Dilemma,0.3470609486103058,0.3470609486103058,0.0,1.0
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Fiasco: Designers' Dilemma,0.3470609486103058,0.3470609486103058,0.0,1.0
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy: Designers' Dilemma,0.3455851078033447,0.3455851078033447,0.0,1.0
+7,711,11:51,tinyllama,Pantone Color Plugin: A Point of Friction,0.3441014885902405,0.3441014885902405,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Revolution,0.34007760882377625,0.34007760882377625,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Revolution,0.34007760882377625,0.34007760882377625,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Revolution,0.34007760882377625,0.34007760882377625,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Revolution,0.34007760882377625,0.34007760882377625,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Designers' Dilemma: Pantones Subscription-Based Color Palette,0.339769184589386,0.339769184589386,0.0,1.0
+7,711,11:51,tinyllama,How Pantones Changed Color Management for Designers,0.33751043677330017,0.33751043677330017,0.0,1.0
+7,711,11:51,tinyllama,How Pantones Changed Color Management for Designers,0.33751043677330017,0.33751043677330017,0.0,1.0
+7,711,11:51,tinyllama,Pantone Color Plugin: A New Reality,0.33709287643432617,0.33709287643432617,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Shift,0.33701691031455994,0.33701691031455994,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Designers' Dilemma: Pantones New Subscription Model Irks Users,0.33204686641693115,0.33204686641693115,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Designers' Dilemma: Pantones Pricey Color Palette Subscription,0.3318285346031189,0.3318285346031189,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Designers' Dilemma: Pantones Pricey Color Palette,0.32557958364486694,0.32557958364486694,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Designers' Dilemma: Pantones Pricey Color Palette,0.32557958364486694,0.32557958364486694,0.0,1.0
+7,711,11:51,tinyllama,Pantone's Color Planning Process,0.32523542642593384,0.32523542642593384,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Predicament,0.32518744468688965,0.32518744468688965,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Predicament,0.32518744468688965,0.32518744468688965,0.0,1.0
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy,0.32501867413520813,0.32501867413520813,0.0,1.0
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy,0.32501867413520813,0.32501867413520813,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Monopoly,0.32402995228767395,0.32402995228767395,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Monopoly,0.32402995228767395,0.32402995228767395,0.0,1.0
+7,711,11:51,gemma2-9b,Pantone's Pricey Color Monopoly,0.32402995228767395,0.32402995228767395,0.0,1.0
+7,711,11:51,mistral-7b-v0.3,Designers' Dilemma: Pantones New Subscription Model Stirs Controversy,0.3235386908054352,0.3235386908054352,0.0,1.0
+7,711,11:51,tinyllama,Pantone Color Changes: A Frustrating Experience,0.32222694158554077,0.32222694158554077,0.0,1.0
+7,711,11:51,tinyllama,The New Color Plug-In,0.321262925863266,0.321262925863266,0.0,1.0
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy: A Shift in Color Access,0.3189929326496791,0.36146634817123413,0.0,0.8824969025845955
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy: A Shift in Color Access,0.3189929326496791,0.36146634817123413,0.0,0.8824969025845955
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy: A Shift in Color Access,0.3189929326496791,0.36146634817123413,0.0,0.8824969025845955
+7,711,11:51,qwen2-7b,Pantone's Subscription Fee Controversy: A Shift in Color Access,0.3189929326496791,0.36146634817123413,0.0,0.8824969025845955
+7,711,11:51,mistral-7b-v0.3,Designers Resent Pantones Subscription Model,0.27914711833000183,0.27914711833000183,0.0,1.0
+7,711,11:51,llama3.1-8b,Designers Rebel Against Pantone Fees,0.2707758843898773,0.2707758843898773,0.0,1.0
+7,711,11:51,tinyllama,How One Industrial Designer Uses Pantones to Make Creative Decisions,0.26109703988445915,0.3352552354335785,0.0,0.7788007830714049
+8,848,14:08,mistral-7b-v0.3,The Durability Dilemma: Pantones & Designer's Color Expiration,0.3611782491207123,0.3611782491207123,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,The Durability Dilemma: Pantones & Designer's Color Expiration,0.3611782491207123,0.3611782491207123,0.0,1.0
+8,848,14:08,gemma2-9b,"Pantone: Color, Cost, and Creativity",0.3506111800670624,0.3506111800670624,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,The Fading Vibrancy of Design: Pantones' Expiration Date,0.34606990218162537,0.34606990218162537,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,"The Durability Dilemma: Pantones' Expensive, Perishable Color Guides",0.345929354429245,0.345929354429245,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,"The Durability Dilemma: Pantones' Expensive, Fading Color Guides",0.34565550088882446,0.34565550088882446,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,The Durability Dilemma: Pantones & Designer's Color Conundrum,0.34487664699554443,0.34487664699554443,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color Harmony's Price Tag,0.3446405827999115,0.3446405827999115,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color's High Cost,0.3441253900527954,0.3441253900527954,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color Accuracy and Cost,0.3402915894985199,0.3402915894985199,0.0,1.0
+8,848,14:08,llama3.1-8b,The Limitations of Pantone Color Guides,0.34026122093200684,0.34026122093200684,0.0,1.0
+8,848,14:08,llama3.1-8b,The Limitations of Pantone Color Guides,0.34026122093200684,0.34026122093200684,0.0,1.0
+8,848,14:08,llama3.1-8b,The Limitations of Pantone Color Guides,0.34026122093200684,0.34026122093200684,0.0,1.0
+8,848,14:08,tinyllama,Pantone Color Guide - Transform Your Designs,0.3398463726043701,0.3398463726043701,0.0,1.0
+8,848,14:08,tinyllama,Pantone Color Changes: How to Stay Current,0.3390166759490967,0.3390166759490967,0.0,1.0
+8,848,14:08,qwen2-7b,"The Expensive, Evolving World of Pantone Color Guides",0.334909588098526,0.334909588098526,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color's Pricey Guide,0.33346864581108093,0.33346864581108093,0.0,1.0
+8,848,14:08,llama3.1-8b,The High Cost of Color Consistency,0.33290308713912964,0.33290308713912964,0.0,1.0
+8,848,14:08,llama3.1-8b,The High Cost of Color Consistency,0.33290308713912964,0.33290308713912964,0.0,1.0
+8,848,14:08,tinyllama,Pantone Color Guide: A Comprehensive Overview,0.33251091837882996,0.33251091837882996,0.0,1.0
+8,848,14:08,tinyllama,Pantone Color Guide: A Comprehensive Overview,0.33251091837882996,0.33251091837882996,0.0,1.0
+8,848,14:08,tinyllama,The Ultimate Guide to Permanent Marker Color Changes,0.33149081468582153,0.33149081468582153,0.0,1.0
+8,848,14:08,tinyllama,Pantone Color Guide: A Brief Introduction,0.3278539180755615,0.3278539180755615,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color Harmony or Corporate Cost?,0.3276638984680176,0.3276638984680176,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color Harmony or Corporate Burden?,0.32313498854637146,0.32313498854637146,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color Harmony or Corporate Burden?,0.32313498854637146,0.32313498854637146,0.0,1.0
+8,848,14:08,gemma2-9b,Pantone: Color's Pricey Predicament,0.3230213522911072,0.3230213522911072,0.0,1.0
+8,848,14:08,llama3.1-8b,The Cost of Color Consistency,0.32199230790138245,0.32199230790138245,0.0,1.0
+8,848,14:08,tinyllama,The Importance of Color in Design,0.32086247205734253,0.32086247205734253,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,The Fading Spectrum: Pantones & Their Expensive Lifespan,0.31702739000320435,0.31702739000320435,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,The Lifespan & Cost of Designer's Color Bible: Pantones,0.3157661032557258,0.3578098714351654,0.0,0.8824969025845955
+8,848,14:08,mistral-7b-v0.3,The Durability Dilemma: Pantones & Designer's Color Palette Expiration,0.31563909834792164,0.3576659560203552,0.0,0.8824969025845955
+8,848,14:08,llama3.1-8b,When Color Guides go Bad,0.31425318121910095,0.31425318121910095,0.0,1.0
+8,848,14:08,qwen2-7b,"The Expensive, Colorful World of Pantone Guides",0.313724547624588,0.313724547624588,0.0,1.0
+8,848,14:08,qwen2-7b,"The Expensive, Colorful World of Pantone Guides",0.313724547624588,0.313724547624588,0.0,1.0
+8,848,14:08,gemma2-9b,The Cost of Color Accuracy,0.3129093647003174,0.3129093647003174,0.0,1.0
+8,848,14:08,llama3.1-8b,The Cost and Limitations of Color Consistency,0.311922162771225,0.311922162771225,0.0,1.0
+8,848,14:08,llama3.1-8b,The Cost and Limitations of Color Consistency,0.311922162771225,0.311922162771225,0.0,1.0
+8,848,14:08,tinyllama,Pantone Color Changes,0.3067170977592468,0.3067170977592468,0.0,1.0
+8,848,14:08,mistral-7b-v0.3,The Fading Vibrancy of Design Standards: Pantones,0.30580177903175354,0.30580177903175354,0.0,1.0
+8,848,14:08,llama3.1-8b,The Costly Conundrum of Color Consistency,0.2964836061000824,0.2964836061000824,0.0,1.0
+8,848,14:08,qwen2-7b,The Expensive and Evolving World of Pantone Color Guides,0.29644812813952315,0.33591973781585693,0.0,0.8824969025845955
+8,848,14:08,qwen2-7b,The Expensive and Evolving World of Pantone Color Guides,0.29644812813952315,0.33591973781585693,0.0,0.8824969025845955
+8,848,14:08,qwen2-7b,The Expensive and Evolving World of Pantone Color Guides,0.29644812813952315,0.33591973781585693,0.0,0.8824969025845955
+8,848,14:08,qwen2-7b,The Expensive and Evolving World of Pantone Color Guides,0.29644812813952315,0.33591973781585693,0.0,0.8824969025845955
+8,848,14:08,qwen2-7b,The Expensive and Evolving World of Pantone Color Guides,0.29644812813952315,0.33591973781585693,0.0,0.8824969025845955
+8,848,14:08,qwen2-7b,The Expensive and Evolving World of Pantone Color Guides,0.29644812813952315,0.33591973781585693,0.0,0.8824969025845955
+8,848,14:08,qwen2-7b,The Expensive and Evolving World of Pantone Color Guides,0.29644812813952315,0.33591973781585693,0.0,0.8824969025845955
+8,848,14:08,tinyllama,Pantone Color Guide: A Comprehensive Guide to Translating Digital Designs into Print,0.23976654124003624,0.3953081965446472,0.0,0.6065306597126334
+8,848,14:08,tinyllama,Pantone Color Guide: How to Choose the Right Color for Your Design,0.23628041766323069,0.3895605504512787,0.0,0.6065306597126334
+9,996,16:36,tinyllama,Creating a Unified Color System for Designers,0.3602406680583954,0.3602406680583954,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Language,0.3518039882183075,0.3518039882183075,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Language,0.3518039882183075,0.3518039882183075,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Language,0.3518039882183075,0.3518039882183075,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Language,0.3518039882183075,0.3518039882183075,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Language,0.3518039882183075,0.3518039882183075,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Language,0.3518039882183075,0.3518039882183075,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Language,0.3518039882183075,0.3518039882183075,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Standard,0.35117635130882263,0.35117635130882263,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: The Designer's Color Standard,0.35117635130882263,0.35117635130882263,0.0,1.0
+9,996,16:36,mistral-7b-v0.3,Designers' Color Dance: Pantones Shaping Our World,0.35024988651275635,0.35024988651275635,0.0,1.0
+9,996,16:36,llama3.1-8b,Standardizing Color Across the Design Industry,0.34693312644958496,0.34693312644958496,0.0,1.0
+9,996,16:36,tinyllama,Maintaining Your Design Standards with Pantones,0.3444672226905823,0.3444672226905823,0.0,1.0
+9,996,16:36,gemma2-9b,Pantone: Design's Shared Language,0.3370489180088043,0.3370489180088043,0.0,1.0
+9,996,16:36,llama3.1-8b,The Power of Pantones: Standardizing Color Consistency,0.3365996778011322,0.3365996778011322,0.0,1.0
+9,996,16:36,mistral-7b-v0.3,Designing with Pantones: Unifying the World of Print,0.3365974426269531,0.3365974426269531,0.0,1.0
+9,996,16:36,mistral-7b-v0.3,Designers' Dance: Unifying Colors with Pantones,0.32933327555656433,0.32933327555656433,0.0,1.0
+9,996,16:36,tinyllama,Pantone Guide: Understanding Color Concepts,0.32820263504981995,0.32820263504981995,0.0,1.0
+9,996,16:36,mistral-7b-v0.3,Designers' Dance: Unifying Colors through Pantones,0.32798928022384644,0.32798928022384644,0.0,1.0
+9,996,16:36,llama3.1-8b,Standardizing Color across Design and Printing,0.326924204826355,0.326924204826355,0.0,1.0
+9,996,16:36,qwen2-7b,Mastering Color Consistency: The Power of Pantones,0.3268485367298126,0.3268485367298126,0.0,1.0
+9,996,16:36,llama3.1-8b,Standardizing Color Across Design and Print,0.3266732394695282,0.3266732394695282,0.0,1.0
+9,996,16:36,llama3.1-8b,Standardizing Color Across Design and Print,0.3266732394695282,0.3266732394695282,0.0,1.0
+9,996,16:36,tinyllama,Mapping Out Your Brand Color Palette,0.3265576660633087,0.3265576660633087,0.0,1.0
+9,996,16:36,qwen2-7b,Mastering Color Consistency: The Pantone Bridge,0.3260016441345215,0.3260016441345215,0.0,1.0
+9,996,16:36,llama3.1-8b,Standardizing Color in Design and Printing,0.3256276249885559,0.3256276249885559,0.0,1.0
+9,996,16:36,qwen2-7b,The Essential Role of Pantones in Design Consistency,0.32056862115859985,0.32056862115859985,0.0,1.0
+9,996,16:36,tinyllama,Maintaining Color Consistency Across Design Projects,0.31811511516571045,0.31811511516571045,0.0,1.0
+9,996,16:36,mistral-7b-v0.3,Designers' Universal Language: The Pantoneshape World,0.3139156103134155,0.3139156103134155,0.0,1.0
+9,996,16:36,mistral-7b-v0.3,Designers' Guide to Color Consistency: The Power of PANTONE,0.30755257567494126,0.3485027253627777,0.0,0.8824969025845955
+9,996,16:36,mistral-7b-v0.3,Designers' Guide to Color Consistency: The Power of PANTONE,0.30755257567494126,0.3485027253627777,0.0,0.8824969025845955
+9,996,16:36,mistral-7b-v0.3,Designers' Guide to Color Consistency: The Power of PANTONE,0.30755257567494126,0.3485027253627777,0.0,0.8824969025845955
+9,996,16:36,mistral-7b-v0.3,Designers' Guide to Color Consistency: The Power of PANTONE,0.30755257567494126,0.3485027253627777,0.0,0.8824969025845955
+9,996,16:36,tinyllama,Creating a Unified Design Language,0.3061997592449188,0.3061997592449188,0.0,1.0
+9,996,16:36,tinyllama,Pantone Color System,0.3060913383960724,0.3060913383960724,0.0,1.0
+9,996,16:36,llama3.1-8b,Standardizing Color Across Industries,0.30374813079833984,0.30374813079833984,0.0,1.0
+9,996,16:36,qwen2-7b,Mastering Color Consistency: The Role of Pantones in Design,0.30140352878229,0.34153494238853455,0.0,0.8824969025845955
+9,996,16:36,qwen2-7b,Mastering Color Consistency: The Role of Pantones in Design,0.30140352878229,0.34153494238853455,0.0,0.8824969025845955
+9,996,16:36,qwen2-7b,Mastering Color Consistency: The Role of Pantones in Design,0.30140352878229,0.34153494238853455,0.0,0.8824969025845955
+9,996,16:36,qwen2-7b,The Essential Role of Pantones in Design and Printing,0.29082477478532487,0.329547643661499,0.0,0.8824969025845955
+9,996,16:36,llama3.1-8b,The Power of Standardized Color,0.28572842478752136,0.28572842478752136,0.0,1.0
+9,996,16:36,llama3.1-8b,The Power of Standardized Color,0.28572842478752136,0.28572842478752136,0.0,1.0
+9,996,16:36,llama3.1-8b,The Power of Standardized Color,0.28572842478752136,0.28572842478752136,0.0,1.0
+9,996,16:36,qwen2-7b,The Essential Role of Pantones in Bridging Design Intentions,0.28558272545956825,0.3236076235771179,0.0,0.8824969025845955
+9,996,16:36,mistral-7b-v0.3,Designers' Color Dance: The Pantones' Dominance in Shaping Our World,0.2644624306961112,0.33957648277282715,0.0,0.7788007830714049
+9,996,16:36,tinyllama,Creating a Painting,0.26171818375587463,0.26171818375587463,0.0,1.0
+9,996,16:36,qwen2-7b,The Essential Role of Pantones in Bridging Design Intent and Real-Life Colors,0.22341085017167117,0.36834222078323364,0.0,0.6065306597126334
+9,996,16:36,tinyllama,How to Make Sure Your Design Matches What You See on Your Screen,0.21439936817993654,0.4005507528781891,0.0,0.5352614285189903
+9,996,16:36,qwen2-7b,The Essential Role of Pantones in Bridging Design Intent and Print Reality,0.21042668069899104,0.3469349443912506,0.0,0.6065306597126334
+9,996,16:36,tinyllama,Making Sure What They See on Their Screens Matches the Color They Experience in Real Life,0.1653048615303507,0.449345201253891,0.0,0.36787944117144233
+10,1125,18:45,tinyllama,Pantone: A Language We Need To Pay For,0.39244207739830017,0.39244207739830017,0.0,1.0
+10,1125,18:45,tinyllama,Pantone: A Language We Need To Pay For,0.39244207739830017,0.39244207739830017,0.0,1.0
+10,1125,18:45,tinyllama,Pantone: A Language We Need to Pay For,0.39244207739830017,0.39244207739830017,0.0,1.0
+10,1125,18:45,llama3.1-8b,Pantone's Color Consistency Comes at a Cost,0.38677603006362915,0.38677603006362915,0.0,1.0
+10,1125,18:45,llama3.1-8b,Pantone's Color Consistency Comes at a Cost,0.38677603006362915,0.38677603006362915,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone's Consistent Colors: A Language Designers Pay To Speak,0.3699643233166066,0.41922450065612793,0.0,0.8824969025845955
+10,1125,18:45,llama3.1-8b,Pantone's Consistent Color Promise,0.3577597737312317,0.3577597737312317,0.0,1.0
+10,1125,18:45,gemma2-9b,Pantone: The Price of Color Consistency,0.33961474895477295,0.33961474895477295,0.0,1.0
+10,1125,18:45,gemma2-9b,Pantone: The Price of Color Consistency,0.33961474895477295,0.33961474895477295,0.0,1.0
+10,1125,18:45,gemma2-9b,"Pantone: Language of Color, Price of Access",0.3362809121608734,0.3362809121608734,0.0,1.0
+10,1125,18:45,llama3.1-8b,Pantone's Price for Precision,0.33223262429237366,0.33223262429237366,0.0,1.0
+10,1125,18:45,gemma2-9b,"Pantone: Language of Color, Paid Access",0.33029937744140625,0.33029937744140625,0.0,1.0
+10,1125,18:45,gemma2-9b,"Pantone: Language of Color, Paid Access",0.33029937744140625,0.33029937744140625,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: The Expensive Language of Consistent Colors,0.3296366035938263,0.3296366035938263,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: The Expensive Language of Consistent Colors,0.3296366035938263,0.3296366035938263,0.0,1.0
+10,1125,18:45,tinyllama,Pantone's Color Guidelines,0.3259941339492798,0.3259941339492798,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: A Costly Language of Consistent Colors,0.3231930732727051,0.3231930732727051,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: A Costly Language of Consistent Colors,0.3231930732727051,0.3231930732727051,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: A Costly Language of Consistent Colors,0.3231930732727051,0.3231930732727051,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: A Costly Language of Consistent Colors,0.3231930732727051,0.3231930732727051,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: A Costly Language of Consistent Colors,0.3231930732727051,0.3231930732727051,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: A Costly Language of Consistent Colors,0.3231930732727051,0.3231930732727051,0.0,1.0
+10,1125,18:45,llama3.1-8b,The Cost of Consistency in Color,0.32056349515914917,0.32056349515914917,0.0,1.0
+10,1125,18:45,llama3.1-8b,The Cost of Consistency in Color,0.32056349515914917,0.32056349515914917,0.0,1.0
+10,1125,18:45,llama3.1-8b,The Cost of Consistency in Color,0.32056349515914917,0.32056349515914917,0.0,1.0
+10,1125,18:45,llama3.1-8b,The Cost of Consistency in Color,0.32056349515914917,0.32056349515914917,0.0,1.0
+10,1125,18:45,llama3.1-8b,The Cost of Consistency in Color,0.32056349515914917,0.32056349515914917,0.0,1.0
+10,1125,18:45,llama3.1-8b,The Cost of Consistency in Color,0.32056349515914917,0.32056349515914917,0.0,1.0
+10,1125,18:45,mistral-7b-v0.3,Pantone: The Costly Language of Consistent Colors,0.31994879245758057,0.31994879245758057,0.0,1.0
+10,1125,18:45,gemma2-9b,"Pantone: Language of Color, Pricey Privilege",0.318429559469223,0.318429559469223,0.0,1.0
+10,1125,18:45,gemma2-9b,"Pantone: Language of Color, Pricey Privilege",0.318429559469223,0.318429559469223,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,qwen2-7b,Pantone: The Unquestioned Language of Consistent Color,0.3116433322429657,0.3116433322429657,0.0,1.0
+10,1125,18:45,tinyllama,Pantones Guide to Color Consistency,0.30695590376853943,0.30695590376853943,0.0,1.0
+10,1125,18:45,gemma2-9b,Pantone: The Language of Color,0.3061417043209076,0.3061417043209076,0.0,1.0
+10,1125,18:45,gemma2-9b,Pantone: The Language of Color,0.3061417043209076,0.3061417043209076,0.0,1.0
+10,1125,18:45,gemma2-9b,Pantone: The Language of Color,0.3061417043209076,0.3061417043209076,0.0,1.0
+10,1125,18:45,tinyllama,The Benefits of Pantonal Guides,0.2991853356361389,0.2991853356361389,0.0,1.0
+10,1125,18:45,tinyllama,How to Get the Best Deal on Pantones Guides,0.290803024307223,0.3295229971408844,0.0,0.8824969025845955
+10,1125,18:45,tinyllama,Pantone Color Guides - A Must Have Tool for Designers,0.2854459837108709,0.36651989817619324,0.0,0.7788007830714049
+10,1125,18:45,tinyllama,How Pantones Color Guides Work and Why They're Worth Paying For,0.2850391019534241,0.41472944617271423,0.0,0.6872892787909722
+10,1125,18:45,tinyllama,How to Get Your Design Work Right - Pantones Guide to Color Consistency,0.19457003322547164,0.36350467801094055,0.0,0.5352614285189903
+11,1216,20:16,tinyllama,Pantone Delivers on Its Promise of Consistent Color,0.41441819071769714,0.41441819071769714,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Promise: Consistent Colors Across Projects,0.390249103307724,0.390249103307724,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Promise: Consistent Colors Across the Globe,0.3891386389732361,0.3891386389732361,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Promise: Consistent Colors Across the Globe,0.3891386389732361,0.3891386389732361,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Promise: Consistency in Color Across the Globe,0.3844154477119446,0.3844154477119446,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Promise: Consistency in Color Across the Globe,0.3844154477119446,0.3844154477119446,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Persistence: A Timeless Standard in Color Consistency,0.38114407658576965,0.38114407658576965,0.0,1.0
+11,1216,20:16,tinyllama,PANTONE: THE COLOR STANDARD THAT CHANGED THE WORLD,0.3768737018108368,0.3768737018108368,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy in Design and Emotion,0.37335166335105896,0.37335166335105896,0.0,1.0
+11,1216,20:16,tinyllama,Pantone's Promise of Consistent Color,0.37220147252082825,0.37220147252082825,0.0,1.0
+11,1216,20:16,tinyllama,PANTONE's Promise of Consistent Color,0.37220147252082825,0.37220147252082825,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy: The Color Standard of Choice,0.3689716160297394,0.3689716160297394,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy: A Color Standard Revolution,0.36873820424079895,0.36873820424079895,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Unwavering Influence on Global Color Consistency,0.36408600211143494,0.36408600211143494,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Unwavering Role in Ensuring Global Color Consistency,0.3633538782596588,0.3633538782596588,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Consistent Color Dominance and Future Innovations,0.360282838344574,0.360282838344574,0.0,1.0
+11,1216,20:16,llama3.1-8b,The Consistency of Color: A Standard Worth Keeping,0.3536004424095154,0.3536004424095154,0.0,1.0
+11,1216,20:16,llama3.1-8b,The Consistency of Color: A Standard Worth Keeping,0.3536004424095154,0.3536004424095154,0.0,1.0
+11,1216,20:16,llama3.1-8b,The Consistency of Color: A Standard Worth Keeping,0.3536004424095154,0.3536004424095154,0.0,1.0
+11,1216,20:16,llama3.1-8b,The Consistency of Color: A Standard Worth Keeping,0.3536004424095154,0.3536004424095154,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy in Color Consistency,0.3534737229347229,0.3534737229347229,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy in Color Consistency,0.3534737229347229,0.3534737229347229,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy in Color Consistency,0.3534737229347229,0.3534737229347229,0.0,1.0
+11,1216,20:16,llama3.1-8b,The Power of Pantone's Color Standards,0.35235217213630676,0.35235217213630676,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Consistent Color Dominance and Future Challenges,0.35173600912094116,0.35173600912094116,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Persistence Amid Open Source Challenges,0.34922826290130615,0.34922826290130615,0.0,1.0
+11,1216,20:16,tinyllama,Pantone Delivers Consistent Color,0.34110158681869507,0.34110158681869507,0.0,1.0
+11,1216,20:16,tinyllama,Pantone Delivers Consistent Color,0.34110158681869507,0.34110158681869507,0.0,1.0
+11,1216,20:16,qwen2-7b,Pantone's Consistent Color Empire,0.3404579162597656,0.3404579162597656,0.0,1.0
+11,1216,20:16,llama3.1-8b,The Consistency of Color: A Standard Unmatched,0.3402891755104065,0.3402891755104065,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Colors?,0.3368704319000244,0.3368704319000244,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Colors?,0.3368704319000244,0.3368704319000244,0.0,1.0
+11,1216,20:16,llama3.1-8b,Consistency in Color: A Standard Worth Keeping,0.3335864543914795,0.3335864543914795,0.0,1.0
+11,1216,20:16,tinyllama,PANTOMETRIA: THE FUTURE OF COLOR CONTROL,0.3323195278644562,0.3323195278644562,0.0,1.0
+11,1216,20:16,tinyllama,Pantone: A Color Standard,0.3287660479545593,0.3287660479545593,0.0,1.0
+11,1216,20:16,tinyllama,Pantone's Color Standards: A Brief History and Future,0.3286086618900299,0.3286086618900299,0.0,1.0
+11,1216,20:16,llama3.1-8b,The Power of Consistent Color Standards,0.3266213834285736,0.3266213834285736,0.0,1.0
+11,1216,20:16,llama3.1-8b,Consistency in Color: The Power of Standards,0.32425734400749207,0.32425734400749207,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Threat?,0.3229822516441345,0.3229822516441345,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Threat?,0.3229822516441345,0.3229822516441345,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: A Color Standard's Legacy,0.3207746148109436,0.3207746148109436,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: A Color Standard's Legacy,0.3207746148109436,0.3207746148109436,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Challenge,0.31736433506011963,0.31736433506011963,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Challenge,0.31736433506011963,0.31736433506011963,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Challenge,0.31736433506011963,0.31736433506011963,0.0,1.0
+11,1216,20:16,tinyllama,PANTONE Delivers Consistent Color - A Transcript,0.3143360912799835,0.3143360912799835,0.0,1.0
+11,1216,20:16,gemma2-9b,Pantones Reign: Open Source Challenge Awaits,0.30710259079933167,0.30710259079933167,0.0,1.0
+11,1216,20:16,llama3.1-8b,ANSWER: Final Title,0.2277766764163971,0.2277766764163971,0.0,1.0
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy in Design and the Quest for an Open Source Alternative,0.20697487696429387,0.3866799771785736,0.0,0.5352614285189903
+11,1216,20:16,mistral-7b-v0.3,Pantone's Enduring Legacy in Design and the Quest for an Open Source Alternative,0.20697487696429387,0.3866799771785736,0.0,0.5352614285189903
