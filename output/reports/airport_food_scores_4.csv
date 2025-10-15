@@ -1,0 +1,452 @@
+# Variant 4: BERT ONLY (reference_length = 8)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,llama3.1-8b,The Sky-High Cost of Airport Convenience,0.3863518238067627,0.3863518238067627,0.0,1.0
+1,0,00:00,llama3.1-8b,The Sky-High Cost of Airport Convenience,0.3863518238067627,0.3863518238067627,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Concessions,0.38071736693382263,0.38071736693382263,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Concessions,0.38071736693382263,0.38071736693382263,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Concessions,0.38071736693382263,0.38071736693382263,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Concessions,0.38071736693382263,0.38071736693382263,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Concessions,0.38071736693382263,0.38071736693382263,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Consumerism,0.3786448836326599,0.3786448836326599,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Consumerism,0.3786448836326599,0.3786448836326599,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Consumerism,0.3786448836326599,0.3786448836326599,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Sky-High Cost of Airport Consumerism,0.3786448836326599,0.3786448836326599,0.0,1.0
+1,0,00:00,qwen2-7b,The High Cost of Airport Conveniences,0.3708212077617645,0.3708212077617645,0.0,1.0
+1,0,00:00,tinyllama,Airport Prices: The High Cost of Captivity,0.3685818314552307,0.3685818314552307,0.0,1.0
+1,0,00:00,tinyllama,Airport Prices Are Out Of Control,0.36505937576293945,0.36505937576293945,0.0,1.0
+1,0,00:00,tinyllama,Airport Prices Are Out Of Control,0.36505937576293945,0.36505937576293945,0.0,1.0
+1,0,00:00,tinyllama,Airport Prices Are Out Of Control,0.36505937576293945,0.36505937576293945,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: The Hidden Cost of Travel,0.36412325501441956,0.36412325501441956,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: The Hidden Cost of Travel,0.36412325501441956,0.36412325501441956,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: The Hidden Cost of Travel,0.36412325501441956,0.36412325501441956,0.0,1.0
+1,0,00:00,qwen2-7b,The High Cost of Airport Convenience,0.3627240061759949,0.3627240061759949,0.0,1.0
+1,0,00:00,qwen2-7b,The High Cost of Airport Convenience,0.3627240061759949,0.3627240061759949,0.0,1.0
+1,0,00:00,qwen2-7b,The High Cost of Airport Convenience,0.3627240061759949,0.3627240061759949,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: A Shocking Markup,0.3611263930797577,0.3611263930797577,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: A Shocking Markup,0.3611263930797577,0.3611263930797577,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: A Shocking Markup,0.3611263930797577,0.3611263930797577,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: The Hidden Costs of Travel,0.35959911346435547,0.35959911346435547,0.0,1.0
+1,0,00:00,tinyllama,How Airlines Are Raising Prices on Airports Without Competing,0.3595366654462381,0.4074084162712097,0.0,0.8824969025845955
+1,0,00:00,qwen2-7b,The High Cost of Airport Luxury,0.35497382283210754,0.35497382283210754,0.0,1.0
+1,0,00:00,qwen2-7b,The High Cost of Airport Luxury,0.35497382283210754,0.35497382283210754,0.0,1.0
+1,0,00:00,qwen2-7b,The High Cost of Airport Luxury,0.35497382283210754,0.35497382283210754,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: A Premium Explained,0.3532167971134186,0.3532167971134186,0.0,1.0
+1,0,00:00,tinyllama,Airport Prices: The Price of Captivity,0.35004138946533203,0.35004138946533203,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: The Hidden Costs,0.3492593467235565,0.3492593467235565,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden Cost of Airport Convenience,0.34907370805740356,0.34907370805740356,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden Cost of Airport Convenience,0.34907370805740356,0.34907370805740356,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden Cost of Airport Convenience,0.34907370805740356,0.34907370805740356,0.0,1.0
+1,0,00:00,llama3.1-8b,The High Cost of Airport Captivity,0.3485563397407532,0.3485563397407532,0.0,1.0
+1,0,00:00,llama3.1-8b,The High Cost of Airport Captivity,0.3485563397407532,0.3485563397407532,0.0,1.0
+1,0,00:00,gemma2-9b,Airport Prices: The Hidden Markup,0.34712764620780945,0.34712764620780945,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden Costs of Airport Convenience,0.3420235216617584,0.3420235216617584,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden Costs of Airport Convenience,0.3420235216617584,0.3420235216617584,0.0,1.0
+1,0,00:00,tinyllama,The High Price of Airports,0.34031206369400024,0.34031206369400024,0.0,1.0
+1,0,00:00,tinyllama,Airport Prices: The Ultimate Discount Hack,0.33620715141296387,0.33620715141296387,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Captive Audiences & Sky-High Prices: The Airport Market Mystery,0.3341751608716584,0.3786700665950775,0.0,0.8824969025845955
+1,0,00:00,qwen2-7b,The High Cost of Airports: Unfair Markups and Monopolies,0.32828493677828247,0.37199556827545166,0.0,0.8824969025845955
+1,0,00:00,tinyllama,The Price of Airports,0.32012465596199036,0.32012465596199036,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Costs of Airport Shopping: Price Gouging Uncovered,0.31890987580585106,0.3613722324371338,0.0,0.8824969025845955
+1,0,00:00,llama3.1-8b,Flying Blind: Airport Price Secrets,0.31332072615623474,0.31332072615623474,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Costs of Airport Shopping: How High Prices Are Set,0.2758775682004955,0.40139949321746826,0.0,0.6872892787909722
+1,0,00:00,tinyllama,The Price War in Airports - How Much More Can We Pay?,0.2532880385503808,0.4176013767719269,0.0,0.6065306597126334
+2,49,00:49,tinyllama,Airports Raising Charges to Attract Passengers,0.3956480026245117,0.3956480026245117,0.0,1.0
+2,49,00:49,tinyllama,How Airports Are Raising Their Charges Even More,0.3806690275669098,0.3806690275669098,0.0,1.0
+2,49,00:49,tinyllama,How did airports become so popular?,0.3724614381790161,0.3724614381790161,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Revenue Streams,0.3539716899394989,0.3539716899394989,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Travel Hubs,0.34660574793815613,0.34660574793815613,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Travel Hubs,0.34660574793815613,0.34660574793815613,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Travel Hubs,0.34660574793815613,0.34660574793815613,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Travel Hubs,0.34660574793815613,0.34660574793815613,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Terminal Treats,0.33694207668304443,0.33694207668304443,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Terminal Treats,0.33694207668304443,0.33694207668304443,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Terminal Treats,0.33694207668304443,0.33694207668304443,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Terminal Treats,0.33694207668304443,0.33694207668304443,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Terminal Treats,0.33694207668304443,0.33694207668304443,0.0,1.0
+2,49,00:49,gemma2-9b,From Train Stations to Terminal Treats,0.33694207668304443,0.33694207668304443,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Revenue Strategies,0.336442768573761,0.336442768573761,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Amenities,0.33594194054603577,0.33594194054603577,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Amenities,0.33594194054603577,0.33594194054603577,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Amenities,0.33594194054603577,0.33594194054603577,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Amenities,0.33594194054603577,0.33594194054603577,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Amenities,0.33594194054603577,0.33594194054603577,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Amenities,0.33594194054603577,0.33594194054603577,0.0,1.0
+2,49,00:49,llama3.1-8b,The Evolution of Airport Amenities,0.33594194054603577,0.33594194054603577,0.0,1.0
+2,49,00:49,tinyllama,Five Starbuck's in One Terminal,0.330871045589447,0.330871045589447,0.0,1.0
+2,49,00:49,tinyllama,How Airports Changed Over Time,0.3295937180519104,0.3295937180519104,0.0,1.0
+2,49,00:49,tinyllama,How did airports evolve from train stations to commercial hubs?,0.32005628605475456,0.4109604060649872,0.0,0.7788007830714049
+2,49,00:49,llama3.1-8b,Airport Revenue Generation Through Innovation,0.29766690731048584,0.29766690731048584,0.0,1.0
+2,49,00:49,tinyllama,How did airports evolve from train stations to destinations for travelers?,0.2808896929544139,0.4086920917034149,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,The Evolution of Airport Amenities: From Observation Decks to Five-Star Dining,0.27590509710608674,0.4014395475387573,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,The Evolution of Airport Amenities: From Observation Decks to Five-Star Dining,0.27590509710608674,0.4014395475387573,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: The Evolution of Airport Amenities,0.27373883441611085,0.39828765392303467,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: The Evolution of Airport Amenities,0.27373883441611085,0.39828765392303467,0.0,0.6872892787909722
+2,49,00:49,tinyllama,The Airport Renaissance,0.27270272374153137,0.27270272374153137,0.0,1.0
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: A History of Airport Evolution,0.25798136259383553,0.3753606677055359,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: A History of Airport Evolution,0.25798136259383553,0.3753606677055359,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: A History of Airport Evolution,0.25798136259383553,0.3753606677055359,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: A History of Airport Evolution,0.25798136259383553,0.3753606677055359,0.0,0.6872892787909722
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: A History of Airport Evolution,0.25798136259383553,0.3753606677055359,0.0,0.6872892787909722
+2,49,00:49,tinyllama,How did airports evolve from train stations to hubs for air travel?,0.2578832526249182,0.42517760396003723,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Profit Centers: How Airports Evolved into Money-Making Hubs,0.25440119615312085,0.41943666338920593,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Glamorous Destinations: How Airports Evolved into Money-Making Powerhouses,0.2515169137374213,0.4146812856197357,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Glamorous Destinations: How Airports Evolved into Money-Making Powerhouses,0.2515169137374213,0.4146812856197357,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Glamorous Destinations: How Airports Evolved into Money-Making Powerhouses,0.2515169137374213,0.4146812856197357,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Glamorous Destinations: How Airports Evolved into Profit Centers,0.24029257156378891,0.39617547392845154,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Glamorous Destinations: How Airports Evolved into Profit Centers,0.24029257156378891,0.39617547392845154,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Glamorous Destinations: How Airports Evolved into Profit Centers,0.24029257156378891,0.39617547392845154,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Glamorous Destinations: How Airports Evolved into Profit Centers,0.24029257156378891,0.39617547392845154,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Profit Centers: The Evolution of Airport Revenue Strategies,0.22773186906456513,0.37546637654304504,0.0,0.6065306597126334
+2,49,00:49,qwen2-7b,From Train Stations to Profit Centers: The Evolution of Airport Revenue Strategies,0.22773186906456513,0.37546637654304504,0.0,0.6065306597126334
+2,49,00:49,mistral-7b-v0.3,From Train Stations to Revenue Generators: A Brief History of Airport Evolution,0.22667474713082733,0.37372347712516785,0.0,0.6065306597126334
+2,49,00:49,tinyllama,Airport Amenities: How did airports evolve from being just a place to land planes to becoming destinations in their own right?,0.08099885702855693,0.4113461375236511,0.0,0.19691167520419406
+3,150,02:30,qwen2-7b,From Golden Age to Mall Airports: Deregulation's Impact,0.3849546015262604,0.3849546015262604,0.0,1.0
+3,150,02:30,tinyllama,The Golden Age of Flying,0.36729520559310913,0.36729520559310913,0.0,1.0
+3,150,02:30,tinyllama,How Airlines Turned Airports into Malls,0.3654614984989166,0.3654614984989166,0.0,1.0
+3,150,02:30,mistral-7b-v0.3,The Dawn of Mall Airports: A Revenue Boost,0.3579156696796417,0.3579156696796417,0.0,1.0
+3,150,02:30,mistral-7b-v0.3,The Mallification of Airports: A New Era Begins,0.3559780418872833,0.3559780418872833,0.0,1.0
+3,150,02:30,llama3.1-8b,Airports Evolve: From Gourmet Meals to Malls,0.35491546988487244,0.35491546988487244,0.0,1.0
+3,150,02:30,llama3.1-8b,Airports Evolve: From Gourmet Meals to Malls,0.35491546988487244,0.35491546988487244,0.0,1.0
+3,150,02:30,llama3.1-8b,From Gourmet Meals to Retail Havens,0.3530556559562683,0.3530556559562683,0.0,1.0
+3,150,02:30,tinyllama,How Airlines Changed Flight Experience Throughout the Decades,0.3526933789253235,0.3526933789253235,0.0,1.0
+3,150,02:30,tinyllama,Deregulation and Fair Wars,0.3524046838283539,0.3524046838283539,0.0,1.0
+3,150,02:30,tinyllama,Deregulation and Fair Wars,0.3524046838283539,0.3524046838283539,0.0,1.0
+3,150,02:30,llama3.1-8b,Transforming Airports into Malls for Passenger Pleasure,0.3520808517932892,0.3520808517932892,0.0,1.0
+3,150,02:30,tinyllama,The Transformation of Airports through Malls,0.34985148906707764,0.34985148906707764,0.0,1.0
+3,150,02:30,tinyllama,The Transformation of Airports through Malls,0.34985148906707764,0.34985148906707764,0.0,1.0
+3,150,02:30,mistral-7b-v0.3,The Mallification of Airports: A Response to Deregulation,0.3496178388595581,0.3496178388595581,0.0,1.0
+3,150,02:30,gemma2-9b,From Terminals to Malls: Airports Evolve,0.3484964966773987,0.3484964966773987,0.0,1.0
+3,150,02:30,gemma2-9b,From Terminals to Malls: Airports Evolve,0.3484964966773987,0.3484964966773987,0.0,1.0
+3,150,02:30,llama3.1-8b,Transforming Airports into Malls,0.3391975164413452,0.3391975164413452,0.0,1.0
+3,150,02:30,llama3.1-8b,Deregulation and the Birth of the Mega-Terminal,0.3383830487728119,0.3383830487728119,0.0,1.0
+3,150,02:30,mistral-7b-v0.3,The Mallification of Airports: A Revenue Boost Post Deregulation,0.3374372328782556,0.38236647844314575,0.0,0.8824969025845955
+3,150,02:30,mistral-7b-v0.3,The Mallification of Airports: A Revenue Boost Post Deregulation,0.3374372328782556,0.38236647844314575,0.0,0.8824969025845955
+3,150,02:30,mistral-7b-v0.3,The Mallification of Airports: A Revenue Boost Post Deregulation,0.3374372328782556,0.38236647844314575,0.0,0.8824969025845955
+3,150,02:30,mistral-7b-v0.3,The Mallification of Airports: A Revenue Boost Post Deregulation,0.3374372328782556,0.38236647844314575,0.0,0.8824969025845955
+3,150,02:30,qwen2-7b,From Golden Age to Mall Airports: Deregulation Fuels Expansion,0.3349801126646288,0.3795821964740753,0.0,0.8824969025845955
+3,150,02:30,llama3.1-8b,Airports Evolve: From Basic to Bustling Malls,0.33294162154197693,0.33294162154197693,0.0,1.0
+3,150,02:30,llama3.1-8b,Transforming Airports into Shopping Havens,0.33274325728416443,0.33274325728416443,0.0,1.0
+3,150,02:30,tinyllama,Deregulation and Fair Wars: How the Aviation Market Changed,0.32754016043137874,0.3711516261100769,0.0,0.8824969025845955
+3,150,02:30,llama3.1-8b,Airports Adapt to Changing Travel Habits,0.32659828662872314,0.32659828662872314,0.0,1.0
+3,150,02:30,tinyllama,The Origins of Malls at Airports,0.3230259120464325,0.3230259120464325,0.0,1.0
+3,150,02:30,qwen2-7b,From Golden Age to Mall-Airports: Deregulation's Impact on Air Travel,0.30938638384971184,0.39725998044013977,0.0,0.7788007830714049
+3,150,02:30,qwen2-7b,From Golden Age to Mall-Airports: Deregulation's Impact on Air Travel,0.30938638384971184,0.39725998044013977,0.0,0.7788007830714049
+3,150,02:30,gemma2-9b,From Terminals to Shopping Malls,0.3039952218532562,0.3039952218532562,0.0,1.0
+3,150,02:30,gemma2-9b,Airports Become Shopping Malls,0.30226755142211914,0.30226755142211914,0.0,1.0
+3,150,02:30,gemma2-9b,Airports Become Shopping Malls,0.30226755142211914,0.30226755142211914,0.0,1.0
+3,150,02:30,gemma2-9b,Airports Become Shopping Malls,0.30226755142211914,0.30226755142211914,0.0,1.0
+3,150,02:30,gemma2-9b,Airports Become Shopping Malls,0.30226755142211914,0.30226755142211914,0.0,1.0
+3,150,02:30,gemma2-9b,Airports Become Shopping Malls,0.30226755142211914,0.30226755142211914,0.0,1.0
+3,150,02:30,gemma2-9b,Airports Become Shopping Malls,0.30226755142211914,0.30226755142211914,0.0,1.0
+3,150,02:30,gemma2-9b,Airports Become Shopping Malls,0.30226755142211914,0.30226755142211914,0.0,1.0
+3,150,02:30,qwen2-7b,From Golden Age to Mall-Airports: Deregulation Fuels Air Travel Expansion,0.3020561324864589,0.38784775137901306,0.0,0.7788007830714049
+3,150,02:30,qwen2-7b,From Golden Age to Mall Airports: Deregulation Fuels Aviation Revolution,0.3016160463110226,0.38728266954421997,0.0,0.7788007830714049
+3,150,02:30,mistral-7b-v0.3,The Dawn of Airport Malls: A Revenue Boost Amidst Deregulation,0.29578757944729134,0.3797987699508667,0.0,0.7788007830714049
+3,150,02:30,mistral-7b-v0.3,The Dawn of Airport Malls: A Revenue Boost Amidst Deregulation,0.29578757944729134,0.3797987699508667,0.0,0.7788007830714049
+3,150,02:30,mistral-7b-v0.3,The Dawn of Airport Malls: A Revenue Boost Post Deregulation,0.2941176379760364,0.3776545226573944,0.0,0.7788007830714049
+3,150,02:30,llama3.1-8b,"Transforming Terminals, One Mall at a Time",0.2804024815559387,0.2804024815559387,0.0,1.0
+3,150,02:30,tinyllama,Malls as Transformative Destinations,0.27254053950309753,0.27254053950309753,0.0,1.0
+3,150,02:30,qwen2-7b,From Golden Age to Mall Airports: Deregulation and the Birth of Airport Retail,0.21451364854903682,0.40076425671577454,0.0,0.5352614285189903
+3,150,02:30,qwen2-7b,From Golden Age to Mall Airports: Deregulation and the Birth of Airport Retail,0.21451364854903682,0.40076425671577454,0.0,0.5352614285189903
+3,150,02:30,qwen2-7b,From Golden Age to Mall Airports: Deregulation and the Birth of Airport Retail,0.21451364854903682,0.40076425671577454,0.0,0.5352614285189903
+3,150,02:30,qwen2-7b,From Golden Age to Mall-Airports: Deregulation and the Birth of Air Travel Ecosystems,0.2056095583558456,0.38412922620773315,0.0,0.5352614285189903
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Successful Street Pricing Model,0.41675448417663574,0.41675448417663574,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Successful Street Pricing Model,0.41675448417663574,0.41675448417663574,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Successful Street Pricing Model,0.41675448417663574,0.41675448417663574,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Successful Street Pricing Model,0.41675448417663574,0.41675448417663574,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Successful Street Pricing Model,0.41675448417663574,0.41675448417663574,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Successful Street Pricing Model,0.41675448417663574,0.41675448417663574,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Success: Street Pricing Revolution,0.3906206786632538,0.3906206786632538,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Success Story: Street Pricing Revolution,0.3871441185474396,0.3871441185474396,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Success Story: Street Pricing Revolution,0.3871441185474396,0.3871441185474396,0.0,1.0
+4,296,04:56,mistral-7b-v0.3,Pittsburgh Airport's Success Story: Street Pricing Revolution,0.3871441185474396,0.3871441185474396,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing: Airport Profits & Passenger Costs,0.38661032915115356,0.38661032915115356,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing: Airport Profits & Passenger Costs,0.38661032915115356,0.38661032915115356,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing: Airport Profits & Passenger Costs,0.38661032915115356,0.38661032915115356,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing: Airport Profits & Passenger Costs,0.38661032915115356,0.38661032915115356,0.0,1.0
+4,296,04:56,llama3.1-8b,Airlines' Profit vs. Passenger Price Gouging,0.37342268228530884,0.37342268228530884,0.0,1.0
+4,296,04:56,tinyllama,How Street Pricing Works in Airports,0.36560896039009094,0.36560896039009094,0.0,1.0
+4,296,04:56,tinyllama,Why You Shouldn't Pay More Than This Chocolate Bar,0.36429081499053373,0.4127955734729767,0.0,0.8824969025845955
+4,296,04:56,qwen2-7b,Airports' Revenue Boost and Pricing Strategies,0.3626641035079956,0.3626641035079956,0.0,1.0
+4,296,04:56,qwen2-7b,Airports' Revenue Boost and Pricing Strategies,0.3626641035079956,0.3626641035079956,0.0,1.0
+4,296,04:56,tinyllama,Airport Street Pricing: A Model That Works,0.3622139096260071,0.3622139096260071,0.0,1.0
+4,296,04:56,tinyllama,Street Prices and the Air Mall Model,0.35910069942474365,0.35910069942474365,0.0,1.0
+4,296,04:56,qwen2-7b,Airports' Revenue Boost & Pricing Strategies,0.3565557599067688,0.3565557599067688,0.0,1.0
+4,296,04:56,tinyllama,Street Pricing: A Model That Works,0.35393911600112915,0.35393911600112915,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing at Airports: Evolution and Reality,0.3488740026950836,0.3488740026950836,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing at Airports: Evolution and Reality,0.3488740026950836,0.3488740026950836,0.0,1.0
+4,296,04:56,llama3.1-8b,The Rise and Evolution of Airport Pricing Models,0.34689459204673767,0.34689459204673767,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing at Airports: Then and Now,0.3465054929256439,0.3465054929256439,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing at Airports: Then and Now,0.3465054929256439,0.3465054929256439,0.0,1.0
+4,296,04:56,tinyllama,Street Pricing Plus - A Model for Successful Airports,0.34510494707083145,0.3910551369190216,0.0,0.8824969025845955
+4,296,04:56,tinyllama,Street Pricing Plus - A Model for Successful Airports,0.34510494707083145,0.3910551369190216,0.0,0.8824969025845955
+4,296,04:56,qwen2-7b,Airports' Revenue Boost & Street Pricing Evolution,0.34276291728019714,0.34276291728019714,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing at Airports: A Shifting Landscape,0.34020498394966125,0.34020498394966125,0.0,1.0
+4,296,04:56,gemma2-9b,Street Pricing at Airports: A Shifting Landscape,0.34020498394966125,0.34020498394966125,0.0,1.0
+4,296,04:56,llama3.1-8b,Airport Pricing Strategies Evolve Over Time,0.33057963848114014,0.33057963848114014,0.0,1.0
+4,296,04:56,llama3.1-8b,Airport Pricing Strategies Evolve Over Time,0.33057963848114014,0.33057963848114014,0.0,1.0
+4,296,04:56,tinyllama,How JFKS Street Prices Worked Wonders,0.3267909288406372,0.3267909288406372,0.0,1.0
+4,296,04:56,llama3.1-8b,Pricing at Airports: A Changing Landscape,0.3175993859767914,0.3175993859767914,0.0,1.0
+4,296,04:56,llama3.1-8b,$$ at the Gate: Airport Pricing,0.31532496213912964,0.31532496213912964,0.0,1.0
+4,296,04:56,llama3.1-8b,Airport Pricing: A Tale of Two Models,0.31399717926979065,0.31399717926979065,0.0,1.0
+4,296,04:56,qwen2-7b,Revolutionizing Airport Shopping: Street Pricing Success & Its Evolution,0.3105221076961366,0.3518676459789276,0.0,0.8824969025845955
+4,296,04:56,qwen2-7b,Revolutionizing Airport Shopping: Street Pricing Success & Its Evolution,0.3105221076961366,0.3518676459789276,0.0,0.8824969025845955
+4,296,04:56,qwen2-7b,Revolutionizing Airport Shopping: Street Pricing Success and Its Evolution,0.3104921251749321,0.35183367133140564,0.0,0.8824969025845955
+4,296,04:56,qwen2-7b,Revolutionizing Airport Shopping: Street Pricing Success and Its Evolution,0.3104921251749321,0.35183367133140564,0.0,0.8824969025845955
+4,296,04:56,qwen2-7b,Revolutionizing Airport Shopping: Street Pricing Success and Its Evolution,0.3104921251749321,0.35183367133140564,0.0,0.8824969025845955
+4,296,04:56,qwen2-7b,Revolutionizing Airport Shopping: Street Pricing Success and Its Evolution,0.3104921251749321,0.35183367133140564,0.0,0.8824969025845955
+4,296,04:56,tinyllama,How Street Pricing Works,0.3079998195171356,0.3079998195171356,0.0,1.0
+4,296,04:56,llama3.1-8b,Navigating Airport Pricing,0.30366575717926025,0.30366575717926025,0.0,1.0
+4,296,04:56,llama3.1-8b,From Street Pricing to Street Pricing Plus: Airport Revenue Strategies,0.29310911392693256,0.3763595521450043,0.0,0.7788007830714049
+4,296,04:56,llama3.1-8b,Pricing Power Play at the Airport Gates,0.2837705910205841,0.2837705910205841,0.0,1.0
+4,296,04:56,tinyllama,Street Pricing vs. Additional Fees at Airports: How Much Should You Pay?,0.25200523747874215,0.4154863953590393,0.0,0.6065306597126334
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Policies: Enforcement Lapses Lead to Overpricing,0.37645962834358215,0.37645962834358215,0.0,1.0
+5,377,06:17,tinyllama,Understanding Pricing Policies at Airport Locations,0.37597471475601196,0.37597471475601196,0.0,1.0
+5,377,06:17,qwen2-7b,Airports' Pricing Policies: Confusion and Overcharges,0.37085428833961487,0.37085428833961487,0.0,1.0
+5,377,06:17,llama3.1-8b,Airport Prices: Markups and Lack of Enforcement,0.3615272641181946,0.3615272641181946,0.0,1.0
+5,377,06:17,llama3.1-8b,Airport Prices: Markups and Lack of Enforcement,0.3615272641181946,0.3615272641181946,0.0,1.0
+5,377,06:17,llama3.1-8b,Airport Price Gouging: A Lack of Enforcement,0.3611604571342468,0.3611604571342468,0.0,1.0
+5,377,06:17,llama3.1-8b,Airport Prices: A Marked-Up Reality,0.35996511578559875,0.35996511578559875,0.0,1.0
+5,377,06:17,llama3.1-8b,Airport Prices: A Marked-Up Reality,0.35996511578559875,0.35996511578559875,0.0,1.0
+5,377,06:17,gemma2-9b,Airport Pricing: Greed Above Street Level,0.35911890864372253,0.35911890864372253,0.0,1.0
+5,377,06:17,llama3.1-8b,Markups at the Gate: Airport Price Abuses,0.3585268259048462,0.3585268259048462,0.0,1.0
+5,377,06:17,gemma2-9b,Airport Markups: When Convenience Costs More,0.35240188241004944,0.35240188241004944,0.0,1.0
+5,377,06:17,gemma2-9b,Airport Markups: When Convenience Costs More,0.35240188241004944,0.35240188241004944,0.0,1.0
+5,377,06:17,gemma2-9b,Airport Markups: When Convenience Costs More,0.35240188241004944,0.35240188241004944,0.0,1.0
+5,377,06:17,tinyllama,How airports determine street price,0.35108599066734314,0.35108599066734314,0.0,1.0
+5,377,06:17,tinyllama,Price Disparities at US Airports,0.349568247795105,0.349568247795105,0.0,1.0
+5,377,06:17,tinyllama,Prices should only go up slightly,0.3475208282470703,0.3475208282470703,0.0,1.0
+5,377,06:17,llama3.1-8b,Airport Prices: Outrageous Markups Exposed,0.34424787759780884,0.34424787759780884,0.0,1.0
+5,377,06:17,tinyllama,Price Disparities at Airports,0.3412691652774811,0.3412691652774811,0.0,1.0
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Policies: Enforcement Lapses Lead to Overpriced Goods,0.3408112922315975,0.3861897885799408,0.0,0.8824969025845955
+5,377,06:17,gemma2-9b,Airport Pricing: Hidden Markups Exposed,0.33707109093666077,0.33707109093666077,0.0,1.0
+5,377,06:17,gemma2-9b,Airport Pricing: Hidden Markups Exposed,0.33707109093666077,0.33707109093666077,0.0,1.0
+5,377,06:17,gemma2-9b,"Airport Markups: Price Gouging at 30,000 Feet?",0.33642616868019104,0.33642616868019104,0.0,1.0
+5,377,06:17,gemma2-9b,Airport Markups: Hidden Costs for Travelers,0.33521661162376404,0.33521661162376404,0.0,1.0
+5,377,06:17,gemma2-9b,Airport Markups: Hidden Costs for Travelers,0.33521661162376404,0.33521661162376404,0.0,1.0
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Disparities: How Passengers Pay More Than Street Price,0.3350873607910181,0.43026068806648254,0.0,0.7788007830714049
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Disparities: How Passengers Pay More Than Street Price,0.3350873607910181,0.43026068806648254,0.0,0.7788007830714049
+5,377,06:17,gemma2-9b,"Airport Markups: Price Gouging at 30,000 Feet",0.33473145961761475,0.33473145961761475,0.0,1.0
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Policies: Enforcement Lacks Lead to Overpriced Goods,0.3345348196238269,0.37907761335372925,0.0,0.8824969025845955
+5,377,06:17,tinyllama,How Prices at Airports Can Be Different Than Street Price?,0.3273684103517654,0.4203493595123291,0.0,0.7788007830714049
+5,377,06:17,llama3.1-8b,Airport Price Gouging: A Hidden Tax,0.3240721821784973,0.3240721821784973,0.0,1.0
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Mystery: Why Passengers Pay More Than Street Price,0.3227757869824321,0.41445231437683105,0.0,0.7788007830714049
+5,377,06:17,tinyllama,Understanding Prices in Airports,0.3199320435523987,0.3199320435523987,0.0,1.0
+5,377,06:17,qwen2-7b,Airport Pricing Paradox: Policies vs. Reality,0.3168219327926636,0.3168219327926636,0.0,1.0
+5,377,06:17,qwen2-7b,Airport Pricing Paradox: Policies vs. Reality,0.3168219327926636,0.3168219327926636,0.0,1.0
+5,377,06:17,qwen2-7b,Airport Pricing Paradox: Policies vs. Reality,0.3168219327926636,0.3168219327926636,0.0,1.0
+5,377,06:17,qwen2-7b,Airport Pricing Paradox: Policies vs. Reality,0.3168219327926636,0.3168219327926636,0.0,1.0
+5,377,06:17,qwen2-7b,Airport Pricing Paradox: Policies vs. Reality,0.3168219327926636,0.3168219327926636,0.0,1.0
+5,377,06:17,qwen2-7b,Airport Pricing Paradox: Policies vs. Reality,0.3168219327926636,0.3168219327926636,0.0,1.0
+5,377,06:17,qwen2-7b,Airports' Price Gouging: Policies vs. Reality,0.3153015375137329,0.3153015375137329,0.0,1.0
+5,377,06:17,qwen2-7b,Airports' Price Gouging: Policies vs. Reality,0.3153015375137329,0.3153015375137329,0.0,1.0
+5,377,06:17,qwen2-7b,Airports' Price Gouging: Policies vs. Reality,0.3153015375137329,0.3153015375137329,0.0,1.0
+5,377,06:17,llama3.1-8b,The High Cost Of Flying:Price Gouge,0.31254950165748596,0.31254950165748596,0.0,1.0
+5,377,06:17,llama3.1-8b,Airport Price Gouging: An Unchecked Reality,0.311583936214447,0.311583936214447,0.0,1.0
+5,377,06:17,tinyllama,"Under This Model, Prices Should Only Be a Little Bit Higher",0.3027908012885468,0.4405580163002014,0.0,0.6872892787909722
+5,377,06:17,tinyllama,"Under This Model, Prices Should Only Be a Little Bit Higher",0.3027908012885468,0.4405580163002014,0.0,0.6872892787909722
+5,377,06:17,tinyllama,"Under This Model, Prices Should Only Be a Little Bit Higher",0.3027908012885468,0.4405580163002014,0.0,0.6872892787909722
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Disparities: How Passengers Often Pay More Than Street Price,0.29981462754501254,0.4362277090549469,0.0,0.6872892787909722
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Disparities: A Lack of Enforcement Leads to Overpriced Snacks,0.29273738424978596,0.425930380821228,0.0,0.6872892787909722
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Disparities: A Lack of Enforcement Leads to Overpriced Snacks,0.29273738424978596,0.425930380821228,0.0,0.6872892787909722
+5,377,06:17,mistral-7b-v0.3,Airport Pricing Mystery: Why Your Snacks Cost More Than Street Price,0.2814571898727996,0.4095177948474884,0.0,0.6872892787909722
+6,494,08:14,tinyllama,Airport Food Prices: Who's Getting A Bad Deal?,0.3783949017524719,0.3783949017524719,0.0,1.0
+6,494,08:14,tinyllama,Airport Food Prices: Is Street Price Enough?,0.346224844455719,0.346224844455719,0.0,1.0
+6,494,08:14,tinyllama,Airport Food Prices: Who's Winning?,0.33609798550605774,0.33609798550605774,0.0,1.0
+6,494,08:14,mistral-7b-v0.3,Airport Monopolies: Sky-High Prices and Few Options,0.33345261216163635,0.33345261216163635,0.0,1.0
+6,494,08:14,mistral-7b-v0.3,Airport Monopolies: Sky-High Prices and Few Options,0.33345261216163635,0.33345261216163635,0.0,1.0
+6,494,08:14,mistral-7b-v0.3,Airport Monopolies: Sky-High Prices and Few Options,0.33345261216163635,0.33345261216163635,0.0,1.0
+6,494,08:14,mistral-7b-v0.3,Airport Monopolies: Sky-High Prices and Limited Choices,0.3302088677883148,0.3302088677883148,0.0,1.0
+6,494,08:14,tinyllama,How Do Airports Manage Their Food and Retail Operators?,0.3218097379159316,0.3646582067012787,0.0,0.8824969025845955
+6,494,08:14,mistral-7b-v0.3,Airport Concessions: High Costs and Limited Competition,0.32103392481803894,0.32103392481803894,0.0,1.0
+6,494,08:14,llama3.1-8b,The Dominance of Airport Concessionaires,0.32094138860702515,0.32094138860702515,0.0,1.0
+6,494,08:14,mistral-7b-v0.3,"Airport Concessions: High Costs, Limited Competition, and Questionable Pricing",0.31888294413768137,0.3613417148590088,0.0,0.8824969025845955
+6,494,08:14,mistral-7b-v0.3,Airport Monopolies: High Costs and Limited Choices,0.3187588155269623,0.3187588155269623,0.0,1.0
+6,494,08:14,mistral-7b-v0.3,Airport Monopolies: High Costs and Limited Choices,0.3187588155269623,0.3187588155269623,0.0,1.0
+6,494,08:14,mistral-7b-v0.3,Airport Monopolies: High Costs and Limited Choices,0.3187588155269623,0.3187588155269623,0.0,1.0
+6,494,08:14,tinyllama,How Big Companies Are Shaping Airport Food Prices,0.3186391294002533,0.3186391294002533,0.0,1.0
+6,494,08:14,llama3.1-8b,Airport Monopolies: Lack of Competition,0.31148120760917664,0.31148120760917664,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopolies and Markup,0.31094685196876526,0.31094685196876526,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopolies & Markup,0.3079678416252136,0.3079678416252136,0.0,1.0
+6,494,08:14,llama3.1-8b,Airport Businesses Face Unique Challenges,0.3058057427406311,0.3058057427406311,0.0,1.0
+6,494,08:14,llama3.1-8b,Airport Businesses Face Unique Challenges,0.3058057427406311,0.3058057427406311,0.0,1.0
+6,494,08:14,qwen2-7b,Airport Pricing Paradox: Monopoly and Hidden Costs,0.30488359928131104,0.30488359928131104,0.0,1.0
+6,494,08:14,qwen2-7b,"Airport Pricing Paradox: Monopolies, Costs, and Lack of Competition",0.3042995510256198,0.34481656551361084,0.0,0.8824969025845955
+6,494,08:14,qwen2-7b,Airport Pricing Paradox: Monopoly and Markup,0.3035232722759247,0.3035232722759247,0.0,1.0
+6,494,08:14,qwen2-7b,Airport Pricing Paradox: Market Monopoly and Hidden Costs,0.3020012676715851,0.3020012676715851,0.0,1.0
+6,494,08:14,llama3.1-8b,Airport Concessions: A Monopolized Market,0.3018017113208771,0.3018017113208771,0.0,1.0
+6,494,08:14,gemma2-9b,"Airport Pricing: Monopoly at 32,090 Feet",0.3001433312892914,0.3001433312892914,0.0,1.0
+6,494,08:14,gemma2-9b,"Airport Pricing: Monopoly at 37,090 Feet",0.2990456521511078,0.2990456521511078,0.0,1.0
+6,494,08:14,llama3.1-8b,Airport Monopolies Inflate Prices,0.2986627519130707,0.2986627519130707,0.0,1.0
+6,494,08:14,qwen2-7b,Airport Pricing Monopoly: Hidden Costs and Lack of Competition,0.29813906343408786,0.33783581852912903,0.0,0.8824969025845955
+6,494,08:14,mistral-7b-v0.3,Airport Food Monopolies: High Costs and Lack of Competition,0.29784413010708105,0.3375016152858734,0.0,0.8824969025845955
+6,494,08:14,llama3.1-8b,Airport Pricing: A Monopoly of Convenience,0.2977432608604431,0.2977432608604431,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopoly in the Clouds,0.2976967394351959,0.2976967394351959,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopoly in the Clouds,0.2976967394351959,0.2976967394351959,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopoly in the Clouds,0.2976967394351959,0.2976967394351959,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopoly in the Clouds,0.2976967394351959,0.2976967394351959,0.0,1.0
+6,494,08:14,tinyllama,Street Prices at Airports: A Sellout Strategy,0.29373809695243835,0.29373809695243835,0.0,1.0
+6,494,08:14,qwen2-7b,Airport Pricing Monopoly: Hidden Costs & Lack of Competition,0.293112625256432,0.33214011788368225,0.0,0.8824969025845955
+6,494,08:14,qwen2-7b,Airport Pricing Puzzle: Monopoly and Hidden Costs,0.2923462688922882,0.2923462688922882,0.0,1.0
+6,494,08:14,tinyllama,Airports and Prices: The Sustainability Debate,0.29205554723739624,0.29205554723739624,0.0,1.0
+6,494,08:14,llama3.1-8b,Airport Monopolies: Pricing Powerhouses,0.2871960401535034,0.2871960401535034,0.0,1.0
+6,494,08:14,qwen2-7b,Airport Pricing Paradox: Profit vs. Sustainability,0.28449541330337524,0.28449541330337524,0.0,1.0
+6,494,08:14,qwen2-7b,Airport Pricing Paradox: Profit vs. Sustainability,0.28449541330337524,0.28449541330337524,0.0,1.0
+6,494,08:14,qwen2-7b,Airport Pricing Paradox: Profit vs. Sustainability,0.28449541330337524,0.28449541330337524,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopoly Profits,0.2770625352859497,0.2770625352859497,0.0,1.0
+6,494,08:14,gemma2-9b,Airport Pricing: Monopoly Profits,0.2770625352859497,0.2770625352859497,0.0,1.0
+6,494,08:14,llama3.1-8b,Airports' Hidden Business Stranglehold,0.27634021639823914,0.27634021639823914,0.0,1.0
+6,494,08:14,tinyllama,The Airports' Monopoly,0.2748698592185974,0.2748698592185974,0.0,1.0
+6,494,08:14,tinyllama,Airports Are Selling Out,0.25121626257896423,0.25121626257896423,0.0,1.0
+6,494,08:14,llama3.1-8b,Flying High on Thin Margins,0.22792530059814453,0.22792530059814453,0.0,1.0
+6,494,08:14,tinyllama,"Even Though Most Airports Have a Pricing Policy, a Lack of Enforcement Means Passengers Get a Bad Deal. But Some in the Industry Say That Charging Street Prices Isn't Sustainable Because It'€™s More Expensive to Rent Business Inside an Airport. All Employees, Products, and Equipment Need to Go Through Security, Which Increases Construction",0.002138844977895334,0.5930424332618713,0.0,0.0036065631360157305
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Maximizing Revenue Through Dwell Time,0.3541381359100342,0.3541381359100342,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Maximizing Revenue Through Dwell Time,0.3541381359100342,0.3541381359100342,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Maximizing Revenue Through Dwell Time,0.3541381359100342,0.3541381359100342,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Maximizing Revenue Through Dwell Time,0.3541381359100342,0.3541381359100342,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Maximizing Revenue Through Dwell Time,0.3541381359100342,0.3541381359100342,0.0,1.0
+7,671,11:11,llama3.1-8b,Airport Pricing Strategies: Balancing Revenue and Passenger Experience,0.34908831119537354,0.34908831119537354,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Capitalizing on Passenger Dwell Time,0.34903717041015625,0.34903717041015625,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Capitalizing on Passenger Dwell Time,0.34903717041015625,0.34903717041015625,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Capitalizing on Passenger Dwell Time,0.34903717041015625,0.34903717041015625,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Profiting from Passenger Dwell Time,0.3471108675003052,0.3471108675003052,0.0,1.0
+7,671,11:11,qwen2-7b,Airports' Profit Play: Maximizing Revenue Through Concessions,0.34299641847610474,0.34299641847610474,0.0,1.0
+7,671,11:11,mistral-7b-v0.3,Airport Concessions: Pricing Strategies & Revenue Boosters,0.3311106562614441,0.3311106562614441,0.0,1.0
+7,671,11:11,qwen2-7b,Airports' Revenue Strategy: Maximizing Dwell Time and Pricing Tactics,0.32147974607948127,0.3642842769622803,0.0,0.8824969025845955
+7,671,11:11,qwen2-7b,Airports' Profit Play: Maximizing Concessions Revenue Through Dwell Time,0.320102654140648,0.36272382736206055,0.0,0.8824969025845955
+7,671,11:11,tinyllama,How Airlines Are Using Street Pricing to Boost Revenues,0.3194658411705378,0.3620022237300873,0.0,0.8824969025845955
+7,671,11:11,tinyllama,How Airlines Are Using Street Pricing to Boost Revenues,0.3194658411705378,0.3620022237300873,0.0,0.8824969025845955
+7,671,11:11,gemma2-9b,Airport Pricing: Profits Over Passengers?,0.3187376856803894,0.3187376856803894,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: Profits Over Passengers?,0.3187376856803894,0.3187376856803894,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: Profits Over Passengers?,0.3187376856803894,0.3187376856803894,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: Greed or Convenience?,0.31291067600250244,0.31291067600250244,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: A Passenger Squeeze,0.312351793050766,0.312351793050766,0.0,1.0
+7,671,11:11,llama3.1-8b,Airport Profits: The High Cost of Convenience,0.3121248781681061,0.3121248781681061,0.0,1.0
+7,671,11:11,llama3.1-8b,Pricing Passages: The Economics of Airport Experiences,0.3034798204898834,0.3034798204898834,0.0,1.0
+7,671,11:11,tinyllama,Airport Street Pricing Cap: A Success Story,0.3020087778568268,0.3020087778568268,0.0,1.0
+7,671,11:11,tinyllama,Airport Street Pricing Cap: A Success Story,0.3020087778568268,0.3020087778568268,0.0,1.0
+7,671,11:11,tinyllama,Airport Street Pricing Cap: A Success Story,0.3020087778568268,0.3020087778568268,0.0,1.0
+7,671,11:11,tinyllama,Airport Street Pricing: A Success Story?,0.2998586595058441,0.2998586595058441,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: A Premium Affair,0.29899948835372925,0.29899948835372925,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: A Premium Experience,0.2985081374645233,0.2985081374645233,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: A Premium Perspective,0.29561513662338257,0.29561513662338257,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: A Premium Perspective,0.29561513662338257,0.29561513662338257,0.0,1.0
+7,671,11:11,tinyllama,How Airlines Are Responding To Air Travel Demand Changes,0.2914801032773017,0.3302902281284332,0.0,0.8824969025845955
+7,671,11:11,llama3.1-8b,The Business of Airport Shopping,0.2840607166290283,0.2840607166290283,0.0,1.0
+7,671,11:11,llama3.1-8b,The High Cost of Waiting,0.281171053647995,0.281171053647995,0.0,1.0
+7,671,11:11,llama3.1-8b,The High Cost of Waiting,0.281171053647995,0.281171053647995,0.0,1.0
+7,671,11:11,llama3.1-8b,The High Cost of Waiting,0.281171053647995,0.281171053647995,0.0,1.0
+7,671,11:11,llama3.1-8b,Airport Pricing Strategie s:A Revenue Balancin gAct,0.27998119592666626,0.27998119592666626,0.0,1.0
+7,671,11:11,llama3.1-8b,Airport Pricing Strategies Under Scrutiny,0.2789185345172882,0.2789185345172882,0.0,1.0
+7,671,11:11,qwen2-7b,Airports' Dwell Time Profits: Street Pricing Strategies and Their Impact,0.2715218205189738,0.34864091873168945,0.0,0.7788007830714049
+7,671,11:11,qwen2-7b,Airports' Dwell Time Profits: Street Pricing Strategies and Their Impact,0.2715218205189738,0.34864091873168945,0.0,0.7788007830714049
+7,671,11:11,qwen2-7b,Airports' Dwell Time Profits: Street Pricing Strategies and Their Impact,0.2715218205189738,0.34864091873168945,0.0,0.7788007830714049
+7,671,11:11,qwen2-7b,"Airports' Dwell Time Profits: Street Pricing Caps, Concessions, and Passenger Spending",0.2628252414917076,0.38240846991539,0.0,0.6872892787909722
+7,671,11:11,qwen2-7b,"The High Cost of Airports: Street Pricing, Concessions, and Passenger Spending",0.2598996193396905,0.37815171480178833,0.0,0.6872892787909722
+7,671,11:11,tinyllama,The Impact of Street Prices on Airline and Convenience Store Sales,0.24675266201793278,0.35902300477027893,0.0,0.6872892787909722
+7,671,11:11,llama3.1-8b,The High Cost,0.2446049302816391,0.2446049302816391,0.0,1.0
+7,671,11:11,gemma2-9b,Airport Pricing: A Hunger Games,0.23568756878376007,0.23568756878376007,0.0,1.0
+7,671,11:11,qwen2-7b,"The High Cost of Airports: Street Pricing Caps, Concessions, and Passenger Spending",0.2286175218511562,0.37692657113075256,0.0,0.6065306597126334
+7,671,11:11,tinyllama,Airports and Street Pricing: How Do They Work and Are They Effective?,0.22268638127556165,0.3671477735042572,0.0,0.6065306597126334
+7,671,11:11,qwen2-7b,The High Cost of Airports' Concessions: Street Pricing Strategies and Their Impact,0.21679920158610042,0.3574414551258087,0.0,0.6065306597126334
+7,671,11:11,tinyllama,How Airlines Are Changing Their Pricing Strategies to Address the COVID-19 Pandemic,0.2104298982309531,0.3469402492046356,0.0,0.6065306597126334
+8,894,14:54,qwen2-7b,Balancing Passenger Satisfaction vs. Profitability in Airports,0.41597458720207214,0.41597458720207214,0.0,1.0
+8,894,14:54,qwen2-7b,Balancing Passenger Satisfaction vs. Profitability in Airports,0.41597458720207214,0.41597458720207214,0.0,1.0
+8,894,14:54,qwen2-7b,Balancing Passenger Satisfaction vs. Profitability in Airports,0.41597458720207214,0.41597458720207214,0.0,1.0
+8,894,14:54,llama3.1-8b,Airport Concessions: Balancing Price and Passenger Satisfaction,0.4137970805168152,0.4137970805168152,0.0,1.0
+8,894,14:54,llama3.1-8b,Airport Concessions: Balancing Price and Passenger Satisfaction,0.4137970805168152,0.4137970805168152,0.0,1.0
+8,894,14:54,llama3.1-8b,Airport Concessions: Balancing Price and Passenger Satisfaction,0.4137970805168152,0.4137970805168152,0.0,1.0
+8,894,14:54,llama3.1-8b,Airport Concessions: Balancing Price and Passenger Satisfaction,0.4137970805168152,0.4137970805168152,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Concessions: Pricing Flexibility vs. Passenger Satisfaction,0.4025861322879791,0.4025861322879791,0.0,1.0
+8,894,14:54,llama3.1-8b,Balancing Amenity and Affordability at Airports,0.40193918347358704,0.40193918347358704,0.0,1.0
+8,894,14:54,tinyllama,Airport Restaurants and Retails: A Flexible Pricing Strategy,0.3958553373813629,0.3958553373813629,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Concessions: Profit vs. Passenger Satisfaction,0.3925781548023224,0.3925781548023224,0.0,1.0
+8,894,14:54,qwen2-7b,Airport Retail Profits vs. Passenger Satisfaction: A Tug-of-War,0.38796669244766235,0.38796669244766235,0.0,1.0
+8,894,14:54,llama3.1-8b,Airport Concessions Face Passenger Price Frustration,0.37377116084098816,0.37377116084098816,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit vs. Satisfaction Dilemma,0.3733041286468506,0.3733041286468506,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit vs. Satisfaction Dilemma,0.3733041286468506,0.3733041286468506,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit vs. Satisfaction Dilemma,0.3733041286468506,0.3733041286468506,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit-Focused Conundrum,0.3669513165950775,0.3669513165950775,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit-Focused Conundrum,0.3669513165950775,0.3669513165950775,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit-Focused Conundrum,0.3669513165950775,0.3669513165950775,0.0,1.0
+8,894,14:54,tinyllama,The Airline's Unforgiving Pricing Policy,0.36630842089653015,0.36630842089653015,0.0,1.0
+8,894,14:54,qwen2-7b,Balancing Passenger Satisfaction vs. Profitability: The Airport Retail Dilemma,0.36614286688588704,0.4148942232131958,0.0,0.8824969025845955
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit-Driven Conundrum,0.3640459179878235,0.3640459179878235,0.0,1.0
+8,894,14:54,mistral-7b-v0.3,Airport Food Pricing: A Profit-Driven Conundrum,0.3640459179878235,0.3640459179878235,0.0,1.0
+8,894,14:54,tinyllama,“Airline Industries’ Favorable Pricing Policy”,0.3637549579143524,0.3637549579143524,0.0,1.0
+8,894,14:54,qwen2-7b,Balancing Profitability vs. Passenger Satisfaction: The Airport Retail Dilemma,0.36130129462186866,0.40940800309181213,0.0,0.8824969025845955
+8,894,14:54,gemma2-9b,Airport Pricing: Passenger Pain Points,0.35305580496788025,0.35305580496788025,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Points,0.3479228615760803,0.3479228615760803,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Points,0.3479228615760803,0.3479228615760803,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Points,0.3479228615760803,0.3479228615760803,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Points,0.3479228615760803,0.3479228615760803,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Points,0.3479228615760803,0.3479228615760803,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Points,0.3479228615760803,0.3479228615760803,0.0,1.0
+8,894,14:54,qwen2-7b,Airport Retail Profits vs. Passenger Satisfaction: A Fine Balance,0.34578699682732045,0.3918280005455017,0.0,0.8824969025845955
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Point?,0.3427015244960785,0.3427015244960785,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Point?,0.3427015244960785,0.3427015244960785,0.0,1.0
+8,894,14:54,gemma2-9b,Airport Prices: Passenger Pain Point?,0.3427015244960785,0.3427015244960785,0.0,1.0
+8,894,14:54,tinyllama,Flexible Pricing and Profitability,0.3426823914051056,0.3426823914051056,0.0,1.0
+8,894,14:54,tinyllama,Aviation Industry Faces Unprecedented Challenges,0.33335840702056885,0.33335840702056885,0.0,1.0
+8,894,14:54,qwen2-7b,Airport Profits vs. Passenger Satisfaction: A Quest for Balance,0.3310445648505888,0.37512263655662537,0.0,0.8824969025845955
+8,894,14:54,llama3.1-8b,Airport Food Prices Under Fire,0.32554110884666443,0.32554110884666443,0.0,1.0
+8,894,14:54,tinyllama,The Impact of Flexible Pricing on Customer Satisfaction and Profitability,0.3221294561070893,0.4136224091053009,0.0,0.7788007830714049
+8,894,14:54,llama3.1-8b,Air Travelers Paying Through the Nose,0.3091285824775696,0.3091285824775696,0.0,1.0
+8,894,14:54,qwen2-7b,Balancing Profitability and Passenger Satisfaction: The Airport Food and Retail Dilemma,0.3014697825108681,0.4386359453201294,0.0,0.6872892787909722
+8,894,14:54,qwen2-7b,Balancing Passenger Satisfaction vs. Profitability: The Airport Food & Retail Dilemma,0.2972720545473566,0.4325282871723175,0.0,0.6872892787909722
+8,894,14:54,tinyllama,The Cost of Convenience,0.2872096002101898,0.2872096002101898,0.0,1.0
+8,894,14:54,llama3.1-8b,Airport Prices Under Fire,0.2719835042953491,0.2719835042953491,0.0,1.0
+8,894,14:54,tinyllama,The Impact of Flexible Pricing on Airline Food and Retails Operations,0.26934008808989685,0.39188751578330994,0.0,0.6872892787909722
+8,894,14:54,tinyllama,A Comfortable Concession,0.258023202419281,0.258023202419281,0.0,1.0
+8,894,14:54,llama3.1-8b,A tense balance between,0.2557274401187897,0.2557274401187897,0.0,1.0
+8,894,14:54,tinyllama,The Future of Air Travel - A Conversation with Passenger Experts,0.2383094196796418,0.34673815965652466,0.0,0.6872892787909722
+9,989,16:29,tinyllama,Amenable Snacks Save More Money Than You Think,0.5287937521934509,0.5287937521934509,0.0,1.0
+9,989,16:29,tinyllama,The Power of Amenability in Profitability,0.44769570231437683,0.44769570231437683,0.0,1.0
+9,989,16:29,tinyllama,The Power of Amenability in Profitability,0.44769570231437683,0.44769570231437683,0.0,1.0
+9,989,16:29,tinyllama,The Power of Amenability in Profitability,0.44769570231437683,0.44769570231437683,0.0,1.0
+9,989,16:29,tinyllama,The Power of Amenable Spaces in Increasing Profitability,0.44234803318977356,0.44234803318977356,0.0,1.0
+9,989,16:29,tinyllama,The Power of Amenable Spaces in Increasing Profitability,0.44234803318977356,0.44234803318977356,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability: Airport Snacks Example,0.4309287965297699,0.4309287965297699,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability: Airport Snacks Example,0.4309287965297699,0.4309287965297699,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability: Airport Snacks Example,0.4309287965297699,0.4309287965297699,0.0,1.0
+9,989,16:29,tinyllama,The Power of Amenable Space in Profitability,0.4253292381763458,0.4253292381763458,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability,0.42316150665283203,0.42316150665283203,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability,0.42316150665283203,0.42316150665283203,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability,0.42316150665283203,0.42316150665283203,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability,0.42316150665283203,0.42316150665283203,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability,0.42316150665283203,0.42316150665283203,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability,0.42316150665283203,0.42316150665283203,0.0,1.0
+9,989,16:29,mistral-7b-v0.3,Friendly Spaces Boost Profitability,0.42316150665283203,0.42316150665283203,0.0,1.0
+9,989,16:29,qwen2-7b,Friendliness Fuels Profit: Snack Savvy at Airports,0.41848254203796387,0.41848254203796387,0.0,1.0
+9,989,16:29,qwen2-7b,Friendliness Fuels Profit: Snack Savvy at Airports,0.41848254203796387,0.41848254203796387,0.0,1.0
+9,989,16:29,qwen2-7b,Friendliness Fuels Profit: Snack Savvy at Airports,0.41848254203796387,0.41848254203796387,0.0,1.0
+9,989,16:29,qwen2-7b,Friendliness Fuels Profit: Snack Savvy at Airports,0.41848254203796387,0.41848254203796387,0.0,1.0
+9,989,16:29,llama3.1-8b,Amenity Drives Profitability,0.4163389503955841,0.4163389503955841,0.0,1.0
+9,989,16:29,tinyllama,Amenable Snacks: How to Save Money at the Airport,0.40615596165804,0.46023499965667725,0.0,0.8824969025845955
+9,989,16:29,qwen2-7b,Friendly Spaces Yield Profit: Snack Savvy at Airports,0.39806246757507324,0.39806246757507324,0.0,1.0
+9,989,16:29,qwen2-7b,Friendly Spaces Yield Profit: Snack Savvy at Airports,0.39806246757507324,0.39806246757507324,0.0,1.0
+9,989,16:29,qwen2-7b,Friendly Spaces Yield Profit: Snack Savvy at Airports,0.39806246757507324,0.39806246757507324,0.0,1.0
+9,989,16:29,llama3.1-8b,Friendliness Fuels Financial Success,0.3906457722187042,0.3906457722187042,0.0,1.0
+9,989,16:29,qwen2-7b,Friendliness Fuels Profit: Airport Snacks & Beyond,0.3842748999595642,0.3842748999595642,0.0,1.0
+9,989,16:29,qwen2-7b,Friendly Spaces Yield Profit: The Power of Amenities,0.3742062449455261,0.3742062449455261,0.0,1.0
+9,989,16:29,qwen2-7b,Friendly Spaces: Profit and People-Pleasure,0.36151444911956787,0.36151444911956787,0.0,1.0
+9,989,16:29,llama3.1-8b,The Profit in Friendliness,0.36103248596191406,0.36103248596191406,0.0,1.0
+9,989,16:29,gemma2-9b,The Profit of Pleasantness,0.3551729917526245,0.3551729917526245,0.0,1.0
+9,989,16:29,gemma2-9b,"Friendly Spaces, Profitable Places",0.3550143837928772,0.3550143837928772,0.0,1.0
+9,989,16:29,llama3.1-8b,The Friendly Space Advantage,0.342165470123291,0.342165470123291,0.0,1.0
+9,989,16:29,llama3.1-8b,The Friendly Space Advantage,0.342165470123291,0.342165470123291,0.0,1.0
+9,989,16:29,llama3.1-8b,The Profit in Friendly Spaces,0.3272321820259094,0.3272321820259094,0.0,1.0
+9,989,16:29,llama3.1-8b,The Profit in Friendly Spaces,0.3272321820259094,0.3272321820259094,0.0,1.0
+9,989,16:29,llama3.1-8b,The Profit in Friendly Spaces,0.3272321820259094,0.3272321820259094,0.0,1.0
+9,989,16:29,llama3.1-8b,The Profit in Friendly Spaces,0.3272321820259094,0.3272321820259094,0.0,1.0
+9,989,16:29,llama3.1-8b,The Profit in Friendly Spaces,0.3272321820259094,0.3272321820259094,0.0,1.0
+9,989,16:29,gemma2-9b,The Friendly Profit Equation,0.32556888461112976,0.32556888461112976,0.0,1.0
+9,989,16:29,gemma2-9b,The Friendly Profit Equation,0.32556888461112976,0.32556888461112976,0.0,1.0
+9,989,16:29,gemma2-9b,The Friendly Profit Equation,0.32556888461112976,0.32556888461112976,0.0,1.0
+9,989,16:29,gemma2-9b,The Friendly Profit Equation,0.32556888461112976,0.32556888461112976,0.0,1.0
+9,989,16:29,gemma2-9b,The Friendly Profit Equation,0.32556888461112976,0.32556888461112976,0.0,1.0
+9,989,16:29,gemma2-9b,The Profit of Kindness,0.3014940619468689,0.3014940619468689,0.0,1.0
+9,989,16:29,gemma2-9b,The Profit of Kindness,0.3014940619468689,0.3014940619468689,0.0,1.0
+9,989,16:29,gemma2-9b,The Kindness Economy,0.29230213165283203,0.29230213165283203,0.0,1.0
+9,989,16:29,tinyllama,The Power of Amenable Spaces: How to Make More Money by Being Friendlier,0.2538839694976293,0.4743176996707916,0.0,0.5352614285189903
+9,989,16:29,tinyllama,The Power of Amenable Space: How It Can Save You Money at the Airport,0.23164284965362972,0.4903879165649414,0.0,0.4723665527410147

@@ -1,0 +1,233 @@
+====================================================================================================
+TITLE EVALUATION REPORT: engineering_map
+Variant 2: BERT + Cosine Similarity (reference_length = 8)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.2120
+llama3.1-8b          Average Score: 0.2542
+mistral-7b-v0.3      Average Score: 0.2458
+qwen2-7b             Average Score: 0.2652
+tinyllama            Average Score: 0.2168
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 325 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3378       0.4073       0.2682         1.0000     tinyllama            Engineering Influence on Our Lives (2)
+2      0.3232       0.4724       0.1740         1.0000     qwen2-7b             Engineering: Shaping Every Aspect of Our Lives (6)
+3      0.3090       0.4324       0.1856         1.0000     llama3.1-8b          Engineering's Impact on Our Daily Lives
+4      0.3003       0.4429       0.1578         1.0000     tinyllama            Engineering Innovations That Transform Our Lives
+5      0.2926       0.4194       0.1658         1.0000     tinyllama            Engineering Influences Our Lives
+6      0.2862       0.4147       0.1578         1.0000     qwen2-7b             Engineering: Shaping Our World Every Day (4)
+7      0.2856       0.4133       0.1578         1.0000     llama3.1-8b          How Engineering Shapes Our World Around
+8      0.2663       0.4296       0.1030         1.0000     tinyllama            Engineering Transformation: How Technology Is Shaping Our World
+9      0.2601       0.3545       0.1658         1.0000     llama3.1-8b          Engineering Our Everyday Lives
+10     0.2592       0.4064       0.1120         1.0000     tinyllama            Engineering Revolutions - How Technology Changed Our World
+11     0.2541       0.2762       0.2320         1.0000     tinyllama            Engineering the Future (3)
+12     0.2515       0.4254       0.0776         1.0000     mistral-7b-v0.3      Engineering's Impact on Modern Life (4)
+13     0.2500       0.3812       0.1188         1.0000     tinyllama            Engineering: A Field That Changes Everything
+14     0.2406       0.4036       0.0776         1.0000     mistral-7b-v0.3      Engineering's Impact on Modern Living (6)
+15     0.2388       0.4001       0.0776         1.0000     llama3.1-8b          Engineering's Impact on Daily Life (2)
+16     0.2330       0.3885       0.0776         1.0000     llama3.1-8b          Engineering's Impact on Everyday Life
+17     0.2294       0.3422       0.1166         1.0000     llama3.1-8b          “The Invisible Hand Behind Modern Living”
+18     0.2261       0.4010       0.0513         1.0000     llama3.1-8b          How Engineering Shapes Your World
+19     0.2154       0.2829       0.1480         1.0000     gemma2-9b            Engineering Our World (10)
+20     0.2118       0.3380       0.0856         1.0000     llama3.1-8b          Engineering Our World, One Innovation at a Time
+21     0.1263       0.2525       0.0000         1.0000     llama3.1-8b          Built by Engineers
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2154
+  llama3.1-8b         : 0.2359
+  mistral-7b-v0.3     : 0.2449
+  qwen2-7b            : 0.3084
+  tinyllama           : 0.2806
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 7s (00:07)
+Transcript Length: 2,544 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3475       0.3273       0.3676         1.0000     llama3.1-8b          The Engineering Infrastructure of Our World
+2      0.3420       0.3012       0.3828         1.0000     tinyllama            The World of Civil Engineering
+3      0.3384       0.3602       0.3166         1.0000     qwen2-7b             Engineering the World: From Pyramids to Pipelines
+4      0.3336       0.3905       0.3655         0.8825     mistral-7b-v0.3      Mapping the World of Engineering: From Cities to Structures (3)
+5      0.3315       0.3403       0.3228         1.0000     qwen2-7b             The Engineering Blueprint: From Cities to Corrosion
+6      0.3223       0.3127       0.3318         1.0000     qwen2-7b             Engineering the Foundations of Our World (3)
+7      0.3136       0.3735       0.3373         0.8825     mistral-7b-v0.3      Exploring the World of Civil Engineering: Building Our Cities
+8      0.3131       0.3123       0.3138         1.0000     gemma2-9b            Mapping the World of Engineering (5)
+9      0.3121       0.3536       0.2705         1.0000     qwen2-7b             The Engineering Blueprint: From Infrastructure to Everyday Objects
+10     0.3079       0.3187       0.2970         1.0000     qwen2-7b             The Engineering Blueprint: Foundations of Our World
+11     0.3020       0.3327       0.2712         1.0000     qwen2-7b             The Blueprint of Our World: Engineering's Vital Role (3)
+12     0.2945       0.3544       0.3129         0.8825     mistral-7b-v0.3      Exploring the World of Civil Engineering: Building Our Future
+13     0.2934       0.2730       0.3138         1.0000     llama3.1-8b          The Many Faces Of Engineering
+14     0.2852       0.4014       0.4285         0.6873     mistral-7b-v0.3      Exploring the World of Civil Engineering: Building Our Cities and Infrastructure
+15     0.2802       0.3489       0.2862         0.8825     mistral-7b-v0.3      Mapping Out Civil Engineering: The Art of Building Big
+16     0.2767       0.3567       0.2703         0.8825     mistral-7b-v0.3      Mapping Out Civil Engineering: The Pillars of Modern Infrastructure
+17     0.2736       0.3287       0.2186         1.0000     mistral-7b-v0.3      Mapping Out Civil Engineering: Building the World Around
+18     0.2552       0.2339       0.2764         1.0000     tinyllama            Engineering the Future
+19     0.2530       0.2514       0.2546         1.0000     gemma2-9b            Engineering: The Big Picture
+20     0.2487       0.3489       0.2898         0.7788     mistral-7b-v0.3      Mapping Out Civil Engineering: The Pillars of Our Built World
+21     0.2429       0.2236       0.2622         1.0000     llama3.1-8b          Engineering the World Around (16)
+22     0.2371       0.2996       0.1746         1.0000     gemma2-9b            Engineering Our World: A Map (2)
+23     0.2067       0.2263       0.1871         1.0000     gemma2-9b            Engineering Our World (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2706
+  llama3.1-8b         : 0.2584
+  mistral-7b-v0.3     : 0.2973
+  qwen2-7b            : 0.3163
+  tinyllama           : 0.2541
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 157s (02:37)
+Transcript Length: 6,672 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3434       0.3287       0.3581         1.0000     llama3.1-8b          The Interconnected World of Engineering Disciplines
+2      0.3223       0.4033       0.2412         1.0000     tinyllama            Understanding Corrosion And Breakdown Of Materials Over Time (3)
+3      0.2832       0.4090       0.2327         0.8825     mistral-7b-v0.3      Engineering: A Cross-Disciplinary Approach to Improving Systems and Sustainability
+4      0.2787       0.3466       0.2108         1.0000     mistral-7b-v0.3      Cross-Disciplinary Engineering: From Materials to Motion
+5      0.2772       0.3841       0.1704         1.0000     tinyllama            Understanding Corrosion & Breakdown of Materials Over Time
+6      0.2734       0.3477       0.1992         1.0000     llama3.1-8b          Cross-Disciplinary Engineering: Connections and Applications
+7      0.2626       0.3755       0.1497         1.0000     qwen2-7b             Engineering's Cross-Disciplinary Nature: From Buildings to Biotech
+8      0.2598       0.3598       0.1597         1.0000     qwen2-7b             Engineering's Cross-Disciplinary Nature: From Bikes to Biopharma
+9      0.2550       0.3428       0.1672         1.0000     mistral-7b-v0.3      Cross-Disciplinary Engineering: From Bikes to Biotech
+10     0.2546       0.3483       0.1609         1.0000     qwen2-7b             Engineering's Cross-Disciplinary Nature and Its Impact (3)
+11     0.2541       0.3591       0.1491         1.0000     mistral-7b-v0.3      Engineering: A Cross-Disciplinary Approach to Improving Life (2)
+12     0.2528       0.3499       0.1556         1.0000     qwen2-7b             Cross-Disciplinary Engineering: From Buildings to Biotechnology
+13     0.2525       0.3641       0.1409         1.0000     mistral-7b-v0.3      Engineering's Cross-Disciplinary Impact: From Agriculture to Biomedicine
+14     0.2519       0.3134       0.1904         1.0000     mistral-7b-v0.3      Engineering: The Shaping Force Behind Modern Life
+15     0.2466       0.3691       0.1241         1.0000     tinyllama            Engineering Bikes' Very Nature Is Largely Cross-Disciplinary
+16     0.2404       0.3472       0.1337         1.0000     mistral-7b-v0.3      Engineering: Cross-Disciplinary Science for Modern Living
+17     0.2374       0.3290       0.1457         1.0000     qwen2-7b             Engineering Interdisciplinary Connections: From Buildings to Biotech (2)
+18     0.2188       0.3309       0.1067         1.0000     qwen2-7b             Engineering's Cross-Disciplinary Nature Unveiled
+19     0.2173       0.3330       0.1016         1.0000     mistral-7b-v0.3      Engineering's Cross-Disciplinary Impact on Society
+20     0.2169       0.3372       0.0966         1.0000     llama3.1-8b          Cross-Disciplinary Engineering: Interconnected Fields
+21     0.2155       0.3005       0.1305         1.0000     llama3.1-8b          Cross-Disciplinary Engineering Applications
+22     0.2044       0.3123       0.0966         1.0000     mistral-7b-v0.3      Cross-Disciplinary Engineering: A Comprehensive Overview
+23     0.2021       0.3077       0.0966         1.0000     llama3.1-8b          Cross-Disciplinary Engineering Fields Explained
+24     0.2017       0.2730       0.1305         1.0000     tinyllama            Engineering Bikes' Very Nature
+25     0.1996       0.3074       0.0919         1.0000     llama3.1-8b          Engineering Disciplines: Interconnected Fields (3)
+26     0.1928       0.2891       0.0966         1.0000     llama3.1-8b          Cross-Disciplinary Engineering Fields Unveiled (2)
+27     0.1909       0.2898       0.0919         1.0000     gemma2-9b            Engineering Disciplines: A Connected Web
+28     0.1882       0.2519       0.1245         1.0000     qwen2-7b             Engineering Interdisciplinary Connections
+29     0.1759       0.2431       0.1087         1.0000     gemma2-9b            Engineering Disciplines Intertwined (4)
+30     0.1710       0.2332       0.1087         1.0000     gemma2-9b            Engineering Disciplines Unveiled (5)
+31     0.1438       0.2892       0.0368         0.8825     tinyllama            Creating A Brief, Engaging Chapter Title For This Transcript
+32     0.1256       0.2450       0.0062         1.0000     tinyllama            Understanding Corrosion - Transcript (2)
+33     0.1102       0.2204       0.0000         1.0000     tinyllama            Creating a Brief Chapter Title
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.1749
+  llama3.1-8b         : 0.2236
+  mistral-7b-v0.3     : 0.2492
+  qwen2-7b            : 0.2421
+  tinyllama           : 0.2198
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 550s (09:10)
+Transcript Length: 11,090 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.4018       0.3742       0.4294         1.0000     mistral-7b-v0.3      Mechanical Engineering: The Product of Ingenuity
+2      0.3571       0.3099       0.4043         1.0000     llama3.1-8b          The Diverse Applications of Engineering Disciplines (5)
+3      0.3549       0.3036       0.4062         1.0000     llama3.1-8b          The Diverse World of Engineering Disciplines (2)
+4      0.3377       0.3021       0.3733         1.0000     llama3.1-8b          The Diverse Branches of Modern Engineering
+5      0.3284       0.3703       0.3739         0.8825     mistral-7b-v0.3      Exploring the Landscape of Engineering: From Ingenuity to Innovation
+6      0.3240       0.3875       0.4445         0.7788     mistral-7b-v0.3      Mechanical Engineering: The Art of Energy Conversion and Product Design
+7      0.3039       0.3666       0.2411         1.0000     qwen2-7b             Engineering: Crafting the World Through Ingenuity
+8      0.2970       0.3569       0.4059         0.7788     mistral-7b-v0.3      The Art of Energy Conversion: Exploring the Branches of Engineering
+9      0.2711       0.2734       0.2688         1.0000     llama3.1-8b          Engineering Disciplines and Their Applications
+10     0.2696       0.3683       0.4162         0.6873     mistral-7b-v0.3      Exploring the Product of Ingenuity: The Diverse Realms of Mechanical Engineering
+11     0.2674       0.3334       0.2013         1.0000     qwen2-7b             Engineering: From Ancient Ingenuity to Modern Luxuries
+12     0.2627       0.3215       0.2038         1.0000     llama3.1-8b          “Engineering’s Vast Spectrum of Disciplined Expertise”
+13     0.2605       0.3325       0.1886         1.0000     qwen2-7b             Engineering: From Ancient Ingenuity to Modern Marvels (2)
+14     0.2601       0.3316       0.1886         1.0000     qwen2-7b             Engineering: From Ancient Ingenuity to Modern Miracles
+15     0.2402       0.3054       0.1750         1.0000     qwen2-7b             Engineering: From Ancient Innovations to Modern Marvels (4)
+16     0.2246       0.3338       0.1154         1.0000     qwen2-7b             Engineering: Crafting Ingenuity Across Disciplines
+17     0.2200       0.3202       0.1197         1.0000     gemma2-9b            Engineering: Shaping Our World Through Innovation (2)
+18     0.2145       0.2890       0.1401         1.0000     gemma2-9b            Engineering: Shaping Our World (8)
+19     0.2143       0.4073       0.3935         0.5353     mistral-7b-v0.3      Exploring the World of Mechanical Engineering: Energy Conversion, Materials, Robotics, Aerospaces, and More
+20     0.2097       0.4110       0.3727         0.5353     mistral-7b-v0.3      Exploring the Spectrum of Mechanical Engineering: Energy Conversion, Materials, Robotics, Aerospaces, and Photonics
+21     0.1899       0.3818       0.4224         0.4724     mistral-7b-v0.3      Exploring the Product of Ingenuity: An Overview of Mechanical Engineering and Its Interconnected Branches
+22     0.1840       0.4114       0.3675         0.4724     mistral-7b-v0.3      Exploring the Diverse Realm of Mechanical Engineering: Energy Conversion, Materials, Robotics, Aerospaces, and More
+23     0.1706       0.3691       0.3533         0.4724     mistral-7b-v0.3      Exploring the Product of Ingenuity: A Journey Through Mechanical Engineering and Its Interconnected Fields
+24     0.1253       0.2307       0.0200         1.0000     tinyllama            Discussion on Create engaging chapter (10)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2156
+  llama3.1-8b         : 0.3367
+  mistral-7b-v0.3     : 0.2589
+  qwen2-7b            : 0.2538
+  tinyllama           : 0.1253
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 1212s (20:12)
+Transcript Length: 1,812 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.2562       0.3500       0.1624         1.0000     tinyllama            Engineering Mindset: How Engineers Think and Innovate
+2      0.2442       0.3185       0.1700         1.0000     llama3.1-8b          The Power of the Engineering Way of Thinking
+3      0.2430       0.3064       0.1795         1.0000     llama3.1-8b          The Power of the Engineering Mind
+4      0.2366       0.2936       0.1795         1.0000     llama3.1-8b          The Power of the Engineering Approach
+5      0.2342       0.3928       0.2088         0.7788     tinyllama            Engineering Mindset: A Powerful Tool for Improving Knowledge and Skills
+6      0.2326       0.3526       0.1125         1.0000     tinyllama            Engineers Step by Step Built Our Modern World
+7      0.2294       0.3474       0.1114         1.0000     qwen2-7b             Appreciating Engineering: A Pathway to Modern Luxuries (2)
+8      0.2195       0.3188       0.1202         1.0000     llama3.1-8b          Unlocking Knowledge with the Engineering Mind
+9      0.2185       0.3424       0.0945         1.0000     tinyllama            Engineering Mindset: How Engineers Think Like Royalty
+10     0.2130       0.3284       0.0976         1.0000     qwen2-7b             Appreciating Engineering: A Pathway to Modern Marvels (3)
+11     0.2098       0.3526       0.0671         1.0000     tinyllama            Engineering Mindset: How Engineers Solve Problems
+12     0.2076       0.3523       0.0629         1.0000     llama3.1-8b          Appreciating Modern Luxuries through Engineering Mindset (5)
+13     0.2008       0.3434       0.1116         0.8825     tinyllama            Brilliant Engineering Mindset - How Engineers Think Like Royalty
+14     0.1990       0.3350       0.0629         1.0000     qwen2-7b             Appreciating Engineering Mindset & Learning with Brilliant
+15     0.1928       0.3227       0.0629         1.0000     mistral-7b-v0.3      Appreciating Engineering Mindset with BrillianT Learning
+16     0.1928       0.3871       0.1080         0.7788     qwen2-7b             Engineering Mindset: Building Our Modern World & Elevating Your Skills (2)
+17     0.1898       0.3040       0.0756         1.0000     mistral-7b-v0.3      Embracing Engineering Mindset with BrillianT App
+18     0.1898       0.3069       0.0726         1.0000     gemma2-9b            Engineering Mindset & Learning with Brilliant (2)
+19     0.1890       0.3151       0.0629         1.0000     mistral-7b-v0.3      Applying Engineering Mindset with BrillianT Learning
+20     0.1889       0.3228       0.0550         1.0000     mistral-7b-v0.3      Appreciating Engineers & Mastering Science with BrillianT
+21     0.1884       0.3139       0.0629         1.0000     mistral-7b-v0.3      Embracing Engineering Mindset with BrillianT Learning
+22     0.1878       0.3585       0.0672         0.8825     qwen2-7b             Engineering Mindset: Building Our Modern World & Continuous Learning
+23     0.1864       0.3032       0.0696         1.0000     gemma2-9b            Engineering Mindset & Brilliant Learning (6)
+24     0.1856       0.3534       0.0672         0.8825     qwen2-7b             Engineering Mindset: Building Our Modern World & Personal Growth
+25     0.1833       0.2925       0.0742         1.0000     llama3.1-8b          Engineering Our Future One Problem at a Time
+26     0.1815       0.3093       0.0538         1.0000     mistral-7b-v0.3      Applying Engineering Mindset on Briliant Learning Platform
+27     0.1804       0.2712       0.0896         1.0000     tinyllama            Brilliant Engineering Mindset
+28     0.1763       0.4575       0.2890         0.4724     tinyllama            Engineering Mindset: The Powerful Tool to Analyze Problems, Design Solutions, and Invent New Technology
+29     0.1701       0.3850       0.1100         0.6873     tinyllama            Engineering Mindset - A Powerful Tool for Improving Knowledge & Skills
+30     0.1687       0.3010       0.0363         1.0000     gemma2-9b            Engineering Mindset & Learning Brilliantly (2)
+31     0.1676       0.2959       0.0394         1.0000     mistral-7b-v0.3      Appreciating Engineers & Learning on Briliant (3)
+32     0.1648       0.4630       0.2347         0.4724     tinyllama            Engineering Mindset: A Powerful Tool to Analyze Problems, Design Solutions, and Invent New Technology
+33     0.1550       0.2730       0.0370         1.0000     mistral-7b-v0.3      Embracing Engineering Mindset through Brillian App
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.1835
+  llama3.1-8b         : 0.2165
+  mistral-7b-v0.3     : 0.1788
+  qwen2-7b            : 0.2056
+  tinyllama           : 0.2044
+
+====================================================================================================
+

@@ -1,0 +1,402 @@
+# Variant 4: BERT ONLY (reference_length = 8)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,mistral-7b-v0.3,Exploring Fungal Kingdom: From Microscopic Mycelia to Mushrooms,0.38214898109436035,0.38214898109436035,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Fungi and Their Intricate Networks,0.3638264536857605,0.3638264536857605,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Fungi and Their Intricate Networks,0.3638264536857605,0.3638264536857605,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Fungi and Their Intricate Networks,0.3638264536857605,0.3638264536857605,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Fungi and Their Intricate Networks,0.3638264536857605,0.3638264536857605,0.0,1.0
+1,0,00:00,qwen2-7b,The Enigmatic Kingdom of Fungi: From Spores to Symbiosis,0.35366327364546823,0.400752991437912,0.0,0.8824969025845955
+1,0,00:00,mistral-7b-v0.3,Exploring the Hidden Kingdom of Fungi,0.3452486991882324,0.3452486991882324,0.0,1.0
+1,0,00:00,tinyllama,Discovering the Kingdom of Fungi,0.3449147045612335,0.3449147045612335,0.0,1.0
+1,0,00:00,tinyllama,Discovering the Kingdom of Fungi,0.3449147045612335,0.3449147045612335,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Exploring Fungal Kingdom: From Microscopic Mycelia to Mushroom Spores,0.34367338688514326,0.38943296670913696,0.0,0.8824969025845955
+1,0,00:00,tinyllama,Mushrooms: Kingdom of Fungi,0.3395862579345703,0.3395862579345703,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Fungal Kingdom: Life Beneath the Forest Floor,0.3382352590560913,0.3382352590560913,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden Kingdom of Fungi,0.33124083280563354,0.33124083280563354,0.0,1.0
+1,0,00:00,tinyllama,Mushrooms - Kingdom of Fungi,0.3272591829299927,0.3272591829299927,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden World of Fungi,0.32724329829216003,0.32724329829216003,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden World of Fungi,0.32724329829216003,0.32724329829216003,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden World of Fungi,0.32724329829216003,0.32724329829216003,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden World of Fungi,0.32724329829216003,0.32724329829216003,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden World of Fungi,0.32724329829216003,0.32724329829216003,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden World of Fungi,0.32724329829216003,0.32724329829216003,0.0,1.0
+1,0,00:00,llama3.1-8b,The Hidden World of Fungi,0.32724329829216003,0.32724329829216003,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Exploring the Hidden Kingdom: Fungi & Their Mycelial Network,0.32448094385114173,0.36768507957458496,0.0,0.8824969025845955
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,gemma2-9b,Unveiling the Hidden Kingdom of Fungi,0.32302096486091614,0.32302096486091614,0.0,1.0
+1,0,00:00,llama3.1-8b,Unveiling the Hidden World of Fungi,0.3192092180252075,0.3192092180252075,0.0,1.0
+1,0,00:00,qwen2-7b,The Enigmatic Kingdom of Fungi: From Spores to Mycelial Networks,0.3143356299755231,0.40361493825912476,0.0,0.7788007830714049
+1,0,00:00,mistral-7b-v0.3,Unseen Kingdom: Exploring the Fungal Network,0.31420037150382996,0.31420037150382996,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Fungi and Their Mysterious Life Cycle,0.313338755159646,0.35505932569503784,0.0,0.8824969025845955
+1,0,00:00,mistral-7b-v0.3,Exploring Fungi's Hidden Kingdom: Mycelial Networks & Mushroom Mysteries,0.31178129468535587,0.3532944917678833,0.0,0.8824969025845955
+1,0,00:00,mistral-7b-v0.3,Exploring the Hidden Kingdom: Fungi,0.3103516399860382,0.3103516399860382,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Exploring the Hidden Kingdom: Fungi,0.3103516399860382,0.3103516399860382,0.0,1.0
+1,0,00:00,tinyllama,The Kingdom of Fungi,0.3060055077075958,0.3060055077075958,0.0,1.0
+1,0,00:00,tinyllama,The Kingdom of Fungi,0.3060055077075958,0.3060055077075958,0.0,1.0
+1,0,00:00,tinyllama,Fungi - Kingdom of Life,0.3044033646583557,0.3044033646583557,0.0,1.0
+1,0,00:00,tinyllama,Fungi - Kingdom of Life,0.3044033646583557,0.3044033646583557,0.0,1.0
+1,0,00:00,tinyllama,A Map of Fungi,0.3033747375011444,0.3033747375011444,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Fungal Forest Explorers: Unseen Networks Below,0.3021105229854584,0.3021105229854584,0.0,1.0
+1,0,00:00,llama3.1-8b,Unveiling Fungi's Hidden Realm,0.29224255681037903,0.29224255681037903,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Fungi Unveiled,0.28275203704833984,0.28275203704833984,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Fungi Unveiled,0.28275203704833984,0.28275203704833984,0.0,1.0
+1,0,00:00,tinyllama,Transforming Earth through Fungi,0.26818254590034485,0.26818254590034485,0.0,1.0
+1,0,00:00,qwen2-7b,The Hidden Kingdom: Unveiling Fungi,0.2640543282032013,0.2640543282032013,0.0,1.0
+2,107,01:47,qwen2-7b,"Mycelium Networks: Fungal Growth, Cell Walls, and Diversity",0.37123164534568787,0.37123164534568787,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,Fungal Networks: Tough Cell Walls and External Digestion,0.35135212540626526,0.35135212540626526,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,"Fungal Filaments: Digestion, Diversity, and Decomposition",0.3431551158428192,0.3431551158428192,0.0,1.0
+2,107,01:47,tinyllama,The Mystery of Fungus: How Do They Grow?,0.31348320841789246,0.31348320841789246,0.0,1.0
+2,107,01:47,qwen2-7b,Mycelial Mastery: The Enigmatic World of Fungal Networks,0.31097397208213806,0.31097397208213806,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,"The Wonders of Fungal Hypha: Networks, Digestion, and Diversity",0.3043692209367346,0.34489551186561584,0.0,0.8824969025845955
+2,107,01:47,qwen2-7b,Mysteries Unveiled: The Intricate World of Fungal Networks,0.3037903904914856,0.3037903904914856,0.0,1.0
+2,107,01:47,qwen2-7b,"Fungal Networks: Structure, Digestion, Diversity & Evolution",0.2977210581302643,0.2977210581302643,0.0,1.0
+2,107,01:47,qwen2-7b,"Fungal Networks: Structure, Digestion, Diversity & Evolution",0.2977210581302643,0.2977210581302643,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,The Intricate World of Fungal Hypha and External Digestion,0.29302517623625207,0.33204102516174316,0.0,0.8824969025845955
+2,107,01:47,mistral-7b-v0.3,The Intricate World of Fungal Hypha and External Digestion,0.29302517623625207,0.33204102516174316,0.0,0.8824969025845955
+2,107,01:47,llama3.1-8b,The Fascinating World of Fungal Networks,0.29205942153930664,0.29205942153930664,0.0,1.0
+2,107,01:47,llama3.1-8b,The Fascinating World of Fungal Networks,0.29205942153930664,0.29205942153930664,0.0,1.0
+2,107,01:47,llama3.1-8b,The Fascinating World of Fungal Networks,0.29205942153930664,0.29205942153930664,0.0,1.0
+2,107,01:47,llama3.1-8b,The Fascinating World of Fungal Networks,0.29205942153930664,0.29205942153930664,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,The Fascinating World of Fungal Hypha and External Digestion,0.2871363460671076,0.32536810636520386,0.0,0.8824969025845955
+2,107,01:47,mistral-7b-v0.3,The Fascinating World of Fungal Hypha and External Digestion,0.2871363460671076,0.32536810636520386,0.0,0.8824969025845955
+2,107,01:47,llama3.1-8b,Fungal Networks and Cellular Complexity,0.2843021750450134,0.2843021750450134,0.0,1.0
+2,107,01:47,llama3.1-8b,The Hidden World of Fungal Networks,0.28426676988601685,0.28426676988601685,0.0,1.0
+2,107,01:47,tinyllama,The Chemistry of Fruiting Bodies,0.28237032890319824,0.28237032890319824,0.0,1.0
+2,107,01:47,llama3.1-8b,Fungal Networks and Cellular Diversity,0.27711912989616394,0.27711912989616394,0.0,1.0
+2,107,01:47,llama3.1-8b,Fungal Networks and Cellular Diversity,0.27711912989616394,0.27711912989616394,0.0,1.0
+2,107,01:47,qwen2-7b,"Fungal Networks, Chemistry, and Diversity",0.2767083942890167,0.2767083942890167,0.0,1.0
+2,107,01:47,qwen2-7b,"Fungal Networks, Chemistry, and Diversity",0.2767083942890167,0.2767083942890167,0.0,1.0
+2,107,01:47,qwen2-7b,"Fungal Networks, Chemistry, and Diversity",0.2767083942890167,0.2767083942890167,0.0,1.0
+2,107,01:47,qwen2-7b,Mycelial Marvels: The Dynamic World of Fungi,0.2725517451763153,0.2725517451763153,0.0,1.0
+2,107,01:47,qwen2-7b,Fungal Networks: Survival Strategies & Evolutionary Mysteries,0.26646384596824646,0.26646384596824646,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,"The Tough Cell Walls of Fungal Hypha: Digestion, Growth, and Diversity",0.2655365519330097,0.38635340332984924,0.0,0.6872892787909722
+2,107,01:47,llama3.1-8b,Fungal Networks and Cellular Secrets,0.2648892104625702,0.2648892104625702,0.0,1.0
+2,107,01:47,llama3.1-8b,The Hidden Biology of Fungi Revealed,0.26382601261138916,0.26382601261138916,0.0,1.0
+2,107,01:47,gemma2-9b,Fungi: Networks of Life and Chemistry,0.2634814381599426,0.2634814381599426,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,The Tough Cell Walls and Unique Digestion Methods of Fungal Hypha,0.2614037340154942,0.38034018874168396,0.0,0.6872892787909722
+2,107,01:47,gemma2-9b,The Hidden World of Fungi,0.24981829524040222,0.24981829524040222,0.0,1.0
+2,107,01:47,gemma2-9b,The Hidden World of Fungi,0.24981829524040222,0.24981829524040222,0.0,1.0
+2,107,01:47,gemma2-9b,The Hidden World of Fungi,0.24981829524040222,0.24981829524040222,0.0,1.0
+2,107,01:47,gemma2-9b,The Hidden World of Fungi,0.24981829524040222,0.24981829524040222,0.0,1.0
+2,107,01:47,gemma2-9b,Unveiling the Hidden World of Fungi,0.24915297329425812,0.24915297329425812,0.0,1.0
+2,107,01:47,gemma2-9b,Unveiling the Hidden World of Fungi,0.24915297329425812,0.24915297329425812,0.0,1.0
+2,107,01:47,tinyllama,The Evolution of Fungus,0.2444603443145752,0.2444603443145752,0.0,1.0
+2,107,01:47,gemma2-9b,The Fascinating World of Fungi,0.2384500801563263,0.2384500801563263,0.0,1.0
+2,107,01:47,gemma2-9b,The Fascinating World of Fungi,0.2384500801563263,0.2384500801563263,0.0,1.0
+2,107,01:47,tinyllama,A Brief Introduction to Fungus,0.22092917561531067,0.22092917561531067,0.0,1.0
+2,107,01:47,gemma2-9b,Unveiling the Secrets of Fungi,0.21989674866199493,0.21989674866199493,0.0,1.0
+2,107,01:47,tinyllama,Understanding Fungal Ecology,0.21985849738121033,0.21985849738121033,0.0,1.0
+2,107,01:47,tinyllama,Understanding Fungal Ecology,0.21985849738121033,0.21985849738121033,0.0,1.0
+2,107,01:47,mistral-7b-v0.3,"The Complex, External Digestion Machines: A Deep Dive into Fungal Hypha",0.21830276705840482,0.3176286518573761,0.0,0.6872892787909722
+2,107,01:47,tinyllama,The World of Fungus,0.21468667685985565,0.21468667685985565,0.0,1.0
+2,107,01:47,tinyllama,The World of Fungus,0.21468667685985565,0.21468667685985565,0.0,1.0
+2,107,01:47,tinyllama,Creating a Brief Chapter Title,0.19621436297893524,0.19621436297893524,0.0,1.0
+2,107,01:47,tinyllama,The World of Fungus - Understanding the Diverse Kingdom of Life,0.19407462640633064,0.2823769152164459,0.0,0.6872892787909722
+3,366,06:06,mistral-7b-v0.3,Fungi: Nature's Nutrient Cyclers and Symbiotic Partners,0.38134709000587463,0.38134709000587463,0.0,1.0
+3,366,06:06,tinyllama,Liches Are Essential for Soil Formation,0.368584543466568,0.368584543466568,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,Fungi: Nature's Decomposers and Symbiotic Allies,0.36682000756263733,0.36682000756263733,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,Fungi: Nature's Decomposers and Symbiotic Allies,0.36682000756263733,0.36682000756263733,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Symbiotic Partners,0.3661595284938812,0.3661595284938812,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Symbiotic Partners,0.3661595284938812,0.3661595284938812,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Symbiotic Partners,0.3661595284938812,0.3661595284938812,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Symbiotic Partners,0.3661595284938812,0.3661595284938812,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,Fungi: Nature's Recyclers and Symbiotic Partners,0.3645835816860199,0.3645835816860199,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,Fungi: Nature's Recyclers and Symbiotic Partners,0.3645835816860199,0.3645835816860199,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Symbiotic Superstars,0.3637807071208954,0.3637807071208954,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Symbiotic Superstars,0.3637807071208954,0.3637807071208954,0.0,1.0
+3,366,06:06,tinyllama,The Importance of Lichenses in Soil Formation,0.36229532957077026,0.36229532957077026,0.0,1.0
+3,366,06:06,tinyllama,The Importance of Lichenses in Soil Formation,0.36229532957077026,0.36229532957077026,0.0,1.0
+3,366,06:06,tinyllama,The Importance of Liches in Soil Formation,0.3547250032424927,0.3547250032424927,0.0,1.0
+3,366,06:06,llama3.1-8b,Fungi: Nature's Decomposers & Symbiotic Superheroes,0.35265225172042847,0.35265225172042847,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,"Fungi: Decomposers, Symbionts, and Communicators",0.3442906439304352,0.3442906439304352,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,"Fungi: Decomposers, Symbionts, and Communicators",0.3442906439304352,0.3442906439304352,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,"Fungi: Decomposers, Symbionts, and Communication Networks",0.344011127948761,0.344011127948761,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,"Fungi: Decomposers, Symbionts, and Communication Networks",0.344011127948761,0.344011127948761,0.0,1.0
+3,366,06:06,mistral-7b-v0.3,"Fungi: Decomposers, Symbionts, and Communication Networks",0.344011127948761,0.344011127948761,0.0,1.0
+3,366,06:06,tinyllama,How Lichenses Contribute to Soil Formation,0.3434249460697174,0.3434249460697174,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Mutual Beneficial Partners,0.3431614637374878,0.3431614637374878,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Mutual Beneficial Partners,0.3431614637374878,0.3431614637374878,0.0,1.0
+3,366,06:06,tinyllama,How Fungus Helps Plant Growth and Composting,0.3402821719646454,0.3402821719646454,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Mutualistic Partners,0.3365057408809662,0.3365057408809662,0.0,1.0
+3,366,06:06,qwen2-7b,Fungi: Nature's Decomposers and Mutual Benefactors,0.3343839645385742,0.3343839645385742,0.0,1.0
+3,366,06:06,llama3.1-8b,Fungi's Hidden Roles in Ecosystems,0.32973095774650574,0.32973095774650574,0.0,1.0
+3,366,06:06,llama3.1-8b,The Hidden World of Fungal Symbiosis,0.32865363359451294,0.32865363359451294,0.0,1.0
+3,366,06:06,tinyllama,Lichen Formation and Role in Soil Formation,0.3251774311065674,0.3251774311065674,0.0,1.0
+3,366,06:06,llama3.1-8b,The Hidden Network: Fungal Symbiosis,0.3249680995941162,0.3249680995941162,0.0,1.0
+3,366,06:06,llama3.1-8b,Fungi: Unsung Heroes of Decomposition & Symbiosis,0.32375219464302063,0.32375219464302063,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Recyclers and Connectors,0.3205641508102417,0.3205641508102417,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Essential Recyclers and Partners,0.32010090351104736,0.32010090351104736,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Essential Recyclers and Partners,0.32010090351104736,0.32010090351104736,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Essential Recyclers and Partners,0.32010090351104736,0.32010090351104736,0.0,1.0
+3,366,06:06,llama3.1-8b,Fungi: Nature's Decomposers & Connectors,0.31938859820365906,0.31938859820365906,0.0,1.0
+3,366,06:06,llama3.1-8b,Fungi: Nature's Decomposers & Connectors,0.31938859820365906,0.31938859820365906,0.0,1.0
+3,366,06:06,llama3.1-8b,The Hidden Network: Fungal Symbiosis Unveiled,0.315559059381485,0.315559059381485,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Hidden Network,0.30577990412712097,0.30577990412712097,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Hidden Network,0.30577990412712097,0.30577990412712097,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Hidden Networkers,0.2920092046260834,0.2920092046260834,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Hidden Networkers,0.2920092046260834,0.2920092046260834,0.0,1.0
+3,366,06:06,llama3.1-8b,Fungi's Hidden Role in Shaping Our World,0.28632721304893494,0.28632721304893494,0.0,1.0
+3,366,06:06,gemma2-9b,Fungi: Nature's Hidden Architects,0.2850950062274933,0.2850950062274933,0.0,1.0
+3,366,06:06,gemma2-9b,The Hidden World of Fungi,0.2815324664115906,0.2815324664115906,0.0,1.0
+3,366,06:06,tinyllama,How Fungus and Plant Relationships Help Build Soil and Support Life,0.2667077593896362,0.38805750012397766,0.0,0.6872892787909722
+3,366,06:06,tinyllama,Fungi and Their Relationships,0.2591773569583893,0.2591773569583893,0.0,1.0
+3,366,06:06,tinyllama,LICHENS - THE FIRST ORGANISMS TO SET UP SHEL,0.2561719498940289,0.29028084874153137,0.0,0.8824969025845955
+3,366,06:06,llama3.1-8b,Fungus Among Us: Unseen Partnerships,0.23828665912151337,0.23828665912151337,0.0,1.0
+4,534,08:54,qwen2-7b,"Fungi: Nature's Protectors, Pathogens, and Pharmaceutical Powerhouses",0.3840024769306183,0.3840024769306183,0.0,1.0
+4,534,08:54,tinyllama,How Fungus Helps Plants Grow and Thrive,0.35318559408187866,0.35318559408187866,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,"Fungal Fascinations: Symbiosis, Pathogens & Life-Saving Medicines",0.3529171049594879,0.3529171049594879,0.0,1.0
+4,534,08:54,qwen2-7b,"Fungi: Nature's Protectors, Predators, and Pioneers",0.34005939960479736,0.34005939960479736,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,Fungal Fascinations: From Soil Formers to Life-Savers,0.3337993621826172,0.3337993621826172,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,Fungal Wonders: From Soil Formers to Life-Savers,0.33331647515296936,0.33331647515296936,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,Fungal Frontiers: From Soil Formation to Life-Saving Drugs,0.3318374454975128,0.3318374454975128,0.0,1.0
+4,534,08:54,tinyllama,How Fungus Is Used To Treat Disease,0.3242420256137848,0.3242420256137848,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,Fungal Forces: From Soil Formers to Life-Savers,0.3235666751861572,0.3235666751861572,0.0,1.0
+4,534,08:54,qwen2-7b,Fungi: Nature's Protectors and Perilers,0.321939080953598,0.321939080953598,0.0,1.0
+4,534,08:54,tinyllama,Fungus as a Source of Antibiotically Active Compounds,0.31989821791648865,0.31989821791648865,0.0,1.0
+4,534,08:54,tinyllama,The Importance of Fungus in Medicine,0.3181752860546112,0.3181752860546112,0.0,1.0
+4,534,08:54,tinyllama,The Importance of Fungus in Medicine,0.3181752860546112,0.3181752860546112,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,Fungal Wonders: From Soil Builders to Lifesavers,0.3125028610229492,0.3125028610229492,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,Fungal Wonders: From Soil Builders to Lifesavers,0.3125028610229492,0.3125028610229492,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,"Fungal Wonders: Lifeblood of Soil, Zombie Ants, & Lifesavers",0.3109821289929688,0.3523889183998108,0.0,0.8824969025845955
+4,534,08:54,qwen2-7b,Fungi: Nature's Guardians and Devastators,0.3093167841434479,0.3093167841434479,0.0,1.0
+4,534,08:54,qwen2-7b,Fungi: Nature's Guardians and Devastators,0.3093167841434479,0.3093167841434479,0.0,1.0
+4,534,08:54,qwen2-7b,Fungi: Nature's Guardians and Devastators,0.3093167841434479,0.3093167841434479,0.0,1.0
+4,534,08:54,tinyllama,Transcriptional Regulation in Fungus-Host Interactions,0.3078514039516449,0.3078514039516449,0.0,1.0
+4,534,08:54,tinyllama,Fungal Biochemistry: A Powerful Tool in Medicine and Biotechnology,0.30091983707398057,0.34098684787750244,0.0,0.8824969025845955
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,gemma2-9b,"Fungi: Allies, Enemies, and Medicine",0.29957208037376404,0.29957208037376404,0.0,1.0
+4,534,08:54,qwen2-7b,Fungi: Nature's Guardians and Global Impact,0.294401079416275,0.294401079416275,0.0,1.0
+4,534,08:54,qwen2-7b,Fungi: Nature's Guardians and Global Impact,0.294401079416275,0.294401079416275,0.0,1.0
+4,534,08:54,qwen2-7b,Fungi: Nature's Defenders and Devastators,0.2922253906726837,0.2922253906726837,0.0,1.0
+4,534,08:54,qwen2-7b,Fungi: Nature's Defenders and Devastators,0.2922253906726837,0.2922253906726837,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi's Hidden Impact on Life,0.2897813022136688,0.2897813022136688,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi's Hidden Impact on Medicine,0.28801771998405457,0.28801771998405457,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi's Hidden Impact on Medicine,0.28801771998405457,0.28801771998405457,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi's Hidden Impact on Medicine,0.28801771998405457,0.28801771998405457,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi's Hidden Impact on Medicine,0.28801771998405457,0.28801771998405457,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi's Hidden Impact on Medicine,0.28801771998405457,0.28801771998405457,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi: Hidden Heroes of Medicine and Nature,0.2829986810684204,0.2829986810684204,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi: Medicine's Hidden Powerhouse,0.2715357840061188,0.2715357840061188,0.0,1.0
+4,534,08:54,mistral-7b-v0.3,"Fungal Fascination: Lifeblood of Soil, Zombie Ants, & Lifesaving Drugs",0.2676337156755195,0.3436484932899475,0.0,0.7788007830714049
+4,534,08:54,llama3.1-8b,Fungi's Double Edge: Medicine & Mayhem,0.2611931264400482,0.2611931264400482,0.0,1.0
+4,534,08:54,llama3.1-8b,Fungi's Double Edge: Medicine & Mayhem,0.2611931264400482,0.2611931264400482,0.0,1.0
+4,534,08:54,tinyllama,Fungal Biotechnology - How do fungi play a role in medicine?,0.24160391687689128,0.35153162479400635,0.0,0.6872892787909722
+4,534,08:54,mistral-7b-v0.3,Fungal Fascination: From Soil Builders to Zombie Ants and Life-Saving Drugs,0.24142903458824705,0.3512771725654602,0.0,0.6872892787909722
+4,534,08:54,tinyllama,"Lichen Creates a Brief, Engaging Chapter Title for This Transcript",0.23457556368742546,0.3012009859085083,0.0,0.7788007830714049
+4,534,08:54,tinyllama,"Lichen Creates a Brief, Engaging Chapter Title for This Transcript",0.23457556368742546,0.3012009859085083,0.0,0.7788007830714049
+5,795,13:15,tinyllama,"How Fungi Are Used in Agriculture, Industry, and Medicine",0.3666379203917056,0.4154551923274994,0.0,0.8824969025845955
+5,795,13:15,mistral-7b-v0.3,"Fungal Highways: Biodegraders, Bioremediators, and Biofactories",0.36630314588546753,0.36630314588546753,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,"Fungal Highways: Biodegraders, Bioremediators, and Biofactories",0.36630314588546753,0.36630314588546753,0.0,1.0
+5,795,13:15,tinyllama,The Hallucinatory Effect of Mushroom Poisoning,0.35953277349472046,0.35953277349472046,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungi: Nature's Powerhouses - From Soil to Industry,0.3506990373134613,0.3506990373134613,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungi: Nature's Bioremediators and Culinary Delights,0.3457256555557251,0.3457256555557251,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungi: Nature's Bioremediators and Culinary Delights,0.3457256555557251,0.3457256555557251,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungi: Nature's Bioremediators and Culinary Delights,0.3457256555557251,0.3457256555557251,0.0,1.0
+5,795,13:15,qwen2-7b,Fungi: Nature's Wonders - From Food to Remediation,0.3412538468837738,0.3412538468837738,0.0,1.0
+5,795,13:15,qwen2-7b,Fungi: Nature's Wonders - From Food to Remediation,0.3412538468837738,0.3412538468837738,0.0,1.0
+5,795,13:15,qwen2-7b,Fungi: Nature's Wonders - From Food to Remediation,0.3412538468837738,0.3412538468837738,0.0,1.0
+5,795,13:15,qwen2-7b,Fungi: Nature's Wonders - From Food to Remediation,0.3412538468837738,0.3412538468837738,0.0,1.0
+5,795,13:15,qwen2-7b,Fungi: Nature's Wonders - From Food to Remediation,0.3412538468837738,0.3412538468837738,0.0,1.0
+5,795,13:15,tinyllama,Creating Biofuels from Fungal Biomass,0.3375123143196106,0.3375123143196106,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungi: Nature's Biochemical Marvels,0.32958176732063293,0.32958176732063293,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungi: Nature's Biochemical Wonders,0.3268600404262543,0.3268600404262543,0.0,1.0
+5,795,13:15,tinyllama,Fungi - Amazing Biochemistry and Applications,0.32650330662727356,0.32650330662727356,0.0,1.0
+5,795,13:15,tinyllama,The Importance of Fungi in Our Lives,0.3245486915111542,0.3245486915111542,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungal Highways and Biochemical Wonders,0.322599321603775,0.322599321603775,0.0,1.0
+5,795,13:15,mistral-7b-v0.3,Fungi: Nature's Biochemical Marvel,0.3213652968406677,0.3213652968406677,0.0,1.0
+5,795,13:15,tinyllama,Creating Biochar: A Revolutionary Soil Amendment,0.31817856431007385,0.31817856431007385,0.0,1.0
+5,795,13:15,tinyllama,The Role of Fungi in Food Production and Industrial Chemistry,0.31316614407700993,0.40211328864097595,0.0,0.7788007830714049
+5,795,13:15,qwen2-7b,Fungi: Nature's Versatile Wonders - From Food to Remediation,0.30948476506337375,0.35069218277931213,0.0,0.8824969025845955
+5,795,13:15,qwen2-7b,Fungi: Nature's Versatile Wonders - From Food to Remediation,0.30948476506337375,0.35069218277931213,0.0,0.8824969025845955
+5,795,13:15,qwen2-7b,Fungi: Nature's Versatile Wonders - From Food to Remediation,0.30948476506337375,0.35069218277931213,0.0,0.8824969025845955
+5,795,13:15,qwen2-7b,Fungi: Nature's Versatile Wonders - From Food to Remediation,0.30948476506337375,0.35069218277931213,0.0,0.8824969025845955
+5,795,13:15,tinyllama,Mushrooms - A Dangerous Poison?,0.29951074719429016,0.29951074719429016,0.0,1.0
+5,795,13:15,tinyllama,Mushrooms - A Dangerous Poison?,0.29951074719429016,0.29951074719429016,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,gemma2-9b,Fungi: Nature's Hidden Wonders,0.28610295057296753,0.28610295057296753,0.0,1.0
+5,795,13:15,llama3.1-8b,Unlocking Fungi's Secret Superpowers,0.2807968854904175,0.2807968854904175,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Powers Unveiled,0.2748222351074219,0.2748222351074219,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Powers Unveiled,0.2748222351074219,0.2748222351074219,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Powers Unveiled,0.2748222351074219,0.2748222351074219,0.0,1.0
+5,795,13:15,tinyllama,The Power of Mushrooms,0.2723962664604187,0.2723962664604187,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Strengths Unveiled,0.2723519802093506,0.2723519802093506,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Powers Revealed,0.2703596353530884,0.2703596353530884,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Powers Revealed,0.2703596353530884,0.2703596353530884,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Powers Revealed,0.2703596353530884,0.2703596353530884,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Powers Revealed,0.2703596353530884,0.2703596353530884,0.0,1.0
+5,795,13:15,llama3.1-8b,Fungi's Hidden Talents Revealed,0.2661648392677307,0.2661648392677307,0.0,1.0
+5,795,13:15,qwen2-7b,Fungi: Nature's Wonders - From Food to Medicine and Beyond,0.2594174198131748,0.33309856057167053,0.0,0.7788007830714049
+6,981,16:21,qwen2-7b,Yeast Fermentation: Aromatic Feasts and Fungal Pathogens,0.37243568897247314,0.37243568897247314,0.0,1.0
+6,981,16:21,qwen2-7b,Yeast Fermentation: Delicious Foods & Fungal Pathogens,0.369265615940094,0.369265615940094,0.0,1.0
+6,981,16:21,qwen2-7b,Fungi Feasts: Yeast Fermentation & Fungal Pathogens,0.36641085147857666,0.36641085147857666,0.0,1.0
+6,981,16:21,qwen2-7b,Fungi Feasts: Yeast Fermentation & Fungal Pathogens,0.36641085147857666,0.36641085147857666,0.0,1.0
+6,981,16:21,qwen2-7b,"Yeast Fermentation, Fungal Coexistence, and Pathogenic Potential",0.3658183813095093,0.3658183813095093,0.0,1.0
+6,981,16:21,qwen2-7b,"Yeast Fermentation: Delicious Food, Fungal Friends & foes",0.35621121525764465,0.35621121525764465,0.0,1.0
+6,981,16:21,qwen2-7b,Yeast Fermentation: Feasting on Sugars & Our Skin,0.34675997495651245,0.34675997495651245,0.0,1.0
+6,981,16:21,mistral-7b-v0.3,"Fungi: Fermenting Food, Feeding on Skin, and Shaping Weather",0.34090555307019144,0.3862966001033783,0.0,0.8824969025845955
+6,981,16:21,mistral-7b-v0.3,"Fungi: Our Partners, Pathogens, and Phenomenal Producers",0.33921685814857483,0.33921685814857483,0.0,1.0
+6,981,16:21,mistral-7b-v0.3,Fungi: From Fermentation to Fascinating Fungal Relationships,0.33735543489456177,0.33735543489456177,0.0,1.0
+6,981,16:21,mistral-7b-v0.3,"Fungi: Our Partners, Pathogens, and Rainmakers",0.3286784589290619,0.3286784589290619,0.0,1.0
+6,981,16:21,mistral-7b-v0.3,"Fungi's Fascinating Role in Food, Skin, Reproduction, and Weather",0.32142170097044753,0.36421850323677063,0.0,0.8824969025845955
+6,981,16:21,mistral-7b-v0.3,"Fungi's Fascinating Role in Food, Skin, Reproduction, and Weather",0.32142170097044753,0.36421850323677063,0.0,0.8824969025845955
+6,981,16:21,tinyllama,The Role of Fungus in the Environment,0.3196459710597992,0.3196459710597992,0.0,1.0
+6,981,16:21,mistral-7b-v0.3,Fungi's Fascinating Journey: From Fermentation to Forests,0.31823912262916565,0.31823912262916565,0.0,1.0
+6,981,16:21,qwen2-7b,"Yeast Fermentation: Delicious Food, Unseen Fungi, and Clouds Above",0.31742771354051585,0.3596927225589752,0.0,0.8824969025845955
+6,981,16:21,mistral-7b-v0.3,Fungi: From Fermentation to Fungal Infections and Cloud Formation,0.31530226839260006,0.357284277677536,0.0,0.8824969025845955
+6,981,16:21,mistral-7b-v0.3,Fungi: From Fermentation to Fungal Infections and Cloud Formation,0.31530226839260006,0.357284277677536,0.0,0.8824969025845955
+6,981,16:21,tinyllama,Fungal Spores and Cloud Formations,0.3009961247444153,0.3009961247444153,0.0,1.0
+6,981,16:21,qwen2-7b,"Yeast Fermentation: Feasting on Fungi - Past, Present, and Pathogens",0.2940515124808717,0.37756961584091187,0.0,0.7788007830714049
+6,981,16:21,tinyllama,Fungi and Their Role in the Environment,0.29282039403915405,0.29282039403915405,0.0,1.0
+6,981,16:21,tinyllama,Fungal Spores Trigger Water Droplet Formation,0.29053443670272827,0.29053443670272827,0.0,1.0
+6,981,16:21,tinyllama,Fungal Spores Trigger Water Droplet Formation,0.29053443670272827,0.29053443670272827,0.0,1.0
+6,981,16:21,tinyllama,Fungal Spores Trigger Rainfall Formation,0.2838684320449829,0.2838684320449829,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: From Food to Forests,0.2730613052845001,0.2730613052845001,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: From Food to Forests,0.2730613052845001,0.2730613052845001,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: From Food to Forests,0.2730613052845001,0.2730613052845001,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: From Food to Forests,0.2730613052845001,0.2730613052845001,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: From Food to Forests,0.2730613052845001,0.2730613052845001,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: From Food to Forests,0.2730613052845001,0.2730613052845001,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: From Food to Forests,0.2730613052845001,0.2730613052845001,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: Tiny Allies and Foes,0.27108636498451233,0.27108636498451233,0.0,1.0
+6,981,16:21,tinyllama,The Role of Fungus Spores in Cloud Formation and Rainfall,0.2710667870571612,0.3480566442012787,0.0,0.7788007830714049
+6,981,16:21,tinyllama,Fungal Spores and Their Role in Cloud and Raindrop Formation,0.27065448333792436,0.34752723574638367,0.0,0.7788007830714049
+6,981,16:21,llama3.1-8b,Fungi: Unseen Partners and Powerful Players,0.26934370398521423,0.26934370398521423,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: Tiny Allies and Unexpected Threats,0.26870816946029663,0.26870816946029663,0.0,1.0
+6,981,16:21,llama3.1-8b,Fungi: Hidden Partners & Powerful Players,0.26814860105514526,0.26814860105514526,0.0,1.0
+6,981,16:21,gemma2-9b,Fungi: Tiny Allies and Unexpected Powers,0.26777851581573486,0.26777851581573486,0.0,1.0
+6,981,16:21,llama3.1-8b,Fungi: Our Hidden Allies and Enemies,0.2607615888118744,0.2607615888118744,0.0,1.0
+6,981,16:21,tinyllama,How Fungi Play a Role in Cloud Formation and Rainfall,0.2580372096708567,0.33132633566856384,0.0,0.7788007830714049
+6,981,16:21,tinyllama,How Fungi Play a Role in Cloud Formation and Rainfall,0.2580372096708567,0.33132633566856384,0.0,0.7788007830714049
+6,981,16:21,llama3.1-8b,The Fascinating Fungi: Friend or Foe?,0.25249120593070984,0.25249120593070984,0.0,1.0
+6,981,16:21,llama3.1-8b,Fungi: Unseen Partners in Life,0.24665489792823792,0.24665489792823792,0.0,1.0
+6,981,16:21,mistral-7b-v0.3,"Yeast, Fungi, and Us: A Symbiotic Journey Through Fermentation and Infection",0.2446608543665165,0.35597944259643555,0.0,0.6872892787909722
+6,981,16:21,llama3.1-8b,Fungi: The Hidden Forces Behind Life,0.24227571487426758,0.24227571487426758,0.0,1.0
+6,981,16:21,llama3.1-8b,The Fascinating Fungal World Around,0.2363438755273819,0.2363438755273819,0.0,1.0
+6,981,16:21,llama3.1-8b,The Hidden Lives of Fungi,0.2344503104686737,0.2344503104686737,0.0,1.0
+6,981,16:21,llama3.1-8b,Fungi: Our Hidden Partners,0.2335464358329773,0.2335464358329773,0.0,1.0
+6,981,16:21,qwen2-7b,"Fungal Feasts, Fights & Flavors: From Bread to Beer and Beyond",0.22026076046858045,0.32047751545906067,0.0,0.6872892787909722
+6,981,16:21,llama3.1-8b,Fungi: The Hidden Partners,0.21444815397262573,0.21444815397262573,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,Fungi's Role in Cloud Formation and Evolutionary Tree,0.35693565011024475,0.35693565011024475,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,Fungi's Role in Cloud Formation and Evolutionary Tree,0.35693565011024475,0.35693565011024475,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,Fungi's Role in Cloud Formation & Evolutionary Tree,0.35636743903160095,0.35636743903160095,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,Fungi's Role in Cloud Formation & Evolutionary Tree,0.35636743903160095,0.35636743903160095,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,Fungi's Role in Cloud Formation & Evolutionary Tree,0.35636743903160095,0.35636743903160095,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,"Fungal Impact: Cloud Formation, Evolution, and Ecological Roles",0.34491828083992004,0.34491828083992004,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Rainmakers & The Evolutionary Tree of Life,0.3429407775402069,0.3429407775402069,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Rainmakers & The Evolutionary Tree of Life,0.3429407775402069,0.3429407775402069,0.0,1.0
+7,1188,19:48,tinyllama,Fungi - The World of Fungus,0.3336807191371918,0.3336807191371918,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,"Fungi: Shaping Clouds, Evolution, and Ecosystems",0.3319982886314392,0.3319982886314392,0.0,1.0
+7,1188,19:48,tinyllama,Probably least known effects of fungus in the ecosystem,0.3224974685711751,0.36543750762939453,0.0,0.8824969025845955
+7,1188,19:48,mistral-7b-v0.3,Fungal Influence: From Cloud Formation to Evolutionary Tree,0.3214886784553528,0.3214886784553528,0.0,1.0
+7,1188,19:48,tinyllama,Understanding the World of Fungus,0.32028526067733765,0.32028526067733765,0.0,1.0
+7,1188,19:48,tinyllama,The Role of Funnies in the Environment,0.3196796774864197,0.3196796774864197,0.0,1.0
+7,1188,19:48,tinyllama,The Role of Funnies in the Environment,0.3196796774864197,0.3196796774864197,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungal Roots of Life and Ecosystems,0.3190980851650238,0.3190980851650238,0.0,1.0
+7,1188,19:48,gemma2-9b,Unveiling the Hidden World of Fungi,0.3146257698535919,0.3146257698535919,0.0,1.0
+7,1188,19:48,gemma2-9b,Unveiling the Hidden World of Fungi,0.3146257698535919,0.3146257698535919,0.0,1.0
+7,1188,19:48,gemma2-9b,Fungi: From Spores to Symbiosis,0.31363239884376526,0.31363239884376526,0.0,1.0
+7,1188,19:48,gemma2-9b,Fungi: From Spores to Symbiosis,0.31363239884376526,0.31363239884376526,0.0,1.0
+7,1188,19:48,gemma2-9b,Fungi: From Spores to Symbiosis,0.31363239884376526,0.31363239884376526,0.0,1.0
+7,1188,19:48,gemma2-9b,Fungi: From Spores to Symbiosis,0.31363239884376526,0.31363239884376526,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Forest Rainmakers & Evolutionary Origins,0.3121873438358307,0.3121873438358307,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungal Roots of Life and Climate,0.31205910444259644,0.31205910444259644,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Forest Rainmakers & The Evolutionary Tree,0.3107362687587738,0.3107362687587738,0.0,1.0
+7,1188,19:48,tinyllama,The Role of Fungal Spores in Cloud and Rain Formation,0.3094015632368083,0.3972794711589813,0.0,0.7788007830714049
+7,1188,19:48,llama3.1-8b,Fungal Evolution and Ecological Roles,0.30873748660087585,0.30873748660087585,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungi's Hidden Roles and Ancient Evolution,0.30214402079582214,0.30214402079582214,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungi's Hidden Roles and Ancient Evolution,0.30214402079582214,0.30214402079582214,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungal Evolution and Ecological Impact,0.30117183923721313,0.30117183923721313,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungal Evolution and Ecological Impact,0.30117183923721313,0.30117183923721313,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Forests: Cloud Creators & Evolutionary Pioneers,0.30089250206947327,0.30089250206947327,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungi's Hidden Role in Shaping Our World,0.29956725239753723,0.29956725239753723,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungi's Hidden Role in Shaping Our World,0.29956725239753723,0.29956725239753723,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Forest Rainmakers & Evolutionary Ancestors,0.2977544367313385,0.2977544367313385,0.0,1.0
+7,1188,19:48,llama3.1-8b,Fungal Evolution & Ecological Roles,0.2958303987979889,0.2958303987979889,0.0,1.0
+7,1188,19:48,gemma2-9b,Fungi: Unveiling Nature's Hidden Kingdom,0.2880163788795471,0.2880163788795471,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Giants: Cloud Creators & Evolutionary Pioneers,0.28711894154548645,0.28711894154548645,0.0,1.0
+7,1188,19:48,tinyllama,The World of Fungus,0.2845827639102936,0.2845827639102936,0.0,1.0
+7,1188,19:48,tinyllama,The World of Fungus,0.2845827639102936,0.2845827639102936,0.0,1.0
+7,1188,19:48,gemma2-9b,Fungi: A Visual Journey Through Their World,0.2822498381137848,0.2822498381137848,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Rainmakers & Evolutionary Giants,0.2795819640159607,0.2795819640159607,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Rainmakers & Evolutionary Giants,0.2795819640159607,0.2795819640159607,0.0,1.0
+7,1188,19:48,qwen2-7b,Fungal Rainmakers & Evolutionary Giants,0.2795819640159607,0.2795819640159607,0.0,1.0
+7,1188,19:48,tinyllama,Understanding Fungal Evolution,0.2676372826099396,0.2676372826099396,0.0,1.0
+7,1188,19:48,gemma2-9b,Unraveling the Fungal Kingdom,0.26449236273765564,0.26449236273765564,0.0,1.0
+7,1188,19:48,gemma2-9b,Unveiling the Fungal Kingdom,0.263068288564682,0.263068288564682,0.0,1.0
+7,1188,19:48,mistral-7b-v0.3,Fungi: The Unseen Architects of Cloud Formation and Evolutionary Tree,0.2583492458789979,0.331726998090744,0.0,0.7788007830714049
+7,1188,19:48,mistral-7b-v0.3,Fungi: The Unseen Architects of Cloud Formation and Evolutionary Tree,0.2583492458789979,0.331726998090744,0.0,0.7788007830714049
+7,1188,19:48,tinyllama,Chapter 1 - Introduction,0.23011258244514465,0.23011258244514465,0.0,1.0
+8,1353,22:33,tinyllama,Get Your Hands On The Map Of Fungus,0.4668938219547272,0.4668938219547272,0.0,1.0
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps: Brilliant.org & DosMaps,0.4177446961402893,0.4177446961402893,0.0,1.0
+8,1353,22:33,tinyllama,How to Find Your Favorite Subject on Brillian,0.4155484437942505,0.4155484437942505,0.0,1.0
+8,1353,22:33,mistral-7b-v0.3,Explore Brillianth.org Maps & Save with Discount Code,0.40161004662513733,0.40161004662513733,0.0,1.0
+8,1353,22:33,mistral-7b-v0.3,Explore Brillianth.org Maps & Save with Discount Code,0.40161004662513733,0.40161004662513733,0.0,1.0
+8,1353,22:33,tinyllama,The Ultimate Guide to Learning Everything on Brillian,0.38998082280158997,0.38998082280158997,0.0,1.0
+8,1353,22:33,mistral-7b-v0.3,Explore Brillant.org Maps & Get Discount with My Link!,0.38811329571131836,0.4397899806499481,0.0,0.8824969025845955
+8,1353,22:33,mistral-7b-v0.3,Explore Brillian.org Maps & Get 2o% Off Premium Subscription!,0.3872376482894025,0.4387977421283722,0.0,0.8824969025845955
+8,1353,22:33,mistral-7b-v0.3,Explore Brillant.org for Interactive Learning & Save 2O%!,0.3856024742126465,0.3856024742126465,0.0,1.0
+8,1353,22:33,mistral-7b-v0.3,Explore Brillaint.org Maps & Get Discount!,0.38187193870544434,0.38187193870544434,0.0,1.0
+8,1353,22:33,tinyllama,The Map Of Fungal Kingdoms,0.3791443109512329,0.3791443109512329,0.0,1.0
+8,1353,22:33,gemma2-9b,Mapping Knowledge: Maps & Discounts!,0.37508517503738403,0.37508517503738403,0.0,1.0
+8,1353,22:33,mistral-7b-v0.3,Explore Brillant.org & Get Map of Fungs with Discount,0.37310720165118716,0.42278584837913513,0.0,0.8824969025845955
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps: Brilliant Subscriptions & DOSMaps,0.37180572748184204,0.37180572748184204,0.0,1.0
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps: Brilliant Subscriptions & DOSMaps,0.37180572748184204,0.37180572748184204,0.0,1.0
+8,1353,22:33,mistral-7b-v0.3,Explore Brillaint.org & Get Map of Fungs with Discount,0.3714741010619986,0.4209353029727936,0.0,0.8824969025845955
+8,1353,22:33,mistral-7b-v0.3,Explore Brillaint.org & Get Map of Fungs with Discount,0.3714741010619986,0.4209353029727936,0.0,0.8824969025845955
+8,1353,22:33,tinyllama,Brilliant Maps - Explore the World Through Maps,0.36544322967529297,0.36544322967529297,0.0,1.0
+8,1353,22:33,gemma2-9b,Maps of Knowledge: Explore Further,0.36088311672210693,0.36088311672210693,0.0,1.0
+8,1353,22:33,gemma2-9b,Maps of Knowledge: Explore Brilliant & Fungi,0.36081022024154663,0.36081022024154663,0.0,1.0
+8,1353,22:33,gemma2-9b,Maps of Knowledge: Explore Further!,0.36068063974380493,0.36068063974380493,0.0,1.0
+8,1353,22:33,gemma2-9b,Maps of Knowledge: Explore & Learn More,0.3604795038700104,0.3604795038700104,0.0,1.0
+8,1353,22:33,llama3.1-8b,Discover Your Next Great Resource!,0.35968250036239624,0.35968250036239624,0.0,1.0
+8,1353,22:33,mistral-7b-v0.3,Explore BrillianT Knowledge Base & Get Map of Fungs!,0.35414288878291217,0.401296466588974,0.0,0.8824969025845955
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps with Discounts!,0.35283371806144714,0.35283371806144714,0.0,1.0
+8,1353,22:33,gemma2-9b,Mapping Knowledge: Brilliant & Fungi Maps,0.35109949111938477,0.35109949111938477,0.0,1.0
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps: Your Ultimate Guide,0.34835347533226013,0.34835347533226013,0.0,1.0
+8,1353,22:33,gemma2-9b,Maps of Knowledge: Explore Beyond,0.34561654925346375,0.34561654925346375,0.0,1.0
+8,1353,22:33,gemma2-9b,Maps of Knowledge: Explore Beyond,0.34561654925346375,0.34561654925346375,0.0,1.0
+8,1353,22:33,qwen2-7b,Unlock Your Knowledge with Brilliant.org & Maps of Fungus Exploration,0.34352872472167173,0.441099613904953,0.0,0.7788007830714049
+8,1353,22:33,llama3.1-8b,Unlocking Knowledge with Brilliant Maps,0.3413273096084595,0.3413273096084595,0.0,1.0
+8,1353,22:33,tinyllama,Discovering the World Through Maps,0.33903858065605164,0.33903858065605164,0.0,1.0
+8,1353,22:33,llama3.1-8b,Exploring Brilliant Offerings & Maps,0.3320004343986511,0.3320004343986511,0.0,1.0
+8,1353,22:33,tinyllama,Discovering the World of Fossils,0.3314988613128662,0.3314988613128662,0.0,1.0
+8,1353,22:33,tinyllama,Explore Your Subjects with Brilliant,0.3311135470867157,0.3311135470867157,0.0,1.0
+8,1353,22:33,llama3.1-8b,Navigating Brilliant Resources and More,0.3298991322517395,0.3298991322517395,0.0,1.0
+8,1353,22:33,llama3.1-8b,Exploring Brilliant Resources & Maps,0.32804977893829346,0.32804977893829346,0.0,1.0
+8,1353,22:33,llama3.1-8b,Exploring Brilliant Resources & Maps,0.32804977893829346,0.32804977893829346,0.0,1.0
+8,1353,22:33,qwen2-7b,Unlock Knowledge with Brilliant & Maps of Fungal Kingdom,0.3263277356550557,0.36977776885032654,0.0,0.8824969025845955
+8,1353,22:33,llama3.1-8b,Brilliant Resources & Maps Uncovered,0.32303303480148315,0.32303303480148315,0.0,1.0
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps: Brilliant Discounts & Fungi Atlas,0.3207218458044362,0.36342546343803406,0.0,0.8824969025845955
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps: Brilliance and Beyond,0.3177333176136017,0.3177333176136017,0.0,1.0
+8,1353,22:33,gemma2-9b,Mapping Knowledge: Fungi & Beyond,0.316080242395401,0.316080242395401,0.0,1.0
+8,1353,22:33,gemma2-9b,Mapping Knowledge: Fungi & Beyond,0.316080242395401,0.316080242395401,0.0,1.0
+8,1353,22:33,llama3.1-8b,Exploring Brilliant & Fungi Resources,0.30830517411231995,0.30830517411231995,0.0,1.0
+8,1353,22:33,llama3.1-8b,"Discovering Brilliant & Mapping Fungi""",0.3022766709327698,0.3022766709327698,0.0,1.0
+8,1353,22:33,llama3.1-8b,Unlocking Knowledge & Resources,0.30075740814208984,0.30075740814208984,0.0,1.0
+8,1353,22:33,tinyllama,Discover Your Passion - Learn About The Top Subjects On Brilliant,0.28900895858159154,0.420505553483963,0.0,0.6872892787909722
+8,1353,22:33,qwen2-7b,Unlock Knowledge & Maps: Brilliant Discounts & Fungi Atlas Guide,0.2840352059037118,0.36470842361450195,0.0,0.7788007830714049
+8,1353,22:33,tinyllama,Discovery of Fingers,0.26069074869155884,0.26069074869155884,0.0,1.0

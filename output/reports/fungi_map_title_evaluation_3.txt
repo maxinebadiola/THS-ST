@@ -1,0 +1,416 @@
+====================================================================================================
+TITLE EVALUATION REPORT: fungi_map
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.2953
+llama3.1-8b          Average Score: 0.2906
+mistral-7b-v0.3      Average Score: 0.2725
+qwen2-7b             Average Score: 0.2723
+tinyllama            Average Score: 0.2691
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 1,770 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3452       0.3452       0.0000         1.0000     mistral-7b-v0.3      Exploring the Hidden Kingdom of Fungi
+2      0.3449       0.3449       0.0000         1.0000     tinyllama            Discovering the Kingdom of Fungi (2)
+3      0.3396       0.3396       0.0000         1.0000     tinyllama            Mushrooms: Kingdom of Fungi
+4      0.3312       0.3312       0.0000         1.0000     llama3.1-8b          The Hidden Kingdom of Fungi
+5      0.3273       0.3273       0.0000         1.0000     tinyllama            Mushrooms - Kingdom of Fungi
+6      0.3272       0.3272       0.0000         1.0000     llama3.1-8b          The Hidden World of Fungi (7)
+7      0.3230       0.3230       0.0000         1.0000     gemma2-9b            Unveiling the Hidden Kingdom of Fungi (10)
+8      0.3192       0.3192       0.0000         1.0000     llama3.1-8b          Unveiling the Hidden World of Fungi
+9      0.3142       0.3142       0.0000         1.0000     mistral-7b-v0.3      Unseen Kingdom: Exploring the Fungal Network
+10     0.3104       0.3104       0.0000         1.0000     mistral-7b-v0.3      Exploring the Hidden Kingdom: Fungi (2)
+11     0.3060       0.3060       0.0000         1.0000     tinyllama            The Kingdom of Fungi (2)
+12     0.3044       0.3044       0.0000         1.0000     tinyllama            Fungi - Kingdom of Life (2)
+13     0.3034       0.3034       0.0000         1.0000     tinyllama            A Map of Fungi
+14     0.3021       0.3021       0.0000         1.0000     mistral-7b-v0.3      Fungal Forest Explorers: Unseen Networks Below
+15     0.2922       0.2922       0.0000         1.0000     llama3.1-8b          Unveiling Fungi's Hidden Realm
+16     0.2863       0.3382       0.0000         0.8465     mistral-7b-v0.3      Fungal Kingdom: Life Beneath the Forest Floor
+17     0.2828       0.2828       0.0000         1.0000     qwen2-7b             The Hidden Kingdom: Fungi Unveiled (2)
+18     0.2738       0.3821       0.0000         0.7165     mistral-7b-v0.3      Exploring Fungal Kingdom: From Microscopic Mycelia to Mushrooms
+19     0.2682       0.2682       0.0000         1.0000     tinyllama            Transforming Earth through Fungi
+20     0.2641       0.2641       0.0000         1.0000     qwen2-7b             The Hidden Kingdom: Unveiling Fungi
+21     0.2607       0.3638       0.0000         0.7165     qwen2-7b             The Hidden Kingdom: Fungi and Their Intricate Networks (4)
+22     0.2431       0.4008       0.0000         0.6065     qwen2-7b             The Enigmatic Kingdom of Fungi: From Spores to Symbiosis
+23     0.2362       0.3894       0.0000         0.6065     mistral-7b-v0.3      Exploring Fungal Kingdom: From Microscopic Mycelia to Mushroom Spores
+24     0.2230       0.3677       0.0000         0.6065     mistral-7b-v0.3      Exploring the Hidden Kingdom: Fungi & Their Mycelial Network
+25     0.2154       0.3551       0.0000         0.6065     qwen2-7b             The Hidden Kingdom: Fungi and Their Mysterious Life Cycle
+26     0.2143       0.3533       0.0000         0.6065     mistral-7b-v0.3      Exploring Fungi's Hidden Kingdom: Mycelial Networks & Mushroom Mysteries
+27     0.2072       0.4036       0.0000         0.5134     qwen2-7b             The Enigmatic Kingdom of Fungi: From Spores to Mycelial Networks
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3230
+  llama3.1-8b         : 0.3233
+  mistral-7b-v0.3     : 0.2816
+  qwen2-7b            : 0.2538
+  tinyllama           : 0.3149
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 107s (01:47)
+Transcript Length: 4,767 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3432       0.3432       0.0000         1.0000     mistral-7b-v0.3      Fungal Filaments: Digestion, Diversity, and Decomposition
+2      0.2921       0.2921       0.0000         1.0000     llama3.1-8b          The Fascinating World of Fungal Networks (4)
+3      0.2843       0.2843       0.0000         1.0000     llama3.1-8b          Fungal Networks and Cellular Complexity
+4      0.2843       0.2843       0.0000         1.0000     llama3.1-8b          The Hidden World of Fungal Networks
+5      0.2824       0.2824       0.0000         1.0000     tinyllama            The Chemistry of Fruiting Bodies
+6      0.2771       0.2771       0.0000         1.0000     llama3.1-8b          Fungal Networks and Cellular Diversity (2)
+7      0.2767       0.2767       0.0000         1.0000     qwen2-7b             Fungal Networks, Chemistry, and Diversity (3)
+8      0.2660       0.3712       0.0000         0.7165     qwen2-7b             Mycelium Networks: Fungal Growth, Cell Walls, and Diversity
+9      0.2649       0.2649       0.0000         1.0000     llama3.1-8b          Fungal Networks and Cellular Secrets
+10     0.2638       0.2638       0.0000         1.0000     llama3.1-8b          The Hidden Biology of Fungi Revealed
+11     0.2635       0.2635       0.0000         1.0000     gemma2-9b            Fungi: Networks of Life and Chemistry
+12     0.2520       0.2977       0.0000         0.8465     qwen2-7b             Fungal Networks: Structure, Digestion, Diversity & Evolution (2)
+13     0.2518       0.3514       0.0000         0.7165     mistral-7b-v0.3      Fungal Networks: Tough Cell Walls and External Digestion
+14     0.2498       0.2498       0.0000         1.0000     gemma2-9b            The Hidden World of Fungi (4)
+15     0.2492       0.2492       0.0000         1.0000     gemma2-9b            Unveiling the Hidden World of Fungi (2)
+16     0.2445       0.2445       0.0000         1.0000     tinyllama            The Evolution of Fungus
+17     0.2385       0.2385       0.0000         1.0000     gemma2-9b            The Fascinating World of Fungi (2)
+18     0.2307       0.2726       0.0000         0.8465     qwen2-7b             Mycelial Marvels: The Dynamic World of Fungi
+19     0.2256       0.2665       0.0000         0.8465     qwen2-7b             Fungal Networks: Survival Strategies & Evolutionary Mysteries
+20     0.2246       0.3135       0.0000         0.7165     tinyllama            The Mystery of Fungus: How Do They Grow?
+21     0.2228       0.3110       0.0000         0.7165     qwen2-7b             Mycelial Mastery: The Enigmatic World of Fungal Networks
+22     0.2209       0.2209       0.0000         1.0000     tinyllama            A Brief Introduction to Fungus
+23     0.2199       0.2199       0.0000         1.0000     gemma2-9b            Unveiling the Secrets of Fungi
+24     0.2199       0.2199       0.0000         1.0000     tinyllama            Understanding Fungal Ecology (2)
+25     0.2177       0.3038       0.0000         0.7165     qwen2-7b             Mysteries Unveiled: The Intricate World of Fungal Networks
+26     0.2147       0.2147       0.0000         1.0000     tinyllama            The World of Fungus (2)
+27     0.2092       0.3449       0.0000         0.6065     mistral-7b-v0.3      The Wonders of Fungal Hypha: Networks, Digestion, and Diversity
+28     0.2014       0.3320       0.0000         0.6065     mistral-7b-v0.3      The Intricate World of Fungal Hypha and External Digestion (2)
+29     0.1973       0.3254       0.0000         0.6065     mistral-7b-v0.3      The Fascinating World of Fungal Hypha and External Digestion (2)
+30     0.1962       0.1962       0.0000         1.0000     tinyllama            Creating a Brief Chapter Title
+31     0.1679       0.3864       0.0000         0.4346     mistral-7b-v0.3      The Tough Cell Walls of Fungal Hypha: Digestion, Growth, and Diversity
+32     0.1653       0.3803       0.0000         0.4346     mistral-7b-v0.3      The Tough Cell Walls and Unique Digestion Methods of Fungal Hypha
+33     0.1380       0.3176       0.0000         0.4346     mistral-7b-v0.3      The Complex, External Digestion Machines: A Deep Dive into Fungal Hypha
+34     0.1227       0.2824       0.0000         0.4346     tinyllama            The World of Fungus - Understanding the Diverse Kingdom of Life
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2458
+  llama3.1-8b         : 0.2820
+  mistral-7b-v0.3     : 0.2073
+  qwen2-7b            : 0.2497
+  tinyllama           : 0.2160
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 366s (06:06)
+Transcript Length: 2,986 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3686       0.3686       0.0000         1.0000     tinyllama            Liches Are Essential for Soil Formation
+2      0.3668       0.3668       0.0000         1.0000     mistral-7b-v0.3      Fungi: Nature's Decomposers and Symbiotic Allies (2)
+3      0.3662       0.3662       0.0000         1.0000     qwen2-7b             Fungi: Nature's Decomposers and Symbiotic Partners (4)
+4      0.3646       0.3646       0.0000         1.0000     mistral-7b-v0.3      Fungi: Nature's Recyclers and Symbiotic Partners (2)
+5      0.3638       0.3638       0.0000         1.0000     qwen2-7b             Fungi: Nature's Decomposers and Symbiotic Superstars (2)
+6      0.3527       0.3527       0.0000         1.0000     llama3.1-8b          Fungi: Nature's Decomposers & Symbiotic Superheroes
+7      0.3443       0.3443       0.0000         1.0000     mistral-7b-v0.3      Fungi: Decomposers, Symbionts, and Communicators (2)
+8      0.3440       0.3440       0.0000         1.0000     mistral-7b-v0.3      Fungi: Decomposers, Symbionts, and Communication Networks (3)
+9      0.3434       0.3434       0.0000         1.0000     tinyllama            How Lichenses Contribute to Soil Formation
+10     0.3365       0.3365       0.0000         1.0000     qwen2-7b             Fungi: Nature's Decomposers and Mutualistic Partners
+11     0.3344       0.3344       0.0000         1.0000     qwen2-7b             Fungi: Nature's Decomposers and Mutual Benefactors
+12     0.3297       0.3297       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Roles in Ecosystems
+13     0.3287       0.3287       0.0000         1.0000     llama3.1-8b          The Hidden World of Fungal Symbiosis
+14     0.3250       0.3250       0.0000         1.0000     llama3.1-8b          The Hidden Network: Fungal Symbiosis
+15     0.3228       0.3813       0.0000         0.8465     mistral-7b-v0.3      Fungi: Nature's Nutrient Cyclers and Symbiotic Partners
+16     0.3206       0.3206       0.0000         1.0000     gemma2-9b            Fungi: Nature's Recyclers and Connectors
+17     0.3201       0.3201       0.0000         1.0000     gemma2-9b            Fungi: Nature's Essential Recyclers and Partners (3)
+18     0.3194       0.3194       0.0000         1.0000     llama3.1-8b          Fungi: Nature's Decomposers & Connectors (2)
+19     0.3156       0.3156       0.0000         1.0000     llama3.1-8b          The Hidden Network: Fungal Symbiosis Unveiled
+20     0.3067       0.3623       0.0000         0.8465     tinyllama            The Importance of Lichenses in Soil Formation (2)
+21     0.3058       0.3058       0.0000         1.0000     gemma2-9b            Fungi: Nature's Hidden Network (2)
+22     0.3003       0.3547       0.0000         0.8465     tinyllama            The Importance of Liches in Soil Formation
+23     0.2920       0.2920       0.0000         1.0000     gemma2-9b            Fungi: Nature's Hidden Networkers (2)
+24     0.2905       0.3432       0.0000         0.8465     qwen2-7b             Fungi: Nature's Decomposers and Mutual Beneficial Partners (2)
+25     0.2880       0.3403       0.0000         0.8465     tinyllama            How Fungus Helps Plant Growth and Composting
+26     0.2851       0.2851       0.0000         1.0000     gemma2-9b            Fungi: Nature's Hidden Architects
+27     0.2815       0.2815       0.0000         1.0000     gemma2-9b            The Hidden World of Fungi
+28     0.2753       0.3252       0.0000         0.8465     tinyllama            Lichen Formation and Role in Soil Formation
+29     0.2741       0.3238       0.0000         0.8465     llama3.1-8b          Fungi: Unsung Heroes of Decomposition & Symbiosis
+30     0.2592       0.2592       0.0000         1.0000     tinyllama            Fungi and Their Relationships
+31     0.2424       0.2863       0.0000         0.8465     llama3.1-8b          Fungi's Hidden Role in Shaping Our World
+32     0.2383       0.2383       0.0000         1.0000     llama3.1-8b          Fungus Among Us: Unseen Partnerships
+33     0.1761       0.2903       0.0000         0.6065     tinyllama            LICHENS - THE FIRST ORGANISMS TO SET UP SHEL
+34     0.1686       0.3881       0.0000         0.4346     tinyllama            How Fungus and Plant Relationships Help Build Soil and Support Life
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3043
+  llama3.1-8b         : 0.3045
+  mistral-7b-v0.3     : 0.3506
+  qwen2-7b            : 0.3444
+  tinyllama           : 0.2793
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 534s (08:54)
+Transcript Length: 4,443 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3401       0.3401       0.0000         1.0000     qwen2-7b             Fungi: Nature's Protectors, Predators, and Pioneers
+2      0.3251       0.3840       0.0000         0.8465     qwen2-7b             Fungi: Nature's Protectors, Pathogens, and Pharmaceutical Powerhouses
+3      0.3219       0.3219       0.0000         1.0000     qwen2-7b             Fungi: Nature's Protectors and Perilers
+4      0.3182       0.3182       0.0000         1.0000     tinyllama            The Importance of Fungus in Medicine (2)
+5      0.3093       0.3093       0.0000         1.0000     qwen2-7b             Fungi: Nature's Guardians and Devastators (3)
+6      0.3079       0.3079       0.0000         1.0000     tinyllama            Transcriptional Regulation in Fungus-Host Interactions
+7      0.2996       0.2996       0.0000         1.0000     gemma2-9b            Fungi: Allies, Enemies, and Medicine (10)
+8      0.2990       0.3532       0.0000         0.8465     tinyllama            How Fungus Helps Plants Grow and Thrive
+9      0.2987       0.3529       0.0000         0.8465     mistral-7b-v0.3      Fungal Fascinations: Symbiosis, Pathogens & Life-Saving Medicines
+10     0.2944       0.2944       0.0000         1.0000     qwen2-7b             Fungi: Nature's Guardians and Global Impact (2)
+11     0.2922       0.2922       0.0000         1.0000     qwen2-7b             Fungi: Nature's Defenders and Devastators (2)
+12     0.2898       0.2898       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Impact on Life
+13     0.2880       0.2880       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Impact on Medicine (5)
+14     0.2826       0.3338       0.0000         0.8465     mistral-7b-v0.3      Fungal Fascinations: From Soil Formers to Life-Savers
+15     0.2821       0.3333       0.0000         0.8465     mistral-7b-v0.3      Fungal Wonders: From Soil Formers to Life-Savers
+16     0.2745       0.3242       0.0000         0.8465     tinyllama            How Fungus Is Used To Treat Disease
+17     0.2739       0.3236       0.0000         0.8465     mistral-7b-v0.3      Fungal Forces: From Soil Formers to Life-Savers
+18     0.2715       0.2715       0.0000         1.0000     llama3.1-8b          Fungi: Medicine's Hidden Powerhouse
+19     0.2645       0.3125       0.0000         0.8465     mistral-7b-v0.3      Fungal Wonders: From Soil Builders to Lifesavers (2)
+20     0.2612       0.2612       0.0000         1.0000     llama3.1-8b          Fungi's Double Edge: Medicine & Mayhem (2)
+21     0.2396       0.2830       0.0000         0.8465     llama3.1-8b          Fungi: Hidden Heroes of Medicine and Nature
+22     0.2378       0.3318       0.0000         0.7165     mistral-7b-v0.3      Fungal Frontiers: From Soil Formation to Life-Saving Drugs
+23     0.2292       0.3199       0.0000         0.7165     tinyllama            Fungus as a Source of Antibiotically Active Compounds
+24     0.2137       0.3524       0.0000         0.6065     mistral-7b-v0.3      Fungal Wonders: Lifeblood of Soil, Zombie Ants, & Lifesavers
+25     0.2068       0.3410       0.0000         0.6065     tinyllama            Fungal Biochemistry: A Powerful Tool in Medicine and Biotechnology
+26     0.1764       0.3436       0.0000         0.5134     mistral-7b-v0.3      Fungal Fascination: Lifeblood of Soil, Zombie Ants, & Lifesaving Drugs
+27     0.1546       0.3012       0.0000         0.5134     tinyllama            Lichen Creates a Brief, Engaging Chapter Title for This Transcript (2)
+28     0.1528       0.3515       0.0000         0.4346     tinyllama            Fungal Biotechnology - How do fungi play a role in medicine?
+29     0.1527       0.3513       0.0000         0.4346     mistral-7b-v0.3      Fungal Fascination: From Soil Builders to Zombie Ants and Life-Saving Drugs
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2996
+  llama3.1-8b         : 0.2763
+  mistral-7b-v0.3     : 0.2447
+  qwen2-7b            : 0.3088
+  tinyllama           : 0.2416
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 795s (13:15)
+Transcript Length: 3,074 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3663       0.3663       0.0000         1.0000     mistral-7b-v0.3      Fungal Highways: Biodegraders, Bioremediators, and Biofactories (2)
+2      0.3595       0.3595       0.0000         1.0000     tinyllama            The Hallucinatory Effect of Mushroom Poisoning
+3      0.3457       0.3457       0.0000         1.0000     mistral-7b-v0.3      Fungi: Nature's Bioremediators and Culinary Delights (3)
+4      0.3375       0.3375       0.0000         1.0000     tinyllama            Creating Biofuels from Fungal Biomass
+5      0.3296       0.3296       0.0000         1.0000     mistral-7b-v0.3      Fungi: Nature's Biochemical Marvels
+6      0.3269       0.3269       0.0000         1.0000     mistral-7b-v0.3      Fungi: Nature's Biochemical Wonders
+7      0.3265       0.3265       0.0000         1.0000     tinyllama            Fungi - Amazing Biochemistry and Applications
+8      0.3226       0.3226       0.0000         1.0000     mistral-7b-v0.3      Fungal Highways and Biochemical Wonders
+9      0.3214       0.3214       0.0000         1.0000     mistral-7b-v0.3      Fungi: Nature's Biochemical Marvel
+10     0.3182       0.3182       0.0000         1.0000     tinyllama            Creating Biochar: A Revolutionary Soil Amendment
+11     0.2995       0.2995       0.0000         1.0000     tinyllama            Mushrooms - A Dangerous Poison? (2)
+12     0.2861       0.2861       0.0000         1.0000     gemma2-9b            Fungi: Nature's Hidden Wonders (10)
+13     0.2808       0.2808       0.0000         1.0000     llama3.1-8b          Unlocking Fungi's Secret Superpowers
+14     0.2748       0.2748       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Powers Unveiled (3)
+15     0.2747       0.3245       0.0000         0.8465     tinyllama            The Importance of Fungi in Our Lives
+16     0.2724       0.2724       0.0000         1.0000     tinyllama            The Power of Mushrooms
+17     0.2724       0.2724       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Strengths Unveiled
+18     0.2704       0.2704       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Powers Revealed (4)
+19     0.2662       0.2662       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Talents Revealed
+20     0.2520       0.4155       0.0000         0.6065     tinyllama            How Fungi Are Used in Agriculture, Industry, and Medicine
+21     0.2513       0.3507       0.0000         0.7165     mistral-7b-v0.3      Fungi: Nature's Powerhouses - From Soil to Industry
+22     0.2445       0.3413       0.0000         0.7165     qwen2-7b             Fungi: Nature's Wonders - From Food to Remediation (5)
+23     0.2127       0.3507       0.0000         0.6065     qwen2-7b             Fungi: Nature's Versatile Wonders - From Food to Remediation (4)
+24     0.2065       0.4021       0.0000         0.5134     tinyllama            The Role of Fungi in Food Production and Industrial Chemistry
+25     0.1710       0.3331       0.0000         0.5134     qwen2-7b             Fungi: Nature's Wonders - From Food to Medicine and Beyond
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2861
+  llama3.1-8b         : 0.2725
+  mistral-7b-v0.3     : 0.3321
+  qwen2-7b            : 0.2244
+  tinyllama           : 0.2946
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 981s (16:21)
+Transcript Length: 3,640 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3287       0.3287       0.0000         1.0000     mistral-7b-v0.3      Fungi: Our Partners, Pathogens, and Rainmakers
+2      0.3153       0.3724       0.0000         0.8465     qwen2-7b             Yeast Fermentation: Aromatic Feasts and Fungal Pathogens
+3      0.3126       0.3693       0.0000         0.8465     qwen2-7b             Yeast Fermentation: Delicious Foods & Fungal Pathogens
+4      0.3102       0.3664       0.0000         0.8465     qwen2-7b             Fungi Feasts: Yeast Fermentation & Fungal Pathogens (2)
+5      0.3097       0.3658       0.0000         0.8465     qwen2-7b             Yeast Fermentation, Fungal Coexistence, and Pathogenic Potential
+6      0.3010       0.3010       0.0000         1.0000     tinyllama            Fungal Spores and Cloud Formations
+7      0.2905       0.2905       0.0000         1.0000     tinyllama            Fungal Spores Trigger Water Droplet Formation (2)
+8      0.2871       0.3392       0.0000         0.8465     mistral-7b-v0.3      Fungi: Our Partners, Pathogens, and Phenomenal Producers
+9      0.2856       0.3374       0.0000         0.8465     mistral-7b-v0.3      Fungi: From Fermentation to Fascinating Fungal Relationships
+10     0.2839       0.2839       0.0000         1.0000     tinyllama            Fungal Spores Trigger Rainfall Formation
+11     0.2731       0.2731       0.0000         1.0000     gemma2-9b            Fungi: From Food to Forests (7)
+12     0.2711       0.2711       0.0000         1.0000     gemma2-9b            Fungi: Tiny Allies and Foes
+13     0.2706       0.3196       0.0000         0.8465     tinyllama            The Role of Fungus in the Environment
+14     0.2694       0.3182       0.0000         0.8465     mistral-7b-v0.3      Fungi's Fascinating Journey: From Fermentation to Forests
+15     0.2693       0.2693       0.0000         1.0000     llama3.1-8b          Fungi: Unseen Partners and Powerful Players
+16     0.2687       0.2687       0.0000         1.0000     gemma2-9b            Fungi: Tiny Allies and Unexpected Threats
+17     0.2681       0.2681       0.0000         1.0000     llama3.1-8b          Fungi: Hidden Partners & Powerful Players
+18     0.2678       0.2678       0.0000         1.0000     gemma2-9b            Fungi: Tiny Allies and Unexpected Powers
+19     0.2608       0.2608       0.0000         1.0000     llama3.1-8b          Fungi: Our Hidden Allies and Enemies
+20     0.2552       0.3562       0.0000         0.7165     qwen2-7b             Yeast Fermentation: Delicious Food, Fungal Friends & foes
+21     0.2525       0.2525       0.0000         1.0000     llama3.1-8b          The Fascinating Fungi: Friend or Foe?
+22     0.2485       0.3468       0.0000         0.7165     qwen2-7b             Yeast Fermentation: Feasting on Sugars & Our Skin
+23     0.2479       0.2928       0.0000         0.8465     tinyllama            Fungi and Their Role in the Environment
+24     0.2467       0.2467       0.0000         1.0000     llama3.1-8b          Fungi: Unseen Partners in Life
+25     0.2423       0.2423       0.0000         1.0000     llama3.1-8b          Fungi: The Hidden Forces Behind Life
+26     0.2363       0.2363       0.0000         1.0000     llama3.1-8b          The Fascinating Fungal World Around
+27     0.2345       0.2345       0.0000         1.0000     llama3.1-8b          The Hidden Lives of Fungi
+28     0.2343       0.3863       0.0000         0.6065     mistral-7b-v0.3      Fungi: Fermenting Food, Feeding on Skin, and Shaping Weather
+29     0.2335       0.2335       0.0000         1.0000     llama3.1-8b          Fungi: Our Hidden Partners
+30     0.2209       0.3642       0.0000         0.6065     mistral-7b-v0.3      Fungi's Fascinating Role in Food, Skin, Reproduction, and Weather (2)
+31     0.2182       0.3597       0.0000         0.6065     qwen2-7b             Yeast Fermentation: Delicious Food, Unseen Fungi, and Clouds Above
+32     0.2167       0.3573       0.0000         0.6065     mistral-7b-v0.3      Fungi: From Fermentation to Fungal Infections and Cloud Formation (2)
+33     0.2144       0.2144       0.0000         1.0000     llama3.1-8b          Fungi: The Hidden Partners
+34     0.1939       0.3776       0.0000         0.5134     qwen2-7b             Yeast Fermentation: Feasting on Fungi - Past, Present, and Pathogens
+35     0.1787       0.3481       0.0000         0.5134     tinyllama            The Role of Fungus Spores in Cloud Formation and Rainfall
+36     0.1784       0.3475       0.0000         0.5134     tinyllama            Fungal Spores and Their Role in Cloud and Raindrop Formation
+37     0.1701       0.3313       0.0000         0.5134     tinyllama            How Fungi Play a Role in Cloud Formation and Rainfall (2)
+38     0.1547       0.3560       0.0000         0.4346     mistral-7b-v0.3      Yeast, Fungi, and Us: A Symbiotic Journey Through Fermentation and Infection
+39     0.1393       0.3205       0.0000         0.4346     qwen2-7b             Fungal Feasts, Fights & Flavors: From Bread to Beer and Beyond
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2719
+  llama3.1-8b         : 0.2458
+  mistral-7b-v0.3     : 0.2435
+  qwen2-7b            : 0.2613
+  tinyllama           : 0.2382
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 1188s (19:48)
+Transcript Length: 2,945 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3337       0.3337       0.0000         1.0000     tinyllama            Fungi - The World of Fungus
+2      0.3320       0.3320       0.0000         1.0000     mistral-7b-v0.3      Fungi: Shaping Clouds, Evolution, and Ecosystems
+3      0.3203       0.3203       0.0000         1.0000     tinyllama            Understanding the World of Fungus
+4      0.3191       0.3191       0.0000         1.0000     llama3.1-8b          Fungal Roots of Life and Ecosystems
+5      0.3146       0.3146       0.0000         1.0000     gemma2-9b            Unveiling the Hidden World of Fungi (2)
+6      0.3136       0.3136       0.0000         1.0000     gemma2-9b            Fungi: From Spores to Symbiosis (4)
+7      0.3122       0.3122       0.0000         1.0000     qwen2-7b             Fungal Forest Rainmakers & Evolutionary Origins
+8      0.3121       0.3121       0.0000         1.0000     llama3.1-8b          Fungal Roots of Life and Climate
+9      0.3087       0.3087       0.0000         1.0000     llama3.1-8b          Fungal Evolution and Ecological Roles
+10     0.3021       0.3021       0.0000         1.0000     llama3.1-8b          Fungi's Hidden Roles and Ancient Evolution (2)
+11     0.3012       0.3012       0.0000         1.0000     llama3.1-8b          Fungal Evolution and Ecological Impact (2)
+12     0.2978       0.2978       0.0000         1.0000     qwen2-7b             Fungal Forest Rainmakers & Evolutionary Ancestors
+13     0.2958       0.2958       0.0000         1.0000     llama3.1-8b          Fungal Evolution & Ecological Roles
+14     0.2880       0.2880       0.0000         1.0000     gemma2-9b            Fungi: Unveiling Nature's Hidden Kingdom
+15     0.2846       0.2846       0.0000         1.0000     tinyllama            The World of Fungus (2)
+16     0.2796       0.2796       0.0000         1.0000     qwen2-7b             Fungal Rainmakers & Evolutionary Giants (3)
+17     0.2706       0.3197       0.0000         0.8465     tinyllama            The Role of Funnies in the Environment (2)
+18     0.2676       0.2676       0.0000         1.0000     tinyllama            Understanding Fungal Evolution
+19     0.2645       0.2645       0.0000         1.0000     gemma2-9b            Unraveling the Fungal Kingdom
+20     0.2631       0.2631       0.0000         1.0000     gemma2-9b            Unveiling the Fungal Kingdom
+21     0.2630       0.3107       0.0000         0.8465     qwen2-7b             Fungal Forest Rainmakers & The Evolutionary Tree
+22     0.2558       0.3569       0.0000         0.7165     mistral-7b-v0.3      Fungi's Role in Cloud Formation and Evolutionary Tree (2)
+23     0.2553       0.3564       0.0000         0.7165     mistral-7b-v0.3      Fungi's Role in Cloud Formation & Evolutionary Tree (3)
+24     0.2547       0.3009       0.0000         0.8465     qwen2-7b             Fungal Forests: Cloud Creators & Evolutionary Pioneers
+25     0.2536       0.2996       0.0000         0.8465     llama3.1-8b          Fungi's Hidden Role in Shaping Our World (2)
+26     0.2471       0.3449       0.0000         0.7165     mistral-7b-v0.3      Fungal Impact: Cloud Formation, Evolution, and Ecological Roles
+27     0.2457       0.3429       0.0000         0.7165     qwen2-7b             Fungal Rainmakers & The Evolutionary Tree of Life (2)
+28     0.2430       0.2871       0.0000         0.8465     qwen2-7b             Fungal Giants: Cloud Creators & Evolutionary Pioneers
+29     0.2389       0.2822       0.0000         0.8465     gemma2-9b            Fungi: A Visual Journey Through Their World
+30     0.2304       0.3215       0.0000         0.7165     mistral-7b-v0.3      Fungal Influence: From Cloud Formation to Evolutionary Tree
+31     0.2301       0.2301       0.0000         1.0000     tinyllama            Chapter 1 - Introduction
+32     0.2216       0.3654       0.0000         0.6065     tinyllama            Probably least known effects of fungus in the ecosystem
+33     0.2040       0.3973       0.0000         0.5134     tinyllama            The Role of Fungal Spores in Cloud and Rain Formation
+34     0.1703       0.3317       0.0000         0.5134     mistral-7b-v0.3      Fungi: The Unseen Architects of Cloud Formation and Evolutionary Tree (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2938
+  llama3.1-8b         : 0.2950
+  mistral-7b-v0.3     : 0.2428
+  qwen2-7b            : 0.2701
+  tinyllama           : 0.2688
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 1353s (22:33)
+Transcript Length: 715 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3819       0.3819       0.0000         1.0000     mistral-7b-v0.3      Explore Brillaint.org Maps & Get Discount!
+2      0.3791       0.3791       0.0000         1.0000     tinyllama            The Map Of Fungal Kingdoms
+3      0.3751       0.3751       0.0000         1.0000     gemma2-9b            Mapping Knowledge: Maps & Discounts!
+4      0.3609       0.3609       0.0000         1.0000     gemma2-9b            Maps of Knowledge: Explore Further
+5      0.3607       0.3607       0.0000         1.0000     gemma2-9b            Maps of Knowledge: Explore Further!
+6      0.3597       0.3597       0.0000         1.0000     llama3.1-8b          Discover Your Next Great Resource!
+7      0.3536       0.4177       0.0000         0.8465     qwen2-7b             Unlock Knowledge & Maps: Brilliant.org & DosMaps
+8      0.3528       0.3528       0.0000         1.0000     qwen2-7b             Unlock Knowledge & Maps with Discounts!
+9      0.3511       0.3511       0.0000         1.0000     gemma2-9b            Mapping Knowledge: Brilliant & Fungi Maps
+10     0.3456       0.3456       0.0000         1.0000     gemma2-9b            Maps of Knowledge: Explore Beyond (2)
+11     0.3413       0.3413       0.0000         1.0000     llama3.1-8b          Unlocking Knowledge with Brilliant Maps
+12     0.3390       0.3390       0.0000         1.0000     tinyllama            Discovering the World Through Maps
+13     0.3345       0.4669       0.0000         0.7165     tinyllama            Get Your Hands On The Map Of Fungus
+14     0.3320       0.3320       0.0000         1.0000     llama3.1-8b          Exploring Brilliant Offerings & Maps
+15     0.3315       0.3315       0.0000         1.0000     tinyllama            Discovering the World of Fossils
+16     0.3311       0.3311       0.0000         1.0000     tinyllama            Explore Your Subjects with Brilliant
+17     0.3299       0.3299       0.0000         1.0000     llama3.1-8b          Navigating Brilliant Resources and More
+18     0.3280       0.3280       0.0000         1.0000     llama3.1-8b          Exploring Brilliant Resources & Maps (2)
+19     0.3230       0.3230       0.0000         1.0000     llama3.1-8b          Brilliant Resources & Maps Uncovered
+20     0.3161       0.3161       0.0000         1.0000     gemma2-9b            Mapping Knowledge: Fungi & Beyond (2)
+21     0.3083       0.3083       0.0000         1.0000     llama3.1-8b          Exploring Brilliant & Fungi Resources
+22     0.3054       0.3608       0.0000         0.8465     gemma2-9b            Maps of Knowledge: Explore Brilliant & Fungi
+23     0.3051       0.3605       0.0000         0.8465     gemma2-9b            Maps of Knowledge: Explore & Learn More
+24     0.3023       0.3023       0.0000         1.0000     llama3.1-8b          Discovering Brilliant & Mapping Fungi"
+25     0.3008       0.3008       0.0000         1.0000     llama3.1-8b          Unlocking Knowledge & Resources
+26     0.2978       0.4155       0.0000         0.7165     tinyllama            How to Find Your Favorite Subject on Brillian
+27     0.2949       0.3484       0.0000         0.8465     qwen2-7b             Unlock Knowledge & Maps: Your Ultimate Guide
+28     0.2878       0.4016       0.0000         0.7165     mistral-7b-v0.3      Explore Brillianth.org Maps & Save with Discount Code (2)
+29     0.2794       0.3900       0.0000         0.7165     tinyllama            The Ultimate Guide to Learning Everything on Brillian
+30     0.2763       0.3856       0.0000         0.7165     mistral-7b-v0.3      Explore Brillant.org for Interactive Learning & Save 2O%!
+31     0.2690       0.3177       0.0000         0.8465     qwen2-7b             Unlock Knowledge & Maps: Brilliance and Beyond
+32     0.2667       0.4398       0.0000         0.6065     mistral-7b-v0.3      Explore Brillant.org Maps & Get Discount with My Link!
+33     0.2664       0.3718       0.0000         0.7165     qwen2-7b             Unlock Knowledge & Maps: Brilliant Subscriptions & DOSMaps (2)
+34     0.2661       0.4388       0.0000         0.6065     mistral-7b-v0.3      Explore Brillian.org Maps & Get 2o% Off Premium Subscription!
+35     0.2619       0.3654       0.0000         0.7165     tinyllama            Brilliant Maps - Explore the World Through Maps
+36     0.2607       0.2607       0.0000         1.0000     tinyllama            Discovery of Fingers
+37     0.2564       0.4228       0.0000         0.6065     mistral-7b-v0.3      Explore Brillant.org & Get Map of Fungs with Discount
+38     0.2553       0.4209       0.0000         0.6065     mistral-7b-v0.3      Explore Brillaint.org & Get Map of Fungs with Discount (2)
+39     0.2434       0.4013       0.0000         0.6065     mistral-7b-v0.3      Explore BrillianT Knowledge Base & Get Map of Fungs!
+40     0.2265       0.4411       0.0000         0.5134     qwen2-7b             Unlock Your Knowledge with Brilliant.org & Maps of Fungus Exploration
+41     0.2243       0.3698       0.0000         0.6065     qwen2-7b             Unlock Knowledge with Brilliant & Maps of Fungal Kingdom
+42     0.2204       0.3634       0.0000         0.6065     qwen2-7b             Unlock Knowledge & Maps: Brilliant Discounts & Fungi Atlas
+43     0.1872       0.3647       0.0000         0.5134     qwen2-7b             Unlock Knowledge & Maps: Brilliant Discounts & Fungi Atlas Guide
+44     0.1828       0.4205       0.0000         0.4346     tinyllama            Discover Your Passion - Learn About The Top Subjects On Brilliant
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3382
+  llama3.1-8b         : 0.3253
+  mistral-7b-v0.3     : 0.2777
+  qwen2-7b            : 0.2662
+  tinyllama           : 0.2998
+
+====================================================================================================
+

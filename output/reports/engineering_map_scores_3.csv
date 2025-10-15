@@ -1,0 +1,252 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,tinyllama,Engineering Innovations That Transform Our Lives,0.4428555369377136,0.4428555369377136,0.0,1.0
+1,0,00:00,llama3.1-8b,Engineering's Impact on Our Daily Lives,0.43238723278045654,0.43238723278045654,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Life,0.42543527483940125,0.42543527483940125,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Life,0.42543527483940125,0.42543527483940125,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Life,0.42543527483940125,0.42543527483940125,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Life,0.42543527483940125,0.42543527483940125,0.0,1.0
+1,0,00:00,tinyllama,Engineering Influences Our Lives,0.4194123148918152,0.4194123148918152,0.0,1.0
+1,0,00:00,qwen2-7b,Engineering: Shaping Our World Every Day,0.41465139389038086,0.41465139389038086,0.0,1.0
+1,0,00:00,qwen2-7b,Engineering: Shaping Our World Every Day,0.41465139389038086,0.41465139389038086,0.0,1.0
+1,0,00:00,qwen2-7b,Engineering: Shaping Our World Every Day,0.41465139389038086,0.41465139389038086,0.0,1.0
+1,0,00:00,qwen2-7b,Engineering: Shaping Our World Every Day,0.41465139389038086,0.41465139389038086,0.0,1.0
+1,0,00:00,llama3.1-8b,How Engineering Shapes Our World Around,0.4133472442626953,0.4133472442626953,0.0,1.0
+1,0,00:00,tinyllama,Engineering Influence on Our Lives,0.4073486030101776,0.4073486030101776,0.0,1.0
+1,0,00:00,tinyllama,Engineering Influence on Our Lives,0.4073486030101776,0.4073486030101776,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Living,0.4035877585411072,0.4035877585411072,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Living,0.4035877585411072,0.4035877585411072,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Living,0.4035877585411072,0.4035877585411072,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Living,0.4035877585411072,0.4035877585411072,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Living,0.4035877585411072,0.4035877585411072,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Engineering's Impact on Modern Living,0.4035877585411072,0.4035877585411072,0.0,1.0
+1,0,00:00,llama3.1-8b,How Engineering Shapes Your World,0.40097323060035706,0.40097323060035706,0.0,1.0
+1,0,00:00,llama3.1-8b,Engineering's Impact on Daily Life,0.4001046419143677,0.4001046419143677,0.0,1.0
+1,0,00:00,llama3.1-8b,Engineering's Impact on Daily Life,0.4001046419143677,0.4001046419143677,0.0,1.0
+1,0,00:00,qwen2-7b,Engineering: Shaping Every Aspect of Our Lives,0.399859029423665,0.47237762808799744,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Engineering: Shaping Every Aspect of Our Lives,0.399859029423665,0.47237762808799744,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Engineering: Shaping Every Aspect of Our Lives,0.399859029423665,0.47237762808799744,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Engineering: Shaping Every Aspect of Our Lives,0.399859029423665,0.47237762808799744,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Engineering: Shaping Every Aspect of Our Lives,0.399859029423665,0.47237762808799744,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Engineering: Shaping Every Aspect of Our Lives,0.399859029423665,0.47237762808799744,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Engineering's Impact on Everyday Life,0.38850706815719604,0.38850706815719604,0.0,1.0
+1,0,00:00,tinyllama,Engineering: A Field That Changes Everything,0.3811694085597992,0.3811694085597992,0.0,1.0
+1,0,00:00,llama3.1-8b,Engineering Our Everyday Lives,0.3544739782810211,0.3544739782810211,0.0,1.0
+1,0,00:00,llama3.1-8b,“The Invisible Hand Behind Modern Living”,0.3421953618526459,0.3421953618526459,0.0,1.0
+1,0,00:00,tinyllama,Engineering Transformation: How Technology Is Shaping Our World,0.3078091668433464,0.42958229780197144,0.0,0.7165313105737893
+1,0,00:00,tinyllama,Engineering Revolutions - How Technology Changed Our World,0.2912092117895303,0.406415194272995,0.0,0.7165313105737893
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,gemma2-9b,Engineering Our World,0.2829291522502899,0.2829291522502899,0.0,1.0
+1,0,00:00,tinyllama,Engineering the Future,0.27623069286346436,0.27623069286346436,0.0,1.0
+1,0,00:00,tinyllama,Engineering the Future,0.27623069286346436,0.27623069286346436,0.0,1.0
+1,0,00:00,tinyllama,Engineering the Future,0.27623069286346436,0.27623069286346436,0.0,1.0
+1,0,00:00,llama3.1-8b,Built by Engineers,0.25253382325172424,0.25253382325172424,0.0,1.0
+1,0,00:00,llama3.1-8b,"Engineering Our World, One Innovation at a Time",0.24218213728650678,0.337992399930954,0.0,0.7165313105737893
+2,7,00:07,llama3.1-8b,The Engineering Infrastructure of Our World,0.32727447152137756,0.32727447152137756,0.0,1.0
+2,7,00:07,qwen2-7b,Engineering the Foundations of Our World,0.3126920163631439,0.3126920163631439,0.0,1.0
+2,7,00:07,qwen2-7b,Engineering the Foundations of Our World,0.3126920163631439,0.3126920163631439,0.0,1.0
+2,7,00:07,qwen2-7b,Engineering the Foundations of Our World,0.3126920163631439,0.3126920163631439,0.0,1.0
+2,7,00:07,gemma2-9b,Mapping the World of Engineering,0.31232917308807373,0.31232917308807373,0.0,1.0
+2,7,00:07,gemma2-9b,Mapping the World of Engineering,0.31232917308807373,0.31232917308807373,0.0,1.0
+2,7,00:07,gemma2-9b,Mapping the World of Engineering,0.31232917308807373,0.31232917308807373,0.0,1.0
+2,7,00:07,gemma2-9b,Mapping the World of Engineering,0.31232917308807373,0.31232917308807373,0.0,1.0
+2,7,00:07,gemma2-9b,Mapping the World of Engineering,0.31232917308807373,0.31232917308807373,0.0,1.0
+2,7,00:07,qwen2-7b,Engineering the World: From Pyramids to Pipelines,0.3048960723204056,0.3601921498775482,0.0,0.846481724890614
+2,7,00:07,tinyllama,The World of Civil Engineering,0.3011806607246399,0.3011806607246399,0.0,1.0
+2,7,00:07,gemma2-9b,Engineering Our World: A Map,0.29957905411720276,0.29957905411720276,0.0,1.0
+2,7,00:07,gemma2-9b,Engineering Our World: A Map,0.29957905411720276,0.29957905411720276,0.0,1.0
+2,7,00:07,qwen2-7b,The Engineering Blueprint: From Cities to Corrosion,0.2880370142261165,0.34027552604675293,0.0,0.846481724890614
+2,7,00:07,llama3.1-8b,The Many Faces Of Engineering,0.27296072244644165,0.27296072244644165,0.0,1.0
+2,7,00:07,qwen2-7b,The Engineering Blueprint: Foundations of Our World,0.26979808305312153,0.3187287747859955,0.0,0.846481724890614
+2,7,00:07,qwen2-7b,The Engineering Blueprint: From Infrastructure to Everyday Objects,0.25338120622168137,0.3536219596862793,0.0,0.7165313105737893
+2,7,00:07,gemma2-9b,Engineering: The Big Picture,0.25142133235931396,0.25142133235931396,0.0,1.0
+2,7,00:07,qwen2-7b,The Blueprint of Our World: Engineering's Vital Role,0.2384015511703331,0.332716166973114,0.0,0.7165313105737893
+2,7,00:07,qwen2-7b,The Blueprint of Our World: Engineering's Vital Role,0.2384015511703331,0.332716166973114,0.0,0.7165313105737893
+2,7,00:07,qwen2-7b,The Blueprint of Our World: Engineering's Vital Role,0.2384015511703331,0.332716166973114,0.0,0.7165313105737893
+2,7,00:07,mistral-7b-v0.3,Mapping the World of Engineering: From Cities to Structures,0.23685650049261792,0.39051035046577454,0.0,0.6065306597126334
+2,7,00:07,mistral-7b-v0.3,Mapping the World of Engineering: From Cities to Structures,0.23685650049261792,0.39051035046577454,0.0,0.6065306597126334
+2,7,00:07,mistral-7b-v0.3,Mapping the World of Engineering: From Cities to Structures,0.23685650049261792,0.39051035046577454,0.0,0.6065306597126334
+2,7,00:07,mistral-7b-v0.3,Mapping Out Civil Engineering: Building the World Around,0.23551009392328645,0.3286808133125305,0.0,0.7165313105737893
+2,7,00:07,tinyllama,Engineering the Future,0.23387345671653748,0.23387345671653748,0.0,1.0
+2,7,00:07,mistral-7b-v0.3,Exploring the World of Civil Engineering: Building Our Cities,0.2265236135087217,0.3734742999076843,0.0,0.6065306597126334
+2,7,00:07,gemma2-9b,Engineering Our World,0.22631001472473145,0.22631001472473145,0.0,1.0
+2,7,00:07,gemma2-9b,Engineering Our World,0.22631001472473145,0.22631001472473145,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,llama3.1-8b,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,tinyllama,Engineering the World Around,0.22364214062690735,0.22364214062690735,0.0,1.0
+2,7,00:07,mistral-7b-v0.3,Mapping Out Civil Engineering: The Pillars of Modern Infrastructure,0.21637340280577266,0.35673943161964417,0.0,0.6065306597126334
+2,7,00:07,mistral-7b-v0.3,Exploring the World of Civil Engineering: Building Our Future,0.21497972341359867,0.35444164276123047,0.0,0.6065306597126334
+2,7,00:07,mistral-7b-v0.3,Mapping Out Civil Engineering: The Art of Building Big,0.211597952713293,0.3488660454750061,0.0,0.6065306597126334
+2,7,00:07,mistral-7b-v0.3,Mapping Out Civil Engineering: The Pillars of Our Built World,0.17913748597890206,0.34891217947006226,0.0,0.513417119032592
+2,7,00:07,mistral-7b-v0.3,Exploring the World of Civil Engineering: Building Our Cities and Infrastructure,0.17445568633466166,0.4014183282852173,0.0,0.43459820850707825
+3,157,02:37,qwen2-7b,Cross-Disciplinary Engineering: From Buildings to Biotechnology,0.3499343693256378,0.3499343693256378,0.0,1.0
+3,157,02:37,qwen2-7b,Engineering's Cross-Disciplinary Nature and Its Impact,0.34826773405075073,0.34826773405075073,0.0,1.0
+3,157,02:37,qwen2-7b,Engineering's Cross-Disciplinary Nature and Its Impact,0.34826773405075073,0.34826773405075073,0.0,1.0
+3,157,02:37,qwen2-7b,Engineering's Cross-Disciplinary Nature and Its Impact,0.34826773405075073,0.34826773405075073,0.0,1.0
+3,157,02:37,llama3.1-8b,Cross-Disciplinary Engineering: Connections and Applications,0.3476834297180176,0.3476834297180176,0.0,1.0
+3,157,02:37,mistral-7b-v0.3,Engineering: Cross-Disciplinary Science for Modern Living,0.3471507728099823,0.3471507728099823,0.0,1.0
+3,157,02:37,mistral-7b-v0.3,Cross-Disciplinary Engineering: From Materials to Motion,0.34659793972969055,0.34659793972969055,0.0,1.0
+3,157,02:37,mistral-7b-v0.3,Cross-Disciplinary Engineering: From Bikes to Biotech,0.3428109884262085,0.3428109884262085,0.0,1.0
+3,157,02:37,llama3.1-8b,Cross-Disciplinary Engineering: Interconnected Fields,0.3372296690940857,0.3372296690940857,0.0,1.0
+3,157,02:37,mistral-7b-v0.3,Engineering's Cross-Disciplinary Impact on Society,0.3330287039279938,0.3330287039279938,0.0,1.0
+3,157,02:37,qwen2-7b,Engineering's Cross-Disciplinary Nature Unveiled,0.3308942914009094,0.3308942914009094,0.0,1.0
+3,157,02:37,llama3.1-8b,The Interconnected World of Engineering Disciplines,0.3287442922592163,0.3287442922592163,0.0,1.0
+3,157,02:37,qwen2-7b,Engineering's Cross-Disciplinary Nature: From Buildings to Biotech,0.31786654626224015,0.375514954328537,0.0,0.846481724890614
+3,157,02:37,tinyllama,Engineering Bikes' Very Nature Is Largely Cross-Disciplinary,0.31241302286951284,0.3690723776817322,0.0,0.846481724890614
+3,157,02:37,mistral-7b-v0.3,Cross-Disciplinary Engineering: A Comprehensive Overview,0.3123205900192261,0.3123205900192261,0.0,1.0
+3,157,02:37,mistral-7b-v0.3,Engineering's Cross-Disciplinary Impact: From Agriculture to Biomedicine,0.3082270614116397,0.3641272485256195,0.0,0.846481724890614
+3,157,02:37,llama3.1-8b,Cross-Disciplinary Engineering Fields Explained,0.30771124362945557,0.30771124362945557,0.0,1.0
+3,157,02:37,llama3.1-8b,Engineering Disciplines: Interconnected Fields,0.30739301443099976,0.30739301443099976,0.0,1.0
+3,157,02:37,llama3.1-8b,Engineering Disciplines: Interconnected Fields,0.30739301443099976,0.30739301443099976,0.0,1.0
+3,157,02:37,llama3.1-8b,Engineering Disciplines: Interconnected Fields,0.30739301443099976,0.30739301443099976,0.0,1.0
+3,157,02:37,qwen2-7b,Engineering's Cross-Disciplinary Nature: From Bikes to Biopharma,0.3046026809001462,0.3598455488681793,0.0,0.846481724890614
+3,157,02:37,mistral-7b-v0.3,Engineering: A Cross-Disciplinary Approach to Improving Life,0.3039907213926094,0.3591226041316986,0.0,0.846481724890614
+3,157,02:37,mistral-7b-v0.3,Engineering: A Cross-Disciplinary Approach to Improving Life,0.3039907213926094,0.3591226041316986,0.0,0.846481724890614
+3,157,02:37,llama3.1-8b,Cross-Disciplinary Engineering Applications,0.30048811435699463,0.30048811435699463,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines: A Connected Web,0.2898162603378296,0.2898162603378296,0.0,1.0
+3,157,02:37,llama3.1-8b,Cross-Disciplinary Engineering Fields Unveiled,0.28911709785461426,0.28911709785461426,0.0,1.0
+3,157,02:37,llama3.1-8b,Cross-Disciplinary Engineering Fields Unveiled,0.28911709785461426,0.28911709785461426,0.0,1.0
+3,157,02:37,tinyllama,Understanding Corrosion And Breakdown Of Materials Over Time,0.2889876388430941,0.4033147394657135,0.0,0.7165313105737893
+3,157,02:37,tinyllama,Understanding Corrosion And Breakdown Of Materials Over Time,0.2889876388430941,0.4033147394657135,0.0,0.7165313105737893
+3,157,02:37,tinyllama,Understanding Corrosion And Breakdown Of Materials Over Time,0.2889876388430941,0.4033147394657135,0.0,0.7165313105737893
+3,157,02:37,qwen2-7b,Engineering Interdisciplinary Connections: From Buildings to Biotech,0.27848829655781127,0.3289950489997864,0.0,0.846481724890614
+3,157,02:37,qwen2-7b,Engineering Interdisciplinary Connections: From Buildings to Biotech,0.27848829655781127,0.3289950489997864,0.0,0.846481724890614
+3,157,02:37,tinyllama,Understanding Corrosion & Breakdown of Materials Over Time,0.2751953894830254,0.384066104888916,0.0,0.7165313105737893
+3,157,02:37,tinyllama,Engineering Bikes' Very Nature,0.27295148372650146,0.27295148372650146,0.0,1.0
+3,157,02:37,mistral-7b-v0.3,Engineering: The Shaping Force Behind Modern Life,0.2653092700045163,0.31342586874961853,0.0,0.846481724890614
+3,157,02:37,qwen2-7b,Engineering Interdisciplinary Connections,0.25186866521835327,0.25186866521835327,0.0,1.0
+3,157,02:37,mistral-7b-v0.3,Engineering: A Cross-Disciplinary Approach to Improving Systems and Sustainability,0.24806450194212834,0.40898922085762024,0.0,0.6065306597126334
+3,157,02:37,tinyllama,Understanding Corrosion - Transcript,0.24500447511672974,0.24500447511672974,0.0,1.0
+3,157,02:37,tinyllama,Understanding Corrosion - Transcript,0.24500447511672974,0.24500447511672974,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Intertwined,0.24305742979049683,0.24305742979049683,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Intertwined,0.24305742979049683,0.24305742979049683,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Intertwined,0.24305742979049683,0.24305742979049683,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Intertwined,0.24305742979049683,0.24305742979049683,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Unveiled,0.23323993384838104,0.23323993384838104,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Unveiled,0.23323993384838104,0.23323993384838104,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Unveiled,0.23323993384838104,0.23323993384838104,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Unveiled,0.23323993384838104,0.23323993384838104,0.0,1.0
+3,157,02:37,gemma2-9b,Engineering Disciplines Unveiled,0.23323993384838104,0.23323993384838104,0.0,1.0
+3,157,02:37,tinyllama,Creating a Brief Chapter Title,0.22038444876670837,0.22038444876670837,0.0,1.0
+3,157,02:37,tinyllama,"Creating A Brief, Engaging Chapter Title For This Transcript",0.17538515468492644,0.28916123509407043,0.0,0.6065306597126334
+4,550,09:10,mistral-7b-v0.3,Mechanical Engineering: The Product of Ingenuity,0.3742055296897888,0.3742055296897888,0.0,1.0
+4,550,09:10,qwen2-7b,Engineering: Crafting the World Through Ingenuity,0.36662694811820984,0.36662694811820984,0.0,1.0
+4,550,09:10,qwen2-7b,Engineering: Crafting Ingenuity Across Disciplines,0.3338245153427124,0.3338245153427124,0.0,1.0
+4,550,09:10,llama3.1-8b,“Engineering’s Vast Spectrum of Disciplined Expertise”,0.32148316502571106,0.32148316502571106,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World Through Innovation,0.3201753497123718,0.3201753497123718,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World Through Innovation,0.3201753497123718,0.3201753497123718,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse Applications of Engineering Disciplines,0.30985838174819946,0.30985838174819946,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse Applications of Engineering Disciplines,0.30985838174819946,0.30985838174819946,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse Applications of Engineering Disciplines,0.30985838174819946,0.30985838174819946,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse Applications of Engineering Disciplines,0.30985838174819946,0.30985838174819946,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse Applications of Engineering Disciplines,0.30985838174819946,0.30985838174819946,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse World of Engineering Disciplines,0.30361509323120117,0.30361509323120117,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse World of Engineering Disciplines,0.30361509323120117,0.30361509323120117,0.0,1.0
+4,550,09:10,llama3.1-8b,The Diverse Branches of Modern Engineering,0.30206432938575745,0.30206432938575745,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,gemma2-9b,Engineering: Shaping Our World,0.28897371888160706,0.28897371888160706,0.0,1.0
+4,550,09:10,qwen2-7b,Engineering: From Ancient Ingenuity to Modern Luxuries,0.28222587116240055,0.33341047167778015,0.0,0.846481724890614
+4,550,09:10,qwen2-7b,Engineering: From Ancient Ingenuity to Modern Marvels,0.28141928441433917,0.33245760202407837,0.0,0.846481724890614
+4,550,09:10,qwen2-7b,Engineering: From Ancient Ingenuity to Modern Marvels,0.28141928441433917,0.33245760202407837,0.0,0.846481724890614
+4,550,09:10,qwen2-7b,Engineering: From Ancient Ingenuity to Modern Miracles,0.28072215814542695,0.3316340446472168,0.0,0.846481724890614
+4,550,09:10,llama3.1-8b,Engineering Disciplines and Their Applications,0.27343860268592834,0.27343860268592834,0.0,1.0
+4,550,09:10,qwen2-7b,Engineering: From Ancient Innovations to Modern Marvels,0.25852241757180866,0.30540814995765686,0.0,0.846481724890614
+4,550,09:10,qwen2-7b,Engineering: From Ancient Innovations to Modern Marvels,0.25852241757180866,0.30540814995765686,0.0,0.846481724890614
+4,550,09:10,qwen2-7b,Engineering: From Ancient Innovations to Modern Marvels,0.25852241757180866,0.30540814995765686,0.0,0.846481724890614
+4,550,09:10,qwen2-7b,Engineering: From Ancient Innovations to Modern Marvels,0.25852241757180866,0.30540814995765686,0.0,0.846481724890614
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,tinyllama,Discussion on Create engaging chapter,0.23072513937950134,0.23072513937950134,0.0,1.0
+4,550,09:10,mistral-7b-v0.3,Exploring the Landscape of Engineering: From Ingenuity to Innovation,0.22460357842439435,0.37030869722366333,0.0,0.6065306597126334
+4,550,09:10,mistral-7b-v0.3,Mechanical Engineering: The Art of Energy Conversion and Product Design,0.1989606185726185,0.3875223696231842,0.0,0.513417119032592
+4,550,09:10,mistral-7b-v0.3,The Art of Energy Conversion: Exploring the Branches of Engineering,0.1832220021293479,0.3568677306175232,0.0,0.513417119032592
+4,550,09:10,mistral-7b-v0.3,Exploring the Product of Ingenuity: The Diverse Realms of Mechanical Engineering,0.1600537865628053,0.36827990412712097,0.0,0.43459820850707825
+4,550,09:10,mistral-7b-v0.3,"Exploring the Spectrum of Mechanical Engineering: Energy Conversion, Materials, Robotics, Aerospaces, and Photonics",0.12797297542738065,0.41095584630966187,0.0,0.31140322391459774
+4,550,09:10,mistral-7b-v0.3,"Exploring the World of Mechanical Engineering: Energy Conversion, Materials, Robotics, Aerospaces, and More",0.12683452239438556,0.4072999656200409,0.0,0.31140322391459774
+4,550,09:10,mistral-7b-v0.3,"Exploring the Diverse Realm of Mechanical Engineering: Energy Conversion, Materials, Robotics, Aerospaces, and More",0.1084478665307581,0.4114151895046234,0.0,0.2635971381157267
+4,550,09:10,mistral-7b-v0.3,Exploring the Product of Ingenuity: An Overview of Mechanical Engineering and Its Interconnected Branches,0.10062928045320702,0.381754070520401,0.0,0.2635971381157267
+4,550,09:10,mistral-7b-v0.3,Exploring the Product of Ingenuity: A Journey Through Mechanical Engineering and Its Interconnected Fields,0.09730209484921795,0.36913183331489563,0.0,0.2635971381157267
+5,1212,20:12,tinyllama,Engineering Mindset: How Engineers Solve Problems,0.35256335139274597,0.35256335139274597,0.0,1.0
+5,1212,20:12,llama3.1-8b,Appreciating Modern Luxuries through Engineering Mindset,0.3522581458091736,0.3522581458091736,0.0,1.0
+5,1212,20:12,llama3.1-8b,Appreciating Modern Luxuries through Engineering Mindset,0.3522581458091736,0.3522581458091736,0.0,1.0
+5,1212,20:12,llama3.1-8b,Appreciating Modern Luxuries through Engineering Mindset,0.3522581458091736,0.3522581458091736,0.0,1.0
+5,1212,20:12,llama3.1-8b,Appreciating Modern Luxuries through Engineering Mindset,0.3522581458091736,0.3522581458091736,0.0,1.0
+5,1212,20:12,llama3.1-8b,Appreciating Modern Luxuries through Engineering Mindset,0.3522581458091736,0.3522581458091736,0.0,1.0
+5,1212,20:12,mistral-7b-v0.3,Appreciating Engineering Mindset with BrillianT Learning,0.3227192163467407,0.3227192163467407,0.0,1.0
+5,1212,20:12,llama3.1-8b,Unlocking Knowledge with the Engineering Mind,0.31877338886260986,0.31877338886260986,0.0,1.0
+5,1212,20:12,mistral-7b-v0.3,Applying Engineering Mindset with BrillianT Learning,0.31509459018707275,0.31509459018707275,0.0,1.0
+5,1212,20:12,mistral-7b-v0.3,Embracing Engineering Mindset with BrillianT Learning,0.31388866901397705,0.31388866901397705,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Learning with Brilliant,0.306947261095047,0.306947261095047,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Learning with Brilliant,0.306947261095047,0.306947261095047,0.0,1.0
+5,1212,20:12,llama3.1-8b,The Power of the Engineering Mind,0.3064492344856262,0.3064492344856262,0.0,1.0
+5,1212,20:12,mistral-7b-v0.3,Embracing Engineering Mindset with BrillianT App,0.30403655767440796,0.30403655767440796,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Brilliant Learning,0.3032141923904419,0.3032141923904419,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Brilliant Learning,0.3032141923904419,0.3032141923904419,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Brilliant Learning,0.3032141923904419,0.3032141923904419,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Brilliant Learning,0.3032141923904419,0.3032141923904419,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Brilliant Learning,0.3032141923904419,0.3032141923904419,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Brilliant Learning,0.3032141923904419,0.3032141923904419,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Learning Brilliantly,0.3010258376598358,0.3010258376598358,0.0,1.0
+5,1212,20:12,gemma2-9b,Engineering Mindset & Learning Brilliantly,0.3010258376598358,0.3010258376598358,0.0,1.0
+5,1212,20:12,tinyllama,Engineering Mindset: How Engineers Think and Innovate,0.2962917571636078,0.3500273525714874,0.0,0.846481724890614
+5,1212,20:12,mistral-7b-v0.3,Appreciating Engineers & Learning on Briliant,0.2959361672401428,0.2959361672401428,0.0,1.0
+5,1212,20:12,mistral-7b-v0.3,Appreciating Engineers & Learning on Briliant,0.2959361672401428,0.2959361672401428,0.0,1.0
+5,1212,20:12,mistral-7b-v0.3,Appreciating Engineers & Learning on Briliant,0.2959361672401428,0.2959361672401428,0.0,1.0
+5,1212,20:12,qwen2-7b,Appreciating Engineering: A Pathway to Modern Luxuries,0.29409518126121503,0.347432404756546,0.0,0.846481724890614
+5,1212,20:12,qwen2-7b,Appreciating Engineering: A Pathway to Modern Luxuries,0.29409518126121503,0.347432404756546,0.0,0.846481724890614
+5,1212,20:12,llama3.1-8b,The Power of the Engineering Approach,0.29361239075660706,0.29361239075660706,0.0,1.0
+5,1212,20:12,tinyllama,Engineering Mindset: How Engineers Think Like Royalty,0.2898680743685661,0.342438668012619,0.0,0.846481724890614
+5,1212,20:12,qwen2-7b,Appreciating Engineering Mindset & Learning with Brilliant,0.2835941649924479,0.33502691984176636,0.0,0.846481724890614
+5,1212,20:12,qwen2-7b,Appreciating Engineering: A Pathway to Modern Marvels,0.2780254293369239,0.32844823598861694,0.0,0.846481724890614
+5,1212,20:12,qwen2-7b,Appreciating Engineering: A Pathway to Modern Marvels,0.2780254293369239,0.32844823598861694,0.0,0.846481724890614
+5,1212,20:12,qwen2-7b,Appreciating Engineering: A Pathway to Modern Marvels,0.2780254293369239,0.32844823598861694,0.0,0.846481724890614
+5,1212,20:12,mistral-7b-v0.3,Appreciating Engineers & Mastering Science with BrillianT,0.2732846730282903,0.3228476941585541,0.0,0.846481724890614
+5,1212,20:12,mistral-7b-v0.3,Embracing Engineering Mindset through Brillian App,0.27296456694602966,0.27296456694602966,0.0,1.0
+5,1212,20:12,tinyllama,Brilliant Engineering Mindset,0.2711711823940277,0.2711711823940277,0.0,1.0
+5,1212,20:12,mistral-7b-v0.3,Applying Engineering Mindset on Briliant Learning Platform,0.26177671621441095,0.30925264954566956,0.0,0.846481724890614
+5,1212,20:12,tinyllama,Engineers Step by Step Built Our Modern World,0.2526332292565083,0.3525780737400055,0.0,0.7165313105737893
+5,1212,20:12,llama3.1-8b,The Power of the Engineering Way of Thinking,0.2281904174370533,0.31846538186073303,0.0,0.7165313105737893
+5,1212,20:12,qwen2-7b,Engineering Mindset: Building Our Modern World & Continuous Learning,0.21744232838204547,0.3585017919540405,0.0,0.6065306597126334
+5,1212,20:12,qwen2-7b,Engineering Mindset: Building Our Modern World & Personal Growth,0.2143463395936511,0.3533973693847656,0.0,0.6065306597126334
+5,1212,20:12,llama3.1-8b,Engineering Our Future One Problem at a Time,0.20960062626913195,0.29252123832702637,0.0,0.7165313105737893
+5,1212,20:12,tinyllama,Brilliant Engineering Mindset - How Engineers Think Like Royalty,0.2082855035583498,0.34340474009513855,0.0,0.6065306597126334
+5,1212,20:12,tinyllama,Engineering Mindset: A Powerful Tool for Improving Knowledge and Skills,0.20165878557938194,0.392777681350708,0.0,0.513417119032592
+5,1212,20:12,qwen2-7b,Engineering Mindset: Building Our Modern World & Elevating Your Skills,0.19873182238316445,0.387076735496521,0.0,0.513417119032592
+5,1212,20:12,qwen2-7b,Engineering Mindset: Building Our Modern World & Elevating Your Skills,0.19873182238316445,0.387076735496521,0.0,0.513417119032592
+5,1212,20:12,tinyllama,Engineering Mindset - A Powerful Tool for Improving Knowledge & Skills,0.16732894513853164,0.38501986861228943,0.0,0.43459820850707825
+5,1212,20:12,tinyllama,"Engineering Mindset: A Powerful Tool to Analyze Problems, Design Solutions, and Invent New Technology",0.12203874239538332,0.4629744589328766,0.0,0.2635971381157267
+5,1212,20:12,tinyllama,"Engineering Mindset: The Powerful Tool to Analyze Problems, Design Solutions, and Invent New Technology",0.12058293568564513,0.45745161175727844,0.0,0.2635971381157267
