@@ -6,9 +6,55 @@
     <title>Video Segment Research</title>
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Video File Selector Modal -->
+    <div id="video-file-modal" class="video-file-modal">
+        <div class="video-file-modal-content">
+            <h2>Select Local Video Files</h2>
+            <p>Please select the four video files from your local storage. Videos must match the required specifications.</p>
+            
+            <div class="video-file-inputs">
+                <div class="file-input-group">
+                    <label for="fungi-map-file">The Fascinating Map of Fungi:</label>
+                    <input type="file" id="fungi-map-file" accept="video/mp4" required>
+                    <span class="file-status" id="fungi-map-status"></span>
+                </div>
+                
+                <div class="file-input-group">
+                    <label for="engineering-map-file">The Map of Engineering:</label>
+                    <input type="file" id="engineering-map-file" accept="video/mp4" required>
+                    <span class="file-status" id="engineering-map-status"></span>
+                </div>
+                
+                <div class="file-input-group">
+                    <label for="pantone-colors-file">Why Pantone Colors Are So Expensive:</label>
+                    <input type="file" id="pantone-colors-file" accept="video/mp4" required>
+                    <span class="file-status" id="pantone-colors-status"></span>
+                </div>
+                
+                <div class="file-input-group">
+                    <label for="airport-food-file">Why Airport Food Is So Expensive:</label>
+                    <input type="file" id="airport-food-file" accept="video/mp4" required>
+                    <span class="file-status" id="airport-food-status"></span>
+                </div>
+            </div>
+            
+            <div class="validation-messages">
+                <div id="validation-errors" class="validation-errors"></div>
+                <div id="validation-success" class="validation-success" style="display: none;">
+                    All videos validated successfully. Click continue to proceed.
+                </div>
+            </div>
+            
+            <div class="modal-actions">
+                <button id="validate-videos-btn" class="btn btn-primary">Validate Videos</button>
+                <button id="continue-study-btn" class="btn btn-success" style="display: none;">Continue to Study</button>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <!-- Header -->
         <header class="header">
