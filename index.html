@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Segment Research</title>
+    <link rel="icon" href="data:,">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -228,8 +229,8 @@
         <!-- Completion Section -->
         <div id="completion-section" class="section" style="display: none;">
             <h2>Study Complete</h2>
-            <p>Thank you for participating in this stage of the research study!</p>
-            
+            <h3>‼️Please read the following instructions before exiting this page:</h3>
+
             <!-- Participant ID Display -->
             <div class="completion-participant-id">
                 <h3>Your Participant ID</h3>
@@ -239,11 +240,24 @@
                     <button type="button" id="copy-completion-id-btn" class="copy-btn">Copy</button>
                 </div>
             </div>
+
+            <div class="transition-steps">
+                <div class="step">
+                    <h4>Step 1: Download Your Results</h4>
+                    <p>Please download your results from the fourth video before proceeding.</p>
+                    <button id="download-data" class="btn btn-primary">Download Video 4 Data</button>
+                </div>
+                
+                <div class="step">
+                    <h4>Step 2: Complete the Survey</h4>
+                    <p>Please complete the rest of this survey.</p>
+                    <p>Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMKVpfhDpo4aomrwsUXBg2SSjvZs4mXXgzvl2KcYJPk4w6tA/viewform?usp=sharing&ouid=106328571998422484620" target="_blank" class="survey-link">here</a> to complete the follow-up survey.</p>
+                </div>
+            </div>
             
-            <!-- Survey Link -->
             <div class="survey-section">
-                <h3>Complete the Survey</h3>
-                <p>Please click <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMKVpfhDpo4aomrwsUXBg2SSjvZs4mXXgzvl2KcYJPk4w6tA/viewform?usp=sharing&ouid=106328571998422484620" target="_blank" class="survey-link">here</a> to complete the follow-up survey.</p>
+                <h3>Congratulations! You have now completed the study. </h3>
+                <p>You may exit this page once you have downloaded your results and completed the survey.</p>
             </div>
             
             <div class="completion-stats">
@@ -251,16 +265,7 @@
                     <span class="stat-label">Total Time:</span>
                     <span id="total-time">--</span>
                 </div>
-                <div class="stat">
-                    <span class="stat-label">Video Interactions:</span>
-                    <span id="final-interactions">--</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-label">Questions Answered:</span>
-                    <span id="questions-answered">--</span>
-                </div>
             </div>
-            <button id="download-data" class="btn btn-secondary">Download Data</button>
             <button id="reset-study" class="btn btn-outline">Start New Session</button>
         </div>
     </div>

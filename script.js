@@ -125,7 +125,7 @@ function initializeApp() {
     document.getElementById('toggle-questions').addEventListener('click', toggleQuestionsSection);
     document.getElementById('admin-toggle').addEventListener('click', toggleAdminPanel);
     document.getElementById('close-admin').addEventListener('click', closeAdminPanel);
-    document.getElementById('download-data').addEventListener('click', downloadParticipantData);
+    document.getElementById('download-data').addEventListener('click', downloadCurrentVideoData);
     document.getElementById('export-all-data').addEventListener('click', exportAllData);
     document.getElementById('clear-data').addEventListener('click', clearAllData);
     document.getElementById('reset-study').addEventListener('click', resetStudy);
@@ -761,8 +761,8 @@ function updateCompletionStats() {
     };
     
     document.getElementById('total-time').textContent = formatTimeForDisplay(totalTime);
-    document.getElementById('final-interactions').textContent = combinedStats.totalInteractions;
-    document.getElementById('questions-answered').textContent = combinedStats.questionsAnswered;
+    // document.getElementById('final-interactions').textContent = combinedStats.totalInteractions;
+    // document.getElementById('questions-answered').textContent = combinedStats.questionsAnswered;
     
     //speed usage tracking
     // const statsContainer = document.getElementById('completion-section');
@@ -1891,4 +1891,103 @@ function setupCompletionIdCopy() {
             }
         });
     }
+}
+
+// FOR DEBUGGING PURPOSES ONLY - Skip to completion page
+function skipToCompletion() {
+    participantData.currentVideoIndex = 3; // Set to last video (index 3 = video 4)
+    participantData.id = participantData.id || generateParticipantId();
+    participantData.startTime = new Date(Date.now() - 3600000); // 1 hour ago
+    participantData.endTime = new Date();
+    
+    // Hide all sections
+    document.getElementById('participant-setup').style.display = 'none';
+    document.getElementById('video-section').style.display = 'none';
+    document.getElementById('transition-section').style.display = 'none';
+    
+    // Show completion section
+    document.getElementById('completion-section').style.display = 'block';
+    document.getElementById('completion-section').classList.add('fade-in');
+    
+    // Set participant ID
+    document.getElementById('completion-participant-id').value = participantData.id;
+    
+    // Update stats
+    updateCompletionStats();
+    setupCompletionIdCopy();
+    
+    console.log('Skipped to completion page for testing');
+}
+
+// Add this function to script.js for testing - skip to transition section
+function skipToTransition() {
+    // Initialize basic participant data if not already set
+    if (!participantData.id) {
+        participantData.id = generateParticipantId();
+    }
+    if (!participantData.studyGroup) {
+        participantData.studyGroup = '1'; // Default to group 1
+    }
+    
+    // Set current video index (0 = first video, 1 = second video, etc.)
+    participantData.currentVideoIndex = 0; // Change this to test different transitions
+    
+    // Set some mock data
+    participantData.startTime = new Date(Date.now() - 600000); // 10 minutes ago
+    participantData.videoSessionStartTime = Date.now() - 300000; // 5 minutes ago
+    participantData.totalInteractions = 15;
+    participantData.videoWatchTime = 180000; // 3 minutes
+    participantData.sessionDuration = 300000; // 5 minutes
+    participantData.playCount = 3;
+    participantData.pauseCount = 2;
+    
+    // Hide all other sections
+    document.getElementById('participant-setup').style.display = 'none';
+    document.getElementById('video-section').style.display = 'none';
+    document.getElementById('completion-section').style.display = 'none';
+    
+    // Show transition section
+    document.getElementById('transition-section').style.display = 'block';
+    document.getElementById('transition-section').classList.add('fade-in');
+    
+    // Update transition section content
+    updateTransitionSection();
+    
+    console.log('Skipped to transition section for testing');
+    console.log('Current video index:', participantData.currentVideoIndex);
+    console.log('Participant ID:', participantData.id);
+}
+
+// Alternative: Skip to specific video transition
+function skipToVideoTransition(videoIndex) {
+    // videoIndex: 0 = after video 1, 1 = after video 2, 2 = after video 3
+    if (videoIndex < 0 || videoIndex > 2) {
+        console.error('Invalid video index. Use 0-2 for transitions between videos.');
+        return;
+    }
+    
+    if (!participantData.id) {
+        participantData.id = generateParticipantId();
+    }
+    if (!participantData.studyGroup) {
+        participantData.studyGroup = '1';
+    }
+    
+    participantData.currentVideoIndex = videoIndex;
+    participantData.startTime = new Date(Date.now() - 600000);
+    participantData.videoSessionStartTime = Date.now() - 300000;
+    participantData.totalInteractions = 15;
+    participantData.videoWatchTime = 180000;
+    participantData.sessionDuration = 300000;
+    
+    document.getElementById('participant-setup').style.display = 'none';
+    document.getElementById('video-section').style.display = 'none';
+    document.getElementById('completion-section').style.display = 'none';
+    
+    document.getElementById('transition-section').style.display = 'block';
+    document.getElementById('transition-section').classList.add('fade-in');
+    
+    updateTransitionSection();
+    
+    console.log(`Skipped to transition after video ${videoIndex + 1}`);
 }
