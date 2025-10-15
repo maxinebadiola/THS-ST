@@ -8,7 +8,8 @@ Scoring Metrics:
 
 Final Score = ((BERTScore + CosineSimilarity) / 2) * Penalty
 """
-
+# cd /root/THS-ST && python scripts/scoreTitles.py
+# cd /root/THS-ST && python scripts/scoreTitles.py --variant 
 import os
 import json
 import math
@@ -16,6 +17,7 @@ import warnings
 import time
 import pandas as pd
 import numpy as np
+import argparse
 from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -34,7 +36,36 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 logging.getLogger("bert_score").setLevel(logging.ERROR)
 
 init(autoreset=True)
-referenceLength = 6  #for verbosity penalty
+
+# Variant configurations
+VARIANTS = {
+    1: {
+        'name': 'BERT + Cosine Similarity (reference_length = 6)',
+        'use_bert': True,
+        'use_cosine': True,
+        'reference_length': 6
+    },
+    2: {
+        'name': 'BERT + Cosine Similarity (reference_length = 8)',
+        'use_bert': True,
+        'use_cosine': True,
+        'reference_length': 8
+    },
+    3: {
+        'name': 'BERT ONLY (reference_length = 6)',
+        'use_bert': True,
+        'use_cosine': False,
+        'reference_length': 6
+    },
+    4: {
+        'name': 'BERT ONLY (reference_length = 8)',
+        'use_bert': True,
+        'use_cosine': False,
+        'reference_length': 8
+    }
+}
+
+referenceLength = 6  #for verbosity penalty (default)
 
 # Directory paths
 BASE_DIR = Path(__file__).parent.parent
@@ -205,6 +236,36 @@ def format_timestamp(seconds):
     return f"{minutes:02d}:{secs:02d}"
 
 
+def calculate_final_score(bert_score_val, cosine_score, penalty, variant_config):
+    """
+    Calculate final score based on variant configuration.
+    
+    Args:
+        bert_score_val (float): BERTScore F1 value
+        cosine_score (float): Cosine similarity score
+        penalty (float): Verbosity penalty
+        variant_config (dict): Variant configuration
+    
+    Returns:
+        float: Final score
+    """
+    use_bert = variant_config['use_bert']
+    use_cosine = variant_config['use_cosine']
+    
+    if use_bert and use_cosine:
+        # Average of BERT and Cosine
+        return ((bert_score_val + cosine_score) / 2) * penalty
+    elif use_bert and not use_cosine:
+        # BERT only
+        return bert_score_val * penalty
+    elif use_cosine and not use_bert:
+        # Cosine only (unlikely but supported)
+        return cosine_score * penalty
+    else:
+        # Fallback - shouldn't happen
+        return 0.0
+
+
 def parse_selection(input_str, max_idx):
     """
     Parse user input for video selection.
@@ -252,18 +313,23 @@ def parse_selection(input_str, max_idx):
     return sorted(set(indices))
 
 
-def evaluate_titles(video_name):
+def evaluate_titles(video_name, variant_ids=None):
     """
     Main function to evaluate titles for a video.
     
     Args:
         video_name (str): Name of the video to process
+        variant_ids (list): List of variant IDs to run (default: [1] for current implementation)
     """
+    if variant_ids is None:
+        variant_ids = [1]  # Default to variant 1 (current implementation)
+    
     # Start timing
     video_start_time = time.time()
     
     print(f"\n{Fore.CYAN}{'='*80}")
     print(f"{Fore.CYAN}Processing Video: {Fore.YELLOW}{video_name}")
+    print(f"{Fore.CYAN}Variants to run: {Fore.YELLOW}{', '.join(map(str, variant_ids))}")
     print(f"{Fore.CYAN}{'='*80}\n")
     
     # Load data
@@ -273,66 +339,137 @@ def evaluate_titles(video_name):
     print(f"{Fore.GREEN}Loading candidate titles...")
     titles_df = load_titles(video_name)
     
-    # Results storage
-    all_results = []
-    segment_results = {}
-    model_scores = {}
-    
     # Get unique segments
     segments = sorted(titles_df['segment'].unique())
     
     print(f"\n{Fore.CYAN}Found {len(segments)} segments to process\n")
     
-    # Process each segment
-    for seg_num in segments:
-        # Start segment timing
-        segment_start_time = time.time()
+    # Process each variant
+    for variant_id in variant_ids:
+        variant_config = VARIANTS[variant_id]
         
-        print(f"\n{Fore.MAGENTA}{'─'*80}")
-        print(f"{Fore.MAGENTA}Segment {seg_num:02d}/{len(segments):02d}")
-        print(f"{Fore.MAGENTA}{'─'*80}")
+        print(f"\n{Fore.YELLOW}{'='*80}")
+        print(f"{Fore.YELLOW}Running Variant {variant_id}: {variant_config['name']}")
+        print(f"{Fore.YELLOW}{'='*80}\n")
         
-        # Get titles for this segment
-        segment_titles = titles_df[titles_df['segment'] == seg_num]
+        # Results storage for this variant
+        all_results = []
+        segment_results = {}
+        model_scores = {}
         
-        # Get corresponding transcript
-        # Segments are 1-indexed in the CSV but 0-indexed in the transcript list
-        transcript_idx = seg_num - 1
-        
-        if transcript_idx >= len(transcripts):
-            print(f"{Fore.RED}Warning: Segment {seg_num} not found in transcript")
-            continue
-        
-        transcript_data = transcripts[transcript_idx]
-        full_transcript = transcript_data['transcript']
-        start_time = transcript_data['start']
-        
-        # Display segment info
-        print(f"{Fore.CYAN}Start Time: {Fore.WHITE}{format_timestamp(start_time)} ({start_time}s)")
-        print(f"{Fore.CYAN}Transcript: {Fore.WHITE}{len(full_transcript):,} characters")
-        print(f"{Fore.CYAN}Evaluating {Fore.YELLOW}{len(segment_titles)} {Fore.CYAN}titles...\n")
-        
-        # Evaluate each title
-        segment_scores = []
-        seen_titles_in_segment = {}  # Track duplicates during scoring
-        
-        for idx, row in segment_titles.iterrows():
-            title = row['generated_title']
-            model = row['model']
+        # Process each segment
+        for seg_num in segments:
+            # Start segment timing
+            segment_start_time = time.time()
             
-            # Get model color
-            model_color = get_model_color(model)
+            print(f"\n{Fore.MAGENTA}{'─'*80}")
+            print(f"{Fore.MAGENTA}Segment {seg_num:02d}/{len(segments):02d} [Variant {variant_id}: {variant_config['name']}]")
+            print(f"{Fore.MAGENTA}{'─'*80}")
             
-            # Check if this exact title was already scored
-            if title in seen_titles_in_segment:
-                # Duplicate detected during scoring - show message
-                seen_titles_in_segment[title]['count'] += 1
+            # Get titles for this segment
+            segment_titles = titles_df[titles_df['segment'] == seg_num]
+            
+            # Get corresponding transcript
+            # Segments are 1-indexed in the CSV but 0-indexed in the transcript list
+            transcript_idx = seg_num - 1
+            
+            if transcript_idx >= len(transcripts):
+                print(f"{Fore.RED}Warning: Segment {seg_num} not found in transcript")
+                continue
+            
+            transcript_data = transcripts[transcript_idx]
+            full_transcript = transcript_data['transcript']
+            start_time = transcript_data['start']
+            
+            # Display segment info
+            print(f"{Fore.CYAN}Start Time: {Fore.WHITE}{format_timestamp(start_time)} ({start_time}s)")
+            print(f"{Fore.CYAN}Transcript: {Fore.WHITE}{len(full_transcript):,} characters")
+            print(f"{Fore.CYAN}Evaluating {Fore.YELLOW}{len(segment_titles)} {Fore.CYAN}titles...\n")
+            
+            # Evaluate each title
+            segment_scores = []
+            seen_titles_in_segment = {}  # Track duplicates during scoring
+            
+            for idx, row in segment_titles.iterrows():
+                title = row['generated_title']
+                model = row['model']
                 
-                # Calculate scores for duplicate
-                cosine_score = calculate_cosine_similarity(title, full_transcript)
-                bert_score_val = calculate_bert_score(title, full_transcript)
-                penalty = calculate_verbosity_penalty(title)
-                avg_score = ((bert_score_val + cosine_score) / 2) * penalty
+                # Get model color
+                model_color = get_model_color(model)
+                
+                # Check if this exact title was already scored
+                if title in seen_titles_in_segment:
+                    # Duplicate detected during scoring - show message
+                    seen_titles_in_segment[title]['count'] += 1
+                    
+                    # Calculate scores for duplicate
+                    cosine_score = calculate_cosine_similarity(title, full_transcript) if variant_config['use_cosine'] else 0.0
+                    bert_score_val = calculate_bert_score(title, full_transcript) if variant_config['use_bert'] else 0.0
+                    penalty = calculate_verbosity_penalty(title, variant_config['reference_length'])
+                    avg_score = calculate_final_score(bert_score_val, cosine_score, penalty, variant_config)
+                    
+                    # Color code the score
+                    if avg_score >= 0.27:
+                        score_color = Fore.GREEN
+                    elif avg_score >= 0.2:
+                        score_color = Fore.YELLOW
+                    else:
+                        score_color = Fore.RED
+                    
+                    # Color code the penalty
+                    if penalty == 1.0:
+                        penalty_color = Fore.GREEN
+                    elif penalty >= 0.6:
+                        penalty_color = '\033[33m'  # Orange
+                    else:
+                        penalty_color = Fore.RED
+                    
+                    print(f"  {model_color}[{model}]{Fore.RESET} Duplicate title detected, skipping scoring...")
+                    
+                    if variant_config['use_bert'] and variant_config['use_cosine']:
+                        print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
+                              f"(BERT: {bert_score_val:.3f}, Cosine: {cosine_score:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
+                    elif variant_config['use_bert']:
+                        print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
+                              f"(BERT: {bert_score_val:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
+                    else:
+                        print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
+                              f"(Cosine: {cosine_score:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
+                    
+                    # Still add to results for tracking
+                    result = {
+                        'segment': seg_num,
+                        'start': start_time,
+                        'model': model,
+                        'title': title,
+                        'cosine_score': cosine_score,
+                        'bert_score': bert_score_val,
+                        'penalty': penalty,
+                        'avg_score': avg_score,
+                        'title_number': row['title_number']
+                    }
+                    segment_scores.append(result)
+                    all_results.append(result)
+                    
+                    if model not in model_scores:
+                        model_scores[model] = []
+                    model_scores[model].append(avg_score)
+                    
+                    continue
+                
+                # New unique title - score it normally
+                seen_titles_in_segment[title] = {'count': 1}
+                
+                # Show which title is being scored
+                print(f"  {model_color}[{model}]{Fore.RESET} Scoring: \"{title[:60]}{'...' if len(title) > 60 else ''}\"")
+                
+                # Calculate scores based on variant config
+                cosine_score = calculate_cosine_similarity(title, full_transcript) if variant_config['use_cosine'] else 0.0
+                bert_score_val = calculate_bert_score(title, full_transcript) if variant_config['use_bert'] else 0.0
+                penalty = calculate_verbosity_penalty(title, variant_config['reference_length'])
+                
+                # Calculate final score
+                avg_score = calculate_final_score(bert_score_val, cosine_score, penalty, variant_config)
                 
                 # Color code the score
                 if avg_score >= 0.27:
@@ -350,11 +487,17 @@ def evaluate_titles(video_name):
                 else:
                     penalty_color = Fore.RED
                 
-                print(f"  {model_color}[{model}]{Fore.RESET} Duplicate title detected, skipping scoring...")
-                print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
-                      f"(BERT: {bert_score_val:.3f}, Cosine: {cosine_score:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
+                # Display score info based on variant
+                if variant_config['use_bert'] and variant_config['use_cosine']:
+                    print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
+                          f"(BERT: {bert_score_val:.3f}, Cosine: {cosine_score:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
+                elif variant_config['use_bert']:
+                    print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
+                          f"(BERT: {bert_score_val:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
+                else:
+                    print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
+                          f"(Cosine: {cosine_score:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
                 
-                # Still add to results for tracking
                 result = {
                     'segment': seg_num,
                     'start': start_time,
@@ -366,132 +509,79 @@ def evaluate_titles(video_name):
                     'avg_score': avg_score,
                     'title_number': row['title_number']
                 }
+                
                 segment_scores.append(result)
                 all_results.append(result)
                 
+                # Track model scores
                 if model not in model_scores:
                     model_scores[model] = []
                 model_scores[model].append(avg_score)
-                
-                continue
             
-            # New unique title - score it normally
-            seen_titles_in_segment[title] = {'count': 1}
-            
-            # Show which title is being scored
-            print(f"  {model_color}[{model}]{Fore.RESET} Scoring: \"{title[:60]}{'...' if len(title) > 60 else ''}\"")
-            
-            # Calculate scores
-            cosine_score = calculate_cosine_similarity(title, full_transcript)
-            bert_score_val = calculate_bert_score(title, full_transcript)
-            penalty = calculate_verbosity_penalty(title)
-            
-            # Calculate final score
-            avg_score = ((bert_score_val + cosine_score) / 2) * penalty
-            
-            # Color code the score
-            if avg_score >= 0.27:
-                score_color = Fore.GREEN
-            elif avg_score >= 0.2:
-                score_color = Fore.YELLOW
-            else:
-                score_color = Fore.RED
-            
-            # Color code the penalty
-            if penalty == 1.0:
-                penalty_color = Fore.GREEN
-            elif penalty >= 0.6:
-                penalty_color = '\033[33m'  # Orange
-            else:
-                penalty_color = Fore.RED
-            
-            print(f"  {Fore.WHITE}→ Score: {score_color}{avg_score:.4f}{Fore.RESET} "
-                  f"(BERT: {bert_score_val:.3f}, Cosine: {cosine_score:.3f}, Penalty: {penalty_color}{penalty:.3f}{Fore.RESET})\n")
-            
-            result = {
-                'segment': seg_num,
+            # Store segment results
+            segment_results[seg_num] = {
                 'start': start_time,
-                'model': model,
-                'title': title,
-                'cosine_score': cosine_score,
-                'bert_score': bert_score_val,
-                'penalty': penalty,
-                'avg_score': avg_score,
-                'title_number': row['title_number']
+                'transcript_length': len(full_transcript),
+                'scores': sorted(segment_scores, key=lambda x: x['avg_score'], reverse=True)
             }
             
-            segment_scores.append(result)
-            all_results.append(result)
+            # Display top 3 results for this segment
+            print(f"{Fore.CYAN}{'─'*80}")
+            print(f"{Fore.CYAN}Top 3 Results for Segment {seg_num:02d}:")
+            print(f"{Fore.CYAN}{'─'*80}")
             
-            # Track model scores
-            if model not in model_scores:
-                model_scores[model] = []
-            model_scores[model].append(avg_score)
-        
-        # Store segment results
-        segment_results[seg_num] = {
-            'start': start_time,
-            'transcript_length': len(full_transcript),
-            'scores': sorted(segment_scores, key=lambda x: x['avg_score'], reverse=True)
-        }
-        
-        # Display top 3 results for this segment
-        print(f"{Fore.CYAN}{'─'*80}")
-        print(f"{Fore.CYAN}Top 3 Results for Segment {seg_num:02d}:")
-        print(f"{Fore.CYAN}{'─'*80}")
-        
-        # Get unique titles for Top 3 display
-        seen_titles = {}
-        unique_results = []
-        
-        for result in segment_results[seg_num]['scores']:
-            title = result['title']
-            if title not in seen_titles:
-                # First occurrence of this title
-                seen_titles[title] = {'count': 1, 'result': result}
-                unique_results.append(result)
-            else:
-                # Duplicate title - just increment count
-                seen_titles[title]['count'] += 1
-        
-        # Display top 3 unique titles
-        for rank, result in enumerate(unique_results[:3], 1):
-            if result['avg_score'] >= 0.27:
-                score_color = Fore.GREEN
-            elif result['avg_score'] >= 0.2:
-                score_color = Fore.YELLOW
-            else:
-                score_color = Fore.RED
+            # Get unique titles for Top 3 display
+            seen_titles = {}
+            unique_results = []
             
-            # Get model color
-            model_color = get_model_color(result['model'])
+            for result in segment_results[seg_num]['scores']:
+                title = result['title']
+                if title not in seen_titles:
+                    # First occurrence of this title
+                    seen_titles[title] = {'count': 1, 'result': result}
+                    unique_results.append(result)
+                else:
+                    # Duplicate title - just increment count
+                    seen_titles[title]['count'] += 1
             
-            # Get duplicate count for this title
-            dup_count = seen_titles[result['title']]['count']
-            dup_indicator = f" {Fore.YELLOW}({dup_count}){Fore.RESET}" if dup_count > 1 else ""
+            # Display top 3 unique titles
+            for rank, result in enumerate(unique_results[:3], 1):
+                if result['avg_score'] >= 0.27:
+                    score_color = Fore.GREEN
+                elif result['avg_score'] >= 0.2:
+                    score_color = Fore.YELLOW
+                else:
+                    score_color = Fore.RED
+                
+                # Get model color
+                model_color = get_model_color(result['model'])
+                
+                # Get duplicate count for this title
+                dup_count = seen_titles[result['title']]['count']
+                dup_indicator = f" {Fore.YELLOW}({dup_count}){Fore.RESET}" if dup_count > 1 else ""
+                
+                print(f"{Fore.WHITE}#{rank} {score_color}{result['avg_score']:.4f}{Fore.RESET} "
+                      f"{model_color}[{result['model']}]{Fore.RESET} \"{result['title']}\"{dup_indicator}")
             
-            print(f"{Fore.WHITE}#{rank} {score_color}{result['avg_score']:.4f}{Fore.RESET} "
-                  f"{model_color}[{result['model']}]{Fore.RESET} \"{result['title']}\"{dup_indicator}")
+            # Calculate and display segment elapsed time
+            segment_elapsed = time.time() - segment_start_time
+            minutes = int(segment_elapsed // 60)
+            seconds = int(segment_elapsed % 60)
+            print(f"{Fore.CYAN}Segment completed in: {Fore.WHITE}{minutes:02d}:{seconds:02d}{Fore.RESET}\n")
         
-        # Calculate and display segment elapsed time
-        segment_elapsed = time.time() - segment_start_time
-        minutes = int(segment_elapsed // 60)
-        seconds = int(segment_elapsed % 60)
-        print(f"{Fore.CYAN}Segment completed in: {Fore.WHITE}{minutes:02d}:{seconds:02d}{Fore.RESET}\n")
-    
-    # Display model average scores
-    print(f"\n{Fore.CYAN}{'='*80}")
-    print(f"{Fore.CYAN}Model Performance Summary for {video_name}")
-    print(f"{Fore.CYAN}{'='*80}\n")
-    
-    for model in sorted(model_scores.keys()):
-        avg = np.mean(model_scores[model])
-        print(f"{Fore.YELLOW}{model:20s} {Fore.WHITE}Average Score: {Fore.GREEN}{avg:.4f}")
-    
-    # Generate outputs
-    generate_text_report(video_name, segment_results, model_scores)
-    generate_csv_scores(video_name, segment_results)
-    generate_json_output(video_name, segment_results)
+        # Display model average scores for this variant
+        print(f"\n{Fore.CYAN}{'='*80}")
+        print(f"{Fore.CYAN}Model Performance Summary for {video_name} - Variant {variant_id}")
+        print(f"{Fore.CYAN}{'='*80}\n")
+        
+        for model in sorted(model_scores.keys()):
+            avg = np.mean(model_scores[model])
+            print(f"{Fore.YELLOW}{model:20s} {Fore.WHITE}Average Score: {Fore.GREEN}{avg:.4f}")
+        
+        # Generate outputs for this variant
+        generate_text_report(video_name, segment_results, model_scores, variant_id, variant_config)
+        generate_csv_scores(video_name, segment_results, variant_id, variant_config)
+        generate_json_output(video_name, segment_results, variant_id)
     
     # Calculate and display total video processing time
     video_elapsed = time.time() - video_start_time
@@ -504,7 +594,7 @@ def evaluate_titles(video_name):
     print(f"{Fore.GREEN}{'='*80}\n")
 
 
-def generate_text_report(video_name, segment_results, model_scores):
+def generate_text_report(video_name, segment_results, model_scores, variant_id, variant_config):
     """
     Generate detailed text report for the video.
     
@@ -512,12 +602,15 @@ def generate_text_report(video_name, segment_results, model_scores):
         video_name (str): Name of the video
         segment_results (dict): Dictionary of segment results
         model_scores (dict): Dictionary of model scores
+        variant_id (int): Variant ID
+        variant_config (dict): Variant configuration
     """
-    report_file = REPORT_DIR / f"{video_name}_title_evaluation.txt"
+    report_file = REPORT_DIR / f"{video_name}_title_evaluation_{variant_id}.txt"
     
     with open(report_file, 'w', encoding='utf-8') as f:
         f.write("="*100 + "\n")
         f.write(f"TITLE EVALUATION REPORT: {video_name}\n")
+        f.write(f"Variant {variant_id}: {variant_config['name']}\n")
         f.write("="*100 + "\n\n")
         
         # Overall model performance
@@ -585,15 +678,17 @@ def generate_text_report(video_name, segment_results, model_scores):
     print(f"{Fore.GREEN}Text report saved to: {Fore.WHITE}{report_file}")
 
 
-def generate_csv_scores(video_name, segment_results):
+def generate_csv_scores(video_name, segment_results, variant_id, variant_config):
     """
     Generate CSV file with all title scores.
     
     Args:
         video_name (str): Name of the video
         segment_results (dict): Dictionary of segment results
+        variant_id (int): Variant ID
+        variant_config (dict): Variant configuration
     """
-    csv_file = REPORT_DIR / f"{video_name}_scores.csv"
+    csv_file = REPORT_DIR / f"{video_name}_scores_{variant_id}.csv"
     
     # Collect all scores
     rows = []
@@ -615,18 +710,25 @@ def generate_csv_scores(video_name, segment_results):
     
     # Create DataFrame and save to CSV
     df = pd.DataFrame(rows)
-    df.to_csv(csv_file, index=False, encoding='utf-8')
+    
+    # Write variant info as a comment in the first row
+    with open(csv_file, 'w', encoding='utf-8') as f:
+        # Write variant info as header comment
+        f.write(f"# Variant {variant_id}: {variant_config['name']}\n")
+        # Write the CSV data
+        df.to_csv(f, index=False)
     
     print(f"{Fore.GREEN}CSV scores saved to: {Fore.WHITE}{csv_file}")
 
 
-def generate_json_output(video_name, segment_results):
+def generate_json_output(video_name, segment_results, variant_id):
     """
     Generate JSON output with the highest-scoring title for each segment.
     
     Args:
         video_name (str): Name of the video
         segment_results (dict): Dictionary of segment results
+        variant_id (int): Variant ID
     """
     json_output = []
     
@@ -643,12 +745,50 @@ def generate_json_output(video_name, segment_results):
         })
     
     # Save JSON file
-    json_file = SELECTED_TITLES_DIR / f"{video_name}_chapters.json"
+    json_file = SELECTED_TITLES_DIR / f"{video_name}_chapters_{variant_id}.json"
     
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(json_output, f, indent=2, ensure_ascii=False)
     
     print(f"{Fore.GREEN}JSON output saved to: {Fore.WHITE}{json_file}")
+
+
+def display_variant_menu():
+    """
+    Display menu of available variants for user selection.
+    
+    Returns:
+        list: List of selected variant IDs or empty list to use default
+    """
+    print(f"\n{Fore.CYAN}{'='*80}")
+    print(f"{Fore.CYAN}Available Scoring Variants")
+    print(f"{Fore.CYAN}{'='*80}\n")
+    
+    for variant_id, config in VARIANTS.items():
+        print(f"{Fore.YELLOW}{variant_id}. {Fore.WHITE}{config['name']}")
+    
+    print(f"\n{Fore.YELLOW}Examples: {Fore.WHITE}1,2  or  2-4  or  'all'  or  press Enter for default (variant 1)")
+    print()
+    
+    while True:
+        try:
+            choice = input(f"{Fore.GREEN}Select variants to run: {Fore.WHITE}").strip()
+            
+            # If user presses Enter without input, use default
+            if not choice:
+                return [1]
+            
+            if choice.lower() in ['0', 'exit', 'quit']:
+                return []
+            
+            indices = parse_selection(choice, len(VARIANTS))
+            return indices
+            
+        except ValueError as e:
+            print(f"{Fore.RED}Error: {e}. Please try again.")
+        except KeyboardInterrupt:
+            print(f"\n{Fore.YELLOW}Operation cancelled by user.")
+            return []
 
 
 def display_menu(videos):
@@ -693,12 +833,26 @@ def main():
     """
     Main function to run the title selection script.
     """
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Video Title Selection Script')
+    parser.add_argument('--variant', action='store_true', 
+                       help='Run variant selection mode to test different scoring methods')
+    args = parser.parse_args()
+    
     # Start overall timing
     overall_start_time = time.time()
     
     print(f"\n{Fore.CYAN}{'='*80}")
     print(f"{Fore.CYAN}Video Title Selection Script")
     print(f"{Fore.CYAN}{'='*80}\n")
+    
+    # Determine which variants to run
+    variant_ids = None
+    if args.variant:
+        variant_ids = display_variant_menu()
+        if not variant_ids:
+            print(f"\n{Fore.YELLOW}Exiting script. Goodbye!")
+            return
     
     # Find available videos
     print(f"{Fore.GREEN}Scanning for available videos...")
@@ -722,7 +876,7 @@ def main():
     
     # Process selected videos
     for video in selected_videos:
-        evaluate_titles(video)
+        evaluate_titles(video, variant_ids)
     
     # Calculate and display overall execution time
     overall_elapsed = time.time() - overall_start_time
@@ -733,6 +887,8 @@ def main():
     print(f"{Fore.CYAN}All Processing Complete!")
     print(f"{Fore.CYAN}Total execution time: {Fore.WHITE}{total_minutes:02d}:{total_seconds:02d}{Fore.RESET}")
     print(f"{Fore.CYAN}Videos processed: {Fore.YELLOW}{len(selected_videos)}{Fore.RESET}")
+    if variant_ids:
+        print(f"{Fore.CYAN}Variants run: {Fore.YELLOW}{', '.join(map(str, variant_ids))}{Fore.RESET}")
     print(f"{Fore.CYAN}{'='*80}\n")
 
 
