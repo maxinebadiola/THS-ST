@@ -35,29 +35,29 @@ const videoMetadata = {
         title: "The Fascinating Map of Fungi",
         filename: "fungi_map.mp4",
         expectedDuration: null, // will be set from actual file
-        minDuration: 300, // minimum 5 minutes
-        maxDuration: 900 // maximum 15 minutes
+        minDuration: 1329, // 22:09 (23:09 - 1 min)
+        maxDuration: 1449 // 24:09 (23:09 + 1 min)
     },
     engineering_map: {
         title: "The Map of Engineering", 
         filename: "engineering_map.mp4",
         expectedDuration: null,
-        minDuration: 300,
-        maxDuration: 900
+        minDuration: 1268, // 21:08 (22:08 - 1 min)
+        maxDuration: 1388 // 23:08 (22:08 + 1 min)
     },
     pantone_colors: {
         title: "Why Pantone Colors Are So Expensive | So Expensive | Business Insider",
         filename: "pantone_colors.mp4",
         expectedDuration: null,
-        minDuration: 300,
-        maxDuration: 900
+        minDuration: 1295, // 21:35 (22:35 - 1 min)
+        maxDuration: 1415 // 23:35 (22:35 + 1 min)
     },
     airport_food: {
         title: "Why Airport Food Is So Expensive",
         filename: "airport_food.mp4",
         expectedDuration: null,
-        minDuration: 300,
-        maxDuration: 900
+        minDuration: 957, // 15:57 (16:57 - 1 min)
+        maxDuration: 1077 // 17:57 (16:57 + 1 min)
     }
 };
 
