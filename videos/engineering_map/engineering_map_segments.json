@@ -1,22 +1,27 @@
 [
   {
-    "name": "huge influence",
-    "start": 0
+    "name": "Engineering Innovations That Transform Our Lives",
+    "start": 0,
+    "timestamp": "00:00"
   },
   {
-    "name": "huge influence",
-    "start": 7
+    "name": "The Engineering Infrastructure of Our World",
+    "start": 7,
+    "timestamp": "00:07"
   },
   {
-    "name": "understanding corrosion",
-    "start": 157
+    "name": "Cross-Disciplinary Engineering: From Buildings to Biotechnology",
+    "start": 157,
+    "timestamp": "02:37"
   },
   {
-    "name": "mechanical devices like gears",
-    "start": 550
+    "name": "Mechanical Engineering: The Product of Ingenuity",
+    "start": 550,
+    "timestamp": "09:10"
   },
   {
-    "name": "good overview",
-    "start": 1212
+    "name": "Engineering Mindset: How Engineers Solve Problems",
+    "start": 1212,
+    "timestamp": "20:12"
   }
 ]
