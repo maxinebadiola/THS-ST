@@ -1,9 +1,0 @@
-[
-  { "name": "Intro", "start": 0 },
-  { "name": "Recap, the surprise pi", "start": 48 },
-  { "name": "The game plan", "start": 238 },
-  { "name": "How to analyze the blocks", "start": 331 },
-  { "name": "The geometry puzzle", "start": 899 },
-  { "name": "Small angle approximations", "start": 1205 },
-  { "name": "The value of pure puzzles", "start": 1500 }
-]
