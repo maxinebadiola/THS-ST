@@ -33,6 +33,7 @@ import subprocess
 from pathlib import Path
 from typing import List, Dict, Optional
 from datetime import datetime, timezone, timedelta
+from collections import defaultdict
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -112,6 +113,9 @@ class TitleGenerator:
         # Setup API key if using Gemini
         if self.use_gemini:
             self._setup_gemini_api()
+        
+        # Initialize speed tracking
+        self.model_times = defaultdict(lambda: defaultdict(list))
         
         print(f"TitleGenerator initialized with device: {self.device}")
         print(f"Models to use: {list(self.models_config.keys())}")
@@ -945,6 +949,42 @@ Title:"""
             writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
             writer.writerow(row_data)
 
+    def _write_speed_csv(self, model_name: str, output_path: Path):
+        """Write speed statistics CSV for a model."""
+        csv_file = output_path / f"{model_name}_speeds.csv"
+        
+        with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['video', 'avg_time_per_segment'])
+            
+            all_times = []
+            for video, times in self.model_times[model_name].items():
+                if times:
+                    avg_time = sum(times) / len(times)
+                    writer.writerow([video, f"{avg_time:.2f}"])
+                    all_times.extend(times)
+            
+            if all_times:
+                overall_avg = sum(all_times) / len(all_times)
+                overall_median = sorted(all_times)[len(all_times) // 2]
+                writer.writerow(['avg', f"{overall_avg:.2f}"])
+                writer.writerow(['median', f"{overall_median:.2f}"])
+        
+        # Print speed summary table
+        print(f"\n{self.BLUE}[SPEED SUMMARY FOR {model_name.upper()}]{self.RESET}")
+        print("-" * 50)
+        for video, times in self.model_times[model_name].items():
+            if times:
+                avg_time = sum(times) / len(times)
+                print(f"{video} - {avg_time:.2f}s")
+        
+        if all_times:
+            overall_avg = sum(all_times) / len(all_times)
+            overall_median = sorted(all_times)[len(all_times) // 2]
+            print(f"avg - {overall_avg:.2f}s")
+            print(f"median - {overall_median:.2f}s")
+        print()
+
     def _create_all_csv_files(self, output_path: Path, video_names: List[str]):
         """Create empty CSV files with headers for all videos upfront."""
         fieldnames = ['model', 'video', 'segment', 'title_number', 'start', 'generated_title']
@@ -1285,6 +1325,9 @@ Title:"""
                         print(f"{self.BLUE}├─ Start Time: {segment_start_timestamp}{self.RESET}")
                         print(f"{self.BLUE}├─ End Time: {segment_end_timestamp}{self.RESET}")
                         print(f"{self.BLUE}└─ Elapsed: {segment_minutes:02d}:{segment_seconds:02d}{self.RESET}\n")
+                        
+                        # Track segment processing time for speed analysis
+                        self.model_times[model_name][video_name].append(segment_elapsed)
                 
                 except Exception as segment_error:
                     print(f"{self.RED}[ERROR]{self.RESET} Error processing segments: {segment_error}")
@@ -1310,6 +1353,9 @@ Title:"""
             # Always unload model to free memory and delete its cache
             self._unload_model(tokenizer, model, model_path)
             print(f"{self.GREEN}[PASS]{self.RESET} {model_name} unloaded and memory freed")
+        
+        # Write speed statistics for this model
+        self._write_speed_csv(model_name, output_path)
     
     def _process_local_single_segment(self, model_name: str, model_path: str, single_segment_data: Dict, output_path: Path, segment_index: int):
         """Process a single segment with a local model."""
@@ -1584,6 +1630,9 @@ Title:"""
                     print(f"{self.BLUE}├─ Start Time: {segment_start_timestamp}{self.RESET}")
                     print(f"{self.BLUE}├─ End Time: {segment_end_timestamp}{self.RESET}")
                     print(f"{self.BLUE}└─ Elapsed: {segment_minutes:02d}:{segment_seconds:02d}{self.RESET}\n")
+                    
+                    # Track segment processing time for speed analysis
+                    self.model_times[model_name][video_name].append(segment_elapsed)
             
             except Exception as segment_error:
                 print(f"{self.RED}[ERROR]{self.RESET} Error processing segments: {segment_error}")
@@ -1604,6 +1653,9 @@ Title:"""
             print(f"{self.BLUE}├─ End Time: {video_end_timestamp}{self.RESET}")
             print(f"{self.BLUE}└─ Total Elapsed: {video_minutes:02d}:{video_seconds:02d}{self.RESET}")
             print(f"{self.BLUE}{'='*60}{self.RESET}\n")
+        
+        # Write speed statistics for this model
+        self._write_speed_csv(model_name, output_path)
 
 
 def show_segment_menu(input_dir: str) -> tuple:
