@@ -1,0 +1,500 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+7,1145,19:05,tinyllama,How did the Ukrainine police seize the servers of a small software company and access the data without any reference to Frank Herberts book?,0.02120276248807555,0.4258688688278198,0.0,0.049787068367863944
+8,1287,21:27,tinyllama,"When it Comes to Material Damage, Cyber Security Experts Were Not Much Different From A Bombing Raid",0.06850120436019531,0.42845454812049866,0.0,0.15987974607969388
+7,1145,19:05,qwen2-7b,Uncovering the Origins of a Cyber Attack: From Seized Hard Drives to Misunderstood SME Security,0.0798967453277043,0.3580723702907562,0.0,0.22313016014842982
+5,910,15:10,llama3.1-8b,Uncovering the kill switch of Napatya. I chose the latter as it better fits,0.08875185819691096,0.3366950750350952,0.0,0.2635971381157267
+7,1145,19:05,qwen2-7b,Uncovering the Origins of a Cyber Attack: From Seized Hard Drives to SME Vulnerabilities,0.09251860761965659,0.3509848713874817,0.0,0.2635971381157267
+8,1287,21:27,tinyllama,"When Cybersecurity Experts Investigate Cyber Attacks, They Discover That They Are Not Just Wipers",0.099008376105856,0.37560489773750305,0.0,0.2635971381157267
+2,165,02:45,mistral-7b-v0.3,The Dawn of Digital Warfare: GRU's Resurgence in 1st State-Sponsored Power Grid Attack,0.12068549692807629,0.38755378127098083,0.0,0.31140322391459774
+3,346,05:46,qwen2-7b,The Rise and Tactics of GRU's Cyber Arm: From Hackers to Global Threat,0.11742073313985239,0.37706974148750305,0.0,0.31140322391459774
+5,910,15:10,tinyllama,How Napetía Exploited a Common File Name in Windows to Escape Sanctioned Malware,0.11378652036376258,0.3653993010520935,0.0,0.31140322391459774
+5,910,15:10,qwen2-7b,Unraveling NAPETIA: The Race Against Time to Identify and Neutralize the Kill Switch,0.0982780710419736,0.3155974745750427,0.0,0.31140322391459774
+6,1031,17:11,tinyllama,How the Ukrainian Cybersecurity Company Discovered the Kill Switch in the Petyon Attack,0.13359506115438374,0.42900988459587097,0.0,0.31140322391459774
+8,1287,21:27,tinyllama,"When it Comes to Material Damage, NAPTYA Was Not Just a Wiping Operation",0.12624393671675427,0.4054034352302551,0.0,0.31140322391459774
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: A Turning Point in 3rd Wave,0.1374742421830729,0.3736937344074249,0.0,0.36787944117144233
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: A Turning Point in 3rd Wave,0.1374742421830729,0.3736937344074249,0.0,0.36787944117144233
+3,346,05:46,qwen2-7b,The Rise and Tactics of Sandworm: Master Cyber Attackers of the GRU,0.13323997735941615,0.3621838092803955,0.0,0.36787944117144233
+3,346,05:46,mistral-7b-v0.3,Reinvention of GRU: Birth of Cyber Cowboy Hackers - Sandworn's Global Disruption,0.12962031348365174,0.3523445427417755,0.0,0.36787944117144233
+4,663,11:03,qwen2-7b,The Red Message: How NotPetya Spread Chaos and the Secret Kill Switch,0.11618908236530004,0.3158346712589264,0.0,0.36787944117144233
+4,663,11:03,qwen2-7b,The Red Message: How NotPetya Spread Chaos and the Secret Kill Switch,0.11618908236530004,0.3158346712589264,0.0,0.36787944117144233
+5,910,15:10,qwen2-7b,Unraveling NAPETIA: The Race Against Time to Stop a Global Cyber Threat,0.1112044864618357,0.3022851347923279,0.0,0.36787944117144233
+1,0,00:00,qwen2-7b,The Night Before: The Origin of the World's Worst Cyber Attack,0.14533419925392668,0.33441048860549927,0.0,0.43459820850707825
+2,165,02:45,mistral-7b-v0.3,The Dawn of Digital Warfare: GRU's Reemergence in 17's Cyber Attacks,0.15598015108165572,0.3589065670967102,0.0,0.43459820850707825
+2,165,02:45,tinyllama,The Rise of the GRUE: A New Era of Cyber Warfare,0.15484041077688773,0.3562840521335602,0.0,0.43459820850707825
+2,165,02:45,mistral-7b-v0.3,The Dawn of Digital Warfare: GRU's Resurgence in 17's Ukrainian Attacks,0.15446784546367645,0.3554267883300781,0.0,0.43459820850707825
+3,346,05:46,mistral-7b-v0.3,"Rising From the Shadows: The Emergence of Cyber Warfare Powerhouse, SandWorm",0.14505438346993169,0.3337666392326355,0.0,0.43459820850707825
+5,910,15:10,tinyllama,How Napetía Exploited a Critical Flaw in Windows to Attack Ukraine,0.14343822842795353,0.3300479054450989,0.0,0.43459820850707825
+6,1031,17:11,qwen2-7b,Decoding the PetyA Cyber Attack: From Patient Zero to Eternal Blue,0.1578448945490281,0.36319729685783386,0.0,0.43459820850707825
+6,1031,17:11,qwen2-7b,Decoding the PetyA Cyber Attack: From Patient Zero to Eternal Blue,0.1578448945490281,0.36319729685783386,0.0,0.43459820850707825
+6,1031,17:11,qwen2-7b,Unraveling the PetyA Cyber Attack: From Chaos to Recovery and Investigation,0.15504338213177504,0.35675108432769775,0.0,0.43459820850707825
+7,1145,19:05,tinyllama,The Russian Invasion of Ukraine: How the GRUB Hackers Fought Back,0.14913897637346876,0.34316518902778625,0.0,0.43459820850707825
+7,1145,19:05,qwen2-7b,Uncovering the Origins: From Seized Hard Drives to Revealing the Attack,0.14775543989659662,0.33998170495033264,0.0,0.43459820850707825
+8,1287,21:27,tinyllama,Napatya: A Cyber Espionage Attack That Covered Tracks of Previous Operations,0.1617232262805544,0.37212124466896057,0.0,0.43459820850707825
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: A New Era Unfolds,0.19612781786887074,0.38200482726097107,0.0,0.513417119032592
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: A New Era Unfolds,0.19612781786887074,0.38200482726097107,0.0,0.513417119032592
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: A New Era Unfolds,0.19612781786887074,0.38200482726097107,0.0,0.513417119032592
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: A New Era Unfolds,0.19612781786887074,0.38200482726097107,0.0,0.513417119032592
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: A Turning Point in,0.18953143996163083,0.3691568374633789,0.0,0.513417119032592
+2,165,02:45,mistral-7b-v0.3,GRU's Digital War: A New Era of Cyber Conflict Begins,0.1877727098333472,0.36573129892349243,0.0,0.513417119032592
+2,165,02:45,mistral-7b-v0.3,GRU's Digital War: A New Era of Cyber Conflict Begins,0.1877727098333472,0.36573129892349243,0.0,0.513417119032592
+3,346,05:46,tinyllama,The GRU's Newest Weapon: A Cyberattack on Ukraine's Electric Grid,0.21479628940161147,0.41836604475975037,0.0,0.513417119032592
+3,346,05:46,mistral-7b-v0.3,Reinvented GRU Cyber Unit: Rise of SandwORM & NotPetya Attack,0.17684897324755175,0.3444547653198242,0.0,0.513417119032592
+4,663,11:03,mistral-7b-v0.3,The Ominous Kill Switch: Perfc File Saves Some from NotPetya,0.16145765941300363,0.3144765794277191,0.0,0.513417119032592
+4,663,11:03,qwen2-7b,The Red Message: Chaos and Survival in the Digital Apocalypse,0.15795921832740484,0.3076625466346741,0.0,0.513417119032592
+5,910,15:10,tinyllama,How did the Ukrainain government react to the NAPETIA attack?,0.16681560316107613,0.324912428855896,0.0,0.513417119032592
+5,910,15:10,tinyllama,Ukraine's Cyber War: How a Small Country Became a Target,0.16336611004645732,0.3181937336921692,0.0,0.513417119032592
+6,1031,17:11,qwen2-7b,Unraveling the PetyA Attack: From Chaos to Recovery and Insight,0.16799690330222566,0.3272132873535156,0.0,0.513417119032592
+7,1145,19:05,tinyllama,"Russia's War on Ukraine: Cyber Attacks, Sanctions, and Economic Retaliation",0.17008071895456067,0.3312720060348511,0.0,0.513417119032592
+8,1287,21:27,qwen2-7b,Napetia: Russia's Stealthy Cyber Weapon and Its Mysterious Immunity Mechanism,0.18565394664562043,0.3616045117378235,0.0,0.513417119032592
+8,1287,21:27,qwen2-7b,Napetia: Russia's Stealthy Cyber Weapon and Its Mysterious Kill Switch,0.18508015830184152,0.3604869246482849,0.0,0.513417119032592
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon and Its Mysterious Immunity Mechanism,0.17414289561215537,0.339184045791626,0.0,0.513417119032592
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools and Global Attacks,0.17598181839936555,0.34276577830314636,0.0,0.513417119032592
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools and Global Attacks,0.17598181839936555,0.34276577830314636,0.0,0.513417119032592
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools and Global Attacks,0.17598181839936555,0.34276577830314636,0.0,0.513417119032592
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools and Global Threats,0.17233829301841444,0.3356691598892212,0.0,0.513417119032592
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools and Global Threats,0.17233829301841444,0.3356691598892212,0.0,0.513417119032592
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools and Global Threats,0.17233829301841444,0.3356691598892212,0.0,0.513417119032592
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools and Global Threats,0.17233829301841444,0.3356691598892212,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Night Before: Uncovering the Origin of Global Chaos,0.18708945140157385,0.3084583580493927,0.0,0.6065306597126334
+2,165,02:45,mistral-7b-v0.3,GRU's Digital War: The Dawn of State-Sponsored Cyber Attacks,0.2296254047002611,0.3785882890224457,0.0,0.6065306597126334
+2,165,02:45,mistral-7b-v0.3,GRU's Digital War: The Dawn of State-Sponsored Cyber Terror,0.22495879033780158,0.37089434266090393,0.0,0.6065306597126334
+2,165,02:45,mistral-7b-v0.3,The Dawn of Digital Warfare: GRU's Resurgence in Ukraine,0.22328063050731894,0.3681275248527527,0.0,0.6065306597126334
+2,165,02:45,mistral-7b-v0.3,The Dawn of Digital Warfare: GRU's Resurgence in Ukraine,0.22328063050731894,0.3681275248527527,0.0,0.6065306597126334
+2,165,02:45,tinyllama,A New Era of Cyber Warfare: The GRUD's Rise,0.22187532823283254,0.3658105731010437,0.0,0.6065306597126334
+3,346,05:46,qwen2-7b,The Rise of Sandworm: Cyber Warfare and Symbolic Messages,0.2103872749704669,0.34686997532844543,0.0,0.6065306597126334
+3,346,05:46,qwen2-7b,The Rise of Sandworm: Cyber Warfare and Symbolic Messages,0.2103872749704669,0.34686997532844543,0.0,0.6065306597126334
+3,346,05:46,qwen2-7b,Cyber Reconnaissance: GRU's Evolution & The Birth of Sandworm,0.20954053985979898,0.3454739451408386,0.0,0.6065306597126334
+3,346,05:46,mistral-7b-v0.3,"Reinvention of GRU: Birth of Cyber Warfare Powerhouse, SandWorm",0.20698788014845895,0.34126532077789307,0.0,0.6065306597126334
+3,346,05:46,mistral-7b-v0.3,Reinventing the GRU: Birth of Cyber Cowboy Group 'Sandworm',0.20504561155675333,0.3380630612373352,0.0,0.6065306597126334
+3,346,05:46,mistral-7b-v0.3,Rise of SandwORM: A New Era of Cyber Warfare,0.2044886350828936,0.33714476227760315,0.0,0.6065306597126334
+3,346,05:46,mistral-7b-v0.3,Rise of Sandwurm: A New Era of Cyber Warfare,0.19812166353461766,0.32664740085601807,0.0,0.6065306597126334
+4,663,11:03,qwen2-7b,The Red Message: Chaos Unfolds from a Stealthy Worm,0.19546251797615116,0.3222632110118866,0.0,0.6065306597126334
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch Saves Some Machines from NotPetya Attack,0.18551002280466866,0.30585432052612305,0.0,0.6065306597126334
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch Saves Few Amidst NotPetya Digital Apocalypso,0.16442774113198944,0.27109551429748535,0.0,0.6065306597126334
+5,910,15:10,tinyllama,How did the Ukrainain government respond to the cyberattack?,0.20607719207103947,0.3397638499736786,0.0,0.6065306597126334
+5,910,15:10,tinyllama,How Napetía was able to infect Ukraine's critical infrastructure,0.1972158921352526,0.32515403628349304,0.0,0.6065306597126334
+5,910,15:10,tinyllama,How Napetya Stole Ukraine's Power and Threatened the World,0.1809545759791006,0.2983436584472656,0.0,0.6065306597126334
+5,910,15:10,qwen2-7b,The Unraveling of Napetka: From Discovery to Global Impact,0.16892326594376963,0.27850738167762756,0.0,0.6065306597126334
+6,1031,17:11,tinyllama,"Mass Shutdowns, Kill Switch, and Researchers Uncover the Truth",0.22343563239818795,0.3683830797672272,0.0,0.6065306597126334
+6,1031,17:11,mistral-7b-v0.3,Ukraine's Cyberattack Unraveled: From Patient Zero to Eternal Blue,0.2116722090127321,0.34898847341537476,0.0,0.6065306597126334
+6,1031,17:11,qwen2-7b,Decoding the PetyA Cyber Attack: From Chaos to Investigation,0.21033584868714067,0.34678518772125244,0.0,0.6065306597126334
+6,1031,17:11,qwen2-7b,Unraveling the PetyA Cyber Attack: From Chaos to Clarity,0.20418723548775075,0.3366478383541107,0.0,0.6065306597126334
+6,1031,17:11,qwen2-7b,Decoding the PetyA Cyber Attack: From Chaos to Clarity,0.20375930373679646,0.3359422981739044,0.0,0.6065306597126334
+6,1031,17:11,qwen2-7b,Decoding the PetyA Cyber Attack: From Chaos to Clarity,0.20375930373679646,0.3359422981739044,0.0,0.6065306597126334
+6,1031,17:11,qwen2-7b,Decoding the PetyA Cyber Attack: From Chaos to Clarity,0.20375930373679646,0.3359422981739044,0.0,0.6065306597126334
+7,1145,19:05,mistral-7b-v0.3,Unraveling Sandworm's Attack Origins: The Seized Servers of MiDoc,0.21336867985376287,0.35178548097610474,0.0,0.6065306597126334
+7,1145,19:05,mistral-7b-v0.3,Unraveling Sandworm's Attack Origins: The Seized Servers of MiDoc,0.21336867985376287,0.35178548097610474,0.0,0.6065306597126334
+7,1145,19:05,tinyllama,The Ukrainian Police Raid and Seizure of Hard Drives,0.20686020920324522,0.3410548269748688,0.0,0.6065306597126334
+7,1145,19:05,qwen2-7b,Uncovering the Origin of a Stealthy Supply Chain Attack,0.19533698000156396,0.32205623388290405,0.0,0.6065306597126334
+7,1145,19:05,qwen2-7b,Uncovering the Origins of a Stealthy Supply Chain Attack,0.19363067580442442,0.31924301385879517,0.0,0.6065306597126334
+7,1145,19:05,mistral-7b-v0.3,Seized Servers Unveil Origins of Cyber Attack on SME,0.19335073244770273,0.31878146529197693,0.0,0.6065306597126334
+7,1145,19:05,qwen2-7b,Uncovering the Origin: MiDoc and the Shadow of Sandworm,0.18329148028875986,0.30219656229019165,0.0,0.6065306597126334
+7,1145,19:05,qwen2-7b,The Unintended Target: MiDoc and the Origins of Napecia,0.1806168074271731,0.29778677225112915,0.0,0.6065306597126334
+8,1287,21:27,tinyllama,Napataya: A Cyber Espionage Operation That Covered Its Tracks,0.21996838018862055,0.3626665472984314,0.0,0.6065306597126334
+8,1287,21:27,tinyllama,Napatya: A Cyber Espionage Attack That Covered Its Tracks,0.21866643660940988,0.36052000522613525,0.0,0.6065306597126334
+8,1287,21:27,tinyllama,Napata: A Cyber Espionage Operation That Left Excessive Damage,0.21291273026830745,0.3510337471961975,0.0,0.6065306597126334
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Covert Espionage Operation Masquerading as Digital Destruction,0.20485031821226948,0.33774107694625854,0.0,0.6065306597126334
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon and Its Hidden Objectives,0.20385190719882818,0.3360949754714966,0.0,0.6065306597126334
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Covert Espionage Operation Hiding in Plain Sight,0.19873219926243013,0.32765400409698486,0.0,0.6065306597126334
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Covert Espionage Operation Hiding in Plain Sight,0.19873219926243013,0.32765400409698486,0.0,0.6065306597126334
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Covert Espionage Operation Hidden Beneath Digital Destruction,0.196950626508605,0.3247166872024536,0.0,0.6065306597126334
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Covert Espionage Operation Hidden Beneath Digital Destruction,0.196950626508605,0.3247166872024536,0.0,0.6065306597126334
+10,1701,28:21,tinyllama,The Cybersecurity Industry's Failure to Hold Threat Actors Accountable,0.20989184735239833,0.3460531532764435,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,The Night the Computers Whispered: Ukraine's Digital Apocalypse,0.25350587260825974,0.35379594564437866,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Ukraine's Digital Apocalypso: Unraveling the NotPetya Ransomware Attack,0.22242178896773238,0.3104146122932434,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,The Night Before: Uncovering the Origin of NotPetya,0.20692792244176825,0.2887911796569824,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,The Night Before: Uncovering the Origin of NotPetya,0.20692792244176825,0.2887911796569824,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,The Night Before: Uncovering the Origin of NotPetya,0.20692792244176825,0.2887911796569824,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,The Night Before: Uncovering the Origin of NotPetya,0.20692792244176825,0.2887911796569824,0.0,0.7165313105737893
+2,165,02:45,mistral-7b-v0.3,GRU's Digital War: The Birth of State-Sponsored Hacking,0.2666841005089802,0.37218764424324036,0.0,0.7165313105737893
+2,165,02:45,llama3.1-8b,Russia's Rise: A New Era of Cyber Warfare,0.26575913912928817,0.37089675664901733,0.0,0.7165313105737893
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: June 30,0.2643219095160181,0.3688909411430359,0.0,0.7165313105737893
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: June 30,0.2643219095160181,0.3688909411430359,0.0,0.7165313105737893
+2,165,02:45,qwen2-7b,The Dawn of State-Sponsored Cyber Warfare: June 30,0.2643219095160181,0.3688909411430359,0.0,0.7165313105737893
+3,346,05:46,mistral-7b-v0.3,Reinventing GRU: Birth of Cyber Cowboy Group SandwORM,0.236405073869824,0.3299298584461212,0.0,0.7165313105737893
+4,663,11:03,tinyllama,"After Encryption Was Complete, The Device Would Reboot",0.303542834530616,0.42362815141677856,0.0,0.7165313105737893
+4,663,11:03,tinyllama,"After Encryption Was Complete, The Device Would Reboot",0.303542834530616,0.42362815141677856,0.0,0.7165313105737893
+4,663,11:03,tinyllama,How NotPetya Spread Across Ukraine and the World,0.23054349014514583,0.32174935936927795,0.0,0.7165313105737893
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch: Saving Devices from NotPetya's Wrath,0.23004093811675674,0.32104799151420593,0.0,0.7165313105737893
+4,663,11:03,mistral-7b-v0.3,The Kill Switch: Perfc's Unexpected Role in NotPetya,0.21020390651702947,0.29336318373680115,0.0,0.7165313105737893
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch Saves Some Machines from NotPetya,0.20628883103760284,0.2878992557525635,0.0,0.7165313105737893
+5,910,15:10,mistral-7b-v0.3,Unraveling Napetya: The Discovery of Its Kill Switch,0.21471487365755057,0.29965874552726746,0.0,0.7165313105737893
+5,910,15:10,mistral-7b-v0.3,Unraveling Napetya: The Discovery of a Kill Switch,0.21436876320985232,0.2991757094860077,0.0,0.7165313105737893
+5,910,15:10,qwen2-7b,Unraveling Napetka's Kill Switch: A Race Against Time,0.20333941822817633,0.2837830185890198,0.0,0.7165313105737893
+5,910,15:10,qwen2-7b,Unraveling NAPETIA: The Hunt for the Kill Switch,0.2008988569647889,0.28037694096565247,0.0,0.7165313105737893
+5,910,15:10,qwen2-7b,The Unraveling of NAPETIA: A Race Against Time,0.19512950244936594,0.27232515811920166,0.0,0.7165313105737893
+5,910,15:10,qwen2-7b,The Unraveling of NAPETIA: A Race Against Time,0.19512950244936594,0.27232515811920166,0.0,0.7165313105737893
+5,910,15:10,mistral-7b-v0.3,Discovering Napetya's Kill Switch: A Race Against Time,0.19297835597482688,0.2693229913711548,0.0,0.7165313105737893
+5,910,15:10,mistral-7b-v0.3,Discovering Napetya's Kill Switch: A Race Against Time,0.19297835597482688,0.2693229913711548,0.0,0.7165313105737893
+5,910,15:10,mistral-7b-v0.3,Discovering Napetya's Kill Switch: A Race Against Time,0.19297835597482688,0.2693229913711548,0.0,0.7165313105737893
+5,910,15:10,mistral-7b-v0.3,Discovering Napetya's Kill Switch: A Race Against Time,0.19297835597482688,0.2693229913711548,0.0,0.7165313105737893
+5,910,15:10,mistral-7b-v0.3,Discovering Napetya's Kill Switch: A Race Against Time,0.19297835597482688,0.2693229913711548,0.0,0.7165313105737893
+6,1031,17:11,tinyllama,How did the attack on Ukraine's infrastructure start?,0.2586677827878471,0.3609999716281891,0.0,0.7165313105737893
+6,1031,17:11,mistral-7b-v0.3,Unraveling NotPetya: The Roots of the Devastating Cyberattack,0.2562294637256571,0.3575970232486725,0.0,0.7165313105737893
+6,1031,17:11,mistral-7b-v0.3,Unraveling NotPetya: A Cyberattack's Devastating Spread and Discovery,0.24747546181056193,0.3453798294067383,0.0,0.7165313105737893
+6,1031,17:11,qwen2-7b,Unraveling the PetyA Attack: From Chaos to Investigation,0.23932963027740448,0.33401140570640564,0.0,0.7165313105737893
+7,1145,19:05,mistral-7b-v0.3,Uncovering Sandworm's Attack Origins: The Raided Ukrainian SME,0.2449418812289259,0.34184393286705017,0.0,0.7165313105737893
+7,1145,19:05,mistral-7b-v0.3,Uncovering Sandworm's Attack Origins: The Raided Ukrainian SME,0.2449418812289259,0.34184393286705017,0.0,0.7165313105737893
+7,1145,19:05,mistral-7b-v0.3,Uncovering Sandworm's Attack Origins: The Raided Ukrainian SME,0.2449418812289259,0.34184393286705017,0.0,0.7165313105737893
+7,1145,19:05,mistral-7b-v0.3,Uncovering Sandworm's Attack Origins: The Raided Ukrainian SME,0.2449418812289259,0.34184393286705017,0.0,0.7165313105737893
+7,1145,19:05,mistral-7b-v0.3,Infiltrating MiDoc: Uncovering Sandworm's Origins Amidst Ukraine Conflict,0.2272413043473201,0.3171407878398895,0.0,0.7165313105737893
+7,1145,19:05,qwen2-7b,The Untimely Downfall of MiDoc: A Cybersecurity Lesson,0.2271530043287347,0.3170175552368164,0.0,0.7165313105737893
+7,1145,19:05,mistral-7b-v0.3,Uncovering Sandworm's Attack Origins: The Case of MiDoc,0.22473458747145925,0.31364238262176514,0.0,0.7165313105737893
+7,1145,19:05,tinyllama,Russia and Ukraine: Cyberwarfare and the War Economy,0.22243310674520522,0.3104304075241089,0.0,0.7165313105737893
+7,1145,19:05,mistral-7b-v0.3,Ukrainian Police Seizure Uncovers Origin of NotPetya Attack,0.21856330237567004,0.30502966046333313,0.0,0.7165313105737893
+7,1145,19:05,gemma2-9b,From Servers to Sandworm: Unmasking a Cyber Attack,0.21779501747393712,0.30395743250846863,0.0,0.7165313105737893
+7,1145,19:05,qwen2-7b,Uncovering the Origins: From Raid to Reverse Engineering,0.21176029310822136,0.29553529620170593,0.0,0.7165313105737893
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Digital Carpet Bomb and Cover-Up Operation,0.2458207386811389,0.34307047724723816,0.0,0.7165313105737893
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Digital Carpet Bomb and Cover-Up Operation,0.2458207386811389,0.34307047724723816,0.0,0.7165313105737893
+8,1287,21:27,tinyllama,NAPATIYA: A Cyber Espionage Attack That Covered Tracks,0.2447661994265312,0.3415987491607666,0.0,0.7165313105737893
+8,1287,21:27,tinyllama,Napatya: A Cyber Espionage Attack That Covered Tracks,0.24464356169817908,0.34142759442329407,0.0,0.7165313105737893
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Digital Carpet Bomb & Cover-Up Operation,0.2401045777198384,0.3350929319858551,0.0,0.7165313105737893
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Covert Espionage Operation Disguised as Destruction,0.23720549698872043,0.3310469388961792,0.0,0.7165313105737893
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon with Hidden Depths,0.23025621078600933,0.3213484287261963,0.0,0.7165313105737893
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon with Hidden Depths,0.23025621078600933,0.3213484287261963,0.0,0.7165313105737893
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon with Hidden Depths,0.23025621078600933,0.3213484287261963,0.0,0.7165313105737893
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon with Hidden Depths,0.23025621078600933,0.3213484287261963,0.0,0.7165313105737893
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon with Hidden Depths,0.23025621078600933,0.3213484287261963,0.0,0.7165313105737893
+8,1287,21:27,qwen2-7b,Napetia: A Strategic Cyber Weapon with Hidden Depths,0.23025621078600933,0.3213484287261963,0.0,0.7165313105737893
+8,1287,21:27,mistral-7b-v0.3,Napecia: A Digital Carpet Bomb Covering Espionage Tracks,0.22604021055158743,0.3154645264148712,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Wake-Up Call: Boosting Cybersecurity Posture & Accountability,0.2581712526712454,0.3603070080280304,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Wake-Up Call: Cybersecurity Boost & Lessons Unlearned,0.25780899837492555,0.35980144143104553,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Wake-Up Call: Cybersecurity Boost & Accountability Demand,0.2547392113926415,0.3555172085762024,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Wake-Up Call: Cybersecurity Boost & Accountability Demand,0.2547392113926415,0.3555172085762024,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Wake-Up Call: Cybersecurity Boost & Unheeded Lessons,0.2501918351755332,0.34917083382606506,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Wake-Up Call: Cybersecurity Boost & Unheeded Lessons,0.2501918351755332,0.34917083382606506,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya Attack: Lessons Unlearned Amidst Global Cybersecurity Boost,0.24566487366647027,0.34285295009613037,0.0,0.7165313105737893
+9,1555,25:55,tinyllama,Russian Cyberattacks and Their Impact on International Security,0.24127889322698431,0.33673182129859924,0.0,0.7165313105737893
+9,1555,25:55,tinyllama,The Impact of Cyber Attacks on the World,0.2382093624962657,0.33244794607162476,0.0,0.7165313105737893
+9,1555,25:55,tinyllama,The Impact of Cyber Attacks on the Economy,0.233766707752227,0.3262477219104767,0.0,0.7165313105737893
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Global Impact: Lessons Unlearned & Accountability Demanded,0.2328497328796573,0.32496798038482666,0.0,0.7165313105737893
+9,1555,25:55,llama3.1-8b,A Nation's Wake Up: Russia and Cyber Threats,0.2318349339719873,0.3235517144203186,0.0,0.7165313105737893
+9,1555,25:55,tinyllama,The Impact of Cyber Attacks on National Security,0.2310118112352538,0.3224029541015625,0.0,0.7165313105737893
+9,1555,25:55,tinyllama,The Impact of Cyber Attacks on National Security,0.2310118112352538,0.3224029541015625,0.0,0.7165313105737893
+10,1701,28:21,llama3.1-8b,Citizens vs. Cyber Threats: A Global Accountability Call,0.20951422678299012,0.29240065813064575,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,"Midnight Attack: Unleashing NotPetya, Ukraine's Digital ApocalypSE",0.27923201731969155,0.329873651266098,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Night the World's Economy Stood Still,0.278105147040107,0.32854241132736206,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Night the Digital World Stood Still,0.26311645294319136,0.3108353614807129,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Night the Digital World Stood Still,0.26311645294319136,0.3108353614807129,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Midnight Attack Unleashes Digital Apocalypze Across Ukraine,0.25451695616655434,0.30067625641822815,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Ukraine's Digital Apocalypso: The Dawn of NotPetya,0.24831163933314335,0.29334554076194763,0.0,0.846481724890614
+1,0,00:00,tinyllama,The Key To Answering Questions About Notpatía,0.2106005491643347,0.24879515171051025,0.0,0.846481724890614
+2,165,02:45,tinyllama,The First Attack on the Power Grid,0.31176165859856714,0.3683028817176819,0.0,0.846481724890614
+2,165,02:45,tinyllama,A New Era of Cyber Espionage Begins,0.29149832662578223,0.34436458349227905,0.0,0.846481724890614
+3,346,05:46,tinyllama,"The GRU's Cyberattacks: Reinvention, Innovation, and Attribution",0.31640867092459685,0.3737926781177521,0.0,0.846481724890614
+3,346,05:46,mistral-7b-v0.3,Rise of Sandwurm: GRU's Cyber Cowboy Hackers,0.28083184566866753,0.3317636251449585,0.0,0.846481724890614
+3,346,05:46,mistral-7b-v0.3,Reinvented GRU: Birth of Cyber Menace Sandworn,0.26635866779470985,0.3146655857563019,0.0,0.846481724890614
+3,346,05:46,qwen2-7b,Petrov's Cyber Pandemonium: The Rise of Sandworm,0.25518794713784065,0.30146893858909607,0.0,0.846481724890614
+3,346,05:46,llama3.1-8b,The Rise of Sandworm **(chosen)** **(final answer)**,0.21934222599639586,0.25912222266197205,0.0,0.846481724890614
+4,663,11:03,qwen2-7b,The Red Message: PetyA - Chaos Unleashed,0.2674557448440857,0.315961629152298,0.0,0.846481724890614
+4,663,11:03,qwen2-7b,The Red Message: PetyA - Chaos Unleashed,0.2674557448440857,0.315961629152298,0.0,0.846481724890614
+4,663,11:03,qwen2-7b,The Red Message: PetyA - Chaos Unleashed,0.2674557448440857,0.315961629152298,0.0,0.846481724890614
+4,663,11:03,qwen2-7b,The Red Message: Chaos Unleashed by NotPetya,0.261294424110153,0.3086828887462616,0.0,0.846481724890614
+4,663,11:03,qwen2-7b,The Red Message: Chaos Unleashed by NotPetya,0.261294424110153,0.3086828887462616,0.0,0.846481724890614
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch: Saving Devices from NotPetya,0.2559534136782475,0.3023732304573059,0.0,0.846481724890614
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch: Saving Machines from NotPetya,0.2531152111737156,0.29902029037475586,0.0,0.846481724890614
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch: Saving Machines from NotPetya,0.2531152111737156,0.29902029037475586,0.0,0.846481724890614
+4,663,11:03,mistral-7b-v0.3,Perfc Kill Switch: Saving Machines from NotPetya,0.2531152111737156,0.29902029037475586,0.0,0.846481724890614
+4,663,11:03,qwen2-7b,The Red Message: Chaos and Curiosity Unveiled,0.2494588426724638,0.2947008013725281,0.0,0.846481724890614
+5,910,15:10,llama3.1-8b,The Hunt for Perf-C: Uncovering NAPTA's Secret,0.2785738669531268,0.32909613847732544,0.0,0.846481724890614
+5,910,15:10,mistral-7b-v0.3,Discovering the Kill Switch: Napetya's Unexpected Exit,0.2627499028712766,0.3104023337364197,0.0,0.846481724890614
+5,910,15:10,tinyllama,Napetían Malware Spreads via Remote Desktop Protocol,0.2521751224999437,0.2979097068309784,0.0,0.846481724890614
+5,910,15:10,tinyllama,Napetía - The Cyberattack That Changed Everything,0.25184409221476367,0.29751864075660706,0.0,0.846481724890614
+5,910,15:10,llama3.1-8b,The Curious Case of NAPTA's Quit Mechanism,0.24331535751326228,0.2874431312084198,0.0,0.846481724890614
+6,1031,17:11,tinyllama,The Unprecedent Attack on Ukraine's Cybersecurity Industry,0.30327000776531865,0.35827118158340454,0.0,0.846481724890614
+6,1031,17:11,mistral-7b-v0.3,Unraveling NotPetya's Origins: A Cyber Attack Investigation,0.2999293062323993,0.354324609041214,0.0,0.846481724890614
+6,1031,17:11,mistral-7b-v0.3,Ukraine's Cyber Crisis: Unraveling the NotPetya Attack,0.2908158573143224,0.34355834126472473,0.0,0.846481724890614
+6,1031,17:11,tinyllama,The Most Devastating Cyber Attack in History,0.2888921884097256,0.3412857949733734,0.0,0.846481724890614
+6,1031,17:11,tinyllama,The Most Devastating Cyber Attack in History,0.2888921884097256,0.3412857949733734,0.0,0.846481724890614
+6,1031,17:11,tinyllama,The Most Devastating Cyber Attack in History,0.2888921884097256,0.3412857949733734,0.0,0.846481724890614
+6,1031,17:11,tinyllama,The Most Devastating Cyber Attack in History,0.2888921884097256,0.3412857949733734,0.0,0.846481724890614
+6,1031,17:11,tinyllama,The Most Devastating Cyber Attack in History,0.2888921884097256,0.3412857949733734,0.0,0.846481724890614
+6,1031,17:11,mistral-7b-v0.3,Ukraine's Cyberattack Unraveled: The Eternal Blue Trail,0.2854208103886769,0.3371848464012146,0.0,0.846481724890614
+6,1031,17:11,mistral-7b-v0.3,Ukraine's Digital Disaster: Unraveling the NotPetya Attack,0.2838673747156989,0.3353496789932251,0.0,0.846481724890614
+7,1145,19:05,tinyllama,The Russian Invasion of Ukraine: What Happened?,0.2627459169861174,0.3103976249694824,0.0,0.846481724890614
+7,1145,19:05,qwen2-7b,The Unintended Target: Inside the MiDoc Attack,0.2527933635606744,0.29864007234573364,0.0,0.846481724890614
+7,1145,19:05,llama3.1-8b,Revealing the Roots of the Sandstorm Hack,0.24526440490184714,0.28974565863609314,0.0,0.846481724890614
+8,1287,21:27,llama3.1-8b,A Calculated Strike: Uncovering Napecia's True Intentions,0.25431120376555383,0.3004331886768341,0.0,0.846481724890614
+8,1287,21:27,gemma2-9b,Napecia: Digital Carpet Bombing and Cover Up,0.25243042096709983,0.29821130633354187,0.0,0.846481724890614
+8,1287,21:27,gemma2-9b,Napecia: Digital Carpet Bombing & Cover Up,0.243067400138393,0.28715020418167114,0.0,0.846481724890614
+9,1555,25:55,mistral-7b-v0.3,NotPetya's Wake-Up Call: Boosting Cybersecurity Posture Worldwide,0.308863768725133,0.36487942934036255,0.0,0.846481724890614
+9,1555,25:55,qwen2-7b,Notepetria's Wake-Up Call: Cybersecurity Evolution & Accountability,0.2947074182670857,0.348155677318573,0.0,0.846481724890614
+9,1555,25:55,qwen2-7b,Notepetria: The Wake-Up Call & Cybersecurity Evolution,0.29000974988156497,0.3426060378551483,0.0,0.846481724890614
+9,1555,25:55,llama3.1-8b,Lessons Learned from the Largest Cyber Attack,0.2862078208906402,0.33811458945274353,0.0,0.846481724890614
+9,1555,25:55,qwen2-7b,Notepetria: The Catalyst for Global Cybersecurity Awareness,0.2845178055831579,0.33611807227134705,0.0,0.846481724890614
+9,1555,25:55,qwen2-7b,Notepetria: The Catalyst for Global Cybersecurity Awareness,0.2845178055831579,0.33611807227134705,0.0,0.846481724890614
+9,1555,25:55,mistral-7b-v0.3,"NotPetya's Global Impact: Lessons Learned, Accountability Demanded",0.2834360918506297,0.33484017848968506,0.0,0.846481724890614
+9,1555,25:55,tinyllama,The Impact of Cyber Attacks on Businesses,0.2743251404175576,0.3240768611431122,0.0,0.846481724890614
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools,0.2781726548166001,0.32862216234207153,0.0,0.846481724890614
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools,0.2781726548166001,0.32862216234207153,0.0,0.846481724890614
+10,1701,28:21,mistral-7b-v0.3,The Fragility of Cybersecurity: Stolen NSA Tools,0.2781726548166001,0.32862216234207153,0.0,0.846481724890614
+10,1701,28:21,tinyllama,The Importance of Holding Threat Actors Accountable,0.2748950210868319,0.3247500956058502,0.0,0.846481724890614
+10,1701,28:21,qwen2-7b,The Call for Global Accountability in Cybersecurity,0.25679910246426263,0.3033722937107086,0.0,0.846481724890614
+10,1701,28:21,qwen2-7b,The Call for Global Accountability in Cybersecurity,0.25679910246426263,0.3033722937107086,0.0,0.846481724890614
+10,1701,28:21,qwen2-7b,The Call for Global Accountability in Cybersecurity,0.25679910246426263,0.3033722937107086,0.0,0.846481724890614
+10,1701,28:21,qwen2-7b,The Call for Global Accountability in Cybersecurity,0.25679910246426263,0.3033722937107086,0.0,0.846481724890614
+10,1701,28:21,qwen2-7b,Demanding Global Accountability: Lessons from Cyber Attacks,0.25345529799542815,0.2994220554828644,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Midnight Malware: Unleashing NotPetya's Digital ApocalypSE,0.32030776143074036,0.32030776143074036,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Ukraine's Digital Apocalypso: Witnessing NotPetya's Devastation,0.31083908677101135,0.31083908677101135,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War That Never Happened,0.30875542759895325,0.30875542759895325,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War That Never Happened,0.30875542759895325,0.30875542759895325,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War That Never Happened,0.30875542759895325,0.30875542759895325,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War That Never Happened,0.30875542759895325,0.30875542759895325,0.0,1.0
+1,0,00:00,tinyllama,The Cyber Attack That Changed Everything,0.30803143978118896,0.30803143978118896,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Ukraine's Digital Apocalypso: Unraveling NotPetya's Origins,0.30474427342414856,0.30474427342414856,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Catalyst of Cyber Apocalypse,0.3022838830947876,0.3022838830947876,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Catalyst of Cyber War,0.29723694920539856,0.29723694920539856,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Catalyst of Cyber War,0.29723694920539856,0.29723694920539856,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Catalyst of Cyber War,0.29723694920539856,0.29723694920539856,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Trigger of Global Chaos,0.2889168858528137,0.2889168858528137,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Trigger of Global Chaos,0.2889168858528137,0.2889168858528137,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Midnight Malware: The Dawn of NotPetya,0.2773747444152832,0.2773747444152832,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Midnight Malware: The Dawn of NotPetya,0.2773747444152832,0.2773747444152832,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Midnight Malware: The Dawn of NotPetya,0.2773747444152832,0.2773747444152832,0.0,1.0
+1,0,00:00,gemma2-9b,The Silent Dawn of Notptia,0.27256307005882263,0.27256307005882263,0.0,1.0
+1,0,00:00,gemma2-9b,The Silent Dawn of Notptia,0.27256307005882263,0.27256307005882263,0.0,1.0
+1,0,00:00,gemma2-9b,The Silent Dawn of Notptia,0.27256307005882263,0.27256307005882263,0.0,1.0
+1,0,00:00,gemma2-9b,The Silent Dawn of Notptia,0.27256307005882263,0.27256307005882263,0.0,1.0
+1,0,00:00,gemma2-9b,The Silent Dawn of Notptia,0.27256307005882263,0.27256307005882263,0.0,1.0
+1,0,00:00,gemma2-9b,The Silent Dawn of Notptia,0.27256307005882263,0.27256307005882263,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War Begins,0.2676716148853302,0.2676716148853302,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Trigger of Notpetya,0.2617977559566498,0.2617977559566498,0.0,1.0
+1,0,00:00,llama3.1-8b,The Silent Trigger of Notpetya,0.2617977559566498,0.2617977559566498,0.0,1.0
+1,0,00:00,llama3.1-8b,Cyber Apocalypse Unleashed Overnight,0.25915175676345825,0.25915175676345825,0.0,1.0
+1,0,00:00,gemma2-9b,The Night NotPetya Awakened,0.25187256932258606,0.25187256932258606,0.0,1.0
+1,0,00:00,gemma2-9b,The Night NotPetya Awakened,0.25187256932258606,0.25187256932258606,0.0,1.0
+1,0,00:00,gemma2-9b,The Night NotPetya Awakened,0.25187256932258606,0.25187256932258606,0.0,1.0
+1,0,00:00,gemma2-9b,The Night NotPetya Awakened,0.25187256932258606,0.25187256932258606,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War,0.24688772857189178,0.24688772857189178,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War,0.24688772857189178,0.24688772857189178,0.0,1.0
+1,0,00:00,tinyllama,The Cyber War,0.24688772857189178,0.24688772857189178,0.0,1.0
+2,165,02:45,llama3.1-8b,Cyber Attacks on Ukraine's Infrastructure,0.39419931173324585,0.39419931173324585,0.0,1.0
+2,165,02:45,llama3.1-8b,Cyber Warfare Escalates in Eastern Europe,0.35113683342933655,0.35113683342933655,0.0,1.0
+2,165,02:45,llama3.1-8b,Cyber Warfare Escalates in Eastern Europe,0.35113683342933655,0.35113683342933655,0.0,1.0
+2,165,02:45,llama3.1-8b,Cyber Warfare Escalates in Eastern Europe,0.35113683342933655,0.35113683342933655,0.0,1.0
+2,165,02:45,llama3.1-8b,Cyber Warfare Escalates in Eastern Europe,0.35113683342933655,0.35113683342933655,0.0,1.0
+2,165,02:45,llama3.1-8b,Russia's Digital War Machine Unleashed,0.34985315799713135,0.34985315799713135,0.0,1.0
+2,165,02:45,llama3.1-8b,Russia's Digital Shadow War Unleashed,0.33340388536453247,0.33340388536453247,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital War Begins,0.33286210894584656,0.33286210894584656,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Shadow War,0.3205062747001648,0.3205062747001648,0.0,1.0
+2,165,02:45,llama3.1-8b,Russia's Digital Shadow War Unveiled,0.31670787930488586,0.31670787930488586,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Resurrection,0.3142281174659729,0.3142281174659729,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Resurrection,0.3142281174659729,0.3142281174659729,0.0,1.0
+2,165,02:45,llama3.1-8b,Cyber Wars Ignite Over Ukraine,0.3119997978210449,0.3119997978210449,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Rebirth,0.31171420216560364,0.31171420216560364,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Rebirth,0.31171420216560364,0.31171420216560364,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Rebirth,0.31171420216560364,0.31171420216560364,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Rebirth,0.31171420216560364,0.31171420216560364,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Awakening,0.3104593753814697,0.3104593753814697,0.0,1.0
+2,165,02:45,gemma2-9b,The GRU's Digital Awakening,0.3104593753814697,0.3104593753814697,0.0,1.0
+2,165,02:45,tinyllama,The Rise of the GRUE,0.2820957899093628,0.2820957899093628,0.0,1.0
+2,165,02:45,tinyllama,The Rise of the GRUE,0.2820957899093628,0.2820957899093628,0.0,1.0
+2,165,02:45,tinyllama,The Rise of the GRUE,0.2820957899093628,0.2820957899093628,0.0,1.0
+2,165,02:45,tinyllama,The Rise of the GRUE,0.2820957899093628,0.2820957899093628,0.0,1.0
+2,165,02:45,tinyllama,The Rise of the GRUE,0.2820957899093628,0.2820957899093628,0.0,1.0
+2,165,02:45,tinyllama,The Rise of the GRUE,0.2820957899093628,0.2820957899093628,0.0,1.0
+3,346,05:46,tinyllama,The GRU's Newest Weapon: Cyberattacks,0.36347660422325134,0.36347660422325134,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm's Cunning Cyberattack on Ukraine,0.35417625308036804,0.35417625308036804,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm's Cunning Cyberattack on Ukraine,0.35417625308036804,0.35417625308036804,0.0,1.0
+3,346,05:46,tinyllama,The GRU's New Weapon: Cyberwarfare,0.349857360124588,0.349857360124588,0.0,1.0
+3,346,05:46,tinyllama,The GRU's Cyberattacks: Reinvention Through Innovation,0.342191606760025,0.342191606760025,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm's Cunning Cyberattack Unfolds,0.3316805958747864,0.3316805958747864,0.0,1.0
+3,346,05:46,qwen2-7b,Cyber Renaissance: GRU's Sandworm Tactics,0.3287141025066376,0.3287141025066376,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm's Cunning Cyber Assault,0.327462762594223,0.327462762594223,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm's Cunning Cyber Assault,0.327462762594223,0.327462762594223,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm's Cunning Cyber Assault,0.327462762594223,0.327462762594223,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Masters of Cyber Warfare,0.3211376368999481,0.3211376368999481,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Masters of Cyber Warfare,0.3211376368999481,0.3211376368999481,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm: A Cyber Attack Mastermind Emerges,0.31643983721733093,0.31643983721733093,0.0,1.0
+3,346,05:46,tinyllama,The Rise of Cyber Warfare,0.31623151898384094,0.31623151898384094,0.0,1.0
+3,346,05:46,tinyllama,The Cyberattacks on Ukraine,0.3139325678348541,0.3139325678348541,0.0,1.0
+3,346,05:46,tinyllama,The Rise of Cyberwarfare,0.3134157061576843,0.3134157061576843,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: The Cyber Weaponized Worm,0.31104525923728943,0.31104525923728943,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: The Cyber Weaponized Worm,0.31104525923728943,0.31104525923728943,0.0,1.0
+3,346,05:46,qwen2-7b,Petya: The Symbolic Cyber Attack Unleashed,0.31006258726119995,0.31006258726119995,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Masters of Cyberwarfare,0.3038993775844574,0.3038993775844574,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Masters of Cyberwarfare,0.3038993775844574,0.3038993775844574,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Masters of Cyberwarfare,0.3038993775844574,0.3038993775844574,0.0,1.0
+3,346,05:46,qwen2-7b,Petya: The Symbolic Cyber Strike,0.30088502168655396,0.30088502168655396,0.0,1.0
+3,346,05:46,qwen2-7b,Petya: The Symbolic Cyber Strike,0.30088502168655396,0.30088502168655396,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Unleashing Cyber Warfare,0.299114465713501,0.299114465713501,0.0,1.0
+3,346,05:46,llama3.1-8b,Sandworm Unleashes Cyber Chaos,0.2920926809310913,0.2920926809310913,0.0,1.0
+3,346,05:46,tinyllama,The Invention of SandwORM,0.28177163004875183,0.28177163004875183,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Unleashing Digital Havoc,0.2790352404117584,0.2790352404117584,0.0,1.0
+3,346,05:46,tinyllama,The Groundbreaking Invention That Changed Everything,0.2770400941371918,0.2770400941371918,0.0,1.0
+3,346,05:46,gemma2-9b,Sandworm: Unleashing Digital Chaos,0.27536502480506897,0.27536502480506897,0.0,1.0
+3,346,05:46,llama3.1-8b,Pandemonium Spreads Across Ukraine,0.258037269115448,0.258037269115448,0.0,1.0
+4,663,11:03,llama3.1-8b,NotPetya: A Wiper Disguised as Ransomware,0.3633897006511688,0.3633897006511688,0.0,1.0
+4,663,11:03,tinyllama,How NotPetya Worm Destroyed Computers Worldwide,0.324644535779953,0.324644535779953,0.0,1.0
+4,663,11:03,llama3.1-8b,The Red Message: NotPetya's Devastating Impact,0.3111880123615265,0.3111880123615265,0.0,1.0
+4,663,11:03,tinyllama,The Mystery of the Surviving Computers,0.30144065618515015,0.30144065618515015,0.0,1.0
+4,663,11:03,tinyllama,The Mystery of the Surviving Computers,0.30144065618515015,0.30144065618515015,0.0,1.0
+4,663,11:03,llama3.1-8b,The NotPetya Enigma: A Digital Apocalypse,0.28847870230674744,0.28847870230674744,0.0,1.0
+4,663,11:03,llama3.1-8b,The NotPetya Enigma: A Digital Apocalypse,0.28847870230674744,0.28847870230674744,0.0,1.0
+4,663,11:03,llama3.1-8b,NotPetya's Hidden Kill Switch,0.2843482494354248,0.2843482494354248,0.0,1.0
+4,663,11:03,tinyllama,NotPetya: A Global Catastrophe,0.2801406979560852,0.2801406979560852,0.0,1.0
+4,663,11:03,llama3.1-8b,The Unlikely Kill Switch of NotPetya,0.2773739993572235,0.2773739993572235,0.0,1.0
+4,663,11:03,llama3.1-8b,NotPetya: The Digital Apocalypse Unleashed,0.2750959098339081,0.2750959098339081,0.0,1.0
+4,663,11:03,tinyllama,NotPetya: The Digital Apocalypsec,0.2665513753890991,0.2665513753890991,0.0,1.0
+4,663,11:03,tinyllama,NotPetya: The Digital Apocalypsec,0.2665513753890991,0.2665513753890991,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch Enigma,0.26364558935165405,0.26364558935165405,0.0,1.0
+4,663,11:03,llama3.1-8b,The NotPetya Kill Switch,0.26048046350479126,0.26048046350479126,0.0,1.0
+4,663,11:03,llama3.1-8b,The NotPetya Kill Switch,0.26048046350479126,0.26048046350479126,0.0,1.0
+4,663,11:03,gemma2-9b,NotPetya: The Kill Switch,0.2588675618171692,0.2588675618171692,0.0,1.0
+4,663,11:03,llama3.1-8b,The Unlikely Kill Switch,0.24874268472194672,0.24874268472194672,0.0,1.0
+4,663,11:03,tinyllama,The Digital Apocalypsec,0.23532423377037048,0.23532423377037048,0.0,1.0
+5,910,15:10,tinyllama,How did the Ukrainegate cyberattack unfold?,0.3271470367908478,0.3271470367908478,0.0,1.0
+5,910,15:10,llama3.1-8b,Finding the Napatya Kill Switch,0.3219355642795563,0.3219355642795563,0.0,1.0
+5,910,15:10,llama3.1-8b,Uncovering NAPATA's Hidden Kill Switch,0.3112885653972626,0.3112885653972626,0.0,1.0
+5,910,15:10,mistral-7b-v0.3,Unraveling Napetya: Discovering the Kill Switch,0.2923247516155243,0.2923247516155243,0.0,1.0
+5,910,15:10,mistral-7b-v0.3,Unmasking Napetya: Discovering the Kill Switch,0.2908146381378174,0.2908146381378174,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,gemma2-9b,The Kill Switch of Napetiya,0.2904326319694519,0.2904326319694519,0.0,1.0
+5,910,15:10,llama3.1-8b,Cracking the Kill Switch,0.289662629365921,0.289662629365921,0.0,1.0
+5,910,15:10,llama3.1-8b,NAPATA: The Kill Switch Conundrum,0.2893618047237396,0.2893618047237396,0.0,1.0
+5,910,15:10,qwen2-7b,Unraveling NAPETIA's Lethal Kill Switch,0.2847687602043152,0.2847687602043152,0.0,1.0
+5,910,15:10,llama3.1-8b,The Hunt For Perf-C,0.2846413254737854,0.2846413254737854,0.0,1.0
+5,910,15:10,llama3.1-8b,The Hunt for PERF-C,0.2846413254737854,0.2846413254737854,0.0,1.0
+5,910,15:10,llama3.1-8b,The Kill Switch Conundrum Solved,0.2796097695827484,0.2796097695827484,0.0,1.0
+5,910,15:10,qwen2-7b,Unraveling NAPETIA: The Race Against Time,0.25252681970596313,0.25252681970596313,0.0,1.0
+5,910,15:10,qwen2-7b,Unraveling Napetka: The Race Against Time,0.24883554875850677,0.24883554875850677,0.0,1.0
+6,1031,17:11,mistral-7b-v0.3,Unraveling NotPetya's Devastating Cyberattack Route,0.3432728350162506,0.3432728350162506,0.0,1.0
+6,1031,17:11,llama3.1-8b,Uncovering NotPeta's Cyber Attack Origins,0.34321659803390503,0.34321659803390503,0.0,1.0
+6,1031,17:11,llama3.1-8b,Unraveling NotPetya's Devastating Cyberattack,0.3431064486503601,0.3431064486503601,0.0,1.0
+6,1031,17:11,llama3.1-8b,Unraveling NotPetya's Devastating Cyberattack,0.3431064486503601,0.3431064486503601,0.0,1.0
+6,1031,17:11,llama3.1-8b,Unraveling NotPetya's Devastating Cyberattack,0.3431064486503601,0.3431064486503601,0.0,1.0
+6,1031,17:11,llama3.1-8b,Unraveling NotPetya's Devastating Cyberattack,0.3431064486503601,0.3431064486503601,0.0,1.0
+6,1031,17:11,llama3.1-8b,Unraveling the NotPetya Cyberattack,0.3329841196537018,0.3329841196537018,0.0,1.0
+6,1031,17:11,llama3.1-8b,Unraveling the NotPetya Cyberattack,0.3329841196537018,0.3329841196537018,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Exposed,0.33210089802742004,0.33210089802742004,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Exposed,0.33210089802742004,0.33210089802742004,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Exposed,0.33210089802742004,0.33210089802742004,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Exposed,0.33210089802742004,0.33210089802742004,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Exposed,0.33210089802742004,0.33210089802742004,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Exposed,0.33210089802742004,0.33210089802742004,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Unveiled,0.3276320993900299,0.3276320993900299,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Unveiled,0.3276320993900299,0.3276320993900299,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Unveiled,0.3276320993900299,0.3276320993900299,0.0,1.0
+6,1031,17:11,gemma2-9b,Unmasking NotPetya: A Cyberattack Revealed,0.32681146264076233,0.32681146264076233,0.0,1.0
+6,1031,17:11,mistral-7b-v0.3,Unraveling NotPetya: A Cyberattack Odyssey,0.3266524374485016,0.3266524374485016,0.0,1.0
+6,1031,17:11,llama3.1-8b,Unraveling NotPetya's Devastating Digital Trail,0.3261009156703949,0.3261009156703949,0.0,1.0
+6,1031,17:11,tinyllama,The Cyber Attack That Changed Everything,0.32564228773117065,0.32564228773117065,0.0,1.0
+6,1031,17:11,llama3.1-8b,The NotPeyta Cyberattack Uncovered,0.31974419951438904,0.31974419951438904,0.0,1.0
+6,1031,17:11,llama3.1-8b,The NotPeyta Cyberattack Uncovered,0.31974419951438904,0.31974419951438904,0.0,1.0
+6,1031,17:11,mistral-7b-v0.3,Unraveling NotPetya: The Eternal Blue Connection,0.3004854917526245,0.3004854917526245,0.0,1.0
+7,1145,19:05,gemma2-9b,Unmasking Sandworm's Supply Chain Attack,0.33100518584251404,0.33100518584251404,0.0,1.0
+7,1145,19:05,gemma2-9b,Unmasking Sandworm's Supply Chain Attack,0.33100518584251404,0.33100518584251404,0.0,1.0
+7,1145,19:05,gemma2-9b,Sandworm's Supply Chain Strike,0.3157675564289093,0.3157675564289093,0.0,1.0
+7,1145,19:05,llama3.1-8b,Uncovering the Sandworm Attack on MiDoc,0.31507182121276855,0.31507182121276855,0.0,1.0
+7,1145,19:05,llama3.1-8b,Uncovering the Sandworm Supply Chain Attack,0.3059667944908142,0.3059667944908142,0.0,1.0
+7,1145,19:05,llama3.1-8b,Uncovering the Sandworm Supply Chain Attack,0.3059667944908142,0.3059667944908142,0.0,1.0
+7,1145,19:05,tinyllama,Russia and Ukraine: A Cyberwarfare Story,0.304027795791626,0.304027795791626,0.0,1.0
+7,1145,19:05,gemma2-9b,Supply Chain Attack: Sandworm Strikes Again,0.30165472626686096,0.30165472626686096,0.0,1.0
+7,1145,19:05,gemma2-9b,Supply Chain Attack: Sandworm Strikes Again,0.30165472626686096,0.30165472626686096,0.0,1.0
+7,1145,19:05,llama3.1-8b,Exposing the Sand Worm Cyber Assault,0.29779043793678284,0.29779043793678284,0.0,1.0
+7,1145,19:05,llama3.1-8b,Uncovering the Sandworm Attack Origins,0.29638975858688354,0.29638975858688354,0.0,1.0
+7,1145,19:05,tinyllama,The Russian Cyberattack Against Ukraine,0.2952089309692383,0.2952089309692383,0.0,1.0
+7,1145,19:05,llama3.1-8b,Tracing the SandWorm Ukraine Cyberattack,0.2932698428630829,0.2932698428630829,0.0,1.0
+7,1145,19:05,tinyllama,The Russian Invasion of Ukraine,0.2907010316848755,0.2907010316848755,0.0,1.0
+7,1145,19:05,llama3.1-8b,Uncovering the Origins of NotPetya,0.2893884479999542,0.2893884479999542,0.0,1.0
+7,1145,19:05,llama3.1-8b,MiDoc Under Siege by Russian Sandworm,0.2884919047355652,0.2884919047355652,0.0,1.0
+7,1145,19:05,tinyllama,The Russian War on Ukraine,0.27237051725387573,0.27237051725387573,0.0,1.0
+7,1145,19:05,gemma2-9b,Hacking Through Supply Chains,0.25756514072418213,0.25756514072418213,0.0,1.0
+7,1145,19:05,gemma2-9b,Hacking Through Supply Chains,0.25756514072418213,0.25756514072418213,0.0,1.0
+7,1145,19:05,gemma2-9b,Hacking Through Supply Chains,0.25756514072418213,0.25756514072418213,0.0,1.0
+7,1145,19:05,gemma2-9b,Hacking Through Supply Chains,0.25756514072418213,0.25756514072418213,0.0,1.0
+7,1145,19:05,llama3.1-8b,The Birth of a Notorious Hack,0.25303858518600464,0.25303858518600464,0.0,1.0
+8,1287,21:27,tinyllama,When Cybersecurity Experts Were Not Enough,0.32160380482673645,0.32160380482673645,0.0,1.0
+8,1287,21:27,gemma2-9b,Napecia: Digital Carpet Bombing and Cover-Up,0.31523454189300537,0.31523454189300537,0.0,1.0
+8,1287,21:27,gemma2-9b,Napecia: Digital Carpet Bombing and Cover-Up,0.31523454189300537,0.31523454189300537,0.0,1.0
+8,1287,21:27,gemma2-9b,NotPetya: A Cyber Weaponized Cover Up,0.31282278895378113,0.31282278895378113,0.0,1.0
+8,1287,21:27,gemma2-9b,Napecia: A Cyber Weaponized Cover-Up,0.31223979592323303,0.31223979592323303,0.0,1.0
+8,1287,21:27,gemma2-9b,Napecia: A Cyber Weaponized Cover-Up,0.31223979592323303,0.31223979592323303,0.0,1.0
+8,1287,21:27,llama3.1-8b,The Hidden Agenda Behind NotPetya,0.30555298924446106,0.30555298924446106,0.0,1.0
+8,1287,21:27,llama3.1-8b,The Hidden Agenda Behind NotPetya,0.30555298924446106,0.30555298924446106,0.0,1.0
+8,1287,21:27,gemma2-9b,Napecia: Digital Carpet Bombing & Cover-Up,0.3037017583847046,0.3037017583847046,0.0,1.0
+8,1287,21:27,gemma2-9b,Napecia: A Cyber Cover-Up,0.29925182461738586,0.29925182461738586,0.0,1.0
+8,1287,21:27,llama3.1-8b,The Secret Behind Napecia’s Success,0.2952254116535187,0.2952254116535187,0.0,1.0
+8,1287,21:27,gemma2-9b,Napecia: Digital Carpet Bombing & Coverup,0.29013490676879883,0.29013490676879883,0.0,1.0
+8,1287,21:27,llama3.1-8b,Napecia's Hidden Agenda Unveiled,0.28958413004875183,0.28958413004875183,0.0,1.0
+8,1287,21:27,llama3.1-8b,Napecia's Hidden Agenda Unveiled,0.28958413004875183,0.28958413004875183,0.0,1.0
+8,1287,21:27,llama3.1-8b,Napecia's Hidden Agenda Unveiled,0.28958413004875183,0.28958413004875183,0.0,1.0
+8,1287,21:27,llama3.1-8b,Napecia's Hidden Agenda Unveiled,0.28958413004875183,0.28958413004875183,0.0,1.0
+8,1287,21:27,llama3.1-8b,Napecia's Hidden Agenda Unveiled,0.28958413004875183,0.28958413004875183,0.0,1.0
+8,1287,21:27,llama3.1-8b,'NotpetylAs Double Edge Attack,0.257519006729126,0.257519006729126,0.0,1.0
+9,1555,25:55,qwen2-7b,Notepetria's Wake-Up Call: Boosting Cybersecurity Awareness,0.3532050549983978,0.3532050549983978,0.0,1.0
+9,1555,25:55,qwen2-7b,Notepetria's Wake-Up Call: Boosting Cybersecurity Awareness,0.3532050549983978,0.3532050549983978,0.0,1.0
+9,1555,25:55,qwen2-7b,Notepetria's Wake-Up Call: Boosting Cybersecurity Awareness,0.3532050549983978,0.3532050549983978,0.0,1.0
+9,1555,25:55,qwen2-7b,Notepetria's Wake-Up Call: Boosting Cybersecurity Awareness,0.3532050549983978,0.3532050549983978,0.0,1.0
+9,1555,25:55,llama3.1-8b,Lessons Learned from NotPetya's Devastating Impact,0.3368075489997864,0.3368075489997864,0.0,1.0
+9,1555,25:55,llama3.1-8b,Lessons Learned from NotPetya's Devastating Impact,0.3368075489997864,0.3368075489997864,0.0,1.0
+9,1555,25:55,qwen2-7b,Notepetria: Lessons Learned and Cybersecurity Evolution,0.33388543128967285,0.33388543128967285,0.0,1.0
+9,1555,25:55,tinyllama,Russian Cyberattacks: Impact and Lessons Learned,0.33276140689849854,0.33276140689849854,0.0,1.0
+9,1555,25:55,llama3.1-8b,Lessons Learned from the NotPetya Attack,0.325325071811676,0.325325071811676,0.0,1.0
+9,1555,25:55,llama3.1-8b,Lessons Learned from the NotPetya Attack,0.325325071811676,0.325325071811676,0.0,1.0
+9,1555,25:55,llama3.1-8b,Lessons Unlearned: Consequences of Cyberattacks,0.3197317123413086,0.3197317123413086,0.0,1.0
+9,1555,25:55,tinyllama,Russian Cyberattacks: Lessons Learned,0.31433311104774475,0.31433311104774475,0.0,1.0
+9,1555,25:55,qwen2-7b,Notepetria: A Global Cybersecurity Turning Point,0.31246694922447205,0.31246694922447205,0.0,1.0
+9,1555,25:55,llama3.1-8b,Cyberattacks' Lingering Impact: A Global Conundrum,0.3121700584888458,0.3121700584888458,0.0,1.0
+9,1555,25:55,tinyllama,Russian Cyber Attack: Lessons Learned,0.310403972864151,0.310403972864151,0.0,1.0
+9,1555,25:55,gemma2-9b,The Notepetian Wake-Up Call,0.3076927363872528,0.3076927363872528,0.0,1.0
+9,1555,25:55,gemma2-9b,The Notepetian Wake-Up Call,0.3076927363872528,0.3076927363872528,0.0,1.0
+9,1555,25:55,llama3.1-8b,Lessons Learned from NotPetya,0.3060193657875061,0.3060193657875061,0.0,1.0
+9,1555,25:55,llama3.1-8b,Lessons Learned from NotPetya,0.3060193657875061,0.3060193657875061,0.0,1.0
+9,1555,25:55,tinyllama,The Impact of Not Paying Attention,0.29259058833122253,0.29259058833122253,0.0,1.0
+9,1555,25:55,gemma2-9b,The Legacy of NotPetya,0.2878912091255188,0.2878912091255188,0.0,1.0
+9,1555,25:55,gemma2-9b,The Legacy of NotPetya,0.2878912091255188,0.2878912091255188,0.0,1.0
+9,1555,25:55,gemma2-9b,The Legacy of NotPetya,0.2878912091255188,0.2878912091255188,0.0,1.0
+9,1555,25:55,gemma2-9b,The Notepetian Cyberwake-Up Call,0.28445789217948914,0.28445789217948914,0.0,1.0
+9,1555,25:55,gemma2-9b,The Aftermath of NotPetya,0.2835116982460022,0.2835116982460022,0.0,1.0
+9,1555,25:55,gemma2-9b,The Aftermath of NotPetya,0.2835116982460022,0.2835116982460022,0.0,1.0
+9,1555,25:55,gemma2-9b,The Aftermath of NotPetya,0.2835116982460022,0.2835116982460022,0.0,1.0
+9,1555,25:55,gemma2-9b,The Aftermath of NotPetya,0.2835116982460022,0.2835116982460022,0.0,1.0
+10,1701,28:21,gemma2-9b,Resilience & Stolen Tools in Cyberwarfare,0.31456437706947327,0.31456437706947327,0.0,1.0
+10,1701,28:21,gemma2-9b,Resilience and Stolen Secrets in Cyberwarfare,0.3087157905101776,0.3087157905101776,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragile Web: Cybersecurity Lessons Learned,0.30821070075035095,0.30821070075035095,0.0,1.0
+10,1701,28:21,tinyllama,The Importance of Holding Governments Accountable,0.30708110332489014,0.30708110332489014,0.0,1.0
+10,1701,28:21,llama3.1-8b,Accountability and Resilience in Cybersecurity,0.3012622594833374,0.3012622594833374,0.0,1.0
+10,1701,28:21,llama3.1-8b,The Fragility of Global Cybersecurity,0.2960495948791504,0.2960495948791504,0.0,1.0
+10,1701,28:21,llama3.1-8b,The Fragility of Global Cybersecurity,0.2960495948791504,0.2960495948791504,0.0,1.0
+10,1701,28:21,llama3.1-8b,The Fragility of Global Cybersecurity,0.2960495948791504,0.2960495948791504,0.0,1.0
+10,1701,28:21,llama3.1-8b,The Fragility of Global Cybersecurity,0.2960495948791504,0.2960495948791504,0.0,1.0
+10,1701,28:21,llama3.1-8b,The Fragility of Global Cybersecurity,0.2960495948791504,0.2960495948791504,0.0,1.0
+10,1701,28:21,llama3.1-8b,The Fragility of Global Cybersecurity,0.2960495948791504,0.2960495948791504,0.0,1.0
+10,1701,28:21,llama3.1-8b,The Fragility of Global Cybersecurity,0.2960495948791504,0.2960495948791504,0.0,1.0
+10,1701,28:21,qwen2-7b,Demanding Accountability: Lessons from Cyber Attacks,0.2951936423778534,0.2951936423778534,0.0,1.0
+10,1701,28:21,qwen2-7b,Demanding Accountability: Lessons from Cyber Attacks,0.2951936423778534,0.2951936423778534,0.0,1.0
+10,1701,28:21,qwen2-7b,Demanding Accountability: Lessons from Cyber Attacks,0.2951936423778534,0.2951936423778534,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragility of Our Digital World,0.29261794686317444,0.29261794686317444,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragility of Our Digital World,0.29261794686317444,0.29261794686317444,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragility of Our Digital World,0.29261794686317444,0.29261794686317444,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragility of Our Digital World,0.29261794686317444,0.29261794686317444,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragility of Our Digital World,0.29261794686317444,0.29261794686317444,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragility of Our Digital World,0.29261794686317444,0.29261794686317444,0.0,1.0
+10,1701,28:21,gemma2-9b,The Fragility of Cybersecurity,0.2908816337585449,0.2908816337585449,0.0,1.0
+10,1701,28:21,llama3.1-8b,Accountability in Cybersecurity: A Global Imperative,0.28870266675949097,0.28870266675949097,0.0,1.0
+10,1701,28:21,tinyllama,The Dark Side of Cybersecurity,0.285473108291626,0.285473108291626,0.0,1.0
+10,1701,28:21,qwen2-7b,Demanding Global Accountability for Cyber Malfeasance,0.28265494108200073,0.28265494108200073,0.0,1.0
+10,1701,28:21,qwen2-7b,Demanding Global Accountability for Cyber Malfeasance,0.28265494108200073,0.28265494108200073,0.0,1.0
+10,1701,28:21,tinyllama,The Rise of Cyber Warfare,0.27900564670562744,0.27900564670562744,0.0,1.0
+10,1701,28:21,tinyllama,How Stolen NSO Tools Enabled Wanna,0.26919591426849365,0.26919591426849365,0.0,1.0
+10,1701,28:21,tinyllama,The Fragility of Security,0.26186302304267883,0.26186302304267883,0.0,1.0
+10,1701,28:21,tinyllama,The Fragility of Security,0.26186302304267883,0.26186302304267883,0.0,1.0
+10,1701,28:21,tinyllama,The Power of Stolen NSFW Tools,0.2527070641517639,0.2527070641517639,0.0,1.0
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty

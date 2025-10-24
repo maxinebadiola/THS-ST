@@ -1,0 +1,47 @@
+[
+  {
+    "name": "The Science of Intelligence: Back Propagation",
+    "start": 0,
+    "timestamp": "00:00"
+  },
+  {
+    "name": "Taming Meta's AI: Backpropagation Explained",
+    "start": 128,
+    "timestamp": "02:08"
+  },
+  {
+    "name": "Simplifying Neural Networks with Linear Models",
+    "start": 226,
+    "timestamp": "03:46"
+  },
+  {
+    "name": "From Outputs to Probabilities: Softmax Explained",
+    "start": 370,
+    "timestamp": "06:10"
+  },
+  {
+    "name": "Deriving Backpropagation Equations for Neural Networks",
+    "start": 568,
+    "timestamp": "09:28"
+  },
+  {
+    "name": "Efficient Backpropagation: Calculating Loss Gradients",
+    "start": 685,
+    "timestamp": "11:25"
+  },
+  {
+    "name": "Visualizing Gradient Descent in Multilayer Models",
+    "start": 1174,
+    "timestamp": "19:34"
+  },
+  {
+    "name": "Unraveling Language Geometry with Backpropagation",
+    "start": 1557,
+    "timestamp": "25:57"
+  },
+  {
+    "name": "Watch Labs: Building a Better Future",
+    "start": 1694,
+    "timestamp": "28:14"
+  }
+]

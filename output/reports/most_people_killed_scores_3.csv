@@ -1,0 +1,402 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,tinyllama,Measuring the Age of Primordial Rocks,0.39990347623825073,0.39990347623825073,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Catalyst of Global Devastation,0.3337918519973755,0.3337918519973755,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Catalyst of Global Devastation,0.3337918519973755,0.3337918519973755,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Creator of Global Devastation,0.3233431279659271,0.3233431279659271,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Architect of Global Devastation,0.3161790370941162,0.3161790370941162,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Clair's Chronometer,0.31609541177749634,0.31609541177749634,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Inventor of Global Disaster,0.31115391850471497,0.31115391850471497,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Genius Behind Global Devastation,0.3058170676231384,0.3058170676231384,0.0,1.0
+1,0,00:00,gemma2-9b,Clair Patterson'S Accidental Legacy,0.30521517992019653,0.30521517992019653,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Creator of Global Havoc,0.29905515909194946,0.29905515909194946,0.0,1.0
+1,0,00:00,llama3.1-8b,The Accidental Creator of Global Havoc,0.29905515909194946,0.29905515909194946,0.0,1.0
+1,0,00:00,tinyllama,The Scientific Breakthrough That Changed The World,0.2981385842568452,0.3522091209888458,0.0,0.846481724890614
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,gemma2-9b,The Accidental Legacy of Clair Patterson,0.29721543192863464,0.29721543192863464,0.0,1.0
+1,0,00:00,tinyllama,The Age of the Universe,0.29465213418006897,0.29465213418006897,0.0,1.0
+1,0,00:00,tinyllama,The Age of the Universe,0.29465213418006897,0.29465213418006897,0.0,1.0
+1,0,00:00,tinyllama,The Age of the Universe,0.29465213418006897,0.29465213418006897,0.0,1.0
+1,0,00:00,tinyllama,The Age of the Universe,0.29465213418006897,0.29465213418006897,0.0,1.0
+1,0,00:00,qwen2-7b,Patterson's Atomic Mistakes: A Scientist's Tragic Legacy,0.2829708280532226,0.3342905342578888,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,The Accidental Menace of Clair Patterson,0.2796928584575653,0.2796928584575653,0.0,1.0
+1,0,00:00,qwen2-7b,Patterson's Paradox: A Scientist's Legacy of Catastrophe,0.271113223338673,0.3202824294567108,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Patterson's Paradox: A Scientist's Legacy of Catastrophe,0.271113223338673,0.3202824294567108,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Tragic Legacy of Dr. Clair Patterson,0.2661379557108019,0.31440484523773193,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Tragic Legacy of Dr. Clair Patterson,0.2661379557108019,0.31440484523773193,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Tragic Legacy of Dr. Clair Patterson,0.2661379557108019,0.31440484523773193,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Tragic Legacy of Dr. Clair Patterson,0.2661379557108019,0.31440484523773193,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Tragic Legacy of Dr. Clair Patterson,0.2661379557108019,0.31440484523773193,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,The Tragic Legacy of Dr. Clair Patterson,0.2661379557108019,0.31440484523773193,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,The Accidental Disaster Maker,0.26593539118766785,0.26593539118766785,0.0,1.0
+1,0,00:00,qwen2-7b,The Tragic Genius: Clair Patterson's Unintended Consequences,0.2642771275652649,0.31220653653144836,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Dr. Patterson's Earth-Aging Invention,0.2529524332898371,0.35302355885505676,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Dr. Patterson's Earth-Aging Invention,0.2529524332898371,0.35302355885505676,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Dr. Patterson's Earth-Aging Discoveries,0.25285574103248404,0.3528886139392853,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Dr. Patterson's Earth-Aging Discoveries,0.25285574103248404,0.3528886139392853,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Dr. Patterson's Earth-Aging Discoveries,0.25285574103248404,0.3528886139392853,0.0,0.7165313105737893
+1,0,00:00,tinyllama,The Accidental Inventor,0.24594369530677795,0.24594369530677795,0.0,1.0
+1,0,00:00,tinyllama,The Accidental Inventor,0.24594369530677795,0.24594369530677795,0.0,1.0
+1,0,00:00,tinyllama,The Accidental Inventor,0.24594369530677795,0.24594369530677795,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Dr. Pateron's Earth-Aging Discoveries,0.24526001754739876,0.34228792786598206,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Dr. Pateron's Earth-Aging Breakthrough,0.2444611319378949,0.341172993183136,0.0,0.7165313105737893
+1,0,00:00,tinyllama,The Scientific Breakthrough That Accidentally Caused The Deaths Of Millions,0.2091172230943153,0.4073047339916229,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Clair's Clock: A Tale of Three Disasters,0.1437503206854588,0.3307660222053528,0.0,0.43459820850707825
+1,0,00:00,mistral-7b-v0.3,The Tragic Legacy of Clair's Clock: A Tale of Three Disasters,0.1437503206854588,0.3307660222053528,0.0,0.43459820850707825
+2,112,01:52,tinyllama,How Cadillacs Changed the Automotive Industry,0.31893518567085266,0.31893518567085266,0.0,1.0
+2,112,01:52,gemma2-9b,The Quest for Lead-Free Fuel,0.30457791686058044,0.30457791686058044,0.0,1.0
+2,112,01:52,tinyllama,The Mystery of the Missing Lead,0.2814595401287079,0.2814595401287079,0.0,1.0
+2,112,01:52,gemma2-9b,The Mystery of Extra Lead,0.2800135612487793,0.2800135612487793,0.0,1.0
+2,112,01:52,gemma2-9b,The Mystery of Extra Lead,0.2800135612487793,0.2800135612487793,0.0,1.0
+2,112,01:52,gemma2-9b,The Mystery of Extra Lead,0.2800135612487793,0.2800135612487793,0.0,1.0
+2,112,01:52,gemma2-9b,The Mystery of Extra Lead,0.2800135612487793,0.2800135612487793,0.0,1.0
+2,112,01:52,gemma2-9b,The Mystery of Extra Lead,0.2800135612487793,0.2800135612487793,0.0,1.0
+2,112,01:52,gemma2-9b,The Mystery of Extra Lead,0.2800135612487793,0.2800135612487793,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane Fuel,0.27780547738075256,0.27780547738075256,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane Fuel,0.27780547738075256,0.27780547738075256,0.0,1.0
+2,112,01:52,gemma2-9b,The Search for Knock-Free Fuel,0.2760070860385895,0.2760070860385895,0.0,1.0
+2,112,01:52,tinyllama,The Mystery of the Belle Island Bridge,0.2747053635891956,0.3245260417461395,0.0,0.846481724890614
+2,112,01:52,gemma2-9b,The Search for Lead's Source,0.27371177077293396,0.27371177077293396,0.0,1.0
+2,112,01:52,gemma2-9b,The Quest for Lead's Source,0.2617732882499695,0.2617732882499695,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,llama3.1-8b,The Quest for Higher Octane,0.2488880753517151,0.2488880753517151,0.0,1.0
+2,112,01:52,tinyllama,How did the discovery of crankshafts revolutionize the automobile industry?,0.19666020164576256,0.38304176926612854,0.0,0.513417119032592
+2,112,01:52,qwen2-7b,The Quest for Clean Power: From Zircons to Ethanol,0.19448865420093728,0.3206575810909271,0.0,0.6065306597126334
+2,112,01:52,qwen2-7b,The Quest for Clean Power: From Zircons to Ethanol,0.19448865420093728,0.3206575810909271,0.0,0.6065306597126334
+2,112,01:52,qwen2-7b,The Quest for Engine Harmony: From Zircons to Ethanol,0.19247325002317264,0.31733474135398865,0.0,0.6065306597126334
+2,112,01:52,qwen2-7b,The Quest for Clean Power: From Zircons to Octanes,0.1912901924423579,0.3153842091560364,0.0,0.6065306597126334
+2,112,01:52,qwen2-7b,The Quest for Clean Power: From Zircons to Octanes,0.1912901924423579,0.3153842091560364,0.0,0.6065306597126334
+2,112,01:52,qwen2-7b,The Quest for Clean Power: From Zircons to Octanes,0.1912901924423579,0.3153842091560364,0.0,0.6065306597126334
+2,112,01:52,tinyllama,Pattson' s PhD Project: Measuring the Age of the Universe,0.1894232464315279,0.3689461052417755,0.0,0.513417119032592
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Lead Mystery Traced Back to Early Car Engines,0.15602818338474003,0.30390140414237976,0.0,0.513417119032592
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination & the Birth of High-Octane Fuel,0.15033020102101496,0.34590616822242737,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination & the Birth of High-Octane Fuel,0.15033020102101496,0.34590616822242737,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination & The Birth of High-Octane Fuel,0.15033020102101496,0.34590616822242737,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination & The Birth of High-Octane Fuel,0.15033020102101496,0.34590616822242737,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination & the Birth of High-Octane Fuel,0.15033020102101496,0.34590616822242737,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination & The Birth of High-Octane Fuel,0.15033020102101496,0.34590616822242737,0.0,0.43459820850707825
+2,112,01:52,qwen2-7b,The Quest for Clean Power: From Hand-Cranked Cars to Engine Optimization,0.149455070810073,0.34389251470565796,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination and the Birth of High-Octane Fuel,0.14917464628038982,0.34324726462364197,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination and the Birth of High-Octane Fuel,0.14917464628038982,0.34324726462364197,0.0,0.43459820850707825
+2,112,01:52,mistral-7b-v0.3,Patterson Uncovers Mysterious Lead Contamination and the Birth of High-Octane Fuel,0.14917464628038982,0.34324726462364197,0.0,0.43459820850707825
+2,112,01:52,qwen2-7b,The Quest for Engine Harmony: From Hand-Cranked Cars to Ethanol Revolution,0.14865354701925898,0.3420482277870178,0.0,0.43459820850707825
+2,112,01:52,qwen2-7b,The Quest for Engine Harmony: From Hand-Cranked Cars to Ethanol Fuels,0.14817469729929603,0.34094640612602234,0.0,0.43459820850707825
+2,112,01:52,qwen2-7b,The Quest for Perfect Fuel: From Engine Knocks to Ethanol Revolution,0.1373328718323633,0.3159996271133423,0.0,0.43459820850707825
+2,112,01:52,tinyllama,PATTERSON'S PHD PROJECT - DEVELOPING AN OCTANE RATING SYSTEM FOR HIGH COMPRESSION ENGINES,0.11511165144420733,0.36965465545654297,0.0,0.31140322391459774
+2,112,01:52,tinyllama,PATTERSON'S PHD PROJECT: THE MYSTERY OF THE EXTRA LEAD IN CLAIRE PATTON'S ENGINE,0.11019254800595474,0.353858083486557,0.0,0.31140322391459774
+2,112,01:52,tinyllama,PHOTOGRAPHS SHOWING THE DIFFICULTY OF MEASuring UR ANIUM AND LEAD RATIOS IN PRISM ROCKS,0.09577969446446816,0.363356351852417,0.0,0.2635971381157267
+2,112,01:52,tinyllama,How did the discovery of the octave change the way we think about music?,0.08913800252881145,0.33815997838974,0.0,0.2635971381157267
+2,112,01:52,tinyllama,PATTERSON'S PHD PROJECT - MEASURING THE AGE OF THE EARTH BY MEASuring THE RATIO OF URANIUM TO LEAD IN PRIMAL ROCKS,0.036804424716438244,0.44836968183517456,0.0,0.0820849986238988
+3,427,07:07,mistral-7b-v0.3,The Stinky Solution: Discovering Tetrahyl Lead,0.36115649342536926,0.36115649342536926,0.0,1.0
+3,427,07:07,qwen2-7b,The Smelly Solution: Midgely's Lead Discovery,0.36114734411239624,0.36114734411239624,0.0,1.0
+3,427,07:07,tinyllama,The Development of TETRAETHYL LEAD,0.35603049397468567,0.35603049397468567,0.0,1.0
+3,427,07:07,tinyllama,The Discovery of Tetra Ethyl Lead,0.3518872559070587,0.3518872559070587,0.0,1.0
+3,427,07:07,tinyllama,The Discovery of Tetra Ethyl Lead,0.3518872559070587,0.3518872559070587,0.0,1.0
+3,427,07:07,tinyllama,The Discovery of Tetra Ethyl Lead,0.3518872559070587,0.3518872559070587,0.0,1.0
+3,427,07:07,tinyllama,The Discovery of Tetra Ethyl Lead,0.3518872559070587,0.3518872559070587,0.0,1.0
+3,427,07:07,mistral-7b-v0.3,Midgley's Odorous Quest for an Anti-Knock Agent,0.33241179802163906,0.39269813895225525,0.0,0.846481724890614
+3,427,07:07,mistral-7b-v0.3,Midgley's Odorous Quest for an Anti-Knock Agent,0.33241179802163906,0.39269813895225525,0.0,0.846481724890614
+3,427,07:07,mistral-7b-v0.3,Midgley's Odorous Quest for an Anti-Knock Agent,0.33241179802163906,0.39269813895225525,0.0,0.846481724890614
+3,427,07:07,qwen2-7b,Midgley's Quest for the Perfect Anti-Knock Agent,0.3304215547440358,0.3903469443321228,0.0,0.846481724890614
+3,427,07:07,gemma2-9b,The Quest for Anti-Knock Fuel,0.3251195251941681,0.3251195251941681,0.0,1.0
+3,427,07:07,gemma2-9b,The Quest for Anti-Knock Fuel,0.3251195251941681,0.3251195251941681,0.0,1.0
+3,427,07:07,gemma2-9b,The Quest for Anti-Knock Fuel,0.3251195251941681,0.3251195251941681,0.0,1.0
+3,427,07:07,gemma2-9b,The Quest for Anti-Knock Fuel,0.3251195251941681,0.3251195251941681,0.0,1.0
+3,427,07:07,gemma2-9b,The Quest for Lead-Free Fuel,0.32262471318244934,0.32262471318244934,0.0,1.0
+3,427,07:07,gemma2-9b,The Quest for Lead-Free Fuel,0.32262471318244934,0.32262471318244934,0.0,1.0
+3,427,07:07,gemma2-9b,The Quest for Lead-Free Fuel,0.32262471318244934,0.32262471318244934,0.0,1.0
+3,427,07:07,gemma2-9b,The Search for Anti-Knock Fuel,0.31766149401664734,0.31766149401664734,0.0,1.0
+3,427,07:07,gemma2-9b,The Search for Anti-Knock Fuel,0.31766149401664734,0.31766149401664734,0.0,1.0
+3,427,07:07,mistral-7b-v0.3,The Odorous Quest for an Anti-Knock Agent,0.3092050412215448,0.3652825951576233,0.0,0.846481724890614
+3,427,07:07,llama3.1-8b,The Quest for Knock-Free Fuel,0.30497655272483826,0.30497655272483826,0.0,1.0
+3,427,07:07,llama3.1-8b,The Quest for Knock-Free Fuel,0.30497655272483826,0.30497655272483826,0.0,1.0
+3,427,07:07,llama3.1-8b,The Quest for Knock-Free Fuel,0.30497655272483826,0.30497655272483826,0.0,1.0
+3,427,07:07,llama3.1-8b,The Quest for the Perfect Fuel Additive,0.2971581826432991,0.3510509133338928,0.0,0.846481724890614
+3,427,07:07,gemma2-9b,The Search for the Perfect Fuel Additive,0.2958293188037819,0.3494810461997986,0.0,0.846481724890614
+3,427,07:07,qwen2-7b,Midgley's Quest for the Perfect Anti-Knock Fuel Additive,0.2927925261493887,0.40862488746643066,0.0,0.7165313105737893
+3,427,07:07,mistral-7b-v0.3,Midgley's Odyssey: The Pungent Path to Tetrahydrolead,0.28349926056226593,0.33491480350494385,0.0,0.846481724890614
+3,427,07:07,llama3.1-8b,The Quest for the Perfect Octane Boost,0.27894422632035193,0.3295336663722992,0.0,0.846481724890614
+3,427,07:07,llama3.1-8b,The Quest for the Perfect Octane Boost,0.27894422632035193,0.3295336663722992,0.0,0.846481724890614
+3,427,07:07,llama3.1-8b,The Quest for the Perfect Octane Boost,0.27894422632035193,0.3295336663722992,0.0,0.846481724890614
+3,427,07:07,llama3.1-8b,The Quest for the Perfect Octane Boost,0.27894422632035193,0.3295336663722992,0.0,0.846481724890614
+3,427,07:07,llama3.1-8b,The Quest for the Perfect Octane Boost,0.27894422632035193,0.3295336663722992,0.0,0.846481724890614
+3,427,07:07,llama3.1-8b,The Quest for the Perfect Octane Booster,0.27724823218513095,0.3275300860404968,0.0,0.846481724890614
+3,427,07:07,qwen2-7b,The Smelly Solution: Midgely's Quest for Fuel Efficiency,0.2693703856693114,0.3759366571903229,0.0,0.7165313105737893
+3,427,07:07,qwen2-7b,Midgley's Lead Discovery: Aromatic Solution to Engine Knocks,0.26147012855301777,0.36491096019744873,0.0,0.7165313105737893
+3,427,07:07,qwen2-7b,Midgley's Mysterious Miracle: The Birth of Leaded Gasoline,0.24817991871820738,0.34636297821998596,0.0,0.7165313105737893
+3,427,07:07,tinyllama,The First World War,0.2401151806116104,0.2401151806116104,0.0,1.0
+3,427,07:07,qwen2-7b,Midgley's Mislabeled Miracle: The Birth of Leaded Gasoline,0.2383255725811851,0.3326101303100586,0.0,0.7165313105737893
+3,427,07:07,qwen2-7b,Midgley's Lead Discovery: Aromatic Triumph and Smelly Tradeoff,0.23710957348606368,0.33091306686401367,0.0,0.7165313105737893
+3,427,07:07,mistral-7b-v0.3,Midgley's Odyssey: The Stinky Quest for an Anti-Knock Agent,0.2312820540642558,0.38131964206695557,0.0,0.6065306597126334
+3,427,07:07,mistral-7b-v0.3,The Odyssey of Tetrahydrolead: A Smelly Solution to Knocking,0.2235756673426267,0.36861395835876465,0.0,0.6065306597126334
+3,427,07:07,qwen2-7b,The Pungent Pursuit of Perfect Fuel: Midgely's Lead Odyssey,0.204736565804195,0.3375535309314728,0.0,0.6065306597126334
+3,427,07:07,mistral-7b-v0.3,The Birth of Tetrahydrolead: A Smelly Solution to Engine Knocking,0.19125041803345746,0.37250494956970215,0.0,0.513417119032592
+3,427,07:07,tinyllama,The Invention of the Oil Additive That Changed the World,0.1734346724846847,0.3378046154975891,0.0,0.513417119032592
+3,427,07:07,qwen2-7b,The Peculiar Quest for Perfect Fuel: From Butter to Lead,0.16908232723638536,0.32932740449905396,0.0,0.513417119032592
+3,427,07:07,mistral-7b-v0.3,The Odyssey of Tetratethyl Lead: A Smelly Solution to Knocking Engines,0.16485263243913392,0.3793219327926636,0.0,0.43459820850707825
+3,427,07:07,tinyllama,The Invention of the Oil Additive: How Thomas Midgley Discovered Ethanola,0.16194596244225418,0.37263375520706177,0.0,0.43459820850707825
+3,427,07:07,tinyllama,The Invention of the Oil Additive That Made Cars Run Better,0.1485448794378982,0.34179818630218506,0.0,0.43459820850707825
+3,427,07:07,tinyllama,The Invention of the Oil Additive: How Thomas Midgley Created a Breakthrough Fuel for High Compression Engines,0.06611672827998975,0.4135403633117676,0.0,0.15987974607969388
+4,511,08:31,tinyllama,The Dangerous Additive: Tetrachloroethylene,0.3231145143508911,0.3231145143508911,0.0,1.0
+4,511,08:31,tinyllama,The Dangerous Additive: Tetrachloroethylene,0.3231145143508911,0.3231145143508911,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgely's Lead Discovery,0.321333110332489,0.321333110332489,0.0,1.0
+4,511,08:31,gemma2-9b,The Deadly Rise of Leaded Gasoline,0.31747859716415405,0.31747859716415405,0.0,1.0
+4,511,08:31,gemma2-9b,The Deadly Rise of Leaded Gasoline,0.31747859716415405,0.31747859716415405,0.0,1.0
+4,511,08:31,llama3.1-8b,The Dark Side of Leaded Gasoline,0.3163653314113617,0.3163653314113617,0.0,1.0
+4,511,08:31,tinyllama,A Brief History of Lead Poisoning,0.3138915002346039,0.3138915002346039,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgley's Lead Discovery,0.30701181292533875,0.30701181292533875,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgley's Lead Discovery,0.30701181292533875,0.30701181292533875,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgley's Lead Discovery,0.30701181292533875,0.30701181292533875,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgley's Lead Discovery,0.30701181292533875,0.30701181292533875,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgley's Lead Discovery,0.30701181292533875,0.30701181292533875,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgley's Lead Discovery,0.30701181292533875,0.30701181292533875,0.0,1.0
+4,511,08:31,qwen2-7b,The Poisonous Profit: Midgley's Lead Discovery,0.30701181292533875,0.30701181292533875,0.0,1.0
+4,511,08:31,tinyllama,The Story of Tetra Ethyl Lead,0.3014805316925049,0.3014805316925049,0.0,1.0
+4,511,08:31,qwen2-7b,The Dark Secret of Ethyl Gasoline,0.2976335883140564,0.2976335883140564,0.0,1.0
+4,511,08:31,qwen2-7b,The Dark Secret of Ethyl Gasoline,0.2976335883140564,0.2976335883140564,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,gemma2-9b,The Poisoned Promise of Ethyl,0.2841549813747406,0.2841549813747406,0.0,1.0
+4,511,08:31,tinyllama,The Invention of Ethanol,0.2711429297924042,0.2711429297924042,0.0,1.0
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel' Gasoline,0.26796770095825195,0.26796770095825195,0.0,1.0
+4,511,08:31,tinyllama,The Dangerous Additive,0.2464800924062729,0.2464800924062729,0.0,1.0
+4,511,08:31,tinyllama,The Dangerous Additive,0.2464800924062729,0.2464800924062729,0.0,1.0
+4,511,08:31,tinyllama,The Dangerous Additive,0.2464800924062729,0.2464800924062729,0.0,1.0
+4,511,08:31,tinyllama,A Deadly Additive,0.234772726893425,0.234772726893425,0.0,1.0
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,llama3.1-8b,The Dark Side of 'Ethel': A Toxic Legacy,0.2056410697888073,0.2869952321052551,0.0,0.7165313105737893
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Deadly Additive,0.20231951241184032,0.3335684835910797,0.0,0.6065306597126334
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Toxic Triumph,0.19627261298970053,0.32359883189201355,0.0,0.6065306597126334
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Deadly Additive's Impact,0.1768422101956064,0.34444159269332886,0.0,0.513417119032592
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tettraethyl Lead: A Toxic Triumph,0.17048662447946114,0.33206260204315186,0.0,0.513417119032592
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Poisonous Success Story,0.16732371951628175,0.3259021043777466,0.0,0.513417119032592
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Poisonous Success Story,0.16732371951628175,0.3259021043777466,0.0,0.513417119032592
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Poisonous Success Story,0.16732371951628175,0.3259021043777466,0.0,0.513417119032592
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tettraethyl Lead: A Poisonous Profit,0.16590540653659527,0.32313960790634155,0.0,0.513417119032592
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Poisonous Pioneer in Fuel Additives,0.12475620822233192,0.3391225337982178,0.0,0.36787944117144233
+4,511,08:31,mistral-7b-v0.3,The Rise and Fall of Tetrahydrolead: A Poisonous Pioneer in Fuel Additives,0.12475620822233192,0.3391225337982178,0.0,0.36787944117144233
+4,511,08:31,tinyllama,How Did Ethan Allen Conduct His Research on Firearms and What Was the Result?: Title should convey the main idea of the text material,0.016694685618670945,0.33532172441482544,0.0,0.049787068367863944
+5,724,12:04,llama3.1-8b,The Toxic Legacy of Tetraethyl Lead,0.35272297263145447,0.35272297263145447,0.0,1.0
+5,724,12:04,llama3.1-8b,The Toxic Legacy of Tetraethyl Lead,0.35272297263145447,0.35272297263145447,0.0,1.0
+5,724,12:04,llama3.1-8b,The Toxic Legacy of Tetraethyl Lead,0.35272297263145447,0.35272297263145447,0.0,1.0
+5,724,12:04,llama3.1-8b,The Poisonous Legacy of Tetraethyl Lead,0.3522644340991974,0.3522644340991974,0.0,1.0
+5,724,12:04,llama3.1-8b,The Poisonous Legacy of Tetraethyl Lead,0.3522644340991974,0.3522644340991974,0.0,1.0
+5,724,12:04,tinyllama,The History of Tetramethyl Lead,0.33041131496429443,0.33041131496429443,0.0,1.0
+5,724,12:04,tinyllama,The Rise and Fall of Tetraethylediol,0.3236705958843231,0.3236705958843231,0.0,1.0
+5,724,12:04,gemma2-9b,The Hidden Poison: Lead's Silent Threat,0.32351699471473694,0.32351699471473694,0.0,1.0
+5,724,12:04,gemma2-9b,The Silent Poison: Lead's Deadly Legacy,0.3133259415626526,0.3133259415626526,0.0,1.0
+5,724,12:04,tinyllama,How Did Tetraethyledioxide Lead to Environmental Contamination?,0.31173479171442475,0.368271142244339,0.0,0.846481724890614
+5,724,12:04,tinyllama,The History of Lead Pollution,0.3111673593521118,0.3111673593521118,0.0,1.0
+5,724,12:04,gemma2-9b,The Silent Poison: Lead's Legacy,0.3065184950828552,0.3065184950828552,0.0,1.0
+5,724,12:04,gemma2-9b,The Silent Poison: Lead's Legacy,0.3065184950828552,0.3065184950828552,0.0,1.0
+5,724,12:04,llama3.1-8b,The Dark Legacy of Tetraethyl Lead,0.30343493819236755,0.30343493819236755,0.0,1.0
+5,724,12:04,llama3.1-8b,The Dark Legacy of Tetraethyl Lead,0.30343493819236755,0.30343493819236755,0.0,1.0
+5,724,12:04,llama3.1-8b,The Dark Legacy of Tetraethyl Lead,0.30343493819236755,0.30343493819236755,0.0,1.0
+5,724,12:04,llama3.1-8b,The Dark Legacy of Tetraethyl Lead,0.30343493819236755,0.30343493819236755,0.0,1.0
+5,724,12:04,qwen2-7b,The Poisoned Planet: Lead's Hidden Legacy,0.29512590169906616,0.29512590169906616,0.0,1.0
+5,724,12:04,mistral-7b-v0.3,Pioneering Clean Rooms & Uncovering Lead Contamination,0.2894243040784729,0.34191441535949707,0.0,0.846481724890614
+5,724,12:04,gemma2-9b,Lead's Toxic Legacy Revealed,0.28463706374168396,0.28463706374168396,0.0,1.0
+5,724,12:04,gemma2-9b,Lead's Toxic Legacy Revealed,0.28463706374168396,0.28463706374168396,0.0,1.0
+5,724,12:04,gemma2-9b,The Silent Poison of Progress,0.27405667304992676,0.27405667304992676,0.0,1.0
+5,724,12:04,gemma2-9b,The Hidden Poison of Progress,0.27212923765182495,0.27212923765182495,0.0,1.0
+5,724,12:04,gemma2-9b,The Hidden Poison of Progress,0.27212923765182495,0.27212923765182495,0.0,1.0
+5,724,12:04,gemma2-9b,The Hidden Cost of Progress,0.26334890723228455,0.26334890723228455,0.0,1.0
+5,724,12:04,tinyllama,A Little Lead Is Good for You,0.2597219924148659,0.30682528018951416,0.0,0.846481724890614
+5,724,12:04,tinyllama,How Lead Affects Brain Development and Learning,0.25076467415027015,0.29624345898628235,0.0,0.846481724890614
+5,724,12:04,tinyllama,The Role of Lead in Modern Society,0.246194806361055,0.29084479808807373,0.0,0.846481724890614
+5,724,12:04,qwen2-7b,The Poisonous Gift: Unraveling Lead's Impact on Earth,0.2459539040779705,0.3432563245296478,0.0,0.7165313105737893
+5,724,12:04,qwen2-7b,The Poisonous Gift: Unraveling Lead's Impact on Earth,0.2459539040779705,0.3432563245296478,0.0,0.7165313105737893
+5,724,12:04,llama3.1-8b,A Toxic Gift: The Rise of Lead Pollution,0.2346991431359106,0.3275490403175354,0.0,0.7165313105737893
+5,724,12:04,tinyllama,The Rise and Fall of Tetra Ethyl Lead,0.23333274572618284,0.32564207911491394,0.0,0.7165313105737893
+5,724,12:04,mistral-7b-v0.3,Pioneering Clean Rooms & Unveiling Lead's Creeping Menace,0.21802096729174902,0.30427277088165283,0.0,0.7165313105737893
+5,724,12:04,mistral-7b-v0.3,Pioneering Clean Rooms & Unveiling Lead's Creeping Menace,0.21802096729174902,0.30427277088165283,0.0,0.7165313105737893
+5,724,12:04,mistral-7b-v0.3,Pioneering Clean Rooms & Unveiling Lead's Creeping Menace,0.21802096729174902,0.30427277088165283,0.0,0.7165313105737893
+5,724,12:04,qwen2-7b,The Controversial Addition: Lead in Fuel and Its Impact,0.20509414567651812,0.33814308047294617,0.0,0.6065306597126334
+5,724,12:04,tinyllama,The Effect of Exposure to Lead on Child Development,0.1974234229468056,0.32549619674682617,0.0,0.6065306597126334
+5,724,12:04,qwen2-7b,The Controversial Addition of Lead to Fuel: Uncovering Its Impact,0.1727365480320645,0.3364448547363281,0.0,0.513417119032592
+5,724,12:04,tinyllama,The Role of Leaded Gasoline in the Development of Leukemia,0.16913964486667327,0.32943904399871826,0.0,0.513417119032592
+5,724,12:04,mistral-7b-v0.3,The Creeping Poison: Unveiling Lead Contamination's Impact on Earth' Scientific Discoveries,0.15268196694301517,0.35131752490997314,0.0,0.43459820850707825
+5,724,12:04,qwen2-7b,The Poisonous Gift: Unraveling Lead's Impact on Our Planet and People,0.1462231751912661,0.3364560008049011,0.0,0.43459820850707825
+5,724,12:04,mistral-7b-v0.3,Lead's Creeping Menace: A Race Against Time to Measure Its Impact,0.14041032737487155,0.32308077812194824,0.0,0.43459820850707825
+5,724,12:04,mistral-7b-v0.3,The Creeping Poison: Lead Contamination and its Impact on Earth' Age Measurement,0.13586116959999017,0.3693089485168457,0.0,0.36787944117144233
+5,724,12:04,mistral-7b-v0.3,The Unseen Poison: Lead Contamination and Its Impact on Earth' Age Measurement,0.13552946401508734,0.368407279253006,0.0,0.36787944117144233
+5,724,12:04,mistral-7b-v0.3,The Creeping Menace of Tetra Ethyl Lead: A Hidden Danger in Gasoline,0.1344791781146763,0.36555230617523193,0.0,0.36787944117144233
+5,724,12:04,qwen2-7b,Patterson's Quest: Uncovering the True Age of Earth & Lead's Poisonous Legacy,0.13135010520925225,0.35704660415649414,0.0,0.36787944117144233
+5,724,12:04,mistral-7b-v0.3,Pioneering Clean Rooms & Uncovering Lead Pollution: The Age of the Universe,0.12762349081354976,0.3469166159629822,0.0,0.36787944117144233
+5,724,12:04,qwen2-7b,The Controversial Addition of Lead to Fuel and Its Impact on Earth's Age Determination,0.10280967536730648,0.3900257647037506,0.0,0.2635971381157267
+5,724,12:04,qwen2-7b,The Controversial Addition of Lead to Fuel and Its Impact on Science and Society,0.0974070091502419,0.3695298433303833,0.0,0.2635971381157267
+5,724,12:04,qwen2-7b,The Controversial Addition of Lead to Fuel: Unveiling its Impact on Public Health and the Earth,0.07012536505355876,0.3712780475616455,0.0,0.18887560283756186
+6,1004,16:44,llama3.1-8b,The Toxic Toll of Lead Exposure,0.3540974259376526,0.3540974259376526,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Hidden Toll of Lead Exposure,0.35351720452308655,0.35351720452308655,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Hidden Toll of Lead Exposure,0.35351720452308655,0.35351720452308655,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Hidden Toll of Lead Exposure,0.35351720452308655,0.35351720452308655,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Hidden Toll of Lead Exposure,0.35351720452308655,0.35351720452308655,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Hidden Toll of Lead Exposure,0.35351720452308655,0.35351720452308655,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Hidden Toll of Lead Exposure,0.35351720452308655,0.35351720452308655,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Hidden Toll of Lead Exposure,0.35351720452308655,0.35351720452308655,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Toxic Legacy of Lead Exposure,0.3481737971305847,0.3481737971305847,0.0,1.0
+6,1004,16:44,llama3.1-8b,The Toxic Legacy of Lead Exposure,0.3481737971305847,0.3481737971305847,0.0,1.0
+6,1004,16:44,tinyllama,The Dangers of Lead Exposure,0.33993691205978394,0.33993691205978394,0.0,1.0
+6,1004,16:44,tinyllama,The Effect of Lead on Anti-social Behavior,0.3350571391841345,0.39582324028015137,0.0,0.846481724890614
+6,1004,16:44,tinyllama,The Link Between Lead Exposure and Crime,0.32645274834597293,0.3856583535671234,0.0,0.846481724890614
+6,1004,16:44,tinyllama,The Link Between Lead Exposure and Crime,0.32645274834597293,0.3856583535671234,0.0,0.846481724890614
+6,1004,16:44,gemma2-9b,Lead's Toxic Legacy: Hidden Costs,0.32216209173202515,0.32216209173202515,0.0,1.0
+6,1004,16:44,gemma2-9b,Lead's Toxic Legacy: Hidden Costs,0.32216209173202515,0.32216209173202515,0.0,1.0
+6,1004,16:44,gemma2-9b,Lead's Toxic Legacy: Intelligence & Crime,0.30425694584846497,0.30425694584846497,0.0,1.0
+6,1004,16:44,tinyllama,The Link Between Lead Poisoning And Anti-Social Behavior,0.30176784399982104,0.42115095257759094,0.0,0.7165313105737893
+6,1004,16:44,qwen2-7b,"Lead's Toll: Intelligence, Crime, and Cardiovascular Impact",0.2891606049799371,0.3416028916835785,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,"Lead's Hidden Toll: Intelligence, Crime, and Health",0.287679117056794,0.3398527204990387,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,"Lead's Hidden Toll: Intelligence, Crime, and Health",0.287679117056794,0.3398527204990387,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,"Lead's Hidden Toll: Intelligence, Crime, and Health",0.287679117056794,0.3398527204990387,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,"Lead's Toll: Intelligence, Crime, and Health Impact",0.2875924871223855,0.33975037932395935,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,Lead's Insidious Toll on Intelligence and Society,0.28732076579928884,0.3394293785095215,0.0,0.846481724890614
+6,1004,16:44,tinyllama,The Link Between Lead Exposure and Crime Rates,0.2819717912962643,0.39352333545684814,0.0,0.7165313105737893
+6,1004,16:44,tinyllama,The Link Between Lead Exposure and Crime Rates,0.2819717912962643,0.39352333545684814,0.0,0.7165313105737893
+6,1004,16:44,gemma2-9b,"Lead's Silent Toll: Brains, Behavior, and Death",0.28129895104592667,0.33231544494628906,0.0,0.846481724890614
+6,1004,16:44,gemma2-9b,"Lead's Silent Toll: Brains, Behavior, and Death",0.28129895104592667,0.33231544494628906,0.0,0.846481724890614
+6,1004,16:44,tinyllama,Lead and Crime: A Cautionary Tale,0.281255841255188,0.281255841255188,0.0,1.0
+6,1004,16:44,gemma2-9b,Lead's Toxic Legacy: From Brains to Crime,0.27894210724216606,0.32953116297721863,0.0,0.846481724890614
+6,1004,16:44,tinyllama,Study Finds Lead Increases Risk of Anti-social Behavior,0.2771355555020327,0.38677382469177246,0.0,0.7165313105737893
+6,1004,16:44,qwen2-7b,Lead's Devastating Impact on Intelligence and Society,0.2770911176739207,0.32734447717666626,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,Lead's Devastating Toll on Intelligence and Society,0.27695812029063543,0.32718735933303833,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,Lead's Devastating Toll on Intelligence and Society,0.27695812029063543,0.32718735933303833,0.0,0.846481724890614
+6,1004,16:44,gemma2-9b,Lead's Silent Toll: From IQ to Crime,0.27617643271125814,0.3262639045715332,0.0,0.846481724890614
+6,1004,16:44,gemma2-9b,Lead's Silent Toll: From Brains to Crime,0.2659641156181959,0.3141994774341583,0.0,0.846481724890614
+6,1004,16:44,gemma2-9b,Lead's Silent Toll: From Brains to Crime,0.2659641156181959,0.3141994774341583,0.0,0.846481724890614
+6,1004,16:44,gemma2-9b,Lead's Silent Toll: From Brains to Crime,0.2659641156181959,0.3141994774341583,0.0,0.846481724890614
+6,1004,16:44,qwen2-7b,"Lead's Hidden Toll: Intelligence, Crime, and Cardiovascular Disease",0.25940721803417277,0.3620319366455078,0.0,0.7165313105737893
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"Lead Exposure's Lasting Impact: Delayed Learning, Crime, and Cardiovascular Disease",0.2038445672456621,0.39703500270843506,0.0,0.513417119032592
+6,1004,16:44,mistral-7b-v0.3,"The Hidden Toll of Lead Exposure: Intellectual Disability, Crime, and Cardiovascular Disease",0.15337498328230167,0.4169164299964905,0.0,0.36787944117144233
+6,1004,16:44,mistral-7b-v0.3,"The Lasting Impact of Lead Exposure: Intellectual Disability, Crime, and Cardiovascular Disease",0.15126623258984725,0.41118425130844116,0.0,0.36787944117144233
+6,1004,16:44,tinyllama,Study Finds Link Between High Blood Levels of Leaded Gasoline and Anti-Social Behaviors Among Teens,0.09746990443074051,0.4368298053741455,0.0,0.22313016014842982
+7,1149,19:09,qwen2-7b,Michelin's Legacy: Profits vs. Public Health,0.3318539261817932,0.3318539261817932,0.0,1.0
+7,1149,19:09,qwen2-7b,Michelin's Legacy: Profits vs. Public Health,0.3318539261817932,0.3318539261817932,0.0,1.0
+7,1149,19:09,gemma2-9b,Midgley's Toxic Legacy: Poisoning the Planet,0.32903602719306946,0.32903602719306946,0.0,1.0
+7,1149,19:09,qwen2-7b,Midgeley's Legacy: Profits vs. Public Health,0.32586532831192017,0.32586532831192017,0.0,1.0
+7,1149,19:09,qwen2-7b,Midgeley's Legacy: Profits vs. Public Health,0.32586532831192017,0.32586532831192017,0.0,1.0
+7,1149,19:09,tinyllama,The Environmental Disaster of Lead,0.31794092059135437,0.31794092059135437,0.0,1.0
+7,1149,19:09,gemma2-9b,Midgley's Legacy: Poisoning the Planet,0.3112337291240692,0.3112337291240692,0.0,1.0
+7,1149,19:09,gemma2-9b,Midgley's Legacy: Poisoning the Planet,0.3112337291240692,0.3112337291240692,0.0,1.0
+7,1149,19:09,tinyllama,How Lead Destroyed Our Environment,0.30823245644569397,0.30823245644569397,0.0,1.0
+7,1149,19:09,qwen2-7b,Lead's Legacy: Profits vs. Public Health,0.30676308274269104,0.30676308274269104,0.0,1.0
+7,1149,19:09,tinyllama,How Lead Poisoned Our Environment,0.3034239709377289,0.3034239709377289,0.0,1.0
+7,1149,19:09,tinyllama,How Lead Poisoned Our Environment,0.3034239709377289,0.3034239709377289,0.0,1.0
+7,1149,19:09,gemma2-9b,"Lead, Refrigerants, and a Legacy of Harm",0.29351498269934523,0.3467469811439514,0.0,0.846481724890614
+7,1149,19:09,tinyllama,The Dangerous Legacy of Lead,0.2934623658657074,0.2934623658657074,0.0,1.0
+7,1149,19:09,gemma2-9b,Midgley's Legacy: Poisoned Planet,0.2930253744125366,0.2930253744125366,0.0,1.0
+7,1149,19:09,gemma2-9b,Midgley's Legacy: Poisoned Planet,0.2930253744125366,0.2930253744125366,0.0,1.0
+7,1149,19:09,tinyllama,The Effect of Lead on Environmental Health,0.2923110687914312,0.34532472491264343,0.0,0.846481724890614
+7,1149,19:09,tinyllama,The Effects of Lead on Environmental Health,0.29139376020815755,0.34424105286598206,0.0,0.846481724890614
+7,1149,19:09,tinyllama,The Effect of Lead on Our Environment,0.28834602123443615,0.3406405746936798,0.0,0.846481724890614
+7,1149,19:09,gemma2-9b,Midgley's Toxic Legacy,0.2874044179916382,0.2874044179916382,0.0,1.0
+7,1149,19:09,gemma2-9b,Midgley's Toxic Legacy,0.2874044179916382,0.2874044179916382,0.0,1.0
+7,1149,19:09,tinyllama,The Impact of Lead on Our Environment,0.2835888168427406,0.33502060174942017,0.0,0.846481724890614
+7,1149,19:09,tinyllama,Lead and Its Effects on Our Environment,0.27680451234928033,0.32700589299201965,0.0,0.846481724890614
+7,1149,19:09,gemma2-9b,Midgley's Toxic Legacy: A Century of Harm,0.27280513068024975,0.3222811818122864,0.0,0.846481724890614
+7,1149,19:09,gemma2-9b,Midgley's Toxic Legacy: A Century of Harm,0.27280513068024975,0.3222811818122864,0.0,0.846481724890614
+7,1149,19:09,llama3.1-8b,The Toxic Legacy of Thomas Midgley,0.2723681330680847,0.2723681330680847,0.0,1.0
+7,1149,19:09,llama3.1-8b,The Toxic Legacy of Thomas Midgley,0.2723681330680847,0.2723681330680847,0.0,1.0
+7,1149,19:09,llama3.1-8b,The Toxic Legacy of Thomas Midgley,0.2723681330680847,0.2723681330680847,0.0,1.0
+7,1149,19:09,llama3.1-8b,The Toxic Legacy of Thomas Midgley,0.2723681330680847,0.2723681330680847,0.0,1.0
+7,1149,19:09,llama3.1-8b,The Toxic Legacy of Thomas Midgley,0.2723681330680847,0.2723681330680847,0.0,1.0
+7,1149,19:09,llama3.1-8b,The Toxic Legacy of Thomas Midgley,0.2723681330680847,0.2723681330680847,0.0,1.0
+7,1149,19:09,llama3.1-8b,The Toxic Legacy of Thomas Midgley,0.2723681330680847,0.2723681330680847,0.0,1.0
+7,1149,19:09,qwen2-7b,Michelin's Legacy: From Lead Poisoning to Ozone Depletion,0.2694043817103242,0.3759841024875641,0.0,0.7165313105737893
+7,1149,19:09,llama3.1-8b,The Devastating Legacy of Thomas Midgley,0.26676130294799805,0.26676130294799805,0.0,1.0
+7,1149,19:09,llama3.1-8b,The Devastating Legacy of Thomas Midgley,0.26676130294799805,0.26676130294799805,0.0,1.0
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,mistral-7b-v0.3,Lead's Deadly Legacy: From Gasoline to Ozone Depletion,0.26086625038480094,0.3640681803226471,0.0,0.7165313105737893
+7,1149,19:09,qwen2-7b,Midgeley's Legacy: From Lead Poisoning to Ozone Destruction,0.25756775888037675,0.35946476459503174,0.0,0.7165313105737893
+7,1149,19:09,qwen2-7b,Midgeley's Legacy: From Lead Poisoning to Ozone Destruction,0.25756775888037675,0.35946476459503174,0.0,0.7165313105737893
+7,1149,19:09,llama3.1-8b,The Dark Legacy of Thomas Midgley,0.256930410861969,0.256930410861969,0.0,1.0
+7,1149,19:09,mistral-7b-v0.3,The Deadly Legacy of Lead: From Gasoline to Refrigerants,0.2247835071499582,0.37060534954071045,0.0,0.6065306597126334
+7,1149,19:09,qwen2-7b,Midgeley's Legacy: From Lead to Ozone - Environmental Catastrophes Unveiled,0.18464415566568204,0.35963770747184753,0.0,0.513417119032592
+7,1149,19:09,qwen2-7b,Midgeley's Legacy: From Lead to Ozone - Unintended Environmental Catastrophes,0.1824841256202707,0.355430543422699,0.0,0.513417119032592
+7,1149,19:09,mistral-7b-v0.3,The Toxic Legacy of Lead and CFC's: A Century of Environmental Disasters,0.1373659760237301,0.37339943647384644,0.0,0.36787944117144233
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Action,0.31082242727279663,0.31082242727279663,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Action,0.31082242727279663,0.31082242727279663,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Action,0.31082242727279663,0.31082242727279663,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,qwen2-7b,The Delayed Impact of Environmental Truths,0.30447807908058167,0.30447807908058167,0.0,1.0
+8,1367,22:47,gemma2-9b,The Slow March of Environmental Truth,0.3032415509223938,0.3032415509223938,0.0,1.0
+8,1367,22:47,tinyllama,The Importance of Carbon Dioxide,0.3028963506221771,0.3028963506221771,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Awareness,0.2997165322303772,0.2997165322303772,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Awareness,0.2997165322303772,0.2997165322303772,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Awareness,0.2997165322303772,0.2997165322303772,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Awareness,0.2997165322303772,0.2997165322303772,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Awareness,0.2997165322303772,0.2997165322303772,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Awareness,0.2997165322303772,0.2997165322303772,0.0,1.0
+8,1367,22:47,llama3.1-8b,The Long Road to Environmental Awareness,0.2997165322303772,0.2997165322303772,0.0,1.0
+8,1367,22:47,gemma2-9b,The Long Road to Truthful Action,0.2925257980823517,0.2925257980823517,0.0,1.0
+8,1367,22:47,gemma2-9b,The Slow March of Environmental Progress,0.28856611251831055,0.28856611251831055,0.0,1.0
+8,1367,22:47,gemma2-9b,The Slow March of Environmental Progress,0.28856611251831055,0.28856611251831055,0.0,1.0
+8,1367,22:47,gemma2-9b,The Slow March of Environmental Progress,0.28856611251831055,0.28856611251831055,0.0,1.0
+8,1367,22:47,gemma2-9b,The Slow March of Environmental Progress,0.28856611251831055,0.28856611251831055,0.0,1.0
+8,1367,22:47,tinyllama,Renewable Energy: A Solution to Climate Change?,0.2782925593239512,0.32876381278038025,0.0,0.846481724890614
+8,1367,22:47,tinyllama,How Long Does a Useful Truth Last?,0.2683081188172349,0.3169685900211334,0.0,0.846481724890614
+8,1367,22:47,gemma2-9b,The Long Road to Progress,0.25697800517082214,0.25697800517082214,0.0,1.0
+8,1367,22:47,gemma2-9b,The Long Road to Progress,0.25697800517082214,0.25697800517082214,0.0,1.0
+8,1367,22:47,gemma2-9b,The Slow March of Progress,0.2439144253730774,0.2439144253730774,0.0,1.0
+8,1367,22:47,gemma2-9b,The Slow March of Progress,0.2439144253730774,0.2439144253730774,0.0,1.0
+8,1367,22:47,tinyllama,The Climate Crisis: How Long Does It Take?,0.23904482801673374,0.33361393213272095,0.0,0.7165313105737893
+8,1367,22:47,tinyllama,How Long Does It Take to Learn a Useful Truth?,0.17898996882097212,0.3486248552799225,0.0,0.513417119032592
+8,1367,22:47,mistral-7b-v0.3,The Long Road to Environmental Change: Lead Ban & Carbon Offsets,0.15967952453288864,0.36741873621940613,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,The Long Road to Environmental Change: Lead Emissions & Carbon Footprints,0.1595240094376087,0.36706089973449707,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,The Long Road to Environmental Change: Lead Emissions & Carbon Footprints,0.1595240094376087,0.36706089973449707,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,The Long Road to Environmental Progress: Lead Emissions & Carbon Footprints,0.15682072526076568,0.36084070801734924,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,The Long Road to Environmental Progress: Lead Emissions & Carbon Footprints,0.15682072526076568,0.36084070801734924,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,The Long Road to Environmental Progress: Lead Emissions & Carbon Footprints,0.15682072526076568,0.36084070801734924,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,The Long Road to Environmental Change: Lead Emissions & Climate Action,0.1555786379681654,0.35798269510269165,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,From Leaded Gas to Carbon Offsets: A Journey Towards Environmental Change,0.15467452110083663,0.3559023439884186,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,From Leaded Gas to Carbon Offsets: A Journey Towards Environmental Change,0.15467452110083663,0.3559023439884186,0.0,0.43459820850707825
+8,1367,22:47,mistral-7b-v0.3,From Leaded Fuel to Carbon Offsets: A Journey Towards Environmental Change,0.1543213061292884,0.35508960485458374,0.0,0.43459820850707825
+8,1367,22:47,tinyllama,How Long Does a Useful Truth Take to Become General Practice?,0.15001853618069505,0.34518903493881226,0.0,0.43459820850707825
+8,1367,22:47,tinyllama,How Long Does It Take for a Truth to Become Widely Accepted?,0.13269492988138412,0.3607022166252136,0.0,0.36787944117144233
+8,1367,22:47,tinyllama,How Long Does It Take for a Useful Truth to Become General Knowledge?,0.11435992776320202,0.36724066734313965,0.0,0.31140322391459774
+8,1367,22:47,tinyllama,How Long Does It Take for a Useful Truth to Become General Practice?,0.1127411325785838,0.36204227805137634,0.0,0.31140322391459774
+8,1367,22:47,tinyllama,How Long Does a Useful Truth Last Before It Is Generally Received and Practiced?,0.10667023098013274,0.40467143058776855,0.0,0.2635971381157267

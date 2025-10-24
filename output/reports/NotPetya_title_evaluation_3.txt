@@ -1,0 +1,511 @@
+====================================================================================================
+TITLE EVALUATION REPORT: NotPetya
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.2932
+llama3.1-8b          Average Score: 0.2993
+mistral-7b-v0.3      Average Score: 0.2317
+qwen2-7b             Average Score: 0.2250
+tinyllama            Average Score: 0.2550
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 2,667 characters
+Total Titles Evaluated: 49
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3203       0.3203       0.0000         1.0000     mistral-7b-v0.3      Midnight Malware: Unleashing NotPetya's Digital ApocalypSE
+2      0.3108       0.3108       0.0000         1.0000     mistral-7b-v0.3      Ukraine's Digital Apocalypso: Witnessing NotPetya's Devastation
+3      0.3088       0.3088       0.0000         1.0000     tinyllama            The Cyber War That Never Happened (4)
+4      0.3080       0.3080       0.0000         1.0000     tinyllama            The Cyber Attack That Changed Everything
+5      0.3047       0.3047       0.0000         1.0000     mistral-7b-v0.3      Ukraine's Digital Apocalypso: Unraveling NotPetya's Origins
+6      0.3023       0.3023       0.0000         1.0000     llama3.1-8b          The Silent Catalyst of Cyber Apocalypse
+7      0.2972       0.2972       0.0000         1.0000     llama3.1-8b          The Silent Catalyst of Cyber War (3)
+8      0.2889       0.2889       0.0000         1.0000     llama3.1-8b          The Silent Trigger of Global Chaos (2)
+9      0.2792       0.3299       0.0000         0.8465     mistral-7b-v0.3      Midnight Attack: Unleashing NotPetya, Ukraine's Digital ApocalypSE
+10     0.2781       0.3285       0.0000         0.8465     qwen2-7b             The Night the World's Economy Stood Still
+11     0.2774       0.2774       0.0000         1.0000     mistral-7b-v0.3      Midnight Malware: The Dawn of NotPetya (3)
+12     0.2726       0.2726       0.0000         1.0000     gemma2-9b            The Silent Dawn of Notptia (6)
+13     0.2677       0.2677       0.0000         1.0000     tinyllama            The Cyber War Begins
+14     0.2631       0.3108       0.0000         0.8465     qwen2-7b             The Night the Digital World Stood Still (2)
+15     0.2618       0.2618       0.0000         1.0000     llama3.1-8b          The Silent Trigger of Notpetya (2)
+16     0.2592       0.2592       0.0000         1.0000     llama3.1-8b          Cyber Apocalypse Unleashed Overnight
+17     0.2545       0.3007       0.0000         0.8465     mistral-7b-v0.3      Midnight Attack Unleashes Digital Apocalypze Across Ukraine
+18     0.2535       0.3538       0.0000         0.7165     qwen2-7b             The Night the Computers Whispered: Ukraine's Digital Apocalypse
+19     0.2519       0.2519       0.0000         1.0000     gemma2-9b            The Night NotPetya Awakened (4)
+20     0.2483       0.2933       0.0000         0.8465     mistral-7b-v0.3      Ukraine's Digital Apocalypso: The Dawn of NotPetya
+21     0.2469       0.2469       0.0000         1.0000     tinyllama            The Cyber War (3)
+22     0.2224       0.3104       0.0000         0.7165     mistral-7b-v0.3      Ukraine's Digital Apocalypso: Unraveling the NotPetya Ransomware Attack
+23     0.2106       0.2488       0.0000         0.8465     tinyllama            The Key To Answering Questions About Notpatía
+24     0.2069       0.2888       0.0000         0.7165     qwen2-7b             The Night Before: Uncovering the Origin of NotPetya (4)
+25     0.1871       0.3085       0.0000         0.6065     qwen2-7b             The Night Before: Uncovering the Origin of Global Chaos
+26     0.1453       0.3344       0.0000         0.4346     qwen2-7b             The Night Before: The Origin of the World's Worst Cyber Attack
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2643
+  llama3.1-8b         : 0.2838
+  mistral-7b-v0.3     : 0.2772
+  qwen2-7b            : 0.2218
+  tinyllama           : 0.2762
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 165s (02:45)
+Transcript Length: 3,151 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3942       0.3942       0.0000         1.0000     llama3.1-8b          Cyber Attacks on Ukraine's Infrastructure
+2      0.3511       0.3511       0.0000         1.0000     llama3.1-8b          Cyber Warfare Escalates in Eastern Europe (4)
+3      0.3499       0.3499       0.0000         1.0000     llama3.1-8b          Russia's Digital War Machine Unleashed
+4      0.3334       0.3334       0.0000         1.0000     llama3.1-8b          Russia's Digital Shadow War Unleashed
+5      0.3329       0.3329       0.0000         1.0000     gemma2-9b            The GRU's Digital War Begins
+6      0.3205       0.3205       0.0000         1.0000     gemma2-9b            The GRU's Digital Shadow War
+7      0.3167       0.3167       0.0000         1.0000     llama3.1-8b          Russia's Digital Shadow War Unveiled
+8      0.3142       0.3142       0.0000         1.0000     gemma2-9b            The GRU's Digital Resurrection (2)
+9      0.3120       0.3120       0.0000         1.0000     llama3.1-8b          Cyber Wars Ignite Over Ukraine
+10     0.3118       0.3683       0.0000         0.8465     tinyllama            The First Attack on the Power Grid
+11     0.3117       0.3117       0.0000         1.0000     gemma2-9b            The GRU's Digital Rebirth (4)
+12     0.3105       0.3105       0.0000         1.0000     gemma2-9b            The GRU's Digital Awakening (2)
+13     0.2915       0.3444       0.0000         0.8465     tinyllama            A New Era of Cyber Espionage Begins
+14     0.2821       0.2821       0.0000         1.0000     tinyllama            The Rise of the GRUE (6)
+15     0.2667       0.3722       0.0000         0.7165     mistral-7b-v0.3      GRU's Digital War: The Birth of State-Sponsored Hacking
+16     0.2658       0.3709       0.0000         0.7165     llama3.1-8b          Russia's Rise: A New Era of Cyber Warfare
+17     0.2643       0.3689       0.0000         0.7165     qwen2-7b             The Dawn of State-Sponsored Cyber Warfare: June 30 (3)
+18     0.2296       0.3786       0.0000         0.6065     mistral-7b-v0.3      GRU's Digital War: The Dawn of State-Sponsored Cyber Attacks
+19     0.2250       0.3709       0.0000         0.6065     mistral-7b-v0.3      GRU's Digital War: The Dawn of State-Sponsored Cyber Terror
+20     0.2233       0.3681       0.0000         0.6065     mistral-7b-v0.3      The Dawn of Digital Warfare: GRU's Resurgence in Ukraine (2)
+21     0.2219       0.3658       0.0000         0.6065     tinyllama            A New Era of Cyber Warfare: The GRUD's Rise
+22     0.1961       0.3820       0.0000         0.5134     qwen2-7b             The Dawn of State-Sponsored Cyber Warfare: A New Era Unfolds (4)
+23     0.1895       0.3692       0.0000         0.5134     qwen2-7b             The Dawn of State-Sponsored Cyber Warfare: A Turning Point in
+24     0.1878       0.3657       0.0000         0.5134     mistral-7b-v0.3      GRU's Digital War: A New Era of Cyber Conflict Begins (2)
+25     0.1560       0.3589       0.0000         0.4346     mistral-7b-v0.3      The Dawn of Digital Warfare: GRU's Reemergence in 17's Cyber Attacks
+26     0.1548       0.3563       0.0000         0.4346     tinyllama            The Rise of the GRUE: A New Era of Cyber Warfare
+27     0.1545       0.3554       0.0000         0.4346     mistral-7b-v0.3      The Dawn of Digital Warfare: GRU's Resurgence in 17's Ukrainian Attacks
+28     0.1375       0.3737       0.0000         0.3679     qwen2-7b             The Dawn of State-Sponsored Cyber Warfare: A Turning Point in 3rd Wave (2)
+29     0.1207       0.3876       0.0000         0.3114     mistral-7b-v0.3      The Dawn of Digital Warfare: GRU's Resurgence in 1st State-Sponsored Power Grid Attack
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3150
+  llama3.1-8b         : 0.3376
+  mistral-7b-v0.3     : 0.1975
+  qwen2-7b            : 0.2042
+  tinyllama           : 0.2673
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 346s (05:46)
+Transcript Length: 5,546 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3635       0.3635       0.0000         1.0000     tinyllama            The GRU's Newest Weapon: Cyberattacks
+2      0.3542       0.3542       0.0000         1.0000     llama3.1-8b          Sandworm's Cunning Cyberattack on Ukraine (2)
+3      0.3499       0.3499       0.0000         1.0000     tinyllama            The GRU's New Weapon: Cyberwarfare
+4      0.3422       0.3422       0.0000         1.0000     tinyllama            The GRU's Cyberattacks: Reinvention Through Innovation
+5      0.3317       0.3317       0.0000         1.0000     llama3.1-8b          Sandworm's Cunning Cyberattack Unfolds
+6      0.3287       0.3287       0.0000         1.0000     qwen2-7b             Cyber Renaissance: GRU's Sandworm Tactics
+7      0.3275       0.3275       0.0000         1.0000     llama3.1-8b          Sandworm's Cunning Cyber Assault (3)
+8      0.3211       0.3211       0.0000         1.0000     gemma2-9b            Sandworm: Masters of Cyber Warfare (2)
+9      0.3164       0.3164       0.0000         1.0000     llama3.1-8b          Sandworm: A Cyber Attack Mastermind Emerges
+10     0.3164       0.3738       0.0000         0.8465     tinyllama            The GRU's Cyberattacks: Reinvention, Innovation, and Attribution
+11     0.3162       0.3162       0.0000         1.0000     tinyllama            The Rise of Cyber Warfare
+12     0.3139       0.3139       0.0000         1.0000     tinyllama            The Cyberattacks on Ukraine
+13     0.3134       0.3134       0.0000         1.0000     tinyllama            The Rise of Cyberwarfare
+14     0.3110       0.3110       0.0000         1.0000     gemma2-9b            Sandworm: The Cyber Weaponized Worm (2)
+15     0.3101       0.3101       0.0000         1.0000     qwen2-7b             Petya: The Symbolic Cyber Attack Unleashed
+16     0.3039       0.3039       0.0000         1.0000     gemma2-9b            Sandworm: Masters of Cyberwarfare (3)
+17     0.3009       0.3009       0.0000         1.0000     qwen2-7b             Petya: The Symbolic Cyber Strike (2)
+18     0.2991       0.2991       0.0000         1.0000     gemma2-9b            Sandworm: Unleashing Cyber Warfare
+19     0.2921       0.2921       0.0000         1.0000     llama3.1-8b          Sandworm Unleashes Cyber Chaos
+20     0.2818       0.2818       0.0000         1.0000     tinyllama            The Invention of SandwORM
+21     0.2808       0.3318       0.0000         0.8465     mistral-7b-v0.3      Rise of Sandwurm: GRU's Cyber Cowboy Hackers
+22     0.2790       0.2790       0.0000         1.0000     gemma2-9b            Sandworm: Unleashing Digital Havoc
+23     0.2770       0.2770       0.0000         1.0000     tinyllama            The Groundbreaking Invention That Changed Everything
+24     0.2754       0.2754       0.0000         1.0000     gemma2-9b            Sandworm: Unleashing Digital Chaos
+25     0.2664       0.3147       0.0000         0.8465     mistral-7b-v0.3      Reinvented GRU: Birth of Cyber Menace Sandworn
+26     0.2580       0.2580       0.0000         1.0000     llama3.1-8b          Pandemonium Spreads Across Ukraine
+27     0.2552       0.3015       0.0000         0.8465     qwen2-7b             Petrov's Cyber Pandemonium: The Rise of Sandworm
+28     0.2364       0.3299       0.0000         0.7165     mistral-7b-v0.3      Reinventing GRU: Birth of Cyber Cowboy Group SandwORM
+29     0.2193       0.2591       0.0000         0.8465     llama3.1-8b          The Rise of Sandworm **(chosen)** **(final answer)**
+30     0.2148       0.4184       0.0000         0.5134     tinyllama            The GRU's Newest Weapon: A Cyberattack on Ukraine's Electric Grid
+31     0.2104       0.3469       0.0000         0.6065     qwen2-7b             The Rise of Sandworm: Cyber Warfare and Symbolic Messages (2)
+32     0.2095       0.3455       0.0000         0.6065     qwen2-7b             Cyber Reconnaissance: GRU's Evolution & The Birth of Sandworm
+33     0.2070       0.3413       0.0000         0.6065     mistral-7b-v0.3      Reinvention of GRU: Birth of Cyber Warfare Powerhouse, SandWorm
+34     0.2050       0.3381       0.0000         0.6065     mistral-7b-v0.3      Reinventing the GRU: Birth of Cyber Cowboy Group 'Sandworm'
+35     0.2045       0.3371       0.0000         0.6065     mistral-7b-v0.3      Rise of SandwORM: A New Era of Cyber Warfare
+36     0.1981       0.3266       0.0000         0.6065     mistral-7b-v0.3      Rise of Sandwurm: A New Era of Cyber Warfare
+37     0.1768       0.3445       0.0000         0.5134     mistral-7b-v0.3      Reinvented GRU Cyber Unit: Rise of SandwORM & NotPetya Attack
+38     0.1451       0.3338       0.0000         0.4346     mistral-7b-v0.3      Rising From the Shadows: The Emergence of Cyber Warfare Powerhouse, SandWorm
+39     0.1332       0.3622       0.0000         0.3679     qwen2-7b             The Rise and Tactics of Sandworm: Master Cyber Attackers of the GRU
+40     0.1296       0.3523       0.0000         0.3679     mistral-7b-v0.3      Reinvention of GRU: Birth of Cyber Cowboy Hackers - Sandworn's Global Disruption
+41     0.1174       0.3771       0.0000         0.3114     qwen2-7b             The Rise and Tactics of GRU's Cyber Arm: From Hackers to Global Threat
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3030
+  llama3.1-8b         : 0.3108
+  mistral-7b-v0.3     : 0.2050
+  qwen2-7b            : 0.2377
+  tinyllama           : 0.3089
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 663s (11:03)
+Transcript Length: 4,133 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3634       0.3634       0.0000         1.0000     llama3.1-8b          NotPetya: A Wiper Disguised as Ransomware
+2      0.3246       0.3246       0.0000         1.0000     tinyllama            How NotPetya Worm Destroyed Computers Worldwide
+3      0.3112       0.3112       0.0000         1.0000     llama3.1-8b          The Red Message: NotPetya's Devastating Impact
+4      0.3035       0.4236       0.0000         0.7165     tinyllama            After Encryption Was Complete, The Device Would Reboot (2)
+5      0.3014       0.3014       0.0000         1.0000     tinyllama            The Mystery of the Surviving Computers (2)
+6      0.2885       0.2885       0.0000         1.0000     llama3.1-8b          The NotPetya Enigma: A Digital Apocalypse (2)
+7      0.2843       0.2843       0.0000         1.0000     llama3.1-8b          NotPetya's Hidden Kill Switch
+8      0.2801       0.2801       0.0000         1.0000     tinyllama            NotPetya: A Global Catastrophe
+9      0.2774       0.2774       0.0000         1.0000     llama3.1-8b          The Unlikely Kill Switch of NotPetya
+10     0.2751       0.2751       0.0000         1.0000     llama3.1-8b          NotPetya: The Digital Apocalypse Unleashed
+11     0.2675       0.3160       0.0000         0.8465     qwen2-7b             The Red Message: PetyA - Chaos Unleashed (3)
+12     0.2666       0.2666       0.0000         1.0000     tinyllama            NotPetya: The Digital Apocalypsec (2)
+13     0.2636       0.2636       0.0000         1.0000     gemma2-9b            NotPetya: The Kill Switch Enigma (9)
+14     0.2613       0.3087       0.0000         0.8465     qwen2-7b             The Red Message: Chaos Unleashed by NotPetya (2)
+15     0.2605       0.2605       0.0000         1.0000     llama3.1-8b          The NotPetya Kill Switch (2)
+16     0.2589       0.2589       0.0000         1.0000     gemma2-9b            NotPetya: The Kill Switch
+17     0.2560       0.3024       0.0000         0.8465     mistral-7b-v0.3      Perfc Kill Switch: Saving Devices from NotPetya
+18     0.2531       0.2990       0.0000         0.8465     mistral-7b-v0.3      Perfc Kill Switch: Saving Machines from NotPetya (3)
+19     0.2495       0.2947       0.0000         0.8465     qwen2-7b             The Red Message: Chaos and Curiosity Unveiled
+20     0.2487       0.2487       0.0000         1.0000     llama3.1-8b          The Unlikely Kill Switch
+21     0.2353       0.2353       0.0000         1.0000     tinyllama            The Digital Apocalypsec
+22     0.2305       0.3217       0.0000         0.7165     tinyllama            How NotPetya Spread Across Ukraine and the World
+23     0.2300       0.3210       0.0000         0.7165     mistral-7b-v0.3      Perfc Kill Switch: Saving Devices from NotPetya's Wrath
+24     0.2102       0.2934       0.0000         0.7165     mistral-7b-v0.3      The Kill Switch: Perfc's Unexpected Role in NotPetya
+25     0.2063       0.2879       0.0000         0.7165     mistral-7b-v0.3      Perfc Kill Switch Saves Some Machines from NotPetya
+26     0.1955       0.3223       0.0000         0.6065     qwen2-7b             The Red Message: Chaos Unfolds from a Stealthy Worm
+27     0.1855       0.3059       0.0000         0.6065     mistral-7b-v0.3      Perfc Kill Switch Saves Some Machines from NotPetya Attack
+28     0.1644       0.2711       0.0000         0.6065     mistral-7b-v0.3      Perfc Kill Switch Saves Few Amidst NotPetya Digital Apocalypso
+29     0.1615       0.3145       0.0000         0.5134     mistral-7b-v0.3      The Ominous Kill Switch: Perfc File Saves Some from NotPetya
+30     0.1580       0.3077       0.0000         0.5134     qwen2-7b             The Red Message: Chaos and Survival in the Digital Apocalypse
+31     0.1162       0.3158       0.0000         0.3679     qwen2-7b             The Red Message: How NotPetya Spread Chaos and the Secret Kill Switch (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2632
+  llama3.1-8b         : 0.2858
+  mistral-7b-v0.3     : 0.2173
+  qwen2-7b            : 0.2160
+  tinyllama           : 0.2814
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 910s (15:10)
+Transcript Length: 1,876 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3271       0.3271       0.0000         1.0000     tinyllama            How did the Ukrainegate cyberattack unfold?
+2      0.3219       0.3219       0.0000         1.0000     llama3.1-8b          Finding the Napatya Kill Switch
+3      0.3113       0.3113       0.0000         1.0000     llama3.1-8b          Uncovering NAPATA's Hidden Kill Switch
+4      0.2923       0.2923       0.0000         1.0000     mistral-7b-v0.3      Unraveling Napetya: Discovering the Kill Switch
+5      0.2908       0.2908       0.0000         1.0000     mistral-7b-v0.3      Unmasking Napetya: Discovering the Kill Switch
+6      0.2904       0.2904       0.0000         1.0000     gemma2-9b            The Kill Switch of Napetiya (10)
+7      0.2897       0.2897       0.0000         1.0000     llama3.1-8b          Cracking the Kill Switch
+8      0.2894       0.2894       0.0000         1.0000     llama3.1-8b          NAPATA: The Kill Switch Conundrum
+9      0.2848       0.2848       0.0000         1.0000     qwen2-7b             Unraveling NAPETIA's Lethal Kill Switch
+10     0.2846       0.2846       0.0000         1.0000     llama3.1-8b          The Hunt For Perf-C
+11     0.2846       0.2846       0.0000         1.0000     llama3.1-8b          The Hunt for PERF-C
+12     0.2796       0.2796       0.0000         1.0000     llama3.1-8b          The Kill Switch Conundrum Solved
+13     0.2786       0.3291       0.0000         0.8465     llama3.1-8b          The Hunt for Perf-C: Uncovering NAPTA's Secret
+14     0.2627       0.3104       0.0000         0.8465     mistral-7b-v0.3      Discovering the Kill Switch: Napetya's Unexpected Exit
+15     0.2525       0.2525       0.0000         1.0000     qwen2-7b             Unraveling NAPETIA: The Race Against Time
+16     0.2522       0.2979       0.0000         0.8465     tinyllama            Napetían Malware Spreads via Remote Desktop Protocol
+17     0.2518       0.2975       0.0000         0.8465     tinyllama            Napetía - The Cyberattack That Changed Everything
+18     0.2488       0.2488       0.0000         1.0000     qwen2-7b             Unraveling Napetka: The Race Against Time
+19     0.2433       0.2874       0.0000         0.8465     llama3.1-8b          The Curious Case of NAPTA's Quit Mechanism
+20     0.2147       0.2997       0.0000         0.7165     mistral-7b-v0.3      Unraveling Napetya: The Discovery of Its Kill Switch
+21     0.2144       0.2992       0.0000         0.7165     mistral-7b-v0.3      Unraveling Napetya: The Discovery of a Kill Switch
+22     0.2061       0.3398       0.0000         0.6065     tinyllama            How did the Ukrainain government respond to the cyberattack?
+23     0.2033       0.2838       0.0000         0.7165     qwen2-7b             Unraveling Napetka's Kill Switch: A Race Against Time
+24     0.2009       0.2804       0.0000         0.7165     qwen2-7b             Unraveling NAPETIA: The Hunt for the Kill Switch
+25     0.1972       0.3252       0.0000         0.6065     tinyllama            How Napetía was able to infect Ukraine's critical infrastructure
+26     0.1951       0.2723       0.0000         0.7165     qwen2-7b             The Unraveling of NAPETIA: A Race Against Time (2)
+27     0.1930       0.2693       0.0000         0.7165     mistral-7b-v0.3      Discovering Napetya's Kill Switch: A Race Against Time (5)
+28     0.1810       0.2983       0.0000         0.6065     tinyllama            How Napetya Stole Ukraine's Power and Threatened the World
+29     0.1689       0.2785       0.0000         0.6065     qwen2-7b             The Unraveling of Napetka: From Discovery to Global Impact
+30     0.1668       0.3249       0.0000         0.5134     tinyllama            How did the Ukrainain government react to the NAPETIA attack?
+31     0.1634       0.3182       0.0000         0.5134     tinyllama            Ukraine's Cyber War: How a Small Country Became a Target
+32     0.1434       0.3300       0.0000         0.4346     tinyllama            How Napetía Exploited a Critical Flaw in Windows to Attack Ukraine
+33     0.1138       0.3654       0.0000         0.3114     tinyllama            How Napetía Exploited a Common File Name in Windows to Escape Sanctioned Malware
+34     0.1112       0.3023       0.0000         0.3679     qwen2-7b             Unraveling NAPETIA: The Race Against Time to Stop a Global Cyber Threat
+35     0.0983       0.3156       0.0000         0.3114     qwen2-7b             Unraveling NAPETIA: The Race Against Time to Identify and Neutralize the Kill Switch
+36     0.0888       0.3367       0.0000         0.2636     llama3.1-8b          Uncovering the kill switch of Napatya. I chose the latter as it better fits
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2904
+  llama3.1-8b         : 0.2672
+  mistral-7b-v0.3     : 0.2240
+  qwen2-7b            : 0.1959
+  tinyllama           : 0.2003
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 1031s (17:11)
+Transcript Length: 1,980 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3433       0.3433       0.0000         1.0000     mistral-7b-v0.3      Unraveling NotPetya's Devastating Cyberattack Route
+2      0.3432       0.3432       0.0000         1.0000     llama3.1-8b          Uncovering NotPeta's Cyber Attack Origins
+3      0.3431       0.3431       0.0000         1.0000     llama3.1-8b          Unraveling NotPetya's Devastating Cyberattack (4)
+4      0.3330       0.3330       0.0000         1.0000     llama3.1-8b          Unraveling the NotPetya Cyberattack (2)
+5      0.3321       0.3321       0.0000         1.0000     gemma2-9b            Unmasking NotPetya: A Cyberattack Exposed (6)
+6      0.3276       0.3276       0.0000         1.0000     gemma2-9b            Unmasking NotPetya: A Cyberattack Unveiled (3)
+7      0.3268       0.3268       0.0000         1.0000     gemma2-9b            Unmasking NotPetya: A Cyberattack Revealed
+8      0.3267       0.3267       0.0000         1.0000     mistral-7b-v0.3      Unraveling NotPetya: A Cyberattack Odyssey
+9      0.3261       0.3261       0.0000         1.0000     llama3.1-8b          Unraveling NotPetya's Devastating Digital Trail
+10     0.3256       0.3256       0.0000         1.0000     tinyllama            The Cyber Attack That Changed Everything
+11     0.3197       0.3197       0.0000         1.0000     llama3.1-8b          The NotPeyta Cyberattack Uncovered (2)
+12     0.3033       0.3583       0.0000         0.8465     tinyllama            The Unprecedent Attack on Ukraine's Cybersecurity Industry
+13     0.3005       0.3005       0.0000         1.0000     mistral-7b-v0.3      Unraveling NotPetya: The Eternal Blue Connection
+14     0.2999       0.3543       0.0000         0.8465     mistral-7b-v0.3      Unraveling NotPetya's Origins: A Cyber Attack Investigation
+15     0.2908       0.3436       0.0000         0.8465     mistral-7b-v0.3      Ukraine's Cyber Crisis: Unraveling the NotPetya Attack
+16     0.2889       0.3413       0.0000         0.8465     tinyllama            The Most Devastating Cyber Attack in History (5)
+17     0.2854       0.3372       0.0000         0.8465     mistral-7b-v0.3      Ukraine's Cyberattack Unraveled: The Eternal Blue Trail
+18     0.2839       0.3353       0.0000         0.8465     mistral-7b-v0.3      Ukraine's Digital Disaster: Unraveling the NotPetya Attack
+19     0.2587       0.3610       0.0000         0.7165     tinyllama            How did the attack on Ukraine's infrastructure start?
+20     0.2562       0.3576       0.0000         0.7165     mistral-7b-v0.3      Unraveling NotPetya: The Roots of the Devastating Cyberattack
+21     0.2475       0.3454       0.0000         0.7165     mistral-7b-v0.3      Unraveling NotPetya: A Cyberattack's Devastating Spread and Discovery
+22     0.2393       0.3340       0.0000         0.7165     qwen2-7b             Unraveling the PetyA Attack: From Chaos to Investigation
+23     0.2234       0.3684       0.0000         0.6065     tinyllama            Mass Shutdowns, Kill Switch, and Researchers Uncover the Truth
+24     0.2117       0.3490       0.0000         0.6065     mistral-7b-v0.3      Ukraine's Cyberattack Unraveled: From Patient Zero to Eternal Blue
+25     0.2103       0.3468       0.0000         0.6065     qwen2-7b             Decoding the PetyA Cyber Attack: From Chaos to Investigation
+26     0.2042       0.3366       0.0000         0.6065     qwen2-7b             Unraveling the PetyA Cyber Attack: From Chaos to Clarity
+27     0.2038       0.3359       0.0000         0.6065     qwen2-7b             Decoding the PetyA Cyber Attack: From Chaos to Clarity (3)
+28     0.1680       0.3272       0.0000         0.5134     qwen2-7b             Unraveling the PetyA Attack: From Chaos to Recovery and Insight
+29     0.1578       0.3632       0.0000         0.4346     qwen2-7b             Decoding the PetyA Cyber Attack: From Patient Zero to Eternal Blue (2)
+30     0.1550       0.3568       0.0000         0.4346     qwen2-7b             Unraveling the PetyA Cyber Attack: From Chaos to Recovery and Investigation
+31     0.1336       0.4290       0.0000         0.3114     tinyllama            How the Ukrainian Cybersecurity Company Discovered the Kill Switch in the Petyon Attack
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3302
+  llama3.1-8b         : 0.3347
+  mistral-7b-v0.3     : 0.2846
+  qwen2-7b            : 0.1904
+  tinyllama           : 0.2689
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 1145s (19:05)
+Transcript Length: 2,388 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3310       0.3310       0.0000         1.0000     gemma2-9b            Unmasking Sandworm's Supply Chain Attack (2)
+2      0.3158       0.3158       0.0000         1.0000     gemma2-9b            Sandworm's Supply Chain Strike
+3      0.3151       0.3151       0.0000         1.0000     llama3.1-8b          Uncovering the Sandworm Attack on MiDoc
+4      0.3060       0.3060       0.0000         1.0000     llama3.1-8b          Uncovering the Sandworm Supply Chain Attack (2)
+5      0.3040       0.3040       0.0000         1.0000     tinyllama            Russia and Ukraine: A Cyberwarfare Story
+6      0.3017       0.3017       0.0000         1.0000     gemma2-9b            Supply Chain Attack: Sandworm Strikes Again (2)
+7      0.2978       0.2978       0.0000         1.0000     llama3.1-8b          Exposing the Sand Worm Cyber Assault
+8      0.2964       0.2964       0.0000         1.0000     llama3.1-8b          Uncovering the Sandworm Attack Origins
+9      0.2952       0.2952       0.0000         1.0000     tinyllama            The Russian Cyberattack Against Ukraine
+10     0.2933       0.2933       0.0000         1.0000     llama3.1-8b          Tracing the SandWorm Ukraine Cyberattack
+11     0.2907       0.2907       0.0000         1.0000     tinyllama            The Russian Invasion of Ukraine
+12     0.2894       0.2894       0.0000         1.0000     llama3.1-8b          Uncovering the Origins of NotPetya
+13     0.2885       0.2885       0.0000         1.0000     llama3.1-8b          MiDoc Under Siege by Russian Sandworm
+14     0.2724       0.2724       0.0000         1.0000     tinyllama            The Russian War on Ukraine
+15     0.2627       0.3104       0.0000         0.8465     tinyllama            The Russian Invasion of Ukraine: What Happened?
+16     0.2576       0.2576       0.0000         1.0000     gemma2-9b            Hacking Through Supply Chains (4)
+17     0.2530       0.2530       0.0000         1.0000     llama3.1-8b          The Birth of a Notorious Hack
+18     0.2528       0.2986       0.0000         0.8465     qwen2-7b             The Unintended Target: Inside the MiDoc Attack
+19     0.2453       0.2897       0.0000         0.8465     llama3.1-8b          Revealing the Roots of the Sandstorm Hack
+20     0.2449       0.3418       0.0000         0.7165     mistral-7b-v0.3      Uncovering Sandworm's Attack Origins: The Raided Ukrainian SME (4)
+21     0.2272       0.3171       0.0000         0.7165     mistral-7b-v0.3      Infiltrating MiDoc: Uncovering Sandworm's Origins Amidst Ukraine Conflict
+22     0.2272       0.3170       0.0000         0.7165     qwen2-7b             The Untimely Downfall of MiDoc: A Cybersecurity Lesson
+23     0.2247       0.3136       0.0000         0.7165     mistral-7b-v0.3      Uncovering Sandworm's Attack Origins: The Case of MiDoc
+24     0.2224       0.3104       0.0000         0.7165     tinyllama            Russia and Ukraine: Cyberwarfare and the War Economy
+25     0.2186       0.3050       0.0000         0.7165     mistral-7b-v0.3      Ukrainian Police Seizure Uncovers Origin of NotPetya Attack
+26     0.2178       0.3040       0.0000         0.7165     gemma2-9b            From Servers to Sandworm: Unmasking a Cyber Attack
+27     0.2134       0.3518       0.0000         0.6065     mistral-7b-v0.3      Unraveling Sandworm's Attack Origins: The Seized Servers of MiDoc (2)
+28     0.2118       0.2955       0.0000         0.7165     qwen2-7b             Uncovering the Origins: From Raid to Reverse Engineering
+29     0.2069       0.3411       0.0000         0.6065     tinyllama            The Ukrainian Police Raid and Seizure of Hard Drives
+30     0.1953       0.3221       0.0000         0.6065     qwen2-7b             Uncovering the Origin of a Stealthy Supply Chain Attack
+31     0.1936       0.3192       0.0000         0.6065     qwen2-7b             Uncovering the Origins of a Stealthy Supply Chain Attack
+32     0.1934       0.3188       0.0000         0.6065     mistral-7b-v0.3      Seized Servers Unveil Origins of Cyber Attack on SME
+33     0.1833       0.3022       0.0000         0.6065     qwen2-7b             Uncovering the Origin: MiDoc and the Shadow of Sandworm
+34     0.1806       0.2978       0.0000         0.6065     qwen2-7b             The Unintended Target: MiDoc and the Origins of Napecia
+35     0.1701       0.3313       0.0000         0.5134     tinyllama            Russia's War on Ukraine: Cyber Attacks, Sanctions, and Economic Retaliation
+36     0.1491       0.3432       0.0000         0.4346     tinyllama            The Russian Invasion of Ukraine: How the GRUB Hackers Fought Back
+37     0.1478       0.3400       0.0000         0.4346     qwen2-7b             Uncovering the Origins: From Seized Hard Drives to Revealing the Attack
+38     0.0925       0.3510       0.0000         0.2636     qwen2-7b             Uncovering the Origins of a Cyber Attack: From Seized Hard Drives to SME Vulnerabilities
+39     0.0799       0.3581       0.0000         0.2231     qwen2-7b             Uncovering the Origins of a Cyber Attack: From Seized Hard Drives to Misunderstood SME Security
+40     0.0212       0.4259       0.0000         0.0498     tinyllama            How did the Ukrainine police seize the servers of a small software company and access the data without any reference to Frank Herberts book?
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2829
+  llama3.1-8b         : 0.2891
+  mistral-7b-v0.3     : 0.2270
+  qwen2-7b            : 0.1765
+  tinyllama           : 0.2195
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 1287s (21:27)
+Transcript Length: 4,362 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3216       0.3216       0.0000         1.0000     tinyllama            When Cybersecurity Experts Were Not Enough
+2      0.3152       0.3152       0.0000         1.0000     gemma2-9b            Napecia: Digital Carpet Bombing and Cover-Up (2)
+3      0.3128       0.3128       0.0000         1.0000     gemma2-9b            NotPetya: A Cyber Weaponized Cover Up
+4      0.3122       0.3122       0.0000         1.0000     gemma2-9b            Napecia: A Cyber Weaponized Cover-Up (2)
+5      0.3056       0.3056       0.0000         1.0000     llama3.1-8b          The Hidden Agenda Behind NotPetya (2)
+6      0.3037       0.3037       0.0000         1.0000     gemma2-9b            Napecia: Digital Carpet Bombing & Cover-Up
+7      0.2993       0.2993       0.0000         1.0000     gemma2-9b            Napecia: A Cyber Cover-Up
+8      0.2952       0.2952       0.0000         1.0000     llama3.1-8b          The Secret Behind Napecia’s Success
+9      0.2901       0.2901       0.0000         1.0000     gemma2-9b            Napecia: Digital Carpet Bombing & Coverup
+10     0.2896       0.2896       0.0000         1.0000     llama3.1-8b          Napecia's Hidden Agenda Unveiled (5)
+11     0.2575       0.2575       0.0000         1.0000     llama3.1-8b          'NotpetylAs Double Edge Attack
+12     0.2543       0.3004       0.0000         0.8465     llama3.1-8b          A Calculated Strike: Uncovering Napecia's True Intentions
+13     0.2524       0.2982       0.0000         0.8465     gemma2-9b            Napecia: Digital Carpet Bombing and Cover Up
+14     0.2458       0.3431       0.0000         0.7165     mistral-7b-v0.3      Napecia: A Digital Carpet Bomb and Cover-Up Operation (2)
+15     0.2448       0.3416       0.0000         0.7165     tinyllama            NAPATIYA: A Cyber Espionage Attack That Covered Tracks
+16     0.2446       0.3414       0.0000         0.7165     tinyllama            Napatya: A Cyber Espionage Attack That Covered Tracks
+17     0.2431       0.2872       0.0000         0.8465     gemma2-9b            Napecia: Digital Carpet Bombing & Cover Up
+18     0.2401       0.3351       0.0000         0.7165     mistral-7b-v0.3      Napecia: A Digital Carpet Bomb & Cover-Up Operation
+19     0.2372       0.3310       0.0000         0.7165     mistral-7b-v0.3      Napecia: A Covert Espionage Operation Disguised as Destruction
+20     0.2303       0.3213       0.0000         0.7165     qwen2-7b             Napetia: A Strategic Cyber Weapon with Hidden Depths (6)
+21     0.2260       0.3155       0.0000         0.7165     mistral-7b-v0.3      Napecia: A Digital Carpet Bomb Covering Espionage Tracks
+22     0.2200       0.3627       0.0000         0.6065     tinyllama            Napataya: A Cyber Espionage Operation That Covered Its Tracks
+23     0.2187       0.3605       0.0000         0.6065     tinyllama            Napatya: A Cyber Espionage Attack That Covered Its Tracks
+24     0.2129       0.3510       0.0000         0.6065     tinyllama            Napata: A Cyber Espionage Operation That Left Excessive Damage
+25     0.2049       0.3377       0.0000         0.6065     mistral-7b-v0.3      Napecia: A Covert Espionage Operation Masquerading as Digital Destruction
+26     0.2039       0.3361       0.0000         0.6065     qwen2-7b             Napetia: A Strategic Cyber Weapon and Its Hidden Objectives
+27     0.1987       0.3277       0.0000         0.6065     mistral-7b-v0.3      Napecia: A Covert Espionage Operation Hiding in Plain Sight (2)
+28     0.1970       0.3247       0.0000         0.6065     mistral-7b-v0.3      Napecia: A Covert Espionage Operation Hidden Beneath Digital Destruction (2)
+29     0.1857       0.3616       0.0000         0.5134     qwen2-7b             Napetia: Russia's Stealthy Cyber Weapon and Its Mysterious Immunity Mechanism
+30     0.1851       0.3605       0.0000         0.5134     qwen2-7b             Napetia: Russia's Stealthy Cyber Weapon and Its Mysterious Kill Switch
+31     0.1741       0.3392       0.0000         0.5134     qwen2-7b             Napetia: A Strategic Cyber Weapon and Its Mysterious Immunity Mechanism
+32     0.1617       0.3721       0.0000         0.4346     tinyllama            Napatya: A Cyber Espionage Attack That Covered Tracks of Previous Operations
+33     0.1262       0.4054       0.0000         0.3114     tinyllama            When it Comes to Material Damage, NAPTYA Was Not Just a Wiping Operation
+34     0.0990       0.3756       0.0000         0.2636     tinyllama            When Cybersecurity Experts Investigate Cyber Attacks, They Discover That They Are Not Just Wipers
+35     0.0685       0.4285       0.0000         0.1599     tinyllama            When it Comes to Material Damage, Cyber Security Experts Were Not Much Different From A Bombing Raid
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2956
+  llama3.1-8b         : 0.2866
+  mistral-7b-v0.3     : 0.2191
+  qwen2-7b            : 0.2130
+  tinyllama           : 0.1918
+
+====================================================================================================
+
+--- SEGMENT 09 ---
+Start Time: 1555s (25:55)
+Transcript Length: 2,451 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3532       0.3532       0.0000         1.0000     qwen2-7b             Notepetria's Wake-Up Call: Boosting Cybersecurity Awareness (4)
+2      0.3368       0.3368       0.0000         1.0000     llama3.1-8b          Lessons Learned from NotPetya's Devastating Impact (2)
+3      0.3339       0.3339       0.0000         1.0000     qwen2-7b             Notepetria: Lessons Learned and Cybersecurity Evolution
+4      0.3328       0.3328       0.0000         1.0000     tinyllama            Russian Cyberattacks: Impact and Lessons Learned
+5      0.3253       0.3253       0.0000         1.0000     llama3.1-8b          Lessons Learned from the NotPetya Attack (2)
+6      0.3197       0.3197       0.0000         1.0000     llama3.1-8b          Lessons Unlearned: Consequences of Cyberattacks
+7      0.3143       0.3143       0.0000         1.0000     tinyllama            Russian Cyberattacks: Lessons Learned
+8      0.3125       0.3125       0.0000         1.0000     qwen2-7b             Notepetria: A Global Cybersecurity Turning Point
+9      0.3122       0.3122       0.0000         1.0000     llama3.1-8b          Cyberattacks' Lingering Impact: A Global Conundrum
+10     0.3104       0.3104       0.0000         1.0000     tinyllama            Russian Cyber Attack: Lessons Learned
+11     0.3089       0.3649       0.0000         0.8465     mistral-7b-v0.3      NotPetya's Wake-Up Call: Boosting Cybersecurity Posture Worldwide
+12     0.3077       0.3077       0.0000         1.0000     gemma2-9b            The Notepetian Wake-Up Call (2)
+13     0.3060       0.3060       0.0000         1.0000     llama3.1-8b          Lessons Learned from NotPetya (2)
+14     0.2947       0.3482       0.0000         0.8465     qwen2-7b             Notepetria's Wake-Up Call: Cybersecurity Evolution & Accountability
+15     0.2926       0.2926       0.0000         1.0000     tinyllama            The Impact of Not Paying Attention
+16     0.2900       0.3426       0.0000         0.8465     qwen2-7b             Notepetria: The Wake-Up Call & Cybersecurity Evolution
+17     0.2879       0.2879       0.0000         1.0000     gemma2-9b            The Legacy of NotPetya (3)
+18     0.2862       0.3381       0.0000         0.8465     llama3.1-8b          Lessons Learned from the Largest Cyber Attack
+19     0.2845       0.3361       0.0000         0.8465     qwen2-7b             Notepetria: The Catalyst for Global Cybersecurity Awareness (2)
+20     0.2845       0.2845       0.0000         1.0000     gemma2-9b            The Notepetian Cyberwake-Up Call
+21     0.2835       0.2835       0.0000         1.0000     gemma2-9b            The Aftermath of NotPetya (4)
+22     0.2834       0.3348       0.0000         0.8465     mistral-7b-v0.3      NotPetya's Global Impact: Lessons Learned, Accountability Demanded
+23     0.2743       0.3241       0.0000         0.8465     tinyllama            The Impact of Cyber Attacks on Businesses
+24     0.2582       0.3603       0.0000         0.7165     mistral-7b-v0.3      NotPetya's Wake-Up Call: Boosting Cybersecurity Posture & Accountability
+25     0.2578       0.3598       0.0000         0.7165     mistral-7b-v0.3      NotPetya's Wake-Up Call: Cybersecurity Boost & Lessons Unlearned
+26     0.2547       0.3555       0.0000         0.7165     mistral-7b-v0.3      NotPetya's Wake-Up Call: Cybersecurity Boost & Accountability Demand (2)
+27     0.2502       0.3492       0.0000         0.7165     mistral-7b-v0.3      NotPetya's Wake-Up Call: Cybersecurity Boost & Unheeded Lessons (2)
+28     0.2457       0.3429       0.0000         0.7165     mistral-7b-v0.3      NotPetya Attack: Lessons Unlearned Amidst Global Cybersecurity Boost
+29     0.2413       0.3367       0.0000         0.7165     tinyllama            Russian Cyberattacks and Their Impact on International Security
+30     0.2382       0.3324       0.0000         0.7165     tinyllama            The Impact of Cyber Attacks on the World
+31     0.2338       0.3262       0.0000         0.7165     tinyllama            The Impact of Cyber Attacks on the Economy
+32     0.2328       0.3250       0.0000         0.7165     mistral-7b-v0.3      NotPetya's Global Impact: Lessons Unlearned & Accountability Demanded
+33     0.2318       0.3236       0.0000         0.7165     llama3.1-8b          A Nation's Wake Up: Russia and Cyber Threats
+34     0.2310       0.3224       0.0000         0.7165     tinyllama            The Impact of Cyber Attacks on National Security (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2898
+  llama3.1-8b         : 0.3086
+  mistral-7b-v0.3     : 0.2597
+  qwen2-7b            : 0.3213
+  tinyllama           : 0.2700
+
+====================================================================================================
+
+--- SEGMENT 10 ---
+Start Time: 1701s (28:21)
+Transcript Length: 2,080 characters
+Total Titles Evaluated: 49
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3146       0.3146       0.0000         1.0000     gemma2-9b            Resilience & Stolen Tools in Cyberwarfare
+2      0.3087       0.3087       0.0000         1.0000     gemma2-9b            Resilience and Stolen Secrets in Cyberwarfare
+3      0.3082       0.3082       0.0000         1.0000     gemma2-9b            The Fragile Web: Cybersecurity Lessons Learned
+4      0.3071       0.3071       0.0000         1.0000     tinyllama            The Importance of Holding Governments Accountable
+5      0.3013       0.3013       0.0000         1.0000     llama3.1-8b          Accountability and Resilience in Cybersecurity
+6      0.2960       0.2960       0.0000         1.0000     llama3.1-8b          The Fragility of Global Cybersecurity (7)
+7      0.2952       0.2952       0.0000         1.0000     qwen2-7b             Demanding Accountability: Lessons from Cyber Attacks (3)
+8      0.2926       0.2926       0.0000         1.0000     gemma2-9b            The Fragility of Our Digital World (6)
+9      0.2909       0.2909       0.0000         1.0000     gemma2-9b            The Fragility of Cybersecurity
+10     0.2887       0.2887       0.0000         1.0000     llama3.1-8b          Accountability in Cybersecurity: A Global Imperative
+11     0.2855       0.2855       0.0000         1.0000     tinyllama            The Dark Side of Cybersecurity
+12     0.2827       0.2827       0.0000         1.0000     qwen2-7b             Demanding Global Accountability for Cyber Malfeasance (2)
+13     0.2790       0.2790       0.0000         1.0000     tinyllama            The Rise of Cyber Warfare
+14     0.2782       0.3286       0.0000         0.8465     mistral-7b-v0.3      The Fragility of Cybersecurity: Stolen NSA Tools (3)
+15     0.2749       0.3248       0.0000         0.8465     tinyllama            The Importance of Holding Threat Actors Accountable
+16     0.2692       0.2692       0.0000         1.0000     tinyllama            How Stolen NSO Tools Enabled Wanna
+17     0.2619       0.2619       0.0000         1.0000     tinyllama            The Fragility of Security (2)
+18     0.2568       0.3034       0.0000         0.8465     qwen2-7b             The Call for Global Accountability in Cybersecurity (4)
+19     0.2535       0.2994       0.0000         0.8465     qwen2-7b             Demanding Global Accountability: Lessons from Cyber Attacks
+20     0.2527       0.2527       0.0000         1.0000     tinyllama            The Power of Stolen NSFW Tools
+21     0.2099       0.3461       0.0000         0.6065     tinyllama            The Cybersecurity Industry's Failure to Hold Threat Actors Accountable
+22     0.2095       0.2924       0.0000         0.7165     llama3.1-8b          Citizens vs. Cyber Threats: A Global Accountability Call
+23     0.1760       0.3428       0.0000         0.5134     mistral-7b-v0.3      The Fragility of Cybersecurity: Stolen NSA Tools and Global Attacks (3)
+24     0.1723       0.3357       0.0000         0.5134     mistral-7b-v0.3      The Fragility of Cybersecurity: Stolen NSA Tools and Global Threats (4)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2978
+  llama3.1-8b         : 0.2872
+  mistral-7b-v0.3     : 0.2052
+  qwen2-7b            : 0.2732
+  tinyllama           : 0.2669
+
+====================================================================================================
+

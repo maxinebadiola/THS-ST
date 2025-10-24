@@ -1,0 +1,70 @@
+================================================================================
+MODEL PERFORMANCE REPORT
+================================================================================
+
+Total videos processed: 25
+Total segments analyzed: 25
+Total titles evaluated: 10098
+Models evaluated: 5
+
+--------------------------------------------------------------------------------
+PER-MODEL PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+
+Model                Avg Score    Median     Titles   Penalty %  Top Seg    Best Seg   Top5 Seg  
+------------------------------------------------------------------------------------------
+gemma2-9b            0.8497       0.3061     2020     99.7       2          2          10        
+llama3.1-8b          1.6140       0.3077     2019     97.9       7          7          35        
+mistral-7b-v0.3      7.1089       0.2609     2020     97.0       5          4          29        
+qwen2-7b             0.8326       0.2586     2020     97.0       5          5          15        
+tinyllama            13.4045      0.2832     2019     96.9       19         18         51        
+
+================================================================================
+DETAILED ANALYSIS
+================================================================================
+
+MODELS RANKED BY AVERAGE SCORE
+----------------------------------------
+ 1. tinyllama          13.4045
+ 2. mistral-7b-v0.3    7.1089
+ 3. llama3.1-8b        1.6140
+ 4. gemma2-9b          0.8497
+ 5. qwen2-7b           0.8326
+
+MODELS RANKED BY MEDIAN SCORE
+----------------------------------------
+ 1. llama3.1-8b        0.3077
+ 2. gemma2-9b          0.3061
+ 3. tinyllama          0.2832
+ 4. mistral-7b-v0.3    0.2609
+ 5. qwen2-7b           0.2586
+
+MODELS RANKED BY BEST TITLE FREQUENCY
+----------------------------------------
+ 1. tinyllama           18 (72.0%)
+ 2. llama3.1-8b          7 (28.0%)
+ 3. qwen2-7b             5 (20.0%)
+ 4. mistral-7b-v0.3      4 (16.0%)
+ 5. gemma2-9b            2 (8.0%)
+
+MODELS RANKED BY TOP 5 FREQUENCY
+----------------------------------------
+ 1. tinyllama           51 (204.0%)
+ 2. llama3.1-8b         35 (140.0%)
+ 3. mistral-7b-v0.3     29 (116.0%)
+ 4. qwen2-7b            15 (60.0%)
+ 5. gemma2-9b           10 (40.0%)
+
+PENALTY ANALYSIS
+--------------------
+Overall penalty rate: 97.7%
+Titles with penalties: 9865
+Total titles: 10098
+
+MODELS WITH LOWEST PENALTY RATES
+-----------------------------------
+tinyllama          96.9%
+mistral-7b-v0.3    97.0%
+qwen2-7b           97.0%
+llama3.1-8b        97.9%
+gemma2-9b          99.7%

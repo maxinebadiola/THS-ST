@@ -1,0 +1,452 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+8,1557,25:57,tinyllama,How does the Lava Transformer architecture handle challenging language tasks such as training large models on unseen data?,0.05363016868213532,0.3962763249874115,0.0,0.1353352832366127
+4,370,06:10,tinyllama,How to Train a Neural Network to Predict City Names Using Python and Keras,0.0901440407266422,0.3419765532016754,0.0,0.2635971381157267
+9,1694,28:14,tinyllama,Welch LABS - How I Quit YouTube and Started Going Full Time Creating Videos,0.10705558187553728,0.4061333239078522,0.0,0.2635971381157267
+2,128,02:08,qwen2-7b,From Spam Calls to School Alerts: My Unexpected Love Affair with CogniT,0.12215088040024591,0.3320405185222626,0.0,0.36787944117144233
+2,128,02:08,qwen2-7b,From Spam Calls to School Alerts: My Unexpected Love Affair with Cognit,0.12215088040024591,0.3320405185222626,0.0,0.36787944117144233
+5,568,09:28,tinyllama,Back Propagation: A Simple Way To Solve For Slopes Of Neural Networks,0.15444653868642155,0.41982921957969666,0.0,0.36787944117144233
+5,568,09:28,tinyllama,Back Propagation: A Simple Approach to Numerical Estimation of Neural Network Slopes,0.1538984762014205,0.41833943128585815,0.0,0.36787944117144233
+9,1694,28:14,tinyllama,"Welch LABS: How I Quit, Learned Math, & Became a Full-Time Creator",0.14441368089596848,0.3925570845603943,0.0,0.36787944117144233
+9,1694,28:14,qwen2-7b,From Quitting to Pursuing Educational Impact: My Journey to Full-Time Content Creation,0.1318076736305353,0.3582904040813446,0.0,0.36787944117144233
+9,1694,28:14,qwen2-7b,From Machine Learning Engineer to Education Entrepreneur: My Journey to Financial Independence,0.12610810445626391,0.3427973687648773,0.0,0.36787944117144233
+9,1694,28:14,qwen2-7b,From Machine Learning Engineer to Education Entrepreneur: My Journey to Financial Independence,0.12610810445626391,0.3427973687648773,0.0,0.36787944117144233
+2,128,02:08,tinyllama,How to Train Your Meta's Alumna Model to Identify Unknown Numbers,0.1807400141625812,0.41587841510772705,0.0,0.43459820850707825
+2,128,02:08,tinyllama,How to Train Your Meta's Alumna Model for Better Focus Time,0.17639132924665485,0.4058721959590912,0.0,0.43459820850707825
+2,128,02:08,qwen2-7b,From Spam Calls to School Notifications: My New Call Management Strategy,0.15014593240599475,0.3454821705818176,0.0,0.43459820850707825
+2,128,02:08,qwen2-7b,Eliminating Distractions: My Journey from Spam Calls to Personal Data Protection,0.14972541865581118,0.3445145785808563,0.0,0.43459820850707825
+4,370,06:10,tinyllama,How to Train a Small Linear Model to Predict City Coordinates,0.15616303382883262,0.35932737588882446,0.0,0.43459820850707825
+5,568,09:28,mistral-7b-v0.3,Unraveling Loss Function Slopes: A Journey from Numerical Estimates to Backpropagation,0.15922334087578405,0.3663690686225891,0.0,0.43459820850707825
+9,1694,28:14,tinyllama,Welch LABS: How I Quit Full-Time Job to Make Education Better,0.16858227479830964,0.38790374994277954,0.0,0.43459820850707825
+9,1694,28:14,tinyllama,Welch LABS - A New Way To Learn Math & Science,0.16141614646094982,0.3714146614074707,0.0,0.43459820850707825
+9,1694,28:14,tinyllama,Welch LABS - A New Way To Learn Math & Science,0.16141614646094982,0.3714146614074707,0.0,0.43459820850707825
+9,1694,28:14,qwen2-7b,From Quitting to Pursuing Education: My Journey Back to Welch Labs,0.14680536920582707,0.337795615196228,0.0,0.43459820850707825
+9,1694,28:14,qwen2-7b,From Quitting to Pursuing Educational Impact: My Journey in Video Creation,0.1394793609370826,0.3209386467933655,0.0,0.43459820850707825
+1,0,00:00,qwen2-7b,The Unseen Force Driving Modern AI: The Story of Backprop,0.1798885060663074,0.3503749668598175,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Driving Modern AI: The Story of Backprop,0.1798885060663074,0.3503749668598175,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Journey of Backprop,0.1778620845493728,0.3464280366897583,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Rise of Backprop,0.17689660533059665,0.3445475399494171,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Rise of Backprop,0.17689660533059665,0.3445475399494171,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Rise of Backprop,0.17689660533059665,0.3445475399494171,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Rise of Backprop,0.17689660533059665,0.3445475399494171,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Story of Backprop,0.17686869626555524,0.34449318051338196,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Story of Backprop,0.17686869626555524,0.34449318051338196,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,The Unseen Force Behind Modern AI: The Story of Backprop,0.17686869626555524,0.34449318051338196,0.0,0.513417119032592
+2,128,02:08,tinyllama,How to Train Meta's Alumna to 3 Billion Parameter Model,0.2036246762513035,0.3966067135334015,0.0,0.513417119032592
+2,128,02:08,qwen2-7b,Eliminating Distractions: My Journey from Spam Calls to Data Privacy,0.1728773174390716,0.3367190361022949,0.0,0.513417119032592
+2,128,02:08,qwen2-7b,Eliminating Distractions: My Journey from Spam Calls to Enhanced Privacy,0.16913742621841063,0.32943472266197205,0.0,0.513417119032592
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with Cogни: A New Era of Unknown Calls,0.15470918934210606,0.30133235454559326,0.0,0.513417119032592
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning Problems: A Math-First Approach to GPS Model Training,0.19420323995770125,0.37825626134872437,0.0,0.513417119032592
+3,226,03:46,qwen2-7b,From Visualization to Equations: A Simplified Approach to Training Models,0.18855555604755417,0.3672560751438141,0.0,0.513417119032592
+3,226,03:46,qwen2-7b,From Visualization to Equations: A Simplified Approach to Training Models,0.18855555604755417,0.3672560751438141,0.0,0.513417119032592
+4,370,06:10,qwen2-7b,From Neurons to Probabilities: Mastering Softmax and Cross Entropy Loss,0.16742946488278457,0.32610806822776794,0.0,0.513417119032592
+4,370,06:10,qwen2-7b,From Neurons to Probabilities: Mastering Softmax and Cross Entropy Loss,0.16742946488278457,0.32610806822776794,0.0,0.513417119032592
+4,370,06:10,qwen2-7b,From Neurons to Probabilities: Mastering Softmax and Cross Entropy Loss,0.16742946488278457,0.32610806822776794,0.0,0.513417119032592
+4,370,06:10,qwen2-7b,From Neurons to Probabilities: Mastering Softmax and Cross Entropy Loss,0.16742946488278457,0.32610806822776794,0.0,0.513417119032592
+4,370,06:10,qwen2-7b,From Neurons to Probabilities: Mastering Softmax and Cross Entropy Loss,0.16742946488278457,0.32610806822776794,0.0,0.513417119032592
+4,370,06:10,mistral-7b-v0.3,Softmax Function and Cross Entropy Loss in Neural Network Training,0.16194196737719804,0.31541988253593445,0.0,0.513417119032592
+4,370,06:10,mistral-7b-v0.3,Softmax Function and Cross Entropy Loss in Neural Network Training,0.16194196737719804,0.31541988253593445,0.0,0.513417119032592
+4,370,06:10,mistral-7b-v0.3,Softmax Function and Cross Entropy Loss in Neural Network Training,0.16194196737719804,0.31541988253593445,0.0,0.513417119032592
+4,370,06:10,mistral-7b-v0.3,Softmax Function and Cross Entropy Loss in Neural Network Training,0.16194196737719804,0.31541988253593445,0.0,0.513417119032592
+4,370,06:10,mistral-7b-v0.3,Softmax Function & Cross Entropy Loss in Neural Network Training,0.15969215093175218,0.3110378384590149,0.0,0.513417119032592
+4,370,06:10,mistral-7b-v0.3,Softmax Function & Cross Entropy Loss in Neural Network Training,0.15969215093175218,0.3110378384590149,0.0,0.513417119032592
+5,568,09:28,mistral-7b-v0.3,Exploring Backpropagation: Efficiently Solving Slope Equations for Neural Network Optimization,0.21098119365535922,0.41093525290489197,0.0,0.513417119032592
+5,568,09:28,mistral-7b-v0.3,Exploring Backpropagation: Efficiently Solving Slope Equations for Neural Network Optimization,0.21098119365535922,0.41093525290489197,0.0,0.513417119032592
+5,568,09:28,mistral-7b-v0.3,Exploring Backpropagation: Efficiently Solving Slope Equations for Neural Network Optimization,0.21098119365535922,0.41093525290489197,0.0,0.513417119032592
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Neural Network Layers Using Calculus Chain Rule,0.1814543974080138,0.35342490673065186,0.0,0.513417119032592
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Neural Network Layers Using Calculus Chain Rule,0.1814543974080138,0.35342490673065186,0.0,0.513417119032592
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Neural Network Layers Using Calculus Chain Rule,0.1814543974080138,0.35342490673065186,0.0,0.513417119032592
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Neural Network Layers Using Calculus Chain Rule,0.1814543974080138,0.35342490673065186,0.0,0.513417119032592
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Neural Network Layers Using Calculus Chain Rule,0.1814543974080138,0.35342490673065186,0.0,0.513417119032592
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Neural Network Layers via Calculus Chain Rule,0.1781321322954889,0.34695401787757874,0.0,0.513417119032592
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Backpropagation Learning Processes in Multi-Input Models,0.21026868624158832,0.40954747796058655,0.0,0.513417119032592
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Backpropagation Learning Process in Neural Networks,0.19730460420838253,0.38429689407348633,0.0,0.513417119032592
+7,1174,19:34,tinyllama,Visualizing Gradient Descent Process in Part One of a Transcript,0.1938195668184944,0.3775089681148529,0.0,0.513417119032592
+7,1174,19:34,tinyllama,Visualizing Gradient Descent Process in Part One of a Transcript,0.1938195668184944,0.3775089681148529,0.0,0.513417119032592
+7,1174,19:34,tinyllama,Visualizing Gradient Descent Process in Part One of a Transcript,0.1938195668184944,0.3775089681148529,0.0,0.513417119032592
+8,1557,25:57,tinyllama,The Power of Gradient Descent to Solve Incredibly Complex Problems,0.20693714870942795,0.4030585289001465,0.0,0.513417119032592
+8,1557,25:57,tinyllama,The Power of Gradient Descent to Solve Incredibly Complex Problem,0.20146391175681214,0.3923981189727783,0.0,0.513417119032592
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Focus: Building a Viable Business for Education,0.17713657126647622,0.34501492977142334,0.0,0.513417119032592
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Focus: Building a Viable Business for Education,0.17713657126647622,0.34501492977142334,0.0,0.513417119032592
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Focus: Building a Viable Business for Education,0.17713657126647622,0.34501492977142334,0.0,0.513417119032592
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Fulfillment: Building a Viable Business for Education,0.17701950314332282,0.3447869122028351,0.0,0.513417119032592
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Fulfillment: Building a Viable Business for Education,0.17701950314332282,0.3447869122028351,0.0,0.513417119032592
+9,1694,28:14,tinyllama,How to Make Money Blogging Without Quitting Your Day Job,0.1751532680309488,0.34115198254585266,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,From Quit to Quest: Navigating the Journey to Educational Impact,0.1465198831864009,0.2853817641735077,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,The Rise and Power of Back Propagation in AI,0.20267456164104722,0.3341538608074188,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Power of Back Propagation in AI,0.20267456164104722,0.3341538608074188,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Reach of Back Propagation in AI,0.20090157499779504,0.33123070001602173,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Impact of Back Propagation in AI,0.19928402406994608,0.3285638093948364,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Impact of Back Propagation in AI,0.19928402406994608,0.3285638093948364,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Impact of Back Propagation in AI,0.19928402406994608,0.3285638093948364,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Impact of Back Propagation in AI,0.19928402406994608,0.3285638093948364,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Impact of Back Propagation in AI,0.19928402406994608,0.3285638093948364,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Rise and Impact of Back Propagation in AI,0.19928402406994608,0.3285638093948364,0.0,0.6065306597126334
+2,128,02:08,tinyllama,How to Train Meta's Alumna Model for Back Propagation,0.24086046595509292,0.39711177349090576,0.0,0.6065306597126334
+2,128,02:08,tinyllama,How to Train Meta's Alumna Model for Back Propagation,0.24086046595509292,0.39711177349090576,0.0,0.6065306597126334
+2,128,02:08,tinyllama,"How to Train Meta's Alumna Model 3,2,1,0.5 Billion Parameter",0.23685304797236648,0.3905046582221985,0.0,0.6065306597126334
+2,128,02:08,tinyllama,How to Train Meta's Alumna to 32 Billion Parameters,0.2185016375144766,0.36024829745292664,0.0,0.6065306597126334
+2,128,02:08,qwen2-7b,Eliminating Distractions: My Journey with CognI and Data Privacy,0.20328220520529827,0.3351556956768036,0.0,0.6065306597126334
+2,128,02:08,qwen2-7b,Eliminating Distractions: My Journey with CognI & Data Privacy,0.2019330289799254,0.3329312801361084,0.0,0.6065306597126334
+2,128,02:08,qwen2-7b,Eliminating Distractions: My Journey with Cogn & Data Privacy,0.19870530214130908,0.327609658241272,0.0,0.6065306597126334
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning Problems: A Math-First Approach to Neural Networks,0.22969882950267625,0.3787093460559845,0.0,0.6065306597126334
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning: A Math-First Approach to GPS Model Training,0.2261874537227752,0.37292006611824036,0.0,0.6065306597126334
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning: A Math-First Approach to GPS Model Training,0.2261874537227752,0.37292006611824036,0.0,0.6065306597126334
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning Problems: A Math Approach to GPS Modeling,0.22129501561423676,0.36485379934310913,0.0,0.6065306597126334
+4,370,06:10,qwen2-7b,Mastering Model Outputs: From Neurons to Probabilities via Softmax,0.20937292090539333,0.3451975882053375,0.0,0.6065306597126334
+4,370,06:10,qwen2-7b,Navigating Model Training: From Outputs to Predictions via Softmax,0.2089430369440351,0.34448882937431335,0.0,0.6065306597126334
+4,370,06:10,mistral-7b-v0.3,Softmax Function and Cross Entropy Loss for Model Predictions,0.20893797565780264,0.3444804847240448,0.0,0.6065306597126334
+4,370,06:10,tinyllama,How to Train a Linear Model Using Gradient Descent,0.20712328763119944,0.3414885699748993,0.0,0.6065306597126334
+4,370,06:10,tinyllama,How to Train a Linear Regression Model Using Python,0.2051002553720416,0.3381531536579132,0.0,0.6065306597126334
+4,370,06:10,tinyllama,How to Train a Linear Regression Model Using Python,0.2051002553720416,0.3381531536579132,0.0,0.6065306597126334
+4,370,06:10,tinyllama,How to Train a Linear Regression Model Using Python,0.2051002553720416,0.3381531536579132,0.0,0.6065306597126334
+4,370,06:10,mistral-7b-v0.3,Softmax Function & Cross Entropy Loss for Model Predictions,0.20453221637255953,0.3372166156768799,0.0,0.6065306597126334
+4,370,06:10,mistral-7b-v0.3,Softmax Function & Cross Entropy Loss for Model Predictions,0.20453221637255953,0.3372166156768799,0.0,0.6065306597126334
+4,370,06:10,mistral-7b-v0.3,Softmax Function & Cross Entropy Loss for Model Predictions,0.20453221637255953,0.3372166156768799,0.0,0.6065306597126334
+4,370,06:10,qwen2-7b,Navigating Model Training: From Neurons to Predictions via Softmax,0.20017985365706883,0.3300407826900482,0.0,0.6065306597126334
+4,370,06:10,qwen2-7b,Navigating Model Training: From Neurons to Predictions via Softmax,0.20017985365706883,0.3300407826900482,0.0,0.6065306597126334
+5,568,09:28,qwen2-7b,Unlocking Neural Network Optimization: From Slope Estimation to Backpropagation,0.22571362695130587,0.3721388578414917,0.0,0.6065306597126334
+5,568,09:28,qwen2-7b,Unlocking Loss Function Optimization: A Journey Through Parameter Slopes,0.20652151877418248,0.3404964208602905,0.0,0.6065306597126334
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Chain Rule Calculations in Neural Networks,0.21737309721679435,0.35838764905929565,0.0,0.6065306597126334
+6,685,11:25,tinyllama,Back Propagation: A Simple Algorithm for Learning Neural Networks,0.21612113383912915,0.3563235104084015,0.0,0.6065306597126334
+6,685,11:25,tinyllama,Back Propagation - A Simple Introduction to Neural Networks,0.21195334538692284,0.3494519889354706,0.0,0.6065306597126334
+6,685,11:25,tinyllama,Back Propagation: How Neural Networks Learn to Solve Problems,0.2092642840116181,0.3450184762477875,0.0,0.6065306597126334
+7,1174,19:34,tinyllama,Visualizing Gradient Descent Process in Part One of Transcript,0.2342722619703918,0.3862496614456177,0.0,0.6065306597126334
+7,1174,19:34,tinyllama,Visualizing Gradient Descent Process in Part One of Transcript,0.2342722619703918,0.3862496614456177,0.0,0.6065306597126334
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Backpropagation in Neural Network Learning,0.22888779453596944,0.3773721754550934,0.0,0.6065306597126334
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Backpropagation in Neural Network Learning,0.22888779453596944,0.3773721754550934,0.0,0.6065306597126334
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Backpropagation in Neural Network Learning,0.22888779453596944,0.3773721754550934,0.0,0.6065306597126334
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Backpropagation in Neural Network Learning,0.22888779453596944,0.3773721754550934,0.0,0.6065306597126334
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent & Learning Planes in Neural Networks,0.22588737367725722,0.3724253177642822,0.0,0.6065306597126334
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent & Backpropagation in Neural Network Learning,0.22395804751748888,0.36924439668655396,0.0,0.6065306597126334
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Model Learning in Neural Networks,0.22184966028122508,0.3657682538032532,0.0,0.6065306597126334
+7,1174,19:34,qwen2-7b,Unraveling Gradient Descent's Role in Model Learning and Visualization,0.22132597984036603,0.36490485072135925,0.0,0.6065306597126334
+8,1557,25:57,tinyllama,How Language Models Learn to Predict the Next Token,0.21031093992846808,0.3467441201210022,0.0,0.6065306597126334
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: A Deep Dive into Model Architecture,0.18781551098764215,0.30965542793273926,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Fulfillment: Building a Business for Education,0.1989890776147496,0.3280775249004364,0.0,0.6065306597126334
+9,1694,28:14,qwen2-7b,From Quit to Quest: Rebuilding Education Through Welch Labs,0.18835824355596195,0.3105502426624298,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Fulfillment: A Journey Towards Educational Videos,0.16714603143528664,0.27557721734046936,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Fulfillment: A Journey Towards Educational Videos,0.16714603143528664,0.27557721734046936,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,From Frustration to Fulfillment: A Journey Towards Educational Videos,0.16714603143528664,0.27557721734046936,0.0,0.6065306597126334
+1,0,00:00,tinyllama,How Back Propagation Works in Deep Learning Models,0.27092532016829923,0.3781067430973053,0.0,0.7165313105737893
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with CogNI: A Data Removal Journey,0.24262314623060005,0.33860787749290466,0.0,0.7165313105737893
+2,128,02:08,gemma2-9b,Reclaiming Your Data: A Deep Dive into AI,0.23730586218517782,0.33118700981140137,0.0,0.7165313105737893
+2,128,02:08,mistral-7b-v0.3,Protecting Privacy with Cogни: A Data Removal Journey,0.2331249470609218,0.3253520727157593,0.0,0.7165313105737893
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with Cog ni: A New Approach,0.22451284445017972,0.3133329153060913,0.0,0.7165313105737893
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning: A Math-First Approach to Neural Networks,0.2661975855577272,0.3715086579322815,0.0,0.7165313105737893
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning: A Math Approach to Neural Networks,0.25909738853727904,0.36159953474998474,0.0,0.7165313105737893
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning: A Math Approach to Neural Networks,0.25909738853727904,0.36159953474998474,0.0,0.7165313105737893
+3,226,03:46,tinyllama,Building a Neural Network Model for City Identification,0.2538598627915947,0.3542899787425995,0.0,0.7165313105737893
+3,226,03:46,gemma2-9b,From GPS to Backpropagation: A Math First Approach,0.23181155101664241,0.3235190808773041,0.0,0.7165313105737893
+3,226,03:46,gemma2-9b,From Coordinates to Cities: A Math First Approach,0.23052205043083876,0.3217194378376007,0.0,0.7165313105737893
+3,226,03:46,gemma2-9b,From Coordinates to Cities: A Math First Approach,0.23052205043083876,0.3217194378376007,0.0,0.7165313105737893
+3,226,03:46,qwen2-7b,From Lost Landscapes to Backpropagation: Simplifying GPS Prediction,0.22827848255837038,0.3185882866382599,0.0,0.7165313105737893
+3,226,03:46,qwen2-7b,From Lost Landscapes to Backpropagation: Simplifying GPS Prediction,0.22827848255837038,0.3185882866382599,0.0,0.7165313105737893
+3,226,03:46,gemma2-9b,From GPS to Neurons: A Math First Approach,0.22656121269268698,0.3161916434764862,0.0,0.7165313105737893
+3,226,03:46,qwen2-7b,From Lost Landscapes to Backpropagation: A Simplified Approach,0.2135669307073461,0.2980566620826721,0.0,0.7165313105737893
+3,226,03:46,qwen2-7b,From Lost Landscapes to Backpropagation: A Simplified Approach,0.2135669307073461,0.2980566620826721,0.0,0.7165313105737893
+3,226,03:46,qwen2-7b,From Lost Landscapes to Backpropagation: A Simplified Approach,0.2135669307073461,0.2980566620826721,0.0,0.7165313105737893
+3,226,03:46,qwen2-7b,From Lost Landscapes to Backpropagation: A Simplified Approach,0.2135669307073461,0.2980566620826721,0.0,0.7165313105737893
+3,226,03:46,qwen2-7b,From Lost Landscapes to Backpropagation: A Simplified Approach,0.2135669307073461,0.2980566620826721,0.0,0.7165313105737893
+4,370,06:10,tinyllama,How to Train a Neural Network Using Python,0.22622940962405821,0.3157285749912262,0.0,0.7165313105737893
+5,568,09:28,tinyllama,How to Solve for Slopes Using Backpropagated Gradients,0.2957923351000151,0.4128114581108093,0.0,0.7165313105737893
+5,568,09:28,tinyllama,How to Solve Numerical Equations Using Back Propagation,0.28654156817105003,0.39990097284317017,0.0,0.7165313105737893
+5,568,09:28,tinyllama,How to Solve for Slopes Using Back Propagation,0.28464507168965025,0.39725419878959656,0.0,0.7165313105737893
+5,568,09:28,mistral-7b-v0.3,Estimating Model Slopes: From Numerical Approach to Backpropagation,0.27397832267304806,0.3823675513267517,0.0,0.7165313105737893
+6,685,11:25,tinyllama,Back Propagation: A Brief Introduction to Neural Networks,0.24919817702201058,0.3477840721607208,0.0,0.7165313105737893
+6,685,11:25,tinyllama,Back Propagation: The Math Behind Neural Network Training,0.24030411227211457,0.3353714048862457,0.0,0.7165313105737893
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: Learning Complex Patterns with Backpropagation,0.2542197681152316,0.3547922670841217,0.0,0.7165313105737893
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: Learning Complex Patterns with Backpropagation,0.2542197681152316,0.3547922670841217,0.0,0.7165313105737893
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geometry: A Journey Through High-Dimensional Space,0.2483064856372293,0.34653961658477783,0.0,0.7165313105737893
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: A Look into Model Partitioning,0.23808738675112429,0.33227771520614624,0.0,0.7165313105737893
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: A Journey Through High-Dimensional Space,0.23520244256469883,0.328251451253891,0.0,0.7165313105737893
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: A Look into Model Learning,0.22578109751035036,0.3151029050350189,0.0,0.7165313105737893
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: A Look into Model Architecture,0.21790951921508706,0.30411723256111145,0.0,0.7165313105737893
+9,1694,28:14,qwen2-7b,From Quitting to Pursuing Education Through Video Creation,0.23630351283272796,0.32978811860084534,0.0,0.7165313105737893
+9,1694,28:14,qwen2-7b,From Quit to Pursuit: Navigating Education & Business,0.20926720027392218,0.2920559048652649,0.0,0.7165313105737893
+9,1694,28:14,qwen2-7b,From Quit to Quest: Navigating Education & Entrepreneurship,0.20814460487439748,0.29048919677734375,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Backpropagation: The Mathematical Law of Modern AI,0.32236976399708506,0.3808348774909973,0.0,0.846481724890614
+1,0,00:00,tinyllama,How Back Propagation Works in Machine Learning,0.3088987587423213,0.3649207651615143,0.0,0.846481724890614
+1,0,00:00,tinyllama,How Back Propagation Works in Machine Learning,0.3088987587423213,0.3649207651615143,0.0,0.846481724890614
+1,0,00:00,tinyllama,How Back Propagation Works in Machine Learning,0.3088987587423213,0.3649207651615143,0.0,0.846481724890614
+1,0,00:00,tinyllama,How Back Propagation Works in Deep Learning,0.3077706775609163,0.3635880947113037,0.0,0.846481724890614
+1,0,00:00,tinyllama,How Back Propagation Works in Deep Learning,0.3077706775609163,0.3635880947113037,0.0,0.846481724890614
+1,0,00:00,tinyllama,How Back Propagation Works in Deep Learning,0.3077706775609163,0.3635880947113037,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Unlocking Intelligence: The Power of Back Propagation,0.2805578791317787,0.3314399719238281,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Unlocking Intelligence: The Power of Back Propagation,0.2805578791317787,0.3314399719238281,0.0,0.846481724890614
+2,128,02:08,tinyllama,How to Train Your Meta's Alumna Model,0.3283773254269351,0.3879319727420807,0.0,0.846481724890614
+2,128,02:08,tinyllama,How to Train Your Meta's Alumna Model,0.3283773254269351,0.3879319727420807,0.0,0.846481724890614
+2,128,02:08,tinyllama,How to Train Your Meta's Alumna Model,0.3283773254269351,0.3879319727420807,0.0,0.846481724890614
+2,128,02:08,qwen2-7b,Eliminating Distractions: How Cognix Protects Your Privacy,0.2983675456094053,0.35247960686683655,0.0,0.846481724890614
+2,128,02:08,llama3.1-8b,Taking Back Control of Your Personal Data,0.2948779283796853,0.34835711121559143,0.0,0.846481724890614
+2,128,02:08,llama3.1-8b,Taking Back Control of Your Online Presence,0.27147190254875453,0.32070615887641907,0.0,0.846481724890614
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with CogNI: A Game Changer,0.23816519025369226,0.281358927488327,0.0,0.846481724890614
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with Cogни: A Game Changer,0.22885865294948765,0.27036455273628235,0.0,0.846481724890614
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with Cogни: A Game Changer,0.22885865294948765,0.27036455273628235,0.0,0.846481724890614
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with Cogни: A Game Changer,0.22885865294948765,0.27036455273628235,0.0,0.846481724890614
+2,128,02:08,mistral-7b-v0.3,Privacy Protection with Cogни: A Game Changer,0.22885865294948765,0.27036455273628235,0.0,0.846481724890614
+3,226,03:46,tinyllama,How to Build an Artificial Neural Network,0.2886930455144953,0.34105053544044495,0.0,0.846481724890614
+3,226,03:46,qwen2-7b,From Visualization to Equations: Simplifying GPS Prediction,0.28594288566316256,0.33780160546302795,0.0,0.846481724890614
+3,226,03:46,tinyllama,Building Up Equations with Math First Approach,0.2845745161517515,0.3361850678920746,0.0,0.846481724890614
+3,226,03:46,llama3.1-8b,From Linear Equations to Neural Network Basics,0.27891826761257493,0.32950299978256226,0.0,0.846481724890614
+3,226,03:46,llama3.1-8b,Cracking the Code: Math Behind Meta Models,0.2552442288453728,0.301535427570343,0.0,0.846481724890614
+3,226,03:46,gemma2-9b,From GPS to Neurons: A Math Primer,0.24715732194562745,0.29198187589645386,0.0,0.846481724890614
+3,226,03:46,gemma2-9b,From GPS to Neurons: A Math Primer,0.24715732194562745,0.29198187589645386,0.0,0.846481724890614
+3,226,03:46,gemma2-9b,From GPS to Neurons: A Math Primer,0.24715732194562745,0.29198187589645386,0.0,0.846481724890614
+3,226,03:46,gemma2-9b,From GPS to Neurons: A Math Primer,0.24715732194562745,0.29198187589645386,0.0,0.846481724890614
+4,370,06:10,tinyllama,Creating a Simple Linear Model for Prediction,0.28568816741979547,0.3375006914138794,0.0,0.846481724890614
+4,370,06:10,tinyllama,Creating a Neural Network Model Using Python,0.26948001950826933,0.3183530271053314,0.0,0.846481724890614
+4,370,06:10,llama3.1-8b,Squishing Outputs & Computing Cross Entropy Loss,0.26823753333194805,0.31688520312309265,0.0,0.846481724890614
+4,370,06:10,qwen2-7b,Navigating Model Training: From Neurons to Predictions,0.26381317557816336,0.31165844202041626,0.0,0.846481724890614
+5,568,09:28,mistral-7b-v0.3,Exploring Backpropagation: Efficiently Solving Model Performance Slopes,0.3252550655370102,0.3842434585094452,0.0,0.846481724890614
+5,568,09:28,qwen2-7b,Efficiently Calculating Neural Network Slopes with Backpropagation,0.3234635362935758,0.3821270167827606,0.0,0.846481724890614
+5,568,09:28,tinyllama,Backpropogation: A Simple Method for Computing Slopos,0.32317857073181744,0.3817903697490692,0.0,0.846481724890614
+5,568,09:28,mistral-7b-v0.3,Discovering Backpropagation: Efficiently Solving Loss Function Slopes,0.3214998319475386,0.37980717420578003,0.0,0.846481724890614
+5,568,09:28,llama3.1-8b,Deriving Efficient Slope Equations via Back Propagation,0.31151849437673734,0.3680156171321869,0.0,0.846481724890614
+5,568,09:28,llama3.1-8b,Solving Loss Function Slopes with Back Propagation,0.30352984711430164,0.3585781455039978,0.0,0.846481724890614
+5,568,09:28,qwen2-7b,Efficiently Calculating Neural Network Slopes for Optimization,0.3012214898376037,0.3558511435985565,0.0,0.846481724890614
+5,568,09:28,qwen2-7b,Efficiently Calculating Neural Network Slopes for Optimization,0.3012214898376037,0.3558511435985565,0.0,0.846481724890614
+5,568,09:28,tinyllama,Back Propogation for Single Layer Neural Nets,0.28768105954513107,0.33985501527786255,0.0,0.846481724890614
+6,685,11:25,mistral-7b-v0.3,Backpropagation: Efficient Calculus for Neural Network Gradients,0.30533154288760406,0.3607065975666046,0.0,0.846481724890614
+6,685,11:25,llama3.1-8b,Unlocking Neural Network Learning with Back Propagation,0.27866357459632907,0.3292021155357361,0.0,0.846481724890614
+6,685,11:25,tinyllama,Back Propagation - How Neural Networks Learn,0.2719645377727292,0.321288138628006,0.0,0.846481724890614
+7,1174,19:34,tinyllama,Visualizing Gradient Descent Process in Part One,0.3321490323265899,0.392387717962265,0.0,0.846481724890614
+7,1174,19:34,tinyllama,Visualizing Gradient Descent Process in Part One,0.3321490323265899,0.392387717962265,0.0,0.846481724890614
+7,1174,19:34,mistral-7b-v0.3,Visualizing Gradient Descent and Model Learning Process,0.32208313344532347,0.3804962635040283,0.0,0.846481724890614
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Unveiling Model Learning Dynamics,0.28691993206958105,0.3389558494091034,0.0,0.846481724890614
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Unveiling Model Learning Dynamics,0.28691993206958105,0.3389558494091034,0.0,0.846481724890614
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Unveiling Model Learning Dynamics,0.28691993206958105,0.3389558494091034,0.0,0.846481724890614
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Unveiling Model Learning Dynamics,0.28691993206958105,0.3389558494091034,0.0,0.846481724890614
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Unveiling Model Learning Dynamics,0.28691993206958105,0.3389558494091034,0.0,0.846481724890614
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Unveiling Model Learning Dynamics,0.28691993206958105,0.3389558494091034,0.0,0.846481724890614
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Unveiling Model Learning Dynamics,0.28691993206958105,0.3389558494091034,0.0,0.846481724890614
+8,1557,25:57,tinyllama,How Backpropagating Neural Networks Learn Complex Problems,0.30455896229900176,0.35979390144348145,0.0,0.846481724890614
+8,1557,25:57,tinyllama,Partitioning Space for Disconnected Regions in Language,0.2978909548345523,0.3519165813922882,0.0,0.846481724890614
+8,1557,25:57,tinyllama,The Power of Backpropagating Through Complex Networks,0.29449884042850405,0.34790927171707153,0.0,0.846481724890614
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography: Clustering and Learning Complexities,0.28894102811648587,0.341343492269516,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insights & Minsky's Misconception,0.2887592414806828,0.34112873673439026,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insights & Minsky's Misconception,0.2887592414806828,0.34112873673439026,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insights & Minsky's Misunderstanding,0.2843447979855535,0.33591368794441223,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insights & Minsky's Misunderstanding,0.2843447979855535,0.33591368794441223,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insights & Minsky's Misunderstanding,0.2843447979855535,0.33591368794441223,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insights & Minsky's Misunderstanding,0.2843447979855535,0.33591368794441223,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insights & Minsky's Misunderstanding,0.2843447979855535,0.33591368794441223,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Hidden Geometry and Minsky's Misunderstanding,0.2823590451355346,0.3335677981376648,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Geometric Insight & Minsky's Misunderstanding,0.2809682991675655,0.33192482590675354,0.0,0.846481724890614
+8,1557,25:57,qwen2-7b,Language Models' Hidden Geometry Reveals Complex Connections,0.2732195366011957,0.32277074456214905,0.0,0.846481724890614
+9,1694,28:14,tinyllama,The Real Reason I Quit Welch Lab,0.28418067033463285,0.3357197940349579,0.0,0.846481724890614
+9,1694,28:14,gemma2-9b,Watch Labs: A Path to Educational Impact,0.2565751108545908,0.30310767889022827,0.0,0.846481724890614
+9,1694,28:14,tinyllama,Welch LABS - The Future of Education,0.24679763365069549,0.2915569543838501,0.0,0.846481724890614
+9,1694,28:14,llama3.1-8b,From Engineer to Educator: A New Path,0.24476309154815884,0.28915342688560486,0.0,0.846481724890614
+9,1694,28:14,llama3.1-8b,From Engineer to Educator: A New Path,0.24476309154815884,0.28915342688560486,0.0,0.846481724890614
+9,1694,28:14,llama3.1-8b,From Engineer to Educator: A New Path,0.24476309154815884,0.28915342688560486,0.0,0.846481724890614
+9,1694,28:14,llama3.1-8b,From Engineer to Educator: A New Path,0.24476309154815884,0.28915342688560486,0.0,0.846481724890614
+9,1694,28:14,llama3.1-8b,From Engineer to Educator: A New Path,0.24476309154815884,0.28915342688560486,0.0,0.846481724890614
+9,1694,28:14,gemma2-9b,From Engineer to Educator: Watch Labs Evolves,0.24163598805095196,0.2854591906070709,0.0,0.846481724890614
+1,0,00:00,tinyllama,The Science of Intelligence: Back Propagation,0.3395707905292511,0.3395707905292511,0.0,1.0
+1,0,00:00,llama3.1-8b,How Backprop Drives Modern AI Breakthroughs,0.33755791187286377,0.33755791187286377,0.0,1.0
+1,0,00:00,llama3.1-8b,The Elegant Power of Back Propagation,0.32598546147346497,0.32598546147346497,0.0,1.0
+1,0,00:00,llama3.1-8b,The Elegant Power of Back Propagation,0.32598546147346497,0.32598546147346497,0.0,1.0
+1,0,00:00,llama3.1-8b,The Elegant Power of Back Propagation,0.32598546147346497,0.32598546147346497,0.0,1.0
+1,0,00:00,llama3.1-8b,The Elegant Power of Back Propagation,0.32598546147346497,0.32598546147346497,0.0,1.0
+1,0,00:00,llama3.1-8b,The Elegant Power of Back Propagation,0.32598546147346497,0.32598546147346497,0.0,1.0
+1,0,00:00,llama3.1-8b,Unlocking Intelligence: The Power of Backprop,0.3259252607822418,0.3259252607822418,0.0,1.0
+1,0,00:00,llama3.1-8b,The Elegant Algorithm Behind AI Success,0.3195304870605469,0.3195304870605469,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,gemma2-9b,The Power of Backpropagation,0.31324341893196106,0.31324341893196106,0.0,1.0
+1,0,00:00,tinyllama,How Back Propagation Works,0.30905744433403015,0.30905744433403015,0.0,1.0
+1,0,00:00,tinyllama,How Back Propagation Works,0.30905744433403015,0.30905744433403015,0.0,1.0
+2,128,02:08,gemma2-9b,Taming Meta's AI: Backpropagation Explained,0.33753469586372375,0.33753469586372375,0.0,1.0
+2,128,02:08,gemma2-9b,Reclaiming Focus Time with Data Removal,0.331816703081131,0.331816703081131,0.0,1.0
+2,128,02:08,llama3.1-8b,Protecting Your Personal Information,0.31374290585517883,0.31374290585517883,0.0,1.0
+2,128,02:08,llama3.1-8b,Taming Unwanted Calls with Data Removal,0.31122875213623047,0.31122875213623047,0.0,1.0
+2,128,02:08,gemma2-9b,"Silencing Spam, Embracing Focus Time",0.3105030357837677,0.3105030357837677,0.0,1.0
+2,128,02:08,gemma2-9b,"Silencing Spam, Embracing Focus Time",0.3105030357837677,0.3105030357837677,0.0,1.0
+2,128,02:08,gemma2-9b,"Silencing Spam, Embracing Focus Time",0.3105030357837677,0.3105030357837677,0.0,1.0
+2,128,02:08,gemma2-9b,"Silencing Spam, Embracing Focus Time",0.3105030357837677,0.3105030357837677,0.0,1.0
+2,128,02:08,llama3.1-8b,Staying Safe from Unsolicited Marketing Calls,0.3096450865268707,0.3096450865268707,0.0,1.0
+2,128,02:08,gemma2-9b,Reclaiming Your Data Privacy,0.29272088408470154,0.29272088408470154,0.0,1.0
+2,128,02:08,gemma2-9b,"Silencing Spam, Embracing Focus",0.2895519733428955,0.2895519733428955,0.0,1.0
+2,128,02:08,gemma2-9b,"Silencing Spam, Embracing Focus",0.2895519733428955,0.2895519733428955,0.0,1.0
+2,128,02:08,llama3.1-8b,Breaking Free from Data Brokers,0.28866177797317505,0.28866177797317505,0.0,1.0
+2,128,02:08,llama3.1-8b,Breaking Free from Personal Data Overload,0.27775365114212036,0.27775365114212036,0.0,1.0
+2,128,02:08,mistral-7b-v0.3,Taming Unwanted Calls with Cogни,0.27592068910598755,0.27592068910598755,0.0,1.0
+2,128,02:08,llama3.1-8b,Protecting Your Digital Footprint,0.23819413781166077,0.23819413781166077,0.0,1.0
+2,128,02:08,llama3.1-8b,Protecting Your Digital Footprint,0.23819413781166077,0.23819413781166077,0.0,1.0
+2,128,02:08,llama3.1-8b,Protecting Your Digital Footprint,0.23819413781166077,0.23819413781166077,0.0,1.0
+3,226,03:46,llama3.1-8b,Simplifying Neural Networks with Linear Models,0.3478586673736572,0.3478586673736572,0.0,1.0
+3,226,03:46,llama3.1-8b,Simplifying Neural Networks with Linear Models,0.3478586673736572,0.3478586673736572,0.0,1.0
+3,226,03:46,tinyllama,Building Up Equations for Learning Problems,0.3431668281555176,0.3431668281555176,0.0,1.0
+3,226,03:46,tinyllama,Visualizing High-Dimensional Spaces with Deep Learning,0.34041479229927063,0.34041479229927063,0.0,1.0
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning Problems for Backpropagation Algorithm,0.338812917470932,0.338812917470932,0.0,1.0
+3,226,03:46,tinyllama,Building a Language Model with Math,0.33150535821914673,0.33150535821914673,0.0,1.0
+3,226,03:46,mistral-7b-v0.3,Simplifying Learning Problems for Backpropagation,0.32953372597694397,0.32953372597694397,0.0,1.0
+3,226,03:46,tinyllama,A Brief Introduction to Neural Networks,0.329460471868515,0.329460471868515,0.0,1.0
+3,226,03:46,tinyllama,A Brief Introduction to Neural Networks,0.329460471868515,0.329460471868515,0.0,1.0
+3,226,03:46,llama3.1-8b,Math First Approach to Back Propagation,0.3224884867668152,0.3224884867668152,0.0,1.0
+3,226,03:46,llama3.1-8b,Math First Approach to Back Propagation,0.3224884867668152,0.3224884867668152,0.0,1.0
+3,226,03:46,llama3.1-8b,Math First Approach to Back Propagation,0.3224884867668152,0.3224884867668152,0.0,1.0
+3,226,03:46,llama3.1-8b,Math First Approach to Back Propagation,0.3224884867668152,0.3224884867668152,0.0,1.0
+3,226,03:46,llama3.1-8b,Math First Approach to Back Propagation,0.3224884867668152,0.3224884867668152,0.0,1.0
+3,226,03:46,tinyllama,Visualizing High-Dimensional Data,0.31296661496162415,0.31296661496162415,0.0,1.0
+3,226,03:46,gemma2-9b,From GPS to Neurons: Unveiling Backpropagation,0.26867955923080444,0.26867955923080444,0.0,1.0
+3,226,03:46,llama3.1-8b,Cracking the Code: Backpropagation Unveiled,0.26382681727409363,0.26382681727409363,0.0,1.0
+3,226,03:46,gemma2-9b,From GPS to Backpropagation,0.25484657287597656,0.25484657287597656,0.0,1.0
+3,226,03:46,tinyllama,Transforming Data into Features,0.238732248544693,0.238732248544693,0.0,1.0
+4,370,06:10,gemma2-9b,From Outputs to Probabilities: Softmax Explained,0.3223278820514679,0.3223278820514679,0.0,1.0
+4,370,06:10,gemma2-9b,From Outputs to Probabilities: Softmax Explained,0.3223278820514679,0.3223278820514679,0.0,1.0
+4,370,06:10,gemma2-9b,From Outputs to Probabilities: Softmax Explained,0.3223278820514679,0.3223278820514679,0.0,1.0
+4,370,06:10,gemma2-9b,From Outputs to Probabilities: Softmax Explained,0.3223278820514679,0.3223278820514679,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs & Computing Cross Entropy,0.31482282280921936,0.31482282280921936,0.0,1.0
+4,370,06:10,gemma2-9b,From Neurons to Probabilities: Softmax Explained,0.314791202545166,0.314791202545166,0.0,1.0
+4,370,06:10,gemma2-9b,From Neurons to Probabilities: Softmax Explained,0.314791202545166,0.314791202545166,0.0,1.0
+4,370,06:10,gemma2-9b,From Neurons to Probabilities: Softmax Explained,0.314791202545166,0.314791202545166,0.0,1.0
+4,370,06:10,gemma2-9b,From Neurons to Probabilities: Softmax Explained,0.314791202545166,0.314791202545166,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs & Computing Loss,0.30415424704551697,0.30415424704551697,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs with Softmax,0.29536089301109314,0.29536089301109314,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs with Softmax,0.29536089301109314,0.29536089301109314,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs with Softmax,0.29536089301109314,0.29536089301109314,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs with Softmax,0.29536089301109314,0.29536089301109314,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs with Softmax,0.29536089301109314,0.29536089301109314,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs with Softmax,0.29536089301109314,0.29536089301109314,0.0,1.0
+4,370,06:10,llama3.1-8b,Squishing Outputs with Softmax,0.29536089301109314,0.29536089301109314,0.0,1.0
+4,370,06:10,gemma2-9b,From Neurons to Probabilities,0.29229405522346497,0.29229405522346497,0.0,1.0
+4,370,06:10,gemma2-9b,From Neurons to Probabilities,0.29229405522346497,0.29229405522346497,0.0,1.0
+4,370,06:10,tinyllama,Transforming Data into Predictions,0.2641143500804901,0.2641143500804901,0.0,1.0
+5,568,09:28,llama3.1-8b,Deriving Backpropagation Equations for Neural Networks,0.3915162980556488,0.3915162980556488,0.0,1.0
+5,568,09:28,llama3.1-8b,Deriving Efficient Slope Equations via Backpropagation,0.38210323452949524,0.38210323452949524,0.0,1.0
+5,568,09:28,mistral-7b-v0.3,Exploring Backpropagation: Efficiently Solving Model Slopes,0.3808170557022095,0.3808170557022095,0.0,1.0
+5,568,09:28,llama3.1-8b,Deriving Backpropagation Equations with Calculus,0.3583117127418518,0.3583117127418518,0.0,1.0
+5,568,09:28,llama3.1-8b,Optimizing Neural Networks through Back Propagation,0.3575774133205414,0.3575774133205414,0.0,1.0
+5,568,09:28,qwen2-7b,Unlocking Neural Network Optimization: Backpropagation Simplified,0.35529470443725586,0.35529470443725586,0.0,1.0
+5,568,09:28,qwen2-7b,Unlocking Neural Network Optimization: Backpropagation Simplified,0.35529470443725586,0.35529470443725586,0.0,1.0
+5,568,09:28,qwen2-7b,Unlocking Neural Network Optimization: Backpropagation Simplified,0.35529470443725586,0.35529470443725586,0.0,1.0
+5,568,09:28,qwen2-7b,Unlocking Neural Network Optimization: Backpropagation Simplified,0.35529470443725586,0.35529470443725586,0.0,1.0
+5,568,09:28,qwen2-7b,Unlocking Neural Network Optimization: Backpropagation Simplified,0.35529470443725586,0.35529470443725586,0.0,1.0
+5,568,09:28,tinyllama,Backpropagating through a Single Neural Network,0.34516245126724243,0.34516245126724243,0.0,1.0
+5,568,09:28,mistral-7b-v0.3,Exploring Model Performance Slopes via Backpropagation,0.34338077902793884,0.34338077902793884,0.0,1.0
+5,568,09:28,mistral-7b-v0.3,Exploring Loss Function Slopes via Backpropagation,0.33447450399398804,0.33447450399398804,0.0,1.0
+5,568,09:28,tinyllama,Back Propagation for Neural Networks,0.3343620300292969,0.3343620300292969,0.0,1.0
+5,568,09:28,llama3.1-8b,Deriving Backpropagation through Calculus,0.3314400911331177,0.3314400911331177,0.0,1.0
+5,568,09:28,llama3.1-8b,Deriving Backpropagation through Calculus,0.3314400911331177,0.3314400911331177,0.0,1.0
+5,568,09:28,llama3.1-8b,Deriving Backpropagation through Calculus,0.3314400911331177,0.3314400911331177,0.0,1.0
+5,568,09:28,tinyllama,Numerically Estimating Sloping Functions,0.3095843493938446,0.3095843493938446,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,gemma2-9b,Unveiling Backpropagation's Power,0.30884456634521484,0.30884456634521484,0.0,1.0
+5,568,09:28,llama3.1-8b,Unlocking Efficient Gradient Descent,0.3024377226829529,0.3024377226829529,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation: Calculating Loss Gradients,0.3343814015388489,0.3343814015388489,0.0,1.0
+6,685,11:25,llama3.1-8b,Efficient Back Propagation via Chain Rule,0.33138006925582886,0.33138006925582886,0.0,1.0
+6,685,11:25,llama3.1-8b,Simplifying Neural Network Gradient Computation,0.3260933458805084,0.3260933458805084,0.0,1.0
+6,685,11:25,tinyllama,Back Propagation: How Neural Networks Learn,0.3258685767650604,0.3258685767650604,0.0,1.0
+6,685,11:25,tinyllama,Back Propagation: How Neural Networks Learn,0.3258685767650604,0.3258685767650604,0.0,1.0
+6,685,11:25,tinyllama,Back Propagation: How Neural Networks Learn,0.3258685767650604,0.3258685767650604,0.0,1.0
+6,685,11:25,tinyllama,Back Propagation: How Neural Networks Learn,0.3258685767650604,0.3258685767650604,0.0,1.0
+6,685,11:25,llama3.1-8b,Efficiently Calculating Neural Network Gradients,0.32365286350250244,0.32365286350250244,0.0,1.0
+6,685,11:25,llama3.1-8b,Efficiently Calculating Neural Network Gradients,0.32365286350250244,0.32365286350250244,0.0,1.0
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Chain Rule Calculations,0.322303831577301,0.322303831577301,0.0,1.0
+6,685,11:25,mistral-7b-v0.3,Efficient Backpropagation Through Neural Network Layers,0.32184699177742004,0.32184699177742004,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation Through Neural Network Layers,0.32184699177742004,0.32184699177742004,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation Through Neural Network Layers,0.32184699177742004,0.32184699177742004,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation: Unleashing Neural Network Learning,0.31607505679130554,0.31607505679130554,0.0,1.0
+6,685,11:25,llama3.1-8b,Efficiently Deriving Neural Network Gradients,0.31531867384910583,0.31531867384910583,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation: Derivatives and Gradient Descent,0.3127358555793762,0.3127358555793762,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation: Derivatives and Gradient Descent,0.3127358555793762,0.3127358555793762,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation via Chain Rule,0.30765587091445923,0.30765587091445923,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation via Chain Rule,0.30765587091445923,0.30765587091445923,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation via Chain Rule,0.30765587091445923,0.30765587091445923,0.0,1.0
+6,685,11:25,qwen2-7b,Efficient Backpropagation via Chain Rule,0.30765587091445923,0.30765587091445923,0.0,1.0
+6,685,11:25,gemma2-9b,Backpropagation: Unveiling Neural Network Learning,0.2989692986011505,0.2989692986011505,0.0,1.0
+6,685,11:25,gemma2-9b,Backpropagation: Unveiling Neural Network Learning,0.2989692986011505,0.2989692986011505,0.0,1.0
+6,685,11:25,gemma2-9b,Backpropagation: Unveiling Neural Network Learning,0.2989692986011505,0.2989692986011505,0.0,1.0
+6,685,11:25,llama3.1-8b,Unlocking Deep Learning Efficiency with Calculus,0.2956956624984741,0.2956956624984741,0.0,1.0
+6,685,11:25,gemma2-9b,Unraveling Backpropagation's Magic,0.28087252378463745,0.28087252378463745,0.0,1.0
+6,685,11:25,gemma2-9b,Unraveling Backpropagation's Magic,0.28087252378463745,0.28087252378463745,0.0,1.0
+6,685,11:25,gemma2-9b,Backpropagation: Unveiling Gradient Descent,0.28054437041282654,0.28054437041282654,0.0,1.0
+6,685,11:25,gemma2-9b,Backpropagation: Unveiling Gradient Descent,0.28054437041282654,0.28054437041282654,0.0,1.0
+6,685,11:25,llama3.1-8b,Unlocking Back Propagation with Calculus Efficiency,0.27698585391044617,0.27698585391044617,0.0,1.0
+6,685,11:25,llama3.1-8b,Unlocking Neural Network Optimization,0.27435415983200073,0.27435415983200073,0.0,1.0
+6,685,11:25,gemma2-9b,Unraveling Backpropagation: A Calculus Journey,0.26383617520332336,0.26383617520332336,0.0,1.0
+6,685,11:25,gemma2-9b,Unveiling Backpropagation's Magic,0.2630082964897156,0.2630082964897156,0.0,1.0
+6,685,11:25,gemma2-9b,Unveiling Backpropagation: A Calculus Journey,0.25482237339019775,0.25482237339019775,0.0,1.0
+6,685,11:25,llama3.1-8b,Efficient Backpropagation Explained,0.2277805358171463,0.2277805358171463,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent in Multilayer Models,0.39056649804115295,0.39056649804115295,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Neural Networks,0.373043417930603,0.373043417930603,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Neural Networks,0.373043417930603,0.373043417930603,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Neural Networks,0.373043417930603,0.373043417930603,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent and Model Learning,0.36837443709373474,0.36837443709373474,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent and Model Learning,0.36837443709373474,0.36837443709373474,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent and Model Learning,0.36837443709373474,0.36837443709373474,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent & Model Learning,0.35862478613853455,0.35862478613853455,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent and Backpropagation,0.35607343912124634,0.35607343912124634,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent and Backpropagation,0.35607343912124634,0.35607343912124634,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent and Backpropagation,0.35607343912124634,0.35607343912124634,0.0,1.0
+7,1174,19:34,llama3.1-8b,Visualizing Gradient Descent and Backpropagation,0.35607343912124634,0.35607343912124634,0.0,1.0
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Learning City Boundaries,0.3525255024433136,0.3525255024433136,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Action,0.3490343987941742,0.3490343987941742,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Action,0.3490343987941742,0.3490343987941742,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Action,0.3490343987941742,0.3490343987941742,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Action,0.3490343987941742,0.3490343987941742,0.0,1.0
+7,1174,19:34,gemma2-9b,Visualizing Gradient Descent in Action,0.3490343987941742,0.3490343987941742,0.0,1.0
+7,1174,19:34,gemma2-9b,Unveiling Gradient Descent Through Maps,0.3465355336666107,0.3465355336666107,0.0,1.0
+7,1174,19:34,qwen2-7b,Gradient Descent Visualization: Learning City Borders,0.34555965662002563,0.34555965662002563,0.0,1.0
+7,1174,19:34,gemma2-9b,Unveiling Gradient Descent's Power,0.3271135091781616,0.3271135091781616,0.0,1.0
+7,1174,19:34,llama3.1-8b,Understanding Gradient Desent and Back Propagation,0.3248865604400635,0.3248865604400635,0.0,1.0
+7,1174,19:34,tinyllama,Transformers: A Brief Introduction,0.24381089210510254,0.24381089210510254,0.0,1.0
+7,1174,19:34,tinyllama,Transformers: A Brief Introduction,0.24381089210510254,0.24381089210510254,0.0,1.0
+7,1174,19:34,tinyllama,Transformers: A Tale of Two Models,0.23020318150520325,0.23020318150520325,0.0,1.0
+8,1557,25:57,llama3.1-8b,Unraveling Language Geometry with Backpropagation,0.350320041179657,0.350320041179657,0.0,1.0
+8,1557,25:57,llama3.1-8b,Unpacking Language Maps with Backpropagation,0.3462103307247162,0.3462103307247162,0.0,1.0
+8,1557,25:57,llama3.1-8b,Mapping the Geometry of Language,0.3392937183380127,0.3392937183380127,0.0,1.0
+8,1557,25:57,llama3.1-8b,The Geometry of Language Learning,0.33416804671287537,0.33416804671287537,0.0,1.0
+8,1557,25:57,llama3.1-8b,The Geometry of Language Learning,0.33416804671287537,0.33416804671287537,0.0,1.0
+8,1557,25:57,llama3.1-8b,Unraveling Language Geometry through Vector Spaces,0.3337936997413635,0.3337936997413635,0.0,1.0
+8,1557,25:57,llama3.1-8b,Uncovering Hidden Patterns in Language Models,0.3312545120716095,0.3312545120716095,0.0,1.0
+8,1557,25:57,llama3.1-8b,The Geometry of Language,0.3260529041290283,0.3260529041290283,0.0,1.0
+8,1557,25:57,llama3.1-8b,Unraveling Language Geometry with Deep Learning,0.325816810131073,0.325816810131073,0.0,1.0
+8,1557,25:57,mistral-7b-v0.3,Mapping Language Geography with Deep Learning,0.3167361915111542,0.3167361915111542,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language with Neural Networks,0.3108043670654297,0.3108043670654297,0.0,1.0
+8,1557,25:57,tinyllama,A Brief Introduction to Backprop,0.3061542510986328,0.3061542510986328,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language in High Dimensions,0.30422672629356384,0.30422672629356384,0.0,1.0
+8,1557,25:57,gemma2-9b,Mapping Language in High Dimensions,0.30422672629356384,0.30422672629356384,0.0,1.0
+8,1557,25:57,tinyllama,A Brief History of Deep Learning,0.29718858003616333,0.29718858003616333,0.0,1.0
+8,1557,25:57,tinyllama,Backprop: A Brief History,0.2707954943180084,0.2707954943180084,0.0,1.0
+8,1557,25:57,llama3.1-8b,Mapping Language Complexity,0.2459082007408142,0.2459082007408142,0.0,1.0
+9,1694,28:14,gemma2-9b,Watch Labs: Building a Better Future,0.3175947368144989,0.3175947368144989,0.0,1.0
+9,1694,28:14,gemma2-9b,Watch Labs: Building an Educational Future,0.3159431517124176,0.3159431517124176,0.0,1.0
+9,1694,28:14,mistral-7b-v0.3,Education Through Entrepreneurship: Building Welch Lab,0.30904459953308105,0.30904459953308105,0.0,1.0
+9,1694,28:14,gemma2-9b,Building Watch Labs: A Passion Project,0.30684277415275574,0.30684277415275574,0.0,1.0
+9,1694,28:14,gemma2-9b,Building Watch Labs: A Creator's Journey,0.30278345942497253,0.30278345942497253,0.0,1.0
+9,1694,28:14,llama3.1-8b,Rebuilding Watch Lab's Momentum,0.29973211884498596,0.29973211884498596,0.0,1.0
+9,1694,28:14,gemma2-9b,Watch Labs: A Passion for Education,0.29692375659942627,0.29692375659942627,0.0,1.0
+9,1694,28:14,gemma2-9b,Watch Labs: A Journey of Education,0.28802767395973206,0.28802767395973206,0.0,1.0
+9,1694,28:14,llama3.1-8b,Creating a Sustainable Future for,0.26765120029449463,0.26765120029449463,0.0,1.0
+9,1694,28:14,gemma2-9b,Watch Labs: Education & Escape Velocity,0.2656864523887634,0.2656864523887634,0.0,1.0
+9,1694,28:14,gemma2-9b,Watch Labs: Education & Escape Velocity,0.2656864523887634,0.2656864523887634,0.0,1.0
+9,1694,28:14,tinyllama,Welch LABS: The Transition,0.25499388575553894,0.25499388575553894,0.0,1.0
+9,1694,28:14,llama3.1-8b,From Frustration to Focus,0.2447497546672821,0.2447497546672821,0.0,1.0
+9,1694,28:14,tinyllama,Welcome to Watch LABS,0.24243754148483276,0.24243754148483276,0.0,1.0
+9,1694,28:14,llama3.1-8b,From Engineer to Educator,0.23215217888355255,0.23215217888355255,0.0,1.0
+9,1694,28:14,llama3.1-8b,From Engineer to Educator,0.23215217888355255,0.23215217888355255,0.0,1.0
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty

@@ -1,0 +1,403 @@
+====================================================================================================
+TITLE EVALUATION REPORT: five_puzzles
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.2955
+llama3.1-8b          Average Score: 0.2900
+mistral-7b-v0.3      Average Score: 0.2385
+qwen2-7b             Average Score: 0.2593
+tinyllama            Average Score: 0.2690
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 2,303 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3401       0.3401       0.0000         1.0000     tinyllama            Tiling Patterns and Hexagonal Rotation Steps
+2      0.3356       0.3356       0.0000         1.0000     mistral-7b-v0.3      Exploring Rhombus Tilings and Hexagonal Rotations (3)
+3      0.3322       0.3322       0.0000         1.0000     tinyllama            Tiling Patterns and Hexagonal Rotations
+4      0.3317       0.3317       0.0000         1.0000     tinyllama            How to Generate New Tiling Patterns
+5      0.3254       0.3254       0.0000         1.0000     mistral-7b-v0.3      Exploring Rhombus Tilings and Hexagonal Transformations
+6      0.3247       0.3247       0.0000         1.0000     mistral-7b-v0.3      Hexagonal Tiling Puzzle: Navigating Infinite Patterns
+7      0.3172       0.3172       0.0000         1.0000     tinyllama            Puzzling with Rhombuses and Hexagons
+8      0.3162       0.3162       0.0000         1.0000     mistral-7b-v0.3      Hexagonal Tilings: Navigating Geometric Patterns
+9      0.3152       0.3152       0.0000         1.0000     llama3.1-8b          Tilings and Rotations in Rhombic Patterns
+10     0.3101       0.3101       0.0000         1.0000     qwen2-7b             Puzzling Patterns: Exploring Hexagonal Transformations
+11     0.3094       0.3094       0.0000         1.0000     llama3.1-8b          Tilting Rhombi and Hexagonal Rotations
+12     0.3087       0.3087       0.0000         1.0000     tinyllama            How to Tile the Infinite Plane
+13     0.3075       0.3075       0.0000         1.0000     llama3.1-8b          Tilings and Rotations in Geometric Puzzles
+14     0.3072       0.3072       0.0000         1.0000     tinyllama            How to Tile an Infinite Plane (3)
+15     0.3014       0.3014       0.0000         1.0000     qwen2-7b             Navigating Hexagonal Tiling Puzzles (5)
+16     0.2963       0.2963       0.0000         1.0000     tinyllama            Puzzling with Rhombi and Hexagons
+17     0.2961       0.2961       0.0000         1.0000     llama3.1-8b          Hexagonal Harmony and Hidden Limits
+18     0.2954       0.2954       0.0000         1.0000     llama3.1-8b          Tiling Puzzles and Higher Dimensions (12)
+19     0.2911       0.2911       0.0000         1.0000     llama3.1-8b          Tiling Puzzles and Hidden Geometric Secrets
+20     0.2805       0.2805       0.0000         1.0000     llama3.1-8b          Tiling Puzzles and Hidden Symmetries
+21     0.2762       0.2762       0.0000         1.0000     llama3.1-8b          “Geometry Puzzles and Hidden Patterns”
+22     0.2731       0.2731       0.0000         1.0000     tinyllama            How to Tile the Plane
+23     0.2699       0.2699       0.0000         1.0000     llama3.1-8b          Tilting Rhombi: Exploring Geometric Patterns
+24     0.2214       0.3090       0.0000         0.7165     qwen2-7b             Navigating Hexagonal Tilings: A Puzzle Journey Through Dimensions (4)
+25     0.2142       0.2990       0.0000         0.7165     mistral-7b-v0.3      Exploring Tilings: Can We Rotate Our Way Through?
+26     0.1966       0.3241       0.0000         0.6065     mistral-7b-v0.3      Exploring Rhombus Tilings: Can We Rotate Our Way Out? (2)
+27     0.1732       0.3374       0.0000         0.5134     mistral-7b-v0.3      Exploring Tilings: Can We Rotate Our Way to Any Pattern?
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2954
+  llama3.1-8b         : 0.2937
+  mistral-7b-v0.3     : 0.2754
+  qwen2-7b            : 0.2703
+  tinyllama           : 0.3121
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 114s (01:54)
+Transcript Length: 3,456 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3307       0.3307       0.0000         1.0000     llama3.1-8b          Tiling Hexagons and Covering Circles (5)
+2      0.3239       0.3239       0.0000         1.0000     tinyllama            How to Tile the Finite Hexagon (2)
+3      0.3181       0.3181       0.0000         1.0000     gemma2-9b            Tilings, Rotations, and Hexagonal Puzzles
+4      0.3139       0.3139       0.0000         1.0000     tinyllama            Tiling the Hexagon with Rhombuses
+5      0.3116       0.3116       0.0000         1.0000     tinyllama            How to Tile a Hexagon
+6      0.3069       0.3069       0.0000         1.0000     llama3.1-8b          Tilings, Rotations, and Covering Circles
+7      0.3024       0.3024       0.0000         1.0000     gemma2-9b            Hexagon Tilings and Circle Strips
+8      0.3021       0.3021       0.0000         1.0000     gemma2-9b            Hexagonal Tilings and Circle Strips
+9      0.2938       0.3471       0.0000         0.8465     tinyllama            How to Tile a Hexagon Using Cubes
+10     0.2911       0.2911       0.0000         1.0000     gemma2-9b            Hexagon Tilings and Circular Strips
+11     0.2894       0.2894       0.0000         1.0000     gemma2-9b            Hexagonal Tilings and Circular Strips (3)
+12     0.2809       0.2809       0.0000         1.0000     gemma2-9b            Hexagonal Tiling Puzzles (3)
+13     0.2805       0.3314       0.0000         0.8465     tinyllama            A Tiling Problem with Two Fundamental Patterns
+14     0.2782       0.3287       0.0000         0.8465     qwen2-7b             Hexagonal Tiling Puzzles: Rotations & Distinct Patterns (2)
+15     0.2765       0.2765       0.0000         1.0000     llama3.1-8b          Tilings and Patterns in Geometric Spaces
+16     0.2715       0.3207       0.0000         0.8465     qwen2-7b             Hexagonal Tiling Puzzles: From Tiles to Cubes
+17     0.2702       0.3192       0.0000         0.8465     mistral-7b-v0.3      Exploring Hexagonal Tilings and Minimum Circle Coverage (2)
+18     0.2692       0.3180       0.0000         0.8465     mistral-7b-v0.3      Hexagonal Tiling Puzzle & Minimum Circle Coverage
+19     0.2689       0.3176       0.0000         0.8465     mistral-7b-v0.3      Hexagonal Tile Transformations & Minimum Circle Coverage
+20     0.2687       0.3175       0.0000         0.8465     llama3.1-8b          Tilings and Patterns: Exploring Hexagons and Circles
+21     0.2659       0.3141       0.0000         0.8465     llama3.1-8b          Tilings and Coverages: Exploring Hexagons and Circles
+22     0.2618       0.3093       0.0000         0.8465     mistral-7b-v0.3      Exploring Hexagonal Tilings & Minimum Circle Coverage (5)
+23     0.2615       0.2615       0.0000         1.0000     tinyllama            The Tiling Problem (2)
+24     0.2405       0.2405       0.0000         1.0000     tinyllama            Tiling the Hexagon
+25     0.2330       0.2330       0.0000         1.0000     llama3.1-8b          "Hexagans and Circls: Unravlign Geomet
+26     0.2100       0.2931       0.0000         0.7165     qwen2-7b             Hexagonal Tilings & Cubic Projections: A Geometric Puzzle
+27     0.2095       0.3454       0.0000         0.6065     qwen2-7b             Hexagonal Tiling Puzzles: Rotations, Distinct Patterns, and Infinite Journeys
+28     0.2055       0.3389       0.0000         0.6065     qwen2-7b             Hexagonal Tiling Puzzles: Rotations, Distinct Patterns, & Covering Circles
+29     0.2054       0.2866       0.0000         0.7165     qwen2-7b             Hexagonal Tilings & Cubic Projections: A Puzzle Journey
+30     0.2053       0.3385       0.0000         0.6065     qwen2-7b             Hexagonal Tiling Puzzles: Rotations, Distinct Patterns & Circle Covering
+31     0.2038       0.3360       0.0000         0.6065     qwen2-7b             Hexagonal Tiling Puzzles: Rotations, Distinct Patterns & Circle Coverings
+32     0.1984       0.1984       0.0000         1.0000     tinyllama            A Fundamental Pattern
+33     0.1751       0.2886       0.0000         0.6065     qwen2-7b             Hexagonal Tilings & Cubic Projections: A Geometric Puzzle Odyssey
+34     0.1624       0.3163       0.0000         0.5134     mistral-7b-v0.3      Hexagonal Tiling Puzzles: Exploring Rhombus Patterns & Minimum Circle Coverage
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2925
+  llama3.1-8b         : 0.3004
+  mistral-7b-v0.3     : 0.2550
+  qwen2-7b            : 0.2242
+  tinyllama           : 0.2809
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 290s (04:50)
+Transcript Length: 1,962 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3593       0.3593       0.0000         1.0000     qwen2-7b             Cubes and Rhombuses: A Three-Dimensional Insight (7)
+2      0.3414       0.3414       0.0000         1.0000     tinyllama            The Rhombus Tiling Pattern (6)
+3      0.3384       0.3384       0.0000         1.0000     llama3.1-8b          Unpacking the Geometry of Rhombic Tilings
+4      0.3332       0.3332       0.0000         1.0000     gemma2-9b            Cubes, Rhombuses, and Puzzle Moves (4)
+5      0.3247       0.3247       0.0000         1.0000     llama3.1-8b          The Cube Connection: Rhombus Tiling Insights
+6      0.3226       0.3226       0.0000         1.0000     gemma2-9b            Cubes, Rhombuses, and Puzzle Insights (6)
+7      0.3137       0.3706       0.0000         0.8465     qwen2-7b             From Cubes to Rhombuses: A Three-Dimensional Insight (2)
+8      0.3124       0.3124       0.0000         1.0000     tinyllama            Rhombus Tiling Patterns
+9      0.3107       0.3107       0.0000         1.0000     llama3.1-8b          The Cube Connection: Tiling Rhombuses
+10     0.3101       0.3663       0.0000         0.8465     qwen2-7b             Cubes, Rhombuses, and Rotations: A Three-Dimensional Insight
+11     0.3049       0.3049       0.0000         1.0000     llama3.1-8b          Solving Rhombics through Cube Visualization
+12     0.3013       0.3013       0.0000         1.0000     llama3.1-8b          Adding Depth to Tiling Puzzles
+13     0.3000       0.3000       0.0000         1.0000     llama3.1-8b          Cube Rotations Reveal Hidden Patterns
+14     0.2696       0.2696       0.0000         1.0000     llama3.1-8b          Rotating Rhombi to Cube Correspondence
+15     0.2613       0.3647       0.0000         0.7165     mistral-7b-v0.3      From Rhombus Tilings to Cubes: A Three-Dimensional Perspective (3)
+16     0.2463       0.3437       0.0000         0.7165     tinyllama            The Rhombus Tiling Pattern - A Puzzling Exercise
+17     0.2433       0.2433       0.0000         1.0000     llama3.1-8b          The Cube Connection Revealed (2)
+18     0.2218       0.2218       0.0000         1.0000     llama3.1-8b          Rotating Rhombohedra for Insightful
+19     0.2209       0.2209       0.0000         1.0000     tinyllama            The Big Picture
+20     0.2198       0.3624       0.0000         0.6065     mistral-7b-v0.3      From Rhombus Tilings to Cube Stacks: A Three-Dimensional Perspective (3)
+21     0.1294       0.3518       0.0000         0.3679     mistral-7b-v0.3      From Rhombus Tilings to Cubes: A 3D Perspective on a 2D Puzzle (4)
+22     0.0946       0.4242       0.0000         0.2231     tinyllama            How to Identify and Rotate a Stack of Cubes to Get to Another Rhombic Tiling
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3269
+  llama3.1-8b         : 0.2858
+  mistral-7b-v0.3     : 0.1961
+  qwen2-7b            : 0.3453
+  tinyllama           : 0.2923
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 391s (06:31)
+Transcript Length: 4,449 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3311       0.3311       0.0000         1.0000     mistral-7b-v0.3      Proving Two-Dimensional Coverage Limit Using Three-Dimensions
+2      0.3257       0.3257       0.0000         1.0000     tinyllama            The Magic of Three-Dimensional Creativity
+3      0.3245       0.3245       0.0000         1.0000     llama3.1-8b          Baking Three-Dimensionality into Geometric Puzzles
+4      0.3235       0.3235       0.0000         1.0000     mistral-7b-v0.3      Proving Two-Dimensional Limitations through Three-Dimensions
+5      0.3191       0.3191       0.0000         1.0000     mistral-7b-v0.3      Proving Two-Dimensional Coverage Limit via Three-Dimensions (2)
+6      0.3113       0.3113       0.0000         1.0000     llama3.1-8b          Baking Three-Dimensional Intuition into Puzzles
+7      0.2900       0.2900       0.0000         1.0000     tinyllama            How to Solve the Rubik's Cube
+8      0.2894       0.2894       0.0000         1.0000     gemma2-9b            Three Dimensions Solve Two-D Puzzles (8)
+9      0.2797       0.2797       0.0000         1.0000     qwen2-7b             Unlocking Higher Dimensions for Puzzle Solutions
+10     0.2782       0.2782       0.0000         1.0000     llama3.1-8b          Stepping into Higher Dimensions Solves Puzzles
+11     0.2772       0.2772       0.0000         1.0000     llama3.1-8b          Unlocking Higher Dimensions in Geometric Puzzles
+12     0.2771       0.2771       0.0000         1.0000     tinyllama            How to Solve a Rubik's Cube
+13     0.2676       0.2676       0.0000         1.0000     llama3.1-8b          Solving Complex Problems through Dimensional Shift
+14     0.2676       0.2676       0.0000         1.0000     gemma2-9b            From Strips to Higher Dimensions
+15     0.2587       0.2587       0.0000         1.0000     qwen2-7b             Unlocking Higher Dimensions: Proving Covering Minima
+16     0.2570       0.2570       0.0000         1.0000     gemma2-9b            Unlocking Geometry's Hidden Dimensions
+17     0.2552       0.2552       0.0000         1.0000     mistral-7b-v0.3      Hemispherical Projection Unlocks Puzzle's Minimum Coverage
+18     0.2523       0.2980       0.0000         0.8465     tinyllama            How to Solve a Puzzle Using Intuition
+19     0.2451       0.2451       0.0000         1.0000     qwen2-7b             Unlocking Dimensional Insights: Proving Covering Minima
+20     0.2445       0.2445       0.0000         1.0000     llama3.1-8b          Stepping into Higher Dimensions (5)
+21     0.2393       0.3339       0.0000         0.7165     mistral-7b-v0.3      Leveraging Three Dimensions to Solve a Two-Dimensional Puzzle
+22     0.2388       0.2388       0.0000         1.0000     tinyllama            The Mathematical Mind
+23     0.2368       0.2797       0.0000         0.8465     qwen2-7b             Unlocking Higher Dimensions for Optimal Covering Solutions (4)
+24     0.2366       0.3302       0.0000         0.7165     mistral-7b-v0.3      Proving the Minimum Coverage Area of a Circle
+25     0.2333       0.2756       0.0000         0.8465     qwen2-7b             Unlocking Higher Dimensions: Proving Covering Circle Minima
+26     0.2307       0.2725       0.0000         0.8465     qwen2-7b             Unlocking Dimensional Insights: Covering Puzzles and Proofs
+27     0.2282       0.3185       0.0000         0.7165     mistral-7b-v0.3      Proving Optimal Coverage of Circles via Three-Dimensional Analysis
+28     0.2049       0.3378       0.0000         0.6065     mistral-7b-v0.3      Proving Optimal Coverage on a Circle Using Three-Dimensional Analysis
+29     0.2044       0.3370       0.0000         0.6065     mistral-7b-v0.3      Proving the Minimum Coverage of a Circle with Strips
+30     0.1964       0.2742       0.0000         0.7165     qwen2-7b             Unlocking Dimensional Insights: Covering Circles & Proving Minima
+31     0.1779       0.2934       0.0000         0.6065     tinyllama            Creating a Brief, Engaging Chapter Title for This Transcript
+32     0.1564       0.3046       0.0000         0.5134     tinyllama            How to Solve a Rubik's Cube Using Only One Color
+33     0.1465       0.2853       0.0000         0.5134     tinyllama            How to Solve a Rubik's Cube in Under a Minute (2)
+34     0.1461       0.2846       0.0000         0.5134     tinyllama            How to Solve a Rubik's Cube in Under 30 Seconds
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2840
+  llama3.1-8b         : 0.2681
+  mistral-7b-v0.3     : 0.2661
+  qwen2-7b            : 0.2391
+  tinyllama           : 0.2157
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 628s (10:28)
+Transcript Length: 7,290 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3317       0.3317       0.0000         1.0000     llama3.1-8b          The Geometry of External Tangents Unveiled
+2      0.3248       0.3248       0.0000         1.0000     tinyllama            The Puzzle of Three Circles
+3      0.3163       0.3163       0.0000         1.0000     tinyllama            The Three Dimensional Intersection Problem
+4      0.3123       0.3123       0.0000         1.0000     gemma2-9b            Tangent Lines Meet in Three Dimensions
+5      0.3103       0.3103       0.0000         1.0000     gemma2-9b            Cones, Circles, and Tangent Lines (2)
+6      0.3038       0.3038       0.0000         1.0000     gemma2-9b            Tangent Lines and Three Circles (5)
+7      0.3031       0.3031       0.0000         1.0000     llama3.1-8b          Proving a Property of External Tangents
+8      0.3001       0.3001       0.0000         1.0000     gemma2-9b            Tangent Lines Meet on a Line (2)
+9      0.2978       0.2978       0.0000         1.0000     llama3.1-8b          The External Tangent Intersection Conjecture (2)
+10     0.2831       0.3344       0.0000         0.8465     llama3.1-8b          Three Circles, One Line: A Geometric Puzzle (2)
+11     0.2788       0.3293       0.0000         0.8465     llama3.1-8b          Tangents, Circles, and Cones: A Geometric Puzzle
+12     0.2735       0.2735       0.0000         1.0000     llama3.1-8b          Tangential Cones and Geometric Similarity
+13     0.2720       0.2720       0.0000         1.0000     qwen2-7b             Dimensional Leap: Connecting Circles & Cones
+14     0.2698       0.2698       0.0000         1.0000     qwen2-7b             Spheres, Cones, and Proving Collinearity (2)
+15     0.2618       0.2618       0.0000         1.0000     tinyllama            How to Solve a Puzzle
+16     0.2610       0.2610       0.0000         1.0000     tinyllama            Explanation of a Puzzle
+17     0.2600       0.3072       0.0000         0.8465     qwen2-7b             The Tangent Triangle Trick: A Dimensional Leap
+18     0.2556       0.3020       0.0000         0.8465     tinyllama            How to Solve the International Mathematical Olympiads (2)
+19     0.2549       0.3012       0.0000         0.8465     qwen2-7b             The Dimensional Leap: Connecting Circles and Cones
+20     0.2493       0.2945       0.0000         0.8465     qwen2-7b             The Dimensional Leap: Connecting Circles and Spheres
+21     0.2452       0.2897       0.0000         0.8465     llama3.1-8b          Puzzling Circles and Cones in Higher Dimensions
+22     0.2355       0.2782       0.0000         0.8465     tinyllama            How to Solve the Most Difficult Problems
+23     0.2321       0.3239       0.0000         0.7165     llama3.1-8b          Proving Circles' Tangent Intersections Lie on a Line
+24     0.2185       0.3602       0.0000         0.6065     mistral-7b-v0.3      The Enigma of Intersecting External Tangents: A 3-Dimensional Perspective
+25     0.2134       0.2978       0.0000         0.7165     tinyllama            How to Solve a Complex Problem Using Mathematics
+26     0.2089       0.3443       0.0000         0.6065     mistral-7b-v0.3      Three Circles' External Tangent Intersection Points Always Line Up
+27     0.2036       0.3357       0.0000         0.6065     qwen2-7b             The Geometry of Circles and Cones: A Dimensional Leap (2)
+28     0.1971       0.3250       0.0000         0.6065     tinyllama            How to Solve the 2D Problem Using Three Cones
+29     0.1908       0.3716       0.0000         0.5134     mistral-7b-v0.3      Three Circles' Intersection Points Always Line Up: A 3-Dimensional Puzzle
+30     0.1623       0.3160       0.0000         0.5134     qwen2-7b             The Intersection Line Mystery: A 2D to 3-Dimensional Proof Twist
+31     0.1602       0.3120       0.0000         0.5134     tinyllama            How to Solve Problems Using Concepts from Algebra and Geometry
+32     0.1528       0.2976       0.0000         0.5134     qwen2-7b             Spheres, Cones, and Proving Collinearity in 2D & 3 Dimensions
+33     0.1421       0.3862       0.0000         0.3679     mistral-7b-v0.3      Three Circles' Intersection Points Always Lie on a Line: A 3-Dimensional Puzzle
+34     0.1363       0.3706       0.0000         0.3679     mistral-7b-v0.3      Three Circles' Intersection Points Always Lie on a Line: A Geometric Puzzle
+35     0.1137       0.3651       0.0000         0.3114     mistral-7b-v0.3      Three Circles' Intersection Points Always Lie on a Line - A Geometric Puzzle
+36     0.0945       0.3584       0.0000         0.2636     mistral-7b-v0.3      Three Circles' Intersection Points Always Line Up: A Geometric Puzzle Solved in Three Dimensions
+37     0.0863       0.3870       0.0000         0.2231     mistral-7b-v0.3      Three Circles' External Tangent Intersection Points Always Lie on a Line - A 3-Dimensional Perspective
+38     0.0833       0.3735       0.0000         0.2231     mistral-7b-v0.3      Three Circles' External Tangent Intersection Points Always Lie on a Line - A Geometric Puzzle (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3052
+  llama3.1-8b         : 0.2826
+  mistral-7b-v0.3     : 0.1358
+  qwen2-7b            : 0.2298
+  tinyllama           : 0.2481
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 1000s (16:40)
+Transcript Length: 6,590 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3675       0.3675       0.0000         1.0000     tinyllama            Exploring the Intersection of External Tangents
+2      0.3401       0.3401       0.0000         1.0000     mistral-7b-v0.3      Exploring Three-Dimensional Puzzles and Four-Dimensions Insights (2)
+3      0.3042       0.3042       0.0000         1.0000     tinyllama            How to Solve Linear Algebra Puzzles (3)
+4      0.3034       0.3034       0.0000         1.0000     mistral-7b-v0.3      Four-Dimensional Puzzle Solutions and Insights
+5      0.3022       0.3022       0.0000         1.0000     qwen2-7b             Beyond Dimensions: Exploring Higher-Dimensional Geometry Puzzles (3)
+6      0.2908       0.2908       0.0000         1.0000     llama3.1-8b          Discovering New Dimensions in Geometric Shapes
+7      0.2895       0.2895       0.0000         1.0000     gemma2-9b            Four Dimensions and Geometric Puzzles (4)
+8      0.2848       0.2848       0.0000         1.0000     gemma2-9b            Four Dimensions: Puzzles and Insights (2)
+9      0.2826       0.2826       0.0000         1.0000     llama3.1-8b          Explaining Higher-Dimensions Through Geometric Puzzles
+10     0.2818       0.2818       0.0000         1.0000     llama3.1-8b          “Beyond 3-D: Geometric Insights Emerge”
+11     0.2815       0.2815       0.0000         1.0000     qwen2-7b             Navigating Dimensions: From Circles to Hypercubes
+12     0.2805       0.2805       0.0000         1.0000     gemma2-9b            Beyond Dimensions: Puzzles in Higher Spaces
+13     0.2774       0.2774       0.0000         1.0000     llama3.1-8b          Higher Dimensions: Geometric Insights and Puzzles
+14     0.2675       0.2675       0.0000         1.0000     tinyllama            Finding the Right Shape
+15     0.2651       0.3132       0.0000         0.8465     mistral-7b-v0.3      Four-Dimensional Puzzle Insights & Rhombic Dodecahedral Tessellation
+16     0.2636       0.2636       0.0000         1.0000     llama3.1-8b          Exploring Higher Dimensions Through Geometry Puzzles
+17     0.2613       0.2613       0.0000         1.0000     llama3.1-8b          Shifting Perspectives in Higher Dimensions
+18     0.2595       0.2595       0.0000         1.0000     gemma2-9b            Beyond Dimensions: Geometric Puzzles Unveiled
+19     0.2549       0.2549       0.0000         1.0000     llama3.1-8b          Higher Dimensions: Unveiling Hidden Patterns
+20     0.2546       0.2546       0.0000         1.0000     llama3.1-8b          Higher Dimensions and Geometric Insights (2)
+21     0.2473       0.2473       0.0000         1.0000     tinyllama            The Power of Three
+22     0.2421       0.2421       0.0000         1.0000     llama3.1-8b          Puzzles Bridging Dimensions
+23     0.2411       0.2411       0.0000         1.0000     tinyllama            Transformations and Geometry
+24     0.2367       0.2796       0.0000         0.8465     qwen2-7b             Unlocking Higher Dimensions: From Puzzles to Insights (2)
+25     0.2348       0.3277       0.0000         0.7165     qwen2-7b             Navigating Dimensions: From 2D Puzzles to 4-D Insights
+26     0.2318       0.3235       0.0000         0.7165     qwen2-7b             Unlocking Dimensions: From 2D Puzzles to 4-D Insights (3)
+27     0.2270       0.3743       0.0000         0.6065     tinyllama            How to Find the Volume of a Tetrahedral Shape
+28     0.2247       0.3136       0.0000         0.7165     mistral-7b-v0.3      Exploring Multidimensional Puzzles: Tetrahedral Volumes & Hypercubic Tilings (3)
+29     0.2217       0.2619       0.0000         0.8465     gemma2-9b            From Cubes to Hypercubes: A Dimensional Journey (2)
+30     0.2026       0.3341       0.0000         0.6065     mistral-7b-v0.3      Exploring Four-Dimensional Puzzles: Tetrahedral Volume & Rhombic Dodecahedral Tessellation (2)
+31     0.1947       0.3793       0.0000         0.5134     tinyllama            How to Find a Three-Dimensional Tiling Pattern Using Linear Algebra
+32     0.1857       0.3062       0.0000         0.6065     mistral-7b-v0.3      Exploring Multidimensional Puzzles: Tetrahedral Volumes & Rhombic Dodecahedral Tessellations
+33     0.1491       0.2904       0.0000         0.5134     tinyllama            A Tale of Two Dimensions: Shape Shifters and Stepping Stones
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2711
+  llama3.1-8b         : 0.2664
+  mistral-7b-v0.3     : 0.2514
+  qwen2-7b            : 0.2591
+  tinyllama           : 0.2607
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 1340s (22:20)
+Transcript Length: 4,795 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3401       0.3401       0.0000         1.0000     mistral-7b-v0.3      Exploring 4-Dimensional Space Through Rhombus Tessellation
+2      0.3347       0.3347       0.0000         1.0000     gemma2-9b            Rhombic Duality: A 4-Dimensional Puzzle
+3      0.3309       0.3309       0.0000         1.0000     mistral-7b-v0.3      Exploring Hypercubic Projections: A 4-Dimensional Puzzle
+4      0.3290       0.3290       0.0000         1.0000     mistral-7b-v0.3      Exploring 4-Dimensional Space Through Rhombus Tilings
+5      0.3279       0.3279       0.0000         1.0000     gemma2-9b            Hypercubes and Tilings: A 4-Dimensional Puzzle (2)
+6      0.3202       0.3202       0.0000         1.0000     gemma2-9b            Hypercubes and Tilings: A 4-D Puzzle (2)
+7      0.3188       0.3188       0.0000         1.0000     llama3.1-8b          Tessellating Higher Dimensions with Rhombus Projections
+8      0.3172       0.3172       0.0000         1.0000     gemma2-9b            Tiling Hypercubes: A 4-D Puzzle
+9      0.3172       0.3172       0.0000         1.0000     llama3.1-8b          Tessellating Higher Dimensions with Rhombus Puzzles
+10     0.3117       0.3117       0.0000         1.0000     gemma2-9b            Tiling Hypercubes: A 4-D Puzzle Unveiled
+11     0.3094       0.3094       0.0000         1.0000     gemma2-9b            Rhombic Doodles and Hypercube Projections (2)
+12     0.3089       0.3089       0.0000         1.0000     tinyllama            The Geometry of Tessellation
+13     0.3021       0.3021       0.0000         1.0000     gemma2-9b            Hypercubes and Tilings: A Geometric Puzzle
+14     0.3008       0.3554       0.0000         0.8465     mistral-7b-v0.3      Exploring 4-Dimensional Space Through a Rhombi-Dodecahedral Puzzle
+15     0.3002       0.3002       0.0000         1.0000     llama3.1-8b          Tessellating Space with Higher Dimensions (5)
+16     0.2902       0.2902       0.0000         1.0000     tinyllama            Mathematical Puzzles: Tessellation
+17     0.2896       0.2896       0.0000         1.0000     qwen2-7b             Beyond Dimensions: The Magic of Hypercubes
+18     0.2886       0.3409       0.0000         0.8465     qwen2-7b             Tessellating Space with Rhombi: A 4-Dimensional Puzzle (4)
+19     0.2864       0.2864       0.0000         1.0000     tinyllama            Mathematical Concepts: Tessellation
+20     0.2852       0.3369       0.0000         0.8465     qwen2-7b             Tessellating Space with Rhombi: A Higher-Dimensional Puzzle
+21     0.2840       0.3355       0.0000         0.8465     mistral-7b-v0.3      Exploring Hypercubic Projections and a 4-Dimensional Puzzle
+22     0.2745       0.2745       0.0000         1.0000     tinyllama            The Magic of Complex Numbers
+23     0.2612       0.2612       0.0000         1.0000     llama3.1-8b          Tessellating Higher Dimensions (3)
+24     0.2567       0.3033       0.0000         0.8465     tinyllama            The Bizarre World of Three Dimensional Geometry
+25     0.2523       0.2523       0.0000         1.0000     tinyllama            Mathematics in the Real World (2)
+26     0.2449       0.3418       0.0000         0.7165     mistral-7b-v0.3      Exploring 4-Dimensional Puzzles: A Projection of Hypercubic Magic (3)
+27     0.2383       0.2815       0.0000         0.8465     qwen2-7b             Beyond Dimensions: Tiling Secrets & Hypercube Projections
+28     0.2371       0.3309       0.0000         0.7165     qwen2-7b             Navigating Hyperspace Puzzles: The Magic of 4-Dimensional Rotations
+29     0.2354       0.2354       0.0000         1.0000     tinyllama            Mathematical Concepts in Nature
+30     0.2353       0.3283       0.0000         0.7165     qwen2-7b             Tessellating Space with Rhombi: A Hypercube Projection Puzzle
+31     0.2277       0.3178       0.0000         0.7165     mistral-7b-v0.3      Exploring Hypercubic Projections: A Puzzle in Four Dimensions
+32     0.2205       0.3077       0.0000         0.7165     tinyllama            The Bizarre World of Constructs in Higher Dimensions
+33     0.2187       0.2187       0.0000         1.0000     tinyllama            Mathematics: A Brief Introduction
+34     0.2157       0.3010       0.0000         0.7165     qwen2-7b             Navigating Hyperspace Puzzles: The Magic of 4 Dimensions
+35     0.1669       0.3250       0.0000         0.5134     mistral-7b-v0.3      Exploring Hypercubic Projections: A Puzzle in 3 & 4 Dimensions
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3181
+  llama3.1-8b         : 0.2920
+  mistral-7b-v0.3     : 0.2714
+  qwen2-7b            : 0.2655
+  tinyllama           : 0.2596
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 1614s (26:54)
+Transcript Length: 2,928 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3499       0.3499       0.0000         1.0000     llama3.1-8b          The Elusive Nature of Higher-Dimensional Intuition (6)
+2      0.3437       0.3437       0.0000         1.0000     llama3.1-8b          The Elusive Nature of Higher-Dimensional Insight
+3      0.3343       0.3343       0.0000         1.0000     tinyllama            How Do We Explain Four Dimensions?
+4      0.3340       0.3340       0.0000         1.0000     tinyllama            Four Dimensional Geometries: Analysing High Dimensions
+5      0.3335       0.3335       0.0000         1.0000     qwen2-7b             The Lost Art of High-Dimensional Intuition
+6      0.3302       0.3302       0.0000         1.0000     tinyllama            How Four Dimensions Complicate Our Understanding
+7      0.3189       0.3189       0.0000         1.0000     llama3.1-8b          The Elusive Beauty of Higher Dimensions
+8      0.3079       0.3638       0.0000         0.8465     tinyllama            How to Solve Problems in Higher Dimensions
+9      0.3064       0.3064       0.0000         1.0000     mistral-7b-v0.3      Higher Dimensions: Analysis vs Intuitive Understanding
+10     0.2981       0.3521       0.0000         0.8465     tinyllama            Squint Your Eyes and Think About Rhombuses
+11     0.2815       0.3326       0.0000         0.8465     tinyllama            Four Dimensional Geometries: Analogies, Analogues, and Analogous
+12     0.2755       0.3844       0.0000         0.7165     qwen2-7b             The Sadness of High-Dimensional Geometry: Analysis Without Intuition
+13     0.2751       0.3250       0.0000         0.8465     llama3.1-8b          The Elusive Leap of Higher Dimensional Insight
+14     0.2724       0.2724       0.0000         1.0000     gemma2-9b            Beyond Three Dimensions: Intuition Lost? (7)
+15     0.2720       0.3213       0.0000         0.8465     mistral-7b-v0.3      Higher Dimensions: Analysis vs. Intuitively Elusive Solutions
+16     0.2718       0.2718       0.0000         1.0000     llama3.1-8b          Higher Dimensions, Lost Intuition
+17     0.2694       0.3760       0.0000         0.7165     mistral-7b-v0.3      The Limits of Intuitive Thinking in High-Dimensional Geometry
+18     0.2666       0.2666       0.0000         1.0000     gemma2-9b            Beyond Three Dimensions: Hidden Insights (3)
+19     0.2594       0.3620       0.0000         0.7165     qwen2-7b             The Sadness of High-Dimensional Geometry: Missing Intuitive Insights
+20     0.2568       0.3584       0.0000         0.7165     qwen2-7b             The Sadness of High-Dimensional Geometry and Lost Intuition (2)
+21     0.2550       0.3559       0.0000         0.7165     mistral-7b-v0.3      The Limits of Intuitive Understanding in Higher Dimensions
+22     0.2550       0.2550       0.0000         1.0000     tinyllama            The 4th Dimension
+23     0.2545       0.2545       0.0000         1.0000     tinyllama            Analyzing Puzzle Solutions
+24     0.2532       0.3534       0.0000         0.7165     mistral-7b-v0.3      The Limits of Intuitive Thinking in Higher Dimensions (4)
+25     0.2347       0.2347       0.0000         1.0000     tinyllama            The Fourth Dimension
+26     0.2281       0.3760       0.0000         0.6065     qwen2-7b             The Sadness of High-Dimensional Geometry: Analysis vs. Intuitive Insight
+27     0.2252       0.3143       0.0000         0.7165     mistral-7b-v0.3      Higher Dimensions: A Mystery Beyond Our Intuitive Reach (2)
+28     0.2208       0.3640       0.0000         0.6065     qwen2-7b             The Sadness of High-Dimensional Geometry and Its Missing Intuition
+29     0.1949       0.3797       0.0000         0.5134     tinyllama            How to Solve Problems in Higher Dimensions Using Analytic Approaches
+30     0.1920       0.3740       0.0000         0.5134     qwen2-7b             The Sadness of High-Dimensional Geometry and the Loss of Intuition (3)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2707
+  llama3.1-8b         : 0.3309
+  mistral-7b-v0.3     : 0.2566
+  qwen2-7b            : 0.2407
+  tinyllama           : 0.2825
+
+====================================================================================================
+

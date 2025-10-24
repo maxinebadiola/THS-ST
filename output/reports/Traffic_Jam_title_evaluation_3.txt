@@ -1,0 +1,400 @@
+====================================================================================================
+TITLE EVALUATION REPORT: Traffic_Jam
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.3118
+llama3.1-8b          Average Score: 0.3137
+mistral-7b-v0.3      Average Score: 0.2829
+qwen2-7b             Average Score: 0.2600
+tinyllama            Average Score: 0.2687
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 228 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.4861       0.4861       0.0000         1.0000     tinyllama            Traffic Jam Wave with No Cause
+2      0.4450       0.4450       0.0000         1.0000     gemma2-9b            Traffic Jams: Unseen Waves and Surprises
+3      0.4372       0.4372       0.0000         1.0000     llama3.1-8b          Traffic Jam Wave: A Mathematical Enigma (2)
+4      0.4293       0.4293       0.0000         1.0000     llama3.1-8b          Mathematicals Model Capturing Traffic Chaos
+5      0.4236       0.4236       0.0000         1.0000     mistral-7b-v0.3      Mathematical Modeling of Unexplained Traffic Jams (3)
+6      0.4226       0.4226       0.0000         1.0000     gemma2-9b            The Mystery of Traffic Waves
+7      0.4181       0.4181       0.0000         1.0000     llama3.1-8b          The Mysterious Traffic Jam Wave
+8      0.4170       0.4926       0.0000         0.8465     tinyllama            The Mathematical Model of Traffic Jam Waves
+9      0.4159       0.4159       0.0000         1.0000     mistral-7b-v0.3      Mathematical Mysteries of Traffic Jams (2)
+10     0.4151       0.4151       0.0000         1.0000     gemma2-9b            The Mystery of Traffic Jams (2)
+11     0.4106       0.4106       0.0000         1.0000     llama3.1-8b          Traffic Jam Wave's Hidden Patterns Unveiled
+12     0.4023       0.4023       0.0000         1.0000     llama3.1-8b          Traffic Jam Wave Unleashed
+13     0.3988       0.3988       0.0000         1.0000     mistral-7b-v0.3      Mathematical Mysteries of Unexplained Traffic Jams (2)
+14     0.3901       0.3901       0.0000         1.0000     llama3.1-8b          The Paradox of Congested Chaos
+15     0.3876       0.3876       0.0000         1.0000     gemma2-9b            The Mystery Wave: Traffic's Hidden Math
+16     0.3769       0.3769       0.0000         1.0000     gemma2-9b            The Unexpected Waves of Traffic
+17     0.3758       0.3758       0.0000         1.0000     gemma2-9b            The Phantom Traffic Wave (4)
+18     0.3701       0.3701       0.0000         1.0000     qwen2-7b             Unexplained Traffic Waves: Fueling Chaos (8)
+19     0.3546       0.4189       0.0000         0.8465     mistral-7b-v0.3      Modeling Unexplained Traffic Jams: Two Surprising Insights
+20     0.3518       0.3518       0.0000         1.0000     llama3.1-8b          Decoding the Gridlock Enigma
+21     0.3510       0.3510       0.0000         1.0000     llama3.1-8b          The Unseen Forces Behind Gridlock
+22     0.3472       0.4101       0.0000         0.8465     mistral-7b-v0.3      Modeling Unexplained Traffic Jams: Two Surprising Findings
+23     0.3443       0.3443       0.0000         1.0000     mistral-7b-v0.3      Modeling Unforeseen Traffic Congestion
+24     0.3342       0.4664       0.0000         0.7165     tinyllama            Traffic Jam Wave: A Mathematical Model of Chaos
+25     0.3196       0.5269       0.0000         0.6065     tinyllama            Traffic Jam Wave: A Mathematical Model Capturing Its Essence
+26     0.2941       0.2941       0.0000         1.0000     llama3.1-8b          "A Formula for Fru
+27     0.2831       0.3952       0.0000         0.7165     qwen2-7b             Unexplained Traffic Waves: Fueling Chaos with Math Mysteries (2)
+28     0.2818       0.4645       0.0000         0.6065     tinyllama            Traffic Jam Wave - A Mathematical Model for Chaos
+29     0.2412       0.5549       0.0000         0.4346     tinyllama            Traffic Jam Wave: A Mathematical Model for Fuel, Time, and Safety
+30     0.2133       0.4909       0.0000         0.4346     tinyllama            Traffic Jam Wave - A Mathematical Model to Predict Its Effects
+31     0.2014       0.4635       0.0000         0.4346     tinyllama            Traffic Jam Wave: A Mathematical Model of Chaos in Real Life
+32     0.1450       0.5501       0.0000         0.2636     tinyllama            Traffic Jam Wave: A Mathematical Model to Capture the Essence of a Dangerous Condition
+33     0.0967       0.6050       0.0000         0.1599     tinyllama            Traffic Jam Wave: A Mathematical Model Capturing the Essence of a Drain on Fuel, Time, and Safety
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3965
+  llama3.1-8b         : 0.3922
+  mistral-7b-v0.3     : 0.3946
+  qwen2-7b            : 0.3527
+  tinyllama           : 0.2736
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 12s (00:12)
+Transcript Length: 1,287 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3726       0.3726       0.0000         1.0000     gemma2-9b            Phantom Jams: Drivers Shaping Traffic Flow (2)
+2      0.3677       0.3677       0.0000         1.0000     mistral-7b-v0.3      Phantom Jams and Unexpected Traffic Solutions (3)
+3      0.3642       0.3642       0.0000         1.0000     llama3.1-8b          Uncovering the Causes of Phantom Jams
+4      0.3579       0.3579       0.0000         1.0000     mistral-7b-v0.3      Phantom Jams and Surprising Traffic Solutions
+5      0.3539       0.3539       0.0000         1.0000     gemma2-9b            Phantom Jams: A Driver's Ripple Effect (2)
+6      0.3491       0.3491       0.0000         1.0000     llama3.1-8b          When Drivers Make Traffic Flow Better
+7      0.3475       0.3475       0.0000         1.0000     gemma2-9b            Phantom Jams and Quiet Drivers (5)
+8      0.3467       0.3467       0.0000         1.0000     tinyllama            Phantom Jams and Smoothing Out Traffic
+9      0.3430       0.3430       0.0000         1.0000     llama3.1-8b          Phantom Jams and Driver Dynamics (2)
+10     0.3403       0.3403       0.0000         1.0000     llama3.1-8b          “The Surprising Science of Traffic Waves”
+11     0.3395       0.3395       0.0000         1.0000     gemma2-9b            Phantom Jams and Traffic Smoothing
+12     0.3353       0.3353       0.0000         1.0000     tinyllama            Phantom Jam Formation Out of Nowhere
+13     0.3340       0.3340       0.0000         1.0000     llama3.1-8b          When a Few Drivers Change Everything
+14     0.3334       0.3334       0.0000         1.0000     llama3.1-8b          The Surprising Science of Traffic Waves
+15     0.3282       0.3282       0.0000         1.0000     llama3.1-8b          The Phantom Jam: A Surprising Solution
+16     0.2786       0.3888       0.0000         0.7165     qwen2-7b             Phantom Jams, Driver Behavior, and Surprising Traffic Solutions (4)
+17     0.2669       0.3725       0.0000         0.7165     tinyllama            The Mathematical Model That Captures the Phantom Jam
+18     0.2626       0.3665       0.0000         0.7165     mistral-7b-v0.3      Phantom Jams and Surprising Solutions: Traffic Dynamics Unveiled
+19     0.2604       0.3634       0.0000         0.7165     llama3.1-8b          Phantom Jams and the Power of Driver Behavior
+20     0.2581       0.3049       0.0000         0.8465     llama3.1-8b          Phantom Jams and the Power of Six
+21     0.2539       0.3543       0.0000         0.7165     mistral-7b-v0.3      Phantom Jams and Surprising Solutions on Ring Roads
+22     0.2495       0.3482       0.0000         0.7165     mistral-7b-v0.3      Phantom Jams and Surprising Solutions: Traffic Puzzles Unraveled
+23     0.2470       0.4073       0.0000         0.6065     tinyllama            Phantom Jam: How Drivers React and Smooth Out Traffic
+24     0.2414       0.3370       0.0000         0.7165     mistral-7b-v0.3      Phantom Jams and the Power of Six Drivers
+25     0.2257       0.3721       0.0000         0.6065     tinyllama            Phantom Jams: A New Way to Calculate Better Driving
+26     0.2222       0.3664       0.0000         0.6065     mistral-7b-v0.3      Phantom Jams and Surprising Solutions: A Mathematical Traffic Study
+27     0.2197       0.3622       0.0000         0.6065     mistral-7b-v0.3      Phantom Jams and Surprising Solutions: A Mathematical Traffic Puzzle
+28     0.2125       0.3504       0.0000         0.6065     qwen2-7b             Phantom Jams, Traffic Mysteries, and the Power of Six
+29     0.2043       0.3979       0.0000         0.5134     tinyllama            The Mathematical Model That Captures the Essence of Phantom Jams
+30     0.2040       0.3974       0.0000         0.5134     tinyllama            A Shared Resource: How Quiet Tricks Can Smooth Out Traffic
+31     0.1911       0.3721       0.0000         0.5134     qwen2-7b             Phantom Jams, Traffic Mysteries, and the Power of Six Drivers
+32     0.1880       0.3661       0.0000         0.5134     tinyllama            Phantom Jams - A New Way to Calculate Better Driving
+33     0.1683       0.3872       0.0000         0.4346     qwen2-7b             Phantom Jams, Traffic Waves, and the Surprising Role of Six Drivers (4)
+34     0.1612       0.3709       0.0000         0.4346     tinyllama            Phantom Jams - The Surprising Reason Why We Need More Drivers
+35     0.1557       0.4231       0.0000         0.3679     tinyllama            A Single Lane, Small Number of Driven Can Smooth Traffic for All
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3530
+  llama3.1-8b         : 0.3254
+  mistral-7b-v0.3     : 0.2911
+  qwen2-7b            : 0.2191
+  tinyllama           : 0.2335
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 102s (01:42)
+Transcript Length: 2,979 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3222       0.3222       0.0000         1.0000     tinyllama            Traffic Jams: A Complex Problem
+2      0.3192       0.3192       0.0000         1.0000     gemma2-9b            Traffic Waves: Unseen Forces Shaping Jams
+3      0.3136       0.3136       0.0000         1.0000     llama3.1-8b          The Hidden Patterns of Traffic Waves (2)
+4      0.3126       0.3126       0.0000         1.0000     gemma2-9b            Traffic Waves: Unseen Forces of Congestion
+5      0.3107       0.3107       0.0000         1.0000     llama3.1-8b          The Hidden Patterns of Traffic Jams (2)
+6      0.3057       0.3057       0.0000         1.0000     tinyllama            The Complexity of Traffic Waves (3)
+7      0.3027       0.3027       0.0000         1.0000     llama3.1-8b          The Hidden Patterns Behind Traffic Jams (2)
+8      0.3005       0.3005       0.0000         1.0000     tinyllama            The Fingerprint of Traffic Jams
+9      0.2993       0.2993       0.0000         1.0000     llama3.1-8b          The Hidden Patterns Behind Traffic Waves (3)
+10     0.2918       0.2918       0.0000         1.0000     tinyllama            Traffic Jams and Waves
+11     0.2913       0.3441       0.0000         0.8465     qwen2-7b             Traffic Waves: Complexity, Stability, and Driving Better (2)
+12     0.2826       0.2826       0.0000         1.0000     tinyllama            The Complexity of Traffic
+13     0.2755       0.3255       0.0000         0.8465     qwen2-7b             Traffic Waves: Complexity, Stability, & Driving Smarter
+14     0.2743       0.3240       0.0000         0.8465     gemma2-9b            Traffic Waves: The Hidden Fingerprint of Jams (3)
+15     0.2724       0.2724       0.0000         1.0000     gemma2-9b            Traffic Waves: The Hidden Danger (4)
+16     0.2671       0.3155       0.0000         0.8465     mistral-7b-v0.3      Unraveling Traffic Waves: The Science Behind Jams (3)
+17     0.2644       0.3123       0.0000         0.8465     gemma2-9b            Traffic Waves: Unseen Dangers of Dense Roads
+18     0.2631       0.3672       0.0000         0.7165     tinyllama            How Traffic Waves Form and Why They're Dangerous
+19     0.2578       0.3045       0.0000         0.8465     mistral-7b-v0.3      Unraveling Traffic Waves: The Science Behind Congestion
+20     0.2556       0.3019       0.0000         0.8465     mistral-7b-v0.3      Unraveling Traffic Waves: The Science Behind Gridlock (2)
+21     0.2502       0.3491       0.0000         0.7165     tinyllama            How Traffic Waves Form and Why They Matter
+22     0.2470       0.2470       0.0000         1.0000     llama3.1-8b          Uncovering Traffic Wave Secrets
+23     0.2311       0.3810       0.0000         0.6065     tinyllama            How Traffic Waves Form and How to Drive Better
+24     0.2311       0.3225       0.0000         0.7165     mistral-7b-v0.3      Understanding Traffic Waves: The Hidden Causes of Congestion
+25     0.2208       0.3081       0.0000         0.7165     mistral-7b-v0.3      Unraveling Traffic Waves: The Science Behind Congested Roads
+26     0.2192       0.3059       0.0000         0.7165     mistral-7b-v0.3      Unraveling Traffic Waves: The Science Behind Gridlock Formation
+27     0.2060       0.3396       0.0000         0.6065     mistral-7b-v0.3      Understanding Traffic Waves and Their Impact on Road Congestion
+28     0.1820       0.3546       0.0000         0.5134     qwen2-7b             Traffic Waves: Complexity, Stability, and the Role of Good Drivers
+29     0.1819       0.3543       0.0000         0.5134     qwen2-7b             Traffic Waves: Complexity, Stability, and the Art of Smooth Driving (3)
+30     0.1801       0.3507       0.0000         0.5134     qwen2-7b             Traffic Waves: Complexity, Stability, & The Role of Good Drivers (3)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2809
+  llama3.1-8b         : 0.2999
+  mistral-7b-v0.3     : 0.2447
+  qwen2-7b            : 0.2126
+  tinyllama           : 0.2859
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 303s (05:03)
+Transcript Length: 6,066 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3128       0.3128       0.0000         1.0000     tinyllama            Transforming Traffic Flow Through Time Tracking
+2      0.3077       0.3077       0.0000         1.0000     tinyllama            Transforming Traffic Flow with Driver Behavior
+3      0.3069       0.3069       0.0000         1.0000     llama3.1-8b          Tuning Traffic Flow with Physics-Inspired Models (2)
+4      0.3018       0.3018       0.0000         1.0000     llama3.1-8b          Optimizing Traffic Flow Through Driver Behavior (2)
+5      0.2979       0.2979       0.0000         1.0000     llama3.1-8b          Tuning Traffic Flow with Physics-Inspired Solutions
+6      0.2948       0.2948       0.0000         1.0000     tinyllama            How to Control Driver Behavior
+7      0.2900       0.2900       0.0000         1.0000     llama3.1-8b          Smoothing Traffic Flow with Oscillator Analogs
+8      0.2899       0.2899       0.0000         1.0000     mistral-7b-v0.3      Visualizing Traffic Flow as Damped Oscillators
+9      0.2887       0.2887       0.0000         1.0000     llama3.1-8b          Tuning Traffic Flow Through Driver Behavior
+10     0.2881       0.2881       0.0000         1.0000     mistral-7b-v0.3      Unraveling Traffic Waves: A Physics Approach
+11     0.2869       0.2869       0.0000         1.0000     tinyllama            Transforming Traffic Flow Using Machine Learning
+12     0.2801       0.3308       0.0000         0.8465     mistral-7b-v0.3      Visualizing Traffic Flow Through Time Tracking Lenses (3)
+13     0.2790       0.2790       0.0000         1.0000     mistral-7b-v0.3      Analyzing Traffic Flow as Damped Oscillators
+14     0.2761       0.2761       0.0000         1.0000     llama3.1-8b          Tuning Traffic Flow with Oscillator Insights
+15     0.2715       0.3208       0.0000         0.8465     mistral-7b-v0.3      Analyzing Traffic Flow Through Time Tracking Lenses (2)
+16     0.2713       0.3205       0.0000         0.8465     qwen2-7b             Traffic Waves, Damping, and Driver Behavior Optimization (2)
+17     0.2657       0.3139       0.0000         0.8465     tinyllama            Transforming Traffic Flow Through Dynamic Network Design
+18     0.2643       0.2643       0.0000         1.0000     llama3.1-8b          "Physics Meats Traffic:Optimizing
+19     0.2598       0.3069       0.0000         0.8465     qwen2-7b             Traffic Waves, Oscillators, and Driver Behavior Optimization
+20     0.2579       0.2579       0.0000         1.0000     gemma2-9b            Dampening Traffic Oscillations
+21     0.2521       0.2978       0.0000         0.8465     tinyllama            Translating Driver Behavior into a Mathematical Model
+22     0.2518       0.3515       0.0000         0.7165     tinyllama            Translating a Driver's Behavior into a Mathematical Form
+23     0.2497       0.2950       0.0000         0.8465     qwen2-7b             Traffic Waves, Oscillators, & Driver Behavior Optimization (3)
+24     0.2493       0.2945       0.0000         0.8465     mistral-7b-v0.3      Analyzing Traffic Flow as a Damped Oscillator
+25     0.2467       0.2467       0.0000         1.0000     llama3.1-8b          Tuning Traffic Flow with Physics
+26     0.2446       0.2446       0.0000         1.0000     gemma2-9b            Drivers as Damped Oscillators (9)
+27     0.2277       0.3178       0.0000         0.7165     qwen2-7b             Traffic Waves, Damping Oscillations, and Driver Behavior Dynamics (2)
+28     0.2230       0.3112       0.0000         0.7165     qwen2-7b             Traffic Waves, Damping Oscillations, & Driver Behavior Optimization
+29     0.2023       0.2824       0.0000         0.7165     qwen2-7b             Unlocking Traffic Flow Secrets: From Waves to Oscillators
+30     0.1902       0.3136       0.0000         0.6065     mistral-7b-v0.3      Unraveling Traffic Waves: A Physics Approach to Smooth Flow
+31     0.1868       0.3079       0.0000         0.6065     tinyllama            Translating a Curve Following Model into a Mathematical Form
+32     0.1592       0.3101       0.0000         0.5134     tinyllama            How to Bring Your Curve Following Model into Mathematical Form (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2459
+  llama3.1-8b         : 0.2881
+  mistral-7b-v0.3     : 0.2680
+  qwen2-7b            : 0.2432
+  tinyllama           : 0.2477
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 720s (12:00)
+Transcript Length: 4,189 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3513       0.3513       0.0000         1.0000     tinyllama            How Drivers React to Oscillations
+2      0.3493       0.3493       0.0000         1.0000     llama3.1-8b          Simulating Driver Behavior and Traffic Oscillations
+3      0.3472       0.3472       0.0000         1.0000     tinyllama            A Simple Model for Driver Behavior (2)
+4      0.3415       0.3415       0.0000         1.0000     tinyllama            Creating a Simple Driver Model
+5      0.3230       0.3230       0.0000         1.0000     tinyllama            How Drivers React to Leader Overtaking
+6      0.3230       0.3230       0.0000         1.0000     llama3.1-8b          Simulating Driver Behavior in Traffic Flow
+7      0.3216       0.3216       0.0000         1.0000     gemma2-9b            Driver Models and Traffic Oscillations
+8      0.3197       0.3197       0.0000         1.0000     llama3.1-8b          The Unsettling Nature of Traffic Oscillations
+9      0.3161       0.3161       0.0000         1.0000     qwen2-7b             The Oscillatory Dance of Autonomous Drivers
+10     0.3152       0.3152       0.0000         1.0000     gemma2-9b            Dancing Drivers: Traffic Flow Oscillations (2)
+11     0.3114       0.3114       0.0000         1.0000     llama3.1-8b          The Unpredictable Dance of Traffic Oscillations (3)
+12     0.3110       0.3110       0.0000         1.0000     gemma2-9b            Dancing Drivers: Oscillations in Traffic Flow
+13     0.2993       0.3536       0.0000         0.8465     mistral-7b-v0.3      Simulating Driver Behavior: A Damping Ratio Approach (3)
+14     0.2989       0.2989       0.0000         1.0000     llama3.1-8b          Simulating Safe and Agile Traffic Flow
+15     0.2908       0.3436       0.0000         0.8465     tinyllama            How Damped Oscillators Can Amplify Leader Waves
+16     0.2852       0.2852       0.0000         1.0000     llama3.1-8b          The Dilemma of Traffic Flow Stability
+17     0.2844       0.3360       0.0000         0.8465     qwen2-7b             Oscillatory Traffic Dynamics and Driver Model Optimization
+18     0.2787       0.2787       0.0000         1.0000     llama3.1-8b          The Unpredictable Dance of Damping Ratios
+19     0.2715       0.2715       0.0000         1.0000     gemma2-9b            Driver Models and Traffic Waves (2)
+20     0.2688       0.3751       0.0000         0.7165     mistral-7b-v0.3      Building a Simple Driver Model for Traffic Simulation
+21     0.2684       0.3746       0.0000         0.7165     tinyllama            How Drivers React to Leader Velocity and Oscillations
+22     0.2526       0.2526       0.0000         1.0000     gemma2-9b            Damped Drivers and Traffic Waves (4)
+23     0.2508       0.2962       0.0000         0.8465     llama3.1-8b          The Damping Ratio Conundrum in Traffic Flow
+24     0.2356       0.3288       0.0000         0.7165     qwen2-7b             Unlocking Traffic Flow Mysteries: Damping Ratios and Oscillations (2)
+25     0.2324       0.3243       0.0000         0.7165     qwen2-7b             Unlocking Traffic Flow Mysteries: Damping Ratios & Oscillations
+26     0.2267       0.3738       0.0000         0.6065     mistral-7b-v0.3      Building a Simple Driver Model for Traffic Flow Simulation (3)
+27     0.2216       0.3654       0.0000         0.6065     tinyllama            How Damping Ratios Control Oscillations in Traffic Flow Simulations
+28     0.2174       0.3584       0.0000         0.6065     mistral-7b-v0.3      Building a Simple Driver Model for Damped Traffic Flow
+29     0.2146       0.3538       0.0000         0.6065     mistral-7b-v0.3      Building a Simple Driver Model for Dampened Traffic Flow (2)
+30     0.2028       0.3344       0.0000         0.6065     qwen2-7b             Unlocking Traffic Flow Mysteries: Damping Ratios & Oscillatory Behavior (2)
+31     0.2008       0.3310       0.0000         0.6065     qwen2-7b             Unlocking Traffic Flow Secrets: Damping Ratios & Oscillatory Behavior (2)
+32     0.1947       0.3793       0.0000         0.5134     qwen2-7b             Oscillations in Driver Dynamics: A Simple Model Reveals Counterintuitive Behavior
+33     0.1922       0.3744       0.0000         0.5134     tinyllama            How Does a Damped Oscillator Feed Amplified Motion into Followers?
+34     0.1292       0.4151       0.0000         0.3114     tinyllama            How does the dotted oscillator model the behavior of a driver in traffic?
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2817
+  llama3.1-8b         : 0.3040
+  mistral-7b-v0.3     : 0.2493
+  qwen2-7b            : 0.2306
+  tinyllama           : 0.2812
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 1018s (16:58)
+Transcript Length: 6,945 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3101       0.3101       0.0000         1.0000     gemma2-9b            Damping Traffic Waves: Beyond Simple Damping (2)
+2      0.3070       0.3070       0.0000         1.0000     tinyllama            Damping Ratios and String Stability
+3      0.3022       0.3022       0.0000         1.0000     mistral-7b-v0.3      Exploring String Stability: Beyond Classical Damping
+4      0.2960       0.2960       0.0000         1.0000     llama3.1-8b          The Unseen Dynamics of Traffic Waves
+5      0.2950       0.2950       0.0000         1.0000     gemma2-9b            Resonance, Damping, and Traffic Flow (4)
+6      0.2848       0.2848       0.0000         1.0000     llama3.1-8b          The Unseen Complexity of Traffic Waves
+7      0.2814       0.2814       0.0000         1.0000     llama3.1-8b          The Hidden Complexity of Traffic Stability (2)
+8      0.2782       0.2782       0.0000         1.0000     tinyllama            How to Make Cars Stay Calm (2)
+9      0.2738       0.2738       0.0000         1.0000     gemma2-9b            Beyond Damping: String Stability in Traffic
+10     0.2710       0.2710       0.0000         1.0000     llama3.1-8b          The Dilemma of String Stability
+11     0.2666       0.3149       0.0000         0.8465     mistral-7b-v0.3      Exploring String Stability: Damping Ratio vs. Anticipation (2)
+12     0.2644       0.3123       0.0000         0.8465     mistral-7b-v0.3      Exploring String Stability: Damping Ratio vs Anticipation (2)
+13     0.2630       0.2630       0.0000         1.0000     tinyllama            The Ultimate Guide to Traffic Stability
+14     0.2608       0.2608       0.0000         1.0000     tinyllama            The Strange World of Traffic
+15     0.2585       0.2585       0.0000         1.0000     gemma2-9b            Beyond Damping: Unveiling String Stability (3)
+16     0.2559       0.2559       0.0000         1.0000     llama3.1-8b          Traffic Waves and String Stability
+17     0.2554       0.2554       0.0000         1.0000     tinyllama            The Complexity of Driving
+18     0.2490       0.2490       0.0000         1.0000     tinyllama            The Uniquely Stable Car (2)
+19     0.2489       0.3474       0.0000         0.7165     mistral-7b-v0.3      Resonant Amplification and String Stability in Oscillating Systems (2)
+20     0.2450       0.2450       0.0000         1.0000     tinyllama            The Strange World of Drivers
+21     0.2437       0.2879       0.0000         0.8465     llama3.1-8b          Unraveling Traffic Waves Through Damping and Anticipation (2)
+22     0.2358       0.2786       0.0000         0.8465     llama3.1-8b          Resonance and String Stability in Traffic Waves (2)
+23     0.2346       0.2346       0.0000         1.0000     tinyllama            How to Make Traffic
+24     0.2255       0.3147       0.0000         0.7165     qwen2-7b             Resonance, Damping, and String Stability in Traffic Flow
+25     0.2137       0.3523       0.0000         0.6065     mistral-7b-v0.3      Exploring String Stability: Amplification, Anticipation, and Agility in Oscillators
+26     0.2014       0.3320       0.0000         0.6065     qwen2-7b             Resonance, Amplification, and the Unexpected Complexity of Traffic Stability
+27     0.2001       0.3300       0.0000         0.6065     qwen2-7b             Resonance, Amplification, and the Surprising Complexity of Traffic Stability
+28     0.1958       0.3228       0.0000         0.6065     qwen2-7b             Resonance, Damping, and String Stability in Traffic Flow Dynamics (7)
+29     0.1904       0.3139       0.0000         0.6065     mistral-7b-v0.3      Exploring String Stability: Damping Ratio vs. Agility & Anticipation
+30     0.1607       0.3698       0.0000         0.4346     mistral-7b-v0.3      Resonant Amplification in Damped Oscillators: String Stability and Unique Driver Parameters
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2849
+  llama3.1-8b         : 0.2629
+  mistral-7b-v0.3     : 0.2427
+  qwen2-7b            : 0.1998
+  tinyllama           : 0.2620
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 1495s (24:55)
+Transcript Length: 8,739 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3283       0.3283       0.0000         1.0000     gemma2-9b            Wave Dampeners: Smoothing Traffic Flow (2)
+2      0.3267       0.3267       0.0000         1.0000     gemma2-9b            Wave Dampeners: Smooth Traffic Flow (3)
+3      0.3215       0.3215       0.0000         1.0000     gemma2-9b            Wave Dampers: Smooth Traffic Flow (4)
+4      0.3176       0.3176       0.0000         1.0000     qwen2-7b             Wave Damping Drivers: Solving Traffic Jams (3)
+5      0.3154       0.3154       0.0000         1.0000     qwen2-7b             Wave Dampening Drivers: Solving Traffic Jams
+6      0.3108       0.3108       0.0000         1.0000     llama3.1-8b          Damping Traffic Waves with Autonomous Vehicles (2)
+7      0.3033       0.3033       0.0000         1.0000     gemma2-9b            Wave Dampers: Taming Traffic Jams
+8      0.3029       0.3029       0.0000         1.0000     tinyllama            How to Solve Traffic Chaos
+9      0.2989       0.2989       0.0000         1.0000     llama3.1-8b          Taming Traffic Waves with Autonomous Vehicles (2)
+10     0.2967       0.2967       0.0000         1.0000     llama3.1-8b          The Wave Dampening Effect (2)
+11     0.2898       0.2898       0.0000         1.0000     llama3.1-8b          The Wave Dampening Solution
+12     0.2884       0.2884       0.0000         1.0000     tinyllama            How to Solve Traffic (6)
+13     0.2872       0.2872       0.0000         1.0000     mistral-7b-v0.3      Imagining Wave-Damping Autonomous Vehicles
+14     0.2863       0.3382       0.0000         0.8465     mistral-7b-v0.3      The Wave Damper Driver: Reducing Traffic Jams
+15     0.2834       0.3348       0.0000         0.8465     mistral-7b-v0.3      The Wave Damper Car: Reducing Traffic Jams
+16     0.2832       0.2832       0.0000         1.0000     llama3.1-8b          Breaking Traffic Waves with Autonomous Vehicles (2)
+17     0.2717       0.3792       0.0000         0.7165     mistral-7b-v0.3      A Single Wise Driver Can Dampen Traffic Oscillations (2)
+18     0.2644       0.3124       0.0000         0.8465     tinyllama            Solving Traffic Chaos with Wave Damping Cars
+19     0.2595       0.3622       0.0000         0.7165     mistral-7b-v0.3      A Single Wise Driver Can Heal Traffic Jams
+20     0.2536       0.3539       0.0000         0.7165     mistral-7b-v0.3      A Single Wise Driver Can Solve Traffic Jams
+21     0.2477       0.3457       0.0000         0.7165     qwen2-7b             Wave Damping: Solving Traffic Jams with Smart Drivers
+22     0.2463       0.3437       0.0000         0.7165     qwen2-7b             Wave Damping: Solving Traffic Jams with Smart Driving (2)
+23     0.2454       0.3425       0.0000         0.7165     qwen2-7b             Wave Dampers: Transforming Traffic Jams into Smooth Flows
+24     0.2388       0.3332       0.0000         0.7165     qwen2-7b             Wave Damping: A Driver's Role in Traffic Efficiency
+25     0.2382       0.3324       0.0000         0.7165     qwen2-7b             Wave Dampening: One Driver's Impact on Traffic Flow
+26     0.2367       0.3304       0.0000         0.7165     mistral-7b-v0.3      Wave-Damping Autonomous Vehicles: A Solution for Traffic Jams
+27     0.2182       0.3045       0.0000         0.7165     llama3.1-8b          The Power of Wave Dampening in Traffic Flow
+28     0.2160       0.3561       0.0000         0.6065     mistral-7b-v0.3      Imagining a World of Wise Drivers: Dampening Traffic Jams
+29     0.1808       0.3522       0.0000         0.5134     tinyllama            How to solve traffic jams with a wave dagger car
+30     0.1271       0.3456       0.0000         0.3679     mistral-7b-v0.3      The Wave Damper Car: Reducing Traffic Jams One Driver at a Time
+31     0.1044       0.3352       0.0000         0.3114     tinyllama            The Art of Problem Solving: How to Make Traffic Flow Like a Train
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3226
+  llama3.1-8b         : 0.2887
+  mistral-7b-v0.3     : 0.2493
+  qwen2-7b            : 0.2731
+  tinyllama           : 0.2583
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 2106s (35:06)
+Transcript Length: 1,004 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.4098       0.4098       0.0000         1.0000     tinyllama            Brilliant Helps You Build Your Intuition (2)
+2      0.3693       0.3693       0.0000         1.0000     llama3.1-8b          Discovering Principles through Iterative Systems
+3      0.3690       0.3690       0.0000         1.0000     qwen2-7b             Empower Your Thinking with Interactive Brilliance (5)
+4      0.3622       0.3622       0.0000         1.0000     qwen2-7b             Unlocking Intuition: Interactive Learning with Brilliant (2)
+5      0.3549       0.4192       0.0000         0.8465     tinyllama            Brilliant: Learn for Free with Hands-On Thinking
+6      0.3510       0.3510       0.0000         1.0000     llama3.1-8b          Unlocking Intuition through Interactive Learning (7)
+7      0.3453       0.4079       0.0000         0.8465     mistral-7b-v0.3      Explore Coding Intuitively with BrillianT's Interactive Lessons
+8      0.3428       0.4050       0.0000         0.8465     tinyllama            How to Build Intuition for Better Thinking (2)
+9      0.3424       0.3424       0.0000         1.0000     llama3.1-8b          Hands-on Problem Sololving with Brilliant
+10     0.3408       0.4026       0.0000         0.8465     qwen2-7b             Empower Your Thinking with Interactive Brilliant Lessons
+11     0.3375       0.3987       0.0000         0.8465     mistral-7b-v0.3      Master Coding Intuitively with BrillianT's Interactive Lessons
+12     0.3375       0.3375       0.0000         1.0000     gemma2-9b            Unlock Your Thinking Power with Brilliant (2)
+13     0.3268       0.3268       0.0000         1.0000     gemma2-9b            Unlocking Intuition Through Code (8)
+14     0.3242       0.4524       0.0000         0.7165     mistral-7b-v0.3      Explore Iterative Systems with BrillianT's Thinking Encode Course (4)
+15     0.3211       0.3793       0.0000         0.8465     mistral-7b-v0.3      Explore Iterative Systems with Brillian't Interactive Lessons
+16     0.3200       0.3200       0.0000         1.0000     llama3.1-8b          Unleashing Your Inner Problem
+17     0.3173       0.3748       0.0000         0.8465     qwen2-7b             Unlock Your Thinking Skills with Interactive Brilliance
+18     0.3152       0.3152       0.0000         1.0000     mistral-7b-v0.3      Explore Coding Intuitively with BrillianT
+19     0.3077       0.4294       0.0000         0.7165     mistral-7b-v0.3      Explore Iterative Systems with Brillian's Thinking Encode Course (2)
+20     0.2913       0.3442       0.0000         0.8465     tinyllama            Brilliant Teaches Code with a Brilliant Tutor
+21     0.2643       0.3688       0.0000         0.7165     qwen2-7b             Master Intuition & Code with Engaging Brilliant Lessons
+22     0.2530       0.4172       0.0000         0.6065     tinyllama            How to Build Intuition by Learning from Iterative Systems
+23     0.2433       0.2433       0.0000         1.0000     tinyllama            Brilliant Teaches Code
+24     0.2361       0.3892       0.0000         0.6065     tinyllama            How to Build Intuition for Thinking Like a System
+25     0.1940       0.3779       0.0000         0.5134     tinyllama            Brilliant Transcript - How to Build Intuition Like a Pro
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3290
+  llama3.1-8b         : 0.3488
+  mistral-7b-v0.3     : 0.3231
+  qwen2-7b            : 0.3492
+  tinyllama           : 0.3078
+
+====================================================================================================
+

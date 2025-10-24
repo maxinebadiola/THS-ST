@@ -1,0 +1,402 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,tinyllama,Traffic Jam Wave with No Cause,0.48608455061912537,0.48608455061912537,0.0,1.0
+1,0,00:00,gemma2-9b,Traffic Jams: Unseen Waves and Surprises,0.44496408104896545,0.44496408104896545,0.0,1.0
+1,0,00:00,llama3.1-8b,Traffic Jam Wave: A Mathematical Enigma,0.4372411370277405,0.4372411370277405,0.0,1.0
+1,0,00:00,llama3.1-8b,Traffic Jam Wave: A Mathematical Enigma,0.4372411370277405,0.4372411370277405,0.0,1.0
+1,0,00:00,llama3.1-8b,Mathematicals Model Capturing Traffic Chaos,0.4292803108692169,0.4292803108692169,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mathematical Modeling of Unexplained Traffic Jams,0.4235956072807312,0.4235956072807312,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mathematical Modeling of Unexplained Traffic Jams,0.4235956072807312,0.4235956072807312,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mathematical Modeling of Unexplained Traffic Jams,0.4235956072807312,0.4235956072807312,0.0,1.0
+1,0,00:00,gemma2-9b,The Mystery of Traffic Waves,0.42255374789237976,0.42255374789237976,0.0,1.0
+1,0,00:00,llama3.1-8b,The Mysterious Traffic Jam Wave,0.41807636618614197,0.41807636618614197,0.0,1.0
+1,0,00:00,tinyllama,The Mathematical Model of Traffic Jam Waves,0.41699992491667626,0.49262720346450806,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Mathematical Mysteries of Traffic Jams,0.4159211218357086,0.4159211218357086,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mathematical Mysteries of Traffic Jams,0.4159211218357086,0.4159211218357086,0.0,1.0
+1,0,00:00,gemma2-9b,The Mystery of Traffic Jams,0.4150967597961426,0.4150967597961426,0.0,1.0
+1,0,00:00,gemma2-9b,The Mystery of Traffic Jams,0.4150967597961426,0.4150967597961426,0.0,1.0
+1,0,00:00,llama3.1-8b,Traffic Jam Wave's Hidden Patterns Unveiled,0.41061970591545105,0.41061970591545105,0.0,1.0
+1,0,00:00,llama3.1-8b,Traffic Jam Wave Unleashed,0.40233099460601807,0.40233099460601807,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mathematical Mysteries of Unexplained Traffic Jams,0.3988339900970459,0.3988339900970459,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mathematical Mysteries of Unexplained Traffic Jams,0.3988339900970459,0.3988339900970459,0.0,1.0
+1,0,00:00,llama3.1-8b,The Paradox of Congested Chaos,0.39009132981300354,0.39009132981300354,0.0,1.0
+1,0,00:00,gemma2-9b,The Mystery Wave: Traffic's Hidden Math,0.3876379728317261,0.3876379728317261,0.0,1.0
+1,0,00:00,gemma2-9b,The Unexpected Waves of Traffic,0.3769381046295166,0.3769381046295166,0.0,1.0
+1,0,00:00,gemma2-9b,The Phantom Traffic Wave,0.37580105662345886,0.37580105662345886,0.0,1.0
+1,0,00:00,gemma2-9b,The Phantom Traffic Wave,0.37580105662345886,0.37580105662345886,0.0,1.0
+1,0,00:00,gemma2-9b,The Phantom Traffic Wave,0.37580105662345886,0.37580105662345886,0.0,1.0
+1,0,00:00,gemma2-9b,The Phantom Traffic Wave,0.37580105662345886,0.37580105662345886,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos,0.3701425790786743,0.3701425790786743,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Modeling Unexplained Traffic Jams: Two Surprising Insights,0.3545508925957471,0.41885238885879517,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Decoding the Gridlock Enigma,0.35181427001953125,0.35181427001953125,0.0,1.0
+1,0,00:00,llama3.1-8b,The Unseen Forces Behind Gridlock,0.3509967029094696,0.3509967029094696,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Modeling Unexplained Traffic Jams: Two Surprising Findings,0.3471602290156699,0.410121351480484,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Modeling Unforeseen Traffic Congestion,0.34426364302635193,0.34426364302635193,0.0,1.0
+1,0,00:00,tinyllama,Traffic Jam Wave: A Mathematical Model of Chaos,0.3341856102668904,0.4663935899734497,0.0,0.7165313105737893
+1,0,00:00,tinyllama,Traffic Jam Wave: A Mathematical Model Capturing Its Essence,0.3195844712076745,0.5269057154655457,0.0,0.6065306597126334
+1,0,00:00,llama3.1-8b,"""A Formula for Fru",0.2941038906574249,0.2941038906574249,0.0,1.0
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos with Math Mysteries,0.28314986515970314,0.3951674699783325,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Unexplained Traffic Waves: Fueling Chaos with Math Mysteries,0.28314986515970314,0.3951674699783325,0.0,0.7165313105737893
+1,0,00:00,tinyllama,Traffic Jam Wave - A Mathematical Model for Chaos,0.28175531526892805,0.46453598141670227,0.0,0.6065306597126334
+1,0,00:00,tinyllama,"Traffic Jam Wave: A Mathematical Model for Fuel, Time, and Safety",0.2411681781120965,0.5549221634864807,0.0,0.43459820850707825
+1,0,00:00,tinyllama,Traffic Jam Wave - A Mathematical Model to Predict Its Effects,0.21333859185410647,0.49088695645332336,0.0,0.43459820850707825
+1,0,00:00,tinyllama,Traffic Jam Wave: A Mathematical Model of Chaos in Real Life,0.2014300626129532,0.4634857177734375,0.0,0.43459820850707825
+1,0,00:00,tinyllama,Traffic Jam Wave: A Mathematical Model to Capture the Essence of a Dangerous Condition,0.1450055473513588,0.5501028895378113,0.0,0.2635971381157267
+1,0,00:00,tinyllama,"Traffic Jam Wave: A Mathematical Model Capturing the Essence of a Drain on Fuel, Time, and Safety",0.09673027030310352,0.6050189137458801,0.0,0.15987974607969388
+2,12,00:12,gemma2-9b,Phantom Jams: Drivers Shaping Traffic Flow,0.37258684635162354,0.37258684635162354,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams: Drivers Shaping Traffic Flow,0.37258684635162354,0.37258684635162354,0.0,1.0
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Unexpected Traffic Solutions,0.36774882674217224,0.36774882674217224,0.0,1.0
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Unexpected Traffic Solutions,0.36774882674217224,0.36774882674217224,0.0,1.0
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Unexpected Traffic Solutions,0.36774882674217224,0.36774882674217224,0.0,1.0
+2,12,00:12,llama3.1-8b,Uncovering the Causes of Phantom Jams,0.3641604483127594,0.3641604483127594,0.0,1.0
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Surprising Traffic Solutions,0.3579379618167877,0.3579379618167877,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams: A Driver's Ripple Effect,0.35392633080482483,0.35392633080482483,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams: A Driver's Ripple Effect,0.35392633080482483,0.35392633080482483,0.0,1.0
+2,12,00:12,llama3.1-8b,When Drivers Make Traffic Flow Better,0.34906795620918274,0.34906795620918274,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams and Quiet Drivers,0.3475426137447357,0.3475426137447357,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams and Quiet Drivers,0.3475426137447357,0.3475426137447357,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams and Quiet Drivers,0.3475426137447357,0.3475426137447357,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams and Quiet Drivers,0.3475426137447357,0.3475426137447357,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams and Quiet Drivers,0.3475426137447357,0.3475426137447357,0.0,1.0
+2,12,00:12,tinyllama,Phantom Jams and Smoothing Out Traffic,0.3467041254043579,0.3467041254043579,0.0,1.0
+2,12,00:12,llama3.1-8b,Phantom Jams and Driver Dynamics,0.3430171012878418,0.3430171012878418,0.0,1.0
+2,12,00:12,llama3.1-8b,Phantom Jams and Driver Dynamics,0.3430171012878418,0.3430171012878418,0.0,1.0
+2,12,00:12,llama3.1-8b,“The Surprising Science of Traffic Waves”,0.3402714729309082,0.3402714729309082,0.0,1.0
+2,12,00:12,gemma2-9b,Phantom Jams and Traffic Smoothing,0.33953821659088135,0.33953821659088135,0.0,1.0
+2,12,00:12,tinyllama,Phantom Jam Formation Out of Nowhere,0.3352551758289337,0.3352551758289337,0.0,1.0
+2,12,00:12,llama3.1-8b,When a Few Drivers Change Everything,0.3339511454105377,0.3339511454105377,0.0,1.0
+2,12,00:12,llama3.1-8b,The Surprising Science of Traffic Waves,0.3334030210971832,0.3334030210971832,0.0,1.0
+2,12,00:12,llama3.1-8b,The Phantom Jam: A Surprising Solution,0.32822728157043457,0.32822728157043457,0.0,1.0
+2,12,00:12,qwen2-7b,"Phantom Jams, Driver Behavior, and Surprising Traffic Solutions",0.2785907654334767,0.38880473375320435,0.0,0.7165313105737893
+2,12,00:12,qwen2-7b,"Phantom Jams, Driver Behavior, and Surprising Traffic Solutions",0.2785907654334767,0.38880473375320435,0.0,0.7165313105737893
+2,12,00:12,qwen2-7b,"Phantom Jams, Driver Behavior, and Surprising Traffic Solutions",0.2785907654334767,0.38880473375320435,0.0,0.7165313105737893
+2,12,00:12,qwen2-7b,"Phantom Jams, Driver Behavior, and Surprising Traffic Solutions",0.2785907654334767,0.38880473375320435,0.0,0.7165313105737893
+2,12,00:12,tinyllama,The Mathematical Model That Captures the Phantom Jam,0.2668778694010344,0.3724580705165863,0.0,0.7165313105737893
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Surprising Solutions: Traffic Dynamics Unveiled,0.262608483423816,0.366499662399292,0.0,0.7165313105737893
+2,12,00:12,llama3.1-8b,Phantom Jams and the Power of Driver Behavior,0.26041097677023245,0.36343279480934143,0.0,0.7165313105737893
+2,12,00:12,llama3.1-8b,Phantom Jams and the Power of Six,0.2580759227526194,0.30488067865371704,0.0,0.846481724890614
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Surprising Solutions on Ring Roads,0.25388790098371145,0.35432910919189453,0.0,0.7165313105737893
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Surprising Solutions: Traffic Puzzles Unraveled,0.24949720124456232,0.3482013940811157,0.0,0.7165313105737893
+2,12,00:12,tinyllama,Phantom Jam: How Drivers React and Smooth Out Traffic,0.247037729649763,0.407296359539032,0.0,0.6065306597126334
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and the Power of Six Drivers,0.24143855930654007,0.33695465326309204,0.0,0.7165313105737893
+2,12,00:12,tinyllama,Phantom Jams: A New Way to Calculate Better Driving,0.22567573960865148,0.3720763921737671,0.0,0.6065306597126334
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Surprising Solutions: A Mathematical Traffic Study,0.2222214117549991,0.3663811683654785,0.0,0.6065306597126334
+2,12,00:12,mistral-7b-v0.3,Phantom Jams and Surprising Solutions: A Mathematical Traffic Puzzle,0.21967379525386926,0.3621808588504791,0.0,0.6065306597126334
+2,12,00:12,qwen2-7b,"Phantom Jams, Traffic Mysteries, and the Power of Six",0.21253241075998278,0.3504067063331604,0.0,0.6065306597126334
+2,12,00:12,tinyllama,The Mathematical Model That Captures the Essence of Phantom Jams,0.20430974893173054,0.39794105291366577,0.0,0.513417119032592
+2,12,00:12,tinyllama,A Shared Resource: How Quiet Tricks Can Smooth Out Traffic,0.20401073635002048,0.39735865592956543,0.0,0.513417119032592
+2,12,00:12,qwen2-7b,"Phantom Jams, Traffic Mysteries, and the Power of Six Drivers",0.19106325592622803,0.37214040756225586,0.0,0.513417119032592
+2,12,00:12,tinyllama,Phantom Jams - A New Way to Calculate Better Driving,0.1879812321679877,0.36613744497299194,0.0,0.513417119032592
+2,12,00:12,qwen2-7b,"Phantom Jams, Traffic Waves, and the Surprising Role of Six Drivers",0.16829761495288093,0.3872487545013428,0.0,0.43459820850707825
+2,12,00:12,qwen2-7b,"Phantom Jams, Traffic Waves, and the Surprising Role of Six Drivers",0.16829761495288093,0.3872487545013428,0.0,0.43459820850707825
+2,12,00:12,qwen2-7b,"Phantom Jams, Traffic Waves, and the Surprising Role of Six Drivers",0.16829761495288093,0.3872487545013428,0.0,0.43459820850707825
+2,12,00:12,qwen2-7b,"Phantom Jams, Traffic Waves, and the Surprising Role of Six Drivers",0.16829761495288093,0.3872487545013428,0.0,0.43459820850707825
+2,12,00:12,tinyllama,Phantom Jams - The Surprising Reason Why We Need More Drivers,0.16117198763183996,0.37085285782814026,0.0,0.43459820850707825
+2,12,00:12,tinyllama,"A Single Lane, Small Number of Driven Can Smooth Traffic for All",0.15565126968927934,0.42310401797294617,0.0,0.36787944117144233
+3,102,01:42,tinyllama,Traffic Jams: A Complex Problem,0.3222213089466095,0.3222213089466095,0.0,1.0
+3,102,01:42,gemma2-9b,Traffic Waves: Unseen Forces Shaping Jams,0.3192378282546997,0.3192378282546997,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns of Traffic Waves,0.3135700821876526,0.3135700821876526,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns of Traffic Waves,0.3135700821876526,0.3135700821876526,0.0,1.0
+3,102,01:42,gemma2-9b,Traffic Waves: Unseen Forces of Congestion,0.3125685155391693,0.3125685155391693,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns of Traffic Jams,0.3106605112552643,0.3106605112552643,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns of Traffic Jams,0.3106605112552643,0.3106605112552643,0.0,1.0
+3,102,01:42,tinyllama,The Complexity of Traffic Waves,0.30571237206459045,0.30571237206459045,0.0,1.0
+3,102,01:42,tinyllama,The Complexity of Traffic Waves,0.30571237206459045,0.30571237206459045,0.0,1.0
+3,102,01:42,tinyllama,The Complexity of Traffic Waves,0.30571237206459045,0.30571237206459045,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns Behind Traffic Jams,0.3026526868343353,0.3026526868343353,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns Behind Traffic Jams,0.3026526868343353,0.3026526868343353,0.0,1.0
+3,102,01:42,tinyllama,The Fingerprint of Traffic Jams,0.3004768192768097,0.3004768192768097,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns Behind Traffic Waves,0.2992922067642212,0.2992922067642212,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns Behind Traffic Waves,0.2992922067642212,0.2992922067642212,0.0,1.0
+3,102,01:42,llama3.1-8b,The Hidden Patterns Behind Traffic Waves,0.2992922067642212,0.2992922067642212,0.0,1.0
+3,102,01:42,tinyllama,Traffic Jams and Waves,0.29180142283439636,0.29180142283439636,0.0,1.0
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, and Driving Better",0.291292498543418,0.34412142634391785,0.0,0.846481724890614
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, and Driving Better",0.291292498543418,0.34412142634391785,0.0,0.846481724890614
+3,102,01:42,tinyllama,The Complexity of Traffic,0.28261616826057434,0.28261616826057434,0.0,1.0
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, & Driving Smarter",0.27549149114191473,0.3254547417163849,0.0,0.846481724890614
+3,102,01:42,gemma2-9b,Traffic Waves: The Hidden Fingerprint of Jams,0.27425341971181405,0.32399213314056396,0.0,0.846481724890614
+3,102,01:42,gemma2-9b,Traffic Waves: The Hidden Fingerprint of Jams,0.27425341971181405,0.32399213314056396,0.0,0.846481724890614
+3,102,01:42,gemma2-9b,Traffic Waves: The Hidden Fingerprint of Jams,0.27425341971181405,0.32399213314056396,0.0,0.846481724890614
+3,102,01:42,gemma2-9b,Traffic Waves: The Hidden Danger,0.272433340549469,0.272433340549469,0.0,1.0
+3,102,01:42,gemma2-9b,Traffic Waves: The Hidden Danger,0.272433340549469,0.272433340549469,0.0,1.0
+3,102,01:42,gemma2-9b,Traffic Waves: The Hidden Danger,0.272433340549469,0.272433340549469,0.0,1.0
+3,102,01:42,gemma2-9b,Traffic Waves: The Hidden Danger,0.272433340549469,0.272433340549469,0.0,1.0
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Jams,0.26705864472832447,0.31549251079559326,0.0,0.846481724890614
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Jams,0.26705864472832447,0.31549251079559326,0.0,0.846481724890614
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Jams,0.26705864472832447,0.31549251079559326,0.0,0.846481724890614
+3,102,01:42,gemma2-9b,Traffic Waves: Unseen Dangers of Dense Roads,0.26439423186215605,0.31234487891197205,0.0,0.846481724890614
+3,102,01:42,tinyllama,How Traffic Waves Form and Why They're Dangerous,0.2631332866298027,0.367232084274292,0.0,0.7165313105737893
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Congestion,0.2577871731226719,0.3045395612716675,0.0,0.846481724890614
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Gridlock,0.2555914801695233,0.30194565653800964,0.0,0.846481724890614
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Gridlock,0.2555914801695233,0.30194565653800964,0.0,0.846481724890614
+3,102,01:42,tinyllama,How Traffic Waves Form and Why They Matter,0.2501744314233815,0.3491465449333191,0.0,0.7165313105737893
+3,102,01:42,llama3.1-8b,Uncovering Traffic Wave Secrets,0.24700453877449036,0.24700453877449036,0.0,1.0
+3,102,01:42,tinyllama,How Traffic Waves Form and How to Drive Better,0.23111477855427306,0.38104385137557983,0.0,0.6065306597126334
+3,102,01:42,mistral-7b-v0.3,Understanding Traffic Waves: The Hidden Causes of Congestion,0.23106793032808148,0.32248127460479736,0.0,0.7165313105737893
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Congested Roads,0.22076907314223848,0.30810806155204773,0.0,0.7165313105737893
+3,102,01:42,mistral-7b-v0.3,Unraveling Traffic Waves: The Science Behind Gridlock Formation,0.21921168289908202,0.3059345483779907,0.0,0.7165313105737893
+3,102,01:42,mistral-7b-v0.3,Understanding Traffic Waves and Their Impact on Road Congestion,0.2059548354763698,0.3395621180534363,0.0,0.6065306597126334
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, and the Role of Good Drivers",0.18204614915220863,0.3545774817466736,0.0,0.513417119032592
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, and the Art of Smooth Driving",0.1818967193664661,0.35428643226623535,0.0,0.513417119032592
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, and the Art of Smooth Driving",0.1818967193664661,0.35428643226623535,0.0,0.513417119032592
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, and the Art of Smooth Driving",0.1818967193664661,0.35428643226623535,0.0,0.513417119032592
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, & The Role of Good Drivers",0.18006910403488402,0.3507267236709595,0.0,0.513417119032592
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, & The Role of Good Drivers",0.18006910403488402,0.3507267236709595,0.0,0.513417119032592
+3,102,01:42,qwen2-7b,"Traffic Waves: Complexity, Stability, & The Role of Good Drivers",0.18006910403488402,0.3507267236709595,0.0,0.513417119032592
+4,303,05:03,tinyllama,Transforming Traffic Flow Through Time Tracking,0.31283751130104065,0.31283751130104065,0.0,1.0
+4,303,05:03,tinyllama,Transforming Traffic Flow with Driver Behavior,0.30771830677986145,0.30771830677986145,0.0,1.0
+4,303,05:03,llama3.1-8b,Tuning Traffic Flow with Physics-Inspired Models,0.3068835735321045,0.3068835735321045,0.0,1.0
+4,303,05:03,llama3.1-8b,Tuning Traffic Flow with Physics-Inspired Models,0.3068835735321045,0.3068835735321045,0.0,1.0
+4,303,05:03,llama3.1-8b,Optimizing Traffic Flow Through Driver Behavior,0.3017989695072174,0.3017989695072174,0.0,1.0
+4,303,05:03,llama3.1-8b,Optimizing Traffic Flow Through Driver Behavior,0.3017989695072174,0.3017989695072174,0.0,1.0
+4,303,05:03,llama3.1-8b,Tuning Traffic Flow with Physics-Inspired Solutions,0.29794633388519287,0.29794633388519287,0.0,1.0
+4,303,05:03,tinyllama,How to Control Driver Behavior,0.29480502009391785,0.29480502009391785,0.0,1.0
+4,303,05:03,llama3.1-8b,Smoothing Traffic Flow with Oscillator Analogs,0.28995975852012634,0.28995975852012634,0.0,1.0
+4,303,05:03,mistral-7b-v0.3,Visualizing Traffic Flow as Damped Oscillators,0.28994402289390564,0.28994402289390564,0.0,1.0
+4,303,05:03,llama3.1-8b,Tuning Traffic Flow Through Driver Behavior,0.28868618607521057,0.28868618607521057,0.0,1.0
+4,303,05:03,mistral-7b-v0.3,Unraveling Traffic Waves: A Physics Approach,0.28807565569877625,0.28807565569877625,0.0,1.0
+4,303,05:03,tinyllama,Transforming Traffic Flow Using Machine Learning,0.2868737280368805,0.2868737280368805,0.0,1.0
+4,303,05:03,mistral-7b-v0.3,Visualizing Traffic Flow Through Time Tracking Lenses,0.2800541439744494,0.3308448791503906,0.0,0.846481724890614
+4,303,05:03,mistral-7b-v0.3,Visualizing Traffic Flow Through Time Tracking Lenses,0.2800541439744494,0.3308448791503906,0.0,0.846481724890614
+4,303,05:03,mistral-7b-v0.3,Visualizing Traffic Flow Through Time Tracking Lenses,0.2800541439744494,0.3308448791503906,0.0,0.846481724890614
+4,303,05:03,mistral-7b-v0.3,Analyzing Traffic Flow as Damped Oscillators,0.27901047468185425,0.27901047468185425,0.0,1.0
+4,303,05:03,llama3.1-8b,Tuning Traffic Flow with Oscillator Insights,0.27608102560043335,0.27608102560043335,0.0,1.0
+4,303,05:03,mistral-7b-v0.3,Analyzing Traffic Flow Through Time Tracking Lenses,0.2715366605690302,0.3207826614379883,0.0,0.846481724890614
+4,303,05:03,mistral-7b-v0.3,Analyzing Traffic Flow Through Time Tracking Lenses,0.2715366605690302,0.3207826614379883,0.0,0.846481724890614
+4,303,05:03,qwen2-7b,"Traffic Waves, Damping, and Driver Behavior Optimization",0.27130361242282586,0.32050734758377075,0.0,0.846481724890614
+4,303,05:03,qwen2-7b,"Traffic Waves, Damping, and Driver Behavior Optimization",0.27130361242282586,0.32050734758377075,0.0,0.846481724890614
+4,303,05:03,tinyllama,Transforming Traffic Flow Through Dynamic Network Design,0.26572009367424326,0.31391119956970215,0.0,0.846481724890614
+4,303,05:03,llama3.1-8b,"""Physics Meats Traffic:Optimizing",0.26429498195648193,0.26429498195648193,0.0,1.0
+4,303,05:03,qwen2-7b,"Traffic Waves, Oscillators, and Driver Behavior Optimization",0.2597686625891978,0.3068804144859314,0.0,0.846481724890614
+4,303,05:03,gemma2-9b,Dampening Traffic Oscillations,0.25791025161743164,0.25791025161743164,0.0,1.0
+4,303,05:03,tinyllama,Translating Driver Behavior into a Mathematical Model,0.25209199913539043,0.29781150817871094,0.0,0.846481724890614
+4,303,05:03,tinyllama,Translating a Driver's Behavior into a Mathematical Form,0.2518488218604508,0.3514833450317383,0.0,0.7165313105737893
+4,303,05:03,qwen2-7b,"Traffic Waves, Oscillators, & Driver Behavior Optimization",0.2497148979532577,0.2950032949447632,0.0,0.846481724890614
+4,303,05:03,qwen2-7b,"Traffic Waves, Oscillators, & Driver Behavior Optimization",0.2497148979532577,0.2950032949447632,0.0,0.846481724890614
+4,303,05:03,qwen2-7b,"Traffic Waves, Oscillators, & Driver Behavior Optimization",0.2497148979532577,0.2950032949447632,0.0,0.846481724890614
+4,303,05:03,mistral-7b-v0.3,Analyzing Traffic Flow as a Damped Oscillator,0.24931487149143022,0.2945307195186615,0.0,0.846481724890614
+4,303,05:03,llama3.1-8b,Tuning Traffic Flow with Physics,0.24672408401966095,0.24672408401966095,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,gemma2-9b,Drivers as Damped Oscillators,0.24456943571567535,0.24456943571567535,0.0,1.0
+4,303,05:03,qwen2-7b,"Traffic Waves, Damping Oscillations, and Driver Behavior Dynamics",0.2276899154211876,0.31776687502861023,0.0,0.7165313105737893
+4,303,05:03,qwen2-7b,"Traffic Waves, Damping Oscillations, and Driver Behavior Dynamics",0.2276899154211876,0.31776687502861023,0.0,0.7165313105737893
+4,303,05:03,qwen2-7b,"Traffic Waves, Damping Oscillations, & Driver Behavior Optimization",0.22296470061767562,0.3111723065376282,0.0,0.7165313105737893
+4,303,05:03,qwen2-7b,Unlocking Traffic Flow Secrets: From Waves to Oscillators,0.20233072664948226,0.2823752760887146,0.0,0.7165313105737893
+4,303,05:03,mistral-7b-v0.3,Unraveling Traffic Waves: A Physics Approach to Smooth Flow,0.1901803608277135,0.31355440616607666,0.0,0.6065306597126334
+4,303,05:03,tinyllama,Translating a Curve Following Model into a Mathematical Form,0.18677758578954315,0.3079441785812378,0.0,0.6065306597126334
+4,303,05:03,tinyllama,How to Bring Your Curve Following Model into Mathematical Form,0.15919160858268444,0.3100629150867462,0.0,0.513417119032592
+4,303,05:03,tinyllama,How to Bring Your Curve Following Model into Mathematical Form,0.15919160858268444,0.3100629150867462,0.0,0.513417119032592
+5,720,12:00,tinyllama,How Drivers React to Oscillations,0.35129377245903015,0.35129377245903015,0.0,1.0
+5,720,12:00,llama3.1-8b,Simulating Driver Behavior and Traffic Oscillations,0.3493398427963257,0.3493398427963257,0.0,1.0
+5,720,12:00,tinyllama,A Simple Model for Driver Behavior,0.3471932113170624,0.3471932113170624,0.0,1.0
+5,720,12:00,tinyllama,A Simple Model for Driver Behavior,0.3471932113170624,0.3471932113170624,0.0,1.0
+5,720,12:00,tinyllama,Creating a Simple Driver Model,0.34147852659225464,0.34147852659225464,0.0,1.0
+5,720,12:00,tinyllama,How Drivers React to Leader Overtaking,0.32300373911857605,0.32300373911857605,0.0,1.0
+5,720,12:00,llama3.1-8b,Simulating Driver Behavior in Traffic Flow,0.32295408844947815,0.32295408844947815,0.0,1.0
+5,720,12:00,gemma2-9b,Driver Models and Traffic Oscillations,0.3215518295764923,0.3215518295764923,0.0,1.0
+5,720,12:00,llama3.1-8b,The Unsettling Nature of Traffic Oscillations,0.3197265565395355,0.3197265565395355,0.0,1.0
+5,720,12:00,qwen2-7b,The Oscillatory Dance of Autonomous Drivers,0.3161388635635376,0.3161388635635376,0.0,1.0
+5,720,12:00,gemma2-9b,Dancing Drivers: Traffic Flow Oscillations,0.31523624062538147,0.31523624062538147,0.0,1.0
+5,720,12:00,gemma2-9b,Dancing Drivers: Traffic Flow Oscillations,0.31523624062538147,0.31523624062538147,0.0,1.0
+5,720,12:00,llama3.1-8b,The Unpredictable Dance of Traffic Oscillations,0.31137293577194214,0.31137293577194214,0.0,1.0
+5,720,12:00,llama3.1-8b,The Unpredictable Dance of Traffic Oscillations,0.31137293577194214,0.31137293577194214,0.0,1.0
+5,720,12:00,llama3.1-8b,The Unpredictable Dance of Traffic Oscillations,0.31137293577194214,0.31137293577194214,0.0,1.0
+5,720,12:00,gemma2-9b,Dancing Drivers: Oscillations in Traffic Flow,0.31102001667022705,0.31102001667022705,0.0,1.0
+5,720,12:00,mistral-7b-v0.3,Simulating Driver Behavior: A Damping Ratio Approach,0.2993014031842259,0.35358282923698425,0.0,0.846481724890614
+5,720,12:00,mistral-7b-v0.3,Simulating Driver Behavior: A Damping Ratio Approach,0.2993014031842259,0.35358282923698425,0.0,0.846481724890614
+5,720,12:00,mistral-7b-v0.3,Simulating Driver Behavior: A Damping Ratio Approach,0.2993014031842259,0.35358282923698425,0.0,0.846481724890614
+5,720,12:00,llama3.1-8b,Simulating Safe and Agile Traffic Flow,0.2988612949848175,0.2988612949848175,0.0,1.0
+5,720,12:00,tinyllama,How Damped Oscillators Can Amplify Leader Waves,0.2908122750631034,0.3435541093349457,0.0,0.846481724890614
+5,720,12:00,llama3.1-8b,The Dilemma of Traffic Flow Stability,0.28523164987564087,0.28523164987564087,0.0,1.0
+5,720,12:00,qwen2-7b,Oscillatory Traffic Dynamics and Driver Model Optimization,0.2844308729232943,0.33601537346839905,0.0,0.846481724890614
+5,720,12:00,llama3.1-8b,The Unpredictable Dance of Damping Ratios,0.2786882519721985,0.2786882519721985,0.0,1.0
+5,720,12:00,gemma2-9b,Driver Models and Traffic Waves,0.27154043316841125,0.27154043316841125,0.0,1.0
+5,720,12:00,gemma2-9b,Driver Models and Traffic Waves,0.27154043316841125,0.27154043316841125,0.0,1.0
+5,720,12:00,mistral-7b-v0.3,Building a Simple Driver Model for Traffic Simulation,0.2687904670224616,0.37512731552124023,0.0,0.7165313105737893
+5,720,12:00,tinyllama,How Drivers React to Leader Velocity and Oscillations,0.2683967151378918,0.3745777904987335,0.0,0.7165313105737893
+5,720,12:00,gemma2-9b,Damped Drivers and Traffic Waves,0.25261184573173523,0.25261184573173523,0.0,1.0
+5,720,12:00,gemma2-9b,Damped Drivers and Traffic Waves,0.25261184573173523,0.25261184573173523,0.0,1.0
+5,720,12:00,gemma2-9b,Damped Drivers and Traffic Waves,0.25261184573173523,0.25261184573173523,0.0,1.0
+5,720,12:00,gemma2-9b,Damped Drivers and Traffic Waves,0.25261184573173523,0.25261184573173523,0.0,1.0
+5,720,12:00,llama3.1-8b,The Damping Ratio Conundrum in Traffic Flow,0.2507599819057157,0.29623791575431824,0.0,0.846481724890614
+5,720,12:00,qwen2-7b,Unlocking Traffic Flow Mysteries: Damping Ratios and Oscillations,0.23561656644871978,0.32882940769195557,0.0,0.7165313105737893
+5,720,12:00,qwen2-7b,Unlocking Traffic Flow Mysteries: Damping Ratios and Oscillations,0.23561656644871978,0.32882940769195557,0.0,0.7165313105737893
+5,720,12:00,qwen2-7b,Unlocking Traffic Flow Mysteries: Damping Ratios & Oscillations,0.23238087793212137,0.3243136405944824,0.0,0.7165313105737893
+5,720,12:00,mistral-7b-v0.3,Building a Simple Driver Model for Traffic Flow Simulation,0.22672942709816013,0.3738136291503906,0.0,0.6065306597126334
+5,720,12:00,mistral-7b-v0.3,Building a Simple Driver Model for Traffic Flow Simulation,0.22672942709816013,0.3738136291503906,0.0,0.6065306597126334
+5,720,12:00,mistral-7b-v0.3,Building a Simple Driver Model for Traffic Flow Simulation,0.22672942709816013,0.3738136291503906,0.0,0.6065306597126334
+5,720,12:00,tinyllama,How Damping Ratios Control Oscillations in Traffic Flow Simulations,0.2216038263785057,0.3653629422187805,0.0,0.6065306597126334
+5,720,12:00,mistral-7b-v0.3,Building a Simple Driver Model for Damped Traffic Flow,0.2173829848009699,0.3584039509296417,0.0,0.6065306597126334
+5,720,12:00,mistral-7b-v0.3,Building a Simple Driver Model for Dampened Traffic Flow,0.2145789960761438,0.35378095507621765,0.0,0.6065306597126334
+5,720,12:00,mistral-7b-v0.3,Building a Simple Driver Model for Dampened Traffic Flow,0.2145789960761438,0.35378095507621765,0.0,0.6065306597126334
+5,720,12:00,qwen2-7b,Unlocking Traffic Flow Mysteries: Damping Ratios & Oscillatory Behavior,0.20283592629175132,0.3344199061393738,0.0,0.6065306597126334
+5,720,12:00,qwen2-7b,Unlocking Traffic Flow Mysteries: Damping Ratios & Oscillatory Behavior,0.20283592629175132,0.3344199061393738,0.0,0.6065306597126334
+5,720,12:00,qwen2-7b,Unlocking Traffic Flow Secrets: Damping Ratios & Oscillatory Behavior,0.2007704334563076,0.331014484167099,0.0,0.6065306597126334
+5,720,12:00,qwen2-7b,Unlocking Traffic Flow Secrets: Damping Ratios & Oscillatory Behavior,0.2007704334563076,0.331014484167099,0.0,0.6065306597126334
+5,720,12:00,qwen2-7b,Oscillations in Driver Dynamics: A Simple Model Reveals Counterintuitive Behavior,0.19474488085320604,0.3793112337589264,0.0,0.513417119032592
+5,720,12:00,tinyllama,How Does a Damped Oscillator Feed Amplified Motion into Followers?,0.1922077418072407,0.3743695616722107,0.0,0.513417119032592
+5,720,12:00,tinyllama,How does the dotted oscillator model the behavior of a driver in traffic?,0.1292492259074815,0.41505423188209534,0.0,0.31140322391459774
+6,1018,16:58,gemma2-9b,Damping Traffic Waves: Beyond Simple Damping,0.31008440256118774,0.31008440256118774,0.0,1.0
+6,1018,16:58,gemma2-9b,Damping Traffic Waves: Beyond Simple Damping,0.31008440256118774,0.31008440256118774,0.0,1.0
+6,1018,16:58,tinyllama,Damping Ratios and String Stability,0.3070465922355652,0.3070465922355652,0.0,1.0
+6,1018,16:58,mistral-7b-v0.3,Exploring String Stability: Beyond Classical Damping,0.3022368550300598,0.3022368550300598,0.0,1.0
+6,1018,16:58,llama3.1-8b,The Unseen Dynamics of Traffic Waves,0.2960200011730194,0.2960200011730194,0.0,1.0
+6,1018,16:58,gemma2-9b,"Resonance, Damping, and Traffic Flow",0.2949845790863037,0.2949845790863037,0.0,1.0
+6,1018,16:58,gemma2-9b,"Resonance, Damping, and Traffic Flow",0.2949845790863037,0.2949845790863037,0.0,1.0
+6,1018,16:58,gemma2-9b,"Resonance, Damping, and Traffic Flow",0.2949845790863037,0.2949845790863037,0.0,1.0
+6,1018,16:58,gemma2-9b,"Resonance, Damping, and Traffic Flow",0.2949845790863037,0.2949845790863037,0.0,1.0
+6,1018,16:58,llama3.1-8b,The Unseen Complexity of Traffic Waves,0.28482216596603394,0.28482216596603394,0.0,1.0
+6,1018,16:58,llama3.1-8b,The Hidden Complexity of Traffic Stability,0.28135716915130615,0.28135716915130615,0.0,1.0
+6,1018,16:58,llama3.1-8b,The Hidden Complexity of Traffic Stability,0.28135716915130615,0.28135716915130615,0.0,1.0
+6,1018,16:58,tinyllama,How to Make Cars Stay Calm,0.27820125222206116,0.27820125222206116,0.0,1.0
+6,1018,16:58,tinyllama,How to Make Cars Stay Calm,0.27820125222206116,0.27820125222206116,0.0,1.0
+6,1018,16:58,gemma2-9b,Beyond Damping: String Stability in Traffic,0.27379849553108215,0.27379849553108215,0.0,1.0
+6,1018,16:58,llama3.1-8b,The Dilemma of String Stability,0.2709706723690033,0.2709706723690033,0.0,1.0
+6,1018,16:58,mistral-7b-v0.3,Exploring String Stability: Damping Ratio vs. Anticipation,0.2665679519926868,0.3149128258228302,0.0,0.846481724890614
+6,1018,16:58,mistral-7b-v0.3,Exploring String Stability: Damping Ratio vs. Anticipation,0.2665679519926868,0.3149128258228302,0.0,0.846481724890614
+6,1018,16:58,mistral-7b-v0.3,Exploring String Stability: Damping Ratio vs Anticipation,0.26436653248301206,0.31231215596199036,0.0,0.846481724890614
+6,1018,16:58,mistral-7b-v0.3,Exploring String Stability: Damping Ratio vs Anticipation,0.26436653248301206,0.31231215596199036,0.0,0.846481724890614
+6,1018,16:58,tinyllama,The Ultimate Guide to Traffic Stability,0.2629580795764923,0.2629580795764923,0.0,1.0
+6,1018,16:58,tinyllama,The Strange World of Traffic,0.260829359292984,0.260829359292984,0.0,1.0
+6,1018,16:58,gemma2-9b,Beyond Damping: Unveiling String Stability,0.2584768533706665,0.2584768533706665,0.0,1.0
+6,1018,16:58,gemma2-9b,Beyond Damping: Unveiling String Stability,0.2584768533706665,0.2584768533706665,0.0,1.0
+6,1018,16:58,gemma2-9b,Beyond Damping: Unveiling String Stability,0.2584768533706665,0.2584768533706665,0.0,1.0
+6,1018,16:58,llama3.1-8b,Traffic Waves and String Stability,0.2559070289134979,0.2559070289134979,0.0,1.0
+6,1018,16:58,tinyllama,The Complexity of Driving,0.2554289698600769,0.2554289698600769,0.0,1.0
+6,1018,16:58,tinyllama,The Uniquely Stable Car,0.24900664389133453,0.24900664389133453,0.0,1.0
+6,1018,16:58,tinyllama,The Uniquely Stable Car,0.24900664389133453,0.24900664389133453,0.0,1.0
+6,1018,16:58,mistral-7b-v0.3,Resonant Amplification and String Stability in Oscillating Systems,0.24890639190618208,0.34737685322761536,0.0,0.7165313105737893
+6,1018,16:58,mistral-7b-v0.3,Resonant Amplification and String Stability in Oscillating Systems,0.24890639190618208,0.34737685322761536,0.0,0.7165313105737893
+6,1018,16:58,tinyllama,The Strange World of Drivers,0.24503278732299805,0.24503278732299805,0.0,1.0
+6,1018,16:58,llama3.1-8b,Unraveling Traffic Waves Through Damping and Anticipation,0.24368541415503228,0.2878803014755249,0.0,0.846481724890614
+6,1018,16:58,llama3.1-8b,Unraveling Traffic Waves Through Damping and Anticipation,0.24368541415503228,0.2878803014755249,0.0,0.846481724890614
+6,1018,16:58,llama3.1-8b,Resonance and String Stability in Traffic Waves,0.2358302940454283,0.2786005735397339,0.0,0.846481724890614
+6,1018,16:58,llama3.1-8b,Resonance and String Stability in Traffic Waves,0.2358302940454283,0.2786005735397339,0.0,0.846481724890614
+6,1018,16:58,tinyllama,How to Make Traffic,0.2346348762512207,0.2346348762512207,0.0,1.0
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow",0.22549695723289032,0.31470635533332825,0.0,0.7165313105737893
+6,1018,16:58,mistral-7b-v0.3,"Exploring String Stability: Amplification, Anticipation, and Agility in Oscillators",0.21366857913905823,0.352279931306839,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Amplification, and the Unexpected Complexity of Traffic Stability",0.20137397376350594,0.33200955390930176,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Amplification, and the Surprising Complexity of Traffic Stability",0.2001429785716609,0.3299799859523773,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow Dynamics",0.19580070227659063,0.322820782661438,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow Dynamics",0.19580070227659063,0.322820782661438,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow Dynamics",0.19580070227659063,0.322820782661438,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow Dynamics",0.19580070227659063,0.322820782661438,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow Dynamics",0.19580070227659063,0.322820782661438,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow Dynamics",0.19580070227659063,0.322820782661438,0.0,0.6065306597126334
+6,1018,16:58,qwen2-7b,"Resonance, Damping, and String Stability in Traffic Flow Dynamics",0.19580070227659063,0.322820782661438,0.0,0.6065306597126334
+6,1018,16:58,mistral-7b-v0.3,Exploring String Stability: Damping Ratio vs. Agility & Anticipation,0.19038765665097715,0.31389617919921875,0.0,0.6065306597126334
+6,1018,16:58,mistral-7b-v0.3,Resonant Amplification in Damped Oscillators: String Stability and Unique Driver Parameters,0.16069307315169742,0.36975088715553284,0.0,0.43459820850707825
+7,1495,24:55,gemma2-9b,Wave Dampeners: Smoothing Traffic Flow,0.3282780945301056,0.3282780945301056,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampeners: Smoothing Traffic Flow,0.3282780945301056,0.3282780945301056,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampeners: Smooth Traffic Flow,0.3266927897930145,0.3266927897930145,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampeners: Smooth Traffic Flow,0.3266927897930145,0.3266927897930145,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampeners: Smooth Traffic Flow,0.3266927897930145,0.3266927897930145,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampers: Smooth Traffic Flow,0.32150840759277344,0.32150840759277344,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampers: Smooth Traffic Flow,0.32150840759277344,0.32150840759277344,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampers: Smooth Traffic Flow,0.32150840759277344,0.32150840759277344,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampers: Smooth Traffic Flow,0.32150840759277344,0.32150840759277344,0.0,1.0
+7,1495,24:55,qwen2-7b,Wave Damping Drivers: Solving Traffic Jams,0.31760963797569275,0.31760963797569275,0.0,1.0
+7,1495,24:55,qwen2-7b,Wave Damping Drivers: Solving Traffic Jams,0.31760963797569275,0.31760963797569275,0.0,1.0
+7,1495,24:55,qwen2-7b,Wave Damping Drivers: Solving Traffic Jams,0.31760963797569275,0.31760963797569275,0.0,1.0
+7,1495,24:55,qwen2-7b,Wave Dampening Drivers: Solving Traffic Jams,0.3153846263885498,0.3153846263885498,0.0,1.0
+7,1495,24:55,llama3.1-8b,Damping Traffic Waves with Autonomous Vehicles,0.310783326625824,0.310783326625824,0.0,1.0
+7,1495,24:55,llama3.1-8b,Damping Traffic Waves with Autonomous Vehicles,0.310783326625824,0.310783326625824,0.0,1.0
+7,1495,24:55,gemma2-9b,Wave Dampers: Taming Traffic Jams,0.30328452587127686,0.30328452587127686,0.0,1.0
+7,1495,24:55,tinyllama,How to Solve Traffic Chaos,0.30292394757270813,0.30292394757270813,0.0,1.0
+7,1495,24:55,llama3.1-8b,Taming Traffic Waves with Autonomous Vehicles,0.2988679111003876,0.2988679111003876,0.0,1.0
+7,1495,24:55,llama3.1-8b,Taming Traffic Waves with Autonomous Vehicles,0.2988679111003876,0.2988679111003876,0.0,1.0
+7,1495,24:55,llama3.1-8b,The Wave Dampening Effect,0.29672467708587646,0.29672467708587646,0.0,1.0
+7,1495,24:55,llama3.1-8b,The Wave Dampening Effect,0.29672467708587646,0.29672467708587646,0.0,1.0
+7,1495,24:55,llama3.1-8b,The Wave Dampening Solution,0.2897534966468811,0.2897534966468811,0.0,1.0
+7,1495,24:55,tinyllama,How to Solve Traffic,0.2883622348308563,0.2883622348308563,0.0,1.0
+7,1495,24:55,tinyllama,How to Solve Traffic,0.2883622348308563,0.2883622348308563,0.0,1.0
+7,1495,24:55,tinyllama,How to Solve Traffic,0.2883622348308563,0.2883622348308563,0.0,1.0
+7,1495,24:55,tinyllama,How to Solve Traffic,0.2883622348308563,0.2883622348308563,0.0,1.0
+7,1495,24:55,tinyllama,How to Solve Traffic,0.2883622348308563,0.2883622348308563,0.0,1.0
+7,1495,24:55,tinyllama,How to Solve Traffic,0.2883622348308563,0.2883622348308563,0.0,1.0
+7,1495,24:55,mistral-7b-v0.3,Imagining Wave-Damping Autonomous Vehicles,0.2871602773666382,0.2871602773666382,0.0,1.0
+7,1495,24:55,mistral-7b-v0.3,The Wave Damper Driver: Reducing Traffic Jams,0.2862818877186609,0.3382020890712738,0.0,0.846481724890614
+7,1495,24:55,mistral-7b-v0.3,The Wave Damper Car: Reducing Traffic Jams,0.283380339912644,0.33477431535720825,0.0,0.846481724890614
+7,1495,24:55,llama3.1-8b,Breaking Traffic Waves with Autonomous Vehicles,0.28324976563453674,0.28324976563453674,0.0,1.0
+7,1495,24:55,llama3.1-8b,Breaking Traffic Waves with Autonomous Vehicles,0.28324976563453674,0.28324976563453674,0.0,1.0
+7,1495,24:55,mistral-7b-v0.3,A Single Wise Driver Can Dampen Traffic Oscillations,0.2716837393847633,0.3791652023792267,0.0,0.7165313105737893
+7,1495,24:55,mistral-7b-v0.3,A Single Wise Driver Can Dampen Traffic Oscillations,0.2716837393847633,0.3791652023792267,0.0,0.7165313105737893
+7,1495,24:55,tinyllama,Solving Traffic Chaos with Wave Damping Cars,0.26440124500186646,0.3123531639575958,0.0,0.846481724890614
+7,1495,24:55,mistral-7b-v0.3,A Single Wise Driver Can Heal Traffic Jams,0.25953143598051165,0.36220529675483704,0.0,0.7165313105737893
+7,1495,24:55,mistral-7b-v0.3,A Single Wise Driver Can Solve Traffic Jams,0.2535917382369736,0.3539157807826996,0.0,0.7165313105737893
+7,1495,24:55,qwen2-7b,Wave Damping: Solving Traffic Jams with Smart Drivers,0.247689196970422,0.3456781208515167,0.0,0.7165313105737893
+7,1495,24:55,qwen2-7b,Wave Damping: Solving Traffic Jams with Smart Driving,0.24629922441667534,0.34373825788497925,0.0,0.7165313105737893
+7,1495,24:55,qwen2-7b,Wave Damping: Solving Traffic Jams with Smart Driving,0.24629922441667534,0.34373825788497925,0.0,0.7165313105737893
+7,1495,24:55,qwen2-7b,Wave Dampers: Transforming Traffic Jams into Smooth Flows,0.24541490026439997,0.34250408411026,0.0,0.7165313105737893
+7,1495,24:55,qwen2-7b,Wave Damping: A Driver's Role in Traffic Efficiency,0.2387588726240186,0.3332148492336273,0.0,0.7165313105737893
+7,1495,24:55,qwen2-7b,Wave Dampening: One Driver's Impact on Traffic Flow,0.23820577497434978,0.3324429392814636,0.0,0.7165313105737893
+7,1495,24:55,mistral-7b-v0.3,Wave-Damping Autonomous Vehicles: A Solution for Traffic Jams,0.23673638578961906,0.3303922414779663,0.0,0.7165313105737893
+7,1495,24:55,llama3.1-8b,The Power of Wave Dampening in Traffic Flow,0.2181569301015031,0.3044625222682953,0.0,0.7165313105737893
+7,1495,24:55,mistral-7b-v0.3,Imagining a World of Wise Drivers: Dampening Traffic Jams,0.21596333016481004,0.3560633361339569,0.0,0.6065306597126334
+7,1495,24:55,tinyllama,How to solve traffic jams with a wave dagger car,0.18082367395950955,0.35219642519950867,0.0,0.513417119032592
+7,1495,24:55,mistral-7b-v0.3,The Wave Damper Car: Reducing Traffic Jams One Driver at a Time,0.1271401248962734,0.34560269117355347,0.0,0.36787944117144233
+7,1495,24:55,tinyllama,The Art of Problem Solving: How to Make Traffic Flow Like a Train,0.10438407192821941,0.3352054953575134,0.0,0.31140322391459774
+8,2106,35:06,tinyllama,Brilliant Helps You Build Your Intuition,0.40977707505226135,0.40977707505226135,0.0,1.0
+8,2106,35:06,tinyllama,Brilliant Helps You Build Your Intuition,0.40977707505226135,0.40977707505226135,0.0,1.0
+8,2106,35:06,llama3.1-8b,Discovering Principles through Iterative Systems,0.36926817893981934,0.36926817893981934,0.0,1.0
+8,2106,35:06,qwen2-7b,Empower Your Thinking with Interactive Brilliance,0.36900556087493896,0.36900556087493896,0.0,1.0
+8,2106,35:06,qwen2-7b,Empower Your Thinking with Interactive Brilliance,0.36900556087493896,0.36900556087493896,0.0,1.0
+8,2106,35:06,qwen2-7b,Empower Your Thinking with Interactive Brilliance,0.36900556087493896,0.36900556087493896,0.0,1.0
+8,2106,35:06,qwen2-7b,Empower Your Thinking with Interactive Brilliance,0.36900556087493896,0.36900556087493896,0.0,1.0
+8,2106,35:06,qwen2-7b,Empower Your Thinking with Interactive Brilliance,0.36900556087493896,0.36900556087493896,0.0,1.0
+8,2106,35:06,qwen2-7b,Unlocking Intuition: Interactive Learning with Brilliant,0.3621806502342224,0.3621806502342224,0.0,1.0
+8,2106,35:06,qwen2-7b,Unlocking Intuition: Interactive Learning with Brilliant,0.3621806502342224,0.3621806502342224,0.0,1.0
+8,2106,35:06,tinyllama,Brilliant: Learn for Free with Hands-On Thinking,0.35487039408651117,0.4192298352718353,0.0,0.846481724890614
+8,2106,35:06,llama3.1-8b,Unlocking Intuition through Interactive Learning,0.35096248984336853,0.35096248984336853,0.0,1.0
+8,2106,35:06,llama3.1-8b,Unlocking Intuition through Interactive Learning,0.35096248984336853,0.35096248984336853,0.0,1.0
+8,2106,35:06,llama3.1-8b,Unlocking Intuition through Interactive Learning,0.35096248984336853,0.35096248984336853,0.0,1.0
+8,2106,35:06,llama3.1-8b,Unlocking Intuition through Interactive Learning,0.35096248984336853,0.35096248984336853,0.0,1.0
+8,2106,35:06,llama3.1-8b,Unlocking Intuition through Interactive Learning,0.35096248984336853,0.35096248984336853,0.0,1.0
+8,2106,35:06,llama3.1-8b,Unlocking Intuition through Interactive Learning,0.35096248984336853,0.35096248984336853,0.0,1.0
+8,2106,35:06,llama3.1-8b,Unlocking Intuition through Interactive Learning,0.35096248984336853,0.35096248984336853,0.0,1.0
+8,2106,35:06,mistral-7b-v0.3,Explore Coding Intuitively with BrillianT's Interactive Lessons,0.345321197102902,0.4079487919807434,0.0,0.846481724890614
+8,2106,35:06,tinyllama,How to Build Intuition for Better Thinking,0.3428008563262522,0.4049713611602783,0.0,0.846481724890614
+8,2106,35:06,tinyllama,How to Build Intuition for Better Thinking,0.3428008563262522,0.4049713611602783,0.0,0.846481724890614
+8,2106,35:06,llama3.1-8b,Hands-on Problem Sololving with Brilliant,0.34237685799598694,0.34237685799598694,0.0,1.0
+8,2106,35:06,qwen2-7b,Empower Your Thinking with Interactive Brilliant Lessons,0.3407610417553721,0.40256160497665405,0.0,0.846481724890614
+8,2106,35:06,mistral-7b-v0.3,Master Coding Intuitively with BrillianT's Interactive Lessons,0.3375261932232617,0.39874008297920227,0.0,0.846481724890614
+8,2106,35:06,gemma2-9b,Unlock Your Thinking Power with Brilliant,0.337452232837677,0.337452232837677,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlock Your Thinking Power with Brilliant,0.337452232837677,0.337452232837677,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,gemma2-9b,Unlocking Intuition Through Code,0.3268255889415741,0.3268255889415741,0.0,1.0
+8,2106,35:06,mistral-7b-v0.3,Explore Iterative Systems with BrillianT's Thinking Encode Course,0.3241518666797748,0.4523903727531433,0.0,0.7165313105737893
+8,2106,35:06,mistral-7b-v0.3,Explore Iterative Systems with BrillianT's Thinking Encode Course,0.3241518666797748,0.4523903727531433,0.0,0.7165313105737893
+8,2106,35:06,mistral-7b-v0.3,Explore Iterative Systems with BrillianT's Thinking Encode Course,0.3241518666797748,0.4523903727531433,0.0,0.7165313105737893
+8,2106,35:06,mistral-7b-v0.3,Explore Iterative Systems with BrillianT's Thinking Encode Course,0.3241518666797748,0.4523903727531433,0.0,0.7165313105737893
+8,2106,35:06,mistral-7b-v0.3,Explore Iterative Systems with Brillian't Interactive Lessons,0.3210795228802177,0.37931063771247864,0.0,0.846481724890614
+8,2106,35:06,llama3.1-8b,Unleashing Your Inner Problem,0.3200465142726898,0.3200465142726898,0.0,1.0
+8,2106,35:06,qwen2-7b,Unlock Your Thinking Skills with Interactive Brilliance,0.3172561256091002,0.3747938275337219,0.0,0.846481724890614
+8,2106,35:06,mistral-7b-v0.3,Explore Coding Intuitively with BrillianT,0.315186470746994,0.315186470746994,0.0,1.0
+8,2106,35:06,mistral-7b-v0.3,Explore Iterative Systems with Brillian's Thinking Encode Course,0.3076784358363864,0.42939984798431396,0.0,0.7165313105737893
+8,2106,35:06,mistral-7b-v0.3,Explore Iterative Systems with Brillian's Thinking Encode Course,0.3076784358363864,0.42939984798431396,0.0,0.7165313105737893
+8,2106,35:06,tinyllama,Brilliant Teaches Code with a Brilliant Tutor,0.291331625808493,0.34416764974594116,0.0,0.846481724890614
+8,2106,35:06,qwen2-7b,Master Intuition & Code with Engaging Brilliant Lessons,0.2642688654419755,0.36881691217422485,0.0,0.7165313105737893
+8,2106,35:06,tinyllama,How to Build Intuition by Learning from Iterative Systems,0.2530304190811487,0.41717663407325745,0.0,0.6065306597126334
+8,2106,35:06,tinyllama,Brilliant Teaches Code,0.24331171810626984,0.24331171810626984,0.0,1.0
+8,2106,35:06,tinyllama,How to Build Intuition for Thinking Like a System,0.23608774534197438,0.38924288749694824,0.0,0.6065306597126334
+8,2106,35:06,tinyllama,Brilliant Transcript - How to Build Intuition Like a Pro,0.19401428763083922,0.3778882324695587,0.0,0.513417119032592

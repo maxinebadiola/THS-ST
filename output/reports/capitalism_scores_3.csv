@@ -1,0 +1,452 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+4,310,05:10,tinyllama,An Eco-Socialist World Must Supply What Capitalist Systems Are Low To Provide For Fear Of Workers No Longer Needing To Deflate Their Wages Just To Live,0.01920512571681683,0.5383508801460266,0.0,0.03567399334725241
+4,310,05:10,tinyllama,An Eco-Socialist World Must Provide What Capitalist Systems Are Low To Provide For Fear Of Workers No Longer Needing To Deflate Their Wages Just To Live,0.019195350951598494,0.5380768775939941,0.0,0.03567399334725241
+4,310,05:10,tinyllama,An Eco-Socialist World Must Provide What Capitalist Systems Are Low To Provide For Fear Of Workers No Longer Needing To Deflate Their Wages Just To Live,0.019195350951598494,0.5380768775939941,0.0,0.03567399334725241
+4,310,05:10,tinyllama,An Eco-Socialist World Must Provide What Capitalist Systems Are Low To Provide For Fear Of Workers No Longer Needing To Deflate Their Wages Just To Live,0.019195350951598494,0.5380768775939941,0.0,0.03567399334725241
+5,430,07:10,tinyllama,A Better World for All People and the Planet: Transforming Work and Why We Do It,0.08388271031603617,0.44411617517471313,0.0,0.18887560283756186
+8,786,13:06,tinyllama,"Fiscal Speculation: Global Military Budgets Eclipsed by Funding for Climate Action, Healthcare, Education, and Restorative Justice",0.08470677464542828,0.44847917556762695,0.0,0.18887560283756186
+4,310,05:10,tinyllama,The Eco-Socialist World Must Provide What Capitalist Systems Are Low To Provide For Workers Needs,0.10270227722496071,0.4602796733379364,0.0,0.22313016014842982
+8,786,13:06,tinyllama,"Fiscal Fiscality: Global Military Budgets Eclipsing Funding for Climate Action, Healthcare, Education, and Restorative Justice",0.09966752268265111,0.44667884707450867,0.0,0.22313016014842982
+1,0,00:00,tinyllama,Building a Better Future: An Eco-Socialist Vision for the Transition Away From Fossil Capitalism,0.11334489373730929,0.4299928843975067,0.0,0.2635971381157267
+5,430,07:10,tinyllama,The Future We Want - A Transformative Plan for a Just and Sustainable Society,0.09974594995900743,0.3784030079841614,0.0,0.2635971381157267
+8,786,13:06,tinyllama,"Encourage Care by Helping Zero-Carbon Communities, Social Programs, and Repairive Justice Initiatives Thrive",0.13356763716083594,0.42892181873321533,0.0,0.31140322391459774
+8,786,13:06,tinyllama,"Encourage Care by Helping Zero-Carbon Communities, Social Programs, and Repairing Indigenously Owned Lands",0.1315320900796841,0.4223851263523102,0.0,0.31140322391459774
+1,0,00:00,tinyllama,How to Build a Better World: An Eco-Socialist Vision for the Future,0.1556034242695961,0.42297396063804626,0.0,0.36787944117144233
+3,193,03:13,mistral-7b-v0.3,"Embracing Eco-Socialism: Towards a World of Worker Control, Universal Services, & Harmony",0.16286635678477704,0.44271665811538696,0.0,0.36787944117144233
+5,430,07:10,mistral-7b-v0.3,"Universal Access to Community Spaces, Food, and Transit in an Eco-Socialist Society",0.17089579178078135,0.4645429253578186,0.0,0.36787944117144233
+5,430,07:10,mistral-7b-v0.3,Universal Access to Community Spaces & Free Transit in an Eco-Socialist Society,0.16399833292855648,0.44579368829727173,0.0,0.36787944117144233
+5,430,07:10,tinyllama,The Transformation of Work: A Revolutionary Approach to Building a Better World,0.1361231682237688,0.37002113461494446,0.0,0.36787944117144233
+6,533,08:53,qwen2-7b,Exploitation at Heart: Capitalism's Dark Side & the Path to Eco-Socialist Alternatives,0.13816396614097196,0.37556859850883484,0.0,0.36787944117144233
+6,533,08:53,qwen2-7b,Exploitation at Heart: Capitalism's Dark Side and the Path to Dignified Work,0.1380984801896044,0.37539058923721313,0.0,0.36787944117144233
+8,786,13:06,tinyllama,"Encourage Care by Helping Zero-Carbon Communities, Social Programs, and Indigenous Sovereigty Thrive",0.15429235671185576,0.4194101095199585,0.0,0.36787944117144233
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action Steps & Personal Data Security,0.1435281897946543,0.3901500701904297,0.0,0.36787944117144233
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action Steps & Personal Data Security,0.1435281897946543,0.3901500701904297,0.0,0.36787944117144233
+1,0,00:00,tinyllama,How to Build a World Free of Capitalist Exploitation and Destruction,0.1988255506620288,0.45749279856681824,0.0,0.43459820850707825
+1,0,00:00,mistral-7b-v0.3,Imagining an Eco-Socialist Future: A Spark of Hope in the Dark,0.18795967326439444,0.43249067664146423,0.0,0.43459820850707825
+2,106,01:46,qwen2-7b,Utopian Vision & Eco-Socialist Politics: Fighting Capitalism for a Zero-Carbon Future,0.17678863294847147,0.40678638219833374,0.0,0.43459820850707825
+2,106,01:46,qwen2-7b,Utopian Vision & Eco-Socialist Politics: Fighting Capitalism for a Zero-Carbon Future,0.17678863294847147,0.40678638219833374,0.0,0.43459820850707825
+6,533,08:53,qwen2-7b,Exploitation's Grip: Capitalism's Dark Heart and the Quest for Dignified Work,0.1622762523102257,0.3733937442302704,0.0,0.43459820850707825
+7,626,10:26,qwen2-7b,Crafting a Culture of Sustainability: From Consumerism to Creativity in Eco-Socialism,0.16695916451304296,0.3841690123081207,0.0,0.43459820850707825
+8,786,13:06,tinyllama,Transitioning to Ecological Socialism: A Plan Economy for a Just Future,0.15258459353697582,0.35109347105026245,0.0,0.43459820850707825
+9,1059,17:39,tinyllama,How to Build Power Within Capitalism to Break Away from It,0.16910428070195482,0.3891048729419708,0.0,0.43459820850707825
+1,0,00:00,qwen2-7b,Igniting Hope: Imagining & Building an Eco-Socialist World Beyond Capitalism,0.22742246365391022,0.4429584741592407,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,Igniting Hope: Imagining & Building an Eco-Socialist World Beyond Capitalism,0.22742246365391022,0.4429584741592407,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,Imagining an Eco-Socialist Future: A Pathway to Hope and Liberation,0.22204744396472686,0.4324893653392792,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,Igniting Hope: Imagining & Building an Eco-Socialist World Amidst Uncertainty,0.22050699822343925,0.42948898673057556,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,Imagining an Eco-Socialist Future: A Spark of Hope for Change,0.21708210915300166,0.42281821370124817,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,Igniting Hope: Building an Eco-Socialist Vision for a Brighter Future,0.21075795173707298,0.4105004370212555,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,Illuminating Hope: Crafting an Eco-Socialist Vision for a Brighter Future,0.20888857991508628,0.4068593978881836,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,Illuminating Hope: Crafting an Eco-Socialist Vision for a Brighter Future,0.20888857991508628,0.4068593978881836,0.0,0.513417119032592
+1,0,00:00,qwen2-7b,Illuminating Hope: Crafting an Eco-Socialist Vision for a Brighter Future,0.20888857991508628,0.4068593978881836,0.0,0.513417119032592
+2,106,01:46,tinyllama,Life Under Capitalism: A System Based on Profit and Death,0.20981117036779276,0.40865635871887207,0.0,0.513417119032592
+3,193,03:13,mistral-7b-v0.3,Embracing Eco-Socialism: Towards a World of Basic Services and Harmony,0.2081350198579458,0.405391663312912,0.0,0.513417119032592
+3,193,03:13,mistral-7b-v0.3,Embracing Eco-Socialism: A World for All & Harmony with Nature,0.20724659658848354,0.40366125106811523,0.0,0.513417119032592
+3,193,03:13,mistral-7b-v0.3,"Eco-Socialism: A World for All, by the Few, and Nature",0.2068966009998009,0.4029795527458191,0.0,0.513417119032592
+3,193,03:13,mistral-7b-v0.3,A World Reimagined: Eco-Socialism as a Pathway to Sustainable Living,0.18824414963761846,0.3666495382785797,0.0,0.513417119032592
+5,430,07:10,qwen2-7b,"Free Access to Nature, Communities, and Services: The Eco-Socialist Vision",0.22120619374763448,0.4308508336544037,0.0,0.513417119032592
+5,430,07:10,qwen2-7b,"Free Access to Nature, Culture, and Community: The Eco-Socialist Vision",0.21607211925977077,0.4208510220050812,0.0,0.513417119032592
+5,430,07:10,qwen2-7b,"Free Access to Nature, Culture, and Community: The Eco-Socialist Vision",0.21607211925977077,0.4208510220050812,0.0,0.513417119032592
+5,430,07:10,qwen2-7b,"Free Access to Nature, Culture, and Community: The Eco-Socialist Vision",0.21607211925977077,0.4208510220050812,0.0,0.513417119032592
+5,430,07:10,qwen2-7b,"Free Access to Nature, Culture, and Community: The Eco-Socialist Vision",0.21607211925977077,0.4208510220050812,0.0,0.513417119032592
+5,430,07:10,tinyllama,The Eco-Socialist Economy: A Transformative Path to a Better World,0.20576085200263616,0.40076741576194763,0.0,0.513417119032592
+5,430,07:10,mistral-7b-v0.3,Universal Access & Sustainable Living: Transforming Work & Food Systems,0.19805729210724046,0.38576292991638184,0.0,0.513417119032592
+7,626,10:26,tinyllama,"How to Build a Fairer, Sustainable, and Efficient Energy System",0.19306219680675124,0.37603381276130676,0.0,0.513417119032592
+8,786,13:06,qwen2-7b,"Eco-Socialism: Redirecting Resources, Repairing Harm, Planning for a Sustainable Future",0.2062953473206331,0.4018084704875946,0.0,0.513417119032592
+8,786,13:06,qwen2-7b,"Eco-Socialism: Redirecting Resources, Repairing Harm, Planning for a Sustainable Future",0.2062953473206331,0.4018084704875946,0.0,0.513417119032592
+8,786,13:06,qwen2-7b,"Eco-Socialism: Redirecting Resources, Repairing Harm, Planning for a Sustainable Future",0.2062953473206331,0.4018084704875946,0.0,0.513417119032592
+8,786,13:06,mistral-7b-v0.3,From Violence to Care: Eco-Socialist Planning for Repair and Renewal,0.18585305885142298,0.36199232935905457,0.0,0.513417119032592
+8,786,13:06,mistral-7b-v0.3,From Militarism to Care: Eco-Socialist Planning for a Just Future,0.18509845832475244,0.3605225682258606,0.0,0.513417119032592
+8,786,13:06,mistral-7b-v0.3,From Militarism to Care: Eco-Socialist Planning for a Just Future,0.18509845832475244,0.3605225682258606,0.0,0.513417119032592
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards Eco-Socialist Liberation: Steps Towards a Thriving Planet,0.2006316891429952,0.3907771706581116,0.0,0.513417119032592
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards Eco-Socialist Liberation: Steps Towards a Thriving Planet,0.2006316891429952,0.3907771706581116,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Building Power Through Action,0.19755358244651508,0.3847818374633789,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action for Transitional Demands,0.1853357159796494,0.3609846830368042,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action for Transitional Demands,0.1853357159796494,0.3609846830368042,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action for Transitional Demands,0.1853357159796494,0.3609846830368042,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action for Transitional Demands,0.1853357159796494,0.3609846830368042,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action for Transitional Demands,0.1853357159796494,0.3609846830368042,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action for Transitional Demands,0.1853357159796494,0.3609846830368042,0.0,0.513417119032592
+9,1059,17:39,qwen2-7b,From Fossil Fascism to Eco-Socialist Liberation: Action for Transitional Demands,0.1853357159796494,0.3609846830368042,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,Envisioning an Eco-Socialist Future: Hope as a Revolutionary Act,0.25411082293155585,0.41895791888237,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,Envisioning an Eco-Socialist Future: Hope as a Revolutionary Act,0.25411082293155585,0.41895791888237,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,Imagining an Eco-Socialist Future: Hope as a Revolutionary Act,0.2537138192546863,0.41830337047576904,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,Envisioning an Eco-Socialist Future: Hope as a Revolutionary Tool,0.25356373404187166,0.418055921792984,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,Envisioning an Eco-Socialist Future: Hope as a Revolutionary Tool,0.25356373404187166,0.418055921792984,0.0,0.6065306597126334
+2,106,01:46,tinyllama,The Laboratory World: A Vision for a Zero-Carbon Future,0.23893571302895605,0.3939383924007416,0.0,0.6065306597126334
+2,106,01:46,tinyllama,The Laboratory World: A Vision for a Zero-Carbon Future,0.23893571302895605,0.3939383924007416,0.0,0.6065306597126334
+2,106,01:46,tinyllama,Capitalism's Deadly Legacy: A Brief History of Workplace Injuries,0.20543200460855693,0.3387001156806946,0.0,0.6065306597126334
+3,193,03:13,mistral-7b-v0.3,"Towards Eco-Socialism: A World Built on Needs, Not Profits",0.24629173221114325,0.4060664176940918,0.0,0.6065306597126334
+3,193,03:13,mistral-7b-v0.3,A Vision for Eco-Socialism: Worker Empowerment & Sustainable Living,0.23887009706815668,0.39383020997047424,0.0,0.6065306597126334
+3,193,03:13,tinyllama,Eco-Socialism: Building a Better World Through Free Basic Services,0.2358237450368849,0.38880762457847595,0.0,0.6065306597126334
+3,193,03:13,tinyllama,Eco-Socialism: Building a Better World Through Free Basic Services,0.2358237450368849,0.38880762457847595,0.0,0.6065306597126334
+3,193,03:13,tinyllama,Eco-Socialist Manifesto: A Radical Vision for a Better World,0.2300729308593439,0.37932613492012024,0.0,0.6065306597126334
+4,310,05:10,qwen2-7b,"Eco-Socialism: Unleashing Access to Sustainable, Free Goods & Services",0.24926943150987618,0.4109758138656616,0.0,0.6065306597126334
+4,310,05:10,mistral-7b-v0.3,Universal Services & Green Homes in an Eco-Socialist World,0.24915775784436145,0.41079169511795044,0.0,0.6065306597126334
+4,310,05:10,mistral-7b-v0.3,Universal Services & Green Homes in an Eco-Socialist World,0.24915775784436145,0.41079169511795044,0.0,0.6065306597126334
+4,310,05:10,mistral-7b-v0.3,Universal Services & Green Homes in an Eco-Socialist World,0.24915775784436145,0.41079169511795044,0.0,0.6065306597126334
+4,310,05:10,mistral-7b-v0.3,Universal Services & Green Homes in an Eco-Socialist World,0.24915775784436145,0.41079169511795044,0.0,0.6065306597126334
+4,310,05:10,qwen2-7b,"Eco-Socialism: A World of Abundant, Accessible, and Sustainable Services",0.24835915918096868,0.40947502851486206,0.0,0.6065306597126334
+4,310,05:10,tinyllama,The Eco-Socialist World: A Transition Towards Zero Carbon Living,0.2350635759968143,0.3875543177127838,0.0,0.6065306597126334
+5,430,07:10,mistral-7b-v0.3,Universal Access to Community Spaces and Sustainable Food Systems,0.2571112980183348,0.4239048659801483,0.0,0.6065306597126334
+5,430,07:10,tinyllama,A Better World for All People and the Planet,0.2549797373215353,0.4203905165195465,0.0,0.6065306597126334
+5,430,07:10,qwen2-7b,"Accessibility, Equity, and Transformation: A Free World for All",0.24929600326259657,0.41101962327957153,0.0,0.6065306597126334
+5,430,07:10,mistral-7b-v0.3,Universal Access to Community Life & Sustainable Food Systems,0.24554320412940728,0.40483230352401733,0.0,0.6065306597126334
+5,430,07:10,mistral-7b-v0.3,"Accessible, Green, and Just: A Vision for Universal Services",0.2412953750506391,0.3978288173675537,0.0,0.6065306597126334
+5,430,07:10,mistral-7b-v0.3,Universal Access & Sustainable Living in an Eco-Socialist Society,0.240482713241929,0.3964889645576477,0.0,0.6065306597126334
+5,430,07:10,qwen2-7b,"Accessibility, Equity, and Ecological Transformation: A Free Society's Blueprint",0.24018230782801037,0.3959936797618866,0.0,0.6065306597126334
+5,430,07:10,mistral-7b-v0.3,Universal Access & Sustainable Living: A Vision for Eco-Socialism,0.23314907217529815,0.38439783453941345,0.0,0.6065306597126334
+5,430,07:10,mistral-7b-v0.3,Universal Access & Sustainable Living: A Vision for Eco-Socialism,0.23314907217529815,0.38439783453941345,0.0,0.6065306597126334
+5,430,07:10,tinyllama,The Future of Work: A Transformative Agenda for Capitalism,0.2122529916079066,0.3499460220336914,0.0,0.6065306597126334
+5,430,07:10,tinyllama,Why We Work: The Case for Democratizing Our Jobs,0.20181915003969508,0.3327435255050659,0.0,0.6065306597126334
+6,533,08:53,mistral-7b-v0.3,From Exploitation to Empowerment: A Shift Towards Worker-Owned Eco-Socialism,0.22997152437447219,0.37915894389152527,0.0,0.6065306597126334
+6,533,08:53,qwen2-7b,Capital Exploitation vs. Worker Empowerment: A Path to Eco-Socialism,0.22921768194219214,0.3779160678386688,0.0,0.6065306597126334
+6,533,08:53,mistral-7b-v0.3,From Exploitation to Empowerment: A Vision of Worker-Owned Eco-Socialism,0.2279535895535913,0.3758319318294525,0.0,0.6065306597126334
+6,533,08:53,tinyllama,Eco-Socialism: A New Economic Model for the 21st Century,0.21142275990556095,0.34857720136642456,0.0,0.6065306597126334
+7,626,10:26,mistral-7b-v0.3,A World Without Bullshit Jobs and Consumerism: Towards Eco-Socialism,0.24838676126695783,0.40952053666114807,0.0,0.6065306597126334
+7,626,10:26,qwen2-7b,Cultivating a Culture of Sustainability: From Consumerism to Creativity,0.22614896987138627,0.37285661697387695,0.0,0.6065306597126334
+7,626,10:26,tinyllama,The Need for a Fair Share of Energy Production,0.21107363961165493,0.3480015993118286,0.0,0.6065306597126334
+7,626,10:26,tinyllama,The Need for a Fair Share of Energy Production,0.21107363961165493,0.3480015993118286,0.0,0.6065306597126334
+8,786,13:06,mistral-7b-v0.3,From Militarized Capitalism to Eco-Socialism: Planning a Just Future,0.22114653916740315,0.3646090030670166,0.0,0.6065306597126334
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards an Eco-Socialist Future: Steps Towards Liberation,0.23352969897600123,0.38502538204193115,0.0,0.6065306597126334
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards an Eco-Socialist Future: Steps Towards Liberation,0.23352969897600123,0.38502538204193115,0.0,0.6065306597126334
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards an Eco-Socialist Future: Steps Towards Liberation,0.23352969897600123,0.38502538204193115,0.0,0.6065306597126334
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards an Eco-Socialist Future: Steps Towards Liberation,0.23352969897600123,0.38502538204193115,0.0,0.6065306597126334
+9,1059,17:39,tinyllama,Transitioning Towards a Good Life on a Thriving Planet,0.23328422659372702,0.38462066650390625,0.0,0.6065306597126334
+9,1059,17:39,tinyllama,How to Take Back Control of Your Personal Information,0.21110230818295736,0.3480488657951355,0.0,0.6065306597126334
+9,1059,17:39,tinyllama,How to Take Back Control of Your Personal Information,0.21110230818295736,0.3480488657951355,0.0,0.6065306597126334
+9,1059,17:39,tinyllama,How to Take Back Control of Your Personal Information,0.21110230818295736,0.3480488657951355,0.0,0.6065306597126334
+1,0,00:00,tinyllama,Transforming Capitalism to Build a Zero-Carbon Laboratory World,0.2976773856781593,0.41544225811958313,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Envisioning an Eco-Socialist Future: Hope as Revolutionary Act,0.2934397962493505,0.4095282256603241,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Imagining an Eco-Socialist Future: Hope as Revolutionary Act,0.29014019432147614,0.4049232602119446,0.0,0.7165313105737893
+2,106,01:46,tinyllama,"The Future of Work: A Zero-Carbon, Laboratory World",0.28716485739534764,0.4007708430290222,0.0,0.7165313105737893
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Case for Eco-Socialism,0.2815098551409948,0.3928786516189575,0.0,0.7165313105737893
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Case for Eco-Socialism,0.2815098551409948,0.3928786516189575,0.0,0.7165313105737893
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Political Systems,0.2753064318280421,0.38422107696533203,0.0,0.7165313105737893
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Political Systems,0.2753064318280421,0.38422107696533203,0.0,0.7165313105737893
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Political Systems,0.2753064318280421,0.38422107696533203,0.0,0.7165313105737893
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Political Systems,0.2753064318280421,0.38422107696533203,0.0,0.7165313105737893
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Political Systems,0.2753064318280421,0.38422107696533203,0.0,0.7165313105737893
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Political Systems,0.2753064318280421,0.38422107696533203,0.0,0.7165313105737893
+2,106,01:46,tinyllama,The Future of Work: A Zero-Carbon Laboratory World,0.27296937484278855,0.3809594511985779,0.0,0.7165313105737893
+2,106,01:46,llama3.1-8b,A World Beyond Harm: The Path to Sustainability,0.23715300812640291,0.33097368478775024,0.0,0.7165313105737893
+3,193,03:13,mistral-7b-v0.3,A Vision for Eco-Socialism: Worker-Led Revolution for All,0.3003637989642732,0.4191914498806,0.0,0.7165313105737893
+3,193,03:13,tinyllama,Eco-Socialism: A Radical Vision for a Better World,0.27671818576484974,0.38619133830070496,0.0,0.7165313105737893
+3,193,03:13,tinyllama,Eco-Socialism: A Radical Vision for a Better World,0.27671818576484974,0.38619133830070496,0.0,0.7165313105737893
+3,193,03:13,tinyllama,Eco-Socialism: A Radical Vision for a Better World,0.27671818576484974,0.38619133830070496,0.0,0.7165313105737893
+3,193,03:13,tinyllama,Eco-Socialism: A Radical Vision for a Better World,0.27671818576484974,0.38619133830070496,0.0,0.7165313105737893
+3,193,03:13,tinyllama,Eco-Socialism: A Radical Vision for a Better World,0.27671818576484974,0.38619133830070496,0.0,0.7165313105737893
+4,310,05:10,qwen2-7b,"Eco-Socialism: Accessible, Green, and Inclusive Services for All",0.2929164878441622,0.40879788994789124,0.0,0.7165313105737893
+4,310,05:10,mistral-7b-v0.3,Universal Services & Green Homes: Cornerstones of Eco-Socialism,0.2872131821697271,0.40083828568458557,0.0,0.7165313105737893
+4,310,05:10,mistral-7b-v0.3,Universal Services & Green Homes: The Eco-Socialist Vision,0.2813472421684367,0.3926517069339752,0.0,0.7165313105737893
+4,310,05:10,tinyllama,The Eco-Socialist World: A New Economy for All,0.2709019799215486,0.37807416915893555,0.0,0.7165313105737893
+5,430,07:10,qwen2-7b,"Free Access to Nature, Communities, and Sustainable Services",0.28527015467490585,0.3981265723705292,0.0,0.7165313105737893
+5,430,07:10,qwen2-7b,"Free Access to Nature, Community, and Sustainable Living",0.2843294338239402,0.39681369066238403,0.0,0.7165313105737893
+5,430,07:10,qwen2-7b,"Free Access to Nature, Community, and Sustainable Living",0.2843294338239402,0.39681369066238403,0.0,0.7165313105737893
+5,430,07:10,tinyllama,The Future of Work: Transforming Capitalism for All,0.26609807453315454,0.37136977910995483,0.0,0.7165313105737893
+6,533,08:53,tinyllama,Eco-Socialism: A New Model for Workers and Communities,0.28160490311746966,0.39301130175590515,0.0,0.7165313105737893
+6,533,08:53,mistral-7b-v0.3,Worker Empowerment through Eco-Socialism: A Future Beyond Exploitation,0.26825722886911313,0.3743831217288971,0.0,0.7165313105737893
+6,533,08:53,mistral-7b-v0.3,Worker Empowerment through Eco-Socialism: A Future Beyond Exploitation,0.26825722886911313,0.3743831217288971,0.0,0.7165313105737893
+6,533,08:53,mistral-7b-v0.3,Worker Empowerment through Eco-Socialism: A Future Beyond Exploitation,0.26825722886911313,0.3743831217288971,0.0,0.7165313105737893
+6,533,08:53,mistral-7b-v0.3,Worker Empowerment through Eco-Socialism: A Future Beyond Exploitation,0.26825722886911313,0.3743831217288971,0.0,0.7165313105737893
+6,533,08:53,mistral-7b-v0.3,Worker Empowerment through Eco-Socialism: A Future Beyond Exploitation,0.26825722886911313,0.3743831217288971,0.0,0.7165313105737893
+6,533,08:53,llama3.1-8b,The Unpaid Labor Trap: A Path to Eco-Socialism,0.2670196619339019,0.3726559579372406,0.0,0.7165313105737893
+6,533,08:53,mistral-7b-v0.3,Worker Empowerment in Eco-Socialism: A World Beyond Exploitation,0.26574282444628955,0.37087398767471313,0.0,0.7165313105737893
+6,533,08:53,qwen2-7b,Unveiling Capitalism's Exploitation: Surplus Labor and Its Consequences,0.2643727754517546,0.3689619302749634,0.0,0.7165313105737893
+6,533,08:53,tinyllama,Eco-Socialism: A New Economic Model for Our Time,0.2552242742516904,0.3561941683292389,0.0,0.7165313105737893
+6,533,08:53,tinyllama,A New Economic Model for a Sustainable Future,0.24165665074301232,0.3372590243816376,0.0,0.7165313105737893
+7,626,10:26,mistral-7b-v0.3,"Imagining an Eco-Socialist World: Art, Energy, and Anti-Oppression",0.2910373310520227,0.40617531538009644,0.0,0.7165313105737893
+7,626,10:26,mistral-7b-v0.3,"Imagining an Eco-Socialist World: Art, Energy, and Anti-Racism",0.2910030787594445,0.4061275124549866,0.0,0.7165313105737893
+7,626,10:26,mistral-7b-v0.3,A World Beyond Consumerism: Towards an Eco-Socialist Culture,0.2855454542733588,0.39851078391075134,0.0,0.7165313105737893
+7,626,10:26,qwen2-7b,"Cultivating a Culture of Creativity, Sustainability, and Justice",0.2813601188095992,0.392669677734375,0.0,0.7165313105737893
+7,626,10:26,tinyllama,Creating a Culture of Use Instead of Profits,0.27932622878053837,0.38983115553855896,0.0,0.7165313105737893
+7,626,10:26,mistral-7b-v0.3,A World Beyond Consumerism: Eco-Socialism & Cultural Transformation,0.27606623907381894,0.3852814733982086,0.0,0.7165313105737893
+7,626,10:26,mistral-7b-v0.3,Towards a Culture-Centric Eco-Socialism: A World Beyond Consumerism,0.272778958575382,0.3806937038898468,0.0,0.7165313105737893
+7,626,10:26,llama3.1-8b,Reimagining Culture and Economy for a Sustainable Future,0.251868660002474,0.35151103138923645,0.0,0.7165313105737893
+7,626,10:26,llama3.1-8b,Reimagining Culture and Economy for a Sustainable Future,0.251868660002474,0.35151103138923645,0.0,0.7165313105737893
+7,626,10:26,tinyllama,The Need for a Fair Share of Energy,0.24004333359570224,0.3350074589252472,0.0,0.7165313105737893
+8,786,13:06,qwen2-7b,Eco-Socialism: Redirecting Global Resources Toward Care and Reparation,0.29658596755242783,0.413919061422348,0.0,0.7165313105737893
+8,786,13:06,qwen2-7b,Eco-Socialism: Redirecting Global Resources Toward Care and Reparation,0.29658596755242783,0.413919061422348,0.0,0.7165313105737893
+8,786,13:06,qwen2-7b,Eco-Socialism: Redirecting Global Resources Toward Care and Reparation,0.29658596755242783,0.413919061422348,0.0,0.7165313105737893
+8,786,13:06,qwen2-7b,Eco-Socialism: Redirecting Global Resources Toward Care and Reparation,0.29658596755242783,0.413919061422348,0.0,0.7165313105737893
+8,786,13:06,qwen2-7b,Eco-Socialism: Redirecting Global Resources Toward Care and Reparation,0.29658596755242783,0.413919061422348,0.0,0.7165313105737893
+8,786,13:06,qwen2-7b,Eco-Socialism: Redirecting Global Resources Toward Care and Reparation,0.29658596755242783,0.413919061422348,0.0,0.7165313105737893
+8,786,13:06,mistral-7b-v0.3,"From Violence to Care: Eco-Socialism, Planning, and Reparations",0.2905394983232968,0.4054805338382721,0.0,0.7165313105737893
+8,786,13:06,mistral-7b-v0.3,Eco-Socialist Planning: A Pathway to Repair and Renewal,0.2648973437604729,0.3696940243244171,0.0,0.7165313105737893
+8,786,13:06,mistral-7b-v0.3,From Violence to Care: Eco-Socialism's Blueprint for Repair,0.26306390651846434,0.36713525652885437,0.0,0.7165313105737893
+8,786,13:06,mistral-7b-v0.3,From Violence to Care: A Path Towards Eco-Socialism,0.2616338519490261,0.3651394546031952,0.0,0.7165313105737893
+8,786,13:06,mistral-7b-v0.3,From Violence to Care: Building an Eco-Socialist Future,0.258013444415539,0.3600867688655853,0.0,0.7165313105737893
+8,786,13:06,llama3.1-8b,Building a Planned Economy for a Livable Future,0.2369988087469095,0.3307584822177887,0.0,0.7165313105737893
+9,1059,17:39,mistral-7b-v0.3,Fighting for an Eco-Socialist Future: Steps Towards Liberation,0.2748756088836744,0.3836198151111603,0.0,0.7165313105737893
+9,1059,17:39,mistral-7b-v0.3,Stealing Power from Capitalism: Building a Sustainable Future,0.2519706267712153,0.3516533374786377,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Illuminating Hope: Crafting a Bright Eco-Socialist Future,0.3378066431303145,0.3990713953971863,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Illuminating Hope: Crafting a Bright Eco-Socialist Future,0.3378066431303145,0.3990713953971863,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Illuminating Hope: Crafting a Brighter Eco-Socialist Tomorrow,0.32655895452647954,0.3857838213443756,0.0,0.846481724890614
+1,0,00:00,tinyllama,How to Build a Zero-Carbon Laboratory World,0.32616659710951523,0.3853203058242798,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Hope in the Face of Climate Chaos,0.30162106221124846,0.3563231825828552,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Envisioning a Zero-Carbon Utopia: The Eco-Socialist Solution,0.3340134679504671,0.39459028840065,0.0,0.846481724890614
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Eco-Socialism,0.32766306994268707,0.38708817958831787,0.0,0.846481724890614
+2,106,01:46,qwen2-7b,Envisioning Zero-Carbon Utopia: The Power of Eco-Socialism,0.32766306994268707,0.38708817958831787,0.0,0.846481724890614
+2,106,01:46,llama3.1-8b,Fighting for a Sustainable Future Beyond Capitalism,0.28852039109658856,0.34084656834602356,0.0,0.846481724890614
+3,193,03:13,mistral-7b-v0.3,Eco-Socialism: Worker-Led Revolution for People & Planet,0.3547114632225701,0.41904208064079285,0.0,0.846481724890614
+3,193,03:13,mistral-7b-v0.3,A World Reborn: Embracing Eco-Socialism for All,0.31952555743769323,0.377474844455719,0.0,0.846481724890614
+3,193,03:13,tinyllama,Eco-Socialism: A Vision for a Better World,0.3172429570518023,0.37477827072143555,0.0,0.846481724890614
+3,193,03:13,llama3.1-8b,Eco-Socialism: A Path to Harmony and Equality,0.30995352990934333,0.3661668300628662,0.0,0.846481724890614
+4,310,05:10,qwen2-7b,"Eco-Socialism: Unleashing Access to Sustainable, Free Services",0.3369039410502506,0.3980049788951874,0.0,0.846481724890614
+4,310,05:10,qwen2-7b,"Eco-Socialism: Unleashing Access to Sustainable, Free Services",0.3369039410502506,0.3980049788951874,0.0,0.846481724890614
+4,310,05:10,qwen2-7b,"Eco-Socialist Utopia: Accessible, Green, and Inclusive Services",0.3350731079518924,0.3958421051502228,0.0,0.846481724890614
+4,310,05:10,qwen2-7b,"Eco-Socialist Paradise: Accessible, Green, and Inclusive Services",0.3318481484513161,0.392032265663147,0.0,0.846481724890614
+4,310,05:10,mistral-7b-v0.3,Universal Green Services in an Eco-Socialist World,0.32966766745228754,0.3894563317298889,0.0,0.846481724890614
+4,310,05:10,mistral-7b-v0.3,Universal Green Services in an Eco-Socialist World,0.32966766745228754,0.3894563317298889,0.0,0.846481724890614
+4,310,05:10,mistral-7b-v0.3,Universal Green Services in an Eco-Socialist World,0.32966766745228754,0.3894563317298889,0.0,0.846481724890614
+4,310,05:10,mistral-7b-v0.3,Universal Green Services: A Cornerstone of Eco-Socialism,0.3198999279171988,0.3779171109199524,0.0,0.846481724890614
+4,310,05:10,llama3.1-8b,Universal Services for All: A Socialist Vision,0.30437429977137503,0.3595757484436035,0.0,0.846481724890614
+4,310,05:10,llama3.1-8b,From Privilege to Provision: The Eco-Socialist Promise,0.2831876047062139,0.33454662561416626,0.0,0.846481724890614
+5,430,07:10,mistral-7b-v0.3,"Accessible, Free, and Sustainable Communities for All",0.3577279457930498,0.42260563373565674,0.0,0.846481724890614
+5,430,07:10,llama3.1-8b,Free Access to Public Spaces and Services,0.31690100342311645,0.37437430024147034,0.0,0.846481724890614
+5,430,07:10,llama3.1-8b,A World of Shared Resources and Freedoms,0.2978345469914138,0.3518499433994293,0.0,0.846481724890614
+5,430,07:10,tinyllama,Transforming Work and Why We Do It,0.29395441392458155,0.3472661077976227,0.0,0.846481724890614
+5,430,07:10,llama3.1-8b,Bridging the Gap Between People and Planet,0.27609429320443396,0.32616686820983887,0.0,0.846481724890614
+6,533,08:53,tinyllama,The Work Week Shrinks to Four Days,0.34388146006544495,0.40624794363975525,0.0,0.846481724890614
+6,533,08:53,qwen2-7b,Exploitation's Core: Unpaid Labor & Capitalist Profits,0.3404423223053672,0.4021850824356079,0.0,0.846481724890614
+6,533,08:53,qwen2-7b,Capitalism's Exploitation: Unpaid Labor and Its Profits,0.3354882454593549,0.3963325321674347,0.0,0.846481724890614
+6,533,08:53,qwen2-7b,Exploitation at Heart: Capitalism's Unpaid Surplus Labor,0.3262701796694108,0.38544267416000366,0.0,0.846481724890614
+6,533,08:53,qwen2-7b,Exploitation's Core: Unpaid Labor Paves Capitalist Profits,0.32545640319179014,0.3844813108444214,0.0,0.846481724890614
+6,533,08:53,mistral-7b-v0.3,From Exploitation to Empowerment: Towards Worker-Owned Eco-Socialism,0.3130562135531701,0.36983221769332886,0.0,0.846481724890614
+6,533,08:53,mistral-7b-v0.3,From Exploitation to Empowerment: Towards Worker-Owned Eco-Socialism,0.3130562135531701,0.36983221769332886,0.0,0.846481724890614
+6,533,08:53,tinyllama,Eco-Socialism: A Revolutionary Path to Sustainable Living,0.3034119607766514,0.3584388792514801,0.0,0.846481724890614
+6,533,08:53,llama3.1-8b,Beyond Exploitation: A New Model for Work,0.28174549631935847,0.33284297585487366,0.0,0.846481724890614
+6,533,08:53,gemma2-9b,The Exploitation of Labor: A Path Forward,0.2790630712886101,0.3296740651130676,0.0,0.846481724890614
+6,533,08:53,gemma2-9b,The Exploitation of Labor: A Path Forward,0.2790630712886101,0.3296740651130676,0.0,0.846481724890614
+6,533,08:53,tinyllama,A New Economy for the 21st Century,0.24990400045422628,0.29522669315338135,0.0,0.846481724890614
+7,626,10:26,mistral-7b-v0.3,Eco-Socialism: A World Without Consumerism & Advertising,0.3372964750570637,0.3984687030315399,0.0,0.846481724890614
+8,786,13:06,qwen2-7b,Eco-Socialism: Redirecting Resources Toward Care and Reparation,0.34463201737718685,0.40713462233543396,0.0,0.846481724890614
+8,786,13:06,llama3.1-8b,Building an Eco-Socialist Future Through Democratic Planning,0.3218572498015571,0.3802294135093689,0.0,0.846481724890614
+8,786,13:06,llama3.1-8b,From Violence to Care: The Eco-Socio Future,0.27405896906113825,0.3237624168395996,0.0,0.846481724890614
+8,786,13:06,llama3.1-8b,A Planned Economy For A Sustainable Tomorrow,0.26605881823140776,0.31431135535240173,0.0,0.846481724890614
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards Eco-Socialism: Steps Towards Liberation,0.30402510595888743,0.35916322469711304,0.0,0.846481724890614
+9,1059,17:39,mistral-7b-v0.3,Building Power Towards Eco-Socialism: Steps Towards Liberation,0.30402510595888743,0.35916322469711304,0.0,0.846481724890614
+9,1059,17:39,tinyllama,Transitioning Towards a Good Life in Capitalism,0.2886135548554035,0.3409566283226013,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Beyond Capitalism: Building a Liberatory World,0.39980944991111755,0.39980944991111755,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,gemma2-9b,Imagining an Eco-Socialist Future,0.3883498013019562,0.3883498013019562,0.0,1.0
+1,0,00:00,llama3.1-8b,Envisioning a Brighter Eco-Socialist Future,0.3810643255710602,0.3810643255710602,0.0,1.0
+1,0,00:00,llama3.1-8b,Envisioning a Brighter Eco-Socialist Future,0.3810643255710602,0.3810643255710602,0.0,1.0
+1,0,00:00,llama3.1-8b,Envisioning a Brighter Eco-Socialist Future,0.3810643255710602,0.3810643255710602,0.0,1.0
+1,0,00:00,llama3.1-8b,Beyond Capitalism: A Liberatory Vision,0.364346444606781,0.364346444606781,0.0,1.0
+1,0,00:00,tinyllama,Building a Zero-Carbon Laboratory World,0.36156129837036133,0.36156129837036133,0.0,1.0
+1,0,00:00,tinyllama,Building a Zero-Carbon Laboratory World,0.36156129837036133,0.36156129837036133,0.0,1.0
+1,0,00:00,tinyllama,Building a Zero-Carbon Laboratory World,0.36156129837036133,0.36156129837036133,0.0,1.0
+1,0,00:00,tinyllama,Building a Zero-Carbon Laboratory World,0.36156129837036133,0.36156129837036133,0.0,1.0
+1,0,00:00,llama3.1-8b,Igniting Hope for a Liberatory Tomorrow,0.36153048276901245,0.36153048276901245,0.0,1.0
+1,0,00:00,llama3.1-8b,Envisioning Hope Beyond Capitalist Chaos,0.35485753417015076,0.35485753417015076,0.0,1.0
+1,0,00:00,llama3.1-8b,From Hope to Revolution: Envisioning Change,0.35053616762161255,0.35053616762161255,0.0,1.0
+1,0,00:00,tinyllama,"A Zero-Carbon, Laboratory World",0.3416488468647003,0.3416488468647003,0.0,1.0
+1,0,00:00,llama3.1-8b,Beyond Capitalism:** **Im,0.22869962453842163,0.22869962453842163,0.0,1.0
+2,106,01:46,llama3.1-8b,Envisioning a Zero-Carbon Future Under Eco-Socialism,0.396282434463501,0.396282434463501,0.0,1.0
+2,106,01:46,llama3.1-8b,Envisioning a Zero-Carbon Future Under Eco-Socialism,0.396282434463501,0.396282434463501,0.0,1.0
+2,106,01:46,llama3.1-8b,Envisioning a Zero-Carbon Utopia Under Eco-Socialism,0.39199694991111755,0.39199694991111755,0.0,1.0
+2,106,01:46,llama3.1-8b,Envisioning a Zero-Carbon Utopia Under Eco-Socialism,0.39199694991111755,0.39199694991111755,0.0,1.0
+2,106,01:46,llama3.1-8b,Envisioning a Zero-Carbon Utopia Under Eco-Socialism,0.39199694991111755,0.39199694991111755,0.0,1.0
+2,106,01:46,llama3.1-8b,Envisioning a Zero-Carbon Utopia Beyond Capitalism,0.37977686524391174,0.37977686524391174,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Future Worth Fighting For,0.370915949344635,0.370915949344635,0.0,1.0
+2,106,01:46,llama3.1-8b,Fighting for a Zero-Carbon Utopia,0.3576939105987549,0.3576939105987549,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3524652421474457,0.3524652421474457,0.0,1.0
+2,106,01:46,tinyllama,The Need for a Zero-Emissions Laboratory,0.3405664563179016,0.3405664563179016,0.0,1.0
+2,106,01:46,llama3.1-8b,Fighting for a Sustainable Future,0.31613948941230774,0.31613948941230774,0.0,1.0
+2,106,01:46,tinyllama,The Future of Labor,0.2955401539802551,0.2955401539802551,0.0,1.0
+2,106,01:46,tinyllama,The Great Reset,0.2570703327655792,0.2570703327655792,0.0,1.0
+2,106,01:46,tinyllama,The Invisible Hand,0.2353115677833557,0.2353115677833557,0.0,1.0
+3,193,03:13,qwen2-7b,Eco-Socialism: Breaking Free from Capitalism's Shackles,0.40972375869750977,0.40972375869750977,0.0,1.0
+3,193,03:13,qwen2-7b,Eco-Socialism: Breaking Free from Capitalism's Shackles,0.40972375869750977,0.40972375869750977,0.0,1.0
+3,193,03:13,qwen2-7b,"Eco-Socialism: Liberating Labor, Nature, and Society",0.39602556824684143,0.39602556824684143,0.0,1.0
+3,193,03:13,qwen2-7b,"Eco-Socialism: Liberating Labor, Nature, and Society",0.39602556824684143,0.39602556824684143,0.0,1.0
+3,193,03:13,qwen2-7b,"Eco-Socialism: Freedom, Needs, & Nature's Harmony",0.3919285237789154,0.3919285237789154,0.0,1.0
+3,193,03:13,qwen2-7b,"Eco-Socialism: Freedom, Equity, and Harmony",0.38063526153564453,0.38063526153564453,0.0,1.0
+3,193,03:13,qwen2-7b,"Eco-Socialism: Freedom, Equity, and Harmony",0.38063526153564453,0.38063526153564453,0.0,1.0
+3,193,03:13,qwen2-7b,Eco-Socialism: Liberating Labor and Nature,0.3769143521785736,0.3769143521785736,0.0,1.0
+3,193,03:13,qwen2-7b,Eco-Socialism: Liberating Labor and Nature,0.3769143521785736,0.3769143521785736,0.0,1.0
+3,193,03:13,qwen2-7b,Eco-Socialism: Liberating Labor and Nature,0.3769143521785736,0.3769143521785736,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: A Vision For All,0.3652617931365967,0.3652617931365967,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: A Vision For All,0.3652617931365967,0.3652617931365967,0.0,1.0
+3,193,03:13,llama3.1-8b,A World Beyond Exploitation: Eco-socilaism's Call,0.3618340492248535,0.3618340492248535,0.0,1.0
+3,193,03:13,tinyllama,Eco-Socialism: Building a Better World Together,0.3506106436252594,0.3506106436252594,0.0,1.0
+3,193,03:13,llama3.1-8b,Beyond Capitalism: Envisioning Eco-Socialism,0.34943220019340515,0.34943220019340515,0.0,1.0
+3,193,03:13,llama3.1-8b,Beyond Capitalism: Envisioning Eco-Socialism,0.34943220019340515,0.34943220019340515,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: Reimagining Our World,0.34878820180892944,0.34878820180892944,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: Reimagining Our World,0.34878820180892944,0.34878820180892944,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: Reimagining Our World,0.34878820180892944,0.34878820180892944,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: Reimagining Our World,0.34878820180892944,0.34878820180892944,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: Reimagining Our World,0.34878820180892944,0.34878820180892944,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: A Vision for Change,0.3460208475589752,0.3460208475589752,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: A Vision for Change,0.3460208475589752,0.3460208475589752,0.0,1.0
+3,193,03:13,gemma2-9b,Eco-Socialism: A Vision for Justice,0.3456408977508545,0.3456408977508545,0.0,1.0
+3,193,03:13,llama3.1-8b,Eco-Socialist Alternatives to Capitalism,0.3392091691493988,0.3392091691493988,0.0,1.0
+3,193,03:13,llama3.1-8b,Redefining Prosperity: Eco- Socialist Futures,0.3390614092350006,0.3390614092350006,0.0,1.0
+3,193,03:13,llama3.1-8b,Eco-Socilaism: Embracing a New Economic Order,0.33397987484931946,0.33397987484931946,0.0,1.0
+3,193,03:13,llama3.1-8b,Beyond Profit: Eco-Sociaism's Promise,0.32956770062446594,0.32956770062446594,0.0,1.0
+3,193,03:13,llama3.1-8b,Breaking Free from Capitalist Chains,0.3166082501411438,0.3166082501411438,0.0,1.0
+3,193,03:13,llama3.1-8b,Shifting toward a More Equ,0.2265101671218872,0.2265101671218872,0.0,1.0
+4,310,05:10,qwen2-7b,"Eco-Socialist Utopia: Accessible, Sustainable, and Free",0.38440486788749695,0.38440486788749695,0.0,1.0
+4,310,05:10,qwen2-7b,"Eco-Socialism: Accessible, Sustainable, and Inclusive Living",0.37828075885772705,0.37828075885772705,0.0,1.0
+4,310,05:10,qwen2-7b,"Eco-Socialism: Accessible, Sustainable, and Inclusive Living",0.37828075885772705,0.37828075885772705,0.0,1.0
+4,310,05:10,llama3.1-8b,"Free Goods, Green Services for All",0.36034059524536133,0.36034059524536133,0.0,1.0
+4,310,05:10,llama3.1-8b,"Free Goods, Green Services for All",0.36034059524536133,0.36034059524536133,0.0,1.0
+4,310,05:10,llama3.1-8b,A Socialist Future of Shared Prosperity,0.34814730286598206,0.34814730286598206,0.0,1.0
+4,310,05:10,llama3.1-8b,Universal Services for a Sustainable World,0.3479222059249878,0.3479222059249878,0.0,1.0
+4,310,05:10,llama3.1-8b,Socialism's Promise: A World Without Scarcity,0.3410877287387848,0.3410877287387848,0.0,1.0
+4,310,05:10,llama3.1-8b,Free Goods and Green Futures,0.33718162775039673,0.33718162775039673,0.0,1.0
+4,310,05:10,llama3.1-8b,Building an Eco-Socialist World's Foundation,0.3329492211341858,0.3329492211341858,0.0,1.0
+4,310,05:10,tinyllama,A Transformative Future for All,0.32697421312332153,0.32697421312332153,0.0,1.0
+4,310,05:10,tinyllama,A Transformative Future for All,0.32697421312332153,0.32697421312332153,0.0,1.0
+4,310,05:10,tinyllama,A New World Economy for All,0.3264135718345642,0.3264135718345642,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services: A Green Future,0.3213256001472473,0.3213256001472473,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services: A Green Future,0.3213256001472473,0.3213256001472473,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services: A Green Future,0.3213256001472473,0.3213256001472473,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services: A Green Future,0.3213256001472473,0.3213256001472473,0.0,1.0
+4,310,05:10,llama3.1-8b,"A Life of Abundance, Not Scarcity",0.31784045696258545,0.31784045696258545,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services For All,0.2694424092769623,0.2694424092769623,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services for All,0.2694424092769623,0.2694424092769623,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services for All,0.2694424092769623,0.2694424092769623,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services For All,0.2694424092769623,0.2694424092769623,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services for All,0.2694424092769623,0.2694424092769623,0.0,1.0
+4,310,05:10,gemma2-9b,Universal Services For All,0.2694424092769623,0.2694424092769623,0.0,1.0
+5,430,07:10,tinyllama,Transforming Our Economy to Support Eco-Socialism,0.3628346025943756,0.3628346025943756,0.0,1.0
+5,430,07:10,gemma2-9b,Freeing Access: Towards an Eco-Socialist Future,0.34583231806755066,0.34583231806755066,0.0,1.0
+5,430,07:10,gemma2-9b,Free Access: Building a Better World,0.3443356454372406,0.3443356454372406,0.0,1.0
+5,430,07:10,gemma2-9b,Free Access: Building a Better World,0.3443356454372406,0.3443356454372406,0.0,1.0
+5,430,07:10,gemma2-9b,Free Access: Building a Better World,0.3443356454372406,0.3443356454372406,0.0,1.0
+5,430,07:10,gemma2-9b,Free Access: Building a Better World,0.3443356454372406,0.3443356454372406,0.0,1.0
+5,430,07:10,llama3.1-8b,Universal Freedom to Thrive Outside Home,0.34374555945396423,0.34374555945396423,0.0,1.0
+5,430,07:10,llama3.1-8b,Transforming Communities through Universal Access,0.3407312035560608,0.3407312035560608,0.0,1.0
+5,430,07:10,gemma2-9b,Freeing Access: A World Without Commodification,0.3297146260738373,0.3297146260738373,0.0,1.0
+5,430,07:10,gemma2-9b,Freeing Access: A Life Beyond Capitalism,0.3251238167285919,0.3251238167285919,0.0,1.0
+5,430,07:10,llama3.1-8b,Decommodifying Community Life,0.31705188751220703,0.31705188751220703,0.0,1.0
+5,430,07:10,llama3.1-8b,The Future of Universal Access,0.31665274500846863,0.31665274500846863,0.0,1.0
+5,430,07:10,llama3.1-8b,Transforming Public Goods for All,0.3084615468978882,0.3084615468978882,0.0,1.0
+5,430,07:10,gemma2-9b,"Freeing Spaces, Fueling Futures",0.2894213795661926,0.2894213795661926,0.0,1.0
+5,430,07:10,llama3.1-8b,Free Access to Lifes Essentials,0.270656019449234,0.270656019449234,0.0,1.0
+5,430,07:10,gemma2-9b,"Freeing Spaces, Feeding Futures",0.2691915035247803,0.2691915035247803,0.0,1.0
+5,430,07:10,gemma2-9b,"Freeing Spaces, Feeding Futures",0.2691915035247803,0.2691915035247803,0.0,1.0
+5,430,07:10,llama3.1-8b,Building a Socialist Common,0.2633652687072754,0.2633652687072754,0.0,1.0
+6,533,08:53,llama3.1-8b,The Unpaid Labor Behind Capitalism's Profits,0.37164169549942017,0.37164169549942017,0.0,1.0
+6,533,08:53,gemma2-9b,Worker Exploitation & Eco-Socialism,0.36790138483047485,0.36790138483047485,0.0,1.0
+6,533,08:53,llama3.1-8b,Capitalism's Hidden Cost: Worker Exploitation,0.35885554552078247,0.35885554552078247,0.0,1.0
+6,533,08:53,llama3.1-8b,The Unpaid Labor Behind Capitalist Profits,0.35585319995880127,0.35585319995880127,0.0,1.0
+6,533,08:53,llama3.1-8b,The Unpaid Labor Behind Capitalist Profits,0.35585319995880127,0.35585319995880127,0.0,1.0
+6,533,08:53,tinyllama,The Longest Day of Surplus Labor,0.34319260716438293,0.34319260716438293,0.0,1.0
+6,533,08:53,gemma2-9b,Exploitation and Eco-Socialism,0.342682421207428,0.342682421207428,0.0,1.0
+6,533,08:53,gemma2-9b,Exploitation and Eco-Socialism,0.342682421207428,0.342682421207428,0.0,1.0
+6,533,08:53,gemma2-9b,Exploitation and Eco-Socialism,0.342682421207428,0.342682421207428,0.0,1.0
+6,533,08:53,llama3.1-8b,"Unpaid Labor, Unjust Profits",0.34036093950271606,0.34036093950271606,0.0,1.0
+6,533,08:53,gemma2-9b,Exploitation & Eco-Socialist Futures,0.33813393115997314,0.33813393115997314,0.0,1.0
+6,533,08:53,gemma2-9b,Exploitation & Eco-Socialist Futures,0.33813393115997314,0.33813393115997314,0.0,1.0
+6,533,08:53,qwen2-7b,Unpaid Labor: Capitalism's Dark Heart,0.33598875999450684,0.33598875999450684,0.0,1.0
+6,533,08:53,tinyllama,Eco-Socialism: A New World Order,0.3357906639575958,0.3357906639575958,0.0,1.0
+6,533,08:53,gemma2-9b,Exploitation & The Future of Work,0.3270106017589569,0.3270106017589569,0.0,1.0
+6,533,08:53,gemma2-9b,The Exploitation and Future of Work,0.32278329133987427,0.32278329133987427,0.0,1.0
+6,533,08:53,llama3.1-8b,Worker Exploitation Under Capitalism Exposed,0.32216477394104004,0.32216477394104004,0.0,1.0
+6,533,08:53,llama3.1-8b,The Unpaid Labor Behind Capitalism,0.31990301609039307,0.31990301609039307,0.0,1.0
+6,533,08:53,tinyllama,The Capitalist Model,0.31104516983032227,0.31104516983032227,0.0,1.0
+6,533,08:53,llama3.1-8b,The Unseen Cost of Capitalism,0.3108978867530823,0.3108978867530823,0.0,1.0
+7,626,10:26,qwen2-7b,"Eco-Socialism: Cultivating Culture, Economy, and Justice",0.38498127460479736,0.38498127460479736,0.0,1.0
+7,626,10:26,qwen2-7b,"Eco-Socialism: Culture, Creativity, & Anti-Oppression",0.376544713973999,0.376544713973999,0.0,1.0
+7,626,10:26,qwen2-7b,"Eco-Socialism: Cultivating Culture, Economy, & Justice",0.37650901079177856,0.37650901079177856,0.0,1.0
+7,626,10:26,qwen2-7b,"Eco-Socialism: Cultivating Culture, Economy, & Justice",0.37650901079177856,0.37650901079177856,0.0,1.0
+7,626,10:26,qwen2-7b,"Eco-Socialism: Cultivating Culture, Economy, & Justice",0.37650901079177856,0.37650901079177856,0.0,1.0
+7,626,10:26,qwen2-7b,"Eco-Socialism: Culture, Creativity, & Anti-Violence",0.3735908269882202,0.3735908269882202,0.0,1.0
+7,626,10:26,qwen2-7b,"Eco-Socialism: Culture, Creativity, and Decolonization",0.3668424189090729,0.3668424189090729,0.0,1.0
+7,626,10:26,tinyllama,Creating a Culture Without Consumerism,0.36644434928894043,0.36644434928894043,0.0,1.0
+7,626,10:26,llama3.1-8b,Building a World Without Bullshit Jobs,0.3651072382926941,0.3651072382926941,0.0,1.0
+7,626,10:26,mistral-7b-v0.3,Towards a Culture-Driven Eco-Socialist Future,0.35808682441711426,0.35808682441711426,0.0,1.0
+7,626,10:26,llama3.1-8b,Beyond Consumerism: Building Eco-Socialist Futures,0.35656383633613586,0.35656383633613586,0.0,1.0
+7,626,10:26,mistral-7b-v0.3,Towards a Culture-Centric Eco-Socialism: Deconstructing Consumerism,0.3557266294956207,0.3557266294956207,0.0,1.0
+7,626,10:26,mistral-7b-v0.3,Towards a Culture-Driven Eco-Socialist World,0.3546687364578247,0.3546687364578247,0.0,1.0
+7,626,10:26,tinyllama,The Eco-Socialist Future of Renewables,0.3452410399913788,0.3452410399913788,0.0,1.0
+7,626,10:26,llama3.1-8b,"Rethinking Culture, Economy, and Power",0.3424275815486908,0.3424275815486908,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transformation,0.3423732817173004,0.3423732817173004,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transformation,0.3423732817173004,0.3423732817173004,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transformation,0.3423732817173004,0.3423732817173004,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transformation,0.3423732817173004,0.3423732817173004,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transformation,0.3423732817173004,0.3423732817173004,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transformation,0.3423732817173004,0.3423732817173004,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transition,0.3407091796398163,0.3407091796398163,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy Transition,0.3407091796398163,0.3407091796398163,0.0,1.0
+7,626,10:26,llama3.1-8b,A World Beyond Profit and Waste,0.33805885910987854,0.33805885910987854,0.0,1.0
+7,626,10:26,tinyllama,The Need for a Fairer Economy,0.33318525552749634,0.33318525552749634,0.0,1.0
+7,626,10:26,llama3.1-8b,"Rethinking Work, Culture, and Power",0.3321250379085541,0.3321250379085541,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy,0.3262261152267456,0.3262261152267456,0.0,1.0
+7,626,10:26,gemma2-9b,Eco-Socialism: Culture & Energy,0.3262261152267456,0.3262261152267456,0.0,1.0
+7,626,10:26,llama3.1-8b,Beyond Capitalism: Eco-Socialism's Creative Renaissance,0.31959235668182373,0.31959235668182373,0.0,1.0
+7,626,10:26,llama3.1-8b,Envisioning a World Where,0.3027607202529907,0.3027607202529907,0.0,1.0
+7,626,10:26,tinyllama,The Need for Creative Comment,0.2889218032360077,0.2889218032360077,0.0,1.0
+7,626,10:26,llama3.1-8b,From Capitalism to a Cooperative,0.2847737967967987,0.2847737967967987,0.0,1.0
+7,626,10:26,tinyllama,The Future of Work: A Transcript,0.26908645033836365,0.26908645033836365,0.0,1.0
+8,786,13:06,mistral-7b-v0.3,From Militarized Capitalism to Eco-Socialist Planning,0.3685753345489502,0.3685753345489502,0.0,1.0
+8,786,13:06,tinyllama,Eco-Socialism: A Revolutionary Plan for Sustainability,0.35918742418289185,0.35918742418289185,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,gemma2-9b,Planning for an Eco-Socialist Future,0.35705745220184326,0.35705745220184326,0.0,1.0
+8,786,13:06,llama3.1-8b,From Violence to Care: Eco-Socialist Planning,0.3448927700519562,0.3448927700519562,0.0,1.0
+8,786,13:06,llama3.1-8b,From Violence to Care: Eco-Socialist Planning,0.3448927700519562,0.3448927700519562,0.0,1.0
+8,786,13:06,llama3.1-8b,Reimagining Global Economy for Climate Justice,0.33732521533966064,0.33732521533966064,0.0,1.0
+8,786,13:06,llama3.1-8b,Beyond Capitalism: Eco-Socialist Horizons,0.3237827718257904,0.3237827718257904,0.0,1.0
+8,786,13:06,llama3.1-8b,Reimagining Economy for Climate Justice,0.3199441432952881,0.3199441432952881,0.0,1.0
+8,786,13:06,tinyllama,Eco-Socialism: A Transcript,0.3111780881881714,0.3111780881881714,0.0,1.0
+8,786,13:06,llama3.1-8b,Reimagining a Socialist Future,0.2973083257675171,0.2973083257675171,0.0,1.0
+8,786,13:06,tinyllama,Demilitarizing the Planet,0.28690558671951294,0.28690558671951294,0.0,1.0
+8,786,13:06,tinyllama,Ecological Socialism - A Transcript,0.2855534851551056,0.2855534851551056,0.0,1.0
+9,1059,17:39,tinyllama,How to Build Power Within Capitalism,0.35402724146842957,0.35402724146842957,0.0,1.0
+9,1059,17:39,tinyllama,Transitional Demands and Non-Reformist Reforms,0.34760844707489014,0.34760844707489014,0.0,1.0
+9,1059,17:39,gemma2-9b,Toward an Eco-Socialist Future,0.3473423719406128,0.3473423719406128,0.0,1.0
+9,1059,17:39,gemma2-9b,Building Power Towards Eco-Socialism,0.3317581117153168,0.3317581117153168,0.0,1.0
+9,1059,17:39,gemma2-9b,Building Power Towards Eco-Socialism,0.3317581117153168,0.3317581117153168,0.0,1.0
+9,1059,17:39,gemma2-9b,Building Power Towards Eco-Socialism,0.3317581117153168,0.3317581117153168,0.0,1.0
+9,1059,17:39,gemma2-9b,Building Power Towards Eco-Socialism,0.3317581117153168,0.3317581117153168,0.0,1.0
+9,1059,17:39,gemma2-9b,Toward Eco-Socialism: Action & Hope,0.33163243532180786,0.33163243532180786,0.0,1.0
+9,1059,17:39,gemma2-9b,Toward Eco-Socialism: Action & Hope,0.33163243532180786,0.33163243532180786,0.0,1.0
+9,1059,17:39,gemma2-9b,Toward Eco-Socialism: Action & Hope,0.33163243532180786,0.33163243532180786,0.0,1.0
+9,1059,17:39,gemma2-9b,Building Power for Eco-Socialism,0.32464757561683655,0.32464757561683655,0.0,1.0
+9,1059,17:39,gemma2-9b,Building Power for Eco-Socialism,0.32464757561683655,0.32464757561683655,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building a Liberated Future Now,0.312746524810791,0.312746524810791,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Fossil Fascism,0.29532790184020996,0.29532790184020996,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Fossil Fascism,0.29532790184020996,0.29532790184020996,0.0,1.0
+9,1059,17:39,llama3.1-8b,Radical Hope in Action,0.2915216386318207,0.2915216386318207,0.0,1.0
+9,1059,17:39,tinyllama,The Rising Climate Crisis,0.284584105014801,0.284584105014801,0.0,1.0
+9,1059,17:39,tinyllama,Creating a Just Transition Plan,0.27819180488586426,0.27819180488586426,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Capitalism,0.2726031541824341,0.2726031541824341,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Capitalism,0.2726031541824341,0.2726031541824341,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Capitalism,0.2726031541824341,0.2726031541824341,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Capitalism,0.2726031541824341,0.2726031541824341,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Capitalism,0.2726031541824341,0.2726031541824341,0.0,1.0
+9,1059,17:39,llama3.1-8b,Building Power Beyond Capitalism,0.2726031541824341,0.2726031541824341,0.0,1.0
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty

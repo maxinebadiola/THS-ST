@@ -1,0 +1,452 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,llama3.1-8b,Folding Borders: Neural Networks' Geometric Power,0.3394809663295746,0.3394809663295746,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Borders: Neural Networks' Geometric Power,0.3394809663295746,0.3394809663295746,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Borders: Neural Networks' Geometric Power,0.3394809663295746,0.3394809663295746,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Borders: Neural Networks' Geometric Secrets,0.33921754360198975,0.33921754360198975,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Space: Neural Networks' Border Boundaries,0.33712518215179443,0.33712518215179443,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Space: Neural Networks' Geometric Power,0.3323518931865692,0.3323518931865692,0.0,1.0
+1,0,00:00,qwen2-7b,Neural Networks' Precision in Border Approximation,0.33056649565696716,0.33056649565696716,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Space: Neural Networks' Geometric Secrets,0.32722002267837524,0.32722002267837524,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Space: Neural Networks' Geometric Secrets,0.32722002267837524,0.32722002267837524,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Reality: Neural Networks' Geometric Power,0.32443875074386597,0.32443875074386597,0.0,1.0
+1,0,00:00,llama3.1-8b,Folding Reality: Neural Networks' Geometric Power,0.32443875074386597,0.32443875074386597,0.0,1.0
+1,0,00:00,gemma2-9b,Folding Maps With Neural Networks,0.3223026692867279,0.3223026692867279,0.0,1.0
+1,0,00:00,gemma2-9b,Folding Maps with Neural Networks,0.3223026692867279,0.3223026692867279,0.0,1.0
+1,0,00:00,gemma2-9b,Folding Maps with Neural Networks,0.3223026692867279,0.3223026692867279,0.0,1.0
+1,0,00:00,gemma2-9b,Folding Maps with Neural Networks,0.3223026692867279,0.3223026692867279,0.0,1.0
+1,0,00:00,gemma2-9b,Folding Maps with Neural Networks,0.3223026692867279,0.3223026692867279,0.0,1.0
+1,0,00:00,gemma2-9b,Folding Maps With Neural Networks,0.3223026692867279,0.3223026692867279,0.0,1.0
+1,0,00:00,gemma2-9b,Neural Networks & Border Approximations,0.3176022469997406,0.3176022469997406,0.0,1.0
+1,0,00:00,tinyllama,The Universal Approxmation Theorem,0.312578946352005,0.312578946352005,0.0,1.0
+1,0,00:00,gemma2-9b,Neural Networks: Approximating Borders,0.31137266755104065,0.31137266755104065,0.0,1.0
+1,0,00:00,gemma2-9b,Neural Networks: Approximating Borders,0.31137266755104065,0.31137266755104065,0.0,1.0
+1,0,00:00,qwen2-7b,Neural Networks Unravel Complex Borders,0.3002638518810272,0.3002638518810272,0.0,1.0
+1,0,00:00,gemma2-9b,Neural Networks & Border Approximation,0.2947036921977997,0.2947036921977997,0.0,1.0
+1,0,00:00,tinyllama,Universal Approximate Theorem: A Transcription,0.2940617501735687,0.2940617501735687,0.0,1.0
+1,0,00:00,qwen2-7b,Neural Networks' Border-Bending Magic,0.2930605113506317,0.2930605113506317,0.0,1.0
+1,0,00:00,qwen2-7b,Neural Networks' Border-Painting Odyssey,0.2901037633419037,0.2901037633419037,0.0,1.0
+1,0,00:00,tinyllama,How to Improve Your Transcription Skills,0.28503140807151794,0.28503140807151794,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Universal Approximations: Fitting Complex Borders with Neural Networks,0.2713415154191407,0.3786875903606415,0.0,0.7165313105737893
+1,0,00:00,tinyllama,Universal Approximations: The Art of Machine Learning,0.26973804250452155,0.31865784525871277,0.0,0.846481724890614
+1,0,00:00,tinyllama,How to Build a Better Neural Network,0.26897749525276055,0.31775936484336853,0.0,0.846481724890614
+1,0,00:00,tinyllama,Universal Approx. Theorem,0.24919196963310242,0.24919196963310242,0.0,1.0
+1,0,00:00,qwen2-7b,Neural Networks Mimic Complex Boundaries: A Geometric Journey,0.24315313853078654,0.3393475413322449,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Neural Networks Mimic Complex Boundaries: A Visual Journey,0.23675045827142022,0.3304118812084198,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Neural Networks Mimic Complex Boundaries: A Visual Journey,0.23675045827142022,0.3304118812084198,0.0,0.7165313105737893
+1,0,00:00,tinyllama,Universal Approximations: The Case of the Missing Border,0.22681846791007473,0.31655067205429077,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Neural Networks Mimic Complex Borders: A Journey Through Layers,0.2021448257327315,0.333280473947525,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,Neural Networks Mimic Complex Borders: A Journey Through Layers,0.2021448257327315,0.333280473947525,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,Neural Networks Mimic Complex Borders: An Insight into Universal Approximations,0.1845813755703614,0.3595154285430908,0.0,0.513417119032592
+1,0,00:00,tinyllama,Universal Approx. Theorem and the Missing Parts of Your Map,0.17683563075593106,0.34442877769470215,0.0,0.513417119032592
+1,0,00:00,tinyllama,How to Create a Transcript for Your Own Video,0.1766543625878265,0.29125380516052246,0.0,0.6065306597126334
+1,0,00:00,tinyllama,Universal Approximate Theorem: How to Get Closer to Your Border,0.17494786710489843,0.34075191617012024,0.0,0.513417119032592
+2,230,03:50,mistral-7b-v0.3,Deep Learning: Stacking Neurons for Precision,0.3138352632522583,0.3138352632522583,0.0,1.0
+2,230,03:50,mistral-7b-v0.3,Deep Learning: Stacking Neurons for Precision,0.3138352632522583,0.3138352632522583,0.0,1.0
+2,230,03:50,mistral-7b-v0.3,Deep Learning: Stacking Neurons for Precision,0.3138352632522583,0.3138352632522583,0.0,1.0
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Networks,0.2958429157733917,0.2958429157733917,0.0,1.0
+2,230,03:50,llama3.1-8b,Unlocking Power in Stacked Neural Layers,0.2932779788970947,0.2932779788970947,0.0,1.0
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Layers,0.2908892035484314,0.2908892035484314,0.0,1.0
+2,230,03:50,qwen2-7b,Neural Layers Unleash Precise Learning,0.29034948348999023,0.29034948348999023,0.0,1.0
+2,230,03:50,llama3.1-8b,Leveraging Layered Structure for Better Results,0.2893705666065216,0.2893705666065216,0.0,1.0
+2,230,03:50,llama3.1-8b,Unlocking Power in Deep Neural Networks,0.28762319684028625,0.28762319684028625,0.0,1.0
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Learning,0.2845620810985565,0.2845620810985565,0.0,1.0
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Learning,0.2845620810985565,0.2845620810985565,0.0,1.0
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Learning,0.2845620810985565,0.2845620810985565,0.0,1.0
+2,230,03:50,tinyllama,Modern Neural Networks: A Brief Introduction,0.27183055877685547,0.27183055877685547,0.0,1.0
+2,230,03:50,llama3.1-8b,Unlocking Power in Multiple Layers,0.27120909094810486,0.27120909094810486,0.0,1.0
+2,230,03:50,tinyllama,The Mathematics of Backpropagating and Gradient Descent,0.2567065189292366,0.3032629191875458,0.0,0.846481724890614
+2,230,03:50,tinyllama,The Mathematics of Backpropagating and Gradient Descent,0.2567065189292366,0.3032629191875458,0.0,0.846481724890614
+2,230,03:50,llama3.1-8b,Unlocking Neural Network Power,0.25603875517845154,0.25603875517845154,0.0,1.0
+2,230,03:50,llama3.1-8b,Unlocking Neural Network Power,0.25603875517845154,0.25603875517845154,0.0,1.0
+2,230,03:50,llama3.1-8b,Unlocking Deep Learning Secrets,0.2551191747188568,0.2551191747188568,0.0,1.0
+2,230,03:50,llama3.1-8b,Unlocking Deep Learning Power with Layered Neurons,0.2540648609264452,0.30014216899871826,0.0,0.846481724890614
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Neural Networks,0.25303852072508376,0.29892969131469727,0.0,0.846481724890614
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Neural Networks,0.25303852072508376,0.29892969131469727,0.0,0.846481724890614
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Neural Networks,0.25303852072508376,0.29892969131469727,0.0,0.846481724890614
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Neural Networks,0.25303852072508376,0.29892969131469727,0.0,0.846481724890614
+2,230,03:50,llama3.1-8b,Unlocking Deep Learning Power,0.25290849804878235,0.25290849804878235,0.0,1.0
+2,230,03:50,llama3.1-8b,Unlocking Deep Learning Power,0.25290849804878235,0.25290849804878235,0.0,1.0
+2,230,03:50,tinyllama,"Creating a Multi-Layer Perceptron with Just 1,024 Neurons",0.2521082125075504,0.3518453538417816,0.0,0.7165313105737893
+2,230,03:50,mistral-7b-v0.3,Deep Learning's Power Unraveled: Stacked Operations Explained,0.2514175015942489,0.29701468348503113,0.0,0.846481724890614
+2,230,03:50,gemma2-9b,Unveiling the Power of Deep Learning Layers,0.24984025151880104,0.29515138268470764,0.0,0.846481724890614
+2,230,03:50,tinyllama,How Modern Models Learn,0.24879470467567444,0.24879470467567444,0.0,1.0
+2,230,03:50,tinyllama,How Modern Models Learn,0.24879470467567444,0.24879470467567444,0.0,1.0
+2,230,03:50,tinyllama,Introduction to Backpropagating Through a Neural Netwrok,0.24417002715444616,0.28845280408859253,0.0,0.846481724890614
+2,230,03:50,qwen2-7b,Layered Neurons Boost Model Precision,0.24369436502456665,0.24369436502456665,0.0,1.0
+2,230,03:50,qwen2-7b,Layered Neurons Boost Model Precision,0.24369436502456665,0.24369436502456665,0.0,1.0
+2,230,03:50,qwen2-7b,Layered Neurons Boost Model Precision,0.24369436502456665,0.24369436502456665,0.0,1.0
+2,230,03:50,qwen2-7b,Layered Neurons Boost Model Precision,0.24369436502456665,0.24369436502456665,0.0,1.0
+2,230,03:50,qwen2-7b,Layered Neurons Boost Model Precision,0.24369436502456665,0.24369436502456665,0.0,1.0
+2,230,03:50,qwen2-7b,Layered Neurons Boost Model Precision,0.24369436502456665,0.24369436502456665,0.0,1.0
+2,230,03:50,qwen2-7b,Layered Neurons Boost Model Precision,0.24369436502456665,0.24369436502456665,0.0,1.0
+2,230,03:50,tinyllama,Modern Machine Learning Techniques for Image Classification,0.2321471595685191,0.27424946427345276,0.0,0.846481724890614
+2,230,03:50,qwen2-7b,Neural Layers Unleash Precision: A Deeper Dive,0.23137700078355786,0.2733396291732788,0.0,0.846481724890614
+2,230,03:50,qwen2-7b,Neural Layers Unleash Precision: A Deeper Dive,0.23137700078355786,0.2733396291732788,0.0,0.846481724890614
+2,230,03:50,tinyllama,How Modern Models Are Trained Using Backpropagated Gradients,0.22283864620178453,0.3109963834285736,0.0,0.7165313105737893
+2,230,03:50,mistral-7b-v0.3,Deep Learning's Power Unraveled: Stacked Layers vs. Single Layer,0.20448465835799667,0.33713820576667786,0.0,0.6065306597126334
+2,230,03:50,mistral-7b-v0.3,Deep Learning's Power Unraveled: Stacked Neurons vs. Single Layers,0.20343697210787792,0.33541086316108704,0.0,0.6065306597126334
+2,230,03:50,mistral-7b-v0.3,Deep Learning's Power Unraveled: Stacked Neurons vs. Single Layers,0.20343697210787792,0.33541086316108704,0.0,0.6065306597126334
+2,230,03:50,mistral-7b-v0.3,Deep Learning's Power Unraveled: Stacked Operations & Map Geometry,0.20081119488650115,0.33108168840408325,0.0,0.6065306597126334
+2,230,03:50,mistral-7b-v0.3,The Power of Deep Learning: Stacking Neurons for Precision,0.1991384397866739,0.3283237814903259,0.0,0.6065306597126334
+2,230,03:50,mistral-7b-v0.3,Deep Learning's Power Unraveled: Stacked Operations & Geometry Shifts,0.1977498759087991,0.32603442668914795,0.0,0.6065306597126334
+2,230,03:50,tinyllama,How Modern Models Are Trained Using Backpropagate and Gradient Descent,0.16541474864806305,0.3221839368343353,0.0,0.513417119032592
+3,392,06:32,llama3.1-8b,Geometric Decision Boundaries and Activation Functions,0.3219168186187744,0.3219168186187744,0.0,1.0
+3,392,06:32,llama3.1-8b,Geometric Decision Boundaries and Activation Functions,0.3219168186187744,0.3219168186187744,0.0,1.0
+3,392,06:32,llama3.1-8b,Geometric Decision Boundaries with Activation Functions,0.3166140019893646,0.3166140019893646,0.0,1.0
+3,392,06:32,gemma2-9b,Unfolding Neural Networks: Plane Geometry,0.3160405457019806,0.3160405457019806,0.0,1.0
+3,392,06:32,gemma2-9b,Folding Planes: Deep Learning's Geometry,0.3131805658340454,0.3131805658340454,0.0,1.0
+3,392,06:32,mistral-7b-v0.3,Expanding Neural Networks: Adding Activation Functions,0.312665730714798,0.312665730714798,0.0,1.0
+3,392,06:32,mistral-7b-v0.3,Expanding Neural Networks: Adding Activation Functions,0.312665730714798,0.312665730714798,0.0,1.0
+3,392,06:32,llama3.1-8b,Folding Up Complexity in Neural Networks,0.3111369013786316,0.3111369013786316,0.0,1.0
+3,392,06:32,tinyllama,Understanding Neural Networks - Part Two,0.30930131673812866,0.30930131673812866,0.0,1.0
+3,392,06:32,gemma2-9b,Unfolding Complexity: Neural Networks and Maps,0.30693885684013367,0.30693885684013367,0.0,1.0
+3,392,06:32,tinyllama,Transforming Data Using Machine Learning Algorithms,0.3013834059238434,0.3013834059238434,0.0,1.0
+3,392,06:32,gemma2-9b,Folding Planes: Unlocking Neural Network Complexity,0.2929794490337372,0.2929794490337372,0.0,1.0
+3,392,06:32,gemma2-9b,Folding Planes: Unlocking Neural Network Complexity,0.2929794490337372,0.2929794490337372,0.0,1.0
+3,392,06:32,llama3.1-8b,Beyond Binary Borders: Geometric Neural Networks,0.29231682419776917,0.29231682419776917,0.0,1.0
+3,392,06:32,llama3.1-8b,From Simple to Sophisticated Neural Networks,0.28685489296913147,0.28685489296913147,0.0,1.0
+3,392,06:32,gemma2-9b,Folding Planes: Unlocking Neural Network Depth,0.2832231819629669,0.2832231819629669,0.0,1.0
+3,392,06:32,gemma2-9b,Folding Planes: Unlocking Neural Network Depth,0.2832231819629669,0.2832231819629669,0.0,1.0
+3,392,06:32,qwen2-7b,Expanding Neural Networks' Geographical Intelligence,0.28309252858161926,0.28309252858161926,0.0,1.0
+3,392,06:32,llama3.1-8b,Beyond Binary Borders: Geometric Modeling,0.28287473320961,0.28287473320961,0.0,1.0
+3,392,06:32,qwen2-7b,Expanding Neural Networks' Geographic Intelligence,0.28154894709587097,0.28154894709587097,0.0,1.0
+3,392,06:32,qwen2-7b,Expanding Neural Networks' Geographic Intelligence,0.28154894709587097,0.28154894709587097,0.0,1.0
+3,392,06:32,mistral-7b-v0.3,Exploring Multilayer Neural Networks: Adding Activation Functions,0.27504123748165765,0.3249228298664093,0.0,0.846481724890614
+3,392,06:32,mistral-7b-v0.3,Adding Activation Functions to Multilayer Neural Networks,0.27320992506799546,0.32275938987731934,0.0,0.846481724890614
+3,392,06:32,gemma2-9b,Folding Planes: Deeper Networks Unfold,0.26578548550605774,0.26578548550605774,0.0,1.0
+3,392,06:32,llama3.1-8b,Beyond Simple Planes: Unlocking Complexity,0.2657215893268585,0.2657215893268585,0.0,1.0
+3,392,06:32,tinyllama,Learning to Seperate Cities,0.2613323926925659,0.2613323926925659,0.0,1.0
+3,392,06:32,llama3.1-8b,Beyond Binary Borders: Geometric Insights,0.2589079737663269,0.2589079737663269,0.0,1.0
+3,392,06:32,gemma2-9b,Folding Planes: Deeper Learning,0.25855958461761475,0.25855958461761475,0.0,1.0
+3,392,06:32,qwen2-7b,Deepening Neural Networks: Expanding Geographical Classification Capabilities,0.2582195912081979,0.30505040287971497,0.0,0.846481724890614
+3,392,06:32,qwen2-7b,Expanding Neural Networks' Capabilities with Activation Functions,0.254720690397854,0.3009169399738312,0.0,0.846481724890614
+3,392,06:32,tinyllama,Understanding Neural Networks,0.25214165449142456,0.25214165449142456,0.0,1.0
+3,392,06:32,gemma2-9b,Folding Planes: Deeper Learning Begins,0.2516555190086365,0.2516555190086365,0.0,1.0
+3,392,06:32,qwen2-7b,Expanding Neural Network Capabilities with Activation Functions,0.24909673257389084,0.2942730188369751,0.0,0.846481724890614
+3,392,06:32,qwen2-7b,Expanding Neural Network Capabilities with Activation Functions,0.24909673257389084,0.2942730188369751,0.0,0.846481724890614
+3,392,06:32,qwen2-7b,Expanding Neural Network Capabilities with Activation Functions,0.24909673257389084,0.2942730188369751,0.0,0.846481724890614
+3,392,06:32,mistral-7b-v0.3,Mastering Complex Decision Boundaries with Multilayer Neural Networks,0.2468212942726308,0.3444668650627136,0.0,0.7165313105737893
+3,392,06:32,mistral-7b-v0.3,Expanding Neural Networks: Adding Layers and Activation Functions,0.24466096545033075,0.34145188331604004,0.0,0.7165313105737893
+3,392,06:32,qwen2-7b,Expanding Neural Networks: From Planes to Bent Planes,0.22405016089451105,0.3126871883869171,0.0,0.7165313105737893
+3,392,06:32,qwen2-7b,Deepening Neural Networks: From Planes to Bent Planes,0.22367488047694883,0.31216344237327576,0.0,0.7165313105737893
+3,392,06:32,mistral-7b-v0.3,Exploring Two-Layer Neural Networks: Bending Planes with Activation Functions,0.21647395971759822,0.3569052219390869,0.0,0.6065306597126334
+3,392,06:32,tinyllama,"Learning to Separate Paris, Barcelona, Madrid and Barcelona",0.21323476461566632,0.2975930869579315,0.0,0.7165313105737893
+3,392,06:32,tinyllama,How Modern Models Are Trained Using Backpropagate and Gradient Descent,0.21037669615942126,0.4097578525543213,0.0,0.513417119032592
+3,392,06:32,tinyllama,How Modern Models Are Trained Using Backpropagate and Gradient Descent,0.21037669615942126,0.4097578525543213,0.0,0.513417119032592
+3,392,06:32,mistral-7b-v0.3,Mastering Multilayer Neural Networks: Activation Functions and Folding Planes,0.20324052189796954,0.33508697152137756,0.0,0.6065306597126334
+3,392,06:32,mistral-7b-v0.3,Mastering Multilayer Neural Networks: Activation Functions & Folding Planes,0.20149502888457296,0.33220914006233215,0.0,0.6065306597126334
+3,392,06:32,tinyllama,Building Complex Neural Network Models Using Backpropagate and Gradient Descent,0.20074208602033825,0.3909921944141388,0.0,0.513417119032592
+3,392,06:32,tinyllama,Understanding Neural Networks Part 3: Backpropagating Errors and Gradient Descent,0.1922573477221882,0.3744661808013916,0.0,0.513417119032592
+3,392,06:32,mistral-7b-v0.3,Mastering Neural Networks: Adding Activation Functions to Learn Complex Patterns,0.17825235242927745,0.34718817472457886,0.0,0.513417119032592
+3,392,06:32,tinyllama,Understanding Neural Networks - Part 3: Backpropagating Errors and Gradient Descent,0.1615786815596979,0.3717886507511139,0.0,0.43459820850707825
+3,392,06:32,llama3.1-8b,Beyond Simple Planeses: Geometries Complexity **(Note: I changed the word 'planes' to 'planese' to make it plural)**,0.05183914188981826,0.3242383301258087,0.0,0.15987974607969388
+4,703,11:43,tinyllama,Creating a Simple Two-Layer Neural Net,0.34927159547805786,0.34927159547805786,0.0,1.0
+4,703,11:43,llama3.1-8b,Folding Data into Bent Plane Geometry,0.3386057913303375,0.3386057913303375,0.0,1.0
+4,703,11:43,llama3.1-8b,Folding Data into Bent Plane Geometry,0.3386057913303375,0.3386057913303375,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes and Neural Network Folding,0.3273235261440277,0.3273235261440277,0.0,1.0
+4,703,11:43,llama3.1-8b,Folding Boundaries with Bent Planes,0.3190895617008209,0.3190895617008209,0.0,1.0
+4,703,11:43,llama3.1-8b,Folding Data into Complex Surfaces,0.31568002700805664,0.31568002700805664,0.0,1.0
+4,703,11:43,llama3.1-8b,Folding Space: Neural Network Geometry Unveiled,0.3151565194129944,0.3151565194129944,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes: Visualizing Neural Networks,0.3092254102230072,0.3092254102230072,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes: Visualizing Neural Networks,0.3092254102230072,0.3092254102230072,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes: Visualizing Neural Networks,0.3092254102230072,0.3092254102230072,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes & Neural Network Folding,0.3086574375629425,0.3086574375629425,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes & Neural Network Folding,0.3086574375629425,0.3086574375629425,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes & Neural Network Folding,0.3086574375629425,0.3086574375629425,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes & Neural Network Folding,0.3086574375629425,0.3086574375629425,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes & Neural Network Folding,0.3086574375629425,0.3086574375629425,0.0,1.0
+4,703,11:43,llama3.1-8b,Folding Data with Bent Planes,0.30842092633247375,0.30842092633247375,0.0,1.0
+4,703,11:43,llama3.1-8b,Folding Data with Bent Planes,0.30842092633247375,0.30842092633247375,0.0,1.0
+4,703,11:43,llama3.1-8b,Neural Networks Folded: A Geometric Perspective,0.3074781894683838,0.3074781894683838,0.0,1.0
+4,703,11:43,gemma2-9b,Bent Planes: Neural Networks Visualized,0.303769588470459,0.303769588470459,0.0,1.0
+4,703,11:43,tinyllama,A Brief Introduction to Neural Networks,0.3015359342098236,0.3015359342098236,0.0,1.0
+4,703,11:43,tinyllama,Folding Operation in Neural Nets,0.2927790582180023,0.2927790582180023,0.0,1.0
+4,703,11:43,tinyllama,How Neural Networks Work,0.2893899381160736,0.2893899381160736,0.0,1.0
+4,703,11:43,llama3.1-8b,Visualizing Neural Network Processing with Bent Planes,0.28112649844499,0.3321117162704468,0.0,0.846481724890614
+4,703,11:43,qwen2-7b,Neural Networks vs Geographical Boundaries,0.280333012342453,0.280333012342453,0.0,1.0
+4,703,11:43,qwen2-7b,Neural Networks vs Geographical Boundaries,0.280333012342453,0.280333012342453,0.0,1.0
+4,703,11:43,qwen2-7b,Neural Nets vs Map Borders: Precision Limits,0.27378908931789364,0.32344359159469604,0.0,0.846481724890614
+4,703,11:43,qwen2-7b,Neural Networks' Limitations in Precise Border Representation,0.2711712961718146,0.3203510344028473,0.0,0.846481724890614
+4,703,11:43,mistral-7b-v0.3,Visualizing Neural Network Processing: Bent Planes Demystified,0.2703536094903986,0.3193850517272949,0.0,0.846481724890614
+4,703,11:43,mistral-7b-v0.3,Visualizing Neural Network Processing: Bent Planes Demystified,0.2703536094903986,0.3193850517272949,0.0,0.846481724890614
+4,703,11:43,qwen2-7b,Neural Networks & Geometric Folding: Precision Limits,0.2613397067928156,0.3087363839149475,0.0,0.846481724890614
+4,703,11:43,tinyllama,How Many Neurons Are Enough for Universal Approximation?,0.24850531549770055,0.34681710600852966,0.0,0.7165313105737893
+4,703,11:43,tinyllama,"Creating a Brief, Engaging Chapter Title",0.24144722521305084,0.24144722521305084,0.0,1.0
+4,703,11:43,mistral-7b-v0.3,Visualizing Neural Network Processing Through Bent Plane Geometry,0.24022042478170677,0.33525460958480835,0.0,0.7165313105737893
+4,703,11:43,qwen2-7b,Neural Networks & Map Classification: Precision vs. Complexity,0.23729843088978056,0.33117663860321045,0.0,0.7165313105737893
+4,703,11:43,qwen2-7b,Neural Networks & Map Classification: Precision vs. Complexity,0.23729843088978056,0.33117663860321045,0.0,0.7165313105737893
+4,703,11:43,qwen2-7b,Neural Networks & Geometric Folding: A Visualization Perspective,0.2218579073980187,0.3096276521682739,0.0,0.7165313105737893
+4,703,11:43,qwen2-7b,Neural Networks & Geometric Folding: A Visualization Perspective,0.2218579073980187,0.3096276521682739,0.0,0.7165313105737893
+4,703,11:43,tinyllama,Creating a Two-Layer Neural Net for Bounding Box Regression,0.22184859379591182,0.3657664954662323,0.0,0.6065306597126334
+4,703,11:43,qwen2-7b,Neural Networks & Geometric Folding: A Visual Insight,0.22010499721044433,0.3071812689304352,0.0,0.7165313105737893
+4,703,11:43,tinyllama,How Neural Networks Can Predict the Location of Cities,0.21337538605802087,0.35179653763771057,0.0,0.6065306597126334
+4,703,11:43,llama3.1-8b,Folds andFailures inNeuralNetworks,0.20976153016090393,0.20976153016090393,0.0,1.0
+4,703,11:43,tinyllama,How Neural Networks Can Learn to Predict Any Data,0.20871323647305925,0.3441099524497986,0.0,0.6065306597126334
+4,703,11:43,mistral-7b-v0.3,Visualizing Neural Network Processing: Bent Planes & Universal Approximation,0.20858138996670372,0.34389257431030273,0.0,0.6065306597126334
+4,703,11:43,mistral-7b-v0.3,Visualizing Neural Network Processing: Bent Planes & Universal Approximation,0.20858138996670372,0.34389257431030273,0.0,0.6065306597126334
+4,703,11:43,mistral-7b-v0.3,Visualizing Neural Network Processing: Bent Planes & Universal Approximation,0.20858138996670372,0.34389257431030273,0.0,0.6065306597126334
+4,703,11:43,mistral-7b-v0.3,Understanding Neural Network Folding: A Visual Approach to Classification,0.20669206604419404,0.34077760577201843,0.0,0.6065306597126334
+4,703,11:43,mistral-7b-v0.3,Understanding Neural Network Folding: A Visual Approach to Classification,0.20669206604419404,0.34077760577201843,0.0,0.6065306597126334
+4,703,11:43,mistral-7b-v0.3,Understanding Bent Planes & Universal Approximation in Neural Networks,0.20665886039130468,0.34072285890579224,0.0,0.6065306597126334
+4,703,11:43,mistral-7b-v0.3,Visualizing Neural Network Processing: Bent Planes and Geometric Learning,0.202991813907711,0.33467692136764526,0.0,0.6065306597126334
+4,703,11:43,tinyllama,How Many Neurons Does It Take To Make A Good Neural Network?,0.1292850118177095,0.3514330983161926,0.0,0.36787944117144233
+5,849,14:09,qwen2-7b,Neural Networks' Limitations in Universal Approximation,0.3369555175304413,0.3369555175304413,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,llama3.1-8b,The Limits of Universal Approximation,0.33689558506011963,0.33689558506011963,0.0,1.0
+5,849,14:09,tinyllama,The Universal Approximation Theorem,0.3342747688293457,0.3342747688293457,0.0,1.0
+5,849,14:09,tinyllama,The Universal Approximation Theorem,0.3342747688293457,0.3342747688293457,0.0,1.0
+5,849,14:09,tinyllama,The Universal Approximation Theorem,0.3342747688293457,0.3342747688293457,0.0,1.0
+5,849,14:09,gemma2-9b,Neural Networks: Limits of Approximation,0.3338925242424011,0.3338925242424011,0.0,1.0
+5,849,14:09,gemma2-9b,Neural Networks: Limits of Approximation,0.3338925242424011,0.3338925242424011,0.0,1.0
+5,849,14:09,gemma2-9b,Neural Networks: Limits of Approximation,0.3338925242424011,0.3338925242424011,0.0,1.0
+5,849,14:09,gemma2-9b,Neural Networks: Limits of Approximation,0.3338925242424011,0.3338925242424011,0.0,1.0
+5,849,14:09,gemma2-9b,Neural Networks and Universal Approximation,0.3241959810256958,0.3241959810256958,0.0,1.0
+5,849,14:09,llama3.1-8b,Limitations of Universal Approximation Theorem,0.3153234124183655,0.3153234124183655,0.0,1.0
+5,849,14:09,tinyllama,The Universal Approximation Theorem and Neural Networks,0.31172195110970313,0.36825597286224365,0.0,0.846481724890614
+5,849,14:09,gemma2-9b,Neural Networks: Beyond Universal Approximation,0.3115777373313904,0.3115777373313904,0.0,1.0
+5,849,14:09,tinyllama,Universal Approximation Theorem: A Brief Introduction,0.309734582901001,0.309734582901001,0.0,1.0
+5,849,14:09,gemma2-9b,Universal Approximation: Limits and Loopholes,0.30765584111213684,0.30765584111213684,0.0,1.0
+5,849,14:09,gemma2-9b,Universal Approximation: Limits and Challenges,0.29193881154060364,0.29193881154060364,0.0,1.0
+5,849,14:09,gemma2-9b,Universal Approximation: Limits and Challenges,0.29193881154060364,0.29193881154060364,0.0,1.0
+5,849,14:09,gemma2-9b,Universal Approximation: Limits and Challenges,0.29193881154060364,0.29193881154060364,0.0,1.0
+5,849,14:09,tinyllama,The Universal Approximation Theorem: A Brief Introduction,0.2878496271693936,0.34005415439605713,0.0,0.846481724890614
+5,849,14:09,tinyllama,The Universal Approximation Theorem: A Brief Introduction,0.2878496271693936,0.34005415439605713,0.0,0.846481724890614
+5,849,14:09,qwen2-7b,Neural Networks Learn Continuously: Limits & Challenges,0.2832000164498741,0.334561288356781,0.0,0.846481724890614
+5,849,14:09,tinyllama,The Universal Approximation Theorem and Modern Neural Networks,0.26861403781966775,0.3748810887336731,0.0,0.7165313105737893
+5,849,14:09,tinyllama,The Universal Approximation Theorem and Modern Neural Networks,0.26861403781966775,0.3748810887336731,0.0,0.7165313105737893
+5,849,14:09,mistral-7b-v0.3,Universal Approximation Theorem: Finding the Elusive Optimal Solution,0.2518023335556236,0.35141846537590027,0.0,0.7165313105737893
+5,849,14:09,mistral-7b-v0.3,Universal Approximation Theorem: Finding the Elusive Optimal Solution,0.2518023335556236,0.35141846537590027,0.0,0.7165313105737893
+5,849,14:09,qwen2-7b,Neural Networks' Limitations & Universal Approximation Theorem Explained,0.23622044461693661,0.3296721875667572,0.0,0.7165313105737893
+5,849,14:09,qwen2-7b,Neural Networks' Limitations & Universal Approximation Theorem Explained,0.23622044461693661,0.3296721875667572,0.0,0.7165313105737893
+5,849,14:09,tinyllama,The Universal Approximation Theorem: Can You Find the Solution?,0.22190999804352488,0.3658677339553833,0.0,0.6065306597126334
+5,849,14:09,mistral-7b-v0.3,Universal Approximation Theorem: A Journey Through Neural Network Learning,0.21995825761615564,0.3626498579978943,0.0,0.6065306597126334
+5,849,14:09,mistral-7b-v0.3,Universal Approximation Theorem: A Journey Through Neural Network Learning,0.21995825761615564,0.3626498579978943,0.0,0.6065306597126334
+5,849,14:09,mistral-7b-v0.3,"Universal Approximation Theorem: Achieving, But Not Guaranteeing, Optimal Solutions",0.21594109665743175,0.35602667927742004,0.0,0.6065306597126334
+5,849,14:09,qwen2-7b,Neural Networks vs Universal Approximation: Learning Borders & Challenges,0.2067273504396432,0.3408357799053192,0.0,0.6065306597126334
+5,849,14:09,mistral-7b-v0.3,Universal Approximation Theorem: Finding the Optimal Solution in Neural Networks,0.20404049683878447,0.3974166214466095,0.0,0.513417119032592
+5,849,14:09,mistral-7b-v0.3,Universal Approximation Theorem: Finding the Optimal Solution with Gradient Descent,0.19835915067913568,0.3863508701324463,0.0,0.513417119032592
+5,849,14:09,mistral-7b-v0.3,Universal Approximation Theorem: A Misleading Guide to Neural Network Learning,0.19192338760508637,0.37381571531295776,0.0,0.513417119032592
+5,849,14:09,qwen2-7b,Neural Networks vs Universal Approximation: Practical Limitations & Learning Dynamics,0.17412271356347686,0.3391447365283966,0.0,0.513417119032592
+5,849,14:09,qwen2-7b,Neural Networks vs Universal Approximation: Practical Limitations & Learning Dynamics,0.17412271356347686,0.3391447365283966,0.0,0.513417119032592
+5,849,14:09,qwen2-7b,Neural Networks Learn Continuously: From Random Initialization to Optimal Decision Boundaries,0.15459068257233266,0.355709433555603,0.0,0.43459820850707825
+5,849,14:09,qwen2-7b,Neural Networks Learn Continuously: From Random Initialization to Optimal Decision Boundaries,0.15459068257233266,0.355709433555603,0.0,0.43459820850707825
+5,849,14:09,qwen2-7b,Neural Networks Learn Continuously: From Random Initialization to Optimal Decision Boundaries,0.15459068257233266,0.355709433555603,0.0,0.43459820850707825
+5,849,14:09,mistral-7b-v0.3,"Universal Approximation Theorem: A Path to Learning Borders, Yet Not a Guarantee",0.136543789105104,0.3711645007133484,0.0,0.36787944117144233
+5,849,14:09,mistral-7b-v0.3,"Universal Approximation Theorem: A Path to Learning Borders, Yet Not a Guarantee",0.136543789105104,0.3711645007133484,0.0,0.36787944117144233
+6,1193,19:53,llama3.1-8b,Stacking Layers Unlocks Complex Geometries,0.3456481695175171,0.3456481695175171,0.0,1.0
+6,1193,19:53,llama3.1-8b,Stacking Layers for Complex Decision Boundaries,0.32854023575782776,0.32854023575782776,0.0,1.0
+6,1193,19:53,llama3.1-8b,Stacking Layers for Complex Decision Boundaries,0.32854023575782776,0.32854023575782776,0.0,1.0
+6,1193,19:53,llama3.1-8b,Stacking Layers for Complex Decision Boundaries,0.32854023575782776,0.32854023575782776,0.0,1.0
+6,1193,19:53,llama3.1-8b,Stacking Layers for Complex Geometry,0.3233908712863922,0.3233908712863922,0.0,1.0
+6,1193,19:53,qwen2-7b,Deep Learning Geometry: Expanding Decision Boundaries,0.32004424929618835,0.32004424929618835,0.0,1.0
+6,1193,19:53,qwen2-7b,Deep Learning Geometry: Expanding Decision Boundaries,0.32004424929618835,0.32004424929618835,0.0,1.0
+6,1193,19:53,qwen2-7b,Deep Learning Geometry: Expanding Decision Boundaries,0.32004424929618835,0.32004424929618835,0.0,1.0
+6,1193,19:53,qwen2-7b,Deep Learning Geometry: Expanding Decision Boundaries,0.32004424929618835,0.32004424929618835,0.0,1.0
+6,1193,19:53,qwen2-7b,Deep Learning Geometry: Expanding Decision Boundaries,0.32004424929618835,0.32004424929618835,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Layers,0.3162004053592682,0.3162004053592682,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Layers,0.3162004053592682,0.3162004053592682,0.0,1.0
+6,1193,19:53,llama3.1-8b,Stacking Layers Creates Exponential Region Growth,0.3092682361602783,0.3092682361602783,0.0,1.0
+6,1193,19:53,llama3.1-8b,Deep Learning's Exponential Geometry Advantage,0.30514198541641235,0.30514198541641235,0.0,1.0
+6,1193,19:53,llama3.1-8b,Deep Learning's Exponential Geometry Advantage,0.30514198541641235,0.30514198541641235,0.0,1.0
+6,1193,19:53,tinyllama,Exact Number of Neurons Apart,0.30509012937545776,0.30509012937545776,0.0,1.0
+6,1193,19:53,tinyllama,Exact Number of Neurons Apart,0.30509012937545776,0.30509012937545776,0.0,1.0
+6,1193,19:53,tinyllama,Exact Number of Neurons Apart,0.30509012937545776,0.30509012937545776,0.0,1.0
+6,1193,19:53,tinyllama,Exact Number of Neurons Apart,0.30509012937545776,0.30509012937545776,0.0,1.0
+6,1193,19:53,tinyllama,Exact Number of Neurons Apart,0.30509012937545776,0.30509012937545776,0.0,1.0
+6,1193,19:53,tinyllama,Exact Number of Neurons Apart,0.30509012937545776,0.30509012937545776,0.0,1.0
+6,1193,19:53,tinyllama,Exact Number of Neurons Apart,0.30509012937545776,0.30509012937545776,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Unfolding Complexity Through Layers,0.3001960217952728,0.3001960217952728,0.0,1.0
+6,1193,19:53,llama3.1-8b,Theoretical Bounds of Deep Network Complexity,0.2932383418083191,0.2932383418083191,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Complexity,0.29181116819381714,0.29181116819381714,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Complexity,0.29181116819381714,0.29181116819381714,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Complexity,0.29181116819381714,0.29181116819381714,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Complexity,0.29181116819381714,0.29181116819381714,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Complexity,0.29181116819381714,0.29181116819381714,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Complexity,0.29181116819381714,0.29181116819381714,0.0,1.0
+6,1193,19:53,gemma2-9b,Deep Learning: Geometry of Complexity,0.29181116819381714,0.29181116819381714,0.0,1.0
+6,1193,19:53,llama3.1-8b,Deep Learning's Geometric Advantage Unfolds,0.2882196605205536,0.2882196605205536,0.0,1.0
+6,1193,19:53,qwen2-7b,Deep Learning's Power Through Layered Neuron Geometry,0.26607304632779866,0.3143281638622284,0.0,0.846481724890614
+6,1193,19:53,qwen2-7b,Deep Learning Geometry: Layers Create Complex Decision Boundaries,0.2579152360030906,0.3599497079849243,0.0,0.7165313105737893
+6,1193,19:53,qwen2-7b,Deep Learning's Power in Geometry and Decision Boundaries,0.2288862258543657,0.3194364607334137,0.0,0.7165313105737893
+6,1193,19:53,mistral-7b-v0.3,Exponentially Complex Geometry Emerges Through Deep Learning Layers,0.22629849077523687,0.3158249855041504,0.0,0.7165313105737893
+6,1193,19:53,qwen2-7b,Deep Learning's Geometry Advantage: Layers Create Complex Decision Boundaries,0.22573094378062977,0.3721674084663391,0.0,0.6065306597126334
+6,1193,19:53,tinyllama,A Deep Learning Model's Ability to Generate Complex Geometries,0.21975741493283837,0.3623187243938446,0.0,0.6065306597126334
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Regions in Deep Learning Models,0.21162958575224589,0.34891819953918457,0.0,0.6065306597126334
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Regions in Deep Learning Models,0.21162958575224589,0.34891819953918457,0.0,0.6065306597126334
+6,1193,19:53,qwen2-7b,Deep Learning Geometry: Expanding Decision Boundaries Through Layered Neurons,0.20995787906170962,0.34616202116012573,0.0,0.6065306597126334
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Geometry in Deep Learning Models,0.20847539217217825,0.3437178134918213,0.0,0.6065306597126334
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Decision Boundaries in Deep Learning,0.2039884896230155,0.336320161819458,0.0,0.6065306597126334
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Geometry in Deep Neural Networks,0.2037602436899539,0.3359438478946686,0.0,0.6065306597126334
+6,1193,19:53,tinyllama,Examining the Effectiveness of Deep Learning for Image Classification,0.1849502987754256,0.30493149161338806,0.0,0.6065306597126334
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Decision Boundaries in Deep Learning Models,0.18024595325294793,0.35107117891311646,0.0,0.513417119032592
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Decision Boundaries in Deep Learning Models,0.18024595325294793,0.35107117891311646,0.0,0.513417119032592
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Decision Boundaries in Deep Learning Models,0.18024595325294793,0.35107117891311646,0.0,0.513417119032592
+6,1193,19:53,mistral-7b-v0.3,Exponential Growth of Complex Decision Boundaries in Deep Learning Models,0.18024595325294793,0.35107117891311646,0.0,0.513417119032592
+6,1193,19:53,tinyllama,The Relationship Between Number and Size of Neural Network Layers,0.171823459514331,0.3346664011478424,0.0,0.513417119032592
+7,1602,26:42,gemma2-9b,Deep Networks Learn Complex Regions,0.3412056863307953,0.3412056863307953,0.0,1.0
+7,1602,26:42,llama3.1-8b,Deep Network Complexity and Decision Boundings,0.3362656533718109,0.3362656533718109,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Networks Learn Complex Boundaries,0.3361119031906128,0.3361119031906128,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Networks Learn Complex Boundaries,0.3361119031906128,0.3361119031906128,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Networks Learn Complex Boundaries,0.3361119031906128,0.3361119031906128,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Networks Learn Complex Boundaries,0.3361119031906128,0.3361119031906128,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Networks Learn Complex Boundaries,0.3361119031906128,0.3361119031906128,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Networks Learn Complex Boundaries,0.3361119031906128,0.3361119031906128,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Learning: Folding Complexity,0.3220701217651367,0.3220701217651367,0.0,1.0
+7,1602,26:42,mistral-7b-v0.3,Deep Network Scalability & Learning Complexity,0.31912174820899963,0.31912174820899963,0.0,1.0
+7,1602,26:42,llama3.1-8b,Scaling up Deep Networks,0.3177529275417328,0.3177529275417328,0.0,1.0
+7,1602,26:42,qwen2-7b,Deep Network Scaling and Decision Boundary Evolution,0.30814078465692885,0.3640253245830536,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Scaling and Decision Boundary Evolution,0.30814078465692885,0.3640253245830536,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Scaling and Decision Boundary Evolution,0.30814078465692885,0.3640253245830536,0.0,0.846481724890614
+7,1602,26:42,llama3.1-8b,Diving Deeper into Neural Model Optimization,0.3069417178630829,0.3069417178630829,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Learning Unfolds Complexity,0.30656805634498596,0.30656805634498596,0.0,1.0
+7,1602,26:42,gemma2-9b,Deep Learning Unfolds Complexity,0.30656805634498596,0.30656805634498596,0.0,1.0
+7,1602,26:42,qwen2-7b,Deep Network Expansion: Complexity Unfolds,0.30624890327453613,0.30624890327453613,0.0,1.0
+7,1602,26:42,mistral-7b-v0.3,Deep Network Scaling: Exploring Complex Decision Boundaries,0.3043179928367216,0.3595092296600342,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Scaling & Decision Boundary Evolution,0.29756522224483695,0.3515317738056183,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Scaling & Decision Boundary Evolution,0.29756522224483695,0.3515317738056183,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Scaling & Decision Boundary Evolution,0.29756522224483695,0.3515317738056183,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Scaling & Decision Boundary Evolution,0.29756522224483695,0.3515317738056183,0.0,0.846481724890614
+7,1602,26:42,llama3.1-8b,Scaling Deep Networks for Complex Decision Boundaries,0.2967671874908828,0.35058900713920593,0.0,0.846481724890614
+7,1602,26:42,tinyllama,How Deep Learning Can Learn Complex Structures,0.294640717758473,0.34807687997817993,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Expansion & Decision Boundary Evolution,0.2931443458337862,0.3463091254234314,0.0,0.846481724890614
+7,1602,26:42,qwen2-7b,Deep Network Expansion: Revealing Complexity Through Layers,0.2927243647190417,0.34581297636032104,0.0,0.846481724890614
+7,1602,26:42,tinyllama,How Deep Learning Can Solve Complex Problems,0.27975303305508425,0.3304891586303711,0.0,0.846481724890614
+7,1602,26:42,tinyllama,How Deep Learning Can Solve Real-World Problems,0.27758703242365923,0.3279303312301636,0.0,0.846481724890614
+7,1602,26:42,tinyllama,How Deep Learning Can Solve Real-World Problems,0.27758703242365923,0.3279303312301636,0.0,0.846481724890614
+7,1602,26:42,tinyllama,How Deep Learning Can Solve Real-World Problems,0.27758703242365923,0.3279303312301636,0.0,0.846481724890614
+7,1602,26:42,tinyllama,How Deep Learning Can Solve Real-World Problems,0.27758703242365923,0.3279303312301636,0.0,0.846481724890614
+7,1602,26:42,tinyllama,How Deep Learning Can Solve Real-World Problems,0.27758703242365923,0.3279303312301636,0.0,0.846481724890614
+7,1602,26:42,mistral-7b-v0.3,Deep Learning Model Scalability & Complexity Explored,0.26730556779122205,0.315784215927124,0.0,0.846481724890614
+7,1602,26:42,llama3.1-8b,Scaling Up Deep Networks for Complex Decision Boundaries,0.2621036891942295,0.36579516530036926,0.0,0.7165313105737893
+7,1602,26:42,llama3.1-8b,Scaling Up Deep Networks for Complex Decision Boundaries,0.2621036891942295,0.36579516530036926,0.0,0.7165313105737893
+7,1602,26:42,llama3.1-8b,Scaling Up Deep Networks for Complex Decision Boundaries,0.2621036891942295,0.36579516530036926,0.0,0.7165313105737893
+7,1602,26:42,llama3.1-8b,From Simple to Sophisticated: Deep Network Development,0.2587361417431275,0.3056606352329254,0.0,0.846481724890614
+7,1602,26:42,mistral-7b-v0.3,Deep Network Evolution: Unraveling Complexity Through Gradient Descent,0.2543201546659861,0.35493236780166626,0.0,0.7165313105737893
+7,1602,26:42,llama3.1-8b,The Impact of Scale on Deep Network Performance,0.25095732266434356,0.3502391576766968,0.0,0.7165313105737893
+7,1602,26:42,mistral-7b-v0.3,Deep Network Scalability: Exploring Complexity and Learning Progression,0.244133087225559,0.3407151699066162,0.0,0.7165313105737893
+7,1602,26:42,mistral-7b-v0.3,Exploring Deep Network Scalability: A Journey Through Layers,0.2421192275271954,0.33790460228919983,0.0,0.7165313105737893
+7,1602,26:42,mistral-7b-v0.3,Deep Network Scalability: Exploring Complexity & Learning Progression,0.239032634713079,0.3335969150066376,0.0,0.7165313105737893
+7,1602,26:42,mistral-7b-v0.3,Deep Network Scaling: Unraveling Town Borders with Gradient Descent,0.2286237400028132,0.37693682312965393,0.0,0.6065306597126334
+7,1602,26:42,tinyllama,Watch Labs - How Deep Learning Can Learn Complexity,0.19973928676655564,0.3293144106864929,0.0,0.6065306597126334
+7,1602,26:42,mistral-7b-v0.3,Exploring Deep Network Scalability: A Town Border Learning Journey,0.19653252811375949,0.3240273594856262,0.0,0.6065306597126334
+7,1602,26:42,llama3.1-8b,The best answer is: Scaling Deep Networks Beyond Initial Bounds,0.18179475335252096,0.35408782958984375,0.0,0.513417119032592
+7,1602,26:42,mistral-7b-v0.3,Deep Network Evolution: A Closer Look at Learning Complex Boundaries,0.1796239666882916,0.34985971450805664,0.0,0.513417119032592
+7,1602,26:42,tinyllama,Watch Labs - How Deep Learning Can Solve Complex Problems,0.16936787491829475,0.3298835754394531,0.0,0.513417119032592
+7,1602,26:42,tinyllama,Watch Lab - How Deep Learning Can Solve Real World Problems,0.13947517742948073,0.32092902064323425,0.0,0.43459820850707825
+8,1828,30:28,llama3.1-8b,Solving Complex Problems With Modern AI,0.37916526198387146,0.37916526198387146,0.0,1.0
+8,1828,30:28,llama3.1-8b,Scaling Neural Networks: Unraveling Complexity,0.3754677176475525,0.3754677176475525,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks: A Decade Later,0.3727310299873352,0.3727310299873352,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks: A Decade Later,0.3727310299873352,0.3727310299873352,0.0,1.0
+8,1828,30:28,llama3.1-8b,Scaling Deep Learning: Uncovering Hidden Patterns,0.36927279829978943,0.36927279829978943,0.0,1.0
+8,1828,30:28,llama3.1-8b,The Evolution of Neural Network Understanding,0.3658198118209839,0.3658198118209839,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over Decades,0.3600788116455078,0.3600788116455078,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over Decades,0.3600788116455078,0.3600788116455078,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over Decades,0.3600788116455078,0.3600788116455078,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over Decades,0.3600788116455078,0.3600788116455078,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over Decades,0.3600788116455078,0.3600788116455078,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over Decades,0.3600788116455078,0.3600788116455078,0.0,1.0
+8,1828,30:28,gemma2-9b,Neural Networks: A Decade of Discovery,0.3510366976261139,0.3510366976261139,0.0,1.0
+8,1828,30:28,gemma2-9b,Neural Networks: A Decade of Discovery,0.3510366976261139,0.3510366976261139,0.0,1.0
+8,1828,30:28,gemma2-9b,Neural Networks: A Decade of Discovery,0.3510366976261139,0.3510366976261139,0.0,1.0
+8,1828,30:28,gemma2-9b,Neural Networks: A Decade of Discovery,0.3510366976261139,0.3510366976261139,0.0,1.0
+8,1828,30:28,mistral-7b-v0.3,Neural Network Evolution: A Decade Later,0.34652358293533325,0.34652358293533325,0.0,1.0
+8,1828,30:28,mistral-7b-v0.3,Decoding Deep Learning: A Decade Later,0.3460208773612976,0.3460208773612976,0.0,1.0
+8,1828,30:28,mistral-7b-v0.3,Decoding Deep Learning: A Decade Later,0.3460208773612976,0.3460208773612976,0.0,1.0
+8,1828,30:28,mistral-7b-v0.3,Decoding Deep Learning: A Decade Later,0.3460208773612976,0.3460208773612976,0.0,1.0
+8,1828,30:28,llama3.1-8b,Scaling Neural Networks: A New Frontier,0.34290701150894165,0.34290701150894165,0.0,1.0
+8,1828,30:28,llama3.1-8b,Scaling Neural Networks: New Frontiers,0.34166190028190613,0.34166190028190613,0.0,1.0
+8,1828,30:28,llama3.1-8b,Scaling Neural Networks: New Frontiers,0.34166190028190613,0.34166190028190613,0.0,1.0
+8,1828,30:28,gemma2-9b,Neural Networks: A Decade Deeper,0.3356509208679199,0.3356509208679199,0.0,1.0
+8,1828,30:28,gemma2-9b,Neural Networks: A Decade Deeper,0.3356509208679199,0.3356509208679199,0.0,1.0
+8,1828,30:28,gemma2-9b,Neural Networks: A Decade Deeper,0.3356509208679199,0.3356509208679199,0.0,1.0
+8,1828,30:28,llama3.1-8b,Scaling Deep Learning: Mysteries Unveiled,0.3242078423500061,0.3242078423500061,0.0,1.0
+8,1828,30:28,mistral-7b-v0.3,Unraveling Modern Neural Nets: A Decade Later,0.3234354837347342,0.3820938766002655,0.0,0.846481724890614
+8,1828,30:28,gemma2-9b,Deep Learning: A Decade of Discovery,0.32340264320373535,0.32340264320373535,0.0,1.0
+8,1828,30:28,gemma2-9b,Deep Learning: A Decade of Discovery,0.32340264320373535,0.32340264320373535,0.0,1.0
+8,1828,30:28,gemma2-9b,Deep Learning: A Decade of Discovery,0.32340264320373535,0.32340264320373535,0.0,1.0
+8,1828,30:28,tinyllama,Neural Network Deep Learning,0.31597182154655457,0.31597182154655457,0.0,1.0
+8,1828,30:28,tinyllama,Neural Network Deep Learning,0.31597182154655457,0.31597182154655457,0.0,1.0
+8,1828,30:28,tinyllama,Neural Network Deep Learning,0.31597182154655457,0.31597182154655457,0.0,1.0
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over a Decade,0.3133136563256333,0.3701363503932953,0.0,0.846481724890614
+8,1828,30:28,qwen2-7b,Decoding Neural Networks' Evolution Over a Decade,0.3133136563256333,0.3701363503932953,0.0,0.846481724890614
+8,1828,30:28,tinyllama,Deep Learning: A Brief Introduction,0.3058071434497833,0.3058071434497833,0.0,1.0
+8,1828,30:28,tinyllama,Deep Learning: A Revolution in Machine Learning,0.28723229428502833,0.33932486176490784,0.0,0.846481724890614
+8,1828,30:28,tinyllama,Deep Learning: A Revolution in Machine Learning,0.28723229428502833,0.33932486176490784,0.0,0.846481724890614
+8,1828,30:28,tinyllama,Deep Learning: A Revolution in Machine Learning,0.28723229428502833,0.33932486176490784,0.0,0.846481724890614
+8,1828,30:28,mistral-7b-v0.3,Neural Network Evolution: A Decade of Learning Mysteries,0.2661254507420606,0.37140798568725586,0.0,0.7165313105737893
+8,1828,30:28,mistral-7b-v0.3,Neural Network Evolution: A Decade of Learning Mysteries,0.2661254507420606,0.37140798568725586,0.0,0.7165313105737893
+8,1828,30:28,mistral-7b-v0.3,Deep Learning Evolution: A Decade of Neural Mysteries,0.2619844467991192,0.36562874913215637,0.0,0.7165313105737893
+8,1828,30:28,llama3.1-8b,From Simplicity to Scale,0.2612800896167755,0.2612800896167755,0.0,1.0
+8,1828,30:28,tinyllama,Neural Nets Demystify: How Deep Models Learn Complex Patterns,0.25891868333194545,0.4268847405910492,0.0,0.6065306597126334
+8,1828,30:28,tinyllama,Deep Learning: A Revolutionary Approach to Machine Learning,0.25315288607688935,0.35330331325531006,0.0,0.7165313105737893
+8,1828,30:28,llama3.1-8b,The Next Frontier,0.2435777336359024,0.2435777336359024,0.0,1.0
+8,1828,30:28,mistral-7b-v0.3,Neural Network Evolution: A Decade of Deep Learning Mysteries,0.22469580228995864,0.37046074867248535,0.0,0.6065306597126334
+8,1828,30:28,mistral-7b-v0.3,Neural Network Evolution: A Decade of Deep Learning Mysteries,0.22469580228995864,0.37046074867248535,0.0,0.6065306597126334
+8,1828,30:28,tinyllama,Neural Netwrok Deep Learning - How Recursive Folding and Scale Can Solve Complex Problems,0.11099382356270468,0.42107370495796204,0.0,0.2635971381157267
+9,1902,31:42,tinyllama,Watch Labs: Building a Viable Business,0.34991130232810974,0.34991130232810974,0.0,1.0
+9,1902,31:42,llama3.1-8b,Pivoting Towards Education Through Business Growth,0.30625516176223755,0.30625516176223755,0.0,1.0
+9,1902,31:42,llama3.1-8b,Rebuilding Welch Labs and Pursuing Education,0.30337613821029663,0.30337613821029663,0.0,1.0
+9,1902,31:42,tinyllama,Watch Labs Launches New Reward,0.28998371958732605,0.28998371958732605,0.0,1.0
+9,1902,31:42,tinyllama,Watch Labs Launches New Reward,0.28998371958732605,0.28998371958732605,0.0,1.0
+9,1902,31:42,tinyllama,Watch Labs Launches New Reward,0.28998371958732605,0.28998371958732605,0.0,1.0
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A Journey Towards Self-Sufficiency,0.25883735295362453,0.30578020215034485,0.0,0.846481724890614
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A Journey Towards Self-Sufficiency,0.25883735295362453,0.30578020215034485,0.0,0.846481724890614
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A Journey Towards Self-Sufficiency,0.25883735295362453,0.30578020215034485,0.0,0.846481724890614
+9,1902,31:42,llama3.1-8b,Finding Balance Between Passion and Profit,0.2583368718624115,0.2583368718624115,0.0,1.0
+9,1902,31:42,tinyllama,Watch Labs: A New Era of Education,0.25733141994998004,0.3040011525154114,0.0,0.846481724890614
+9,1902,31:42,tinyllama,Watch Labs - The Future of Education,0.2529815578852776,0.29886239767074585,0.0,0.846481724890614
+9,1902,31:42,llama3.1-8b,From Passion to Business: A Creator's Journey,0.2467087080482523,0.29145190119743347,0.0,0.846481724890614
+9,1902,31:42,llama3.1-8b,From Passion to Business: A Creator's Journey,0.2467087080482523,0.29145190119743347,0.0,0.846481724890614
+9,1902,31:42,llama3.1-8b,Rebuilding Welch Labs: A New Path Forward,0.2395292459273678,0.2829703688621521,0.0,0.846481724890614
+9,1902,31:42,llama3.1-8b,Rebuilding Watch Lab: A new path forward,0.23912755447553713,0.2824958264827728,0.0,0.846481724890614
+9,1902,31:42,llama3.1-8b,From Passion to Viability,0.23810029029846191,0.23810029029846191,0.0,1.0
+9,1902,31:42,llama3.1-8b,Pivoting to Passion: The Welch Labs Story,0.23740620708344937,0.2804622948169708,0.0,0.846481724890614
+9,1902,31:42,tinyllama,Welcome to Watch LABS,0.23657849431037903,0.23657849431037903,0.0,1.0
+9,1902,31:42,tinyllama,Welcome to Watch LABS,0.23657849431037903,0.23657849431037903,0.0,1.0
+9,1902,31:42,tinyllama,Welcome to Watch LABS,0.23657849431037903,0.23657849431037903,0.0,1.0
+9,1902,31:42,tinyllama,Welcome to Watch LABS,0.23657849431037903,0.23657849431037903,0.0,1.0
+9,1902,31:42,gemma2-9b,From Engineer to Educator: Watch Labs Evolves,0.2342706020463777,0.27675801515579224,0.0,0.846481724890614
+9,1902,31:42,gemma2-9b,From Engineer to Educator: Watch Labs Evolves,0.2342706020463777,0.27675801515579224,0.0,0.846481724890614
+9,1902,31:42,gemma2-9b,From Engineer to Educator: Watch Labs Journey,0.23101249410846514,0.272909015417099,0.0,0.846481724890614
+9,1902,31:42,gemma2-9b,From Engineer to Educator: Watch Labs Journey,0.23101249410846514,0.272909015417099,0.0,0.846481724890614
+9,1902,31:42,mistral-7b-v0.3,A New Era for Education: Welch Lab's Journey,0.22633714205302155,0.3158789277076721,0.0,0.7165313105737893
+9,1902,31:42,llama3.1-8b,Navigating Setbacks: The Story of Watch Lab's Relaunch,0.22262209227470484,0.31069415807724,0.0,0.7165313105737893
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A New Journey for Welch,0.21844207403092777,0.3048604726791382,0.0,0.7165313105737893
+9,1902,31:42,gemma2-9b,From Engineer to Educator: The Watch Labs Journey,0.2095319081410043,0.29242533445358276,0.0,0.7165313105737893
+9,1902,31:42,gemma2-9b,From Engineer to Educator: The Watch Labs Journey,0.2095319081410043,0.29242533445358276,0.0,0.7165313105737893
+9,1902,31:42,gemma2-9b,From Engineer to Educator: A Watch Labs Journey,0.20815397941083255,0.29050227999687195,0.0,0.7165313105737893
+9,1902,31:42,gemma2-9b,From Engineer to Educator: A Watch Labs Journey,0.20815397941083255,0.29050227999687195,0.0,0.7165313105737893
+9,1902,31:42,gemma2-9b,Watch Labs: A Journey of Passion and Purpose,0.20498602672469432,0.2860810458660126,0.0,0.7165313105737893
+9,1902,31:42,gemma2-9b,Watch Labs: A Journey of Passion and Purpose,0.20498602672469432,0.2860810458660126,0.0,0.7165313105737893
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A New Chapter for Welch Lab,0.19502708467595947,0.3215453028678894,0.0,0.6065306597126334
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A New Chapter for Welch Lab,0.19502708467595947,0.3215453028678894,0.0,0.6065306597126334
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A New Chapter for Welch Lab,0.19502708467595947,0.3215453028678894,0.0,0.6065306597126334
+9,1902,31:42,mistral-7b-v0.3,Education Through Videos: A New Chapter for Welch Lab,0.19502708467595947,0.3215453028678894,0.0,0.6065306597126334
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey Continues,0.17420939385594372,0.3393135666847229,0.0,0.513417119032592
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey Continues,0.17420939385594372,0.3393135666847229,0.0,0.513417119032592
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey Continues,0.17420939385594372,0.3393135666847229,0.0,0.513417119032592
+9,1902,31:42,mistral-7b-v0.3,From Machine Learning Engineer to Educator: A Journey with Welch Lab,0.13850440938531255,0.3186953067779541,0.0,0.43459820850707825
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey to Financial Independence,0.12611595443804513,0.3428187072277069,0.0,0.36787944117144233
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey to Financial Independence,0.12611595443804513,0.3428187072277069,0.0,0.36787944117144233
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey to Full-Time Video Creation,0.11528562443339406,0.3702133297920227,0.0,0.31140322391459774
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey to Full-Time Video Creation,0.11528562443339406,0.3702133297920227,0.0,0.31140322391459774
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Entrepreneur: My Journey Back to Welch Labs,0.11191721558258416,0.35939645767211914,0.0,0.31140322391459774
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey Back to Welch Labs,0.11137252217165128,0.3576472997665405,0.0,0.31140322391459774
+9,1902,31:42,qwen2-7b,From Machine Learning Engineer to Education Advocate: My Journey Back to Video Creation,0.11040819061647127,0.3545505702495575,0.0,0.31140322391459774

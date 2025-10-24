@@ -1,0 +1,552 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,gemma2-9b,The Ocean's Biggest Con: Seafood Fraud,0.3750406801700592,0.3750406801700592,0.0,1.0
+1,0,00:00,gemma2-9b,The Hidden World of Seafood Fraud,0.3664383888244629,0.3664383888244629,0.0,1.0
+1,0,00:00,gemma2-9b,The Hidden World of Seafood Fraud,0.3664383888244629,0.3664383888244629,0.0,1.0
+1,0,00:00,gemma2-9b,The Hidden World of Seafood Fraud,0.3664383888244629,0.3664383888244629,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Rampant Deception of Counterfeit Seafood,0.35838860273361206,0.35838860273361206,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Rampant Deception of Counterfeit Seafood,0.35838860273361206,0.35838860273361206,0.0,1.0
+1,0,00:00,tinyllama,Counterfeit Seafood: A Global Problem,0.35260605812072754,0.35260605812072754,0.0,1.0
+1,0,00:00,llama3.1-8b,The Great Fish Forgery Epidemic Uncovered,0.3470160663127899,0.3470160663127899,0.0,1.0
+1,0,00:00,llama3.1-8b,The Great Fish Forgery Epidemic Uncovered,0.3470160663127899,0.3470160663127899,0.0,1.0
+1,0,00:00,llama3.1-8b,The Great Fish Forgery Epidemic Uncovered,0.3470160663127899,0.3470160663127899,0.0,1.0
+1,0,00:00,llama3.1-8b,The Great Fish Forgery Epidemic Uncovered,0.3470160663127899,0.3470160663127899,0.0,1.0
+1,0,00:00,qwen2-7b,The Shadow World of Counterfeit Seafood,0.34470611810684204,0.34470611810684204,0.0,1.0
+1,0,00:00,qwen2-7b,The Shadow World of Counterfeit Seafood,0.34470611810684204,0.34470611810684204,0.0,1.0
+1,0,00:00,qwen2-7b,The Shadow World of Counterfeit Seafood,0.34470611810684204,0.34470611810684204,0.0,1.0
+1,0,00:00,gemma2-9b,The Ocean's Biggest Scam,0.3378925323486328,0.3378925323486328,0.0,1.0
+1,0,00:00,gemma2-9b,The Ocean's Biggest Scam,0.3378925323486328,0.3378925323486328,0.0,1.0
+1,0,00:00,gemma2-9b,The Ocean's Biggest Scam,0.3378925323486328,0.3378925323486328,0.0,1.0
+1,0,00:00,gemma2-9b,The Ocean's Biggest Scam,0.3378925323486328,0.3378925323486328,0.0,1.0
+1,0,00:00,tinyllama,What is Seafoods Fraud?,0.33738651871681213,0.33738651871681213,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Counterfeit Crustaceans: The Global Seafood Fraud Epidemic,0.3372851480796178,0.39845532178878784,0.0,0.846481724890614
+1,0,00:00,tinyllama,The Counterfeit Seafood Epidemic,0.33513230085372925,0.33513230085372925,0.0,1.0
+1,0,00:00,llama3.1-8b,The Great Fish Forgery Epidemic,0.3332216441631317,0.3332216441631317,0.0,1.0
+1,0,00:00,llama3.1-8b,The Great Fish Forgery Epidemic,0.3332216441631317,0.3332216441631317,0.0,1.0
+1,0,00:00,tinyllama,How Counterfeit Seafood Is Easily Sold in Japan,0.32954045272327603,0.4599107503890991,0.0,0.7165313105737893
+1,0,00:00,llama3.1-8b,The Great Fish Forgery Frenzy,0.3289070129394531,0.3289070129394531,0.0,1.0
+1,0,00:00,gemma2-9b,The Ocean's Biggest Fraud,0.31984665989875793,0.31984665989875793,0.0,1.0
+1,0,00:00,tinyllama,How Counterfeit Seafood Is Gaining Popularity in Restaurants,0.30843809360208335,0.43046003580093384,0.0,0.7165313105737893
+1,0,00:00,llama3.1-8b,The Great Fish Forgery: Uncovering Seafood Scams,0.30704295079391514,0.36272838711738586,0.0,0.846481724890614
+1,0,00:00,tinyllama,Counterfeit Crab: The Unknown Truth,0.29984331130981445,0.29984331130981445,0.0,1.0
+1,0,00:00,llama3.1-8b,The Great Fish Forgery: Uncovering the Truth,0.2940766140999673,0.3474104702472687,0.0,0.846481724890614
+1,0,00:00,tinyllama,Counterfeit Seafood - The Rise of Imitation Fish,0.29313814544825323,0.4091072380542755,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Counterfeit Crustaceans: The Rampant Fraud in Seafood Industry,0.2927809307660533,0.40860870480537415,0.0,0.7165313105737893
+1,0,00:00,llama3.1-8b,The Great Fish Forgery: A Global Scandal,0.2925097323713575,0.34555941820144653,0.0,0.846481724890614
+1,0,00:00,gemma2-9b,The Seafood Deception,0.2844425141811371,0.2844425141811371,0.0,1.0
+1,0,00:00,tinyllama,How Counterfeit Seafood Is Transforming The Global Fish Market,0.26174521285652824,0.4315448999404907,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Counterfeit Crusade: Unmasking the Global Seafood Fraud,0.2575448884281627,0.3594328463077545,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,The Counterfeit Crusade: Unmasking the World of Fake Fish,0.23886384276445516,0.3938198983669281,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Counterfeit Crusade: Unmasking the World of Fake Fish,0.23886384276445516,0.3938198983669281,0.0,0.6065306597126334
+1,0,00:00,tinyllama,Counterfeit Seafood: The Rise of Imitation Fish in Japanese Restaurants,0.23180482950835607,0.45149415731430054,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,The Counterfeit Crusade: Unmasking the Global Seafood Fraud Epidemic,0.2237006811125684,0.36882007122039795,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Counterfeit Crusade: Unmasking the Deception in Seafood Industry,0.2226791147146136,0.36713579297065735,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,"The Dark Side of Seafood: Fraud, Counterfeits, and Illegals",0.21999589189449842,0.36271190643310547,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,"The Dark Side of Seafood: Fraud, Counterfeits, and Illegals",0.21999589189449842,0.36271190643310547,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,The Counterfeit Crusade: Unmasking the Deception in the Seafood Industry,0.19307234138466928,0.3760535717010498,0.0,0.513417119032592
+1,0,00:00,tinyllama,Counterfeit Crab: The Fishy Business of Imitation Crab in Sushi Restaurants,0.1929264163823416,0.44391903281211853,0.0,0.43459820850707825
+1,0,00:00,qwen2-7b,The Hidden World of Seafood Fraud: From Imitation Crab to Global Smuggling,0.15404291148073002,0.41873204708099365,0.0,0.36787944117144233
+1,0,00:00,qwen2-7b,The Hidden World of Seafood Fraud: From Imitation Crab to Global Smuggling,0.15404291148073002,0.41873204708099365,0.0,0.36787944117144233
+1,0,00:00,qwen2-7b,The Hidden World of Seafood Fraud: From Imitation Crab to Global Smuggling,0.15404291148073002,0.41873204708099365,0.0,0.36787944117144233
+1,0,00:00,qwen2-7b,The Hidden World of Seafood Fraud: From Imitation Crab to Global Smuggling,0.15404291148073002,0.41873204708099365,0.0,0.36787944117144233
+1,0,00:00,qwen2-7b,The Dark Underbelly of Seafood Fraud: From Imitation Crab to Global Smuggling,0.1495208615009631,0.4064398407936096,0.0,0.36787944117144233
+2,70,01:10,qwen2-7b,"Sushi Secrets: Imitation Crab, Real Deception",0.37118932604789734,0.37118932604789734,0.0,1.0
+2,70,01:10,gemma2-9b,Seafood Fraud: Imitation Crab & Mislabeling,0.36971795558929443,0.36971795558929443,0.0,1.0
+2,70,01:10,qwen2-7b,"Sushi Secrets: Imitation Crab, Real Scam",0.3640649914741516,0.3640649914741516,0.0,1.0
+2,70,01:10,gemma2-9b,The Crab Deception: Seafood Fraud Exposed,0.3330327868461609,0.3330327868461609,0.0,1.0
+2,70,01:10,gemma2-9b,The Crab Deception: Seafood Fraud Exposed,0.3330327868461609,0.3330327868461609,0.0,1.0
+2,70,01:10,gemma2-9b,The Crab Deception: Seafood Fraud Exposed,0.3330327868461609,0.3330327868461609,0.0,1.0
+2,70,01:10,llama3.1-8b,The Crab Conundrum: Imitation vs Authentic,0.3275822401046753,0.3275822401046753,0.0,1.0
+2,70,01:10,llama3.1-8b,The Imitation Game: Crab Meat Deception,0.32577356696128845,0.32577356696128845,0.0,1.0
+2,70,01:10,llama3.1-8b,The Imitation Game: Crab Meat Deception,0.32577356696128845,0.32577356696128845,0.0,1.0
+2,70,01:10,gemma2-9b,The Truth About Crab Meat,0.32286718487739563,0.32286718487739563,0.0,1.0
+2,70,01:10,gemma2-9b,The Truth About Crab Meat,0.32286718487739563,0.32286718487739563,0.0,1.0
+2,70,01:10,mistral-7b-v0.3,Unmasking Imitation Crab: The Seafood Deception,0.3208855092525482,0.3208855092525482,0.0,1.0
+2,70,01:10,mistral-7b-v0.3,Unmasking Imitation Crab: The Seafood Deception,0.3208855092525482,0.3208855092525482,0.0,1.0
+2,70,01:10,llama3.1-8b,The Crab Conundrum: Imitation vs. Authentic,0.320822536945343,0.320822536945343,0.0,1.0
+2,70,01:10,gemma2-9b,The Truth About Imitation Crab,0.31725209951400757,0.31725209951400757,0.0,1.0
+2,70,01:10,tinyllama,The Rise of Imitation Crab,0.31603100895881653,0.31603100895881653,0.0,1.0
+2,70,01:10,tinyllama,The Most Expensive Kind of Tuna,0.3133388161659241,0.3133388161659241,0.0,1.0
+2,70,01:10,llama3.1-8b,The Imitation Crab Conundrum Exposed,0.3108683228492737,0.3108683228492737,0.0,1.0
+2,70,01:10,gemma2-9b,The Crab Deception: Real vs. Imitation,0.31079456210136414,0.31079456210136414,0.0,1.0
+2,70,01:10,gemma2-9b,The Crab Cake Conundrum,0.31000515818595886,0.31000515818595886,0.0,1.0
+2,70,01:10,gemma2-9b,The Crab Cake Conundrum,0.31000515818595886,0.31000515818595886,0.0,1.0
+2,70,01:10,qwen2-7b,Sushi Secrets: Unraveling Imitation Crab and Authenticity,0.3034652656838748,0.3585018515586853,0.0,0.846481724890614
+2,70,01:10,tinyllama,How to Identify Legitimate Seafood,0.302099347114563,0.302099347114563,0.0,1.0
+2,70,01:10,tinyllama,How to Identify Legitimate Seafood,0.302099347114563,0.302099347114563,0.0,1.0
+2,70,01:10,llama3.1-8b,The Crab Conundrum: Imitation vs. Reality,0.3010783791542053,0.3010783791542053,0.0,1.0
+2,70,01:10,tinyllama,The Rarest Tuna in the World,0.30076849460601807,0.30076849460601807,0.0,1.0
+2,70,01:10,llama3.1-8b,The Crab Conundrum: Imitation vs Authenticity,0.30057284235954285,0.30057284235954285,0.0,1.0
+2,70,01:10,mistral-7b-v0.3,The Deceptive World of Imitation Crab Meat,0.29400559975361906,0.3473265767097473,0.0,0.846481724890614
+2,70,01:10,tinyllama,How to Cook a Perfect Steak,0.2894790768623352,0.2894790768623352,0.0,1.0
+2,70,01:10,llama3.1-8b,The Imitation Crab Conundrum: Uncovering Seafood Deception,0.2882661269414042,0.340546190738678,0.0,0.846481724890614
+2,70,01:10,llama3.1-8b,The Crab Conundrum: Uncovering Imitation and Mislabeling,0.28712432220603346,0.3391973078250885,0.0,0.846481724890614
+2,70,01:10,mistral-7b-v0.3,Unmasking Imitation Crab: The Seafood Fraud Epidemic,0.2854235096906518,0.3371880352497101,0.0,0.846481724890614
+2,70,01:10,mistral-7b-v0.3,Unmasking Imitation Crab: The Seafood Fraud Epidemic,0.2854235096906518,0.3371880352497101,0.0,0.846481724890614
+2,70,01:10,qwen2-7b,Sushi Secrets: Unraveling Imitation Crab and Authentic Tuna,0.2666952688063733,0.3722032308578491,0.0,0.7165313105737893
+2,70,01:10,tinyllama,How to Cook the Perfect Fish Tacos,0.26495730120869004,0.3130100667476654,0.0,0.846481724890614
+2,70,01:10,qwen2-7b,The Truth Behind Imitation Crab and Authentic Tuna,0.2572127223364829,0.3589692711830139,0.0,0.7165313105737893
+2,70,01:10,tinyllama,The Art of Cooking,0.2570968270301819,0.2570968270301819,0.0,1.0
+2,70,01:10,llama3.1-8b,Scandals Beneath the Shell,0.23165665566921234,0.23165665566921234,0.0,1.0
+2,70,01:10,mistral-7b-v0.3,The Deception Behind Imitation Crab and Real Blue Crab,0.22304479264490867,0.3677386939525604,0.0,0.6065306597126334
+2,70,01:10,qwen2-7b,Unraveling the Truth Behind Imitation Crab and Seafood Frauds,0.219640806513247,0.3621264696121216,0.0,0.6065306597126334
+2,70,01:10,mistral-7b-v0.3,Unmasking the Crab Meat Deception: From Imitation to Mislabeled,0.21951400321710168,0.3619174063205719,0.0,0.6065306597126334
+2,70,01:10,mistral-7b-v0.3,The Deceptive World of Imitation Crab and Seafood Fraud,0.21463629706670415,0.35387542843818665,0.0,0.6065306597126334
+2,70,01:10,qwen2-7b,Unraveling the Truth Behind Imitation Crab and Mislabeling Scandals,0.20951149169202912,0.3454260528087616,0.0,0.6065306597126334
+2,70,01:10,qwen2-7b,Unraveling the Truth Behind Imitation Crab and Mislabeling Scandals,0.20951149169202912,0.3454260528087616,0.0,0.6065306597126334
+2,70,01:10,tinyllama,How to Tell If Your Maryland Blue Crab Is Real,0.19762702735451879,0.38492488861083984,0.0,0.513417119032592
+2,70,01:10,mistral-7b-v0.3,The Deception Behind Imitation Crab Meat and Real Blue Crabs,0.19740386194134504,0.3844902217388153,0.0,0.513417119032592
+2,70,01:10,mistral-7b-v0.3,The Deception Behind Imitation Crab Meat and Real Blue Crab,0.19715838763736518,0.3840121030807495,0.0,0.513417119032592
+2,70,01:10,tinyllama,The Rare Fish You Can Only Find in Season,0.1892280255950098,0.31198427081108093,0.0,0.6065306597126334
+2,70,01:10,qwen2-7b,Deceptive Delights: The Truth Behind Imitation Crab and Mislabelled Seafood,0.18589668206657267,0.3620772957801819,0.0,0.513417119032592
+2,70,01:10,qwen2-7b,Deceptive Delights: The Truth Behind Imitation Crab and Mislabelled Seafood,0.18589668206657267,0.3620772957801819,0.0,0.513417119032592
+3,258,04:18,llama3.1-8b,The High-Stakes World of Bluefin Tuna,0.3590352535247803,0.3590352535247803,0.0,1.0
+3,258,04:18,llama3.1-8b,The High-Stakes World of Bluefin Tuna,0.3590352535247803,0.3590352535247803,0.0,1.0
+3,258,04:18,gemma2-9b,The Price of Bluefin Tuna,0.35278555750846863,0.35278555750846863,0.0,1.0
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: Rare, Expensive, and Frequently Mislabeled",0.3514794149009196,0.4152238667011261,0.0,0.846481724890614
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: Rare, Expensive, and Frequently Mislabeled",0.3514794149009196,0.4152238667011261,0.0,0.846481724890614
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: Rare, Expensive, and Frequently Mislabeled",0.3514794149009196,0.4152238667011261,0.0,0.846481724890614
+3,258,04:18,tinyllama,The Fraudulence of Bluefinned Tuna,0.3417494595050812,0.3417494595050812,0.0,1.0
+3,258,04:18,gemma2-9b,Bluefin Tuna: A Delicate Balance,0.33130332827568054,0.33130332827568054,0.0,1.0
+3,258,04:18,gemma2-9b,Bluefin Tuna: A Delicate Balance,0.33130332827568054,0.33130332827568054,0.0,1.0
+3,258,04:18,llama3.1-8b,Blue fin tuna's dark side revealed,0.33010926842689514,0.33010926842689514,0.0,1.0
+3,258,04:18,llama3.1-8b,The Elusive Bluefin Tuna: A Pricey Catch,0.314731092587896,0.3718108534812927,0.0,0.846481724890614
+3,258,04:18,llama3.1-8b,The Elusive Bluefin Tuna: A Pricey Catch,0.314731092587896,0.3718108534812927,0.0,0.846481724890614
+3,258,04:18,tinyllama,Bluefin Tuna: The Most Expensive Kind of Tuna,0.3092387089096538,0.4315773844718933,0.0,0.7165313105737893
+3,258,04:18,tinyllama,Bluefin Tuna: The Most Expensive Kind of Tuna,0.3092387089096538,0.4315773844718933,0.0,0.7165313105737893
+3,258,04:18,qwen2-7b,The Price of Rarity: Tackling Overfished Tuna,0.30393022675582676,0.3590511381626129,0.0,0.846481724890614
+3,258,04:18,tinyllama,Tokyo's Top Attractions,0.29939109086990356,0.29939109086990356,0.0,1.0
+3,258,04:18,gemma2-9b,Bluefin Tuna: A Precious Catch Under Threat,0.2978247336412435,0.3518383502960205,0.0,0.846481724890614
+3,258,04:18,tinyllama,Bluefinned Tuna: The Most Expensive Kind of Tofu,0.2950194590244017,0.41173282265663147,0.0,0.7165313105737893
+3,258,04:18,llama3.1-8b,The Price of Rarity: Blue Fin Tuna,0.28691634981836206,0.33895161747932434,0.0,0.846481724890614
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: A Million-Dollar Catch, Riddled with Fraud",0.2850934265119523,0.3978799283504486,0.0,0.7165313105737893
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: A Million-Dollar Catch, Fraught with Deception",0.28082670982187374,0.39192524552345276,0.0,0.7165313105737893
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: Rare, Expensive, and Fraught with Deception",0.27885124514972937,0.38916826248168945,0.0,0.7165313105737893
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: A Pricey, Precious, and Perilous Catch",0.27614469476143266,0.385390967130661,0.0,0.7165313105737893
+3,258,04:18,qwen2-7b,The Price of Rarity: Tackling Overfished Bluefin Tuna,0.26624377490239476,0.3715731203556061,0.0,0.7165313105737893
+3,258,04:18,mistral-7b-v0.3,"Bluefin Tuna: A Pricey, Elusive Delicacy Under Threat",0.26400131745337657,0.3684435188770294,0.0,0.7165313105737893
+3,258,04:18,tinyllama,Bluefinned Tuna - The Most Expensive Kind of Tuna,0.2613440697705614,0.430883526802063,0.0,0.6065306597126334
+3,258,04:18,gemma2-9b,Tuna: A Tale of Price and Fraud,0.2570298801695535,0.30364492535591125,0.0,0.846481724890614
+3,258,04:18,gemma2-9b,Tuna: A Tale of Greed and Deception,0.2536197788260465,0.29961636662483215,0.0,0.846481724890614
+3,258,04:18,gemma2-9b,Tuna: A Tale of Luxury and Fraud,0.2525722982970688,0.29837891459465027,0.0,0.846481724890614
+3,258,04:18,tinyllama,The Rare Fish That's Worth More Than Gold,0.24978091443608,0.34859734773635864,0.0,0.7165313105737893
+3,258,04:18,gemma2-9b,Tuna: A Tale of Price and Deception,0.2483610088094501,0.29340386390686035,0.0,0.846481724890614
+3,258,04:18,tinyllama,How to Buy the Most Expensive Kind of Tuna,0.23829795481162186,0.3928869068622589,0.0,0.6065306597126334
+3,258,04:18,gemma2-9b,"Tuna: A Tale of Price, Fraud, and Sustainability",0.23522349790165775,0.32828083634376526,0.0,0.7165313105737893
+3,258,04:18,gemma2-9b,"Tuna: A Tale of Price, Fraud, and Sustainability",0.23522349790165775,0.32828083634376526,0.0,0.7165313105737893
+3,258,04:18,qwen2-7b,"Bluefin Tuna: Rarity, Value, Overfished Threat & Fraudulent Practices",0.2279459976242426,0.3758194148540497,0.0,0.6065306597126334
+3,258,04:18,mistral-7b-v0.3,Bluefin Tuna: A Rare & Expensive Delicacy Under Threat,0.22106550435961705,0.36447539925575256,0.0,0.6065306597126334
+3,258,04:18,qwen2-7b,The Price of Rarity: Taming the Expensive Bluefin Tuna,0.21998267832222726,0.36269012093544006,0.0,0.6065306597126334
+3,258,04:18,llama3.1-8b,The Price of Rarity: Blue Fin Tuna's Dark Side,0.2078313977271648,0.34265604615211487,0.0,0.6065306597126334
+3,258,04:18,tinyllama,How to Identify Fake Tuna at Restaurants and Grocery Stores,0.20334125541152173,0.3960546851158142,0.0,0.513417119032592
+3,258,04:18,tinyllama,How to Spot Fake Tuna at Your Local Grocery Store,0.20323474499389388,0.39584723114967346,0.0,0.513417119032592
+3,258,04:18,llama3.1-8b,The Elusive Bluefin: A Tale of Luxury and Deceit,0.20216742076055497,0.33331772685050964,0.0,0.6065306597126334
+3,258,04:18,llama3.1-8b,The Elusive Bluefin: A Tale of Luxury and Deceit,0.20216742076055497,0.33331772685050964,0.0,0.6065306597126334
+3,258,04:18,mistral-7b-v0.3,Bluefin Tuna: A Million-Dollar Catch - Fraud and Overfished Perils,0.19319344897776286,0.3762894570827484,0.0,0.513417119032592
+3,258,04:18,qwen2-7b,The Price of Rarity: Blue Fin Tuna Auctions and Conservation Challenges,0.15553089676376783,0.3578728437423706,0.0,0.43459820850707825
+3,258,04:18,qwen2-7b,The Price of Rarity: Blue Fin Tuna Auctions and Conservation Challenges,0.15553089676376783,0.3578728437423706,0.0,0.43459820850707825
+3,258,04:18,qwen2-7b,The Price of Rarity: Blue Fin Tuna Auctions and Conservation Challenges,0.15553089676376783,0.3578728437423706,0.0,0.43459820850707825
+3,258,04:18,qwen2-7b,The Price of Rarity: Blue Fin Tuna Auctions and Conservation Challenges,0.15553089676376783,0.3578728437423706,0.0,0.43459820850707825
+3,258,04:18,qwen2-7b,The Price of Rarity: Blue Fin Tuna's Journey from Ocean to Auction,0.13483984969380533,0.36653271317481995,0.0,0.36787944117144233
+3,258,04:18,qwen2-7b,The Price of Rarity: Blue Fin Tuna's Journey from Ocean to Auction,0.13483984969380533,0.36653271317481995,0.0,0.36787944117144233
+3,258,04:18,llama3.1-8b,"(Final) Title ""The Tuna Trade: Luxury & Deception"" (Corrected) Title ""Luxury Tuna: A Story of Deception and Greed"" - Revised again Title",0.023029479230204257,0.3314383327960968,0.0,0.06948345122280154
+4,444,07:24,llama3.1-8b,Uncovering Fake Fish in Your Market,0.3308841288089752,0.3308841288089752,0.0,1.0
+4,444,07:24,qwen2-7b,Uncovering Food Fraud: Detecting Fake Seafood,0.31502893567085266,0.31502893567085266,0.0,1.0
+4,444,07:24,qwen2-7b,Detecting Fraudulent Seafood: Identifying Red Flags,0.3145366311073303,0.3145366311073303,0.0,1.0
+4,444,07:24,llama3.1-8b,The Dark Side of Seafood Counterfeiting,0.3131406307220459,0.3131406307220459,0.0,1.0
+4,444,07:24,qwen2-7b,Unraveling Food Fraud: Identifying Fake Seafood,0.3119921386241913,0.3119921386241913,0.0,1.0
+4,444,07:24,tinyllama,How to Identify Fake Food Products,0.30833911895751953,0.30833911895751953,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Unmasking Fraudulent Fish,0.3082990050315857,0.3082990050315857,0.0,1.0
+4,444,07:24,llama3.1-8b,Fishy Business: Uncovering Counterfeit Seafood,0.3074894845485687,0.3074894845485687,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Spotting Fake Fish,0.30435416102409363,0.30435416102409363,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Spotting Fake Fish,0.30435416102409363,0.30435416102409363,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Spotting Fake Fish,0.30435416102409363,0.30435416102409363,0.0,1.0
+4,444,07:24,llama3.1-8b,Fakes and Forgeries,0.30338039994239807,0.30338039994239807,0.0,1.0
+4,444,07:24,tinyllama,How to Identify Fake Products,0.30078282952308655,0.30078282952308655,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Unmasking Fake Fish,0.30017170310020447,0.30017170310020447,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Unmasking Fake Fish,0.30017170310020447,0.30017170310020447,0.0,1.0
+4,444,07:24,tinyllama,How to Identify Fake Food,0.2877899408340454,0.2877899408340454,0.0,1.0
+4,444,07:24,tinyllama,How to Identify Fake Food,0.2877899408340454,0.2877899408340454,0.0,1.0
+4,444,07:24,tinyllama,How to Identify Fake Salmon,0.2832959294319153,0.2832959294319153,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Spotting the Fake,0.28185227513313293,0.28185227513313293,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Spotting the Fake,0.28185227513313293,0.28185227513313293,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Spotting the Fake,0.28185227513313293,0.28185227513313293,0.0,1.0
+4,444,07:24,tinyllama,Fraudulently Fresh Salmon,0.2766486406326294,0.2766486406326294,0.0,1.0
+4,444,07:24,gemma2-9b,Seafood Deception: Unmasking the Fraud,0.2766239047050476,0.2766239047050476,0.0,1.0
+4,444,07:24,llama3.1-8b,Behind the Scenes of Seafood Deceit,0.2742798328399658,0.2742798328399658,0.0,1.0
+4,444,07:24,llama3.1-8b,The Dark Side of Seafood: Counterfeit Catch,0.2663276132084382,0.3146288990974426,0.0,0.846481724890614
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna and Counterfeit Scallops: A Culinary Deception,0.2634903091233285,0.36773034930229187,0.0,0.7165313105737893
+4,444,07:24,tinyllama,Fraudulently Labeled Salmon,0.26210126280784607,0.26210126280784607,0.0,1.0
+4,444,07:24,llama3.1-8b,Behind the Label: Seafo,0.2618890404701233,0.2618890404701233,0.0,1.0
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna & Counterfeit Scallops: A Culinary Deception,0.26050198878455194,0.3635598123073578,0.0,0.7165313105737893
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna & Counterfeit Scallops: A Culinary Deception,0.26050198878455194,0.3635598123073578,0.0,0.7165313105737893
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna and Counterfeit Scallops: A Culinary Conundrum,0.2562943807888976,0.3576876223087311,0.0,0.7165313105737893
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna and Counterfeit Scallops: A Culinary Conundrum,0.2562943807888976,0.3576876223087311,0.0,0.7165313105737893
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna and Counterfeit Scallops: A Culinary Conundrum,0.2562943807888976,0.3576876223087311,0.0,0.7165313105737893
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna & Counterfeit Scallops: A Culinary Conundrum,0.253672649668756,0.35402870178222656,0.0,0.7165313105737893
+4,444,07:24,llama3.1-8b,Deception in the Catch,0.2500322461128235,0.2500322461128235,0.0,1.0
+4,444,07:24,tinyllama,Fraudulently Framed Salmon,0.2452310472726822,0.2452310472726822,0.0,1.0
+4,444,07:24,qwen2-7b,Unraveling Food Fraud: Identifying Fake Seafood in Supermarkets,0.2433130608619077,0.3395707309246063,0.0,0.7165313105737893
+4,444,07:24,llama3.1-8b,A Reel Problem,0.22436055541038513,0.22436055541038513,0.0,1.0
+4,444,07:24,qwen2-7b,Uncovering Food Fraud: Identifying Fake Tuna & Scallop Counterfeits,0.22027368420457133,0.36316990852355957,0.0,0.6065306597126334
+4,444,07:24,qwen2-7b,"Uncovering Food Fraud: Identifying Fake Tuna, Scallops, and Salmon",0.2201136391034921,0.3629060387611389,0.0,0.6065306597126334
+4,444,07:24,qwen2-7b,"Uncovering Food Fraud: Identifying Fake Tuna, Scallops, and Salmon",0.2201136391034921,0.3629060387611389,0.0,0.6065306597126334
+4,444,07:24,tinyllama,How to Tell if Your Salmon Is Actually Salmon,0.2030523866583002,0.33477678894996643,0.0,0.6065306597126334
+4,444,07:24,qwen2-7b,Uncovering Food Fraud: Identifying Fake Seafood and Authentic Ingredients,0.2021344320199327,0.3332633376121521,0.0,0.6065306597126334
+4,444,07:24,qwen2-7b,Uncovering Fraudulent Seafood: Identifying Red Flags and Authenticity Tips,0.19710618875616406,0.3249731659889221,0.0,0.6065306597126334
+4,444,07:24,mistral-7b-v0.3,Fraudulent Tuna & Counterfeit Scallops: Red Flags to Watch For,0.19617317009956303,0.3820931613445282,0.0,0.513417119032592
+4,444,07:24,llama3.1-8b,Deception Beneath the Waves: A Tale of Fake Seafoods,0.19510777603932267,0.3216783404350281,0.0,0.6065306597126334
+4,444,07:24,mistral-7b-v0.3,"Fraudulent Fish: A Look at Tuna, Scallops, and Salmon Mislabeling",0.18885095758795403,0.36783143877983093,0.0,0.513417119032592
+4,444,07:24,tinyllama,How to Tell If Salmon Is Real or Fake,0.18201357781915334,0.30008965730667114,0.0,0.6065306597126334
+4,444,07:24,mistral-7b-v0.3,"Fraudulent Fish Finds: A Closer Look at Tuna, Scallops, and Salmon",0.15499058963336904,0.3566296100616455,0.0,0.43459820850707825
+4,444,07:24,qwen2-7b,"Detecting Fraudulent Seafood: A Guide to Spotting Counterfeit Tuna, Scallops, and Salmon",0.1400149063284193,0.3805999755859375,0.0,0.36787944117144233
+5,655,10:55,tinyllama,Farm-Ray Salmon Mislabelled as Wild-Caught Salmon,0.3905852437019348,0.3905852437019348,0.0,1.0
+5,655,10:55,tinyllama,Farm-Ray Salmon Sold as Wild-Caught Salmon,0.382291316986084,0.382291316986084,0.0,1.0
+5,655,10:55,tinyllama,Farm-Ray Salmon Labeled As Wild-Caught Salmon,0.38005855679512024,0.38005855679512024,0.0,1.0
+5,655,10:55,mistral-7b-v0.3,Farm-Raised Salmon Masquerading as Wild-Caught,0.3772968351840973,0.3772968351840973,0.0,1.0
+5,655,10:55,mistral-7b-v0.3,Farm-Raised Salmon Masquerading as Wild Catch,0.36768925189971924,0.36768925189971924,0.0,1.0
+5,655,10:55,mistral-7b-v0.3,Farm-Raised Salmon Masquerading as Wild Catch,0.36768925189971924,0.36768925189971924,0.0,1.0
+5,655,10:55,mistral-7b-v0.3,Farm-Raised Salmon Masquerading as Wild Catch,0.36768925189971924,0.36768925189971924,0.0,1.0
+5,655,10:55,mistral-7b-v0.3,Farm-Raised Salmon Masquerading as Wild Catch,0.36768925189971924,0.36768925189971924,0.0,1.0
+5,655,10:55,mistral-7b-v0.3,Farm-Raised Salmon Masquerading as Wild Catch,0.36768925189971924,0.36768925189971924,0.0,1.0
+5,655,10:55,tinyllama,Farm-Ray Salmon vs. Wild-Caught Salmon,0.35528650879859924,0.35528650879859924,0.0,1.0
+5,655,10:55,qwen2-7b,Wild Salmon Scarcity vs. Farm-Raised Deception,0.33432555198669434,0.33432555198669434,0.0,1.0
+5,655,10:55,qwen2-7b,Wild Salmon Scarcity vs. Farm-raised Deception,0.33432555198669434,0.33432555198669434,0.0,1.0
+5,655,10:55,qwen2-7b,Wild Salmon Scarcity vs. Farm-raised Deception,0.33432555198669434,0.33432555198669434,0.0,1.0
+5,655,10:55,tinyllama,Farm-Ray Salmon Lies Sold as Wild-Caught Salmon,0.32426078900677086,0.38306885957717896,0.0,0.846481724890614
+5,655,10:55,tinyllama,Farm-Ray Salmon Lies Sold As Wild-Caught Salmon,0.32426078900677086,0.38306885957717896,0.0,0.846481724890614
+5,655,10:55,tinyllama,Farm-Ray Salmon: A Dangerous Mislabeling Trend,0.3239232003688812,0.3239232003688812,0.0,1.0
+5,655,10:55,gemma2-9b,Wild vs. Farmed Salmon Deception,0.32359281182289124,0.32359281182289124,0.0,1.0
+5,655,10:55,gemma2-9b,Wild vs. Farmed Salmon Deception,0.32359281182289124,0.32359281182289124,0.0,1.0
+5,655,10:55,gemma2-9b,Wild vs. Farmed Salmon Deception,0.32359281182289124,0.32359281182289124,0.0,1.0
+5,655,10:55,gemma2-9b,Wild vs. Farmed Salmon Deception,0.32359281182289124,0.32359281182289124,0.0,1.0
+5,655,10:55,gemma2-9b,Wild Salmon vs. Farmed Deception,0.3211725056171417,0.3211725056171417,0.0,1.0
+5,655,10:55,llama3.1-8b,Salmon Scam: Wild Caught vs Farmlaid,0.3208482563495636,0.3208482563495636,0.0,1.0
+5,655,10:55,gemma2-9b,The Price of Mislabeled Salmon,0.31802621483802795,0.31802621483802795,0.0,1.0
+5,655,10:55,tinyllama,Farm-Ray Salmon: A Risky Business,0.3037586212158203,0.3037586212158203,0.0,1.0
+5,655,10:55,llama3.1-8b,Wild vs Farm-Raised Salmon: The Labeling Deception,0.29612848723480995,0.34983447194099426,0.0,0.846481724890614
+5,655,10:55,llama3.1-8b,Wild vs Farm-Raised Salmon: The Labeling Deception,0.29612848723480995,0.34983447194099426,0.0,0.846481724890614
+5,655,10:55,gemma2-9b,The Truth About Mislabeled Salmon,0.2956903874874115,0.2956903874874115,0.0,1.0
+5,655,10:55,llama3.1-8b,Wild vs Farm-Raised Salmon: A Labeling Deception,0.2953781821942807,0.34894809126853943,0.0,0.846481724890614
+5,655,10:55,llama3.1-8b,Wild vs Farm-Raised Salmon: A Labeling Deception,0.2953781821942807,0.34894809126853943,0.0,0.846481724890614
+5,655,10:55,gemma2-9b,Wild vs. Farmed Salmon: A Deceptive Catch,0.2943961660449739,0.3477879762649536,0.0,0.846481724890614
+5,655,10:55,tinyllama,Farm-Ray Salmon Lies,0.28759831190109253,0.28759831190109253,0.0,1.0
+5,655,10:55,qwen2-7b,Wild Salmon Mislabeling: A Profit-driven Deception Uncovered,0.28413584174015294,0.33566683530807495,0.0,0.846481724890614
+5,655,10:55,qwen2-7b,Wild Salmon Mislabeling: The Price of Deception,0.2836100328517207,0.3350456655025482,0.0,0.846481724890614
+5,655,10:55,llama3.1-8b,The Great Salmon Swindle: Uncovering Truths,0.28252753615379333,0.28252753615379333,0.0,1.0
+5,655,10:55,llama3.1-8b,Wild vs Farmed Salmon: A Labeling Deception,0.28100740120551926,0.33197101950645447,0.0,0.846481724890614
+5,655,10:55,llama3.1-8b,Wild vs Farmed Salmon: A Labeling Deception,0.28100740120551926,0.33197101950645447,0.0,0.846481724890614
+5,655,10:55,llama3.1-8b,Farmed Fish Sold as Wild Caught Exposed,0.27848236818431504,0.32898804545402527,0.0,0.846481724890614
+5,655,10:55,mistral-7b-v0.3,Mislabeling Farmed Salmon as Wild-Caught: A Costly Deception,0.2739709767948392,0.38235729932785034,0.0,0.7165313105737893
+5,655,10:55,gemma2-9b,The Truth About Salmon Labels,0.26731353998184204,0.26731353998184204,0.0,1.0
+5,655,10:55,gemma2-9b,The Truth About Salmon Labels,0.26731353998184204,0.26731353998184204,0.0,1.0
+5,655,10:55,qwen2-7b,Wild Salmon Mislabeling: Farm-raised Deception at High Cost,0.2620618134175799,0.365736722946167,0.0,0.7165313105737893
+5,655,10:55,qwen2-7b,Wild Salmon Mislabeling: Farm-raised Deception at High Cost,0.2620618134175799,0.365736722946167,0.0,0.7165313105737893
+5,655,10:55,mistral-7b-v0.3,Mislabeling Farmed Salmon as Wild: A Costly Deception,0.2583727304645594,0.3605881929397583,0.0,0.7165313105737893
+5,655,10:55,mistral-7b-v0.3,Unmasking Mislabeled Salmon: The Wild vs Farm-Raised Debate,0.24968362425840768,0.3484615683555603,0.0,0.7165313105737893
+5,655,10:55,tinyllama,Why Farm-raised Salmon Can Cost More Than Wild Salmon,0.24705806517480414,0.40732988715171814,0.0,0.6065306597126334
+5,655,10:55,llama3.1-8b,Wild Caught vs Far,0.24278151988983154,0.24278151988983154,0.0,1.0
+5,655,10:55,qwen2-7b,Wild Salmon Mislabeling: A $1K Catch vs. Farm-raised Frauds,0.23293548589628843,0.38404569029808044,0.0,0.6065306597126334
+5,655,10:55,qwen2-7b,Wild Salmon Mislabeling: A $1K Catch vs Farm-Raised Frauds,0.23199932870350634,0.3825022280216217,0.0,0.6065306597126334
+5,655,10:55,qwen2-7b,Wild Salmon Mislabeling: A $1K Catch vs Farm-Raised Frauds,0.23199932870350634,0.3825022280216217,0.0,0.6065306597126334
+5,655,10:55,mistral-7b-v0.3,Farm-Raised Salmon Masquerading as Wild Catch: A Costly Deception,0.22353295370202922,0.3685435354709625,0.0,0.6065306597126334
+6,792,13:12,tinyllama,What's Up With That?,0.32389867305755615,0.32389867305755615,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Fish Counterfeits,0.31985926628112793,0.31985926628112793,0.0,1.0
+6,792,13:12,llama3.1-8b,The Great Seafood Switcheroo,0.31243786215782166,0.31243786215782166,0.0,1.0
+6,792,13:12,llama3.1-8b,Uncovering the Truth Behind Ocean Delights,0.3119812607765198,0.3119812607765198,0.0,1.0
+6,792,13:12,llama3.1-8b,The Great Seafood Swap: Spotting Fakes,0.31110793352127075,0.31110793352127075,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Fish Fraud: A Seafood Mystery,0.30826443433761597,0.30826443433761597,0.0,1.0
+6,792,13:12,llama3.1-8b,Seafood Sleuths: Uncovering the Real Deal,0.3027416467666626,0.3027416467666626,0.0,1.0
+6,792,13:12,qwen2-7b,Decoding Seafood Labels: Farm-Raised vs Wild Caught,0.29843278294498493,0.35255667567253113,0.0,0.846481724890614
+6,792,13:12,qwen2-7b,Decoding Seafood Labels: Farm-Raised vs Wild Caught,0.29843278294498493,0.35255667567253113,0.0,0.846481724890614
+6,792,13:12,gemma2-9b,Decoding Seafood: Spotting the Fake,0.29181843996047974,0.29181843996047974,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Seafood: Spotting the Fake,0.29181843996047974,0.29181843996047974,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Fish Fraud: A Guide,0.291547030210495,0.291547030210495,0.0,1.0
+6,792,13:12,llama3.1-8b,Fishing forTruth: Spot tingCounterfeitSeafood,0.2863128185272217,0.2863128185272217,0.0,1.0
+6,792,13:12,mistral-7b-v0.3,Farm-Raised vs Wild-Caught Salmon & Counterfeit Red Snapper,0.28237795002746,0.3940901756286621,0.0,0.7165313105737893
+6,792,13:12,mistral-7b-v0.3,Farm-Raised vs Wild Caught Salmon: Spotting the Difference,0.27636329870103576,0.38569605350494385,0.0,0.7165313105737893
+6,792,13:12,llama3.1-8b,Deception in the Catch: Wild vs. Farmed,0.27178386113026165,0.3210746943950653,0.0,0.846481724890614
+6,792,13:12,llama3.1-8b,Deception in the Catch: Wild vs Farmed,0.2706914763254402,0.3197841942310333,0.0,0.846481724890614
+6,792,13:12,tinyllama,A Brief History of Salmon,0.25784066319465637,0.25784066319465637,0.0,1.0
+6,792,13:12,llama3.1-8b,The Great Seafood Swap: Authenticity in Question,0.2530754784577304,0.29897335171699524,0.0,0.846481724890614
+6,792,13:12,llama3.1-8b,Deception in every Catch,0.24888771772384644,0.24888771772384644,0.0,1.0
+6,792,13:12,qwen2-7b,Decoding Seafood Labels:辨别真假海鲜,0.24846839904785156,0.24846839904785156,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Seafood Deception,0.24444523453712463,0.24444523453712463,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Seafood Deception,0.24444523453712463,0.24444523453712463,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Seafood Deception,0.24444523453712463,0.24444523453712463,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Seafood Deception,0.24444523453712463,0.24444523453712463,0.0,1.0
+6,792,13:12,gemma2-9b,Decoding Seafood Deception,0.24444523453712463,0.24444523453712463,0.0,1.0
+6,792,13:12,mistral-7b-v0.3,Farm Raised vs Wild Caught: Spotting the Difference,0.24337003412662014,0.3396502435207367,0.0,0.7165313105737893
+6,792,13:12,mistral-7b-v0.3,Distinguishing Farmed vs Wild-Caught Salmon & Counterfeit Red Snapper,0.24255606914705527,0.39990735054016113,0.0,0.6065306597126334
+6,792,13:12,mistral-7b-v0.3,Farm-Raised vs Wild Caught Salmon & Counterfeit Red Snapper,0.238200940800159,0.39272695779800415,0.0,0.6065306597126334
+6,792,13:12,mistral-7b-v0.3,Farm Raised vs Wild Caught Salmon: Spotting the Difference,0.22750891940602538,0.3750987946987152,0.0,0.6065306597126334
+6,792,13:12,llama3.1-8b,Deception in The Catch: Telling Farm From Wild,0.2214092109069627,0.30900144577026367,0.0,0.7165313105737893
+6,792,13:12,tinyllama,How to Identify Farm-Raised Salmon Fillets from Wild-Caught Red Snapper,0.21640116774864984,0.42149192094802856,0.0,0.513417119032592
+6,792,13:12,qwen2-7b,Decoding Seafood Mislabeling: From Farm Raised to Wild Caught,0.2159003713792827,0.35595953464508057,0.0,0.6065306597126334
+6,792,13:12,mistral-7b-v0.3,Distinguishing Farmed vs Wild Caught Salmon & Counterfeit Red Snapper,0.2027907705250115,0.3949824869632721,0.0,0.513417119032592
+6,792,13:12,mistral-7b-v0.3,Distinguishing Farmed vs Wild Caught Salmon & Counterfeit Red Snapper,0.2027907705250115,0.3949824869632721,0.0,0.513417119032592
+6,792,13:12,mistral-7b-v0.3,Farm Raised vs Wild Caught Salmon & Counterfeit Red Snapper,0.20241653811668764,0.39425358176231384,0.0,0.513417119032592
+6,792,13:12,mistral-7b-v0.3,Farm Raised vs Wild Caught Salmon & Counterfeit Red Snapper,0.20241653811668764,0.39425358176231384,0.0,0.513417119032592
+6,792,13:12,qwen2-7b,"Decoding Seafood Labels: Farm-Raised vs Wild, Mislabeling, and Identification Tips",0.19537575731193535,0.38054001331329346,0.0,0.513417119032592
+6,792,13:12,qwen2-7b,"Decoding Seafood Labels: Farm-Raised vs Wild, Mislabeling, & Common Confusions",0.19242899459260185,0.37480050325393677,0.0,0.513417119032592
+6,792,13:12,qwen2-7b,"Decoding Seafood Mislabeling: Farm vs. Wild, Counterfeit Snappers & More",0.1921977043364802,0.37435001134872437,0.0,0.513417119032592
+6,792,13:12,tinyllama,How to Tell the Difference Between Farm-Raised Salmon and Wild-Caught Snapper,0.1905000208293759,0.43833595514297485,0.0,0.43459820850707825
+6,792,13:12,tinyllama,How to Tell the Difference Between Farm-Raised Salmon and Wild-Caught Snapper,0.1905000208293759,0.43833595514297485,0.0,0.43459820850707825
+6,792,13:12,tinyllama,How to Tell the Difference Between Wild-Caught and Farm-Raised Salmon Fillets,0.18824299905012348,0.43314260244369507,0.0,0.43459820850707825
+6,792,13:12,tinyllama,How to Identify Farm Raised Salmon Fillets from Wild Caught Ones,0.1686620852436428,0.3880873918533325,0.0,0.43459820850707825
+6,792,13:12,qwen2-7b,Distinguishing Farm-Raised vs Wild Caught Seafood: A Guide to Identifying Authenticity,0.16342132885379235,0.37602853775024414,0.0,0.43459820850707825
+6,792,13:12,tinyllama,What is the difference in appearance between farm-raised salmon and wild-caught salmon?,0.1629575305955208,0.44296449422836304,0.0,0.36787944117144233
+6,792,13:12,tinyllama,How to Tell the Difference Between Farm-Raised Salmon and Wild-Caught Striped Bass,0.1613832913021993,0.43868526816368103,0.0,0.36787944117144233
+6,792,13:12,tinyllama,How to Tell the Difference Between Farm-Raised Salmon and Wild-Caught Striped Bass,0.1613832913021993,0.43868526816368103,0.0,0.36787944117144233
+6,792,13:12,qwen2-7b,Distinguishing Farm-Raised vs Wild Caught Seafood: A Guide to Label Literacy,0.1606697983431509,0.36969733238220215,0.0,0.43459820850707825
+6,792,13:12,qwen2-7b,Distinguishing Farm-Raised vs. Wild Caught Seafood: A Guide to Identifying Mislabelled Fish,0.14977744407585916,0.40713730454444885,0.0,0.36787944117144233
+7,888,14:48,tinyllama,Chef's Advice on Choosing Real Seafood,0.3407282829284668,0.3407282829284668,0.0,1.0
+7,888,14:48,tinyllama,What's the Difference Between Lobster and Shrimp?,0.30812193999734727,0.36400306224823,0.0,0.846481724890614
+7,888,14:48,llama3.1-8b,Debunking Fishy Fakes: Authenticity in Seafood,0.30271363258361816,0.30271363258361816,0.0,1.0
+7,888,14:48,llama3.1-8b,Authenticity vs. Deception in Seafood Purchases,0.3022283911705017,0.3022283911705017,0.0,1.0
+7,888,14:48,llama3.1-8b,Seafood Deception: Uncovering Genuine Catches,0.29392609000205994,0.29392609000205994,0.0,1.0
+7,888,14:48,mistral-7b-v0.3,Distinguishing Real Red Snappers & Lobstermens' Catches,0.28813903270449387,0.34039604663848877,0.0,0.846481724890614
+7,888,14:48,gemma2-9b,Spotting Seafood Scams: From Snapper to Lobster,0.288082196000294,0.3403289020061493,0.0,0.846481724890614
+7,888,14:48,tinyllama,How to Identifying Real Lobst,0.28475648164749146,0.28475648164749146,0.0,1.0
+7,888,14:48,gemma2-9b,Spotting Seafood Scams: Truth vs. Fake,0.27972739934921265,0.27972739934921265,0.0,1.0
+7,888,14:48,gemma2-9b,Spotting Seafood Scams,0.2780700623989105,0.2780700623989105,0.0,1.0
+7,888,14:48,llama3.1-8b,Authentic Seafood: Separating Fact from Farce,0.2762298285961151,0.2762298285961151,0.0,1.0
+7,888,14:48,tinyllama,How to Tell if You're Buying Real Fish,0.27467682173179736,0.3833423852920532,0.0,0.7165313105737893
+7,888,14:48,tinyllama,How to Tell If You're Buying Real Fish,0.27467682173179736,0.3833423852920532,0.0,0.7165313105737893
+7,888,14:48,tinyllama,It Can Be Hard to Make That Distinction,0.27129855057333807,0.37862762808799744,0.0,0.7165313105737893
+7,888,14:48,tinyllama,How to Identify Real Lobster From Fake,0.269432239340602,0.3182965815067291,0.0,0.846481724890614
+7,888,14:48,gemma2-9b,Spotting Seafood Scams: Truth vs. Fake Fish,0.26719154120312466,0.31564950942993164,0.0,0.846481724890614
+7,888,14:48,llama3.1-8b,Uncovering Hidden Truths in Fresh Catch,0.26228412985801697,0.26228412985801697,0.0,1.0
+7,888,14:48,tinyllama,How to Buy Real Lobster - Transcript,0.26088925131558843,0.3082042336463928,0.0,0.846481724890614
+7,888,14:48,llama3.1-8b,Deception in the Catch: Authentic Seafood Exposed,0.2604376858450258,0.3076707720756531,0.0,0.846481724890614
+7,888,14:48,gemma2-9b,Seafood Deception: Spotting the Fake,0.25976428389549255,0.25976428389549255,0.0,1.0
+7,888,14:48,gemma2-9b,Seafood Deception: Spotting the Fake,0.25976428389549255,0.25976428389549255,0.0,1.0
+7,888,14:48,gemma2-9b,Seafood Deception: Spotting the Fake,0.25976428389549255,0.25976428389549255,0.0,1.0
+7,888,14:48,llama3.1-8b,Sifting Through Seafood Deception: Insider Insights,0.25942549109458923,0.25942549109458923,0.0,1.0
+7,888,14:48,qwen2-7b,Distinguishing Authentic Seafood: From Red Snappers to Lobsters,0.25912418818016286,0.3616369366645813,0.0,0.7165313105737893
+7,888,14:48,gemma2-9b,Spotting Seafood Substitutes,0.25652649998664856,0.25652649998664856,0.0,1.0
+7,888,14:48,gemma2-9b,Spotting Seafood Substitutes,0.25652649998664856,0.25652649998664856,0.0,1.0
+7,888,14:48,qwen2-7b,Distinguishing Authentic Seafood: Tips from a Chef,0.2563431979288432,0.3028337061405182,0.0,0.846481724890614
+7,888,14:48,qwen2-7b,Distinguishing Authentic Seafood: Tips from a Chef,0.2563431979288432,0.3028337061405182,0.0,0.846481724890614
+7,888,14:48,qwen2-7b,Distinguishing Authentic Seafood: Tips from a Chef,0.2563431979288432,0.3028337061405182,0.0,0.846481724890614
+7,888,14:48,qwen2-7b,Distinguishing Authentic Seafood: Tips from a Chef,0.2563431979288432,0.3028337061405182,0.0,0.846481724890614
+7,888,14:48,mistral-7b-v0.3,Distinguishing Real Red Snappers & Authentic Lobstermens' Catches,0.2542498563198717,0.35483425855636597,0.0,0.7165313105737893
+7,888,14:48,mistral-7b-v0.3,Distinguishing Real Red Snappers & Authentic Lobstermens' Catches,0.2542498563198717,0.35483425855636597,0.0,0.7165313105737893
+7,888,14:48,mistral-7b-v0.3,Distinguishing Real Red Snappers and Maine Lobstermens' Catches,0.24968131799431886,0.34845834970474243,0.0,0.7165313105737893
+7,888,14:48,mistral-7b-v0.3,Distinguishing Real Red Snappers and Maine Lobstermens' Catches,0.24968131799431886,0.34845834970474243,0.0,0.7165313105737893
+7,888,14:48,gemma2-9b,Decoding Seafood Deceptions,0.24646835029125214,0.24646835029125214,0.0,1.0
+7,888,14:48,llama3.1-8b,The Real Deal,0.2359294295310974,0.2359294295310974,0.0,1.0
+7,888,14:48,mistral-7b-v0.3,Discerning Quality: Spotting Authentic Red Snappers & Lobstermens,0.23414164650103533,0.32677099108695984,0.0,0.7165313105737893
+7,888,14:48,llama3.1-8b,Authenticity in Seafood: Separating Fact from Fake,0.22901914789494685,0.27055415511131287,0.0,0.846481724890614
+7,888,14:48,llama3.1-8b,The Great Seafoo d Deception U ncovered,0.22160656194649425,0.2617972195148468,0.0,0.846481724890614
+7,888,14:48,qwen2-7b,Distinguishing Authentic Seafood: From Red Snappers to Maine Lobsters,0.22116917034727115,0.364646315574646,0.0,0.6065306597126334
+7,888,14:48,qwen2-7b,Distinguishing Authentic Seafood: From Red Snappers to Maine Lobsters,0.22116917034727115,0.364646315574646,0.0,0.6065306597126334
+7,888,14:48,mistral-7b-v0.3,Distinguishing Quality Seafood: Red Snappers vs Tilapias & Authentic Lobstering,0.18237810483536288,0.35522404313087463,0.0,0.513417119032592
+7,888,14:48,qwen2-7b,Decoding Seafood: Distinguishing Authentic Red Snappers & Premium Maine Lobsters,0.17807404961407597,0.34684088826179504,0.0,0.513417119032592
+7,888,14:48,qwen2-7b,Decoding Seafood: Distinguishing Authentic Red Snappers & Premium Maine Lobsters,0.17807404961407597,0.34684088826179504,0.0,0.513417119032592
+7,888,14:48,qwen2-7b,Decoding Seafood: Distinguishing Authentic Red Snappers & Premium Maine Lobsters,0.17807404961407597,0.34684088826179504,0.0,0.513417119032592
+7,888,14:48,tinyllama,How to Tell If You're Buying Real Fish or Fake Seafood,0.17074978505732555,0.39289113879203796,0.0,0.43459820850707825
+7,888,14:48,tinyllama,How to Tell if You're Buying Real Fish or Fake Shrimp,0.17056365134913298,0.3924628496170044,0.0,0.43459820850707825
+7,888,14:48,mistral-7b-v0.3,Distinguishing Real Red Snappers & Maine Lobstermens: A Fresh Catch Guide,0.15672024336610577,0.3606095016002655,0.0,0.43459820850707825
+7,888,14:48,mistral-7b-v0.3,Distinguishing Quality: A Guide to Authentic Red Snappers & Maine Lobstermens,0.15352744994373843,0.3532629609107971,0.0,0.43459820850707825
+7,888,14:48,mistral-7b-v0.3,Distinguishing Real Red Snappers and Maine Lobbers: A Guide for Seafood Lovers,0.1328923415740551,0.36123883724212646,0.0,0.36787944117144233
+8,1076,17:56,tinyllama,How to Buy Legitimate Lobster Bisque,0.3570166528224945,0.3570166528224945,0.0,1.0
+8,1076,17:56,tinyllama,The Real Price of Caviar,0.3411710560321808,0.3411710560321808,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar Deception: Spotting Fakes,0.3362167179584503,0.3362167179584503,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar: Spotting the Fake,0.3360663056373596,0.3360663056373596,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar: Spotting the Fake,0.3360663056373596,0.3360663056373596,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar: Spotting the Fake,0.3360663056373596,0.3360663056373596,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar: Spotting the Fake,0.3360663056373596,0.3360663056373596,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar: Spotting the Fake,0.3360663056373596,0.3360663056373596,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar: Spotting the Fake,0.3360663056373596,0.3360663056373596,0.0,1.0
+8,1076,17:56,gemma2-9b,Lobster & Caviar: Fakes Exposed,0.33245334029197693,0.33245334029197693,0.0,1.0
+8,1076,17:56,tinyllama,The Best Way to Buy Lobster,0.33072513341903687,0.33072513341903687,0.0,1.0
+8,1076,17:56,qwen2-7b,Decoding Deception: Authenticating Seafood & Caviars,0.32457807660102844,0.32457807660102844,0.0,1.0
+8,1076,17:56,qwen2-7b,Decoding Deception: Authenticating Seafood & Caviars,0.32457807660102844,0.32457807660102844,0.0,1.0
+8,1076,17:56,tinyllama,How to Find Authentic Lobster,0.3242756426334381,0.3242756426334381,0.0,1.0
+8,1076,17:56,llama3.1-8b,Deception in the Shellfish Industry,0.31280601024627686,0.31280601024627686,0.0,1.0
+8,1076,17:56,tinyllama,How to Buy Authentic Lobster,0.31181690096855164,0.31181690096855164,0.0,1.0
+8,1076,17:56,tinyllama,How to Find Legitimate Lobster,0.31176966428756714,0.31176966428756714,0.0,1.0
+8,1076,17:56,tinyllama,How to Find Legitimate Lobster,0.31176966428756714,0.31176966428756714,0.0,1.0
+8,1076,17:56,llama3.1-8b,The Shell Game: Authentic Seafood Exposed,0.309482604265213,0.309482604265213,0.0,1.0
+8,1076,17:56,llama3.1-8b,The Shell Game: Authenticity in Seafood,0.3090170919895172,0.3090170919895172,0.0,1.0
+8,1076,17:56,llama3.1-8b,The Shell Game: Authenticity in Seafood,0.3090170919895172,0.3090170919895172,0.0,1.0
+8,1076,17:56,llama3.1-8b,Fishing for Truth: Shellfish Scams Exposed,0.3073843717575073,0.3073843717575073,0.0,1.0
+8,1076,17:56,mistral-7b-v0.3,The Deceptive World of Shellfish and Caviar,0.30547339499045173,0.3608741760253906,0.0,0.846481724890614
+8,1076,17:56,llama3.1-8b,Debunking Shellfish Scams: Authenticity Matters,0.3046451508998871,0.3046451508998871,0.0,1.0
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Deception: Fresh vs. Fake,0.3024578094482422,0.3024578094482422,0.0,1.0
+8,1076,17:56,qwen2-7b,Decoding Deception: Authenticating Seafood,0.294809490442276,0.294809490442276,0.0,1.0
+8,1076,17:56,qwen2-7b,Decoding Deception: Authenticating Seafood,0.294809490442276,0.294809490442276,0.0,1.0
+8,1076,17:56,qwen2-7b,Decoding Deception: Authenticating Seafood,0.294809490442276,0.294809490442276,0.0,1.0
+8,1076,17:56,qwen2-7b,Decoding Deception: Authenticating Seafood,0.294809490442276,0.294809490442276,0.0,1.0
+8,1076,17:56,llama3.1-8b,"""Exposing Shellfish Swindles and Counterfeit Cavi",0.29341715574264526,0.29341715574264526,0.0,1.0
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Swindles: From Lobsters to Caviar,0.290601199739517,0.34330475330352783,0.0,0.846481724890614
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Swindles: From Lobsters to Caviar,0.290601199739517,0.34330475330352783,0.0,0.846481724890614
+8,1076,17:56,gemma2-9b,Unmasking Food Fraud: From Lobster to Caviar,0.2858184907282271,0.33765465021133423,0.0,0.846481724890614
+8,1076,17:56,gemma2-9b,Unmasking Food Fraud: From Lobster to Caviar,0.2858184907282271,0.33765465021133423,0.0,0.846481724890614
+8,1076,17:56,tinyllama,The Fake Food Scandal,0.2850366532802582,0.2850366532802582,0.0,1.0
+8,1076,17:56,llama3.1-8b,Debunking Shellfish Scams and Fake Luxury Foods,0.27182702473473835,0.32112568616867065,0.0,0.846481724890614
+8,1076,17:56,llama3.1-8b,Sifting Through the Shells,0.2579115629196167,0.2579115629196167,0.0,1.0
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Swindles: Fresh Lobsters & Fake Caviar,0.2575731188089535,0.35947224497795105,0.0,0.7165313105737893
+8,1076,17:56,llama3.1-8b,Exposed: The Dark Side of Seafood Authenticity,0.2503410098758216,0.2957429587841034,0.0,0.846481724890614
+8,1076,17:56,qwen2-7b,Unraveling Food Fraud: From Lobster Bisques to Caviars,0.24893043684473762,0.3474104106426239,0.0,0.7165313105737893
+8,1076,17:56,qwen2-7b,Unmasking Food Fraud: From Lobster Bisques to Caviars,0.24688311496278917,0.344553142786026,0.0,0.7165313105737893
+8,1076,17:56,qwen2-7b,Uncovering Truth in Seafood: From Bisques to Caviars,0.24368558657514167,0.34009063243865967,0.0,0.7165313105737893
+8,1076,17:56,tinyllama,Caught by the Claws,0.22251786291599274,0.22251786291599274,0.0,1.0
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Deception: The Truth About Lobsters and Caviar,0.21794419106403815,0.3593292236328125,0.0,0.6065306597126334
+8,1076,17:56,qwen2-7b,Unraveling Food Fraud: From Lobster Bisque to Caviár Deception,0.2138822196461347,0.35263216495513916,0.0,0.6065306597126334
+8,1076,17:56,mistral-7b-v0.3,Shellfish Swindles & Fake Caviar: How to Spot Authentic Seafood,0.19019727925677438,0.37045371532440186,0.0,0.513417119032592
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Deception: How to Spot Legit Lobsters and Authentic Caviar,0.17357340659989237,0.39938822388648987,0.0,0.43459820850707825
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Deception: How to Spot Legit Lobsters and Authentic Caviar,0.17357340659989237,0.39938822388648987,0.0,0.43459820850707825
+8,1076,17:56,mistral-7b-v0.3,Unmasking Shellfish Swindles: How to Spot Legitimate Lobsters and Authentic Caviar,0.170010573511318,0.39119023084640503,0.0,0.43459820850707825
+8,1076,17:56,tinyllama,Inside Edition Investigation Accuses Red Lobsters of Using Cheaper Whitefish in Lobster Bisque,0.12675290933203048,0.4070378839969635,0.0,0.31140322391459774
+9,1264,21:04,tinyllama,How to Spot Fake Caviar,0.34815970063209534,0.34815970063209534,0.0,1.0
+9,1264,21:04,tinyllama,How to Spot Illegal Fishing,0.3473881781101227,0.3473881781101227,0.0,1.0
+9,1264,21:04,llama3.1-8b,Caviar Scams and Ocean Crimes Exposed,0.3450672924518585,0.3450672924518585,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Deception and Ocean Crimes,0.33591511845588684,0.33591511845588684,0.0,1.0
+9,1264,21:04,llama3.1-8b,Fishing for Truth: Caviar Scams Exposed,0.3310800790786743,0.3310800790786743,0.0,1.0
+9,1264,21:04,tinyllama,The Rise of Caviar Fraud,0.3293187916278839,0.3293187916278839,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Crimes & Ocean Outlaws,0.3273181617259979,0.3273181617259979,0.0,1.0
+9,1264,21:04,llama3.1-8b,The Dark Side of Caviar,0.3245369493961334,0.3245369493961334,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Conundrums & Ocean Crimes,0.3228439688682556,0.3228439688682556,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Conundrums & Ocean Crimes,0.3228439688682556,0.3228439688682556,0.0,1.0
+9,1264,21:04,llama3.1-8b,Catching Culprits: The Caviar Scam Exposed,0.3206890821456909,0.3206890821456909,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Deception & Ocean Crime,0.3195624053478241,0.3195624053478241,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Deception & Ocean Crime,0.3195624053478241,0.3195624053478241,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Deception & Ocean Crime,0.3195624053478241,0.3195624053478241,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Deception & Ocean Crime,0.3195624053478241,0.3195624053478241,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Deception & Ocean Crime,0.3195624053478241,0.3195624053478241,0.0,1.0
+9,1264,21:04,gemma2-9b,Caviar Conundrums and Ocean Crimes,0.3163753151893616,0.3163753151893616,0.0,1.0
+9,1264,21:04,tinyllama,The Importance of Sustainable Fisheries,0.3113163113594055,0.3113163113594055,0.0,1.0
+9,1264,21:04,llama3.1-8b,Fishing for Truth: Caviar Scandals Exposed,0.31015148758888245,0.31015148758888245,0.0,1.0
+9,1264,21:04,qwen2-7b,Caviar Crime and Ocean Justice,0.3012120723724365,0.3012120723724365,0.0,1.0
+9,1264,21:04,qwen2-7b,Caviar Crime and Ocean Justice,0.3012120723724365,0.3012120723724365,0.0,1.0
+9,1264,21:04,llama3.1-8b,The Caviar Scandal Exposed: Fishing for Truth,0.2853918748805911,0.3371506631374359,0.0,0.846481724890614
+9,1264,21:04,tinyllama,Sea Shephard Patrols Oceans To Stop Illegal Fishing,0.2759247027925169,0.385083943605423,0.0,0.7165313105737893
+9,1264,21:04,tinyllama,Sea Shephard Patrols Oceans To Stop Illegal Fishing,0.2759247027925169,0.385083943605423,0.0,0.7165313105737893
+9,1264,21:04,tinyllama,Sea Shephard Patrols Oceans To Stop Illegal Fishing,0.2759247027925169,0.385083943605423,0.0,0.7165313105737893
+9,1264,21:04,llama3.1-8b,Catching Culprits: The Dark Side of Caviar,0.2758010531469021,0.3258204460144043,0.0,0.846481724890614
+9,1264,21:04,tinyllama,The Biggest Fish Fraud in History,0.2701605260372162,0.2701605260372162,0.0,1.0
+9,1264,21:04,tinyllama,The High Seas,0.26249492168426514,0.26249492168426514,0.0,1.0
+9,1264,21:04,mistral-7b-v0.3,Unmasking Caviar Counterfeiters: A Battle Against Seafood Fraud,0.25640177154910704,0.3578374981880188,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Unmasking Caviar Counterfeits: A Battle Against Seafood Fraud,0.25588190118575477,0.35711196064949036,0.0,0.7165313105737893
+9,1264,21:04,llama3.1-8b,The Dark Side of Caviar: Uncovering Illicit Fishing,0.25572772316055853,0.3568967878818512,0.0,0.7165313105737893
+9,1264,21:04,llama3.1-8b,The Dark Side of Caviar: Uncovering Illicit Fishing,0.25572772316055853,0.3568967878818512,0.0,0.7165313105737893
+9,1264,21:04,llama3.1-8b,The Dark Side of Caviar: Uncovering Illicit Fishing,0.25572772316055853,0.3568967878818512,0.0,0.7165313105737893
+9,1264,21:04,qwen2-7b,Caviar Crimes: Unraveling the Truth Behind Illicit Fisheries,0.2551219658141952,0.35605138540267944,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Caviar Crimes Unveiled: The Fight Against Fake Fish,0.2537207609001642,0.35409584641456604,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Caviar Crimes Unveiled: The Fight Against Fake Fish,0.2537207609001642,0.35409584641456604,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Caviar Crimes Unveiled: Navigating the Legal Seafood Market,0.2534811229778993,0.3537614047527313,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Unmasking Caviar Counterfeiters: A Battle Against Ocean Crime,0.2525208629450702,0.35242125391960144,0.0,0.7165313105737893
+9,1264,21:04,qwen2-7b,Caviar Crime: Unraveling the Truth Behind Illicit Fisheries,0.24990066933432112,0.34876447916030884,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Caviar Crimes Unveiled: The High Seas' Wild West,0.24596853177149672,0.3432767391204834,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Caviar Crimes Unveiled: The High Seas' Wild West,0.24596853177149672,0.3432767391204834,0.0,0.7165313105737893
+9,1264,21:04,qwen2-7b,Caviar Crime Wave: Navigating Authenticity & Oceanic Lawlessness,0.22522073939966125,0.3143208622932434,0.0,0.7165313105737893
+9,1264,21:04,mistral-7b-v0.3,Unmasking Caviar Fraud: The High Seas' Illicit Fishing Operations,0.21707328831161027,0.35789334774017334,0.0,0.6065306597126334
+9,1264,21:04,tinyllama,"""How Sea Sheppard Patrolls Oces To Stop ILlega",0.20829617767534528,0.2907007336616516,0.0,0.7165313105737893
+9,1264,21:04,qwen2-7b,Caviar Crime Wave: Navigating Authenticity & Ocean Law Enforcement,0.19636443918277513,0.32375022768974304,0.0,0.6065306597126334
+9,1264,21:04,qwen2-7b,Caviar Crime Wave: Navigating Authenticity & Ocean Law Enforcement,0.19636443918277513,0.32375022768974304,0.0,0.6065306597126334
+9,1264,21:04,mistral-7b-v0.3,Caviar Counterfeit Crackdown: Navigating the Real Deal Amidst Rising Demand,0.18877234093434508,0.36767831444740295,0.0,0.513417119032592
+9,1264,21:04,qwen2-7b,Caviar Crime: Uncovering the Truth Behind Fake Caviar and Oceanic Lawlessness,0.16397009366364626,0.3772912323474884,0.0,0.43459820850707825
+9,1264,21:04,qwen2-7b,Caviar Crime: Unraveling the Truth Behind Fake Caviar and Oceanic Illegality,0.16286151595729947,0.3747404217720032,0.0,0.43459820850707825
+9,1264,21:04,qwen2-7b,Caviar Crime: Unraveling the Truth Behind Fake Caviar and Oceanic Lawlessness,0.1588297026001325,0.3654633164405823,0.0,0.43459820850707825
+10,1403,23:23,tinyllama,IUU Fishing - A Global Problem,0.3445274531841278,0.3445274531841278,0.0,1.0
+10,1403,23:23,gemma2-9b,Combating Illegal Fishing's Global Threat,0.3441455662250519,0.3441455662250519,0.0,1.0
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Global Illicit Fishing Crisis,0.3430158495903015,0.3430158495903015,0.0,1.0
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Global Illicit Fishing Crisis,0.3430158495903015,0.3430158495903015,0.0,1.0
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Global Illicit Fishing Crisis,0.3430158495903015,0.3430158495903015,0.0,1.0
+10,1403,23:23,llama3.1-8b,Exposing Illicit Fishing Operations Worldwide,0.3417392671108246,0.3417392671108246,0.0,1.0
+10,1403,23:23,llama3.1-8b,Exposing Illicit Fishing Operations Worldwide,0.3417392671108246,0.3417392671108246,0.0,1.0
+10,1403,23:23,llama3.1-8b,Uncovering Global IUU Fishing Scandals,0.3391120433807373,0.3391120433807373,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing Operations,0.3380782902240753,0.3380782902240753,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing Operations,0.3380782902240753,0.3380782902240753,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing Operations,0.3380782902240753,0.3380782902240753,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing Operations,0.3380782902240753,0.3380782902240753,0.0,1.0
+10,1403,23:23,tinyllama,IUU Fishing: A Global Problem,0.33537229895591736,0.33537229895591736,0.0,1.0
+10,1403,23:23,mistral-7b-v0.3,Unmasking Illegal Fishing: A Global Crisis,0.33449918031692505,0.33449918031692505,0.0,1.0
+10,1403,23:23,qwen2-7b,Shocking Depths: Uncovering Global Illegal Fishing,0.3319859802722931,0.3319859802722931,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing's Shadow,0.3289128541946411,0.3289128541946411,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing's Dark Web,0.3273272216320038,0.3273272216320038,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing's Dark Web,0.3273272216320038,0.3273272216320038,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing's Dark Web,0.3273272216320038,0.3273272216320038,0.0,1.0
+10,1403,23:23,gemma2-9b,Unmasking Illegal Fishing's Dark Web,0.3273272216320038,0.3273272216320038,0.0,1.0
+10,1403,23:23,qwen2-7b,Cracking Down on Global Illegal Fishing,0.32553529739379883,0.32553529739379883,0.0,1.0
+10,1403,23:23,llama3.1-8b,Fighting Illicit Fishing: A Global Crisis,0.324642539024353,0.324642539024353,0.0,1.0
+10,1403,23:23,tinyllama,The Global Overfishing Problem,0.32392096519470215,0.32392096519470215,0.0,1.0
+10,1403,23:23,llama3.1-8b,The Dark Depths of Global IUU Fishing,0.30269861346876875,0.35759615898132324,0.0,0.846481724890614
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Global Crisis of Illegal Fishing,0.30256110043077783,0.3574337065219879,0.0,0.846481724890614
+10,1403,23:23,tinyllama,The Impact of Illegal Fishing on Oceans,0.2963756373417989,0.3501264452934265,0.0,0.846481724890614
+10,1403,23:23,tinyllama,The Impact of Illegal Fishing on Oceans,0.2963756373417989,0.3501264452934265,0.0,0.846481724890614
+10,1403,23:23,llama3.1-8b,The Dark Side of Global Fishing Operations,0.2960088602257927,0.3496931493282318,0.0,0.846481724890614
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Hidden Cost of Global Fishing,0.291066362628439,0.34385427832603455,0.0,0.846481724890614
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Hidden Toll of Illegal Fishing,0.28849347375820367,0.3408147692680359,0.0,0.846481724890614
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Hidden Costs of Illegal Fishing,0.28675971462245575,0.33876657485961914,0.0,0.846481724890614
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Hidden Costs of Illegal Fishing,0.28675971462245575,0.33876657485961914,0.0,0.846481724890614
+10,1403,23:23,mistral-7b-v0.3,Uncovering the Hidden Cost of Unregulated Fishing,0.2820896194804727,0.3332495093345642,0.0,0.846481724890614
+10,1403,23:23,qwen2-7b,Dark Waters: Unveiling Global Illegal Fishing Epidemic,0.2766534775742938,0.3268274664878845,0.0,0.846481724890614
+10,1403,23:23,llama3.1-8b,Fighting Illicit Fishing: A Global Crisis Uncovered,0.2742925722040103,0.32403838634490967,0.0,0.846481724890614
+10,1403,23:23,llama3.1-8b,Exposing the Dark Side of Global Fishing,0.2740310426379029,0.32372942566871643,0.0,0.846481724890614
+10,1403,23:23,llama3.1-8b,Exposing the Dark Side of Global Fishing,0.2740310426379029,0.32372942566871643,0.0,0.846481724890614
+10,1403,23:23,tinyllama,IUU Fishing Is Responsible For 25% Of Global Catch,0.2711224566956474,0.44700536131858826,0.0,0.6065306597126334
+10,1403,23:23,tinyllama,Fish Out Of Water,0.2708667814731598,0.2708667814731598,0.0,1.0
+10,1403,23:23,tinyllama,Illegal Fishing and Its Impact on Our Oceans,0.25624780706688194,0.3576226234436035,0.0,0.7165313105737893
+10,1403,23:23,qwen2-7b,"Cracking Down on Illegal Fishing: Protecting Oceans, Lives",0.24538972354809713,0.3424689471721649,0.0,0.7165313105737893
+10,1403,23:23,qwen2-7b,"Cracking Down on Illegal Fishing: Protecting Oceans, Lives",0.24538972354809713,0.3424689471721649,0.0,0.7165313105737893
+10,1403,23:23,qwen2-7b,Shocking Depths: The Grim Reality of IUU Fishing,0.2360322491964304,0.32940953969955444,0.0,0.7165313105737893
+10,1403,23:23,qwen2-7b,"Cracking Down on Global IUU Fishing: Protecting Oceans, Lives",0.22804928401542926,0.375989705324173,0.0,0.6065306597126334
+10,1403,23:23,tinyllama,IUU Fishing Has Made Our Global Overfishing Problem Worse,0.2254973473449796,0.3717822730541229,0.0,0.6065306597126334
+10,1403,23:23,qwen2-7b,"Cracking Down on Global Illegal Fishing: Protecting Oceans, Lives",0.21230949725348755,0.35003918409347534,0.0,0.6065306597126334
+10,1403,23:23,qwen2-7b,Unveiling the Dark Side: Global IUU Fishing and Its Devastating Impact,0.15291133454710548,0.35184529423713684,0.0,0.43459820850707825
+10,1403,23:23,qwen2-7b,Uncovering the Dark Side of Global Fishing: IUU Operations and Their Impact,0.1377664128038653,0.3744879364967346,0.0,0.36787944117144233
+10,1403,23:23,tinyllama,Transparency in Healthcare Measurement Research - A Conversation Between Dr. Hsu & Dr. Yao,0.07782692895867933,0.2952495217323303,0.0,0.2635971381157267
+10,1403,23:23,llama3.1-8b,'The Dark side of commercial fishing'. Let me know if there's anything else I can do!,0.061918230789493676,0.3278254568576813,0.0,0.18887560283756186
+11,1625,27:05,gemma2-9b,Seafood's Hidden Cost: Exploitation at Sea,0.38413387537002563,0.38413387537002563,0.0,1.0
+11,1625,27:05,gemma2-9b,Seafood's Hidden Cost: Exploitation at Sea,0.38413387537002563,0.38413387537002563,0.0,1.0
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering in Seafood Supply Chains,0.37789833545684814,0.37789833545684814,0.0,1.0
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering: Seafood Supply Chain Abuses,0.3766665458679199,0.3766665458679199,0.0,1.0
+11,1625,27:05,llama3.1-8b,Hidden Abuses in the Seafood Industry,0.3594759404659271,0.3594759404659271,0.0,1.0
+11,1625,27:05,tinyllama,The Ocean's Most Venomous Creatures,0.3573194444179535,0.3573194444179535,0.0,1.0
+11,1625,27:05,tinyllama,The Ocean's Most Dangerous Creatures,0.3555585741996765,0.3555585741996765,0.0,1.0
+11,1625,27:05,mistral-7b-v0.3,Seafood Supply Chain Abuses Uncovered,0.3536761701107025,0.3536761701107025,0.0,1.0
+11,1625,27:05,llama3.1-8b,Baiting the Truth: Seafood Industry Abuses,0.34540554881095886,0.34540554881095886,0.0,1.0
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering: Forced Labor in Fishing Industry,0.3295042209336409,0.38926324248313904,0.0,0.846481724890614
+11,1625,27:05,mistral-7b-v0.3,Unchecked Labor Abuses Plague Global Fishing Industry,0.32587078388561486,0.38497084379196167,0.0,0.846481724890614
+11,1625,27:05,tinyllama,The Oceanic Crab: A Dangerous Delicacy,0.3216613233089447,0.3216613233089447,0.0,1.0
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood Supply Chains,0.3179720713104727,0.3756396174430847,0.0,0.846481724890614
+11,1625,27:05,gemma2-9b,Seafood's Hidden Costs,0.31434929370880127,0.31434929370880127,0.0,1.0
+11,1625,27:05,gemma2-9b,Seafood's Hidden Costs,0.31434929370880127,0.31434929370880127,0.0,1.0
+11,1625,27:05,gemma2-9b,Seafood Slavery: Hidden Costs on Our Plates,0.3128174388504396,0.3695501387119293,0.0,0.846481724890614
+11,1625,27:05,gemma2-9b,Seafood Slavery: Hidden Costs on Our Plates,0.3128174388504396,0.3695501387119293,0.0,0.846481724890614
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering: Trafficked Fishermen and Oversight Lapses,0.30302686877061014,0.35798394680023193,0.0,0.846481724890614
+11,1625,27:05,gemma2-9b,Seafood Slavery: A Hidden Cost,0.3015293776988983,0.3015293776988983,0.0,1.0
+11,1625,27:05,gemma2-9b,Seafood Slavery: A Hidden Cost,0.3015293776988983,0.3015293776988983,0.0,1.0
+11,1625,27:05,gemma2-9b,Seafood Slavery: A Hidden Cost,0.3015293776988983,0.3015293776988983,0.0,1.0
+11,1625,27:05,gemma2-9b,Seafood Slavery: A Hidden Cost,0.3015293776988983,0.3015293776988983,0.0,1.0
+11,1625,27:05,tinyllama,Fisherman Gets Caught Up With Fear,0.28710487484931946,0.28710487484931946,0.0,1.0
+11,1625,27:05,llama3.1-8b,Behind the Catch: Dark Secrets in Seafood,0.2808887075999887,0.33183079957962036,0.0,0.846481724890614
+11,1625,27:05,llama3.1-8b,The Dark Side of Seafood,0.28037601709365845,0.28037601709365845,0.0,1.0
+11,1625,27:05,llama3.1-8b,The Dark Side of Seafood,0.28037601709365845,0.28037601709365845,0.0,1.0
+11,1625,27:05,llama3.1-8b,The Dark Side of Seafood,0.28037601709365845,0.28037601709365845,0.0,1.0
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering: Forced Labor in Global Fishing Industry,0.2792805946475959,0.38976746797561646,0.0,0.7165313105737893
+11,1625,27:05,tinyllama,The Fish Trap,0.27633044123649597,0.27633044123649597,0.0,1.0
+11,1625,27:05,qwen2-7b,Seafood Shadows: Forced Labor & Government Oversight Gaps,0.2670271359378934,0.3726663887500763,0.0,0.7165313105737893
+11,1625,27:05,llama3.1-8b,Behind the Catch: Dark Secrets in Seafood Supply,0.2590028744182321,0.3614676296710968,0.0,0.7165313105737893
+11,1625,27:05,llama3.1-8b,Behind the Catch: Dark Secrets in Seafood Supply,0.2590028744182321,0.3614676296710968,0.0,0.7165313105737893
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering Below Decks: Seafood Supply Chain Challenges,0.2577890321071196,0.35977357625961304,0.0,0.7165313105737893
+11,1625,27:05,llama3.1-8b,The Dark Side of Seafood: Hidden Horrors,0.2546914269371918,0.30088236927986145,0.0,0.846481724890614
+11,1625,27:05,tinyllama,The Oceanic Thriller,0.24965333938598633,0.24965333938598633,0.0,1.0
+11,1625,27:05,tinyllama,The Fishing Industry Is Not Just About Food,0.24707667031187214,0.34482327103614807,0.0,0.7165313105737893
+11,1625,27:05,tinyllama,Seafood Safety & Legal Catch Inspectorate Action Needed,0.24233584551716644,0.3382069170475006,0.0,0.7165313105737893
+11,1625,27:05,llama3.1-8b,Behind Closed Nets: Dark Secrets in Seafood,0.2361163443734009,0.27893850207328796,0.0,0.846481724890614
+11,1625,27:05,tinyllama,An Unexpected Surprise Cometh,0.23444001376628876,0.23444001376628876,0.0,1.0
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering Beneath Our Plates: Modern Seafood Slave Trade,0.22901582700162837,0.37758326530456543,0.0,0.6065306597126334
+11,1625,27:05,qwen2-7b,Seas of Suffering: Forced Labor & Government Oversight Gaps,0.22822973694563864,0.37628722190856934,0.0,0.6065306597126334
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood: Forced Labor and Unseen Cruelties,0.1946962848057436,0.37921658158302307,0.0,0.513417119032592
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood: Forced Labor and Unseen Suffering,0.19465186593742387,0.3791300654411316,0.0,0.513417119032592
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood: Forced Labor and Unchecked Supply Chains,0.1817884555661559,0.4182908535003662,0.0,0.43459820850707825
+11,1625,27:05,mistral-7b-v0.3,Unseen Suffering in Seafood Supply Chains: The Plight of Enslaved Fishermen,0.17213956441551068,0.39608898758888245,0.0,0.43459820850707825
+11,1625,27:05,tinyllama,The Fishing Industry Is Being Used as a Transit Route,0.17113535723144882,0.33332616090774536,0.0,0.513417119032592
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood: Forced Labor and Government Oversight Gaps,0.16947637974187302,0.3899610638618469,0.0,0.43459820850707825
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood: Forced Labor and Government Oversight Gaps,0.16947637974187302,0.3899610638618469,0.0,0.43459820850707825
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood: Forced Labor and Government Oversight Gaps,0.16947637974187302,0.3899610638618469,0.0,0.43459820850707825
+11,1625,27:05,qwen2-7b,The Dark Side of Seafood: Forced Labor and Government Oversight Gaps,0.16947637974187302,0.3899610638618469,0.0,0.43459820850707825

@@ -1,0 +1,466 @@
+====================================================================================================
+TITLE EVALUATION REPORT: breakfast_importance
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.3191
+llama3.1-8b          Average Score: 0.3109
+mistral-7b-v0.3      Average Score: 0.2458
+qwen2-7b             Average Score: 0.2645
+tinyllama            Average Score: 0.2846
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 157 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.4794       0.4794       0.0000         1.0000     tinyllama            Should You Eat Breakfast? (9)
+2      0.4624       0.4624       0.0000         1.0000     tinyllama            Breakfast - Should You Eat It?
+3      0.4471       0.4471       0.0000         1.0000     llama3.1-8b          The Breakfast Question: Eat or Skip?
+4      0.4327       0.4327       0.0000         1.0000     llama3.1-8b          The Breakfast Debate: Eat or Skip? (2)
+5      0.3993       0.3993       0.0000         1.0000     qwen2-7b             Breakfast Debate: Fueling Your Day? (3)
+6      0.3883       0.3883       0.0000         1.0000     mistral-7b-v0.3      Breakfast: To Eat or Not? (6)
+7      0.3880       0.3880       0.0000         1.0000     gemma2-9b            Breakfast: Fuel Your Day? (4)
+8      0.3869       0.4571       0.0000         0.8465     llama3.1-8b          Should You Start Your Day with Breakfast? (2)
+9      0.3862       0.3862       0.0000         1.0000     mistral-7b-v0.3      Breakfast Debate: To Eat or Not? (2)
+10     0.3829       0.3829       0.0000         1.0000     gemma2-9b            Breakfast: Fuel Your Day or Not?
+11     0.3814       0.3814       0.0000         1.0000     llama3.1-8b          Breakfast Bonanza: Eat It or Skip?
+12     0.3754       0.3754       0.0000         1.0000     llama3.1-8b          Breakfast - To Eat or Not?
+13     0.3722       0.3722       0.0000         1.0000     llama3.1-8b          Breakfast: A Daily Dilemma?
+14     0.3719       0.3719       0.0000         1.0000     llama3.1-8b          Breakfast: The Morning Meal
+15     0.3700       0.3700       0.0000         1.0000     qwen2-7b             Breakfast Debate: Fueling Your Day (2)
+16     0.3697       0.3697       0.0000         1.0000     gemma2-9b            Breakfast: Fuel Your Day or Fad? (4)
+17     0.3655       0.3655       0.0000         1.0000     llama3.1-8b          The Breakfast Debate Continues
+18     0.3578       0.3578       0.0000         1.0000     mistral-7b-v0.3      Breakfast: Fuel Up or Fast? (2)
+19     0.3438       0.3438       0.0000         1.0000     qwen2-7b             Breakfast Debate: Nourish or Not? (5)
+20     0.3280       0.3875       0.0000         0.8465     gemma2-9b            Breakfast: Fuel Your Day or Skip It?
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3741
+  llama3.1-8b         : 0.3953
+  mistral-7b-v0.3     : 0.3818
+  qwen2-7b            : 0.3657
+  tinyllama           : 0.4777
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 9s (00:09)
+Transcript Length: 2,188 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3525       0.3525       0.0000         1.0000     tinyllama            Should You Eat Breakfast? (6)
+2      0.3247       0.3247       0.0000         1.0000     llama3.1-8b          Debunking Breakfast: Eat, Skip, or Delay?
+3      0.3087       0.3087       0.0000         1.0000     llama3.1-8b          Breakfast: Myth or Morning Must-Have?
+4      0.3065       0.3065       0.0000         1.0000     qwen2-7b             Debunking Breakfast Myths: Fasting vs. Feasting (2)
+5      0.3061       0.3061       0.0000         1.0000     llama3.1-8b          To Eat Breakfast or Not? (6)
+6      0.3045       0.3597       0.0000         0.8465     qwen2-7b             The Morning Debate: Should You Skip Breakfast?
+7      0.2947       0.2947       0.0000         1.0000     mistral-7b-v0.3      Breakfast Myths Debunked: Fasting and Health (2)
+8      0.2906       0.2906       0.0000         1.0000     qwen2-7b             Breakfast Debunked: Fasting vs. Feasting
+9      0.2871       0.4007       0.0000         0.7165     tinyllama            Should You Eat Breakfast and If So, What? (3)
+10     0.2804       0.3313       0.0000         0.8465     tinyllama            What's the Big Deal About Breakfast, Anyway?
+11     0.2715       0.2715       0.0000         1.0000     gemma2-9b            Breakfast: Myth or Metabolic Miracle? (4)
+12     0.2708       0.2708       0.0000         1.0000     gemma2-9b            Breakfast: Myth or Metabolic Magic? (6)
+13     0.2701       0.3191       0.0000         0.8465     qwen2-7b             The Great Breakfast Debate: Fasting vs. Feasting
+14     0.2626       0.3102       0.0000         0.8465     mistral-7b-v0.3      Breakfast Myths Unraveled: Fasting for Better Health
+15     0.2568       0.3034       0.0000         0.8465     qwen2-7b             Debunking Breakfast Myths: Fasting vs. Feasting Routines
+16     0.2556       0.3020       0.0000         0.8465     mistral-7b-v0.3      The Power of Fasting: Breakfast Myths Debunked
+17     0.2526       0.2984       0.0000         0.8465     mistral-7b-v0.3      The Science Behind Fasting: Breakfast Myths Debunked
+18     0.2457       0.2903       0.0000         0.8465     qwen2-7b             The Great Breakfast Debate: Myths vs. Science
+19     0.2402       0.2838       0.0000         0.8465     mistral-7b-v0.3      Breakfast Myths Debunked: The Role of Fasting (2)
+20     0.2334       0.3257       0.0000         0.7165     mistral-7b-v0.3      Fasting for Better Health: The Role of Breakfast
+21     0.2317       0.3234       0.0000         0.7165     qwen2-7b             The Morning Debate: Breakfast's Role & Fasting Benefits
+22     0.2087       0.2913       0.0000         0.7165     qwen2-7b             Debunking Breakfast Myths: When & What Matters Most
+23     0.2086       0.3438       0.0000         0.6065     tinyllama            The Importance of How Long You Fast Each Day (2)
+24     0.1893       0.3122       0.0000         0.6065     mistral-7b-v0.3      Breakfast Myths Debunked: The Role of Fasting in Health (2)
+25     0.1695       0.3301       0.0000         0.5134     qwen2-7b             Debunking Breakfast Myths: Fasting vs. Feasting Start Your Day Right
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2711
+  llama3.1-8b         : 0.3175
+  mistral-7b-v0.3     : 0.2453
+  qwen2-7b            : 0.2591
+  tinyllama           : 0.2969
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 157s (02:37)
+Transcript Length: 3,056 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3368       0.3368       0.0000         1.0000     gemma2-9b            Eat Early, Thrive Throughout The Day (4)
+2      0.3295       0.3295       0.0000         1.0000     tinyllama            The Time of Day That Matters (2)
+3      0.3284       0.3284       0.0000         1.0000     tinyllama            The Benefits of Eating Early
+4      0.3236       0.3236       0.0000         1.0000     qwen2-7b             Optimal Timing: Why Early Breakfast Matters (3)
+5      0.3176       0.3176       0.0000         1.0000     llama3.1-8b          Timing Your Meals for Optimal Metabolism (10)
+6      0.3054       0.3054       0.0000         1.0000     gemma2-9b            Eating Earlier: A Metabolic Advantage
+7      0.3042       0.3042       0.0000         1.0000     tinyllama            The Power of Eating Early
+8      0.2974       0.3514       0.0000         0.8465     gemma2-9b            Eat Early, Live Well: Timing Your Meals
+9      0.2973       0.3512       0.0000         0.8465     gemma2-9b            Breakfast Timing: Eat Earlier For Better Health
+10     0.2964       0.2964       0.0000         1.0000     gemma2-9b            The Power of Early Eating (3)
+11     0.2964       0.3502       0.0000         0.8465     qwen2-7b             Optimal Eating Times: Why Morning Meals Matter (2)
+12     0.2930       0.2930       0.0000         1.0000     tinyllama            Why Eat Early for Agricultural Workers?
+13     0.2771       0.3273       0.0000         0.8465     tinyllama            The Importance of Eating Early for Workers
+14     0.2528       0.3527       0.0000         0.7165     qwen2-7b             Eating Early: Boosting Metabolism & Blood Sugar Control (2)
+15     0.2398       0.3346       0.0000         0.7165     tinyllama            The Science of Eating Early for Better Health
+16     0.2375       0.3315       0.0000         0.7165     qwen2-7b             Optimal Timing: Unlocking Metabolism's Rhythm for Better Health
+17     0.2222       0.3663       0.0000         0.6065     mistral-7b-v0.3      Eating Early for Better Blood Sugar Control and Metabolism
+18     0.2195       0.3620       0.0000         0.6065     mistral-7b-v0.3      Eating Early: The Secret to Better Blood Sugar Control (2)
+19     0.2126       0.3506       0.0000         0.6065     qwen2-7b             Optimal Eating Times: Boosting Metabolism & Blood Sugar Control
+20     0.1866       0.3635       0.0000         0.5134     mistral-7b-v0.3      The Benefits of Eating Breakfast Early: A Look into Circadian
+21     0.1808       0.3521       0.0000         0.5134     mistral-7b-v0.3      Eating Early: A Boost for Blood Sugar Control and Metabolism
+22     0.1787       0.3481       0.0000         0.5134     mistral-7b-v0.3      The Benefits of Early Breakfast: A Closer Look at Circadian
+23     0.1601       0.3684       0.0000         0.4346     qwen2-7b             Optimal Timing: Why Early Meals Boost Metabolism & Blood Sugar Control
+24     0.1586       0.3648       0.0000         0.4346     mistral-7b-v0.3      Eating Early: A Key to Better Blood Sugar Control and Metabolism (2)
+25     0.1530       0.3519       0.0000         0.4346     tinyllama            The Power of Eating Early: Why Breakfast Matters More Than Ever
+26     0.1452       0.3947       0.0000         0.3679     mistral-7b-v0.3      Eating Early: The Benefits of Breakfast for Metabolism and Blood Sugar Control
+27     0.1337       0.3633       0.0000         0.3679     mistral-7b-v0.3      The Benefits of Early Breakfast: A Closer Look at Metabolism and Circadian
+28     0.1049       0.3369       0.0000         0.3114     tinyllama            The Science of Eating Early: How to Break Free From Your Morning Slump
+29     0.0974       0.4365       0.0000         0.2231     tinyllama            How Breakfast Makes Us Better at Doing Different Things at Different Times of the Day
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3136
+  llama3.1-8b         : 0.3176
+  mistral-7b-v0.3     : 0.1803
+  qwen2-7b            : 0.2679
+  tinyllama           : 0.2457
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 355s (05:55)
+Transcript Length: 1,272 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3449       0.3449       0.0000         1.0000     gemma2-9b            Breakfast: Fueling Your Day for Success (10)
+2      0.3064       0.3620       0.0000         0.8465     llama3.1-8b          The Importance of Breakfast for Overall Health (4)
+3      0.2947       0.4113       0.0000         0.7165     tinyllama            Breakfast: The Most Important Meal of Your Day (3)
+4      0.2894       0.3419       0.0000         0.8465     tinyllama            The Importance of Breakfast in Healthy Living
+5      0.2867       0.3387       0.0000         0.8465     llama3.1-8b          The Importance of Breakfast in Weight Management (5)
+6      0.2862       0.3381       0.0000         0.8465     llama3.1-8b          The Importance of Breakfast in Daily Life
+7      0.2831       0.3345       0.0000         0.8465     qwen2-7b             The Morning Meal Myth: Why Breakfast Matters (6)
+8      0.2740       0.4517       0.0000         0.6065     tinyllama            Breakfast Is The Most Important Meal Of The Day
+9      0.2731       0.2731       0.0000         1.0000     tinyllama            Why Breakfast Matters
+10     0.2642       0.4356       0.0000         0.6065     tinyllama            Breakfast is the Most Important Meal of Your Day (3)
+11     0.2509       0.3502       0.0000         0.7165     mistral-7b-v0.3      Breakfast: The King of Meals for Appetite Control (6)
+12     0.2439       0.3405       0.0000         0.7165     qwen2-7b             The Power of Morning Meals: Why Breakfast Matters (2)
+13     0.2205       0.3635       0.0000         0.6065     mistral-7b-v0.3      Breakfast: The Key to Appetite Control and Leaner Bodies
+14     0.2162       0.3565       0.0000         0.6065     mistral-7b-v0.3      The Power of Breakfast: A Key to Appetite Control
+15     0.2161       0.3562       0.0000         0.6065     mistral-7b-v0.3      Breakfast: The Key to Appetite Control and Lean Living (2)
+16     0.2125       0.3504       0.0000         0.6065     qwen2-7b             The Power of Breakfast: Fueling Health and Appetite Control (2)
+17     0.1554       0.4225       0.0000         0.3679     tinyllama            The Importance of Breakfast as the Most Important Meal of Your Day
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3449
+  llama3.1-8b         : 0.2945
+  mistral-7b-v0.3     : 0.2374
+  qwen2-7b            : 0.2612
+  tinyllama           : 0.2669
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 457s (07:37)
+Transcript Length: 5,010 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3279       0.3279       0.0000         1.0000     llama3.1-8b          Timing Your Meals for Weight Loss
+2      0.3264       0.3264       0.0000         1.0000     llama3.1-8b          Timing Matters: Weight Loss and Circadian (2)
+3      0.3244       0.3244       0.0000         1.0000     gemma2-9b            Breakfast, Dinner, and Weight Loss
+4      0.3183       0.3183       0.0000         1.0000     tinyllama            The Importance of Breakfast and Dinner (4)
+5      0.3085       0.3085       0.0000         1.0000     gemma2-9b            Breakfast Timing and Weight Loss Strategies (4)
+6      0.3046       0.3046       0.0000         1.0000     tinyllama            The Importance of Eating Breakfast (3)
+7      0.3019       0.3019       0.0000         1.0000     gemma2-9b            Breakfast Timing & Weight Loss Strategies (5)
+8      0.2833       0.3347       0.0000         0.8465     llama3.1-8b          Timing Your Meals for Optimal Weight Loss (4)
+9      0.2806       0.3315       0.0000         0.8465     llama3.1-8b          The Importance of Timing in Weight Management
+10     0.2572       0.3038       0.0000         0.8465     qwen2-7b             Dawn of Weight Loss: Flexibility vs. Tradition (3)
+11     0.2526       0.2984       0.0000         0.8465     qwen2-7b             Dawn of Weight Loss: Timeless Eating Wisdom
+12     0.2440       0.3406       0.0000         0.7165     llama3.1-8b          The Science Behind Eating Schedules and Weight Management
+13     0.2375       0.3314       0.0000         0.7165     qwen2-7b             Flexible Eating Timing: Weight Loss Without Morning Meals
+14     0.2369       0.3306       0.0000         0.7165     qwen2-7b             The Flexible Truth About Breakfast and Weight Loss
+15     0.2314       0.2314       0.0000         1.0000     llama3.1-8b          Navigating the Complex
+16     0.2291       0.3198       0.0000         0.7165     qwen2-7b             Flexible Eating Timing: Weight Loss Without Morning Rituals
+17     0.2284       0.3766       0.0000         0.6065     tinyllama            Breakfast is the Most Important Meal of Your Day (2)
+18     0.2284       0.3766       0.0000         0.6065     tinyllama            Breakfast Is the Most Important Meal of Your Day
+19     0.2222       0.3101       0.0000         0.7165     qwen2-7b             Breakfast Timing Myths Debunked: Weight Loss & Metabolism
+20     0.2180       0.3595       0.0000         0.6065     qwen2-7b             Dawn of Weight Loss: Timing Doesn't Define Your Metabolism
+21     0.2095       0.3453       0.0000         0.6065     mistral-7b-v0.3      Eating Patterns & Weight Loss: Breakfast vs Intermittent Fasting
+22     0.1989       0.3279       0.0000         0.6065     mistral-7b-v0.3      Timing of Meals and Weight Loss: A Closer Look
+23     0.1919       0.3737       0.0000         0.5134     mistral-7b-v0.3      The Impact of Eating Patterns on Weight Loss and Health
+24     0.1829       0.3015       0.0000         0.6065     qwen2-7b             Dawn of Weight Loss: Timing vs. Nutrition Myths Debunked
+25     0.1624       0.3736       0.0000         0.4346     mistral-7b-v0.3      Eating Early vs Intermittent Fasting: Impact on Weight Loss and Health
+26     0.1610       0.3704       0.0000         0.4346     mistral-7b-v0.3      Eating Early vs. Intermittent Fasting: Impact on Weight Loss & Health
+27     0.1609       0.3701       0.0000         0.4346     mistral-7b-v0.3      Eating Early vs Intermittent Fasting: Impact on Weight Loss & Health
+28     0.1557       0.3582       0.0000         0.4346     mistral-7b-v0.3      Breakfast vs Dinner: Timing Matters for Weight Loss and Health Benefits
+29     0.1538       0.3540       0.0000         0.4346     mistral-7b-v0.3      Eating Patterns & Weight Loss: The Role of Breakfast and Dinner
+30     0.1158       0.3719       0.0000         0.3114     mistral-7b-v0.3      Timing of Meals: Breakfast vs Dinner - Impact on Weight Loss & Health
+31     0.1150       0.3692       0.0000         0.3114     mistral-7b-v0.3      Eating Early vs Intermittent Fasting: Balancing Meal Timings for Weight Loss & Health
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3068
+  llama3.1-8b         : 0.2870
+  mistral-7b-v0.3     : 0.1625
+  qwen2-7b            : 0.2351
+  tinyllama           : 0.2872
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 746s (12:26)
+Transcript Length: 2,565 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3204       0.3204       0.0000         1.0000     tinyllama            So Those Are Our Suggestions
+2      0.3171       0.3171       0.0000         1.0000     tinyllama            Breakfast Recipe: Healthy and Delicious
+3      0.3156       0.3156       0.0000         1.0000     tinyllama            Creating a Healthy and Delicious Breakfast
+4      0.3142       0.3142       0.0000         1.0000     tinyllama            Introducing the BBC's Healthy Eating Challenge
+5      0.3104       0.3104       0.0000         1.0000     tinyllama            A Delicious Breakfast Option
+6      0.3030       0.3030       0.0000         1.0000     tinyllama            What We Know About Healthy Eating
+7      0.3026       0.3026       0.0000         1.0000     llama3.1-8b          Breakfast Around the Globe: Diverse Mornings
+8      0.2984       0.2984       0.0000         1.0000     qwen2-7b             Diverse Delights: Global Breakfast Routines
+9      0.2967       0.2967       0.0000         1.0000     qwen2-7b             Diverse Delights: Global Morning Meals (2)
+10     0.2967       0.2967       0.0000         1.0000     qwen2-7b             Diverse Global Breakfasts: A Flavorful Journey (3)
+11     0.2896       0.2896       0.0000         1.0000     gemma2-9b            Global Breakfast Delights (10)
+12     0.2882       0.2882       0.0000         1.0000     tinyllama            How to Make Healthy Breakfast
+13     0.2808       0.2808       0.0000         1.0000     llama3.1-8b          Morning Meals from Diverse Cultures
+14     0.2808       0.2808       0.0000         1.0000     llama3.1-8b          Morning Meals From Diverse Cultures
+15     0.2800       0.2800       0.0000         1.0000     tinyllama            Healthy Breakfast Recipe
+16     0.2779       0.3283       0.0000         0.8465     tinyllama            What Do We Know About Healthy Breakfast?
+17     0.2694       0.2694       0.0000         1.0000     llama3.1-8b          Unpacking Breakfast Customs From Abroad
+18     0.2688       0.2688       0.0000         1.0000     qwen2-7b             Diverse Global Breakfast Traditions
+19     0.2610       0.3642       0.0000         0.7165     qwen2-7b             Diverse Global Breakfasts: From Smoothies to Home-Grown Delights (2)
+20     0.2570       0.3586       0.0000         0.7165     qwen2-7b             Diverse Global Breakfasts: From Smoothies to Home-Grown Feasts
+21     0.2455       0.2455       0.0000         1.0000     llama3.1-8b          Global Breakfast Tradictions Revealed
+22     0.2442       0.2442       0.0000         1.0000     llama3.1-8b          Global Breakfast Tradities Revealed
+23     0.2434       0.2434       0.0000         1.0000     llama3.1-8b          Breakfast Around the World (2)
+24     0.2344       0.2344       0.0000         1.0000     llama3.1-8b          Breakfast Around the Worlds
+25     0.2321       0.2321       0.0000         1.0000     llama3.1-8b          Breaking Bread Globally: Unique Beginnings
+26     0.2240       0.3694       0.0000         0.6065     mistral-7b-v0.3      Breakfast Around the World: Smoothies, Avocado Toasts, and More (2)
+27     0.2178       0.3590       0.0000         0.6065     mistral-7b-v0.3      Breakfast Around the World: From Smoothies to Avocado Toast
+28     0.2176       0.3036       0.0000         0.7165     mistral-7b-v0.3      Breakfast Around the World: A Taste of Variety (2)
+29     0.2073       0.2893       0.0000         0.7165     mistral-7b-v0.3      Breakfast Around the Globe: A Taste of Variety
+30     0.1924       0.3172       0.0000         0.6065     mistral-7b-v0.3      Breakfast Around the World: A Taste of Local Flavors
+31     0.1845       0.3593       0.0000         0.5134     mistral-7b-v0.3      Breakfast Around the World: Smoothies, Avocado Toast, & Gourmet Feasts
+32     0.1821       0.3547       0.0000         0.5134     mistral-7b-v0.3      Breakfast Around the Globe: Smoothies, Avocado Toasts, & Gourmet Feasts
+33     0.1712       0.3939       0.0000         0.4346     mistral-7b-v0.3      Breakfast Around the World: Smoothies, Avocado Toasts, and Lush Homegrown Feasts
+34     0.1260       0.3424       0.0000         0.3679     tinyllama            Healthy Breakfast Recipes - Easy, Delicious & Nutritious Meals For Your Day
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2896
+  llama3.1-8b         : 0.2577
+  mistral-7b-v0.3     : 0.2038
+  qwen2-7b            : 0.2830
+  tinyllama           : 0.2853
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 912s (15:12)
+Transcript Length: 2,552 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3741       0.3741       0.0000         1.0000     gemma2-9b            Breakfast Choices and Global Food Insecurity
+2      0.3647       0.3647       0.0000         1.0000     llama3.1-8b          Breakfast Habits and Food Insecurity
+3      0.3627       0.3627       0.0000         1.0000     llama3.1-8b          Food Insecurity and Healthy Eating Habits
+4      0.3598       0.3598       0.0000         1.0000     gemma2-9b            Breakfast Choices & Food Insecurity (2)
+5      0.3389       0.3389       0.0000         1.0000     tinyllama            What Do We Know About Breakfast?
+6      0.3266       0.3266       0.0000         1.0000     gemma2-9b            Breakfast: Fueling Health & Facing Insecurity (2)
+7      0.3249       0.3249       0.0000         1.0000     gemma2-9b            Breakfast: Health, Affordability, and Access (2)
+8      0.3239       0.3239       0.0000         1.0000     llama3.1-8b          Nutrition Challenges in Latin America
+9      0.3201       0.3201       0.0000         1.0000     llama3.1-8b          The Breakfast Divide: Affordability vs. Nutrition
+10     0.3176       0.3176       0.0000         1.0000     llama3.1-8b          Global Perspectives on Breakfast and Nutrition
+11     0.3143       0.3143       0.0000         1.0000     llama3.1-8b          The Breakfast Divide: Access vs. Affordability (4)
+12     0.3098       0.3098       0.0000         1.0000     gemma2-9b            Breakfast Choices: Health vs. Affordability
+13     0.2983       0.2983       0.0000         1.0000     gemma2-9b            Breakfast: Fueling Health and Security
+14     0.2962       0.2962       0.0000         1.0000     llama3.1-8b          Beyond Appetite :Accessing Healthy Breakfas tOptions
+15     0.2926       0.2926       0.0000         1.0000     gemma2-9b            Breakfast: Affordability Meets Nutrition
+16     0.2808       0.3318       0.0000         0.8465     tinyllama            The Importance of Breakfast in Latin America
+17     0.2744       0.3830       0.0000         0.7165     mistral-7b-v0.3      Breakfast Composition & Food Insecurity Across Latin America
+18     0.2723       0.3801       0.0000         0.7165     tinyllama            Breakfast and Healthy Eating in Latin American Countries
+19     0.2462       0.3436       0.0000         0.7165     mistral-7b-v0.3      Breakfast Choices: Healthy vs Affordable in Latin America
+20     0.2432       0.3394       0.0000         0.7165     mistral-7b-v0.3      Breakfast Choices: Health vs Affordability in Latin America (2)
+21     0.2413       0.3368       0.0000         0.7165     qwen2-7b             The Power of Protein: Fueling Satiety and Health (2)
+22     0.2267       0.3737       0.0000         0.6065     mistral-7b-v0.3      Breakfast's Impact on Appetite & Satiety Across Latin America (3)
+23     0.2230       0.3676       0.0000         0.6065     mistral-7b-v0.3      Breakfast's Impact on Appetite & Satiety: A Global Perspective
+24     0.2129       0.3510       0.0000         0.6065     tinyllama            The Importance of Appetite Satisfaction in Breakfast Meal Choice
+25     0.1962       0.3821       0.0000         0.5134     tinyllama            The Importance of Appetite, Satiety, and Breakfast in Latin America (2)
+26     0.1646       0.3786       0.0000         0.4346     tinyllama            The Impact of Appetite on Breakfast Eating Patterns in Latin America
+27     0.1379       0.3747       0.0000         0.3679     mistral-7b-v0.3      Breakfast's Impact on Appetite & Satiety: A Look at Latin American Cuisine
+28     0.1358       0.3693       0.0000         0.3679     qwen2-7b             The Impact of Breakfast Choices on Health and Access in Latin America (8)
+29     0.1281       0.4114       0.0000         0.3114     tinyllama            The Impact of Avocados on Health and Access to Food in Latin America
+30     0.1081       0.3471       0.0000         0.3114     mistral-7b-v0.3      Breakfast Impact & Latin American Diet: A Mixed Bag of Health & Affordability
+31     0.0717       0.4486       0.0000         0.1599     tinyllama            How does the availability of healthy food affect access to nutritious foods in Latin America and Africa?
+32     0.0506       0.4419       0.0000         0.1146     tinyllama            How does the availability of healthy foods impact the health and well-being of individuals in Latin America and Africa?
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3298
+  llama3.1-8b         : 0.3242
+  mistral-7b-v0.3     : 0.2156
+  qwen2-7b            : 0.1569
+  tinyllama           : 0.1912
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 1124s (18:44)
+Transcript Length: 1,134 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3793       0.3793       0.0000         1.0000     llama3.1-8b          Coping Strategies Amidst Rising Food Costs
+2      0.3557       0.3557       0.0000         1.0000     gemma2-9b            Breakfast Strategies for Busy Families (6)
+3      0.3509       0.3509       0.0000         1.0000     qwen2-7b             Emergency Breakfasts: A Survival Strategy
+4      0.3486       0.3486       0.0000         1.0000     qwen2-7b             Emergency Breakfast Skips: A Survival Strategy
+5      0.3486       0.3486       0.0000         1.0000     tinyllama            How to Save Money on Breakfast
+6      0.3484       0.3484       0.0000         1.0000     tinyllama            Skipping breakfast during emergency situations (3)
+7      0.3357       0.3357       0.0000         1.0000     gemma2-9b            Breakfast on a Budget: Time-Saving Tips (2)
+8      0.3283       0.3283       0.0000         1.0000     tinyllama            Skipping Breakfast During Emergencies
+9      0.3280       0.3280       0.0000         1.0000     llama3.1-8b          Coping Strategies During Emergency Situations
+10     0.3263       0.3855       0.0000         0.8465     mistral-7b-v0.3      Skipping Breakfast: A Coping Strategy Amidst Emergencies (6)
+11     0.3199       0.3199       0.0000         1.0000     gemma2-9b            Breakfast Strategies in Times of Need
+12     0.3191       0.3770       0.0000         0.8465     llama3.1-8b          Skipping Breakfast: A Coping Strategy in Crisis
+13     0.3189       0.3189       0.0000         1.0000     llama3.1-8b          Coping Strategies Amidst Financial Pressures (2)
+14     0.3152       0.3724       0.0000         0.8465     mistral-7b-v0.3      Skipping Breakfast: A Survival Strategy Amidst Emergencies
+15     0.3038       0.3038       0.0000         1.0000     llama3.1-8b          When Money Runs out before Breakfast
+16     0.2981       0.3522       0.0000         0.8465     qwen2-7b             Coping Strategies: Sacrificing Breakfast for Financial Survival (2)
+17     0.2949       0.2949       0.0000         1.0000     tinyllama            The Skipping Breakfast (2)
+18     0.2929       0.2929       0.0000         1.0000     gemma2-9b            Breakfast: A Struggle For Many
+19     0.2802       0.3310       0.0000         0.8465     qwen2-7b             Coping Strategies: Breakfast Sacrifices Amidst Financial Strain (2)
+20     0.2797       0.2797       0.0000         1.0000     llama3.1-8b          Breakfast on a Budget
+21     0.2796       0.3903       0.0000         0.7165     mistral-7b-v0.3      Struggling Moms: Skipping Breakfast as a Survival Strategy
+22     0.2787       0.3890       0.0000         0.7165     mistral-7b-v0.3      Struggling Moms: Skipping Breakfast as a Survival Tactic
+23     0.2768       0.3863       0.0000         0.7165     tinyllama            The Skipping Breakfast: A Coping Strategy During Emergencies
+24     0.2739       0.3236       0.0000         0.8465     qwen2-7b             Coping Strategies: Breakfast Omissions Amidst Financial Strain
+25     0.2735       0.2735       0.0000         1.0000     llama3.1-8b          Surviving Emergency on Empty Bellies
+26     0.2538       0.4185       0.0000         0.6065     mistral-7b-v0.3      Skipping Breakfast: A Survival Strategy for Time-Poor, Cash-Strapped Families
+27     0.2440       0.3406       0.0000         0.7165     qwen2-7b             Surviving Breakfast Blues: Coping Strategies Amidst Financial Strain (3)
+28     0.2438       0.2438       0.0000         1.0000     llama3.1-8b          When BudgetsTrump Breakfast
+29     0.2281       0.3761       0.0000         0.6065     tinyllama            How to Save Time and Money While Eating Breakfast
+30     0.2269       0.2269       0.0000         1.0000     llama3.1-8b          The Breakfast Dillema
+31     0.2247       0.3705       0.0000         0.6065     tinyllama            How to Save Time and Money by Skipping Breakfast
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3418
+  llama3.1-8b         : 0.2992
+  mistral-7b-v0.3     : 0.3085
+  qwen2-7b            : 0.2862
+  tinyllama           : 0.3042
+
+====================================================================================================
+
+--- SEGMENT 09 ---
+Start Time: 1213s (20:13)
+Transcript Length: 2,719 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3447       0.3447       0.0000         1.0000     qwen2-7b             Budget-Friendly Meal Planning: A Time-Saving Strategy
+2      0.3298       0.3298       0.0000         1.0000     gemma2-9b            Fueling Well-Being: Budget-Friendly Breakfast Strategies (3)
+3      0.3282       0.3282       0.0000         1.0000     qwen2-7b             Plan Ahead: Budget-Friendly, Time-Saving Meals
+4      0.3265       0.3265       0.0000         1.0000     gemma2-9b            Fueling Well-Being: Budget-Friendly Breakfast Tips
+5      0.3235       0.3235       0.0000         1.0000     llama3.1-8b          Nourishing Time-Poor Lives with Meal Planning
+6      0.3168       0.3168       0.0000         1.0000     llama3.1-8b          Nourishing Time-Poor Lives with Simple Strategies
+7      0.3163       0.3163       0.0000         1.0000     gemma2-9b            Fueling Wellbeing: Budget-Friendly Breakfast Strategies
+8      0.3016       0.3016       0.0000         1.0000     llama3.1-8b          Healthy Eating on a Tight Budget (2)
+9      0.2971       0.3509       0.0000         0.8465     qwen2-7b             Efficient Meal Planning for Time-Poor, Cash-Constrained Individuals (3)
+10     0.2932       0.3464       0.0000         0.8465     mistral-7b-v0.3      Practical Tips for Time-Strapped, Budget-Conscious Meal Planning
+11     0.2932       0.2932       0.0000         1.0000     gemma2-9b            Budget-Friendly Breakfast Strategies
+12     0.2921       0.3451       0.0000         0.8465     qwen2-7b             Efficient Meal Planning for Time-Poor, Budget-Conscious Individuals
+13     0.2914       0.2914       0.0000         1.0000     llama3.1-8b          Healthy Eating on a Tight Schedule
+14     0.2865       0.3384       0.0000         0.8465     tinyllama            Time-Saving Meal Planning Strategies for Healthier Eating
+15     0.2842       0.3357       0.0000         0.8465     tinyllama            How to Plan Ahead for Healthy Meals
+16     0.2813       0.2813       0.0000         1.0000     llama3.1-8b          Practical Strategies for Busy Budgets (2)
+17     0.2744       0.2744       0.0000         1.0000     gemma2-9b            Nourishing Bodies & Bonds Through Breakfast (4)
+18     0.2727       0.2727       0.0000         1.0000     llama3.1-8b          Eating Well on a Tight Budget
+19     0.2661       0.2661       0.0000         1.0000     llama3.1-8b          Eating Well on a Budget (2)
+20     0.2653       0.3134       0.0000         0.8465     qwen2-7b             Efficient Meal Planning: Saving Time & Money (4)
+21     0.2177       0.3589       0.0000         0.6065     mistral-7b-v0.3      Meal Planning & Family Meals: A Time-Saving, Budget-Friendly Approach
+22     0.2157       0.3556       0.0000         0.6065     tinyllama            How to Plan Your Meals Ahead for Healthier Eating
+23     0.2111       0.3481       0.0000         0.6065     mistral-7b-v0.3      Meal Planning and Family Meals: Boost Nutrition and Bonding
+24     0.2104       0.3469       0.0000         0.6065     mistral-7b-v0.3      Planning Ahead: Budget-Friendly Meal Prep & Family Breakfast Benefits (2)
+25     0.2044       0.3370       0.0000         0.6065     mistral-7b-v0.3      Planning Ahead: Affordable Meal Prep & Family Breakfast Benefits
+26     0.1909       0.3717       0.0000         0.5134     tinyllama            Plan Your Meals Ahead to Lose Weight and Eat Healthily
+27     0.1851       0.3606       0.0000         0.5134     tinyllama            Time-Priced Meal Prep Tips for Losing Weight and Eating Healthily
+28     0.1812       0.3529       0.0000         0.5134     mistral-7b-v0.3      Planning Ahead: Budget-Friendly Meal Prep Strategies & Family Breakfast Benefits
+29     0.1802       0.3510       0.0000         0.5134     tinyllama            How to Plan Ahead and Save Time for Healthy Meals
+30     0.1612       0.3709       0.0000         0.4346     mistral-7b-v0.3      Meal Planning & Family Meals: A Time-Efficient Strategy for Healthy Living
+31     0.1603       0.3690       0.0000         0.4346     tinyllama            The Power of Planning Ahead: How Family Meals Can Improve Well-Being
+32     0.1602       0.3686       0.0000         0.4346     mistral-7b-v0.3      Meal Planning & Family Meals: A Time-Saving Strategy for Healthy Living
+33     0.1596       0.3673       0.0000         0.4346     tinyllama            Plan Your Meals in Advance for Time Poverty and Short Cash
+34     0.1284       0.3489       0.0000         0.3679     mistral-7b-v0.3      Meal Planning & Family Meals: Boost Nutrition & Bonding on a Budget
+35     0.0748       0.3962       0.0000         0.1889     tinyllama            The Power of Planning Ahead: How Meal Prepping Can Help You Lose Weight and Eat Healthily
+36     0.0748       0.3961       0.0000         0.1889     tinyllama            The Power of Planning Ahead: How Time-Priced Meals Can Help You Lose Weight and Eat Healthily
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3023
+  llama3.1-8b         : 0.2902
+  mistral-7b-v0.3     : 0.1978
+  qwen2-7b            : 0.2917
+  tinyllama           : 0.1812
+
+====================================================================================================
+
+--- SEGMENT 10 ---
+Start Time: 1398s (23:18)
+Transcript Length: 893 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3749       0.3749       0.0000         1.0000     llama3.1-8b          The Breakfast Revolution: Planning Ahead
+2      0.3653       0.3653       0.0000         1.0000     tinyllama            Breakfast Planning: A New Lifestyle Change? (2)
+3      0.3586       0.3586       0.0000         1.0000     tinyllama            Breakfast Planning: A Lifestyle Change? (2)
+4      0.3543       0.3543       0.0000         1.0000     tinyllama            Breakfast Planning - A Lifestyle Change?
+5      0.3457       0.3457       0.0000         1.0000     llama3.1-8b          The Importance Of Breakfast Planning
+6      0.3379       0.3379       0.0000         1.0000     mistral-7b-v0.3      Planning Ahead for Nutritious Breakfasts (7)
+7      0.3367       0.3367       0.0000         1.0000     llama3.1-8b          Planning Ahead for a Healthier Breakfast
+8      0.3332       0.3332       0.0000         1.0000     llama3.1-8b          Making Time for Breakfast
+9      0.3299       0.3299       0.0000         1.0000     gemma2-9b            Fueling Your Day: The Breakfast Debate
+10     0.3290       0.3290       0.0000         1.0000     gemma2-9b            Breakfast: Fueling Your Day Right (4)
+11     0.3272       0.3272       0.0000         1.0000     llama3.1-8b          The Power of Breakfast Planning
+12     0.3240       0.3240       0.0000         1.0000     mistral-7b-v0.3      The Importance of a Mindful Breakfast
+13     0.3226       0.3226       0.0000         1.0000     gemma2-9b            Breakfast: Fuel Your Day Right
+14     0.3225       0.3225       0.0000         1.0000     gemma2-9b            Fueling Up: The Power of Breakfast (2)
+15     0.3177       0.3753       0.0000         0.8465     llama3.1-8b          Making Time for Breakfast: A Lifestyle Shift
+16     0.3164       0.3164       0.0000         1.0000     llama3.1-8b          Making Breakfast a Priority (2)
+17     0.3061       0.3061       0.0000         1.0000     tinyllama            Breakfast Planning: A Transcript
+18     0.3041       0.3041       0.0000         1.0000     llama3.1-8b          Setting Up a Healthy Breakfast Habit
+19     0.3009       0.3009       0.0000         1.0000     tinyllama            Breakfast Planning - A Transcript
+20     0.2831       0.3345       0.0000         0.8465     llama3.1-8b          Planning Ahead for a Healthier Morning Routine
+21     0.2781       0.3286       0.0000         0.8465     gemma2-9b            Fueling Your Day: The Power of Breakfast (2)
+22     0.2780       0.3285       0.0000         0.8465     mistral-7b-v0.3      The Importance of a Mindful Morning Meal (2)
+23     0.2723       0.3800       0.0000         0.7165     tinyllama            Breakfast on the Fly - A Lifestyle Change?
+24     0.2576       0.3595       0.0000         0.7165     tinyllama            How to Plan Ahead for Breakfast - Episode
+25     0.2415       0.3371       0.0000         0.7165     qwen2-7b             Transform Your Mornings: The Power of Breakfast Planning (5)
+26     0.2349       0.3279       0.0000         0.7165     qwen2-7b             Transform Your Morning Routine: The Power of Breakfast (5)
+27     0.1551       0.4215       0.0000         0.3679     tinyllama            Breakfast on the Fly: A Lifestyle Change for Making Time for It
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3170
+  llama3.1-8b         : 0.3255
+  mistral-7b-v0.3     : 0.3246
+  qwen2-7b            : 0.2382
+  tinyllama           : 0.3094
+
+====================================================================================================
+

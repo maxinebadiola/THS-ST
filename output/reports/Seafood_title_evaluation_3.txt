@@ -1,0 +1,615 @@
+====================================================================================================
+TITLE EVALUATION REPORT: Seafood
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.3083
+llama3.1-8b          Average Score: 0.2862
+mistral-7b-v0.3      Average Score: 0.2644
+qwen2-7b             Average Score: 0.2338
+tinyllama            Average Score: 0.2751
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 995 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3750       0.3750       0.0000         1.0000     gemma2-9b            The Ocean's Biggest Con: Seafood Fraud
+2      0.3664       0.3664       0.0000         1.0000     gemma2-9b            The Hidden World of Seafood Fraud (3)
+3      0.3584       0.3584       0.0000         1.0000     mistral-7b-v0.3      The Rampant Deception of Counterfeit Seafood (2)
+4      0.3526       0.3526       0.0000         1.0000     tinyllama            Counterfeit Seafood: A Global Problem
+5      0.3470       0.3470       0.0000         1.0000     llama3.1-8b          The Great Fish Forgery Epidemic Uncovered (4)
+6      0.3447       0.3447       0.0000         1.0000     qwen2-7b             The Shadow World of Counterfeit Seafood (3)
+7      0.3379       0.3379       0.0000         1.0000     gemma2-9b            The Ocean's Biggest Scam (4)
+8      0.3374       0.3374       0.0000         1.0000     tinyllama            What is Seafoods Fraud?
+9      0.3373       0.3985       0.0000         0.8465     mistral-7b-v0.3      Counterfeit Crustaceans: The Global Seafood Fraud Epidemic
+10     0.3351       0.3351       0.0000         1.0000     tinyllama            The Counterfeit Seafood Epidemic
+11     0.3332       0.3332       0.0000         1.0000     llama3.1-8b          The Great Fish Forgery Epidemic (2)
+12     0.3295       0.4599       0.0000         0.7165     tinyllama            How Counterfeit Seafood Is Easily Sold in Japan
+13     0.3289       0.3289       0.0000         1.0000     llama3.1-8b          The Great Fish Forgery Frenzy
+14     0.3198       0.3198       0.0000         1.0000     gemma2-9b            The Ocean's Biggest Fraud
+15     0.3084       0.4305       0.0000         0.7165     tinyllama            How Counterfeit Seafood Is Gaining Popularity in Restaurants
+16     0.3070       0.3627       0.0000         0.8465     llama3.1-8b          The Great Fish Forgery: Uncovering Seafood Scams
+17     0.2998       0.2998       0.0000         1.0000     tinyllama            Counterfeit Crab: The Unknown Truth
+18     0.2941       0.3474       0.0000         0.8465     llama3.1-8b          The Great Fish Forgery: Uncovering the Truth
+19     0.2931       0.4091       0.0000         0.7165     tinyllama            Counterfeit Seafood - The Rise of Imitation Fish
+20     0.2928       0.4086       0.0000         0.7165     mistral-7b-v0.3      Counterfeit Crustaceans: The Rampant Fraud in Seafood Industry
+21     0.2925       0.3456       0.0000         0.8465     llama3.1-8b          The Great Fish Forgery: A Global Scandal
+22     0.2844       0.2844       0.0000         1.0000     gemma2-9b            The Seafood Deception
+23     0.2617       0.4315       0.0000         0.6065     tinyllama            How Counterfeit Seafood Is Transforming The Global Fish Market
+24     0.2575       0.3594       0.0000         0.7165     mistral-7b-v0.3      The Counterfeit Crusade: Unmasking the Global Seafood Fraud
+25     0.2389       0.3938       0.0000         0.6065     mistral-7b-v0.3      The Counterfeit Crusade: Unmasking the World of Fake Fish (2)
+26     0.2318       0.4515       0.0000         0.5134     tinyllama            Counterfeit Seafood: The Rise of Imitation Fish in Japanese Restaurants
+27     0.2237       0.3688       0.0000         0.6065     mistral-7b-v0.3      The Counterfeit Crusade: Unmasking the Global Seafood Fraud Epidemic
+28     0.2227       0.3671       0.0000         0.6065     mistral-7b-v0.3      The Counterfeit Crusade: Unmasking the Deception in Seafood Industry
+29     0.2200       0.3627       0.0000         0.6065     qwen2-7b             The Dark Side of Seafood: Fraud, Counterfeits, and Illegals (2)
+30     0.1931       0.3761       0.0000         0.5134     mistral-7b-v0.3      The Counterfeit Crusade: Unmasking the Deception in the Seafood Industry
+31     0.1929       0.4439       0.0000         0.4346     tinyllama            Counterfeit Crab: The Fishy Business of Imitation Crab in Sushi Restaurants
+32     0.1540       0.4187       0.0000         0.3679     qwen2-7b             The Hidden World of Seafood Fraud: From Imitation Crab to Global Smuggling (4)
+33     0.1495       0.4064       0.0000         0.3679     qwen2-7b             The Dark Underbelly of Seafood Fraud: From Imitation Crab to Global Smuggling
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3430
+  llama3.1-8b         : 0.3277
+  mistral-7b-v0.3     : 0.2722
+  qwen2-7b            : 0.2240
+  tinyllama           : 0.2943
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 70s (01:10)
+Transcript Length: 2,496 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3712       0.3712       0.0000         1.0000     qwen2-7b             Sushi Secrets: Imitation Crab, Real Deception
+2      0.3697       0.3697       0.0000         1.0000     gemma2-9b            Seafood Fraud: Imitation Crab & Mislabeling
+3      0.3641       0.3641       0.0000         1.0000     qwen2-7b             Sushi Secrets: Imitation Crab, Real Scam
+4      0.3330       0.3330       0.0000         1.0000     gemma2-9b            The Crab Deception: Seafood Fraud Exposed (3)
+5      0.3276       0.3276       0.0000         1.0000     llama3.1-8b          The Crab Conundrum: Imitation vs Authentic
+6      0.3258       0.3258       0.0000         1.0000     llama3.1-8b          The Imitation Game: Crab Meat Deception (2)
+7      0.3229       0.3229       0.0000         1.0000     gemma2-9b            The Truth About Crab Meat (2)
+8      0.3209       0.3209       0.0000         1.0000     mistral-7b-v0.3      Unmasking Imitation Crab: The Seafood Deception (2)
+9      0.3208       0.3208       0.0000         1.0000     llama3.1-8b          The Crab Conundrum: Imitation vs. Authentic
+10     0.3173       0.3173       0.0000         1.0000     gemma2-9b            The Truth About Imitation Crab
+11     0.3160       0.3160       0.0000         1.0000     tinyllama            The Rise of Imitation Crab
+12     0.3133       0.3133       0.0000         1.0000     tinyllama            The Most Expensive Kind of Tuna
+13     0.3109       0.3109       0.0000         1.0000     llama3.1-8b          The Imitation Crab Conundrum Exposed
+14     0.3108       0.3108       0.0000         1.0000     gemma2-9b            The Crab Deception: Real vs. Imitation
+15     0.3100       0.3100       0.0000         1.0000     gemma2-9b            The Crab Cake Conundrum (2)
+16     0.3035       0.3585       0.0000         0.8465     qwen2-7b             Sushi Secrets: Unraveling Imitation Crab and Authenticity
+17     0.3021       0.3021       0.0000         1.0000     tinyllama            How to Identify Legitimate Seafood (2)
+18     0.3011       0.3011       0.0000         1.0000     llama3.1-8b          The Crab Conundrum: Imitation vs. Reality
+19     0.3008       0.3008       0.0000         1.0000     tinyllama            The Rarest Tuna in the World
+20     0.3006       0.3006       0.0000         1.0000     llama3.1-8b          The Crab Conundrum: Imitation vs Authenticity
+21     0.2940       0.3473       0.0000         0.8465     mistral-7b-v0.3      The Deceptive World of Imitation Crab Meat
+22     0.2895       0.2895       0.0000         1.0000     tinyllama            How to Cook a Perfect Steak
+23     0.2883       0.3405       0.0000         0.8465     llama3.1-8b          The Imitation Crab Conundrum: Uncovering Seafood Deception
+24     0.2871       0.3392       0.0000         0.8465     llama3.1-8b          The Crab Conundrum: Uncovering Imitation and Mislabeling
+25     0.2854       0.3372       0.0000         0.8465     mistral-7b-v0.3      Unmasking Imitation Crab: The Seafood Fraud Epidemic (2)
+26     0.2667       0.3722       0.0000         0.7165     qwen2-7b             Sushi Secrets: Unraveling Imitation Crab and Authentic Tuna
+27     0.2650       0.3130       0.0000         0.8465     tinyllama            How to Cook the Perfect Fish Tacos
+28     0.2572       0.3590       0.0000         0.7165     qwen2-7b             The Truth Behind Imitation Crab and Authentic Tuna
+29     0.2571       0.2571       0.0000         1.0000     tinyllama            The Art of Cooking
+30     0.2317       0.2317       0.0000         1.0000     llama3.1-8b          Scandals Beneath the Shell
+31     0.2230       0.3677       0.0000         0.6065     mistral-7b-v0.3      The Deception Behind Imitation Crab and Real Blue Crab
+32     0.2196       0.3621       0.0000         0.6065     qwen2-7b             Unraveling the Truth Behind Imitation Crab and Seafood Frauds
+33     0.2195       0.3619       0.0000         0.6065     mistral-7b-v0.3      Unmasking the Crab Meat Deception: From Imitation to Mislabeled
+34     0.2146       0.3539       0.0000         0.6065     mistral-7b-v0.3      The Deceptive World of Imitation Crab and Seafood Fraud
+35     0.2095       0.3454       0.0000         0.6065     qwen2-7b             Unraveling the Truth Behind Imitation Crab and Mislabeling Scandals (2)
+36     0.1976       0.3849       0.0000         0.5134     tinyllama            How to Tell If Your Maryland Blue Crab Is Real
+37     0.1974       0.3845       0.0000         0.5134     mistral-7b-v0.3      The Deception Behind Imitation Crab Meat and Real Blue Crabs
+38     0.1972       0.3840       0.0000         0.5134     mistral-7b-v0.3      The Deception Behind Imitation Crab Meat and Real Blue Crab
+39     0.1892       0.3120       0.0000         0.6065     tinyllama            The Rare Fish You Can Only Find in Season
+40     0.1859       0.3621       0.0000         0.5134     qwen2-7b             Deceptive Delights: The Truth Behind Imitation Crab and Mislabelled Seafood (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3263
+  llama3.1-8b         : 0.3020
+  mistral-7b-v0.3     : 0.2558
+  qwen2-7b            : 0.2573
+  tinyllama           : 0.2733
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 258s (04:18)
+Transcript Length: 1,953 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3590       0.3590       0.0000         1.0000     llama3.1-8b          The High-Stakes World of Bluefin Tuna (2)
+2      0.3528       0.3528       0.0000         1.0000     gemma2-9b            The Price of Bluefin Tuna
+3      0.3515       0.4152       0.0000         0.8465     mistral-7b-v0.3      Bluefin Tuna: Rare, Expensive, and Frequently Mislabeled (3)
+4      0.3417       0.3417       0.0000         1.0000     tinyllama            The Fraudulence of Bluefinned Tuna
+5      0.3313       0.3313       0.0000         1.0000     gemma2-9b            Bluefin Tuna: A Delicate Balance (2)
+6      0.3301       0.3301       0.0000         1.0000     llama3.1-8b          Blue fin tuna's dark side revealed
+7      0.3147       0.3718       0.0000         0.8465     llama3.1-8b          The Elusive Bluefin Tuna: A Pricey Catch (2)
+8      0.3092       0.4316       0.0000         0.7165     tinyllama            Bluefin Tuna: The Most Expensive Kind of Tuna (2)
+9      0.3039       0.3591       0.0000         0.8465     qwen2-7b             The Price of Rarity: Tackling Overfished Tuna
+10     0.2994       0.2994       0.0000         1.0000     tinyllama            Tokyo's Top Attractions
+11     0.2978       0.3518       0.0000         0.8465     gemma2-9b            Bluefin Tuna: A Precious Catch Under Threat
+12     0.2950       0.4117       0.0000         0.7165     tinyllama            Bluefinned Tuna: The Most Expensive Kind of Tofu
+13     0.2869       0.3390       0.0000         0.8465     llama3.1-8b          The Price of Rarity: Blue Fin Tuna
+14     0.2851       0.3979       0.0000         0.7165     mistral-7b-v0.3      Bluefin Tuna: A Million-Dollar Catch, Riddled with Fraud
+15     0.2808       0.3919       0.0000         0.7165     mistral-7b-v0.3      Bluefin Tuna: A Million-Dollar Catch, Fraught with Deception
+16     0.2789       0.3892       0.0000         0.7165     mistral-7b-v0.3      Bluefin Tuna: Rare, Expensive, and Fraught with Deception
+17     0.2761       0.3854       0.0000         0.7165     mistral-7b-v0.3      Bluefin Tuna: A Pricey, Precious, and Perilous Catch
+18     0.2662       0.3716       0.0000         0.7165     qwen2-7b             The Price of Rarity: Tackling Overfished Bluefin Tuna
+19     0.2640       0.3684       0.0000         0.7165     mistral-7b-v0.3      Bluefin Tuna: A Pricey, Elusive Delicacy Under Threat
+20     0.2613       0.4309       0.0000         0.6065     tinyllama            Bluefinned Tuna - The Most Expensive Kind of Tuna
+21     0.2570       0.3036       0.0000         0.8465     gemma2-9b            Tuna: A Tale of Price and Fraud
+22     0.2536       0.2996       0.0000         0.8465     gemma2-9b            Tuna: A Tale of Greed and Deception
+23     0.2526       0.2984       0.0000         0.8465     gemma2-9b            Tuna: A Tale of Luxury and Fraud
+24     0.2498       0.3486       0.0000         0.7165     tinyllama            The Rare Fish That's Worth More Than Gold
+25     0.2484       0.2934       0.0000         0.8465     gemma2-9b            Tuna: A Tale of Price and Deception
+26     0.2383       0.3929       0.0000         0.6065     tinyllama            How to Buy the Most Expensive Kind of Tuna
+27     0.2352       0.3283       0.0000         0.7165     gemma2-9b            Tuna: A Tale of Price, Fraud, and Sustainability (2)
+28     0.2279       0.3758       0.0000         0.6065     qwen2-7b             Bluefin Tuna: Rarity, Value, Overfished Threat & Fraudulent Practices
+29     0.2211       0.3645       0.0000         0.6065     mistral-7b-v0.3      Bluefin Tuna: A Rare & Expensive Delicacy Under Threat
+30     0.2200       0.3627       0.0000         0.6065     qwen2-7b             The Price of Rarity: Taming the Expensive Bluefin Tuna
+31     0.2078       0.3427       0.0000         0.6065     llama3.1-8b          The Price of Rarity: Blue Fin Tuna's Dark Side
+32     0.2033       0.3961       0.0000         0.5134     tinyllama            How to Identify Fake Tuna at Restaurants and Grocery Stores
+33     0.2032       0.3958       0.0000         0.5134     tinyllama            How to Spot Fake Tuna at Your Local Grocery Store
+34     0.2022       0.3333       0.0000         0.6065     llama3.1-8b          The Elusive Bluefin: A Tale of Luxury and Deceit (2)
+35     0.1932       0.3763       0.0000         0.5134     mistral-7b-v0.3      Bluefin Tuna: A Million-Dollar Catch - Fraud and Overfished Perils
+36     0.1555       0.3579       0.0000         0.4346     qwen2-7b             The Price of Rarity: Blue Fin Tuna Auctions and Conservation Challenges (4)
+37     0.1348       0.3665       0.0000         0.3679     qwen2-7b             The Price of Rarity: Blue Fin Tuna's Journey from Ocean to Auction (2)
+38     0.0230       0.3314       0.0000         0.0695     llama3.1-8b          (Final) Title "The Tuna Trade: Luxury & Deception" (Corrected) Title "Luxury Tuna: A Story of Deception and Greed" - Revised again Title
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2795
+  llama3.1-8b         : 0.2600
+  mistral-7b-v0.3     : 0.2854
+  qwen2-7b            : 0.1910
+  tinyllama           : 0.2711
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 444s (07:24)
+Transcript Length: 3,044 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3309       0.3309       0.0000         1.0000     llama3.1-8b          Uncovering Fake Fish in Your Market
+2      0.3150       0.3150       0.0000         1.0000     qwen2-7b             Uncovering Food Fraud: Detecting Fake Seafood
+3      0.3145       0.3145       0.0000         1.0000     qwen2-7b             Detecting Fraudulent Seafood: Identifying Red Flags
+4      0.3131       0.3131       0.0000         1.0000     llama3.1-8b          The Dark Side of Seafood Counterfeiting
+5      0.3120       0.3120       0.0000         1.0000     qwen2-7b             Unraveling Food Fraud: Identifying Fake Seafood
+6      0.3083       0.3083       0.0000         1.0000     tinyllama            How to Identify Fake Food Products
+7      0.3083       0.3083       0.0000         1.0000     gemma2-9b            Seafood Deception: Unmasking Fraudulent Fish
+8      0.3075       0.3075       0.0000         1.0000     llama3.1-8b          Fishy Business: Uncovering Counterfeit Seafood
+9      0.3044       0.3044       0.0000         1.0000     gemma2-9b            Seafood Deception: Spotting Fake Fish (3)
+10     0.3034       0.3034       0.0000         1.0000     llama3.1-8b          Fakes and Forgeries
+11     0.3008       0.3008       0.0000         1.0000     tinyllama            How to Identify Fake Products
+12     0.3002       0.3002       0.0000         1.0000     gemma2-9b            Seafood Deception: Unmasking Fake Fish (2)
+13     0.2878       0.2878       0.0000         1.0000     tinyllama            How to Identify Fake Food (2)
+14     0.2833       0.2833       0.0000         1.0000     tinyllama            How to Identify Fake Salmon
+15     0.2819       0.2819       0.0000         1.0000     gemma2-9b            Seafood Deception: Spotting the Fake (3)
+16     0.2766       0.2766       0.0000         1.0000     tinyllama            Fraudulently Fresh Salmon
+17     0.2766       0.2766       0.0000         1.0000     gemma2-9b            Seafood Deception: Unmasking the Fraud
+18     0.2743       0.2743       0.0000         1.0000     llama3.1-8b          Behind the Scenes of Seafood Deceit
+19     0.2663       0.3146       0.0000         0.8465     llama3.1-8b          The Dark Side of Seafood: Counterfeit Catch
+20     0.2635       0.3677       0.0000         0.7165     mistral-7b-v0.3      Fraudulent Tuna and Counterfeit Scallops: A Culinary Deception
+21     0.2621       0.2621       0.0000         1.0000     tinyllama            Fraudulently Labeled Salmon
+22     0.2619       0.2619       0.0000         1.0000     llama3.1-8b          Behind the Label: Seafo
+23     0.2605       0.3636       0.0000         0.7165     mistral-7b-v0.3      Fraudulent Tuna & Counterfeit Scallops: A Culinary Deception (2)
+24     0.2563       0.3577       0.0000         0.7165     mistral-7b-v0.3      Fraudulent Tuna and Counterfeit Scallops: A Culinary Conundrum (3)
+25     0.2537       0.3540       0.0000         0.7165     mistral-7b-v0.3      Fraudulent Tuna & Counterfeit Scallops: A Culinary Conundrum
+26     0.2500       0.2500       0.0000         1.0000     llama3.1-8b          Deception in the Catch
+27     0.2452       0.2452       0.0000         1.0000     tinyllama            Fraudulently Framed Salmon
+28     0.2433       0.3396       0.0000         0.7165     qwen2-7b             Unraveling Food Fraud: Identifying Fake Seafood in Supermarkets
+29     0.2244       0.2244       0.0000         1.0000     llama3.1-8b          A Reel Problem
+30     0.2203       0.3632       0.0000         0.6065     qwen2-7b             Uncovering Food Fraud: Identifying Fake Tuna & Scallop Counterfeits
+31     0.2201       0.3629       0.0000         0.6065     qwen2-7b             Uncovering Food Fraud: Identifying Fake Tuna, Scallops, and Salmon (2)
+32     0.2031       0.3348       0.0000         0.6065     tinyllama            How to Tell if Your Salmon Is Actually Salmon
+33     0.2021       0.3333       0.0000         0.6065     qwen2-7b             Uncovering Food Fraud: Identifying Fake Seafood and Authentic Ingredients
+34     0.1971       0.3250       0.0000         0.6065     qwen2-7b             Uncovering Fraudulent Seafood: Identifying Red Flags and Authenticity Tips
+35     0.1962       0.3821       0.0000         0.5134     mistral-7b-v0.3      Fraudulent Tuna & Counterfeit Scallops: Red Flags to Watch For
+36     0.1951       0.3217       0.0000         0.6065     llama3.1-8b          Deception Beneath the Waves: A Tale of Fake Seafoods
+37     0.1889       0.3678       0.0000         0.5134     mistral-7b-v0.3      Fraudulent Fish: A Look at Tuna, Scallops, and Salmon Mislabeling
+38     0.1820       0.3001       0.0000         0.6065     tinyllama            How to Tell If Salmon Is Real or Fake
+39     0.1550       0.3566       0.0000         0.4346     mistral-7b-v0.3      Fraudulent Fish Finds: A Closer Look at Tuna, Scallops, and Salmon
+40     0.1400       0.3806       0.0000         0.3679     qwen2-7b             Detecting Fraudulent Seafood: A Guide to Spotting Counterfeit Tuna, Scallops, and Salmon
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2944
+  llama3.1-8b         : 0.2727
+  mistral-7b-v0.3     : 0.2347
+  qwen2-7b            : 0.2385
+  tinyllama           : 0.2637
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 655s (10:55)
+Transcript Length: 1,748 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3906       0.3906       0.0000         1.0000     tinyllama            Farm-Ray Salmon Mislabelled as Wild-Caught Salmon
+2      0.3823       0.3823       0.0000         1.0000     tinyllama            Farm-Ray Salmon Sold as Wild-Caught Salmon
+3      0.3801       0.3801       0.0000         1.0000     tinyllama            Farm-Ray Salmon Labeled As Wild-Caught Salmon
+4      0.3773       0.3773       0.0000         1.0000     mistral-7b-v0.3      Farm-Raised Salmon Masquerading as Wild-Caught
+5      0.3677       0.3677       0.0000         1.0000     mistral-7b-v0.3      Farm-Raised Salmon Masquerading as Wild Catch (5)
+6      0.3553       0.3553       0.0000         1.0000     tinyllama            Farm-Ray Salmon vs. Wild-Caught Salmon
+7      0.3343       0.3343       0.0000         1.0000     qwen2-7b             Wild Salmon Scarcity vs. Farm-Raised Deception
+8      0.3343       0.3343       0.0000         1.0000     qwen2-7b             Wild Salmon Scarcity vs. Farm-raised Deception (2)
+9      0.3243       0.3831       0.0000         0.8465     tinyllama            Farm-Ray Salmon Lies Sold as Wild-Caught Salmon
+10     0.3243       0.3831       0.0000         0.8465     tinyllama            Farm-Ray Salmon Lies Sold As Wild-Caught Salmon
+11     0.3239       0.3239       0.0000         1.0000     tinyllama            Farm-Ray Salmon: A Dangerous Mislabeling Trend
+12     0.3236       0.3236       0.0000         1.0000     gemma2-9b            Wild vs. Farmed Salmon Deception (4)
+13     0.3212       0.3212       0.0000         1.0000     gemma2-9b            Wild Salmon vs. Farmed Deception
+14     0.3208       0.3208       0.0000         1.0000     llama3.1-8b          Salmon Scam: Wild Caught vs Farmlaid
+15     0.3180       0.3180       0.0000         1.0000     gemma2-9b            The Price of Mislabeled Salmon
+16     0.3038       0.3038       0.0000         1.0000     tinyllama            Farm-Ray Salmon: A Risky Business
+17     0.2961       0.3498       0.0000         0.8465     llama3.1-8b          Wild vs Farm-Raised Salmon: The Labeling Deception (2)
+18     0.2957       0.2957       0.0000         1.0000     gemma2-9b            The Truth About Mislabeled Salmon
+19     0.2954       0.3489       0.0000         0.8465     llama3.1-8b          Wild vs Farm-Raised Salmon: A Labeling Deception (2)
+20     0.2944       0.3478       0.0000         0.8465     gemma2-9b            Wild vs. Farmed Salmon: A Deceptive Catch
+21     0.2876       0.2876       0.0000         1.0000     tinyllama            Farm-Ray Salmon Lies
+22     0.2841       0.3357       0.0000         0.8465     qwen2-7b             Wild Salmon Mislabeling: A Profit-driven Deception Uncovered
+23     0.2836       0.3350       0.0000         0.8465     qwen2-7b             Wild Salmon Mislabeling: The Price of Deception
+24     0.2825       0.2825       0.0000         1.0000     llama3.1-8b          The Great Salmon Swindle: Uncovering Truths
+25     0.2810       0.3320       0.0000         0.8465     llama3.1-8b          Wild vs Farmed Salmon: A Labeling Deception (2)
+26     0.2785       0.3290       0.0000         0.8465     llama3.1-8b          Farmed Fish Sold as Wild Caught Exposed
+27     0.2740       0.3824       0.0000         0.7165     mistral-7b-v0.3      Mislabeling Farmed Salmon as Wild-Caught: A Costly Deception
+28     0.2673       0.2673       0.0000         1.0000     gemma2-9b            The Truth About Salmon Labels (2)
+29     0.2621       0.3657       0.0000         0.7165     qwen2-7b             Wild Salmon Mislabeling: Farm-raised Deception at High Cost (2)
+30     0.2584       0.3606       0.0000         0.7165     mistral-7b-v0.3      Mislabeling Farmed Salmon as Wild: A Costly Deception
+31     0.2497       0.3485       0.0000         0.7165     mistral-7b-v0.3      Unmasking Mislabeled Salmon: The Wild vs Farm-Raised Debate
+32     0.2471       0.4073       0.0000         0.6065     tinyllama            Why Farm-raised Salmon Can Cost More Than Wild Salmon
+33     0.2428       0.2428       0.0000         1.0000     llama3.1-8b          Wild Caught vs Far
+34     0.2329       0.3840       0.0000         0.6065     qwen2-7b             Wild Salmon Mislabeling: A $1K Catch vs. Farm-raised Frauds
+35     0.2320       0.3825       0.0000         0.6065     qwen2-7b             Wild Salmon Mislabeling: A $1K Catch vs Farm-Raised Frauds (2)
+36     0.2235       0.3685       0.0000         0.6065     mistral-7b-v0.3      Farm-Raised Salmon Masquerading as Wild Catch: A Costly Deception
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3058
+  llama3.1-8b         : 0.2870
+  mistral-7b-v0.3     : 0.3221
+  qwen2-7b            : 0.2792
+  tinyllama           : 0.3319
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 792s (13:12)
+Transcript Length: 1,381 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3239       0.3239       0.0000         1.0000     tinyllama            What's Up With That?
+2      0.3199       0.3199       0.0000         1.0000     gemma2-9b            Decoding Fish Counterfeits
+3      0.3124       0.3124       0.0000         1.0000     llama3.1-8b          The Great Seafood Switcheroo
+4      0.3120       0.3120       0.0000         1.0000     llama3.1-8b          Uncovering the Truth Behind Ocean Delights
+5      0.3111       0.3111       0.0000         1.0000     llama3.1-8b          The Great Seafood Swap: Spotting Fakes
+6      0.3083       0.3083       0.0000         1.0000     gemma2-9b            Decoding Fish Fraud: A Seafood Mystery
+7      0.3027       0.3027       0.0000         1.0000     llama3.1-8b          Seafood Sleuths: Uncovering the Real Deal
+8      0.2984       0.3526       0.0000         0.8465     qwen2-7b             Decoding Seafood Labels: Farm-Raised vs Wild Caught (2)
+9      0.2918       0.2918       0.0000         1.0000     gemma2-9b            Decoding Seafood: Spotting the Fake (2)
+10     0.2915       0.2915       0.0000         1.0000     gemma2-9b            Decoding Fish Fraud: A Guide
+11     0.2863       0.2863       0.0000         1.0000     llama3.1-8b          Fishing forTruth: Spot tingCounterfeitSeafood
+12     0.2824       0.3941       0.0000         0.7165     mistral-7b-v0.3      Farm-Raised vs Wild-Caught Salmon & Counterfeit Red Snapper
+13     0.2764       0.3857       0.0000         0.7165     mistral-7b-v0.3      Farm-Raised vs Wild Caught Salmon: Spotting the Difference
+14     0.2718       0.3211       0.0000         0.8465     llama3.1-8b          Deception in the Catch: Wild vs. Farmed
+15     0.2707       0.3198       0.0000         0.8465     llama3.1-8b          Deception in the Catch: Wild vs Farmed
+16     0.2578       0.2578       0.0000         1.0000     tinyllama            A Brief History of Salmon
+17     0.2531       0.2990       0.0000         0.8465     llama3.1-8b          The Great Seafood Swap: Authenticity in Question
+18     0.2489       0.2489       0.0000         1.0000     llama3.1-8b          Deception in every Catch
+19     0.2485       0.2485       0.0000         1.0000     qwen2-7b             Decoding Seafood Labels:辨别真假海鲜
+20     0.2444       0.2444       0.0000         1.0000     gemma2-9b            Decoding Seafood Deception (5)
+21     0.2434       0.3397       0.0000         0.7165     mistral-7b-v0.3      Farm Raised vs Wild Caught: Spotting the Difference
+22     0.2426       0.3999       0.0000         0.6065     mistral-7b-v0.3      Distinguishing Farmed vs Wild-Caught Salmon & Counterfeit Red Snapper
+23     0.2382       0.3927       0.0000         0.6065     mistral-7b-v0.3      Farm-Raised vs Wild Caught Salmon & Counterfeit Red Snapper
+24     0.2275       0.3751       0.0000         0.6065     mistral-7b-v0.3      Farm Raised vs Wild Caught Salmon: Spotting the Difference
+25     0.2214       0.3090       0.0000         0.7165     llama3.1-8b          Deception in The Catch: Telling Farm From Wild
+26     0.2164       0.4215       0.0000         0.5134     tinyllama            How to Identify Farm-Raised Salmon Fillets from Wild-Caught Red Snapper
+27     0.2159       0.3560       0.0000         0.6065     qwen2-7b             Decoding Seafood Mislabeling: From Farm Raised to Wild Caught
+28     0.2028       0.3950       0.0000         0.5134     mistral-7b-v0.3      Distinguishing Farmed vs Wild Caught Salmon & Counterfeit Red Snapper (2)
+29     0.2024       0.3943       0.0000         0.5134     mistral-7b-v0.3      Farm Raised vs Wild Caught Salmon & Counterfeit Red Snapper (2)
+30     0.1954       0.3805       0.0000         0.5134     qwen2-7b             Decoding Seafood Labels: Farm-Raised vs Wild, Mislabeling, and Identification Tips
+31     0.1924       0.3748       0.0000         0.5134     qwen2-7b             Decoding Seafood Labels: Farm-Raised vs Wild, Mislabeling, & Common Confusions
+32     0.1922       0.3744       0.0000         0.5134     qwen2-7b             Decoding Seafood Mislabeling: Farm vs. Wild, Counterfeit Snappers & More
+33     0.1905       0.4383       0.0000         0.4346     tinyllama            How to Tell the Difference Between Farm-Raised Salmon and Wild-Caught Snapper (2)
+34     0.1882       0.4331       0.0000         0.4346     tinyllama            How to Tell the Difference Between Wild-Caught and Farm-Raised Salmon Fillets
+35     0.1687       0.3881       0.0000         0.4346     tinyllama            How to Identify Farm Raised Salmon Fillets from Wild Caught Ones
+36     0.1634       0.3760       0.0000         0.4346     qwen2-7b             Distinguishing Farm-Raised vs Wild Caught Seafood: A Guide to Identifying Authenticity
+37     0.1630       0.4430       0.0000         0.3679     tinyllama            What is the difference in appearance between farm-raised salmon and wild-caught salmon?
+38     0.1614       0.4387       0.0000         0.3679     tinyllama            How to Tell the Difference Between Farm-Raised Salmon and Wild-Caught Striped Bass (2)
+39     0.1607       0.3697       0.0000         0.4346     qwen2-7b             Distinguishing Farm-Raised vs Wild Caught Seafood: A Guide to Label Literacy
+40     0.1498       0.4071       0.0000         0.3679     qwen2-7b             Distinguishing Farm-Raised vs. Wild Caught Seafood: A Guide to Identifying Mislabelled Fish
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2726
+  llama3.1-8b         : 0.2790
+  mistral-7b-v0.3     : 0.2321
+  qwen2-7b            : 0.2115
+  tinyllama           : 0.2022
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 888s (14:48)
+Transcript Length: 2,828 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3407       0.3407       0.0000         1.0000     tinyllama            Chef's Advice on Choosing Real Seafood
+2      0.3081       0.3640       0.0000         0.8465     tinyllama            What's the Difference Between Lobster and Shrimp?
+3      0.3027       0.3027       0.0000         1.0000     llama3.1-8b          Debunking Fishy Fakes: Authenticity in Seafood
+4      0.3022       0.3022       0.0000         1.0000     llama3.1-8b          Authenticity vs. Deception in Seafood Purchases
+5      0.2939       0.2939       0.0000         1.0000     llama3.1-8b          Seafood Deception: Uncovering Genuine Catches
+6      0.2881       0.3404       0.0000         0.8465     mistral-7b-v0.3      Distinguishing Real Red Snappers & Lobstermens' Catches
+7      0.2881       0.3403       0.0000         0.8465     gemma2-9b            Spotting Seafood Scams: From Snapper to Lobster
+8      0.2848       0.2848       0.0000         1.0000     tinyllama            How to Identifying Real Lobst
+9      0.2797       0.2797       0.0000         1.0000     gemma2-9b            Spotting Seafood Scams: Truth vs. Fake
+10     0.2781       0.2781       0.0000         1.0000     gemma2-9b            Spotting Seafood Scams
+11     0.2762       0.2762       0.0000         1.0000     llama3.1-8b          Authentic Seafood: Separating Fact from Farce
+12     0.2747       0.3833       0.0000         0.7165     tinyllama            How to Tell if You're Buying Real Fish
+13     0.2747       0.3833       0.0000         0.7165     tinyllama            How to Tell If You're Buying Real Fish
+14     0.2713       0.3786       0.0000         0.7165     tinyllama            It Can Be Hard to Make That Distinction
+15     0.2694       0.3183       0.0000         0.8465     tinyllama            How to Identify Real Lobster From Fake
+16     0.2672       0.3156       0.0000         0.8465     gemma2-9b            Spotting Seafood Scams: Truth vs. Fake Fish
+17     0.2623       0.2623       0.0000         1.0000     llama3.1-8b          Uncovering Hidden Truths in Fresh Catch
+18     0.2609       0.3082       0.0000         0.8465     tinyllama            How to Buy Real Lobster - Transcript
+19     0.2604       0.3077       0.0000         0.8465     llama3.1-8b          Deception in the Catch: Authentic Seafood Exposed
+20     0.2598       0.2598       0.0000         1.0000     gemma2-9b            Seafood Deception: Spotting the Fake (3)
+21     0.2594       0.2594       0.0000         1.0000     llama3.1-8b          Sifting Through Seafood Deception: Insider Insights
+22     0.2591       0.3616       0.0000         0.7165     qwen2-7b             Distinguishing Authentic Seafood: From Red Snappers to Lobsters
+23     0.2565       0.2565       0.0000         1.0000     gemma2-9b            Spotting Seafood Substitutes (2)
+24     0.2563       0.3028       0.0000         0.8465     qwen2-7b             Distinguishing Authentic Seafood: Tips from a Chef (4)
+25     0.2542       0.3548       0.0000         0.7165     mistral-7b-v0.3      Distinguishing Real Red Snappers & Authentic Lobstermens' Catches (2)
+26     0.2497       0.3485       0.0000         0.7165     mistral-7b-v0.3      Distinguishing Real Red Snappers and Maine Lobstermens' Catches (2)
+27     0.2465       0.2465       0.0000         1.0000     gemma2-9b            Decoding Seafood Deceptions
+28     0.2359       0.2359       0.0000         1.0000     llama3.1-8b          The Real Deal
+29     0.2341       0.3268       0.0000         0.7165     mistral-7b-v0.3      Discerning Quality: Spotting Authentic Red Snappers & Lobstermens
+30     0.2290       0.2706       0.0000         0.8465     llama3.1-8b          Authenticity in Seafood: Separating Fact from Fake
+31     0.2216       0.2618       0.0000         0.8465     llama3.1-8b          The Great Seafoo d Deception U ncovered
+32     0.2212       0.3646       0.0000         0.6065     qwen2-7b             Distinguishing Authentic Seafood: From Red Snappers to Maine Lobsters (2)
+33     0.1824       0.3552       0.0000         0.5134     mistral-7b-v0.3      Distinguishing Quality Seafood: Red Snappers vs Tilapias & Authentic Lobstering
+34     0.1781       0.3468       0.0000         0.5134     qwen2-7b             Decoding Seafood: Distinguishing Authentic Red Snappers & Premium Maine Lobsters (3)
+35     0.1707       0.3929       0.0000         0.4346     tinyllama            How to Tell If You're Buying Real Fish or Fake Seafood
+36     0.1706       0.3925       0.0000         0.4346     tinyllama            How to Tell if You're Buying Real Fish or Fake Shrimp
+37     0.1567       0.3606       0.0000         0.4346     mistral-7b-v0.3      Distinguishing Real Red Snappers & Maine Lobstermens: A Fresh Catch Guide
+38     0.1535       0.3533       0.0000         0.4346     mistral-7b-v0.3      Distinguishing Quality: A Guide to Authentic Red Snappers & Maine Lobstermens
+39     0.1329       0.3612       0.0000         0.3679     mistral-7b-v0.3      Distinguishing Real Red Snappers and Maine Lobbers: A Guide for Seafood Lovers
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2652
+  llama3.1-8b         : 0.2644
+  mistral-7b-v0.3     : 0.2156
+  qwen2-7b            : 0.2261
+  tinyllama           : 0.2626
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 1076s (17:56)
+Transcript Length: 2,626 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3570       0.3570       0.0000         1.0000     tinyllama            How to Buy Legitimate Lobster Bisque
+2      0.3412       0.3412       0.0000         1.0000     tinyllama            The Real Price of Caviar
+3      0.3362       0.3362       0.0000         1.0000     gemma2-9b            Lobster & Caviar Deception: Spotting Fakes
+4      0.3361       0.3361       0.0000         1.0000     gemma2-9b            Lobster & Caviar: Spotting the Fake (6)
+5      0.3325       0.3325       0.0000         1.0000     gemma2-9b            Lobster & Caviar: Fakes Exposed
+6      0.3307       0.3307       0.0000         1.0000     tinyllama            The Best Way to Buy Lobster
+7      0.3246       0.3246       0.0000         1.0000     qwen2-7b             Decoding Deception: Authenticating Seafood & Caviars (2)
+8      0.3243       0.3243       0.0000         1.0000     tinyllama            How to Find Authentic Lobster
+9      0.3128       0.3128       0.0000         1.0000     llama3.1-8b          Deception in the Shellfish Industry
+10     0.3118       0.3118       0.0000         1.0000     tinyllama            How to Buy Authentic Lobster
+11     0.3118       0.3118       0.0000         1.0000     tinyllama            How to Find Legitimate Lobster (2)
+12     0.3095       0.3095       0.0000         1.0000     llama3.1-8b          The Shell Game: Authentic Seafood Exposed
+13     0.3090       0.3090       0.0000         1.0000     llama3.1-8b          The Shell Game: Authenticity in Seafood (2)
+14     0.3074       0.3074       0.0000         1.0000     llama3.1-8b          Fishing for Truth: Shellfish Scams Exposed
+15     0.3055       0.3609       0.0000         0.8465     mistral-7b-v0.3      The Deceptive World of Shellfish and Caviar
+16     0.3046       0.3046       0.0000         1.0000     llama3.1-8b          Debunking Shellfish Scams: Authenticity Matters
+17     0.3025       0.3025       0.0000         1.0000     mistral-7b-v0.3      Unmasking Shellfish Deception: Fresh vs. Fake
+18     0.2948       0.2948       0.0000         1.0000     qwen2-7b             Decoding Deception: Authenticating Seafood (4)
+19     0.2934       0.2934       0.0000         1.0000     llama3.1-8b          "Exposing Shellfish Swindles and Counterfeit Cavi
+20     0.2906       0.3433       0.0000         0.8465     mistral-7b-v0.3      Unmasking Shellfish Swindles: From Lobsters to Caviar (2)
+21     0.2858       0.3377       0.0000         0.8465     gemma2-9b            Unmasking Food Fraud: From Lobster to Caviar (2)
+22     0.2850       0.2850       0.0000         1.0000     tinyllama            The Fake Food Scandal
+23     0.2718       0.3211       0.0000         0.8465     llama3.1-8b          Debunking Shellfish Scams and Fake Luxury Foods
+24     0.2579       0.2579       0.0000         1.0000     llama3.1-8b          Sifting Through the Shells
+25     0.2576       0.3595       0.0000         0.7165     mistral-7b-v0.3      Unmasking Shellfish Swindles: Fresh Lobsters & Fake Caviar
+26     0.2503       0.2957       0.0000         0.8465     llama3.1-8b          Exposed: The Dark Side of Seafood Authenticity
+27     0.2489       0.3474       0.0000         0.7165     qwen2-7b             Unraveling Food Fraud: From Lobster Bisques to Caviars
+28     0.2469       0.3446       0.0000         0.7165     qwen2-7b             Unmasking Food Fraud: From Lobster Bisques to Caviars
+29     0.2437       0.3401       0.0000         0.7165     qwen2-7b             Uncovering Truth in Seafood: From Bisques to Caviars
+30     0.2225       0.2225       0.0000         1.0000     tinyllama            Caught by the Claws
+31     0.2179       0.3593       0.0000         0.6065     mistral-7b-v0.3      Unmasking Shellfish Deception: The Truth About Lobsters and Caviar
+32     0.2139       0.3526       0.0000         0.6065     qwen2-7b             Unraveling Food Fraud: From Lobster Bisque to Caviár Deception
+33     0.1902       0.3705       0.0000         0.5134     mistral-7b-v0.3      Shellfish Swindles & Fake Caviar: How to Spot Authentic Seafood
+34     0.1736       0.3994       0.0000         0.4346     mistral-7b-v0.3      Unmasking Shellfish Deception: How to Spot Legit Lobsters and Authentic Caviar (2)
+35     0.1700       0.3912       0.0000         0.4346     mistral-7b-v0.3      Unmasking Shellfish Swindles: How to Spot Legitimate Lobsters and Authentic Caviar
+36     0.1268       0.4070       0.0000         0.3114     tinyllama            Inside Edition Investigation Accuses Red Lobsters of Using Cheaper Whitefish in Lobster Bisque
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3257
+  llama3.1-8b         : 0.2926
+  mistral-7b-v0.3     : 0.2372
+  qwen2-7b            : 0.2782
+  tinyllama           : 0.2923
+
+====================================================================================================
+
+--- SEGMENT 09 ---
+Start Time: 1264s (21:04)
+Transcript Length: 2,167 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3482       0.3482       0.0000         1.0000     tinyllama            How to Spot Fake Caviar
+2      0.3474       0.3474       0.0000         1.0000     tinyllama            How to Spot Illegal Fishing
+3      0.3451       0.3451       0.0000         1.0000     llama3.1-8b          Caviar Scams and Ocean Crimes Exposed
+4      0.3359       0.3359       0.0000         1.0000     gemma2-9b            Caviar Deception and Ocean Crimes
+5      0.3311       0.3311       0.0000         1.0000     llama3.1-8b          Fishing for Truth: Caviar Scams Exposed
+6      0.3293       0.3293       0.0000         1.0000     tinyllama            The Rise of Caviar Fraud
+7      0.3273       0.3273       0.0000         1.0000     gemma2-9b            Caviar Crimes & Ocean Outlaws
+8      0.3245       0.3245       0.0000         1.0000     llama3.1-8b          The Dark Side of Caviar
+9      0.3228       0.3228       0.0000         1.0000     gemma2-9b            Caviar Conundrums & Ocean Crimes (2)
+10     0.3207       0.3207       0.0000         1.0000     llama3.1-8b          Catching Culprits: The Caviar Scam Exposed
+11     0.3196       0.3196       0.0000         1.0000     gemma2-9b            Caviar Deception & Ocean Crime (5)
+12     0.3164       0.3164       0.0000         1.0000     gemma2-9b            Caviar Conundrums and Ocean Crimes
+13     0.3113       0.3113       0.0000         1.0000     tinyllama            The Importance of Sustainable Fisheries
+14     0.3102       0.3102       0.0000         1.0000     llama3.1-8b          Fishing for Truth: Caviar Scandals Exposed
+15     0.3012       0.3012       0.0000         1.0000     qwen2-7b             Caviar Crime and Ocean Justice (2)
+16     0.2854       0.3372       0.0000         0.8465     llama3.1-8b          The Caviar Scandal Exposed: Fishing for Truth
+17     0.2759       0.3851       0.0000         0.7165     tinyllama            Sea Shephard Patrols Oceans To Stop Illegal Fishing (3)
+18     0.2758       0.3258       0.0000         0.8465     llama3.1-8b          Catching Culprits: The Dark Side of Caviar
+19     0.2702       0.2702       0.0000         1.0000     tinyllama            The Biggest Fish Fraud in History
+20     0.2625       0.2625       0.0000         1.0000     tinyllama            The High Seas
+21     0.2564       0.3578       0.0000         0.7165     mistral-7b-v0.3      Unmasking Caviar Counterfeiters: A Battle Against Seafood Fraud
+22     0.2559       0.3571       0.0000         0.7165     mistral-7b-v0.3      Unmasking Caviar Counterfeits: A Battle Against Seafood Fraud
+23     0.2557       0.3569       0.0000         0.7165     llama3.1-8b          The Dark Side of Caviar: Uncovering Illicit Fishing (3)
+24     0.2551       0.3561       0.0000         0.7165     qwen2-7b             Caviar Crimes: Unraveling the Truth Behind Illicit Fisheries
+25     0.2537       0.3541       0.0000         0.7165     mistral-7b-v0.3      Caviar Crimes Unveiled: The Fight Against Fake Fish (2)
+26     0.2535       0.3538       0.0000         0.7165     mistral-7b-v0.3      Caviar Crimes Unveiled: Navigating the Legal Seafood Market
+27     0.2525       0.3524       0.0000         0.7165     mistral-7b-v0.3      Unmasking Caviar Counterfeiters: A Battle Against Ocean Crime
+28     0.2499       0.3488       0.0000         0.7165     qwen2-7b             Caviar Crime: Unraveling the Truth Behind Illicit Fisheries
+29     0.2460       0.3433       0.0000         0.7165     mistral-7b-v0.3      Caviar Crimes Unveiled: The High Seas' Wild West (2)
+30     0.2252       0.3143       0.0000         0.7165     qwen2-7b             Caviar Crime Wave: Navigating Authenticity & Oceanic Lawlessness
+31     0.2171       0.3579       0.0000         0.6065     mistral-7b-v0.3      Unmasking Caviar Fraud: The High Seas' Illicit Fishing Operations
+32     0.2083       0.2907       0.0000         0.7165     tinyllama            "How Sea Sheppard Patrolls Oces To Stop ILlega
+33     0.1964       0.3238       0.0000         0.6065     qwen2-7b             Caviar Crime Wave: Navigating Authenticity & Ocean Law Enforcement (2)
+34     0.1888       0.3677       0.0000         0.5134     mistral-7b-v0.3      Caviar Counterfeit Crackdown: Navigating the Real Deal Amidst Rising Demand
+35     0.1640       0.3773       0.0000         0.4346     qwen2-7b             Caviar Crime: Uncovering the Truth Behind Fake Caviar and Oceanic Lawlessness
+36     0.1629       0.3747       0.0000         0.4346     qwen2-7b             Caviar Crime: Unraveling the Truth Behind Fake Caviar and Oceanic Illegality
+37     0.1588       0.3655       0.0000         0.4346     qwen2-7b             Caviar Crime: Unraveling the Truth Behind Fake Caviar and Oceanic Lawlessness
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3223
+  llama3.1-8b         : 0.2960
+  mistral-7b-v0.3     : 0.2424
+  qwen2-7b            : 0.2211
+  tinyllama           : 0.2905
+
+====================================================================================================
+
+--- SEGMENT 10 ---
+Start Time: 1403s (23:23)
+Transcript Length: 3,121 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3445       0.3445       0.0000         1.0000     tinyllama            IUU Fishing - A Global Problem
+2      0.3441       0.3441       0.0000         1.0000     gemma2-9b            Combating Illegal Fishing's Global Threat
+3      0.3430       0.3430       0.0000         1.0000     mistral-7b-v0.3      Uncovering the Global Illicit Fishing Crisis (3)
+4      0.3417       0.3417       0.0000         1.0000     llama3.1-8b          Exposing Illicit Fishing Operations Worldwide (2)
+5      0.3391       0.3391       0.0000         1.0000     llama3.1-8b          Uncovering Global IUU Fishing Scandals
+6      0.3381       0.3381       0.0000         1.0000     gemma2-9b            Unmasking Illegal Fishing Operations (4)
+7      0.3354       0.3354       0.0000         1.0000     tinyllama            IUU Fishing: A Global Problem
+8      0.3345       0.3345       0.0000         1.0000     mistral-7b-v0.3      Unmasking Illegal Fishing: A Global Crisis
+9      0.3320       0.3320       0.0000         1.0000     qwen2-7b             Shocking Depths: Uncovering Global Illegal Fishing
+10     0.3289       0.3289       0.0000         1.0000     gemma2-9b            Unmasking Illegal Fishing's Shadow
+11     0.3273       0.3273       0.0000         1.0000     gemma2-9b            Unmasking Illegal Fishing's Dark Web (4)
+12     0.3255       0.3255       0.0000         1.0000     qwen2-7b             Cracking Down on Global Illegal Fishing
+13     0.3246       0.3246       0.0000         1.0000     llama3.1-8b          Fighting Illicit Fishing: A Global Crisis
+14     0.3239       0.3239       0.0000         1.0000     tinyllama            The Global Overfishing Problem
+15     0.3027       0.3576       0.0000         0.8465     llama3.1-8b          The Dark Depths of Global IUU Fishing
+16     0.3026       0.3574       0.0000         0.8465     mistral-7b-v0.3      Uncovering the Global Crisis of Illegal Fishing
+17     0.2964       0.3501       0.0000         0.8465     tinyllama            The Impact of Illegal Fishing on Oceans (2)
+18     0.2960       0.3497       0.0000         0.8465     llama3.1-8b          The Dark Side of Global Fishing Operations
+19     0.2911       0.3439       0.0000         0.8465     mistral-7b-v0.3      Uncovering the Hidden Cost of Global Fishing
+20     0.2885       0.3408       0.0000         0.8465     mistral-7b-v0.3      Uncovering the Hidden Toll of Illegal Fishing
+21     0.2868       0.3388       0.0000         0.8465     mistral-7b-v0.3      Uncovering the Hidden Costs of Illegal Fishing (2)
+22     0.2821       0.3332       0.0000         0.8465     mistral-7b-v0.3      Uncovering the Hidden Cost of Unregulated Fishing
+23     0.2767       0.3268       0.0000         0.8465     qwen2-7b             Dark Waters: Unveiling Global Illegal Fishing Epidemic
+24     0.2743       0.3240       0.0000         0.8465     llama3.1-8b          Fighting Illicit Fishing: A Global Crisis Uncovered
+25     0.2740       0.3237       0.0000         0.8465     llama3.1-8b          Exposing the Dark Side of Global Fishing (2)
+26     0.2711       0.4470       0.0000         0.6065     tinyllama            IUU Fishing Is Responsible For 25% Of Global Catch
+27     0.2709       0.2709       0.0000         1.0000     tinyllama            Fish Out Of Water
+28     0.2562       0.3576       0.0000         0.7165     tinyllama            Illegal Fishing and Its Impact on Our Oceans
+29     0.2454       0.3425       0.0000         0.7165     qwen2-7b             Cracking Down on Illegal Fishing: Protecting Oceans, Lives (2)
+30     0.2360       0.3294       0.0000         0.7165     qwen2-7b             Shocking Depths: The Grim Reality of IUU Fishing
+31     0.2280       0.3760       0.0000         0.6065     qwen2-7b             Cracking Down on Global IUU Fishing: Protecting Oceans, Lives
+32     0.2255       0.3718       0.0000         0.6065     tinyllama            IUU Fishing Has Made Our Global Overfishing Problem Worse
+33     0.2123       0.3500       0.0000         0.6065     qwen2-7b             Cracking Down on Global Illegal Fishing: Protecting Oceans, Lives
+34     0.1529       0.3518       0.0000         0.4346     qwen2-7b             Unveiling the Dark Side: Global IUU Fishing and Its Devastating Impact
+35     0.1378       0.3745       0.0000         0.3679     qwen2-7b             Uncovering the Dark Side of Global Fishing: IUU Operations and Their Impact
+36     0.0778       0.2952       0.0000         0.2636     tinyllama            Transparency in Healthcare Measurement Research - A Conversation Between Dr. Hsu & Dr. Yao
+37     0.0619       0.3278       0.0000         0.1889     llama3.1-8b          'The Dark side of commercial fishing'. Let me know if there's anything else I can do!
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3335
+  llama3.1-8b         : 0.2830
+  mistral-7b-v0.3     : 0.3101
+  qwen2-7b            : 0.2392
+  tinyllama           : 0.2698
+
+====================================================================================================
+
+--- SEGMENT 11 ---
+Start Time: 1625s (27:05)
+Transcript Length: 1,166 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3841       0.3841       0.0000         1.0000     gemma2-9b            Seafood's Hidden Cost: Exploitation at Sea (2)
+2      0.3779       0.3779       0.0000         1.0000     mistral-7b-v0.3      Unseen Suffering in Seafood Supply Chains
+3      0.3767       0.3767       0.0000         1.0000     mistral-7b-v0.3      Unseen Suffering: Seafood Supply Chain Abuses
+4      0.3595       0.3595       0.0000         1.0000     llama3.1-8b          Hidden Abuses in the Seafood Industry
+5      0.3573       0.3573       0.0000         1.0000     tinyllama            The Ocean's Most Venomous Creatures
+6      0.3556       0.3556       0.0000         1.0000     tinyllama            The Ocean's Most Dangerous Creatures
+7      0.3537       0.3537       0.0000         1.0000     mistral-7b-v0.3      Seafood Supply Chain Abuses Uncovered
+8      0.3454       0.3454       0.0000         1.0000     llama3.1-8b          Baiting the Truth: Seafood Industry Abuses
+9      0.3295       0.3893       0.0000         0.8465     mistral-7b-v0.3      Unseen Suffering: Forced Labor in Fishing Industry
+10     0.3259       0.3850       0.0000         0.8465     mistral-7b-v0.3      Unchecked Labor Abuses Plague Global Fishing Industry
+11     0.3217       0.3217       0.0000         1.0000     tinyllama            The Oceanic Crab: A Dangerous Delicacy
+12     0.3180       0.3756       0.0000         0.8465     qwen2-7b             The Dark Side of Seafood Supply Chains
+13     0.3143       0.3143       0.0000         1.0000     gemma2-9b            Seafood's Hidden Costs (2)
+14     0.3128       0.3696       0.0000         0.8465     gemma2-9b            Seafood Slavery: Hidden Costs on Our Plates (2)
+15     0.3030       0.3580       0.0000         0.8465     mistral-7b-v0.3      Unseen Suffering: Trafficked Fishermen and Oversight Lapses
+16     0.3015       0.3015       0.0000         1.0000     gemma2-9b            Seafood Slavery: A Hidden Cost (4)
+17     0.2871       0.2871       0.0000         1.0000     tinyllama            Fisherman Gets Caught Up With Fear
+18     0.2809       0.3318       0.0000         0.8465     llama3.1-8b          Behind the Catch: Dark Secrets in Seafood
+19     0.2804       0.2804       0.0000         1.0000     llama3.1-8b          The Dark Side of Seafood (3)
+20     0.2793       0.3898       0.0000         0.7165     mistral-7b-v0.3      Unseen Suffering: Forced Labor in Global Fishing Industry
+21     0.2763       0.2763       0.0000         1.0000     tinyllama            The Fish Trap
+22     0.2670       0.3727       0.0000         0.7165     qwen2-7b             Seafood Shadows: Forced Labor & Government Oversight Gaps
+23     0.2590       0.3615       0.0000         0.7165     llama3.1-8b          Behind the Catch: Dark Secrets in Seafood Supply (2)
+24     0.2578       0.3598       0.0000         0.7165     mistral-7b-v0.3      Unseen Suffering Below Decks: Seafood Supply Chain Challenges
+25     0.2547       0.3009       0.0000         0.8465     llama3.1-8b          The Dark Side of Seafood: Hidden Horrors
+26     0.2497       0.2497       0.0000         1.0000     tinyllama            The Oceanic Thriller
+27     0.2471       0.3448       0.0000         0.7165     tinyllama            The Fishing Industry Is Not Just About Food
+28     0.2423       0.3382       0.0000         0.7165     tinyllama            Seafood Safety & Legal Catch Inspectorate Action Needed
+29     0.2361       0.2789       0.0000         0.8465     llama3.1-8b          Behind Closed Nets: Dark Secrets in Seafood
+30     0.2344       0.2344       0.0000         1.0000     tinyllama            An Unexpected Surprise Cometh
+31     0.2290       0.3776       0.0000         0.6065     mistral-7b-v0.3      Unseen Suffering Beneath Our Plates: Modern Seafood Slave Trade
+32     0.2282       0.3763       0.0000         0.6065     qwen2-7b             Seas of Suffering: Forced Labor & Government Oversight Gaps
+33     0.1947       0.3792       0.0000         0.5134     qwen2-7b             The Dark Side of Seafood: Forced Labor and Unseen Cruelties
+34     0.1947       0.3791       0.0000         0.5134     qwen2-7b             The Dark Side of Seafood: Forced Labor and Unseen Suffering
+35     0.1818       0.4183       0.0000         0.4346     qwen2-7b             The Dark Side of Seafood: Forced Labor and Unchecked Supply Chains
+36     0.1721       0.3961       0.0000         0.4346     mistral-7b-v0.3      Unseen Suffering in Seafood Supply Chains: The Plight of Enslaved Fishermen
+37     0.1711       0.3333       0.0000         0.5134     tinyllama            The Fishing Industry Is Being Used as a Transit Route
+38     0.1695       0.3900       0.0000         0.4346     qwen2-7b             The Dark Side of Seafood: Forced Labor and Government Oversight Gaps (4)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3229
+  llama3.1-8b         : 0.2836
+  mistral-7b-v0.3     : 0.3005
+  qwen2-7b            : 0.2062
+  tinyllama           : 0.2743
+
+====================================================================================================
+

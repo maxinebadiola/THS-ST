@@ -1,0 +1,569 @@
+====================================================================================================
+TITLE EVALUATION REPORT: robbers_cave
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.2848
+llama3.1-8b          Average Score: 0.2937
+mistral-7b-v0.3      Average Score: 0.2334
+qwen2-7b             Average Score: 0.2336
+tinyllama            Average Score: 0.2402
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 1,426 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3603       0.3603       0.0000         1.0000     mistral-7b-v0.3      Summer Camp Experiment: Unleashing Tribal Mentality
+2      0.3525       0.3525       0.0000         1.0000     mistral-7b-v0.3      Summer Camp Experiment: Unveiling Tribal Mentality
+3      0.3489       0.3489       0.0000         1.0000     llama3.1-8b          Group Dynamics, Tribal Mentality
+4      0.3455       0.3455       0.0000         1.0000     llama3.1-8b          The Unseen Roots of Tribal Mentality
+5      0.3427       0.3427       0.0000         1.0000     tinyllama            The Psychology of Group Conflict (5)
+6      0.3357       0.3357       0.0000         1.0000     tinyllama            The Secret Origins of Group Conflict
+7      0.3284       0.3284       0.0000         1.0000     llama3.1-8b          The Unspoken Rules of Group Dynamics
+8      0.3266       0.3266       0.0000         1.0000     llama3.1-8b          Camp Chaos: A Study in Tribalism
+9      0.3264       0.3264       0.0000         1.0000     mistral-7b-v0.3      Two Unknown Camps, One Psychology Experiment
+10     0.3260       0.3260       0.0000         1.0000     llama3.1-8b          The Unseen Forces of Tribalism Unfold
+11     0.3255       0.3255       0.0000         1.0000     llama3.1-8b          Summer Camp,Secret Experiment
+12     0.3216       0.3216       0.0000         1.0000     llama3.1-8b          The Unseen Forces of Tribal Instinct
+13     0.3114       0.3114       0.0000         1.0000     llama3.1-8b          Tribal Instincts Unleashed at Summer Camp
+14     0.3101       0.3663       0.0000         0.8465     mistral-7b-v0.3      Summer Camp Psychology Experiment: Eagles vs. Ratlers (3)
+15     0.3020       0.3020       0.0000         1.0000     tinyllama            The Psychology Experiment
+16     0.2991       0.2991       0.0000         1.0000     llama3.1-8b          The Boys Who Became Tribes
+17     0.2846       0.3362       0.0000         0.8465     llama3.1-8b          Unknowing Tribes: A Study in Tribal Mentality
+18     0.2815       0.2815       0.0000         1.0000     gemma2-9b            The Robbers Cave Experiment (7)
+19     0.2689       0.3176       0.0000         0.8465     qwen2-7b             The Hidden Experiment: Boys Divided, Minds Unseen
+20     0.2685       0.3747       0.0000         0.7165     mistral-7b-v0.3      Summer of Tribes: Psychology Experiment at Boys' Camps
+21     0.2670       0.3154       0.0000         0.8465     qwen2-7b             The Hidden Experiment: Boys Divided, Minds Unveiled (3)
+22     0.2648       0.3696       0.0000         0.7165     mistral-7b-v0.3      Summer of Tribalism: Psychology Experiment at Boys' Camps
+23     0.2579       0.3599       0.0000         0.7165     tinyllama            The Psychology Experiment: A Look at Group Conflict
+24     0.2485       0.3468       0.0000         0.7165     mistral-7b-v0.3      Summer of Tribes: Psychology Experiment at Robert' Cave
+25     0.2443       0.4028       0.0000         0.6065     tinyllama            The Secret Psychological Experiment at Robert'S Cave Summer Camp
+26     0.2376       0.3917       0.0000         0.6065     qwen2-7b             The Hidden Experiment: Boys vs. Rats at Robert's Camp (2)
+27     0.2326       0.3246       0.0000         0.7165     gemma2-9b            Eagles vs. Rattlers: A Study in Group Conflict (3)
+28     0.2305       0.3800       0.0000         0.6065     qwen2-7b             The Hidden Experiment: Boys vs. Rats at Robert's Caves
+29     0.2302       0.3796       0.0000         0.6065     qwen2-7b             The Hidden Experiment: Boys vs. Rats at Robert's Cove
+30     0.2294       0.3782       0.0000         0.6065     qwen2-7b             The Hidden Experiment: Boys vs. Rats at Robert's Canyon (2)
+31     0.2008       0.3912       0.0000         0.5134     tinyllama            The Secret Life of Boys at Robert'S Cave Summer Camp
+32     0.1666       0.3834       0.0000         0.4346     mistral-7b-v0.3      Summer of Conflict: Two Unknown Groups Form at Oklahoma's Robert' Cave
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2668
+  llama3.1-8b         : 0.3218
+  mistral-7b-v0.3     : 0.2918
+  qwen2-7b            : 0.2464
+  tinyllama           : 0.3054
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 98s (01:38)
+Transcript Length: 3,696 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3588       0.3588       0.0000         1.0000     gemma2-9b            The Dark Side Of Social Psychology
+2      0.3444       0.3444       0.0000         1.0000     tinyllama            The Result of the Study
+3      0.3368       0.3368       0.0000         1.0000     gemma2-9b            The Dark Side: Social Psychology Experiment
+4      0.3345       0.3345       0.0000         1.0000     gemma2-9b            The Dark Side: Tribal Mentality Experiment (3)
+5      0.3321       0.3321       0.0000         1.0000     gemma2-9b            The Dark Side Of Group Dynamics (2)
+6      0.3235       0.3235       0.0000         1.0000     llama3.1-8b          The Dark Side Unveiled: Tribal Mentality (2)
+7      0.3157       0.3730       0.0000         0.8465     tinyllama            Welcome to The Dark Side Of Science
+8      0.2792       0.3298       0.0000         0.8465     llama3.1-8b          The Dark Side Unveiled: Tribal Mentality Exposed (2)
+9      0.2729       0.2729       0.0000         1.0000     llama3.1-8b          The Dark Side Unveiled (4)
+10     0.2656       0.3138       0.0000         0.8465     gemma2-9b            The Dark Side: Social Experiments Gone Wrong
+11     0.2561       0.2561       0.0000         1.0000     llama3.1-8b          The Darkest Instincts Unleashed (2)
+12     0.2409       0.3361       0.0000         0.7165     qwen2-7b             The Dark Side Experiment: From Turkey to America (3)
+13     0.2389       0.3334       0.0000         0.7165     gemma2-9b            The Dark Side: Muzafer Sherif's Robbers Cave Experiment (2)
+14     0.2321       0.3239       0.0000         0.7165     qwen2-7b             The Dark Side Unveiled: From Turkey to Exile (2)
+15     0.2306       0.3219       0.0000         0.7165     qwen2-7b             The Dark Side Experiment: From Tribe to Tyranny
+16     0.2297       0.3205       0.0000         0.7165     qwen2-7b             The Dark Side Unleashed: From Turkey to Exile
+17     0.2164       0.3020       0.0000         0.7165     qwen2-7b             The Dark Side Unraveled: From Scholar to Controversy
+18     0.2147       0.2996       0.0000         0.7165     qwen2-7b             The Dark Side Unveiled: From Scholar to Exile
+19     0.2007       0.3310       0.0000         0.6065     mistral-7b-v0.3      The Birth of a Social Psychologist Amidst Political Turmoil (4)
+20     0.1309       0.3558       0.0000         0.3679     qwen2-7b             The Dark Side Experiment: From Turkey to the Shadows of American Academia
+21     0.1305       0.3547       0.0000         0.3679     mistral-7b-v0.3      The Birth of a Social Psychologist: Muzaffer Sharif and the In-Group Experiment (3)
+22     0.1292       0.3512       0.0000         0.3679     mistral-7b-v0.3      The Birth of a Social Psychologist: Muzaffer Sherif' s Life and Experiment
+23     0.0990       0.3755       0.0000         0.2636     mistral-7b-v0.3      The Birth of a Social Psychologist: Muzaffer Sharif and His Journey Amidst Political Turmoil
+24     0.0944       0.3582       0.0000         0.2636     mistral-7b-v0.3      The Life and Times of Muzzafar Sharif: A Social Psychologist Caught in the Crossfire
+25     0.0146       0.4845       0.0000         0.0302     tinyllama            The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Responsible for Some True Historical Horrors
+26     0.0106       0.4898       0.0000         0.0216     tinyllama            The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors (5)
+27     0.0106       0.4884       0.0000         0.0216     tinyllama            The Result of the Study Would Reveal the Tribal Mindset Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3107
+  llama3.1-8b         : 0.2809
+  mistral-7b-v0.3     : 0.1517
+  qwen2-7b            : 0.2209
+  tinyllama           : 0.0749
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 357s (05:57)
+Transcript Length: 2,564 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3570       0.3570       0.0000         1.0000     gemma2-9b            The Robbers Cave Experiment: In-Group Conflict (2)
+2      0.3509       0.3509       0.0000         1.0000     llama3.1-8b          Creating Conflict: Artificial In-Group Dynamics
+3      0.3497       0.3497       0.0000         1.0000     llama3.1-8b          Sharif's Experiment: Fostering Intergroups
+4      0.3496       0.3496       0.0000         1.0000     gemma2-9b            The Robbers Cave Experiment: In-Group Bias (2)
+5      0.3490       0.3490       0.0000         1.0000     mistral-7b-v0.3      Forming In-Groups: A 10-Year-Old Experiment (2)
+6      0.3379       0.3379       0.0000         1.0000     llama3.1-8b          The Birth of Intergroup Conflict (2)
+7      0.3372       0.3372       0.0000         1.0000     llama3.1-8b          Creating Conflict: The Birth of In-Groups
+8      0.3317       0.3317       0.0000         1.0000     tinyllama            Experiment #2 - Intergroup Conflict
+9      0.3290       0.3290       0.0000         1.0000     llama3.1-8b          The Birth of In-Group Conflict
+10     0.3278       0.3278       0.0000         1.0000     llama3.1-8b          The Birth of Intergroup Tensions
+11     0.3230       0.3230       0.0000         1.0000     llama3.1-8b          Manipulation Through In-Group Formation
+12     0.3229       0.3815       0.0000         0.8465     qwen2-7b             Creating In-Groups: A Study on Intergroup Conflict (10)
+13     0.3052       0.3606       0.0000         0.8465     mistral-7b-v0.3      Creating In-Groups: The 1st Summer Camp Experiment
+14     0.2896       0.2896       0.0000         1.0000     gemma2-9b            Creating Conflict: The Robbers Cave Experiment
+15     0.2807       0.3918       0.0000         0.7165     mistral-7b-v0.3      Creating In-Groups: The 1st Experiment on Intergroup Conflict (4)
+16     0.2753       0.3843       0.0000         0.7165     tinyllama            The Influence of Social In-Groups on Intergroup Conflict (3)
+17     0.2753       0.3842       0.0000         0.7165     mistral-7b-v0.3      Forming In-Groups: A Summer Study of Intergroup Conflict (2)
+18     0.2733       0.3814       0.0000         0.7165     tinyllama            The Influence of Social In-Group on Intergroup Conflict (2)
+19     0.2709       0.3781       0.0000         0.7165     tinyllama            The Effect of In-Group Formation on Intergroup Conflict
+20     0.2699       0.2699       0.0000         1.0000     llama3.1-8b          Forced Fraternal Rivalries
+21     0.2663       0.3716       0.0000         0.7165     tinyllama            Examining the Role of In-Groups in Social Conflict
+22     0.2507       0.2507       0.0000         1.0000     llama3.1-8b          "Creating Conflict through
+23     0.2504       0.2504       0.0000         1.0000     gemma2-9b            The Robbers Cave Experiment (5)
+24     0.2201       0.3629       0.0000         0.6065     mistral-7b-v0.3      The Birth of In-Group Conflict: A Summer Camp Experiment
+25     0.1725       0.3969       0.0000         0.4346     tinyllama            Experimental In-Group Formation: A Study of Social Interaction among Young Boys
+26     0.1333       0.3622       0.0000         0.3679     tinyllama            In-Group Dynamics in Social Conflict: A Case Study of the Sharoni Experiment
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2955
+  llama3.1-8b         : 0.3214
+  mistral-7b-v0.3     : 0.2897
+  qwen2-7b            : 0.3229
+  tinyllama           : 0.2547
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 509s (08:29)
+Transcript Length: 3,163 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3633       0.3633       0.0000         1.0000     llama3.1-8b          Robert Cave Study Explores In-Group Behavior
+2      0.3542       0.3542       0.0000         1.0000     tinyllama            The Importance of In-Group Behavior
+3      0.3360       0.3360       0.0000         1.0000     gemma2-9b            Building In-Groups: The Robber's Cove Experiment
+4      0.3354       0.3354       0.0000         1.0000     gemma2-9b            The Seeds of In-Group Formation (2)
+5      0.3341       0.3341       0.0000         1.0000     gemma2-9b            Building In-Groups: The Robbers Cave Experiment (2)
+6      0.3304       0.3304       0.0000         1.0000     llama3.1-8b          Revisiting Group Dynamics in Robert's Caves
+7      0.3291       0.3291       0.0000         1.0000     llama3.1-8b          The Formation Of In- Group Bonds
+8      0.3170       0.3170       0.0000         1.0000     gemma2-9b            The Robber's Cove Experiment Begins (2)
+9      0.3166       0.3166       0.0000         1.0000     llama3.1-8b          The Power of In-Groups Revealed
+10     0.3082       0.3082       0.0000         1.0000     llama3.1-8b          Forming In-Grouds: A Lab Experiment
+11     0.3074       0.3074       0.0000         1.0000     llama3.1-8b          A New Chapter in Group Dynamics
+12     0.3005       0.3005       0.0000         1.0000     gemma2-9b            The Robbers Cave Experiment Begins (2)
+13     0.3004       0.3548       0.0000         0.8465     llama3.1-8b          In-Group Bonding: The 1955 Robert Cave Experiment
+14     0.2995       0.2995       0.0000         1.0000     llama3.1-8b          Forming Bonds: The Robert Cave Study
+15     0.2913       0.2913       0.0000         1.0000     gemma2-9b            The Seeds of Intergroup Conflict
+16     0.2767       0.3269       0.0000         0.8465     llama3.1-8b          The Robert Cage Study: Forging Group Bonds
+17     0.2738       0.3235       0.0000         0.8465     qwen2-7b             Expanding In-Group Dynamics: From Theory to Oklahoma
+18     0.2722       0.3216       0.0000         0.8465     mistral-7b-v0.3      The 10-Day Oklahoma Experiment: Rebooting Group Formation
+19     0.2689       0.3177       0.0000         0.8465     llama3.1-8b          Forming Bonds: A Study in Group Dynamics
+20     0.2593       0.3619       0.0000         0.7165     tinyllama            The Effect of Group Formation on In-Group Behavior
+21     0.2575       0.3594       0.0000         0.7165     tinyllama            The Effects of Group Formation on In-Group Behavior (6)
+22     0.2367       0.3304       0.0000         0.7165     tinyllama            The Effects of Group Formation on Sport Performance
+23     0.2363       0.3298       0.0000         0.7165     tinyllama            The Effect of Group Formation on Sport Performance
+24     0.2076       0.2897       0.0000         0.7165     qwen2-7b             Expanding Understanding: The 1st & 2nd Sheriff Experiments
+25     0.1921       0.3741       0.0000         0.5134     mistral-7b-v0.3      Robert's cave study: A second chance at understanding in-Group dynamics
+26     0.1871       0.3645       0.0000         0.5134     mistral-7b-v0.3      Robert's 1054 Cave Study: A Second Attempt at In-Group Formation
+27     0.1860       0.3623       0.0000         0.5134     mistral-7b-v0.3      The 10-Day 'Robert's Camp': A Second Attempt at In-Group Study
+28     0.1765       0.3438       0.0000         0.5134     qwen2-7b             Expanding the Quest for In-Group Dynamics: From Theory to Oklahoma
+29     0.1615       0.3717       0.0000         0.4346     mistral-7b-v0.3      The 1054 Robert' Cave Study: A Second Attempt at In-Group Formation (3)
+30     0.1581       0.3637       0.0000         0.4346     mistral-7b-v0.3      The 1054 Robert' Cave Study: A Second Attempt at In-Group Exploration
+31     0.1558       0.3584       0.0000         0.4346     mistral-7b-v0.3      The 1054 Robert' Cave Study: A Second Chance at In-Group Formation
+32     0.1555       0.3577       0.0000         0.4346     qwen2-7b             Expanding Understanding: The 1st & 2nd Sheriff Experiments on In-Group Behavior (3)
+33     0.1538       0.3538       0.0000         0.4346     qwen2-7b             Expanding Insights: The 1st & 2nd Sheriff Experiments on In-Group Dynamics (2)
+34     0.1530       0.3520       0.0000         0.4346     qwen2-7b             Expanding Insights: The 1st & 2nd Sheriff Experiments on In-Group Behavior (2)
+35     0.1320       0.3587       0.0000         0.3679     mistral-7b-v0.3      The 10-Day Group Formation Experiment: The 1st Step Towards Robert' Cave Study
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3202
+  llama3.1-8b         : 0.3100
+  mistral-7b-v0.3     : 0.1768
+  qwen2-7b            : 0.1738
+  tinyllama           : 0.2632
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 710s (11:50)
+Transcript Length: 2,779 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3585       0.3585       0.0000         1.0000     llama3.1-8b          Robbers cave experiment: Building in-group bonds
+2      0.3258       0.3258       0.0000         1.0000     mistral-7b-v0.3      Robbers Cove: Two Groups, One Conflict
+3      0.3238       0.3238       0.0000         1.0000     qwen2-7b             Building Bonds, Igniting Conflict, Uniting Groups
+4      0.3224       0.3224       0.0000         1.0000     gemma2-9b            Building In-Group Bonds and Conflict
+5      0.3187       0.3187       0.0000         1.0000     mistral-7b-v0.3      Robbers Cove: Separate Groups, Competitive Integration
+6      0.3134       0.3134       0.0000         1.0000     gemma2-9b            The Robbers Cove Experiment: Building Conflict (2)
+7      0.3106       0.3106       0.0000         1.0000     qwen2-7b             Building Bonds, Igniting Conflict, Unifying Teams
+8      0.3083       0.3083       0.0000         1.0000     llama3.1-8b          The Robbers' Cave Experiment Begins
+9      0.3006       0.3006       0.0000         1.0000     tinyllama            The Robber's Cave Experiment (2)
+10     0.2979       0.2979       0.0000         1.0000     tinyllama            Two Groups Living Together
+11     0.2978       0.2978       0.0000         1.0000     llama3.1-8b          In-Group Alliances Formed Amidst Rivalry
+12     0.2942       0.2942       0.0000         1.0000     gemma2-9b            The Robbers Cove Experiment Begins (4)
+13     0.2939       0.2939       0.0000         1.0000     llama3.1-8b          The Art of Group Formation Experiment
+14     0.2909       0.3437       0.0000         0.8465     llama3.1-8b          The Formation of In-Groups Through Social Experimentation
+15     0.2903       0.2903       0.0000         1.0000     llama3.1-8b          Building Bonds and Conflict in Isolation
+16     0.2884       0.2884       0.0000         1.0000     qwen2-7b             Cultivating Unity: From Separation to Integration
+17     0.2882       0.2882       0.0000         1.0000     qwen2-7b             Cultivating Unity: From Isolation to Integration (6)
+18     0.2877       0.2877       0.0000         1.0000     tinyllama            The Robbers' Cave Experiment (3)
+19     0.2839       0.3354       0.0000         0.8465     mistral-7b-v0.3      Robbers Cove Experiment: Week-Long Group Dynamics Study
+20     0.2805       0.3314       0.0000         0.8465     mistral-7b-v0.3      Robbers Cove Camp: Building Bonds and Conflict
+21     0.2792       0.3299       0.0000         0.8465     llama3.1-8b          Building Bonds and Conflicts at Robber's Cave
+22     0.2756       0.3255       0.0000         0.8465     llama3.1-8b          Isolation, Competition, and the Birth of In-Groups
+23     0.2674       0.2674       0.0000         1.0000     gemma2-9b            Building Bonds and Breaking Barriers
+24     0.2614       0.2614       0.0000         1.0000     llama3.1-8b          Separation and Competition Unfold
+25     0.2584       0.3052       0.0000         0.8465     tinyllama            The Effects of Separation on Group Dynamics
+26     0.2437       0.3401       0.0000         0.7165     mistral-7b-v0.3      Robbers Cove: Weeklong Team Building and Conflict Experiment
+27     0.2374       0.2374       0.0000         1.0000     llama3.1-8b          "FosterinG CamaradiE Thro
+28     0.2336       0.3260       0.0000         0.7165     tinyllama            The Effects of Group Dynamics on Friendship Formation
+29     0.2234       0.3683       0.0000         0.6065     tinyllama            Two Groups Living Separate Lives, Experimenting and Creating Friendships
+30     0.2214       0.3651       0.0000         0.6065     mistral-7b-v0.3      Robbers Cove Experiment: Team Building & Conflict Among Pre-Teens
+31     0.2165       0.3570       0.0000         0.6065     tinyllama            The Effect of Separation on Friendship and In-Group Bonds
+32     0.2158       0.3012       0.0000         0.7165     gemma2-9b            Building Bonds and Brawls: The Robbers Cove Experiment (2)
+33     0.2111       0.3480       0.0000         0.6065     mistral-7b-v0.3      Robbers Cove Experiment: Building Bonds, Fostering Friction, and Integration
+34     0.1851       0.3606       0.0000         0.5134     mistral-7b-v0.3      Robbers Cove: Two Groups, One Conflict - Team Building Experiment
+35     0.1842       0.3587       0.0000         0.5134     mistral-7b-v0.3      Robbers Cove Experiment: Building Bonds and Conflict Among Teenage Groups (2)
+36     0.1722       0.3353       0.0000         0.5134     qwen2-7b             Building Bonds, Igniting Conflict, Achieving Unity: The Robbers' Cave Experiment
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2825
+  llama3.1-8b         : 0.2893
+  mistral-7b-v0.3     : 0.2439
+  qwen2-7b            : 0.2824
+  tinyllama           : 0.2694
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 880s (14:40)
+Transcript Length: 3,536 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3355       0.3355       0.0000         1.0000     llama3.1-8b          Tensions Rise Between In-Group Campers
+2      0.3206       0.3206       0.0000         1.0000     llama3.1-8b          Friction Phase Unfolds: Group Dynamics Emerge
+3      0.3115       0.3115       0.0000         1.0000     llama3.1-8b          Friction Phase Erupts Among Camp Groups
+4      0.3104       0.3104       0.0000         1.0000     llama3.1-8b          Rivalries Form Among Campers
+5      0.3072       0.3072       0.0000         1.0000     tinyllama            The Effectiveness of the Experiment
+6      0.3006       0.3006       0.0000         1.0000     llama3.1-8b          In-Grp Dynamics Erupt During Friction Phase
+7      0.2974       0.2974       0.0000         1.0000     mistral-7b-v0.3      Emerging Group Microcultures and Baseball Showdown
+8      0.2970       0.2970       0.0000         1.0000     llama3.1-8b          Rivalries Ignite Between Two Groups
+9      0.2959       0.2959       0.0000         1.0000     llama3.1-8b          Friction Phase Becomes Obvious Through Behavior
+10     0.2886       0.2886       0.0000         1.0000     llama3.1-8b          Frictions Phase Ignited Group Dynamics
+11     0.2882       0.2882       0.0000         1.0000     gemma2-9b            From Groups to Rivals: Friction Ignites (2)
+12     0.2869       0.2869       0.0000         1.0000     mistral-7b-v0.3      Emerging Group Dynamics & Baseball Tournament
+13     0.2866       0.2866       0.0000         1.0000     gemma2-9b            From Groups to Rivalry: Friction Ignites (4)
+14     0.2860       0.2860       0.0000         1.0000     llama3.1-8b          FrictionPhase Begins BetweenTwoGroups
+15     0.2851       0.2851       0.0000         1.0000     tinyllama            The Experiment: A Transformative Experience
+16     0.2814       0.3324       0.0000         0.8465     gemma2-9b            From Shirts to Rivalry: In-Group Dynamics Emerge
+17     0.2763       0.3265       0.0000         0.8465     tinyllama            The Effect of Group Dynamics on Competition
+18     0.2722       0.3216       0.0000         0.8465     tinyllama            The Effects of Language on Group Dynamics
+19     0.2668       0.2668       0.0000         1.0000     qwen2-7b             Tournament Tensions: From Unity to Conflict (2)
+20     0.2623       0.3660       0.0000         0.7165     mistral-7b-v0.3      Formation of In-Group Dynamics and Friction Between Groups
+21     0.2565       0.3031       0.0000         0.8465     gemma2-9b            From Shirts to Strife: In-Group Conflict Emerges
+22     0.2532       0.3534       0.0000         0.7165     qwen2-7b             Formation of In-Group Dynamics and Initiation of Friction (4)
+23     0.2491       0.2942       0.0000         0.8465     gemma2-9b            From Shirts to Showdown: Group Conflict Emerges
+24     0.2444       0.3411       0.0000         0.7165     mistral-7b-v0.3      Formation of Groups and Friction Emerges at Camp
+25     0.2411       0.2848       0.0000         0.8465     gemma2-9b            From Shirts to Rivalry: The Friction Begins
+26     0.2401       0.3350       0.0000         0.7165     tinyllama            The Experiment: A Transcript of the Friction Phase
+27     0.2364       0.3299       0.0000         0.7165     qwen2-7b             Group Dynamics Shifts to Friction: Preparing for Competition (3)
+28     0.2276       0.3176       0.0000         0.7165     mistral-7b-v0.3      Emerging Microcultures and Baseball Showdown: Friction Stages Begin
+29     0.2251       0.3142       0.0000         0.7165     mistral-7b-v0.3      Emerging Microcultures & Baseball Battle: Friction Phase Begins
+30     0.2245       0.3132       0.0000         0.7165     mistral-7b-v0.3      Rivalry Emerges: Baseball Game Tournament Sparks Group Friction
+31     0.2236       0.3121       0.0000         0.7165     mistral-7b-v0.3      Emerging Microcultures & Baseball Showdown: Friction Phase Begins
+32     0.2191       0.2191       0.0000         1.0000     llama3.1-8b          Answer: Alternative Title
+33     0.2123       0.3500       0.0000         0.6065     qwen2-7b             Group Dynamics Shifts to Friction Phase: Preparing for Competition
+34     0.2109       0.3478       0.0000         0.6065     mistral-7b-v0.3      Emergence of Group Dynamics and Friction in Camp Competition
+35     0.2104       0.3470       0.0000         0.6065     mistral-7b-v0.3      Formation of Groups and Friction Emerges in Camp Experiment
+36     0.1989       0.3279       0.0000         0.6065     tinyllama            The Effects of Group Dynamics on a Camping Trip
+37     0.1950       0.3215       0.0000         0.6065     tinyllama            The Effectiveness of Group Dynamics in Shaping Cultural Attitudes
+38     0.1741       0.3391       0.0000         0.5134     tinyllama            The Effects of Group Dynamics on a Group of Boys
+39     0.1478       0.3401       0.0000         0.4346     tinyllama            The Effects of Language on Group Dynamics in a Camping Experiment
+40     0.0942       0.3572       0.0000         0.2636     tinyllama            The Effects of Group Dynamics on the Performance of Children During a Camping Trip
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2751
+  llama3.1-8b         : 0.2965
+  mistral-7b-v0.3     : 0.2413
+  qwen2-7b            : 0.2468
+  tinyllama           : 0.2191
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 1084s (18:04)
+Transcript Length: 2,369 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3352       0.3352       0.0000         1.0000     tinyllama            The Experimenters' Battle Over a Treasure
+2      0.3197       0.3197       0.0000         1.0000     llama3.1-8b          Friction Ignites Chaos in Intergroup Competition
+3      0.3168       0.3168       0.0000         1.0000     llama3.1-8b          Campsite Chaos Unfolds: Intergroup Tensions Rise
+4      0.3127       0.3127       0.0000         1.0000     llama3.1-8b          Camp Chaos Erupts Amid Intergroup Friction
+5      0.3092       0.3092       0.0000         1.0000     mistral-7b-v0.3      Competitive Chaos: Camp Conflict Escalates
+6      0.3037       0.3037       0.0000         1.0000     llama3.1-8b          Friction Builds As Camp Groups Clash
+7      0.3036       0.3036       0.0000         1.0000     tinyllama            The Battle of the Experimenters
+8      0.2981       0.2981       0.0000         1.0000     gemma2-9b            Escalation: Camp Rivalry Turns Violent (4)
+9      0.2937       0.2937       0.0000         1.0000     tinyllama            The Battle for the Trophy (2)
+10     0.2909       0.2909       0.0000         1.0000     llama3.1-8b          Rivalries Ignite: A Descent into Chaos
+11     0.2893       0.2893       0.0000         1.0000     llama3.1-8b          Campsite Conflicts Escalate into Mayhen
+12     0.2857       0.2857       0.0000         1.0000     gemma2-9b            Camp Conflict: Rivalry Ignites
+13     0.2840       0.2840       0.0000         1.0000     llama3.1-8b          Rival CampGroups EngageinEscalatingConflict
+14     0.2821       0.3333       0.0000         0.8465     mistral-7b-v0.3      Camp Chaos: Flag Burning & Cabin Raids
+15     0.2806       0.2806       0.0000         1.0000     gemma2-9b            Escalation: From Games to Gang Warfare
+16     0.2792       0.2792       0.0000         1.0000     gemma2-9b            Escalation: From Competition to Conflict (3)
+17     0.2715       0.3207       0.0000         0.8465     mistral-7b-v0.3      Camp Chaos: Flag Burning & Retaliatory Raids
+18     0.2683       0.2683       0.0000         1.0000     gemma2-9b            Escalation: From Games to Warfare
+19     0.2634       0.3111       0.0000         0.8465     qwen2-7b             Tournament Tensions Reach沸点: Eagles vs. Rattler Showdown
+20     0.2610       0.3643       0.0000         0.7165     mistral-7b-v0.3      Rivalry Escalates: Flag Burning, Raids, and Final Victory
+21     0.2573       0.3591       0.0000         0.7165     mistral-7b-v0.3      Rivalry Escalates: Flag Burning, Raids, and Final Showdown
+22     0.2565       0.3031       0.0000         0.8465     llama3.1-8b          Rivalry Escalates: A Tale of Two Teams
+23     0.2527       0.2985       0.0000         0.8465     qwen2-7b             Turbulent Team Dynamics: From Competition to Conflict (3)
+24     0.2522       0.2522       0.0000         1.0000     qwen2-7b             Tournament Tensions Reach沸ing Point (2)
+25     0.2516       0.2972       0.0000         0.8465     llama3.1-8b          Friction Ignites: A Descent into Intergroup Chaos
+26     0.2464       0.2464       0.0000         1.0000     llama3.1-8b          Camp Chaos Erups Amid Integroup Frictio
+27     0.2357       0.3290       0.0000         0.7165     qwen2-7b             Tournament Tensions Reach沸点: Eagles vs. Rattler Feud Escalates (2)
+28     0.2276       0.3176       0.0000         0.7165     tinyllama            Eagle vs Rattler: A Battle for the Trophies
+29     0.2193       0.3615       0.0000         0.6065     mistral-7b-v0.3      Rivalry Escalates: Flag Burning, Raids, and a Bitter Victory
+30     0.1935       0.3190       0.0000         0.6065     qwen2-7b             Turbulent Team Dynamics: From Friendly Competition to Intense Conflict
+31     0.1921       0.3168       0.0000         0.6065     qwen2-7b             Turbulent Team Dynamics: From Friendly Competition to Intense Rivalry
+32     0.1887       0.3112       0.0000         0.6065     tinyllama            Eagles vs Rattler - A Battle for the Trophy
+33     0.1876       0.3653       0.0000         0.5134     tinyllama            The Battle Between Two Groups: A Comparison of Their Reactions
+34     0.1758       0.3423       0.0000         0.5134     mistral-7b-v0.3      Camp Chaos: Flag Burning & Cabin Raids Fuel Group Rivalry (2)
+35     0.1564       0.3598       0.0000         0.4346     mistral-7b-v0.3      Rivalry Escalates: Flag Burning, Raids, and a Climactic Treasure Hunter Showdown (2)
+36     0.1333       0.3624       0.0000         0.3679     tinyllama            The Battle for the Trophy: A Transcript of the Day 2 Competition
+37     0.0632       0.3346       0.0000         0.1889     tinyllama            The Battle for the Trophy: A Transcript of a Day in the Life of Two Groups
+38     0.0520       0.3255       0.0000         0.1599     tinyllama            Eagles vs Rattler: A Transcript of a Day in the Life of a High School Football Team
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2865
+  llama3.1-8b         : 0.2872
+  mistral-7b-v0.3     : 0.2265
+  qwen2-7b            : 0.2383
+  tinyllama           : 0.2079
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 1221s (20:21)
+Transcript Length: 1,560 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3511       0.3511       0.0000         1.0000     tinyllama            The Struggle Between Two Groups (2)
+2      0.3454       0.3454       0.0000         1.0000     tinyllama            The Eaglets vs The Ratlings: Integration
+3      0.3360       0.3360       0.0000         1.0000     mistral-7b-v0.3      Rivalry Intensifies as Groups Refuse Integration
+4      0.3335       0.3335       0.0000         1.0000     tinyllama            The Eaglets vs. Ratlings: Integration
+5      0.3332       0.3332       0.0000         1.0000     mistral-7b-v0.3      Eagle-Rattler Rivalry Intensifies; Integration Challenges Ahead
+6      0.3178       0.3178       0.0000         1.0000     llama3.1-8b          Rivals turned Enemies:Group dynamics unravel
+7      0.3146       0.3146       0.0000         1.0000     mistral-7b-v0.3      Rivalry Deepens as Groups Refuse Integration
+8      0.3144       0.3144       0.0000         1.0000     llama3.1-8b          Arbitrarily Divided, Arbitrarily United
+9      0.3124       0.3124       0.0000         1.0000     gemma2-9b            Feuding Tribes: Seeds of Integration (2)
+10     0.3091       0.3091       0.0000         1.0000     llama3.1-8b          Factional Tensions Rise as Integration Unfolds
+11     0.3031       0.3031       0.0000         1.0000     mistral-7b-v0.3      Rivalry Escalates as Integration Begins
+12     0.3021       0.3021       0.0000         1.0000     mistral-7b-v0.3      Rivalry Escalates as Integration Approaches
+13     0.3014       0.3560       0.0000         0.8465     llama3.1-8b          Rival Groups Clash in Final Experiment Stage
+14     0.2982       0.2982       0.0000         1.0000     llama3.1-8b          Rivals Clash, Integration Stalls
+15     0.2972       0.2972       0.0000         1.0000     tinyllama            The Intriguing Experiment of Integration
+16     0.2971       0.2971       0.0000         1.0000     tinyllama            The Experiment - Integration
+17     0.2941       0.2941       0.0000         1.0000     llama3.1-8b          The Great Divide: Integrating Adversaries
+18     0.2938       0.2938       0.0000         1.0000     mistral-7b-v0.3      Rivalry Intensifies as Integration Begins
+19     0.2936       0.3469       0.0000         0.8465     mistral-7b-v0.3      Rivalry and Integration: Two Groups at Odds (3)
+20     0.2918       0.2918       0.0000         1.0000     llama3.1-8b          Enemies Born From Arbitrary Selection
+21     0.2899       0.3425       0.0000         0.8465     mistral-7b-v0.3      Rivalry Reignites: Eagles vs. Rattler Conflict Escalates
+22     0.2818       0.2818       0.0000         1.0000     llama3.1-8b          " From Enemies to Harmony
+23     0.2577       0.2577       0.0000         1.0000     gemma2-9b            From Rivalry to Integration (8)
+24     0.2568       0.3585       0.0000         0.7165     qwen2-7b             From Hatred to Integration: The Experiment's Final Stage (3)
+25     0.2514       0.2514       0.0000         1.0000     llama3.1-8b          "Creating Unity Amidst
+26     0.2514       0.3508       0.0000         0.7165     qwen2-7b             From Enmity to Integration: The Experiment's Final Stage (4)
+27     0.2488       0.3472       0.0000         0.7165     tinyllama            The Eaglets vs. Ratlings: An Experiment in Integration
+28     0.2485       0.2936       0.0000         0.8465     llama3.1-8b          The Great Divide: From Enemies to Unity
+29     0.2437       0.3402       0.0000         0.7165     tinyllama            The Eaglets and Ratlings: An Experiment in Integration
+30     0.2153       0.3550       0.0000         0.6065     tinyllama            The Eaglets vs The Ratlings: An Experiment in Integration
+31     0.2102       0.3465       0.0000         0.6065     tinyllama            The Eaglets vs. The Rattlesnakes: An Experiment in Integration
+32     0.2073       0.3418       0.0000         0.6065     qwen2-7b             From Enmity to Integration: The Evolution of Two Groups (2)
+33     0.1911       0.3150       0.0000         0.6065     qwen2-7b             From Enmity to Integration: The Evolution of Camp Dynamics
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2686
+  llama3.1-8b         : 0.2909
+  mistral-7b-v0.3     : 0.3053
+  qwen2-7b            : 0.2382
+  tinyllama           : 0.2893
+
+====================================================================================================
+
+--- SEGMENT 09 ---
+Start Time: 1315s (21:55)
+Transcript Length: 3,604 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3176       0.3176       0.0000         1.0000     mistral-7b-v0.3      Engineering Cooperation: Overcoming Intergroup Friction
+2      0.3030       0.3030       0.0000         1.0000     llama3.1-8b          When Common Goals Bring Enemies Together
+3      0.3001       0.3001       0.0000         1.0000     llama3.1-8b          "When Shared Struggles Bring People Together
+4      0.2905       0.2905       0.0000         1.0000     llama3.1-8b          Designing Unity Among Divided Groups
+5      0.2904       0.2904       0.0000         1.0000     gemma2-9b            Bridging Group Conflict Through Cooperation (2)
+6      0.2901       0.2901       0.0000         1.0000     llama3.1-8b          Creating Unity Amidst Conflict and Competition
+7      0.2884       0.2884       0.0000         1.0000     tinyllama            Experiment with Two Groups
+8      0.2882       0.2882       0.0000         1.0000     mistral-7b-v0.3      Engineering Cooperation and Breaking Down Barriers
+9      0.2831       0.2831       0.0000         1.0000     gemma2-9b            Bridging Group Divide Through Cooperation
+10     0.2784       0.2784       0.0000         1.0000     tinyllama            Experiment with Different Groups
+11     0.2767       0.2767       0.0000         1.0000     llama3.1-8b          Creating Harmony through Shared Struggle
+12     0.2767       0.2767       0.0000         1.0000     mistral-7b-v0.3      Engineering Cooperation: Robbers Cave Experiment (3)
+13     0.2723       0.3217       0.0000         0.8465     tinyllama            Experiment: Creating Two Groups From Similar Backgrounds
+14     0.2702       0.3192       0.0000         0.8465     tinyllama            The Effect of Differences on Intergroup Hostility
+15     0.2689       0.3177       0.0000         0.8465     tinyllama            The Effects of Intergroup Conflict on Children
+16     0.2669       0.2669       0.0000         1.0000     llama3.1-8b          Breaking Down Barriers Through Shared Challenges (2)
+17     0.2643       0.3122       0.0000         0.8465     mistral-7b-v0.3      Cooperation and Camaraderie Emerges Among Rival Groups (2)
+18     0.2618       0.2618       0.0000         1.0000     gemma2-9b            From Hostility to Harmony (5)
+19     0.2548       0.3011       0.0000         0.8465     mistral-7b-v0.3      Engineering Cooperation: Water Crisis and Film Fundraising
+20     0.2521       0.2521       0.0000         1.0000     tinyllama            Creating a New Group Culture
+21     0.2473       0.2922       0.0000         0.8465     gemma2-9b            From Hostility to Harmony: Bridging Group Divides (2)
+22     0.2441       0.2441       0.0000         1.0000     llama3.1-8b          Engineering Harmony Among Adversaries
+23     0.2385       0.2817       0.0000         0.8465     qwen2-7b             From Hatred to Cooperation: A Transformational Experiment (3)
+24     0.2369       0.2799       0.0000         0.8465     qwen2-7b             From Hatred to Cooperation: A Transformative Experiment
+25     0.2365       0.3300       0.0000         0.7165     mistral-7b-v0.3      Cooperation Tasks and Camp Out Foster Intergroup Harmony
+26     0.2352       0.3283       0.0000         0.7165     tinyllama            Experiment: Creating Two Groups From Nearly Identical Backgrounds
+27     0.2297       0.3206       0.0000         0.7165     tinyllama            The Effect of Social Hierarchy on Intergroup Hostility
+28     0.2277       0.2277       0.0000         1.0000     llama3.1-8b          Building Bridges Between Divergent
+29     0.2197       0.3066       0.0000         0.7165     tinyllama            The Effects of Social Hierarchy on Intergroup Relationships
+30     0.2009       0.3313       0.0000         0.6065     mistral-7b-v0.3      Cooperation Tasks and Camp Out Unite Robbers Cave Groups
+31     0.1825       0.3010       0.0000         0.6065     qwen2-7b             From Hatred to Unity: A Transformation Through Common Goals
+32     0.1821       0.2542       0.0000         0.7165     llama3.1-8b          " From Rivalty to Unity : A Social
+33     0.1791       0.2952       0.0000         0.6065     qwen2-7b             From Hatred to Cooperation: A Journey Through Intergroup Dynamics (3)
+34     0.1761       0.2903       0.0000         0.6065     qwen2-7b             From Hatred to Unity: A Journey Through Group Dynamics (2)
+35     0.1742       0.3394       0.0000         0.5134     tinyllama            How did Shariff's experiment create a hierarchy among the groups?
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2668
+  llama3.1-8b         : 0.2648
+  mistral-7b-v0.3     : 0.2657
+  qwen2-7b            : 0.2024
+  tinyllama           : 0.2489
+
+====================================================================================================
+
+--- SEGMENT 10 ---
+Start Time: 1530s (25:30)
+Transcript Length: 4,463 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3309       0.3309       0.0000         1.0000     llama3.1-8b          Children, Competition, and Conflict
+2      0.3187       0.3187       0.0000         1.0000     llama3.1-8b          Blurred Boundaries: Realistic Conflict Theory Unveiled
+3      0.3118       0.3118       0.0000         1.0000     llama3.1-8b          The Robber's Cave Experiment: Blurred Boundaries (2)
+4      0.3081       0.3081       0.0000         1.0000     llama3.1-8b          Manipulation and Misconceptions in Robber's Cave
+5      0.3050       0.3603       0.0000         0.8465     tinyllama            The Effects of Competition on Intergroup Relationships
+6      0.2958       0.2958       0.0000         1.0000     gemma2-9b            Robbers Cave: Conflict and Cooperation
+7      0.2899       0.2899       0.0000         1.0000     llama3.1-8b          Blurred Boundaries and Manipulated Minds (2)
+8      0.2887       0.2887       0.0000         1.0000     tinyllama            The Robber'S Cave Experiment
+9      0.2806       0.3315       0.0000         0.8465     llama3.1-8b          Breaking Down Barriers: A Study in Intergroups
+10     0.2794       0.3300       0.0000         0.8465     llama3.1-8b          The Robber's Cave Experiment: Group Dynamics Unveiled
+11     0.2775       0.2775       0.0000         1.0000     gemma2-9b            Robbers Cave: Conflict and Resolution (2)
+12     0.2773       0.3870       0.0000         0.7165     tinyllama            The Role of Superordinate Goals in Intergroup Relationships
+13     0.2766       0.3861       0.0000         0.7165     tinyllama            The Effects of Superordinate Goals on Intergroup Relationships
+14     0.2741       0.3825       0.0000         0.7165     tinyllama            The Effects of Superordinate Goals on Intergroup Relations
+15     0.2718       0.3793       0.0000         0.7165     tinyllama            The Role of Superordinate Goals in Intergroup Relations
+16     0.2703       0.2703       0.0000         1.0000     tinyllama            The Roots of Violence
+17     0.2680       0.2680       0.0000         1.0000     tinyllama            The Experiment That Changed Everything (3)
+18     0.2637       0.3115       0.0000         0.8465     gemma2-9b            The Robbers Cave Experiment: Conflict & Cooperation (2)
+19     0.2635       0.3112       0.0000         0.8465     gemma2-9b            The Robbers Cave Experiment: Conflict and Resolution (2)
+20     0.2564       0.3029       0.0000         0.8465     gemma2-9b            The Robbers Cave Experiment: Conflict & Resolution (3)
+21     0.2462       0.3435       0.0000         0.7165     mistral-7b-v0.3      Robbers Cave Experiment: Unleashing Intergroup Conflict and Cohesion
+22     0.2433       0.3396       0.0000         0.7165     mistral-7b-v0.3      Robbers Cave Experiment: Unveiling Intergroup Conflict and Cohesion (2)
+23     0.2377       0.3317       0.0000         0.7165     mistral-7b-v0.3      Robbers Cave Experiment: Unleashing Intergroup Conflict and Cooperation
+24     0.2335       0.3259       0.0000         0.7165     mistral-7b-v0.3      Robbers Cave Experiment: Unveiling Intergroup Conflict and Cooperation
+25     0.2163       0.3567       0.0000         0.6065     mistral-7b-v0.3      Robbers Cave Experiment: Conflict, Competition, and Cohesion Among Children
+26     0.2108       0.3475       0.0000         0.6065     mistral-7b-v0.3      The Robbers Cave Experiment: Unveiling Intergroup Conflict and Cohesion
+27     0.2098       0.3459       0.0000         0.6065     mistral-7b-v0.3      The Robbers Cave Experiment: Blurring Boundaries and Fostering Hostility (2)
+28     0.2045       0.3372       0.0000         0.6065     qwen2-7b             The Robber's Cave Experiment: Unraveling Intergroup Dynamics and Critiques
+29     0.2045       0.3371       0.0000         0.6065     qwen2-7b             The Robber's Cave Experiment: Unveiling Intergroup Dynamics and Critiques
+30     0.1982       0.3268       0.0000         0.6065     qwen2-7b             The Robber's Cave Experiment: Unraveling Hostility and Friendship Dynamics (2)
+31     0.1891       0.3118       0.0000         0.6065     llama3.1-8b          The Robber’s Cave Experiment Debunked. **(This answer fits perfectly)**
+32     0.1890       0.3682       0.0000         0.5134     mistral-7b-v0.3      The Robbers Cave Experiment: Conflict, Competition, and Cohesion Among Children
+33     0.1813       0.3530       0.0000         0.5134     qwen2-7b             Sherrif's Robber Cave Experiment: Uncovering Hostility and Realistic Conflict Theory
+34     0.1752       0.3413       0.0000         0.5134     qwen2-7b             Sherriff's Robber's Cave Experiment: A Complex Study on Intergroup Relations
+35     0.1720       0.3351       0.0000         0.5134     qwen2-7b             The Robber's Cave Experiment: Unveiling Intergroup Hostility and Its Complexities (3)
+36     0.1153       0.3703       0.0000         0.3114     qwen2-7b             Sherriff's Robber's Cave Experiment: A Study on Intergroup Hostility and Realistic Conflict Theory
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2674
+  llama3.1-8b         : 0.2910
+  mistral-7b-v0.3     : 0.2240
+  qwen2-7b            : 0.1793
+  tinyllama           : 0.2768
+
+====================================================================================================
+
+--- SEGMENT 11 ---
+Start Time: 1794s (29:54)
+Transcript Length: 987 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3057       0.3057       0.0000         1.0000     gemma2-9b            The Stanford Prison Experiment: Ethics Examined (3)
+2      0.3045       0.3045       0.0000         1.0000     gemma2-9b            The Stanford Prison Experiment's Ethics (2)
+3      0.3043       0.3043       0.0000         1.0000     gemma2-9b            The Stanford Prison Experiment's Dark Side (2)
+4      0.2986       0.2986       0.0000         1.0000     tinyllama            The Experiment That Changed The World
+5      0.2972       0.2972       0.0000         1.0000     llama3.1-8b          The Dark Side of Social Experimentation (4)
+6      0.2957       0.2957       0.0000         1.0000     gemma2-9b            The Stanford Prison Experiment's Dark Legacy
+7      0.2925       0.2925       0.0000         1.0000     tinyllama            The Ethics of Experimentation
+8      0.2824       0.3336       0.0000         0.8465     llama3.1-8b          The Boys Who Turned Against Their Experimenters (2)
+9      0.2737       0.2737       0.0000         1.0000     tinyllama            The 10 Most Horrifying Experiment Results
+10     0.2685       0.2685       0.0000         1.0000     tinyllama            Chapter 2: The First Day
+11     0.2679       0.3165       0.0000         0.8465     qwen2-7b             The Unexpected Ethical Dilemma: A Friendship Experiment
+12     0.2678       0.3164       0.0000         0.8465     llama3.1-8b          The Troubling Tale of the 8-Year-Old Experiment (2)
+13     0.2606       0.3078       0.0000         0.8465     tinyllama            The 100 Year Study: The Disappearing Children
+14     0.2546       0.2546       0.0000         1.0000     llama3.1-8b          When Science Crosses Ethics Boundaries
+15     0.2471       0.2471       0.0000         1.0000     tinyllama            The Tale of Two Cities
+16     0.2463       0.2910       0.0000         0.8465     gemma2-9b            The Moral Maze of Stanford Prison Experiment (2)
+17     0.2423       0.2862       0.0000         0.8465     qwen2-7b             The Unexpected Redemption: A Controversial Experiment Unfolds (2)
+18     0.2242       0.3129       0.0000         0.7165     llama3.1-8b          The Troubling Tale of the 38 Boys Experiment
+19     0.2235       0.3119       0.0000         0.7165     qwen2-7b             The Unexpected Ethical Dilemma: A 10-Year Friendship Experiment
+20     0.2210       0.3085       0.0000         0.7165     qwen2-7b             The Surprising Ethical Dilemma of the 50s Experiment
+21     0.2162       0.3018       0.0000         0.7165     qwen2-7b             The Surprising Ethical Dilemma of the 50s Study
+22     0.2081       0.3431       0.0000         0.6065     tinyllama            The 100 Year Study: The Better Nature of Children (2)
+23     0.1916       0.3159       0.0000         0.6065     qwen2-7b             The Surprising Ethical Dilemma of the 50-Year Friendship Experiment (4)
+24     0.1645       0.3204       0.0000         0.5134     mistral-7b-v0.3      The Dark Side of Childhood Friendship: The 10-Year-Old Boys Experiment (2)
+25     0.1624       0.2678       0.0000         0.6065     tinyllama            The 10 Most Interesting Scientific Studies of All Time
+26     0.1599       0.3114       0.0000         0.5134     mistral-7b-v0.3      The Dark Side of Childhood Friendship: The Infamous 10-Year-Old Study
+27     0.1513       0.2946       0.0000         0.5134     mistral-7b-v0.3      The Dark Side of Childhood Friendship: The Stanford Prison Experiment (5)
+28     0.1345       0.3096       0.0000         0.4346     mistral-7b-v0.3      The Dark Side of Childhood Friendship: The Infamous Bobo Doll Experiment
+29     0.1288       0.2965       0.0000         0.4346     mistral-7b-v0.3      The Dark Side of Childhood Friendship: The Infamous Stanford Prison Experiment
+30     0.1092       0.2969       0.0000         0.3679     tinyllama            The 100 Year Old Man Who Climbed Out The Window And Disappeared
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2923
+  llama3.1-8b         : 0.2768
+  mistral-7b-v0.3     : 0.1509
+  qwen2-7b            : 0.2180
+  tinyllama           : 0.2329
+
+====================================================================================================
+

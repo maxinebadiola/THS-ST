@@ -1,0 +1,502 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,llama3.1-8b,Genghis' Pointless War Against the Quaraesmean,0.5262988805770874,0.5262988805770874,0.0,1.0
+1,0,00:00,gemma2-9b,Genghis Khan’s Useless War,0.5093501210212708,0.5093501210212708,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Foes: The Quaresmeans' Provocation,0.4907093346118927,0.4907093346118927,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Foes: The Quaresmeans' Provocation,0.4907093346118927,0.4907093346118927,0.0,1.0
+1,0,00:00,tinyllama,Genghis Kahn's Destructive Diplomacy,0.462889701128006,0.462889701128006,0.0,1.0
+1,0,00:00,tinyllama,Genghis Kahn's Disastrous Diplomacy,0.4602814316749573,0.4602814316749573,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Provocation: The Quaresmeans' Slur,0.4587838053703308,0.4587838053703308,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Provocation: The Quaresmeans' Slur,0.4587838053703308,0.4587838053703308,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Provocation: The Quaresmeans' Slur,0.4587838053703308,0.4587838053703308,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Provocation: The Quaresmeans' Slur,0.4587838053703308,0.4587838053703308,0.0,1.0
+1,0,00:00,gemma2-9b,Genghis Khan: A Diplomatic Disaster,0.4485320448875427,0.4485320448875427,0.0,1.0
+1,0,00:00,tinyllama,Genghis Kahn's Dirty Tricks,0.43666601181030273,0.43666601181030273,0.0,1.0
+1,0,00:00,tinyllama,Genghis Kahn's Dirty Tricks,0.43666601181030273,0.43666601181030273,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Foes: The Useless Provocation,0.43404728174209595,0.43404728174209595,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Foes: The Useless Provocation,0.43404728174209595,0.43404728174209595,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Foes: The Useless Provocation,0.43404728174209595,0.43404728174209595,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Genghis' Peaceful Foe: The Useless Provocation,0.42649009823799133,0.42649009823799133,0.0,1.0
+1,0,00:00,llama3.1-8b,Genghis' Fateful Misstep: A Campaign Unleashed,0.42182329297065735,0.42182329297065735,0.0,1.0
+1,0,00:00,gemma2-9b,The Diplomat's Fatal Offense,0.3706529140472412,0.3706529140472412,0.0,1.0
+1,0,00:00,gemma2-9b,The Diplomat's Fatal Offense,0.3706529140472412,0.3706529140472412,0.0,1.0
+1,0,00:00,gemma2-9b,The Diplomat's Deadly Blunder,0.35643264651298523,0.35643264651298523,0.0,1.0
+1,0,00:00,gemma2-9b,The Seeds of Mongol Conquest,0.3562925457954407,0.3562925457954407,0.0,1.0
+1,0,00:00,gemma2-9b,The Seeds of Mongol Conquest,0.3562925457954407,0.3562925457954407,0.0,1.0
+1,0,00:00,gemma2-9b,The Seeds of Mongol Conquest,0.3562925457954407,0.3562925457954407,0.0,1.0
+1,0,00:00,qwen2-7b,Peace-Shattering Insult to Mongol Ambassadors,0.3433021008968353,0.3433021008968353,0.0,1.0
+1,0,00:00,qwen2-7b,Peace-Shattering Insult: The Start of Mongol Conquests,0.3319220639166093,0.3921195864677429,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Peace-Shattering Insult: The Start of Mongol Conquests,0.3319220639166093,0.3921195864677429,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,A War Born From Bitter Enmity,0.32828402519226074,0.32828402519226074,0.0,1.0
+1,0,00:00,qwen2-7b,Peace-Shattering Insult: The Start of Catastrophe,0.3232079744338989,0.3232079744338989,0.0,1.0
+1,0,00:00,tinyllama,Insulting Diplomats: The Beginning of the End,0.3019714164713141,0.35673707723617554,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,A Peaceful Alliance Turns to Ashes,0.3018713891506195,0.3018713891506195,0.0,1.0
+1,0,00:00,llama3.1-8b,The Unlikely Spark that Ignited Devastation,0.293185830116272,0.293185830116272,0.0,1.0
+1,0,00:00,tinyllama,Insulting Diplomats: The Mongolian Campaign Against the Queshan Empire,0.28001219021444734,0.46166205406188965,0.0,0.6065306597126334
+1,0,00:00,gemma2-9b,The Spark That Ignited Conquest,0.2792309522628784,0.2792309522628784,0.0,1.0
+1,0,00:00,gemma2-9b,The Spark That Ignited Conquest,0.2792309522628784,0.2792309522628784,0.0,1.0
+1,0,00:00,tinyllama,Insulting Diplomats: The Start of a Destructive Campaign,0.2680618797590722,0.37411049008369446,0.0,0.7165313105737893
+1,0,00:00,llama3.1-8b,A Fractured Peace: The Spark of Destruction,0.26786899031745365,0.3164498209953308,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,A Fractured Peace: The Spark of Destruction,0.26786899031745365,0.3164498209953308,0.0,0.846481724890614
+1,0,00:00,tinyllama,Insulting Diplomats: The Origins of the First Mongol War,0.26121666996568155,0.4306734800338745,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,Miscalculated Peace: The Tragic Start to Mongol Expansion,0.2409199488467178,0.3362308740615845,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Miscalculated Peace: The Tragic Start to Mongol Expansion,0.2409199488467178,0.3362308740615845,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Miscalculated Peace: The Tragic Start to Mongol Expansion,0.2409199488467178,0.3362308740615845,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Miscalculated Peace: The Tragic Start to Mongol Expansion,0.2409199488467178,0.3362308740615845,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Miscalculated Peace: The Tragic Start to Mongol Expansion,0.2409199488467178,0.3362308740615845,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Miscalculated Peace: The Tragic Start to Mongol Expansion,0.2409199488467178,0.3362308740615845,0.0,0.7165313105737893
+1,0,00:00,tinyllama,Genghis's Dirty Dealings: The Diplomatic Warfare That Started A Civilization,0.22826654456016526,0.44460251927375793,0.0,0.513417119032592
+1,0,00:00,llama3.1-8b,A Fractured Peace: The Spark that Ignited Destruction,0.22709235812491788,0.31693291664123535,0.0,0.7165313105737893
+1,0,00:00,llama3.1-8b,A Fractured Peace: The Spark that Ignited Conquest,0.2243138224010344,0.313055157661438,0.0,0.7165313105737893
+1,0,00:00,llama3.1-8b,A Fractured Peace: The Spark that Ignited Conquest,0.2243138224010344,0.313055157661438,0.0,0.7165313105737893
+1,0,00:00,tinyllama,Insulting Diplomats: The Start of the Great Hundred Years War,0.20729178050792832,0.4037492573261261,0.0,0.513417119032592
+2,8,00:08,gemma2-9b,The Ambassador's Severed Head,0.33418023586273193,0.33418023586273193,0.0,1.0
+2,8,00:08,gemma2-9b,The Ambassador's Severed Head,0.33418023586273193,0.33418023586273193,0.0,1.0
+2,8,00:08,gemma2-9b,The Ambassador's Severed Head,0.33418023586273193,0.33418023586273193,0.0,1.0
+2,8,00:08,mistral-7b-v0.3,Genghis' Wrath Unleashed: A Triggered Invasion,0.33162638545036316,0.33162638545036316,0.0,1.0
+2,8,00:08,mistral-7b-v0.3,Genghis' Wrath Unleashed: A Triggered Conquest,0.32888543605804443,0.32888543605804443,0.0,1.0
+2,8,00:08,mistral-7b-v0.3,Genghis' Wrath Unleashed: A Triggered Conquest,0.32888543605804443,0.32888543605804443,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Soviet Union,0.3174326717853546,0.3174326717853546,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Soviet Union,0.3174326717853546,0.3174326717853546,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Soviet Union,0.3174326717853546,0.3174326717853546,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Soviet Union,0.3174326717853546,0.3174326717853546,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Soviet Union,0.3174326717853546,0.3174326717853546,0.0,1.0
+2,8,00:08,mistral-7b-v0.3,Genghis's Wrath Unleashed: The Quaresmeans' Fatal Misstep,0.30652037097700424,0.36211103200912476,0.0,0.846481724890614
+2,8,00:08,gemma2-9b,The Ambassador's Fatal Mistake,0.3035385012626648,0.3035385012626648,0.0,1.0
+2,8,00:08,llama3.1-8b,"Turning Points: War, Betrayal, and Consequences",0.29632461071014404,0.29632461071014404,0.0,1.0
+2,8,00:08,llama3.1-8b,Decisive Mistakes: A History of War,0.29401713609695435,0.29401713609695435,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Iron Curtain,0.2927197217941284,0.2927197217941284,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Iron Curtain,0.2927197217941284,0.2927197217941284,0.0,1.0
+2,8,00:08,gemma2-9b,The Ambassador's Fatal Gift,0.2890303432941437,0.2890303432941437,0.0,1.0
+2,8,00:08,gemma2-9b,The Ambassador's Fatal Gift,0.2890303432941437,0.2890303432941437,0.0,1.0
+2,8,00:08,llama3.1-8b,Catalysts of Destruction: Unintended Consequences,0.2817499339580536,0.2817499339580536,0.0,1.0
+2,8,00:08,llama3.1-8b,War Sparked by Betrayal and Deception,0.2802765667438507,0.2802765667438507,0.0,1.0
+2,8,00:08,llama3.1-8b,Triggering Destruction: Consequences of Betrayal,0.2776528596878052,0.2776528596878052,0.0,1.0
+2,8,00:08,llama3.1-8b,War Sparked by Diplomatic Blunders,0.2760009169578552,0.2760009169578552,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Wall,0.2751368582248688,0.2751368582248688,0.0,1.0
+2,8,00:08,tinyllama,The Fall of the Wall,0.2751368582248688,0.2751368582248688,0.0,1.0
+2,8,00:08,qwen2-7b,The Chain Reaction of Diplomatic Mistakes,0.2723831832408905,0.2723831832408905,0.0,1.0
+2,8,00:08,qwen2-7b,The Chain Reaction of Diplomatic Mistakes,0.2723831832408905,0.2723831832408905,0.0,1.0
+2,8,00:08,qwen2-7b,Miscalculation: Triggering World-Wrecking Consequences,0.2719801962375641,0.2719801962375641,0.0,1.0
+2,8,00:08,qwen2-7b,The Chain Reaction of Diplomatic Missteps,0.26661473512649536,0.26661473512649536,0.0,1.0
+2,8,00:08,qwen2-7b,The Chain Reaction of Diplomatic Missteps,0.26661473512649536,0.26661473512649536,0.0,1.0
+2,8,00:08,qwen2-7b,Miscalculation: Triggering World Destruction & Decoding Secrets,0.2568809644727529,0.3034690022468567,0.0,0.846481724890614
+2,8,00:08,qwen2-7b,Miscalculated Ambitions: The Chain of Events,0.2542549669742584,0.2542549669742584,0.0,1.0
+2,8,00:08,gemma2-9b,The Price of Broken Diplomacy,0.25233304500579834,0.25233304500579834,0.0,1.0
+2,8,00:08,qwen2-7b,The Tragic Consequences of One Severed Head,0.24645888386640974,0.2911567687988281,0.0,0.846481724890614
+2,8,00:08,llama3.1-8b,A Chain Reaction Of War And Deception,0.24602639009952001,0.2906458377838135,0.0,0.846481724890614
+2,8,00:08,llama3.1-8b,When Fate Hangs in the Balance,0.24579496681690216,0.24579496681690216,0.0,1.0
+2,8,00:08,gemma2-9b,The Price of Broken Trust,0.24552088975906372,0.24552088975906372,0.0,1.0
+2,8,00:08,gemma2-9b,The Price of Broken Trust,0.24552088975906372,0.24552088975906372,0.0,1.0
+2,8,00:08,gemma2-9b,The Price of Broken Trust,0.24552088975906372,0.24552088975906372,0.0,1.0
+2,8,00:08,llama3.1-8b,War Sparked by Betrayal,0.24487774074077606,0.24487774074077606,0.0,1.0
+2,8,00:08,llama3.1-8b,Catastrophic Decisions: A History of Unforeseen Outcomes,0.23843935860755117,0.2816828191280365,0.0,0.846481724890614
+2,8,00:08,tinyllama,The Berlin Wall,0.23518937826156616,0.23518937826156616,0.0,1.0
+2,8,00:08,mistral-7b-v0.3,The Fateful Decision That Triggered a Global Catastrophe,0.21535264109529462,0.30054882168769836,0.0,0.7165313105737893
+2,8,00:08,mistral-7b-v0.3,Genghis' Wrath Unleashed: A Diplomatic Misstep Triggers a Catastrophe,0.2038818410916887,0.3361443281173706,0.0,0.6065306597126334
+2,8,00:08,mistral-7b-v0.3,The Trigger That Started a War: Mongol Invasion of Quaresme,0.19281967560011404,0.3755614459514618,0.0,0.513417119032592
+2,8,00:08,mistral-7b-v0.3,Genghis' Wrath Unleashed: A Diplomatic Blunder Leads to Empire's Demise,0.18830871995257173,0.3667753040790558,0.0,0.513417119032592
+2,8,00:08,mistral-7b-v0.3,The Trigger That Started a Massacre: Genghiz Khan vs. Quaresmea,0.18822834368137517,0.3666187524795532,0.0,0.513417119032592
+2,8,00:08,qwen2-7b,Miscalculated Ambitions: The Chain of Events Unfolding from a Single Incident,0.11938224373904843,0.27469566464424133,0.0,0.43459820850707825
+2,8,00:08,mistral-7b-v0.3,The Trigger That Started a Global Conquest: The Fall of the Quarasmi Empire,0.11776453999771071,0.3781737983226776,0.0,0.31140322391459774
+2,8,00:08,qwen2-7b,Miscalculation Leads to Catastrophe: The Mongol Invasion and the Fall of the Quaresmian Empire,0.10429234108080364,0.3956505060195923,0.0,0.2635971381157267
+3,206,03:26,tinyllama,The Berlin Wall Falls,0.3208777606487274,0.3208777606487274,0.0,1.0
+3,206,03:26,tinyllama,The Fall of the Wall,0.31698909401893616,0.31698909401893616,0.0,1.0
+3,206,03:26,tinyllama,The Fall of the Wall,0.31698909401893616,0.31698909401893616,0.0,1.0
+3,206,03:26,qwen2-7b,Shabowski's Misunderstanding: The Fall of the柏林 Wall,0.2993726193475442,0.3536669611930847,0.0,0.846481724890614
+3,206,03:26,qwen2-7b,Shabowski's Misunderstanding: The Fall of the柏林 Wall,0.2993726193475442,0.3536669611930847,0.0,0.846481724890614
+3,206,03:26,qwen2-7b,Shabowski's Misunderstanding: The Fall of the柏林 Wall,0.2993726193475442,0.3536669611930847,0.0,0.846481724890614
+3,206,03:26,qwen2-7b,Shabowski's Misunderstood Freedom,0.29818183183670044,0.29818183183670044,0.0,1.0
+3,206,03:26,gemma2-9b,Unintended Consequences: History's Blunders,0.28940659761428833,0.28940659761428833,0.0,1.0
+3,206,03:26,gemma2-9b,Unintended Consequences: History's Blunders,0.28940659761428833,0.28940659761428833,0.0,1.0
+3,206,03:26,gemma2-9b,Unintended Consequences: History's Slip-Ups,0.28929591178894043,0.28929591178894043,0.0,1.0
+3,206,03:26,gemma2-9b,Unintended Consequences: History's Slip-Ups,0.28929591178894043,0.28929591178894043,0.0,1.0
+3,206,03:26,llama3.1-8b,The Consequences of Misguided Decisions,0.2885323166847229,0.2885323166847229,0.0,1.0
+3,206,03:26,llama3.1-8b,The Fall and Rise of Chaos,0.28811800479888916,0.28811800479888916,0.0,1.0
+3,206,03:26,gemma2-9b,Accidental Revolutions and Ecological Disasters,0.2877727746963501,0.2877727746963501,0.0,1.0
+3,206,03:26,gemma2-9b,Accidental Revolutions and Ecological Disasters,0.2877727746963501,0.2877727746963501,0.0,1.0
+3,206,03:26,gemma2-9b,Accidental Revolutions and Ecological Disasters,0.2877727746963501,0.2877727746963501,0.0,1.0
+3,206,03:26,llama3.1-8b,"Revolution, Disaster, and Deadly Discoveries",0.28766298294067383,0.28766298294067383,0.0,1.0
+3,206,03:26,llama3.1-8b,"Revolution, Disaster, and Deadly Discoveries",0.28766298294067383,0.28766298294067383,0.0,1.0
+3,206,03:26,qwen2-7b,'Teal' Discovery: GM's Unexpected Health Crisis,0.28473687171936035,0.28473687171936035,0.0,1.0
+3,206,03:26,llama3.1-8b,Mistakes That Changed History Forever,0.28431758284568787,0.28431758284568787,0.0,1.0
+3,206,03:26,gemma2-9b,Accidental Revolutions & Ecological Disasters,0.2756321430206299,0.2756321430206299,0.0,1.0
+3,206,03:26,gemma2-9b,Accidental Revolutions & Ecological Disasters,0.2756321430206299,0.2756321430206299,0.0,1.0
+3,206,03:26,gemma2-9b,Accidental Revolutions & Ecological Disasters,0.2756321430206299,0.2756321430206299,0.0,1.0
+3,206,03:26,tinyllama,The Berlin Wall,0.2713790535926819,0.2713790535926819,0.0,1.0
+3,206,03:26,tinyllama,The Berlin Wall,0.2713790535926819,0.2713790535926819,0.0,1.0
+3,206,03:26,qwen2-7b,Miggley's Mistake: Poisoning the Engine with Lead,0.2687160413680169,0.31745049357414246,0.0,0.846481724890614
+3,206,03:26,llama3.1-8b,The Consequences of Unintended Actions,0.2681369185447693,0.2681369185447693,0.0,1.0
+3,206,03:26,qwen2-7b,'Teal' Revolution: Thomas Miggsley's Lead Gasoline Discovery,0.25687657495365357,0.30346381664276123,0.0,0.846481724890614
+3,206,03:26,qwen2-7b,Shabowski's Misunderstood Revelation: The Fall of the柏林 Wall,0.2555656013368341,0.3566705286502838,0.0,0.7165313105737893
+3,206,03:26,llama3.1-8b,One Word Changes History,0.2548683285713196,0.2548683285713196,0.0,1.0
+3,206,03:26,qwen2-7b,Shabowski's Mistake: The Unexpected Fall of the Wall,0.25087739353022864,0.35012760758399963,0.0,0.7165313105737893
+3,206,03:26,llama3.1-8b,When Propaganada Goes Wrong,0.24799013137817383,0.24799013137817383,0.0,1.0
+3,206,03:26,llama3.1-8b,Revolutionary Moments Born from Error,0.22758477926254272,0.22758477926254272,0.0,1.0
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: Unintended Consequences,0.22423686151421895,0.31294775009155273,0.0,0.7165313105737893
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: Unintended Consequences,0.22423686151421895,0.31294775009155273,0.0,0.7165313105737893
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: Unintended Consequences,0.22423686151421895,0.31294775009155273,0.0,0.7165313105737893
+3,206,03:26,tinyllama,The Berlin Wall: Gunter Schabowski's Briefly Engaging Chapter Title,0.20217944131535706,0.33333754539489746,0.0,0.6065306597126334
+3,206,03:26,qwen2-7b,The Unexpected Fall of the柏林 Wall and Mao’s Misguided Famine,0.186577944792397,0.36340421438217163,0.0,0.513417119032592
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: Gunter Schabowski's Unintended Revolution,0.1743776132973172,0.3396412134170532,0.0,0.513417119032592
+3,206,03:26,tinyllama,The Fall of the Wall: Gunter Schabowski's Brief Chapter Title,0.16972965229430298,0.3305882215499878,0.0,0.513417119032592
+3,206,03:26,tinyllama,The Fall of the Iron Curtain: How East Germany Became Free,0.1510668998720542,0.3476012945175171,0.0,0.43459820850707825
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: Gunter Schabowski & the Berlin Crisis,0.1278864871305436,0.3476315140724182,0.0,0.36787944117144233
+3,206,03:26,tinyllama,The Fall of the Iron Curtain: Gunter Schabowski and the Berlin Crisis,0.12780637565446082,0.3474137485027313,0.0,0.36787944117144233
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: Berlin Wall & Four Pest Campaign,0.1256063524783073,0.34143346548080444,0.0,0.36787944117144233
+3,206,03:26,mistral-7b-v0.3,"The Fall of the Iron Curtain: Berlin Wall, Gunter Schabowski, and Unintended Consequences",0.11056591338139331,0.3550570607185364,0.0,0.31140322391459774
+3,206,03:26,llama3.1-8b,When Decissions Gone AwrY is not correct. It should be spelled correctly,0.10882419875991876,0.2958148419857025,0.0,0.36787944117144233
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: From the BerlinWall to the Four Pest Campaign,0.09186403036630433,0.34850162267684937,0.0,0.2635971381157267
+3,206,03:26,mistral-7b-v0.3,The Fall of the Iron Curtain: From the BerlinWall to the Four Pest Campaign,0.09186403036630433,0.34850162267684937,0.0,0.2635971381157267
+3,206,03:26,mistral-7b-v0.3,"The Fall of the Iron Curtain: Berlin Wall, Four Pest Campaign, and Tetra Ethyl Lead",0.07930871708149213,0.3554370105266571,0.0,0.22313016014842982
+3,206,03:26,tinyllama,The Fall of the Iron Curtain: How Gunter Schabowski's Misunderstanding Led to the Fall of Communism,0.07317908859497921,0.38744595646858215,0.0,0.18887560283756186
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Innovation and Harm,0.30883416533470154,0.30883416533470154,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Progress and Peril,0.30431410670280457,0.30431410670280457,0.0,1.0
+4,352,05:52,tinyllama,The Transformation of the Iron Industry,0.29871588945388794,0.29871588945388794,0.0,1.0
+4,352,05:52,gemma2-9b,Midgley'S Legacy: Boon or Bane?,0.287980854511261,0.287980854511261,0.0,1.0
+4,352,05:52,tinyllama,The Engineer Who Saved Constantinople,0.28490740060806274,0.28490740060806274,0.0,1.0
+4,352,05:52,mistral-7b-v0.3,The Bear That Almost Started Nuclear War,0.2823736264116232,0.3335850238800049,0.0,0.846481724890614
+4,352,05:52,mistral-7b-v0.3,The Bear That Almost Started Nuclear War,0.2823736264116232,0.3335850238800049,0.0,0.846481724890614
+4,352,05:52,mistral-7b-v0.3,The Bear That Almost Started Nuclear War,0.2823736264116232,0.3335850238800049,0.0,0.846481724890614
+4,352,05:52,mistral-7b-v0.3,The Bear That Almost Started Nuclear War,0.2823736264116232,0.3335850238800049,0.0,0.846481724890614
+4,352,05:52,mistral-7b-v0.3,The Bear That Almost Started Nuclear War,0.2823736264116232,0.3335850238800049,0.0,0.846481724890614
+4,352,05:52,mistral-7b-v0.3,The Bear That Almost Started Nuclear War,0.2823736264116232,0.3335850238800049,0.0,0.846481724890614
+4,352,05:52,tinyllama,The Byzanitian Refusal Of Engineer Orban,0.28231650590896606,0.28231650590896606,0.0,1.0
+4,352,05:52,llama3.1-8b,“Unforeseen Outcomes and Global Impact”,0.2810523211956024,0.2810523211956024,0.0,1.0
+4,352,05:52,mistral-7b-v0.3,The Bear That Stopped World War Three,0.2777861753188895,0.32816559076309204,0.0,0.846481724890614
+4,352,05:52,mistral-7b-v0.3,The Bear Who Almost Started Nuclear War,0.27545115297501926,0.32540708780288696,0.0,0.846481724890614
+4,352,05:52,mistral-7b-v0.3,The Bear Who Almost Started Nuclear War,0.27545115297501926,0.32540708780288696,0.0,0.846481724890614
+4,352,05:52,tinyllama,The Story of Orban,0.270704448223114,0.270704448223114,0.0,1.0
+4,352,05:52,tinyllama,The Story of Orban,0.270704448223114,0.270704448223114,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations and Narrow Escapes,0.2595006823539734,0.2595006823539734,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations and Narrow Escapes,0.2595006823539734,0.2595006823539734,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations and Narrow Escapes,0.2595006823539734,0.2595006823539734,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations and Near Misses,0.25722023844718933,0.25722023844718933,0.0,1.0
+4,352,05:52,llama3.1-8b,Three Tales of Unintended Consequences,0.25682979822158813,0.25682979822158813,0.0,1.0
+4,352,05:52,tinyllama,The Greatest Engineering Failure,0.2562371492385864,0.2562371492385864,0.0,1.0
+4,352,05:52,tinyllama,The Greatest Engineer of All Time,0.24950143694877625,0.24950143694877625,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations & Close Calls,0.2437165081501007,0.2437165081501007,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations & Close Calls,0.2437165081501007,0.2437165081501007,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations and Close Calls,0.23681499063968658,0.23681499063968658,0.0,1.0
+4,352,05:52,llama3.1-8b,Deadly Innovations and Close Calls,0.23681499063968658,0.23681499063968658,0.0,1.0
+4,352,05:52,tinyllama,The Byzantium Refusal: Engineer Orban's Help to Constantine,0.22480138371284622,0.31373560428619385,0.0,0.7165313105737893
+4,352,05:52,tinyllama,Engineered Help for the Byanzants during the Ottomon Attack,0.19956564849673783,0.3290281295776367,0.0,0.6065306597126334
+4,352,05:52,qwen2-7b,Innovations Unveiled: From Teal Saw Hazards to Nuclear Near-Miss,0.1989932531758914,0.32808440923690796,0.0,0.6065306597126334
+4,352,05:52,qwen2-7b,Innovations Unveiled: From Teal Saw Hazards to Nuclear Near-Miss,0.1989932531758914,0.32808440923690796,0.0,0.6065306597126334
+4,352,05:52,qwen2-7b,Innovations Unveiled: The Dual Legacy of Midgely and Orban,0.18607477196809963,0.3067854344844818,0.0,0.6065306597126334
+4,352,05:52,qwen2-7b,Innovations' Dark Impact: From Teal Saw Workers to Nuclear Near-Miss,0.1691012852032638,0.3293643295764923,0.0,0.513417119032592
+4,352,05:52,qwen2-7b,Innovations' Hidden Dangers: From Teal Saw Workers to Nuclear Near-Miss,0.16869521136711585,0.32857340574264526,0.0,0.513417119032592
+4,352,05:52,qwen2-7b,Innovations' Unintended Consequences: From Teal Saw Workers to Nuclear Near-Miss,0.16195644214448376,0.3154480755329132,0.0,0.513417119032592
+4,352,05:52,qwen2-7b,Innovations Unleashing Global Hazards: From Teal Saw Workers to Nuclear Near-Miss,0.14524249883961987,0.3341994881629944,0.0,0.43459820850707825
+4,352,05:52,mistral-7b-v0.3,The Nuclear Bear and the Byzantium Engineer: Close Calls in History,0.1435478544599723,0.33030015230178833,0.0,0.43459820850707825
+4,352,05:52,qwen2-7b,Innovations Unleashed: The Dual Legacy of Midgely and the Nuclear Bear,0.14343096233580294,0.3300311863422394,0.0,0.43459820850707825
+4,352,05:52,qwen2-7b,Innovations' Unintended Consequences: From Teal Saw Workers to Nuclear Near Miss,0.13432758503399597,0.30908453464508057,0.0,0.43459820850707825
+4,352,05:52,qwen2-7b,Innovations Unleashing Global Hazards: From Teal Saw Workers to Nuclear Near Miss,0.11978515244107399,0.32560980319976807,0.0,0.36787944117144233
+4,352,05:52,tinyllama,How did the Byzantines refuse to fund the construction of a bridge across the Bosphorus River despite their offer of assistance from engineer Orhan?,0.01671317784744921,0.3356931507587433,0.0,0.049787068367863944
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon: Fall of Constantino­ple,0.3497309386730194,0.3497309386730194,0.0,1.0
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon: Fall of Byzantium,0.347816526889801,0.347816526889801,0.0,1.0
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon: Fall of Constantanople,0.315971702337265,0.315971702337265,0.0,1.0
+5,499,08:19,gemma2-9b,"Betrayals, Cannons, and Deadly Schemes",0.31342560052871704,0.31342560052871704,0.0,1.0
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon and Fall of Byzantium,0.30679118412373557,0.36243095993995667,0.0,0.846481724890614
+5,499,08:19,gemma2-9b,"Cannonfire, Betrayal, and Deadly Schemes",0.305379718542099,0.305379718542099,0.0,1.0
+5,499,08:19,qwen2-7b,From Cannon Builder to Dynasty's Fall,0.30224964022636414,0.30224964022636414,0.0,1.0
+5,499,08:19,qwen2-7b,From Cannon Builder to Dynasty's Fall,0.30224964022636414,0.30224964022636414,0.0,1.0
+5,499,08:19,qwen2-7b,From Cannon Builder to Dynasty's Fall,0.30224964022636414,0.30224964022636414,0.0,1.0
+5,499,08:19,qwen2-7b,From Cannon Builder to Dynasty's Fall,0.30224964022636414,0.30224964022636414,0.0,1.0
+5,499,08:19,gemma2-9b,"Betrayals, Cannons, and Clashes",0.30179429054260254,0.30179429054260254,0.0,1.0
+5,499,08:19,gemma2-9b,"Betrayals, Cannons, and Clashes",0.30179429054260254,0.30179429054260254,0.0,1.0
+5,499,08:19,gemma2-9b,"Betrayals, Cannons, and Downfalls",0.28838902711868286,0.28838902711868286,0.0,1.0
+5,499,08:19,gemma2-9b,"Cannon Fire, Betrayal, and Lost Legions",0.2879545986652374,0.2879545986652374,0.0,1.0
+5,499,08:19,llama3.1-8b,Fateful Encounters: Leaders' Downfalls and Conquests,0.2877620458602905,0.2877620458602905,0.0,1.0
+5,499,08:19,gemma2-9b,"Cannons, Conspiracies, and Conquerors",0.2874198853969574,0.2874198853969574,0.0,1.0
+5,499,08:19,gemma2-9b,"Betrayals, Cannons, and Catastrophes",0.2863576412200928,0.2863576412200928,0.0,1.0
+5,499,08:19,tinyllama,How the Roman Legions Lost Their Strength,0.2799178922925215,0.3306839168071747,0.0,0.846481724890614
+5,499,08:19,llama3.1-8b,Fatal Miscalculations: Leaders' Downfalls,0.2780405580997467,0.2780405580997467,0.0,1.0
+5,499,08:19,llama3.1-8b,Fateful Encounters: Leaders Meet Their Downfalls,0.2767002582550049,0.2767002582550049,0.0,1.0
+5,499,08:19,gemma2-9b,"Cannons, Conspiracies, and Catastrophes",0.2708263099193573,0.2708263099193573,0.0,1.0
+5,499,08:19,tinyllama,The Battle of Tuduburg Forest,0.2701914608478546,0.2701914608478546,0.0,1.0
+5,499,08:19,tinyllama,The Battle of Tuduburg Forest,0.2701914608478546,0.2701914608478546,0.0,1.0
+5,499,08:19,llama3.1-8b,Fateful Alliances and Fierce Betrayals,0.2686077654361725,0.2686077654361725,0.0,1.0
+5,499,08:19,llama3.1-8b,Fatal Miscalculations and Fateful Conquests,0.2609868049621582,0.2609868049621582,0.0,1.0
+5,499,08:19,llama3.1-8b,Fateful Encounters: Consequences of Trust,0.2609425187110901,0.2609425187110901,0.0,1.0
+5,499,08:19,llama3.1-8b,Fateful Encounters: Leaders Lost and Won,0.25636306405067444,0.25636306405067444,0.0,1.0
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon and the Fall of Constantiople,0.25247247410779944,0.3523537218570709,0.0,0.7165313105737893
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon and the Fall of Constantiople,0.25247247410779944,0.3523537218570709,0.0,0.7165313105737893
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon and the Fall of Constantiople,0.25247247410779944,0.3523537218570709,0.0,0.7165313105737893
+5,499,08:19,qwen2-7b,Tangled Loyalties and Tragic Consequences,0.25187310576438904,0.25187310576438904,0.0,1.0
+5,499,08:19,qwen2-7b,Unexpected Alliances and Tragic Fates,0.25016793608665466,0.25016793608665466,0.0,1.0
+5,499,08:19,llama3.1-8b,Fateful Choices and Conquests,0.24710269272327423,0.24710269272327423,0.0,1.0
+5,499,08:19,tinyllama,The Importance of Being Earnest,0.24677257239818573,0.24677257239818573,0.0,1.0
+5,499,08:19,tinyllama,The Importance of Being Earnest,0.24677257239818573,0.24677257239818573,0.0,1.0
+5,499,08:19,mistral-7b-v0.3,Orban' s Cannon and the Fall of Constantanople,0.24506594969518494,0.3420170843601227,0.0,0.7165313105737893
+5,499,08:19,gemma2-9b,Cannon Fire & Family Feuds,0.23807334899902344,0.23807334899902344,0.0,1.0
+5,499,08:19,llama3.1-8b,Fateful Encounters: Consequences of Trust and Betrayal,0.23537438951000886,0.27806198596954346,0.0,0.846481724890614
+5,499,08:19,llama3.1-8b,Fateful Encounters: Consequences of Trust and Betrayal,0.23537438951000886,0.27806198596954346,0.0,0.846481724890614
+5,499,08:19,mistral-7b-v0.3,The Fall of Constantanople: Orban and the Basillic Cannon,0.2088052976544232,0.3442617356777191,0.0,0.6065306597126334
+5,499,08:19,mistral-7b-v0.3,The Fall of Constantanople: Orban & the Basillic Cannon,0.20154005625601956,0.3322833776473999,0.0,0.6065306597126334
+5,499,08:19,tinyllama,The Impact of the Alpine Mountains on European History,0.1871995343771298,0.30863985419273376,0.0,0.6065306597126334
+5,499,08:19,qwen2-7b,D-Day Divide: German Doubts and the Unexpected Invasion Site,0.1773620388592576,0.29242056608200073,0.0,0.6065306597126334
+5,499,08:19,qwen2-7b,D-Day Divide: German Uncertainty and the Unexpected Invasion Site,0.17660089371398502,0.29116564989089966,0.0,0.6065306597126334
+5,499,08:19,qwen2-7b,D-Day Divide: Uncertainty and Strategy in the Shadow of Invasion,0.14581043597713014,0.2839999496936798,0.0,0.513417119032592
+5,499,08:19,tinyllama,The Effectiveness of Social Media Marketing in Promoting a New Product,0.12942636626576323,0.2978069484233856,0.0,0.43459820850707825
+5,499,08:19,qwen2-7b,"Rise, Fall, and Tragic End: A Tale of Power and Betrayal",0.12914017808009606,0.2971484363079071,0.0,0.43459820850707825
+5,499,08:19,tinyllama,How did the German military fail to anticipate the Alliances' landing at Normandy?,0.10494871849858638,0.3370187282562256,0.0,0.31140322391459774
+5,499,08:19,tinyllama,How did the failure of the Roman Empire lead to the rise of Germany?,0.10079954721175385,0.3824000060558319,0.0,0.2635971381157267
+5,499,08:19,tinyllama,How did the German army's decision to focus on Callais affect the Alliances' plans for D-day?,0.06583605162189476,0.348568320274353,0.0,0.18887560283756186
+6,699,11:39,mistral-7b-v0.3,"D-Day Dilemma: Rommel Away, Hitler Hesitant",0.3820500075817108,0.3820500075817108,0.0,1.0
+6,699,11:39,llama3.1-8b,Hitler's Delayed Response Dooms Invasion Defense,0.36344680190086365,0.36344680190086365,0.0,1.0
+6,699,11:39,llama3.1-8b,Rommel's Warning Ignored: D-Day Debacle,0.34913647174835205,0.34913647174835205,0.0,1.0
+6,699,11:39,llama3.1-8b,D-Day Deception: Chaos on the Coast,0.3422965407371521,0.3422965407371521,0.0,1.0
+6,699,11:39,llama3.1-8b,D-Day Deception and German Delay,0.338603138923645,0.338603138923645,0.0,1.0
+6,699,11:39,llama3.1-8b,D-Day Deception: Chaos on the Beaches,0.3381556570529938,0.3381556570529938,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: Missed Opportunities and Chaos,0.32496994733810425,0.32496994733810425,0.0,1.0
+6,699,11:39,llama3.1-8b,Blunders of D-Day: A Turning Point,0.3140389025211334,0.3140389025211334,0.0,1.0
+6,699,11:39,qwen2-7b,Rommel's Warning Ignored: The Fateful D-Day Invasion,0.3082523894413852,0.36415717005729675,0.0,0.846481724890614
+6,699,11:39,llama3.1-8b,D-Day Disasters: A Tale of Missteps,0.3076365888118744,0.3076365888118744,0.0,1.0
+6,699,11:39,llama3.1-8b,Deception and delay on D Day,0.30425694584846497,0.30425694584846497,0.0,1.0
+6,699,11:39,qwen2-7b,Rommel's Warning & The Miscalculated D-Day Invasion,0.30340333310118034,0.3584286868572235,0.0,0.846481724890614
+6,699,11:39,mistral-7b-v0.3,Rommel's Miscalculation: The Fateful Day of D-day,0.3030563340482424,0.35801875591278076,0.0,0.846481724890614
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,gemma2-9b,D-Day: A Flawed Defense,0.2975445091724396,0.2975445091724396,0.0,1.0
+6,699,11:39,tinyllama,The Russian Sale of Alaska,0.29743415117263794,0.29743415117263794,0.0,1.0
+6,699,11:39,tinyllama,The Fall of the Romanovs,0.28513044118881226,0.28513044118881226,0.0,1.0
+6,699,11:39,mistral-7b-v0.3,"D-Day Deception: Allies Outwit Germans, Rom mel Sidelined",0.27489758245540946,0.3836504817008972,0.0,0.7165313105737893
+6,699,11:39,qwen2-7b,"Rommel's Folly: Miscommunication, Deception, and D-Day's Unstoppable Invasion",0.27428040056008773,0.38278913497924805,0.0,0.7165313105737893
+6,699,11:39,qwen2-7b,Rommel's Folly: Hitler's Muddled Decisions and the D-Day Invasion,0.24855544670667673,0.40979865193367004,0.0,0.6065306597126334
+6,699,11:39,tinyllama,The Battle Begins,0.2476900964975357,0.2476900964975357,0.0,1.0
+6,699,11:39,tinyllama,The Battle Begins,0.2476900964975357,0.2476900964975357,0.0,1.0
+6,699,11:39,qwen2-7b,Rommel's Folly: Hitler's Muddled Decisions Cost Germany the Invasion,0.2466028747822836,0.4065794050693512,0.0,0.6065306597126334
+6,699,11:39,qwen2-7b,"Rommel's Warning, Hitler's Delay: The Untimely Invasion of Normandy",0.2433115926494054,0.40115299820899963,0.0,0.6065306597126334
+6,699,11:39,tinyllama,"Act One, Scene Two",0.2337811291217804,0.2337811291217804,0.0,1.0
+6,699,11:39,llama3.1-8b,Betrayal on the Beaches,0.22756284475326538,0.22756284475326538,0.0,1.0
+6,699,11:39,llama3.1-8b,Betrayal on the Beaches,0.22756284475326538,0.22756284475326538,0.0,1.0
+6,699,11:39,tinyllama,"Act I, Scene",0.2211141586303711,0.2211141586303711,0.0,1.0
+6,699,11:39,tinyllama,The Fall of Berlin: A Timeline of Events,0.2187817781894904,0.30533456802368164,0.0,0.7165313105737893
+6,699,11:39,tinyllama,The Greatest Show on Earth,0.21631649136543274,0.21631649136543274,0.0,1.0
+6,699,11:39,mistral-7b-v0.3,Rommel's Miscalculations and Russia' Sell-Off: Pivotal Moments in WWII,0.21062658342915083,0.34726452827453613,0.0,0.6065306597126334
+6,699,11:39,qwen2-7b,Rommel's Folly and Hitler's Indecision: The Tragic Prelude to D-Day,0.2031261536372059,0.395635724067688,0.0,0.513417119032592
+6,699,11:39,qwen2-7b,Rommel's Folly and Hitler's Indecision: The Tragic Missed Opportunity at Normandy,0.1708208399263774,0.39305463433265686,0.0,0.43459820850707825
+6,699,11:39,tinyllama,The Battle of Midway: A Turning Point in World War,0.1579047772893471,0.30755650997161865,0.0,0.513417119032592
+6,699,11:39,mistral-7b-v0.3,Rommel's Misfortune and the Alaska Sale: A Tale of Two Decisions,0.14532316411932367,0.33438509702682495,0.0,0.43459820850707825
+6,699,11:39,mistral-7b-v0.3,Rommel's Miscalculation and the Alaska Sale: D-day and Russia' s Territorial Shift,0.14227401267750428,0.38674086332321167,0.0,0.36787944117144233
+6,699,11:39,mistral-7b-v0.3,Rommel's Misfortune: The Fateful D-day and the Fall of Germany' Alaskan Purchase,0.14174225315745942,0.38529539108276367,0.0,0.36787944117144233
+6,699,11:39,mistral-7b-v0.3,Rommel's Misfortune and the Alaska Sale: D-day and Russia' s Territorial Shift,0.14147242647922298,0.3845619261264801,0.0,0.36787944117144233
+6,699,11:39,mistral-7b-v0.3,Rommel's Misfortune and the Alaska Sale: D-day and Russia' s Unforeseen Territory,0.13868463043537074,0.3769839107990265,0.0,0.36787944117144233
+6,699,11:39,mistral-7b-v0.3,Rommel's Miscalculations and Alaska's Sale: Pivotal Moments in WWII and US Expansion,0.1328853357942252,0.3612197935581207,0.0,0.36787944117144233
+6,699,11:39,qwen2-7b,Rommel's Warning Ignored: The Failure of Coastal Defenses and the Miscalculations of Hitler,0.11812524671758272,0.37933212518692017,0.0,0.31140322391459774
+6,699,11:39,qwen2-7b,Rommel's Warning Ignored: The Failure of Coastal Defenses and the Deception of Operation Fortude,0.1061949782306722,0.40286847949028015,0.0,0.2635971381157267
+6,699,11:39,tinyllama,The Fall of Berlin: A Brief History of the Nazi Capital's Fall from Grace,0.08638666328151706,0.32772231101989746,0.0,0.2635971381157267
+7,780,13:00,llama3.1-8b,Fatal Miscalculations That Shaped History,0.3199867010116577,0.3199867010116577,0.0,1.0
+7,780,13:00,llama3.1-8b,Fatal Miscalculations That Shaped History,0.3199867010116577,0.3199867010116577,0.0,1.0
+7,780,13:00,llama3.1-8b,Fatal Miscalculations That Shaped History,0.3199867010116577,0.3199867010116577,0.0,1.0
+7,780,13:00,mistral-7b-v0.3,Alexander's Unraveled Empire,0.31981179118156433,0.31981179118156433,0.0,1.0
+7,780,13:00,llama3.1-8b,Fatal Miscalculations That Changed History Forever,0.3190978467464447,0.3190978467464447,0.0,1.0
+7,780,13:00,tinyllama,The Treaty That Changed World History,0.3190474510192871,0.3190474510192871,0.0,1.0
+7,780,13:00,mistral-7b-v0.3,Columbus' Miscalculated Voyage: Discovering the New World,0.31335283404495085,0.3701826333999634,0.0,0.846481724890614
+7,780,13:00,tinyllama,The Treaty Harshly Tested the British,0.3132820725440979,0.3132820725440979,0.0,1.0
+7,780,13:00,llama3.1-8b,Miscalculations That Shaped History,0.30987581610679626,0.30987581610679626,0.0,1.0
+7,780,13:00,llama3.1-8b,Miscalculations That Shaped History,0.30987581610679626,0.30987581610679626,0.0,1.0
+7,780,13:00,llama3.1-8b,Miscalculations That Shaped History,0.30987581610679626,0.30987581610679626,0.0,1.0
+7,780,13:00,llama3.1-8b,Miscalculations That Shaped History,0.30987581610679626,0.30987581610679626,0.0,1.0
+7,780,13:00,llama3.1-8b,Miscalculations That Shaped History,0.30987581610679626,0.30987581610679626,0.0,1.0
+7,780,13:00,mistral-7b-v0.3,Russia's Alaskan Purchase: A Bargain or Folly?,0.3045833064710181,0.35982266068458557,0.0,0.846481724890614
+7,780,13:00,gemma2-9b,When Miscalculations Shaped History,0.3042706549167633,0.3042706549167633,0.0,1.0
+7,780,13:00,mistral-7b-v0.3,Alexander's Legacy Unraveled,0.3035539984703064,0.3035539984703064,0.0,1.0
+7,780,13:00,gemma2-9b,"Empires, Mistakes, and Legacy",0.3018040359020233,0.3018040359020233,0.0,1.0
+7,780,13:00,mistral-7b-v0.3,Russia's Alaskan Sale: A Bargain or Folly?,0.2981561675603637,0.35222989320755005,0.0,0.846481724890614
+7,780,13:00,mistral-7b-v0.3,Alexander's Legacy Unraveled: The Wars of Diadochi,0.2894198641051311,0.34190917015075684,0.0,0.846481724890614
+7,780,13:00,qwen2-7b,Miscalculations That Reshaped History,0.2883521616458893,0.2883521616458893,0.0,1.0
+7,780,13:00,qwen2-7b,Miscalculations That Reshaped History,0.2883521616458893,0.2883521616458893,0.0,1.0
+7,780,13:00,tinyllama,The Birth of Modern Diplomacy,0.2867536246776581,0.2867536246776581,0.0,1.0
+7,780,13:00,mistral-7b-v0.3,Alexander's Unraveled Legacy: The Wars of Diadochi,0.286073385561443,0.3379557728767395,0.0,0.846481724890614
+7,780,13:00,mistral-7b-v0.3,Alexander's Unraveled Legacy: The Wars of Diadochi,0.286073385561443,0.3379557728767395,0.0,0.846481724890614
+7,780,13:00,mistral-7b-v0.3,Alexander's Unraveled Legacy: The Wars of Diadochi,0.286073385561443,0.3379557728767395,0.0,0.846481724890614
+7,780,13:00,mistral-7b-v0.3,Alexander's Unraveled Legacy: The Wars of Diadochi,0.286073385561443,0.3379557728767395,0.0,0.846481724890614
+7,780,13:00,tinyllama,The Harsh Terms of the Treaty,0.28261443972587585,0.28261443972587585,0.0,1.0
+7,780,13:00,qwen2-7b,Miscalculations and Missteps: From Alaska to Alexander,0.28005252943868875,0.3308429718017578,0.0,0.846481724890614
+7,780,13:00,qwen2-7b,Miscalculations & Missteps: From Alaska to Alexander,0.2767629128263218,0.32695674896240234,0.0,0.846481724890614
+7,780,13:00,tinyllama,The Treaty that Changed Everything,0.26193898916244507,0.26193898916244507,0.0,1.0
+7,780,13:00,tinyllama,The Reasons Behind The Treaties,0.25917917490005493,0.25917917490005493,0.0,1.0
+7,780,13:00,qwen2-7b,Miscalculations and Missteps: From Alaska to Alexander's Fall,0.25407201773346805,0.35458606481552124,0.0,0.7165313105737893
+7,780,13:00,tinyllama,The Treaty Of Versaille,0.25397083163261414,0.25397083163261414,0.0,1.0
+7,780,13:00,llama3.1-8b,Decisions That Changed Everything Forever,0.24034136533737183,0.24034136533737183,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,gemma2-9b,Empires Lost and Found,0.23708152770996094,0.23708152770996094,0.0,1.0
+7,780,13:00,qwen2-7b,Miscalculations That Changed History: From Alaska to Alexander's Fall,0.22173140694360816,0.36557328701019287,0.0,0.6065306597126334
+7,780,13:00,tinyllama,The Negotiation Process,0.21931344270706177,0.21931344270706177,0.0,1.0
+7,780,13:00,qwen2-7b,Miscalculations and Missteps: From Alaska Sale to Columbus' Mistake,0.21234461896473633,0.35009709000587463,0.0,0.6065306597126334
+7,780,13:00,tinyllama,The Treaty's Effect on the Course of World History,0.2112154640822973,0.34823542833328247,0.0,0.6065306597126334
+7,780,13:00,qwen2-7b,Miscalculations & Missteps: From Alaska Sale to Columbus' Mistake,0.20944686991245398,0.3453195095062256,0.0,0.6065306597126334
+7,780,13:00,qwen2-7b,Miscalculations & Missteps: From Alaska Sale to Columbus' Mistake,0.20944686991245398,0.3453195095062256,0.0,0.6065306597126334
+7,780,13:00,qwen2-7b,"Miscalculations & Missteps: From Alaska to Alexander, History's Unexpected Turns",0.1874589929690139,0.3651202619075775,0.0,0.513417119032592
+7,780,13:00,tinyllama,The Treaty Of Versaile And Its Impact On World History,0.16997861523141303,0.331073135137558,0.0,0.513417119032592
+8,951,15:51,qwen2-7b,‘Barbarossa Betrayal: The Worst Military Mistake',0.36120328307151794,0.36120328307151794,0.0,1.0
+8,951,15:51,qwen2-7b,“Barbarossa’s Blunder: WWII's Turning Point”,0.35450834035873413,0.35450834035873413,0.0,1.0
+8,951,15:51,qwen2-7b,"Treaty's Toll: Versailles, Hitler, and WWII",0.3539539873600006,0.3539539873600006,0.0,1.0
+8,951,15:51,tinyllama,The Origins of Operation BARBAROSSA,0.34446004033088684,0.34446004033088684,0.0,1.0
+8,951,15:51,qwen2-7b,The Shattered Peace: Treaty's Harsh Legacy,0.3318294286727905,0.3318294286727905,0.0,1.0
+8,951,15:51,tinyllama,The Treatment of Germany after the War,0.3222770038722103,0.38072529435157776,0.0,0.846481724890614
+8,951,15:51,tinyllama,The German Attack on Belgium,0.32133010029792786,0.32133010029792786,0.0,1.0
+8,951,15:51,llama3.1-8b,The Devastating Consequences of Post-War Agreements,0.3191348612308502,0.3191348612308502,0.0,1.0
+8,951,15:51,llama3.1-8b,The Devastating Consequences of War,0.308245450258255,0.308245450258255,0.0,1.0
+8,951,15:51,tinyllama,The Origins of Operation Bargraveorua,0.30692219734191895,0.30692219734191895,0.0,1.0
+8,951,15:51,qwen2-7b,Versailles' Harsh Legacy: Seeds of Conflict,0.30630284547805786,0.30630284547805786,0.0,1.0
+8,951,15:51,tinyllama,The Failure of Operation Barabara,0.3032989799976349,0.3032989799976349,0.0,1.0
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territories, and Totalitarianism",0.30032625498543297,0.3547935485839844,0.0,0.846481724890614
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territories, and Totalitarianism",0.30032625498543297,0.3547935485839844,0.0,0.846481724890614
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territories, and Totalitarianism",0.30032625498543297,0.3547935485839844,0.0,0.846481724890614
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territories, and Totalitarianism",0.30032625498543297,0.3547935485839844,0.0,0.846481724890614
+8,951,15:51,qwen2-7b,‘Operation Misjudgment: The Catastrophic Launch of Barbarossa',0.29868994821911427,0.3528604805469513,0.0,0.846481724890614
+8,951,15:51,llama3.1-8b,The Devastating Consequences of Treaty Betrayal,0.29600512981414795,0.29600512981414795,0.0,1.0
+8,951,15:51,llama3.1-8b,The Devastating Consequences of the Treaty,0.2917175889015198,0.2917175889015198,0.0,1.0
+8,951,15:51,llama3.1-8b,The Devastating Consequences of the Treaty,0.2917175889015198,0.2917175889015198,0.0,1.0
+8,951,15:51,tinyllama,The Failure of the Maginninity Line,0.28984159231185913,0.28984159231185913,0.0,1.0
+8,951,15:51,gemma2-9b,The Treaty of Versaille's Legacy,0.28737539052963257,0.28737539052963257,0.0,1.0
+8,951,15:51,gemma2-9b,The Treaty of Versaille's Legacy,0.28737539052963257,0.28737539052963257,0.0,1.0
+8,951,15:51,gemma2-9b,The Treaty of Versaille's Legacy,0.28737539052963257,0.28737539052963257,0.0,1.0
+8,951,15:51,gemma2-9b,The Treaty of Versaille's Legacy,0.28737539052963257,0.28737539052963257,0.0,1.0
+8,951,15:51,gemma2-9b,The Treaty of Versaille's Legacy,0.28737539052963257,0.28737539052963257,0.0,1.0
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territory, and Tensions",0.2865148601835015,0.33847731351852417,0.0,0.846481724890614
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territory, and Tensions",0.2865148601835015,0.33847731351852417,0.0,0.846481724890614
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territories, and Tensions",0.2858857462335076,0.3377341032028198,0.0,0.846481724890614
+8,951,15:51,llama3.1-8b,Punishing Peace: Consequences of Versaille,0.2748991847038269,0.2748991847038269,0.0,1.0
+8,951,15:51,llama3.1-8b,Punishing Peace: Consequences of Versaille,0.2748991847038269,0.2748991847038269,0.0,1.0
+8,951,15:51,gemma2-9b,The Legacy of Versailles: Seeds of Conflict,0.273132982348151,0.32266849279403687,0.0,0.846481724890614
+8,951,15:51,qwen2-7b,Versailles' Shadows: Seeds of Conflict,0.27125996351242065,0.27125996351242065,0.0,1.0
+8,951,15:51,tinyllama,The Dangers of Neglect,0.27105408906936646,0.27105408906936646,0.0,1.0
+8,951,15:51,gemma2-9b,The Legacy of Versailles and Its Aftermath,0.26692105600896976,0.31532996892929077,0.0,0.846481724890614
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territory, and Tensions Post-WWI",0.2648833994044545,0.36967456340789795,0.0,0.7165313105737893
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territory, and Tensions Post-WWI",0.2648833994044545,0.36967456340789795,0.0,0.7165313105737893
+8,951,15:51,llama3.1-8b,Treaty of Versaille's Devastating Consequences,0.26422902941703796,0.26422902941703796,0.0,1.0
+8,951,15:51,llama3.1-8b,The Fateful Consequences of Versaille,0.2559273838996887,0.2559273838996887,0.0,1.0
+8,951,15:51,gemma2-9b,The Treaty of Versaille and Its Legacy,0.2550613574433555,0.3013193905353546,0.0,0.846481724890614
+8,951,15:51,gemma2-9b,The Treaty of Versaille and Its Legacy,0.2550613574433555,0.3013193905353546,0.0,0.846481724890614
+8,951,15:51,gemma2-9b,The Treaty of Versaille and Its Legacy,0.2550613574433555,0.3013193905353546,0.0,0.846481724890614
+8,951,15:51,llama3.1-8b,The Seeds of Vengeance,0.24769945442676544,0.24769945442676544,0.0,1.0
+8,951,15:51,qwen2-7b,The Unintended Consequences of the Treaty of Paris,0.24333076357421904,0.3395954370498657,0.0,0.7165313105737893
+8,951,15:51,qwen2-7b,The Unintended Consequences of the Treaty of Paris,0.24333076357421904,0.3395954370498657,0.0,0.7165313105737893
+8,951,15:51,mistral-7b-v0.3,"The Bitter Peace: Treaties, Territory, & Tensions Post WWI",0.21833651305114266,0.35997605323791504,0.0,0.6065306597126334
+8,951,15:51,qwen2-7b,The Shattering of Peace: Treaty Lessons & The Rise of Extremism,0.15338647998479557,0.35293859243392944,0.0,0.43459820850707825
+8,951,15:51,tinyllama,The Maginote Line and Its Impact on the Outbreak of World War Two,0.12537977002193337,0.4026283621788025,0.0,0.31140322391459774
+8,951,15:51,tinyllama,The Harsh Treaty: How the Treaty Of Versaileh Shaped The Future Of Germany And Europe,0.09263191114525177,0.41514742374420166,0.0,0.22313016014842982
+8,951,15:51,tinyllama,The Harsh Terms of the Treaty: How the Treatment of Germany Led to World War Two,0.07930541511442975,0.4198817312717438,0.0,0.18887560283756186
+9,1080,18:00,qwen2-7b,Barbarossa's Betrayal: WWII's Deadliest Front,0.3848016858100891,0.3848016858100891,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Betrayal: WWII's Deadliest Front,0.3848016858100891,0.3848016858100891,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Betrayal: WWII's Deadliest Front,0.3848016858100891,0.3848016858100891,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Betrayal: WWII's Deadliest Front,0.3848016858100891,0.3848016858100891,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Betrayal: WWII's Deadliest Front,0.3848016858100891,0.3848016858100891,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Betrayal: WWII's Deadliest Front,0.3848016858100891,0.3848016858100891,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Betrayal: WWII's Deadliest Front,0.3848016858100891,0.3848016858100891,0.0,1.0
+9,1080,18:00,llama3.1-8b,Barbarossa's Blunder: Turning Point of WWII,0.3679683804512024,0.3679683804512024,0.0,1.0
+9,1080,18:00,tinyllama,The Failure of Operation Barbareus,0.3654876947402954,0.3654876947402954,0.0,1.0
+9,1080,18:00,llama3.1-8b,The Fateful Invasion of the East,0.36002999544143677,0.36002999544143677,0.0,1.0
+9,1080,18:00,llama3.1-8b,The Fateful Invasion of the East,0.36002999544143677,0.36002999544143677,0.0,1.0
+9,1080,18:00,llama3.1-8b,The Fateful Invasion of the East,0.36002999544143677,0.36002999544143677,0.0,1.0
+9,1080,18:00,llama3.1-8b,The Fateful Invasion: Barbarossa's Devastating Downfall,0.3589547276496887,0.3589547276496887,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Misstep: The Deadliest Front of WWII,0.3472893161951598,0.41027384996414185,0.0,0.846481724890614
+9,1080,18:00,llama3.1-8b,Turning Point: Barbarossa's Catastrophic Consequences,0.34446680545806885,0.34446680545806885,0.0,1.0
+9,1080,18:00,tinyllama,The Failure of Operation Barabara,0.3432791829109192,0.3432791829109192,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa: A Fatal Miscalculation,0.3356573283672333,0.3356573283672333,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa: A Fatal Miscalculation,0.3356573283672333,0.3356573283672333,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa: A Fatal Miscalculation,0.3356573283672333,0.3356573283672333,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Miscalculation,0.33471325039863586,0.33471325039863586,0.0,1.0
+9,1080,18:00,qwen2-7b,Barbarossa's Blunder: The Tragic Turn of WWII,0.31975454401737463,0.3777453601360321,0.0,0.846481724890614
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa's Fatal Miscalculation,0.31876277923583984,0.31876277923583984,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa's Fatal Miscalculation,0.31876277923583984,0.31876277923583984,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa's Fatal Miscalculation,0.31876277923583984,0.31876277923583984,0.0,1.0
+9,1080,18:00,llama3.1-8b,The Turning Point of Barbarosa,0.31722256541252136,0.31722256541252136,0.0,1.0
+9,1080,18:00,llama3.1-8b,The Turning Point of Barbarosa,0.31722256541252136,0.31722256541252136,0.0,1.0
+9,1080,18:00,tinyllama,The Battle of Tannenberg,0.3042018711566925,0.3042018711566925,0.0,1.0
+9,1080,18:00,tinyllama,The Failure of Operation Barabara: A Transcription,0.29849448848358806,0.35262957215309143,0.0,0.846481724890614
+9,1080,18:00,qwen2-7b,Barbarossa's Blunder: The Worst Military Misstep of WWII,0.2956103324256733,0.412557452917099,0.0,0.7165313105737893
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Flaw,0.28768298029899597,0.28768298029899597,0.0,1.0
+9,1080,18:00,gemma2-9b,Barbarossa's Fatal Flaw,0.28768298029899597,0.28768298029899597,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa: A Miscalculated Blitz Against the Soviets,0.2871989815621432,0.40081846714019775,0.0,0.7165313105737893
+9,1080,18:00,llama3.1-8b,Turning Point on the Frozen Front,0.2826996147632599,0.2826996147632599,0.0,1.0
+9,1080,18:00,tinyllama,The Battle for Leningard,0.28264495730400085,0.28264495730400085,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa's Fatal Flaw: A Miscalculated Invasion,0.28079455998344455,0.3317195773124695,0.0,0.846481724890614
+9,1080,18:00,tinyllama,The Soviet Response,0.2743970453739166,0.2743970453739166,0.0,1.0
+9,1080,18:00,tinyllama,The Invasion Begins,0.27163177728652954,0.27163177728652954,0.0,1.0
+9,1080,18:00,tinyllama,The Invasion Begins,0.27163177728652954,0.27163177728652954,0.0,1.0
+9,1080,18:00,tinyllama,The Siege Begins,0.27019718289375305,0.27019718289375305,0.0,1.0
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa's Fatal Flaws and Lasting Impact,0.2664575076558084,0.31478235125541687,0.0,0.846481724890614
+9,1080,18:00,llama3.1-8b,The Turning Point on the Frozen Front,0.2652921660163017,0.3134056627750397,0.0,0.846481724890614
+9,1080,18:00,mistral-7b-v0.3,Operation Barbarrossa's Fatal Flaws and the Dawn of the Eastern Bloc,0.15459408895777937,0.355717271566391,0.0,0.43459820850707825
+9,1080,18:00,tinyllama,The Failure of Operation Barbarella: How the Soviet Army Responded to Nazi Invasion,0.1355452365547755,0.4352724254131317,0.0,0.31140322391459774
+10,1166,19:26,llama3.1-8b,A Wrong Turn Ignites World War,0.3811785876750946,0.3811785876750946,0.0,1.0
+10,1166,19:26,mistral-7b-v0.3,A Fateful Misstep Sparking World War,0.375580370426178,0.375580370426178,0.0,1.0
+10,1166,19:26,mistral-7b-v0.3,A Fateful Misstep Sparks World War,0.3708329200744629,0.3708329200744629,0.0,1.0
+10,1166,19:26,llama3.1-8b,A Wrong Turn Ignites Global Conflict,0.36420658230781555,0.36420658230781555,0.0,1.0
+10,1166,19:26,tinyllama,A Wrong Turn in World History,0.3640178442001343,0.3640178442001343,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to World War,0.36261308193206787,0.36261308193206787,0.0,1.0
+10,1166,19:26,qwen2-7b,A Fateful Misstep Ignites Global Conflict,0.3619157373905182,0.3619157373905182,0.0,1.0
+10,1166,19:26,qwen2-7b,A Fateful Misstep Ignites Global Conflict,0.3619157373905182,0.3619157373905182,0.0,1.0
+10,1166,19:26,qwen2-7b,A Fateful Misstep Ignites Global Conflict,0.3619157373905182,0.3619157373905182,0.0,1.0
+10,1166,19:26,tinyllama,The Archdukes' Assassination,0.3599699139595032,0.3599699139595032,0.0,1.0
+10,1166,19:26,tinyllama,The Wrong Turn in World History,0.3567316234111786,0.3567316234111786,0.0,1.0
+10,1166,19:26,tinyllama,The Wrong Turn in World History,0.3567316234111786,0.3567316234111786,0.0,1.0
+10,1166,19:26,llama3.1-8b,A Wrong Turn Sparks Global Devastation,0.35265496373176575,0.35265496373176575,0.0,1.0
+10,1166,19:26,mistral-7b-v0.3,A Fateful Misstep Sparking WWI,0.3518456518650055,0.3518456518650055,0.0,1.0
+10,1166,19:26,qwen2-7b,A Fateful Detour Ignites Global Conflict,0.34720906615257263,0.34720906615257263,0.0,1.0
+10,1166,19:26,qwen2-7b,A Fateful Detour Ignites Global Conflict,0.34720906615257263,0.34720906615257263,0.0,1.0
+10,1166,19:26,qwen2-7b,A Fateful Detour: Igniting World War,0.3396174907684326,0.3396174907684326,0.0,1.0
+10,1166,19:26,llama3.1-8b,One Wrong Turn Changes History Forever,0.33817756175994873,0.33817756175994873,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn To War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,gemma2-9b,A Wrong Turn to War,0.3315713405609131,0.3315713405609131,0.0,1.0
+10,1166,19:26,mistral-7b-v0.3,A Fateful Wrong Turn Sparking World War,0.3232628545439487,0.3818899393081665,0.0,0.846481724890614
+10,1166,19:26,mistral-7b-v0.3,A Fateful Wrong Turn Sparking World War,0.3232628545439487,0.3818899393081665,0.0,0.846481724890614
+10,1166,19:26,mistral-7b-v0.3,A Fateful Turn: The Assassination Sparking WWI,0.3132178941733285,0.3700232207775116,0.0,0.846481724890614
+10,1166,19:26,llama3.1-8b,The Fateful Turn of Fate,0.3123975992202759,0.3123975992202759,0.0,1.0
+10,1166,19:26,llama3.1-8b,A Single Wrong Turn Sparked Global Devastation,0.3008451011883973,0.3554064929485321,0.0,0.846481724890614
+10,1166,19:26,tinyllama,The Wrong Turn that Started World War One,0.2812343847081649,0.39249420166015625,0.0,0.7165313105737893
+10,1166,19:26,tinyllama,The Wrong Turn that Started World War One,0.2812343847081649,0.39249420166015625,0.0,0.7165313105737893
+10,1166,19:26,tinyllama,The Wrong Turn that Started World War One,0.2812343847081649,0.39249420166015625,0.0,0.7165313105737893
+10,1166,19:26,tinyllama,The Wrong Turn that Started World War One,0.2812343847081649,0.39249420166015625,0.0,0.7165313105737893
+10,1166,19:26,mistral-7b-v0.3,A Fateful Misstep: The Assassination of Franz Ferdinad,0.27317377817480776,0.3812447190284729,0.0,0.7165313105737893
+10,1166,19:26,mistral-7b-v0.3,A Fateful Misstep: The Assassination of Franz Ferdinad,0.27317377817480776,0.3812447190284729,0.0,0.7165313105737893
+10,1166,19:26,mistral-7b-v0.3,A Fateful Wrong Turn Triggering World War One,0.2730222694367513,0.3810332715511322,0.0,0.7165313105737893
+10,1166,19:26,qwen2-7b,The Unexpected Chain Reaction: A Fateful Wrong Turn,0.27046364026459513,0.3774624168872833,0.0,0.7165313105737893
+10,1166,19:26,tinyllama,The Wrong Turn that Set Off World War One,0.24550905852336047,0.404776006937027,0.0,0.6065306597126334
+10,1166,19:26,tinyllama,The Wrong Turn That Set Off World War One,0.24550905852336047,0.404776006937027,0.0,0.6065306597126334
+10,1166,19:26,llama3.1-8b,A Wrong Turn Sets Off a Global Chain Reaction,0.23581488778597812,0.388793021440506,0.0,0.6065306597126334
+10,1166,19:26,llama3.1-8b,A Wrong Turn Sets Off a Global Chain Reaction,0.23581488778597812,0.388793021440506,0.0,0.6065306597126334
+10,1166,19:26,qwen2-7b,The Fateful Mistake: How a Wrong Turn Ignited World War,0.2027589137961649,0.3949204385280609,0.0,0.513417119032592
+10,1166,19:26,qwen2-7b,A Fateful Misstep: How a Mistaken Route Ignited World War,0.201550898069729,0.39256754517555237,0.0,0.513417119032592
+10,1166,19:26,qwen2-7b,A Fateful Misstep: How One Mistaken Turn Ignited World War,0.19838170438630182,0.38639479875564575,0.0,0.513417119032592
+10,1166,19:26,mistral-7b-v0.3,A Fateful Turn: The Triggering Event of World War One,0.19415732158917645,0.3781668245792389,0.0,0.513417119032592
+10,1166,19:26,llama3.1-8b,The output only includes the title as requested,0.19260858496592123,0.26880693435668945,0.0,0.7165313105737893
+10,1166,19:26,llama3.1-8b,A single word answer is acceptable if you can make it compelling,0.10659140519892721,0.2897454798221588,0.0,0.36787944117144233

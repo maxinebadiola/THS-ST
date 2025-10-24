@@ -1,0 +1,452 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: Chelybinsk Asteroid Impact,0.3648397922515869,0.3648397922515869,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: Near-Earth Asteroid Impact,0.36103737354278564,0.36103737354278564,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: Near-Earth Asteroid Impact,0.36103737354278564,0.36103737354278564,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: Near-Earth Asteroid Impacts,0.358953058719635,0.358953058719635,0.0,1.0
+1,0,00:00,gemma2-9b,The Day Earth Missed An Asteroid,0.3582747280597687,0.3582747280597687,0.0,1.0
+1,0,00:00,gemma2-9b,The Day Earth Missed An Asteroid,0.3582747280597687,0.3582747280597687,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Unseen Dangers: The Chelybinsk Asteroid Explosion,0.3550393283367157,0.3550393283367157,0.0,1.0
+1,0,00:00,llama3.1-8b,Asteroid Missed: The Chelybinsk Close Call,0.34392714500427246,0.34392714500427246,0.0,1.0
+1,0,00:00,tinyllama,The Close Approach of an Asteroid,0.33554860949516296,0.33554860949516296,0.0,1.0
+1,0,00:00,gemma2-9b,Chelyabinksk: Missed Asteroid Warning,0.3305693566799164,0.3305693566799164,0.0,1.0
+1,0,00:00,gemma2-9b,Chelyabinksk: Missed Asteroid Warning,0.3305693566799164,0.3305693566799164,0.0,1.0
+1,0,00:00,gemma2-9b,Chelyabinksk: Missed Asteroid Warning,0.3305693566799164,0.3305693566799164,0.0,1.0
+1,0,00:00,gemma2-9b,Chelyabinksk: Missed Asteroid Warning,0.3305693566799164,0.3305693566799164,0.0,1.0
+1,0,00:00,llama3.1-8b,Asteroid Surprise Over Chelybansk,0.32494959235191345,0.32494959235191345,0.0,1.0
+1,0,00:00,tinyllama,Asteroid Impacts: How Close Are They?,0.31316402554512024,0.31316402554512024,0.0,1.0
+1,0,00:00,tinyllama,Asteroid Impacts: How Close Are They?,0.31316402554512024,0.31316402554512024,0.0,1.0
+1,0,00:00,tinyllama,Asteroid Impacts: How Close Are They?,0.31316402554512024,0.31316402554512024,0.0,1.0
+1,0,00:00,llama3.1-8b,The Asteroid That Got Away,0.3096782863140106,0.3096782863140106,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: The Chelybinsk Asteroid Incident,0.30936177732593617,0.36546775698661804,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Asteroid Missed: Lessons from Chelyabsk,0.3085087239742279,0.3085087239742279,0.0,1.0
+1,0,00:00,qwen2-7b,Asteroid Apocalypse: Missteps in Space Detection,0.28686097264289856,0.28686097264289856,0.0,1.0
+1,0,00:00,tinyllama,Asteroid Close Encounters,0.2774146795272827,0.2774146795272827,0.0,1.0
+1,0,00:00,tinyllama,Asteroid Close Approach,0.2758741080760956,0.2758741080760956,0.0,1.0
+1,0,00:00,tinyllama,Asteroid Close Encounter,0.27367281913757324,0.27367281913757324,0.0,1.0
+1,0,00:00,tinyllama,Asteroid Close Encounter,0.27367281913757324,0.27367281913757324,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: Near-Earth Asteroid Impact in Chelybinsk,0.2728605106360779,0.3808075189590454,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: Near-Earth Asteroid Impact in Chelybinsk,0.2728605106360779,0.3808075189590454,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Asteroid Apocalypse: Missed Predictions and Close Calls,0.2688805474257565,0.3176448345184326,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Asteroid Apocalypse: Missed Predictions and Close Calls,0.2688805474257565,0.3176448345184326,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Asteroid Apocalypse: Missed Predictions and Close Calls,0.2688805474257565,0.3176448345184326,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Asteroid Apocalypse: Missed Predictions and Close Calls,0.2688805474257565,0.3176448345184326,0.0,0.846481724890614
+1,0,00:00,tinyllama,A Closer Look at the Chalyabinov Asteroids,0.2686164699204018,0.3173328638076782,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Asteroid Apocalypse: Missed Predictions and Hidden Hazards,0.2669110156147081,0.31531810760498047,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Asteroid Apocalypse: Missed Predictions and Hidden Hazards,0.2669110156147081,0.31531810760498047,0.0,0.846481724890614
+1,0,00:00,gemma2-9b,When Asteroids Strike Back,0.2631044387817383,0.2631044387817383,0.0,1.0
+1,0,00:00,gemma2-9b,When Asteroids Strike Back,0.2631044387817383,0.2631044387817383,0.0,1.0
+1,0,00:00,gemma2-9b,When Asteroids Strike Back,0.2631044387817383,0.2631044387817383,0.0,1.0
+1,0,00:00,gemma2-9b,When Asteroids Strike Back,0.2631044387817383,0.2631044387817383,0.0,1.0
+1,0,00:00,llama3.1-8b,Asteroid Alert: Missed Opportunities,0.2610491216182709,0.2610491216182709,0.0,1.0
+1,0,00:00,llama3.1-8b,Asteroid Alert: Missed Opportunities,0.2610491216182709,0.2610491216182709,0.0,1.0
+1,0,00:00,llama3.1-8b,Asteroid Alert: Missed Opportunity,0.25756943225860596,0.25756943225860596,0.0,1.0
+1,0,00:00,llama3.1-8b,Asteroid Alert: Missed Opportunity,0.25756943225860596,0.25756943225860596,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Unheard Impact: The Silent Explosion of Chelybinsk Asteroid,0.25718370184669875,0.35892876982688904,0.0,0.7165313105737893
+1,0,00:00,llama3.1-8b,The Day Asteroids Caught Us Off Guard,0.24957486220314076,0.2948378622531891,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,The Day Asteroids Caught Us Off Guard,0.24957486220314076,0.2948378622531891,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Asteroid Blasts and Missed Predictions: Earth's Fragile Defense,0.24638904059035616,0.3438636064529419,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Asteroid Blasts and Missed Predictions: Earth's Fragile Defense,0.24638904059035616,0.3438636064529419,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Asteroid Blasts and Missed Predictions: Earth's Fragile Defense,0.24638904059035616,0.3438636064529419,0.0,0.7165313105737893
+1,0,00:00,tinyllama,A Close Call,0.24380822479724884,0.24380822479724884,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,The Silent Shockwave: The Unseen Danger of Near-Earth Asteroids,0.21799807568639157,0.3594180643558502,0.0,0.6065306597126334
+2,106,01:46,tinyllama,The Core of Our Solar System,0.348747581243515,0.348747581243515,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Debris and Planetary Threats,0.32845205068588257,0.32845205068588257,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Debris and Planetary Threats,0.32845205068588257,0.32845205068588257,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Debris and Planetary Threats,0.32845205068588257,0.32845205068588257,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Debris and Planetary Threats,0.32845205068588257,0.32845205068588257,0.0,1.0
+2,106,01:46,mistral-7b-v0.3,The Dangerous Dance of Asteroid Collisions,0.31750282645225525,0.31750282645225525,0.0,1.0
+2,106,01:46,mistral-7b-v0.3,The Dangerous Dance of Asteroid Collisions,0.31750282645225525,0.31750282645225525,0.0,1.0
+2,106,01:46,mistral-7b-v0.3,The Dangerous Dance of Asteroid Collisions,0.31750282645225525,0.31750282645225525,0.0,1.0
+2,106,01:46,llama3.1-8b,The Unseen Threat: Detecting Deadly Asteroids,0.3141553997993469,0.3141553997993469,0.0,1.0
+2,106,01:46,llama3.1-8b,The Unseen Threat: Detecting Deadly Asteroids,0.3141553997993469,0.3141553997993469,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Debris and Threats,0.31259819865226746,0.31259819865226746,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Debris and Threats,0.31259819865226746,0.31259819865226746,0.0,1.0
+2,106,01:46,llama3.1-8b,Detecting Asteroids: A Planetary Blind Spot,0.31050634384155273,0.31050634384155273,0.0,1.0
+2,106,01:46,llama3.1-8b,The Unseen Threat: Detecting Asteroids,0.2980409860610962,0.2980409860610962,0.0,1.0
+2,106,01:46,llama3.1-8b,Detecting Asteroids: A Cosmic Challenge,0.2958998382091522,0.2958998382091522,0.0,1.0
+2,106,01:46,mistral-7b-v0.3,The Perilous Puzzle of Asteroid Detection,0.29589781165122986,0.29589781165122986,0.0,1.0
+2,106,01:46,llama3.1-8b,The Unseen Threat: Detecting Asteroids Before Impact,0.29225781433845033,0.345261812210083,0.0,0.846481724890614
+2,106,01:46,llama3.1-8b,The Unseen Threat: Detecting Asteroids Before Impact,0.29225781433845033,0.345261812210083,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,The Dangerous Dance of Asteroid Origins,0.2902388572692871,0.2902388572692871,0.0,1.0
+2,106,01:46,llama3.1-8b,Detecting Asteroids Before It's Too Late,0.2899385094642639,0.2899385094642639,0.0,1.0
+2,106,01:46,llama3.1-8b,Detecting Asteroids Before It's Too Late,0.2899385094642639,0.2899385094642639,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Threats and Treasures,0.28321969509124756,0.28321969509124756,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Threats and Treasures,0.28321969509124756,0.28321969509124756,0.0,1.0
+2,106,01:46,gemma2-9b,The Hidden Threat of Asteroids,0.28063198924064636,0.28063198924064636,0.0,1.0
+2,106,01:46,gemma2-9b,Asteroids: Cosmic Threats and Origins,0.2739710509777069,0.2739710509777069,0.0,1.0
+2,106,01:46,llama3.1-8b,The Elusive Asteroid Threat: Detection and Impact,0.2687497448020209,0.3174903094768524,0.0,0.846481724890614
+2,106,01:46,mistral-7b-v0.3,Asteroid Detection Dilemma: Unseen Threats and Earth's Fate,0.23830780580598243,0.33258533477783203,0.0,0.7165313105737893
+2,106,01:46,qwen2-7b,The Hidden Dangers: Our Struggle with Asteroid Detection,0.2319199240745193,0.32367032766342163,0.0,0.7165313105737893
+2,106,01:46,mistral-7b-v0.3,Asteroid Detection Dilemma: Unseen Threats in Our Solar System,0.21966038284535325,0.36215874552726746,0.0,0.6065306597126334
+2,106,01:46,mistral-7b-v0.3,Asteroid Detection Dilemma: Unseen Threats in Our Solar System,0.21966038284535325,0.36215874552726746,0.0,0.6065306597126334
+2,106,01:46,tinyllama,The Iron Meteorite: A Piece of a Small Planetary Body,0.21453415228412825,0.41785547137260437,0.0,0.513417119032592
+2,106,01:46,tinyllama,The Iron Meteorite: A Piece of a Small Planetary Body,0.21453415228412825,0.41785547137260437,0.0,0.513417119032592
+2,106,01:46,qwen2-7b,The Asteroid Dilemma: Detecting Hazards Before It's Too Late,0.20711365311133553,0.34147268533706665,0.0,0.6065306597126334
+2,106,01:46,qwen2-7b,The Asteroid Dilemma: Detecting Threats Before It's Too Late,0.20423040102890472,0.33671900629997253,0.0,0.6065306597126334
+2,106,01:46,qwen2-7b,"The Mysterious Asteroid Threat: Detection, Impact, and Survival Odds",0.2023803382267411,0.3336687684059143,0.0,0.6065306597126334
+2,106,01:46,qwen2-7b,"The Mysterious Asteroid Threat: Detection, Impact, and Survival Odds",0.2023803382267411,0.3336687684059143,0.0,0.6065306597126334
+2,106,01:46,tinyllama,The Iron Meteorite - A Piece of a Core Formation,0.20023146029744252,0.3899976313114166,0.0,0.513417119032592
+2,106,01:46,qwen2-7b,The Mysterious Asteroid Threat: Our Inadequate Detection and Preparedness,0.19752689009821484,0.32566678524017334,0.0,0.6065306597126334
+2,106,01:46,qwen2-7b,The Mysterious Asteroid Threat: Our Inadequate Detection and Preparedness,0.19752689009821484,0.32566678524017334,0.0,0.6065306597126334
+2,106,01:46,mistral-7b-v0.3,The Unseen Threat: Our Struggle to Detect Dangerous Asteroid Collisions,0.18764500749955576,0.3654825687408447,0.0,0.513417119032592
+2,106,01:46,qwen2-7b,The Mysterious Asteroid Threat: Detection Fails & Potential Doomsday,0.18238945062600234,0.3007093667984009,0.0,0.6065306597126334
+2,106,01:46,tinyllama,The Iron Meteorite - A Piece of a Small Planetary Body,0.18034031433411954,0.4149587154388428,0.0,0.43459820850707825
+2,106,01:46,tinyllama,The Iron Meteorite - A Piece of a Small Planetary Body,0.18034031433411954,0.4149587154388428,0.0,0.43459820850707825
+2,106,01:46,tinyllama,The Iron Meteorite - A Piece of a Small Planetary Body,0.18034031433411954,0.4149587154388428,0.0,0.43459820850707825
+2,106,01:46,tinyllama,The Iron Meteorite - A Piece of a Core Planetary Body,0.17685457176333533,0.4069381058216095,0.0,0.43459820850707825
+2,106,01:46,qwen2-7b,The Hidden Dangers of Space: Our Struggle with Asteroid Detection,0.16879368874793083,0.32876521348953247,0.0,0.513417119032592
+2,106,01:46,qwen2-7b,The Fragile Dance of Asteroids: Detecting Hazards Before It's Too Late,0.1537688758932694,0.35381847620010376,0.0,0.43459820850707825
+2,106,01:46,mistral-7b-v0.3,The Dangerous Dance of Asteroid Impact: Our Struggle to Detect and Prevent,0.1310528474494284,0.35623857378959656,0.0,0.36787944117144233
+2,106,01:46,tinyllama,The Iron Meteorite - A Piece of a Core of a Small Planetary Body,0.11605926355737653,0.44029030203819275,0.0,0.2635971381157267
+2,106,01:46,tinyllama,The Iron Meteorite - A Piece of a Small Planetary Body That Formed 4 Billion Years Ago,0.0744910857300611,0.46591946482658386,0.0,0.15987974607969388
+3,237,03:57,gemma2-9b,Ancient Meteorites and Near-Earth Threats,0.381179541349411,0.381179541349411,0.0,1.0
+3,237,03:57,gemma2-9b,Ancient Meteorites and Near-Earth Threats,0.381179541349411,0.381179541349411,0.0,1.0
+3,237,03:57,gemma2-9b,Ancient Meteorites and Near-Earth Threats,0.381179541349411,0.381179541349411,0.0,1.0
+3,237,03:57,qwen2-7b,Ancient Cosmic Threats: Uncovering Near-Earth Asteroids,0.37778088450431824,0.37778088450431824,0.0,1.0
+3,237,03:57,llama3.1-8b,Asteroid Origins and Near-Earth Threats,0.36851540207862854,0.36851540207862854,0.0,1.0
+3,237,03:57,gemma2-9b,Ancient Meteorites and Asteroid Threats,0.36577025055885315,0.36577025055885315,0.0,1.0
+3,237,03:57,gemma2-9b,Ancient Meteorites and Asteroid Threats,0.36577025055885315,0.36577025055885315,0.0,1.0
+3,237,03:57,gemma2-9b,Ancient Meteorites and Asteroid Threats,0.36577025055885315,0.36577025055885315,0.0,1.0
+3,237,03:57,gemma2-9b,Ancient Meteorites and Asteroid Threats,0.36577025055885315,0.36577025055885315,0.0,1.0
+3,237,03:57,gemma2-9b,Ancient Meteorites and Asteroid Threats,0.36577025055885315,0.36577025055885315,0.0,1.0
+3,237,03:57,gemma2-9b,Cosmic Threats: Asteroids and Impacts,0.3461272418498993,0.3461272418498993,0.0,1.0
+3,237,03:57,llama3.1-8b,Asteroid Threats: Ancient Remnants in Orbit,0.32944515347480774,0.32944515347480774,0.0,1.0
+3,237,03:57,llama3.1-8b,Asteroid Threats: Ancient Remnants in Orbit,0.32944515347480774,0.32944515347480774,0.0,1.0
+3,237,03:57,llama3.1-8b,Asteroid Threats: Finding Fragments in Space,0.3238254487514496,0.3238254487514496,0.0,1.0
+3,237,03:57,qwen2-7b,Ancient Space Collisions: Uncovering Earth's Greatest Threat,0.3119600951344021,0.3685373067855835,0.0,0.846481724890614
+3,237,03:57,qwen2-7b,Ancient Space Collisions: Uncovering Earth's Greatest Threat,0.3119600951344021,0.3685373067855835,0.0,0.846481724890614
+3,237,03:57,qwen2-7b,Ancient Space Collisions: Uncovering Earth's Greatest Threat,0.3119600951344021,0.3685373067855835,0.0,0.846481724890614
+3,237,03:57,qwen2-7b,Ancient Space Collisions: Uncovering Earth's Greatest Threat,0.3119600951344021,0.3685373067855835,0.0,0.846481724890614
+3,237,03:57,qwen2-7b,Ancient Space Collisions: Uncovering Earth's Greatest Threat,0.3119600951344021,0.3685373067855835,0.0,0.846481724890614
+3,237,03:57,tinyllama,Iron Meteorite: The Oldest Thing You'll Ever See,0.3119063304143033,0.435300350189209,0.0,0.7165313105737893
+3,237,03:57,tinyllama,Iron Meteorite: The Oldest Object You'll Ever See,0.3107548853593714,0.43369337916374207,0.0,0.7165313105737893
+3,237,03:57,tinyllama,Iron Meteorite: The Oldest Object You'll Ever See,0.3107548853593714,0.43369337916374207,0.0,0.7165313105737893
+3,237,03:57,llama3.1-8b,The Ancient Threat from Space,0.305619478225708,0.305619478225708,0.0,1.0
+3,237,03:57,llama3.1-8b,The Ancient Threat from Space,0.305619478225708,0.305619478225708,0.0,1.0
+3,237,03:57,llama3.1-8b,The Ancient Threat from Space,0.305619478225708,0.305619478225708,0.0,1.0
+3,237,03:57,tinyllama,Iron Meteorite - The Oldest Object Ever Seen,0.29983109466835267,0.41844800114631653,0.0,0.7165313105737893
+3,237,03:57,tinyllama,Iron Meteorite - The Oldest Object Ever Seen,0.29983109466835267,0.41844800114631653,0.0,0.7165313105737893
+3,237,03:57,llama3.1-8b,Asteroid Threats: Finding Fragments,0.2934771776199341,0.2934771776199341,0.0,1.0
+3,237,03:57,llama3.1-8b,The Ancient Threats from Space,0.2871887683868408,0.2871887683868408,0.0,1.0
+3,237,03:57,gemma2-9b,"Ancient Iron, Modern Threats",0.2842024266719818,0.2842024266719818,0.0,1.0
+3,237,03:57,qwen2-7b,Ancient Cosmic Fragments: The Threat of Near-Earth Asteroids,0.28331858546123717,0.3954029381275177,0.0,0.7165313105737893
+3,237,03:57,llama3.1-8b,The Ancient Core: A Threat from Space,0.28228944350797697,0.33348557353019714,0.0,0.846481724890614
+3,237,03:57,mistral-7b-v0.3,Asteroid Threat: Finding Ancient Cores in Near-Earth Orbit,0.27953778580209226,0.39012640714645386,0.0,0.7165313105737893
+3,237,03:57,tinyllama,Iron Meteorite - The Oldest Thing You'll Ever See,0.2659114829228648,0.43841391801834106,0.0,0.6065306597126334
+3,237,03:57,tinyllama,Iron Meteorite - The Oldest Thing You'll Ever See,0.2659114829228648,0.43841391801834106,0.0,0.6065306597126334
+3,237,03:57,tinyllama,Iron Meteorite - The Oldest Thing You'll Ever See,0.2659114829228648,0.43841391801834106,0.0,0.6065306597126334
+3,237,03:57,tinyllama,Iron Meteorite - The Oldest Thing You'll Ever See,0.2659114829228648,0.43841391801834106,0.0,0.6065306597126334
+3,237,03:57,qwen2-7b,Ancient Space Collisions Unearthed: The Threat of Near-Earth Asteroids,0.23867635826158712,0.3935107886791229,0.0,0.6065306597126334
+3,237,03:57,qwen2-7b,Ancient Space Collisions Unearthed: The Threat of Near-Earth Asteroids,0.23867635826158712,0.3935107886791229,0.0,0.6065306597126334
+3,237,03:57,qwen2-7b,Ancient Space Collisions Unveiled: The Threat of Near-Earth Asteroids,0.2374850037865556,0.3915465772151947,0.0,0.6065306597126334
+3,237,03:57,tinyllama,Iron Meteorite - The Oldest Object You Will Ever See,0.22223971661347156,0.43286386132240295,0.0,0.513417119032592
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.17997804588946392,0.41412514448165894,0.0,0.43459820850707825
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.17997804588946392,0.41412514448165894,0.0,0.43459820850707825
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.17997804588946392,0.41412514448165894,0.0,0.43459820850707825
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.17997804588946392,0.41412514448165894,0.0,0.43459820850707825
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.17997804588946392,0.41412514448165894,0.0,0.43459820850707825
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.17997804588946392,0.41412514448165894,0.0,0.43459820850707825
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.17997804588946392,0.41412514448165894,0.0,0.43459820850707825
+3,237,03:57,mistral-7b-v0.3,The Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects,0.15531592416869025,0.42219245433807373,0.0,0.36787944117144233
+3,237,03:57,mistral-7b-v0.3,Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Object Threat,0.15408568072504356,0.41884830594062805,0.0,0.36787944117144233
+4,298,04:58,llama3.1-8b,The Elusive Nature of Near-Earth Asteroids,0.38101840019226074,0.38101840019226074,0.0,1.0
+4,298,04:58,llama3.1-8b,The Elusive Nature of Near-Earth Asteroids,0.38101840019226074,0.38101840019226074,0.0,1.0
+4,298,04:58,qwen2-7b,The Hidden Hazards: Detecting Near-Earth Asteroids,0.3742087185382843,0.3742087185382843,0.0,1.0
+4,298,04:58,qwen2-7b,The Hidden Hazards: Detecting Near-Earth Asteroids,0.3742087185382843,0.3742087185382843,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Threat of Near-Earth Asteroids,0.3722476363182068,0.3722476363182068,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Threat of Near-Earth Asteroids,0.3722476363182068,0.3722476363182068,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Threat of Near-Earth Asteroids,0.3722476363182068,0.3722476363182068,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Threat of Near-Earth Asteroids,0.3722476363182068,0.3722476363182068,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Dangers of Near-Earth Asteroids,0.37213876843452454,0.37213876843452454,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Threats of Near-Earth Asteroids,0.3714026212692261,0.3714026212692261,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Threats of Near-Earth Asteroids,0.3714026212692261,0.3714026212692261,0.0,1.0
+4,298,04:58,llama3.1-8b,The Hidden Threats of Near-Earth Asteroids,0.3714026212692261,0.3714026212692261,0.0,1.0
+4,298,04:58,mistral-7b-v0.3,Opposition Effect and Near-Earther Asteroid Risks,0.35111361742019653,0.35111361742019653,0.0,1.0
+4,298,04:58,mistral-7b-v0.3,The Invisible Peril: Near-Earther Asteroid Risks,0.33361026644706726,0.33361026644706726,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Dangers: Unseen Asteroids Threaten Earth,0.3311443328857422,0.3311443328857422,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Dangers: Unseen Asteroids Threaten Earth,0.3311443328857422,0.3311443328857422,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Dangers: Unseen Asteroids Threaten Earth,0.3311443328857422,0.3311443328857422,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Dangers: Unseen Asteroids Threaten Earth,0.3311443328857422,0.3311443328857422,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Dangers: Unseen Asteroids Threaten Earth,0.3311443328857422,0.3311443328857422,0.0,1.0
+4,298,04:58,tinyllama,Astrophysics: What's Out There?,0.30747872591018677,0.30747872591018677,0.0,1.0
+4,298,04:58,tinyllama,Astrophysics and Near-early impact detection,0.30312612652778625,0.30312612652778625,0.0,1.0
+4,298,04:58,mistral-7b-v0.3,The Invisible Threat: Near-Earther Asteroid Detection Challenges,0.3001696197895266,0.3546085059642792,0.0,0.846481724890614
+4,298,04:58,mistral-7b-v0.3,The Invisible Threat: Near-Earther Asteroid Detection Challenges,0.3001696197895266,0.3546085059642792,0.0,0.846481724890614
+4,298,04:58,mistral-7b-v0.3,The Invisible Threat: Near-Earther Asteroid Detection Challenges,0.3001696197895266,0.3546085059642792,0.0,0.846481724890614
+4,298,04:58,mistral-7b-v0.3,The Hidden Menace: Near-Earthers Beyond Our Sight,0.29024562346535043,0.34288468956947327,0.0,0.846481724890614
+4,298,04:58,gemma2-9b,Hidden Threats: Unseen Asteroids,0.2784683406352997,0.2784683406352997,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Threats: Unseen Asteroids,0.2784683406352997,0.2784683406352997,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Threats: Unseen Asteroids,0.2784683406352997,0.2784683406352997,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Threats: Unseen Asteroids,0.2784683406352997,0.2784683406352997,0.0,1.0
+4,298,04:58,gemma2-9b,Hidden Threats: Unseen Asteroids,0.2784683406352997,0.2784683406352997,0.0,1.0
+4,298,04:58,tinyllama,Astrophysics and Impact Hazards,0.2772485911846161,0.2772485911846161,0.0,1.0
+4,298,04:58,tinyllama,Asteroids - A Threat to Our Planet,0.2760379105884168,0.32610026001930237,0.0,0.846481724890614
+4,298,04:58,tinyllama,The Universe Expands Faster Than We Thought,0.2746958277373591,0.324514776468277,0.0,0.846481724890614
+4,298,04:58,tinyllama,What Is the Limit to Predicting Near-Asteroid Impact?,0.2730780041522308,0.3811110556125641,0.0,0.7165313105737893
+4,298,04:58,tinyllama,From the Main Belt to Near-Early Earth Objects,0.27286495232987856,0.38081371784210205,0.0,0.7165313105737893
+4,298,04:58,mistral-7b-v0.3,The Hidden Menace: Unseen Near-Eath Asteroid Threat,0.2680848587940796,0.3167048394680023,0.0,0.846481724890614
+4,298,04:58,mistral-7b-v0.3,Opposition Effect and the Unseen Asteroid Threat,0.26283781938886935,0.3105061948299408,0.0,0.846481724890614
+4,298,04:58,tinyllama,Astrophysics: A Brief Introduction,0.2619505822658539,0.2619505822658539,0.0,1.0
+4,298,04:58,tinyllama,What Is Astrobiology?,0.2560175359249115,0.2560175359249115,0.0,1.0
+4,298,04:58,tinyllama,What is Astrobiology?,0.2560175359249115,0.2560175359249115,0.0,1.0
+4,298,04:58,mistral-7b-v0.3,The Invisible Threat: Near-Earthers Hiding in Solar Glare,0.2481171370846787,0.34627535939216614,0.0,0.7165313105737893
+4,298,04:58,qwen2-7b,The Hidden Threats: Unseen Asteroids and Predictive Challenges,0.2267001651040377,0.31638556718826294,0.0,0.7165313105737893
+4,298,04:58,qwen2-7b,The Hidden Threats: Unseen Asteroids and Predictive Challenges,0.2267001651040377,0.31638556718826294,0.0,0.7165313105737893
+4,298,04:58,qwen2-7b,The Hidden Threats: Unseen Asteroids and Predictive Challenges,0.2267001651040377,0.31638556718826294,0.0,0.7165313105737893
+4,298,04:58,qwen2-7b,The Hidden Threats: Unseen Asteroids and Predictive Challenges,0.2267001651040377,0.31638556718826294,0.0,0.7165313105737893
+4,298,04:58,qwen2-7b,The Hidden Threats: Unseen Asteroids and Their Challenges,0.21682779594024734,0.30260756611824036,0.0,0.7165313105737893
+4,298,04:58,qwen2-7b,The Hidden Threats: Unseen Asteroids and Their Challenges,0.21682779594024734,0.30260756611824036,0.0,0.7165313105737893
+4,298,04:58,mistral-7b-v0.3,Opposition Effect and the Hidden Hazards of Near-Earther Asteroid Detection,0.19047468679471335,0.37099403142929077,0.0,0.513417119032592
+4,298,04:58,qwen2-7b,The Hidden Hazards: Unseen Asteroids and the Challenge of Prediction,0.17195180449106745,0.3349163830280304,0.0,0.513417119032592
+4,298,04:58,qwen2-7b,The Hidden Hazards: Unseen Asteroids and the Challenges of Prediction,0.16721520466470627,0.32569074630737305,0.0,0.513417119032592
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Trajectory of Near-Earth Asteroids,0.3499859571456909,0.3499859571456909,0.0,1.0
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Trajectory of Near-Earth Asteroids,0.3499859571456909,0.3499859571456909,0.0,1.0
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Trajectory of Near-Earth Asteroids,0.3499859571456909,0.3499859571456909,0.0,1.0
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Path of Near-Earth Asteroids,0.34315964579582214,0.34315964579582214,0.0,1.0
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Path of Near-Earth Asteroids,0.34315964579582214,0.34315964579582214,0.0,1.0
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Fate of Near-Earth Asteroids,0.3378559648990631,0.3378559648990631,0.0,1.0
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Fate of Near-Earth Asteroids,0.3378559648990631,0.3378559648990631,0.0,1.0
+5,399,06:39,gemma2-9b,The Vaporized Iron Meteorite,0.3285483419895172,0.3285483419895172,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths: Limits of Accuracy,0.32090747356414795,0.32090747356414795,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths: Limits of Accuracy,0.32090747356414795,0.32090747356414795,0.0,1.0
+5,399,06:39,gemma2-9b,The Limits of Asteroid Prediction,0.32087284326553345,0.32087284326553345,0.0,1.0
+5,399,06:39,gemma2-9b,The Limits of Asteroid Prediction,0.32087284326553345,0.32087284326553345,0.0,1.0
+5,399,06:39,gemma2-9b,The Limits of Asteroid Prediction,0.32087284326553345,0.32087284326553345,0.0,1.0
+5,399,06:39,gemma2-9b,The Limits of Asteroid Prediction,0.32087284326553345,0.32087284326553345,0.0,1.0
+5,399,06:39,gemma2-9b,The Limits of Asteroid Prediction,0.32087284326553345,0.32087284326553345,0.0,1.0
+5,399,06:39,gemma2-9b,The Futile Search for Vaporized Iron,0.31383782625198364,0.31383782625198364,0.0,1.0
+5,399,06:39,gemma2-9b,The Futile Search for Vaporized Iron,0.31383782625198364,0.31383782625198364,0.0,1.0
+5,399,06:39,gemma2-9b,The Futile Search for Vaporized Iron,0.31383782625198364,0.31383782625198364,0.0,1.0
+5,399,06:39,gemma2-9b,The Vaporized Meteorite Hunt,0.3129422962665558,0.3129422962665558,0.0,1.0
+5,399,06:39,llama3.1-8b,The Limitations Of Asteroid prediction,0.30600205063819885,0.30600205063819885,0.0,1.0
+5,399,06:39,tinyllama,The Mystery of Beringer Craters,0.3031742572784424,0.3031742572784424,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths and Impact Consequences,0.3004269599914551,0.3004269599914551,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths and Impact Consequences,0.3004269599914551,0.3004269599914551,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths and Impact Consequences,0.3004269599914551,0.3004269599914551,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths and Impact Consequences,0.3004269599914551,0.3004269599914551,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths and Impact Consequences,0.3004269599914551,0.3004269599914551,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths: Limitations and Implications,0.2870853841304779,0.2870853841304779,0.0,1.0
+5,399,06:39,llama3.1-8b,Predicting Asteroid Paths and the Limits of Science,0.22659238996648015,0.31623515486717224,0.0,0.7165313105737893
+5,399,06:39,qwen2-7b,Asteroid Predictions and Impact Hazards: Limits and Lessons,0.2248358281940985,0.3137836754322052,0.0,0.7165313105737893
+5,399,06:39,qwen2-7b,"Chaos, Limitations & Impact Mysteries: Predicting Asteroids' Futures",0.22357191005624294,0.3120197355747223,0.0,0.7165313105737893
+5,399,06:39,mistral-7b-v0.3,The Limits of Asteroid Prediction and the Vaporized Meteorite,0.20964060871902357,0.3456389307975769,0.0,0.6065306597126334
+5,399,06:39,mistral-7b-v0.3,The Limits of Asteroid Prediction and the Vaporized Meteorite,0.20964060871902357,0.3456389307975769,0.0,0.6065306597126334
+5,399,06:39,qwen2-7b,Chaos in Space: Limiting Predictions and Mysterious Craters,0.20912237543086384,0.29185378551483154,0.0,0.7165313105737893
+5,399,06:39,qwen2-7b,"The Limit of Predictability: Asteroids, Chaos, and Bering's Quest",0.20092230819532586,0.3312648832798004,0.0,0.6065306597126334
+5,399,06:39,tinyllama,How Did a Meteorite Impact Create a Crater on Earth?,0.19373807357265532,0.37735024094581604,0.0,0.513417119032592
+5,399,06:39,qwen2-7b,Chasing Asteroids: Limits of Prediction & Misadventures in Discovery,0.18205979820806903,0.3001658618450165,0.0,0.6065306597126334
+5,399,06:39,tinyllama,How Did An Impact Vaporize A Projectile Into A Gas?,0.1817436020343009,0.3539882004261017,0.0,0.513417119032592
+5,399,06:39,qwen2-7b,Chaos in Asteroid Prediction and the Mystery of Bering Crater,0.17979417526259014,0.35019123554229736,0.0,0.513417119032592
+5,399,06:39,qwen2-7b,The Limits of Prediction and the Mystery of Meteorite Impacts,0.17733400035980368,0.3453994691371918,0.0,0.513417119032592
+5,399,06:39,qwen2-7b,The Limits of Predictability and the Mystery of Impact Craters,0.1741469503831181,0.3391919434070587,0.0,0.513417119032592
+5,399,06:39,tinyllama,How Did Daniel Berington Predict the Location of a Near-Earth Asteroid?,0.16682657452133973,0.3838639259338379,0.0,0.43459820850707825
+5,399,06:39,tinyllama,How did a meteoroid impact on a planet cause its destruction?,0.1572762354120025,0.3618888258934021,0.0,0.43459820850707825
+5,399,06:39,mistral-7b-v0.3,The Unpredictable Path of Asteroids and the Mystery of Bering Crater,0.15537544642866746,0.3575151562690735,0.0,0.43459820850707825
+5,399,06:39,qwen2-7b,Chasing Asteroids: Limits of Prediction & The Mystery of Beringers Crater,0.15231633096902059,0.3504762053489685,0.0,0.43459820850707825
+5,399,06:39,tinyllama,How Did the Impact of an Iron Meteorite Create the Beringer Craters?,0.14505523052433317,0.39430099725723267,0.0,0.36787944117144233
+5,399,06:39,tinyllama,How did a meteoroid impact on a planetary surface create a crater?,0.135529551724381,0.3684075176715851,0.0,0.36787944117144233
+5,399,06:39,qwen2-7b,The Limitations of Predicting Asteroid Trajectories and the Mystery of Bering Crater,0.12973949945005328,0.35266852378845215,0.0,0.36787944117144233
+5,399,06:39,tinyllama,How Did the Impact of a Meteorite Change the Geology of a Crater?,0.1256122660917673,0.40337496995925903,0.0,0.31140322391459774
+5,399,06:39,tinyllama,How Did the Impact of a Meteorite on a Deserted Crater Change Geological History?,0.10336596862065045,0.3921361565589905,0.0,0.2635971381157267
+5,399,06:39,tinyllama,How Did the Impact of a Meteorite on a Deserted Island Change the Island's Geology?,0.08751523816846322,0.3922160863876343,0.0,0.22313016014842982
+6,575,09:35,mistral-7b-v0.3,The Cataclysmic Collision: Meteors vs. Dinosaurs,0.35482078790664673,0.35482078790664673,0.0,1.0
+6,575,09:35,mistral-7b-v0.3,The Cataclysmic Collision: Meteor vs. Dinosaurs,0.34746095538139343,0.34746095538139343,0.0,1.0
+6,575,09:35,llama3.1-8b,The Devastating Impact of Ancient Asteroids,0.34665992856025696,0.34665992856025696,0.0,1.0
+6,575,09:35,llama3.1-8b,The Devastating Impact of Ancient Asteroids,0.34665992856025696,0.34665992856025696,0.0,1.0
+6,575,09:35,llama3.1-8b,Meteorite Impacts: Global Devastation Ensues,0.3432368338108063,0.3432368338108063,0.0,1.0
+6,575,09:35,llama3.1-8b,Meteorites and Mass Extinctions,0.3407812714576721,0.3407812714576721,0.0,1.0
+6,575,09:35,llama3.1-8b,Meteorites and Mass Extinctions,0.3407812714576721,0.3407812714576721,0.0,1.0
+6,575,09:35,llama3.1-8b,Meteorites and Mass Extinctions,0.3407812714576721,0.3407812714576721,0.0,1.0
+6,575,09:35,llama3.1-8b,Meteorites and Mass Extinctions,0.3407812714576721,0.3407812714576721,0.0,1.0
+6,575,09:35,llama3.1-8b,Meteorites and Mass Extinctions,0.3407812714576721,0.3407812714576721,0.0,1.0
+6,575,09:35,tinyllama,The Asteroid Impact That Wiped Out Dinosaurs,0.34020067171081303,0.4018996059894562,0.0,0.846481724890614
+6,575,09:35,mistral-7b-v0.3,The Cosmic Collision: Meteor vs. Dinosaurs,0.33963415026664734,0.33963415026664734,0.0,1.0
+6,575,09:35,tinyllama,The Impact of a 120 Meter Asteroid,0.33838888508900644,0.3997592329978943,0.0,0.846481724890614
+6,575,09:35,llama3.1-8b,Meteorites and Mass Extinctions Explained,0.3365069627761841,0.3365069627761841,0.0,1.0
+6,575,09:35,llama3.1-8b,Asteroid Impacts: Global Consequences,0.3332572877407074,0.3332572877407074,0.0,1.0
+6,575,09:35,tinyllama,A Brief History of Impact Cratering,0.3256566524505615,0.3256566524505615,0.0,1.0
+6,575,09:35,gemma2-9b,Cosmic Impacts and Dinosaur Extinction,0.3222608268260956,0.3222608268260956,0.0,1.0
+6,575,09:35,tinyllama,The Age of Impactor,0.3220888376235962,0.3220888376235962,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Extinction Events: Cosmic Impacts,0.3210950791835785,0.3210950791835785,0.0,1.0
+6,575,09:35,gemma2-9b,Dinosaur Extinction: Cosmic Catastrophe,0.3112800419330597,0.3112800419330597,0.0,1.0
+6,575,09:35,qwen2-7b,Impact of Cataclysmic Asteroids: Global Destruction Unleashed,0.29132862378106295,0.344164103269577,0.0,0.846481724890614
+6,575,09:35,qwen2-7b,Impact of Cataclysmic Asteroids: Global Devastation Unfolds,0.2847868023771584,0.33643585443496704,0.0,0.846481724890614
+6,575,09:35,tinyllama,The 1908 Explosion,0.2766282856464386,0.2766282856464386,0.0,1.0
+6,575,09:35,tinyllama,The 1908 Impact,0.2641104757785797,0.2641104757785797,0.0,1.0
+6,575,09:35,mistral-7b-v0.3,Meteor Impact vs Nuclear Blast: A Terrible Similarity,0.25609903167885667,0.35741499066352844,0.0,0.7165313105737893
+6,575,09:35,mistral-7b-v0.3,Meteor Impact vs. Nuclear Blast: A Terrestrial Cataclysm,0.2546609051851076,0.3554079234600067,0.0,0.7165313105737893
+6,575,09:35,mistral-7b-v0.3,Meteor Impact vs Nuclear Blast: A Terrestrial Cataclysm,0.2525806763312994,0.3525047302246094,0.0,0.7165313105737893
+6,575,09:35,mistral-7b-v0.3,Meteor Impact vs. Nuclear Explosion: A Comparative Study,0.2504133005909502,0.34947991371154785,0.0,0.7165313105737893
+6,575,09:35,mistral-7b-v0.3,Meteor Impact vs. Nuclear Explosion: A Comparative Study,0.2504133005909502,0.34947991371154785,0.0,0.7165313105737893
+6,575,09:35,tinyllama,A Brief History of Meteorites and Impact Cratering,0.24940877310019421,0.3480779826641083,0.0,0.7165313105737893
+6,575,09:35,mistral-7b-v0.3,Meteor Impact vs Nuclear Explosion: A Comparative Study,0.2460422040965559,0.34337955713272095,0.0,0.7165313105737893
+6,575,09:35,mistral-7b-v0.3,Meteor Impact vs Nuclear Explosion: A Comparative Study,0.2460422040965559,0.34337955713272095,0.0,0.7165313105737893
+6,575,09:35,qwen2-7b,Impact of Catastrophic Asteroids: From Meteorites to Nuclear Explosions,0.22540830485933286,0.37163546681404114,0.0,0.6065306597126334
+6,575,09:35,tinyllama,How Did the Earth Survive a 120 Meter-Diameter Asteroid Impact?,0.21964039421206308,0.42780107259750366,0.0,0.513417119032592
+6,575,09:35,qwen2-7b,"Impact of Catastrophic Asteroids: Energy, Destruction, and Global Consequences",0.21514717968380398,0.3547177314758301,0.0,0.6065306597126334
+6,575,09:35,tinyllama,Astonishing Impact: How a 120 Meter Asteroid Wiped Out Dinosaurs,0.21044550485760724,0.40989187359809875,0.0,0.513417119032592
+6,575,09:35,qwen2-7b,Impact of Cataclysmic Asteroids: From T-Rox to Global Disruption,0.2083866208268654,0.3435714542865753,0.0,0.6065306597126334
+6,575,09:35,qwen2-7b,Impact of Catastrophic Asteroids: From T-Rox to Global Disruption,0.20440179787196244,0.33700159192085266,0.0,0.6065306597126334
+6,575,09:35,qwen2-7b,Impact of Catastrophic Asteroids: From T-Rox to Global Disruption,0.20440179787196244,0.33700159192085266,0.0,0.6065306597126334
+6,575,09:35,qwen2-7b,Impact of Catastrophic Asteroids: From Tiny Meteors to Gigantic Collisions,0.18326270284919993,0.35694700479507446,0.0,0.513417119032592
+6,575,09:35,tinyllama,What Was It Like When A 12-Mile Size Asteroid Hit Earth?,0.18285205085175582,0.420738160610199,0.0,0.43459820850707825
+6,575,09:35,qwen2-7b,Impact of Cataclysmic Asteroids: From Nuclear Bombs to Extinction Events,0.1825498741139565,0.3555586040019989,0.0,0.513417119032592
+6,575,09:35,qwen2-7b,Impact of Cataclysmic Asteroids: From Nuclear Bombs to Extinction Events,0.1825498741139565,0.3555586040019989,0.0,0.513417119032592
+7,646,10:46,llama3.1-8b,The Asteroid Threat: Impact and Consequences,0.30524060130119324,0.30524060130119324,0.0,1.0
+7,646,10:46,tinyllama,Asteroid Impacts: How Close Are We?,0.3027978539466858,0.3027978539466858,0.0,1.0
+7,646,10:46,llama3.1-8b,The Unseen Threat of Asteroid Impacts,0.30025532841682434,0.30025532841682434,0.0,1.0
+7,646,10:46,tinyllama,The Dangerous Impact of Asteroids,0.29955556988716125,0.29955556988716125,0.0,1.0
+7,646,10:46,tinyllama,The Greatest Threat of Asteroids Remains,0.29753899574279785,0.29753899574279785,0.0,1.0
+7,646,10:46,tinyllama,The Greatest Threat of Asteroids Remains,0.29753899574279785,0.29753899574279785,0.0,1.0
+7,646,10:46,llama3.1-8b,Asteroid Impacts: Global Consequences and Risks,0.2947821021080017,0.2947821021080017,0.0,1.0
+7,646,10:46,llama3.1-8b,Asteroid Impacts: Global Consequences and Risks,0.2947821021080017,0.2947821021080017,0.0,1.0
+7,646,10:46,llama3.1-8b,Asteroid Impact: Global Consequences and Threats,0.2940048575401306,0.2940048575401306,0.0,1.0
+7,646,10:46,gemma2-9b,The Asteroid Threat: Near and Far,0.2909589409828186,0.2909589409828186,0.0,1.0
+7,646,10:46,gemma2-9b,The Asteroid Threat: Near and Far,0.2909589409828186,0.2909589409828186,0.0,1.0
+7,646,10:46,gemma2-9b,The Asteroid Threat: Near and Far,0.2909589409828186,0.2909589409828186,0.0,1.0
+7,646,10:46,llama3.1-8b,Asteroid Impacts: Global Consequences Unveiled,0.28468215465545654,0.28468215465545654,0.0,1.0
+7,646,10:46,llama3.1-8b,Asteroid Impacts: Global Devastation and Survival,0.28445643186569214,0.28445643186569214,0.0,1.0
+7,646,10:46,qwen2-7b,Asteroid Apocalypse: Probabilities and Threats,0.2830537259578705,0.2830537259578705,0.0,1.0
+7,646,10:46,qwen2-7b,Asteroid Apocalypse: Probabilities and Threats,0.2830537259578705,0.2830537259578705,0.0,1.0
+7,646,10:46,llama3.1-8b,Asteroid Impacts: Threats Beyond Extinction,0.28132396936416626,0.28132396936416626,0.0,1.0
+7,646,10:46,qwen2-7b,Asteroid Apocalypse: Our Odds and Threats,0.27989599108695984,0.27989599108695984,0.0,1.0
+7,646,10:46,tinyllama,The Threat of Small Bodies,0.27988407015800476,0.27988407015800476,0.0,1.0
+7,646,10:46,tinyllama,Asteroid Impacts and Their Implications,0.27948233485221863,0.27948233485221863,0.0,1.0
+7,646,10:46,llama3.1-8b,Asteroid Impact: Global Consequences Unveiled,0.27786827087402344,0.27786827087402344,0.0,1.0
+7,646,10:46,qwen2-7b,Asteroid Apocalypse: Probabilities and Perils,0.27773517370224,0.27773517370224,0.0,1.0
+7,646,10:46,mistral-7b-v0.3,Dinosaur-Style Extinction: Asteroid Impact Threat & Chances,0.2745935822148904,0.32439398765563965,0.0,0.846481724890614
+7,646,10:46,gemma2-9b,Asteroid Impacts: Threat and Reality,0.27405819296836853,0.27405819296836853,0.0,1.0
+7,646,10:46,gemma2-9b,"Asteroid Threats: Past, Present, Future",0.2732170522212982,0.2732170522212982,0.0,1.0
+7,646,10:46,gemma2-9b,"Asteroid Threats: Past, Present, Future",0.2732170522212982,0.2732170522212982,0.0,1.0
+7,646,10:46,gemma2-9b,"Asteroid Threats: Past, Present, Future",0.2732170522212982,0.2732170522212982,0.0,1.0
+7,646,10:46,gemma2-9b,"Asteroid Threats: Past, Present, Future",0.2732170522212982,0.2732170522212982,0.0,1.0
+7,646,10:46,gemma2-9b,"Asteroid Threats: Past, Present, Future",0.2732170522212982,0.2732170522212982,0.0,1.0
+7,646,10:46,tinyllama,The Future of Time-Travel,0.27266085147857666,0.27266085147857666,0.0,1.0
+7,646,10:46,qwen2-7b,"Asteroid Apocalypse: Probability, Impact, and Survival Chances",0.2714667814431386,0.32070010900497437,0.0,0.846481724890614
+7,646,10:46,qwen2-7b,Asteroid Apocalypse: Risks and Realities,0.2693852186203003,0.2693852186203003,0.0,1.0
+7,646,10:46,qwen2-7b,Asteroid Apocalypse: Risks and Realities,0.2693852186203003,0.2693852186203003,0.0,1.0
+7,646,10:46,tinyllama,Astronauts on Mars: The Next Frontier,0.26049908995628357,0.26049908995628357,0.0,1.0
+7,646,10:46,qwen2-7b,"Asteroid Apocalypse: Probability, Threats, and Survival Chances",0.2599362968099737,0.30707845091819763,0.0,0.846481724890614
+7,646,10:46,qwen2-7b,"Asteroid Apocalypse: Threats, Probabilities, and Survival Chances",0.25636582665661384,0.30286043882369995,0.0,0.846481724890614
+7,646,10:46,mistral-7b-v0.3,Asteroid Impact: Turning Blue Skies Red Hot,0.25418113272833476,0.30027952790260315,0.0,0.846481724890614
+7,646,10:46,qwen2-7b,Asteroid Impacts: Past Catastrophes and Future Threats,0.25248072384689324,0.29827073216438293,0.0,0.846481724890614
+7,646,10:46,mistral-7b-v0.3,Asteroid Impact: Turning Earth into a Toaster Oven,0.2519200384413413,0.35158273577690125,0.0,0.7165313105737893
+7,646,10:46,gemma2-9b,The Asteroid Threat: Near Misses and Impacts,0.24613012402214313,0.2907683849334717,0.0,0.846481724890614
+7,646,10:46,llama3.1-8b,Asteroid Impact: Global Devastation & Uncertain Threats,0.24596816590365084,0.2905770540237427,0.0,0.846481724890614
+7,646,10:46,mistral-7b-v0.3,"Asteroid Impact: Sky Turns Toaster Oven, Extinction Threat",0.23728072817746923,0.33115193247795105,0.0,0.7165313105737893
+7,646,10:46,tinyllama,A Brief History of Space Exploration,0.23680220544338226,0.23680220544338226,0.0,1.0
+7,646,10:46,mistral-7b-v0.3,Asteroid Impact: A Dinosaur's Demise & Modern-Day Threat,0.22465907867684787,0.31353700160980225,0.0,0.7165313105737893
+7,646,10:46,tinyllama,The Dangerous Close Calls,0.21596446633338928,0.21596446633338928,0.0,1.0
+7,646,10:46,mistral-7b-v0.3,Cooked Alive: Dinosaurs' Demise & Asteroid Threat Today,0.21482794466079355,0.2998165488243103,0.0,0.7165313105737893
+7,646,10:46,mistral-7b-v0.3,Cooked Alive: Dinosaurs' Demise & Modern Asteroid Risks,0.20941928557800082,0.29226815700531006,0.0,0.7165313105737893
+7,646,10:46,mistral-7b-v0.3,Asteroid Impact: A Toaster Oven Sky & Extinction Threat,0.19140703585023863,0.31557685136795044,0.0,0.6065306597126334
+7,646,10:46,mistral-7b-v0.3,Asteroid Impact: A Dinosaur's Demise & Modern Extinction Risks,0.18677174723435358,0.30793455243110657,0.0,0.6065306597126334
+7,646,10:46,mistral-7b-v0.3,Asteroid Impact: A Dinosaur-Style Extinction Event - Probabilities and Threats,0.1785904132204095,0.3478466272354126,0.0,0.513417119032592
+8,824,13:44,tinyllama,How to Deflect a Kilo-Asteroid,0.32831069827079773,0.32831069827079773,0.0,1.0
+8,824,13:44,tinyllama,The Greatest Threat of Asteroids Remains,0.3268597722053528,0.3268597722053528,0.0,1.0
+8,824,13:44,gemma2-9b,The Hidden Threat of Near-Earth Asteroids,0.3219543695449829,0.3219543695449829,0.0,1.0
+8,824,13:44,gemma2-9b,The Silent Threat of Near-Earth Asteroids,0.3181682229042053,0.3181682229042053,0.0,1.0
+8,824,13:44,gemma2-9b,The Silent Threat of Near-Earth Asteroids,0.3181682229042053,0.3181682229042053,0.0,1.0
+8,824,13:44,mistral-7b-v0.3,The Unseen Threat: Missing City-Level Asteroids,0.3166969418525696,0.3166969418525696,0.0,1.0
+8,824,13:44,mistral-7b-v0.3,The Unseen Threat: Missing City-Destroying Asteroids,0.31331655383110046,0.31331655383110046,0.0,1.0
+8,824,13:44,llama3.1-8b,Asteroid Threat: Deflection and Evacuation Challenges,0.30399829149246216,0.30399829149246216,0.0,1.0
+8,824,13:44,llama3.1-8b,Asteroid Threat: Deflection and Evacuation Challenges,0.30399829149246216,0.30399829149246216,0.0,1.0
+8,824,13:44,tinyllama,How to Deflect a Kilo-Meter Sized Asteroid,0.29905508557223853,0.3532918393611908,0.0,0.846481724890614
+8,824,13:44,tinyllama,The Greatest Threat of Asteroids,0.2898852229118347,0.2898852229118347,0.0,1.0
+8,824,13:44,tinyllama,The Greatest Threat of Asteroids,0.2898852229118347,0.2898852229118347,0.0,1.0
+8,824,13:44,tinyllama,The Greatest Threat of Asteroids,0.2898852229118347,0.2898852229118347,0.0,1.0
+8,824,13:44,tinyllama,The Greatest Threat of Asteroids,0.2898852229118347,0.2898852229118347,0.0,1.0
+8,824,13:44,tinyllama,The Greatest Threat of Asteroids,0.2898852229118347,0.2898852229118347,0.0,1.0
+8,824,13:44,llama3.1-8b,Asteroid Threat: Deflection Options Debated,0.28751492500305176,0.28751492500305176,0.0,1.0
+8,824,13:44,gemma2-9b,The Silent Threat: Unseen Asteroids,0.2863714396953583,0.2863714396953583,0.0,1.0
+8,824,13:44,gemma2-9b,The Silent Threat: Unseen Asteroids,0.2863714396953583,0.2863714396953583,0.0,1.0
+8,824,13:44,gemma2-9b,The Silent Threat: Asteroid Detection,0.2858615219593048,0.2858615219593048,0.0,1.0
+8,824,13:44,gemma2-9b,The Silent Threat of Asteroids,0.283741295337677,0.283741295337677,0.0,1.0
+8,824,13:44,gemma2-9b,The Silent Threat of Asteroids,0.283741295337677,0.283741295337677,0.0,1.0
+8,824,13:44,gemma2-9b,The Hidden Threat of Asteroids,0.28231725096702576,0.28231725096702576,0.0,1.0
+8,824,13:44,qwen2-7b,"Asteroid Threats: Detection, Prevention, and Reality",0.28205546736717224,0.28205546736717224,0.0,1.0
+8,824,13:44,llama3.1-8b,Asteroid Threats: Our Current Defenses,0.2781546711921692,0.2781546711921692,0.0,1.0
+8,824,13:44,tinyllama,How to Defend Against Asteroids,0.2751619517803192,0.2751619517803192,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Threats: Current Capabilities and Limitations,0.27367329597473145,0.27367329597473145,0.0,1.0
+8,824,13:44,llama3.1-8b,Asteroid Threat: Defending Against Unseen Dangers,0.27111369371414185,0.27111369371414185,0.0,1.0
+8,824,13:44,gemma2-9b,The Unseen Asteroid Threat,0.26647526025772095,0.26647526025772095,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Apocalypse: Our Preparedness and Limitations,0.26619917154312134,0.26619917154312134,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Apocalypse: Our Preparedness and Limitations,0.26619917154312134,0.26619917154312134,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Apocalypse: Our Preparedness and Limitations,0.26619917154312134,0.26619917154312134,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Apocalypse: Our Preparedness and Limitations,0.26619917154312134,0.26619917154312134,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Apocalypse: Our Preparedness and Limitations,0.26619917154312134,0.26619917154312134,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Threats: Detection vs. Defense,0.2660828232765198,0.2660828232765198,0.0,1.0
+8,824,13:44,tinyllama,The Greatest Threat,0.25208574533462524,0.25208574533462524,0.0,1.0
+8,824,13:44,llama3.1-8b,The Unpreparedness of Asteroid Defense,0.2503724694252014,0.2503724694252014,0.0,1.0
+8,824,13:44,llama3.1-8b,The Unpreparedness of Asteroid Defense,0.2503724694252014,0.2503724694252014,0.0,1.0
+8,824,13:44,llama3.1-8b,The Unpreparedness of Asteroid Defense,0.2503724694252014,0.2503724694252014,0.0,1.0
+8,824,13:44,llama3.1-8b,The Unpreparedness of Asteroid Defense,0.2503724694252014,0.2503724694252014,0.0,1.0
+8,824,13:44,llama3.1-8b,The Unpreparedness of Asteroid Defense,0.2503724694252014,0.2503724694252014,0.0,1.0
+8,824,13:44,qwen2-7b,Asteroid Apocalypse: Our Preparedness and the Challenges Ahead,0.1964853721906142,0.274217426776886,0.0,0.7165313105737893
+8,824,13:44,qwen2-7b,Asteroid Apocalypse: Our Preparedness and the Challenges Ahead,0.1964853721906142,0.274217426776886,0.0,0.7165313105737893
+8,824,13:44,mistral-7b-v0.3,Unseen Threat: Missing 1oo-Meter Asteroids and Our Defensive Capabilities,0.19385431235181,0.31961172819137573,0.0,0.6065306597126334
+8,824,13:44,mistral-7b-v0.3,Unseen Threat: Missing 1oo-Meter Asteroids and Our Defensive Limitations,0.1868589459657299,0.3080783188343048,0.0,0.6065306597126334
+8,824,13:44,mistral-7b-v0.3,Unseen Threat: Missing 1oo-Meter Asteroids & Our Defensive Limitations,0.18088729702425344,0.2982327342033386,0.0,0.6065306597126334
+8,824,13:44,mistral-7b-v0.3,Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Deflection Capabilities,0.1737149413138313,0.3383505046367645,0.0,0.513417119032592
+8,824,13:44,mistral-7b-v0.3,Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Deflection Capabilities,0.1737149413138313,0.3383505046367645,0.0,0.513417119032592
+8,824,13:44,mistral-7b-v0.3,Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Deflection Options,0.17003135785597318,0.33117586374282837,0.0,0.513417119032592
+8,824,13:44,mistral-7b-v0.3,The Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Defenses,0.16786791568254417,0.32696205377578735,0.0,0.513417119032592
+8,824,13:44,mistral-7b-v0.3,The Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Deflection Capabilities,0.149970225086717,0.34507787227630615,0.0,0.43459820850707825
+9,1076,17:56,tinyllama,Let's Build Telescopes and Deflect Asteroids,0.40446242690086365,0.40446242690086365,0.0,1.0
+9,1076,17:56,tinyllama,How to Build a Perpetual Calendar,0.3435978293418884,0.3435978293418884,0.0,1.0
+9,1076,17:56,llama3.1-8b,Averting Asteroid Impacts with Space-Based Surveillance,0.3352879285812378,0.3352879285812378,0.0,1.0
+9,1076,17:56,gemma2-9b,Deflecting Asteroids: A Cosmic Threat?,0.3315920829772949,0.3315920829772949,0.0,1.0
+9,1076,17:56,gemma2-9b,Deflecting Earth's Asteroid Threat,0.3304661214351654,0.3304661214351654,0.0,1.0
+9,1076,17:56,gemma2-9b,Deflecting Earth's Asteroid Threat,0.3304661214351654,0.3304661214351654,0.0,1.0
+9,1076,17:56,gemma2-9b,Deflecting Earth's Asteroid Threat,0.3304661214351654,0.3304661214351654,0.0,1.0
+9,1076,17:56,gemma2-9b,Deflecting Asteroids: A Planetary Threat,0.3291795551776886,0.3291795551776886,0.0,1.0
+9,1076,17:56,gemma2-9b,Deflecting Asteroids: A Cosmic Threat,0.3267841637134552,0.3267841637134552,0.0,1.0
+9,1076,17:56,gemma2-9b,Deflecting Asteroids: A Cosmic Threat,0.3267841637134552,0.3267841637134552,0.0,1.0
+9,1076,17:56,qwen2-7b,"Asteroid Threats, Telescopes, & KiwiCrafted Learning",0.3243352770805359,0.3243352770805359,0.0,1.0
+9,1076,17:56,qwen2-7b,"Asteroid Threats, Telescopes, & KiwiCrafted Learning",0.3243352770805359,0.3243352770805359,0.0,1.0
+9,1076,17:56,qwen2-7b,"Asteroid Threats, Telescopes, & KiwiCrafted Learning",0.3243352770805359,0.3243352770805359,0.0,1.0
+9,1076,17:56,qwen2-7b,"Asteroid Threats, Telescopes, & KiwiCrafted Learning",0.3243352770805359,0.3243352770805359,0.0,1.0
+9,1076,17:56,tinyllama,The Threat of Asteroid Impacts,0.32417500019073486,0.32417500019073486,0.0,1.0
+9,1076,17:56,tinyllama,The Threat of Asteroid Impacts,0.32417500019073486,0.32417500019073486,0.0,1.0
+9,1076,17:56,tinyllama,The Threat of Asteroid Impacts,0.32417500019073486,0.32417500019073486,0.0,1.0
+9,1076,17:56,tinyllama,The Threat of Asteroid Impacts,0.32417500019073486,0.32417500019073486,0.0,1.0
+9,1076,17:56,tinyllama,The Threat of Asteroid Impacts,0.32417500019073486,0.32417500019073486,0.0,1.0
+9,1076,17:56,tinyllama,The Threat of Asteroid Impacts,0.32417500019073486,0.32417500019073486,0.0,1.0
+9,1076,17:56,tinyllama,The Threat of Asteroid Impacts,0.32417500019073486,0.32417500019073486,0.0,1.0
+9,1076,17:56,llama3.1-8b,Averting Asteroid Impacts: A Global Threat,0.3236426115036011,0.3236426115036011,0.0,1.0
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection & Global Catastrophe Maps,0.3202874958515167,0.3202874958515167,0.0,1.0
+9,1076,17:56,llama3.1-8b,Averting Asteroid Impact through Space Exploration,0.31547701358795166,0.31547701358795166,0.0,1.0
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection & Global Catastrophe Mapping,0.3135184049606323,0.3135184049606323,0.0,1.0
+9,1076,17:56,llama3.1-8b,Averting Asteroid Impact through Surveillance,0.30909690260887146,0.30909690260887146,0.0,1.0
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection & Global Catastrophe Prevention,0.30878880620002747,0.30878880620002747,0.0,1.0
+9,1076,17:56,llama3.1-8b,Asteroid Detection and Deflection Strategies,0.30629363656044006,0.30629363656044006,0.0,1.0
+9,1076,17:56,llama3.1-8b,Asteroid Defense through Space-Based Surveillance,0.30504176020622253,0.30504176020622253,0.0,1.0
+9,1076,17:56,gemma2-9b,Asteroid Threats & Planetary Doom,0.2992918789386749,0.2992918789386749,0.0,1.0
+9,1076,17:56,gemma2-9b,Asteroid Threats & Planetary Doom,0.2992918789386749,0.2992918789386749,0.0,1.0
+9,1076,17:56,mistral-7b-v0.3,Asteroid Threat & Deflection Solutions,0.29704245924949646,0.29704245924949646,0.0,1.0
+9,1076,17:56,gemma2-9b,Asteroid Threats and Planetary Doom,0.29628443717956543,0.29628443717956543,0.0,1.0
+9,1076,17:56,tinyllama,The Perpetually Changing Calendar,0.28242287039756775,0.28242287039756775,0.0,1.0
+9,1076,17:56,qwen2-7b,"Asteroid Threats, Space Telescopes, & KiwiCrafted Learning",0.2791938234581032,0.32982853055000305,0.0,0.846481724890614
+9,1076,17:56,qwen2-7b,"Asteroid Threats, Space Telescopes, & KiwiCrafted Learning",0.2791938234581032,0.32982853055000305,0.0,0.846481724890614
+9,1076,17:56,qwen2-7b,Asteroid Threats & Solutions: Building Space Telescopes,0.27695622825654087,0.32718512415885925,0.0,0.846481724890614
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection Strategies & Holiday Gift Ideas,0.274783946071922,0.3246188759803772,0.0,0.846481724890614
+9,1076,17:56,llama3.1-8b,Averting Asteroid Impact through Vigilance and Action,0.2716880232965931,0.32096147537231445,0.0,0.846481724890614
+9,1076,17:56,llama3.1-8b,Asteroid Defense Through Space Exploration,0.26904451847076416,0.26904451847076416,0.0,1.0
+9,1076,17:56,llama3.1-8b,Asteroid Defense Through Space Exploration,0.26904451847076416,0.26904451847076416,0.0,1.0
+9,1076,17:56,qwen2-7b,"Asteroid Threat Mitigation: Telescopes, Surveys, and Deflection Strategies",0.2580481237940596,0.36013516783714294,0.0,0.7165313105737893
+9,1076,17:56,llama3.1-8b,Surviving Asteroid Impacts,0.25277090072631836,0.25277090072631836,0.0,1.0
+9,1076,17:56,qwen2-7b,"Asteroid Threat Mitigation: Surveys, Telescopes, & Space Missions",0.24793726984004874,0.3460243344306946,0.0,0.7165313105737893
+9,1076,17:56,qwen2-7b,"Asteroid Threat Mitigation: Surveys, Telescopes, & Space Missions",0.24793726984004874,0.3460243344306946,0.0,0.7165313105737893
+9,1076,17:56,mistral-7b-v0.3,Asteroid Threat & Kiwi Co: Learning Through Play,0.224347241876025,0.31310179829597473,0.0,0.7165313105737893
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection & Global Catastrophe: A Map of Doom,0.21730428180005518,0.3582741916179657,0.0,0.6065306597126334
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection & Global Catastrophe: A Map of Doom,0.21730428180005518,0.3582741916179657,0.0,0.6065306597126334
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection & Global Catastrophe: A Journey Through Doom,0.20443766070012384,0.33706071972846985,0.0,0.6065306597126334
+9,1076,17:56,mistral-7b-v0.3,Asteroid Deflection & Global Catastrophe: A Journey into the Map of Doom,0.13038006234886448,0.35440975427627563,0.0,0.36787944117144233

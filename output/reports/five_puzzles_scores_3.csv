@@ -1,0 +1,402 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+3,290,04:50,tinyllama,How to Identify and Rotate a Stack of Cubes to Get to Another Rhombic Tiling,0.09464434585122085,0.4241665303707123,0.0,0.22313016014842982
+5,628,10:28,mistral-7b-v0.3,Three Circles' External Tangent Intersection Points Always Lie on a Line - A 3-Dimensional Perspective,0.0863499742965166,0.38699373602867126,0.0,0.22313016014842982
+5,628,10:28,mistral-7b-v0.3,Three Circles' External Tangent Intersection Points Always Lie on a Line - A Geometric Puzzle,0.08333090662525253,0.3734632134437561,0.0,0.22313016014842982
+5,628,10:28,mistral-7b-v0.3,Three Circles' External Tangent Intersection Points Always Lie on a Line - A Geometric Puzzle,0.08333090662525253,0.3734632134437561,0.0,0.22313016014842982
+5,628,10:28,mistral-7b-v0.3,Three Circles' Intersection Points Always Line Up: A Geometric Puzzle Solved in Three Dimensions,0.0944848689495321,0.3584442138671875,0.0,0.2635971381157267
+5,628,10:28,mistral-7b-v0.3,Three Circles' Intersection Points Always Lie on a Line - A Geometric Puzzle,0.11370536204783183,0.3651386797428131,0.0,0.31140322391459774
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cubes: A 3D Perspective on a 2D Puzzle,0.12940696062686086,0.35176458954811096,0.0,0.36787944117144233
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cubes: A 3D Perspective on a 2D Puzzle,0.12940696062686086,0.35176458954811096,0.0,0.36787944117144233
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cubes: A 3D Perspective on a 2D Puzzle,0.12940696062686086,0.35176458954811096,0.0,0.36787944117144233
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cubes: A 3D Perspective on a 2D Puzzle,0.12940696062686086,0.35176458954811096,0.0,0.36787944117144233
+5,628,10:28,mistral-7b-v0.3,Three Circles' Intersection Points Always Lie on a Line: A 3-Dimensional Puzzle,0.1420576119227592,0.38615262508392334,0.0,0.36787944117144233
+5,628,10:28,mistral-7b-v0.3,Three Circles' Intersection Points Always Lie on a Line: A Geometric Puzzle,0.13633384594710354,0.3705938160419464,0.0,0.36787944117144233
+1,0,00:00,mistral-7b-v0.3,Exploring Tilings: Can We Rotate Our Way to Any Pattern?,0.17324933119913286,0.33744361996650696,0.0,0.513417119032592
+2,114,01:54,mistral-7b-v0.3,Hexagonal Tiling Puzzles: Exploring Rhombus Patterns & Minimum Circle Coverage,0.16239873350089107,0.31630954146385193,0.0,0.513417119032592
+4,391,06:31,tinyllama,How to Solve a Rubik's Cube Using Only One Color,0.15638957823518576,0.30460530519485474,0.0,0.513417119032592
+4,391,06:31,tinyllama,How to Solve a Rubik's Cube in Under a Minute,0.14645428770294008,0.28525400161743164,0.0,0.513417119032592
+4,391,06:31,tinyllama,How to Solve a Rubik's Cube in Under a Minute,0.14645428770294008,0.28525400161743164,0.0,0.513417119032592
+4,391,06:31,tinyllama,How to Solve a Rubik's Cube in Under 30 Seconds,0.14611232515107037,0.28458794951438904,0.0,0.513417119032592
+5,628,10:28,mistral-7b-v0.3,Three Circles' Intersection Points Always Line Up: A 3-Dimensional Puzzle,0.19079149446559182,0.371611088514328,0.0,0.513417119032592
+5,628,10:28,qwen2-7b,The Intersection Line Mystery: A 2D to 3-Dimensional Proof Twist,0.16226129971678915,0.31604185700416565,0.0,0.513417119032592
+5,628,10:28,tinyllama,How to Solve Problems Using Concepts from Algebra and Geometry,0.16019792623051515,0.31202295422554016,0.0,0.513417119032592
+5,628,10:28,qwen2-7b,"Spheres, Cones, and Proving Collinearity in 2D & 3 Dimensions",0.15278583551273667,0.2975861728191376,0.0,0.513417119032592
+6,1000,16:40,tinyllama,How to Find a Three-Dimensional Tiling Pattern Using Linear Algebra,0.19473550132641307,0.37929296493530273,0.0,0.513417119032592
+6,1000,16:40,tinyllama,A Tale of Two Dimensions: Shape Shifters and Stepping Stones,0.14909444853340315,0.2903963327407837,0.0,0.513417119032592
+7,1340,22:20,mistral-7b-v0.3,Exploring Hypercubic Projections: A Puzzle in 3 & 4 Dimensions,0.16687700616437173,0.3250320255756378,0.0,0.513417119032592
+8,1614,26:54,tinyllama,How to Solve Problems in Higher Dimensions Using Analytic Approaches,0.19492549412280516,0.37966302037239075,0.0,0.513417119032592
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry and the Loss of Intuition,0.19204094536095978,0.3740446865558624,0.0,0.513417119032592
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry and the Loss of Intuition,0.19204094536095978,0.3740446865558624,0.0,0.513417119032592
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry and the Loss of Intuition,0.19204094536095978,0.3740446865558624,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,Exploring Rhombus Tilings: Can We Rotate Our Way Out?,0.1965849305022877,0.32411375641822815,0.0,0.6065306597126334
+1,0,00:00,mistral-7b-v0.3,Exploring Rhombus Tilings: Can We Rotate Our Way Out?,0.1965849305022877,0.32411375641822815,0.0,0.6065306597126334
+2,114,01:54,qwen2-7b,"Hexagonal Tiling Puzzles: Rotations, Distinct Patterns, and Infinite Journeys",0.20948934856476212,0.34538954496383667,0.0,0.6065306597126334
+2,114,01:54,qwen2-7b,"Hexagonal Tiling Puzzles: Rotations, Distinct Patterns, & Covering Circles",0.20554902877666026,0.3388930559158325,0.0,0.6065306597126334
+2,114,01:54,qwen2-7b,"Hexagonal Tiling Puzzles: Rotations, Distinct Patterns & Circle Covering",0.20528318471730042,0.3384547531604767,0.0,0.6065306597126334
+2,114,01:54,qwen2-7b,"Hexagonal Tiling Puzzles: Rotations, Distinct Patterns & Circle Coverings",0.2038077836284945,0.3360222280025482,0.0,0.6065306597126334
+2,114,01:54,qwen2-7b,Hexagonal Tilings & Cubic Projections: A Geometric Puzzle Odyssey,0.17506273267589662,0.2886296510696411,0.0,0.6065306597126334
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cube Stacks: A Three-Dimensional Perspective,0.21980929311672107,0.3624042570590973,0.0,0.6065306597126334
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cube Stacks: A Three-Dimensional Perspective,0.21980929311672107,0.3624042570590973,0.0,0.6065306597126334
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cube Stacks: A Three-Dimensional Perspective,0.21980929311672107,0.3624042570590973,0.0,0.6065306597126334
+4,391,06:31,mistral-7b-v0.3,Proving Optimal Coverage on a Circle Using Three-Dimensional Analysis,0.20488853092332454,0.33780407905578613,0.0,0.6065306597126334
+4,391,06:31,mistral-7b-v0.3,Proving the Minimum Coverage of a Circle with Strips,0.20437828096700378,0.33696281909942627,0.0,0.6065306597126334
+4,391,06:31,tinyllama,"Creating a Brief, Engaging Chapter Title for This Transcript",0.1779486238575772,0.29338768124580383,0.0,0.6065306597126334
+5,628,10:28,mistral-7b-v0.3,The Enigma of Intersecting External Tangents: A 3-Dimensional Perspective,0.2184657204582484,0.3601890802383423,0.0,0.6065306597126334
+5,628,10:28,mistral-7b-v0.3,Three Circles' External Tangent Intersection Points Always Line Up,0.20885560322436938,0.3443446755409241,0.0,0.6065306597126334
+5,628,10:28,qwen2-7b,The Geometry of Circles and Cones: A Dimensional Leap,0.2036273849263519,0.335724800825119,0.0,0.6065306597126334
+5,628,10:28,qwen2-7b,The Geometry of Circles and Cones: A Dimensional Leap,0.2036273849263519,0.335724800825119,0.0,0.6065306597126334
+5,628,10:28,tinyllama,How to Solve the 2D Problem Using Three Cones,0.19710364003702557,0.32496896386146545,0.0,0.6065306597126334
+6,1000,16:40,tinyllama,How to Find the Volume of a Tetrahedral Shape,0.22702737417305155,0.374304860830307,0.0,0.6065306597126334
+6,1000,16:40,mistral-7b-v0.3,Exploring Four-Dimensional Puzzles: Tetrahedral Volume & Rhombic Dodecahedral Tessellation,0.20262884738075476,0.33407849073410034,0.0,0.6065306597126334
+6,1000,16:40,mistral-7b-v0.3,Exploring Four-Dimensional Puzzles: Tetrahedral Volume & Rhombic Dodecahedral Tessellation,0.20262884738075476,0.33407849073410034,0.0,0.6065306597126334
+6,1000,16:40,mistral-7b-v0.3,Exploring Multidimensional Puzzles: Tetrahedral Volumes & Rhombic Dodecahedral Tessellations,0.1857086782892926,0.3061818480491638,0.0,0.6065306597126334
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry: Analysis vs. Intuitive Insight,0.22807751876219748,0.37603625655174255,0.0,0.6065306597126334
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry and Its Missing Intuition,0.2207551209814116,0.36396366357803345,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tilings: A Puzzle Journey Through Dimensions,0.22142866467163774,0.30902859568595886,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tilings: A Puzzle Journey Through Dimensions,0.22142866467163774,0.30902859568595886,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tilings: A Puzzle Journey Through Dimensions,0.22142866467163774,0.30902859568595886,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tilings: A Puzzle Journey Through Dimensions,0.22142866467163774,0.30902859568595886,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Exploring Tilings: Can We Rotate Our Way Through?,0.21423192487391635,0.29898473620414734,0.0,0.7165313105737893
+2,114,01:54,qwen2-7b,Hexagonal Tilings & Cubic Projections: A Geometric Puzzle,0.21001842309225732,0.2931043207645416,0.0,0.7165313105737893
+2,114,01:54,qwen2-7b,Hexagonal Tilings & Cubic Projections: A Puzzle Journey,0.2053652790415206,0.28661033511161804,0.0,0.7165313105737893
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cubes: A Three-Dimensional Perspective,0.2613130249891163,0.36469170451164246,0.0,0.7165313105737893
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cubes: A Three-Dimensional Perspective,0.2613130249891163,0.36469170451164246,0.0,0.7165313105737893
+3,290,04:50,mistral-7b-v0.3,From Rhombus Tilings to Cubes: A Three-Dimensional Perspective,0.2613130249891163,0.36469170451164246,0.0,0.7165313105737893
+3,290,04:50,tinyllama,The Rhombus Tiling Pattern - A Puzzling Exercise,0.24629661919242687,0.34373462200164795,0.0,0.7165313105737893
+4,391,06:31,mistral-7b-v0.3,Leveraging Three Dimensions to Solve a Two-Dimensional Puzzle,0.23926471321416393,0.33392080664634705,0.0,0.7165313105737893
+4,391,06:31,mistral-7b-v0.3,Proving the Minimum Coverage Area of a Circle,0.23663108775052724,0.3302452862262726,0.0,0.7165313105737893
+4,391,06:31,mistral-7b-v0.3,Proving Optimal Coverage of Circles via Three-Dimensional Analysis,0.22821758010298815,0.3185032904148102,0.0,0.7165313105737893
+4,391,06:31,qwen2-7b,Unlocking Dimensional Insights: Covering Circles & Proving Minima,0.19643738908498873,0.27415046095848083,0.0,0.7165313105737893
+5,628,10:28,llama3.1-8b,Proving Circles' Tangent Intersections Lie on a Line,0.23207713440990643,0.32388973236083984,0.0,0.7165313105737893
+5,628,10:28,tinyllama,How to Solve a Complex Problem Using Mathematics,0.21340051666990087,0.2978244125843048,0.0,0.7165313105737893
+6,1000,16:40,qwen2-7b,Navigating Dimensions: From 2D Puzzles to 4-D Insights,0.23478507282751582,0.3276689648628235,0.0,0.7165313105737893
+6,1000,16:40,qwen2-7b,Unlocking Dimensions: From 2D Puzzles to 4-D Insights,0.2318023473145843,0.323506236076355,0.0,0.7165313105737893
+6,1000,16:40,qwen2-7b,Unlocking Dimensions: From 2D Puzzles to 4-D Insights,0.2318023473145843,0.323506236076355,0.0,0.7165313105737893
+6,1000,16:40,qwen2-7b,Unlocking Dimensions: From 2D Puzzles to 4-D Insights,0.2318023473145843,0.323506236076355,0.0,0.7165313105737893
+6,1000,16:40,mistral-7b-v0.3,Exploring Multidimensional Puzzles: Tetrahedral Volumes & Hypercubic Tilings,0.22469151585417102,0.31358227133750916,0.0,0.7165313105737893
+6,1000,16:40,mistral-7b-v0.3,Exploring Multidimensional Puzzles: Tetrahedral Volumes & Hypercubic Tilings,0.22469151585417102,0.31358227133750916,0.0,0.7165313105737893
+6,1000,16:40,mistral-7b-v0.3,Exploring Multidimensional Puzzles: Tetrahedral Volumes & Hypercubic Tilings,0.22469151585417102,0.31358227133750916,0.0,0.7165313105737893
+7,1340,22:20,mistral-7b-v0.3,Exploring 4-Dimensional Puzzles: A Projection of Hypercubic Magic,0.24489930076047142,0.3417845070362091,0.0,0.7165313105737893
+7,1340,22:20,mistral-7b-v0.3,Exploring 4-Dimensional Puzzles: A Projection of Hypercubic Magic,0.24489930076047142,0.3417845070362091,0.0,0.7165313105737893
+7,1340,22:20,mistral-7b-v0.3,Exploring 4-Dimensional Puzzles: A Projection of Hypercubic Magic,0.24489930076047142,0.3417845070362091,0.0,0.7165313105737893
+7,1340,22:20,qwen2-7b,Navigating Hyperspace Puzzles: The Magic of 4-Dimensional Rotations,0.23708962857255492,0.33088523149490356,0.0,0.7165313105737893
+7,1340,22:20,qwen2-7b,Tessellating Space with Rhombi: A Hypercube Projection Puzzle,0.23526138042474615,0.32833370566368103,0.0,0.7165313105737893
+7,1340,22:20,mistral-7b-v0.3,Exploring Hypercubic Projections: A Puzzle in Four Dimensions,0.2277005925697469,0.3177817761898041,0.0,0.7165313105737893
+7,1340,22:20,tinyllama,The Bizarre World of Constructs in Higher Dimensions,0.22046310877312322,0.30768105387687683,0.0,0.7165313105737893
+7,1340,22:20,qwen2-7b,Navigating Hyperspace Puzzles: The Magic of 4 Dimensions,0.21565488981671124,0.3009706437587738,0.0,0.7165313105737893
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry: Analysis Without Intuition,0.2754503384363243,0.3844219148159027,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,The Limits of Intuitive Thinking in High-Dimensional Geometry,0.2693891133878844,0.3759627938270569,0.0,0.7165313105737893
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry: Missing Intuitive Insights,0.2593842621647703,0.36199989914894104,0.0,0.7165313105737893
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry and Lost Intuition,0.2567795077108379,0.35836467146873474,0.0,0.7165313105737893
+8,1614,26:54,qwen2-7b,The Sadness of High-Dimensional Geometry and Lost Intuition,0.2567795077108379,0.35836467146873474,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,The Limits of Intuitive Understanding in Higher Dimensions,0.2550451544074597,0.3559441864490509,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,The Limits of Intuitive Thinking in Higher Dimensions,0.25320501191615585,0.3533760607242584,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,The Limits of Intuitive Thinking in Higher Dimensions,0.25320501191615585,0.3533760607242584,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,The Limits of Intuitive Thinking in Higher Dimensions,0.25320501191615585,0.3533760607242584,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,The Limits of Intuitive Thinking in Higher Dimensions,0.25320501191615585,0.3533760607242584,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,Higher Dimensions: A Mystery Beyond Our Intuitive Reach,0.22524040670730747,0.3143483102321625,0.0,0.7165313105737893
+8,1614,26:54,mistral-7b-v0.3,Higher Dimensions: A Mystery Beyond Our Intuitive Reach,0.22524040670730747,0.3143483102321625,0.0,0.7165313105737893
+2,114,01:54,tinyllama,How to Tile a Hexagon Using Cubes,0.29384659320831424,0.34713873267173767,0.0,0.846481724890614
+2,114,01:54,tinyllama,A Tiling Problem with Two Fundamental Patterns,0.2805015974242466,0.3313734829425812,0.0,0.846481724890614
+2,114,01:54,qwen2-7b,Hexagonal Tiling Puzzles: Rotations & Distinct Patterns,0.2782251272288219,0.32868415117263794,0.0,0.846481724890614
+2,114,01:54,qwen2-7b,Hexagonal Tiling Puzzles: Rotations & Distinct Patterns,0.2782251272288219,0.32868415117263794,0.0,0.846481724890614
+2,114,01:54,qwen2-7b,Hexagonal Tiling Puzzles: From Tiles to Cubes,0.27145492469614624,0.32068610191345215,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Exploring Hexagonal Tilings and Minimum Circle Coverage,0.27020948694663743,0.319214791059494,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Exploring Hexagonal Tilings and Minimum Circle Coverage,0.27020948694663743,0.319214791059494,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Hexagonal Tiling Puzzle & Minimum Circle Coverage,0.2691539841930989,0.31796786189079285,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Hexagonal Tile Transformations & Minimum Circle Coverage,0.2688623082170852,0.3176232874393463,0.0,0.846481724890614
+2,114,01:54,llama3.1-8b,Tilings and Patterns: Exploring Hexagons and Circles,0.2687454057371641,0.31748518347740173,0.0,0.846481724890614
+2,114,01:54,llama3.1-8b,Tilings and Coverages: Exploring Hexagons and Circles,0.2659160327250734,0.3141426742076874,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Exploring Hexagonal Tilings & Minimum Circle Coverage,0.2618434924043874,0.3093315362930298,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Exploring Hexagonal Tilings & Minimum Circle Coverage,0.2618434924043874,0.3093315362930298,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Exploring Hexagonal Tilings & Minimum Circle Coverage,0.2618434924043874,0.3093315362930298,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Exploring Hexagonal Tilings & Minimum Circle Coverage,0.2618434924043874,0.3093315362930298,0.0,0.846481724890614
+2,114,01:54,mistral-7b-v0.3,Exploring Hexagonal Tilings & Minimum Circle Coverage,0.2618434924043874,0.3093315362930298,0.0,0.846481724890614
+3,290,04:50,qwen2-7b,From Cubes to Rhombuses: A Three-Dimensional Insight,0.3136671639758564,0.37055397033691406,0.0,0.846481724890614
+3,290,04:50,qwen2-7b,From Cubes to Rhombuses: A Three-Dimensional Insight,0.3136671639758564,0.37055397033691406,0.0,0.846481724890614
+3,290,04:50,qwen2-7b,"Cubes, Rhombuses, and Rotations: A Three-Dimensional Insight",0.31009944357871394,0.36633920669555664,0.0,0.846481724890614
+4,391,06:31,tinyllama,How to Solve a Puzzle Using Intuition,0.2522717676014926,0.29802387952804565,0.0,0.846481724890614
+4,391,06:31,qwen2-7b,Unlocking Higher Dimensions for Optimal Covering Solutions,0.23678892465332663,0.2797330617904663,0.0,0.846481724890614
+4,391,06:31,qwen2-7b,Unlocking Higher Dimensions for Optimal Covering Solutions,0.23678892465332663,0.2797330617904663,0.0,0.846481724890614
+4,391,06:31,qwen2-7b,Unlocking Higher Dimensions for Optimal Covering Solutions,0.23678892465332663,0.2797330617904663,0.0,0.846481724890614
+4,391,06:31,qwen2-7b,Unlocking Higher Dimensions for Optimal Covering Solutions,0.23678892465332663,0.2797330617904663,0.0,0.846481724890614
+4,391,06:31,qwen2-7b,Unlocking Higher Dimensions: Proving Covering Circle Minima,0.23329928219648535,0.2756105363368988,0.0,0.846481724890614
+4,391,06:31,qwen2-7b,Unlocking Dimensional Insights: Covering Puzzles and Proofs,0.23070681708015187,0.2725479006767273,0.0,0.846481724890614
+5,628,10:28,llama3.1-8b,"Three Circles, One Line: A Geometric Puzzle",0.2830530180142893,0.3343876302242279,0.0,0.846481724890614
+5,628,10:28,llama3.1-8b,"Three Circles, One Line: A Geometric Puzzle",0.2830530180142893,0.3343876302242279,0.0,0.846481724890614
+5,628,10:28,llama3.1-8b,"Tangents, Circles, and Cones: A Geometric Puzzle",0.278757797894237,0.3293134272098541,0.0,0.846481724890614
+5,628,10:28,qwen2-7b,The Tangent Triangle Trick: A Dimensional Leap,0.2600035775423754,0.3071579337120056,0.0,0.846481724890614
+5,628,10:28,tinyllama,How to Solve the International Mathematical Olympiads,0.2556327265127842,0.3019943833351135,0.0,0.846481724890614
+5,628,10:28,tinyllama,How to Solve the International Mathematical Olympiads,0.2556327265127842,0.3019943833351135,0.0,0.846481724890614
+5,628,10:28,qwen2-7b,The Dimensional Leap: Connecting Circles and Cones,0.2549320432197743,0.3011666238307953,0.0,0.846481724890614
+5,628,10:28,qwen2-7b,The Dimensional Leap: Connecting Circles and Spheres,0.24929345366548009,0.29450541734695435,0.0,0.846481724890614
+5,628,10:28,llama3.1-8b,Puzzling Circles and Cones in Higher Dimensions,0.24518562060215066,0.28965258598327637,0.0,0.846481724890614
+5,628,10:28,tinyllama,How to Solve the Most Difficult Problems,0.2354871547420432,0.27819520235061646,0.0,0.846481724890614
+6,1000,16:40,mistral-7b-v0.3,Four-Dimensional Puzzle Insights & Rhombic Dodecahedral Tessellation,0.2651448144010192,0.31323158740997314,0.0,0.846481724890614
+6,1000,16:40,qwen2-7b,Unlocking Higher Dimensions: From Puzzles to Insights,0.23665857611777372,0.2795790731906891,0.0,0.846481724890614
+6,1000,16:40,qwen2-7b,Unlocking Higher Dimensions: From Puzzles to Insights,0.23665857611777372,0.2795790731906891,0.0,0.846481724890614
+6,1000,16:40,gemma2-9b,From Cubes to Hypercubes: A Dimensional Journey,0.22171551788321825,0.26192593574523926,0.0,0.846481724890614
+6,1000,16:40,gemma2-9b,From Cubes to Hypercubes: A Dimensional Journey,0.22171551788321825,0.26192593574523926,0.0,0.846481724890614
+7,1340,22:20,mistral-7b-v0.3,Exploring 4-Dimensional Space Through a Rhombi-Dodecahedral Puzzle,0.30084225052369484,0.3554031252861023,0.0,0.846481724890614
+7,1340,22:20,qwen2-7b,Tessellating Space with Rhombi: A 4-Dimensional Puzzle,0.2885877222832328,0.3409261107444763,0.0,0.846481724890614
+7,1340,22:20,qwen2-7b,Tessellating Space with Rhombi: A 4-Dimensional Puzzle,0.2885877222832328,0.3409261107444763,0.0,0.846481724890614
+7,1340,22:20,qwen2-7b,Tessellating Space with Rhombi: A 4-Dimensional Puzzle,0.2885877222832328,0.3409261107444763,0.0,0.846481724890614
+7,1340,22:20,qwen2-7b,Tessellating Space with Rhombi: A 4-Dimensional Puzzle,0.2885877222832328,0.3409261107444763,0.0,0.846481724890614
+7,1340,22:20,qwen2-7b,Tessellating Space with Rhombi: A Higher-Dimensional Puzzle,0.2851617278533317,0.33687877655029297,0.0,0.846481724890614
+7,1340,22:20,mistral-7b-v0.3,Exploring Hypercubic Projections and a 4-Dimensional Puzzle,0.2839750692963599,0.33547690510749817,0.0,0.846481724890614
+7,1340,22:20,tinyllama,The Bizarre World of Three Dimensional Geometry,0.25673381467444045,0.30329516530036926,0.0,0.846481724890614
+7,1340,22:20,qwen2-7b,Beyond Dimensions: Tiling Secrets & Hypercube Projections,0.23825926218887258,0.28147006034851074,0.0,0.846481724890614
+8,1614,26:54,tinyllama,How to Solve Problems in Higher Dimensions,0.3079201230272634,0.3637646436691284,0.0,0.846481724890614
+8,1614,26:54,tinyllama,Squint Your Eyes and Think About Rhombuses,0.29806373538806535,0.35212069749832153,0.0,0.846481724890614
+8,1614,26:54,tinyllama,"Four Dimensional Geometries: Analogies, Analogues, and Analogous",0.2815482454582227,0.33260995149612427,0.0,0.846481724890614
+8,1614,26:54,llama3.1-8b,The Elusive Leap of Higher Dimensional Insight,0.2750980489587363,0.3249899446964264,0.0,0.846481724890614
+8,1614,26:54,mistral-7b-v0.3,Higher Dimensions: Analysis vs. Intuitively Elusive Solutions,0.2719623177860583,0.32128551602363586,0.0,0.846481724890614
+1,0,00:00,tinyllama,Tiling Patterns and Hexagonal Rotation Steps,0.3401311933994293,0.3401311933994293,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Exploring Rhombus Tilings and Hexagonal Rotations,0.335641086101532,0.335641086101532,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Exploring Rhombus Tilings and Hexagonal Rotations,0.335641086101532,0.335641086101532,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Exploring Rhombus Tilings and Hexagonal Rotations,0.335641086101532,0.335641086101532,0.0,1.0
+1,0,00:00,tinyllama,Tiling Patterns and Hexagonal Rotations,0.33217647671699524,0.33217647671699524,0.0,1.0
+1,0,00:00,tinyllama,How to Generate New Tiling Patterns,0.3317261338233948,0.3317261338233948,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Exploring Rhombus Tilings and Hexagonal Transformations,0.3254169225692749,0.3254169225692749,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Hexagonal Tiling Puzzle: Navigating Infinite Patterns,0.3247314989566803,0.3247314989566803,0.0,1.0
+1,0,00:00,tinyllama,Puzzling with Rhombuses and Hexagons,0.3172195255756378,0.3172195255756378,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Hexagonal Tilings: Navigating Geometric Patterns,0.31617385149002075,0.31617385149002075,0.0,1.0
+1,0,00:00,llama3.1-8b,Tilings and Rotations in Rhombic Patterns,0.31522443890571594,0.31522443890571594,0.0,1.0
+1,0,00:00,qwen2-7b,Puzzling Patterns: Exploring Hexagonal Transformations,0.31005382537841797,0.31005382537841797,0.0,1.0
+1,0,00:00,llama3.1-8b,Tilting Rhombi and Hexagonal Rotations,0.30939626693725586,0.30939626693725586,0.0,1.0
+1,0,00:00,tinyllama,How to Tile the Infinite Plane,0.30869463086128235,0.30869463086128235,0.0,1.0
+1,0,00:00,llama3.1-8b,Tilings and Rotations in Geometric Puzzles,0.30747437477111816,0.30747437477111816,0.0,1.0
+1,0,00:00,tinyllama,How to Tile an Infinite Plane,0.30717891454696655,0.30717891454696655,0.0,1.0
+1,0,00:00,tinyllama,How to Tile an Infinite Plane,0.30717891454696655,0.30717891454696655,0.0,1.0
+1,0,00:00,tinyllama,How to Tile an Infinite Plane,0.30717891454696655,0.30717891454696655,0.0,1.0
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tiling Puzzles,0.30144092440605164,0.30144092440605164,0.0,1.0
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tiling Puzzles,0.30144092440605164,0.30144092440605164,0.0,1.0
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tiling Puzzles,0.30144092440605164,0.30144092440605164,0.0,1.0
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tiling Puzzles,0.30144092440605164,0.30144092440605164,0.0,1.0
+1,0,00:00,qwen2-7b,Navigating Hexagonal Tiling Puzzles,0.30144092440605164,0.30144092440605164,0.0,1.0
+1,0,00:00,tinyllama,Puzzling with Rhombi and Hexagons,0.2963114082813263,0.2963114082813263,0.0,1.0
+1,0,00:00,llama3.1-8b,Hexagonal Harmony and Hidden Limits,0.29609453678131104,0.29609453678131104,0.0,1.0
+1,0,00:00,llama3.1-8b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,llama3.1-8b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,gemma2-9b,Tiling Puzzles and Higher Dimensions,0.29539892077445984,0.29539892077445984,0.0,1.0
+1,0,00:00,llama3.1-8b,Tiling Puzzles and Hidden Geometric Secrets,0.29114553332328796,0.29114553332328796,0.0,1.0
+1,0,00:00,llama3.1-8b,Tiling Puzzles and Hidden Symmetries,0.2804507315158844,0.2804507315158844,0.0,1.0
+1,0,00:00,llama3.1-8b,“Geometry Puzzles and Hidden Patterns”,0.276197224855423,0.276197224855423,0.0,1.0
+1,0,00:00,tinyllama,How to Tile the Plane,0.27307116985321045,0.27307116985321045,0.0,1.0
+1,0,00:00,llama3.1-8b,Tilting Rhombi: Exploring Geometric Patterns,0.26987630128860474,0.26987630128860474,0.0,1.0
+2,114,01:54,llama3.1-8b,Tiling Hexagons and Covering Circles,0.3306836783885956,0.3306836783885956,0.0,1.0
+2,114,01:54,llama3.1-8b,Tiling Hexagons and Covering Circles,0.3306836783885956,0.3306836783885956,0.0,1.0
+2,114,01:54,llama3.1-8b,Tiling Hexagons and Covering Circles,0.3306836783885956,0.3306836783885956,0.0,1.0
+2,114,01:54,llama3.1-8b,Tiling Hexagons and Covering Circles,0.3306836783885956,0.3306836783885956,0.0,1.0
+2,114,01:54,llama3.1-8b,Tiling Hexagons and Covering Circles,0.3306836783885956,0.3306836783885956,0.0,1.0
+2,114,01:54,tinyllama,How to Tile the Finite Hexagon,0.3238781690597534,0.3238781690597534,0.0,1.0
+2,114,01:54,tinyllama,How to Tile the Finite Hexagon,0.3238781690597534,0.3238781690597534,0.0,1.0
+2,114,01:54,gemma2-9b,"Tilings, Rotations, and Hexagonal Puzzles",0.3180762827396393,0.3180762827396393,0.0,1.0
+2,114,01:54,tinyllama,Tiling the Hexagon with Rhombuses,0.31388533115386963,0.31388533115386963,0.0,1.0
+2,114,01:54,tinyllama,How to Tile a Hexagon,0.31155508756637573,0.31155508756637573,0.0,1.0
+2,114,01:54,llama3.1-8b,"Tilings, Rotations, and Covering Circles",0.3068965971469879,0.3068965971469879,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagon Tilings and Circle Strips,0.3024088144302368,0.3024088144302368,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagonal Tilings and Circle Strips,0.30205193161964417,0.30205193161964417,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagon Tilings and Circular Strips,0.2910884618759155,0.2910884618759155,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagonal Tilings and Circular Strips,0.28943029046058655,0.28943029046058655,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagonal Tilings and Circular Strips,0.28943029046058655,0.28943029046058655,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagonal Tilings and Circular Strips,0.28943029046058655,0.28943029046058655,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagonal Tiling Puzzles,0.28086480498313904,0.28086480498313904,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagonal Tiling Puzzles,0.28086480498313904,0.28086480498313904,0.0,1.0
+2,114,01:54,gemma2-9b,Hexagonal Tiling Puzzles,0.28086480498313904,0.28086480498313904,0.0,1.0
+2,114,01:54,llama3.1-8b,Tilings and Patterns in Geometric Spaces,0.27649468183517456,0.27649468183517456,0.0,1.0
+2,114,01:54,tinyllama,The Tiling Problem,0.2614668905735016,0.2614668905735016,0.0,1.0
+2,114,01:54,tinyllama,The Tiling Problem,0.2614668905735016,0.2614668905735016,0.0,1.0
+2,114,01:54,tinyllama,Tiling the Hexagon,0.24051056802272797,0.24051056802272797,0.0,1.0
+2,114,01:54,llama3.1-8b,"""Hexagans and Circls: Unravlign Geomet",0.23295362293720245,0.23295362293720245,0.0,1.0
+2,114,01:54,tinyllama,A Fundamental Pattern,0.19842249155044556,0.19842249155044556,0.0,1.0
+3,290,04:50,qwen2-7b,Cubes and Rhombuses: A Three-Dimensional Insight,0.35933661460876465,0.35933661460876465,0.0,1.0
+3,290,04:50,qwen2-7b,Cubes and Rhombuses: A Three-Dimensional Insight,0.35933661460876465,0.35933661460876465,0.0,1.0
+3,290,04:50,qwen2-7b,Cubes and Rhombuses: A Three-Dimensional Insight,0.35933661460876465,0.35933661460876465,0.0,1.0
+3,290,04:50,qwen2-7b,Cubes and Rhombuses: A Three-Dimensional Insight,0.35933661460876465,0.35933661460876465,0.0,1.0
+3,290,04:50,qwen2-7b,Cubes and Rhombuses: A Three-Dimensional Insight,0.35933661460876465,0.35933661460876465,0.0,1.0
+3,290,04:50,qwen2-7b,Cubes and Rhombuses: A Three-Dimensional Insight,0.35933661460876465,0.35933661460876465,0.0,1.0
+3,290,04:50,qwen2-7b,Cubes and Rhombuses: A Three-Dimensional Insight,0.35933661460876465,0.35933661460876465,0.0,1.0
+3,290,04:50,tinyllama,The Rhombus Tiling Pattern,0.34140682220458984,0.34140682220458984,0.0,1.0
+3,290,04:50,tinyllama,The Rhombus Tiling Pattern,0.34140682220458984,0.34140682220458984,0.0,1.0
+3,290,04:50,tinyllama,The Rhombus Tiling Pattern,0.34140682220458984,0.34140682220458984,0.0,1.0
+3,290,04:50,tinyllama,The Rhombus Tiling Pattern,0.34140682220458984,0.34140682220458984,0.0,1.0
+3,290,04:50,tinyllama,The Rhombus Tiling Pattern,0.34140682220458984,0.34140682220458984,0.0,1.0
+3,290,04:50,tinyllama,The Rhombus Tiling Pattern,0.34140682220458984,0.34140682220458984,0.0,1.0
+3,290,04:50,llama3.1-8b,Unpacking the Geometry of Rhombic Tilings,0.3383840024471283,0.3383840024471283,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Moves",0.3332480192184448,0.3332480192184448,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Moves",0.3332480192184448,0.3332480192184448,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Moves",0.3332480192184448,0.3332480192184448,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Moves",0.3332480192184448,0.3332480192184448,0.0,1.0
+3,290,04:50,llama3.1-8b,The Cube Connection: Rhombus Tiling Insights,0.3246568739414215,0.3246568739414215,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Insights",0.3225937783718109,0.3225937783718109,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Insights",0.3225937783718109,0.3225937783718109,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Insights",0.3225937783718109,0.3225937783718109,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Insights",0.3225937783718109,0.3225937783718109,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Insights",0.3225937783718109,0.3225937783718109,0.0,1.0
+3,290,04:50,gemma2-9b,"Cubes, Rhombuses, and Puzzle Insights",0.3225937783718109,0.3225937783718109,0.0,1.0
+3,290,04:50,tinyllama,Rhombus Tiling Patterns,0.3123812973499298,0.3123812973499298,0.0,1.0
+3,290,04:50,llama3.1-8b,The Cube Connection: Tiling Rhombuses,0.3107275664806366,0.3107275664806366,0.0,1.0
+3,290,04:50,llama3.1-8b,Solving Rhombics through Cube Visualization,0.3049176335334778,0.3049176335334778,0.0,1.0
+3,290,04:50,llama3.1-8b,Adding Depth to Tiling Puzzles,0.30131474137306213,0.30131474137306213,0.0,1.0
+3,290,04:50,llama3.1-8b,Cube Rotations Reveal Hidden Patterns,0.2999844253063202,0.2999844253063202,0.0,1.0
+3,290,04:50,llama3.1-8b,Rotating Rhombi to Cube Correspondence,0.2696337401866913,0.2696337401866913,0.0,1.0
+3,290,04:50,llama3.1-8b,The Cube Connection Revealed,0.24328961968421936,0.24328961968421936,0.0,1.0
+3,290,04:50,llama3.1-8b,The Cube Connection Revealed,0.24328961968421936,0.24328961968421936,0.0,1.0
+3,290,04:50,llama3.1-8b,Rotating Rhombohedra for Insightful,0.22178201377391815,0.22178201377391815,0.0,1.0
+3,290,04:50,tinyllama,The Big Picture,0.22089506685733795,0.22089506685733795,0.0,1.0
+4,391,06:31,mistral-7b-v0.3,Proving Two-Dimensional Coverage Limit Using Three-Dimensions,0.33105602860450745,0.33105602860450745,0.0,1.0
+4,391,06:31,tinyllama,The Magic of Three-Dimensional Creativity,0.3256833553314209,0.3256833553314209,0.0,1.0
+4,391,06:31,llama3.1-8b,Baking Three-Dimensionality into Geometric Puzzles,0.32450374960899353,0.32450374960899353,0.0,1.0
+4,391,06:31,mistral-7b-v0.3,Proving Two-Dimensional Limitations through Three-Dimensions,0.3234564960002899,0.3234564960002899,0.0,1.0
+4,391,06:31,mistral-7b-v0.3,Proving Two-Dimensional Coverage Limit via Three-Dimensions,0.319055438041687,0.319055438041687,0.0,1.0
+4,391,06:31,mistral-7b-v0.3,Proving Two-Dimensional Coverage Limit via Three-Dimensions,0.319055438041687,0.319055438041687,0.0,1.0
+4,391,06:31,llama3.1-8b,Baking Three-Dimensional Intuition into Puzzles,0.31127387285232544,0.31127387285232544,0.0,1.0
+4,391,06:31,tinyllama,How to Solve the Rubik's Cube,0.2899627983570099,0.2899627983570099,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,gemma2-9b,Three Dimensions Solve Two-D Puzzles,0.2893698513507843,0.2893698513507843,0.0,1.0
+4,391,06:31,qwen2-7b,Unlocking Higher Dimensions for Puzzle Solutions,0.2797161340713501,0.2797161340713501,0.0,1.0
+4,391,06:31,llama3.1-8b,Stepping into Higher Dimensions Solves Puzzles,0.2781957685947418,0.2781957685947418,0.0,1.0
+4,391,06:31,llama3.1-8b,Unlocking Higher Dimensions in Geometric Puzzles,0.27719759941101074,0.27719759941101074,0.0,1.0
+4,391,06:31,tinyllama,How to Solve a Rubik's Cube,0.2771048843860626,0.2771048843860626,0.0,1.0
+4,391,06:31,llama3.1-8b,Solving Complex Problems through Dimensional Shift,0.26762714982032776,0.26762714982032776,0.0,1.0
+4,391,06:31,gemma2-9b,From Strips to Higher Dimensions,0.2676239311695099,0.2676239311695099,0.0,1.0
+4,391,06:31,qwen2-7b,Unlocking Higher Dimensions: Proving Covering Minima,0.2587081491947174,0.2587081491947174,0.0,1.0
+4,391,06:31,gemma2-9b,Unlocking Geometry's Hidden Dimensions,0.2570269703865051,0.2570269703865051,0.0,1.0
+4,391,06:31,mistral-7b-v0.3,Hemispherical Projection Unlocks Puzzle's Minimum Coverage,0.25520962476730347,0.25520962476730347,0.0,1.0
+4,391,06:31,qwen2-7b,Unlocking Dimensional Insights: Proving Covering Minima,0.24511288106441498,0.24511288106441498,0.0,1.0
+4,391,06:31,llama3.1-8b,Stepping into Higher Dimensions,0.24446521699428558,0.24446521699428558,0.0,1.0
+4,391,06:31,llama3.1-8b,Stepping into Higher Dimensions,0.24446521699428558,0.24446521699428558,0.0,1.0
+4,391,06:31,llama3.1-8b,Stepping into Higher Dimensions,0.24446521699428558,0.24446521699428558,0.0,1.0
+4,391,06:31,llama3.1-8b,Stepping into Higher Dimensions,0.24446521699428558,0.24446521699428558,0.0,1.0
+4,391,06:31,llama3.1-8b,Stepping into Higher Dimensions,0.24446521699428558,0.24446521699428558,0.0,1.0
+4,391,06:31,tinyllama,The Mathematical Mind,0.23877499997615814,0.23877499997615814,0.0,1.0
+5,628,10:28,llama3.1-8b,The Geometry of External Tangents Unveiled,0.3317217230796814,0.3317217230796814,0.0,1.0
+5,628,10:28,tinyllama,The Puzzle of Three Circles,0.3247564733028412,0.3247564733028412,0.0,1.0
+5,628,10:28,tinyllama,The Three Dimensional Intersection Problem,0.31634166836738586,0.31634166836738586,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines Meet in Three Dimensions,0.31231120228767395,0.31231120228767395,0.0,1.0
+5,628,10:28,gemma2-9b,"Cones, Circles, and Tangent Lines",0.31034791469573975,0.31034791469573975,0.0,1.0
+5,628,10:28,gemma2-9b,"Cones, Circles, and Tangent Lines",0.31034791469573975,0.31034791469573975,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines and Three Circles,0.3037688732147217,0.3037688732147217,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines and Three Circles,0.3037688732147217,0.3037688732147217,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines and Three Circles,0.3037688732147217,0.3037688732147217,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines and Three Circles,0.3037688732147217,0.3037688732147217,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines and Three Circles,0.3037688732147217,0.3037688732147217,0.0,1.0
+5,628,10:28,llama3.1-8b,Proving a Property of External Tangents,0.30312490463256836,0.30312490463256836,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines Meet on a Line,0.3000990152359009,0.3000990152359009,0.0,1.0
+5,628,10:28,gemma2-9b,Tangent Lines Meet on a Line,0.3000990152359009,0.3000990152359009,0.0,1.0
+5,628,10:28,llama3.1-8b,The External Tangent Intersection Conjecture,0.2977704107761383,0.2977704107761383,0.0,1.0
+5,628,10:28,llama3.1-8b,The External Tangent Intersection Conjecture,0.2977704107761383,0.2977704107761383,0.0,1.0
+5,628,10:28,llama3.1-8b,Tangential Cones and Geometric Similarity,0.2735261619091034,0.2735261619091034,0.0,1.0
+5,628,10:28,qwen2-7b,Dimensional Leap: Connecting Circles & Cones,0.27199792861938477,0.27199792861938477,0.0,1.0
+5,628,10:28,qwen2-7b,"Spheres, Cones, and Proving Collinearity",0.26975762844085693,0.26975762844085693,0.0,1.0
+5,628,10:28,qwen2-7b,"Spheres, Cones, and Proving Collinearity",0.26975762844085693,0.26975762844085693,0.0,1.0
+5,628,10:28,tinyllama,How to Solve a Puzzle,0.2617909908294678,0.2617909908294678,0.0,1.0
+5,628,10:28,tinyllama,Explanation of a Puzzle,0.2609933018684387,0.2609933018684387,0.0,1.0
+6,1000,16:40,tinyllama,Exploring the Intersection of External Tangents,0.36746248602867126,0.36746248602867126,0.0,1.0
+6,1000,16:40,mistral-7b-v0.3,Exploring Three-Dimensional Puzzles and Four-Dimensions Insights,0.3401108384132385,0.3401108384132385,0.0,1.0
+6,1000,16:40,mistral-7b-v0.3,Exploring Three-Dimensional Puzzles and Four-Dimensions Insights,0.3401108384132385,0.3401108384132385,0.0,1.0
+6,1000,16:40,tinyllama,How to Solve Linear Algebra Puzzles,0.3042072653770447,0.3042072653770447,0.0,1.0
+6,1000,16:40,tinyllama,How to Solve Linear Algebra Puzzles,0.3042072653770447,0.3042072653770447,0.0,1.0
+6,1000,16:40,tinyllama,How to Solve Linear Algebra Puzzles,0.3042072653770447,0.3042072653770447,0.0,1.0
+6,1000,16:40,mistral-7b-v0.3,Four-Dimensional Puzzle Solutions and Insights,0.3034308850765228,0.3034308850765228,0.0,1.0
+6,1000,16:40,qwen2-7b,Beyond Dimensions: Exploring Higher-Dimensional Geometry Puzzles,0.3021728992462158,0.3021728992462158,0.0,1.0
+6,1000,16:40,qwen2-7b,Beyond Dimensions: Exploring Higher-Dimensional Geometry Puzzles,0.3021728992462158,0.3021728992462158,0.0,1.0
+6,1000,16:40,qwen2-7b,Beyond Dimensions: Exploring Higher-Dimensional Geometry Puzzles,0.3021728992462158,0.3021728992462158,0.0,1.0
+6,1000,16:40,llama3.1-8b,Discovering New Dimensions in Geometric Shapes,0.2908400297164917,0.2908400297164917,0.0,1.0
+6,1000,16:40,gemma2-9b,Four Dimensions and Geometric Puzzles,0.28954485058784485,0.28954485058784485,0.0,1.0
+6,1000,16:40,gemma2-9b,Four Dimensions and Geometric Puzzles,0.28954485058784485,0.28954485058784485,0.0,1.0
+6,1000,16:40,gemma2-9b,Four Dimensions and Geometric Puzzles,0.28954485058784485,0.28954485058784485,0.0,1.0
+6,1000,16:40,gemma2-9b,Four Dimensions and Geometric Puzzles,0.28954485058784485,0.28954485058784485,0.0,1.0
+6,1000,16:40,gemma2-9b,Four Dimensions: Puzzles and Insights,0.2847546637058258,0.2847546637058258,0.0,1.0
+6,1000,16:40,gemma2-9b,Four Dimensions: Puzzles and Insights,0.2847546637058258,0.2847546637058258,0.0,1.0
+6,1000,16:40,llama3.1-8b,Explaining Higher-Dimensions Through Geometric Puzzles,0.28258466720581055,0.28258466720581055,0.0,1.0
+6,1000,16:40,llama3.1-8b,“Beyond 3-D: Geometric Insights Emerge”,0.2817617356777191,0.2817617356777191,0.0,1.0
+6,1000,16:40,qwen2-7b,Navigating Dimensions: From Circles to Hypercubes,0.2814711630344391,0.2814711630344391,0.0,1.0
+6,1000,16:40,gemma2-9b,Beyond Dimensions: Puzzles in Higher Spaces,0.28045299649238586,0.28045299649238586,0.0,1.0
+6,1000,16:40,llama3.1-8b,Higher Dimensions: Geometric Insights and Puzzles,0.2774176597595215,0.2774176597595215,0.0,1.0
+6,1000,16:40,tinyllama,Finding the Right Shape,0.26751911640167236,0.26751911640167236,0.0,1.0
+6,1000,16:40,llama3.1-8b,Exploring Higher Dimensions Through Geometry Puzzles,0.26362666487693787,0.26362666487693787,0.0,1.0
+6,1000,16:40,llama3.1-8b,Shifting Perspectives in Higher Dimensions,0.2612529397010803,0.2612529397010803,0.0,1.0
+6,1000,16:40,gemma2-9b,Beyond Dimensions: Geometric Puzzles Unveiled,0.25948473811149597,0.25948473811149597,0.0,1.0
+6,1000,16:40,llama3.1-8b,Higher Dimensions: Unveiling Hidden Patterns,0.25486746430397034,0.25486746430397034,0.0,1.0
+6,1000,16:40,llama3.1-8b,Higher Dimensions and Geometric Insights,0.2545619308948517,0.2545619308948517,0.0,1.0
+6,1000,16:40,llama3.1-8b,Higher Dimensions and Geometric Insights,0.2545619308948517,0.2545619308948517,0.0,1.0
+6,1000,16:40,tinyllama,The Power of Three,0.24729184806346893,0.24729184806346893,0.0,1.0
+6,1000,16:40,llama3.1-8b,Puzzles Bridging Dimensions,0.24208541214466095,0.24208541214466095,0.0,1.0
+6,1000,16:40,tinyllama,Transformations and Geometry,0.24112260341644287,0.24112260341644287,0.0,1.0
+7,1340,22:20,mistral-7b-v0.3,Exploring 4-Dimensional Space Through Rhombus Tessellation,0.3401283919811249,0.3401283919811249,0.0,1.0
+7,1340,22:20,gemma2-9b,Rhombic Duality: A 4-Dimensional Puzzle,0.3347003161907196,0.3347003161907196,0.0,1.0
+7,1340,22:20,mistral-7b-v0.3,Exploring Hypercubic Projections: A 4-Dimensional Puzzle,0.3308770954608917,0.3308770954608917,0.0,1.0
+7,1340,22:20,mistral-7b-v0.3,Exploring 4-Dimensional Space Through Rhombus Tilings,0.3289705812931061,0.3289705812931061,0.0,1.0
+7,1340,22:20,gemma2-9b,Hypercubes and Tilings: A 4-Dimensional Puzzle,0.32785385847091675,0.32785385847091675,0.0,1.0
+7,1340,22:20,gemma2-9b,Hypercubes and Tilings: A 4-Dimensional Puzzle,0.32785385847091675,0.32785385847091675,0.0,1.0
+7,1340,22:20,gemma2-9b,Hypercubes and Tilings: A 4-D Puzzle,0.32023969292640686,0.32023969292640686,0.0,1.0
+7,1340,22:20,gemma2-9b,Hypercubes and Tilings: A 4-D Puzzle,0.32023969292640686,0.32023969292640686,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Higher Dimensions with Rhombus Projections,0.3187500238418579,0.3187500238418579,0.0,1.0
+7,1340,22:20,gemma2-9b,Tiling Hypercubes: A 4-D Puzzle,0.3172421455383301,0.3172421455383301,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Higher Dimensions with Rhombus Puzzles,0.31716036796569824,0.31716036796569824,0.0,1.0
+7,1340,22:20,gemma2-9b,Tiling Hypercubes: A 4-D Puzzle Unveiled,0.311678946018219,0.311678946018219,0.0,1.0
+7,1340,22:20,gemma2-9b,Rhombic Doodles and Hypercube Projections,0.30936089158058167,0.30936089158058167,0.0,1.0
+7,1340,22:20,gemma2-9b,Rhombic Doodles and Hypercube Projections,0.30936089158058167,0.30936089158058167,0.0,1.0
+7,1340,22:20,tinyllama,The Geometry of Tessellation,0.30890294909477234,0.30890294909477234,0.0,1.0
+7,1340,22:20,gemma2-9b,Hypercubes and Tilings: A Geometric Puzzle,0.3021441698074341,0.3021441698074341,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Space with Higher Dimensions,0.30022579431533813,0.30022579431533813,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Space with Higher Dimensions,0.30022579431533813,0.30022579431533813,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Space with Higher Dimensions,0.30022579431533813,0.30022579431533813,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Space with Higher Dimensions,0.30022579431533813,0.30022579431533813,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Space with Higher Dimensions,0.30022579431533813,0.30022579431533813,0.0,1.0
+7,1340,22:20,tinyllama,Mathematical Puzzles: Tessellation,0.29020828008651733,0.29020828008651733,0.0,1.0
+7,1340,22:20,qwen2-7b,Beyond Dimensions: The Magic of Hypercubes,0.2895941138267517,0.2895941138267517,0.0,1.0
+7,1340,22:20,tinyllama,Mathematical Concepts: Tessellation,0.2863767147064209,0.2863767147064209,0.0,1.0
+7,1340,22:20,tinyllama,The Magic of Complex Numbers,0.2745078206062317,0.2745078206062317,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Higher Dimensions,0.261150598526001,0.261150598526001,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Higher Dimensions,0.261150598526001,0.261150598526001,0.0,1.0
+7,1340,22:20,llama3.1-8b,Tessellating Higher Dimensions,0.261150598526001,0.261150598526001,0.0,1.0
+7,1340,22:20,tinyllama,Mathematics in the Real World,0.25230830907821655,0.25230830907821655,0.0,1.0
+7,1340,22:20,tinyllama,Mathematics in the Real World,0.25230830907821655,0.25230830907821655,0.0,1.0
+7,1340,22:20,tinyllama,Mathematical Concepts in Nature,0.23542851209640503,0.23542851209640503,0.0,1.0
+7,1340,22:20,tinyllama,Mathematics: A Brief Introduction,0.2186826914548874,0.2186826914548874,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Nature of Higher-Dimensional Intuition,0.34991809725761414,0.34991809725761414,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Nature of Higher-Dimensional Intuition,0.34991809725761414,0.34991809725761414,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Nature of Higher-Dimensional Intuition,0.34991809725761414,0.34991809725761414,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Nature of Higher-Dimensional Intuition,0.34991809725761414,0.34991809725761414,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Nature of Higher-Dimensional Intuition,0.34991809725761414,0.34991809725761414,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Nature of Higher-Dimensional Intuition,0.34991809725761414,0.34991809725761414,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Nature of Higher-Dimensional Insight,0.34372395277023315,0.34372395277023315,0.0,1.0
+8,1614,26:54,tinyllama,How Do We Explain Four Dimensions?,0.33433103561401367,0.33433103561401367,0.0,1.0
+8,1614,26:54,tinyllama,Four Dimensional Geometries: Analysing High Dimensions,0.3340473771095276,0.3340473771095276,0.0,1.0
+8,1614,26:54,qwen2-7b,The Lost Art of High-Dimensional Intuition,0.33345267176628113,0.33345267176628113,0.0,1.0
+8,1614,26:54,tinyllama,How Four Dimensions Complicate Our Understanding,0.33020222187042236,0.33020222187042236,0.0,1.0
+8,1614,26:54,llama3.1-8b,The Elusive Beauty of Higher Dimensions,0.31886616349220276,0.31886616349220276,0.0,1.0
+8,1614,26:54,mistral-7b-v0.3,Higher Dimensions: Analysis vs Intuitive Understanding,0.30639493465423584,0.30639493465423584,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Intuition Lost?,0.2724260091781616,0.2724260091781616,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Intuition Lost?,0.2724260091781616,0.2724260091781616,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Intuition Lost?,0.2724260091781616,0.2724260091781616,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Intuition Lost?,0.2724260091781616,0.2724260091781616,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Intuition Lost?,0.2724260091781616,0.2724260091781616,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Intuition Lost?,0.2724260091781616,0.2724260091781616,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Intuition Lost?,0.2724260091781616,0.2724260091781616,0.0,1.0
+8,1614,26:54,llama3.1-8b,"Higher Dimensions, Lost Intuition",0.2718316614627838,0.2718316614627838,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Hidden Insights,0.26655369997024536,0.26655369997024536,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Hidden Insights,0.26655369997024536,0.26655369997024536,0.0,1.0
+8,1614,26:54,gemma2-9b,Beyond Three Dimensions: Hidden Insights,0.26655369997024536,0.26655369997024536,0.0,1.0
+8,1614,26:54,tinyllama,The 4th Dimension,0.2549685835838318,0.2549685835838318,0.0,1.0
+8,1614,26:54,tinyllama,Analyzing Puzzle Solutions,0.25446563959121704,0.25446563959121704,0.0,1.0
+8,1614,26:54,tinyllama,The Fourth Dimension,0.23473955690860748,0.23473955690860748,0.0,1.0
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty

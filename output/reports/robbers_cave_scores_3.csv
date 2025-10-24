@@ -1,0 +1,552 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,mistral-7b-v0.3,Summer Camp Experiment: Unleashing Tribal Mentality,0.3602759540081024,0.3602759540081024,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Summer Camp Experiment: Unveiling Tribal Mentality,0.35252290964126587,0.35252290964126587,0.0,1.0
+1,0,00:00,llama3.1-8b,"Group Dynamics, Tribal Mentality",0.34893500804901123,0.34893500804901123,0.0,1.0
+1,0,00:00,llama3.1-8b,The Unseen Roots of Tribal Mentality,0.3455161154270172,0.3455161154270172,0.0,1.0
+1,0,00:00,tinyllama,The Psychology of Group Conflict,0.34273645281791687,0.34273645281791687,0.0,1.0
+1,0,00:00,tinyllama,The Psychology of Group Conflict,0.34273645281791687,0.34273645281791687,0.0,1.0
+1,0,00:00,tinyllama,The Psychology of Group Conflict,0.34273645281791687,0.34273645281791687,0.0,1.0
+1,0,00:00,tinyllama,The Psychology of Group Conflict,0.34273645281791687,0.34273645281791687,0.0,1.0
+1,0,00:00,tinyllama,The Psychology of Group Conflict,0.34273645281791687,0.34273645281791687,0.0,1.0
+1,0,00:00,tinyllama,The Secret Origins of Group Conflict,0.33570533990859985,0.33570533990859985,0.0,1.0
+1,0,00:00,llama3.1-8b,The Unspoken Rules of Group Dynamics,0.32842937111854553,0.32842937111854553,0.0,1.0
+1,0,00:00,llama3.1-8b,Camp Chaos: A Study in Tribalism,0.32662713527679443,0.32662713527679443,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,"Two Unknown Camps, One Psychology Experiment",0.32636967301368713,0.32636967301368713,0.0,1.0
+1,0,00:00,llama3.1-8b,The Unseen Forces of Tribalism Unfold,0.32600343227386475,0.32600343227386475,0.0,1.0
+1,0,00:00,llama3.1-8b,"Summer Camp,Secret Experiment",0.32553398609161377,0.32553398609161377,0.0,1.0
+1,0,00:00,llama3.1-8b,The Unseen Forces of Tribal Instinct,0.32163479924201965,0.32163479924201965,0.0,1.0
+1,0,00:00,llama3.1-8b,Tribal Instincts Unleashed at Summer Camp,0.31140583753585815,0.31140583753585815,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Summer Camp Psychology Experiment: Eagles vs. Ratlers,0.31009384315779415,0.3663325905799866,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Summer Camp Psychology Experiment: Eagles vs. Ratlers,0.31009384315779415,0.3663325905799866,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Summer Camp Psychology Experiment: Eagles vs. Ratlers,0.31009384315779415,0.3663325905799866,0.0,0.846481724890614
+1,0,00:00,tinyllama,The Psychology Experiment,0.3019644320011139,0.3019644320011139,0.0,1.0
+1,0,00:00,llama3.1-8b,The Boys Who Became Tribes,0.29912513494491577,0.29912513494491577,0.0,1.0
+1,0,00:00,llama3.1-8b,Unknowing Tribes: A Study in Tribal Mentality,0.2845632648556693,0.3361717760562897,0.0,0.846481724890614
+1,0,00:00,gemma2-9b,The Robbers Cave Experiment,0.28149235248565674,0.28149235248565674,0.0,1.0
+1,0,00:00,gemma2-9b,The Robbers Cave Experiment,0.28149235248565674,0.28149235248565674,0.0,1.0
+1,0,00:00,gemma2-9b,The Robbers Cave Experiment,0.28149235248565674,0.28149235248565674,0.0,1.0
+1,0,00:00,gemma2-9b,The Robbers Cave Experiment,0.28149235248565674,0.28149235248565674,0.0,1.0
+1,0,00:00,gemma2-9b,The Robbers Cave Experiment,0.28149235248565674,0.28149235248565674,0.0,1.0
+1,0,00:00,gemma2-9b,The Robbers Cave Experiment,0.28149235248565674,0.28149235248565674,0.0,1.0
+1,0,00:00,gemma2-9b,The Robbers Cave Experiment,0.28149235248565674,0.28149235248565674,0.0,1.0
+1,0,00:00,qwen2-7b,"The Hidden Experiment: Boys Divided, Minds Unseen",0.2688526462296424,0.3176118731498718,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Summer of Tribes: Psychology Experiment at Boys' Camps,0.2684816838861267,0.37469637393951416,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,"The Hidden Experiment: Boys Divided, Minds Unveiled",0.2669542549005486,0.315369188785553,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,"The Hidden Experiment: Boys Divided, Minds Unveiled",0.2669542549005486,0.315369188785553,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,"The Hidden Experiment: Boys Divided, Minds Unveiled",0.2669542549005486,0.315369188785553,0.0,0.846481724890614
+1,0,00:00,mistral-7b-v0.3,Summer of Tribalism: Psychology Experiment at Boys' Camps,0.26479885774216194,0.36955657601356506,0.0,0.7165313105737893
+1,0,00:00,tinyllama,The Psychology Experiment: A Look at Group Conflict,0.2579026583220877,0.35993215441703796,0.0,0.7165313105737893
+1,0,00:00,mistral-7b-v0.3,Summer of Tribes: Psychology Experiment at Robert' Cave,0.24846583140232828,0.3467620015144348,0.0,0.7165313105737893
+1,0,00:00,tinyllama,The Secret Psychological Experiment at Robert'S Cave Summer Camp,0.24428657713799934,0.40276047587394714,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,The Hidden Experiment: Boys vs. Rats at Robert's Camp,0.2375744620207143,0.3916940689086914,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,The Hidden Experiment: Boys vs. Rats at Robert's Camp,0.2375744620207143,0.3916940689086914,0.0,0.6065306597126334
+1,0,00:00,gemma2-9b,Eagles vs. Rattlers: A Study in Group Conflict,0.23261865803053694,0.3246454894542694,0.0,0.7165313105737893
+1,0,00:00,gemma2-9b,Eagles vs. Rattlers: A Study in Group Conflict,0.23261865803053694,0.3246454894542694,0.0,0.7165313105737893
+1,0,00:00,gemma2-9b,Eagles vs. Rattlers: A Study in Group Conflict,0.23261865803053694,0.3246454894542694,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,The Hidden Experiment: Boys vs. Rats at Robert's Caves,0.23046261374719865,0.3799686133861542,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,The Hidden Experiment: Boys vs. Rats at Robert's Cove,0.2302412728546399,0.37960368394851685,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,The Hidden Experiment: Boys vs. Rats at Robert's Canyon,0.22938483092001904,0.37819164991378784,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,The Hidden Experiment: Boys vs. Rats at Robert's Canyon,0.22938483092001904,0.37819164991378784,0.0,0.6065306597126334
+1,0,00:00,tinyllama,The Secret Life of Boys at Robert'S Cave Summer Camp,0.2008439296261034,0.3911905586719513,0.0,0.513417119032592
+1,0,00:00,mistral-7b-v0.3,Summer of Conflict: Two Unknown Groups Form at Oklahoma's Robert' Cave,0.16662871922064043,0.38340866565704346,0.0,0.43459820850707825
+2,98,01:38,gemma2-9b,The Dark Side Of Social Psychology,0.35875025391578674,0.35875025391578674,0.0,1.0
+2,98,01:38,tinyllama,The Result of the Study,0.3444245457649231,0.3444245457649231,0.0,1.0
+2,98,01:38,gemma2-9b,The Dark Side: Social Psychology Experiment,0.3367571532726288,0.3367571532726288,0.0,1.0
+2,98,01:38,gemma2-9b,The Dark Side: Tribal Mentality Experiment,0.3345487415790558,0.3345487415790558,0.0,1.0
+2,98,01:38,gemma2-9b,The Dark Side: Tribal Mentality Experiment,0.3345487415790558,0.3345487415790558,0.0,1.0
+2,98,01:38,gemma2-9b,The Dark Side: Tribal Mentality Experiment,0.3345487415790558,0.3345487415790558,0.0,1.0
+2,98,01:38,gemma2-9b,The Dark Side Of Group Dynamics,0.332096129655838,0.332096129655838,0.0,1.0
+2,98,01:38,gemma2-9b,The Dark Side Of Group Dynamics,0.332096129655838,0.332096129655838,0.0,1.0
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled: Tribal Mentality,0.32353004813194275,0.32353004813194275,0.0,1.0
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled: Tribal Mentality,0.32353004813194275,0.32353004813194275,0.0,1.0
+2,98,01:38,tinyllama,Welcome to The Dark Side Of Science,0.3157085426282547,0.37296557426452637,0.0,0.846481724890614
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled: Tribal Mentality Exposed,0.2791573198136392,0.32978540658950806,0.0,0.846481724890614
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled: Tribal Mentality Exposed,0.2791573198136392,0.32978540658950806,0.0,0.846481724890614
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled,0.2728523313999176,0.2728523313999176,0.0,1.0
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled,0.2728523313999176,0.2728523313999176,0.0,1.0
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled,0.2728523313999176,0.2728523313999176,0.0,1.0
+2,98,01:38,llama3.1-8b,The Dark Side Unveiled,0.2728523313999176,0.2728523313999176,0.0,1.0
+2,98,01:38,gemma2-9b,The Dark Side: Social Experiments Gone Wrong,0.2656474900192556,0.31382542848587036,0.0,0.846481724890614
+2,98,01:38,llama3.1-8b,The Darkest Instincts Unleashed,0.25612369179725647,0.25612369179725647,0.0,1.0
+2,98,01:38,llama3.1-8b,The Darkest Instincts Unleashed,0.25612369179725647,0.25612369179725647,0.0,1.0
+2,98,01:38,qwen2-7b,The Dark Side Experiment: From Turkey to America,0.2408579359678854,0.3361443281173706,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Experiment: From Turkey to America,0.2408579359678854,0.3361443281173706,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Experiment: From Turkey to America,0.2408579359678854,0.3361443281173706,0.0,0.7165313105737893
+2,98,01:38,gemma2-9b,The Dark Side: Muzafer Sherif's Robbers Cave Experiment,0.23889662919473065,0.33340710401535034,0.0,0.7165313105737893
+2,98,01:38,gemma2-9b,The Dark Side: Muzafer Sherif's Robbers Cave Experiment,0.23889662919473065,0.33340710401535034,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Unveiled: From Turkey to Exile,0.2321093793985555,0.32393473386764526,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Unveiled: From Turkey to Exile,0.2321093793985555,0.32393473386764526,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Experiment: From Tribe to Tyranny,0.2306379402013014,0.32188117504119873,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Unleashed: From Turkey to Exile,0.2296663196824052,0.3205251693725586,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Unraveled: From Scholar to Controversy,0.2163836052058834,0.3019876480102539,0.0,0.7165313105737893
+2,98,01:38,qwen2-7b,The Dark Side Unveiled: From Scholar to Exile,0.21470058763277822,0.2996388077735901,0.0,0.7165313105737893
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist Amidst Political Turmoil,0.20074792880859543,0.3309773802757263,0.0,0.6065306597126334
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist Amidst Political Turmoil,0.20074792880859543,0.3309773802757263,0.0,0.6065306597126334
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist Amidst Political Turmoil,0.20074792880859543,0.3309773802757263,0.0,0.6065306597126334
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist Amidst Political Turmoil,0.20074792880859543,0.3309773802757263,0.0,0.6065306597126334
+2,98,01:38,qwen2-7b,The Dark Side Experiment: From Turkey to the Shadows of American Academia,0.1308979089822049,0.35581740736961365,0.0,0.36787944117144233
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist: Muzaffer Sharif and the In-Group Experiment,0.13048877801833716,0.354705274105072,0.0,0.36787944117144233
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist: Muzaffer Sharif and the In-Group Experiment,0.13048877801833716,0.354705274105072,0.0,0.36787944117144233
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist: Muzaffer Sharif and the In-Group Experiment,0.13048877801833716,0.354705274105072,0.0,0.36787944117144233
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist: Muzaffer Sherif' s Life and Experiment,0.12919957200203777,0.3512008488178253,0.0,0.36787944117144233
+2,98,01:38,mistral-7b-v0.3,The Birth of a Social Psychologist: Muzaffer Sharif and His Journey Amidst Political Turmoil,0.09898002449878783,0.37549734115600586,0.0,0.2635971381157267
+2,98,01:38,mistral-7b-v0.3,The Life and Times of Muzzafar Sharif: A Social Psychologist Caught in the Crossfire,0.09441338110682766,0.3581730127334595,0.0,0.2635971381157267
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Responsible for Some True Historical Horrors,0.01462974374174987,0.48447057604789734,0.0,0.0301973834223185
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors,0.010598331882364417,0.4898160696029663,0.0,0.0216373707194931
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors,0.010598331882364417,0.4898160696029663,0.0,0.0216373707194931
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors,0.010598331882364417,0.4898160696029663,0.0,0.0216373707194931
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors,0.010598331882364417,0.4898160696029663,0.0,0.0216373707194931
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mentality Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors,0.010598331882364417,0.4898160696029663,0.0,0.0216373707194931
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mindset Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors,0.01056850591755927,0.48843762278556824,0.0,0.0216373707194931
+2,98,01:38,tinyllama,The Result of the Study Would Reveal the Tribal Mindset Which Has Allowed Us to Thrive as A Species But Also Has Been Responsible for Some True Historical Horrors,0.01056850591755927,0.48843762278556824,0.0,0.0216373707194931
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment: In-Group Conflict,0.3569610118865967,0.3569610118865967,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment: In-Group Conflict,0.3569610118865967,0.3569610118865967,0.0,1.0
+3,357,05:57,llama3.1-8b,Creating Conflict: Artificial In-Group Dynamics,0.3509244918823242,0.3509244918823242,0.0,1.0
+3,357,05:57,llama3.1-8b,Sharif's Experiment: Fostering Intergroups,0.3497063219547272,0.3497063219547272,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment: In-Group Bias,0.3496381640434265,0.3496381640434265,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment: In-Group Bias,0.3496381640434265,0.3496381640434265,0.0,1.0
+3,357,05:57,mistral-7b-v0.3,Forming In-Groups: A 10-Year-Old Experiment,0.3489854633808136,0.3489854633808136,0.0,1.0
+3,357,05:57,mistral-7b-v0.3,Forming In-Groups: A 10-Year-Old Experiment,0.3489854633808136,0.3489854633808136,0.0,1.0
+3,357,05:57,llama3.1-8b,The Birth of Intergroup Conflict,0.33789998292922974,0.33789998292922974,0.0,1.0
+3,357,05:57,llama3.1-8b,The Birth of Intergroup Conflict,0.33789998292922974,0.33789998292922974,0.0,1.0
+3,357,05:57,llama3.1-8b,Creating Conflict: The Birth of In-Groups,0.33717018365859985,0.33717018365859985,0.0,1.0
+3,357,05:57,tinyllama,Experiment #2 - Intergroup Conflict,0.33170995116233826,0.33170995116233826,0.0,1.0
+3,357,05:57,llama3.1-8b,The Birth of In-Group Conflict,0.3289903998374939,0.3289903998374939,0.0,1.0
+3,357,05:57,llama3.1-8b,The Birth of Intergroup Tensions,0.327824205160141,0.327824205160141,0.0,1.0
+3,357,05:57,llama3.1-8b,Manipulation Through In-Group Formation,0.322998970746994,0.322998970746994,0.0,1.0
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,qwen2-7b,Creating In-Groups: A Study on Intergroup Conflict,0.32294897870122574,0.3815191388130188,0.0,0.846481724890614
+3,357,05:57,mistral-7b-v0.3,Creating In-Groups: The 1st Summer Camp Experiment,0.30522574034103755,0.3605816066265106,0.0,0.846481724890614
+3,357,05:57,gemma2-9b,Creating Conflict: The Robbers Cave Experiment,0.2896471321582794,0.2896471321582794,0.0,1.0
+3,357,05:57,mistral-7b-v0.3,Creating In-Groups: The 1st Experiment on Intergroup Conflict,0.28071498413934926,0.39176931977272034,0.0,0.7165313105737893
+3,357,05:57,mistral-7b-v0.3,Creating In-Groups: The 1st Experiment on Intergroup Conflict,0.28071498413934926,0.39176931977272034,0.0,0.7165313105737893
+3,357,05:57,mistral-7b-v0.3,Creating In-Groups: The 1st Experiment on Intergroup Conflict,0.28071498413934926,0.39176931977272034,0.0,0.7165313105737893
+3,357,05:57,mistral-7b-v0.3,Creating In-Groups: The 1st Experiment on Intergroup Conflict,0.28071498413934926,0.39176931977272034,0.0,0.7165313105737893
+3,357,05:57,tinyllama,The Influence of Social In-Groups on Intergroup Conflict,0.2753332955338173,0.38425856828689575,0.0,0.7165313105737893
+3,357,05:57,tinyllama,The Influence of Social In-Groups on Intergroup Conflict,0.2753332955338173,0.38425856828689575,0.0,0.7165313105737893
+3,357,05:57,tinyllama,The Influence of Social In-Groups on Intergroup Conflict,0.2753332955338173,0.38425856828689575,0.0,0.7165313105737893
+3,357,05:57,mistral-7b-v0.3,Forming In-Groups: A Summer Study of Intergroup Conflict,0.2752577440306117,0.3841531276702881,0.0,0.7165313105737893
+3,357,05:57,mistral-7b-v0.3,Forming In-Groups: A Summer Study of Intergroup Conflict,0.2752577440306117,0.3841531276702881,0.0,0.7165313105737893
+3,357,05:57,tinyllama,The Influence of Social In-Group on Intergroup Conflict,0.2733044237645793,0.3814270496368408,0.0,0.7165313105737893
+3,357,05:57,tinyllama,The Influence of Social In-Group on Intergroup Conflict,0.2733044237645793,0.3814270496368408,0.0,0.7165313105737893
+3,357,05:57,tinyllama,The Effect of In-Group Formation on Intergroup Conflict,0.2709477208259766,0.37813800573349,0.0,0.7165313105737893
+3,357,05:57,llama3.1-8b,Forced Fraternal Rivalries,0.26986345648765564,0.26986345648765564,0.0,1.0
+3,357,05:57,tinyllama,Examining the Role of In-Groups in Social Conflict,0.2662649583651364,0.3716026842594147,0.0,0.7165313105737893
+3,357,05:57,llama3.1-8b,"""Creating Conflict through",0.25068870186805725,0.25068870186805725,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment,0.2503797709941864,0.2503797709941864,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment,0.2503797709941864,0.2503797709941864,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment,0.2503797709941864,0.2503797709941864,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment,0.2503797709941864,0.2503797709941864,0.0,1.0
+3,357,05:57,gemma2-9b,The Robbers Cave Experiment,0.2503797709941864,0.2503797709941864,0.0,1.0
+3,357,05:57,mistral-7b-v0.3,The Birth of In-Group Conflict: A Summer Camp Experiment,0.22008086727513693,0.36285200715065,0.0,0.6065306597126334
+3,357,05:57,tinyllama,Experimental In-Group Formation: A Study of Social Interaction among Young Boys,0.1724994626375931,0.39691710472106934,0.0,0.43459820850707825
+3,357,05:57,tinyllama,In-Group Dynamics in Social Conflict: A Case Study of the Sharoni Experiment,0.13325215798757106,0.36221691966056824,0.0,0.36787944117144233
+4,509,08:29,llama3.1-8b,Robert Cave Study Explores In-Group Behavior,0.363314688205719,0.363314688205719,0.0,1.0
+4,509,08:29,tinyllama,The Importance of In-Group Behavior,0.3542490601539612,0.3542490601539612,0.0,1.0
+4,509,08:29,gemma2-9b,Building In-Groups: The Robber's Cove Experiment,0.3360099196434021,0.3360099196434021,0.0,1.0
+4,509,08:29,gemma2-9b,The Seeds of In-Group Formation,0.3354417383670807,0.3354417383670807,0.0,1.0
+4,509,08:29,gemma2-9b,The Seeds of In-Group Formation,0.3354417383670807,0.3354417383670807,0.0,1.0
+4,509,08:29,gemma2-9b,Building In-Groups: The Robbers Cave Experiment,0.33409741520881653,0.33409741520881653,0.0,1.0
+4,509,08:29,gemma2-9b,Building In-Groups: The Robbers Cave Experiment,0.33409741520881653,0.33409741520881653,0.0,1.0
+4,509,08:29,llama3.1-8b,Revisiting Group Dynamics in Robert's Caves,0.330390065908432,0.330390065908432,0.0,1.0
+4,509,08:29,llama3.1-8b,The Formation Of In- Group Bonds,0.3291490077972412,0.3291490077972412,0.0,1.0
+4,509,08:29,gemma2-9b,The Robber's Cove Experiment Begins,0.3170129358768463,0.3170129358768463,0.0,1.0
+4,509,08:29,gemma2-9b,The Robber's Cove Experiment Begins,0.3170129358768463,0.3170129358768463,0.0,1.0
+4,509,08:29,llama3.1-8b,The Power of In-Groups Revealed,0.3165576756000519,0.3165576756000519,0.0,1.0
+4,509,08:29,llama3.1-8b,Forming In-Grouds: A Lab Experiment,0.30817025899887085,0.30817025899887085,0.0,1.0
+4,509,08:29,llama3.1-8b,A New Chapter in Group Dynamics,0.3073943853378296,0.3073943853378296,0.0,1.0
+4,509,08:29,gemma2-9b,The Robbers Cave Experiment Begins,0.3005314767360687,0.3005314767360687,0.0,1.0
+4,509,08:29,gemma2-9b,The Robbers Cave Experiment Begins,0.3005314767360687,0.3005314767360687,0.0,1.0
+4,509,08:29,llama3.1-8b,In-Group Bonding: The 1955 Robert Cave Experiment,0.30035816729382747,0.3548312485218048,0.0,0.846481724890614
+4,509,08:29,llama3.1-8b,Forming Bonds: The Robert Cave Study,0.29947423934936523,0.29947423934936523,0.0,1.0
+4,509,08:29,gemma2-9b,The Seeds of Intergroup Conflict,0.2913319766521454,0.2913319766521454,0.0,1.0
+4,509,08:29,llama3.1-8b,The Robert Cage Study: Forging Group Bonds,0.276744724071893,0.3269352614879608,0.0,0.846481724890614
+4,509,08:29,qwen2-7b,Expanding In-Group Dynamics: From Theory to Oklahoma,0.27381383712385016,0.3234728276729584,0.0,0.846481724890614
+4,509,08:29,mistral-7b-v0.3,The 10-Day Oklahoma Experiment: Rebooting Group Formation,0.2722246546200461,0.3215954303741455,0.0,0.846481724890614
+4,509,08:29,llama3.1-8b,Forming Bonds: A Study in Group Dynamics,0.2688859460297062,0.3176512122154236,0.0,0.846481724890614
+4,509,08:29,tinyllama,The Effect of Group Formation on In-Group Behavior,0.2592951720371915,0.3618755638599396,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effects of Group Formation on In-Group Behavior,0.2575106147812874,0.35938501358032227,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effects of Group Formation on In-Group Behavior,0.2575106147812874,0.35938501358032227,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effects of Group Formation on In-Group Behavior,0.2575106147812874,0.35938501358032227,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effects of Group Formation on In-Group Behavior,0.2575106147812874,0.35938501358032227,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effects of Group Formation on In-Group Behavior,0.2575106147812874,0.35938501358032227,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effects of Group Formation on In-Group Behavior,0.2575106147812874,0.35938501358032227,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effects of Group Formation on Sport Performance,0.23671310960575978,0.3303597569465637,0.0,0.7165313105737893
+4,509,08:29,tinyllama,The Effect of Group Formation on Sport Performance,0.23628877836771614,0.3297675549983978,0.0,0.7165313105737893
+4,509,08:29,qwen2-7b,Expanding Understanding: The 1st & 2nd Sheriff Experiments,0.2075621450661906,0.289676308631897,0.0,0.7165313105737893
+4,509,08:29,mistral-7b-v0.3,Robert's cave study: A second chance at understanding in-Group dynamics,0.19205208450534036,0.37406638264656067,0.0,0.513417119032592
+4,509,08:29,mistral-7b-v0.3,Robert's 1054 Cave Study: A Second Attempt at In-Group Formation,0.1871311226588674,0.364481657743454,0.0,0.513417119032592
+4,509,08:29,mistral-7b-v0.3,The 10-Day 'Robert's Camp': A Second Attempt at In-Group Study,0.18600740026538826,0.36229294538497925,0.0,0.513417119032592
+4,509,08:29,qwen2-7b,Expanding the Quest for In-Group Dynamics: From Theory to Oklahoma,0.17649773827604653,0.3437706530094147,0.0,0.513417119032592
+4,509,08:29,mistral-7b-v0.3,The 1054 Robert' Cave Study: A Second Attempt at In-Group Formation,0.161536108217632,0.37169069051742554,0.0,0.43459820850707825
+4,509,08:29,mistral-7b-v0.3,The 1054 Robert' Cave Study: A Second Attempt at In-Group Formation,0.161536108217632,0.37169069051742554,0.0,0.43459820850707825
+4,509,08:29,mistral-7b-v0.3,The 1054 Robert' Cave Study: A Second Attempt at In-Group Formation,0.161536108217632,0.37169069051742554,0.0,0.43459820850707825
+4,509,08:29,mistral-7b-v0.3,The 1054 Robert' Cave Study: A Second Attempt at In-Group Exploration,0.15807593296575195,0.36372891068458557,0.0,0.43459820850707825
+4,509,08:29,mistral-7b-v0.3,The 1054 Robert' Cave Study: A Second Chance at In-Group Formation,0.15576277706282643,0.3584063947200775,0.0,0.43459820850707825
+4,509,08:29,qwen2-7b,Expanding Understanding: The 1st & 2nd Sheriff Experiments on In-Group Behavior,0.15546489318872436,0.3577209711074829,0.0,0.43459820850707825
+4,509,08:29,qwen2-7b,Expanding Understanding: The 1st & 2nd Sheriff Experiments on In-Group Behavior,0.15546489318872436,0.3577209711074829,0.0,0.43459820850707825
+4,509,08:29,qwen2-7b,Expanding Understanding: The 1st & 2nd Sheriff Experiments on In-Group Behavior,0.15546489318872436,0.3577209711074829,0.0,0.43459820850707825
+4,509,08:29,qwen2-7b,Expanding Insights: The 1st & 2nd Sheriff Experiments on In-Group Dynamics,0.15376672585530685,0.3538135290145874,0.0,0.43459820850707825
+4,509,08:29,qwen2-7b,Expanding Insights: The 1st & 2nd Sheriff Experiments on In-Group Dynamics,0.15376672585530685,0.3538135290145874,0.0,0.43459820850707825
+4,509,08:29,qwen2-7b,Expanding Insights: The 1st & 2nd Sheriff Experiments on In-Group Behavior,0.15296542224910342,0.35196974873542786,0.0,0.43459820850707825
+4,509,08:29,qwen2-7b,Expanding Insights: The 1st & 2nd Sheriff Experiments on In-Group Behavior,0.15296542224910342,0.35196974873542786,0.0,0.43459820850707825
+4,509,08:29,mistral-7b-v0.3,The 10-Day Group Formation Experiment: The 1st Step Towards Robert' Cave Study,0.13197383888734535,0.3587420880794525,0.0,0.36787944117144233
+5,710,11:50,llama3.1-8b,Robbers cave experiment: Building in-group bonds,0.3585101366043091,0.3585101366043091,0.0,1.0
+5,710,11:50,mistral-7b-v0.3,"Robbers Cove: Two Groups, One Conflict",0.3258097469806671,0.3258097469806671,0.0,1.0
+5,710,11:50,qwen2-7b,"Building Bonds, Igniting Conflict, Uniting Groups",0.32377156615257263,0.32377156615257263,0.0,1.0
+5,710,11:50,gemma2-9b,Building In-Group Bonds and Conflict,0.32244861125946045,0.32244861125946045,0.0,1.0
+5,710,11:50,mistral-7b-v0.3,"Robbers Cove: Separate Groups, Competitive Integration",0.318744421005249,0.318744421005249,0.0,1.0
+5,710,11:50,gemma2-9b,The Robbers Cove Experiment: Building Conflict,0.3133627772331238,0.3133627772331238,0.0,1.0
+5,710,11:50,gemma2-9b,The Robbers Cove Experiment: Building Conflict,0.3133627772331238,0.3133627772331238,0.0,1.0
+5,710,11:50,qwen2-7b,"Building Bonds, Igniting Conflict, Unifying Teams",0.3105928599834442,0.3105928599834442,0.0,1.0
+5,710,11:50,llama3.1-8b,The Robbers' Cave Experiment Begins,0.30827128887176514,0.30827128887176514,0.0,1.0
+5,710,11:50,tinyllama,The Robber's Cave Experiment,0.30062657594680786,0.30062657594680786,0.0,1.0
+5,710,11:50,tinyllama,The Robber's Cave Experiment,0.30062657594680786,0.30062657594680786,0.0,1.0
+5,710,11:50,tinyllama,Two Groups Living Together,0.29788634181022644,0.29788634181022644,0.0,1.0
+5,710,11:50,llama3.1-8b,In-Group Alliances Formed Amidst Rivalry,0.29784777760505676,0.29784777760505676,0.0,1.0
+5,710,11:50,gemma2-9b,The Robbers Cove Experiment Begins,0.29423290491104126,0.29423290491104126,0.0,1.0
+5,710,11:50,gemma2-9b,The Robbers Cove Experiment Begins,0.29423290491104126,0.29423290491104126,0.0,1.0
+5,710,11:50,gemma2-9b,The Robbers Cove Experiment Begins,0.29423290491104126,0.29423290491104126,0.0,1.0
+5,710,11:50,gemma2-9b,The Robbers Cove Experiment Begins,0.29423290491104126,0.29423290491104126,0.0,1.0
+5,710,11:50,llama3.1-8b,The Art of Group Formation Experiment,0.2938688099384308,0.2938688099384308,0.0,1.0
+5,710,11:50,llama3.1-8b,The Formation of In-Groups Through Social Experimentation,0.29094214428335236,0.34370753169059753,0.0,0.846481724890614
+5,710,11:50,llama3.1-8b,Building Bonds and Conflict in Isolation,0.2903183698654175,0.2903183698654175,0.0,1.0
+5,710,11:50,qwen2-7b,Cultivating Unity: From Separation to Integration,0.288437157869339,0.288437157869339,0.0,1.0
+5,710,11:50,qwen2-7b,Cultivating Unity: From Isolation to Integration,0.28817346692085266,0.28817346692085266,0.0,1.0
+5,710,11:50,qwen2-7b,Cultivating Unity: From Isolation to Integration,0.28817346692085266,0.28817346692085266,0.0,1.0
+5,710,11:50,qwen2-7b,Cultivating Unity: From Isolation to Integration,0.28817346692085266,0.28817346692085266,0.0,1.0
+5,710,11:50,qwen2-7b,Cultivating Unity: From Isolation to Integration,0.28817346692085266,0.28817346692085266,0.0,1.0
+5,710,11:50,qwen2-7b,Cultivating Unity: From Isolation to Integration,0.28817346692085266,0.28817346692085266,0.0,1.0
+5,710,11:50,qwen2-7b,Cultivating Unity: From Isolation to Integration,0.28817346692085266,0.28817346692085266,0.0,1.0
+5,710,11:50,tinyllama,The Robbers' Cave Experiment,0.28768911957740784,0.28768911957740784,0.0,1.0
+5,710,11:50,tinyllama,The Robbers' Cave Experiment,0.28768911957740784,0.28768911957740784,0.0,1.0
+5,710,11:50,tinyllama,The Robbers' Cave Experiment,0.28768911957740784,0.28768911957740784,0.0,1.0
+5,710,11:50,mistral-7b-v0.3,Robbers Cove Experiment: Week-Long Group Dynamics Study,0.28391028604896296,0.33540037274360657,0.0,0.846481724890614
+5,710,11:50,mistral-7b-v0.3,Robbers Cove Camp: Building Bonds and Conflict,0.28051738960215566,0.3313921391963959,0.0,0.846481724890614
+5,710,11:50,llama3.1-8b,Building Bonds and Conflicts at Robber's Cave,0.27921955512178886,0.3298589289188385,0.0,0.846481724890614
+5,710,11:50,llama3.1-8b,"Isolation, Competition, and the Birth of In-Groups",0.27556823204478914,0.32554540038108826,0.0,0.846481724890614
+5,710,11:50,gemma2-9b,Building Bonds and Breaking Barriers,0.2674105167388916,0.2674105167388916,0.0,1.0
+5,710,11:50,llama3.1-8b,Separation and Competition Unfold,0.26143914461135864,0.26143914461135864,0.0,1.0
+5,710,11:50,tinyllama,The Effects of Separation on Group Dynamics,0.2583653030605984,0.3052225410938263,0.0,0.846481724890614
+5,710,11:50,mistral-7b-v0.3,Robbers Cove: Weeklong Team Building and Conflict Experiment,0.24369658403815775,0.34010598063468933,0.0,0.7165313105737893
+5,710,11:50,llama3.1-8b,"""FosterinG CamaradiE Thro",0.2374362051486969,0.2374362051486969,0.0,1.0
+5,710,11:50,tinyllama,The Effects of Group Dynamics on Friendship Formation,0.2335775940969447,0.32598379254341125,0.0,0.7165313105737893
+5,710,11:50,tinyllama,"Two Groups Living Separate Lives, Experimenting and Creating Friendships",0.22339812465200098,0.3683212399482727,0.0,0.6065306597126334
+5,710,11:50,mistral-7b-v0.3,Robbers Cove Experiment: Team Building & Conflict Among Pre-Teens,0.22141957748362198,0.36505916714668274,0.0,0.6065306597126334
+5,710,11:50,tinyllama,The Effect of Separation on Friendship and In-Group Bonds,0.2165497524789293,0.3570301830768585,0.0,0.6065306597126334
+5,710,11:50,gemma2-9b,Building Bonds and Brawls: The Robbers Cove Experiment,0.215834180495319,0.3012208640575409,0.0,0.7165313105737893
+5,710,11:50,gemma2-9b,Building Bonds and Brawls: The Robbers Cove Experiment,0.215834180495319,0.3012208640575409,0.0,0.7165313105737893
+5,710,11:50,mistral-7b-v0.3,"Robbers Cove Experiment: Building Bonds, Fostering Friction, and Integration",0.21106635497468465,0.34798958897590637,0.0,0.6065306597126334
+5,710,11:50,mistral-7b-v0.3,"Robbers Cove: Two Groups, One Conflict - Team Building Experiment",0.1851190535010385,0.36056268215179443,0.0,0.513417119032592
+5,710,11:50,mistral-7b-v0.3,Robbers Cove Experiment: Building Bonds and Conflict Among Teenage Groups,0.18416030673216266,0.35869529843330383,0.0,0.513417119032592
+5,710,11:50,mistral-7b-v0.3,Robbers Cove Experiment: Building Bonds and Conflict Among Teenage Groups,0.18416030673216266,0.35869529843330383,0.0,0.513417119032592
+5,710,11:50,qwen2-7b,"Building Bonds, Igniting Conflict, Achieving Unity: The Robbers' Cave Experiment",0.1721627596882856,0.33532726764678955,0.0,0.513417119032592
+6,880,14:40,llama3.1-8b,Tensions Rise Between In-Group Campers,0.3355175852775574,0.3355175852775574,0.0,1.0
+6,880,14:40,llama3.1-8b,Friction Phase Unfolds: Group Dynamics Emerge,0.32058703899383545,0.32058703899383545,0.0,1.0
+6,880,14:40,llama3.1-8b,Friction Phase Erupts Among Camp Groups,0.3115291893482208,0.3115291893482208,0.0,1.0
+6,880,14:40,llama3.1-8b,Rivalries Form Among Campers,0.31038644909858704,0.31038644909858704,0.0,1.0
+6,880,14:40,tinyllama,The Effectiveness of the Experiment,0.30723562836647034,0.30723562836647034,0.0,1.0
+6,880,14:40,llama3.1-8b,In-Grp Dynamics Erupt During Friction Phase,0.30064886808395386,0.30064886808395386,0.0,1.0
+6,880,14:40,mistral-7b-v0.3,Emerging Group Microcultures and Baseball Showdown,0.2973557412624359,0.2973557412624359,0.0,1.0
+6,880,14:40,llama3.1-8b,Rivalries Ignite Between Two Groups,0.2969740331172943,0.2969740331172943,0.0,1.0
+6,880,14:40,llama3.1-8b,Friction Phase Becomes Obvious Through Behavior,0.2959156632423401,0.2959156632423401,0.0,1.0
+6,880,14:40,llama3.1-8b,Frictions Phase Ignited Group Dynamics,0.2886444628238678,0.2886444628238678,0.0,1.0
+6,880,14:40,gemma2-9b,From Groups to Rivals: Friction Ignites,0.2881728410720825,0.2881728410720825,0.0,1.0
+6,880,14:40,gemma2-9b,From Groups to Rivals: Friction Ignites,0.2881728410720825,0.2881728410720825,0.0,1.0
+6,880,14:40,mistral-7b-v0.3,Emerging Group Dynamics & Baseball Tournament,0.2869408130645752,0.2869408130645752,0.0,1.0
+6,880,14:40,gemma2-9b,From Groups to Rivalry: Friction Ignites,0.286580890417099,0.286580890417099,0.0,1.0
+6,880,14:40,gemma2-9b,From Groups to Rivalry: Friction Ignites,0.286580890417099,0.286580890417099,0.0,1.0
+6,880,14:40,gemma2-9b,From Groups to Rivalry: Friction Ignites,0.286580890417099,0.286580890417099,0.0,1.0
+6,880,14:40,gemma2-9b,From Groups to Rivalry: Friction Ignites,0.286580890417099,0.286580890417099,0.0,1.0
+6,880,14:40,llama3.1-8b,FrictionPhase Begins BetweenTwoGroups,0.2859962284564972,0.2859962284564972,0.0,1.0
+6,880,14:40,tinyllama,The Experiment: A Transformative Experience,0.2851302921772003,0.2851302921772003,0.0,1.0
+6,880,14:40,gemma2-9b,From Shirts to Rivalry: In-Group Dynamics Emerge,0.28136935994136464,0.3323986232280731,0.0,0.846481724890614
+6,880,14:40,tinyllama,The Effect of Group Dynamics on Competition,0.2763477248646168,0.32646626234054565,0.0,0.846481724890614
+6,880,14:40,tinyllama,The Effects of Language on Group Dynamics,0.2722026313431857,0.32156941294670105,0.0,0.846481724890614
+6,880,14:40,qwen2-7b,Tournament Tensions: From Unity to Conflict,0.2667712867259979,0.2667712867259979,0.0,1.0
+6,880,14:40,qwen2-7b,Tournament Tensions: From Unity to Conflict,0.2667712867259979,0.2667712867259979,0.0,1.0
+6,880,14:40,mistral-7b-v0.3,Formation of In-Group Dynamics and Friction Between Groups,0.26227484388563505,0.36603403091430664,0.0,0.7165313105737893
+6,880,14:40,gemma2-9b,From Shirts to Strife: In-Group Conflict Emerges,0.2565308624838999,0.30305540561676025,0.0,0.846481724890614
+6,880,14:40,qwen2-7b,Formation of In-Group Dynamics and Initiation of Friction,0.2532075530775129,0.35337960720062256,0.0,0.7165313105737893
+6,880,14:40,qwen2-7b,Formation of In-Group Dynamics and Initiation of Friction,0.2532075530775129,0.35337960720062256,0.0,0.7165313105737893
+6,880,14:40,qwen2-7b,Formation of In-Group Dynamics and Initiation of Friction,0.2532075530775129,0.35337960720062256,0.0,0.7165313105737893
+6,880,14:40,qwen2-7b,Formation of In-Group Dynamics and Initiation of Friction,0.2532075530775129,0.35337960720062256,0.0,0.7165313105737893
+6,880,14:40,gemma2-9b,From Shirts to Showdown: Group Conflict Emerges,0.24905230761335112,0.29422053694725037,0.0,0.846481724890614
+6,880,14:40,mistral-7b-v0.3,Formation of Groups and Friction Emerges at Camp,0.2444377062739558,0.3411403000354767,0.0,0.7165313105737893
+6,880,14:40,gemma2-9b,From Shirts to Rivalry: The Friction Begins,0.24106073400484918,0.2847796082496643,0.0,0.846481724890614
+6,880,14:40,tinyllama,The Experiment: A Transcript of the Friction Phase,0.24005544148216848,0.335024356842041,0.0,0.7165313105737893
+6,880,14:40,qwen2-7b,Group Dynamics Shifts to Friction: Preparing for Competition,0.2364099853581613,0.3299367129802704,0.0,0.7165313105737893
+6,880,14:40,qwen2-7b,Group Dynamics Shifts to Friction: Preparing for Competition,0.2364099853581613,0.3299367129802704,0.0,0.7165313105737893
+6,880,14:40,qwen2-7b,Group Dynamics Shifts to Friction: Preparing for Competition,0.2364099853581613,0.3299367129802704,0.0,0.7165313105737893
+6,880,14:40,mistral-7b-v0.3,Emerging Microcultures and Baseball Showdown: Friction Stages Begin,0.22756266516465787,0.31758928298950195,0.0,0.7165313105737893
+6,880,14:40,mistral-7b-v0.3,Emerging Microcultures & Baseball Battle: Friction Phase Begins,0.22512088670633468,0.31418150663375854,0.0,0.7165313105737893
+6,880,14:40,mistral-7b-v0.3,Rivalry Emerges: Baseball Game Tournament Sparks Group Friction,0.22445157897174647,0.313247412443161,0.0,0.7165313105737893
+6,880,14:40,mistral-7b-v0.3,Emerging Microcultures & Baseball Showdown: Friction Phase Begins,0.2236235447466757,0.31209179759025574,0.0,0.7165313105737893
+6,880,14:40,llama3.1-8b,Answer: Alternative Title,0.21910162270069122,0.21910162270069122,0.0,1.0
+6,880,14:40,qwen2-7b,Group Dynamics Shifts to Friction Phase: Preparing for Competition,0.21229268655278688,0.3500114679336548,0.0,0.6065306597126334
+6,880,14:40,mistral-7b-v0.3,Emergence of Group Dynamics and Friction in Camp Competition,0.21093608108226564,0.34777480363845825,0.0,0.6065306597126334
+6,880,14:40,mistral-7b-v0.3,Formation of Groups and Friction Emerges in Camp Experiment,0.21044005695546253,0.3469569981098175,0.0,0.6065306597126334
+6,880,14:40,tinyllama,The Effects of Group Dynamics on a Camping Trip,0.19890332496515398,0.3279361426830292,0.0,0.6065306597126334
+6,880,14:40,tinyllama,The Effectiveness of Group Dynamics in Shaping Cultural Attitudes,0.19502965147112022,0.32154953479766846,0.0,0.6065306597126334
+6,880,14:40,tinyllama,The Effects of Group Dynamics on a Group of Boys,0.17407610664893952,0.3390539586544037,0.0,0.513417119032592
+6,880,14:40,tinyllama,The Effects of Language on Group Dynamics in a Camping Experiment,0.14780476124937633,0.340095192193985,0.0,0.43459820850707825
+6,880,14:40,tinyllama,The Effects of Group Dynamics on the Performance of Children During a Camping Trip,0.09416922262866785,0.3572467565536499,0.0,0.2635971381157267
+7,1084,18:04,tinyllama,The Experimenters' Battle Over a Treasure,0.3351583480834961,0.3351583480834961,0.0,1.0
+7,1084,18:04,llama3.1-8b,Friction Ignites Chaos in Intergroup Competition,0.31966859102249146,0.31966859102249146,0.0,1.0
+7,1084,18:04,llama3.1-8b,Campsite Chaos Unfolds: Intergroup Tensions Rise,0.3168131411075592,0.3168131411075592,0.0,1.0
+7,1084,18:04,llama3.1-8b,Camp Chaos Erupts Amid Intergroup Friction,0.3127295672893524,0.3127295672893524,0.0,1.0
+7,1084,18:04,mistral-7b-v0.3,Competitive Chaos: Camp Conflict Escalates,0.30916205048561096,0.30916205048561096,0.0,1.0
+7,1084,18:04,llama3.1-8b,Friction Builds As Camp Groups Clash,0.3036975860595703,0.3036975860595703,0.0,1.0
+7,1084,18:04,tinyllama,The Battle of the Experimenters,0.30356836318969727,0.30356836318969727,0.0,1.0
+7,1084,18:04,gemma2-9b,Escalation: Camp Rivalry Turns Violent,0.29808729887008667,0.29808729887008667,0.0,1.0
+7,1084,18:04,gemma2-9b,Escalation: Camp Rivalry Turns Violent,0.29808729887008667,0.29808729887008667,0.0,1.0
+7,1084,18:04,gemma2-9b,Escalation: Camp Rivalry Turns Violent,0.29808729887008667,0.29808729887008667,0.0,1.0
+7,1084,18:04,gemma2-9b,Escalation: Camp Rivalry Turns Violent,0.29808729887008667,0.29808729887008667,0.0,1.0
+7,1084,18:04,tinyllama,The Battle for the Trophy,0.2937212586402893,0.2937212586402893,0.0,1.0
+7,1084,18:04,tinyllama,The Battle for the Trophy,0.2937212586402893,0.2937212586402893,0.0,1.0
+7,1084,18:04,llama3.1-8b,Rivalries Ignite: A Descent into Chaos,0.2908659279346466,0.2908659279346466,0.0,1.0
+7,1084,18:04,llama3.1-8b,Campsite Conflicts Escalate into Mayhen,0.2893073260784149,0.2893073260784149,0.0,1.0
+7,1084,18:04,gemma2-9b,Camp Conflict: Rivalry Ignites,0.2857478857040405,0.2857478857040405,0.0,1.0
+7,1084,18:04,llama3.1-8b,Rival CampGroups EngageinEscalatingConflict,0.2840253710746765,0.2840253710746765,0.0,1.0
+7,1084,18:04,mistral-7b-v0.3,Camp Chaos: Flag Burning & Cabin Raids,0.28213989713314486,0.3333089053630829,0.0,0.846481724890614
+7,1084,18:04,gemma2-9b,Escalation: From Games to Gang Warfare,0.2806021273136139,0.2806021273136139,0.0,1.0
+7,1084,18:04,gemma2-9b,Escalation: From Competition to Conflict,0.27920565009117126,0.27920565009117126,0.0,1.0
+7,1084,18:04,gemma2-9b,Escalation: From Competition to Conflict,0.27920565009117126,0.27920565009117126,0.0,1.0
+7,1084,18:04,gemma2-9b,Escalation: From Competition to Conflict,0.27920565009117126,0.27920565009117126,0.0,1.0
+7,1084,18:04,mistral-7b-v0.3,Camp Chaos: Flag Burning & Retaliatory Raids,0.27147091869102535,0.32070499658584595,0.0,0.846481724890614
+7,1084,18:04,gemma2-9b,Escalation: From Games to Warfare,0.26826223731040955,0.26826223731040955,0.0,1.0
+7,1084,18:04,qwen2-7b,Tournament Tensions Reach沸点: Eagles vs. Rattler Showdown,0.26336557076563866,0.3111296594142914,0.0,0.846481724890614
+7,1084,18:04,mistral-7b-v0.3,"Rivalry Escalates: Flag Burning, Raids, and Final Victory",0.26103725559612667,0.36430683732032776,0.0,0.7165313105737893
+7,1084,18:04,mistral-7b-v0.3,"Rivalry Escalates: Flag Burning, Raids, and Final Showdown",0.25733768768322096,0.3591436743736267,0.0,0.7165313105737893
+7,1084,18:04,llama3.1-8b,Rivalry Escalates: A Tale of Two Teams,0.25654163446467815,0.3030681312084198,0.0,0.846481724890614
+7,1084,18:04,qwen2-7b,Turbulent Team Dynamics: From Competition to Conflict,0.2527042865955036,0.2985348403453827,0.0,0.846481724890614
+7,1084,18:04,qwen2-7b,Turbulent Team Dynamics: From Competition to Conflict,0.2527042865955036,0.2985348403453827,0.0,0.846481724890614
+7,1084,18:04,qwen2-7b,Turbulent Team Dynamics: From Competition to Conflict,0.2527042865955036,0.2985348403453827,0.0,0.846481724890614
+7,1084,18:04,qwen2-7b,Tournament Tensions Reach沸ing Point,0.25219935178756714,0.25219935178756714,0.0,1.0
+7,1084,18:04,qwen2-7b,Tournament Tensions Reach沸ing Point,0.25219935178756714,0.25219935178756714,0.0,1.0
+7,1084,18:04,llama3.1-8b,Friction Ignites: A Descent into Intergroup Chaos,0.25155178556071844,0.29717332124710083,0.0,0.846481724890614
+7,1084,18:04,llama3.1-8b,Camp Chaos Erups Amid Integroup Frictio,0.24641241133213043,0.24641241133213043,0.0,1.0
+7,1084,18:04,qwen2-7b,Tournament Tensions Reach沸点: Eagles vs. Rattler Feud Escalates,0.23572000666396228,0.32897377014160156,0.0,0.7165313105737893
+7,1084,18:04,qwen2-7b,Tournament Tensions Reach沸点: Eagles vs. Rattler Feud Escalates,0.23572000666396228,0.32897377014160156,0.0,0.7165313105737893
+7,1084,18:04,tinyllama,Eagle vs Rattler: A Battle for the Trophies,0.2275539526114335,0.3175771236419678,0.0,0.7165313105737893
+7,1084,18:04,mistral-7b-v0.3,"Rivalry Escalates: Flag Burning, Raids, and a Bitter Victory",0.21927003114467497,0.3615151643753052,0.0,0.6065306597126334
+7,1084,18:04,qwen2-7b,Turbulent Team Dynamics: From Friendly Competition to Intense Conflict,0.19351106676513807,0.3190458118915558,0.0,0.6065306597126334
+7,1084,18:04,qwen2-7b,Turbulent Team Dynamics: From Friendly Competition to Intense Rivalry,0.1921367648688255,0.3167799711227417,0.0,0.6065306597126334
+7,1084,18:04,tinyllama,Eagles vs Rattler - A Battle for the Trophy,0.18874899292912994,0.3111944794654846,0.0,0.6065306597126334
+7,1084,18:04,tinyllama,The Battle Between Two Groups: A Comparison of Their Reactions,0.18755364509420366,0.3653046190738678,0.0,0.513417119032592
+7,1084,18:04,mistral-7b-v0.3,Camp Chaos: Flag Burning & Cabin Raids Fuel Group Rivalry,0.1757547359244316,0.3423234820365906,0.0,0.513417119032592
+7,1084,18:04,mistral-7b-v0.3,Camp Chaos: Flag Burning & Cabin Raids Fuel Group Rivalry,0.1757547359244316,0.3423234820365906,0.0,0.513417119032592
+7,1084,18:04,mistral-7b-v0.3,"Rivalry Escalates: Flag Burning, Raids, and a Climactic Treasure Hunter Showdown",0.15638396965753965,0.35983574390411377,0.0,0.43459820850707825
+7,1084,18:04,mistral-7b-v0.3,"Rivalry Escalates: Flag Burning, Raids, and a Climactic Treasure Hunter Showdown",0.15638396965753965,0.35983574390411377,0.0,0.43459820850707825
+7,1084,18:04,tinyllama,The Battle for the Trophy: A Transcript of the Day 2 Competition,0.1333366330010127,0.36244654655456543,0.0,0.36787944117144233
+7,1084,18:04,tinyllama,The Battle for the Trophy: A Transcript of a Day in the Life of Two Groups,0.06320026499442605,0.334613174200058,0.0,0.18887560283756186
+7,1084,18:04,tinyllama,Eagles vs Rattler: A Transcript of a Day in the Life of a High School Football Team,0.05204635774366611,0.3255344033241272,0.0,0.15987974607969388
+8,1221,20:21,tinyllama,The Struggle Between Two Groups,0.3511259853839874,0.3511259853839874,0.0,1.0
+8,1221,20:21,tinyllama,The Struggle Between Two Groups,0.3511259853839874,0.3511259853839874,0.0,1.0
+8,1221,20:21,tinyllama,The Eaglets vs The Ratlings: Integration,0.34540826082229614,0.34540826082229614,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Rivalry Intensifies as Groups Refuse Integration,0.33596208691596985,0.33596208691596985,0.0,1.0
+8,1221,20:21,tinyllama,The Eaglets vs. Ratlings: Integration,0.3334580063819885,0.3334580063819885,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Eagle-Rattler Rivalry Intensifies; Integration Challenges Ahead,0.33315590023994446,0.33315590023994446,0.0,1.0
+8,1221,20:21,llama3.1-8b,Rivals turned Enemies:Group dynamics unravel,0.3177776038646698,0.3177776038646698,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Rivalry Deepens as Groups Refuse Integration,0.31459248065948486,0.31459248065948486,0.0,1.0
+8,1221,20:21,llama3.1-8b,"Arbitrarily Divided, Arbitrarily United",0.3144316077232361,0.3144316077232361,0.0,1.0
+8,1221,20:21,gemma2-9b,Feuding Tribes: Seeds of Integration,0.312367707490921,0.312367707490921,0.0,1.0
+8,1221,20:21,gemma2-9b,Feuding Tribes: Seeds of Integration,0.312367707490921,0.312367707490921,0.0,1.0
+8,1221,20:21,llama3.1-8b,Factional Tensions Rise as Integration Unfolds,0.3090876638889313,0.3090876638889313,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Rivalry Escalates as Integration Begins,0.30308273434638977,0.30308273434638977,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Rivalry Escalates as Integration Approaches,0.30206894874572754,0.30206894874572754,0.0,1.0
+8,1221,20:21,llama3.1-8b,Rival Groups Clash in Final Experiment Stage,0.3013847849935228,0.35604405403137207,0.0,0.846481724890614
+8,1221,20:21,llama3.1-8b,"Rivals Clash, Integration Stalls",0.29824310541152954,0.29824310541152954,0.0,1.0
+8,1221,20:21,tinyllama,The Intriguing Experiment of Integration,0.297233909368515,0.297233909368515,0.0,1.0
+8,1221,20:21,tinyllama,The Experiment - Integration,0.2971334159374237,0.2971334159374237,0.0,1.0
+8,1221,20:21,llama3.1-8b,The Great Divide: Integrating Adversaries,0.2941257953643799,0.2941257953643799,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Rivalry Intensifies as Integration Begins,0.2938407063484192,0.2938407063484192,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Rivalry and Integration: Two Groups at Odds,0.2936255531718299,0.3468776047229767,0.0,0.846481724890614
+8,1221,20:21,mistral-7b-v0.3,Rivalry and Integration: Two Groups at Odds,0.2936255531718299,0.3468776047229767,0.0,0.846481724890614
+8,1221,20:21,mistral-7b-v0.3,Rivalry and Integration: Two Groups at Odds,0.2936255531718299,0.3468776047229767,0.0,0.846481724890614
+8,1221,20:21,llama3.1-8b,Enemies Born From Arbitrary Selection,0.29178914427757263,0.29178914427757263,0.0,1.0
+8,1221,20:21,mistral-7b-v0.3,Rivalry Reignites: Eagles vs. Rattler Conflict Escalates,0.28988954264875877,0.34246402978897095,0.0,0.846481724890614
+8,1221,20:21,llama3.1-8b,""" From Enemies to Harmony",0.2818329334259033,0.2818329334259033,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,gemma2-9b,From Rivalry to Integration,0.25767606496810913,0.25767606496810913,0.0,1.0
+8,1221,20:21,qwen2-7b,From Hatred to Integration: The Experiment's Final Stage,0.25684152058967036,0.3584512174129486,0.0,0.7165313105737893
+8,1221,20:21,qwen2-7b,From Hatred to Integration: The Experiment's Final Stage,0.25684152058967036,0.3584512174129486,0.0,0.7165313105737893
+8,1221,20:21,qwen2-7b,From Hatred to Integration: The Experiment's Final Stage,0.25684152058967036,0.3584512174129486,0.0,0.7165313105737893
+8,1221,20:21,llama3.1-8b,"""Creating Unity Amidst",0.2513590455055237,0.2513590455055237,0.0,1.0
+8,1221,20:21,qwen2-7b,From Enmity to Integration: The Experiment's Final Stage,0.25135536676263426,0.3507946729660034,0.0,0.7165313105737893
+8,1221,20:21,qwen2-7b,From Enmity to Integration: The Experiment's Final Stage,0.25135536676263426,0.3507946729660034,0.0,0.7165313105737893
+8,1221,20:21,qwen2-7b,From Enmity to Integration: The Experiment's Final Stage,0.25135536676263426,0.3507946729660034,0.0,0.7165313105737893
+8,1221,20:21,qwen2-7b,From Enmity to Integration: The Experiment's Final Stage,0.25135536676263426,0.3507946729660034,0.0,0.7165313105737893
+8,1221,20:21,tinyllama,The Eaglets vs. Ratlings: An Experiment in Integration,0.2487929792341852,0.3472185730934143,0.0,0.7165313105737893
+8,1221,20:21,llama3.1-8b,The Great Divide: From Enemies to Unity,0.24852448055521806,0.2935969829559326,0.0,0.846481724890614
+8,1221,20:21,tinyllama,The Eaglets and Ratlings: An Experiment in Integration,0.24374550673285644,0.34017425775527954,0.0,0.7165313105737893
+8,1221,20:21,tinyllama,The Eaglets vs The Ratlings: An Experiment in Integration,0.2152887510901347,0.3549511432647705,0.0,0.6065306597126334
+8,1221,20:21,tinyllama,The Eaglets vs. The Rattlesnakes: An Experiment in Integration,0.21018323283120982,0.34653356671333313,0.0,0.6065306597126334
+8,1221,20:21,qwen2-7b,From Enmity to Integration: The Evolution of Two Groups,0.20731491154316475,0.34180450439453125,0.0,0.6065306597126334
+8,1221,20:21,qwen2-7b,From Enmity to Integration: The Evolution of Two Groups,0.20731491154316475,0.34180450439453125,0.0,0.6065306597126334
+8,1221,20:21,qwen2-7b,From Enmity to Integration: The Evolution of Camp Dynamics,0.19107521430963426,0.3150297701358795,0.0,0.6065306597126334
+9,1315,21:55,mistral-7b-v0.3,Engineering Cooperation: Overcoming Intergroup Friction,0.31759509444236755,0.31759509444236755,0.0,1.0
+9,1315,21:55,llama3.1-8b,When Common Goals Bring Enemies Together,0.3029658794403076,0.3029658794403076,0.0,1.0
+9,1315,21:55,llama3.1-8b,"""When Shared Struggles Bring People Together",0.30008023977279663,0.30008023977279663,0.0,1.0
+9,1315,21:55,llama3.1-8b,Designing Unity Among Divided Groups,0.2904614210128784,0.2904614210128784,0.0,1.0
+9,1315,21:55,gemma2-9b,Bridging Group Conflict Through Cooperation,0.29039713740348816,0.29039713740348816,0.0,1.0
+9,1315,21:55,gemma2-9b,Bridging Group Conflict Through Cooperation,0.29039713740348816,0.29039713740348816,0.0,1.0
+9,1315,21:55,llama3.1-8b,Creating Unity Amidst Conflict and Competition,0.2900838553905487,0.2900838553905487,0.0,1.0
+9,1315,21:55,tinyllama,Experiment with Two Groups,0.28837060928344727,0.28837060928344727,0.0,1.0
+9,1315,21:55,mistral-7b-v0.3,Engineering Cooperation and Breaking Down Barriers,0.28818222880363464,0.28818222880363464,0.0,1.0
+9,1315,21:55,gemma2-9b,Bridging Group Divide Through Cooperation,0.28312382102012634,0.28312382102012634,0.0,1.0
+9,1315,21:55,tinyllama,Experiment with Different Groups,0.2783643901348114,0.2783643901348114,0.0,1.0
+9,1315,21:55,llama3.1-8b,Creating Harmony through Shared Struggle,0.27673694491386414,0.27673694491386414,0.0,1.0
+9,1315,21:55,mistral-7b-v0.3,Engineering Cooperation: Robbers Cave Experiment,0.2766505777835846,0.2766505777835846,0.0,1.0
+9,1315,21:55,mistral-7b-v0.3,Engineering Cooperation: Robbers Cave Experiment,0.2766505777835846,0.2766505777835846,0.0,1.0
+9,1315,21:55,mistral-7b-v0.3,Engineering Cooperation: Robbers Cave Experiment,0.2766505777835846,0.2766505777835846,0.0,1.0
+9,1315,21:55,tinyllama,Experiment: Creating Two Groups From Similar Backgrounds,0.2722755629507497,0.3216555714607239,0.0,0.846481724890614
+9,1315,21:55,tinyllama,The Effect of Differences on Intergroup Hostility,0.2701617572332126,0.3191584050655365,0.0,0.846481724890614
+9,1315,21:55,tinyllama,The Effects of Intergroup Conflict on Children,0.2688890994198638,0.31765493750572205,0.0,0.846481724890614
+9,1315,21:55,llama3.1-8b,Breaking Down Barriers Through Shared Challenges,0.26689857244491577,0.26689857244491577,0.0,1.0
+9,1315,21:55,llama3.1-8b,Breaking Down Barriers Through Shared Challenges,0.26689857244491577,0.26689857244491577,0.0,1.0
+9,1315,21:55,mistral-7b-v0.3,Cooperation and Camaraderie Emerges Among Rival Groups,0.2642954676824213,0.3122282028198242,0.0,0.846481724890614
+9,1315,21:55,mistral-7b-v0.3,Cooperation and Camaraderie Emerges Among Rival Groups,0.2642954676824213,0.3122282028198242,0.0,0.846481724890614
+9,1315,21:55,gemma2-9b,From Hostility to Harmony,0.26184603571891785,0.26184603571891785,0.0,1.0
+9,1315,21:55,gemma2-9b,From Hostility to Harmony,0.26184603571891785,0.26184603571891785,0.0,1.0
+9,1315,21:55,gemma2-9b,From Hostility to Harmony,0.26184603571891785,0.26184603571891785,0.0,1.0
+9,1315,21:55,gemma2-9b,From Hostility to Harmony,0.26184603571891785,0.26184603571891785,0.0,1.0
+9,1315,21:55,gemma2-9b,From Hostility to Harmony,0.26184603571891785,0.26184603571891785,0.0,1.0
+9,1315,21:55,mistral-7b-v0.3,Engineering Cooperation: Water Crisis and Film Fundraising,0.25483993900005225,0.3010578155517578,0.0,0.846481724890614
+9,1315,21:55,tinyllama,Creating a New Group Culture,0.2520703077316284,0.2520703077316284,0.0,1.0
+9,1315,21:55,gemma2-9b,From Hostility to Harmony: Bridging Group Divides,0.24732220641018599,0.29217666387557983,0.0,0.846481724890614
+9,1315,21:55,gemma2-9b,From Hostility to Harmony: Bridging Group Divides,0.24732220641018599,0.29217666387557983,0.0,0.846481724890614
+9,1315,21:55,llama3.1-8b,Engineering Harmony Among Adversaries,0.24407953023910522,0.24407953023910522,0.0,1.0
+9,1315,21:55,qwen2-7b,From Hatred to Cooperation: A Transformational Experiment,0.23846778957321174,0.28171640634536743,0.0,0.846481724890614
+9,1315,21:55,qwen2-7b,From Hatred to Cooperation: A Transformational Experiment,0.23846778957321174,0.28171640634536743,0.0,0.846481724890614
+9,1315,21:55,qwen2-7b,From Hatred to Cooperation: A Transformational Experiment,0.23846778957321174,0.28171640634536743,0.0,0.846481724890614
+9,1315,21:55,qwen2-7b,From Hatred to Cooperation: A Transformative Experiment,0.23691256277462425,0.2798791229724884,0.0,0.846481724890614
+9,1315,21:55,mistral-7b-v0.3,Cooperation Tasks and Camp Out Foster Intergroup Harmony,0.23648246184258181,0.3300378620624542,0.0,0.7165313105737893
+9,1315,21:55,tinyllama,Experiment: Creating Two Groups From Nearly Identical Backgrounds,0.2352299896079818,0.3282898962497711,0.0,0.7165313105737893
+9,1315,21:55,tinyllama,The Effect of Social Hierarchy on Intergroup Hostility,0.22968635001310245,0.32055312395095825,0.0,0.7165313105737893
+9,1315,21:55,llama3.1-8b,Building Bridges Between Divergent,0.2276546210050583,0.2276546210050583,0.0,1.0
+9,1315,21:55,tinyllama,The Effects of Social Hierarchy on Intergroup Relationships,0.21965781687448377,0.30655717849731445,0.0,0.7165313105737893
+9,1315,21:55,mistral-7b-v0.3,Cooperation Tasks and Camp Out Unite Robbers Cave Groups,0.20092162130648003,0.3312637507915497,0.0,0.6065306597126334
+9,1315,21:55,qwen2-7b,From Hatred to Unity: A Transformation Through Common Goals,0.18254273529475679,0.30096209049224854,0.0,0.6065306597126334
+9,1315,21:55,llama3.1-8b,""" From Rivalty to Unity : A Social",0.18211461356730563,0.25416141748428345,0.0,0.7165313105737893
+9,1315,21:55,qwen2-7b,From Hatred to Cooperation: A Journey Through Intergroup Dynamics,0.1790667523664384,0.2952311635017395,0.0,0.6065306597126334
+9,1315,21:55,qwen2-7b,From Hatred to Cooperation: A Journey Through Intergroup Dynamics,0.1790667523664384,0.2952311635017395,0.0,0.6065306597126334
+9,1315,21:55,qwen2-7b,From Hatred to Cooperation: A Journey Through Intergroup Dynamics,0.1790667523664384,0.2952311635017395,0.0,0.6065306597126334
+9,1315,21:55,qwen2-7b,From Hatred to Unity: A Journey Through Group Dynamics,0.17606643996385976,0.29028448462486267,0.0,0.6065306597126334
+9,1315,21:55,qwen2-7b,From Hatred to Unity: A Journey Through Group Dynamics,0.17606643996385976,0.29028448462486267,0.0,0.6065306597126334
+9,1315,21:55,tinyllama,How did Shariff's experiment create a hierarchy among the groups?,0.1742486409786582,0.33939000964164734,0.0,0.513417119032592
+10,1530,25:30,llama3.1-8b,"Children, Competition, and Conflict",0.33087947964668274,0.33087947964668274,0.0,1.0
+10,1530,25:30,llama3.1-8b,Blurred Boundaries: Realistic Conflict Theory Unveiled,0.318683385848999,0.318683385848999,0.0,1.0
+10,1530,25:30,llama3.1-8b,The Robber's Cave Experiment: Blurred Boundaries,0.3117620646953583,0.3117620646953583,0.0,1.0
+10,1530,25:30,llama3.1-8b,The Robber's Cave Experiment: Blurred Boundaries,0.3117620646953583,0.3117620646953583,0.0,1.0
+10,1530,25:30,llama3.1-8b,Manipulation and Misconceptions in Robber's Cave,0.3081107437610626,0.3081107437610626,0.0,1.0
+10,1530,25:30,tinyllama,The Effects of Competition on Intergroup Relationships,0.30502225838095054,0.36034122109413147,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,Robbers Cave: Conflict and Cooperation,0.29581111669540405,0.29581111669540405,0.0,1.0
+10,1530,25:30,llama3.1-8b,Blurred Boundaries and Manipulated Minds,0.2899228036403656,0.2899228036403656,0.0,1.0
+10,1530,25:30,llama3.1-8b,Blurred Boundaries and Manipulated Minds,0.2899228036403656,0.2899228036403656,0.0,1.0
+10,1530,25:30,tinyllama,The Robber'S Cave Experiment,0.28872156143188477,0.28872156143188477,0.0,1.0
+10,1530,25:30,llama3.1-8b,Breaking Down Barriers: A Study in Intergroups,0.28060611338762875,0.3314969539642334,0.0,0.846481724890614
+10,1530,25:30,llama3.1-8b,The Robber's Cave Experiment: Group Dynamics Unveiled,0.27937621554481645,0.3300440013408661,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,Robbers Cave: Conflict and Resolution,0.27753376960754395,0.27753376960754395,0.0,1.0
+10,1530,25:30,gemma2-9b,Robbers Cave: Conflict and Resolution,0.27753376960754395,0.27753376960754395,0.0,1.0
+10,1530,25:30,tinyllama,The Role of Superordinate Goals in Intergroup Relationships,0.27726404430779533,0.3869531452655792,0.0,0.7165313105737893
+10,1530,25:30,tinyllama,The Effects of Superordinate Goals on Intergroup Relationships,0.27663772277330684,0.3860790431499481,0.0,0.7165313105737893
+10,1530,25:30,tinyllama,The Effects of Superordinate Goals on Intergroup Relations,0.2740693346873675,0.38249456882476807,0.0,0.7165313105737893
+10,1530,25:30,tinyllama,The Role of Superordinate Goals in Intergroup Relations,0.27175333303907284,0.3792623281478882,0.0,0.7165313105737893
+10,1530,25:30,tinyllama,The Roots of Violence,0.2702944576740265,0.2702944576740265,0.0,1.0
+10,1530,25:30,tinyllama,The Experiment That Changed Everything,0.26799753308296204,0.26799753308296204,0.0,1.0
+10,1530,25:30,tinyllama,The Experiment That Changed Everything,0.26799753308296204,0.26799753308296204,0.0,1.0
+10,1530,25:30,tinyllama,The Experiment That Changed Everything,0.26799753308296204,0.26799753308296204,0.0,1.0
+10,1530,25:30,gemma2-9b,The Robbers Cave Experiment: Conflict & Cooperation,0.2636671610003077,0.3114859461784363,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,The Robbers Cave Experiment: Conflict & Cooperation,0.2636671610003077,0.3114859461784363,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,The Robbers Cave Experiment: Conflict and Resolution,0.26345843179899847,0.3112393617630005,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,The Robbers Cave Experiment: Conflict and Resolution,0.26345843179899847,0.3112393617630005,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,The Robbers Cave Experiment: Conflict & Resolution,0.2563665330160091,0.3028612732887268,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,The Robbers Cave Experiment: Conflict & Resolution,0.2563665330160091,0.3028612732887268,0.0,0.846481724890614
+10,1530,25:30,gemma2-9b,The Robbers Cave Experiment: Conflict & Resolution,0.2563665330160091,0.3028612732887268,0.0,0.846481724890614
+10,1530,25:30,mistral-7b-v0.3,Robbers Cave Experiment: Unleashing Intergroup Conflict and Cohesion,0.2461640517159146,0.34354960918426514,0.0,0.7165313105737893
+10,1530,25:30,mistral-7b-v0.3,Robbers Cave Experiment: Unveiling Intergroup Conflict and Cohesion,0.2433463308568185,0.33961716294288635,0.0,0.7165313105737893
+10,1530,25:30,mistral-7b-v0.3,Robbers Cave Experiment: Unveiling Intergroup Conflict and Cohesion,0.2433463308568185,0.33961716294288635,0.0,0.7165313105737893
+10,1530,25:30,mistral-7b-v0.3,Robbers Cave Experiment: Unleashing Intergroup Conflict and Cooperation,0.23768987651026158,0.3317229449748993,0.0,0.7165313105737893
+10,1530,25:30,mistral-7b-v0.3,Robbers Cave Experiment: Unveiling Intergroup Conflict and Cooperation,0.2335062707445686,0.32588425278663635,0.0,0.7165313105737893
+10,1530,25:30,mistral-7b-v0.3,"Robbers Cave Experiment: Conflict, Competition, and Cohesion Among Children",0.21633170142242167,0.35667067766189575,0.0,0.6065306597126334
+10,1530,25:30,mistral-7b-v0.3,The Robbers Cave Experiment: Unveiling Intergroup Conflict and Cohesion,0.2107895387698137,0.3475331962108612,0.0,0.6065306597126334
+10,1530,25:30,mistral-7b-v0.3,The Robbers Cave Experiment: Blurring Boundaries and Fostering Hostility,0.20980419672046552,0.34590864181518555,0.0,0.6065306597126334
+10,1530,25:30,mistral-7b-v0.3,The Robbers Cave Experiment: Blurring Boundaries and Fostering Hostility,0.20980419672046552,0.34590864181518555,0.0,0.6065306597126334
+10,1530,25:30,qwen2-7b,The Robber's Cave Experiment: Unraveling Intergroup Dynamics and Critiques,0.20454908130132696,0.3372444212436676,0.0,0.6065306597126334
+10,1530,25:30,qwen2-7b,The Robber's Cave Experiment: Unveiling Intergroup Dynamics and Critiques,0.20448849047471554,0.33714452385902405,0.0,0.6065306597126334
+10,1530,25:30,qwen2-7b,The Robber's Cave Experiment: Unraveling Hostility and Friendship Dynamics,0.1981843511798111,0.3267507553100586,0.0,0.6065306597126334
+10,1530,25:30,qwen2-7b,The Robber's Cave Experiment: Unraveling Hostility and Friendship Dynamics,0.1981843511798111,0.3267507553100586,0.0,0.6065306597126334
+10,1530,25:30,llama3.1-8b,The Robber’s Cave Experiment Debunked. **(This answer fits perfectly)**,0.1891253718646022,0.3118150234222412,0.0,0.6065306597126334
+10,1530,25:30,mistral-7b-v0.3,"The Robbers Cave Experiment: Conflict, Competition, and Cohesion Among Children",0.1890212273663426,0.3681630790233612,0.0,0.513417119032592
+10,1530,25:30,qwen2-7b,Sherrif's Robber Cave Experiment: Uncovering Hostility and Realistic Conflict Theory,0.1812513681404511,0.3530294597148895,0.0,0.513417119032592
+10,1530,25:30,qwen2-7b,Sherriff's Robber's Cave Experiment: A Complex Study on Intergroup Relations,0.17524146312464323,0.34132376313209534,0.0,0.513417119032592
+10,1530,25:30,qwen2-7b,The Robber's Cave Experiment: Unveiling Intergroup Hostility and Its Complexities,0.1720360825230017,0.3350805342197418,0.0,0.513417119032592
+10,1530,25:30,qwen2-7b,The Robber's Cave Experiment: Unveiling Intergroup Hostility and Its Complexities,0.1720360825230017,0.3350805342197418,0.0,0.513417119032592
+10,1530,25:30,qwen2-7b,The Robber's Cave Experiment: Unveiling Intergroup Hostility and Its Complexities,0.1720360825230017,0.3350805342197418,0.0,0.513417119032592
+10,1530,25:30,qwen2-7b,Sherriff's Robber's Cave Experiment: A Study on Intergroup Hostility and Realistic Conflict Theory,0.11532014803948468,0.37032419443130493,0.0,0.31140322391459774
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment: Ethics Examined,0.305739164352417,0.305739164352417,0.0,1.0
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment: Ethics Examined,0.305739164352417,0.305739164352417,0.0,1.0
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment: Ethics Examined,0.305739164352417,0.305739164352417,0.0,1.0
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment's Ethics,0.3045025169849396,0.3045025169849396,0.0,1.0
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment's Ethics,0.3045025169849396,0.3045025169849396,0.0,1.0
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment's Dark Side,0.3043491542339325,0.3043491542339325,0.0,1.0
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment's Dark Side,0.3043491542339325,0.3043491542339325,0.0,1.0
+11,1794,29:54,tinyllama,The Experiment That Changed The World,0.298578679561615,0.298578679561615,0.0,1.0
+11,1794,29:54,llama3.1-8b,The Dark Side of Social Experimentation,0.29722756147384644,0.29722756147384644,0.0,1.0
+11,1794,29:54,llama3.1-8b,The Dark Side of Social Experimentation,0.29722756147384644,0.29722756147384644,0.0,1.0
+11,1794,29:54,llama3.1-8b,The Dark Side of Social Experimentation,0.29722756147384644,0.29722756147384644,0.0,1.0
+11,1794,29:54,llama3.1-8b,The Dark Side of Social Experimentation,0.29722756147384644,0.29722756147384644,0.0,1.0
+11,1794,29:54,gemma2-9b,The Stanford Prison Experiment's Dark Legacy,0.2957288324832916,0.2957288324832916,0.0,1.0
+11,1794,29:54,tinyllama,The Ethics of Experimentation,0.2925179898738861,0.2925179898738861,0.0,1.0
+11,1794,29:54,llama3.1-8b,The Boys Who Turned Against Their Experimenters,0.28240452963516727,0.3336215317249298,0.0,0.846481724890614
+11,1794,29:54,llama3.1-8b,The Boys Who Turned Against Their Experimenters,0.28240452963516727,0.3336215317249298,0.0,0.846481724890614
+11,1794,29:54,tinyllama,The 10 Most Horrifying Experiment Results,0.27366122603416443,0.27366122603416443,0.0,1.0
+11,1794,29:54,tinyllama,Chapter 2: The First Day,0.2684612274169922,0.2684612274169922,0.0,1.0
+11,1794,29:54,qwen2-7b,The Unexpected Ethical Dilemma: A Friendship Experiment,0.26789618515417246,0.31648194789886475,0.0,0.846481724890614
+11,1794,29:54,llama3.1-8b,The Troubling Tale of the 8-Year-Old Experiment,0.26783609415133,0.31641095876693726,0.0,0.846481724890614
+11,1794,29:54,llama3.1-8b,The Troubling Tale of the 8-Year-Old Experiment,0.26783609415133,0.31641095876693726,0.0,0.846481724890614
+11,1794,29:54,tinyllama,The 100 Year Study: The Disappearing Children,0.260583851785609,0.3078434467315674,0.0,0.846481724890614
+11,1794,29:54,llama3.1-8b,When Science Crosses Ethics Boundaries,0.25464168190956116,0.25464168190956116,0.0,1.0
+11,1794,29:54,tinyllama,The Tale of Two Cities,0.24714714288711548,0.24714714288711548,0.0,1.0
+11,1794,29:54,gemma2-9b,The Moral Maze of Stanford Prison Experiment,0.24630573001323736,0.2909758388996124,0.0,0.846481724890614
+11,1794,29:54,gemma2-9b,The Moral Maze of Stanford Prison Experiment,0.24630573001323736,0.2909758388996124,0.0,0.846481724890614
+11,1794,29:54,qwen2-7b,The Unexpected Redemption: A Controversial Experiment Unfolds,0.24227630284278553,0.2862156331539154,0.0,0.846481724890614
+11,1794,29:54,qwen2-7b,The Unexpected Redemption: A Controversial Experiment Unfolds,0.24227630284278553,0.2862156331539154,0.0,0.846481724890614
+11,1794,29:54,llama3.1-8b,The Troubling Tale of the 38 Boys Experiment,0.22422639790863086,0.31293314695358276,0.0,0.7165313105737893
+11,1794,29:54,qwen2-7b,The Unexpected Ethical Dilemma: A 10-Year Friendship Experiment,0.22350620288400902,0.31192803382873535,0.0,0.7165313105737893
+11,1794,29:54,qwen2-7b,The Surprising Ethical Dilemma of the 50s Experiment,0.22103087682491251,0.3084734380245209,0.0,0.7165313105737893
+11,1794,29:54,qwen2-7b,The Surprising Ethical Dilemma of the 50s Study,0.21623015322678915,0.3017734885215759,0.0,0.7165313105737893
+11,1794,29:54,tinyllama,The 100 Year Study: The Better Nature of Children,0.2081038756866936,0.343105286359787,0.0,0.6065306597126334
+11,1794,29:54,tinyllama,The 100 Year Study: The Better Nature of Children,0.2081038756866936,0.343105286359787,0.0,0.6065306597126334
+11,1794,29:54,qwen2-7b,The Surprising Ethical Dilemma of the 50-Year Friendship Experiment,0.19162436386585593,0.3159351646900177,0.0,0.6065306597126334
+11,1794,29:54,qwen2-7b,The Surprising Ethical Dilemma of the 50-Year Friendship Experiment,0.19162436386585593,0.3159351646900177,0.0,0.6065306597126334
+11,1794,29:54,qwen2-7b,The Surprising Ethical Dilemma of the 50-Year Friendship Experiment,0.19162436386585593,0.3159351646900177,0.0,0.6065306597126334
+11,1794,29:54,qwen2-7b,The Surprising Ethical Dilemma of the 50-Year Friendship Experiment,0.19162436386585593,0.3159351646900177,0.0,0.6065306597126334
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The 10-Year-Old Boys Experiment,0.1644969627164218,0.3203963339328766,0.0,0.513417119032592
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The 10-Year-Old Boys Experiment,0.1644969627164218,0.3203963339328766,0.0,0.513417119032592
+11,1794,29:54,tinyllama,The 10 Most Interesting Scientific Studies of All Time,0.16242403214062623,0.2677919566631317,0.0,0.6065306597126334
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Infamous 10-Year-Old Study,0.15989404792364986,0.31143108010292053,0.0,0.513417119032592
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Stanford Prison Experiment,0.15127429340295298,0.2946420907974243,0.0,0.513417119032592
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Stanford Prison Experiment,0.15127429340295298,0.2946420907974243,0.0,0.513417119032592
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Stanford Prison Experiment,0.15127429340295298,0.2946420907974243,0.0,0.513417119032592
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Stanford Prison Experiment,0.15127429340295298,0.2946420907974243,0.0,0.513417119032592
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Stanford Prison Experiment,0.15127429340295298,0.2946420907974243,0.0,0.513417119032592
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Infamous Bobo Doll Experiment,0.13454195418049206,0.3095777928829193,0.0,0.43459820850707825
+11,1794,29:54,mistral-7b-v0.3,The Dark Side of Childhood Friendship: The Infamous Stanford Prison Experiment,0.12884180202862908,0.29646188020706177,0.0,0.43459820850707825
+11,1794,29:54,tinyllama,The 100 Year Old Man Who Climbed Out The Window And Disappeared,0.1092362679851236,0.29693496227264404,0.0,0.36787944117144233

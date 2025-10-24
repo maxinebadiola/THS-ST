@@ -1,0 +1,52 @@
+[
+  {
+    "name": "The Map of Quantum Computing",
+    "start": 0,
+    "timestamp": "00:00"
+  },
+  {
+    "name": "Quantum Computing: Superposition, Entanglement, and Interference",
+    "start": 44,
+    "timestamp": "00:44"
+  },
+  {
+    "name": "The World of Quantum Complexity Theory",
+    "start": 394,
+    "timestamp": "06:34"
+  },
+  {
+    "name": "Quantum Computers: Solving Hard Problems",
+    "start": 487,
+    "timestamp": "08:07"
+  },
+  {
+    "name": "The Reality of Quantum Computing Approaches",
+    "start": 847,
+    "timestamp": "14:07"
+  },
+  {
+    "name": "The Circuit Model of Quantum Computing",
+    "start": 967,
+    "timestamp": "16:07"
+  },
+  {
+    "name": "Quantum Computing: Building Universal Quantum Machines",
+    "start": 1169,
+    "timestamp": "19:29"
+  },
+  {
+    "name": "Building Fault-Tolerant Quantum Computers",
+    "start": 1584,
+    "timestamp": "26:24"
+  },
+  {
+    "name": "Building Quantum Computers: Various Qubit Designs",
+    "start": 1694,
+    "timestamp": "28:14"
+  },
+  {
+    "name": "Quantum Computing Roadmap and Future Prospects",
+    "start": 1925,
+    "timestamp": "32:05"
+  }
+]

@@ -1,0 +1,502 @@
+# Variant 3: BERT ONLY (reference_length = 6)
+segment,start_time,timestamp,model,title,avg_score,bert_score,cosine_score,penalty
+1,0,00:00,tinyllama,The Map of Quantum Computing,0.43616947531700134,0.43616947531700134,0.0,1.0
+1,0,00:00,tinyllama,The Map of Quantum Computing,0.43616947531700134,0.43616947531700134,0.0,1.0
+1,0,00:00,tinyllama,The Map of Quantum Computing,0.43616947531700134,0.43616947531700134,0.0,1.0
+1,0,00:00,tinyllama,The Map of Quantum Computing,0.43616947531700134,0.43616947531700134,0.0,1.0
+1,0,00:00,tinyllama,The Map of QuantUM Computing,0.43616947531700134,0.43616947531700134,0.0,1.0
+1,0,00:00,tinyllama,The Future of Quantum Computing,0.4124976098537445,0.4124976098537445,0.0,1.0
+1,0,00:00,llama3.1-8b,A Beginner's Guide to Quantum Computing,0.4050823748111725,0.4050823748111725,0.0,1.0
+1,0,00:00,tinyllama,Quantum Computing: The Future of Computing?,0.39814379811286926,0.39814379811286926,0.0,1.0
+1,0,00:00,llama3.1-8b,Quantum Leap: The Future of Computing,0.3883504867553711,0.3883504867553711,0.0,1.0
+1,0,00:00,llama3.1-8b,Mapping the Quantum Computing Industry,0.3875645101070404,0.3875645101070404,0.0,1.0
+1,0,00:00,gemma2-9b,Mapping the Quantum Computing Revolution,0.3873586356639862,0.3873586356639862,0.0,1.0
+1,0,00:00,gemma2-9b,Mapping the Quantum Computing Revolution,0.3873586356639862,0.3873586356639862,0.0,1.0
+1,0,00:00,gemma2-9b,Mapping the Quantum Computing Revolution,0.3873586356639862,0.3873586356639862,0.0,1.0
+1,0,00:00,llama3.1-8b,Unlocking the Quantum Computing Revolution,0.3776204288005829,0.3776204288005829,0.0,1.0
+1,0,00:00,qwen2-7b,Decoding Quantum Computing's Rapid Evolution,0.37758198380470276,0.37758198380470276,0.0,1.0
+1,0,00:00,qwen2-7b,Decoding Quantum Computing's Rapid Evolution,0.37758198380470276,0.37758198380470276,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,gemma2-9b,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,gemma2-9b,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,gemma2-9b,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,gemma2-9b,Mapping the Quantum Computing Landscape,0.37215688824653625,0.37215688824653625,0.0,1.0
+1,0,00:00,llama3.1-8b,The Quantum Computing Blueprint,0.3666849434375763,0.3666849434375763,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping Quantum Computing: A Comprehensive Guide,0.3664381504058838,0.3664381504058838,0.0,1.0
+1,0,00:00,mistral-7b-v0.3,Mapping Quantum Computing: A Comprehensive Guide,0.3664381504058838,0.3664381504058838,0.0,1.0
+1,0,00:00,llama3.1-8b,Unraveling the Quantum Computing Landscape,0.3632529377937317,0.3632529377937317,0.0,1.0
+1,0,00:00,llama3.1-8b,Unraveling the Quantum Computing Landscape,0.3632529377937317,0.3632529377937317,0.0,1.0
+1,0,00:00,llama3.1-8b,Navigating the Quantum Computing Landscape,0.35002055764198303,0.35002055764198303,0.0,1.0
+1,0,00:00,gemma2-9b,Decoding Quantum Computing,0.34464192390441895,0.34464192390441895,0.0,1.0
+1,0,00:00,gemma2-9b,Decoding Quantum Computing,0.34464192390441895,0.34464192390441895,0.0,1.0
+1,0,00:00,gemma2-9b,Decoding Quantum Computing,0.34464192390441895,0.34464192390441895,0.0,1.0
+1,0,00:00,tinyllama,Understanding Quantum Computer Architecture,0.3290850818157196,0.3290850818157196,0.0,1.0
+1,0,00:00,qwen2-7b,Quantum Leap: Decoding the Future of Computing,0.3272700313934488,0.3866238594055176,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Quantum Computing Explained Simply,0.323129802942276,0.323129802942276,0.0,1.0
+1,0,00:00,qwen2-7b,Decoding Quantum Computing: A Journey Through Innovation,0.3012129630706177,0.3558410704135895,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Decoding Quantum Computing: A Journey Through Innovation,0.3012129630706177,0.3558410704135895,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Decoding Quantum Computing: A Journey Through Innovation,0.3012129630706177,0.3558410704135895,0.0,0.846481724890614
+1,0,00:00,qwen2-7b,Decoding Quantum Computing: A Journey Through Innovation,0.3012129630706177,0.3558410704135895,0.0,0.846481724890614
+1,0,00:00,llama3.1-8b,Quantum Computing Unveiled,0.298638254404068,0.298638254404068,0.0,1.0
+1,0,00:00,tinyllama,Quantum Computing - The Map of the Industry,0.2976037347073973,0.41533946990966797,0.0,0.7165313105737893
+1,0,00:00,qwen2-7b,Decoding Quantum Computing: A Journey Through Innovation & Investment,0.2213206112617552,0.3648959994316101,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,Decoding Quantum Computing: A Journey Through Innovation & Investment,0.2213206112617552,0.3648959994316101,0.0,0.6065306597126334
+1,0,00:00,qwen2-7b,Revolutionizing Customer Service: How Artificial Intelligence Is Transforming the Landscape,0.1842894014590017,0.3589467406272888,0.0,0.513417119032592
+1,0,00:00,tinyllama,Quantum Computing - A Revolutionary Technology for Data Science and AI,0.16927535119237355,0.3894985020160675,0.0,0.43459820850707825
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing: Superposition, Entanglement, and Interference",0.38331639766693115,0.38331639766693115,0.0,1.0
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing: Superposition, Entanglement, & Interference",0.37119969725608826,0.37119969725608826,0.0,1.0
+2,44,00:44,qwen2-7b,"Quantum Computing: Superposition, Entanglement, Interference Unleashed",0.36953821778297424,0.36953821778297424,0.0,1.0
+2,44,00:44,gemma2-9b,"Quantum Computing: Superposition, Entanglement, Interference",0.3647253215312958,0.3647253215312958,0.0,1.0
+2,44,00:44,llama3.1-8b,Quantum Computing Fundamentals: Superposition & Entanglement,0.3620937764644623,0.3620937764644623,0.0,1.0
+2,44,00:44,gemma2-9b,"Unlocking Quantum Computing: Superposition, Entanglement, Interference",0.3576003909111023,0.3576003909111023,0.0,1.0
+2,44,00:44,gemma2-9b,"Unlocking Quantum Computing: Superposition, Entanglement, Interference",0.3576003909111023,0.3576003909111023,0.0,1.0
+2,44,00:44,llama3.1-8b,The Fundamentals of Quantum Computing Explained,0.346189945936203,0.346189945936203,0.0,1.0
+2,44,00:44,qwen2-7b,"Quantum Leap: Superposition, Entanglement, & Interference",0.345712274312973,0.345712274312973,0.0,1.0
+2,44,00:44,llama3.1-8b,The Fundamentals of Quantum Computing,0.3422835171222687,0.3422835171222687,0.0,1.0
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing Basics: Superposition, Entanglement, and Interference",0.32788605246750846,0.3873516023159027,0.0,0.846481724890614
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing Basics: Superposition, Entanglement, and Interference",0.32788605246750846,0.3873516023159027,0.0,0.846481724890614
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing Basics: Superposition, Entanglement, and Interference",0.32788605246750846,0.3873516023159027,0.0,0.846481724890614
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing Fundamentals: Superposition, Entanglement, and Interference",0.327520208754989,0.38691940903663635,0.0,0.846481724890614
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing Fundamentals: Superposition, Entanglement, and Interference",0.327520208754989,0.38691940903663635,0.0,0.846481724890614
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing Fundamentals: Superposition, Entanglement, and Interference",0.327520208754989,0.38691940903663635,0.0,0.846481724890614
+2,44,00:44,qwen2-7b,"Quantum Computing Fundamentals: Superposition, Entanglement & Interference",0.3207158234730053,0.37888097763061523,0.0,0.846481724890614
+2,44,00:44,qwen2-7b,"Quantum Computing Fundamentals: Superposition, Entanglement & Interference",0.3207158234730053,0.37888097763061523,0.0,0.846481724890614
+2,44,00:44,qwen2-7b,"Quantum Computing Fundamentals: Superposition, Entanglement & Interference",0.3207158234730053,0.37888097763061523,0.0,0.846481724890614
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing Fundamentals: Superposition, Entanglement, & Interference",0.3202731884033689,0.37835806608200073,0.0,0.846481724890614
+2,44,00:44,tinyllama,Quantum Computing - How It Works,0.3183581531047821,0.3183581531047821,0.0,1.0
+2,44,00:44,mistral-7b-v0.3,"Quantum Computing: Superposition, Entanglement, and Interference Explained",0.31682406070327196,0.37428340315818787,0.0,0.846481724890614
+2,44,00:44,tinyllama,How Quantum Computers Work,0.3155744671821594,0.3155744671821594,0.0,1.0
+2,44,00:44,qwen2-7b,"Quantum Computing: Superposition, Entanglement & Interference Unleashed",0.3128468284467081,0.369584858417511,0.0,0.846481724890614
+2,44,00:44,tinyllama,Quantum Computing: The Future of Computing,0.3092639446258545,0.3092639446258545,0.0,1.0
+2,44,00:44,tinyllama,Quantum Computing: The Future of Computing,0.3092639446258545,0.3092639446258545,0.0,1.0
+2,44,00:44,tinyllama,How Quantum Computing Works,0.3062746822834015,0.3062746822834015,0.0,1.0
+2,44,00:44,gemma2-9b,Unlocking Quantum Computing's Potential,0.3056507110595703,0.3056507110595703,0.0,1.0
+2,44,00:44,gemma2-9b,Unlocking Quantum Computing's Potential,0.3056507110595703,0.3056507110595703,0.0,1.0
+2,44,00:44,gemma2-9b,Unlocking Quantum Computing's Potential,0.3056507110595703,0.3056507110595703,0.0,1.0
+2,44,00:44,qwen2-7b,Quantum Leap: Bits vs. Qubits & Superposition,0.290862401353048,0.34361332654953003,0.0,0.846481724890614
+2,44,00:44,qwen2-7b,Quantum Leap: Bits vs. Qubits & Superposition,0.290862401353048,0.34361332654953003,0.0,0.846481724890614
+2,44,00:44,llama3.1-8b,Unlocking Quantum Computing Fundamentals,0.2728506922721863,0.2728506922721863,0.0,1.0
+2,44,00:44,llama3.1-8b,Unlocking Quantum Computing Fundamentals,0.2728506922721863,0.2728506922721863,0.0,1.0
+2,44,00:44,llama3.1-8b,Unlocking Quantum Computing Fundamentals,0.2728506922721863,0.2728506922721863,0.0,1.0
+2,44,00:44,llama3.1-8b,Unlocking Quantum Computing Fundamentals,0.2728506922721863,0.2728506922721863,0.0,1.0
+2,44,00:44,llama3.1-8b,Unlocking Quantum Computing Fundamentals,0.2728506922721863,0.2728506922721863,0.0,1.0
+2,44,00:44,llama3.1-8b,Unlocking Quantum Computing Fundamentals,0.2728506922721863,0.2728506922721863,0.0,1.0
+2,44,00:44,gemma2-9b,Decoding the Quantum Map,0.260455846786499,0.260455846786499,0.0,1.0
+2,44,00:44,gemma2-9b,Decoding the Quantum Map,0.260455846786499,0.260455846786499,0.0,1.0
+2,44,00:44,tinyllama,Quantum Computing - The Future of Computing,0.25999525259235945,0.3071480989456177,0.0,0.846481724890614
+2,44,00:44,llama3.1-8b,Quantum Computing Fundamentals Revealed,0.2572650909423828,0.2572650909423828,0.0,1.0
+2,44,00:44,gemma2-9b,Unlocking Quantum Computing,0.2484750598669052,0.2484750598669052,0.0,1.0
+2,44,00:44,gemma2-9b,Unlocking Quantum Computing,0.2484750598669052,0.2484750598669052,0.0,1.0
+2,44,00:44,tinyllama,Understanding Quantum Computing,0.24637067317962646,0.24637067317962646,0.0,1.0
+2,44,00:44,tinyllama,Understanding Quantum Computing,0.24637067317962646,0.24637067317962646,0.0,1.0
+2,44,00:44,tinyllama,Quantum Computing - How does quantum computing work?,0.2442683453435082,0.3409039378166199,0.0,0.7165313105737893
+2,44,00:44,qwen2-7b,"Quantum Computing: Superposition, Entanglement, Interference - Unleashing Computational Power",0.21576823565657105,0.3557416796684265,0.0,0.6065306597126334
+2,44,00:44,qwen2-7b,Quantum Leap: Bits vs. Qubits & Their Unconventional Power,0.19195949331853365,0.31648769974708557,0.0,0.6065306597126334
+2,44,00:44,tinyllama,"Creating a Brief, Engaging Chapter Title for This Transcript",0.16183207856369577,0.26681599020957947,0.0,0.6065306597126334
+3,394,06:34,tinyllama,The World of Quantum Complexity Theory,0.3754127025604248,0.3754127025604248,0.0,1.0
+3,394,06:34,tinyllama,A Brief Introduction to Quantum Computing,0.35513874888420105,0.35513874888420105,0.0,1.0
+3,394,06:34,tinyllama,A Brief Introduction to Quantum Computing,0.35513874888420105,0.35513874888420105,0.0,1.0
+3,394,06:34,llama3.1-8b,Solving the Enigma of Factorizable Numbers,0.3547433912754059,0.3547433912754059,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Unraveling Internet Security's Secrets,0.3430369198322296,0.3430369198322296,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Computing and Factorization,0.3428480327129364,0.3428480327129364,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Computing and Encryption Security,0.34227341413497925,0.34227341413497925,0.0,1.0
+3,394,06:34,tinyllama,The Fastest Algorithm for Factoring Large Numbers,0.33919085527387716,0.4007066488265991,0.0,0.846481724890614
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Decrypting Internet Security,0.3371800482273102,0.3371800482273102,0.0,1.0
+3,394,06:34,llama3.1-8b,Cracking the Code: Quantum Factorization Breakthrough,0.334136962890625,0.334136962890625,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Factorization: Breaking Encryption?,0.3333447277545929,0.3333447277545929,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Factorization: Breaking Encryption?,0.3333447277545929,0.3333447277545929,0.0,1.0
+3,394,06:34,tinyllama,Secure Web Encryption Using Factorizations,0.33214372396469116,0.33214372396469116,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Computing: Breaking Encryption,0.32876524329185486,0.32876524329185486,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Computing: Breaking Encryption,0.32876524329185486,0.32876524329185486,0.0,1.0
+3,394,06:34,tinyllama,Factoring Large Numbers: A Brief Overview,0.3241501450538635,0.3241501450538635,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Computing: Cracking the Code,0.32187002897262573,0.32187002897262573,0.0,1.0
+3,394,06:34,mistral-7b-v0.3,Quantum Algorithm Revolutionizes Factorization and Internet Security,0.31982770266903005,0.3778317868709564,0.0,0.846481724890614
+3,394,06:34,mistral-7b-v0.3,Quantum Algorithm Revolutionizes Factorization and Internet Security,0.31982770266903005,0.3778317868709564,0.0,0.846481724890614
+3,394,06:34,llama3.1-8b,Cracking Codes: The Power of Factorization,0.3145406246185303,0.3145406246185303,0.0,1.0
+3,394,06:34,mistral-7b-v0.3,"Quantum Algorithm Revolutionizes Factorization, Boosting Internet Security",0.31279849328237297,0.36952775716781616,0.0,0.846481724890614
+3,394,06:34,mistral-7b-v0.3,"Quantum Algorithm Revolutionizes Factorization, Boosting Internet Security",0.31279849328237297,0.36952775716781616,0.0,0.846481724890614
+3,394,06:34,llama3.1-8b,The Elusive Quest for Factorization,0.3115803301334381,0.3115803301334381,0.0,1.0
+3,394,06:34,gemma2-9b,Quantum Computing and Cryptography,0.31154438853263855,0.31154438853263855,0.0,1.0
+3,394,06:34,tinyllama,Factoring Large Numbers,0.30956777930259705,0.30956777930259705,0.0,1.0
+3,394,06:34,llama3.1-8b,Unlocking Secrets through Quantum Algorithms,0.29495713114738464,0.29495713114738464,0.0,1.0
+3,394,06:34,llama3.1-8b,Cracking Codes: The Factorization Challenge,0.2939240336418152,0.2939240336418152,0.0,1.0
+3,394,06:34,llama3.1-8b,Cracking Codes: The Factorization Challenge,0.2939240336418152,0.2939240336418152,0.0,1.0
+3,394,06:34,qwen2-7b,Quantum Leap: Unraveling Internet Security with Factorization,0.2849786041801019,0.3366624414920807,0.0,0.846481724890614
+3,394,06:34,llama3.1-8b,Cracking Codes: The Factorization Conundrum,0.28302574157714844,0.28302574157714844,0.0,1.0
+3,394,06:34,llama3.1-8b,Cracking Codes: The Factorization Conundrum,0.28302574157714844,0.28302574157714844,0.0,1.0
+3,394,06:34,tinyllama,How Fast Is It Compared to Classical Computers?,0.28108575880021947,0.3922867774963379,0.0,0.7165313105737893
+3,394,06:34,tinyllama,The Impact of Quantum Computing on Internet Security,0.2784018653211656,0.3885411024093628,0.0,0.7165313105737893
+3,394,06:34,gemma2-9b,Factoring: The Quantum Leap,0.265964150428772,0.265964150428772,0.0,1.0
+3,394,06:34,gemma2-9b,Factoring: The Quantum Leap,0.265964150428772,0.265964150428772,0.0,1.0
+3,394,06:34,mistral-7b-v0.3,Quantum Factorization: A Game Changer in Internet Encryption,0.2589993936678018,0.3614627718925476,0.0,0.7165313105737893
+3,394,06:34,mistral-7b-v0.3,Quantum Factorization: A Game Changer in Internet Encryption,0.2589993936678018,0.3614627718925476,0.0,0.7165313105737893
+3,394,06:34,mistral-7b-v0.3,Quantum Factorization: A Game Changer in Internet Security,0.25482078480763454,0.3556310534477234,0.0,0.7165313105737893
+3,394,06:34,mistral-7b-v0.3,Quantum Factorization: A Game Changer in Internet Security,0.25482078480763454,0.3556310534477234,0.0,0.7165313105737893
+3,394,06:34,llama3.1-8b,The Power of Factorization: Quantum Computing's First Big Win,0.23518457688981456,0.38775381445884705,0.0,0.6065306597126334
+3,394,06:34,mistral-7b-v0.3,Quantum Factorization Algorithm: A Game Changer in Internet Security,0.22421107567706725,0.3696615695953369,0.0,0.6065306597126334
+3,394,06:34,mistral-7b-v0.3,Quantum Factorization Algorithm: A Game Changer in Internet Security,0.22421107567706725,0.3696615695953369,0.0,0.6065306597126334
+3,394,06:34,tinyllama,The Future of Quantum Computing - A Brief Introduction,0.21930095921875972,0.3615661561489105,0.0,0.6065306597126334
+4,487,08:07,llama3.1-8b,Quantum Computers: Solving Hard Problems,0.3406374752521515,0.3406374752521515,0.0,1.0
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms: Speeding Up Exponential Problems,0.33368608355522156,0.33368608355522156,0.0,1.0
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms: Speeding Up Exponential Problems,0.33368608355522156,0.33368608355522156,0.0,1.0
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms: Speeding Up Exponential Problems,0.33368608355522156,0.33368608355522156,0.0,1.0
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms: Speeding Up Exponential Problems,0.33368608355522156,0.33368608355522156,0.0,1.0
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms: Speeding Up Complex Problems,0.33094945549964905,0.33094945549964905,0.0,1.0
+4,487,08:07,llama3.1-8b,Solving the Unsolvable: Quantum Algorithms Revealed,0.314129501581192,0.314129501581192,0.0,1.0
+4,487,08:07,llama3.1-8b,Quantum Computing's Potential Applications,0.3126610517501831,0.3126610517501831,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Complexity and Cryptography,0.3116253614425659,0.3116253614425659,0.0,1.0
+4,487,08:07,llama3.1-8b,Unlocking Complexity with Quantum Computing,0.3084595799446106,0.3084595799446106,0.0,1.0
+4,487,08:07,llama3.1-8b,Unlocking Complexity with Quantum Computing,0.3084595799446106,0.3084595799446106,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,gemma2-9b,Quantum Algorithms: Powering the Future,0.3015387952327728,0.3015387952327728,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Complexity and Security,0.29833555221557617,0.29833555221557617,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Computational Complexity,0.2957001030445099,0.2957001030445099,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Computational Complexity,0.2957001030445099,0.2957001030445099,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Computational Complexity,0.2957001030445099,0.2957001030445099,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Computational Complexity,0.2957001030445099,0.2957001030445099,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Computational Complexity,0.2957001030445099,0.2957001030445099,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Advancing Computational Complexity,0.2957001030445099,0.2957001030445099,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Analysis of Complex Systems,0.2911074161529541,0.2911074161529541,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Finance: Understanding Risk and Return,0.28968122601509094,0.28968122601509094,0.0,1.0
+4,487,08:07,qwen2-7b,Quantum Leap: Accelerating Problem Solving,0.2885695993900299,0.2885695993900299,0.0,1.0
+4,487,08:07,llama3.1-8b,Unlocking Quantum Complexity Theory,0.2869480550289154,0.2869480550289154,0.0,1.0
+4,487,08:07,llama3.1-8b,Unlocking Quantum Complexity Theory,0.2869480550289154,0.2869480550289154,0.0,1.0
+4,487,08:07,llama3.1-8b,Unlocking Quantum Complexity Theory,0.2869480550289154,0.2869480550289154,0.0,1.0
+4,487,08:07,llama3.1-8b,Unlocking Quantum Complexity Theory,0.2869480550289154,0.2869480550289154,0.0,1.0
+4,487,08:07,llama3.1-8b,Unlocking Quantum Complexity Theory,0.2869480550289154,0.2869480550289154,0.0,1.0
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms and Their Exponential Speed Up,0.25912274737644436,0.30611735582351685,0.0,0.846481724890614
+4,487,08:07,tinyllama,Quantitative Analysis of Financial Markets,0.2587292194366455,0.2587292194366455,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Analysis of Financial Markets,0.2587292194366455,0.2587292194366455,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Analysis of Financial Markets,0.2587292194366455,0.2587292194366455,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Analysis of Financial Markets,0.2587292194366455,0.2587292194366455,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Analysis of Financial Markets,0.2587292194366455,0.2587292194366455,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Finance: A Comprehensive Introduction,0.25230440497398376,0.25230440497398376,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Finance: An Introduction,0.24948008358478546,0.24948008358478546,0.0,1.0
+4,487,08:07,tinyllama,Quantitative Analysis - A Comprehensive Guide,0.24501091241836548,0.24501091241836548,0.0,1.0
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms and Their Exponential Speedup Over Classical Computers,0.20925032932243431,0.3449954688549042,0.0,0.6065306597126334
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms and Their Exponential Speedup Over Classical Computers,0.20925032932243431,0.3449954688549042,0.0,0.6065306597126334
+4,487,08:07,qwen2-7b,Quantum Leap: Unveiling Exponential Speedups & Future Applications,0.20615835628220822,0.28771716356277466,0.0,0.7165313105737893
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms and Their Speed Up Over Classical Computers,0.20253722002392502,0.3339274227619171,0.0,0.6065306597126334
+4,487,08:07,mistral-7b-v0.3,Quantum Algorithms: Factoring & Simulation: A Speed Up Over Classical Computers,0.15657683842441011,0.36027953028678894,0.0,0.43459820850707825
+5,847,14:07,llama3.1-8b,The Reality of Quantum Computing Approaches,0.36233964562416077,0.36233964562416077,0.0,1.0
+5,847,14:07,llama3.1-8b,The Reality of Quantum Computing Approaches,0.36233964562416077,0.36233964562416077,0.0,1.0
+5,847,14:07,llama3.1-8b,The Reality of Quantum Computing,0.35848772525787354,0.35848772525787354,0.0,1.0
+5,847,14:07,llama3.1-8b,The Reality of Quantum Computing,0.35848772525787354,0.35848772525787354,0.0,1.0
+5,847,14:07,qwen2-7b,Navigating Quantum Computing's Models and Realities,0.3581157326698303,0.3581157326698303,0.0,1.0
+5,847,14:07,llama3.1-8b,Beyond Hype: Reality of Quantum Computing,0.35643672943115234,0.35643672943115234,0.0,1.0
+5,847,14:07,tinyllama,The Future of Computing: Quantum Computers,0.35550010204315186,0.35550010204315186,0.0,1.0
+5,847,14:07,tinyllama,The Future of Quantum Computing,0.35189953446388245,0.35189953446388245,0.0,1.0
+5,847,14:07,llama3.1-8b,The Many Faces Of Quantum Computing,0.3483087122440338,0.3483087122440338,0.0,1.0
+5,847,14:07,llama3.1-8b,Navigating Quantum Computing's Complexity,0.3462145924568176,0.3462145924568176,0.0,1.0
+5,847,14:07,llama3.1-8b,Navigating Quantum Computing's Multiple Paths,0.3453664779663086,0.3453664779663086,0.0,1.0
+5,847,14:07,llama3.1-8b,Beyond Theoretical Hype: Quantum Computing Reality,0.3409092128276825,0.3409092128276825,0.0,1.0
+5,847,14:07,tinyllama,Quantum Computing: The Future of Computing,0.34028393030166626,0.34028393030166626,0.0,1.0
+5,847,14:07,tinyllama,Quantum Computing: The Future of Computing,0.34028393030166626,0.34028393030166626,0.0,1.0
+5,847,14:07,tinyllama,Quantum Computing: The Future of Computing,0.34028393030166626,0.34028393030166626,0.0,1.0
+5,847,14:07,qwen2-7b,Quantum Computing Reality: Models & Implementations,0.33686307072639465,0.33686307072639465,0.0,1.0
+5,847,14:07,qwen2-7b,Quantum Computing Reality: Models & Implementations,0.33686307072639465,0.33686307072639465,0.0,1.0
+5,847,14:07,qwen2-7b,Quantum Computing Reality: Models & Implementations,0.33686307072639465,0.33686307072639465,0.0,1.0
+5,847,14:07,qwen2-7b,Quantum Computing Reality: Models & Implementations,0.33686307072639465,0.33686307072639465,0.0,1.0
+5,847,14:07,qwen2-7b,Quantum Computing Reality: Models & Implementations,0.33686307072639465,0.33686307072639465,0.0,1.0
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models: Building the Future,0.3351581394672394,0.3351581394672394,0.0,1.0
+5,847,14:07,mistral-7b-v0.3,Quantum Computing: From Theory to Reality,0.3333410918712616,0.3333410918712616,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,gemma2-9b,Quantum Computing: Models and Reality,0.3316924273967743,0.3316924273967743,0.0,1.0
+5,847,14:07,qwen2-7b,Navigating Quantum Computing Models & Realities,0.3295167088508606,0.3295167088508606,0.0,1.0
+5,847,14:07,mistral-7b-v0.3,Quantum Computing: Models & Implementations,0.3279569149017334,0.3279569149017334,0.0,1.0
+5,847,14:07,llama3.1-8b,Navigating Quantum Computing Reality,0.30976834893226624,0.30976834893226624,0.0,1.0
+5,847,14:07,tinyllama,Quantum Computers: A Brief Introduction,0.302060604095459,0.302060604095459,0.0,1.0
+5,847,14:07,tinyllama,Quantum Computing: A Brief Introduction,0.29874569177627563,0.29874569177627563,0.0,1.0
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models and Physical Implementations Explored,0.2934640743686416,0.34668684005737305,0.0,0.846481724890614
+5,847,14:07,qwen2-7b,Quantum Reality: Building & Applications,0.2928659915924072,0.2928659915924072,0.0,1.0
+5,847,14:07,qwen2-7b,Quantum Reality: Building & Applications,0.2928659915924072,0.2928659915924072,0.0,1.0
+5,847,14:07,qwen2-7b,Quantum Reality: Building & Applications,0.2928659915924072,0.2928659915924072,0.0,1.0
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models: From Theory to Reality,0.2838333433291185,0.3353094756603241,0.0,0.846481724890614
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models: From Theory to Reality,0.2838333433291185,0.3353094756603241,0.0,0.846481724890614
+5,847,14:07,tinyllama,Quantum Computing - The Future of Computing,0.28313510706687084,0.33448460698127747,0.0,0.846481724890614
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models: Bridging Theory and Reality,0.2829463829727212,0.3342616558074951,0.0,0.846481724890614
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models: Bridging Theory and Reality,0.2829463829727212,0.3342616558074951,0.0,0.846481724890614
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models: Bridging Theory and Reality,0.2829463829727212,0.3342616558074951,0.0,0.846481724890614
+5,847,14:07,mistral-7b-v0.3,Quantum Computing Models Explored: Building the Future,0.28147021797216404,0.3325177729129791,0.0,0.846481724890614
+5,847,14:07,tinyllama,The Future of Quantum Computing: A Brief Overview,0.25245261461147916,0.35232600569725037,0.0,0.7165313105737893
+5,847,14:07,tinyllama,The Future of Quantum Computing - What You Need to Know,0.16274770641767886,0.3744785487651825,0.0,0.43459820850707825
+6,967,16:07,llama3.1-8b,The Circuit Model of Quantum Computing,0.37217482924461365,0.37217482924461365,0.0,1.0
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Gates,0.3350342810153961,0.3350342810153961,0.0,1.0
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Gates,0.3350342810153961,0.3350342810153961,0.0,1.0
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Gates,0.3350342810153961,0.3350342810153961,0.0,1.0
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Gates,0.3350342810153961,0.3350342810153961,0.0,1.0
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Gates,0.3350342810153961,0.3350342810153961,0.0,1.0
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Gates,0.3350342810153961,0.3350342810153961,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates and Qubits,0.33178454637527466,0.33178454637527466,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates and Qubits,0.33178454637527466,0.33178454637527466,0.0,1.0
+6,967,16:07,llama3.1-8b,Building Quantum Computers with Gates and Qubits,0.3116519458482053,0.3681732714176178,0.0,0.846481724890614
+6,967,16:07,llama3.1-8b,Building Quantum Computers with Gates and Qubits,0.3116519458482053,0.3681732714176178,0.0,0.846481724890614
+6,967,16:07,llama3.1-8b,Building Quantum Computers with Gates and Qubits,0.3116519458482053,0.3681732714176178,0.0,0.846481724890614
+6,967,16:07,llama3.1-8b,Building Quantum Computers with Gates and Qubits,0.3116519458482053,0.3681732714176178,0.0,0.846481724890614
+6,967,16:07,llama3.1-8b,Building Quantum Computers with Gates and Qubits,0.3116519458482053,0.3681732714176178,0.0,0.846481724890614
+6,967,16:07,llama3.1-8b,Building Quantum Computers with Gates and Qubits,0.3116519458482053,0.3681732714176178,0.0,0.846481724890614
+6,967,16:07,llama3.1-8b,Building Quantum Computers with Gates and Qubits,0.3116519458482053,0.3681732714176178,0.0,0.846481724890614
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Qubits,0.31137219071388245,0.31137219071388245,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Qubits,0.31137219071388245,0.31137219071388245,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Qubits,0.31137219071388245,0.31137219071388245,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Qubits,0.31137219071388245,0.31137219071388245,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Qubits,0.31137219071388245,0.31137219071388245,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Qubits,0.31137219071388245,0.31137219071388245,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Qubits,0.31137219071388245,0.31137219071388245,0.0,1.0
+6,967,16:07,llama3.1-8b,Exploring Quantum Gates and Bits,0.306677907705307,0.306677907705307,0.0,1.0
+6,967,16:07,gemma2-9b,Quantum Computing: Gates & Circuits,0.30379965901374817,0.30379965901374817,0.0,1.0
+6,967,16:07,qwen2-7b,Decoding Quantum Computing: From Bits to Qubits,0.2931671511514057,0.3463360667228699,0.0,0.846481724890614
+6,967,16:07,qwen2-7b,Decoding Quantum Computing: From Bits to Qubits,0.2931671511514057,0.3463360667228699,0.0,0.846481724890614
+6,967,16:07,llama3.1-8b,Understanding Quantum Computing Basics,0.29301369190216064,0.29301369190216064,0.0,1.0
+6,967,16:07,tinyllama,Introduction to Quantum Computing,0.2872651219367981,0.2872651219367981,0.0,1.0
+6,967,16:07,tinyllama,Introduction to Quantum Computing,0.2872651219367981,0.2872651219367981,0.0,1.0
+6,967,16:07,tinyllama,Introduction to Quantum Computing,0.2872651219367981,0.2872651219367981,0.0,1.0
+6,967,16:07,tinyllama,Introduction to Quantum Computing,0.2872651219367981,0.2872651219367981,0.0,1.0
+6,967,16:07,tinyllama,Introduction to Quantum Computing,0.2872651219367981,0.2872651219367981,0.0,1.0
+6,967,16:07,tinyllama,Introduction to Quantum Computing,0.2872651219367981,0.2872651219367981,0.0,1.0
+6,967,16:07,tinyllama,Introduction to Quantum Computing,0.2872651219367981,0.2872651219367981,0.0,1.0
+6,967,16:07,tinyllama,Creating a Quantum Algorithm,0.2750422954559326,0.2750422954559326,0.0,1.0
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Qubits and Gates,0.2703284462095373,0.3772737383842468,0.0,0.7165313105737893
+6,967,16:07,mistral-7b-v0.3,Quantum Computing: Building Algorithms with Qubits and Gates,0.2703284462095373,0.3772737383842468,0.0,0.7165313105737893
+6,967,16:07,qwen2-7b,"Decoding Quantum Computing: Bits, Gates, and Beyond",0.26598207732853335,0.31422069668769836,0.0,0.846481724890614
+6,967,16:07,qwen2-7b,"Unlocking Quantum Computing: Bits, Gates, and Beyond",0.26306067577808445,0.3107694685459137,0.0,0.846481724890614
+6,967,16:07,qwen2-7b,"Unlocking Quantum Computing: Bits, Gates, and Beyond",0.26306067577808445,0.3107694685459137,0.0,0.846481724890614
+6,967,16:07,tinyllama,Understanding Quantum Computing,0.25873202085494995,0.25873202085494995,0.0,1.0
+6,967,16:07,qwen2-7b,Decoding Quantum Computing: From Classical Bits to Quantum Qubits,0.2193486799175229,0.36164483428001404,0.0,0.6065306597126334
+6,967,16:07,qwen2-7b,Decoding Quantum Computing: From Classical Bits to Quantum Qubits,0.2193486799175229,0.36164483428001404,0.0,0.6065306597126334
+6,967,16:07,qwen2-7b,Decoding Quantum Computing: From Classical Bits to Quantum Qubits,0.2193486799175229,0.36164483428001404,0.0,0.6065306597126334
+6,967,16:07,qwen2-7b,Decoding Quantum Computing: From Classical Bits to Quantum Qubits,0.2193486799175229,0.36164483428001404,0.0,0.6065306597126334
+6,967,16:07,qwen2-7b,From Bits to Qubits: The Quantum Computing Circuit Model,0.21604132820085667,0.3561919331550598,0.0,0.6065306597126334
+6,967,16:07,mistral-7b-v0.3,Building Quantum Computers with Gates: An Introduction to Kiskit,0.19696720222101632,0.32474401593208313,0.0,0.6065306597126334
+6,967,16:07,mistral-7b-v0.3,Building Quantum Computers with Gates: An Introduction to Qiskit,0.19539384716759006,0.32214999198913574,0.0,0.6065306597126334
+6,967,16:07,tinyllama,"Create a Brief, Engaged Chapter Title for this Transcript",0.17612419285497655,0.29037970304489136,0.0,0.6065306597126334
+7,1169,19:29,tinyllama,Quantum Computing: Building Universal Quantum Machines,0.31883931159973145,0.31883931159973145,0.0,1.0
+7,1169,19:29,llama3.1-8b,Exploring Quantum Computing Models and Challenges,0.31825220584869385,0.31825220584869385,0.0,1.0
+7,1169,19:29,llama3.1-8b,Exploring Quantum Computing Models and Challenges,0.31825220584869385,0.31825220584869385,0.0,1.0
+7,1169,19:29,llama3.1-8b,Exploring Quantum Computing Models & Challenges,0.31139951944351196,0.31139951944351196,0.0,1.0
+7,1169,19:29,llama3.1-8b,Exploring Quantum Computing Models & Challenges,0.31139951944351196,0.31139951944351196,0.0,1.0
+7,1169,19:29,llama3.1-8b,Exploring Quantum Computing Models & Challenges,0.31139951944351196,0.31139951944351196,0.0,1.0
+7,1169,19:29,llama3.1-8b,Quantum Computing Paradigms and Implementation Hurdles,0.3058772683143616,0.3058772683143616,0.0,1.0
+7,1169,19:29,gemma2-9b,Exploring Quantum Computing Models,0.2962374687194824,0.2962374687194824,0.0,1.0
+7,1169,19:29,gemma2-9b,Exploring Quantum Computing Models,0.2962374687194824,0.2962374687194824,0.0,1.0
+7,1169,19:29,gemma2-9b,Exploring Quantum Computing Models,0.2962374687194824,0.2962374687194824,0.0,1.0
+7,1169,19:29,gemma2-9b,Exploring Quantum Computing Models,0.2962374687194824,0.2962374687194824,0.0,1.0
+7,1169,19:29,gemma2-9b,Exploring Quantum Computing Models,0.2962374687194824,0.2962374687194824,0.0,1.0
+7,1169,19:29,gemma2-9b,Quantum Computing Models Explained,0.2957952320575714,0.2957952320575714,0.0,1.0
+7,1169,19:29,gemma2-9b,Quantum Computing Models Explained,0.2957952320575714,0.2957952320575714,0.0,1.0
+7,1169,19:29,gemma2-9b,Quantum Computing Models Explained,0.2957952320575714,0.2957952320575714,0.0,1.0
+7,1169,19:29,llama3.1-8b,Quantum Computing Paradigms and Obstacles Unveiled,0.29546698927879333,0.29546698927879333,0.0,1.0
+7,1169,19:29,qwen2-7b,Quantum Computing Models: From Circuit to Topology,0.291739069043971,0.34464898705482483,0.0,0.846481724890614
+7,1169,19:29,qwen2-7b,Quantum Computing Models: From Circuit to Topology,0.291739069043971,0.34464898705482483,0.0,0.846481724890614
+7,1169,19:29,qwen2-7b,Quantum Computing Models: From Circuit to Topology,0.291739069043971,0.34464898705482483,0.0,0.846481724890614
+7,1169,19:29,qwen2-7b,Quantum Computing Models: From Circuit to Topology,0.291739069043971,0.34464898705482483,0.0,0.846481724890614
+7,1169,19:29,qwen2-7b,Quantum Computing Models: From Circuit to Topology,0.291739069043971,0.34464898705482483,0.0,0.846481724890614
+7,1169,19:29,qwen2-7b,Quantum Computing Models: From Circuit to Topology,0.291739069043971,0.34464898705482483,0.0,0.846481724890614
+7,1169,19:29,tinyllama,Quantum Computing: A Brief Introduction,0.2896566092967987,0.2896566092967987,0.0,1.0
+7,1169,19:29,tinyllama,Quantum Computing: A Brief Introduction,0.2896566092967987,0.2896566092967987,0.0,1.0
+7,1169,19:29,tinyllama,Quantum Computing: A Brief Introduction,0.2896566092967987,0.2896566092967987,0.0,1.0
+7,1169,19:29,tinyllama,Quantum Computing - A Brief Introduction,0.288200318813324,0.288200318813324,0.0,1.0
+7,1169,19:29,tinyllama,Quantum Computing - A Brief Introduction,0.288200318813324,0.288200318813324,0.0,1.0
+7,1169,19:29,llama3.1-8b,"Building Quantum Computers: Models, Challenges, and Solutions",0.27754967105707246,0.3278861939907074,0.0,0.846481724890614
+7,1169,19:29,llama3.1-8b,Exploring Quantum Computing Models & Physical Implementations,0.2705698816009647,0.31964054703712463,0.0,0.846481724890614
+7,1169,19:29,tinyllama,Understanding Quantum Computing,0.2660045325756073,0.2660045325756073,0.0,1.0
+7,1169,19:29,tinyllama,Understanding Quantum Computing,0.2660045325756073,0.2660045325756073,0.0,1.0
+7,1169,19:29,tinyllama,Understanding Quantum Computing,0.2660045325756073,0.2660045325756073,0.0,1.0
+7,1169,19:29,gemma2-9b,Quantum Computing Models Unveiled,0.2629999816417694,0.2629999816417694,0.0,1.0
+7,1169,19:29,gemma2-9b,Quantum Computing Models Unveiled,0.2629999816417694,0.2629999816417694,0.0,1.0
+7,1169,19:29,llama3.1-8b,"""Quantum Computation Paradig",0.2491433471441269,0.2491433471441269,0.0,1.0
+7,1169,19:29,tinyllama,Quantum Computing: Building a Universal Quantum Computer Scheme,0.2486468090704084,0.34701457619667053,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Annealing, and Topological",0.24786541263024467,0.34592404961586,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Annealing, and Topological",0.24786541263024467,0.34592404961586,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Annealing, and Topological",0.24786541263024467,0.34592404961586,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Annealing, and Topological",0.24786541263024467,0.34592404961586,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Annealing, and Topological",0.24786541263024467,0.34592404961586,0.0,0.7165313105737893
+7,1169,19:29,qwen2-7b,Exploring Quantum Computing Models: From Circuit to Topology,0.2447489878630536,0.3415747284889221,0.0,0.7165313105737893
+7,1169,19:29,qwen2-7b,Exploring Quantum Computing Models: From Circuit to Topology,0.2447489878630536,0.3415747284889221,0.0,0.7165313105737893
+7,1169,19:29,qwen2-7b,Exploring Quantum Computing Models: From Circuit to Topology,0.2447489878630536,0.3415747284889221,0.0,0.7165313105737893
+7,1169,19:29,qwen2-7b,Exploring Quantum Computing Models: From Circuit to Topology,0.2447489878630536,0.3415747284889221,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Annealing, & Topological",0.23220011380701241,0.3240613639354706,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Annealing, & Topological",0.23220011380701241,0.3240613639354706,0.0,0.7165313105737893
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Quantum Annealing, and Topological",0.2217208686226313,0.36555591225624084,0.0,0.6065306597126334
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Quantum Annealing, & Topological",0.21399340525904847,0.3528154790401459,0.0,0.6065306597126334
+7,1169,19:29,mistral-7b-v0.3,"Exploring Quantum Computing Models: Adiabiatic, Quantum Annealing, & Topological",0.21399340525904847,0.3528154790401459,0.0,0.6065306597126334
+8,1584,26:24,gemma2-9b,Building Fault-Tolerant Quantum Computers,0.3796879053115845,0.3796879053115845,0.0,1.0
+8,1584,26:24,gemma2-9b,Building Fault-Tolerant Quantum Computers,0.3796879053115845,0.3796879053115845,0.0,1.0
+8,1584,26:24,tinyllama,Creating a Scalable Quantum Computer,0.3582613170146942,0.3582613170146942,0.0,1.0
+8,1584,26:24,llama3.1-8b,The Quest for Fault-Tolerant Qubits,0.353677898645401,0.353677898645401,0.0,1.0
+8,1584,26:24,llama3.1-8b,Overcoming Quantum Computing's Major Obstacles,0.35203486680984497,0.35203486680984497,0.0,1.0
+8,1584,26:24,tinyllama,Quantum Error Correction for Defective Qubits,0.3494033217430115,0.3494033217430115,0.0,1.0
+8,1584,26:24,tinyllama,Creating Fault Tolerant Quantum Computers,0.3468974232673645,0.3468974232673645,0.0,1.0
+8,1584,26:24,llama3.1-8b,Overcoming Quantum Computing's Major Hurdles,0.3412160575389862,0.3412160575389862,0.0,1.0
+8,1584,26:24,llama3.1-8b,Overcoming Quantum Computing's Major Hurdles,0.3412160575389862,0.3412160575389862,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing: Challenges and Approaches,0.3362008035182953,0.3362008035182953,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing: Challenges and Approaches,0.3362008035182953,0.3362008035182953,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing: Challenges and Approaches,0.3362008035182953,0.3362008035182953,0.0,1.0
+8,1584,26:24,llama3.1-8b,Overcoming Quantum Computing's Biggest Hurdles,0.328175812959671,0.328175812959671,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing: Overcoming Major Hurdles,0.32387593388557434,0.32387593388557434,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing: Overcoming Major Hurdles,0.32387593388557434,0.32387593388557434,0.0,1.0
+8,1584,26:24,tinyllama,Quantum Error Correction for DeCoherence & Noise,0.3206291683114756,0.3787786066532135,0.0,0.846481724890614
+8,1584,26:24,llama3.1-8b,Tackling Quantum Computer Challenges,0.31966957449913025,0.31966957449913025,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing: Overcoming the Challenges,0.31960538029670715,0.31960538029670715,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing: Overcoming the Challenges,0.31960538029670715,0.31960538029670715,0.0,1.0
+8,1584,26:24,gemma2-9b,Quantum Computing Challenges & Approaches,0.3158074617385864,0.3158074617385864,0.0,1.0
+8,1584,26:24,llama3.1-8b,“Tackling Quantum Error Correction”,0.30429574847221375,0.30429574847221375,0.0,1.0
+8,1584,26:24,tinyllama,Creating Entangled Qubits,0.3019440770149231,0.3019440770149231,0.0,1.0
+8,1584,26:24,llama3.1-8b,"""Fault-Tolerance and Scalabilty",0.2980770766735077,0.2980770766735077,0.0,1.0
+8,1584,26:24,llama3.1-8b,Quantum Computer Design Hurdle,0.28689685463905334,0.28689685463905334,0.0,1.0
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction & Scalability Challenges in Superconductors,0.28429904665914046,0.39677128195762634,0.0,0.7165313105737893
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction & Scalability Challenges in Superconductors,0.28429904665914046,0.39677128195762634,0.0,0.7165313105737893
+8,1584,26:24,llama3.1-8b,Overcoming Quantum Computer Limitations,0.2829189896583557,0.2829189896583557,0.0,1.0
+8,1584,26:24,tinyllama,Quantum Error Correction: A Solution to Decoherent Noise,0.2819529354519086,0.3934970200061798,0.0,0.7165313105737893
+8,1584,26:24,tinyllama,Quantum Error Correction: A Solution to Decoherent Noise,0.2819529354519086,0.3934970200061798,0.0,0.7165313105737893
+8,1584,26:24,qwen2-7b,Overcoming Challenges: Scaling Quantum Computers with Error Correction,0.27241854074861427,0.3801907002925873,0.0,0.7165313105737893
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction and Scalability Challenges in Superconductive Qubits,0.2610452731226238,0.4303908944129944,0.0,0.6065306597126334
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction and Scalability Challenges in Superconductive Qubits,0.2610452731226238,0.4303908944129944,0.0,0.6065306597126334
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction and Scalability Challenges in Superconductive Qubits,0.2610452731226238,0.4303908944129944,0.0,0.6065306597126334
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction and Scalability Challenges in Superconductive Qubits,0.2610452731226238,0.4303908944129944,0.0,0.6065306597126334
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction and Scalability Challenges in Superconductive Qubits,0.2610452731226238,0.4303908944129944,0.0,0.6065306597126334
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction & Scalability Challenges in Superconductive Qubits,0.25936958970719065,0.42762815952301025,0.0,0.6065306597126334
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction & Scalability Challenges in Superconductive Qubits,0.25936958970719065,0.42762815952301025,0.0,0.6065306597126334
+8,1584,26:24,mistral-7b-v0.3,Quantum Error Correction and Scalability Challenges in Quantum Computers,0.23992347726528693,0.3955669403076172,0.0,0.6065306597126334
+8,1584,26:24,qwen2-7b,Overcoming Challenges: Scaling Quantum Computers & Exploring Superconductivity Approaches,0.2353079095896862,0.3879571557044983,0.0,0.6065306597126334
+8,1584,26:24,qwen2-7b,Overcoming Challenges: Scaling Quantum Computers with Error Correction Techniques,0.23252944420828953,0.38337624073028564,0.0,0.6065306597126334
+8,1584,26:24,qwen2-7b,Overcoming Challenges: Scaling Quantum Computers with Error Correction Techniques,0.23252944420828953,0.38337624073028564,0.0,0.6065306597126334
+8,1584,26:24,qwen2-7b,Overcoming Challenges: Scaling Quantum Computers with Error Correction Techniques,0.23252944420828953,0.38337624073028564,0.0,0.6065306597126334
+8,1584,26:24,tinyllama,Quantum Error Correction Techniques for Dealing with Noise and Decoherence,0.21902230940814443,0.4265972077846527,0.0,0.513417119032592
+8,1584,26:24,qwen2-7b,Overcoming Challenges: Scaling Quantum Computers with Error Correction and Superconductors,0.21244011554876274,0.41377684473991394,0.0,0.513417119032592
+8,1584,26:24,tinyllama,Quantum Error Correction - How Many Qubits Do We Need?,0.207205972373744,0.4035821259021759,0.0,0.513417119032592
+8,1584,26:24,qwen2-7b,Overcoming Challenges: From Qubit Representation to Scalable Quantum Computing Architectures,0.2052374040228848,0.3997478783130646,0.0,0.513417119032592
+8,1584,26:24,qwen2-7b,Overcoming Challenges: From Qubit Errors to Scalable Quantum Computing Approaches,0.2018898616211886,0.393227756023407,0.0,0.513417119032592
+8,1584,26:24,qwen2-7b,Overcoming Challenges: From Qubit Errors to Scalable Quantum Computing Approaches,0.2018898616211886,0.393227756023407,0.0,0.513417119032592
+8,1584,26:24,qwen2-7b,Overcoming Challenges: From Qubit Errors to Scalable Quantum Computing Strategies,0.20010697117837625,0.38975515961647034,0.0,0.513417119032592
+8,1584,26:24,tinyllama,How Many Qubits Do We Need to Make One Fault Tolerant Qubit?,0.16493618647817662,0.44834303855895996,0.0,0.36787944117144233
+9,1694,28:14,llama3.1-8b,Building Quantum Computers: Various Qubit Designs,0.35711514949798584,0.35711514949798584,0.0,1.0
+9,1694,28:14,llama3.1-8b,Building Quantum Computers: Multiple Approaches,0.34694012999534607,0.34694012999534607,0.0,1.0
+9,1694,28:14,llama3.1-8b,Building Quantum Computers: Various Paths,0.33813193440437317,0.33813193440437317,0.0,1.0
+9,1694,28:14,llama3.1-8b,Exploring Quantum Computing Qubit Designs,0.3226856589317322,0.3226856589317322,0.0,1.0
+9,1694,28:14,llama3.1-8b,Exploring Quantum Computing Qubit Designs,0.3226856589317322,0.3226856589317322,0.0,1.0
+9,1694,28:14,llama3.1-8b,Exploring Quantum Computing Qubit Designs,0.3226856589317322,0.3226856589317322,0.0,1.0
+9,1694,28:14,llama3.1-8b,Exploring Quantum Computing Qubit Designs,0.3226856589317322,0.3226856589317322,0.0,1.0
+9,1694,28:14,llama3.1-8b,Exploring Quantum Computing Qubit Designs,0.3226856589317322,0.3226856589317322,0.0,1.0
+9,1694,28:14,tinyllama,A Brief Introduction to Quantum Computing,0.3217301070690155,0.3217301070690155,0.0,1.0
+9,1694,28:14,tinyllama,A Brief Introduction to Quantum Computing,0.3217301070690155,0.3217301070690155,0.0,1.0
+9,1694,28:14,tinyllama,A Brief Introduction to Quantum Computing,0.3217301070690155,0.3217301070690155,0.0,1.0
+9,1694,28:14,gemma2-9b,Building Blocks of Quantum Computers,0.32077574729919434,0.32077574729919434,0.0,1.0
+9,1694,28:14,gemma2-9b,Building Blocks of Quantum Computers,0.32077574729919434,0.32077574729919434,0.0,1.0
+9,1694,28:14,tinyllama,What Are Quantum Computing Approaches?,0.31836679577827454,0.31836679577827454,0.0,1.0
+9,1694,28:14,gemma2-9b,Building Blocks of Quantum Computing,0.31309035420417786,0.31309035420417786,0.0,1.0
+9,1694,28:14,gemma2-9b,Building Blocks of Quantum Computing,0.31309035420417786,0.31309035420417786,0.0,1.0
+9,1694,28:14,tinyllama,What is Quantum Computing?,0.3056353032588959,0.3056353032588959,0.0,1.0
+9,1694,28:14,tinyllama,What is Quantum Computing?,0.3056353032588959,0.3056353032588959,0.0,1.0
+9,1694,28:14,llama3.1-8b,Exploring Quantum Computing Approaches,0.3050592541694641,0.3050592541694641,0.0,1.0
+9,1694,28:14,tinyllama,Overview of Quantum Computing,0.2975715696811676,0.2975715696811676,0.0,1.0
+9,1694,28:14,mistral-7b-v0.3,Exploring Quantum Computing: Qubits from Atoms to Photons,0.2927176579836909,0.4085204005241394,0.0,0.7165313105737893
+9,1694,28:14,llama3.1-8b,Exploring Quantum Computing Architectures,0.2890733480453491,0.2890733480453491,0.0,1.0
+9,1694,28:14,gemma2-9b,Exploring Diverse Qubit Architectures,0.28276368975639343,0.28276368975639343,0.0,1.0
+9,1694,28:14,gemma2-9b,Exploring Diverse Qubit Architectures,0.28276368975639343,0.28276368975639343,0.0,1.0
+9,1694,28:14,gemma2-9b,Exploring Diverse Qubit Architectures,0.28276368975639343,0.28276368975639343,0.0,1.0
+9,1694,28:14,gemma2-9b,Exploring Diverse Qubit Architectures,0.28276368975639343,0.28276368975639343,0.0,1.0
+9,1694,28:14,gemma2-9b,Exploring Diverse Qubit Architectures,0.28276368975639343,0.28276368975639343,0.0,1.0
+9,1694,28:14,gemma2-9b,Exploring Diverse Qubit Architectures,0.28276368975639343,0.28276368975639343,0.0,1.0
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Qubits to Simulators,0.28172230904302775,0.3931751549243927,0.0,0.7165313105737893
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Qubits to Simulators,0.28172230904302775,0.3931751549243927,0.0,0.7165313105737893
+9,1694,28:14,tinyllama,Understanding Quantum Computing,0.27182114124298096,0.27182114124298096,0.0,1.0
+9,1694,28:14,tinyllama,Understanding Quantum Computing,0.27182114124298096,0.27182114124298096,0.0,1.0
+9,1694,28:14,mistral-7b-v0.3,Exploring Quantum Computing Techniques: Qubits from Atoms to Photons,0.25100163864691255,0.4138317406177521,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,Exploring Quantum Computing Techniques: Qubits from Atoms to Photons,0.25100163864691255,0.4138317406177521,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,Exploring Quantum Computing Techniques: Qubits from Atoms to Photons,0.25100163864691255,0.4138317406177521,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,Exploring Quantum Computing Techniques: Qubits from Atoms to Photons,0.25100163864691255,0.4138317406177521,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,Exploring Quantum Computing Techniques: Qubits from Atoms to Photons,0.25100163864691255,0.4138317406177521,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,Exploring Quantum Computing Techniques: Qubits from Atoms to Photons,0.25100163864691255,0.4138317406177521,0.0,0.6065306597126334
+9,1694,28:14,mistral-7b-v0.3,Exploring Various Quantum Computer Designs: Qubits from Atoms to Photons,0.21870680232417852,0.42598268389701843,0.0,0.513417119032592
+9,1694,28:14,mistral-7b-v0.3,Exploring Various Quantum Computing Approaches: Qubits from Atoms to Photons,0.21800137928382549,0.4246087074279785,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Approaches: From Semiconducting Qubits to Trapped Ions,0.20852703205441556,0.40615519881248474,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Approaches: From Semiconducting Qubits to Trapped Ions,0.20852703205441556,0.40615519881248474,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Semiconducting Qubits to Trapped Ions,0.20849081453415622,0.40608465671539307,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Semiconducting Qubits to Trapped Ions,0.20849081453415622,0.40608465671539307,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Semiconducting Qubits to Trapped Ions,0.20849081453415622,0.40608465671539307,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Semiconducting Qubits to Trapped Ions,0.20849081453415622,0.40608465671539307,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Semiconducting Qubits to Trapped Ions,0.20849081453415622,0.40608465671539307,0.0,0.513417119032592
+9,1694,28:14,qwen2-7b,Diverse Quantum Computing Architectures: From Semiconducting Qubits to Trapped Ions,0.20849081453415622,0.40608465671539307,0.0,0.513417119032592
+9,1694,28:14,mistral-7b-v0.3,Exploring Various Quantum Computer Designs: From Silicon Spins to Trapped Ions,0.17401982442191402,0.40041542053222656,0.0,0.43459820850707825
+9,1694,28:14,tinyllama,What are some of the key approaches to creating quantum computers?,0.15711534522181617,0.36151862144470215,0.0,0.43459820850707825
+10,1925,32:05,llama3.1-8b,Quantum Computing Roadmap and Future Prospects,0.36345207691192627,0.36345207691192627,0.0,1.0
+10,1925,32:05,llama3.1-8b,Quantum Computing Roadmap and Future Prospects,0.36345207691192627,0.36345207691192627,0.0,1.0
+10,1925,32:05,mistral-7b-v0.3,Quantum Computing: Companies & Future Roadmaps,0.35786861181259155,0.35786861181259155,0.0,1.0
+10,1925,32:05,mistral-7b-v0.3,Quantum Computing: Companies & Roadmaps Ahead,0.35298478603363037,0.35298478603363037,0.0,1.0
+10,1925,32:05,llama3.1-8b,Quantum Computing Companies & Future Roadmaps,0.35174742341041565,0.35174742341041565,0.0,1.0
+10,1925,32:05,llama3.1-8b,Quantum Computing Companies & Future Roadmaps,0.35174742341041565,0.35174742341041565,0.0,1.0
+10,1925,32:05,llama3.1-8b,Quantum Computing Roadmap & Future Directions,0.3501005172729492,0.3501005172729492,0.0,1.0
+10,1925,32:05,llama3.1-8b,Quantum Computing Companies & Roadmaps Ahead,0.3427961468696594,0.3427961468696594,0.0,1.0
+10,1925,32:05,llama3.1-8b,Quantum Computing Companies & Roadmaps Ahead,0.3427961468696594,0.3427961468696594,0.0,1.0
+10,1925,32:05,llama3.1-8b,Quantum Computing Companies & Roadmaps Ahead,0.3427961468696594,0.3427961468696594,0.0,1.0
+10,1925,32:05,mistral-7b-v0.3,Exploring Quantum Computing Companies & Roadmaps,0.3393462300300598,0.3393462300300598,0.0,1.0
+10,1925,32:05,tinyllama,Quantum Computing Companies and Startups,0.33859744668006897,0.33859744668006897,0.0,1.0
+10,1925,32:05,gemma2-9b,Quantum Computing Companies & Roadmaps,0.3345696032047272,0.3345696032047272,0.0,1.0
+10,1925,32:05,gemma2-9b,Quantum Computing Companies & Roadmaps,0.3345696032047272,0.3345696032047272,0.0,1.0
+10,1925,32:05,gemma2-9b,Quantum Computing Companies & Roadmaps,0.3345696032047272,0.3345696032047272,0.0,1.0
+10,1925,32:05,gemma2-9b,Quantum Computing Companies & Roadmaps,0.3345696032047272,0.3345696032047272,0.0,1.0
+10,1925,32:05,gemma2-9b,Quantum Computing Companies & Roadmaps,0.3345696032047272,0.3345696032047272,0.0,1.0
+10,1925,32:05,tinyllama,Quantum Computing: The Future of Computing?,0.3288111090660095,0.3288111090660095,0.0,1.0
+10,1925,32:05,tinyllama,Quantum Computing: The Future of Computing,0.3282892405986786,0.3282892405986786,0.0,1.0
+10,1925,32:05,tinyllama,Quantum Computing: The Future of Computing,0.3282892405986786,0.3282892405986786,0.0,1.0
+10,1925,32:05,mistral-7b-v0.3,"Quantum Computing: Companies, Roadmaps, and Future Prospects",0.3121211703036503,0.36872759461402893,0.0,0.846481724890614
+10,1925,32:05,tinyllama,Companies and Startups,0.30939042568206787,0.30939042568206787,0.0,1.0
+10,1925,32:05,mistral-7b-v0.3,Exploring Quantum Computing Companies & Their Roadmaps,0.30849792501261347,0.3644472360610962,0.0,0.846481724890614
+10,1925,32:05,mistral-7b-v0.3,Exploring Quantum Computing Companies & Their Roadmaps,0.30849792501261347,0.3644472360610962,0.0,0.846481724890614
+10,1925,32:05,mistral-7b-v0.3,Exploring Quantum Computing Companies & Their Roadmaps,0.30849792501261347,0.3644472360610962,0.0,0.846481724890614
+10,1925,32:05,llama3.1-8b,Up Next: Quantum Computing Advancements,0.30703067779541016,0.30703067779541016,0.0,1.0
+10,1925,32:05,mistral-7b-v0.3,"Quantum Computing: Companies, Roadmaps & Future Prospects",0.30598643895552613,0.3614802658557892,0.0,0.846481724890614
+10,1925,32:05,qwen2-7b,Exploring Quantum Computing Companies & Future Roadmaps,0.29831151617308577,0.3524134159088135,0.0,0.846481724890614
+10,1925,32:05,qwen2-7b,Exploring Quantum Computing Companies & Future Roadmaps,0.29831151617308577,0.3524134159088135,0.0,0.846481724890614
+10,1925,32:05,tinyllama,Quantum Computing: A Revolutionary Technology,0.2934527099132538,0.2934527099132538,0.0,1.0
+10,1925,32:05,tinyllama,Quantum Computing - A Revolutionary Technology,0.2917994558811188,0.2917994558811188,0.0,1.0
+10,1925,32:05,gemma2-9b,Mapping the Quantum Computing Landscape,0.2905217111110687,0.2905217111110687,0.0,1.0
+10,1925,32:05,gemma2-9b,Mapping the Quantum Computing Landscape,0.2905217111110687,0.2905217111110687,0.0,1.0
+10,1925,32:05,gemma2-9b,Mapping the Quantum Computing Landscape,0.2905217111110687,0.2905217111110687,0.0,1.0
+10,1925,32:05,gemma2-9b,Mapping the Quantum Computing Landscape,0.2905217111110687,0.2905217111110687,0.0,1.0
+10,1925,32:05,gemma2-9b,Mapping the Quantum Computing Landscape,0.2905217111110687,0.2905217111110687,0.0,1.0
+10,1925,32:05,llama3.1-8b,Unveiling Quantum Computing Advancements,0.28993818163871765,0.28993818163871765,0.0,1.0
+10,1925,32:05,mistral-7b-v0.3,"Quantum Computing: Companies, Startups, and Their Future Roadmaps",0.28348149739395495,0.3956303000450134,0.0,0.7165313105737893
+10,1925,32:05,mistral-7b-v0.3,"Quantum Computing: Companies, Startups, and Their Future Roadmaps",0.28348149739395495,0.3956303000450134,0.0,0.7165313105737893
+10,1925,32:05,tinyllama,Quantum Computing and Companies,0.27971723675727844,0.27971723675727844,0.0,1.0
+10,1925,32:05,tinyllama,Quantum Computing: The Future of Data Science?,0.2796206411227093,0.33033275604248047,0.0,0.846481724890614
+10,1925,32:05,qwen2-7b,Exploring Quantum Computing Companies & Their Futuristic Roadmaps,0.2587484166137669,0.361112505197525,0.0,0.7165313105737893
+10,1925,32:05,qwen2-7b,Upcoming Quantum Computing Companies & Future Roadmaps Unveiled,0.25862231948928155,0.3609365224838257,0.0,0.7165313105737893
+10,1925,32:05,qwen2-7b,Upcoming Quantum Computing Companies & Future Roadmaps Unveiled,0.25862231948928155,0.3609365224838257,0.0,0.7165313105737893
+10,1925,32:05,qwen2-7b,Upcoming Quantum Computing Companies & Future Roadmaps Unveiled,0.25862231948928155,0.3609365224838257,0.0,0.7165313105737893
+10,1925,32:05,qwen2-7b,Upcoming Quantum Computing Companies & Future Roadmaps Unveiled,0.25862231948928155,0.3609365224838257,0.0,0.7165313105737893
+10,1925,32:05,qwen2-7b,Upcoming Quantum Computing Companies & Future Roadmaps Unveiled,0.25862231948928155,0.3609365224838257,0.0,0.7165313105737893
+10,1925,32:05,qwen2-7b,Upcoming Quantum Computing Companies & Future Roadmaps Revealed,0.25757798758869654,0.35947903990745544,0.0,0.7165313105737893
+10,1925,32:05,qwen2-7b,Upcoming Quantum Computing Companies & Future Roadmaps Revealed,0.25757798758869654,0.35947903990745544,0.0,0.7165313105737893
+10,1925,32:05,tinyllama,The Current Best Quantum Computer and Roadmap Into the Future,0.19949463955891789,0.38856250047683716,0.0,0.513417119032592

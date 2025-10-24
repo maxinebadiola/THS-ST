@@ -217,7 +217,13 @@ def load_titles(video_name):
     """
     titles_file = BATCH_DIR / f"{video_name}_batch_titles.csv"
     
-    df = pd.read_csv(titles_file)
+    try:
+        df = pd.read_csv(titles_file, sep=',', quotechar='"', escapechar='\\', on_bad_lines='warn')
+    except pd.errors.ParserError as e:
+        print(f"{Fore.RED}Error parsing CSV file {titles_file}: {e}")
+        print(f"{Fore.YELLOW}Attempting to read with more lenient parsing...")
+        df = pd.read_csv(titles_file, sep=',', quotechar='"', escapechar='\\', on_bad_lines='skip', engine='python')
+    
     return df
 
 

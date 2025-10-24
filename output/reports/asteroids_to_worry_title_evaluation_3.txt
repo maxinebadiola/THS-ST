@@ -1,0 +1,457 @@
+====================================================================================================
+TITLE EVALUATION REPORT: asteroids_to_worry
+Variant 3: BERT ONLY (reference_length = 6)
+====================================================================================================
+
+OVERALL MODEL PERFORMANCE
+----------------------------------------------------------------------------------------------------
+gemma2-9b            Average Score: 0.3121
+llama3.1-8b          Average Score: 0.3061
+mistral-7b-v0.3      Average Score: 0.2545
+qwen2-7b             Average Score: 0.2458
+tinyllama            Average Score: 0.2628
+
+
+--- SEGMENT 01 ---
+Start Time: 0s (00:00)
+Transcript Length: 1,292 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3648       0.3648       0.0000         1.0000     mistral-7b-v0.3      The Silent Shockwave: Chelybinsk Asteroid Impact
+2      0.3610       0.3610       0.0000         1.0000     mistral-7b-v0.3      The Silent Shockwave: Near-Earth Asteroid Impact (2)
+3      0.3590       0.3590       0.0000         1.0000     mistral-7b-v0.3      The Silent Shockwave: Near-Earth Asteroid Impacts
+4      0.3583       0.3583       0.0000         1.0000     gemma2-9b            The Day Earth Missed An Asteroid (2)
+5      0.3550       0.3550       0.0000         1.0000     mistral-7b-v0.3      Unseen Dangers: The Chelybinsk Asteroid Explosion
+6      0.3439       0.3439       0.0000         1.0000     llama3.1-8b          Asteroid Missed: The Chelybinsk Close Call
+7      0.3355       0.3355       0.0000         1.0000     tinyllama            The Close Approach of an Asteroid
+8      0.3306       0.3306       0.0000         1.0000     gemma2-9b            Chelyabinksk: Missed Asteroid Warning (4)
+9      0.3249       0.3249       0.0000         1.0000     llama3.1-8b          Asteroid Surprise Over Chelybansk
+10     0.3132       0.3132       0.0000         1.0000     tinyllama            Asteroid Impacts: How Close Are They? (3)
+11     0.3097       0.3097       0.0000         1.0000     llama3.1-8b          The Asteroid That Got Away
+12     0.3094       0.3655       0.0000         0.8465     mistral-7b-v0.3      The Silent Shockwave: The Chelybinsk Asteroid Incident
+13     0.3085       0.3085       0.0000         1.0000     llama3.1-8b          Asteroid Missed: Lessons from Chelyabsk
+14     0.2869       0.2869       0.0000         1.0000     qwen2-7b             Asteroid Apocalypse: Missteps in Space Detection
+15     0.2774       0.2774       0.0000         1.0000     tinyllama            Asteroid Close Encounters
+16     0.2759       0.2759       0.0000         1.0000     tinyllama            Asteroid Close Approach
+17     0.2737       0.2737       0.0000         1.0000     tinyllama            Asteroid Close Encounter (2)
+18     0.2729       0.3808       0.0000         0.7165     mistral-7b-v0.3      The Silent Shockwave: Near-Earth Asteroid Impact in Chelybinsk (2)
+19     0.2689       0.3176       0.0000         0.8465     qwen2-7b             Asteroid Apocalypse: Missed Predictions and Close Calls (4)
+20     0.2686       0.3173       0.0000         0.8465     tinyllama            A Closer Look at the Chalyabinov Asteroids
+21     0.2669       0.3153       0.0000         0.8465     qwen2-7b             Asteroid Apocalypse: Missed Predictions and Hidden Hazards (2)
+22     0.2631       0.2631       0.0000         1.0000     gemma2-9b            When Asteroids Strike Back (4)
+23     0.2610       0.2610       0.0000         1.0000     llama3.1-8b          Asteroid Alert: Missed Opportunities (2)
+24     0.2576       0.2576       0.0000         1.0000     llama3.1-8b          Asteroid Alert: Missed Opportunity (2)
+25     0.2572       0.3589       0.0000         0.7165     mistral-7b-v0.3      Unheard Impact: The Silent Explosion of Chelybinsk Asteroid
+26     0.2496       0.2948       0.0000         0.8465     llama3.1-8b          The Day Asteroids Caught Us Off Guard (2)
+27     0.2464       0.3439       0.0000         0.7165     qwen2-7b             Asteroid Blasts and Missed Predictions: Earth's Fragile Defense (3)
+28     0.2438       0.2438       0.0000         1.0000     tinyllama            A Close Call
+29     0.2180       0.3594       0.0000         0.6065     mistral-7b-v0.3      The Silent Shockwave: The Unseen Danger of Near-Earth Asteroids
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3091
+  llama3.1-8b         : 0.2823
+  mistral-7b-v0.3     : 0.3131
+  qwen2-7b            : 0.2635
+  tinyllama           : 0.2888
+
+====================================================================================================
+
+--- SEGMENT 02 ---
+Start Time: 106s (01:46)
+Transcript Length: 1,494 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3487       0.3487       0.0000         1.0000     tinyllama            The Core of Our Solar System
+2      0.3285       0.3285       0.0000         1.0000     gemma2-9b            Asteroids: Cosmic Debris and Planetary Threats (4)
+3      0.3175       0.3175       0.0000         1.0000     mistral-7b-v0.3      The Dangerous Dance of Asteroid Collisions (3)
+4      0.3142       0.3142       0.0000         1.0000     llama3.1-8b          The Unseen Threat: Detecting Deadly Asteroids (2)
+5      0.3126       0.3126       0.0000         1.0000     gemma2-9b            Asteroids: Cosmic Debris and Threats (2)
+6      0.3105       0.3105       0.0000         1.0000     llama3.1-8b          Detecting Asteroids: A Planetary Blind Spot
+7      0.2980       0.2980       0.0000         1.0000     llama3.1-8b          The Unseen Threat: Detecting Asteroids
+8      0.2959       0.2959       0.0000         1.0000     llama3.1-8b          Detecting Asteroids: A Cosmic Challenge
+9      0.2959       0.2959       0.0000         1.0000     mistral-7b-v0.3      The Perilous Puzzle of Asteroid Detection
+10     0.2923       0.3453       0.0000         0.8465     llama3.1-8b          The Unseen Threat: Detecting Asteroids Before Impact (2)
+11     0.2902       0.2902       0.0000         1.0000     mistral-7b-v0.3      The Dangerous Dance of Asteroid Origins
+12     0.2899       0.2899       0.0000         1.0000     llama3.1-8b          Detecting Asteroids Before It's Too Late (2)
+13     0.2832       0.2832       0.0000         1.0000     gemma2-9b            Asteroids: Cosmic Threats and Treasures (2)
+14     0.2806       0.2806       0.0000         1.0000     gemma2-9b            The Hidden Threat of Asteroids
+15     0.2740       0.2740       0.0000         1.0000     gemma2-9b            Asteroids: Cosmic Threats and Origins
+16     0.2687       0.3175       0.0000         0.8465     llama3.1-8b          The Elusive Asteroid Threat: Detection and Impact
+17     0.2383       0.3326       0.0000         0.7165     mistral-7b-v0.3      Asteroid Detection Dilemma: Unseen Threats and Earth's Fate
+18     0.2319       0.3237       0.0000         0.7165     qwen2-7b             The Hidden Dangers: Our Struggle with Asteroid Detection
+19     0.2197       0.3622       0.0000         0.6065     mistral-7b-v0.3      Asteroid Detection Dilemma: Unseen Threats in Our Solar System (2)
+20     0.2145       0.4179       0.0000         0.5134     tinyllama            The Iron Meteorite: A Piece of a Small Planetary Body (2)
+21     0.2071       0.3415       0.0000         0.6065     qwen2-7b             The Asteroid Dilemma: Detecting Hazards Before It's Too Late
+22     0.2042       0.3367       0.0000         0.6065     qwen2-7b             The Asteroid Dilemma: Detecting Threats Before It's Too Late
+23     0.2024       0.3337       0.0000         0.6065     qwen2-7b             The Mysterious Asteroid Threat: Detection, Impact, and Survival Odds (2)
+24     0.2002       0.3900       0.0000         0.5134     tinyllama            The Iron Meteorite - A Piece of a Core Formation
+25     0.1975       0.3257       0.0000         0.6065     qwen2-7b             The Mysterious Asteroid Threat: Our Inadequate Detection and Preparedness (2)
+26     0.1876       0.3655       0.0000         0.5134     mistral-7b-v0.3      The Unseen Threat: Our Struggle to Detect Dangerous Asteroid Collisions
+27     0.1824       0.3007       0.0000         0.6065     qwen2-7b             The Mysterious Asteroid Threat: Detection Fails & Potential Doomsday
+28     0.1803       0.4150       0.0000         0.4346     tinyllama            The Iron Meteorite - A Piece of a Small Planetary Body (3)
+29     0.1769       0.4069       0.0000         0.4346     tinyllama            The Iron Meteorite - A Piece of a Core Planetary Body
+30     0.1688       0.3288       0.0000         0.5134     qwen2-7b             The Hidden Dangers of Space: Our Struggle with Asteroid Detection
+31     0.1538       0.3538       0.0000         0.4346     qwen2-7b             The Fragile Dance of Asteroids: Detecting Hazards Before It's Too Late
+32     0.1311       0.3562       0.0000         0.3679     mistral-7b-v0.3      The Dangerous Dance of Asteroid Impact: Our Struggle to Detect and Prevent
+33     0.1161       0.4403       0.0000         0.2636     tinyllama            The Iron Meteorite - A Piece of a Core of a Small Planetary Body
+34     0.0745       0.4659       0.0000         0.1599     tinyllama            The Iron Meteorite - A Piece of a Small Planetary Body That Formed 4 Billion Years Ago
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3060
+  llama3.1-8b         : 0.2966
+  mistral-7b-v0.3     : 0.2535
+  qwen2-7b            : 0.1948
+  tinyllama           : 0.1886
+
+====================================================================================================
+
+--- SEGMENT 03 ---
+Start Time: 237s (03:57)
+Transcript Length: 1,082 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3812       0.3812       0.0000         1.0000     gemma2-9b            Ancient Meteorites and Near-Earth Threats (3)
+2      0.3778       0.3778       0.0000         1.0000     qwen2-7b             Ancient Cosmic Threats: Uncovering Near-Earth Asteroids
+3      0.3685       0.3685       0.0000         1.0000     llama3.1-8b          Asteroid Origins and Near-Earth Threats
+4      0.3658       0.3658       0.0000         1.0000     gemma2-9b            Ancient Meteorites and Asteroid Threats (5)
+5      0.3461       0.3461       0.0000         1.0000     gemma2-9b            Cosmic Threats: Asteroids and Impacts
+6      0.3294       0.3294       0.0000         1.0000     llama3.1-8b          Asteroid Threats: Ancient Remnants in Orbit (2)
+7      0.3238       0.3238       0.0000         1.0000     llama3.1-8b          Asteroid Threats: Finding Fragments in Space
+8      0.3120       0.3685       0.0000         0.8465     qwen2-7b             Ancient Space Collisions: Uncovering Earth's Greatest Threat (5)
+9      0.3119       0.4353       0.0000         0.7165     tinyllama            Iron Meteorite: The Oldest Thing You'll Ever See
+10     0.3108       0.4337       0.0000         0.7165     tinyllama            Iron Meteorite: The Oldest Object You'll Ever See (2)
+11     0.3056       0.3056       0.0000         1.0000     llama3.1-8b          The Ancient Threat from Space (3)
+12     0.2998       0.4184       0.0000         0.7165     tinyllama            Iron Meteorite - The Oldest Object Ever Seen (2)
+13     0.2935       0.2935       0.0000         1.0000     llama3.1-8b          Asteroid Threats: Finding Fragments
+14     0.2872       0.2872       0.0000         1.0000     llama3.1-8b          The Ancient Threats from Space
+15     0.2842       0.2842       0.0000         1.0000     gemma2-9b            Ancient Iron, Modern Threats
+16     0.2833       0.3954       0.0000         0.7165     qwen2-7b             Ancient Cosmic Fragments: The Threat of Near-Earth Asteroids
+17     0.2823       0.3335       0.0000         0.8465     llama3.1-8b          The Ancient Core: A Threat from Space
+18     0.2795       0.3901       0.0000         0.7165     mistral-7b-v0.3      Asteroid Threat: Finding Ancient Cores in Near-Earth Orbit
+19     0.2659       0.4384       0.0000         0.6065     tinyllama            Iron Meteorite - The Oldest Thing You'll Ever See (4)
+20     0.2387       0.3935       0.0000         0.6065     qwen2-7b             Ancient Space Collisions Unearthed: The Threat of Near-Earth Asteroids (2)
+21     0.2375       0.3915       0.0000         0.6065     qwen2-7b             Ancient Space Collisions Unveiled: The Threat of Near-Earth Asteroids
+22     0.2222       0.4329       0.0000         0.5134     tinyllama            Iron Meteorite - The Oldest Object You Will Ever See
+23     0.1800       0.4141       0.0000         0.4346     mistral-7b-v0.3      Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects (7)
+24     0.1553       0.4222       0.0000         0.3679     mistral-7b-v0.3      The Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Objects
+25     0.1541       0.4188       0.0000         0.3679     mistral-7b-v0.3      Oldest Piece of a Small Planet: Iron Meteorites and Near-Eath Object Threat
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3603
+  llama3.1-8b         : 0.3131
+  mistral-7b-v0.3     : 0.1849
+  qwen2-7b            : 0.2936
+  tinyllama           : 0.2819
+
+====================================================================================================
+
+--- SEGMENT 04 ---
+Start Time: 298s (04:58)
+Transcript Length: 1,572 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3810       0.3810       0.0000         1.0000     llama3.1-8b          The Elusive Nature of Near-Earth Asteroids (2)
+2      0.3742       0.3742       0.0000         1.0000     qwen2-7b             The Hidden Hazards: Detecting Near-Earth Asteroids (2)
+3      0.3722       0.3722       0.0000         1.0000     llama3.1-8b          The Hidden Threat of Near-Earth Asteroids (4)
+4      0.3721       0.3721       0.0000         1.0000     llama3.1-8b          The Hidden Dangers of Near-Earth Asteroids
+5      0.3714       0.3714       0.0000         1.0000     llama3.1-8b          The Hidden Threats of Near-Earth Asteroids (3)
+6      0.3511       0.3511       0.0000         1.0000     mistral-7b-v0.3      Opposition Effect and Near-Earther Asteroid Risks
+7      0.3336       0.3336       0.0000         1.0000     mistral-7b-v0.3      The Invisible Peril: Near-Earther Asteroid Risks
+8      0.3311       0.3311       0.0000         1.0000     gemma2-9b            Hidden Dangers: Unseen Asteroids Threaten Earth (5)
+9      0.3075       0.3075       0.0000         1.0000     tinyllama            Astrophysics: What's Out There?
+10     0.3031       0.3031       0.0000         1.0000     tinyllama            Astrophysics and Near-early impact detection
+11     0.3002       0.3546       0.0000         0.8465     mistral-7b-v0.3      The Invisible Threat: Near-Earther Asteroid Detection Challenges (3)
+12     0.2902       0.3429       0.0000         0.8465     mistral-7b-v0.3      The Hidden Menace: Near-Earthers Beyond Our Sight
+13     0.2785       0.2785       0.0000         1.0000     gemma2-9b            Hidden Threats: Unseen Asteroids (5)
+14     0.2772       0.2772       0.0000         1.0000     tinyllama            Astrophysics and Impact Hazards
+15     0.2760       0.3261       0.0000         0.8465     tinyllama            Asteroids - A Threat to Our Planet
+16     0.2747       0.3245       0.0000         0.8465     tinyllama            The Universe Expands Faster Than We Thought
+17     0.2731       0.3811       0.0000         0.7165     tinyllama            What Is the Limit to Predicting Near-Asteroid Impact?
+18     0.2729       0.3808       0.0000         0.7165     tinyllama            From the Main Belt to Near-Early Earth Objects
+19     0.2681       0.3167       0.0000         0.8465     mistral-7b-v0.3      The Hidden Menace: Unseen Near-Eath Asteroid Threat
+20     0.2628       0.3105       0.0000         0.8465     mistral-7b-v0.3      Opposition Effect and the Unseen Asteroid Threat
+21     0.2620       0.2620       0.0000         1.0000     tinyllama            Astrophysics: A Brief Introduction
+22     0.2560       0.2560       0.0000         1.0000     tinyllama            What Is Astrobiology?
+23     0.2560       0.2560       0.0000         1.0000     tinyllama            What is Astrobiology?
+24     0.2481       0.3463       0.0000         0.7165     mistral-7b-v0.3      The Invisible Threat: Near-Earthers Hiding in Solar Glare
+25     0.2267       0.3164       0.0000         0.7165     qwen2-7b             The Hidden Threats: Unseen Asteroids and Predictive Challenges (4)
+26     0.2168       0.3026       0.0000         0.7165     qwen2-7b             The Hidden Threats: Unseen Asteroids and Their Challenges (2)
+27     0.1905       0.3710       0.0000         0.5134     mistral-7b-v0.3      Opposition Effect and the Hidden Hazards of Near-Earther Asteroid Detection
+28     0.1720       0.3349       0.0000         0.5134     qwen2-7b             The Hidden Hazards: Unseen Asteroids and the Challenge of Prediction
+29     0.1672       0.3257       0.0000         0.5134     qwen2-7b             The Hidden Hazards: Unseen Asteroids and the Challenges of Prediction
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3048
+  llama3.1-8b         : 0.3737
+  mistral-7b-v0.3     : 0.2845
+  qwen2-7b            : 0.2428
+  tinyllama           : 0.2759
+
+====================================================================================================
+
+--- SEGMENT 05 ---
+Start Time: 399s (06:39)
+Transcript Length: 2,761 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3500       0.3500       0.0000         1.0000     mistral-7b-v0.3      The Unpredictable Trajectory of Near-Earth Asteroids (3)
+2      0.3432       0.3432       0.0000         1.0000     mistral-7b-v0.3      The Unpredictable Path of Near-Earth Asteroids (2)
+3      0.3379       0.3379       0.0000         1.0000     mistral-7b-v0.3      The Unpredictable Fate of Near-Earth Asteroids (2)
+4      0.3285       0.3285       0.0000         1.0000     gemma2-9b            The Vaporized Iron Meteorite
+5      0.3209       0.3209       0.0000         1.0000     llama3.1-8b          Predicting Asteroid Paths: Limits of Accuracy (2)
+6      0.3209       0.3209       0.0000         1.0000     gemma2-9b            The Limits of Asteroid Prediction (5)
+7      0.3138       0.3138       0.0000         1.0000     gemma2-9b            The Futile Search for Vaporized Iron (3)
+8      0.3129       0.3129       0.0000         1.0000     gemma2-9b            The Vaporized Meteorite Hunt
+9      0.3060       0.3060       0.0000         1.0000     llama3.1-8b          The Limitations Of Asteroid prediction
+10     0.3032       0.3032       0.0000         1.0000     tinyllama            The Mystery of Beringer Craters
+11     0.3004       0.3004       0.0000         1.0000     llama3.1-8b          Predicting Asteroid Paths and Impact Consequences (5)
+12     0.2871       0.2871       0.0000         1.0000     llama3.1-8b          Predicting Asteroid Paths: Limitations and Implications
+13     0.2266       0.3162       0.0000         0.7165     llama3.1-8b          Predicting Asteroid Paths and the Limits of Science
+14     0.2248       0.3138       0.0000         0.7165     qwen2-7b             Asteroid Predictions and Impact Hazards: Limits and Lessons
+15     0.2236       0.3120       0.0000         0.7165     qwen2-7b             Chaos, Limitations & Impact Mysteries: Predicting Asteroids' Futures
+16     0.2096       0.3456       0.0000         0.6065     mistral-7b-v0.3      The Limits of Asteroid Prediction and the Vaporized Meteorite (2)
+17     0.2091       0.2919       0.0000         0.7165     qwen2-7b             Chaos in Space: Limiting Predictions and Mysterious Craters
+18     0.2009       0.3313       0.0000         0.6065     qwen2-7b             The Limit of Predictability: Asteroids, Chaos, and Bering's Quest
+19     0.1937       0.3774       0.0000         0.5134     tinyllama            How Did a Meteorite Impact Create a Crater on Earth?
+20     0.1821       0.3002       0.0000         0.6065     qwen2-7b             Chasing Asteroids: Limits of Prediction & Misadventures in Discovery
+21     0.1817       0.3540       0.0000         0.5134     tinyllama            How Did An Impact Vaporize A Projectile Into A Gas?
+22     0.1798       0.3502       0.0000         0.5134     qwen2-7b             Chaos in Asteroid Prediction and the Mystery of Bering Crater
+23     0.1773       0.3454       0.0000         0.5134     qwen2-7b             The Limits of Prediction and the Mystery of Meteorite Impacts
+24     0.1741       0.3392       0.0000         0.5134     qwen2-7b             The Limits of Predictability and the Mystery of Impact Craters
+25     0.1668       0.3839       0.0000         0.4346     tinyllama            How Did Daniel Berington Predict the Location of a Near-Earth Asteroid?
+26     0.1573       0.3619       0.0000         0.4346     tinyllama            How did a meteoroid impact on a planet cause its destruction?
+27     0.1554       0.3575       0.0000         0.4346     mistral-7b-v0.3      The Unpredictable Path of Asteroids and the Mystery of Bering Crater
+28     0.1523       0.3505       0.0000         0.4346     qwen2-7b             Chasing Asteroids: Limits of Prediction & The Mystery of Beringers Crater
+29     0.1451       0.3943       0.0000         0.3679     tinyllama            How Did the Impact of an Iron Meteorite Create the Beringer Craters?
+30     0.1355       0.3684       0.0000         0.3679     tinyllama            How did a meteoroid impact on a planetary surface create a crater?
+31     0.1297       0.3527       0.0000         0.3679     qwen2-7b             The Limitations of Predicting Asteroid Trajectories and the Mystery of Bering Crater
+32     0.1256       0.4034       0.0000         0.3114     tinyllama            How Did the Impact of a Meteorite Change the Geology of a Crater?
+33     0.1034       0.3921       0.0000         0.2636     tinyllama            How Did the Impact of a Meteorite on a Deserted Crater Change Geological History?
+34     0.0875       0.3922       0.0000         0.2231     tinyllama            How Did the Impact of a Meteorite on a Deserted Island Change the Island's Geology?
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3187
+  llama3.1-8b         : 0.2964
+  mistral-7b-v0.3     : 0.2987
+  qwen2-7b            : 0.1854
+  tinyllama           : 0.1600
+
+====================================================================================================
+
+--- SEGMENT 06 ---
+Start Time: 575s (09:35)
+Transcript Length: 923 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3548       0.3548       0.0000         1.0000     mistral-7b-v0.3      The Cataclysmic Collision: Meteors vs. Dinosaurs
+2      0.3475       0.3475       0.0000         1.0000     mistral-7b-v0.3      The Cataclysmic Collision: Meteor vs. Dinosaurs
+3      0.3467       0.3467       0.0000         1.0000     llama3.1-8b          The Devastating Impact of Ancient Asteroids (2)
+4      0.3432       0.3432       0.0000         1.0000     llama3.1-8b          Meteorite Impacts: Global Devastation Ensues
+5      0.3408       0.3408       0.0000         1.0000     llama3.1-8b          Meteorites and Mass Extinctions (5)
+6      0.3402       0.4019       0.0000         0.8465     tinyllama            The Asteroid Impact That Wiped Out Dinosaurs
+7      0.3396       0.3396       0.0000         1.0000     mistral-7b-v0.3      The Cosmic Collision: Meteor vs. Dinosaurs
+8      0.3384       0.3998       0.0000         0.8465     tinyllama            The Impact of a 120 Meter Asteroid
+9      0.3365       0.3365       0.0000         1.0000     llama3.1-8b          Meteorites and Mass Extinctions Explained
+10     0.3333       0.3333       0.0000         1.0000     llama3.1-8b          Asteroid Impacts: Global Consequences
+11     0.3257       0.3257       0.0000         1.0000     tinyllama            A Brief History of Impact Cratering
+12     0.3223       0.3223       0.0000         1.0000     gemma2-9b            Cosmic Impacts and Dinosaur Extinction
+13     0.3221       0.3221       0.0000         1.0000     tinyllama            The Age of Impactor
+14     0.3211       0.3211       0.0000         1.0000     gemma2-9b            Extinction Events: Cosmic Impacts (8)
+15     0.3113       0.3113       0.0000         1.0000     gemma2-9b            Dinosaur Extinction: Cosmic Catastrophe
+16     0.2913       0.3442       0.0000         0.8465     qwen2-7b             Impact of Cataclysmic Asteroids: Global Destruction Unleashed
+17     0.2848       0.3364       0.0000         0.8465     qwen2-7b             Impact of Cataclysmic Asteroids: Global Devastation Unfolds
+18     0.2766       0.2766       0.0000         1.0000     tinyllama            The 1908 Explosion
+19     0.2641       0.2641       0.0000         1.0000     tinyllama            The 1908 Impact
+20     0.2561       0.3574       0.0000         0.7165     mistral-7b-v0.3      Meteor Impact vs Nuclear Blast: A Terrible Similarity
+21     0.2547       0.3554       0.0000         0.7165     mistral-7b-v0.3      Meteor Impact vs. Nuclear Blast: A Terrestrial Cataclysm
+22     0.2526       0.3525       0.0000         0.7165     mistral-7b-v0.3      Meteor Impact vs Nuclear Blast: A Terrestrial Cataclysm
+23     0.2504       0.3495       0.0000         0.7165     mistral-7b-v0.3      Meteor Impact vs. Nuclear Explosion: A Comparative Study (2)
+24     0.2494       0.3481       0.0000         0.7165     tinyllama            A Brief History of Meteorites and Impact Cratering
+25     0.2460       0.3434       0.0000         0.7165     mistral-7b-v0.3      Meteor Impact vs Nuclear Explosion: A Comparative Study (2)
+26     0.2254       0.3716       0.0000         0.6065     qwen2-7b             Impact of Catastrophic Asteroids: From Meteorites to Nuclear Explosions
+27     0.2196       0.4278       0.0000         0.5134     tinyllama            How Did the Earth Survive a 120 Meter-Diameter Asteroid Impact?
+28     0.2151       0.3547       0.0000         0.6065     qwen2-7b             Impact of Catastrophic Asteroids: Energy, Destruction, and Global Consequences
+29     0.2104       0.4099       0.0000         0.5134     tinyllama            Astonishing Impact: How a 120 Meter Asteroid Wiped Out Dinosaurs
+30     0.2084       0.3436       0.0000         0.6065     qwen2-7b             Impact of Cataclysmic Asteroids: From T-Rox to Global Disruption
+31     0.2044       0.3370       0.0000         0.6065     qwen2-7b             Impact of Catastrophic Asteroids: From T-Rox to Global Disruption (2)
+32     0.1833       0.3569       0.0000         0.5134     qwen2-7b             Impact of Catastrophic Asteroids: From Tiny Meteors to Gigantic Collisions
+33     0.1829       0.4207       0.0000         0.4346     tinyllama            What Was It Like When A 12-Mile Size Asteroid Hit Earth?
+34     0.1825       0.3556       0.0000         0.5134     qwen2-7b             Impact of Cataclysmic Asteroids: From Nuclear Bombs to Extinction Events (2)
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3202
+  llama3.1-8b         : 0.3410
+  mistral-7b-v0.3     : 0.2798
+  qwen2-7b            : 0.2182
+  tinyllama           : 0.2729
+
+====================================================================================================
+
+--- SEGMENT 07 ---
+Start Time: 646s (10:46)
+Transcript Length: 2,705 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3052       0.3052       0.0000         1.0000     llama3.1-8b          The Asteroid Threat: Impact and Consequences
+2      0.3028       0.3028       0.0000         1.0000     tinyllama            Asteroid Impacts: How Close Are We?
+3      0.3003       0.3003       0.0000         1.0000     llama3.1-8b          The Unseen Threat of Asteroid Impacts
+4      0.2996       0.2996       0.0000         1.0000     tinyllama            The Dangerous Impact of Asteroids
+5      0.2975       0.2975       0.0000         1.0000     tinyllama            The Greatest Threat of Asteroids Remains (2)
+6      0.2948       0.2948       0.0000         1.0000     llama3.1-8b          Asteroid Impacts: Global Consequences and Risks (2)
+7      0.2940       0.2940       0.0000         1.0000     llama3.1-8b          Asteroid Impact: Global Consequences and Threats
+8      0.2910       0.2910       0.0000         1.0000     gemma2-9b            The Asteroid Threat: Near and Far (3)
+9      0.2847       0.2847       0.0000         1.0000     llama3.1-8b          Asteroid Impacts: Global Consequences Unveiled
+10     0.2845       0.2845       0.0000         1.0000     llama3.1-8b          Asteroid Impacts: Global Devastation and Survival
+11     0.2831       0.2831       0.0000         1.0000     qwen2-7b             Asteroid Apocalypse: Probabilities and Threats (2)
+12     0.2813       0.2813       0.0000         1.0000     llama3.1-8b          Asteroid Impacts: Threats Beyond Extinction
+13     0.2799       0.2799       0.0000         1.0000     qwen2-7b             Asteroid Apocalypse: Our Odds and Threats
+14     0.2799       0.2799       0.0000         1.0000     tinyllama            The Threat of Small Bodies
+15     0.2795       0.2795       0.0000         1.0000     tinyllama            Asteroid Impacts and Their Implications
+16     0.2779       0.2779       0.0000         1.0000     llama3.1-8b          Asteroid Impact: Global Consequences Unveiled
+17     0.2777       0.2777       0.0000         1.0000     qwen2-7b             Asteroid Apocalypse: Probabilities and Perils
+18     0.2746       0.3244       0.0000         0.8465     mistral-7b-v0.3      Dinosaur-Style Extinction: Asteroid Impact Threat & Chances
+19     0.2741       0.2741       0.0000         1.0000     gemma2-9b            Asteroid Impacts: Threat and Reality
+20     0.2732       0.2732       0.0000         1.0000     gemma2-9b            Asteroid Threats: Past, Present, Future (5)
+21     0.2727       0.2727       0.0000         1.0000     tinyllama            The Future of Time-Travel
+22     0.2715       0.3207       0.0000         0.8465     qwen2-7b             Asteroid Apocalypse: Probability, Impact, and Survival Chances
+23     0.2694       0.2694       0.0000         1.0000     qwen2-7b             Asteroid Apocalypse: Risks and Realities (2)
+24     0.2605       0.2605       0.0000         1.0000     tinyllama            Astronauts on Mars: The Next Frontier
+25     0.2599       0.3071       0.0000         0.8465     qwen2-7b             Asteroid Apocalypse: Probability, Threats, and Survival Chances
+26     0.2564       0.3029       0.0000         0.8465     qwen2-7b             Asteroid Apocalypse: Threats, Probabilities, and Survival Chances
+27     0.2542       0.3003       0.0000         0.8465     mistral-7b-v0.3      Asteroid Impact: Turning Blue Skies Red Hot
+28     0.2525       0.2983       0.0000         0.8465     qwen2-7b             Asteroid Impacts: Past Catastrophes and Future Threats
+29     0.2519       0.3516       0.0000         0.7165     mistral-7b-v0.3      Asteroid Impact: Turning Earth into a Toaster Oven
+30     0.2461       0.2908       0.0000         0.8465     gemma2-9b            The Asteroid Threat: Near Misses and Impacts
+31     0.2460       0.2906       0.0000         0.8465     llama3.1-8b          Asteroid Impact: Global Devastation & Uncertain Threats
+32     0.2373       0.3312       0.0000         0.7165     mistral-7b-v0.3      Asteroid Impact: Sky Turns Toaster Oven, Extinction Threat
+33     0.2368       0.2368       0.0000         1.0000     tinyllama            A Brief History of Space Exploration
+34     0.2247       0.3135       0.0000         0.7165     mistral-7b-v0.3      Asteroid Impact: A Dinosaur's Demise & Modern-Day Threat
+35     0.2160       0.2160       0.0000         1.0000     tinyllama            The Dangerous Close Calls
+36     0.2148       0.2998       0.0000         0.7165     mistral-7b-v0.3      Cooked Alive: Dinosaurs' Demise & Asteroid Threat Today
+37     0.2094       0.2923       0.0000         0.7165     mistral-7b-v0.3      Cooked Alive: Dinosaurs' Demise & Modern Asteroid Risks
+38     0.1914       0.3156       0.0000         0.6065     mistral-7b-v0.3      Asteroid Impact: A Toaster Oven Sky & Extinction Threat
+39     0.1868       0.3079       0.0000         0.6065     mistral-7b-v0.3      Asteroid Impact: A Dinosaur's Demise & Modern Extinction Risks
+40     0.1786       0.3478       0.0000         0.5134     mistral-7b-v0.3      Asteroid Impact: A Dinosaur-Style Extinction Event - Probabilities and Threats
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2759
+  llama3.1-8b         : 0.2863
+  mistral-7b-v0.3     : 0.2224
+  qwen2-7b            : 0.2703
+  tinyllama           : 0.2743
+
+====================================================================================================
+
+--- SEGMENT 08 ---
+Start Time: 824s (13:44)
+Transcript Length: 4,254 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.3283       0.3283       0.0000         1.0000     tinyllama            How to Deflect a Kilo-Asteroid
+2      0.3269       0.3269       0.0000         1.0000     tinyllama            The Greatest Threat of Asteroids Remains
+3      0.3220       0.3220       0.0000         1.0000     gemma2-9b            The Hidden Threat of Near-Earth Asteroids
+4      0.3182       0.3182       0.0000         1.0000     gemma2-9b            The Silent Threat of Near-Earth Asteroids (2)
+5      0.3167       0.3167       0.0000         1.0000     mistral-7b-v0.3      The Unseen Threat: Missing City-Level Asteroids
+6      0.3133       0.3133       0.0000         1.0000     mistral-7b-v0.3      The Unseen Threat: Missing City-Destroying Asteroids
+7      0.3040       0.3040       0.0000         1.0000     llama3.1-8b          Asteroid Threat: Deflection and Evacuation Challenges (2)
+8      0.2991       0.3533       0.0000         0.8465     tinyllama            How to Deflect a Kilo-Meter Sized Asteroid
+9      0.2899       0.2899       0.0000         1.0000     tinyllama            The Greatest Threat of Asteroids (5)
+10     0.2875       0.2875       0.0000         1.0000     llama3.1-8b          Asteroid Threat: Deflection Options Debated
+11     0.2864       0.2864       0.0000         1.0000     gemma2-9b            The Silent Threat: Unseen Asteroids (2)
+12     0.2859       0.2859       0.0000         1.0000     gemma2-9b            The Silent Threat: Asteroid Detection
+13     0.2837       0.2837       0.0000         1.0000     gemma2-9b            The Silent Threat of Asteroids (2)
+14     0.2823       0.2823       0.0000         1.0000     gemma2-9b            The Hidden Threat of Asteroids
+15     0.2821       0.2821       0.0000         1.0000     qwen2-7b             Asteroid Threats: Detection, Prevention, and Reality
+16     0.2782       0.2782       0.0000         1.0000     llama3.1-8b          Asteroid Threats: Our Current Defenses
+17     0.2752       0.2752       0.0000         1.0000     tinyllama            How to Defend Against Asteroids
+18     0.2737       0.2737       0.0000         1.0000     qwen2-7b             Asteroid Threats: Current Capabilities and Limitations
+19     0.2711       0.2711       0.0000         1.0000     llama3.1-8b          Asteroid Threat: Defending Against Unseen Dangers
+20     0.2665       0.2665       0.0000         1.0000     gemma2-9b            The Unseen Asteroid Threat
+21     0.2662       0.2662       0.0000         1.0000     qwen2-7b             Asteroid Apocalypse: Our Preparedness and Limitations (5)
+22     0.2661       0.2661       0.0000         1.0000     qwen2-7b             Asteroid Threats: Detection vs. Defense
+23     0.2521       0.2521       0.0000         1.0000     tinyllama            The Greatest Threat
+24     0.2504       0.2504       0.0000         1.0000     llama3.1-8b          The Unpreparedness of Asteroid Defense (5)
+25     0.1965       0.2742       0.0000         0.7165     qwen2-7b             Asteroid Apocalypse: Our Preparedness and the Challenges Ahead (2)
+26     0.1939       0.3196       0.0000         0.6065     mistral-7b-v0.3      Unseen Threat: Missing 1oo-Meter Asteroids and Our Defensive Capabilities
+27     0.1869       0.3081       0.0000         0.6065     mistral-7b-v0.3      Unseen Threat: Missing 1oo-Meter Asteroids and Our Defensive Limitations
+28     0.1809       0.2982       0.0000         0.6065     mistral-7b-v0.3      Unseen Threat: Missing 1oo-Meter Asteroids & Our Defensive Limitations
+29     0.1737       0.3384       0.0000         0.5134     mistral-7b-v0.3      Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Deflection Capabilities (2)
+30     0.1700       0.3312       0.0000         0.5134     mistral-7b-v0.3      Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Deflection Options
+31     0.1679       0.3270       0.0000         0.5134     mistral-7b-v0.3      The Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Defenses
+32     0.1500       0.3451       0.0000         0.4346     mistral-7b-v0.3      The Unseen Threat: Missing 1oo-Meter Asteroids and Our Limited Deflection Capabilities
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.2933
+  llama3.1-8b         : 0.2697
+  mistral-7b-v0.3     : 0.2027
+  qwen2-7b            : 0.2546
+  tinyllama           : 0.2931
+
+====================================================================================================
+
+--- SEGMENT 09 ---
+Start Time: 1076s (17:56)
+Transcript Length: 1,985 characters
+Total Titles Evaluated: 50
+
+Rank   Avg Score    Bert Score   Cosine Score   Penalty    Model                Title
+----------------------------------------------------------------------------------------------------
+1      0.4045       0.4045       0.0000         1.0000     tinyllama            Let's Build Telescopes and Deflect Asteroids
+2      0.3436       0.3436       0.0000         1.0000     tinyllama            How to Build a Perpetual Calendar
+3      0.3353       0.3353       0.0000         1.0000     llama3.1-8b          Averting Asteroid Impacts with Space-Based Surveillance
+4      0.3316       0.3316       0.0000         1.0000     gemma2-9b            Deflecting Asteroids: A Cosmic Threat?
+5      0.3305       0.3305       0.0000         1.0000     gemma2-9b            Deflecting Earth's Asteroid Threat (3)
+6      0.3292       0.3292       0.0000         1.0000     gemma2-9b            Deflecting Asteroids: A Planetary Threat
+7      0.3268       0.3268       0.0000         1.0000     gemma2-9b            Deflecting Asteroids: A Cosmic Threat (2)
+8      0.3243       0.3243       0.0000         1.0000     qwen2-7b             Asteroid Threats, Telescopes, & KiwiCrafted Learning (4)
+9      0.3242       0.3242       0.0000         1.0000     tinyllama            The Threat of Asteroid Impacts (7)
+10     0.3236       0.3236       0.0000         1.0000     llama3.1-8b          Averting Asteroid Impacts: A Global Threat
+11     0.3203       0.3203       0.0000         1.0000     mistral-7b-v0.3      Asteroid Deflection & Global Catastrophe Maps
+12     0.3155       0.3155       0.0000         1.0000     llama3.1-8b          Averting Asteroid Impact through Space Exploration
+13     0.3135       0.3135       0.0000         1.0000     mistral-7b-v0.3      Asteroid Deflection & Global Catastrophe Mapping
+14     0.3091       0.3091       0.0000         1.0000     llama3.1-8b          Averting Asteroid Impact through Surveillance
+15     0.3088       0.3088       0.0000         1.0000     mistral-7b-v0.3      Asteroid Deflection & Global Catastrophe Prevention
+16     0.3063       0.3063       0.0000         1.0000     llama3.1-8b          Asteroid Detection and Deflection Strategies
+17     0.3050       0.3050       0.0000         1.0000     llama3.1-8b          Asteroid Defense through Space-Based Surveillance
+18     0.2993       0.2993       0.0000         1.0000     gemma2-9b            Asteroid Threats & Planetary Doom (2)
+19     0.2970       0.2970       0.0000         1.0000     mistral-7b-v0.3      Asteroid Threat & Deflection Solutions
+20     0.2963       0.2963       0.0000         1.0000     gemma2-9b            Asteroid Threats and Planetary Doom
+21     0.2824       0.2824       0.0000         1.0000     tinyllama            The Perpetually Changing Calendar
+22     0.2792       0.3298       0.0000         0.8465     qwen2-7b             Asteroid Threats, Space Telescopes, & KiwiCrafted Learning (2)
+23     0.2770       0.3272       0.0000         0.8465     qwen2-7b             Asteroid Threats & Solutions: Building Space Telescopes
+24     0.2748       0.3246       0.0000         0.8465     mistral-7b-v0.3      Asteroid Deflection Strategies & Holiday Gift Ideas
+25     0.2717       0.3210       0.0000         0.8465     llama3.1-8b          Averting Asteroid Impact through Vigilance and Action
+26     0.2690       0.2690       0.0000         1.0000     llama3.1-8b          Asteroid Defense Through Space Exploration (2)
+27     0.2580       0.3601       0.0000         0.7165     qwen2-7b             Asteroid Threat Mitigation: Telescopes, Surveys, and Deflection Strategies
+28     0.2528       0.2528       0.0000         1.0000     llama3.1-8b          Surviving Asteroid Impacts
+29     0.2479       0.3460       0.0000         0.7165     qwen2-7b             Asteroid Threat Mitigation: Surveys, Telescopes, & Space Missions (2)
+30     0.2243       0.3131       0.0000         0.7165     mistral-7b-v0.3      Asteroid Threat & Kiwi Co: Learning Through Play
+31     0.2173       0.3583       0.0000         0.6065     mistral-7b-v0.3      Asteroid Deflection & Global Catastrophe: A Map of Doom (2)
+32     0.2044       0.3371       0.0000         0.6065     mistral-7b-v0.3      Asteroid Deflection & Global Catastrophe: A Journey Through Doom
+33     0.1304       0.3544       0.0000         0.3679     mistral-7b-v0.3      Asteroid Deflection & Global Catastrophe: A Journey into the Map of Doom
+
+Model Averages for this Segment:
+  gemma2-9b           : 0.3201
+  llama3.1-8b         : 0.2957
+  mistral-7b-v0.3     : 0.2508
+  qwen2-7b            : 0.2887
+  tinyllama           : 0.3300
+
+====================================================================================================
+
